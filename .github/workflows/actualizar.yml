@@ -34,11 +34,11 @@ jobs:
       - name: Instalar dependencias
         run: |
           python -m pip install --upgrade pip
-          pip install requests feedparser trafilatura google-genai
+          pip install requests feedparser trafilatura groq
 
       - name: Generar noticias
         env:
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
           PYTHONUNBUFFERED: "1"
         run: |
           echo "Iniciando redactor de noticias..."
