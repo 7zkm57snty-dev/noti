@@ -175,7 +175,7 @@ nav a:hover {{color:#f17b70}}
  </div>
   <nav><div class="nav-interior">
   <a href="/noti/">Inicio</a>
-  {''.join(f'<a href="/noti/#{quote(s)}">{escapar(s)}</a>' for s in SECCIONES)}
+  {''.join(f'<a href="#categoria-{slug(s)}" data-categoria="{escapar(s)}">{escapar(s)}</a>' for s in SECCIONES)}
  </div></nav>
 </header>
 {contenido}
@@ -184,6 +184,35 @@ nav a:hover {{color:#f17b70}}
  <p>Información organizada para nuestros lectores.</p>
  <p>Las fuentes consultadas se identifican al final de cada artículo.</p>
 </footer>
+<script>
+(function () {
+  function aplicarFiltro() {
+    const hash = decodeURIComponent(window.location.hash.slice(1));
+    const categoria = hash.startsWith("categoria-") ? hash.slice(10) : "";
+
+    const destacada = document.querySelector(".destacada");
+    const secciones = document.querySelectorAll(".bloque-categoria");
+
+    if (!categoria) {
+      if (destacada) destacada.hidden = false;
+      secciones.forEach(seccion => { seccion.hidden = false; });
+      return;
+    }
+
+    if (destacada) {
+      destacada.hidden = destacada.dataset.categoria !== categoria;
+    }
+
+    secciones.forEach(seccion => {
+      seccion.hidden = seccion.dataset.seccion !== categoria;
+    });
+  }
+
+  window.addEventListener("hashchange", aplicarFiltro);
+  document.addEventListener("DOMContentLoaded", aplicarFiltro);
+  aplicarFiltro();
+})();
+</script>
 </body>
 </html>"""
 
@@ -276,7 +305,7 @@ def construir():
         )
 
         hero = f"""
-        <section class="destacada">
+        <section class="destacada" data-categoria="{slug(destacada["categoria"])}">
           {visual}
           <div class="destacada-texto">
             <span class="etiqueta">Noticia destacada · {escapar(destacada["categoria"])}</span>
@@ -297,13 +326,17 @@ def construir():
             if n["categoria"] == seccion and n is not destacada
         ]
 
-        if not grupo:
-            continue
+        contenido_seccion = (
+            f'<div class="rejilla">{"".join(tarjeta(n) for n in grupo)}</div>'
+            if grupo else
+            '<div class="vacio">Aún no hay noticias publicadas en esta categoría.</div>'
+        )
 
         bloques.append(
-            f'<section id="{quote(seccion)}">'
+            f'<section id="categoria-{slug(seccion)}" '
+            f'class="bloque-categoria" data-seccion="{slug(seccion)}">'
             f'<h2 class="titulo-seccion">{escapar(seccion)}</h2>'
-            f'<div class="rejilla">{"".join(tarjeta(n) for n in grupo)}</div>'
+            f'{contenido_seccion}'
             f'</section>'
         )
 
