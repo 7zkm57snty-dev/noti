@@ -173,9 +173,9 @@ nav a:hover {{color:#f17b70}}
   <div class="eslogan">Información · Actualidad · Periodismo</div>
   <div class="fecha">{fecha_actual()} · Colombia</div>
  </div>
- <nav><div class="nav-interior">
-  <a href="../index.html">Inicio</a>
-  {''.join(f'<a href="../index.html#{quote(s)}">{escapar(s)}</a>' for s in SECCIONES)}
+  <nav><div class="nav-interior">
+  <a href="/noti/">Inicio</a>
+  {''.join(f'<a href="/noti/#{quote(s)}">{escapar(s)}</a>' for s in SECCIONES)}
  </div></nav>
 </header>
 {contenido}
