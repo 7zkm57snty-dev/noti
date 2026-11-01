@@ -17,7 +17,7 @@ BASE = os.path.dirname(os.path.abspath(__file__))
 CACHE = os.path.join(BASE, "cache.json")
 FEEDS = os.path.join(BASE, "feeds.json")
 
-MODELO = "llama-3.3-70b-versatile"
+MODELO = "openai/gpt-oss-20b"
 MAX_NOTICIAS = 20
 MAX_ARTICULOS_POR_EJECUCION = 1
 MAX_SOLICITUDES_DIARIAS = 18
@@ -579,9 +579,8 @@ def ejecutar():
             mensaje_error = str(error)
             print("Error al generar artículo:", mensaje_error)
 
-            if "429" in mensaje_error or "RESOURCE_EXHAUSTED" in mensaje_error:
-                print("Groq agotó la cuota disponible. Se detienen los intentos.")
-                break
+            print("Se detienen los intentos para evitar repetir errores de API.")
+            break
 
     resultado = nuevas + publicadas
     resultado = resultado[:MAX_ARTICULOS_ANTERIORES]
