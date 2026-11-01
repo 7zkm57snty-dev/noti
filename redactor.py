@@ -11,14 +11,13 @@ from html import unescape
 
 from datetime import datetime, timezone, timedelta
 from urllib.parse import urlparse
-from google import genai
-from google.genai import types
+from groq import Groq
 
 BASE = os.path.dirname(os.path.abspath(__file__))
 CACHE = os.path.join(BASE, "cache.json")
 FEEDS = os.path.join(BASE, "feeds.json")
 
-MODELO = "gemini-3.8-flash"
+MODELO = "llama-3.3-70b-versatile"
 MAX_NOTICIAS = 20
 MAX_ARTICULOS_POR_EJECUCION = 1
 MAX_SOLICITUDES_DIARIAS = 18
@@ -391,22 +390,21 @@ Devuelve exclusivamente JSON válido con esta estructura:
 }}
 """
 
-    respuesta = cliente.models.generate_content(
+    respuesta = cliente.chat.completions.create(
         model=MODELO,
-        contents=instrucciones,
-        config=types.GenerateContentConfig(
-            temperature=0.2,
-            response_mime_type="application/json"
-        )
+        messages=[{"role": "user", "content": instrucciones}],
+        temperature=0.2,
+        response_format={"type": "json_object"}
     )
 
-    if not respuesta.text:
+    contenido_respuesta = respuesta.choices[0].message.content
+    if not contenido_respuesta:
         return None
 
     try:
-        articulo = json.loads(respuesta.text)
+        articulo = json.loads(contenido_respuesta)
     except json.JSONDecodeError:
-        print("Gemini devolvió una respuesta no válida.")
+        print("Groq devolvió una respuesta no válida.")
         return None
 
     if articulo.get("descartar") is True:
@@ -442,14 +440,14 @@ def identificador_articulo(titulo):
 
 
 def ejecutar():
-    api_key = os.environ.get("GEMINI_API_KEY")
+    api_key = os.environ.get("GROQ_API_KEY")
 
     if not api_key:
         raise RuntimeError(
-            "No está configurada la clave GEMINI_API_KEY."
+            "No está configurada la clave GROQ_API_KEY."
         )
 
-    cliente = genai.Client(api_key=api_key)
+    cliente = Groq(api_key=api_key)
 
     cache = leer_json(CACHE, {"noticias": []})
 
@@ -492,13 +490,13 @@ def ejecutar():
         timezone(timedelta(hours=-5))
     ).strftime("%Y-%m-%d")
 
-    if cache.get("fecha_solicitudes_gemini") != fecha_control:
-        solicitudes_gemini = 0
+    if cache.get("fecha_solicitudes_groq") != fecha_control:
+        solicitudes_groq = 0
     else:
         solicitudes_gemini = int(cache.get("solicitudes_gemini", 0))
 
     print(
-        f"Solicitudes Gemini usadas hoy: {solicitudes_gemini}/"
+        f"Solicitudes Groq usadas hoy: {solicitudes_gemini}/"
         f"{MAX_SOLICITUDES_DIARIAS}"
     )
 
@@ -582,7 +580,7 @@ def ejecutar():
             print("Error al generar artículo:", mensaje_error)
 
             if "429" in mensaje_error or "RESOURCE_EXHAUSTED" in mensaje_error:
-                print("Gemini agotó la cuota disponible. Se detienen los intentos.")
+                print("Groq agotó la cuota disponible. Se detienen los intentos.")
                 break
 
     resultado = nuevas + publicadas
