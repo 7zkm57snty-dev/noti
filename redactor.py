@@ -7,6 +7,7 @@ import hashlib
 import requests
 import feedparser
 import trafilatura
+from html import unescape
 
 from datetime import datetime, timezone, timedelta
 from urllib.parse import urlparse
@@ -78,6 +79,65 @@ def fecha_entrada(entrada):
     return datetime.now(timezone.utc)
 
 
+def url_imagen_entrada(entrada):
+    candidatos = []
+
+    for campo in ("media_content", "media_thumbnail"):
+        elementos = entrada.get(campo, []) or []
+        if isinstance(elementos, dict):
+            elementos = [elementos]
+        for elemento in elementos:
+            if isinstance(elemento, dict):
+                candidatos.append(elemento.get("url", ""))
+
+    for elemento in entrada.get("enclosures", []) or []:
+        if isinstance(elemento, dict):
+            tipo = elemento.get("type", "")
+            if tipo.startswith("image/") or not tipo:
+                candidatos.append(elemento.get("href") or elemento.get("url", ""))
+
+    for campo in ("summary", "description"):
+        html_resumen = entrada.get(campo, "") or ""
+        candidatos.extend(re.findall(
+            r'<img[^>]+src=["\\']([^"\\']+)["\\']',
+            html_resumen,
+            flags=re.IGNORECASE
+        ))
+
+    for imagen in candidatos:
+        imagen = unescape(str(imagen)).strip()
+        if imagen.startswith(("https://", "http://")):
+            return imagen
+
+    return ""
+
+
+def obtener_imagen_pagina(url):
+    try:
+        respuesta = requests.get(url, headers=CABECERAS, timeout=15)
+        respuesta.raise_for_status()
+        html_pagina = respuesta.text[:500000]
+
+        patrones = [
+            r'<meta[^>]+property=["\\']og:image["\\'][^>]+content=["\\']([^"\\']+)["\\']',
+            r'<meta[^>]+content=["\\']([^"\\']+)["\\'][^>]+property=["\\']og:image["\\']',
+            r'<meta[^>]+name=["\\']twitter:image["\\'][^>]+content=["\\']([^"\\']+)["\\']',
+            r'<meta[^>]+content=["\\']([^"\\']+)["\\'][^>]+name=["\\']twitter:image["\\']'
+        ]
+
+        for patron in patrones:
+            coincidencia = re.search(patron, html_pagina, flags=re.IGNORECASE)
+            if coincidencia:
+                imagen = unescape(coincidencia.group(1)).strip()
+                if imagen.startswith(("https://", "http://")):
+                    return imagen
+
+    except Exception as error:
+        print("No se pudo recuperar la imagen:", error)
+
+    return ""
+
+
 def obtener_fuentes():
     configuracion = leer_json(FEEDS, [])
 
@@ -134,7 +194,8 @@ def obtener_fuentes():
                     "titulo": titulo,
                     "url": enlace,
                     "fuente": nombre,
-                    "fecha": fecha.isoformat()
+                    "fecha": fecha.isoformat(),
+                    "imagen": url_imagen_entrada(entrada)
                 })
 
         except Exception as error:
@@ -437,12 +498,11 @@ def ejecutar():
             for f in fuentes
         }
 
-        # Se exige contraste entre al menos dos dominios.
-        if len(dominios) < 2:
-            print(
-                "Noticia sin dos fuentes independientes:",
-                grupo["titulo"]
-            )
+        # Se permite publicar con una sola fuente.
+        # Si hay varias, se contrastan; si hay una, se usa
+        # únicamente la información recuperada de ese medio.
+        if len(fuentes) < 1:
+            print("Noticia sin contenido recuperable:", grupo["titulo"])
             continue
 
         try:
@@ -471,7 +531,18 @@ def ejecutar():
                 "resumen": articulo["resumen"],
                 "categoria": articulo["categoria"],
                 "contenido": articulo["contenido"],
-                "imagen": "",
+                "imagen": (
+                    next(
+                        (f.get("imagen", "") for f in grupo["fuentes"] if f.get("imagen")),
+                        ""
+                    )
+                    or obtener_imagen_pagina(fuentes[0]["url"])
+                ),
+                "verificacion": (
+                    "Varias fuentes independientes"
+                    if len(dominios) >= 2
+                    else "Una sola fuente"
+                ),
                 "fecha": datetime.now(
                     timezone(timedelta(hours=-5))
                 ).strftime("%d/%m/%Y · %I:%M %p"),
