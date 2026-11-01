@@ -1,0 +1,23 @@
+CEV NOTICIAS - PAQUETE DE ACTUALIZACIÓN
+
+Archivos incluidos:
+- build.py
+- redactor.py
+- feeds.json
+- .github/workflows/actualizar.yml
+
+ANTES DE CAMBIAR:
+1. Descarga una copia de seguridad de tu repositorio actual.
+2. Conserva el secreto GEMINI_API_KEY en GitHub (no lo escribas en los archivos).
+3. Sustituye los archivos indicados por los de este paquete.
+4. En GitHub > Settings > Pages, Source debe estar en GitHub Actions.
+5. En Actions, ejecuta manualmente "Actualizar CEV NOTICIAS" y comprueba el resultado.
+
+IMPORTANTE:
+- Instala Trafilatura mediante el workflow incluido; no necesitas instalarlo en tu Mac.
+- El programa solo redacta artículos propios cuando consigue recuperar suficiente texto de al menos dos fuentes.
+- Si una web bloquea el acceso, tiene muro de pago o no ofrece texto extraíble, esa noticia no se convierte en artículo propio. No se inventa contenido.
+- La coincidencia de titulares es un filtro preliminar, no una verificación periodística absoluta.
+- Los temas sensibles se omiten para evitar publicar automáticamente información delicada.
+- GitHub Actions puede retrasar la ejecución programada; cada 30 minutos no es una garantía exacta.
+- Las tarjetas de noticias que no se conviertan en artículos propios seguirán enlazando a su fuente original.
