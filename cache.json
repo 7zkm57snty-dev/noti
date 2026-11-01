@@ -1,6 +1,21 @@
 {
   "noticias": [
     {
+      "id": "b004f1cdfdac3db2",
+      "titulo": "Atención: el músico vallenato 'Kbeto' Zuleta despertó tras el accidente y fue extubado",
+      "resumen": "El cantante vallenato Kbeto Zuleta, tras un grave accidente de tránsito el 26 de octubre en el Cesar, despertó y fue extubado en la Clínica Iberoamérica de Barranquilla, marcando un hito en su recuperación.",
+      "categoria": "Colombia",
+      "contenido": "El 26 de octubre, el vehículo que transportaba al cantante vallenato Kbeto Zuleta y su equipo perdió el control en la carretera del Cesar y chocó contra la baranda de un puente, provocando una serie de lesiones que lo llevaron a la Unidad de Cuidados Intensivos de la Clínica Iberoamérica en Barranquilla.\n\nTras el accidente, el joven artista sufrió un trauma cerrado de tórax y una amputación de la pierna izquierda, mientras que la pierna derecha mantuvo una circulación adecuada. Los médicos realizaron una angiografía para evaluar la situación y determinar el tratamiento.\n\nEl parte médico difundido por la familia, encabezado por el hermano Héctor Arturo Zuleta, confirmó que Kbeto despertó espontáneamente, reconoció a sus familiares y comenzó a hablar. Además, el paciente fue extubado con éxito, lo que significó la retirada del soporte de ventilación mecánica.\n\nLa familia expresó su agradecimiento a los profesionales de la salud y al personal de enfermería de la clínica, destacando la dedicación y el trabajo en equipo que permitió la recuperación del cantante. El padre de Kbeto, Carlos Alberto Zuleta, pidió a la comunidad que continúe orando por su hijo y por los demás músicos que sufrieron el accidente.\n\nEl caso ha generado una ola de solidaridad entre los seguidores del vallenato y la comunidad del Cesar, donde la música y la fe se entrelazan. La noticia también resalta la importancia de la atención médica de urgencia y la coordinación entre los equipos de emergencia en situaciones de tránsito.\n\nAunque la batalla continúa en la UCI bajo observación médica, el hecho de que Kbeto haya despertado y sido extubado representa un avance significativo en su proceso de recuperación y ofrece esperanza a su familia y a sus seguidores.\n\nEl incidente subraya la necesidad de reforzar la seguridad vial en la región y de promover campañas de prevención para evitar tragedias similares en el futuro.",
+      "imagen": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/10/27/6ae103fa22678.jpeg",
+      "verificacion": "Una sola fuente",
+      "fecha": "01/11/2026 · 06:02 PM",
+      "fuentes": [
+        {
+          "nombre": "El Tiempo"
+        }
+      ]
+    },
+    {
       "id": "4fa64b312e344748",
       "titulo": "Selena Gomez apuesta por la nostalgia para impulsar las ventas de Rare Beauty",
       "resumen": "La cantante y fundadora de Rare Beauty, Selena Gomez, se reunió con Demi Lovato para lanzar la campaña “Still Making Each Other Blush”, que combina recuerdos de Disney Channel con un set de rubores de edición limitada. La estrategia de nostalgia busca conectar emocionalmente con consumidores que crecieron viendo a ambas artistas, impulsando las ventas de la marca que superó los US$400 millones en 2024 y que valora en US$2 mil millones.",
@@ -47,6 +62,6 @@
     }
   ],
   "fecha_solicitudes_groq": "2026-11-01",
-  "solicitudes_groq": 4,
-  "ultima_actualizacion": "2026-11-01T22:51:40.349039+00:00"
+  "solicitudes_groq": 6,
+  "ultima_actualizacion": "2026-11-01T23:02:45.981567+00:00"
 }
