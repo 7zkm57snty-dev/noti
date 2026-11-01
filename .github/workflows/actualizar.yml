@@ -25,6 +25,8 @@ jobs:
         with:
           python-version: "3.12"
       - name: Buscar noticias y generar el sitio
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: python build.py
       - name: Mantener activo el repositorio
         run: |
@@ -32,6 +34,7 @@ jobs:
           git config user.name "cev-bot"
           git config user.email "cev-bot@users.noreply.github.com"
           git add ultima_actualizacion.txt
+          if [ -f cache.json ]; then git add cache.json; fi
           git commit -m "Actualización diaria" || true
           git push || true
       - uses: actions/upload-pages-artifact@v3
