@@ -208,7 +208,10 @@ def crear_articulo(noticia):
     )
 
     referencias = []
-    for fuente in noticia.get("fuentes", []):
+
+for fuente in noticia.get("fuentes", []):
+    nombre = escapar(fuente.get("nombre", "Fuente consultada"))
+    referencias.append(f"<li>{nombre}</li>")
         nombre = escapar(fuente.get("nombre", "Fuente consultada"))
         url = str(fuente.get("url", ""))
         if url.startswith(("https://", "http://")):
