@@ -109,6 +109,7 @@ def plantilla(titulo, contenido, descripcion="CEV NOTICIAS"):
  --texto:#202b35; --gris:#68737c; --blanco:#fff;
 }}
 * {{box-sizing:border-box}}
+*[hidden] {{display:none !important}}
 body {{margin:0;background:var(--fondo);color:var(--texto);font-family:'DM Sans',Arial,sans-serif}}
 a {{color:inherit;text-decoration:none}}
 .masthead {{background:var(--azul);color:white}}
@@ -185,33 +186,33 @@ nav a:hover {{color:#f17b70}}
  <p>Las fuentes consultadas se identifican al final de cada artículo.</p>
 </footer>
 <script>
-(function () {
-  function aplicarFiltro() {
+(function () {{
+  function aplicarFiltro() {{
     const hash = decodeURIComponent(window.location.hash.slice(1));
     const categoria = hash.startsWith("categoria-") ? hash.slice(10) : "";
 
     const destacada = document.querySelector(".destacada");
     const secciones = document.querySelectorAll(".bloque-categoria");
 
-    if (!categoria) {
+    if (!categoria) {{
       if (destacada) destacada.hidden = false;
-      secciones.forEach(seccion => { seccion.hidden = false; });
+      secciones.forEach(seccion => {{ seccion.hidden = false; }});
       return;
-    }
+    }}
 
-    if (destacada) {
+    if (destacada) {{
       destacada.hidden = destacada.dataset.categoria !== categoria;
-    }
+    }}
 
-    secciones.forEach(seccion => {
+    secciones.forEach(seccion => {{
       seccion.hidden = seccion.dataset.seccion !== categoria;
-    });
-  }
+    }});
+  }}
 
   window.addEventListener("hashchange", aplicarFiltro);
   document.addEventListener("DOMContentLoaded", aplicarFiltro);
   aplicarFiltro();
-})();
+}})();
 </script>
 </body>
 </html>"""
