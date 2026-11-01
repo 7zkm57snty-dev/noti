@@ -99,7 +99,7 @@ def url_imagen_entrada(entrada):
     for campo in ("summary", "description"):
         html_resumen = entrada.get(campo, "") or ""
         candidatos.extend(re.findall(
-            r'<img[^>]+src=["\\']([^"\\']+)["\\']',
+            r"<img[^>]+src=[\"']([^\"']+)[\"']",
             html_resumen,
             flags=re.IGNORECASE
         ))
@@ -119,10 +119,10 @@ def obtener_imagen_pagina(url):
         html_pagina = respuesta.text[:500000]
 
         patrones = [
-            r'<meta[^>]+property=["\\']og:image["\\'][^>]+content=["\\']([^"\\']+)["\\']',
-            r'<meta[^>]+content=["\\']([^"\\']+)["\\'][^>]+property=["\\']og:image["\\']',
-            r'<meta[^>]+name=["\\']twitter:image["\\'][^>]+content=["\\']([^"\\']+)["\\']',
-            r'<meta[^>]+content=["\\']([^"\\']+)["\\'][^>]+name=["\\']twitter:image["\\']'
+            r"<meta[^>]+property=[\"']og:image[\"'][^>]+content=[\"']([^\"']+)[\"']",
+            r"<meta[^>]+content=[\"']([^\"']+)[\"'][^>]+property=[\"']og:image[\"']",
+            r"<meta[^>]+name=[\"']twitter:image[\"'][^>]+content=[\"']([^\"']+)[\"']",
+            r"<meta[^>]+content=[\"']([^\"']+)[\"'][^>]+name=[\"']twitter:image[\"']"
         ]
 
         for patron in patrones:
