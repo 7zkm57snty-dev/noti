@@ -20,6 +20,8 @@ FEEDS = os.path.join(BASE, "feeds.json")
 
 MODELO = "gemini-3.8-flash"
 MAX_NOTICIAS = 20
+MAX_ARTICULOS_POR_EJECUCION = 1
+MAX_SOLICITUDES_DIARIAS = 18
 MAX_ARTICULOS_ANTERIORES = 150
 MAX_EDAD_HORAS = 168
 
@@ -486,9 +488,26 @@ def ejecutar():
     print("Grupos temáticos encontrados:", len(grupos))
 
     nuevas = []
+    fecha_control = datetime.now(
+        timezone(timedelta(hours=-5))
+    ).strftime("%Y-%m-%d")
+
+    if cache.get("fecha_solicitudes_gemini") != fecha_control:
+        solicitudes_gemini = 0
+    else:
+        solicitudes_gemini = int(cache.get("solicitudes_gemini", 0))
+
+    print(
+        f"Solicitudes Gemini usadas hoy: {solicitudes_gemini}/"
+        f"{MAX_SOLICITUDES_DIARIAS}"
+    )
 
     for grupo in grupos:
-        if len(nuevas) >= MAX_NOTICIAS:
+        if len(nuevas) >= MAX_ARTICULOS_POR_EJECUCION:
+            break
+
+        if solicitudes_gemini >= MAX_SOLICITUDES_DIARIAS:
+            print("Límite diario de seguridad alcanzado. Se detiene la generación.")
             break
 
         fuentes = leer_contenidos(grupo)
@@ -506,6 +525,7 @@ def ejecutar():
             continue
 
         try:
+            solicitudes_gemini += 1
             articulo = generar_articulo(
                 cliente,
                 grupo["titulo"],
@@ -558,13 +578,20 @@ def ejecutar():
             time.sleep(2)
 
         except Exception as error:
-            print("Error al generar artículo:", error)
+            mensaje_error = str(error)
+            print("Error al generar artículo:", mensaje_error)
+
+            if "429" in mensaje_error or "RESOURCE_EXHAUSTED" in mensaje_error:
+                print("Gemini agotó la cuota disponible. Se detienen los intentos.")
+                break
 
     resultado = nuevas + publicadas
     resultado = resultado[:MAX_ARTICULOS_ANTERIORES]
 
     guardar_json(CACHE, {
         "noticias": resultado,
+        "fecha_solicitudes_gemini": fecha_control,
+        "solicitudes_gemini": solicitudes_gemini,
         "ultima_actualizacion": datetime.now(
             timezone.utc
         ).isoformat()
