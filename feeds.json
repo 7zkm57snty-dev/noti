@@ -1,82 +1,59 @@
+
 [
   {
-    "categoria": "Cali",
-    "gnews": "Cali site:elpais.com.co when:2d",
-    "permitidos": [
-      "elpais.com.co"
-    ]
+    "nombre": "El Tiempo",
+    "url": "https://www.eltiempo.com/rss/colombia.xml"
   },
   {
-    "categoria": "Cali",
-    "gnews": "Cali site:eltiempo.com when:2d",
-    "permitidos": [
-      "eltiempo.com"
-    ]
+    "nombre": "El Espectador",
+    "url": "https://www.elespectador.com/rss/"
   },
   {
-    "categoria": "Valle del Cauca",
-    "gnews": "\"Valle del Cauca\" site:elpais.com.co when:2d",
-    "permitidos": [
-      "elpais.com.co"
-    ]
+    "nombre": "Caracol Radio",
+    "url": "https://caracol.com.co/rss/"
   },
   {
-    "categoria": "Valle del Cauca",
-    "gnews": "\"Valle del Cauca\" site:eltiempo.com when:2d",
-    "permitidos": [
-      "eltiempo.com"
-    ]
+    "nombre": "Blu Radio",
+    "url": "https://www.bluradio.com/rss.xml"
   },
   {
-    "categoria": "Colombia",
-    "gnews": "Colombia site:eltiempo.com when:1d",
-    "permitidos": [
-      "eltiempo.com"
-    ]
+    "nombre": "Noticias RCN",
+    "url": "https://www.noticiasrcn.com/rss.xml"
   },
   {
-    "categoria": "Colombia",
-    "gnews": "Colombia site:elespectador.com when:1d",
-    "permitidos": [
-      "elespectador.com"
-    ]
+    "nombre": "Semana",
+    "url": "https://www.semana.com/rss/"
   },
   {
-    "categoria": "Internacional",
-    "fuente": "BBC News Mundo",
+    "nombre": "La Silla Vacía",
+    "url": "https://www.lasillavacia.com/feed/"
+  },
+  {
+    "nombre": "Portafolio",
+    "url": "https://www.portafolio.co/rss"
+  },
+  {
+    "nombre": "La República",
+    "url": "https://www.larepublica.co/rss"
+  },
+  {
+    "nombre": "90 Minutos",
+    "url": "https://90minutos.co/feed/"
+  },
+  {
+    "nombre": "BBC Mundo",
     "url": "https://feeds.bbci.co.uk/mundo/rss.xml"
   },
   {
-    "categoria": "Internacional",
-    "fuente": "DW Español",
-    "url": "https://rss.dw.com/xml/rss-sp-all"
+    "nombre": "DW Español",
+    "url": "https://rss.dw.com/xml/rss-es-all"
   },
   {
-    "categoria": "Deportes",
-    "gnews": "fútbol site:eltiempo.com when:1d",
-    "permitidos": [
-      "eltiempo.com"
-    ]
+    "nombre": "Xataka",
+    "url": "https://www.xataka.com/index.xml"
   },
   {
-    "categoria": "Deportes",
-    "gnews": "deportes site:elpais.com.co when:1d",
-    "permitidos": [
-      "elpais.com.co"
-    ]
-  },
-  {
-    "categoria": "Tecnología",
-    "gnews": "tecnología site:xataka.com when:2d",
-    "permitidos": [
-      "xataka.com"
-    ]
-  },
-  {
-    "categoria": "Tecnología",
-    "gnews": "tecnología site:hipertextual.com when:2d",
-    "permitidos": [
-      "hipertextual.com"
-    ]
+    "nombre": "Futbolred",
+    "url": "https://www.futbolred.com/rss.xml"
   }
 ]
