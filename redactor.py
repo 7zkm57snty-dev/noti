@@ -5,8 +5,8 @@ import json
 import time
 import hashlib
 import requests
-import trafilatura
 import feedparser
+import trafilatura
 
 from datetime import datetime, timezone, timedelta
 from urllib.parse import urlparse
@@ -18,8 +18,8 @@ CACHE = os.path.join(BASE, "cache.json")
 FEEDS = os.path.join(BASE, "feeds.json")
 
 MODELO = "gemini-2.5-flash"
-MAX_NOTICIAS = 28
-MIN_CONTENIDO_FUENTE = 700
+MAX_NOTICIAS = 20
+MAX_ARTICULOS_ANTERIORES = 150
 MAX_EDAD_HORAS = 72
 
 CATEGORIAS = [
@@ -32,236 +32,300 @@ CATEGORIAS = [
     "Economía"
 ]
 
-CLAVES = {
-    "Cali": [
-        "cali", "alcaldía de cali", "concejo de cali",
-        "emcali", "mio", "valle del lili", "jamundí",
-        "yumbo", "palmira"
-    ],
-    "Valle del Cauca": [
-        "valle del cauca", "gobernación del valle",
-        "buenaventura", "tuluá", "buga", "cartago",
-        "caicedonia", "roldanillo", "zarzal"
-    ],
-    "Deportes": [
-        "fútbol", "futbol", "liga", "partido", "gol",
-        "deportivo cali", "américa de cali", "selección",
-        "mundial", "deportes", "tenis", "ciclismo",
-        "baloncesto", "atletismo"
-    ],
-    "Tecnología": [
-        "tecnología", "tecnologico", "inteligencia artificial",
-        "software", "ciberseguridad", "internet", "celular",
-        "aplicación", "computador", "robot", "innovación"
-    ],
-    "Economía": [
-        "economía", "inflación", "dólar", "peso colombiano",
-        "empleo", "desempleo", "banco", "empresas",
-        "inversión", "exportación", "importación", "petróleo"
-    ]
+IGNORAR = {
+    "para", "desde", "sobre", "entre", "tras", "cuando",
+    "donde", "porque", "segun", "como", "esta", "este",
+    "estos", "estas", "tambien", "contra", "despues",
+    "antes", "hacia", "hasta", "ante", "seran", "sera",
+    "fue", "son", "los", "las", "una", "uno", "del",
+    "por", "con", "sin", "que", "sus", "como", "más",
+    "mas", "hoy", "ayer", "nuevo", "nueva", "tras"
 }
+
+CABECERAS = {
+    "User-Agent": (
+        "Mozilla/5.0 (compatible; CEVNoticias/1.0; "
+        "+https://7zkm57snty-dev.github.io/noti/)"
+    ),
+    "Accept": "application/rss+xml, application/xml, text/xml, text/html"
+}
+
 
 def leer_json(ruta, defecto):
     try:
-        with open(ruta, "r", encoding="utf-8") as f:
-            return json.load(f)
+        with open(ruta, "r", encoding="utf-8") as archivo:
+            return json.load(archivo)
     except (OSError, json.JSONDecodeError):
         return defecto
 
 
 def guardar_json(ruta, datos):
     temporal = ruta + ".tmp"
-    with open(temporal, "w", encoding="utf-8") as f:
-        json.dump(datos, f, ensure_ascii=False, indent=2)
+    with open(temporal, "w", encoding="utf-8") as archivo:
+        json.dump(datos, archivo, ensure_ascii=False, indent=2)
     os.replace(temporal, ruta)
 
 
-def fecha_entrada(entry):
-    try:
-        return datetime(*entry.published_parsed[:6], tzinfo=timezone.utc)
-    except Exception:
+def fecha_entrada(entrada):
+    for campo in ("published_parsed", "updated_parsed"):
         try:
-            return datetime(*entry.updated_parsed[:6], tzinfo=timezone.utc)
+            valor = getattr(entrada, campo, None)
+            if valor:
+                return datetime(*valor[:6], tzinfo=timezone.utc)
         except Exception:
-            return datetime.now(timezone.utc)
+            pass
+
+    return datetime.now(timezone.utc)
 
 
 def obtener_fuentes():
     configuracion = leer_json(FEEDS, [])
+
     if isinstance(configuracion, dict):
         configuracion = configuracion.get("feeds", [])
 
     resultados = []
-    limite = datetime.now(timezone.utc) - timedelta(hours=MAX_EDAD_HORAS)
+    limite = datetime.now(timezone.utc) - timedelta(
+        hours=MAX_EDAD_HORAS
+    )
 
     for feed in configuracion:
         url_feed = feed.get("url")
         nombre = feed.get("nombre", "Fuente")
+
         if not url_feed:
             continue
 
         try:
             respuesta = requests.get(
                 url_feed,
-                timeout=20,
-                headers={"User-Agent": "CEVNoticias/1.0 (lector RSS)"}
+                headers=CABECERAS,
+                timeout=20
             )
             respuesta.raise_for_status()
+
             datos = feedparser.parse(respuesta.content)
 
-            for entrada in datos.entries[:30]:
+            if not datos.entries:
+                print("RSS sin noticias:", nombre)
+                continue
+
+            print(
+                f"Fuente disponible: {nombre} "
+                f"({len(datos.entries)} entradas)"
+            )
+
+            for entrada in datos.entries[:40]:
                 fecha = fecha_entrada(entrada)
+
                 if fecha < limite:
                     continue
 
-                enlace = entrada.get("link", "")
                 titulo = entrada.get("title", "").strip()
+                enlace = entrada.get("link", "").strip()
 
-                if not enlace.startswith(("https://", "http://")) or not titulo:
+                if not titulo:
+                    continue
+
+                if not enlace.startswith(("https://", "http://")):
                     continue
 
                 resultados.append({
                     "titulo": titulo,
                     "url": enlace,
                     "fuente": nombre,
-                    "fecha": fecha.isoformat(),
-                    "resumen_rss": entrada.get("summary", "")
+                    "fecha": fecha.isoformat()
                 })
 
         except Exception as error:
             print(f"No se pudo leer {nombre}: {error}")
 
-    resultados.sort(key=lambda x: x["fecha"], reverse=True)
+    resultados.sort(
+        key=lambda noticia: noticia["fecha"],
+        reverse=True
+    )
+
+    print("Total de noticias encontradas en RSS:", len(resultados))
     return resultados
 
 
 def extraer_articulo(url):
     try:
-        descargado = trafilatura.fetch_url(url)
-        if not descargado:
-            return ""
+        respuesta = requests.get(
+            url,
+            headers=CABECERAS,
+            timeout=25
+        )
+        respuesta.raise_for_status()
 
         texto = trafilatura.extract(
-            descargado,
+            respuesta.text,
             include_comments=False,
             include_tables=False,
             favor_precision=True
         )
-        return texto.strip() if texto else ""
+
+        if texto:
+            return texto.strip()
+
+        return ""
+
     except Exception as error:
-        print(f"Error leyendo artículo: {error}")
+        print("No se pudo recuperar el artículo:", error)
         return ""
 
 
-def limpiar_texto(texto):
-    texto = re.sub(r"\s+", " ", texto or "")
-    return texto.strip()
+def palabras_importantes(texto):
+    palabras = re.findall(
+        r"[a-záéíóúñü]{4,}",
+        texto.lower()
+    )
 
-
-def identificar_categoria(titulo, textos):
-    completo = limpiar_texto(titulo + " " + textos).lower()
-
-    # Los temas específicos tienen prioridad.
-    for categoria in ["Deportes", "Tecnología", "Economía"]:
-        if any(clave in completo for clave in CLAVES[categoria]):
-            return categoria
-
-    if any(clave in completo for clave in CLAVES["Cali"]):
-        return "Cali"
-
-    if any(clave in completo for clave in CLAVES["Valle del Cauca"]):
-        return "Valle del Cauca"
-
-    return "Colombia"
-
-
-def clave_similitud(titulo):
-    palabras = re.findall(r"[a-záéíóúñ]{4,}", titulo.lower())
-    ignorar = {
-        "para", "desde", "sobre", "entre", "tras",
-        "cuando", "donde", "porque", "según"
+    return {
+        palabra for palabra in palabras
+        if palabra not in IGNORAR
     }
-    return set(palabras) - ignorar
 
 
-def duplicada(titulo, anteriores):
-    palabras = clave_similitud(titulo)
-    if not palabras:
+def son_misma_noticia(titulo_a, titulo_b):
+    palabras_a = palabras_importantes(titulo_a)
+    palabras_b = palabras_importantes(titulo_b)
+
+    if not palabras_a or not palabras_b:
         return False
 
-    for anterior in anteriores:
-        otras = clave_similitud(anterior)
-        if not otras:
+    comunes = palabras_a.intersection(palabras_b)
+    union = palabras_a.union(palabras_b)
+
+    similitud = len(comunes) / max(1, len(union))
+
+    # Se requiere coincidencia temática suficiente,
+    # sin exigir titulares prácticamente idénticos.
+    return len(comunes) >= 2 and similitud >= 0.20
+
+
+def agrupar_noticias(entradas):
+    grupos = []
+
+    for entrada in entradas:
+        grupo_encontrado = None
+
+        for grupo in grupos:
+            if son_misma_noticia(
+                entrada["titulo"],
+                grupo["titulo"]
+            ):
+                grupo_encontrado = grupo
+                break
+
+        if grupo_encontrado is None:
+            grupos.append({
+                "titulo": entrada["titulo"],
+                "fuentes": [entrada]
+            })
+        else:
+            dominios = {
+                urlparse(f["url"]).netloc.lower()
+                for f in grupo_encontrado["fuentes"]
+            }
+
+            dominio_actual = urlparse(
+                entrada["url"]
+            ).netloc.lower()
+
+            if dominio_actual not in dominios:
+                grupo_encontrado["fuentes"].append(entrada)
+
+    return grupos
+
+
+def leer_contenidos(grupo):
+    fuentes_validas = []
+
+    for fuente in grupo["fuentes"]:
+        texto = extraer_articulo(fuente["url"])
+
+        if len(texto) < 500:
+            print(
+                "Texto insuficiente:",
+                fuente["fuente"],
+                fuente["titulo"]
+            )
             continue
 
-        similitud = len(palabras & otras) / max(
-            1, len(palabras | otras)
-        )
+        fuentes_validas.append({
+            "nombre": fuente["fuente"],
+            "titulo": fuente["titulo"],
+            "url": fuente["url"],
+            "texto": texto[:7500]
+        })
 
-        if similitud >= 0.55:
-            return True
-
-    return False
+    return fuentes_validas
 
 
-def generar_articulo(cliente, candidato):
-    fuentes = candidato["fuentes"]
-
+def generar_articulo(cliente, titulo_referencia, fuentes):
     material = []
+
     for fuente in fuentes:
         material.append(
             f"""
-FUENTE: {fuente['fuente']}
-TÍTULO ORIGINAL: {fuente['titulo']}
-URL: {fuente['url']}
-INFORMACIÓN RECUPERADA:
-{fuente['texto'][:6500]}
+MEDIO: {fuente['nombre']}
+TÍTULO: {fuente['titulo']}
+INFORMACIÓN:
+{fuente['texto']}
 """
         )
 
     instrucciones = f"""
-Eres el redactor periodístico de CEV NOTICIAS, un medio digital
-independiente dirigido a lectores colombianos.
+Eres periodista de CEV NOTICIAS, un periódico digital
+independiente dirigido al público colombiano.
 
-Redacta un artículo ORIGINAL en español colombiano, utilizando
-exclusivamente los hechos respaldados por la información suministrada.
+Debes elaborar un artículo periodístico ORIGINAL.
 
-REGLAS OBLIGATORIAS:
-1. No copies frases extensas de los medios originales.
-2. No inventes cifras, nombres, fechas, declaraciones ni hechos.
-3. No presentes una afirmación como confirmada si solo aparece
-   en una fuente.
-4. Si las fuentes se contradicen, explica la diferencia o descarta
-   el dato que no se pueda verificar.
-5. No inventes declaraciones entre comillas.
-6. No agregues opiniones personales ni especulaciones.
-7. Escribe un artículo periodístico desarrollado, no una simple
-   paráfrasis de un titular.
-8. Si no hay información suficiente para un artículo completo,
-   responde con el valor DESCARTAR.
-9. Utiliza párrafos claros, subtítulos solo si son necesarios.
-10. No incluyas enlaces dentro del cuerpo del artículo.
+TÍTULO DE REFERENCIA:
+{titulo_referencia}
 
-La noticia debe pertenecer a una de estas secciones:
-{", ".join(CATEGORIAS)}
-
-TÍTULOS DE REFERENCIA:
-{candidato['titulo']}
-
-INFORMACIÓN DE LAS FUENTES:
+INFORMACIÓN DE LOS MEDIOS:
 {''.join(material)}
 
-Responde únicamente con un objeto JSON válido con esta estructura:
-{{
-  "titulo": "Título periodístico original",
-  "resumen": "Resumen de 2 o 3 frases",
-  "categoria": "Una de las secciones permitidas",
-  "contenido": "Artículo completo separado por dos saltos de línea"
-}}
+REGLAS PERIODÍSTICAS:
 
-El artículo debe tener entre 350 y 650 palabras.
-Si no existe suficiente información verificable, responde:
-DESCARTAR
+1. Utiliza únicamente hechos respaldados por las fuentes.
+2. No copies los artículos originales.
+3. No inventes nombres, fechas, cifras, declaraciones ni acontecimientos.
+4. Contrasta los datos entre los medios.
+5. Si hay contradicciones importantes, descarta la noticia.
+6. No inventes citas textuales.
+7. No presentes rumores como hechos confirmados.
+8. Explica qué ocurrió, dónde, cuándo y por qué es relevante,
+   siempre que las fuentes permitan responderlo.
+9. Redacta en español colombiano, con estilo periodístico
+   claro, profesional y natural.
+10. No incluyas enlaces externos dentro del artículo.
+11. No incluyas publicidad ni contenido promocional.
+12. No rellenes el texto con opiniones o información inventada.
+13. Si no existe suficiente información para un artículo
+    desarrollado, responde con "descartar": true.
+
+La extensión deseada es de 350 a 550 palabras,
+pero nunca debes inventar información para alcanzar esa extensión.
+
+Elige UNA categoría correcta de esta lista:
+{", ".join(CATEGORIAS)}
+
+No clasifiques una noticia local como internacional.
+No clasifiques una noticia deportiva en Colombia si
+su tema principal es el deporte.
+
+Devuelve exclusivamente JSON válido con esta estructura:
+
+{{
+  "descartar": false,
+  "titulo": "Título original",
+  "resumen": "Resumen de la noticia",
+  "categoria": "Categoría",
+  "contenido": "Artículo completo con párrafos separados"
+}}
 """
 
     respuesta = cliente.models.generate_content(
@@ -273,117 +337,132 @@ DESCARTAR
         )
     )
 
-    texto = (respuesta.text or "").strip()
-    if not texto:
+    if not respuesta.text:
         return None
 
     try:
-        articulo = json.loads(texto)
+        articulo = json.loads(respuesta.text)
     except json.JSONDecodeError:
+        print("Gemini devolvió una respuesta no válida.")
         return None
 
-    if not isinstance(articulo, dict):
+    if articulo.get("descartar") is True:
+        print("Noticia descartada por falta de información.")
         return None
 
     if articulo.get("categoria") not in CATEGORIAS:
         return None
 
-    contenido = articulo.get("contenido", "").strip()
+    titulo = str(articulo.get("titulo", "")).strip()
+    resumen = str(articulo.get("resumen", "")).strip()
+    contenido = str(articulo.get("contenido", "")).strip()
+
+    if not titulo or not resumen:
+        return None
+
     if len(contenido.split()) < 250:
+        print("Artículo demasiado corto.")
         return None
 
-    if not all(articulo.get(k) for k in ["titulo", "resumen"]):
-        return None
+    return {
+        "titulo": titulo,
+        "resumen": resumen,
+        "categoria": articulo["categoria"],
+        "contenido": contenido
+    }
 
-    return articulo
 
-
-def buscar_imagen(candidato):
-    # Se evita utilizar fotografías de periódicos sin autorización.
-    # La imagen queda vacía si no se dispone de una imagen autorizada.
-    return ""
+def identificador_articulo(titulo):
+    return hashlib.sha256(
+        titulo.lower().encode("utf-8")
+    ).hexdigest()[:16]
 
 
 def ejecutar():
     api_key = os.environ.get("GEMINI_API_KEY")
+
     if not api_key:
-        raise RuntimeError("Falta configurar GEMINI_API_KEY en GitHub.")
+        raise RuntimeError(
+            "No está configurada la clave GEMINI_API_KEY."
+        )
 
     cliente = genai.Client(api_key=api_key)
 
     cache = leer_json(CACHE, {"noticias": []})
+
+    if not isinstance(cache, dict):
+        cache = {"noticias": []}
+
     publicadas = cache.get("noticias", [])
 
-    titulos = [n.get("titulo", "") for n in publicadas]
+    if not isinstance(publicadas, list):
+        publicadas = []
+
+    titulos_publicados = [
+        noticia.get("titulo", "")
+        for noticia in publicadas
+    ]
 
     entradas = obtener_fuentes()
-    grupos = {}
 
-    for entrada in entradas:
-        titulo = entrada["titulo"]
+    # Descarta titulares ya publicados.
+    entradas_nuevas = [
+        entrada for entrada in entradas
+        if not any(
+            son_misma_noticia(
+                entrada["titulo"],
+                titulo
+            )
+            for titulo in titulos_publicados
+            if titulo
+        )
+    ]
 
-        if duplicada(titulo, titulos):
-            continue
+    print("Noticias nuevas para revisar:", len(entradas_nuevas))
 
-        texto = extraer_articulo(entrada["url"])
-        if len(texto) < MIN_CONTENIDO_FUENTE:
-            continue
+    grupos = agrupar_noticias(entradas_nuevas)
 
-        # Agrupa noticias con títulos parecidos.
-        palabras = clave_similitud(titulo)
-        clave = hashlib.sha256(
-            " ".join(sorted(palabras)).encode("utf-8")
-        ).hexdigest()[:16]
-
-        if clave not in grupos:
-            grupos[clave] = {
-                "titulo": titulo,
-                "fuentes": []
-            }
-
-        dominio = urlparse(entrada["url"]).netloc.lower()
-        if any(
-            urlparse(f["url"]).netloc.lower() == dominio
-            for f in grupos[clave]["fuentes"]
-        ):
-            continue
-
-        grupos[clave]["fuentes"].append({
-            "fuente": entrada["fuente"],
-            "titulo": titulo,
-            "url": entrada["url"],
-            "texto": texto
-        })
+    print("Grupos temáticos encontrados:", len(grupos))
 
     nuevas = []
 
-    for grupo in grupos.values():
-        # Se exigen al menos dos medios distintos.
-        if len(grupo["fuentes"]) < 2:
+    for grupo in grupos:
+        if len(nuevas) >= MAX_NOTICIAS:
+            break
+
+        fuentes = leer_contenidos(grupo)
+
+        dominios = {
+            urlparse(f["url"]).netloc.lower()
+            for f in fuentes
+        }
+
+        # Se exige contraste entre al menos dos dominios.
+        if len(dominios) < 2:
+            print(
+                "Noticia sin dos fuentes independientes:",
+                grupo["titulo"]
+            )
             continue
 
         try:
-            articulo = generar_articulo(cliente, grupo)
+            articulo = generar_articulo(
+                cliente,
+                grupo["titulo"],
+                fuentes
+            )
+
             if not articulo:
                 continue
 
-            categoria = identificar_categoria(
-                articulo["titulo"],
-                articulo["contenido"]
+            identificador = identificador_articulo(
+                articulo["titulo"]
             )
 
-            # Se respeta la categoría sugerida por el modelo solo
-            # cuando pertenece a la lista autorizada.
-            if articulo["categoria"] not in CATEGORIAS:
-                articulo["categoria"] = categoria
-
-            identificador = hashlib.sha256(
-                articulo["titulo"].lower().encode("utf-8")
-            ).hexdigest()[:16]
-
-            if identificador in {
-                n.get("id") for n in publicadas + nuevas
-            }:
+            if any(
+                n.get("id") == identificador
+                for n in publicadas + nuevas
+            ):
                 continue
 
             nuevas.append({
@@ -392,32 +471,26 @@ def ejecutar():
                 "resumen": articulo["resumen"],
                 "categoria": articulo["categoria"],
                 "contenido": articulo["contenido"],
-                "imagen": buscar_imagen(grupo),
+                "imagen": "",
                 "fecha": datetime.now(
                     timezone(timedelta(hours=-5))
                 ).strftime("%d/%m/%Y · %I:%M %p"),
                 "fuentes": [
                     {
-                        "nombre": f["fuente"],
-                        "url": f["url"]
+                        "nombre": fuente["nombre"]
                     }
-                    for f in grupo["fuentes"]
+                    for fuente in fuentes
                 ]
             })
 
-            print("Artículo redactado:", articulo["titulo"])
+            print("Artículo creado:", articulo["titulo"])
             time.sleep(2)
 
         except Exception as error:
-            print("No se pudo redactar el artículo:", error)
-
-        if len(nuevas) >= MAX_NOTICIAS:
-            break
+            print("Error al generar artículo:", error)
 
     resultado = nuevas + publicadas
-
-    # Conserva un máximo de 150 artículos en el historial.
-    resultado = resultado[:150]
+    resultado = resultado[:MAX_ARTICULOS_ANTERIORES]
 
     guardar_json(CACHE, {
         "noticias": resultado,
@@ -426,8 +499,10 @@ def ejecutar():
         ).isoformat()
     })
 
+    print("--------------------------------")
     print("Artículos nuevos:", len(nuevas))
-    print("Total en archivo:", len(resultado))
+    print("Total de artículos:", len(resultado))
+    print("--------------------------------")
 
 
 if __name__ == "__main__":
