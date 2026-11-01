@@ -1,6 +1,36 @@
 {
   "noticias": [
     {
+      "id": "8ba76d9de3f784fd",
+      "titulo": "Salario mínimo 2027: debate y cifras en la mesa de negociación",
+      "resumen": "La mesa de negociación sobre el salario mínimo 2027 en Colombia inicia con diferencias marcadas entre la propuesta sindical y la técnica, mientras el Ministerio de Trabajo abre la participación de trabajadoras domésticas por primera vez. El debate, que puede comenzar el 18 de noviembre, contempla ajustes que impactarán a 2,4 millones de trabajadores y plantea implicaciones fiscales y macroeconómicas.",
+      "categoria": "Economía",
+      "contenido": "La mesa de negociación sobre el salario mínimo 2027 en Colombia se abre con una brecha inicial de 533.026 pesos entre la propuesta sindical y la técnica, según datos del portal Portafolio. El salario mínimo actual es de 1.750.905 pesos mensuales.\n\nLa Central Unitaria de Trabajadores (CUT), representada por Fabio Arias, plantea un incremento del 38,5 %, que elevaría el salario a 2.424.003 pesos. Por su parte, la investigación de Corficolombiana propone un ajuste del 8 %, basado en una inflación esperada del 6,8 % y un crecimiento de la productividad del 1,2 %, lo que situaría el mínimo en 1.890.977 pesos.\n\nEl Gobierno Nacional contempla adelantar el inicio de la mesa al 18 de noviembre, aunque la fecha tentativa original era el 25 de noviembre. Esta modificación fue revelada por el diario El Tiempo.\n\nPor primera vez, el Ministerio de Trabajo abre la participación de organizaciones de trabajadoras domésticas. La ministra Natalia Eugenia López Fuentes y la viceministra Juliana Patricia Morad Acero confirmaron la convocatoria durante un encuentro sectorial. Entre las organizaciones convocadas se encuentran la Unión de Trabajadoras Afrocolombianas del Servicio Doméstico (UTRASD), la Central Sindical de Trabajadoras del Hogar (Sintrahop), la Asociación Trabajar, Sintra Emagra y Sintra Emprusa.\n\nLos temas a tratar incluyen remuneración, incremento del salario, subsidio de transporte, formalización laboral, acceso a la seguridad social e inspección de puestos de trabajo. Paralelamente, la cartera laboral avanza en la creación de un micrositio con calculadoras de pago y modelos de contrato.\n\nEl ajuste salarial también tendrá repercusiones fiscales y macroeconómicas. El Comité Autónomo de la Regla Fiscal estima que aumentos elevados en la asignación básica incrementarían el déficit fiscal en 8 billones de pesos anuales a partir de 2027. Corficolombiana señala que el reajuste del 23 % aplicado en 2026 explicó 63 puntos básicos de la aceleración inflacionaria registrada ese año.\n\nEn caso de que la mesa no logre consenso, el Gobierno Nacional mantiene la potestad de definir el porcentaje definitivo mediante decreto unilateral.",
+      "imagen": "https://imagenes.portafolio.co/files/og_thumbnail/uploads/2026/03/12/69b2e44ea5c00.png",
+      "verificacion": "Una sola fuente",
+      "fecha": "01/11/2026 · 06:06 PM",
+      "fuentes": [
+        {
+          "nombre": "Portafolio"
+        }
+      ]
+    },
+    {
+      "id": "e99b2f06bc9f8c8f",
+      "titulo": "Unos investigadores han decidido ponerle patas a un teléfono móvil y el resultado ha sido un robot que camina",
+      "resumen": "En la Universidad de California en Los Ángeles se creó PhoneBot, un robot bípedo de 48,3 cm que utiliza un smartphone como cerebro y sensores para equilibrarse y moverse. El proyecto demuestra que un móvil puede controlar 13 articulaciones motorizadas, caminar y reconocer personas, aunque su uso sigue siendo experimental.",
+      "categoria": "Tecnología",
+      "contenido": "PhoneBot, el robot bípedo de 48,3 centímetros de altura y 1,8 kilogramos de peso, fue desarrollado por el laboratorio RoMeLa de la Universidad de California en Los Ángeles (UCLA). El dispositivo incorpora un smartphone en su torso, el cual actúa como cerebro y controla las 13 articulaciones motorizadas que le dan la capacidad de caminar.\n\nEl funcionamiento de PhoneBot se basa en los sensores del móvil: el giroscopio y el acelerómetro determinan la inclinación del robot, mientras que la cámara interpreta el entorno visualmente. El procesador del teléfono calcula las órdenes de movimiento y las envía a través de Wi‑Fi a una placa electrónica que controla los motores. Además, el robot puede recibir comandos de desplazamiento del usuario.\n\nPara lograr un equilibrio estable, los investigadores entrenaron un sistema de control mediante aprendizaje por refuerzo en simulaciones. Durante el entrenamiento se detectó una tendencia a favorecer una pierna, por lo que se introdujo un mecanismo que fomenta movimientos simétricos. El modelo entrenado se trasladó al prototipo físico, donde se verificó que PhoneBot podía caminar y levantarse después de quedar boca abajo.\n\nEn las demostraciones, el robot también utilizó la cámara del teléfono para detectar a una persona y orientar su torso hacia ella. Sin embargo, el seguimiento autónomo en entornos complejos aún no se ha probado. El sistema de conversación funciona con reconocimiento de voz y un modelo de lenguaje que se ejecutan en un ordenador externo.\n\nEl equipo estima que el costo de los componentes del cuerpo de PhoneBot es de aproximadamente 400 dólares, sin incluir el móvil. La mayor parte del presupuesto se destina a los 13 motores de las articulaciones. Los archivos de diseño y documentación se han publicado bajo una licencia que restringe su uso comercial, por lo que la plataforma no cumple con los criterios habituales de hardware de código abierto.\n\nPhoneBot no es la primera iniciativa que convierte un smartphone en el cerebro de un robot. En 2021, Intel Labs presentó OpenBot, un vehículo con ruedas controlado por un móvil, cuyo cuerpo costaba alrededor de 50 dólares. La diferencia de UCLA radica en la complejidad de un robot bípedo, donde el equilibrio y la coordinación de las piernas añaden desafíos significativos.\n\nAunque el robot todavía no puede llevar un café ni moverse por superficies irregulares, el experimento abre nuevas posibilidades para la investigación de la robótica bípeda con recursos limitados. Al reutilizar dispositivos móviles que ya no se usan como teléfonos, los investigadores demuestran una forma creativa de darles una segunda vida y explorar la interacción entre hardware cotidiano y robótica avanzada.",
+      "imagen": "https://i.blogs.es/ff4de1/phone-robot-portada/1024_2000.jpeg",
+      "verificacion": "Una sola fuente",
+      "fecha": "01/11/2026 · 06:06 PM",
+      "fuentes": [
+        {
+          "nombre": "Xataka"
+        }
+      ]
+    },
+    {
       "id": "b004f1cdfdac3db2",
       "titulo": "Atención: el músico vallenato 'Kbeto' Zuleta despertó tras el accidente y fue extubado",
       "resumen": "El cantante vallenato Kbeto Zuleta, tras un grave accidente de tránsito el 26 de octubre en el Cesar, despertó y fue extubado en la Clínica Iberoamérica de Barranquilla, marcando un hito en su recuperación.",
@@ -62,6 +92,6 @@
     }
   ],
   "fecha_solicitudes_groq": "2026-11-01",
-  "solicitudes_groq": 6,
-  "ultima_actualizacion": "2026-11-01T23:02:45.981567+00:00"
+  "solicitudes_groq": 8,
+  "ultima_actualizacion": "2026-11-01T23:06:11.418017+00:00"
 }
