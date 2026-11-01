@@ -493,10 +493,10 @@ def ejecutar():
     if cache.get("fecha_solicitudes_groq") != fecha_control:
         solicitudes_groq = 0
     else:
-        solicitudes_gemini = int(cache.get("solicitudes_gemini", 0))
+        solicitudes_groq = int(cache.get("solicitudes_groq", 0))
 
     print(
-        f"Solicitudes Groq usadas hoy: {solicitudes_gemini}/"
+        f"Solicitudes Groq usadas hoy: {solicitudes_groq}/"
         f"{MAX_SOLICITUDES_DIARIAS}"
     )
 
@@ -504,7 +504,7 @@ def ejecutar():
         if len(nuevas) >= MAX_ARTICULOS_POR_EJECUCION:
             break
 
-        if solicitudes_gemini >= MAX_SOLICITUDES_DIARIAS:
+        if solicitudes_groq >= MAX_SOLICITUDES_DIARIAS:
             print("Límite diario de seguridad alcanzado. Se detiene la generación.")
             break
 
@@ -523,7 +523,7 @@ def ejecutar():
             continue
 
         try:
-            solicitudes_gemini += 1
+            solicitudes_groq += 1
             articulo = generar_articulo(
                 cliente,
                 grupo["titulo"],
@@ -588,8 +588,8 @@ def ejecutar():
 
     guardar_json(CACHE, {
         "noticias": resultado,
-        "fecha_solicitudes_gemini": fecha_control,
-        "solicitudes_gemini": solicitudes_gemini,
+        "fecha_solicitudes_groq": fecha_control,
+        "solicitudes_groq": solicitudes_groq,
         "ultima_actualizacion": datetime.now(
             timezone.utc
         ).isoformat()
