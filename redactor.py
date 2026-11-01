@@ -21,7 +21,7 @@ FEEDS = os.path.join(BASE, "feeds.json")
 MODELO = "gemini-3.8-flash"
 MAX_NOTICIAS = 20
 MAX_ARTICULOS_ANTERIORES = 150
-MAX_EDAD_HORAS = 72
+MAX_EDAD_HORAS = 168
 
 CATEGORIAS = [
     "Cali",
