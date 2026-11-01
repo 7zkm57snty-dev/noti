@@ -1,6 +1,36 @@
 {
   "noticias": [
     {
+      "id": "4fa64b312e344748",
+      "titulo": "Selena Gomez apuesta por la nostalgia para impulsar las ventas de Rare Beauty",
+      "resumen": "La cantante y fundadora de Rare Beauty, Selena Gomez, se reunió con Demi Lovato para lanzar la campaña “Still Making Each Other Blush”, que combina recuerdos de Disney Channel con un set de rubores de edición limitada. La estrategia de nostalgia busca conectar emocionalmente con consumidores que crecieron viendo a ambas artistas, impulsando las ventas de la marca que superó los US$400 millones en 2024 y que valora en US$2 mil millones.",
+      "categoria": "Economía",
+      "contenido": "Selena Gomez, fundadora de Rare Beauty, y Demi Lovato se reunieron después de 17 años para lanzar la campaña “Still Making Each Other Blush”. La iniciativa, que se difundió en redes sociales, hace referencia a la película de Disney Channel de 2009 “Programa de protección de princesas”, recordando a quienes crecieron viendo a las dos artistas en la pantalla.\n\nEl lanzamiento incluye el “Delena Soft Pinch Blush Bundle”, un set de edición limitada que reúne dos rubores líquidos de la línea Soft Pinch, en los tonos Hope y Virtue, y una brocha de maquillaje. El paquete se comercializa por US$50, lo que representa un descuento de 34,2 % respecto al precio original de US$76,26. Los rubores Soft Pinch son uno de los productos más vendidos de la marca.\n\nRare Beauty reportó ventas netas superiores a US$400 millones en los 12 meses terminados en febrero de 2024, con cerca de la mitad proveniente de mercados internacionales. La compañía, que fue objeto de evaluaciones de posibles ofertas de compra, tiene una valoración estimada de US$2 mil millones.\n\nLa campaña aprovecha la fama de Gomez y Lovato y la nostalgia de una generación para crear una conexión emocional con los consumidores. Además, la marca destina el 1 % de sus ventas anuales al Rare Impact Fund, una iniciativa que busca ampliar el acceso de los jóvenes a recursos de salud mental.\n\nCon la combinación de celebridades, nostalgia y un producto limitado a un precio competitivo, Rare Beauty busca consolidar su posición en el mercado global y seguir impulsando sus ventas en la temporada 2026.",
+      "imagen": "https://img.lalr.co/cms/2026/11/01171338/image-2026-11-01T171330.962.jpg?size=xl&ratio=r40_21&f=jpg",
+      "verificacion": "Una sola fuente",
+      "fecha": "01/11/2026 · 05:51 PM",
+      "fuentes": [
+        {
+          "nombre": "La República"
+        }
+      ]
+    },
+    {
+      "id": "2da058e041c52c5d",
+      "titulo": "Abogado de Petro denuncia interrogatorio irregular en el Dapre",
+      "resumen": "El abogado de Gustavo Petro denuncia un interrogatorio irregular en el Dapre, alegando que una funcionaria fue sometida a un proceso sin representación legal, basándose en una grabación de audio que no identifica a los interlocutores. La Fiscalía aún no ha iniciado la investigación y el director del Dapre no ha respondido.",
+      "categoria": "Colombia",
+      "contenido": "El abogado del expresidente Gustavo Petro, Alejandro Carranza, presentó una denuncia ante la Fiscalía por un supuesto interrogatorio irregular en el Departamento Administrativo de Presidencia (Dapre). Según Carranza, el director del Dapre, Carlos Ríos, se hizo pasar por investigador y interrogó a una funcionaria sin representación legal ni respeto al debido proceso, lo que, según el abogado, la quebró emocionalmente.\n\nLa denuncia se basa en una grabación de audio publicada por el portal La Nueva Prensa. Carranza sostiene que el audio evidencia la práctica de un interrogatorio irregular y la persecución política que, según él, se ha convertido en una realidad dentro de las instituciones del Estado. El audio, publicado bajo reserva para proteger la fuente, no identifica a los interlocutores y no se ha verificado la identidad de la mujer interrogar.\n\nEl director Carlos Ríos no ha emitido ninguna respuesta al respecto y la Fiscalía aún no ha iniciado la investigación. Carranza anunció que presentará una denuncia formal ante la Fiscalía y pidió que la institución asuma la investigación con total eficiencia.\n\nLa denuncia ha sido retomada por figuras de la oposición, incluido el propio Petro y el exministro de Educación Daniel Rojas, quienes llaman a una investigación exhaustiva y a la protección de los derechos de los funcionarios.\n\nLa relevancia de este caso radica en la necesidad de garantizar el debido proceso y la protección de los derechos de los funcionarios públicos. La falta de respuesta por parte del director del Dapre y la ausencia de una investigación formal generan preocupación sobre la integridad de los procedimientos internos y la posible vulneración de derechos fundamentales.",
+      "imagen": "https://i0.wp.com/www.lasillavacia.com/wp-content/uploads/2025/08/Alejandro_Carranza-2.jpg?fit=1024%2C768&quality=80&strip=all&ssl=1",
+      "verificacion": "Una sola fuente",
+      "fecha": "01/11/2026 · 05:51 PM",
+      "fuentes": [
+        {
+          "nombre": "La Silla Vacía"
+        }
+      ]
+    },
+    {
       "id": "d03a2ac22e8dc79a",
       "titulo": "Murió el exconstituyente y exgobernador Antonio Navarro Wolff",
       "resumen": "El político, ingeniero sanitario y exconstituyente Antonio José Navarro Wolff falleció el 1 de noviembre a los 78 años. Su trayectoria abarcó la lucha armada, la negociación de paz, la redacción de la Constitución de 1991 y cargos públicos a nivel nacional y local.",
@@ -17,6 +47,6 @@
     }
   ],
   "fecha_solicitudes_groq": "2026-11-01",
-  "solicitudes_groq": 2,
-  "ultima_actualizacion": "2026-11-01T22:50:42.821958+00:00"
+  "solicitudes_groq": 4,
+  "ultima_actualizacion": "2026-11-01T22:51:40.349039+00:00"
 }
