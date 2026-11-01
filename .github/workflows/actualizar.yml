@@ -18,6 +18,7 @@ concurrency:
 jobs:
   actualizar:
     runs-on: ubuntu-latest
+    timeout-minutes: 20
 
     steps:
       - name: Descargar repositorio
@@ -38,9 +39,19 @@ jobs:
       - name: Generar noticias
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          PYTHONUNBUFFERED: "1"
         run: |
-          python redactor.py
-          python build.py
+          echo "Iniciando redactor de noticias..."
+          python -u redactor.py
+          echo "Redactor finalizado correctamente."
+
+      - name: Construir página web
+        env:
+          PYTHONUNBUFFERED: "1"
+        run: |
+          echo "Iniciando construcción de CEV NOTICIAS..."
+          python -u build.py
+          echo "Página web construida correctamente."
 
       - name: Preparar publicación
         uses: actions/upload-pages-artifact@v3
