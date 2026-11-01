@@ -147,7 +147,6 @@ nav a:hover {{color:#f17b70}}
 .articulo .cuerpo {{font-size:17px;line-height:1.85;white-space:pre-line}}
 .articulo .cuerpo p {{margin:0 0 20px}}
 .fuentes {{border-top:1px solid #ddd;margin-top:35px;padding-top:20px;font-size:13px;color:var(--gris)}}
-.fuentes a {{color:#b63832;text-decoration:underline}}
 .pie {{margin-top:55px;background:var(--azul);color:white;padding:35px 22px;text-align:center}}
 .pie strong {{font-family:'Playfair Display',serif;font-size:25px}}
 .pie p {{color:#c9d4dc;font-size:12px}}
@@ -209,18 +208,9 @@ def crear_articulo(noticia):
 
     referencias = []
 
-for fuente in noticia.get("fuentes", []):
-    nombre = escapar(fuente.get("nombre", "Fuente consultada"))
-    referencias.append(f"<li>{nombre}</li>")
+    for fuente in noticia.get("fuentes", []):
         nombre = escapar(fuente.get("nombre", "Fuente consultada"))
-        url = str(fuente.get("url", ""))
-        if url.startswith(("https://", "http://")):
-            referencias.append(
-                f'<li>{nombre}: <a href="{escapar(url)}" '
-                f'target="_blank" rel="noopener noreferrer">Referencia original</a></li>'
-            )
-        else:
-            referencias.append(f"<li>{nombre}</li>")
+        referencias.append(f"<li>{nombre}</li>")
 
     cuerpo = f"""
     <main class="articulo">
@@ -276,14 +266,15 @@ def construir():
         crear_articulo(noticia)
 
     SITE.mkdir(parents=True, exist_ok=True)
-
     destacada = validas[0] if validas else None
+
     if destacada:
         imagen = imagen_segura(destacada.get("imagen"))
         visual = (
             f'<img src="{imagen}" alt="{escapar(destacada.get("titulo"))}">'
             if imagen else '<div class="imagen-vacia">CEV NOTICIAS</div>'
         )
+
         hero = f"""
         <section class="destacada">
           {visual}
@@ -299,13 +290,16 @@ def construir():
         hero = '<div class="vacio">Estamos preparando las próximas noticias. Vuelve pronto.</div>'
 
     bloques = []
+
     for seccion in SECCIONES:
         grupo = [
             n for n in validas
             if n["categoria"] == seccion and n is not destacada
         ]
+
         if not grupo:
             continue
+
         bloques.append(
             f'<section id="{quote(seccion)}">'
             f'<h2 class="titulo-seccion">{escapar(seccion)}</h2>'
@@ -324,6 +318,7 @@ def construir():
     (SITE / "index.html").write_text(
         plantilla("Portada", contenido), encoding="utf-8"
     )
+
     print(f"Portada creada. Artículos publicados: {len(validas)}")
 
 
