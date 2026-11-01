@@ -1,0 +1,14 @@
+[
+  {"categoria": "Cali", "gnews": "Cali site:elpais.com.co when:2d", "permitidos": ["elpais.com.co"]},
+  {"categoria": "Cali", "gnews": "Cali site:eltiempo.com when:2d", "permitidos": ["eltiempo.com"]},
+  {"categoria": "Valle del Cauca", "gnews": "\"Valle del Cauca\" site:elpais.com.co when:2d", "permitidos": ["elpais.com.co"]},
+  {"categoria": "Valle del Cauca", "gnews": "\"Valle del Cauca\" site:eltiempo.com when:2d", "permitidos": ["eltiempo.com"]},
+  {"categoria": "Colombia", "gnews": "Colombia site:eltiempo.com when:1d", "permitidos": ["eltiempo.com"]},
+  {"categoria": "Colombia", "gnews": "Colombia site:elespectador.com when:1d", "permitidos": ["elespectador.com"]},
+  {"categoria": "Internacional", "fuente": "BBC News Mundo", "url": "https://feeds.bbci.co.uk/mundo/rss.xml", "resumen": true},
+  {"categoria": "Internacional", "fuente": "DW Español", "url": "https://rss.dw.com/xml/rss-sp-all", "resumen": true},
+  {"categoria": "Deportes", "gnews": "fútbol site:eltiempo.com when:1d", "permitidos": ["eltiempo.com"]},
+  {"categoria": "Deportes", "gnews": "deportes site:elpais.com.co when:1d", "permitidos": ["elpais.com.co"]},
+  {"categoria": "Tecnología", "gnews": "tecnología site:xataka.com when:2d", "permitidos": ["xataka.com"]},
+  {"categoria": "Tecnología", "gnews": "tecnología site:hipertextual.com when:2d", "permitidos": ["hipertextual.com"]}
+]
