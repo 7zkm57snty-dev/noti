@@ -1,159 +1,328 @@
-import html, json, re, unicodedata, urllib.parse, urllib.request
-import xml.etree.ElementTree as ET
-from concurrent.futures import ThreadPoolExecutor
-from datetime import datetime, timedelta, timezone
-from email.utils import parsedate_to_datetime
+
+import json
+import os
+import re
+import html
 from pathlib import Path
-import redactor
+from datetime import datetime, timezone, timedelta
+from urllib.parse import quote
 
-CATEGORIAS = ["Cali", "Valle del Cauca", "Colombia", "Internacional", "Deportes", "Tecnología"]
-POR_CATEGORIA = 8
-MAX_HORAS = 72
-BOGOTA = timezone(timedelta(hours=-5))
-DIAS = ["lunes", "martes", "miércoles", "jueves", "viernes", "sábado", "domingo"]
-MESES = ["enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre"]
+BASE = Path(__file__).parent
+SITE = BASE / "site"
+NOTAS = SITE / "notas"
+CACHE = BASE / "cache.json"
 
-def esc(t):
-    return html.escape(str(t or ""), quote=True)
+SECCIONES = [
+    "Cali",
+    "Valle del Cauca",
+    "Colombia",
+    "Internacional",
+    "Deportes",
+    "Tecnología",
+    "Economía"
+]
 
-def sin_tildes(t):
-    t = unicodedata.normalize("NFD", str(t).lower())
-    return "".join(c for c in t if unicodedata.category(c) != "Mn")
+COLOMBIA_TZ = timezone(timedelta(hours=-5))
 
-def slug(t):
-    return re.sub(r"[^a-z0-9]+", "-", sin_tildes(t)).strip("-")
 
-def palabras(t):
-    return {w for w in re.findall(r"[a-z0-9]+", sin_tildes(t)) if len(w) > 3}
+def escapar(valor):
+    return html.escape(str(valor or ""), quote=True)
 
-def limpiar(t):
-    t = re.sub(r"<[^>]+>", " ", html.unescape(t or ""))
-    return re.sub(r"\s+", " ", t).strip()
 
-def fecha_de(txt):
+def cargar_json(ruta, defecto):
     try:
-        d = parsedate_to_datetime((txt or "").strip())
-        return d if d.tzinfo else d.replace(tzinfo=timezone.utc)
-    except Exception:
-        return None
+        with open(ruta, "r", encoding="utf-8") as archivo:
+            return json.load(archivo)
+    except (OSError, json.JSONDecodeError):
+        return defecto
 
-def url_de(feed):
-    if feed.get("gnews"):
-        q = urllib.parse.urlencode({"q": feed["gnews"], "hl": "es-419", "gl": "CO", "ceid": "CO:es-419"})
-        return "https://news.google.com/rss/search?" + q
-    return feed["url"]
 
-def descargar(feed):
-    nombre = feed.get("fuente") or feed.get("gnews") or feed.get("url")
-    try:
-        req = urllib.request.Request(url_de(feed), headers={"User-Agent": "Mozilla/5.0 (compatible; CEVNoticias/2.0)"})
-        with urllib.request.urlopen(req, timeout=25) as r:
-            raiz = ET.fromstring(r.read())
-    except Exception as e:
-        print(f"FALLO RSS {nombre}: {e}")
-        return []
-    ahora, salida = datetime.now(timezone.utc), []
-    for it in raiz.iter():
-        if it.tag.split("}")[-1] != "item":
+def guardar_json(ruta, datos):
+    ruta.parent.mkdir(parents=True, exist_ok=True)
+    with open(ruta, "w", encoding="utf-8") as archivo:
+        json.dump(datos, archivo, ensure_ascii=False, indent=2)
+
+
+def slug(texto):
+    texto = str(texto).lower()
+    reemplazos = {
+        "á": "a", "é": "e", "í": "i",
+        "ó": "o", "ú": "u", "ñ": "n"
+    }
+    for original, nuevo in reemplazos.items():
+        texto = texto.replace(original, nuevo)
+    texto = re.sub(r"[^a-z0-9]+", "-", texto)
+    return texto.strip("-")[:75]
+
+
+def fecha_actual():
+    return datetime.now(COLOMBIA_TZ).strftime("%d/%m/%Y · %I:%M %p")
+
+
+def imagen_segura(url):
+    url = str(url or "").strip()
+    if url.startswith("https://") or url.startswith("http://"):
+        return escapar(url)
+    return ""
+
+
+def tarjeta(noticia):
+    titulo = escapar(noticia.get("titulo"))
+    resumen = escapar(noticia.get("resumen"))
+    categoria = escapar(noticia.get("categoria"))
+    imagen = imagen_segura(noticia.get("imagen"))
+    identificador = escapar(noticia.get("id"))
+
+    if imagen:
+        visual = f'<img src="{imagen}" alt="{titulo}" loading="lazy">'
+    else:
+        visual = '<div class="imagen-vacia">CEV NOTICIAS</div>'
+
+    return f"""
+    <article class="tarjeta">
+        <a class="tarjeta-enlace" href="notas/{identificador}.html">
+            <div class="tarjeta-imagen">{visual}</div>
+            <div class="tarjeta-contenido">
+                <span class="etiqueta">{categoria}</span>
+                <h3>{titulo}</h3>
+                <p>{resumen}</p>
+                <span class="leer">Leer noticia completa →</span>
+            </div>
+        </a>
+    </article>
+    """
+
+
+def plantilla(titulo, contenido, descripcion="CEV NOTICIAS"):
+    return f"""<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="{escapar(descripcion)}">
+<title>{escapar(titulo)} | CEV NOTICIAS</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+<style>
+:root {{
+ --azul:#10283f; --rojo:#c83b35; --fondo:#f4f2ee;
+ --texto:#202b35; --gris:#68737c; --blanco:#fff;
+}}
+* {{box-sizing:border-box}}
+body {{margin:0;background:var(--fondo);color:var(--texto);font-family:'DM Sans',Arial,sans-serif}}
+a {{color:inherit;text-decoration:none}}
+.masthead {{background:var(--azul);color:white}}
+.cabecera {{max-width:1200px;margin:auto;padding:27px 22px 20px}}
+.marca {{font-family:'Playfair Display',serif;font-size:clamp(34px,6vw,58px);font-weight:800;letter-spacing:-2px}}
+.marca span {{color:#e35b51}}
+.eslogan {{color:#c9d4dc;font-size:12px;letter-spacing:2px;text-transform:uppercase;margin-top:5px}}
+.fecha {{font-size:12px;color:#d4dce2;margin-top:17px}}
+nav {{background:#0b1e30;border-top:1px solid #344657;overflow-x:auto}}
+.nav-interior {{max-width:1200px;margin:auto;display:flex;gap:27px;padding:14px 22px;white-space:nowrap}}
+nav a {{color:white;font-size:13px;font-weight:600}}
+nav a:hover {{color:#f17b70}}
+.contenedor {{max-width:1200px;margin:30px auto;padding:0 22px}}
+.titulo-seccion {{font-family:'Playfair Display',serif;font-size:29px;margin:35px 0 17px}}
+.destacada {{display:grid;grid-template-columns:1.4fr 1fr;background:white;border-radius:12px;overflow:hidden;box-shadow:0 5px 25px #14283c12}}
+.destacada img {{width:100%;height:100%;min-height:300px;object-fit:cover}}
+.destacada .imagen-vacia {{min-height:300px;display:grid;place-items:center;background:#dce4e8;color:#536575;font-weight:bold}}
+.destacada-texto {{padding:30px;align-self:center}}
+.destacada h2 {{font-family:'Playfair Display',serif;font-size:clamp(25px,3vw,38px);line-height:1.15;margin:12px 0}}
+.etiqueta {{color:var(--rojo);font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:1px}}
+.destacada p,.tarjeta p {{color:var(--gris);line-height:1.65;font-size:14px}}
+.boton {{display:inline-block;background:var(--rojo);color:white;padding:12px 17px;border-radius:5px;font-weight:700;font-size:13px;margin-top:8px}}
+.rejilla {{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}}
+.tarjeta {{background:white;border-radius:10px;overflow:hidden;box-shadow:0 3px 15px #14283c0c;transition:transform .2s}}
+.tarjeta:hover {{transform:translateY(-3px)}}
+.tarjeta-imagen {{height:190px;background:#dce4e8}}
+.tarjeta-imagen img {{width:100%;height:100%;object-fit:cover}}
+.imagen-vacia {{height:100%;display:grid;place-items:center;background:linear-gradient(135deg,#dbe3e8,#b9c9d2);color:#42566a;font-family:'Playfair Display',serif;font-size:20px}}
+.tarjeta-contenido {{padding:19px}}
+.tarjeta h3 {{font-family:'Playfair Display',serif;font-size:21px;line-height:1.25;margin:9px 0}}
+.leer {{font-size:12px;color:var(--rojo);font-weight:700}}
+.articulo {{max-width:850px;margin:35px auto;background:white;padding:clamp(22px,5vw,55px);border-radius:10px}}
+.articulo h1 {{font-family:'Playfair Display',serif;font-size:clamp(32px,5vw,48px);line-height:1.12}}
+.articulo .bajada {{font-size:19px;color:var(--gris);line-height:1.6}}
+.articulo .foto {{width:100%;max-height:490px;object-fit:cover;border-radius:8px;margin:20px 0}}
+.articulo .cuerpo {{font-size:17px;line-height:1.85;white-space:pre-line}}
+.articulo .cuerpo p {{margin:0 0 20px}}
+.fuentes {{border-top:1px solid #ddd;margin-top:35px;padding-top:20px;font-size:13px;color:var(--gris)}}
+.fuentes a {{color:#b63832;text-decoration:underline}}
+.pie {{margin-top:55px;background:var(--azul);color:white;padding:35px 22px;text-align:center}}
+.pie strong {{font-family:'Playfair Display',serif;font-size:25px}}
+.pie p {{color:#c9d4dc;font-size:12px}}
+.vacio {{background:white;padding:25px;border-radius:8px;color:var(--gris)}}
+@media(max-width:800px) {{
+ .destacada {{grid-template-columns:1fr}}
+ .destacada img {{min-height:220px;max-height:280px}}
+ .rejilla {{grid-template-columns:repeat(2,minmax(0,1fr));gap:13px}}
+ .tarjeta-imagen {{height:145px}}
+ .tarjeta-contenido {{padding:13px}}
+ .tarjeta h3 {{font-size:18px}}
+}}
+@media(max-width:480px) {{
+ .rejilla {{grid-template-columns:1fr}}
+ .tarjeta-imagen {{height:200px}}
+ .contenedor {{padding:0 14px}}
+}}
+</style>
+</head>
+<body>
+<header class="masthead">
+ <div class="cabecera">
+  <div class="marca">CEV <span>NOTICIAS</span></div>
+  <div class="eslogan">Información · Actualidad · Periodismo</div>
+  <div class="fecha">{fecha_actual()} · Colombia</div>
+ </div>
+ <nav><div class="nav-interior">
+  <a href="../index.html">Inicio</a>
+  {''.join(f'<a href="../index.html#{quote(s)}">{escapar(s)}</a>' for s in SECCIONES)}
+ </div></nav>
+</header>
+{contenido}
+<footer class="pie">
+ <strong>CEV NOTICIAS</strong>
+ <p>Información organizada para nuestros lectores.</p>
+ <p>Las fuentes consultadas se identifican al final de cada artículo.</p>
+</footer>
+</body>
+</html>"""
+
+
+def crear_articulo(noticia):
+    identificador = noticia["id"]
+    titulo = escapar(noticia.get("titulo"))
+    resumen = escapar(noticia.get("resumen"))
+    categoria = escapar(noticia.get("categoria"))
+    contenido = str(noticia.get("contenido") or "").strip()
+    imagen = imagen_segura(noticia.get("imagen"))
+
+    if imagen:
+        foto = f'<img class="foto" src="{imagen}" alt="{titulo}">'
+    else:
+        foto = ""
+
+    parrafos = "".join(
+        f"<p>{escapar(p.strip())}</p>"
+        for p in contenido.split("\n\n") if p.strip()
+    )
+
+    referencias = []
+    for fuente in noticia.get("fuentes", []):
+        nombre = escapar(fuente.get("nombre", "Fuente consultada"))
+        url = str(fuente.get("url", ""))
+        if url.startswith(("https://", "http://")):
+            referencias.append(
+                f'<li>{nombre}: <a href="{escapar(url)}" '
+                f'target="_blank" rel="noopener noreferrer">Referencia original</a></li>'
+            )
+        else:
+            referencias.append(f"<li>{nombre}</li>")
+
+    cuerpo = f"""
+    <main class="articulo">
+      <a class="leer" href="../index.html">← Volver a CEV NOTICIAS</a>
+      <p class="etiqueta">{categoria}</p>
+      <h1>{titulo}</h1>
+      <p class="bajada">{resumen}</p>
+      <p class="fecha">Publicado: {escapar(noticia.get("fecha", fecha_actual()))}</p>
+      {foto}
+      <div class="cuerpo">{parrafos}</div>
+      <div class="fuentes">
+        <strong>Fuentes consultadas</strong>
+        <ul>{''.join(referencias)}</ul>
+        <p>Artículo de elaboración propia. Las fuentes se presentan para consulta y contraste.</p>
+      </div>
+    </main>
+    """
+
+    pagina = plantilla(titulo, cuerpo, resumen)
+    NOTAS.mkdir(parents=True, exist_ok=True)
+    (NOTAS / f"{identificador}.html").write_text(pagina, encoding="utf-8")
+
+
+def construir():
+    datos = cargar_json(CACHE, {})
+    noticias = datos.get("noticias", [])
+
+    # Cada noticia debe tener contenido suficiente y una categoría válida.
+    validas = []
+    vistos = set()
+
+    for noticia in noticias:
+        titulo = str(noticia.get("titulo", "")).strip()
+        contenido = str(noticia.get("contenido", "")).strip()
+        categoria = noticia.get("categoria", "")
+
+        if not titulo or len(contenido) < 250:
             continue
-        fecha = fecha_de(it.findtext("pubDate"))
-        enlace = (it.findtext("link") or "").strip()
-        titulo = limpiar(it.findtext("title"))
-        if not (fecha and enlace.startswith("http") and titulo):
+        if categoria not in SECCIONES:
             continue
-        if ahora - fecha > timedelta(hours=MAX_HORAS) or fecha > ahora + timedelta(hours=1):
+
+        identificador = noticia.get("id") or slug(titulo)
+        if identificador in vistos:
             continue
-        src = next((x for x in it if x.tag.split("}")[-1] == "source"), None)
-        dominio = urllib.parse.urlparse(src.get("url", "") if src is not None else "").netloc.lower()
-        permitidos = [x.lower() for x in feed.get("permitidos", [])]
-        if permitidos and not any(dominio == p or dominio.endswith("." + p) for p in permitidos):
+
+        noticia["id"] = identificador
+        noticia.setdefault("fecha", fecha_actual())
+        noticia.setdefault("resumen", contenido[:220])
+        noticia.setdefault("fuentes", [])
+
+        vistos.add(identificador)
+        validas.append(noticia)
+        crear_articulo(noticia)
+
+    SITE.mkdir(parents=True, exist_ok=True)
+
+    destacada = validas[0] if validas else None
+    if destacada:
+        imagen = imagen_segura(destacada.get("imagen"))
+        visual = (
+            f'<img src="{imagen}" alt="{escapar(destacada.get("titulo"))}">'
+            if imagen else '<div class="imagen-vacia">CEV NOTICIAS</div>'
+        )
+        hero = f"""
+        <section class="destacada">
+          {visual}
+          <div class="destacada-texto">
+            <span class="etiqueta">Noticia destacada · {escapar(destacada["categoria"])}</span>
+            <h2>{escapar(destacada["titulo"])}</h2>
+            <p>{escapar(destacada["resumen"])}</p>
+            <a class="boton" href="notas/{escapar(destacada["id"])}.html">Leer artículo</a>
+          </div>
+        </section>
+        """
+    else:
+        hero = '<div class="vacio">Estamos preparando las próximas noticias. Vuelve pronto.</div>'
+
+    bloques = []
+    for seccion in SECCIONES:
+        grupo = [
+            n for n in validas
+            if n["categoria"] == seccion and n is not destacada
+        ]
+        if not grupo:
             continue
-        fuente = feed.get("fuente") or (limpiar(src.text) if src is not None else "")
-        if not fuente:
-            continue
-        sufijo = " - " + fuente
-        if titulo.endswith(sufijo):
-            titulo = titulo[:-len(sufijo)].strip()
-        resumen = limpiar(it.findtext("description"))[:700]
-        salida.append({"cat": feed["categoria"], "fuente": fuente, "titulo": titulo,
-                       "link": enlace, "fecha": fecha.isoformat(), "resumen": resumen})
-    print(f"RSS {nombre}: {len(salida)} noticias")
-    return salida
+        bloques.append(
+            f'<section id="{quote(seccion)}">'
+            f'<h2 class="titulo-seccion">{escapar(seccion)}</h2>'
+            f'<div class="rejilla">{"".join(tarjeta(n) for n in grupo)}</div>'
+            f'</section>'
+        )
 
-def hace(fecha, ahora):
-    m = max(1, int((ahora-fecha).total_seconds()//60))
-    return f"hace {m} min" if m < 60 else (f"hace {m//60} h" if m < 1440 else f"hace {m//1440} d")
+    contenido = f"""
+    <main class="contenedor">
+      <h2 class="titulo-seccion">La actualidad, en un solo lugar</h2>
+      {hero}
+      {''.join(bloques)}
+    </main>
+    """
 
-def tarjeta(n, ahora, clase="card"):
-    propia = bool(n.get("propia"))
-    img = redactor.svg(n["titulo"], n["cat"]) if propia else ""
-    target = "" if propia else ' target="_blank" rel="noopener noreferrer"'
-    resumen = f'<p>{esc(n.get("resumen", ""))}</p>' if n.get("resumen") else ""
-    return (f'<article class="{clase}">{img}<span class="cat">{esc(n["cat"])}</span>'
-            f'<h3><a href="{esc(n["link"])}"{target}>{esc(n["titulo"])}</a></h3>{resumen}'
-            f'<div class="meta"><b>{esc(n["fuente"])}</b> · {hace(n["_fecha"], ahora)}</div></article>')
+    (SITE / "index.html").write_text(
+        plantilla("Portada", contenido), encoding="utf-8"
+    )
+    print(f"Portada creada. Artículos publicados: {len(validas)}")
 
-CSS = """
-:root{--ac:#b3121e;--fg:#171717;--mut:#5b5b5b;--line:#dedede}
-*{box-sizing:border-box}body{margin:0;background:#fff;color:var(--fg);font:16px/1.6 system-ui,-apple-system,"Segoe UI",sans-serif}
-a{color:inherit;text-decoration:none}.wrap{max-width:1120px;margin:auto;padding:0 18px}
-header{border-top:8px solid var(--ac);text-align:center;padding:22px 0 16px}
-.marca{font:700 clamp(38px,8vw,72px)/1 Georgia,serif;margin:0}.fecha{color:var(--mut);font-size:14px;margin-top:10px}
-nav{position:sticky;top:0;background:#fff;border-block:1px solid var(--line);overflow-x:auto;white-space:nowrap;text-align:center;z-index:5}
-nav a{display:inline-block;padding:12px 15px;font-weight:650}section{margin-top:34px;scroll-margin-top:60px}
-h2{font:700 27px/1.2 Georgia,serif;margin:0 0 17px;padding-left:12px;border-left:6px solid var(--ac)}
-h3{font:700 20px/1.3 Georgia,serif;margin:0 0 7px}.grid{display:grid;gap:22px 24px;grid-template-columns:repeat(auto-fill,minmax(265px,1fr))}
-.card{padding-bottom:16px;border-bottom:1px solid var(--line)}.portada{display:grid;gap:28px;grid-template-columns:3fr 2fr;margin-top:28px}
-.principal{padding-bottom:18px;border-bottom:1px solid var(--line)}.principal h3{font-size:clamp(28px,4.5vw,43px);line-height:1.15}
-p{margin:0 0 9px;color:var(--mut)}.cat{display:block;color:var(--ac);font-size:13px;font-weight:750;margin-bottom:5px}
-.meta{font-size:13px;color:var(--mut)}.meta b{color:var(--fg);margin-right:8px}
-footer{margin-top:42px;border-top:1px solid var(--fg);padding:22px 0 48px;color:var(--mut);font-size:14px}
-.card svg,.principal svg{width:100%;height:auto;display:block;margin-bottom:9px}
-@media(max-width:780px){.portada{grid-template-columns:1fr}}
-"""
-
-def pagina(por_cat, portada, ahora):
-    loc = ahora.astimezone(BOGOTA)
-    fecha = f"{DIAS[loc.weekday()]}, {loc.day} de {MESES[loc.month-1]} de {loc.year}. Actualizado a las {loc.hour%12 or 12}:{loc.minute:02d} {'a. m.' if loc.hour<12 else 'p. m.'}"
-    nav = "".join(f'<a href="#{slug(c)}">{esc(c)}</a>' for c in CATEGORIAS)
-    cuerpo = ""
-    if portada:
-        lateral = "".join(tarjeta(n, ahora) for n in portada[1:])
-        cuerpo += f'<div class="portada"><div class="principal">{tarjeta(portada[0], ahora, "principal-card")}</div><div>{lateral}</div></div>'
-    for c in CATEGORIAS:
-        notas = por_cat[c]
-        interior = "".join(tarjeta(n, ahora) for n in notas) if notas else '<p>No hay noticias nuevas en las últimas 72 horas.</p>'
-        cuerpo += f'<section id="{slug(c)}"><h2>{esc(c)}</h2><div class="grid">{interior}</div></section>'
-    pie = '<footer><h2>Acerca de CEV NOTICIAS</h2>Publicamos artículos originales cuando se recupera información suficiente de más de una fuente. Las fuentes consultadas se enlazan al final de cada artículo.</footer>'
-    return ('<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">'
-            '<title>CEV NOTICIAS</title><meta name="description" content="Noticias de Cali, Valle del Cauca, Colombia y el mundo.">'
-            f'<style>{CSS}</style></head><body><header><h1 class="marca">CEV NOTICIAS</h1><div class="fecha">{esc(fecha)}</div></header>'
-            f'<nav>{nav}</nav><main class="wrap">{cuerpo}{pie}</main></body></html>')
-
-def main():
-    feeds = json.loads(Path("feeds.json").read_text(encoding="utf-8"))
-    with ThreadPoolExecutor(max_workers=4) as ex:
-        listas = list(ex.map(descargar, feeds))
-    vistos, notas = set(), []
-    for lista in listas:
-        for n in lista:
-            clave = (n["fuente"].lower(), n["titulo"].lower())
-            if n["link"] in vistos or clave in vistos:
-                continue
-            vistos.add(n["link"]); vistos.add(clave)
-            n["_fecha"] = datetime.fromisoformat(n["fecha"])
-            notas.append(n)
-    if not notas:
-        raise SystemExit("No se encontraron noticias RSS válidas; se conserva la versión anterior.")
-    ahora = datetime.now(timezone.utc)
-    propias, reemplazadas = redactor.generar(notas, CSS, ahora)
-    notas = [n for n in notas if id(n) not in reemplazadas] + propias
-    por_cat = {c: sorted([n for n in notas if n["cat"] == c], key=lambda n:n["_fecha"], reverse=True)[:POR_CATEGORIA] for c in CATEGORIAS}
-    visibles = [n for c in CATEGORIAS for n in por_cat[c]]
-    portada = sorted(visibles, key=lambda n:(bool(n.get("propia")), n["_fecha"]), reverse=True)[:5]
-    Path("site").mkdir(exist_ok=True)
-    Path("site/index.html").write_text(pagina(por_cat, portada, ahora), encoding="utf-8")
-    print(f"Sitio generado: {len(visibles)} noticias; {len(propias)} artículos propios.")
 
 if __name__ == "__main__":
-    main()
+    construir()
