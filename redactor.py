@@ -17,7 +17,7 @@ BASE = os.path.dirname(os.path.abspath(__file__))
 CACHE = os.path.join(BASE, "cache.json")
 FEEDS = os.path.join(BASE, "feeds.json")
 
-MODELO = "gemini-2.5-flash"
+MODELO = "gemini-3.8-flash"
 MAX_NOTICIAS = 20
 MAX_ARTICULOS_ANTERIORES = 150
 MAX_EDAD_HORAS = 72
