@@ -1,6 +1,22 @@
 {
-  "noticias": [],
+  "noticias": [
+    {
+      "id": "d03a2ac22e8dc79a",
+      "titulo": "Murió el exconstituyente y exgobernador Antonio Navarro Wolff",
+      "resumen": "El político, ingeniero sanitario y exconstituyente Antonio José Navarro Wolff falleció el 1 de noviembre a los 78 años. Su trayectoria abarcó la lucha armada, la negociación de paz, la redacción de la Constitución de 1991 y cargos públicos a nivel nacional y local.",
+      "categoria": "Colombia",
+      "contenido": "El 1 de noviembre a las 2:42 p.m. se confirmó el fallecimiento de Antonio José Navarro Wolff, exconstituyente, exgobernador de Nariño y exministro de Salud, a los 78 años.\n\nNavarro Wolff nació el 9 de julio de 1948 en Pasto, Nariño. Se graduó como ingeniero sanitario en la Universidad del Valle en 1972 y realizó estudios de especialización en la Universidad de Loughborough, Inglaterra. Su carrera académica incluyó docencia e investigación en su alma mater.\n\nEn la década de 1970 se unió al Movimiento 19 de Abril (M‑19), llegando a ser segundo comandante. Durante el proceso de diálogo con el gobierno de Belisario Betancur (1984‑1985) coordinó la comisión negociadora de la guerrilla. En mayo de 1985 sufrió un atentado con granada en Cali que le provocó la amputación de una pierna y secuelas en la movilidad de la lengua.\n\nEl 11 de marzo de 1990 se firmó el acuerdo de paz que desmovilizó al M‑19. Tras el asesinato de Carlos Pizarro Leongómez, Navarro Wolff se postuló a la presidencia por la Alianza Democrática M‑19, obteniendo el tercer lugar en las elecciones de ese año.\n\nEn agosto de 1990 fue nombrado ministro de Salud por César Gaviria Trujillo, cargo que renunció en octubre para liderar la lista de su colectivo en la Asamblea Nacional Constituyente. Entre febrero y junio de 1991 ejerció como uno de los tres copresidentes de la Asamblea, junto a Álvaro Gómez Hurtado y Horacio Serpa, encargados de redactar la Constitución Política de Colombia que entró en vigor el 4 de julio de 1991.\n\nEn el ámbito local, dirigió la ciudad de Pasto como alcalde entre 1995 y 1997 y fue gobernador de Nariño de 2008 a 2011. A nivel legislativo, fue representante a la Cámara por Bogotá (1998‑2002) y senador en dos legislaturas (2002‑2006 y 2014‑2018). También ocupó brevemente el cargo de secretario de Gobierno de Bogotá durante la alcaldía de Gustavo Petro en 2012.\n\nLa familia de Navarro Wolff emitió un comunicado pidiendo que los actos de despedida se realicen en la intimidad familiar y solicitó a los medios respetar su duelo. En los días posteriores se anunciará la fecha y hora de la ceremonia fúnebre.\n\nLa muerte de Antonio Navarro Wolff marca el fin de una trayectoria que abarcó la transformación política de Colombia, desde la violencia armada hasta la consolidación de la democracia. Su participación en la redacción de la Constitución y su liderazgo en la transición del M‑19 a la política institucional lo convierten en una figura clave de la historia contemporánea del país.",
+      "imagen": "https://i0.wp.com/www.lasillavacia.com/wp-content/uploads/2026/11/FotoJet-27-1.jpg?fit=1024%2C758&quality=80&strip=all&ssl=1",
+      "verificacion": "Una sola fuente",
+      "fecha": "01/11/2026 · 05:46 PM",
+      "fuentes": [
+        {
+          "nombre": "Portafolio"
+        }
+      ]
+    }
+  ],
   "fecha_solicitudes_groq": "2026-11-01",
-  "solicitudes_groq": 0,
-  "ultima_actualizacion": "2026-11-01T22:44:03.165811+00:00"
+  "solicitudes_groq": 1,
+  "ultima_actualizacion": "2026-11-01T22:46:11.813571+00:00"
 }
