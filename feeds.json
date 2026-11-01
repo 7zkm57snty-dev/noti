@@ -5,24 +5,12 @@
     "url": "https://www.eltiempo.com/rss/colombia.xml"
   },
   {
+    "nombre": "El Tiempo Cali",
+    "url": "https://www.eltiempo.com/rss/colombia_cali.xml"
+  },
+  {
     "nombre": "El Espectador",
     "url": "https://www.elespectador.com/rss/"
-  },
-  {
-    "nombre": "Caracol Radio",
-    "url": "https://caracol.com.co/rss/"
-  },
-  {
-    "nombre": "Blu Radio",
-    "url": "https://www.bluradio.com/rss.xml"
-  },
-  {
-    "nombre": "Noticias RCN",
-    "url": "https://www.noticiasrcn.com/rss.xml"
-  },
-  {
-    "nombre": "Semana",
-    "url": "https://www.semana.com/rss/"
   },
   {
     "nombre": "La Silla Vacía",
@@ -30,7 +18,7 @@
   },
   {
     "nombre": "Portafolio",
-    "url": "https://www.portafolio.co/rss"
+    "url": "https://www.portafolio.co/rss/economia.xml"
   },
   {
     "nombre": "La República",
@@ -46,14 +34,14 @@
   },
   {
     "nombre": "DW Español",
-    "url": "https://rss.dw.com/xml/rss-es-all"
+    "url": "https://rss.dw.com/rdf/rss-sp-all"
   },
   {
     "nombre": "Xataka",
-    "url": "https://www.xataka.com/index.xml"
+    "url": "https://feeds.weblogssl.com/xataka2"
   },
   {
-    "nombre": "Futbolred",
-    "url": "https://www.futbolred.com/rss.xml"
+    "nombre": "El País Colombia",
+    "url": "https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/section/america-colombia/portada"
   }
 ]
