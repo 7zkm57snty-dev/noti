@@ -1,8 +1,11 @@
 import json
 import re
 import html
+import mimetypes
 from pathlib import Path
 from datetime import datetime, timezone, timedelta
+from urllib.request import Request, urlopen
+from urllib.parse import urlsplit, unquote
 
 BASE = Path(__file__).parent
 SITE = BASE / "site"
@@ -11,6 +14,7 @@ CACHE = BASE / "cache.json"
 
 SECCIONES = ["Cali", "Valle del Cauca", "Colombia", "Internacional", "Deportes", "Tecnología", "Economía", "Tendencias", "Humor y opinión"]
 COLOMBIA_TZ = timezone(timedelta(hours=-5))
+IMAGENES_PROCESADAS = {}
 
 
 def escapar(valor):
@@ -98,34 +102,75 @@ def portada_svg_noticia(noticia):
     return f"https://cevnoticias.com/imagenes/{identificador}.svg"
 
 
+def foto_local_noticia(noticia):
+    """
+    Descarga en el momento de construir el sitio la foto reutilizable.
+    Evita depender de que Wikimedia u otro servidor permita hotlinking.
+    """
+    identificador = slug(noticia.get("id") or noticia.get("titulo") or "noticia")
+    if identificador in IMAGENES_PROCESADAS:
+        return IMAGENES_PROCESADAS[identificador]
+
+    url = str(noticia.get("imagen") or "").strip()
+    if not url.startswith(("https://", "http://")):
+        IMAGENES_PROCESADAS[identificador] = ""
+        return ""
+
+    host = (urlsplit(url).hostname or "").lower()
+    if host in ("cevnoticias.com", "www.cevnoticias.com"):
+        IMAGENES_PROCESADAS[identificador] = ""
+        return ""
+
+    extensiones = {
+        "image/jpeg": ".jpg",
+        "image/png": ".png",
+        "image/webp": ".webp",
+        "image/gif": ".gif"
+    }
+    try:
+        solicitud = Request(
+            url,
+            headers={
+                "User-Agent": "Mozilla/5.0 (compatible; CEVNoticias/1.0; https://cevnoticias.com/)",
+                "Accept": "image/avif,image/webp,image/apng,image/*,*/*;q=0.8"
+            }
+        )
+        with urlopen(solicitud, timeout=18) as respuesta:
+            tipo = respuesta.headers.get_content_type().lower()
+            extension = extensiones.get(tipo)
+            datos = respuesta.read(15 * 1024 * 1024 + 1)
+
+        if not extension or len(datos) < 2048 or len(datos) > 15 * 1024 * 1024:
+            raise ValueError(f"Respuesta de imagen no válida: {tipo}, {len(datos)} bytes")
+
+        carpeta = SITE / "imagenes"
+        carpeta.mkdir(parents=True, exist_ok=True)
+        nombre = f"{identificador}{extension}"
+        (carpeta / nombre).write_bytes(datos)
+        local = f"/imagenes/{nombre}"
+        IMAGENES_PROCESADAS[identificador] = local
+        print(f"Fotografía descargada para CEV: {identificador}{extension}")
+        return local
+    except Exception as error:
+        print(f"No se pudo descargar foto de {identificador}; se usará portada CEV: {error}")
+        IMAGENES_PROCESADAS[identificador] = ""
+        return ""
+
+
 def imagen_noticia(noticia, alt="", clase="", loading="lazy", prioridad=False):
     """
-    Prioriza la fotografía editorial y utiliza una portada CEV local como
-    respaldo para evitar espacios vacíos cuando un servidor externo falla.
+    Todas las imágenes se sirven desde el propio sitio.
+    Si falla la descarga de la fotografía, se genera un SVG editorial CEV.
     """
-    principal = imagen_segura(noticia.get("imagen"))
-    respaldo = imagen_segura(noticia.get("imagen_instagram"))
-    grafica = portada_svg_noticia(noticia)
-    if not respaldo or respaldo == principal:
-        respaldo = grafica
-    origen = principal or respaldo
-
+    origen = foto_local_noticia(noticia) or portada_svg_noticia(noticia)
     clases = f' class="{escapar(clase)}"' if clase else ""
     prioridad_html = ' fetchpriority="high"' if prioridad else ""
-    respaldo_html = ""
-    if respaldo and respaldo != origen:
-        respaldo_html = (
-            f' data-fallback="{respaldo}"'
-            ' onerror="this.onerror=null;this.src=this.dataset.fallback;"'
-        )
-
     return (
         f'<img{clases} src="{origen}" alt="{escapar(alt)}" '
-        f'loading="{escapar(loading)}" decoding="async"{prioridad_html}'
-        f'{respaldo_html}>'
+        f'loading="{escapar(loading)}" decoding="async"{prioridad_html}>'
     )
 
-def tarjeta(noticia, posicion=0):
+def tarjeta(noticia, posicion=0, ruta_raiz=""):
     titulo = escapar(noticia.get("titulo"))
     resumen = escapar(noticia.get("resumen"))
     categoria = escapar(noticia.get("categoria"))
@@ -133,7 +178,7 @@ def tarjeta(noticia, posicion=0):
     visual = imagen_noticia(noticia, alt=titulo) or f'<div class="portada-sin-foto"><strong>CEV</strong><span>{categoria}</span></div>'
     return f"""
     <article class="tarjeta tarjeta-vertical">
-      <a class="tarjeta-enlace" href="notas/{identificador}.html">
+      <a class="tarjeta-enlace" href="{ruta_raiz}notas/{identificador}.html">
         <div class="tarjeta-imagen">{visual}</div>
         <div class="tarjeta-contenido">
           <span class="etiqueta">{categoria}</span>
@@ -223,13 +268,13 @@ def modulo_express(items):
     </section>"""
 
 
-def lista_vertical(noticias, titulares, categoria=None, excluir=None):
+def lista_vertical(noticias, titulares, categoria=None, excluir=None, ruta_raiz=""):
     excluir = excluir or set()
     elementos = []
     for noticia in noticias:
         if noticia.get("id") in excluir or (categoria and noticia.get("categoria") != categoria):
             continue
-        elementos.append((fecha_ordenable(noticia), tarjeta(noticia)))
+        elementos.append((fecha_ordenable(noticia), tarjeta(noticia, ruta_raiz=ruta_raiz)))
     for titular in titulares:
         if categoria and titular.get("categoria") != categoria:
             continue
@@ -763,7 +808,7 @@ def crear_pagina_titular_rss(titular):
 def crear_pagina_seccion(seccion, noticias, titulares):
     nombre = escapar(seccion)
     slug_seccion = slug(seccion)
-    tarjetas = lista_vertical(noticias, titulares, categoria=seccion)
+    tarjetas = lista_vertical(noticias, titulares, categoria=seccion, ruta_raiz="../")
     listado = tarjetas or '<div class="vacio">No hay noticias disponibles en esta sección por ahora.</div>'
     cuerpo = f"""
     <main class="contenedor pagina-seccion">
@@ -787,6 +832,82 @@ def crear_pagina_seccion(seccion, noticias, titulares):
     carpeta = SITE / "secciones"
     carpeta.mkdir(parents=True, exist_ok=True)
     (carpeta / f"{slug_seccion}.html").write_text(pagina, encoding="utf-8")
+
+
+
+
+
+def validar_archivos_publicados(noticias):
+    """
+    Comprueba que cada artículo, categoría e imagen apuntados exista
+    físicamente dentro del artefacto que se va a desplegar.
+    """
+    faltantes = []
+    esperados = [SITE / "index.html"]
+    esperados.extend(NOTAS / f"{noticia['id']}.html" for noticia in noticias)
+    esperados.extend(SITE / "secciones" / f"{slug(seccion)}.html" for seccion in SECCIONES)
+    esperados.extend(SITE / "imagenes" / f"{slug(noticia['id'])}.svg" for noticia in noticias)
+
+    for ruta in esperados:
+        if not ruta.is_file() or ruta.stat().st_size == 0:
+            faltantes.append(str(ruta.relative_to(SITE)))
+
+    class RecolectorEnlaces(html.parser.HTMLParser):
+        def __init__(self):
+            super().__init__()
+            self.urls = []
+
+        def handle_starttag(self, etiqueta, atributos):
+            datos = dict(atributos)
+            for campo in ("href", "src"):
+                valor = datos.get(campo, "")
+                if valor:
+                    self.urls.append(valor)
+
+    paginas = [SITE / "index.html"]
+    paginas.extend(NOTAS / f"{noticia['id']}.html" for noticia in noticias)
+    paginas.extend(SITE / "secciones" / f"{slug(seccion)}.html" for seccion in SECCIONES)
+
+    for pagina in paginas:
+        if not pagina.is_file():
+            continue
+        parser = RecolectorEnlaces()
+        parser.feed(pagina.read_text(encoding="utf-8"))
+        for url in parser.urls:
+            if url.startswith(("#", "mailto:", "tel:", "javascript:", "data:")):
+                continue
+            partes = urlsplit(url)
+            if partes.scheme in ("http", "https"):
+                if (partes.hostname or "").lower() not in ("cevnoticias.com", "www.cevnoticias.com"):
+                    continue
+                destino_relativo = unquote(partes.path).lstrip("/")
+                destino = SITE / destino_relativo
+            elif partes.path.startswith("/"):
+                destino = SITE / unquote(partes.path).lstrip("/")
+            else:
+                destino = (pagina.parent / unquote(partes.path)).resolve()
+
+            if destino.is_dir():
+                destino = destino / "index.html"
+            try:
+                destino.relative_to(SITE.resolve())
+            except ValueError:
+                continue
+            if partes.path and not destino.is_file():
+                faltantes.append(
+                    f"{pagina.relative_to(SITE)} -> {url}"
+                )
+
+    if faltantes:
+        resumen = "\n".join(f" - {ruta}" for ruta in faltantes[:30])
+        raise RuntimeError(
+            "La validación detectó archivos o enlaces internos rotos:\n" + resumen
+        )
+
+    print(
+        f"Validación completa: {len(noticias)} artículos, "
+        f"{len(SECCIONES)} secciones y rutas internas verificadas."
+    )
 
 
 def construir():
@@ -903,6 +1024,7 @@ def construir():
     sitemap = '<?xml version="1.0" encoding="UTF-8"?>\\n' + '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\\n' + ''.join(f'<url><loc>{html.escape(url)}</loc></url>\\n' for url in urls) + '</urlset>\\n'
     (SITE / "sitemap.xml").write_text(sitemap, encoding="utf-8")
     (SITE / "robots.txt").write_text("User-agent: *\\nAllow: /\\nSitemap: https://cevnoticias.com/sitemap.xml\\n", encoding="utf-8")
+    validar_archivos_publicados(validas)
     print(f"Portada creada. Artículos propios: {len(validas)} · Titulares de fuentes: {len(titulares_rss)}")
 
 
