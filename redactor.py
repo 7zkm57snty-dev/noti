@@ -32,7 +32,9 @@ CATEGORIAS = [
     "Internacional",
     "Deportes",
     "Tecnología",
-    "Economía"
+    "Economía",
+    "Tendencias",
+    "Humor y opinión"
 ]
 
 IGNORAR = {
@@ -369,6 +371,20 @@ REGLAS PERIODÍSTICAS:
 12. No rellenes el texto con opiniones o información inventada.
 13. Si no existe suficiente información para un artículo
     desarrollado, responde con "descartar": true.
+14. Para accidentes, homicidios, robos, hurtos, capturas,
+    víctimas, denuncias y controversias políticas, exige
+    corroboración de al menos dos fuentes independientes.
+    Si solo hay una fuente, descarta el artículo.
+15. Distingue los comunicados oficiales de los hechos
+    confirmados de manera independiente. Atribuye siempre
+    la información a la entidad que la comunica.
+16. La categoría "Tendencias" solo se usa cuando el tema
+    muestra atención creciente o aparece en varias fuentes.
+17. "Humor y opinión" se reserva para sátira y humor
+    claramente identificados; nunca inventes hechos ni
+    presentes una broma como noticia real.
+18. Mantén el humor ocasional y minoritario frente a
+    la cobertura informativa.
 
 La extensión deseada es de 350 a 550 palabras,
 pero nunca debes inventar información para alcanzar esa extensión.
