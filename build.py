@@ -81,9 +81,12 @@ def tarjeta(noticia, posicion=0):
 
 
 def plantilla(titulo, contenido, descripcion="CEV NOTICIAS", ruta_raiz="", extra_head=""):
+    datos_navegacion = cargar_json(CACHE, {})
+    noticias_navegacion = datos_navegacion.get("noticias", []) if isinstance(datos_navegacion, dict) else []
+    secciones_disponibles = {n.get("categoria") for n in noticias_navegacion if isinstance(n, dict)}
     enlaces = "".join(
         f'<a href="https://cevnoticias.com/#categoria-{slug(s)}">{escapar(s)}</a>'
-        for s in SECCIONES
+        for s in SECCIONES if s in secciones_disponibles
     )
     return f"""<!DOCTYPE html>
 <html lang="es">
@@ -791,7 +794,7 @@ def construir():
         imagen = imagen_segura(principal.get("imagen"))
         visual = f'<img src="{imagen}" alt="{escapar(principal.get("titulo"))}" fetchpriority="high">' if imagen else '<div class="imagen-vacia">CEV</div>'
         principal_html = f"""
-        <article class="destacada">
+        <article class="destacada" id="categoria-{slug(principal.get('categoria', ''))}">
          <a href="notas/{escapar(principal['id'])}.html">
           <div class="destacada-visual">{visual}</div>
           <div class="destacada-texto">
