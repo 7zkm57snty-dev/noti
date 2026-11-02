@@ -404,6 +404,19 @@ No clasifiques una noticia local como internacional.
 No clasifiques una noticia deportiva en Colombia si
 su tema principal es el deporte.
 
+ESTADO DE LA INFORMACIÓN:
+- Usa "confirmada" cuando los hechos centrales estén respaldados
+  por las fuentes disponibles y no haya contradicciones relevantes.
+- Usa "en_desarrollo" cuando el acontecimiento siga ocurriendo,
+  las autoridades aún estén verificando datos o el balance pueda cambiar.
+- Usa "informacion_preliminar" cuando los datos centrales procedan
+  de reportes iniciales, versiones no confirmadas o información parcial.
+- No marques una noticia como preliminar solo por tener una fuente:
+  evalúa si esa fuente respalda claramente los hechos publicados.
+- Nunca inventes confirmaciones, cifras, causas ni responsables.
+- Si una afirmación relevante no está confirmada, atribúyela a su fuente
+  y marca el estado correspondiente.
+
 Devuelve exclusivamente JSON válido con esta estructura:
 
 {{
@@ -412,6 +425,7 @@ Devuelve exclusivamente JSON válido con esta estructura:
   "titular_instagram": "Titular breve, llamativo y fiel a los hechos",
   "resumen": "Resumen de la noticia",
   "categoria": "Categoría",
+  "estado_informacion": "confirmada | en_desarrollo | informacion_preliminar",
   "contenido": "Artículo completo con párrafos separados"
 }}
 """
@@ -452,12 +466,17 @@ Devuelve exclusivamente JSON válido con esta estructura:
         print("Artículo demasiado corto.")
         return None
 
+    estado_informacion = str(articulo.get("estado_informacion", "confirmada")).strip().lower()
+    if estado_informacion not in ("confirmada", "en_desarrollo", "informacion_preliminar"):
+        estado_informacion = "confirmada"
+
     return {
         "titulo": titulo,
         "titular_instagram": titular_instagram or titulo,
         "resumen": resumen,
         "categoria": articulo["categoria"],
         "contenido": contenido,
+        "estado_informacion": estado_informacion,
         "descripcion_instagram": str(articulo.get("descripcion_instagram", "")).strip()
     }
 
@@ -811,6 +830,7 @@ def ejecutar():
                 "resumen": articulo["resumen"],
                 "categoria": articulo["categoria"],
                 "contenido": articulo["contenido"],
+                "estado_informacion": articulo.get("estado_informacion", "confirmada"),
                 "imagen": imagen_info["url"],
                 "imagen_credito": imagen_info,
                 "imagen_instagram": portada_social,
