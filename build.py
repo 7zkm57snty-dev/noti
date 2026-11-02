@@ -54,13 +54,41 @@ def imagen_segura(url):
     return escapar(url) if url.startswith(("https://", "http://")) else ""
 
 
+def imagen_noticia(noticia, alt="", clase="", loading="lazy", prioridad=False):
+    """
+    Usa la fotografía editorial y conserva la portada CEV como respaldo.
+    Así una imagen externa que falle no deja la noticia sin recurso visual.
+    """
+    principal = imagen_segura(noticia.get("imagen"))
+    respaldo = imagen_segura(noticia.get("imagen_instagram"))
+    origen = principal or respaldo
+    if not origen:
+        return ""
+
+    clases = f' class="{escapar(clase)}"' if clase else ""
+    prioridad_html = ' fetchpriority="high"' if prioridad else ""
+    respaldo_html = ""
+    if respaldo and respaldo != origen:
+        respaldo_html = (
+            f' data-fallback="{respaldo}"'
+            ' onerror="this.onerror=null;if(this.dataset.fallback){'
+            'this.src=this.dataset.fallback;this.dataset.fallback=\'\';}'
+            'else{this.hidden=true;}"'
+        )
+
+    return (
+        f'<img{clases} src="{origen}" alt="{escapar(alt)}" '
+        f'loading="{escapar(loading)}" decoding="async"{prioridad_html}'
+        f'{respaldo_html}>'
+    )
+
+
 def tarjeta(noticia, posicion=0):
     titulo = escapar(noticia.get("titulo"))
     resumen = escapar(noticia.get("resumen"))
     categoria = escapar(noticia.get("categoria"))
-    imagen = imagen_segura(noticia.get("imagen"))
     identificador = escapar(noticia.get("id"))
-    visual = f'<img src="{imagen}" alt="{titulo}" loading="lazy">' if imagen else f'<div class="portada-sin-foto"><strong>CEV</strong><span>{categoria}</span></div>'
+    visual = imagen_noticia(noticia, alt=titulo) or f'<div class="portada-sin-foto"><strong>CEV</strong><span>{categoria}</span></div>'
     return f"""
     <article class="tarjeta tarjeta-vertical">
       <a class="tarjeta-enlace" href="notas/{identificador}.html">
@@ -100,14 +128,13 @@ def tarjeta_rss(titular):
 def tarjeta_express(item):
     titulo = escapar(item.get("titulo"))
     categoria = escapar(item.get("categoria"))
-    imagen = imagen_segura(item.get("imagen"))
     identificador = escapar(item.get("id"))
     es_rss = item.get("tipo") == "rss"
     href = f"notas/actualidad-{identificador}.html" if es_rss else f"notas/{identificador}.html"
     resumen = escapar(item.get("resumen", "")) if not es_rss else "Sigue esta noticia y consulta la información completa."
     fecha = fecha_ordenable(item)
     fecha_texto = datetime.fromtimestamp(fecha, COLOMBIA_TZ).strftime("%d/%m · %I:%M %p") if fecha else ""
-    visual = f'<img src="{imagen}" alt="" loading="lazy">' if imagen else '<div class="express-foto-vacia">CEV</div>'
+    visual = imagen_noticia(item, alt="") or '<div class="express-foto-vacia">CEV</div>'
     sello = "CEV NOTICIAS · EXPRESS" if not es_rss else "CEV NOTICIAS · EXPRESS"
     return f"""
     <article class="express-slide">
@@ -499,19 +526,64 @@ body.noche .relacionadas .tarjeta{{background:#222;border-color:#484848}}
  const navAnterior=document.getElementById('nav-anterior');
  const navSiguiente=document.getElementById('nav-siguiente');
  if(nav){{
-  const moverNav=(direccion)=>nav.scrollBy({{left:direccion*Math.max(220,nav.clientWidth*0.72),behavior:'smooth'}});
+  const maxScroll=()=>Math.max(0,nav.scrollWidth-nav.clientWidth);
+  const actualizarNav=()=>{{
+   const maximo=maxScroll();
+   if(navAnterior)navAnterior.disabled=maximo<=4||nav.scrollLeft<=2;
+   if(navSiguiente)navSiguiente.disabled=maximo<=4||nav.scrollLeft>=maximo-2;
+  }};
+  const moverNav=(direccion)=>{{
+   const maximo=maxScroll();
+   if(maximo<=4)return;
+   const enlaces=[...nav.querySelectorAll('a[data-seccion]')];
+   const rectNav=nav.getBoundingClientRect();
+   const centro=rectNav.left+rectNav.width/2;
+   let destino=null;
+   if(direccion>0){{
+    destino=enlaces.find(enlace=>enlace.getBoundingClientRect().right>centro+8);
+   }}else{{
+    destino=[...enlaces].reverse().find(enlace=>enlace.getBoundingClientRect().left<centro-8);
+   }}
+   if(destino){{
+    const rect=destino.getBoundingClientRect();
+    const objetivo=nav.scrollLeft+(rect.left-rectNav.left)-(nav.clientWidth-rect.width)/2;
+    nav.scrollTo({{left:Math.min(maximo,Math.max(0,objetivo)),behavior:'smooth'}});
+   }}else{{
+    nav.scrollTo({{left:direccion>0?maximo:0,behavior:'smooth'}});
+   }}
+   window.setTimeout(actualizarNav,350);
+  }};
   navAnterior?.addEventListener('click',()=>moverNav(-1));
   navSiguiente?.addEventListener('click',()=>moverNav(1));
-  const actualizarNav=()=>{{
-   const maximo=nav.scrollWidth-nav.clientWidth;
-   if(navAnterior)navAnterior.disabled=nav.scrollLeft<=2;
-   if(navSiguiente)navSiguiente.disabled=nav.scrollLeft>=maximo-2;
-  }};
   nav.addEventListener('scroll',actualizarNav,{{passive:true}});
-  window.addEventListener('resize',actualizarNav);
-  const activa=nav.querySelector('.nav-activa');
-  if(activa)nav.scrollLeft=Math.max(0,activa.offsetLeft-(nav.clientWidth-activa.offsetWidth)/2);
-  actualizarNav();
+  nav.addEventListener('keydown',evento=>{{
+   if(evento.key==='ArrowRight'){{evento.preventDefault();moverNav(1);}}
+   if(evento.key==='ArrowLeft'){{evento.preventDefault();moverNav(-1);}}
+  }});
+  nav.querySelectorAll('a[data-seccion]').forEach(enlace=>{{
+   enlace.addEventListener('click',()=>{{
+    nav.querySelectorAll('a[data-seccion]').forEach(item=>{{
+     item.classList.remove('nav-activa');
+     item.removeAttribute('aria-current');
+    }});
+    enlace.classList.add('nav-activa');
+    enlace.setAttribute('aria-current','page');
+   }});
+  }});
+  const centrarActiva=()=>{{
+   const activa=nav.querySelector('.nav-activa');
+   if(!activa)return;
+   const rectNav=nav.getBoundingClientRect();
+   const rect=activa.getBoundingClientRect();
+   const objetivo=nav.scrollLeft+(rect.left-rectNav.left)-(nav.clientWidth-rect.width)/2;
+   nav.scrollTo({{left:Math.max(0,Math.min(maxScroll(),objetivo)),behavior:'auto'}});
+  }};
+  const recalcular=()=>{{centrarActiva();actualizarNav();}};
+  window.addEventListener('resize',recalcular);
+  window.addEventListener('load',recalcular,{{once:true}});
+  if('ResizeObserver' in window){{new ResizeObserver(actualizarNav).observe(nav);}}
+  requestAnimationFrame(recalcular);
+  document.fonts?.ready?.then(recalcular);
  }}
  const barra=document.getElementById('progreso-lectura'),arriba=document.getElementById('volver-arriba');
  function actualizar(){{const max=document.documentElement.scrollHeight-window.innerHeight;if(barra)barra.style.width=(max>0?(window.scrollY/max)*100:0)+'%';if(arriba)arriba.hidden=window.scrollY<450;}}
@@ -529,8 +601,7 @@ def crear_articulo(noticia, noticias=None):
     resumen = escapar(noticia.get("resumen"))
     categoria = escapar(noticia.get("categoria"))
     contenido = str(noticia.get("contenido") or "").strip()
-    imagen = imagen_segura(noticia.get("imagen"))
-    foto = f'<img class="foto" src="{imagen}" alt="{titulo}" loading="lazy">' if imagen else f'<div class="portada-sin-foto portada-ficha"><strong>CEV NOTICIAS</strong><span>{categoria}</span></div>'
+    foto = imagen_noticia(noticia, alt=titulo, clase="foto", loading="eager") or f'<div class="portada-sin-foto portada-ficha"><strong>CEV NOTICIAS</strong><span>{categoria}</span></div>'
     credito = noticia.get("imagen_credito") or {}
     atribucion_imagen = ""
     if imagen and credito:
@@ -710,8 +781,12 @@ def construir():
     principal = validas[0] if validas else None
     laterales = validas[1:4]
     if principal:
-        imagen = imagen_segura(principal.get("imagen"))
-        visual = f'<img src="{imagen}" alt="{escapar(principal.get("titulo"))}" fetchpriority="high">' if imagen else '<div class="imagen-vacia">CEV</div>'
+        visual = imagen_noticia(
+            principal,
+            alt=principal.get("titulo", ""),
+            loading="eager",
+            prioridad=True
+        ) or '<div class="imagen-vacia">CEV</div>'
         principal_html = f"""
         <article class="destacada">
          <a href="notas/{escapar(principal['id'])}.html">
@@ -757,14 +832,17 @@ def construir():
         item["tipo"] = "propia"
         candidatos_express.append(item)
     candidatos_express.sort(key=fecha_ordenable, reverse=True)
-    noticias_express = candidatos_express[:5]
+    # Express recorre todas las noticias propias, no solo las primeras cinco.
+    noticias_express = candidatos_express
     ids_express = {item["id"] for item in noticias_express}
 
     express_html = modulo_express(noticias_express)
+    # La lista completa queda disponible bajo Express; las destacadas se repiten
+    # allí para que ninguna noticia dependa exclusivamente del carrusel.
     lista_portada = lista_vertical(
         validas,
         [],
-        excluir=ids_express | ({principal["id"]} if principal else set())
+        excluir=({principal["id"]} if principal else set())
     )
     contenido = (
         f'{express_html}'
