@@ -266,7 +266,7 @@ body.noche .nav-flecha:hover:not(:disabled){{background:#3a2426;border-color:#ff
 .rejilla.rejilla-categorias{{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px;width:100%;max-width:100%;overflow:visible;padding:0;scroll-snap-type:none;touch-action:auto}}
 .rejilla.rejilla-categorias .tarjeta{{flex:initial;width:auto;min-width:0}}
 .bloque-categoria{{overflow:visible}}
-.nav-interior{{justify-content:center;overflow-x:auto;scroll-behavior:smooth}}
+.nav-interior{{justify-content:flex-start;overflow-x:auto;scroll-behavior:smooth}}
 .ficha-actualidad .credito-fuente{{margin-top:36px}}
 .ficha-actualidad .credito-fuente .boton{{display:inline-flex;padding:12px 0}}
 .nota-atribucion{{font-size:11px;color:var(--suave);line-height:1.65;margin-top:18px}}
@@ -509,6 +509,8 @@ body.noche .relacionadas .tarjeta{{background:#222;border-color:#484848}}
   }};
   nav.addEventListener('scroll',actualizarNav,{{passive:true}});
   window.addEventListener('resize',actualizarNav);
+  const activa=nav.querySelector('.nav-activa');
+  if(activa)nav.scrollLeft=Math.max(0,activa.offsetLeft-(nav.clientWidth-activa.offsetWidth)/2);
   actualizarNav();
  }}
  const barra=document.getElementById('progreso-lectura'),arriba=document.getElementById('volver-arriba');
