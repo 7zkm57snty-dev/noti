@@ -4,6 +4,8 @@ import re
 import json
 import time
 import hashlib
+from pathlib import Path
+from PIL import Image, ImageDraw, ImageFont
 import requests
 import feedparser
 import trafilatura
@@ -24,6 +26,7 @@ MAX_ARTICULOS_POR_EJECUCION = 2
 MAX_SOLICITUDES_DIARIAS = 18
 MAX_ARTICULOS_ANTERIORES = 150
 MAX_EDAD_HORAS = 168
+SITE = Path(BASE) / "site"
 
 CATEGORIAS = [
     "Cali",
@@ -374,7 +377,9 @@ REGLAS PERIODÍSTICAS:
 14. Para accidentes, homicidios, robos, hurtos, capturas,
     víctimas, denuncias y controversias políticas, exige
     corroboración de al menos dos fuentes independientes.
-    Si solo hay una fuente, descarta el artículo.
+    Si solo hay una fuente, descarta el artículo. En noticias
+    generales de bajo riesgo puede bastar una fuente fiable,
+    siempre atribuyendo la información.
 15. Distingue los comunicados oficiales de los hechos
     confirmados de manera independiente. Atribuye siempre
     la información a la entidad que la comunica.
@@ -385,6 +390,10 @@ REGLAS PERIODÍSTICAS:
     presentes una broma como noticia real.
 18. Mantén el humor ocasional y minoritario frente a
     la cobertura informativa.
+19. Crea una descripción independiente para Instagram, breve,
+    atractiva y fiel a los hechos. No copies el resumen literalmente.
+    Usa como máximo un emoji, ubicación solo si está confirmada
+    y entre 3 y 5 hashtags pertinentes. No inventes datos.
 
 La extensión deseada es de 350 a 550 palabras,
 pero nunca debes inventar información para alcanzar esa extensión.
@@ -427,14 +436,16 @@ Devuelve exclusivamente JSON válido con esta estructura:
                             "type": "string",
                             "enum": CATEGORIAS
                         },
-                        "contenido": {"type": "string"}
+                        "contenido": {"type": "string"},
+                        "descripcion_instagram": {"type": "string"}
                     },
                     "required": [
                         "descartar",
                         "titulo",
                         "resumen",
                         "categoria",
-                        "contenido"
+                        "contenido",
+                        "descripcion_instagram"
                     ],
                     "additionalProperties": False
                 }
@@ -474,8 +485,76 @@ Devuelve exclusivamente JSON válido con esta estructura:
         "titulo": titulo,
         "resumen": resumen,
         "categoria": articulo["categoria"],
-        "contenido": contenido
+        "contenido": contenido,
+        "descripcion_instagram": str(articulo.get("descripcion_instagram", "")).strip()
     }
+
+
+
+def crear_portada_instagram(identificador, titulo, categoria):
+    carpeta = SITE / "social"
+    carpeta.mkdir(parents=True, exist_ok=True)
+    ruta = carpeta / f"{identificador}.jpg"
+    imagen = Image.new("RGB", (1080, 1080), "#171717")
+    d = ImageDraw.Draw(imagen)
+    try:
+        grande = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSerif-Bold.ttf", 72)
+        pequena = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf", 30)
+    except OSError:
+        grande = ImageFont.load_default()
+        pequena = ImageFont.load_default()
+    d.rectangle((0, 0, 1080, 18), fill="#b5282f")
+    d.text((75, 75), "CEV NOTICIAS", font=pequena, fill="white")
+    d.text((75, 150), str(categoria).upper()[:35], font=pequena, fill="#e14a50")
+    lineas, actual = [], ""
+    for palabra in str(titulo).split():
+        prueba = (actual + " " + palabra).strip()
+        if d.textbbox((0, 0), prueba, font=grande)[2] > 920 and actual:
+            lineas.append(actual)
+            actual = palabra
+        else:
+            actual = prueba
+    if actual:
+        lineas.append(actual)
+    y = 300
+    for linea in lineas[:6]:
+        d.text((75, y), linea, font=grande, fill="white")
+        y += 105
+    d.line((75, 930, 1005, 930), fill="#b5282f", width=5)
+    d.text((75, 960), "PERIODISMO · CONTEXTO · ACTUALIDAD", font=pequena, fill="#c9c6c0")
+    imagen.save(ruta, "JPEG", quality=90, optimize=True)
+    return f"https://cevnoticias.com/social/{identificador}.jpg"
+
+
+def crear_caption_instagram(articulo, imagen_info):
+    caption = str(articulo.get("descripcion_instagram", "")).strip()
+    if not caption:
+        caption = f"{articulo['titulo']}\\n\\n{articulo['resumen']}"
+    # Mantener las descripciones sobrias: como máximo un emoji.
+    emojis = ["📰", "📍", "🚨", "🔥", "⚠️", "📢", "👇", "➡️", "✅", "⭐"]
+    for emoji in emojis:
+        caption = caption.replace(emoji, "")
+    categoria = articulo.get("categoria", "")
+    lugar = "Cali" if categoria == "Cali" else ("Valle del Cauca" if categoria == "Valle del Cauca" else "")
+    if lugar and lugar.lower() not in caption.lower():
+        caption += f"\\n\\n📍 {lugar}"
+    caption += "\\n\\nLee la noticia completa en cevnoticias.com."
+    hashtags = ["#CEVNoticias", "#Actualidad"]
+    if categoria == "Cali":
+        hashtags += ["#Cali", "#ValleDelCauca"]
+    elif categoria == "Valle del Cauca":
+        hashtags += ["#ValleDelCauca", "#Colombia"]
+    elif categoria == "Deportes":
+        hashtags += ["#Deportes", "#Colombia"]
+    elif categoria == "Tecnología":
+        hashtags += ["#Tecnología", "#Colombia"]
+    elif categoria == "Internacional":
+        hashtags += ["#Internacional"]
+    else:
+        hashtags += ["#Colombia"]
+    if imagen_info:
+        caption += f"\\n\\nImagen: {imagen_info.get('autor', 'Autor no identificado')} · {imagen_info.get('fuente', 'Archivo')} · {imagen_info.get('licencia', '')}"
+    return caption[:1700] + "\\n\\n" + " ".join(hashtags[:5])
 
 
 def identificador_articulo(titulo):
@@ -597,6 +676,9 @@ def ejecutar():
                 articulo["categoria"]
             )
 
+            portada_instagram = crear_portada_instagram(identificador, articulo["titulo"], articulo["categoria"])
+            caption_instagram = crear_caption_instagram(articulo, imagen_info)
+
             nuevas.append({
                 "id": identificador,
                 "titulo": articulo["titulo"],
@@ -605,6 +687,9 @@ def ejecutar():
                 "contenido": articulo["contenido"],
                 "imagen": imagen_info.get("url", "") if imagen_info else "",
                 "imagen_credito": imagen_info if imagen_info else {},
+                "imagen_instagram": imagen_info.get("url") if imagen_info else portada_instagram,
+                "imagen_instagram_tipo": "externa_con_licencia" if imagen_info else "grafica_propia",
+                "descripcion_instagram": caption_instagram,
                 "verificacion": (
                     "Varias fuentes independientes"
                     if len(dominios) >= 2
