@@ -143,7 +143,9 @@ nav a:hover,nav a:focus{{color:var(--rojo)}}
 .articulo h1{{font-family:'Playfair Display',Georgia,serif;font-size:clamp(38px,6vw,66px);line-height:1.03;letter-spacing:-1.8px;margin:13px 0 18px}}
 .articulo .bajada{{font-size:clamp(17px,2vw,21px);line-height:1.6;color:#555;margin:0}}
 .articulo .fecha{{font-size:10px;text-transform:uppercase;letter-spacing:1px;color:#777;margin:22px 0}}
-.articulo .foto{{width:100%;max-height:560px;object-fit:cover;display:block;margin:25px 0 35px}}
+.articulo .foto{{width:100%;max-height:560px;object-fit:cover;display:block;margin:25px 0 8px}}
+.credito-imagen{{max-width:740px;margin:0 auto 30px;font-size:11px;line-height:1.6;color:#777}}
+.credito-imagen a{{text-decoration:underline}}
 .articulo .cuerpo{{max-width:740px;margin:auto;font-family:Georgia,serif;font-size:19px;line-height:1.9;color:#292929;white-space:pre-line}}
 .articulo .cuerpo p{{margin:0 0 24px}}
 .fuentes{{max-width:740px;margin:42px auto 0;padding-top:20px;border-top:1px solid var(--linea);font-size:12px;color:#666}}
@@ -226,6 +228,21 @@ def crear_articulo(noticia):
     contenido = str(noticia.get("contenido") or "").strip()
     imagen = imagen_segura(noticia.get("imagen"))
     foto = f'<img class="foto" src="{imagen}" alt="{titulo}" loading="lazy">' if imagen else ""
+    credito = noticia.get("imagen_credito") or {}
+    atribucion_imagen = ""
+    if imagen and credito:
+        autor = escapar(credito.get("autor", "Autor no identificado"))
+        origen = escapar(credito.get("fuente", "Archivo de imágenes"))
+        licencia = escapar(credito.get("licencia", "Consultar licencia"))
+        pagina_imagen = imagen_segura(credito.get("pagina", ""))
+        licencia_url = imagen_segura(credito.get("licencia_url", ""))
+        enlaces_credito = []
+        if pagina_imagen:
+            enlaces_credito.append(f'<a href="{pagina_imagen}" target="_blank" rel="noopener">fuente original</a>')
+        if licencia_url:
+            enlaces_credito.append(f'<a href="{licencia_url}" target="_blank" rel="noopener">licencia</a>')
+        extras = " · ".join(enlaces_credito)
+        atribucion_imagen = f'<p class="credito-imagen">Imagen: {autor} · {origen} · {licencia} {extras}</p>'
     parrafos = "".join(f"<p>{escapar(p.strip())}</p>" for p in contenido.split("\n\n") if p.strip())
     referencias = [f"<li>{escapar(fuente.get('nombre', 'Fuente consultada'))}</li>" for fuente in noticia.get("fuentes", [])]
     cuerpo = f"""
@@ -238,6 +255,7 @@ def crear_articulo(noticia):
        <p class="fecha">Publicado: {escapar(noticia.get("fecha", fecha_actual()))}</p>
       </div>
       {foto}
+      {atribucion_imagen}
       <div class="cuerpo">{parrafos}</div>
       <div class="fuentes"><strong>Fuentes consultadas</strong><ul>{''.join(referencias)}</ul>
        <p>Artículo de elaboración propia. Las fuentes se presentan para consulta y contraste.</p>
