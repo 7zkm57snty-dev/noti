@@ -382,6 +382,8 @@ body.noche .estado-preliminar{{background:#482829;color:#f1b5b3}}
  .boletin-cta a{{white-space:normal}}
 }}
 
+.destacada>a{{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(260px,.9fr);height:100%}}
+@media(max-width:900px){{.destacada>a{{grid-template-columns:1fr}}}}
 </style>
 </head>
 <body>
