@@ -309,6 +309,46 @@ def agrupar_noticias(entradas):
     return grupos
 
 
+def prioridad_regional(grupo):
+    """
+    Da prioridad a los hechos de Cali y del Valle del Cauca para que
+    no consuman primero el cupo diario las noticias internacionales.
+    """
+    titulo = str(grupo.get("titulo", "")).lower()
+    fuentes = grupo.get("fuentes", [])
+    nombres = " ".join(str(f.get("fuente", "")).lower() for f in fuentes)
+    texto = f"{titulo} {nombres}"
+
+    puntos = 0
+    if any(nombre in nombres for nombre in ("el tiempo cali", "90 minutos", "diario occidente")):
+        puntos += 12
+
+    localidades = (
+        "cali", "valle del cauca", "jamundi", "jamundí", "palmira",
+        "yumbo", "tulua", "tuluá", "buenaventura", "buga", "cartago",
+        "candelaria", "dagua", "roldanillo", "guacari", "guacarí",
+        "ginebra", "pradera", "el cerrito", "zarzal", "sevilla",
+        "caicedonia", "restrepo", "la victoria", "versalles",
+        "trujillo", "riofrio", "riofrío", "san pedro", "la union",
+        "la unión", "andalucia", "andalucía", "el dovio", "el dovío",
+        "ulloa", "obando", "argelia"
+    )
+    if any(lugar in texto for lugar in localidades):
+        puntos += 8
+
+    return puntos
+
+
+def fecha_mas_reciente_grupo(grupo):
+    fechas = []
+    for fuente in grupo.get("fuentes", []):
+        try:
+            fechas.append(datetime.fromisoformat(str(fuente.get("fecha", "")).replace("Z", "+00:00")).timestamp())
+        except (TypeError, ValueError, OverflowError):
+            continue
+    return max(fechas, default=0)
+
+
 def leer_contenidos(grupo):
     fuentes_validas = []
 
@@ -403,6 +443,14 @@ Elige UNA categoría correcta de esta lista:
 No clasifiques una noticia local como internacional.
 No clasifiques una noticia deportiva en Colombia si
 su tema principal es el deporte.
+
+CRITERIO TERRITORIAL OBLIGATORIO:
+- "Cali": el hecho ocurre principalmente dentro de Santiago de Cali.
+- "Valle del Cauca": el hecho ocurre en otro municipio del departamento.
+- "Colombia": el hecho ocurre en otra región del país o es de alcance nacional.
+- "Internacional": el hecho ocurre fuera de Colombia.
+No uses "Colombia" para ocultar una noticia que corresponde a Cali
+o a otro municipio del Valle del Cauca.
 
 ESTADO DE LA INFORMACIÓN:
 - Usa "confirmada" cuando los hechos centrales estén respaldados
@@ -722,8 +770,13 @@ def ejecutar():
     print("Noticias nuevas para revisar:", len(entradas_nuevas))
 
     grupos = agrupar_noticias(entradas_nuevas)
+    grupos.sort(
+        key=lambda grupo: (prioridad_regional(grupo), fecha_mas_reciente_grupo(grupo)),
+        reverse=True
+    )
 
     print("Grupos temáticos encontrados:", len(grupos))
+    print("Prioridad aplicada: Cali y Valle del Cauca antes de cobertura general.")
 
     nuevas = []
     fecha_control = datetime.now(
