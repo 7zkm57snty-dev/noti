@@ -49,19 +49,22 @@ def licencia_valida(info):
 
 
 def articulo_apto(noticia):
-    imagen = str(noticia.get("imagen", "")).strip()
+    imagen = str(noticia.get("imagen_instagram", "")).strip()
     if not imagen.startswith("https://"):
-        return False, "no tiene imagen HTTPS"
-    info = noticia.get("imagen_credito") or {}
-    if not licencia_valida(info):
-        return False, "no tiene licencia y atribución verificables"
+        return False, "no tiene imagen apta para Instagram"
+    tipo_imagen = str(noticia.get("imagen_instagram_tipo", ""))
+    if tipo_imagen != "grafica_propia":
+        info = noticia.get("imagen_credito") or {}
+        if not licencia_valida(info):
+            return False, "no tiene licencia y atribución verificables"
     fuentes = noticia.get("fuentes") or []
     nombres = {str(f.get("nombre", "")).strip().lower() for f in fuentes if f.get("nombre")}
-    if len(nombres) < 2:
-        return False, "no tiene al menos dos fuentes independientes"
-    verificacion = str(noticia.get("verificacion", "")).lower()
-    if "varias fuentes" not in verificacion:
-        return False, "no supera el control de contraste"
+    titulo = str(noticia.get("titulo", "")).lower()
+    sensibles = ("homicidio", "asesinato", "accidente", "captura", "robo", "hurto", "denuncia", "víctima", "muerto", "herido", "corrupción", "controversia")
+    if any(p in titulo for p in sensibles) and len(nombres) < 2:
+        return False, "tema sensible sin corroboración adicional"
+    if not nombres:
+        return False, "no tiene fuente identificada"
     identificador = str(noticia.get("id", "")).strip()
     if not identificador:
         return False, "no tiene identificador"
@@ -74,7 +77,7 @@ def construir_texto(noticia):
     categoria = str(noticia.get("categoria", "")).strip()
     identificador = str(noticia["id"])
     url_articulo = f"https://cevnoticias.com/notas/{identificador}.html"
-    info = noticia["imagen_credito"]
+    info = noticia.get("imagen_credito") or {}
 
     autor = str(info.get("autor") or "Autor no identificado").strip()
     fuente = str(info.get("fuente") or "Repositorio de imágenes").strip()
@@ -82,21 +85,13 @@ def construir_texto(noticia):
     pagina = str(info.get("pagina") or "").strip()
     licencia_url = str(info.get("licencia_url") or "").strip()
 
-    texto = (
-        f"📰 {titulo}\n\n"
-        f"{resumen}\n\n"
-        f"Lee la noticia completa en CEV NOTICIAS: {url_articulo}\n\n"
-        f"📷 Imagen: {autor} | {fuente} | {licencia}.\n"
-        f"Ficha de la imagen: {pagina}\n"
-        f"Licencia: {licencia_url}\n\n"
-        f"#CEVNoticias #Actualidad #Noticias{re.sub(r'[^A-Za-z0-9]', '', categoria.title())}"
-    )
+    texto = str(noticia.get("descripcion_instagram") or f"{titulo}\n\n{resumen}\n\nLee la noticia completa en cevnoticias.com.")
     return texto
 
 
 def crear_publicacion(noticia):
     texto = construir_texto(noticia)
-    imagen = noticia["imagen"]
+    imagen = noticia["imagen_instagram"]
 
     # Los valores de texto se codifican como literales GraphQL para evitar
     # errores por comillas, saltos de línea o caracteres especiales.
