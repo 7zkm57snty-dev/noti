@@ -94,7 +94,7 @@ a{{color:inherit;text-decoration:none}}
 .cabecera-meta{{display:flex;justify-content:space-between;align-items:center;margin-top:22px;padding-top:11px;border-top:1px solid var(--tinta);font-size:11px;color:#555}}
 .estado{{font-weight:800;letter-spacing:1.5px;text-transform:uppercase;color:var(--rojo)}}
 nav{{border-top:1px solid var(--linea);border-bottom:1px solid var(--tinta);background:var(--papel)}}
-.nav-interior{{max-width:var(--ancho);margin:auto;display:flex;justify-content:flex-start;gap:clamp(15px,3vw,34px);padding:14px 22px;overflow-x:auto;white-space:nowrap;scrollbar-width:none;overscroll-behavior-x:contain;-webkit-overflow-scrolling:touch;scroll-behavior:auto}} .nav-interior::-webkit-scrollbar{{display:none}}
+.nav-interior{{max-width:850px;margin:0 auto;display:flex;justify-content:flex-start;gap:clamp(15px,3vw,34px);padding:14px 22px;overflow-x:auto;white-space:nowrap;scrollbar-width:none;overscroll-behavior-x:contain;-webkit-overflow-scrolling:touch;scroll-behavior:auto}} .nav-interior::-webkit-scrollbar{{display:none}}
 nav a{{font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.8px}}
 nav a:hover,nav a:focus{{color:var(--rojo)}}
 .contenedor{{max-width:var(--ancho);margin:0 auto;padding:0 28px}}
@@ -404,7 +404,7 @@ def construir():
     portada = f'<section class="portada-grid">{principal_html}{lateral_html}</section>'
 
     bloques = []
-    excluidas = {n["id"] for n in validas[:4]}
+    excluidas = {n["id"] for n in validas[:1]}
     for seccion in SECCIONES:
         grupo = [n for n in validas if n["categoria"] == seccion and n["id"] not in excluidas]
         contenido_seccion = (
