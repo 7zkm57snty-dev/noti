@@ -59,139 +59,35 @@ def imagen_segura(url):
     return escapar(url) if url.startswith(("https://", "http://")) else ""
 
 
-def portada_svg_noticia(noticia):
-    """
-    Genera una portada CEV local si no hay fotografía válida o si falla
-    la carga de la imagen externa.
-    """
-    identificador = slug(noticia.get("id") or noticia.get("titulo") or "noticia")
-    carpeta = SITE / "imagenes"
-    carpeta.mkdir(parents=True, exist_ok=True)
-    ruta = carpeta / f"{identificador}.svg"
-
-    titulo = str(noticia.get("titulo") or "Actualidad CEV").strip()
-    palabras = titulo.split()
-    lineas = []
-    actual = ""
-    for palabra in palabras:
-        prueba = f"{actual} {palabra}".strip()
-        if len(prueba) > 30 and actual:
-            lineas.append(actual)
-            actual = palabra
-        else:
-            actual = prueba
-    if actual:
-        lineas.append(actual)
-
-    titulo_svg = "".join(
-        f'<tspan x="92" dy="1.18em">{escapar(linea)}</tspan>'
-        for linea in lineas[:4]
-    )
-    categoria = escapar(noticia.get("categoria") or "ACTUALIDAD").upper()
-    svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
-<defs><linearGradient id="fondo" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#171717"/><stop offset="1" stop-color="#6d1b23"/></linearGradient></defs>
-<rect width="1200" height="675" fill="url(#fondo)"/>
-<path d="M0 0H1200V14H0Z" fill="#c62832"/>
-<circle cx="1010" cy="155" r="190" fill="none" stroke="#c62832" stroke-opacity=".35" stroke-width="10"/>
-<circle cx="1010" cy="155" r="135" fill="none" stroke="#c62832" stroke-opacity=".2" stroke-width="5"/>
-<text x="92" y="112" fill="#ff8087" font-family="Arial,sans-serif" font-size="25" font-weight="700" letter-spacing="5">CEV NOTICIAS · {categoria}</text>
-<text x="92" y="250" fill="#ffffff" font-family="Georgia,serif" font-size="58" font-weight="700">{titulo_svg}</text>
-<path d="M92 585H1108" stroke="#c62832" stroke-width="5"/>
-<text x="92" y="630" fill="#dedede" font-family="Arial,sans-serif" font-size="19" letter-spacing="4">PERIODISMO · CONTEXTO · ACTUALIDAD</text>
-</svg>'''
-    ruta.write_text(svg, encoding="utf-8")
-    return f"https://cevnoticias.com/imagenes/{identificador}.svg"
-
-
-def foto_local_noticia(noticia):
-    """
-    Descarga en el momento de construir el sitio la foto reutilizable.
-    Evita depender de que Wikimedia u otro servidor permita hotlinking.
-    """
-    identificador = slug(noticia.get("id") or noticia.get("titulo") or "noticia")
-    if identificador in IMAGENES_PROCESADAS:
-        return IMAGENES_PROCESADAS[identificador]
-
-    url = str(noticia.get("imagen") or "").strip()
-    if not url.startswith(("https://", "http://")):
-        IMAGENES_PROCESADAS[identificador] = ""
-        return ""
-
-    host = (urlsplit(url).hostname or "").lower()
-    if host in ("cevnoticias.com", "www.cevnoticias.com"):
-        IMAGENES_PROCESADAS[identificador] = ""
-        return ""
-
-    extensiones = {
-        "image/jpeg": ".jpg",
-        "image/png": ".png",
-        "image/webp": ".webp",
-        "image/gif": ".gif"
-    }
-    try:
-        solicitud = Request(
-            url,
-            headers={
-                "User-Agent": "Mozilla/5.0 (compatible; CEVNoticias/1.0; https://cevnoticias.com/)",
-                "Accept": "image/avif,image/webp,image/apng,image/*,*/*;q=0.8"
-            }
-        )
-        with urlopen(solicitud, timeout=18) as respuesta:
-            tipo = respuesta.headers.get_content_type().lower()
-            extension = extensiones.get(tipo)
-            datos = respuesta.read(15 * 1024 * 1024 + 1)
-
-        if not extension or len(datos) < 2048 or len(datos) > 15 * 1024 * 1024:
-            raise ValueError(f"Respuesta de imagen no válida: {tipo}, {len(datos)} bytes")
-
-        carpeta = SITE / "imagenes"
-        carpeta.mkdir(parents=True, exist_ok=True)
-        nombre = f"{identificador}{extension}"
-        (carpeta / nombre).write_bytes(datos)
-        local = f"/imagenes/{nombre}"
-        IMAGENES_PROCESADAS[identificador] = local
-        print(f"Fotografía descargada para CEV: {identificador}{extension}")
-        return local
-    except Exception as error:
-        print(f"No se pudo descargar foto de {identificador}; se usará portada CEV: {error}")
-        IMAGENES_PROCESADAS[identificador] = ""
-        return ""
-
-
 def imagen_noticia(noticia, alt="", clase="", loading="lazy", prioridad=False):
     """
-    Publica una fotografía local cuando se pudo descargar y mantiene
-    una portada CEV local lista como respaldo en todos los casos.
+    Inserta únicamente una fotografía guardada en el propio sitio.
+    Si no hay fotografía real, devuelve vacío para no inventar un cartel.
     """
-    grafica = portada_svg_noticia(noticia)
     fotografia = foto_local_noticia(noticia)
-    origen = fotografia or grafica
+    if not fotografia:
+        return ""
 
     clases = f' class="{escapar(clase)}"' if clase else ""
     prioridad_html = ' fetchpriority="high"' if prioridad else ""
-    respaldo_html = ""
-    if fotografia:
-        respaldo_html = (
-            f' data-fallback="{grafica}"'
-            ' onerror="this.onerror=null;this.src=this.dataset.fallback;"'
-        )
-
     return (
-        f'<img{clases} src="{origen}" alt="{escapar(alt)}" '
-        f'loading="{escapar(loading)}" decoding="async"{prioridad_html}'
-        f'{respaldo_html}>'
+        f'<img{clases} src="{fotografia}" alt="{escapar(alt)}" '
+        f'loading="{escapar(loading)}" decoding="async"{prioridad_html}>'
     )
+
 
 def tarjeta(noticia, posicion=0, ruta_raiz=""):
     titulo = escapar(noticia.get("titulo"))
     resumen = escapar(noticia.get("resumen"))
     categoria = escapar(noticia.get("categoria"))
     identificador = escapar(noticia.get("id"))
-    visual = imagen_noticia(noticia, alt=titulo) or f'<div class="portada-sin-foto"><strong>CEV</strong><span>{categoria}</span></div>'
+    visual = imagen_noticia(noticia, alt=titulo)
+    clase_sin_imagen = "" if visual else " tarjeta-sin-imagen"
+    bloque_imagen = f'<div class="tarjeta-imagen">{visual}</div>' if visual else ""
     return f"""
-    <article class="tarjeta tarjeta-vertical">
-      <a class="tarjeta-enlace" href="{ruta_raiz}notas/{identificador}.html">
-        <div class="tarjeta-imagen">{visual}</div>
+    <article class="tarjeta tarjeta-vertical{clase_sin_imagen}">
+      <a class="tarjeta-enlace" href="/notas/{identificador}.html">
+        {bloque_imagen}
         <div class="tarjeta-contenido">
           <span class="etiqueta">{categoria}</span>
           <h3>{titulo}</h3>
@@ -200,7 +96,6 @@ def tarjeta(noticia, posicion=0, ruta_raiz=""):
         </div>
       </a>
     </article>"""
-
 
 def tarjeta_rss(titular):
     titulo = escapar(titular.get("titulo"))
@@ -233,12 +128,15 @@ def tarjeta_express(item):
     resumen = escapar(item.get("resumen", "")) if not es_rss else "Sigue esta noticia y consulta la información completa."
     fecha = fecha_ordenable(item)
     fecha_texto = datetime.fromtimestamp(fecha, COLOMBIA_TZ).strftime("%d/%m · %I:%M %p") if fecha else ""
-    visual = imagen_noticia(item, alt="") or '<div class="express-foto-vacia">CEV</div>'
-    sello = "CEV NOTICIAS · EXPRESS" if not es_rss else "CEV NOTICIAS · EXPRESS"
+    visual = imagen_noticia(item, alt="")
+    clase_sin_imagen = "" if visual else " sin-imagen"
+    bloque_imagen = f'<div class="express-foto">{visual}</div>' if visual else ""
+    sello = "CEV NOTICIAS · EXPRESS"
+    destino = f"/notas/{identificador}.html" if not es_rss else f"/notas/actualidad-{identificador}.html"
     return f"""
     <article class="express-slide">
-      <a class="express-enlace" href="{href}">
-        <div class="express-foto">{visual}</div>
+      <a class="express-enlace{clase_sin_imagen}" href="{destino}">
+        {bloque_imagen}
         <div class="express-texto">
           <span class="express-sello">{sello} · {categoria}</span>
           <h3>{titulo}</h3>
@@ -440,6 +338,9 @@ body.noche .express-controles button{{color:var(--tinta)}}
 .tarjeta-vertical{{display:block;border-bottom:1px solid var(--linea);padding:22px 0}}
 .tarjeta-vertical .tarjeta-enlace{{display:grid;grid-template-columns:minmax(220px,34%) minmax(0,1fr);gap:25px;align-items:center}}
 .tarjeta-vertical .tarjeta-imagen{{height:205px;min-height:0;aspect-ratio:16/10}}
+.tarjeta-vertical.tarjeta-sin-imagen .tarjeta-enlace{{display:block}}
+.tarjeta-vertical.tarjeta-sin-imagen .tarjeta-contenido{{padding:4px 0}}
+.express-enlace.sin-imagen{{grid-template-columns:minmax(0,1fr)}}
 .tarjeta-vertical .tarjeta-imagen img{{width:100%;height:100%;object-fit:cover}}
 .tarjeta-vertical .tarjeta-contenido{{padding:0}}
 .tarjeta-vertical h3{{font-size:clamp(22px,2.5vw,31px);line-height:1.14;margin:9px 0}}
@@ -700,7 +601,7 @@ def crear_articulo(noticia, noticias=None):
     resumen = escapar(noticia.get("resumen"))
     categoria = escapar(noticia.get("categoria"))
     contenido = str(noticia.get("contenido") or "").strip()
-    imagen = foto_local_noticia(noticia) or portada_svg_noticia(noticia)
+    imagen = foto_local_noticia(noticia)
     foto = imagen_noticia(noticia, alt=titulo, clase="foto", loading="eager")
     credito = noticia.get("imagen_credito") or {}
     atribucion_imagen = ""
@@ -734,7 +635,7 @@ def crear_articulo(noticia, noticias=None):
     bloque_relacionadas = ""
     if relacionadas:
         tarjetas_rel = "".join(
-            f'<article class="tarjeta"><a class="tarjeta-enlace" href="{html.escape(otra.get("id", ""), quote=True)}.html"><span class="etiqueta">{escapar(otra.get("categoria"))}</span><h3>{escapar(otra.get("titulo"))}</h3><p>{escapar(otra.get("resumen"))}</p><span class="leer">Leer noticia ↗</span></a></article>'
+            f'<article class="tarjeta"><a class="tarjeta-enlace" href="/notas/{html.escape(otra.get("id", ""), quote=True)}.html"><span class="etiqueta">{escapar(otra.get("categoria"))}</span><h3>{escapar(otra.get("titulo"))}</h3><p>{escapar(otra.get("resumen"))}</p><span class="leer">Leer noticia ↗</span></a></article>'
             for _, otra in relacionadas[:3]
         )
         bloque_relacionadas = f'<section class="relacionadas"><h2 class="titulo-seccion">También te puede interesar</h2><div class="rejilla">{tarjetas_rel}</div></section>'
@@ -748,7 +649,7 @@ def crear_articulo(noticia, noticias=None):
     cuerpo = f"""
     <main class="articulo">
       <div class="articulo-cabecera">
-       <a class="volver" href="../index.html">← Volver a la portada</a>
+       <a class="volver" href="/">← Volver a la portada</a>
        <p class="etiqueta">{categoria}</p>
        <h1>{titulo}</h1>
        <p class="bajada">{resumen}</p>
@@ -787,7 +688,7 @@ def crear_pagina_titular_rss(titular):
     cuerpo = f"""
     <main class="articulo ficha-actualidad">
       <div class="articulo-cabecera">
-        <a class="volver" href="../index.html">← Volver a CEV NOTICIAS</a>
+        <a class="volver" href="/">← Volver a CEV NOTICIAS</a>
         <p class="etiqueta">{categoria}</p>
         <p class="fecha">Titular recopilado por CEV NOTICIAS · No es un artículo original de nuestra redacción</p>
         <h1>{titulo}</h1>
@@ -820,11 +721,11 @@ def crear_pagina_titular_rss(titular):
 def crear_pagina_seccion(seccion, noticias, titulares):
     nombre = escapar(seccion)
     slug_seccion = slug(seccion)
-    tarjetas = lista_vertical(noticias, titulares, categoria=seccion, ruta_raiz="../")
+    tarjetas = lista_vertical(noticias, titulares, categoria=seccion)
     listado = tarjetas or '<div class="vacio">No hay noticias disponibles en esta sección por ahora.</div>'
     cuerpo = f"""
     <main class="contenedor pagina-seccion">
-      <a class="volver" href="../index.html">← Volver a la portada</a>
+      <a class="volver" href="/">← Volver a la portada</a>
       <header class="cabecera-seccion">
         <p class="etiqueta">CEV NOTICIAS · SECCIÓN</p>
         <h1>{nombre}</h1>
@@ -858,7 +759,12 @@ def validar_archivos_publicados(noticias):
     esperados = [SITE / "index.html"]
     esperados.extend(NOTAS / f"{noticia['id']}.html" for noticia in noticias)
     esperados.extend(SITE / "secciones" / f"{slug(seccion)}.html" for seccion in SECCIONES)
-    esperados.extend(SITE / "imagenes" / f"{slug(noticia['id'])}.svg" for noticia in noticias)
+    esperados.extend(
+        SITE / "imagenes" / f"{slug(noticia['id'])}{extension}"
+        for noticia in noticias
+        for extension in (".jpg", ".jpeg", ".png", ".webp", ".gif")
+        if (SITE / "imagenes" / f"{slug(noticia['id'])}{extension}").exists()
+    )
 
     for ruta in esperados:
         if not ruta.is_file() or ruta.stat().st_size == 0:
@@ -963,11 +869,12 @@ def construir():
             alt=principal.get("titulo", ""),
             loading="eager",
             prioridad=True
-        ) or '<div class="imagen-vacia">CEV</div>'
+        )
+        bloque_imagen = f'<div class="destacada-visual">{visual}</div>' if visual else ""
         principal_html = f"""
         <article class="destacada">
-         <a href="notas/{escapar(principal['id'])}.html">
-          <div class="destacada-visual">{visual}</div>
+         <a href="/notas/{escapar(principal['id'])}.html">
+          {bloque_imagen}
           <div class="destacada-texto">
            <span class="etiqueta">Noticia central · {escapar(principal['categoria'])}</span>
            <h1>{escapar(principal['titulo'])}</h1>
@@ -985,7 +892,7 @@ def construir():
         for noticia in laterales:
             lateral_html += f"""
             <article class="relevante">
-             <a href="notas/{escapar(noticia['id'])}.html">
+             <a href="/notas/{escapar(noticia['id'])}.html">
               <span class="etiqueta">{escapar(noticia['categoria'])}</span>
               <h3>{escapar(noticia['titulo'])}</h3>
               <p>{escapar(noticia.get('resumen'))}</p>
