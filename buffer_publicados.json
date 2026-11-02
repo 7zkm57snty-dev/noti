@@ -1,12 +1,18 @@
 {
   "fecha": "2026-11-02",
-  "publicaciones_hoy": 1,
+  "publicaciones_hoy": 2,
   "publicaciones": [
     {
       "noticia_id": "6f6e1983c93e7b43",
       "buffer_post_id": "6ae81af264604db3143fc810",
       "titulo": "Kiev anuncia el fin de la tregua de cuatro días en el sur de Ucrania",
       "fecha": "2026-11-02T00:09:06.959151-05:00"
+    },
+    {
+      "noticia_id": "77b91be9109cbdea",
+      "buffer_post_id": "6ae81b6d76279ec7eb93453d",
+      "titulo": "El chisme corporativo: la moneda que impulsa decisiones y riesgos",
+      "fecha": "2026-11-02T00:11:09.181760-05:00"
     }
   ]
 }
