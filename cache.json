@@ -274,9 +274,18 @@
     }
   ],
   "fecha_solicitudes_groq": "2026-11-02",
-  "ultima_actualizacion": "2026-11-02T23:37:27.711894+00:00",
+  "ultima_actualizacion": "2026-11-02T23:42:23.903414+00:00",
   "solicitudes_groq": 34,
   "titulares_rss": [
+    {
+      "id": "86bac9aaeb898e4c",
+      "titulo": "Exministro de Hacienda de Petro pide que recorte al gasto sea mayor al presentado en la Ley de Rescate",
+      "categoria": "Economía",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/impuestos/jose-antonio-ocampo-exministro-de-hacienda-de-petro-pide-que-recorte-sea-mayor-al-presentado-en-la-ley-de-rescate-505589",
+      "fecha": "2026-11-02T23:20:44+00:00",
+      "imagen": "https://imagenes.portafolio.co/files/og_thumbnail/files/fp/uploads/2025/11/02/69078676eaf9c.r_d.520-274-0.png"
+    },
     {
       "id": "dba31cb2c5415f40",
       "titulo": "Corea del Norte rechaza acusaciones del FBI sobre hackeo a Binance",
@@ -519,15 +528,6 @@
       "url": "https://www.portafolio.co/economia/gobierno/el-rescate-fiscal-de-la-salud-podria-tener-un-efecto-contrario-mas-costos-y-mayores-incentivos-para-evadir-aportes-505588",
       "fecha": "2026-11-02T19:26:34+00:00",
       "imagen": "https://imagenes.portafolio.co/files/og_thumbnail/files/fp/uploads/2026/10/29/6ae333fd918c7.r_d.871-451-0.png"
-    },
-    {
-      "id": "86bac9aaeb898e4c",
-      "titulo": "José Antonio Ocampo, exministro de Hacienda de Petro, pide que recorte sea mayor al presentado en la Ley de Rescate",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/impuestos/jose-antonio-ocampo-exministro-de-hacienda-de-petro-pide-que-recorte-sea-mayor-al-presentado-en-la-ley-de-rescate-505589",
-      "fecha": "2026-11-02T19:25:44+00:00",
-      "imagen": "https://imagenes.portafolio.co/files/og_thumbnail/files/fp/uploads/2025/11/02/69078676eaf9c.r_d.520-274-0.png"
     },
     {
       "id": "8ac770bd99f95ec2",
