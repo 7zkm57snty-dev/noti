@@ -45,7 +45,7 @@ def consultas_imagen(titulo, resumen="", categoria=""):
         consulta = consulta.strip()
         if len(consulta) >= 8 and consulta not in resultado:
             resultado.append(consulta)
-    return resultado[:5]
+    return resultado[:2]
 
 
 def comprobar_imagen(url):
@@ -53,7 +53,7 @@ def comprobar_imagen(url):
         return False
     try:
         respuesta = requests.get(
-            url, headers=HEADERS, timeout=12, stream=True,
+            url, headers=HEADERS, timeout=5, stream=True,
             allow_redirects=True
         )
         tipo = respuesta.headers.get("Content-Type", "").lower()
@@ -74,7 +74,7 @@ def buscar_commons(consulta):
         "generator": "search",
         "gsrsearch": f"{consulta} filetype:bitmap",
         "gsrnamespace": 6,
-        "gsrlimit": 12,
+        "gsrlimit": 8,
         "prop": "imageinfo",
         "iiprop": "url|extmetadata",
         "iiurlwidth": 1200,
@@ -83,7 +83,7 @@ def buscar_commons(consulta):
     try:
         respuesta = requests.get(
             "https://commons.wikimedia.org/w/api.php",
-            params=params, headers=HEADERS, timeout=18
+            params=params, headers=HEADERS, timeout=8
         )
         respuesta.raise_for_status()
         paginas = respuesta.json().get("query", {}).get("pages", {})
@@ -120,7 +120,7 @@ def buscar_commons(consulta):
 def buscar_openverse(consulta):
     params = {
         "q": consulta,
-        "page_size": 20,
+        "page_size": 8,
         "license_type": "commercial",
         "mature": "false"
     }
