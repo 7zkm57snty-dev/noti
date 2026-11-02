@@ -9,7 +9,7 @@ SITE = BASE / "site"
 NOTAS = SITE / "notas"
 CACHE = BASE / "cache.json"
 
-SECCIONES = ["Cali", "Valle del Cauca", "Colombia", "Internacional", "Entretenimiento", "Deportes", "Tecnología", "Economía"]
+SECCIONES = ["Cali", "Valle del Cauca", "Colombia", "Internacional", "Deportes", "Tecnología", "Economía", "Tendencias", "Humor y opinión"]
 COLOMBIA_TZ = timezone(timedelta(hours=-5))
 
 
