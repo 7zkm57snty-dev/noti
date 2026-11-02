@@ -374,7 +374,7 @@ def seleccionar_noticias(noticias, estado, ahora, cantidad):
     ids_publicados = {
         str(r.get("noticia_id"))
         for r in estado.get("publicaciones", [])
-        if r.get("buffer_status") == "sent"
+        if r.get("buffer_status") == "sent" or r.get("tipo_publicacion") == "puntual"
     }
 
     candidatas = []
@@ -510,6 +510,45 @@ def ejecutar():
     if not isinstance(registros, list):
         registros = []
 
+
+    # Publicación puntual solicitada: se respeta la hora local y se evita duplicar.
+    puntuales = [
+        n for n in noticias
+        if isinstance(n, dict) and n.get("programar_a")
+    ]
+    for noticia in puntuales:
+        noticia_id = str(noticia.get("id", ""))
+        ya_registrada = any(
+            str(r.get("noticia_id")) == noticia_id
+            and r.get("tipo_publicacion") == "puntual"
+            for r in registros
+        )
+        if ya_registrada:
+            noticia.pop("programar_a", None)
+            continue
+        apto, motivo = articulo_apto(noticia)
+        if not apto:
+            raise RuntimeError("La publicación puntual no cumple los requisitos: " + motivo)
+        destino = datetime.fromisoformat(str(noticia["programar_a"]))
+        if destino.tzinfo is None:
+            destino = destino.replace(tzinfo=TZ_COLOMBIA)
+        if destino <= ahora:
+            raise RuntimeError("La hora puntual ya pasó; no se publicará fuera de horario.")
+        due_at = destino.astimezone(timezone.utc).isoformat(timespec="milliseconds").replace("+00:00", "Z")
+        resultado = crear_publicacion(noticia, due_at)
+        registros.append({
+            "noticia_id": noticia_id,
+            "buffer_post_id": resultado.get("id", ""),
+            "titulo": noticia.get("titulo", ""),
+            "buffer_status": resultado.get("status") or "scheduled",
+            "buffer_channel_id": resultado.get("channelId") or CHANNEL_ID,
+            "buffer_due_at": resultado.get("dueAt") or due_at,
+            "fecha": fecha_local().isoformat(),
+            "tipo_publicacion": "puntual",
+            "version_imagen": 1
+        })
+        noticia.pop("programar_a", None)
+        print("PUBLICACIÓN PUNTUAL PROGRAMADA:", noticia.get("titulo"), "→", destino.isoformat())
 
     # Publica una sola noticia marcada explícitamente para la prueba inmediata.
     # El registro evita duplicarla en las siguientes ejecuciones automáticas.
