@@ -41,6 +41,14 @@ def imagen_segura(url):
     return escapar(url) if url.startswith(("https://", "http://")) else ""
 
 
+def etiqueta_estado(noticia):
+    estado = str(noticia.get("estado_informacion", "")).strip().lower()
+    if estado not in ("en_desarrollo", "informacion_preliminar"):
+        return ""
+    texto = "Información en desarrollo" if estado == "en_desarrollo" else "Información preliminar"
+    return f'<span class="estado-informacion" role="status">{texto}</span>'
+
+
 def tarjeta(noticia, posicion=0):
     titulo = escapar(noticia.get("titulo"))
     resumen = escapar(noticia.get("resumen"))
@@ -55,6 +63,7 @@ def tarjeta(noticia, posicion=0):
         <div class="tarjeta-imagen">{visual}</div>
         <div class="tarjeta-contenido">
           <span class="etiqueta">{categoria}</span>
+          {etiqueta_estado(noticia)}
           <h3>{titulo}</h3>
           <p>{resumen}</p>
           <span class="leer">Leer noticia <span aria-hidden="true">↗</span></span>
@@ -111,6 +120,9 @@ nav a:hover,nav a:focus{{color:var(--rojo)}}
 .destacada-visual .imagen-vacia{{height:100%}}
 .destacada-texto{{padding:18px 4px 0 0}}
 .etiqueta{{display:inline-block;color:var(--rojo);font-size:10px;font-weight:800;letter-spacing:1.5px;text-transform:uppercase}}
+.estado-informacion{{display:inline-block;margin:8px 0 2px;padding:5px 8px;border-left:2px solid #b88732;background:#f2eadb;color:#654b20;font-size:10px;font-weight:700;letter-spacing:.35px}}
+.aviso-desarrollo{{max-width:var(--ancho);margin:0 auto;padding:10px 28px;border-bottom:1px solid var(--linea);font-size:11px;line-height:1.6;color:var(--suave)}}
+body.noche .estado-informacion{{background:#393124;color:#f0d49c;border-color:#d0a65d}}
 .destacada h1{{font-family:'Playfair Display',Georgia,serif;font-size:clamp(34px,4vw,52px);line-height:1.04;letter-spacing:-1.5px;margin:10px 0}}
 .destacada p{{font-size:14px;line-height:1.7;color:var(--suave);max-width:740px;margin:8px 0}}
 .meta-noticia{{font-size:10px;color:#777;margin-top:13px;text-transform:uppercase;letter-spacing:.8px}}
@@ -382,6 +394,8 @@ def crear_articulo(noticia, noticias=None):
        <h1>{titulo}</h1>
        <p class="bajada">{resumen}</p>
        <p class="fecha">Publicado: {escapar(noticia.get("fecha", fecha_actual()))} · Por CEV NOTICIAS</p>
+       {etiqueta_estado(noticia)}
+       {f'<p class="aviso-desarrollo">La información disponible es preliminar y puede cambiar. Se actualizará cuando existan nuevos datos confirmados por fuentes confiables.</p>' if noticia.get("estado_informacion") in ("en_desarrollo", "informacion_preliminar") else ""}
        <p class="fecha">Verificación editorial: {escapar(noticia.get("verificacion", "Fuente consultada; ver referencias"))}</p>
       </div>
       {foto}
@@ -441,6 +455,7 @@ def construir():
           <div class="destacada-visual">{visual}</div>
           <div class="destacada-texto">
            <span class="etiqueta">Noticia central · {escapar(principal['categoria'])}</span>
+           {etiqueta_estado(principal)}
            <h1>{escapar(principal['titulo'])}</h1>
            <p>{escapar(principal['resumen'])}</p>
            <div class="meta-noticia">{escapar(principal.get('fecha', fecha_actual()))}</div>
@@ -458,6 +473,7 @@ def construir():
             <article class="relevante">
              <a href="notas/{escapar(noticia['id'])}.html">
               <span class="etiqueta">{escapar(noticia['categoria'])}</span>
+              {etiqueta_estado(noticia)}
               <h3>{escapar(noticia['titulo'])}</h3>
               <p>{escapar(noticia.get('resumen'))}</p>
              </a>
@@ -482,7 +498,8 @@ def construir():
             f'<h2 class="titulo-seccion">{escapar(seccion)}</h2>{contenido_seccion}</section>'
         )
 
-    contenido = f'<main class="contenedor"><div class="cinta"><span>En desarrollo</span><a class="cinta-enlace" href="#categoria-cali">Explorar actualidad <span aria-hidden="true">↘</span></a></div>{portada}{"".join(bloques)}</main>'
+    nota_editorial = '<p class="aviso-desarrollo">CEV NOTICIAS identifica las noticias cuya información aún está en desarrollo. Los datos preliminares se distinguen de los hechos confirmados y se actualizan cuando hay nuevos reportes confiables.</p>'
+    contenido = f'<main class="contenedor"><div class="cinta"><span>Actualidad</span><a class="cinta-enlace" href="#categoria-cali">Explorar noticias <span aria-hidden="true">↘</span></a></div>{nota_editorial}{portada}{"".join(bloques)}</main>'
     portada_head = '<link rel="canonical" href="https://cevnoticias.com/"><meta property="og:type" content="website"><meta property="og:title" content="CEV NOTICIAS | Actualidad y periodismo">'
     (SITE / "index.html").write_text(plantilla("Portada", contenido, "Noticias de Cali, Valle del Cauca, Colombia y el mundo.", extra_head=portada_head), encoding="utf-8")
     urls = ["https://cevnoticias.com/"] + [f"https://cevnoticias.com/notas/{n['id']}.html" for n in validas]
