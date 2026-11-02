@@ -169,10 +169,23 @@ nav a:hover,nav a:focus{{color:var(--rojo)}}
 .accion-ui:hover{{background:var(--tinta);color:var(--papel)}}
 .progreso-lectura{{position:fixed;z-index:30;top:0;left:0;height:3px;width:0;background:var(--rojo)}}
 .volver-arriba{{position:fixed;z-index:20;right:18px;bottom:18px;width:42px;height:42px;border:0;border-radius:50%;background:var(--rojo);color:#fff;font-size:20px;cursor:pointer;box-shadow:0 3px 14px #0003}}
-body.noche{{--papel:#171717;--blanco:#222;--tinta:#f3f0e9;--suave:#b8b4ad;--linea:#393939}}
-body.noche .imagen-vacia{{background:linear-gradient(135deg,#303030,#242424);color:#ddd}}
+body.noche{{--papel:#151515;--blanco:#222;--tinta:#fff;--suave:#d0ccc4;--linea:#484848}}
+body.noche .imagen-vacia{{background:linear-gradient(135deg,#303030,#242424);color:#f5f5f5}}
 body.noche .destacada-visual,body.noche .tarjeta-imagen{{background:#292929}}
 body.noche .pie{{background:#090909}}
+body.noche .eslogan,body.noche .cabecera-meta,body.noche .articulo .bajada,body.noche .articulo .fecha,body.noche .credito-imagen,body.noche .fuentes,body.noche .meta-noticia{{color:#d0ccc4}}
+body.noche .articulo .cuerpo{{color:#f1eee8}}
+body.noche .relevante p,body.noche .tarjeta p{{color:#d0ccc4}}
+body.noche .accion-ui{{border-color:#aaa;color:#fff}}
+body.noche .accion-ui:hover{{background:#fff;color:#151515}}
+body.noche .buscador{{background:#242424;color:#fff;border-color:#555}}
+body.noche .buscador::placeholder{{color:#c5c1ba}}
+body.noche .volver{{color:#ff777d}}
+body.noche .leer,body.noche .etiqueta{{color:#ff777d}}
+body.noche .cinta-enlace{{color:#ff858a}}
+body.noche .boton{{border-color:#ddd}}
+body.noche .boton:hover{{color:#ff858a;border-color:#ff858a}}
+body.noche .relacionadas .tarjeta{{background:#222;border-color:#484848}}
 @media(max-width:650px){{
  .barra-herramientas{{padding:10px 15px;flex-wrap:wrap}}
  .buscador{{flex-basis:100%}}
