@@ -94,7 +94,7 @@ a{{color:inherit;text-decoration:none}}
 .cabecera-meta{{display:flex;justify-content:space-between;align-items:center;margin-top:22px;padding-top:11px;border-top:1px solid var(--tinta);font-size:11px;color:#555}}
 .estado{{font-weight:800;letter-spacing:1.5px;text-transform:uppercase;color:var(--rojo)}}
 nav{{border-top:1px solid var(--linea);border-bottom:1px solid var(--tinta);background:var(--papel)}}
-.nav-interior{{max-width:var(--ancho);margin:auto;display:flex;justify-content:center;gap:clamp(15px,3vw,34px);padding:14px 22px;overflow-x:auto;white-space:nowrap}}
+.nav-interior{{max-width:var(--ancho);margin:auto;display:flex;justify-content:flex-start;gap:clamp(15px,3vw,34px);padding:14px 22px;overflow-x:auto;white-space:nowrap;scrollbar-width:none;overscroll-behavior-x:contain;-webkit-overflow-scrolling:touch;scroll-behavior:auto}} .nav-interior::-webkit-scrollbar{{display:none}}
 nav a{{font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.8px}}
 nav a:hover,nav a:focus{{color:var(--rojo)}}
 .contenedor{{max-width:var(--ancho);margin:0 auto;padding:0 28px}}
@@ -177,18 +177,18 @@ body.noche .pie{{background:#090909}}
 
 /* Carruseles continuos por sección */
 .bloque-categoria{{overflow:hidden}}
-.rejilla.carrusel-infinito{{display:flex;gap:22px;overflow:visible;width:max-content;max-width:none;animation:cev-carrusel 42s linear infinite;will-change:transform}}
-.bloque-categoria:hover .rejilla.carrusel-infinito,.bloque-categoria:focus-within .rejilla.carrusel-infinito{{animation-play-state:paused}}
+.rejilla.carrusel-infinito{{display:flex;gap:22px;overflow-x:auto;overflow-y:hidden;width:100%;max-width:100%;animation:none;scrollbar-width:none;overscroll-behavior-x:contain;-webkit-overflow-scrolling:touch;scroll-behavior:auto;padding-bottom:12px}} .rejilla.carrusel-infinito::-webkit-scrollbar{{display:none}}
+
 .rejilla.carrusel-infinito .tarjeta{{flex:0 0 clamp(245px,27vw,330px);width:clamp(245px,27vw,330px);min-width:0}}
 .rejilla.carrusel-infinito .tarjeta-imagen{{height:185px}}
-.rejilla.carrusel-infinito .tarjeta[aria-hidden="true"] a{{pointer-events:none}}
-@keyframes cev-carrusel{{from{{transform:translateX(0)}}to{{transform:translateX(-50%)}}}}
+
+
 @media(max-width:650px){{
- .rejilla.carrusel-infinito{{gap:14px;animation-duration:34s}}
+ .rejilla.carrusel-infinito{{gap:14px}}
  .rejilla.carrusel-infinito .tarjeta{{flex-basis:82vw;width:82vw}}
  .rejilla.carrusel-infinito .tarjeta-imagen{{height:190px}}
 }}
-@media(prefers-reduced-motion:reduce){{.rejilla.carrusel-infinito{{animation:none;overflow-x:auto;max-width:100%;scroll-snap-type:x mandatory}}.rejilla.carrusel-infinito .tarjeta{{scroll-snap-align:start}}}}
+@media(prefers-reduced-motion:reduce){{.rejilla.carrusel-infinito{{scroll-snap-type:x mandatory}}.rejilla.carrusel-infinito .tarjeta{{scroll-snap-align:start}}}}
 
 
 @media(max-width:900px){{
@@ -240,19 +240,30 @@ body.noche .pie{{background:#090909}}
 <script>
 (function(){{
 
- // Duplicar cada sección para crear un recorrido continuo sin salto.
- document.querySelectorAll('.rejilla.carrusel-infinito').forEach(track=>{{
-  const originales=Array.from(track.children);
-  if(!originales.length)return;
-  originales.forEach(card=>{{
-   const copia=card.cloneNode(true);
-   copia.setAttribute('aria-hidden','true');
-   copia.querySelectorAll('a,button').forEach(el=>el.setAttribute('tabindex','-1'));
-   track.appendChild(copia);
-  }});
+ // Carruseles: desplazamiento automático suave y control manual con dedo/ratón.
+ const carruseles=[...document.querySelectorAll('.rejilla.carrusel-infinito, .nav-interior')];
+ carruseles.forEach(track=>{{
+  let pausado=false, reanudar=null, anterior=0;
+  const detener=()=>{{pausado=true;clearTimeout(reanudar);reanudar=setTimeout(()=>{{pausado=false;}},2200);}};
+  track.addEventListener('pointerdown',detener,{{passive:true}});
+  track.addEventListener('touchstart',detener,{{passive:true}});
+  track.addEventListener('wheel',detener,{{passive:true}});
+  track.addEventListener('mouseenter',()=>{{pausado=true;}});
+  track.addEventListener('mouseleave',()=>{{pausado=false;}});
+  track.addEventListener('focusin',()=>{{pausado=true;}});
+  track.addEventListener('focusout',()=>{{pausado=false;}});
+  function mover(t){{
+   if(!anterior)anterior=t;
+   const delta=Math.min(t-anterior,40);anterior=t;
+   if(!pausado&&track.scrollWidth>track.clientWidth+2){{
+    track.scrollLeft+=delta*0.018;
+    if(track.scrollLeft+track.clientWidth>=track.scrollWidth-1)track.scrollLeft=0;
+   }}
+   requestAnimationFrame(mover);
+  }}
+  requestAnimationFrame(mover);
  }});
-
- // Los enlaces de navegación usan anclas nativas para abrir la sección al primer clic.
+ // La navegación conserva sus anclas nativas: cada sección abre al primer clic.
 }})();
 </script>
 <div class="progreso-lectura" id="progreso-lectura"></div>
@@ -333,6 +344,7 @@ def construir():
     noticias = datos.get("noticias", [])
     validas = []
     vistos = set()
+    titulos_vistos = set()
     for noticia in noticias:
         titulo = str(noticia.get("titulo", "")).strip()
         contenido = str(noticia.get("contenido", "")).strip()
@@ -340,13 +352,15 @@ def construir():
         if not titulo or len(contenido) < 250 or categoria not in SECCIONES or not imagen_segura(noticia.get("imagen")):
             continue
         identificador = noticia.get("id") or slug(titulo)
-        if identificador in vistos:
+        titulo_normalizado = re.sub(r"[^a-z0-9]+", " ", titulo.lower()).strip()
+        if identificador in vistos or titulo_normalizado in titulos_vistos:
             continue
         noticia["id"] = identificador
         noticia.setdefault("fecha", fecha_actual())
         noticia.setdefault("resumen", contenido[:220])
         noticia.setdefault("fuentes", [])
         vistos.add(identificador)
+        titulos_vistos.add(titulo_normalizado)
         validas.append(noticia)
         crear_articulo(noticia)
 
