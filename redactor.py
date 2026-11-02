@@ -747,30 +747,48 @@ def categoria_titular_rss(entrada):
         "el dovio", "el dovío", "ulloa", "obando", "argelia"
     )
 
+    if "la fm deportes" in fuente or any(p in titulo for p in (
+        "fútbol", "futbol", "liga", "selección", "seleccion", "partido",
+        "mundial", "copa", "tenis", "ciclismo", "baloncesto", "nba",
+        "deporte", "deportivo", "fórmula 1", "formula 1", "gol", "torneo"
+    )):
+        return "Deportes"
+
     if any(municipio in titulo for municipio in municipios_valle) or "valle del cauca" in titulo:
         return "Valle del Cauca"
-    if "cali" in titulo or fuente == "el tiempo cali":
+    if re.search(r"\\bcali\\b", titulo) or fuente == "el tiempo cali":
         return "Cali"
     if "90 minutos" in fuente or "diario occidente" in fuente:
         return "Valle del Cauca"
 
-    if "bbc sport" in fuente or any(p in titulo for p in (
-        "fútbol", "futbol", "liga", "selección", "seleccion", "partido",
-        "mundial", "copa", "tenis", "ciclismo", "baloncesto", "nba",
-        "deporte", "deportivo", "fórmula 1", "formula 1"
+    if "la fm economía" in fuente or "portafolio" in fuente or any(p in titulo for p in (
+        "economía", "economia", "inflación", "inflacion", "dólar", "dolar",
+        "empresas", "mercado", "finanzas", "banco", "inversión", "inversion"
     )):
-        return "Deportes"
+        return "Economía"
+    if "la fm internacional" in fuente:
+        return "Internacional"
+    if "la fm actualidad" in fuente:
+        return "Colombia"
     if "xataka" in fuente or any(p in titulo for p in (
         "inteligencia artificial", "tecnología", "tecnologia", "software",
         "aplicación", "aplicacion", "ciberseguridad", "smartphone",
         "celular", "computador", "videojuego"
     )):
         return "Tecnología"
-    if "portafolio" in fuente or any(p in titulo for p in (
-        "economía", "economia", "inflación", "inflacion", "dólar", "dolar",
-        "empresas", "mercado", "finanzas", "banco", "inversión", "inversion"
-    )):
-        return "Economía"
+
+    paises_extranjeros = (
+        "ucrania", "rusia", "estados unidos", "ee.uu", "eeuu", "méxico", "mexico",
+        "argentina", "brasil", "perú", "peru", "ecuador", "bolivia", "chile",
+        "israel", "gaza", "palestina", "irán", "iran", "china", "japón", "japon",
+        "reino unido", "francia", "alemania", "italia", "españa", "canadá", "canada",
+        "haití", "haiti", "cuba", "nicaragua", "honduras", "guatemala", "siria",
+        "lí bano", "libano", "pakistán", "pakistan", "india", "sudán", "sudan",
+        "etiopía", "etiopia", "nigeria", "kenia", "sudáfrica", "sudafrica",
+        "taiwán", "taiwan", "corea", "afganistán", "afganistan"
+    )
+    if any(pais in titulo for pais in paises_extranjeros):
+        return "Internacional"
     if any(p in fuente for p in ("bbc mundo", "dw español")):
         return "Internacional"
 
@@ -824,7 +842,7 @@ def construir_titulares_rss(entradas, publicadas, anteriores):
             "fecha": str(fuente.get("fecha") or "")
         })
 
-    candidatos.extend(anteriores if isinstance(anteriores, list) else [])
+    candidatos.extend([n for n in anteriores if str(n.get("fuente", "")) != "BBC Sport"] if isinstance(anteriores, list) else [])
     candidatos.sort(key=lambda n: fecha_a_timestamp(n.get("fecha")), reverse=True)
 
     resultado = []
