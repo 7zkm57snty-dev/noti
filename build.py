@@ -503,7 +503,7 @@ body.noche .destacada-visual img,body.noche .tarjeta-imagen img,body.noche .arti
  </div>
  <nav aria-label="Navegación principal"><div class="nav-interior">
   <a href="{ruta_raiz}">Portada</a>{enlaces}
-  <a href="{ruta_raiz}institucional.html">Quiénes somos</a><a href="{ruta_raiz}boletin.html">Boletín</a>
+  <a href="institucional.html">Quiénes somos</a><a href="boletin.html">Boletín</a>
  </div></nav>
  <div class="barra-herramientas">
   <input id="buscar-noticias" class="buscador" type="search" placeholder="Buscar noticias, temas o palabras..." aria-label="Buscar noticias">
