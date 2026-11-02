@@ -750,13 +750,13 @@ def categoria_titular_rss(entrada):
     if "la fm deportes" in fuente or any(p in titulo for p in (
         "fútbol", "futbol", "liga", "selección", "seleccion", "partido",
         "mundial", "copa", "tenis", "ciclismo", "baloncesto", "nba",
-        "deporte", "deportivo", "fórmula 1", "formula 1", "gol", "torneo"
+        "deporte", "deportivo", "fórmula 1", "formula 1", "torneo"
     )):
         return "Deportes"
 
     if any(municipio in titulo for municipio in municipios_valle) or "valle del cauca" in titulo:
         return "Valle del Cauca"
-    if re.search(r"\\bcali\\b", titulo) or fuente == "el tiempo cali":
+    if re.search(r"\bcali\b", titulo) or fuente == "el tiempo cali":
         return "Cali"
     if "90 minutos" in fuente or "diario occidente" in fuente:
         return "Valle del Cauca"
@@ -768,8 +768,6 @@ def categoria_titular_rss(entrada):
         return "Economía"
     if "la fm internacional" in fuente:
         return "Internacional"
-    if "la fm actualidad" in fuente:
-        return "Colombia"
     if "xataka" in fuente or any(p in titulo for p in (
         "inteligencia artificial", "tecnología", "tecnologia", "software",
         "aplicación", "aplicacion", "ciberseguridad", "smartphone",
@@ -783,7 +781,7 @@ def categoria_titular_rss(entrada):
         "israel", "gaza", "palestina", "irán", "iran", "china", "japón", "japon",
         "reino unido", "francia", "alemania", "italia", "españa", "canadá", "canada",
         "haití", "haiti", "cuba", "nicaragua", "honduras", "guatemala", "siria",
-        "lí bano", "libano", "pakistán", "pakistan", "india", "sudán", "sudan",
+        "líbano", "libano", "pakistán", "pakistan", "india", "sudán", "sudan",
         "etiopía", "etiopia", "nigeria", "kenia", "sudáfrica", "sudafrica",
         "taiwán", "taiwan", "corea", "afganistán", "afganistan"
     )
