@@ -1,6 +1,37 @@
 {
   "noticias": [
     {
+      "id": "53c35052da78e37f",
+      "titulo": "Antonio Navarro Wolff: de la guerrilla al Senado, el ingeniero que negoció la paz",
+      "titular_instagram": "Antonio Navarro: el ingeniero que transformó la violencia en diálogo",
+      "resumen": "Antonio Navarro Wolff, ex comandante del M‑19 y político de la izquierda, dejó una huella profunda en la historia colombiana. Ingeniero sanitario, participó en la negociación del acuerdo de paz con el gobierno de Virgilio Barco, fue candidato presidencial, constituyente, ministro de Salud, alcalde, gobernador y senador. Su trayectoria, marcada por la disciplina y la pragmática, sigue inspirando a la izquierda colombiana.",
+      "categoria": "Colombia",
+      "contenido": "Antonio Navarro Wolff nació el 9 de julio de 1948 en San Juan de Pasto, Nariño. Se formó como ingeniero sanitario en la Universidad del Valle y realizó estudios de especialización en ingeniería del medio ambiente en Inglaterra. Su carrera política inició a finales de la década de 1970 cuando se unió al Movimiento 19 de Abril (M‑19).\n\nDentro del M‑19, Navarro alcanzó el cargo de segundo comandante, después de Carlos Pizarro Leongómez. En mayo de 1985 sufrió un atentado con granada en una cafetería de Cali que le provocó la amputación de la pierna izquierda y lesiones en el nervio hipogloso, alterando su pronunciación. A pesar de la tragedia, continuó participando en las negociaciones que culminaron con el acuerdo de paz de 1990 con el gobierno de Virgilio Barco.\n\nEl 9 de marzo de 1990 firmó junto a Pizarro el acuerdo de paz, que dio inicio a la desmovilización del M‑19 y a su transición a la política electoral bajo el nombre de Alianza Democrática M‑19. Tras el asesinato de Pizarro el 26 de abril de 1990, Navarro asumió la candidatura presidencial de la organización y obtuvo cerca del 12,7 % de los votos, ocupando el tercer lugar.\n\nEn 1991 fue uno de los tres copresidentes de la Asamblea Nacional Constituyente, junto a Horacio Serpa Uribe y Álvaro Gómez Hurtado. La Asamblea promulgó la Constitución Política del 4 de julio de 1991, reemplazando la carta de 1886.\n\nSu trayectoria pública continuó con cargos de relevancia: ministro de Salud durante el gobierno de César Gaviria, alcalde de Pasto (1995‑1997), representante a la Cámara por Bogotá (1998‑2002), senador (2002‑2006 y 2014‑2018), gobernador de Nariño (2008‑2011) y secretario de Gobierno de la Alcaldía de Bogotá bajo la administración de Gustavo Petro.\n\nEn la política contemporánea, Navarro lidera la lista de Alianza Verde en el Senado, donde sigue promoviendo la participación ciudadana y la reforma social. Su estilo se caracteriza por la disciplina ingenieril, la pragmática y la capacidad de dialogar con fuerzas opuestas, lo que le ha permitido ser una figura clave en la izquierda colombiana.\n\nEl legado de Antonio Navarro Wolff se mantiene vivo en la memoria colectiva como un ejemplo de transformación política, de la violencia a la negociación y de la búsqueda constante de reformas que beneficien a la ciudadanía.",
+      "imagen": "https://upload.wikimedia.org/wikipedia/commons/1/18/AntonioNavarroWolff.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "imagen_credito": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/18/AntonioNavarroWolff.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "autor": "DiegoFuerteB",
+        "fuente": "Wikimedia Commons",
+        "pagina": "https://commons.wikimedia.org/wiki/File:AntonioNavarroWolff.png",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "tipo": "fotografía de archivo"
+      },
+      "imagen_instagram": "https://upload.wikimedia.org/wikipedia/commons/1/18/AntonioNavarroWolff.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "imagen_instagram_tipo": "externa_con_licencia",
+      "descripcion_instagram": "Antonio Navarro Wolff: de la guerrilla al Senado, el ingeniero que negoció la paz\\n\\nAntonio Navarro Wolff, ex comandante del M‑19 y político de la izquierda, dejó una huella profunda en la historia colombiana. Ingeniero sanitario, participó en la negociación del acuerdo de paz con el gobierno de Virgilio Barco, fue candidato presidencial, constituyente, ministro de Salud, alcalde, gobernador y senador. Su trayectoria, marcada por la disciplina y la pragmática, sigue inspirando a la izquierda colombiana.\\n\\nLee la noticia completa en cevnoticias.com.\\n\\nImagen: DiegoFuerteB · Wikimedia Commons · CC BY-SA 4.0\\n\\n#CEVNoticias #Actualidad #Colombia",
+      "verificacion": "Varias fuentes independientes",
+      "fecha": "02/11/2026 · 01:00 PM",
+      "fuentes": [
+        {
+          "nombre": "La Silla Vacía"
+        },
+        {
+          "nombre": "La República"
+        }
+      ]
+    },
+    {
       "id": "a627b9bcb73bd0ff",
       "titulo": "Muere en Ciudad de México a los 64 años el DJ estadounidense Juan Atkins, pionero del tecno",
       "titular_instagram": "Juan Atkins, pionero del techno, fallece a los 64 años",
@@ -138,40 +169,9 @@
           "nombre": "La República"
         }
       ]
-    },
-    {
-      "id": "53c35052da78e37f",
-      "titulo": "Antonio Navarro Wolff: de la guerrilla al Senado, el ingeniero que negoció la paz",
-      "titular_instagram": "Antonio Navarro: el ingeniero que transformó la violencia en diálogo",
-      "resumen": "Antonio Navarro Wolff, ex comandante del M‑19 y político de la izquierda, dejó una huella profunda en la historia colombiana. Ingeniero sanitario, participó en la negociación del acuerdo de paz con el gobierno de Virgilio Barco, fue candidato presidencial, constituyente, ministro de Salud, alcalde, gobernador y senador. Su trayectoria, marcada por la disciplina y la pragmática, sigue inspirando a la izquierda colombiana.",
-      "categoria": "Colombia",
-      "contenido": "Antonio Navarro Wolff nació el 9 de julio de 1948 en San Juan de Pasto, Nariño. Se formó como ingeniero sanitario en la Universidad del Valle y realizó estudios de especialización en ingeniería del medio ambiente en Inglaterra. Su carrera política inició a finales de la década de 1970 cuando se unió al Movimiento 19 de Abril (M‑19).\n\nDentro del M‑19, Navarro alcanzó el cargo de segundo comandante, después de Carlos Pizarro Leongómez. En mayo de 1985 sufrió un atentado con granada en una cafetería de Cali que le provocó la amputación de la pierna izquierda y lesiones en el nervio hipogloso, alterando su pronunciación. A pesar de la tragedia, continuó participando en las negociaciones que culminaron con el acuerdo de paz de 1990 con el gobierno de Virgilio Barco.\n\nEl 9 de marzo de 1990 firmó junto a Pizarro el acuerdo de paz, que dio inicio a la desmovilización del M‑19 y a su transición a la política electoral bajo el nombre de Alianza Democrática M‑19. Tras el asesinato de Pizarro el 26 de abril de 1990, Navarro asumió la candidatura presidencial de la organización y obtuvo cerca del 12,7 % de los votos, ocupando el tercer lugar.\n\nEn 1991 fue uno de los tres copresidentes de la Asamblea Nacional Constituyente, junto a Horacio Serpa Uribe y Álvaro Gómez Hurtado. La Asamblea promulgó la Constitución Política del 4 de julio de 1991, reemplazando la carta de 1886.\n\nSu trayectoria pública continuó con cargos de relevancia: ministro de Salud durante el gobierno de César Gaviria, alcalde de Pasto (1995‑1997), representante a la Cámara por Bogotá (1998‑2002), senador (2002‑2006 y 2014‑2018), gobernador de Nariño (2008‑2011) y secretario de Gobierno de la Alcaldía de Bogotá bajo la administración de Gustavo Petro.\n\nEn la política contemporánea, Navarro lidera la lista de Alianza Verde en el Senado, donde sigue promoviendo la participación ciudadana y la reforma social. Su estilo se caracteriza por la disciplina ingenieril, la pragmática y la capacidad de dialogar con fuerzas opuestas, lo que le ha permitido ser una figura clave en la izquierda colombiana.\n\nEl legado de Antonio Navarro Wolff se mantiene vivo en la memoria colectiva como un ejemplo de transformación política, de la violencia a la negociación y de la búsqueda constante de reformas que beneficien a la ciudadanía.",
-      "imagen": "https://upload.wikimedia.org/wikipedia/commons/1/18/AntonioNavarroWolff.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "imagen_credito": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/1/18/AntonioNavarroWolff.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "autor": "DiegoFuerteB",
-        "fuente": "Wikimedia Commons",
-        "pagina": "https://commons.wikimedia.org/wiki/File:AntonioNavarroWolff.png",
-        "licencia": "CC BY-SA 4.0",
-        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
-        "tipo": "fotografía de archivo"
-      },
-      "imagen_instagram": "https://upload.wikimedia.org/wikipedia/commons/1/18/AntonioNavarroWolff.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "imagen_instagram_tipo": "externa_con_licencia",
-      "descripcion_instagram": "Antonio Navarro Wolff: de la guerrilla al Senado, el ingeniero que negoció la paz\\n\\nAntonio Navarro Wolff, ex comandante del M‑19 y político de la izquierda, dejó una huella profunda en la historia colombiana. Ingeniero sanitario, participó en la negociación del acuerdo de paz con el gobierno de Virgilio Barco, fue candidato presidencial, constituyente, ministro de Salud, alcalde, gobernador y senador. Su trayectoria, marcada por la disciplina y la pragmática, sigue inspirando a la izquierda colombiana.\\n\\nLee la noticia completa en cevnoticias.com.\\n\\nImagen: DiegoFuerteB · Wikimedia Commons · CC BY-SA 4.0\\n\\n#CEVNoticias #Actualidad #Colombia",
-      "verificacion": "Varias fuentes independientes",
-      "fecha": "02/11/2026 · 01:00 PM",
-      "fuentes": [
-        {
-          "nombre": "La Silla Vacía"
-        },
-        {
-          "nombre": "La República"
-        }
-      ]
     }
   ],
   "fecha_solicitudes_groq": "2026-11-02",
-  "ultima_actualizacion": "2026-11-02T21:50:54.345280+00:00",
+  "ultima_actualizacion": "2026-11-02T21:52:05.741998+00:00",
   "solicitudes_groq": 30
 }
