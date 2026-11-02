@@ -172,9 +172,18 @@
     }
   ],
   "fecha_solicitudes_groq": "2026-11-02",
-  "ultima_actualizacion": "2026-11-02T23:02:57.495591+00:00",
+  "ultima_actualizacion": "2026-11-02T23:09:47.980962+00:00",
   "solicitudes_groq": 30,
   "titulares_rss": [
+    {
+      "id": "dba31cb2c5415f40",
+      "titulo": "Corea del Norte rechaza acusaciones del FBI sobre hackeo a Binance",
+      "categoria": "Internacional",
+      "fuente": "La FM Internacional",
+      "url": "https://www.lafm.com.co/internacional/corea-del-norte-rechaza-acusaciones-del-fbi-sobre-hackeo-binance-415924",
+      "fecha": "2026-11-02T23:02:06+00:00",
+      "imagen": "https://files.lafm.com.co/media/news-images/2026/11/02/230409/portadas-30-1200x675.jpg"
+    },
     {
       "id": "70568f727976c30e",
       "titulo": "María Eugenia Carreño será la viceministra de Diálogo Social de Ordóñez",
@@ -444,15 +453,6 @@
       "url": "https://elpais.com/internacional/2026-11-02/rebeca-grynspan-candidata-a-secretaria-general-de-la-onu-se-han-desdibujado-las-lecciones-del-pasado.html",
       "fecha": "2026-11-02T18:58:41+00:00",
       "imagen": "https://vdmedia.elpais.com/mcv/elpais/multimedia/20261102/1232939_193400_video_1800.mp4"
-    },
-    {
-      "id": "b6e2dc25c2231606",
-      "titulo": "Accidente aéreo en Florida: se conocen audios antes del choque",
-      "categoria": "Internacional",
-      "fuente": "La FM Internacional",
-      "url": "https://www.lafm.com.co/internacional/accidente-aereo-en-florida-revelan-audios-antes-del-choque-415915",
-      "fecha": "2026-11-02T18:52:26+00:00",
-      "imagen": "https://files.lafm.com.co/media/news-images/2026/11/02/185649/portadas-27-1200x675.jpg"
     },
     {
       "id": "c736525341fde605",
@@ -759,15 +759,6 @@
       "url": "https://www.eltiempo.com/colombia/cali/un-hijo-de-13-anos-un-padre-sin-casa-y-un-grano-que-conquisto-a-bogota-la-travesia-de-la-familia-detras-de-cafe-don-argelino-3597569",
       "fecha": "2026-10-31T01:11:42+00:00",
       "imagen": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/10/30/6ae51aa04f5b8.jpeg"
-    },
-    {
-      "id": "a4c80055c9051cb1",
-      "titulo": "Popayán endurece controles para Halloween: habrá restricciones a motociclistas, combustible y pólvora",
-      "categoria": "Cali",
-      "fuente": "El Tiempo Cali",
-      "url": "https://www.eltiempo.com/colombia/cali/popayan-endurece-controles-para-halloween-habra-restricciones-a-motociclistas-combustible-y-polvora-3597601",
-      "fecha": "2026-10-30T23:06:56+00:00",
-      "imagen": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/06/12/6a2c9485b3c74.jpeg"
     }
   ],
   "ultima_solicitud_groq": ""
