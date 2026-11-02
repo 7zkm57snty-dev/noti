@@ -172,32 +172,32 @@
     }
   ],
   "fecha_solicitudes_groq": "2026-11-02",
-  "ultima_actualizacion": "2026-11-02T22:39:03.981641+00:00",
+  "ultima_actualizacion": "2026-11-02T22:40:01.849451+00:00",
   "solicitudes_groq": 30,
   "titulares_rss": [
     {
-      "id": "986e931f0845a5ac",
-      "titulo": "Arsenal want Kroupi in January - Tuesday's gossip",
+      "id": "9f59a46ba81daf5c",
+      "titulo": "El historial del conductor de un lujoso Corvette que causó un accidente en Medellín: tenía licencia vencida y ocho multas",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/medellin/con-licencia-vencida-y-8-multas-previas-el-historial-del-conductor-de-un-corvette-que-causo-un-accidente-en-medellin-3597946",
+      "fecha": "2026-11-02T22:32:19+00:00"
+    },
+    {
+      "id": "0fa12b93ccd5cfbd",
+      "titulo": "Las identidades de las víctimas del atentado con volqueta cargada de explosivos en Planadas, sur del Tolima: joven promesa del fútbol murió en su casa",
       "categoria": "Deportes",
-      "fuente": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cmy83eppjzp4o?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-02T22:24:56+00:00"
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/las-identidades-de-las-victimas-del-atentado-con-volqueta-cargada-de-explosivos-en-planadas-sur-del-tolima-joven-futbolista-murio-en-su-casa-3597954",
+      "fecha": "2026-11-02T22:31:39+00:00"
     },
     {
       "id": "4232adf717a9a076",
       "titulo": "Al menos 26 muertos por un bombardeo ruso contra una escuela en Ucrania",
-      "categoria": "Colombia",
+      "categoria": "Internacional",
       "fuente": "El País Colombia",
       "url": "https://elpais.com/internacional/2026-11-02/varios-muertos-por-un-bombardeo-ruso-contra-una-escuela-en-ucrania.html",
       "fecha": "2026-11-02T22:20:10+00:00"
-    },
-    {
-      "id": "41336cadec8863e1",
-      "titulo": "Who produced the kind of performance Moyes loves? - player ratings",
-      "categoria": "Deportes",
-      "fuente": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cmglwjxx45gjo?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-02T22:08:43+00:00"
     },
     {
       "id": "778d781935ec804f",
@@ -206,22 +206,6 @@
       "fuente": "BBC Mundo",
       "url": "https://www.bbc.com/mundo/articles/c9ly0x3jr86eo?at_medium=RSS&at_campaign=rss",
       "fecha": "2026-11-02T22:06:33+00:00"
-    },
-    {
-      "id": "27bb870a899b4f77",
-      "titulo": "Kane would swap Ballon d'Or for Champions League victory",
-      "categoria": "Deportes",
-      "fuente": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c6gr875l1095o?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-02T21:46:42+00:00"
-    },
-    {
-      "id": "fef0169fc5fbd7b3",
-      "titulo": "Lions say signs are positive for injured Campbell",
-      "categoria": "Deportes",
-      "fuente": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/american-football/articles/ck9qz90z951po?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-02T21:45:33+00:00"
     },
     {
       "id": "a11dc26b1d13b69d",
@@ -238,14 +222,6 @@
       "fuente": "La Silla Vacía",
       "url": "https://www.lasillavacia.com/en-vivo/fmi-prestamista-del-gobierno-respalda-la-tributaria-de-de-la-espriella/",
       "fecha": "2026-11-02T21:34:53+00:00"
-    },
-    {
-      "id": "a9bc922d7e0e14e9",
-      "titulo": "Russell says F1 title loss 'tough to deal with'",
-      "categoria": "Deportes",
-      "fuente": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/formula1/articles/cmq8n95ppwd4o?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-02T21:16:11+00:00"
     },
     {
       "id": "ed86d42c5721bfd0",
@@ -274,7 +250,7 @@
     {
       "id": "baa3b196994fc324",
       "titulo": "El petróleo se desploma a su nivel más bajo desde julio mientras EE.UU. e Irán muestran apertura al diálogo",
-      "categoria": "Colombia",
+      "categoria": "Internacional",
       "fuente": "La República",
       "url": "https://www.larepublica.co/globoeconomia/el-petroleo-se-desploma-a-su-nivel-mas-bajo-desde-julio-mientras-ee-uu-e-iran-muestran-apertura-al-dialogo-4516248",
       "fecha": "2026-11-02T20:53:38+00:00"
@@ -302,14 +278,6 @@
       "fuente": "La FM Deportes",
       "url": "https://www.lafm.com.co/deportes/kimi-antonelli-piloto-campeon-formula-1-415919",
       "fecha": "2026-11-02T20:25:16+00:00"
-    },
-    {
-      "id": "55a2158a932cccb4",
-      "titulo": "Fifa to share confidential World Cup sell-off plan documents",
-      "categoria": "Deportes",
-      "fuente": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c6vgj0p4ey17o?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-02T20:23:55+00:00"
     },
     {
       "id": "baa17a6d7ff8b5a0",
@@ -354,7 +322,7 @@
     {
       "id": "0856d8a2aa2f38fc",
       "titulo": "¿Quién es Karl Bushby? El hombre que logró recorrer el mundo caminando durante 28 años",
-      "categoria": "Colombia",
+      "categoria": "Internacional",
       "fuente": "La FM Internacional",
       "url": "https://www.lafm.com.co/internacional/karl-bushby-hombre-que-recorrio-el-mundo-caminando-durante-28-anos-415916",
       "fecha": "2026-11-02T19:49:07+00:00"
@@ -366,14 +334,6 @@
       "fuente": "Portafolio",
       "url": "https://www.portafolio.co/economia/impuestos/empuje-tributario-a-empresas-que-inviertan-y-den-empleo-505585",
       "fecha": "2026-11-02T19:46:53+00:00"
-    },
-    {
-      "id": "0fa12b93ccd5cfbd",
-      "titulo": "Las identidades de las víctimas del atentado con volqueta cargada de explosivos en Planadas, sur del Tolima: joven promesa del fútbol murió en su casa",
-      "categoria": "Deportes",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/las-identidades-de-las-victimas-del-atentado-con-volqueta-cargada-de-explosivos-en-planadas-sur-del-tolima-joven-futbolista-murio-en-su-casa-3597954",
-      "fecha": "2026-11-02T19:45:00+00:00"
     },
     {
       "id": "81adc68951ea3623",
@@ -434,10 +394,18 @@
     {
       "id": "b6e2dc25c2231606",
       "titulo": "Accidente aéreo en Florida: se conocen audios antes del choque",
-      "categoria": "Colombia",
+      "categoria": "Internacional",
       "fuente": "La FM Internacional",
       "url": "https://www.lafm.com.co/internacional/accidente-aereo-en-florida-revelan-audios-antes-del-choque-415915",
       "fecha": "2026-11-02T18:52:26+00:00"
+    },
+    {
+      "id": "c736525341fde605",
+      "titulo": "Asesinan a trabajador del sector petrolero frente a sus compañeros en Barrancabermeja, Santander: esto se sabe del crimen",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/santander/asesinan-a-trabajador-del-sector-petrolero-frente-a-sus-companeros-en-barrancabermeja-santander-esto-se-sabe-del-crimen-3597948",
+      "fecha": "2026-11-02T18:50:31+00:00"
     },
     {
       "id": "291f7151e486f924",
@@ -448,12 +416,28 @@
       "fecha": "2026-11-02T18:45:00+00:00"
     },
     {
-      "id": "0c99334a12ae9024",
-      "titulo": "Tenerife player in intensive care with injury",
+      "id": "7bd948f1eb575111",
+      "titulo": "La lucha por avanzar continúa: así se jugará la cuarta fecha de la Champions League",
       "categoria": "Deportes",
-      "fuente": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/ck62yvz046pjo?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-02T18:18:55+00:00"
+      "fuente": "La FM Deportes",
+      "url": "https://www.lafm.com.co/deportes/champions-league-fecha-cuatro-horarios-programacion-oficial-415908",
+      "fecha": "2026-11-02T18:31:01+00:00"
+    },
+    {
+      "id": "9d3a86d0508374d7",
+      "titulo": "GeoPark completa antes de lo previsto su entrada a Venezuela y se prepara para operar el bloque Bare",
+      "categoria": "Economía",
+      "fuente": "La FM Economía",
+      "url": "https://www.lafm.com.co/economia/geopark-completa-entrada-venezuela-operacion-bloque-bare-2026-415913",
+      "fecha": "2026-11-02T18:29:11+00:00"
+    },
+    {
+      "id": "b1b17e31cc7c110d",
+      "titulo": "“Hay gente que no quiere que Santa Marta tenga agua”: presidente denuncia presunta mafia de carrotanques",
+      "categoria": "Colombia",
+      "fuente": "La FM Actualidad",
+      "url": "https://www.lafm.com.co/actualidad/denuncia-carrotanques-agua-santa-marta-presidente-415912",
+      "fecha": "2026-11-02T18:21:04+00:00"
     },
     {
       "id": "ed6cdda820c7ffae",
@@ -464,28 +448,36 @@
       "fecha": "2026-11-02T18:18:32+00:00"
     },
     {
-      "id": "6876835a78e38e21",
-      "titulo": "Smyth in contention as Saints evaluate kicker slot",
-      "categoria": "Deportes",
-      "fuente": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/american-football/articles/cv2d6k463j6ko?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-02T18:16:13+00:00"
-    },
-    {
-      "id": "dd0431670394dd59",
-      "titulo": "Alemania lleva carne de mapache a la mesa para combatir su propagación",
-      "categoria": "Internacional",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/alemania-lleva-carne-de-mapache-a-la-mesa-para-combatir-su-propagación/a-79833593?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-02T18:15:00+00:00"
-    },
-    {
       "id": "97633ae82bfd740a",
       "titulo": "Tajamar Occidental suma $100.000 millones del Gobierno a una obra de cerca de $380.000 millones en Barranquilla",
       "categoria": "Economía",
       "fuente": "Portafolio",
       "url": "https://www.portafolio.co/economia/infraestructura/tajamar-occidental-suma-100-000-millones-del-gobierno-a-una-obra-de-cerca-de-380-000-millones-en-barranquilla-505581",
       "fecha": "2026-11-02T18:05:00+00:00"
+    },
+    {
+      "id": "d60dd1d47f890e3f",
+      "titulo": "MinComercio señala presuntas irregularidades en contratos de Fontur firmados durante el gobierno Petro",
+      "categoria": "Economía",
+      "fuente": "La FM Economía",
+      "url": "https://www.lafm.com.co/economia/mincomercio-denuncia-148-contratos-de-fontur-por-125-mil-millones-415911",
+      "fecha": "2026-11-02T18:02:02+00:00"
+    },
+    {
+      "id": "dfa14b0598a10a07",
+      "titulo": "'Lo de Planadas es terrorismo puro y duro de las mafias que se disfrazan con brazaletes de revolucionarios', gobernadora del Tolima",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/lo-de-planadas-es-terrorismo-puro-y-duro-de-las-mafias-que-se-disfrazan-con-brazaletes-de-revolucionarios-gobernadora-del-tolima-3597937",
+      "fecha": "2026-11-02T18:01:00+00:00"
+    },
+    {
+      "id": "64d6885eabf65fc9",
+      "titulo": "Jackson Martínez y una selecta lista: ser goleador en Colombia con 40 años",
+      "categoria": "Deportes",
+      "fuente": "La FM Deportes",
+      "url": "https://www.lafm.com.co/deportes/liga-betplay-jackson-martinez-jugadores-que-han-hecho-col-con-40-anos-415910",
+      "fecha": "2026-11-02T18:00:14+00:00"
     },
     {
       "id": "e3c74ff874965e2c",
@@ -504,44 +496,12 @@
       "fecha": "2026-11-02T17:59:38+00:00"
     },
     {
-      "id": "b62a99356a0e1198",
-      "titulo": "Por qué Trump se enfrenta al mismo problema económico que hundió a Biden",
-      "categoria": "Internacional",
-      "fuente": "BBC Mundo",
-      "url": "https://www.bbc.com/mundo/articles/cm89z5zp0zkzo?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-02T17:58:09+00:00"
-    },
-    {
-      "id": "e7fedb50a8b228fb",
-      "titulo": "EE.UU. aprueba versión económica de tratamiento preventivo contra el VIH",
-      "categoria": "Internacional",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/ee-uu-aprueba-versión-económica-de-tratamiento-preventivo-contra-el-vih/a-79833664?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-02T17:57:00+00:00"
-    },
-    {
-      "id": "12fcaeb976637108",
-      "titulo": "KFC y Taco Bell cierran todos sus restaurantes en esta isla del Caribe: esta es la razón del adiós",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/kfc-y-taco-bell-cierran-todos-sus-restaurantes-en-esta-isla-del-caribe-esta-es-la-razon-del-adios-505574",
-      "fecha": "2026-11-02T17:25:21+00:00"
-    },
-    {
       "id": "3339f59397e502e3",
       "titulo": "Hoy en Action la powerbank perfecta para llevarla en el bolsillo: es ideal para viajes o festivales y está disponible en varios colores",
       "categoria": "Tecnología",
       "fuente": "Xataka",
       "url": "https://www.xataka.com/seleccion/hoy-action-powerbank-perfecta-para-llevarla-bolsillo-ideal-para-viajes-festivales-esta-disponible-varios-colores",
       "fecha": "2026-11-02T17:15:26+00:00"
-    },
-    {
-      "id": "6fca57ac531721cb",
-      "titulo": "José Luis Escrivá rechaza equiparar las inversiones en IA con otras que acabaron en burbuja",
-      "categoria": "Economía",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/internacional/2026-11-02/jose-luis-escriva-rechaza-equiparar-las-inversiones-en-ia-con-otras-que-acabaron-en-burbuja.html",
-      "fecha": "2026-11-02T17:11:57+00:00"
     },
     {
       "id": "89d23745db7865d4",
@@ -552,12 +512,12 @@
       "fecha": "2026-11-02T17:01:28+00:00"
     },
     {
-      "id": "d10d04bccfe4829a",
-      "titulo": "La paz como bandera: así ganó Iliana Yotova la elección en Bulgaria",
-      "categoria": "Internacional",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/la-paz-como-bandera-así-ganó-iliana-yotova-la-elección-en-bulgaria/a-79832285?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-02T16:51:00+00:00"
+      "id": "c015e0e8817e1b95",
+      "titulo": "Javier Tebas, presidente de LaLiga: “No sé cuánto durará el boicot de China, pero es un problema para nuestros patrocinios”",
+      "categoria": "Deportes",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/internacional/2026-11-02/javier-tebas-presidente-de-laliga-no-se-cuanto-durara-el-boicot-de-china-pero-es-un-problema-para-nuestros-patrocinios.html",
+      "fecha": "2026-11-02T16:37:53+00:00"
     },
     {
       "id": "c07f1801efd628ae",
@@ -616,12 +576,36 @@
       "fecha": "2026-11-02T02:53:13+00:00"
     },
     {
+      "id": "40aefad69ff751ff",
+      "titulo": "Jackson Martínez: debut, gol y victoria con DIM en Liga Betplay",
+      "categoria": "Deportes",
+      "fuente": "La FM Deportes",
+      "url": "https://www.lafm.com.co/deportes/jackson-martinez-debuta-con-gol-en-liga-betplay-con-dim-415876",
+      "fecha": "2026-11-02T01:01:33+00:00"
+    },
+    {
       "id": "eff1171ba3ee1abb",
       "titulo": "Cali se blindó por aire y tierra: así fue el impresionante operativo para proteger a 10.000 ciclistas en el Giro de Rigo",
       "categoria": "Cali",
       "fuente": "El Tiempo Cali",
       "url": "https://www.eltiempo.com/colombia/cali/cali-se-blindo-por-aire-y-tierra-asi-fue-el-impresionante-operativo-para-proteger-a-10-000-ciclistas-en-el-giro-de-rigo-3597869",
       "fecha": "2026-11-02T00:47:22+00:00"
+    },
+    {
+      "id": "74cbc480a65e34ec",
+      "titulo": "Gobierno endurece controles de ingreso a estadios de fútbol: estas son las nuevas medidas",
+      "categoria": "Deportes",
+      "fuente": "La FM Actualidad",
+      "url": "https://www.lafm.com.co/actualidad/gobierno-anuncia-detectores-de-metales-y-controles-en-estadios-de-futbol-415875",
+      "fecha": "2026-11-02T00:44:55+00:00"
+    },
+    {
+      "id": "a65d66c496ed2bba",
+      "titulo": "El Boca de Montero se impuso ante River en La Bombonera: así quedó la pelea por el título en la clasificación anual",
+      "categoria": "Deportes",
+      "fuente": "La FM Deportes",
+      "url": "https://www.lafm.com.co/deportes/boca-vencio-river-plate-alvaro-montero-titular-asi-quedo-tabla-clasificacion-anual-argentina-415867",
+      "fecha": "2026-11-01T20:24:10+00:00"
     },
     {
       "id": "9804a0755ba184d7",
@@ -664,12 +648,28 @@
       "fecha": "2026-10-31T21:31:27+00:00"
     },
     {
+      "id": "5e7fc84d2729321f",
+      "titulo": "Bayern Múnich no pudo con Dortmund en Der Klassiker: Luis Díaz se perdió el gran clásico alemán",
+      "categoria": "Deportes",
+      "fuente": "La FM Deportes",
+      "url": "https://www.lafm.com.co/deportes/bayern-munich-dortmund-resultado-goles-luis-diaz-goleadores-jugadores-destacados-415807",
+      "fecha": "2026-10-31T20:09:52+00:00"
+    },
+    {
       "id": "53ea8b62a689b482",
       "titulo": "La angustiosa búsqueda de Dylan Campaz en Buenaventura: el caso se eleva a desaparición forzada y ofrecen millonaria recompensa",
       "categoria": "Valle del Cauca",
       "fuente": "El Tiempo Cali",
       "url": "https://www.eltiempo.com/colombia/cali/la-angustiosa-busqueda-de-dylan-campaz-en-buenaventura-el-caso-se-eleva-a-desaparicion-forzada-y-ofrecen-millonaria-recompensa-3597726",
       "fecha": "2026-10-31T19:26:16+00:00"
+    },
+    {
+      "id": "ece1430eccd26b78",
+      "titulo": "El United no levanta cabeza: cayó 2-0 ante Chelsea y depende de otros resultados para evitar el descenso",
+      "categoria": "Deportes",
+      "fuente": "La FM Deportes",
+      "url": "https://www.lafm.com.co/deportes/manchester-united-pierde-chelsea-zona-del-descenso-resultados-premier-league-tabla-de-posiciones-415790",
+      "fecha": "2026-10-31T15:00:37+00:00"
     },
     {
       "id": "f3ab6b9124d91ed9",
