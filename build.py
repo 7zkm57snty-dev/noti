@@ -243,30 +243,41 @@ body.noche .pie{{background:#090909}}
 </footer>
 <script>
 (function(){{
-
- // Carruseles automáticos: movimiento constante, sin duplicar tarjetas.
- const carruseles=[...document.querySelectorAll('.rejilla.carrusel-infinito')];
+ // Carruseles automáticos para navegación y noticias, sin clonar contenido.
+ const selectores=['.nav-interior','.rejilla.carrusel-infinito'];
+ const carruseles=selectores.flatMap(selector=>[...document.querySelectorAll(selector)]);
  carruseles.forEach(track=>{{
-  let pausado=false,anterior=0,direccion=1;
-  const velocidad=55;
+  let pausado=false,anterior=0,direccion=1,reactivar=null,ultimoScroll=track.scrollLeft;
+  const velocidad=78;
   const maximo=()=>Math.max(0,track.scrollWidth-track.clientWidth);
-  track.addEventListener('pointerdown',()=>{{pausado=true;}},{{passive:true}});
-  const soltar=()=>{{pausado=false;anterior=0;}};
-  track.addEventListener('pointerup',soltar,{{passive:true}});
-  track.addEventListener('pointercancel',soltar,{{passive:true}});
-  track.addEventListener('touchend',soltar,{{passive:true}});
-  track.addEventListener('touchcancel',soltar,{{passive:true}});
-  track.addEventListener('wheel',()=>{{pausado=true;setTimeout(soltar,700);}},{{passive:true}});
+  const pausar=()=>{{pausado=true;anterior=0;if(reactivar)clearTimeout(reactivar);}};
+  const reanudar=()=>{{if(reactivar)clearTimeout(reactivar);reactivar=setTimeout(()=>{{pausado=false;anterior=0;}},450);}};
+  track.addEventListener('pointerdown',pausar,{{passive:true}});
+  window.addEventListener('pointerup',reanudar,{{passive:true}});
+  window.addEventListener('pointercancel',reanudar,{{passive:true}});
+  track.addEventListener('touchstart',pausar,{{passive:true}});
+  track.addEventListener('touchend',reanudar,{{passive:true}});
+  track.addEventListener('touchcancel',reanudar,{{passive:true}});
+  track.addEventListener('wheel',()=>{{pausar();reanudar();}},{{passive:true}});
+  track.addEventListener('mouseenter',pausar,{{passive:true}});
+  track.addEventListener('mouseleave',reanudar,{{passive:true}});
+  track.addEventListener('focusin',pausar);
+  track.addEventListener('focusout',reanudar);
+  window.addEventListener('blur',()=>{{pausado=false;anterior=0;}});
+  document.addEventListener('visibilitychange',()=>{{anterior=0;if(document.hidden)pausado=true;else pausado=false;}});
   function mover(t){{
    if(!anterior)anterior=t;
-   const delta=Math.min((t-anterior)/1000,0.05);anterior=t;
+   const delta=Math.min(Math.max((t-anterior)/1000,0),0.05);anterior=t;
    const limite=maximo();
-   if(!pausado&&limite>2){{
-    let siguiente=track.scrollLeft+direccion*velocidad*delta;
+   if(!pausado&&limite>3){{
+    const actual=track.scrollLeft;
+    if(Math.abs(actual-ultimoScroll)>1)direccion=actual>ultimoScroll?1:-1;
+    let siguiente=actual+direccion*velocidad*delta;
     if(siguiente>=limite){{siguiente=limite;direccion=-1;}}
     else if(siguiente<=0){{siguiente=0;direccion=1;}}
     track.scrollLeft=siguiente;
    }}
+   ultimoScroll=track.scrollLeft;
    requestAnimationFrame(mover);
   }}
   requestAnimationFrame(mover);
