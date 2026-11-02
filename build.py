@@ -76,6 +76,24 @@ def tarjeta(noticia, posicion=0):
     </article>"""
 
 
+def tarjeta_rss(titular):
+    titulo = escapar(titular.get("titulo"))
+    fuente = escapar(titular.get("fuente", "Medio de origen"))
+    categoria = escapar(titular.get("categoria"))
+    url = imagen_segura(titular.get("url"))
+    fecha = fecha_ordenable(titular)
+    fecha_texto = datetime.fromtimestamp(fecha, COLOMBIA_TZ).strftime("%d/%m · %I:%M %p") if fecha else ""
+    return f"""
+    <article class="tarjeta titular-externo">
+      <a class="titular-rss-enlace" href="{url}" target="_blank" rel="noopener noreferrer">
+        <span class="rss-sello">Titular de actualidad · {categoria}</span>
+        <h3>{titulo}</h3>
+        <div class="rss-datos"><strong>{fuente}</strong><span>{fecha_texto}</span></div>
+        <span class="leer">Leer en el medio original ↗</span>
+      </a>
+    </article>"""
+
+
 def plantilla(titulo, contenido, descripcion="CEV NOTICIAS", ruta_raiz="", extra_head=""):
     enlaces = "".join(
         f'<a href="{ruta_raiz}#categoria-{slug(s)}">{escapar(s)}</a>'
@@ -148,6 +166,12 @@ nav a:hover,nav a:focus{{color:var(--rojo)}}
 .tarjeta-imagen img{{width:100%;height:100%;object-fit:cover;display:block;transition:transform .35s}}
 .tarjeta:hover .tarjeta-imagen img{{transform:scale(1.035)}}
 .imagen-vacia{{display:grid;place-items:center;background:linear-gradient(135deg,#e8e4dc,#d4d0c8);color:#6b6258;font-family:'Playfair Display',serif;font-size:30px;font-weight:800;letter-spacing:2px}}
+.tarjeta.titular-externo{{background:var(--blanco);border:1px solid var(--linea);border-top:4px solid var(--rojo);min-height:260px;display:flex}}
+.titular-rss-enlace{{display:flex;flex-direction:column;align-items:flex-start;gap:12px;width:100%;padding:19px}}
+.rss-sello{{font-size:9px;font-weight:800;letter-spacing:1.2px;text-transform:uppercase;color:var(--rojo)}}
+.tarjeta.titular-externo h3{{font-family:'Playfair Display',Georgia,serif;font-size:22px;line-height:1.2;margin:0}}
+.rss-datos{{display:flex;flex-direction:column;gap:4px;margin-top:auto;color:var(--suave);font-size:10px}}
+.tarjeta.titular-externo .leer{{margin-top:4px}}
 .tarjeta-contenido{{padding:13px 0 4px}}
 .tarjeta h3{{font-family:'Playfair Display',Georgia,serif;font-size:22px;line-height:1.16;letter-spacing:-.4px;margin:8px 0}}
 .tarjeta p{{font-size:12px;line-height:1.65;color:var(--suave);margin:8px 0 12px}}
@@ -418,6 +442,7 @@ def crear_articulo(noticia, noticias=None):
 def construir():
     datos = cargar_json(CACHE, {})
     noticias = datos.get("noticias", [])
+    titulares_rss = datos.get("titulares_rss", []) if isinstance(datos.get("titulares_rss", []), list) else []
     validas = []
     vistos = set()
     titulos_vistos = set()
@@ -487,9 +512,17 @@ def construir():
     excluidas = {n["id"] for n in validas[:1]}
     for seccion in SECCIONES:
         grupo = [n for n in validas if n["categoria"] == seccion and n["id"] not in excluidas]
+        titulares_seccion = [
+            t for t in titulares_rss
+            if t.get("categoria") == seccion
+        ]
+        tarjetas_seccion = (
+            "".join(tarjeta(n, i) for i, n in enumerate(grupo))
+            + "".join(tarjeta_rss(t) for t in titulares_seccion)
+        )
         contenido_seccion = (
-            f'<div class="rejilla carrusel-infinito">{"".join(tarjeta(n, i) for i, n in enumerate(grupo))}</div>'
-            if grupo else
+            f'<div class="rejilla carrusel-infinito">{tarjetas_seccion}</div>'
+            if tarjetas_seccion else
             '<div class="vacio">No hay más noticias en esta categoría por ahora.</div>'
         )
         bloques.append(
@@ -504,7 +537,7 @@ def construir():
     sitemap = '<?xml version="1.0" encoding="UTF-8"?>\\n' + '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\\n' + ''.join(f'<url><loc>{html.escape(url)}</loc></url>\\n' for url in urls) + '</urlset>\\n'
     (SITE / "sitemap.xml").write_text(sitemap, encoding="utf-8")
     (SITE / "robots.txt").write_text("User-agent: *\\nAllow: /\\nSitemap: https://cevnoticias.com/sitemap.xml\\n", encoding="utf-8")
-    print(f"Portada creada. Artículos publicados: {len(validas)}")
+    print(f"Portada creada. Artículos propios: {len(validas)} · Titulares de fuentes: {len(titulares_rss)}")
 
 
 if __name__ == "__main__":
