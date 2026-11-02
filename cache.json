@@ -1,3 +1,34 @@
 {
-  "noticias": []
+  "noticias": [
+    {
+      "id": "85900bf522714b5a",
+      "titulo": "El voto latino en EE. UU. no tiene dueño: la economía decide el Congreso",
+      "resumen": "La diversidad de la comunidad latina en Estados Unidos y su preocupación por la economía hacen que su voto sea un factor decisivo en las elecciones de medio término, sin que ningún partido pueda considerarlo un bloque homogéneo.",
+      "categoria": "Internacional",
+      "contenido": "El 3 de noviembre se celebrarán las elecciones de medio término en Estados Unidos, donde la participación de los latinos, que representan el 16 % del electorado nacional, puede determinar el control del Congreso. Según datos del Pew Research Center, cerca de 39 millones de latinos son elegibles para votar, lo que supone un aumento de más de cinco millones respecto a 2022.\n\nLa realidad electoral, sin embargo, no se reduce a cifras demográficas. La comunidad latina está compuesta por mexicanos, cubanos, venezolanos, puertorriqueños y colombianos, entre otros, cada uno con experiencias históricas y prioridades distintas. En California, por ejemplo, las comunidades de origen mexicano y puertorriqueño tienen sensibilidades políticas que difieren de las de los cubanos y venezolanos que predominan en Florida. En Texas y Arizona, la presencia latina en distritos competitivos puede cambiar márgenes estrechos, mientras que en estados con menor proporción latina, como Iowa y Alaska, su influencia depende de la magnitud de cada contienda.\n\nUn hilo común que atraviesa a los votantes latinos es la economía. En octubre, el Pew encontró que el 86 % de los latinos registrados considera la economía como un factor muy importante para su decisión electoral. El 74 % afirma que las políticas económicas de la administración Trump han empeorado las condiciones del país. Entre los temas que más preocupan se encuentran el alquiler, la gasolina, los precios de los alimentos, el seguro médico y la viabilidad de pequeños negocios.\n\nEl impacto de las decisiones de Washington se refleja también en los costos de la guerra con Irán. El Pentágono informó al Congreso que los gastos militares hasta principios de septiembre alcanzaron al menos 43 600 millones de dólares, sin incluir daños futuros ni costos energéticos adicionales. Estos gastos se traducen en presión sobre los hogares latinos que ya sienten el encarecimiento de la vida.\n\nEn 2024, el electorado latino demostró que ningún partido puede dar por garantizado su respaldo. En 2026, el reto para republicanos y demócratas será reconocer las diferencias internas de la comunidad sin perder de vista sus preocupaciones comunes. El desencanto con un gobierno no implica automáticamente entusiasmo por la oposición; la confianza se construye con propuestas creíbles y resultados verificables.\n\nEn un Congreso decidido por márgenes estrechos, la independencia del voto latino puede resultar crucial. Esta lección, que Washington a menudo olvida, muestra que la política se debate en la capital, pero sus consecuencias se sienten en el bolsillo de las familias.",
+      "imagen": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Brian_A._DePe%C3%B1a.png/1280px-Brian_A._DePe%C3%B1a.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imagen_credito": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Brian_A._DePe%C3%B1a.png/1280px-Brian_A._DePe%C3%B1a.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "autor": "Brian A . DePeña",
+        "fuente": "Wikimedia Commons",
+        "pagina": "https://commons.wikimedia.org/wiki/File:Brian_A._DePe%C3%B1a.png",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "tipo": "fotografía de archivo"
+      },
+      "imagen_instagram": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Brian_A._DePe%C3%B1a.png/1280px-Brian_A._DePe%C3%B1a.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imagen_instagram_tipo": "externa_con_licencia",
+      "descripcion_instagram": "El voto latino en EE. UU. no tiene dueño: la economía decide el Congreso\\n\\nLa diversidad de la comunidad latina en Estados Unidos y su preocupación por la economía hacen que su voto sea un factor decisivo en las elecciones de medio término, sin que ningún partido pueda considerarlo un bloque homogéneo.\\n\\nLee la noticia completa en cevnoticias.com.\\n\\nImagen: Brian A . DePeña · Wikimedia Commons · CC BY-SA 4.0\\n\\n#CEVNoticias #Actualidad #Internacional",
+      "verificacion": "Una sola fuente",
+      "fecha": "02/11/2026 · 08:01 AM",
+      "fuentes": [
+        {
+          "nombre": "La República"
+        }
+      ]
+    }
+  ],
+  "fecha_solicitudes_groq": "2026-11-02",
+  "ultima_actualizacion": "2026-11-02T13:12:06.897566+00:00",
+  "solicitudes_groq": 18
 }
