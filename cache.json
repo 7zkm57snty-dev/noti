@@ -1,6 +1,25 @@
 {
   "noticias": [
     {
+      "id": "4054019971503fda",
+      "titulo": "El chisme corporativo: la moneda que impulsa la cultura empresarial",
+      "resumen": "El artículo de La República analiza cómo el rumor se ha convertido en la moneda de la pertenencia dentro de las empresas colombianas, respaldado por un estudio de la Universidad de California en Riverside que muestra que los empleados dedican casi una hora diaria a hablar de personas ausentes. Se destaca la importancia de que los directivos escuchen y comuniquen de forma oportuna para evitar que los pasillos llenen el vacío informativo con rumores que pueden afectar decisiones y la cultura organizacional.",
+      "categoria": "Tendencias",
+      "contenido": "En la última edición de La República, el columnista “Chismis” expone cómo el rumor se ha convertido en la moneda de la pertenencia dentro de las empresas colombianas. El autor relata su propia experiencia, cuando a los quince años recibió el apodo por contar lo que iba a suceder en una telenovela argentina, y compara esa vivencia con la dinámica que observa en los pasillos corporativos.\n\nSegún un estudio de la Universidad de California en Riverside, grabado con autorización, 467 empleados dedicaron en promedio 52 minutos diarios a hablar de personas ausentes, mayormente colegas, en tono neutral. En el entorno laboral, eso se traduce en casi una hora al día dedicada a discutir al jefe, al compañero, al proveedor o al cliente. El objetivo no es difamar, sino comprender la realidad que la comunicación oficial no ha revelado.\n\nEl autor describe un caso típico: una planta que evalúa trasladar una línea de producción a otra ciudad. Sin una decisión formal, los pasillos ya circulan la noticia de que dos soldadores experimentados se irán, el sindicato solicita reunión y la productividad cae antes de una entrega clave. Cuando la dirección publica un comunicado aclarando que no hay decisión, la gente ya no cree, porque el rumor se instaló en el vacío informativo.\n\nPara los directivos, erradicar el chisme es una misión imposible. La estrategia recomendada es escuchar y llegar primero. Escuchar permite medir la temperatura del equipo y detectar problemas antes de que se conviertan en crisis. Llegar primero, comunicando de forma oportuna, incluso si la respuesta es “aún no hay decisión”, cierra el espacio donde los rumores pueden crecer.\n\nEl fenómeno del chisme corporativo no es una falta de ética, sino un mecanismo de supervivencia en tiempos de incertidumbre. La lección que deja el columnista es clara: la falta de información crea un vacío que los pasillos llenan con rumores. Los líderes deben llenar ese vacío con comunicación transparente y oportuna para que la cultura real se refleje en la gestión y no en la conversación informal.",
+      "imagen": "",
+      "imagen_credito": {},
+      "imagen_instagram": "https://cevnoticias.com/social/4054019971503fda.jpg",
+      "imagen_instagram_tipo": "grafica_propia",
+      "descripcion_instagram": "El chisme corporativo: la moneda que impulsa la cultura empresarial\\n\\nEl artículo de La República analiza cómo el rumor se ha convertido en la moneda de la pertenencia dentro de las empresas colombianas, respaldado por un estudio de la Universidad de California en Riverside que muestra que los empleados dedican casi una hora diaria a hablar de personas ausentes. Se destaca la importancia de que los directivos escuchen y comuniquen de forma oportuna para evitar que los pasillos llenen el vacío informativo con rumores que pueden afectar decisiones y la cultura organizacional.\\n\\nLee la noticia completa en cevnoticias.com.\\n\\n#CEVNoticias #Actualidad #Colombia",
+      "verificacion": "Una sola fuente",
+      "fecha": "02/11/2026 · 12:12 AM",
+      "fuentes": [
+        {
+          "nombre": "La República"
+        }
+      ]
+    },
+    {
       "id": "77b91be9109cbdea",
       "titulo": "El chisme corporativo: la moneda que impulsa decisiones y riesgos",
       "resumen": "El chisme en las empresas, respaldado por un estudio de la Universidad de California en Riverside, ocupa casi una hora diaria de conversación y puede afectar decisiones y productividad. La gestión proactiva de la información, según La República, es clave para contrarrestar rumores y mantener la confianza del equipo.",
@@ -237,6 +256,6 @@
     }
   ],
   "fecha_solicitudes_groq": "2026-11-02",
-  "solicitudes_groq": 4,
-  "ultima_actualizacion": "2026-11-02T05:10:59.500201+00:00"
+  "solicitudes_groq": 7,
+  "ultima_actualizacion": "2026-11-02T05:12:47.613735+00:00"
 }
