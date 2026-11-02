@@ -88,7 +88,7 @@ jobs:
           else:
               salida["fecha_solicitudes_groq"] = local.get("fecha_solicitudes_groq")
               salida["solicitudes_groq"] = int(local.get("solicitudes_groq", 0))
-          Path("cache.json").write_text(json.dumps(salida, ensure_ascii=False, indent=2) + "\\n", encoding="utf-8")
+          Path("cache.json").write_text(json.dumps(salida, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
           PY
             git add cache.json
             if git diff --cached --quiet; then
@@ -145,7 +145,7 @@ jobs:
           salida = dict(remoto) if isinstance(remoto, dict) else {}
           salida.update({k:v for k,v in local.items() if k != "publicaciones"})
           salida["publicaciones"] = sorted(unidos.values(), key=lambda r: str(r.get("fecha") or r.get("buffer_due_at") or ""))[-500:]
-          Path("buffer_publicados.json").write_text(json.dumps(salida, ensure_ascii=False, indent=2) + "\\n", encoding="utf-8")
+          Path("buffer_publicados.json").write_text(json.dumps(salida, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
           local_cache = leer("/tmp/cev-cache-buffer-local.json", {})
           remoto_cache = leer("cache.json", {})
           cache_items = {}
@@ -158,7 +158,7 @@ jobs:
           if isinstance(local_cache, dict):
               merged.update({k:v for k,v in local_cache.items() if k != "noticias"})
           merged["noticias"] = sorted(cache_items.values(), key=lambda n: str(n.get("fecha", "")), reverse=True)[:150]
-          Path("cache.json").write_text(json.dumps(merged, ensure_ascii=False, indent=2) + "\\n", encoding="utf-8")
+          Path("cache.json").write_text(json.dumps(merged, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
           PY
             git add buffer_publicados.json cache.json
             if git diff --cached --quiet; then
