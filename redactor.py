@@ -418,34 +418,7 @@ Devuelve exclusivamente JSON válido con esta estructura:
         messages=[{"role": "user", "content": instrucciones}],
         temperature=0.2,
         reasoning_format="hidden",
-        response_format={
-            "type": "json_schema",
-            "json_schema": {
-                "name": "articulo_periodistico",
-                "strict": True,
-                "schema": {
-                    "type": "object",
-                    "properties": {
-                        "descartar": {"type": "boolean"},
-                        "titulo": {"type": "string"},
-                        "resumen": {"type": "string"},
-                        "categoria": {
-                            "type": "string",
-                            "enum": CATEGORIAS
-                        },
-                        "contenido": {"type": "string"}
-                    },
-                    "required": [
-                        "descartar",
-                        "titulo",
-                        "resumen",
-                        "categoria",
-                        "contenido"
-                    ],
-                    "additionalProperties": False
-                }
-            }
-        }
+        response_format={"type": "json_object"}
     )
 
     contenido_respuesta = respuesta.choices[0].message.content
