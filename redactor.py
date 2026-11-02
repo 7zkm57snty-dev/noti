@@ -847,7 +847,8 @@ def construir_titulares_rss(entradas, publicadas, anteriores):
             "categoria": categoria,
             "fuente": str(fuente.get("fuente") or "Medio de origen"),
             "url": url,
-            "fecha": str(fuente.get("fecha") or "")
+            "fecha": str(fuente.get("fecha") or ""),
+            "imagen": str(fuente.get("imagen") or "")
         })
 
     anteriores_validos = []
@@ -891,7 +892,8 @@ def construir_titulares_rss(entradas, publicadas, anteriores):
             "categoria": categoria,
             "fuente": str(titular.get("fuente") or "Medio de origen"),
             "url": url,
-            "fecha": str(titular.get("fecha") or "")
+            "fecha": str(titular.get("fecha") or ""),
+            "imagen": str(titular.get("imagen") or "")
         })
         urls_vistas.add(url)
         titulos_vistos.append(titulo)
