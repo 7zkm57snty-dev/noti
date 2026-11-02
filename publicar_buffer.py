@@ -12,6 +12,7 @@ STATE = os.path.join(BASE, "buffer_publicados.json")
 
 TOKEN = os.environ.get("BUFFER_ACCESS_TOKEN")
 CHANNEL_ID = "6ae80f3ce29c69a171328e5d"
+ORGANIZATION_ID = "6ae80a08f8da7d9f2595b558"
 BUFFER_API = "https://api.buffer.com"
 MAX_PUBLICACIONES_POR_DIA = 4
 MAX_PUBLICACIONES_POR_EJECUCION = 1
@@ -112,7 +113,7 @@ def crear_publicacion(noticia):
         }
       }) {
         ... on PostActionSuccess {
-          post { id text }
+          post { id text dueAt status channelId }
         }
         ... on MutationError { message }
       }
@@ -146,6 +147,74 @@ def crear_publicacion(noticia):
     raise RuntimeError("Respuesta inesperada de Buffer: " + str(datos))
 
 
+def sincronizar_programacion_buffer(estado):
+    """Lee de Buffer las fechas y estados reales de los posts en cola."""
+    query = """
+    query GetScheduledPosts {
+      posts(
+        first: 50
+        input: {
+          organizationId: "%s"
+          filter: {
+            status: [scheduled]
+            channelIds: ["%s"]
+          }
+          sort: [{ field: dueAt, direction: asc }]
+        }
+      ) {
+        edges {
+          node {
+            id
+            dueAt
+            status
+            channelId
+          }
+        }
+      }
+    }
+    """ % (ORGANIZATION_ID, CHANNEL_ID)
+
+    try:
+        respuesta = requests.post(
+            BUFFER_API,
+            headers={
+                "Authorization": f"Bearer {TOKEN}",
+                "Content-Type": "application/json"
+            },
+            json={"query": query},
+            timeout=30
+        )
+        respuesta.raise_for_status()
+        datos = respuesta.json()
+
+        if datos.get("errors"):
+            raise RuntimeError(str(datos["errors"]))
+
+        edges = ((datos.get("data") or {}).get("posts") or {}).get("edges") or []
+        posts = {
+            str(edge.get("node", {}).get("id")): edge.get("node", {})
+            for edge in edges
+            if edge.get("node", {}).get("id")
+        }
+
+        actualizados = 0
+        for registro in estado.get("publicaciones", []):
+            post = posts.get(str(registro.get("buffer_post_id", "")))
+            if not post:
+                continue
+            registro["buffer_due_at"] = post.get("dueAt")
+            registro["buffer_status"] = post.get("status")
+            registro["buffer_channel_id"] = post.get("channelId")
+            actualizados += 1
+
+        print(
+            "Programaciones confirmadas por Buffer: "
+            f"{actualizados}/{len(estado.get('publicaciones', []))}."
+        )
+    except Exception as error:
+        print("No se pudieron consultar las fechas de Buffer:", str(error))
+
+
 def ejecutar():
     if not TOKEN:
         raise SystemExit("Falta el secreto BUFFER_ACCESS_TOKEN.")
@@ -167,6 +236,7 @@ def ejecutar():
 
     if hechas_hoy >= MAX_PUBLICACIONES_POR_DIA:
         print(f"Tope diario alcanzado: {hechas_hoy}/{MAX_PUBLICACIONES_POR_DIA}.")
+        sincronizar_programacion_buffer(estado)
         guardar_json(STATE, estado)
         return
 
@@ -187,6 +257,9 @@ def ejecutar():
         publicaciones.append({
             "noticia_id": noticia_id,
             "buffer_post_id": post.get("id", ""),
+            "buffer_due_at": post.get("dueAt"),
+            "buffer_status": post.get("status"),
+            "buffer_channel_id": post.get("channelId"),
             "titulo": noticia.get("titulo", ""),
             "fecha": fecha_local().isoformat()
         })
@@ -200,6 +273,7 @@ def ejecutar():
     estado["publicaciones"] = publicaciones[-500:]
     estado["publicaciones_hoy"] = hechas_hoy
     estado["fecha"] = hoy
+    sincronizar_programacion_buffer(estado)
     guardar_json(STATE, estado)
     print(f"Publicaciones añadidas en esta ejecución: {creadas}.")
     print(f"Publicaciones añadidas hoy: {hechas_hoy}/{MAX_PUBLICACIONES_POR_DIA}.")
