@@ -116,9 +116,7 @@ def imagen_noticia(noticia, alt="", clase="", loading="lazy", prioridad=False):
     if respaldo and respaldo != origen:
         respaldo_html = (
             f' data-fallback="{respaldo}"'
-            ' onerror="this.onerror=null;if(this.dataset.fallback){'
-            'this.src=this.dataset.fallback;this.dataset.fallback=\\'\\';}'
-            'else{this.hidden=true;}"'
+            ' onerror="this.onerror=null;this.src=this.dataset.fallback;"'
         )
 
     return (
