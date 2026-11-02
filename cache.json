@@ -172,16 +172,26 @@
     }
   ],
   "fecha_solicitudes_groq": "2026-11-02",
-  "ultima_actualizacion": "2026-11-02T22:56:54.321246+00:00",
+  "ultima_actualizacion": "2026-11-02T22:57:38.333973+00:00",
   "solicitudes_groq": 30,
   "titulares_rss": [
+    {
+      "id": "70568f727976c30e",
+      "titulo": "María Eugenia Carreño será la viceministra de Diálogo Social de Ordóñez",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/en-vivo/maria-eugenia-carreno-sera-la-viceministra-de-dialogo-social-de-ordonez/",
+      "fecha": "2026-11-02T22:57:18+00:00",
+      "imagen": "https://i0.wp.com/www.lasillavacia.com/wp-content/uploads/2026/11/Carreno_Portada-1.jpg?fit=1024%2C768&quality=80&strip=all&ssl=1"
+    },
     {
       "id": "9f59a46ba81daf5c",
       "titulo": "El historial del conductor de un lujoso Corvette que causó un accidente en Medellín: tenía licencia vencida y ocho multas",
       "categoria": "Colombia",
       "fuente": "El Tiempo",
       "url": "https://www.eltiempo.com/colombia/medellin/con-licencia-vencida-y-8-multas-previas-el-historial-del-conductor-de-un-corvette-que-causo-un-accidente-en-medellin-3597946",
-      "fecha": "2026-11-02T22:32:19+00:00"
+      "fecha": "2026-11-02T22:32:19+00:00",
+      "imagen": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2026/11/02/6ae8cf35c0b9d.r_d.885-384-0.jpeg"
     },
     {
       "id": "0fa12b93ccd5cfbd",
@@ -189,7 +199,8 @@
       "categoria": "Colombia",
       "fuente": "El Tiempo",
       "url": "https://www.eltiempo.com/colombia/otras-ciudades/las-identidades-de-las-victimas-del-atentado-con-volqueta-cargada-de-explosivos-en-planadas-sur-del-tolima-joven-futbolista-murio-en-su-casa-3597954",
-      "fecha": "2026-11-02T22:31:39+00:00"
+      "fecha": "2026-11-02T22:31:39+00:00",
+      "imagen": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2026/11/02/6ae8e7070bfcb.r_d.279-227-0.jpeg"
     },
     {
       "id": "4232adf717a9a076",
@@ -197,7 +208,17 @@
       "categoria": "Internacional",
       "fuente": "El País Colombia",
       "url": "https://elpais.com/internacional/2026-11-02/varios-muertos-por-un-bombardeo-ruso-contra-una-escuela-en-ucrania.html",
-      "fecha": "2026-11-02T22:20:10+00:00"
+      "fecha": "2026-11-02T22:20:10+00:00",
+      "imagen": "https://imagenes.elpais.com/resizer/v2/5INTQLRCXNFFDKOXDNPDC6D7SY.JPG?auth=4d040b96d428f0a58423fb2fb1d85dc79883ca9acbaeddb3868a8f780fa52a2e"
+    },
+    {
+      "id": "855c0704ac599444",
+      "titulo": "Salario mínimo 2027: las cifras que ya están sobre la mesa; esta es la fecha clave para el aumento",
+      "categoria": "Economía",
+      "fuente": "La FM Economía",
+      "url": "https://www.lafm.com.co/economia/salario-minimo-2027-cifras-sobre-la-mesa-y-fecha-clave-del-aumento-415923",
+      "fecha": "2026-11-02T22:08:03+00:00",
+      "imagen": "https://files.lafm.com.co/media/news-images/2026/11/02/222501/portadas-29-1200x675.jpg"
     },
     {
       "id": "778d781935ec804f",
@@ -205,7 +226,8 @@
       "categoria": "Internacional",
       "fuente": "BBC Mundo",
       "url": "https://www.bbc.com/mundo/articles/c9ly0x3jr86eo?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-02T22:06:33+00:00"
+      "fecha": "2026-11-02T22:06:33+00:00",
+      "imagen": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/d352/live/f9439fd0-d6fb-11f1-b983-c357054e4d1e.png"
     },
     {
       "id": "a11dc26b1d13b69d",
@@ -213,7 +235,8 @@
       "categoria": "Valle del Cauca",
       "fuente": "El Tiempo",
       "url": "https://www.eltiempo.com/colombia/cali/el-ejercito-desarticula-peligrosa-estructura-criminal-de-ivan-mordisco-en-el-valle-del-cauca-3597962",
-      "fecha": "2026-11-02T21:35:48+00:00"
+      "fecha": "2026-11-02T21:35:48+00:00",
+      "imagen": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/11/02/6ae8fe8717f54.jpeg"
     },
     {
       "id": "9a99085e82d8df6d",
@@ -221,7 +244,8 @@
       "categoria": "Colombia",
       "fuente": "La Silla Vacía",
       "url": "https://www.lasillavacia.com/en-vivo/fmi-prestamista-del-gobierno-respalda-la-tributaria-de-de-la-espriella/",
-      "fecha": "2026-11-02T21:34:53+00:00"
+      "fecha": "2026-11-02T21:34:53+00:00",
+      "imagen": "https://i0.wp.com/www.lasillavacia.com/wp-content/uploads/2026/10/FotoJet-1.jpg?fit=1024%2C768&quality=80&strip=all&ssl=1"
     },
     {
       "id": "ed86d42c5721bfd0",
@@ -229,7 +253,8 @@
       "categoria": "Colombia",
       "fuente": "El Tiempo",
       "url": "https://www.eltiempo.com/colombia/otras-ciudades/presidente-abelardo-de-la-espriella-pidio-reforzar-despliegue-de-operaciones-en-planadas-tolima-tras-atentado-con-explosivos-que-dejo-varios-muertos-3597961",
-      "fecha": "2026-11-02T21:11:18+00:00"
+      "fecha": "2026-11-02T21:11:18+00:00",
+      "imagen": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2026/11/02/6ae846667366d.r_d.538-268-0.png"
     },
     {
       "id": "5d0bd4b162115e6a",
@@ -237,7 +262,8 @@
       "categoria": "Internacional",
       "fuente": "DW Español",
       "url": "https://www.dw.com/es/cuatro-claves-que-decidirán-si-irán-camina-hacia-la-guerra-o-la-paz/a-79833938?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-02T21:06:00+00:00"
+      "fecha": "2026-11-02T21:06:00+00:00",
+      "imagen": ""
     },
     {
       "id": "b8ffae8eebf657e4",
@@ -245,7 +271,8 @@
       "categoria": "Internacional",
       "fuente": "DW Español",
       "url": "https://www.dw.com/es/el-clima-desaparece-de-la-campaña-demócrata-para-las-midterms/a-79832303?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-02T21:06:00+00:00"
+      "fecha": "2026-11-02T21:06:00+00:00",
+      "imagen": ""
     },
     {
       "id": "baa3b196994fc324",
@@ -253,7 +280,8 @@
       "categoria": "Internacional",
       "fuente": "La República",
       "url": "https://www.larepublica.co/globoeconomia/el-petroleo-se-desploma-a-su-nivel-mas-bajo-desde-julio-mientras-ee-uu-e-iran-muestran-apertura-al-dialogo-4516248",
-      "fecha": "2026-11-02T20:53:38+00:00"
+      "fecha": "2026-11-02T20:53:38+00:00",
+      "imagen": ""
     },
     {
       "id": "100a12f3679f9bd1",
@@ -261,7 +289,8 @@
       "categoria": "Internacional",
       "fuente": "DW Español",
       "url": "https://www.dw.com/es/el-bloque-anti-netanyahu-se-reunirá-por-primera-vez-desde-las-elecciones/a-79834465?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-02T20:44:00+00:00"
+      "fecha": "2026-11-02T20:44:00+00:00",
+      "imagen": ""
     },
     {
       "id": "226bd7bddb12cd45",
@@ -269,7 +298,8 @@
       "categoria": "Internacional",
       "fuente": "DW Español",
       "url": "https://www.dw.com/es/seúl-teme-quedar-relegado-a-un-segundo-plano-mientras-estados-unidos-tiende-la-mano-a-corea-del-norte/a-79834043?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-02T20:36:00+00:00"
+      "fecha": "2026-11-02T20:36:00+00:00",
+      "imagen": ""
     },
     {
       "id": "30552bf130099d2b",
@@ -277,7 +307,8 @@
       "categoria": "Deportes",
       "fuente": "La FM Deportes",
       "url": "https://www.lafm.com.co/deportes/kimi-antonelli-piloto-campeon-formula-1-415919",
-      "fecha": "2026-11-02T20:25:16+00:00"
+      "fecha": "2026-11-02T20:25:16+00:00",
+      "imagen": "https://files.lafm.com.co/media/news-images/2026/11/02/203626/este-es-kimi-antonelli-el-piloto-mas-joven-en-ganar-la-f1-1200x675.jpg"
     },
     {
       "id": "baa17a6d7ff8b5a0",
@@ -285,7 +316,8 @@
       "categoria": "Colombia",
       "fuente": "La Silla Vacía",
       "url": "https://www.lasillavacia.com/en-vivo/los-gilinski-aseguran-su-millonario-negocio-petrolero-en-venezuela/",
-      "fecha": "2026-11-02T20:07:16+00:00"
+      "fecha": "2026-11-02T20:07:16+00:00",
+      "imagen": "https://i0.wp.com/www.lasillavacia.com/wp-content/uploads/2026/08/gilinskiposesion-1.jpg?fit=1024%2C768&quality=80&strip=all&ssl=1"
     },
     {
       "id": "b347fb5752555c18",
@@ -293,7 +325,8 @@
       "categoria": "Economía",
       "fuente": "Portafolio",
       "url": "https://www.portafolio.co/economia/infraestructura/walter-el-robot-que-coloca-ladrillos-con-precision-y-rinde-por-varios-albaniles-llegaria-a-obras-en-505591",
-      "fecha": "2026-11-02T20:05:00+00:00"
+      "fecha": "2026-11-02T20:05:00+00:00",
+      "imagen": "https://imagenes.portafolio.co/files/og_thumbnail/uploads/2026/11/02/6ae8eba8baf0e.webp"
     },
     {
       "id": "5060fee8ece355fc",
@@ -301,7 +334,8 @@
       "categoria": "Tecnología",
       "fuente": "Xataka",
       "url": "https://www.xataka.com/robotica-e-ia/google-ha-dado-paso-clave-centros-datos-espaciales-acaba-ejecutar-ia-orbita",
-      "fecha": "2026-11-02T20:01:24+00:00"
+      "fecha": "2026-11-02T20:01:24+00:00",
+      "imagen": "https://i.blogs.es/d4a681/google-ia-espacio2/1024_2000.jpeg"
     },
     {
       "id": "93ae5fcb5a7c98da",
@@ -309,7 +343,8 @@
       "categoria": "Economía",
       "fuente": "Portafolio",
       "url": "https://www.portafolio.co/economia/canasta-familiar-duro-escollo-para-la-ley-de-rescate-fiscal-505570",
-      "fecha": "2026-11-02T19:59:48+00:00"
+      "fecha": "2026-11-02T19:59:48+00:00",
+      "imagen": "https://imagenes.portafolio.co/files/og_thumbnail/uploads/2026/02/13/698f6b1b9e349.webp"
     },
     {
       "id": "edaff3dde467712e",
@@ -317,7 +352,8 @@
       "categoria": "Colombia",
       "fuente": "El País Colombia",
       "url": "https://elpais.com/internacional/2026-11-02/el-diplomatico-turco-feridun-sinirlioglu-entra-en-la-carrera-para-liderar-la-onu.html",
-      "fecha": "2026-11-02T19:55:57+00:00"
+      "fecha": "2026-11-02T19:55:57+00:00",
+      "imagen": "https://imagenes.elpais.com/resizer/v2/RFNSTHAPBVMRJLCPO2OEIVXAS4.jpg?auth=2c70fb57e95c6573e1a5e2f54a2a639a7772058ecd275ab77aa4729a78182d6f"
     },
     {
       "id": "0856d8a2aa2f38fc",
@@ -325,7 +361,8 @@
       "categoria": "Internacional",
       "fuente": "La FM Internacional",
       "url": "https://www.lafm.com.co/internacional/karl-bushby-hombre-que-recorrio-el-mundo-caminando-durante-28-anos-415916",
-      "fecha": "2026-11-02T19:49:07+00:00"
+      "fecha": "2026-11-02T19:49:07+00:00",
+      "imagen": "https://files.lafm.com.co/media/news-images/2026/11/02/192031/karl-bushby-hombre-que-recorrio-el-mundo-caminando-durante-28-anos-1200x675.jpg"
     },
     {
       "id": "13ee039997e752ab",
@@ -333,7 +370,8 @@
       "categoria": "Economía",
       "fuente": "Portafolio",
       "url": "https://www.portafolio.co/economia/impuestos/empuje-tributario-a-empresas-que-inviertan-y-den-empleo-505585",
-      "fecha": "2026-11-02T19:46:53+00:00"
+      "fecha": "2026-11-02T19:46:53+00:00",
+      "imagen": "https://imagenes.portafolio.co/files/og_thumbnail/uploads/2026/07/09/6a4fc6de99622.jpeg"
     },
     {
       "id": "81adc68951ea3623",
@@ -341,7 +379,8 @@
       "categoria": "Colombia",
       "fuente": "El País Colombia",
       "url": "https://elpais.com/internacional/2026-11-02/la-receta-europea-frente-a-las-incertidumbres-de-un-mundo-hostil.html",
-      "fecha": "2026-11-02T19:35:57+00:00"
+      "fecha": "2026-11-02T19:35:57+00:00",
+      "imagen": "https://vdmedia.elpais.com/mcv/elpais/multimedia/20261102/1232711_084803_video_1800.mp4"
     },
     {
       "id": "2dc4f57ac00a4c77",
@@ -349,7 +388,8 @@
       "categoria": "Tecnología",
       "fuente": "Xataka",
       "url": "https://www.xataka.com/magnet/hosteleros-le-han-puesto-tarea-al-proximo-gobierno-que-mercaurantes-dejen-ser-negocio-redondo",
-      "fecha": "2026-11-02T19:31:27+00:00"
+      "fecha": "2026-11-02T19:31:27+00:00",
+      "imagen": "https://i.blogs.es/ab9a64/img_7082-1-/1024_2000.jpeg"
     },
     {
       "id": "6906ba3a49a6223e",
@@ -357,7 +397,8 @@
       "categoria": "Economía",
       "fuente": "Portafolio",
       "url": "https://www.portafolio.co/economia/gobierno/el-rescate-fiscal-de-la-salud-podria-tener-un-efecto-contrario-mas-costos-y-mayores-incentivos-para-evadir-aportes-505588",
-      "fecha": "2026-11-02T19:26:34+00:00"
+      "fecha": "2026-11-02T19:26:34+00:00",
+      "imagen": "https://imagenes.portafolio.co/files/og_thumbnail/files/fp/uploads/2026/10/29/6ae333fd918c7.r_d.871-451-0.png"
     },
     {
       "id": "86bac9aaeb898e4c",
@@ -365,7 +406,8 @@
       "categoria": "Economía",
       "fuente": "Portafolio",
       "url": "https://www.portafolio.co/economia/impuestos/jose-antonio-ocampo-exministro-de-hacienda-de-petro-pide-que-recorte-sea-mayor-al-presentado-en-la-ley-de-rescate-505589",
-      "fecha": "2026-11-02T19:25:44+00:00"
+      "fecha": "2026-11-02T19:25:44+00:00",
+      "imagen": "https://imagenes.portafolio.co/files/og_thumbnail/files/fp/uploads/2025/11/02/69078676eaf9c.r_d.520-274-0.png"
     },
     {
       "id": "8ac770bd99f95ec2",
@@ -373,7 +415,8 @@
       "categoria": "Internacional",
       "fuente": "BBC Mundo",
       "url": "https://www.bbc.com/mundo/articles/ck4g1xpx1e81o?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-02T19:04:56+00:00"
+      "fecha": "2026-11-02T19:04:56+00:00",
+      "imagen": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/2520/live/90a94d80-d6e7-11f1-a741-236ee91c2e25.png"
     },
     {
       "id": "84c1598e7abfc770",
@@ -381,7 +424,8 @@
       "categoria": "Tecnología",
       "fuente": "Xataka",
       "url": "https://www.xataka.com/robotica-e-ia/shigeru-miyamoto-padre-super-mario-zelda-ia-llegara-a-encargarse-todo-siempre-habra-papel-para-nosotros",
-      "fecha": "2026-11-02T19:01:26+00:00"
+      "fecha": "2026-11-02T19:01:26+00:00",
+      "imagen": "https://i.blogs.es/ca7e7a/magnific__aplica-el-estilo-quiero-que-el-fondo-sea-rojo-y-la__53736/1024_2000.jpeg"
     },
     {
       "id": "a4d2be356ed2e55d",
@@ -389,7 +433,8 @@
       "categoria": "Colombia",
       "fuente": "El País Colombia",
       "url": "https://elpais.com/internacional/2026-11-02/rebeca-grynspan-candidata-a-secretaria-general-de-la-onu-se-han-desdibujado-las-lecciones-del-pasado.html",
-      "fecha": "2026-11-02T18:58:41+00:00"
+      "fecha": "2026-11-02T18:58:41+00:00",
+      "imagen": "https://vdmedia.elpais.com/mcv/elpais/multimedia/20261102/1232939_193400_video_1800.mp4"
     },
     {
       "id": "b6e2dc25c2231606",
@@ -397,7 +442,8 @@
       "categoria": "Internacional",
       "fuente": "La FM Internacional",
       "url": "https://www.lafm.com.co/internacional/accidente-aereo-en-florida-revelan-audios-antes-del-choque-415915",
-      "fecha": "2026-11-02T18:52:26+00:00"
+      "fecha": "2026-11-02T18:52:26+00:00",
+      "imagen": "https://files.lafm.com.co/media/news-images/2026/11/02/185649/portadas-27-1200x675.jpg"
     },
     {
       "id": "c736525341fde605",
@@ -405,7 +451,8 @@
       "categoria": "Colombia",
       "fuente": "El Tiempo",
       "url": "https://www.eltiempo.com/colombia/santander/asesinan-a-trabajador-del-sector-petrolero-frente-a-sus-companeros-en-barrancabermeja-santander-esto-se-sabe-del-crimen-3597948",
-      "fecha": "2026-11-02T18:50:31+00:00"
+      "fecha": "2026-11-02T18:50:31+00:00",
+      "imagen": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2026/11/02/6ae8d41f5ba6f.r_d.396-269-0.png"
     },
     {
       "id": "291f7151e486f924",
@@ -413,7 +460,8 @@
       "categoria": "Economía",
       "fuente": "Portafolio",
       "url": "https://www.portafolio.co/economia/una-familia-de-4-pagara-312-000-por-una-noche-en-el-tren-de-la-navidad-los-menores-de-3-anos-viajan-gratis-505586",
-      "fecha": "2026-11-02T18:45:00+00:00"
+      "fecha": "2026-11-02T18:45:00+00:00",
+      "imagen": "https://imagenes.portafolio.co/files/og_thumbnail/uploads/2026/11/02/6ae8d9f03aff8.webp"
     },
     {
       "id": "7bd948f1eb575111",
@@ -421,7 +469,8 @@
       "categoria": "Deportes",
       "fuente": "La FM Deportes",
       "url": "https://www.lafm.com.co/deportes/champions-league-fecha-cuatro-horarios-programacion-oficial-415908",
-      "fecha": "2026-11-02T18:31:01+00:00"
+      "fecha": "2026-11-02T18:31:01+00:00",
+      "imagen": "https://files.lafm.com.co/media/news-images/2026/11/02/181051/champions-league-fecha-cuatro-horarios-programacion-oficial-1200x675.jpg"
     },
     {
       "id": "9d3a86d0508374d7",
@@ -429,15 +478,8 @@
       "categoria": "Economía",
       "fuente": "La FM Economía",
       "url": "https://www.lafm.com.co/economia/geopark-completa-entrada-venezuela-operacion-bloque-bare-2026-415913",
-      "fecha": "2026-11-02T18:29:11+00:00"
-    },
-    {
-      "id": "b1b17e31cc7c110d",
-      "titulo": "“Hay gente que no quiere que Santa Marta tenga agua”: presidente denuncia presunta mafia de carrotanques",
-      "categoria": "Colombia",
-      "fuente": "La FM Actualidad",
-      "url": "https://www.lafm.com.co/actualidad/denuncia-carrotanques-agua-santa-marta-presidente-415912",
-      "fecha": "2026-11-02T18:21:04+00:00"
+      "fecha": "2026-11-02T18:29:11+00:00",
+      "imagen": "https://files.lafm.com.co/media/news-images/2026/10/21/193107/geopark-1200x675.jpg"
     },
     {
       "id": "ed6cdda820c7ffae",
@@ -445,7 +487,8 @@
       "categoria": "Economía",
       "fuente": "BBC Mundo",
       "url": "https://www.bbc.com/mundo/watch/cw33x0zz1pj3o?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-02T18:18:32+00:00"
+      "fecha": "2026-11-02T18:18:32+00:00",
+      "imagen": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/f54a/live/a57cf570-d6e9-11f1-b441-2b33b063138f.jpg"
     },
     {
       "id": "97633ae82bfd740a",
@@ -453,15 +496,8 @@
       "categoria": "Economía",
       "fuente": "Portafolio",
       "url": "https://www.portafolio.co/economia/infraestructura/tajamar-occidental-suma-100-000-millones-del-gobierno-a-una-obra-de-cerca-de-380-000-millones-en-barranquilla-505581",
-      "fecha": "2026-11-02T18:05:00+00:00"
-    },
-    {
-      "id": "d60dd1d47f890e3f",
-      "titulo": "MinComercio señala presuntas irregularidades en contratos de Fontur firmados durante el gobierno Petro",
-      "categoria": "Economía",
-      "fuente": "La FM Economía",
-      "url": "https://www.lafm.com.co/economia/mincomercio-denuncia-148-contratos-de-fontur-por-125-mil-millones-415911",
-      "fecha": "2026-11-02T18:02:02+00:00"
+      "fecha": "2026-11-02T18:05:00+00:00",
+      "imagen": "https://imagenes.portafolio.co/files/og_thumbnail/uploads/2026/11/02/6ae8d01c04cd2.jpeg"
     },
     {
       "id": "64d6885eabf65fc9",
@@ -469,7 +505,8 @@
       "categoria": "Deportes",
       "fuente": "La FM Deportes",
       "url": "https://www.lafm.com.co/deportes/liga-betplay-jackson-martinez-jugadores-que-han-hecho-col-con-40-anos-415910",
-      "fecha": "2026-11-02T18:00:14+00:00"
+      "fecha": "2026-11-02T18:00:14+00:00",
+      "imagen": "https://files.lafm.com.co/media/news-images/2026/11/02/184818/portadas-26-1200x675.jpg"
     },
     {
       "id": "e3c74ff874965e2c",
@@ -477,7 +514,8 @@
       "categoria": "Tecnología",
       "fuente": "Xataka",
       "url": "https://www.xataka.com/robotica-e-ia/openai-combinara-chat-work-hara-realidad-que-muchos-temian-chatgpt-codex-compartiran-limites-uso",
-      "fecha": "2026-11-02T18:00:00+00:00"
+      "fecha": "2026-11-02T18:00:00+00:00",
+      "imagen": "https://i.blogs.es/6d03da/chatgpt-limites-de-uso/1024_2000.jpeg"
     },
     {
       "id": "0be1dad17305837d",
@@ -485,7 +523,8 @@
       "categoria": "Cali",
       "fuente": "La República",
       "url": "https://www.larepublica.co/empresas/alicorp-adquirio-rama-y-operara-desde-cali-para-atender-cuatro-mercados-de-la-region-4516243",
-      "fecha": "2026-11-02T17:59:38+00:00"
+      "fecha": "2026-11-02T17:59:38+00:00",
+      "imagen": ""
     },
     {
       "id": "3339f59397e502e3",
@@ -493,7 +532,8 @@
       "categoria": "Tecnología",
       "fuente": "Xataka",
       "url": "https://www.xataka.com/seleccion/hoy-action-powerbank-perfecta-para-llevarla-bolsillo-ideal-para-viajes-festivales-esta-disponible-varios-colores",
-      "fecha": "2026-11-02T17:15:26+00:00"
+      "fecha": "2026-11-02T17:15:26+00:00",
+      "imagen": "https://i.blogs.es/240266/action/1024_2000.jpeg"
     },
     {
       "id": "89d23745db7865d4",
@@ -501,7 +541,8 @@
       "categoria": "Tecnología",
       "fuente": "Xataka",
       "url": "https://www.xataka.com/ingenieria-y-megaconstrucciones/brasil-hundira-tunel-canal-mayor-puerto-latinoamerica-hora-coche-a-unos-5-minutos",
-      "fecha": "2026-11-02T17:01:28+00:00"
+      "fecha": "2026-11-02T17:01:28+00:00",
+      "imagen": "https://i.blogs.es/88f7c7/gemini_generated_image_h90gwwh90gwwh90g/1024_2000.jpeg"
     },
     {
       "id": "c015e0e8817e1b95",
@@ -509,7 +550,8 @@
       "categoria": "Deportes",
       "fuente": "El País Colombia",
       "url": "https://elpais.com/internacional/2026-11-02/javier-tebas-presidente-de-laliga-no-se-cuanto-durara-el-boicot-de-china-pero-es-un-problema-para-nuestros-patrocinios.html",
-      "fecha": "2026-11-02T16:37:53+00:00"
+      "fecha": "2026-11-02T16:37:53+00:00",
+      "imagen": "https://imagenes.elpais.com/resizer/v2/LH2U5Q23PRHM7P6QRAVDLCQ3WQ.jpg?auth=062453c88d2c4eb8b94dbe459043caeaa83088bfc8e8f76f12ea140da70c611a"
     },
     {
       "id": "c07f1801efd628ae",
@@ -517,7 +559,8 @@
       "categoria": "Tecnología",
       "fuente": "Xataka",
       "url": "https://www.xataka.com/robotica-e-ia/google-ha-mejorado-su-buscador-ia-que-se-ha-encontrado-problema-necesita-empeorarlo-para-ganar-dinero",
-      "fecha": "2026-11-02T16:30:00+00:00"
+      "fecha": "2026-11-02T16:30:00+00:00",
+      "imagen": "https://i.blogs.es/243fdd/google-portada/1024_2000.jpeg"
     },
     {
       "id": "85336563332e8565",
@@ -525,7 +568,8 @@
       "categoria": "Valle del Cauca",
       "fuente": "El Tiempo",
       "url": "https://www.eltiempo.com/colombia/cali/golpe-al-frente-57-yair-bermudez-caen-cinco-presuntos-integrantes-tras-ataque-a-patrulla-de-la-policia-en-tulua-3597930",
-      "fecha": "2026-11-02T16:17:14+00:00"
+      "fecha": "2026-11-02T16:17:14+00:00",
+      "imagen": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/11/02/6ae8b30f9d381.jpeg"
     },
     {
       "id": "de3b44566cbab127",
@@ -533,7 +577,8 @@
       "categoria": "Tecnología",
       "fuente": "Xataka",
       "url": "https://www.xataka.com/magnet/militar-australiano-subio-a-fragata-espanola-se-quedo-a-cuadros-era-calco-diseno-su-propio-destructor",
-      "fecha": "2026-11-02T16:01:30+00:00"
+      "fecha": "2026-11-02T16:01:30+00:00",
+      "imagen": "https://i.blogs.es/79a101/fragata_f-101_-22alvaro_de_bazan-22_fondeada_en_la_ria_de_pontevedra_-14694192716-/1024_2000.jpeg"
     },
     {
       "id": "92fa13f384d690ed",
@@ -541,7 +586,8 @@
       "categoria": "Tecnología",
       "fuente": "Xataka",
       "url": "https://www.xataka.com/seleccion/48-gb-ram-ddr5-ryzen-7-rtx-5070-asi-pc-gaming-rebajado-black-friday-que-destaca-coolmod",
-      "fecha": "2026-11-02T15:45:26+00:00"
+      "fecha": "2026-11-02T15:45:26+00:00",
+      "imagen": "https://i.blogs.es/504062/black-friday-coolmod-pc/1024_2000.jpeg"
     },
     {
       "id": "127dd7b80f379674",
@@ -549,7 +595,8 @@
       "categoria": "Tecnología",
       "fuente": "Xataka",
       "url": "https://www.xataka.com/espacio/hace-50-anos-viking-2-grabo-dos-misteriosas-senales-hoy-unos-cientificos-apuntan-a-grabacion-antigua-terremoto-marciano",
-      "fecha": "2026-11-02T15:31:28+00:00"
+      "fecha": "2026-11-02T15:31:28+00:00",
+      "imagen": "https://i.blogs.es/ac52cc/viking2lander1/1024_2000.jpeg"
     },
     {
       "id": "c30a381fd49e7058",
@@ -557,7 +604,8 @@
       "categoria": "Valle del Cauca",
       "fuente": "Diario Occidente",
       "url": "https://occidente.co/secciones/tecnologia/herramientas-admins-forum/",
-      "fecha": "2026-11-02T13:00:00+00:00"
+      "fecha": "2026-11-02T13:00:00+00:00",
+      "imagen": ""
     },
     {
       "id": "810a63ed50a62283",
@@ -565,7 +613,8 @@
       "categoria": "Valle del Cauca",
       "fuente": "La FM Actualidad",
       "url": "https://www.lafm.com.co/actualidad/dylan-campaz-20-dias-desaparecido-buenaventura-valle-del-cauca-415878",
-      "fecha": "2026-11-02T02:53:13+00:00"
+      "fecha": "2026-11-02T02:53:13+00:00",
+      "imagen": "https://files.lafm.com.co/media/news-images/2026/10/28/195200/padre-de-dilan-clama-por-la-liberacion-de-su-hijo-desaparecido-en-buenaventura-1200x675.jpg"
     },
     {
       "id": "40aefad69ff751ff",
@@ -573,7 +622,8 @@
       "categoria": "Deportes",
       "fuente": "La FM Deportes",
       "url": "https://www.lafm.com.co/deportes/jackson-martinez-debuta-con-gol-en-liga-betplay-con-dim-415876",
-      "fecha": "2026-11-02T01:01:33+00:00"
+      "fecha": "2026-11-02T01:01:33+00:00",
+      "imagen": "https://files.lafm.com.co/media/news-images/2026/11/02/010707/portadas-25-1200x675.jpg"
     },
     {
       "id": "eff1171ba3ee1abb",
@@ -581,7 +631,8 @@
       "categoria": "Cali",
       "fuente": "El Tiempo Cali",
       "url": "https://www.eltiempo.com/colombia/cali/cali-se-blindo-por-aire-y-tierra-asi-fue-el-impresionante-operativo-para-proteger-a-10-000-ciclistas-en-el-giro-de-rigo-3597869",
-      "fecha": "2026-11-02T00:47:22+00:00"
+      "fecha": "2026-11-02T00:47:22+00:00",
+      "imagen": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/11/01/6ae7d24cca2c9.jpeg"
     },
     {
       "id": "74cbc480a65e34ec",
@@ -589,7 +640,8 @@
       "categoria": "Deportes",
       "fuente": "La FM Actualidad",
       "url": "https://www.lafm.com.co/actualidad/gobierno-anuncia-detectores-de-metales-y-controles-en-estadios-de-futbol-415875",
-      "fecha": "2026-11-02T00:44:55+00:00"
+      "fecha": "2026-11-02T00:44:55+00:00",
+      "imagen": "https://files.lafm.com.co/media/news-images/2026/08/25/194109/violencia-estadios-colombia-hinchadas-visitantes-barras-policia-seguridad-nacional-1200x675.jpg"
     },
     {
       "id": "a65d66c496ed2bba",
@@ -597,7 +649,8 @@
       "categoria": "Deportes",
       "fuente": "La FM Deportes",
       "url": "https://www.lafm.com.co/deportes/boca-vencio-river-plate-alvaro-montero-titular-asi-quedo-tabla-clasificacion-anual-argentina-415867",
-      "fecha": "2026-11-01T20:24:10+00:00"
+      "fecha": "2026-11-01T20:24:10+00:00",
+      "imagen": "https://files.lafm.com.co/media/news-images/2026/11/01/203423/boca-vencio-river-plate-alvaro-montero-titular-asi-quedo-tabla-clasificacion-anual-argentina-1200x675.jpg"
     },
     {
       "id": "9804a0755ba184d7",
@@ -605,7 +658,8 @@
       "categoria": "Valle del Cauca",
       "fuente": "El Tiempo Cali",
       "url": "https://www.eltiempo.com/colombia/cali/atencion-giro-de-rigo-cambia-su-ruta-derrumbe-en-dagua-obliga-a-desviar-a-miles-de-ciclistas-en-cali-3597832",
-      "fecha": "2026-11-01T18:29:02+00:00"
+      "fecha": "2026-11-01T18:29:02+00:00",
+      "imagen": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2026/11/01/6ae7824cc36b8.r_d.351-170-0.jpeg"
     },
     {
       "id": "e5738cd43c021cbd",
@@ -613,7 +667,8 @@
       "categoria": "Cali",
       "fuente": "El Tiempo Cali",
       "url": "https://www.eltiempo.com/colombia/cali/mas-de-3-000-comparendos-y-350-vehiculos-inmovilizados-deja-el-balance-de-halloween-en-cali-tras-masivas-caravanas-3597816",
-      "fecha": "2026-11-01T15:37:39+00:00"
+      "fecha": "2026-11-01T15:37:39+00:00",
+      "imagen": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2026/11/01/6ae75b5f5874d.r_d.900-962-0.jpeg"
     },
     {
       "id": "56f1adca4b2af420",
@@ -621,7 +676,8 @@
       "categoria": "Valle del Cauca",
       "fuente": "Diario Occidente",
       "url": "https://occidente.co/secciones/tecnologia/spacex-financiamiento-gpu-apollo/",
-      "fecha": "2026-11-01T15:00:00+00:00"
+      "fecha": "2026-11-01T15:00:00+00:00",
+      "imagen": ""
     },
     {
       "id": "0e11c6763e9783c2",
@@ -629,7 +685,8 @@
       "categoria": "Valle del Cauca",
       "fuente": "La República",
       "url": "https://www.larepublica.co/economia/el-ministerio-de-salud-intensifico-vigilancia-epidemiologica-por-dos-casos-de-malaria-en-el-valle-del-cauca-4515956",
-      "fecha": "2026-11-01T12:45:34+00:00"
+      "fecha": "2026-11-01T12:45:34+00:00",
+      "imagen": ""
     },
     {
       "id": "a714e1cfe1fd528c",
@@ -637,7 +694,8 @@
       "categoria": "Cali",
       "fuente": "El Tiempo Cali",
       "url": "https://www.eltiempo.com/colombia/cali/cali-y-el-pacifico-perfilan-su-futuro-con-54-megaproyectos-en-el-plan-nacional-de-desarrollo-las-inversiones-podrian-alcanzar-los-49-2-billones-3597734",
-      "fecha": "2026-10-31T21:31:27+00:00"
+      "fecha": "2026-10-31T21:31:27+00:00",
+      "imagen": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/10/31/6ae6570c3a8d3.jpeg"
     },
     {
       "id": "5e7fc84d2729321f",
@@ -645,7 +703,8 @@
       "categoria": "Deportes",
       "fuente": "La FM Deportes",
       "url": "https://www.lafm.com.co/deportes/bayern-munich-dortmund-resultado-goles-luis-diaz-goleadores-jugadores-destacados-415807",
-      "fecha": "2026-10-31T20:09:52+00:00"
+      "fecha": "2026-10-31T20:09:52+00:00",
+      "imagen": "https://files.lafm.com.co/media/news-images/2026/10/31/195450/bayern-munich-dortmund-resultado-goles-luis-diaz-goleadores-jugadores-destacados-1200x675.jpg"
     },
     {
       "id": "53ea8b62a689b482",
@@ -653,7 +712,8 @@
       "categoria": "Valle del Cauca",
       "fuente": "El Tiempo Cali",
       "url": "https://www.eltiempo.com/colombia/cali/la-angustiosa-busqueda-de-dylan-campaz-en-buenaventura-el-caso-se-eleva-a-desaparicion-forzada-y-ofrecen-millonaria-recompensa-3597726",
-      "fecha": "2026-10-31T19:26:16+00:00"
+      "fecha": "2026-10-31T19:26:16+00:00",
+      "imagen": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/10/16/6ad26545baa96.jpeg"
     },
     {
       "id": "ece1430eccd26b78",
@@ -661,7 +721,8 @@
       "categoria": "Deportes",
       "fuente": "La FM Deportes",
       "url": "https://www.lafm.com.co/deportes/manchester-united-pierde-chelsea-zona-del-descenso-resultados-premier-league-tabla-de-posiciones-415790",
-      "fecha": "2026-10-31T15:00:37+00:00"
+      "fecha": "2026-10-31T15:00:37+00:00",
+      "imagen": "https://files.lafm.com.co/media/news-images/2026/10/31/145729/manchester-united-pierde-chelsea-zona-del-descenso-resultados-premier-league-tabla-de-posiciones-1200x675.jpg"
     },
     {
       "id": "f3ab6b9124d91ed9",
@@ -669,7 +730,8 @@
       "categoria": "Valle del Cauca",
       "fuente": "Diario Occidente",
       "url": "https://occidente.co/secciones/tecnologia/anthropic-presenta-su-ipo/",
-      "fecha": "2026-10-31T15:00:00+00:00"
+      "fecha": "2026-10-31T15:00:00+00:00",
+      "imagen": ""
     },
     {
       "id": "cd2b4484a6cf8459",
@@ -677,7 +739,8 @@
       "categoria": "Valle del Cauca",
       "fuente": "Diario Occidente",
       "url": "https://occidente.co/regionales/valle-del-cauca/oportunidades-laborales-en-buga-y-buenaventura-sacyr-camino-del-pacifico-2026/",
-      "fecha": "2026-10-31T03:38:04+00:00"
+      "fecha": "2026-10-31T03:38:04+00:00",
+      "imagen": ""
     },
     {
       "id": "2715eef565c01491",
@@ -685,7 +748,8 @@
       "categoria": "Deportes",
       "fuente": "La FM Deportes",
       "url": "https://www.lafm.com.co/deportes/santa-fe-encrucijada-fagundez-bustos-marmolejo-2027-415772",
-      "fecha": "2026-10-31T02:45:37+00:00"
+      "fecha": "2026-10-31T02:45:37+00:00",
+      "imagen": "https://files.lafm.com.co/media/news-images/2026/10/31/025336/independiente-santa-fe-tiene-12-jugadores-proximos-a-vencer-su-contrato-1200x675.jpg"
     },
     {
       "id": "f37cc892f3e74ffe",
@@ -693,7 +757,8 @@
       "categoria": "Cali",
       "fuente": "El Tiempo Cali",
       "url": "https://www.eltiempo.com/colombia/cali/un-hijo-de-13-anos-un-padre-sin-casa-y-un-grano-que-conquisto-a-bogota-la-travesia-de-la-familia-detras-de-cafe-don-argelino-3597569",
-      "fecha": "2026-10-31T01:11:42+00:00"
+      "fecha": "2026-10-31T01:11:42+00:00",
+      "imagen": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/10/30/6ae51aa04f5b8.jpeg"
     },
     {
       "id": "a4c80055c9051cb1",
@@ -701,7 +766,8 @@
       "categoria": "Cali",
       "fuente": "El Tiempo Cali",
       "url": "https://www.eltiempo.com/colombia/cali/popayan-endurece-controles-para-halloween-habra-restricciones-a-motociclistas-combustible-y-polvora-3597601",
-      "fecha": "2026-10-30T23:06:56+00:00"
+      "fecha": "2026-10-30T23:06:56+00:00",
+      "imagen": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/06/12/6a2c9485b3c74.jpeg"
     }
   ],
   "ultima_solicitud_groq": ""
