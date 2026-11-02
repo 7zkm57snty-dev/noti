@@ -97,6 +97,63 @@ def tarjeta_rss(titular):
     </article>"""
 
 
+def tarjeta_express(item):
+    titulo = escapar(item.get("titulo"))
+    categoria = escapar(item.get("categoria"))
+    imagen = imagen_segura(item.get("imagen"))
+    identificador = escapar(item.get("id"))
+    es_rss = item.get("tipo") == "rss"
+    href = f"notas/actualidad-{identificador}.html" if es_rss else f"notas/{identificador}.html"
+    resumen = escapar(item.get("resumen", "")) if not es_rss else "Sigue esta noticia y consulta la información completa."
+    fecha = fecha_ordenable(item)
+    fecha_texto = datetime.fromtimestamp(fecha, COLOMBIA_TZ).strftime("%d/%m · %I:%M %p") if fecha else ""
+    visual = f'<img src="{imagen}" alt="" loading="lazy">' if imagen else '<div class="express-foto-vacia">CEV</div>'
+    sello = "CEV NOTICIAS · EXPRESS" if not es_rss else "CEV NOTICIAS · EXPRESS"
+    return f"""
+    <article class="express-slide">
+      <a class="express-enlace" href="{href}">
+        <div class="express-foto">{visual}</div>
+        <div class="express-texto">
+          <span class="express-sello">{sello} · {categoria}</span>
+          <h3>{titulo}</h3>
+          <p>{resumen}</p>
+          <span class="express-leer">Abrir noticia ↗</span>
+          <small>{fecha_texto}</small>
+        </div>
+      </a>
+    </article>"""
+
+
+def modulo_express(items):
+    if not items:
+        return ""
+    slides = "".join(
+        tarjeta_express(item) if i == 0 else tarjeta_express(item).replace(
+            '<article class="express-slide">', '<article class="express-slide" hidden>', 1
+        )
+        for i, item in enumerate(items)
+    )
+    total = len(items)
+    return f"""
+    <section class="express-modulo" aria-label="CEV Express">
+      <div class="express-cabecera">
+        <div><span class="express-marca">EXPRESS</span><span class="express-descripcion">Noticias que se mueven contigo</span></div>
+        <span class="express-contador" id="express-contador">01 / {total:02d}</span>
+      </div>
+      <div class="express-escenario" id="express-escenario" aria-live="off">
+        {slides}
+      </div>
+      <div class="express-controles">
+        <span class="express-estado">ACTUALIDAD EN ROTACIÓN</span>
+        <div>
+          <button type="button" id="express-pausa" aria-label="Pausar rotación">Pausar</button>
+          <button type="button" id="express-anterior" aria-label="Noticia anterior">←</button>
+          <button type="button" id="express-siguiente" aria-label="Noticia siguiente">→</button>
+        </div>
+      </div>
+    </section>"""
+
+
 def lista_vertical(noticias, titulares, categoria=None, excluir=None):
     excluir = excluir or set()
     elementos = []
@@ -106,6 +163,8 @@ def lista_vertical(noticias, titulares, categoria=None, excluir=None):
         elementos.append((fecha_ordenable(noticia), tarjeta(noticia)))
     for titular in titulares:
         if categoria and titular.get("categoria") != categoria:
+            continue
+        if titular.get("id") in excluir:
             continue
         elementos.append((fecha_ordenable(titular), tarjeta_rss(titular)))
     elementos.sort(key=lambda elemento: elemento[0], reverse=True)
@@ -199,6 +258,45 @@ nav a:hover,nav a:focus{{color:var(--rojo)}}
 .ficha-actualidad .credito-fuente{{margin-top:36px}}
 .ficha-actualidad .credito-fuente .boton{{display:inline-flex;padding:12px 0}}
 .nota-atribucion{{font-size:11px;color:var(--suave);line-height:1.65;margin-top:18px}}
+/* CEV Express: carrusel independiente de la portada y de las secciones */
+.express-modulo{{max-width:var(--ancho);margin:22px auto 12px;padding:0 28px}}
+.express-cabecera,.express-controles{{display:flex;align-items:center;justify-content:space-between;gap:14px}}
+.express-cabecera{{border-bottom:3px solid var(--rojo);padding:0 0 10px}}
+.express-cabecera>div{{display:flex;align-items:baseline;gap:14px;flex-wrap:wrap}}
+.express-marca{{font-size:20px;font-weight:900;letter-spacing:2px;color:var(--rojo)}}
+.express-descripcion{{font-size:10px;letter-spacing:1px;text-transform:uppercase;color:var(--suave)}}
+.express-contador{{font-size:10px;font-weight:800;letter-spacing:1px;color:var(--suave);font-variant-numeric:tabular-nums}}
+.express-escenario{{background:var(--blanco);border-bottom:1px solid var(--linea)}}
+.express-slide[hidden]{{display:none!important}}
+.express-enlace{{display:grid;grid-template-columns:minmax(180px,27%) minmax(0,1fr);gap:22px;align-items:center;padding:15px 0}}
+.express-foto{{height:145px;overflow:hidden;background:#dedbd4}}
+.express-foto img{{width:100%;height:100%;object-fit:cover;display:block}}
+.express-foto-vacia{{height:100%;display:grid;place-items:center;background:linear-gradient(135deg,#171717,#b5282f);color:white;font:800 35px 'Playfair Display',Georgia,serif}}
+.express-texto{{min-width:0;display:flex;flex-direction:column;align-items:flex-start;gap:7px}}
+.express-sello{{font-size:9px;font-weight:800;letter-spacing:1.2px;text-transform:uppercase;color:var(--rojo)}}
+.express-texto h3{{font:700 clamp(21px,2.5vw,30px)/1.12 'Playfair Display',Georgia,serif;margin:0}}
+.express-texto p{{font-size:12px;color:var(--suave);line-height:1.5;margin:0;max-width:800px}}
+.express-leer{{font-size:9px;font-weight:800;text-transform:uppercase;letter-spacing:1px;color:var(--rojo)}}
+.express-texto small{{font-size:9px;color:var(--suave)}}
+.express-controles{{padding:8px 0 0}}
+.express-estado{{font-size:8px;font-weight:800;letter-spacing:1.2px;color:var(--suave)}}
+.express-controles>div{{display:flex;gap:6px}}
+.express-controles button{{background:transparent;border:1px solid var(--linea);color:var(--tinta);padding:6px 10px;font:700 10px 'DM Sans',sans-serif;cursor:pointer}}
+.express-controles button:hover{{border-color:var(--rojo);color:var(--rojo)}}
+body.noche .express-escenario{{background:var(--blanco)}}
+body.noche .express-controles button{{color:var(--tinta)}}
+@media(max-width:650px){{
+ .express-modulo{{padding:0 16px;margin-top:16px}}
+ .express-marca{{font-size:17px}}
+ .express-descripcion{{font-size:8px}}
+ .express-enlace{{grid-template-columns:112px minmax(0,1fr);gap:13px}}
+ .express-foto{{height:118px}}
+ .express-texto h3{{font-size:19px;line-height:1.15}}
+ .express-texto p{{font-size:10px;display:none}}
+ .express-sello{{font-size:8px;letter-spacing:.6px}}
+ .express-estado{{font-size:7px}}
+}}
+
 /* Portada y secciones con lectura vertical, inspirada en diarios digitales */
 .lista-noticias{{display:flex;flex-direction:column;border-top:1px solid var(--linea)}}
 .tarjeta-vertical{{display:block;border-bottom:1px solid var(--linea);padding:22px 0}}
@@ -351,6 +449,31 @@ body.noche .relacionadas .tarjeta{{background:#222;border-color:#484848}}
   try{{localStorage.setItem('cev-modo',activo?'noche':'claro')}}catch(e){{}}
  }});
  try{{if(localStorage.getItem('cev-modo')==='noche'){{document.body.classList.add('noche');modo.textContent='☀ Modo claro';modo.setAttribute('aria-pressed','true')}}}}catch(e){{}}}}
+ const express=document.querySelectorAll('.express-slide');
+ if(express.length){{
+  let indice=0,temporizador=null,pausado=false;
+  const contador=document.getElementById('express-contador');
+  const pausa=document.getElementById('express-pausa');
+  const escenario=document.getElementById('express-escenario');
+  function mostrarExpress(n){{
+   express[indice].hidden=true;
+   indice=(n+express.length)%express.length;
+   express[indice].hidden=false;
+   if(contador)contador.textContent=String(indice+1).padStart(2,'0')+' / '+String(express.length).padStart(2,'0');
+  }}
+  function detenerExpress(){{if(temporizador)clearInterval(temporizador);temporizador=null;}}
+  function iniciarExpress(){{detenerExpress();if(!pausado&&express.length>1&&!document.hidden)temporizador=setInterval(()=>mostrarExpress(indice+1),6500);}}
+  function cambiarPausa(){{pausado=!pausado;if(pausa){{pausa.textContent=pausado?'Reanudar':'Pausar';pausa.setAttribute('aria-label',pausado?'Reanudar rotación':'Pausar rotación');}}iniciarExpress();}}
+  document.getElementById('express-siguiente')?.addEventListener('click',()=>{{mostrarExpress(indice+1);iniciarExpress();}});
+  document.getElementById('express-anterior')?.addEventListener('click',()=>{{mostrarExpress(indice-1);iniciarExpress();}});
+  pausa?.addEventListener('click',cambiarPausa);
+  escenario?.addEventListener('mouseenter',detenerExpress);
+  escenario?.addEventListener('mouseleave',iniciarExpress);
+  escenario?.addEventListener('focusin',detenerExpress);
+  escenario?.addEventListener('focusout',iniciarExpress);
+  document.addEventListener('visibilitychange',iniciarExpress);
+  iniciarExpress();
+ }}
  const barra=document.getElementById('progreso-lectura'),arriba=document.getElementById('volver-arriba');
  function actualizar(){{const max=document.documentElement.scrollHeight-window.innerHeight;if(barra)barra.style.width=(max>0?(window.scrollY/max)*100:0)+'%';if(arriba)arriba.hidden=window.scrollY<450;}}
  window.addEventListener('scroll',actualizar,{{passive:true}});actualizar();
@@ -580,12 +703,29 @@ def construir():
     for seccion in SECCIONES:
         crear_pagina_seccion(seccion, validas, titulares_rss)
 
+    candidatos_express = []
+    for noticia in validas:
+        if principal and noticia["id"] == principal["id"]:
+            continue
+        item = dict(noticia)
+        item["tipo"] = "propia"
+        candidatos_express.append(item)
+    for titular in titulares_rss:
+        item = dict(titular)
+        item["tipo"] = "rss"
+        candidatos_express.append(item)
+    candidatos_express.sort(key=fecha_ordenable, reverse=True)
+    noticias_express = candidatos_express[:5]
+    ids_express = {item["id"] for item in noticias_express}
+
+    express_html = modulo_express(noticias_express)
     lista_portada = lista_vertical(
         validas,
         titulares_rss,
-        excluir={principal["id"]} if principal else set()
+        excluir=ids_express | ({principal["id"]} if principal else set())
     )
     contenido = (
+        f'{express_html}'
         '<main class="contenedor">'
         '<div class="cinta"><span>En desarrollo</span><span>Últimas noticias</span></div>'
         f'{portada}'
