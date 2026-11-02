@@ -466,9 +466,9 @@ Devuelve exclusivamente JSON válido con esta estructura:
         print("Artículo demasiado corto.")
         return None
 
-    estado_informacion = str(articulo.get("estado_informacion", "confirmada")).strip().lower()
-    if estado_informacion not in ("confirmada", "en_desarrollo", "informacion_preliminar"):
-        estado_informacion = "confirmada"
+    estado_informacion = str(articulo.get("estado_informacion", "actualidad")).strip().lower()
+    if estado_informacion not in ("actualidad", "confirmada", "en_desarrollo", "informacion_preliminar"):
+        estado_informacion = "actualidad"
 
     return {
         "titulo": titulo,
