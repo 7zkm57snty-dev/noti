@@ -24,11 +24,11 @@ FEEDS = os.path.join(BASE, "feeds.json")
 
 MODELO = "openai/gpt-oss-20b"
 MAX_NOTICIAS = 20
-MAX_ARTICULOS_POR_EJECUCION = 1
-MAX_SOLICITUDES_POR_EJECUCION = 1
-MAX_GRUPOS_REVISADOS_POR_EJECUCION = 6
-MINUTOS_ENTRE_SOLICITUDES = 35
-MAX_SOLICITUDES_DIARIAS = 30
+MAX_ARTICULOS_POR_EJECUCION = 2
+MAX_SOLICITUDES_POR_EJECUCION = 2
+MAX_GRUPOS_REVISADOS_POR_EJECUCION = 12
+MINUTOS_ENTRE_SOLICITUDES = 20
+MAX_SOLICITUDES_DIARIAS = 40
 MAX_TITULARES_POR_CATEGORIA = 10
 MAX_EDAD_TITULARES_HORAS = 72
 MAX_ARTICULOS_ANTERIORES = 150
@@ -551,24 +551,41 @@ def _fuente_social(negrita, tamano):
 
 def crear_portada_instagram(identificador, titular, categoria, foto_url):
     """
-    Crea una portada editorial 4:5: fotografía real autorizada,
-    degradado de lectura y titular integrado en la propia imagen.
+    Crea una portada editorial 4:5. Usa una fotografía con licencia
+    cuando existe; de lo contrario genera una portada gráfica CEV.
     """
     carpeta = SITE / "social"
     carpeta.mkdir(parents=True, exist_ok=True)
     ruta = carpeta / f"{identificador}.jpg"
 
-    respuesta = requests.get(foto_url, headers=CABECERAS, timeout=25)
-    respuesta.raise_for_status()
     from io import BytesIO
-    foto = Image.open(BytesIO(respuesta.content)).convert("RGB")
+    foto_real = False
+    if foto_url:
+        try:
+            respuesta = requests.get(foto_url, headers=CABECERAS, timeout=25)
+            respuesta.raise_for_status()
+            foto = Image.open(BytesIO(respuesta.content)).convert("RGB")
+            ancho, alto = foto.size
+            escala = max(1080 / ancho, 1350 / alto)
+            foto = foto.resize((int(ancho * escala), int(alto * escala)), Image.Resampling.LANCZOS)
+            izquierda = (foto.width - 1080) // 2
+            arriba = (foto.height - 1350) // 2
+            imagen = foto.crop((izquierda, arriba, izquierda + 1080, arriba + 1350)).convert("RGBA")
+            foto_real = True
+        except Exception as error:
+            print("No se pudo usar la fotografía; se creará portada gráfica CEV:", error)
 
-    ancho, alto = foto.size
-    escala = max(1080 / ancho, 1350 / alto)
-    foto = foto.resize((int(ancho * escala), int(alto * escala)), Image.Resampling.LANCZOS)
-    izquierda = (foto.width - 1080) // 2
-    arriba = (foto.height - 1350) // 2
-    imagen = foto.crop((izquierda, arriba, izquierda + 1080, arriba + 1350)).convert("RGBA")
+    if not foto_real:
+        imagen = Image.new("RGBA", (1080, 1350), (24, 24, 24, 255))
+        fondo = ImageDraw.Draw(imagen)
+        for y_grad in range(1350):
+            tono = int(32 + 28 * (y_grad / 1350))
+            fondo.line((0, y_grad, 1080, y_grad), fill=(tono, 17, 21, 255))
+        fondo.ellipse((650, 230, 1260, 840), outline=(190, 40, 50, 120), width=9)
+        fondo.ellipse((735, 315, 1175, 755), outline=(190, 40, 50, 80), width=5)
+        fondo.text((76, 235), "EDICIÓN DIGITAL", font=_fuente_social(True, 26), fill="#ff6b72")
+        fondo.text((76, 310), "INFORMACIÓN", font=_fuente_social(True, 54), fill="#ffffff")
+        fondo.text((76, 380), "CON CONTEXTO", font=_fuente_social(True, 54), fill="#ffffff")
 
     # Oscurecimiento progresivo en la parte inferior para asegurar legibilidad.
     degradado = Image.new("RGBA", (1080, 1350), (0, 0, 0, 0))
@@ -590,7 +607,6 @@ def crear_portada_instagram(identificador, titular, categoria, foto_url):
     d.text((margen + 20, 77), "CEV NOTICIAS", font=_fuente_social(True, 30), fill=blanco)
     d.text((margen, 845), str(categoria).upper()[:32], font=_fuente_social(True, 28), fill="#ff6b72")
 
-    # Titular de alto impacto, con tamaño adaptable y saltos de línea.
     titular = re.sub(r"\s+", " ", str(titular)).strip()
     fuente = _fuente_social(True, 76)
     max_ancho = 928
@@ -695,13 +711,14 @@ def asegurar_datos_instagram(noticias):
         licencia_actual = str(credito.get("licencia", "")).lower()
         licencia_apta = any(x in licencia_actual for x in LICENCIAS_VALIDAS) and not any(x in licencia_actual for x in ("nc", "nd")) and bool(credito.get("pagina") and credito.get("licencia_url"))
 
-        if not imagen_actual.startswith("https://") or not licencia_apta:
+        if (not imagen_actual.startswith("https://") or not licencia_apta) and not noticia.get("imagen_busqueda_intentada"):
             print("Buscando fotografía real con licencia para:", titulo)
             imagen_info = buscar_imagen(
                 titulo,
                 noticia.get("resumen", ""),
                 noticia.get("categoria", "")
             )
+            noticia["imagen_busqueda_intentada"] = True
             if imagen_info:
                 noticia["imagen"] = imagen_info["url"]
                 noticia["imagen_credito"] = imagen_info
@@ -711,7 +728,7 @@ def asegurar_datos_instagram(noticias):
             else:
                 noticia["imagen"] = ""
                 noticia["imagen_instagram"] = ""
-                noticia["imagen_instagram_tipo"] = ""
+                noticia["imagen_instagram_tipo"] = "portada_grafica_cev"
                 noticia["imagen_credito"] = {}
                 imagenes_pendientes += 1
         else:
@@ -1014,21 +1031,21 @@ def ejecutar():
                 articulo = generar_articulo(cliente, grupo["titulo"], fuentes)
 
                 if not articulo:
-                    print("El grupo no produjo un artículo publicable.")
-                    break
+                    print("Tema descartado o respuesta insuficiente; se revisará el siguiente grupo.")
+                    continue
 
                 identificador = identificador_articulo(articulo["titulo"])
 
                 if any(n.get("id") == identificador for n in publicadas + nuevas):
                     print("Se omite un artículo con identificador ya publicado:", articulo["titulo"])
-                    break
+                    continue
 
                 if any(
                     son_misma_noticia(articulo["titulo"], n.get("titulo", ""))
                     for n in publicadas + nuevas if n.get("titulo")
                 ):
                     print("Se omite un artículo duplicado por similitud:", articulo["titulo"])
-                    break
+                    continue
 
                 imagen_info = buscar_imagen(
                     articulo["titulo"],
@@ -1037,21 +1054,21 @@ def ejecutar():
                 )
 
                 if not imagen_info or not imagen_info.get("url"):
-                    print("Noticia aplazada: no se encontró fotografía real con licencia:", articulo["titulo"])
-                    break
+                    print("No hay fotografía libre adecuada; se usará una portada gráfica original de CEV:", articulo["titulo"])
+                    imagen_info = None
 
-                caption_instagram = crear_caption_instagram(articulo, imagen_info)
+                caption_instagram = crear_caption_instagram(articulo, imagen_info or {})
                 titular_social = articulo.get("titular_instagram") or articulo["titulo"]
                 try:
                     portada_social = crear_portada_instagram(
                         identificador,
                         titular_social,
                         articulo["categoria"],
-                        imagen_info["url"]
+                        imagen_info["url"] if imagen_info else ""
                     )
                 except Exception as error:
-                    print("No se pudo diseñar la portada social; se aplaza la noticia:", error)
-                    break
+                    print("No se pudo diseñar la portada de esta noticia:", error)
+                    continue
 
                 nuevas.append({
                     "id": identificador,
@@ -1061,10 +1078,11 @@ def ejecutar():
                     "categoria": articulo["categoria"],
                     "contenido": articulo["contenido"],
                     "estado_informacion": articulo.get("estado_informacion", "confirmada"),
-                    "imagen": imagen_info["url"],
-                    "imagen_credito": imagen_info,
+                    "imagen": imagen_info["url"] if imagen_info else "",
+                    "imagen_credito": imagen_info or {},
+                    "imagen_busqueda_intentada": True,
                     "imagen_instagram": portada_social,
-                    "imagen_instagram_tipo": "portada_editorial_con_fotografia",
+                    "imagen_instagram_tipo": "portada_editorial_con_fotografia" if imagen_info else "portada_grafica_cev",
                     "descripcion_instagram": caption_instagram,
                     "verificacion": (
                         "Varias fuentes independientes"
@@ -1074,12 +1092,16 @@ def ejecutar():
                     "fecha": datetime.now(
                         timezone(timedelta(hours=-5))
                     ).strftime("%d/%m/%Y · %I:%M %p"),
-                    "fuentes": [{"nombre": fuente["nombre"]} for fuente in fuentes]
+                    "fuentes": [
+                        {"nombre": fuente["nombre"], "titulo": fuente["titulo"], "url": fuente["url"]}
+                        for fuente in fuentes
+                    ]
                 })
 
                 print("Artículo creado:", articulo["titulo"])
-                time.sleep(2)
-                break
+                if solicitudes_esta_ejecucion < MAX_SOLICITUDES_POR_EJECUCION:
+                    print("Pausa de 65 segundos antes de la siguiente generación para respetar el límite de tokens por minuto.")
+                    time.sleep(65)
 
             except Exception as error:
                 print("Error al generar artículo:", str(error))
