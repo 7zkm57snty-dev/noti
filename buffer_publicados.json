@@ -1,42 +1,72 @@
 {
   "fecha": "2026-11-02",
-  "publicaciones_hoy": 4,
+  "publicaciones_hoy": 3,
   "publicaciones": [
-    {
-      "noticia_id": "6f6e1983c93e7b43",
-      "buffer_post_id": "6ae81af264604db3143fc810",
-      "titulo": "Kiev anuncia el fin de la tregua de cuatro días en el sur de Ucrania",
-      "fecha": "2026-11-02T00:09:06.959151-05:00",
-      "buffer_due_at": "2026-11-03T01:22:00.000Z",
-      "buffer_status": "scheduled",
-      "buffer_channel_id": "6ae80f3ce29c69a171328e5d"
-    },
-    {
-      "noticia_id": "77b91be9109cbdea",
-      "buffer_post_id": "6ae81b6d76279ec7eb93453d",
-      "titulo": "El chisme corporativo: la moneda que impulsa decisiones y riesgos",
-      "fecha": "2026-11-02T00:11:09.181760-05:00",
-      "buffer_due_at": "2026-11-03T23:50:00.000Z",
-      "buffer_status": "scheduled",
-      "buffer_channel_id": "6ae80f3ce29c69a171328e5d"
-    },
     {
       "noticia_id": "4054019971503fda",
       "buffer_post_id": "6ae81bda64604db31440021d",
       "titulo": "El chisme corporativo: la moneda que impulsa la cultura empresarial",
       "fecha": "2026-11-02T00:12:58.243522-05:00",
-      "buffer_due_at": "2026-11-04T00:06:00.000Z",
+      "buffer_due_at": "2026-11-02T14:00:00.000Z",
       "buffer_status": "scheduled",
-      "buffer_channel_id": "6ae80f3ce29c69a171328e5d"
+      "buffer_channel_id": "6ae80f3ce29c69a171328e5d",
+      "score_editorial": 12.94,
+      "fecha_actualizacion": "2026-11-02T00:28:07.299081-05:00",
+      "reemplazos": []
     },
     {
-      "noticia_id": "7251c34f22f02aed",
+      "noticia_id": "0000667bb7a24185",
       "buffer_post_id": "6ae81c737817c41d1a44faa8",
-      "titulo": "Trump defiende los altos precios de la gasolina y amenaza con ataques a Irán",
+      "titulo": "El clima de noviembre en Colombia: un descenso gradual de lluvias según Max Henríquez",
       "fecha": "2026-11-02T00:15:31.769547-05:00",
-      "buffer_due_at": "2026-11-04T15:20:00.000Z",
+      "buffer_due_at": "2026-11-02T19:00:00.000Z",
       "buffer_status": "scheduled",
-      "buffer_channel_id": "6ae80f3ce29c69a171328e5d"
+      "buffer_channel_id": "6ae80f3ce29c69a171328e5d",
+      "score_editorial": 12.46,
+      "fecha_actualizacion": "2026-11-02T00:28:07.685253-05:00",
+      "reemplazos": [
+        {
+          "noticia_id": "7251c34f22f02aed",
+          "titulo": "Trump defiende los altos precios de la gasolina y amenaza con ataques a Irán",
+          "reemplazada_en": "2026-11-02T00:28:07.685235-05:00"
+        }
+      ]
+    },
+    {
+      "noticia_id": "31189fe94800ffeb",
+      "buffer_post_id": "6ae81b6d76279ec7eb93453d",
+      "titulo": "\"Es Gaza o nada\": cómo el apoyo a Israel se convirtió en un punto clave de la contienda electoral en EE.UU.",
+      "fecha": "2026-11-02T00:11:09.181760-05:00",
+      "buffer_due_at": "2026-11-02T22:00:00.000Z",
+      "buffer_status": "scheduled",
+      "buffer_channel_id": "6ae80f3ce29c69a171328e5d",
+      "score_editorial": 10.96,
+      "fecha_actualizacion": "2026-11-02T00:28:08.012524-05:00",
+      "reemplazos": [
+        {
+          "noticia_id": "77b91be9109cbdea",
+          "titulo": "El chisme corporativo: la moneda que impulsa decisiones y riesgos",
+          "reemplazada_en": "2026-11-02T00:28:08.012505-05:00"
+        }
+      ]
+    },
+    {
+      "noticia_id": "cebc1408ecaa8333",
+      "buffer_post_id": "6ae81af264604db3143fc810",
+      "titulo": "El apoyo a Israel se vuelve eje decisivo en las elecciones de mitad de mandato en EE.UU.",
+      "fecha": "2026-11-02T00:09:06.959151-05:00",
+      "buffer_due_at": "2026-11-03T04:00:00.000Z",
+      "buffer_status": "scheduled",
+      "buffer_channel_id": "6ae80f3ce29c69a171328e5d",
+      "score_editorial": 10.95,
+      "fecha_actualizacion": "2026-11-02T00:28:08.474180-05:00",
+      "reemplazos": [
+        {
+          "noticia_id": "6f6e1983c93e7b43",
+          "titulo": "Kiev anuncia el fin de la tregua de cuatro días en el sur de Ucrania",
+          "reemplazada_en": "2026-11-02T00:28:08.474161-05:00"
+        }
+      ]
     }
   ]
 }
