@@ -1,0 +1,103 @@
+name: Reiniciar cola de Instagram con imágenes
+
+on:
+  push:
+    paths:
+      - ".github/workflows/reiniciar-instagram.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: cev-noticias-instagram
+  cancel-in-progress: false
+
+jobs:
+  reiniciar-cola:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Descargar repositorio
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Instalar dependencias
+        run: pip install requests
+
+      - name: Retirar publicaciones programadas antiguas y reprogramar con imagen
+        env:
+          BUFFER_ACCESS_TOKEN: ${{ secrets.BUFFER_ACCESS_TOKEN }}
+          PYTHONUNBUFFERED: "1"
+        run: |
+          python - <<'PY'
+          import os, requests, json
+          token = os.environ.get("BUFFER_ACCESS_TOKEN")
+          if not token:
+              raise SystemExit("Falta el secreto BUFFER_ACCESS_TOKEN.")
+          endpoint = "https://api.buffer.com"
+          headers = {"Authorization": f"Bearer {token}", "Content-Type": "application/json"}
+          organization_id = "6ae80a08f8da7d9f2595b558"
+          channel_id = "6ae80f3ce29c69a171328e5d"
+          query = """
+          query GetScheduledPosts {
+            posts(first: 100, input: {
+              organizationId: "%s",
+              filter: { status: [scheduled], channelIds: ["%s"] },
+              sort: [{ field: dueAt, direction: asc }]
+            }) {
+              edges { node { id text dueAt status channelId assets { id mimeType } } }
+            }
+          }
+          """ % (organization_id, channel_id)
+          response = requests.post(endpoint, headers=headers, json={"query": query}, timeout=30)
+          response.raise_for_status()
+          payload = response.json()
+          if payload.get("errors"):
+              raise RuntimeError("No se pudo leer la cola de Buffer: " + str(payload["errors"]))
+          posts = [edge["node"] for edge in payload.get("data", {}).get("posts", {}).get("edges", [])]
+          print(f"Publicaciones antiguas programadas encontradas: {len(posts)}")
+          for post in posts:
+              mutation = """
+              mutation DeleteScheduledPost {
+                deletePost(input: { id: "%s" }) {
+                  ... on DeletePostSuccess { id }
+                  ... on MutationError { message }
+                }
+              }
+              """ % post["id"]
+              result = requests.post(endpoint, headers=headers, json={"query": mutation}, timeout=30)
+              result.raise_for_status()
+              data = result.json()
+              if data.get("errors"):
+                  raise RuntimeError("Error GraphQL al retirar " + post["id"] + ": " + str(data["errors"]))
+              deleted = (data.get("data") or {}).get("deletePost") or {}
+              if deleted.get("id") != post["id"]:
+                  raise RuntimeError("Buffer no confirmó la eliminación de " + post["id"] + ": " + str(deleted))
+              print("Retirada confirmada:", post["id"])
+          print("Cola antigua retirada correctamente.")
+          PY
+
+          python -u publicar_buffer.py
+
+      - name: Guardar control de Buffer
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          for intento in 1 2 3; do
+            git fetch origin main
+            git reset --hard origin/main
+            git add buffer_publicados.json cache.json
+            if git diff --cached --quiet; then
+              echo "Control sin cambios que guardar."
+              exit 0
+            fi
+            git commit -m "Reprogramar cola de Instagram con imágenes"
+            if git push origin HEAD:main; then exit 0; fi
+          done
+          echo "No se pudo guardar el control de Instagram."
+          exit 1
