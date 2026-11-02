@@ -174,6 +174,22 @@ body.noche .pie{{background:#090909}}
  .rejilla .tarjeta-imagen{{height:190px}}
 }}
 
+
+/* Carruseles continuos por sección */
+.bloque-categoria{overflow:hidden}
+.rejilla.carrusel-infinito{display:flex;gap:22px;overflow:visible;width:max-content;max-width:none;animation:cev-carrusel 42s linear infinite;will-change:transform}
+.bloque-categoria:hover .rejilla.carrusel-infinito,.bloque-categoria:focus-within .rejilla.carrusel-infinito{animation-play-state:paused}
+.rejilla.carrusel-infinito .tarjeta{flex:0 0 clamp(245px,27vw,330px);width:clamp(245px,27vw,330px);min-width:0}
+.rejilla.carrusel-infinito .tarjeta-imagen{height:185px}
+.rejilla.carrusel-infinito .tarjeta[aria-hidden="true"] a{pointer-events:none}
+@keyframes cev-carrusel{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+@media(max-width:650px){
+ .rejilla.carrusel-infinito{gap:14px;animation-duration:34s}
+ .rejilla.carrusel-infinito .tarjeta{flex-basis:82vw;width:82vw}
+ .rejilla.carrusel-infinito .tarjeta-imagen{height:190px}
+}
+@media(prefers-reduced-motion:reduce){.rejilla.carrusel-infinito{animation:none;overflow-x:auto;max-width:100%;scroll-snap-type:x mandatory}.rejilla.carrusel-infinito .tarjeta{scroll-snap-align:start}}
+
 @media(max-width:900px){{
  .portada-grid{{grid-template-columns:minmax(0,1fr) 270px;gap:22px}}
  .destacada-visual{{height:290px}}
@@ -222,6 +238,19 @@ body.noche .pie{{background:#090909}}
 </footer>
 <script>
 (function(){{
+
+ // Duplicar cada sección para crear un recorrido continuo sin salto.
+ document.querySelectorAll('.rejilla.carrusel-infinito').forEach(track=>{
+  const originales=Array.from(track.children);
+  if(!originales.length)return;
+  originales.forEach(card=>{
+   const copia=card.cloneNode(true);
+   copia.setAttribute('aria-hidden','true');
+   copia.querySelectorAll('a,button').forEach(el=>el.setAttribute('tabindex','-1'));
+   track.appendChild(copia);
+  });
+ });
+
  function aplicarFiltro(){{
   const hash=decodeURIComponent(window.location.hash.slice(1));
   const categoria=hash.startsWith("categoria-")?hash.slice(10):"";
@@ -378,7 +407,7 @@ def construir():
     for seccion in SECCIONES:
         grupo = [n for n in validas if n["categoria"] == seccion and n["id"] not in excluidas]
         contenido_seccion = (
-            f'<div class="rejilla">{"".join(tarjeta(n, i) for i, n in enumerate(grupo))}</div>'
+            f'<div class="rejilla carrusel-infinito">{"".join(tarjeta(n, i) for i, n in enumerate(grupo))}</div>'
             if grupo else
             '<div class="vacio">No hay más noticias en esta categoría por ahora.</div>'
         )
