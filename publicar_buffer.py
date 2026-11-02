@@ -124,6 +124,39 @@ def crear_publicacion(noticia, due_at):
     return ejecutar_mutacion(query, "createPost")
 
 
+
+def crear_publicacion_ahora(noticia):
+    texto = construir_texto(noticia)
+    imagen = noticia["imagen_instagram"]
+    query = """
+    mutation CreateImmediatePost {
+      createPost(input: {
+        text: %s,
+        channelId: "%s",
+        schedulingType: automatic,
+        mode: shareNow,
+        assets: [{ image: { url: %s } }],
+        metadata: {
+          instagram: {
+            type: post,
+            shouldShareToFeed: true
+          }
+        }
+      }) {
+        ... on PostActionSuccess {
+          post { id text dueAt status channelId }
+        }
+        ... on MutationError { message }
+      }
+    }
+    """ % (
+        json.dumps(texto, ensure_ascii=False),
+        CHANNEL_ID,
+        json.dumps(imagen)
+    )
+    return ejecutar_mutacion(query, "createPost")
+
+
 def editar_publicacion(post_id, noticia, due_at):
     texto = construir_texto(noticia)
     imagen = noticia["imagen_instagram"]
@@ -473,6 +506,45 @@ def ejecutar():
     registros = estado.get("publicaciones", [])
     if not isinstance(registros, list):
         registros = []
+
+
+    # Publica una sola noticia marcada explícitamente para la prueba inmediata.
+    # El registro evita duplicarla en las siguientes ejecuciones automáticas.
+    inmediatas = [
+        n for n in noticias
+        if isinstance(n, dict) and n.get("publicar_ahora") is True
+    ]
+    for noticia in inmediatas:
+        noticia_id = str(noticia.get("id", ""))
+        ya_registrada = any(
+            str(r.get("noticia_id")) == noticia_id
+            and r.get("tipo_publicacion") == "inmediata"
+            for r in registros
+        )
+        if ya_registrada:
+            noticia["publicar_ahora"] = False
+            continue
+        apto, motivo = articulo_apto(noticia)
+        if not apto:
+            raise RuntimeError("La publicación inmediata no cumple los requisitos: " + motivo)
+        resultado = crear_publicacion_ahora(noticia)
+        registro_inmediato = {
+            "noticia_id": noticia_id,
+            "buffer_post_id": resultado.get("id", ""),
+            "titulo": noticia.get("titulo", ""),
+            "buffer_status": resultado.get("status") or "processing",
+            "buffer_channel_id": resultado.get("channelId") or CHANNEL_ID,
+            "buffer_due_at": resultado.get("dueAt"),
+            "fecha": fecha_local().isoformat(),
+            "tipo_publicacion": "inmediata"
+        }
+        registros.append(registro_inmediato)
+        noticia["publicar_ahora"] = False
+        print("PUBLICACIÓN INMEDIATA ENVIADA A BUFFER.")
+        print("Noticia:", registro_inmediato["titulo"])
+        print("Estado devuelto por Buffer:", registro_inmediato["buffer_status"])
+    guardar_json(CACHE, cache)
+
 
     posts_buffer = obtener_posts_programados()
     posts_por_id = {str(p["id"]): p for p in posts_buffer}
