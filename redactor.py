@@ -471,6 +471,13 @@ def crear_portada_instagram(identificador, titulo, categoria):
         grande = ImageFont.load_default()
         pequena = ImageFont.load_default()
     d.rectangle((0, 0, 1080, 18), fill="#b5282f")
+    # Sello circular ilustrado para dar identidad visual incluso sin fotografía.
+    d.ellipse((790, 70, 1005, 285), fill="#b5282f", outline="#f1d6d6", width=5)
+    d.ellipse((825, 105, 970, 250), outline="white", width=4)
+    categoria_texto = str(categoria).lower()
+    simbolo = "♪" if "entreten" in categoria_texto or "tendencia" in categoria_texto else ("⚽" if "deport" in categoria_texto else categoria_texto[:2].upper())
+    caja = d.textbbox((0, 0), simbolo, font=grande)
+    d.text((897-(caja[2]-caja[0])/2, 172-(caja[3]-caja[1])/2), simbolo, font=grande, fill="white")
     d.text((75, 75), "CEV NOTICIAS", font=pequena, fill="white")
     d.text((75, 150), str(categoria).upper()[:35], font=pequena, fill="#e14a50")
     lineas, actual = [], ""
