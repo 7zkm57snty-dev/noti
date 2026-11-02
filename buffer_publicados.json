@@ -1,6 +1,6 @@
 {
   "fecha": "2026-11-02",
-  "publicaciones_hoy": 2,
+  "publicaciones_hoy": 3,
   "publicaciones": [
     {
       "noticia_id": "85900bf522714b5a",
@@ -23,6 +23,54 @@
       "buffer_status": "scheduled",
       "buffer_channel_id": "6ae80f3ce29c69a171328e5d",
       "fecha": "2026-11-02T09:44:21.887752-05:00",
+      "version_imagen": 1,
+      "reemplazos": []
+    },
+    {
+      "noticia_id": "85900bf522714b5a",
+      "buffer_post_id": "6ae8af5ef1669be3eabe2360",
+      "titulo": "El voto latino en EE. UU. no tiene dueño: la economía decide el Congreso",
+      "score_editorial": 9.47,
+      "buffer_due_at": "2026-11-02T19:00:00.000Z",
+      "buffer_status": "scheduled",
+      "buffer_channel_id": "6ae80f3ce29c69a171328e5d",
+      "fecha": "2026-11-02T10:42:22.717777-05:00",
+      "version_imagen": 1,
+      "reemplazos": []
+    },
+    {
+      "noticia_id": "e817e86f6599009a",
+      "buffer_post_id": "6ae8af5e2810e4a79d35fdc3",
+      "titulo": "La Comunidad Andina avanza con proyectos que prometen transformar la región",
+      "score_editorial": 8.48,
+      "buffer_due_at": "2026-11-02T22:00:00.000Z",
+      "buffer_status": "scheduled",
+      "buffer_channel_id": "6ae80f3ce29c69a171328e5d",
+      "fecha": "2026-11-02T10:42:23.005636-05:00",
+      "version_imagen": 1,
+      "reemplazos": []
+    },
+    {
+      "noticia_id": "e9c65b18b2e026cd",
+      "buffer_post_id": "6ae8af5f2810e4a79d35fdf4",
+      "titulo": "El momento de vender: cómo los pequeños productores pueden maximizar sus ingresos",
+      "score_editorial": 7.97,
+      "buffer_due_at": "2026-11-03T04:00:00.000Z",
+      "buffer_status": "scheduled",
+      "buffer_channel_id": "6ae80f3ce29c69a171328e5d",
+      "fecha": "2026-11-02T10:42:23.628080-05:00",
+      "version_imagen": 1,
+      "reemplazos": []
+    },
+    {
+      "noticia_id": "b287535617360c4d",
+      "buffer_post_id": "6ae8af602810e4a79d35fe21",
+      "titulo": "El peso de un apellido: cómo el nombre puede marcar la vida",
+      "score_editorial": 7.95,
+      "buffer_due_at": "2026-11-03T14:00:00.000Z",
+      "buffer_status": "scheduled",
+      "buffer_channel_id": "6ae80f3ce29c69a171328e5d",
+      "fecha": "2026-11-02T10:42:24.217306-05:00",
       "version_imagen": 1,
       "reemplazos": []
     }
