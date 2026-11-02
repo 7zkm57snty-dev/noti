@@ -1,4 +1,3 @@
-
 name: Actualizar CEV NOTICIAS
 
 on:
@@ -21,7 +20,7 @@ concurrency:
 jobs:
   actualizar:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 25
 
     steps:
       - name: Descargar repositorio
@@ -68,10 +67,28 @@ jobs:
             echo "No hay cambios en el historial."
           fi
 
-      - name: Preparar publicación
+      - name: Preparar publicación web
         uses: actions/upload-pages-artifact@v3
         with:
           path: site
 
       - name: Publicar CEV NOTICIAS
         uses: actions/deploy-pages@v4
+
+      - name: Añadir noticias verificadas a la cola automática de Instagram
+        env:
+          BUFFER_ACCESS_TOKEN: ${{ secrets.BUFFER_ACCESS_TOKEN }}
+          PYTHONUNBUFFERED: "1"
+        run: python -u publicar_buffer.py
+
+      - name: Guardar control de publicaciones para evitar duplicados
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add buffer_publicados.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Registrar publicaciones enviadas a Buffer"
+            git push
+          else
+            echo "No hay nuevos registros de Buffer."
+          fi
