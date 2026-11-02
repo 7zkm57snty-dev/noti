@@ -274,9 +274,18 @@
     }
   ],
   "fecha_solicitudes_groq": "2026-11-02",
-  "ultima_actualizacion": "2026-11-02T23:43:31.251758+00:00",
+  "ultima_actualizacion": "2026-11-02T23:49:48.462364+00:00",
   "solicitudes_groq": 34,
   "titulares_rss": [
+    {
+      "id": "08a50dc239aec795",
+      "titulo": "Qué se sabe de la dramática caída de un avión privado en Florida que dejó 9 muertos",
+      "categoria": "Internacional",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/ckvg7l4dp0n8o?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-02T23:39:04+00:00",
+      "imagen": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/af3d/live/c7bbd3a0-d710-11f1-b7b1-f5dd7fa5128f.jpg"
+    },
     {
       "id": "86bac9aaeb898e4c",
       "titulo": "Exministro de Hacienda de Petro pide que recorte al gasto sea mayor al presentado en la Ley de Rescate",
@@ -528,15 +537,6 @@
       "url": "https://www.portafolio.co/economia/gobierno/el-rescate-fiscal-de-la-salud-podria-tener-un-efecto-contrario-mas-costos-y-mayores-incentivos-para-evadir-aportes-505588",
       "fecha": "2026-11-02T19:26:34+00:00",
       "imagen": "https://imagenes.portafolio.co/files/og_thumbnail/files/fp/uploads/2026/10/29/6ae333fd918c7.r_d.871-451-0.png"
-    },
-    {
-      "id": "8ac770bd99f95ec2",
-      "titulo": "Quién era Nathalia Gadelha Filgueiras, la copiloto de 20 años que murió al estrellarse el avión en el que viajaba junto a otras 8 personas en Florida",
-      "categoria": "Internacional",
-      "fuente": "BBC Mundo",
-      "url": "https://www.bbc.com/mundo/articles/ck4g1xpx1e81o?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-02T19:04:56+00:00",
-      "imagen": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/2520/live/90a94d80-d6e7-11f1-a741-236ee91c2e25.png"
     },
     {
       "id": "84c1598e7abfc770",
