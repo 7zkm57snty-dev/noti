@@ -556,6 +556,75 @@ def crear_articulo(noticia, noticias=None):
     (NOTAS / f"{identificador}.html").write_text(pagina, encoding="utf-8")
 
 
+
+
+def crear_pagina_institucional(noticias):
+    contenido = """
+    <main class="pagina-editorial">
+      <div class="sobrelinea">Conoce nuestro medio</div>
+      <h1>Información con contexto.</h1>
+      <p class="entradilla">CEV NOTICIAS es el espacio informativo de Cali en Vivo. Reunimos actualidad de Cali, el Valle del Cauca, Colombia y el mundo con una prioridad: contar qué se sabe, de dónde viene la información y qué sigue en desarrollo.</p>
+      <div class="editorial-grid">
+        <section class="editorial-card">
+          <h2>Qué hacemos</h2>
+          <p>Publicamos información de interés público en distintas áreas: ciudad, región, país, mundo, economía, deportes y tecnología. Cada noticia se presenta con un titular, un resumen y el contexto disponible.</p>
+        </section>
+        <section class="editorial-card">
+          <h2>Criterios editoriales</h2>
+          <ul>
+            <li>Separar los hechos conocidos de las versiones iniciales.</li>
+            <li>Atribuir la información a las fuentes consultadas.</li>
+            <li>No presentar rumores como hechos ni completar vacíos con suposiciones.</li>
+            <li>Actualizar las publicaciones cuando existan datos nuevos respaldados.</li>
+          </ul>
+        </section>
+        <section class="editorial-card">
+          <h2>Cómo leer los estados</h2>
+          <p><strong>Actualidad:</strong> noticia publicada que no tiene una marca explícita de seguimiento.</p>
+          <p><strong>Confirmada:</strong> los datos centrales están respaldados por las fuentes consultadas.</p>
+          <p><strong>En desarrollo:</strong> el hecho sigue evolucionando y algunos datos pueden cambiar.</p>
+          <p><strong>Información preliminar:</strong> se trata de un primer reporte o de datos que todavía requieren confirmación.</p>
+        </section>
+        <section class="editorial-card">
+          <h2>Fuentes y correcciones</h2>
+          <p>Las fuentes consultadas se muestran al final de cada artículo. Si encuentras un dato que deba revisarse, una actualización relevante o un error, puedes comunicarlo al equipo editorial para su evaluación.</p>
+          <p><a class="leer" href="https://www.instagram.com/cev.noticias/" target="_blank" rel="noopener noreferrer">Contactar a CEV NOTICIAS por Instagram ↗</a></p>
+        </section>
+      </div>
+    </main>"""
+    extra = '<link rel="canonical" href="https://cevnoticias.com/institucional.html"><meta property="og:type" content="website"><meta property="og:title" content="Quiénes somos | CEV NOTICIAS"><meta property="og:description" content="Conoce el propósito, los criterios editoriales y los estados informativos de CEV NOTICIAS."><meta name="robots" content="index,follow">'
+    pagina = plantilla("Quiénes somos", contenido, "Conoce CEV NOTICIAS, sus criterios editoriales, sus fuentes y cómo identificar la información preliminar.", extra_head=extra)
+    (SITE / "institucional.html").write_text(pagina, encoding="utf-8")
+
+
+def crear_pagina_boletin(noticias):
+    elementos = []
+    for noticia in noticias[:10]:
+        ident = escapar(noticia.get("id"))
+        titulo = escapar(noticia.get("titulo"))
+        resumen = escapar(noticia.get("resumen"))
+        fecha = escapar(noticia.get("fecha", ""))
+        categoria = escapar(noticia.get("categoria", "Actualidad"))
+        elementos.append(
+            f'<article class="boletin-item"><div class="fecha">{fecha}</div>'
+            f'<div><span class="etiqueta">{categoria}</span>{etiqueta_estado(noticia)}'
+            f'<h2><a href="notas/{ident}.html">{titulo}</a></h2><p>{resumen}</p></div></article>'
+        )
+    listado = "".join(elementos) if elementos else '<p class="vacio">El boletín se actualizará cuando haya noticias disponibles.</p>'
+    contenido = f"""
+    <main class="pagina-editorial">
+      <div class="sobrelinea">Boletín informativo</div>
+      <h1>Lo esencial, sin perder el contexto.</h1>
+      <p class="entradilla">Una selección de las noticias más recientes publicadas por CEV NOTICIAS. Este resumen se actualiza junto con la edición digital para que puedas ponerte al día en un solo lugar.</p>
+      <span class="boletin-fecha">Actualizado · {fecha_actual()}</span>
+      <section class="boletin-lista" aria-label="Últimas noticias del boletín">{listado}</section>
+      <div class="boletin-cta"><div><strong>¿Tienes una noticia o una corrección?</strong><p>Comparte información de interés y sugerencias con el equipo de CEV NOTICIAS.</p></div><a href="https://www.instagram.com/cev.noticias/" target="_blank" rel="noopener noreferrer">Escribir al medio ↗</a></div>
+    </main>"""
+    extra = '<link rel="canonical" href="https://cevnoticias.com/boletin.html"><meta property="og:type" content="website"><meta property="og:title" content="Boletín de noticias | CEV NOTICIAS"><meta property="og:description" content="Consulta el resumen de las noticias más recientes de CEV NOTICIAS."><meta name="robots" content="index,follow">'
+    pagina = plantilla("Boletín de noticias", contenido, "Resumen actualizado de las noticias publicadas por CEV NOTICIAS.", extra_head=extra)
+    (SITE / "boletin.html").write_text(pagina, encoding="utf-8")
+
+
 def construir():
     datos = cargar_json(CACHE, {})
     noticias = datos.get("noticias", [])
@@ -584,6 +653,8 @@ def construir():
         crear_articulo(noticia, validas)
 
     SITE.mkdir(parents=True, exist_ok=True)
+    crear_pagina_institucional(validas)
+    crear_pagina_boletin(validas)
     principal = validas[0] if validas else None
     laterales = validas[1:4]
     if principal:
@@ -631,9 +702,10 @@ def construir():
         )
 
     contenido = f'<main class="contenedor"><div class="cinta"><span>Primera plana</span><a class="cinta-enlace" href="#ultimas-noticias">Explorar noticias <span aria-hidden="true">↘</span></a></div>{portada}<div id="ultimas-noticias">{"".join(bloques)}</div></main>'
-    portada_head = '<link rel="canonical" href="https://cevnoticias.com/"><meta property="og:type" content="website"><meta property="og:title" content="CEV NOTICIAS | Actualidad y periodismo">'
+    datos_portada = {"@context":"https://schema.org","@type":"NewsMediaOrganization","name":"CEV NOTICIAS","url":"https://cevnoticias.com/","sameAs":["https://www.instagram.com/cev.noticias/"],"description":"Noticias de Cali, Valle del Cauca, Colombia y el mundo."}
+    portada_head = '<link rel="canonical" href="https://cevnoticias.com/"><meta property="og:type" content="website"><meta property="og:title" content="CEV NOTICIAS | Actualidad y periodismo"><meta property="og:description" content="Noticias de Cali, Valle del Cauca, Colombia y el mundo."><meta name="twitter:card" content="summary_large_image">' + '<script type="application/ld+json">' + json.dumps(datos_portada, ensure_ascii=False) + '</script>'
     (SITE / "index.html").write_text(plantilla("Portada", contenido, "Noticias de Cali, Valle del Cauca, Colombia y el mundo.", extra_head=portada_head), encoding="utf-8")
-    urls = ["https://cevnoticias.com/"] + [f"https://cevnoticias.com/notas/{n['id']}.html" for n in validas]
+    urls = ["https://cevnoticias.com/", "https://cevnoticias.com/institucional.html", "https://cevnoticias.com/boletin.html"] + [f"https://cevnoticias.com/notas/{n['id']}.html" for n in validas]
     sitemap = '<?xml version="1.0" encoding="UTF-8"?>\\n' + '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\\n' + ''.join(f'<url><loc>{html.escape(url)}</loc></url>\\n' for url in urls) + '</urlset>\\n'
     (SITE / "sitemap.xml").write_text(sitemap, encoding="utf-8")
     (SITE / "robots.txt").write_text("User-agent: *\\nAllow: /\\nSitemap: https://cevnoticias.com/sitemap.xml\\n", encoding="utf-8")
