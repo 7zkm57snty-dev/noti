@@ -48,7 +48,19 @@
     "url": "https://occidente.co/feed/"
   },
   {
-    "nombre": "BBC Sport",
-    "url": "https://feeds.bbci.co.uk/sport/rss.xml"
+    "nombre": "La FM Deportes",
+    "url": "https://www.lafm.com.co/rss/deportes.xml"
+  },
+  {
+    "nombre": "La FM Economía",
+    "url": "https://www.lafm.com.co/rss/economia.xml"
+  },
+  {
+    "nombre": "La FM Internacional",
+    "url": "https://www.lafm.com.co/rss/internacional.xml"
+  },
+  {
+    "nombre": "La FM Actualidad",
+    "url": "https://www.lafm.com.co/rss/actualidad.xml"
   }
 ]
