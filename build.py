@@ -176,19 +176,20 @@ body.noche .pie{{background:#090909}}
 
 
 /* Carruseles continuos por sección */
-.bloque-categoria{overflow:hidden}
-.rejilla.carrusel-infinito{display:flex;gap:22px;overflow:visible;width:max-content;max-width:none;animation:cev-carrusel 42s linear infinite;will-change:transform}
-.bloque-categoria:hover .rejilla.carrusel-infinito,.bloque-categoria:focus-within .rejilla.carrusel-infinito{animation-play-state:paused}
-.rejilla.carrusel-infinito .tarjeta{flex:0 0 clamp(245px,27vw,330px);width:clamp(245px,27vw,330px);min-width:0}
-.rejilla.carrusel-infinito .tarjeta-imagen{height:185px}
-.rejilla.carrusel-infinito .tarjeta[aria-hidden="true"] a{pointer-events:none}
-@keyframes cev-carrusel{from{transform:translateX(0)}to{transform:translateX(-50%)}}
-@media(max-width:650px){
- .rejilla.carrusel-infinito{gap:14px;animation-duration:34s}
- .rejilla.carrusel-infinito .tarjeta{flex-basis:82vw;width:82vw}
- .rejilla.carrusel-infinito .tarjeta-imagen{height:190px}
-}
-@media(prefers-reduced-motion:reduce){.rejilla.carrusel-infinito{animation:none;overflow-x:auto;max-width:100%;scroll-snap-type:x mandatory}.rejilla.carrusel-infinito .tarjeta{scroll-snap-align:start}}
+.bloque-categoria{{overflow:hidden}}
+.rejilla.carrusel-infinito{{display:flex;gap:22px;overflow:visible;width:max-content;max-width:none;animation:cev-carrusel 42s linear infinite;will-change:transform}}
+.bloque-categoria:hover .rejilla.carrusel-infinito,.bloque-categoria:focus-within .rejilla.carrusel-infinito{{animation-play-state:paused}}
+.rejilla.carrusel-infinito .tarjeta{{flex:0 0 clamp(245px,27vw,330px);width:clamp(245px,27vw,330px);min-width:0}}
+.rejilla.carrusel-infinito .tarjeta-imagen{{height:185px}}
+.rejilla.carrusel-infinito .tarjeta[aria-hidden="true"] a{{pointer-events:none}}
+@keyframes cev-carrusel{{from{{transform:translateX(0)}}to{{transform:translateX(-50%)}}}}
+@media(max-width:650px){{
+ .rejilla.carrusel-infinito{{gap:14px;animation-duration:34s}}
+ .rejilla.carrusel-infinito .tarjeta{{flex-basis:82vw;width:82vw}}
+ .rejilla.carrusel-infinito .tarjeta-imagen{{height:190px}}
+}}
+@media(prefers-reduced-motion:reduce){{.rejilla.carrusel-infinito{{animation:none;overflow-x:auto;max-width:100%;scroll-snap-type:x mandatory}}.rejilla.carrusel-infinito .tarjeta{{scroll-snap-align:start}}}}
+
 
 @media(max-width:900px){{
  .portada-grid{{grid-template-columns:minmax(0,1fr) 270px;gap:22px}}
@@ -218,7 +219,7 @@ body.noche .pie{{background:#090909}}
 <body>
 <header class="masthead">
  <div class="cabecera">
-  <div class="marca">CEV <span>NOTICIAS</span></div>
+  <div class="marca"><a href="{ruta_raiz}" aria-label="CEV NOTICIAS, ir al inicio">CEV <span>NOTICIAS</span></a></div>
   <div class="eslogan">Periodismo · Contexto · Actualidad</div>
   <div class="cabecera-meta"><span>{fecha_actual()} · COLOMBIA</span><span class="estado">Edición digital</span></div>
  </div>
@@ -251,22 +252,8 @@ body.noche .pie{{background:#090909}}
   }});
  }});
 
- function aplicarFiltro(){{
-  const hash=decodeURIComponent(window.location.hash.slice(1));
-  const categoria=hash.startsWith("categoria-")?hash.slice(10):"";
-  const portada=document.querySelector(".portada-grid");
-  const secciones=document.querySelectorAll(".bloque-categoria");
-  if(!categoria){{
-   if(portada)portada.hidden=false;
-   secciones.forEach(s=>s.hidden=false);
-   return;
-  }}
-  if(portada)portada.hidden=false;
-  secciones.forEach(s=>s.hidden=s.dataset.seccion!==categoria);
- }}
- window.addEventListener("hashchange",aplicarFiltro);
- aplicarFiltro();
-}})();
+ // Los enlaces de navegación usan anclas nativas para abrir la sección al primer clic.
+})();
 </script>
 <div class="progreso-lectura" id="progreso-lectura"></div>
 <button class="volver-arriba" id="volver-arriba" type="button" aria-label="Volver arriba" title="Volver arriba">↑</button>
