@@ -10,8 +10,8 @@
       "buffer_due_at": "2026-11-02T14:00:00.000Z",
       "buffer_status": "scheduled",
       "buffer_channel_id": "6ae80f3ce29c69a171328e5d",
-      "score_editorial": 12.94,
-      "fecha_actualizacion": "2026-11-02T00:29:09.991852-05:00",
+      "score_editorial": 12.93,
+      "fecha_actualizacion": "2026-11-02T00:30:19.368161-05:00",
       "reemplazos": []
     },
     {
@@ -22,8 +22,8 @@
       "buffer_due_at": "2026-11-02T19:00:00.000Z",
       "buffer_status": "scheduled",
       "buffer_channel_id": "6ae80f3ce29c69a171328e5d",
-      "score_editorial": 12.46,
-      "fecha_actualizacion": "2026-11-02T00:29:09.991887-05:00",
+      "score_editorial": 12.45,
+      "fecha_actualizacion": "2026-11-02T00:30:19.368196-05:00",
       "reemplazos": [
         {
           "noticia_id": "7251c34f22f02aed",
@@ -40,8 +40,8 @@
       "buffer_due_at": "2026-11-02T22:00:00.000Z",
       "buffer_status": "scheduled",
       "buffer_channel_id": "6ae80f3ce29c69a171328e5d",
-      "score_editorial": 10.96,
-      "fecha_actualizacion": "2026-11-02T00:29:09.991906-05:00",
+      "score_editorial": 10.95,
+      "fecha_actualizacion": "2026-11-02T00:30:19.368215-05:00",
       "reemplazos": [
         {
           "noticia_id": "77b91be9109cbdea",
@@ -51,20 +51,25 @@
       ]
     },
     {
-      "noticia_id": "cebc1408ecaa8333",
+      "noticia_id": "7251c34f22f02aed",
       "buffer_post_id": "6ae81af264604db3143fc810",
-      "titulo": "El apoyo a Israel se vuelve eje decisivo en las elecciones de mitad de mandato en EE.UU.",
+      "titulo": "Trump defiende los altos precios de la gasolina y amenaza con ataques a Irán",
       "fecha": "2026-11-02T00:09:06.959151-05:00",
       "buffer_due_at": "2026-11-03T04:00:00.000Z",
       "buffer_status": "scheduled",
       "buffer_channel_id": "6ae80f3ce29c69a171328e5d",
-      "score_editorial": 10.95,
-      "fecha_actualizacion": "2026-11-02T00:29:09.991929-05:00",
+      "score_editorial": 10.94,
+      "fecha_actualizacion": "2026-11-02T00:30:19.626913-05:00",
       "reemplazos": [
         {
           "noticia_id": "6f6e1983c93e7b43",
           "titulo": "Kiev anuncia el fin de la tregua de cuatro días en el sur de Ucrania",
           "reemplazada_en": "2026-11-02T00:28:08.474161-05:00"
+        },
+        {
+          "noticia_id": "cebc1408ecaa8333",
+          "titulo": "El apoyo a Israel se vuelve eje decisivo en las elecciones de mitad de mandato en EE.UU.",
+          "reemplazada_en": "2026-11-02T00:30:19.626898-05:00"
         }
       ]
     }
