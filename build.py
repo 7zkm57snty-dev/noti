@@ -1,27 +1,15 @@
-
 import json
-import os
 import re
 import html
 from pathlib import Path
 from datetime import datetime, timezone, timedelta
-from urllib.parse import quote
 
 BASE = Path(__file__).parent
 SITE = BASE / "site"
 NOTAS = SITE / "notas"
 CACHE = BASE / "cache.json"
 
-SECCIONES = [
-    "Cali",
-    "Valle del Cauca",
-    "Colombia",
-    "Internacional",
-    "Deportes",
-    "Tecnología",
-    "Economía"
-]
-
+SECCIONES = ["Cali", "Valle del Cauca", "Colombia", "Internacional", "Deportes", "Tecnología", "Economía"]
 COLOMBIA_TZ = timezone(timedelta(hours=-5))
 
 
@@ -37,22 +25,11 @@ def cargar_json(ruta, defecto):
         return defecto
 
 
-def guardar_json(ruta, datos):
-    ruta.parent.mkdir(parents=True, exist_ok=True)
-    with open(ruta, "w", encoding="utf-8") as archivo:
-        json.dump(datos, archivo, ensure_ascii=False, indent=2)
-
-
 def slug(texto):
     texto = str(texto).lower()
-    reemplazos = {
-        "á": "a", "é": "e", "í": "i",
-        "ó": "o", "ú": "u", "ñ": "n"
-    }
-    for original, nuevo in reemplazos.items():
+    for original, nuevo in {"á": "a", "é": "e", "í": "i", "ó": "o", "ú": "u", "ñ": "n"}.items():
         texto = texto.replace(original, nuevo)
-    texto = re.sub(r"[^a-z0-9]+", "-", texto)
-    return texto.strip("-")[:75]
+    return re.sub(r"[^a-z0-9]+", "-", texto).strip("-")[:75]
 
 
 def fecha_actual():
@@ -61,109 +38,138 @@ def fecha_actual():
 
 def imagen_segura(url):
     url = str(url or "").strip()
-    if url.startswith("https://") or url.startswith("http://"):
-        return escapar(url)
-    return ""
+    return escapar(url) if url.startswith(("https://", "http://")) else ""
 
 
-def tarjeta(noticia):
+def tarjeta(noticia, posicion=0):
     titulo = escapar(noticia.get("titulo"))
     resumen = escapar(noticia.get("resumen"))
     categoria = escapar(noticia.get("categoria"))
     imagen = imagen_segura(noticia.get("imagen"))
     identificador = escapar(noticia.get("id"))
-
-    if imagen:
-        visual = f'<img src="{imagen}" alt="{titulo}" loading="lazy">'
-    else:
-        visual = '<div class="imagen-vacia">CEV NOTICIAS</div>'
-
+    visual = f'<img src="{imagen}" alt="{titulo}" loading="lazy">' if imagen else '<div class="imagen-vacia">CEV</div>'
+    clase = " tarjeta-principal" if posicion == 0 else ""
     return f"""
-    <article class="tarjeta">
-        <a class="tarjeta-enlace" href="notas/{identificador}.html">
-            <div class="tarjeta-imagen">{visual}</div>
-            <div class="tarjeta-contenido">
-                <span class="etiqueta">{categoria}</span>
-                <h3>{titulo}</h3>
-                <p>{resumen}</p>
-                <span class="leer">Leer noticia completa →</span>
-            </div>
-        </a>
-    </article>
-    """
+    <article class="tarjeta{clase}">
+      <a class="tarjeta-enlace" href="notas/{identificador}.html">
+        <div class="tarjeta-imagen">{visual}</div>
+        <div class="tarjeta-contenido">
+          <span class="etiqueta">{categoria}</span>
+          <h3>{titulo}</h3>
+          <p>{resumen}</p>
+          <span class="leer">Leer noticia <span aria-hidden="true">↗</span></span>
+        </div>
+      </a>
+    </article>"""
 
 
-def plantilla(titulo, contenido, descripcion="CEV NOTICIAS"):
+def plantilla(titulo, contenido, descripcion="CEV NOTICIAS", ruta_raiz=""):
+    enlaces = "".join(
+        f'<a href="{ruta_raiz}#categoria-{slug(s)}">{escapar(s)}</a>'
+        for s in SECCIONES
+    )
     return f"""<!DOCTYPE html>
 <html lang="es">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#f7f6f2">
 <meta name="description" content="{escapar(descripcion)}">
 <title>{escapar(titulo)} | CEV NOTICIAS</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
 <style>
-:root {{
- --azul:#10283f; --rojo:#c83b35; --fondo:#f4f2ee;
- --texto:#202b35; --gris:#68737c; --blanco:#fff;
+:root{{--papel:#f7f6f2;--blanco:#fff;--tinta:#171717;--suave:#686868;--linea:#dedbd4;--rojo:#b5282f;--ancho:1280px}}
+*{{box-sizing:border-box}}
+[hidden]{{display:none!important}}
+html{{scroll-behavior:smooth}}
+body{{margin:0;background:var(--papel);color:var(--tinta);font-family:'DM Sans',Arial,sans-serif}}
+a{{color:inherit;text-decoration:none}}
+.masthead{{background:var(--papel)}}
+.cabecera{{max-width:var(--ancho);margin:auto;padding:28px 28px 18px;text-align:center}}
+.marca{{font-family:'Playfair Display',Georgia,serif;font-weight:800;font-size:clamp(43px,7vw,76px);line-height:.98;letter-spacing:-3.5px}}
+.marca span{{color:var(--rojo)}}
+.eslogan{{margin-top:10px;font-size:10px;letter-spacing:3px;text-transform:uppercase;color:#555}}
+.cabecera-meta{{display:flex;justify-content:space-between;align-items:center;margin-top:22px;padding-top:11px;border-top:1px solid var(--tinta);font-size:11px;color:#555}}
+.estado{{font-weight:800;letter-spacing:1.5px;text-transform:uppercase;color:var(--rojo)}}
+nav{{border-top:1px solid var(--linea);border-bottom:1px solid var(--tinta);background:var(--papel)}}
+.nav-interior{{max-width:var(--ancho);margin:auto;display:flex;justify-content:center;gap:clamp(15px,3vw,34px);padding:14px 22px;overflow-x:auto;white-space:nowrap}}
+nav a{{font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.8px}}
+nav a:hover,nav a:focus{{color:var(--rojo)}}
+.contenedor{{max-width:var(--ancho);margin:0 auto;padding:0 28px}}
+.cinta{{display:flex;align-items:center;gap:12px;margin:27px 0 18px;font-size:10px;font-weight:800;letter-spacing:1.7px;text-transform:uppercase}}
+.cinta:after{{content:"";height:1px;background:var(--linea);flex:1}}
+.cinta span{{color:var(--rojo)}}
+.destacada{{display:grid;grid-template-columns:1.12fr .88fr;min-height:390px;border-bottom:1px solid var(--tinta);padding-bottom:27px;gap:34px}}
+.destacada-visual{{min-height:350px;overflow:hidden;background:#e7e3dc}}
+.destacada-visual img{{width:100%;height:100%;min-height:350px;max-height:490px;object-fit:cover;display:block}}
+.destacada-visual .imagen-vacia{{min-height:350px}}
+.destacada-texto{{align-self:center;padding:12px 10px 12px 0}}
+.etiqueta{{display:inline-block;color:var(--rojo);font-size:10px;font-weight:800;letter-spacing:1.5px;text-transform:uppercase}}
+.destacada h1{{font-family:'Playfair Display',Georgia,serif;font-size:clamp(34px,4.5vw,58px);line-height:1.04;letter-spacing:-1.5px;margin:15px 0}}
+.destacada p{{font-size:15px;line-height:1.75;color:var(--suave);max-width:560px}}
+.meta-noticia{{font-size:10px;color:#777;margin-top:22px;text-transform:uppercase;letter-spacing:.8px}}
+.boton{{display:inline-flex;align-items:center;gap:14px;margin-top:18px;padding:12px 0;border-top:1px solid var(--tinta);border-bottom:1px solid var(--tinta);font-size:11px;font-weight:800;text-transform:uppercase;letter-spacing:1px}}
+.boton:hover{{color:var(--rojo);border-color:var(--rojo)}}
+.bloque-categoria{{padding:30px 0 34px;border-bottom:1px solid var(--linea)}}
+.titulo-seccion{{display:flex;align-items:baseline;gap:13px;margin:0 0 20px;font-family:'Playfair Display',Georgia,serif;font-size:clamp(25px,3vw,34px);letter-spacing:-.6px}}
+.titulo-seccion:after{{content:"";height:1px;background:var(--linea);flex:1}}
+.rejilla{{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px}}
+.tarjeta{{min-width:0}}
+.tarjeta-enlace{{display:block;height:100%}}
+.tarjeta-imagen{{height:205px;overflow:hidden;background:#e7e3dc}}
+.tarjeta-imagen img{{width:100%;height:100%;object-fit:cover;display:block;transition:transform .35s}}
+.tarjeta:hover .tarjeta-imagen img{{transform:scale(1.035)}}
+.imagen-vacia{{height:100%;min-height:150px;display:grid;place-items:center;background:linear-gradient(135deg,#e8e4dc,#d4d0c8);color:#6b6258;font-family:'Playfair Display',serif;font-size:30px;font-weight:800;letter-spacing:2px}}
+.tarjeta-contenido{{padding:14px 0 4px}}
+.tarjeta h3{{font-family:'Playfair Display',Georgia,serif;font-size:23px;line-height:1.16;letter-spacing:-.4px;margin:8px 0}}
+.tarjeta p{{font-size:12px;line-height:1.65;color:var(--suave);margin:8px 0 12px}}
+.leer{{font-size:10px;font-weight:800;text-transform:uppercase;letter-spacing:1px;color:var(--rojo)}}
+.tarjeta-principal{{grid-column:span 2;display:grid;grid-template-columns:1.15fr .85fr;gap:20px;border-right:1px solid var(--linea);padding-right:22px}}
+.tarjeta-principal .tarjeta-imagen{{height:100%;min-height:235px}}
+.tarjeta-principal h3{{font-size:clamp(25px,3vw,34px)}}
+.tarjeta-principal .tarjeta-contenido{{align-self:center;padding:8px 12px 8px 0}}
+.vacio{{padding:20px 0;color:var(--suave);font-size:13px;border-top:1px solid var(--linea)}}
+.articulo{{max-width:900px;margin:36px auto 65px;padding:0 28px}}
+.articulo-cabecera{{max-width:780px;margin:0 auto 25px}}
+.volver{{display:inline-block;font-size:10px;font-weight:800;text-transform:uppercase;letter-spacing:1px;color:var(--rojo);margin-bottom:30px}}
+.articulo h1{{font-family:'Playfair Display',Georgia,serif;font-size:clamp(38px,6vw,66px);line-height:1.03;letter-spacing:-1.8px;margin:13px 0 18px}}
+.articulo .bajada{{font-size:clamp(17px,2vw,21px);line-height:1.6;color:#555;margin:0}}
+.articulo .fecha{{font-size:10px;text-transform:uppercase;letter-spacing:1px;color:#777;margin:22px 0}}
+.articulo .foto{{width:100%;max-height:560px;object-fit:cover;display:block;margin:25px 0 35px}}
+.articulo .cuerpo{{max-width:740px;margin:auto;font-family:Georgia,serif;font-size:19px;line-height:1.9;color:#292929;white-space:pre-line}}
+.articulo .cuerpo p{{margin:0 0 24px}}
+.fuentes{{max-width:740px;margin:42px auto 0;padding-top:20px;border-top:1px solid var(--linea);font-size:12px;color:#666}}
+.fuentes strong{{color:var(--tinta);text-transform:uppercase;letter-spacing:1px;font-size:10px}}
+.fuentes li{{margin:8px 0}}
+.pie{{margin-top:35px;background:#171717;color:#fff;padding:36px 22px;text-align:center}}
+.pie strong{{font-family:'Playfair Display',Georgia,serif;font-size:30px;letter-spacing:-1px}}
+.pie strong span{{color:#e14a50}}
+.pie p{{color:#aaa;font-size:11px;line-height:1.7}}
+@media(max-width:850px){{
+ .destacada{{grid-template-columns:1fr;gap:18px}}
+ .destacada-visual,.destacada-visual img{{min-height:260px;max-height:380px}}
+ .destacada-texto{{padding:0 4px}}
+ .rejilla{{grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}}
+ .tarjeta-principal{{grid-column:span 2}}
 }}
-* {{box-sizing:border-box}}
-*[hidden] {{display:none !important}}
-body {{margin:0;background:var(--fondo);color:var(--texto);font-family:'DM Sans',Arial,sans-serif}}
-a {{color:inherit;text-decoration:none}}
-.masthead {{background:var(--azul);color:white}}
-.cabecera {{max-width:1200px;margin:auto;padding:27px 22px 20px}}
-.marca {{font-family:'Playfair Display',serif;font-size:clamp(34px,6vw,58px);font-weight:800;letter-spacing:-2px}}
-.marca span {{color:#e35b51}}
-.eslogan {{color:#c9d4dc;font-size:12px;letter-spacing:2px;text-transform:uppercase;margin-top:5px}}
-.fecha {{font-size:12px;color:#d4dce2;margin-top:17px}}
-nav {{background:#0b1e30;border-top:1px solid #344657;overflow-x:auto}}
-.nav-interior {{max-width:1200px;margin:auto;display:flex;gap:27px;padding:14px 22px;white-space:nowrap}}
-nav a {{color:white;font-size:13px;font-weight:600}}
-nav a:hover {{color:#f17b70}}
-.contenedor {{max-width:1200px;margin:30px auto;padding:0 22px}}
-.titulo-seccion {{font-family:'Playfair Display',serif;font-size:29px;margin:35px 0 17px}}
-.destacada {{display:grid;grid-template-columns:1.4fr 1fr;background:white;border-radius:12px;overflow:hidden;box-shadow:0 5px 25px #14283c12}}
-.destacada img {{width:100%;height:100%;min-height:300px;object-fit:cover}}
-.destacada .imagen-vacia {{min-height:300px;display:grid;place-items:center;background:#dce4e8;color:#536575;font-weight:bold}}
-.destacada-texto {{padding:30px;align-self:center}}
-.destacada h2 {{font-family:'Playfair Display',serif;font-size:clamp(25px,3vw,38px);line-height:1.15;margin:12px 0}}
-.etiqueta {{color:var(--rojo);font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:1px}}
-.destacada p,.tarjeta p {{color:var(--gris);line-height:1.65;font-size:14px}}
-.boton {{display:inline-block;background:var(--rojo);color:white;padding:12px 17px;border-radius:5px;font-weight:700;font-size:13px;margin-top:8px}}
-.rejilla {{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}}
-.tarjeta {{background:white;border-radius:10px;overflow:hidden;box-shadow:0 3px 15px #14283c0c;transition:transform .2s}}
-.tarjeta:hover {{transform:translateY(-3px)}}
-.tarjeta-imagen {{height:190px;background:#dce4e8}}
-.tarjeta-imagen img {{width:100%;height:100%;object-fit:cover}}
-.imagen-vacia {{height:100%;display:grid;place-items:center;background:linear-gradient(135deg,#dbe3e8,#b9c9d2);color:#42566a;font-family:'Playfair Display',serif;font-size:20px}}
-.tarjeta-contenido {{padding:19px}}
-.tarjeta h3 {{font-family:'Playfair Display',serif;font-size:21px;line-height:1.25;margin:9px 0}}
-.leer {{font-size:12px;color:var(--rojo);font-weight:700}}
-.articulo {{max-width:850px;margin:35px auto;background:white;padding:clamp(22px,5vw,55px);border-radius:10px}}
-.articulo h1 {{font-family:'Playfair Display',serif;font-size:clamp(32px,5vw,48px);line-height:1.12}}
-.articulo .bajada {{font-size:19px;color:var(--gris);line-height:1.6}}
-.articulo .foto {{width:100%;max-height:490px;object-fit:cover;border-radius:8px;margin:20px 0}}
-.articulo .cuerpo {{font-size:17px;line-height:1.85;white-space:pre-line}}
-.articulo .cuerpo p {{margin:0 0 20px}}
-.fuentes {{border-top:1px solid #ddd;margin-top:35px;padding-top:20px;font-size:13px;color:var(--gris)}}
-.pie {{margin-top:55px;background:var(--azul);color:white;padding:35px 22px;text-align:center}}
-.pie strong {{font-family:'Playfair Display',serif;font-size:25px}}
-.pie p {{color:#c9d4dc;font-size:12px}}
-.vacio {{background:white;padding:25px;border-radius:8px;color:var(--gris)}}
-@media(max-width:800px) {{
- .destacada {{grid-template-columns:1fr}}
- .destacada img {{min-height:220px;max-height:280px}}
- .rejilla {{grid-template-columns:repeat(2,minmax(0,1fr));gap:13px}}
- .tarjeta-imagen {{height:145px}}
- .tarjeta-contenido {{padding:13px}}
- .tarjeta h3 {{font-size:18px}}
-}}
-@media(max-width:480px) {{
- .rejilla {{grid-template-columns:1fr}}
- .tarjeta-imagen {{height:200px}}
- .contenedor {{padding:0 14px}}
+@media(max-width:560px){{
+ .cabecera{{padding:22px 15px 15px}}
+ .marca{{font-size:49px;letter-spacing:-2.5px}}
+ .cabecera-meta{{font-size:9px}}
+ .nav-interior{{justify-content:flex-start;padding:13px 15px}}
+ .contenedor{{padding:0 16px}}
+ .destacada-visual,.destacada-visual img{{min-height:215px}}
+ .destacada h1{{font-size:37px}}
+ .rejilla{{grid-template-columns:1fr;gap:23px}}
+ .tarjeta-principal{{grid-column:auto;display:block;border-right:0;padding-right:0}}
+ .tarjeta-principal .tarjeta-imagen{{height:220px;min-height:0}}
+ .tarjeta-principal .tarjeta-contenido{{padding:14px 0}}
+ .tarjeta-imagen{{height:215px}}
+ .articulo{{padding:0 18px;margin-top:25px}}
+ .articulo h1{{font-size:41px}}
+ .articulo .cuerpo{{font-size:18px}}
 }}
 </style>
 </head>
@@ -171,47 +177,36 @@ nav a:hover {{color:#f17b70}}
 <header class="masthead">
  <div class="cabecera">
   <div class="marca">CEV <span>NOTICIAS</span></div>
-  <div class="eslogan">Información · Actualidad · Periodismo</div>
-  <div class="fecha">{fecha_actual()} · Colombia</div>
+  <div class="eslogan">Periodismo · Contexto · Actualidad</div>
+  <div class="cabecera-meta"><span>{fecha_actual()} · COLOMBIA</span><span class="estado">Edición digital</span></div>
  </div>
-  <nav><div class="nav-interior">
-  <a href="/noti/">Inicio</a>
-  {''.join(f'<a href="#categoria-{slug(s)}" data-categoria="{escapar(s)}">{escapar(s)}</a>' for s in SECCIONES)}
+ <nav aria-label="Secciones"><div class="nav-interior">
+  <a href="{ruta_raiz}">Portada</a>{enlaces}
  </div></nav>
 </header>
 {contenido}
 <footer class="pie">
- <strong>CEV NOTICIAS</strong>
- <p>Información organizada para nuestros lectores.</p>
+ <strong>CEV <span>NOTICIAS</span></strong>
+ <p>Información, contexto y actualidad.</p>
  <p>Las fuentes consultadas se identifican al final de cada artículo.</p>
 </footer>
 <script>
-(function () {{
-  function aplicarFiltro() {{
-    const hash = decodeURIComponent(window.location.hash.slice(1));
-    const categoria = hash.startsWith("categoria-") ? hash.slice(10) : "";
-
-    const destacada = document.querySelector(".destacada");
-    const secciones = document.querySelectorAll(".bloque-categoria");
-
-    if (!categoria) {{
-      if (destacada) destacada.hidden = false;
-      secciones.forEach(seccion => {{ seccion.hidden = false; }});
-      return;
-    }}
-
-    if (destacada) {{
-      destacada.hidden = destacada.dataset.categoria !== categoria;
-    }}
-
-    secciones.forEach(seccion => {{
-      seccion.hidden = seccion.dataset.seccion !== categoria;
-    }});
+(function(){{
+ function aplicarFiltro(){{
+  const hash=decodeURIComponent(window.location.hash.slice(1));
+  const categoria=hash.startsWith("categoria-")?hash.slice(10):"";
+  const destacada=document.querySelector(".destacada");
+  const secciones=document.querySelectorAll(".bloque-categoria");
+  if(!categoria){{
+   if(destacada)destacada.hidden=false;
+   secciones.forEach(s=>s.hidden=false);
+   return;
   }}
-
-  window.addEventListener("hashchange", aplicarFiltro);
-  document.addEventListener("DOMContentLoaded", aplicarFiltro);
-  aplicarFiltro();
+  if(destacada)destacada.hidden=destacada.dataset.categoria!==categoria;
+  secciones.forEach(s=>s.hidden=s.dataset.seccion!==categoria);
+ }}
+ window.addEventListener("hashchange",aplicarFiltro);
+ aplicarFiltro();
 }})();
 </script>
 </body>
@@ -225,41 +220,28 @@ def crear_articulo(noticia):
     categoria = escapar(noticia.get("categoria"))
     contenido = str(noticia.get("contenido") or "").strip()
     imagen = imagen_segura(noticia.get("imagen"))
-
-    if imagen:
-        foto = f'<img class="foto" src="{imagen}" alt="{titulo}">'
-    else:
-        foto = ""
-
-    parrafos = "".join(
-        f"<p>{escapar(p.strip())}</p>"
-        for p in contenido.split("\n\n") if p.strip()
-    )
-
-    referencias = []
-
-    for fuente in noticia.get("fuentes", []):
-        nombre = escapar(fuente.get("nombre", "Fuente consultada"))
-        referencias.append(f"<li>{nombre}</li>")
-
+    foto = f'<img class="foto" src="{imagen}" alt="{titulo}" loading="lazy">' if imagen else ""
+    parrafos = "".join(f"<p>{escapar(p.strip())}</p>" for p in contenido.split("\n\n") if p.strip())
+    referencias = [
+        f"<li>{escapar(fuente.get('nombre', 'Fuente consultada'))}</li>"
+        for fuente in noticia.get("fuentes", [])
+    ]
     cuerpo = f"""
     <main class="articulo">
-      <a class="leer" href="../index.html">← Volver a CEV NOTICIAS</a>
-      <p class="etiqueta">{categoria}</p>
-      <h1>{titulo}</h1>
-      <p class="bajada">{resumen}</p>
-      <p class="fecha">Publicado: {escapar(noticia.get("fecha", fecha_actual()))}</p>
+      <div class="articulo-cabecera">
+       <a class="volver" href="../index.html">← Volver a la portada</a>
+       <p class="etiqueta">{categoria}</p>
+       <h1>{titulo}</h1>
+       <p class="bajada">{resumen}</p>
+       <p class="fecha">Publicado: {escapar(noticia.get("fecha", fecha_actual()))}</p>
+      </div>
       {foto}
       <div class="cuerpo">{parrafos}</div>
-      <div class="fuentes">
-        <strong>Fuentes consultadas</strong>
-        <ul>{''.join(referencias)}</ul>
-        <p>Artículo de elaboración propia. Las fuentes se presentan para consulta y contraste.</p>
+      <div class="fuentes"><strong>Fuentes consultadas</strong><ul>{''.join(referencias)}</ul>
+       <p>Artículo de elaboración propia. Las fuentes se presentan para consulta y contraste.</p>
       </div>
-    </main>
-    """
-
-    pagina = plantilla(titulo, cuerpo, resumen)
+    </main>"""
+    pagina = plantilla(titulo, cuerpo, resumen, ruta_raiz="../")
     NOTAS.mkdir(parents=True, exist_ok=True)
     (NOTAS / f"{identificador}.html").write_text(pagina, encoding="utf-8")
 
@@ -267,92 +249,59 @@ def crear_articulo(noticia):
 def construir():
     datos = cargar_json(CACHE, {})
     noticias = datos.get("noticias", [])
-
-    # Cada noticia debe tener contenido suficiente y una categoría válida.
     validas = []
     vistos = set()
-
     for noticia in noticias:
         titulo = str(noticia.get("titulo", "")).strip()
         contenido = str(noticia.get("contenido", "")).strip()
         categoria = noticia.get("categoria", "")
-
-        if not titulo or len(contenido) < 250:
+        if not titulo or len(contenido) < 250 or categoria not in SECCIONES:
             continue
-        if categoria not in SECCIONES:
-            continue
-
         identificador = noticia.get("id") or slug(titulo)
         if identificador in vistos:
             continue
-
         noticia["id"] = identificador
         noticia.setdefault("fecha", fecha_actual())
         noticia.setdefault("resumen", contenido[:220])
         noticia.setdefault("fuentes", [])
-
         vistos.add(identificador)
         validas.append(noticia)
         crear_articulo(noticia)
 
     SITE.mkdir(parents=True, exist_ok=True)
     destacada = validas[0] if validas else None
-
     if destacada:
         imagen = imagen_segura(destacada.get("imagen"))
-        visual = (
-            f'<img src="{imagen}" alt="{escapar(destacada.get("titulo"))}">'
-            if imagen else '<div class="imagen-vacia">CEV NOTICIAS</div>'
-        )
-
+        visual = f'<img src="{imagen}" alt="{escapar(destacada.get("titulo"))}" fetchpriority="high">' if imagen else '<div class="imagen-vacia">CEV</div>'
         hero = f"""
-        <section class="destacada" data-categoria="{slug(destacada["categoria"])}">
-          {visual}
-          <div class="destacada-texto">
-            <span class="etiqueta">Noticia destacada · {escapar(destacada["categoria"])}</span>
-            <h2>{escapar(destacada["titulo"])}</h2>
-            <p>{escapar(destacada["resumen"])}</p>
-            <a class="boton" href="notas/{escapar(destacada["id"])}.html">Leer artículo</a>
-          </div>
-        </section>
-        """
+        <section class="destacada" data-categoria="{slug(destacada['categoria'])}">
+         <div class="destacada-visual">{visual}</div>
+         <div class="destacada-texto">
+          <span class="etiqueta">En portada · {escapar(destacada['categoria'])}</span>
+          <h1>{escapar(destacada['titulo'])}</h1>
+          <p>{escapar(destacada['resumen'])}</p>
+          <div class="meta-noticia">{escapar(destacada.get('fecha', fecha_actual()))}</div>
+          <a class="boton" href="notas/{escapar(destacada['id'])}.html">Leer historia completa <span>↗</span></a>
+         </div>
+        </section>"""
     else:
         hero = '<div class="vacio">Estamos preparando las próximas noticias. Vuelve pronto.</div>'
 
     bloques = []
-
     for seccion in SECCIONES:
-        grupo = [
-            n for n in validas
-            if n["categoria"] == seccion and n is not destacada
-        ]
-
-        contenido_seccion = (
-            f'<div class="rejilla">{"".join(tarjeta(n) for n in grupo)}</div>'
-            if grupo else
-            '<div class="vacio">Aún no hay noticias publicadas en esta categoría.</div>'
-        )
-
+        grupo = [n for n in validas if n["categoria"] == seccion and n is not destacada]
+        if grupo:
+            tarjetas = "".join(tarjeta(n, i) for i, n in enumerate(grupo))
+            contenido_seccion = f'<div class="rejilla">{tarjetas}</div>'
+        else:
+            contenido_seccion = '<div class="vacio">Aún no hay noticias publicadas en esta categoría.</div>'
         bloques.append(
-            f'<section id="categoria-{slug(seccion)}" '
-            f'class="bloque-categoria" data-seccion="{slug(seccion)}">'
-            f'<h2 class="titulo-seccion">{escapar(seccion)}</h2>'
-            f'{contenido_seccion}'
-            f'</section>'
+            f'<section id="categoria-{slug(seccion)}" class="bloque-categoria" data-seccion="{slug(seccion)}">'
+            f'<h2 class="titulo-seccion">{escapar(seccion)}</h2>{contenido_seccion}</section>'
         )
 
-    contenido = f"""
-    <main class="contenedor">
-      <h2 class="titulo-seccion">La actualidad, en un solo lugar</h2>
-      {hero}
-      {''.join(bloques)}
-    </main>
-    """
-
-    (SITE / "index.html").write_text(
-        plantilla("Portada", contenido), encoding="utf-8"
-    )
-
+    contenido = f'<main class="contenedor"><div class="cinta"><span>Última hora</span> · Las noticias que importan</div>{hero}{"".join(bloques)}</main>'
+    (SITE / "index.html").write_text(plantilla("Portada", contenido), encoding="utf-8")
     print(f"Portada creada. Artículos publicados: {len(validas)}")
 
 
