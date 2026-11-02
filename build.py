@@ -101,6 +101,7 @@ nav a:hover,nav a:focus{{color:var(--rojo)}}
 .contenedor{{max-width:var(--ancho);margin:0 auto;padding:0 28px}}
 .cinta{{display:flex;align-items:center;gap:12px;margin:27px 0 18px;font-size:10px;font-weight:800;letter-spacing:1.7px;text-transform:uppercase}}
 .cinta:after{{content:"";height:1px;background:var(--linea);flex:1}}
+.cinta-enlace{{display:inline-flex;align-items:center;gap:7px;color:var(--rojo);font-size:10px;font-weight:800;letter-spacing:1px;text-decoration:none;white-space:nowrap}} .cinta-enlace:hover{{text-decoration:underline;text-underline-offset:4px}}
 .cinta span{{color:var(--rojo)}}
 .portada-grid{{display:grid;grid-template-columns:minmax(0,1fr) 330px;gap:30px;align-items:stretch;padding-bottom:27px;border-bottom:1px solid var(--tinta)}}
 .destacada{{min-width:0}}
@@ -270,6 +271,7 @@ body.noche .pie{{background:#090909}}
   }}
   requestAnimationFrame(mover);
  }});
+}})();
 </script>
 <div class="progreso-lectura" id="progreso-lectura"></div>
 <button class="volver-arriba" id="volver-arriba" type="button" aria-label="Volver arriba" title="Volver arriba">↑</button>
@@ -422,7 +424,7 @@ def construir():
             f'<h2 class="titulo-seccion">{escapar(seccion)}</h2>{contenido_seccion}</section>'
         )
 
-    contenido = f'<main class="contenedor"><div class="cinta"><span>En desarrollo</span> · La actualidad que necesitas conocer</div>{portada}{"".join(bloques)}</main>'
+    contenido = f'<main class="contenedor"><div class="cinta"><span>En desarrollo</span><a class="cinta-enlace" href="#categoria-cali">Explorar actualidad <span aria-hidden="true">↘</span></a></div>{portada}{"".join(bloques)}</main>'
     (SITE / "index.html").write_text(plantilla("Portada", contenido), encoding="utf-8")
     print(f"Portada creada. Artículos publicados: {len(validas)}")
 
