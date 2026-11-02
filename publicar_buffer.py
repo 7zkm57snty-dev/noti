@@ -53,11 +53,9 @@ def articulo_apto(noticia):
     imagen = str(noticia.get("imagen_instagram", "")).strip()
     if not imagen.startswith("https://"):
         return False, "no tiene imagen apta para Instagram"
-    tipo_imagen = str(noticia.get("imagen_instagram_tipo", ""))
-    if tipo_imagen != "grafica_propia":
-        info = noticia.get("imagen_credito") or {}
-        if not licencia_valida(info):
-            return False, "no tiene licencia y atribución verificables"
+    info = noticia.get("imagen_credito") or {}
+    if not licencia_valida(info):
+        return False, "no tiene fotografía real con licencia y atribución verificables"
     fuentes = noticia.get("fuentes") or []
     nombres = {str(f.get("nombre", "")).strip().lower() for f in fuentes if f.get("nombre")}
     titulo = str(noticia.get("titulo", "")).lower()
