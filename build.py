@@ -59,6 +59,61 @@ def imagen_segura(url):
     return escapar(url) if url.startswith(("https://", "http://")) else ""
 
 
+def foto_local_noticia(noticia):
+    """
+    Descarga una fotografía editorial con URL válida al artefacto estático.
+    Nunca usa la portada social con texto como si fuera una fotografía.
+    """
+    identificador = slug(noticia.get("id") or noticia.get("titulo") or "noticia")
+    if identificador in IMAGENES_PROCESADAS:
+        return IMAGENES_PROCESADAS[identificador]
+
+    url = str(noticia.get("imagen") or "").strip()
+    if not url.startswith(("https://", "http://")):
+        IMAGENES_PROCESADAS[identificador] = ""
+        return ""
+
+    host = (urlsplit(url).hostname or "").lower()
+    if host in ("cevnoticias.com", "www.cevnoticias.com"):
+        IMAGENES_PROCESADAS[identificador] = ""
+        return ""
+
+    tipos = {
+        "image/jpeg": ".jpg",
+        "image/png": ".png",
+        "image/webp": ".webp",
+        "image/gif": ".gif"
+    }
+    try:
+        solicitud = Request(
+            url,
+            headers={
+                "User-Agent": "Mozilla/5.0 (compatible; CEVNoticias/1.0; https://cevnoticias.com/)",
+                "Accept": "image/avif,image/webp,image/apng,image/*,*/*;q=0.8"
+            }
+        )
+        with urlopen(solicitud, timeout=18) as respuesta:
+            tipo = respuesta.headers.get_content_type().lower()
+            extension = tipos.get(tipo)
+            datos = respuesta.read(15 * 1024 * 1024 + 1)
+
+        if not extension or len(datos) < 2048 or len(datos) > 15 * 1024 * 1024:
+            raise ValueError(f"Respuesta de imagen no válida: {tipo}, {len(datos)} bytes")
+
+        carpeta = SITE / "imagenes"
+        carpeta.mkdir(parents=True, exist_ok=True)
+        nombre = f"{identificador}{extension}"
+        (carpeta / nombre).write_bytes(datos)
+        local = f"/imagenes/{nombre}"
+        IMAGENES_PROCESADAS[identificador] = local
+        print(f"Fotografía real guardada en el sitio: {identificador}{extension}")
+        return local
+    except Exception as error:
+        print(f"Sin foto descargable para {identificador}; la noticia se mostrará sin imagen: {error}")
+        IMAGENES_PROCESADAS[identificador] = ""
+        return ""
+
+
 def imagen_noticia(noticia, alt="", clase="", loading="lazy", prioridad=False):
     """
     Inserta únicamente una fotografía guardada en el propio sitio.
