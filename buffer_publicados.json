@@ -1,6 +1,6 @@
 {
   "fecha": "2026-11-02",
-  "publicaciones_hoy": 0,
+  "publicaciones_hoy": 3,
   "publicaciones": [
     {
       "noticia_id": "85900bf522714b5a",
@@ -119,6 +119,54 @@
       "buffer_status": "scheduled",
       "buffer_channel_id": "6ae80f3ce29c69a171328e5d",
       "fecha": "2026-11-02T11:47:08.593790-05:00",
+      "version_imagen": 1,
+      "reemplazos": []
+    },
+    {
+      "noticia_id": "53c35052da78e37f",
+      "buffer_post_id": "6ae8d8cf87c5ea7cde55d5dc",
+      "titulo": "Antonio Navarro Wolff: de la guerrilla al Senado, el ingeniero que negoció la paz",
+      "score_editorial": 14.36,
+      "buffer_due_at": "2026-11-02T19:00:00.000Z",
+      "buffer_status": "scheduled",
+      "buffer_channel_id": "6ae80f3ce29c69a171328e5d",
+      "fecha": "2026-11-02T13:39:12.019804-05:00",
+      "version_imagen": 1,
+      "reemplazos": []
+    },
+    {
+      "noticia_id": "85900bf522714b5a",
+      "buffer_post_id": "6ae8d8d0c1e1a0710438350d",
+      "titulo": "El voto latino en EE. UU. no tiene dueño: la economía decide el Congreso",
+      "score_editorial": 8.82,
+      "buffer_due_at": "2026-11-02T22:00:00.000Z",
+      "buffer_status": "scheduled",
+      "buffer_channel_id": "6ae80f3ce29c69a171328e5d",
+      "fecha": "2026-11-02T13:39:12.388005-05:00",
+      "version_imagen": 1,
+      "reemplazos": []
+    },
+    {
+      "noticia_id": "a627b9bcb73bd0ff",
+      "buffer_post_id": "6ae8d8d0752c1c9052c636a0",
+      "titulo": "Muere en Ciudad de México a los 64 años el DJ estadounidense Juan Atkins, pionero del tecno",
+      "score_editorial": 7.83,
+      "buffer_due_at": "2026-11-03T04:00:00.000Z",
+      "buffer_status": "scheduled",
+      "buffer_channel_id": "6ae80f3ce29c69a171328e5d",
+      "fecha": "2026-11-02T13:39:12.937054-05:00",
+      "version_imagen": 1,
+      "reemplazos": []
+    },
+    {
+      "noticia_id": "e817e86f6599009a",
+      "buffer_post_id": "6ae8d8d14e55e026087b0810",
+      "titulo": "La Comunidad Andina avanza con proyectos que prometen transformar la región",
+      "score_editorial": 7.83,
+      "buffer_due_at": "2026-11-03T14:00:00.000Z",
+      "buffer_status": "scheduled",
+      "buffer_channel_id": "6ae80f3ce29c69a171328e5d",
+      "fecha": "2026-11-02T13:39:13.272349-05:00",
       "version_imagen": 1,
       "reemplazos": []
     }
