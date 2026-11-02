@@ -6,25 +6,37 @@
       "noticia_id": "6f6e1983c93e7b43",
       "buffer_post_id": "6ae81af264604db3143fc810",
       "titulo": "Kiev anuncia el fin de la tregua de cuatro días en el sur de Ucrania",
-      "fecha": "2026-11-02T00:09:06.959151-05:00"
+      "fecha": "2026-11-02T00:09:06.959151-05:00",
+      "buffer_due_at": "2026-11-03T01:22:00.000Z",
+      "buffer_status": "scheduled",
+      "buffer_channel_id": "6ae80f3ce29c69a171328e5d"
     },
     {
       "noticia_id": "77b91be9109cbdea",
       "buffer_post_id": "6ae81b6d76279ec7eb93453d",
       "titulo": "El chisme corporativo: la moneda que impulsa decisiones y riesgos",
-      "fecha": "2026-11-02T00:11:09.181760-05:00"
+      "fecha": "2026-11-02T00:11:09.181760-05:00",
+      "buffer_due_at": "2026-11-03T23:50:00.000Z",
+      "buffer_status": "scheduled",
+      "buffer_channel_id": "6ae80f3ce29c69a171328e5d"
     },
     {
       "noticia_id": "4054019971503fda",
       "buffer_post_id": "6ae81bda64604db31440021d",
       "titulo": "El chisme corporativo: la moneda que impulsa la cultura empresarial",
-      "fecha": "2026-11-02T00:12:58.243522-05:00"
+      "fecha": "2026-11-02T00:12:58.243522-05:00",
+      "buffer_due_at": "2026-11-04T00:06:00.000Z",
+      "buffer_status": "scheduled",
+      "buffer_channel_id": "6ae80f3ce29c69a171328e5d"
     },
     {
       "noticia_id": "7251c34f22f02aed",
       "buffer_post_id": "6ae81c737817c41d1a44faa8",
       "titulo": "Trump defiende los altos precios de la gasolina y amenaza con ataques a Irán",
-      "fecha": "2026-11-02T00:15:31.769547-05:00"
+      "fecha": "2026-11-02T00:15:31.769547-05:00",
+      "buffer_due_at": "2026-11-04T15:20:00.000Z",
+      "buffer_status": "scheduled",
+      "buffer_channel_id": "6ae80f3ce29c69a171328e5d"
     }
   ]
 }
