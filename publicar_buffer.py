@@ -108,7 +108,7 @@ def crear_publicacion(noticia, due_at):
         }
       }) {
         ... on PostActionSuccess {
-          post { id text dueAt status channelId }
+          post { id text dueAt status channelId assets { id mimeType } }
         }
         ... on MutationError { message }
       }
@@ -142,7 +142,7 @@ def crear_publicacion_ahora(noticia):
         }
       }) {
         ... on PostActionSuccess {
-          post { id text dueAt status channelId }
+          post { id text dueAt status channelId assets { id mimeType } }
         }
         ... on MutationError { message }
       }
@@ -175,7 +175,7 @@ def editar_publicacion(post_id, noticia, due_at):
         }
       }) {
         ... on PostActionSuccess {
-          post { id text dueAt status channelId }
+          post { id text dueAt status channelId assets { id mimeType } }
         }
         ... on MutationError { message }
       }
@@ -239,7 +239,13 @@ def ejecutar_mutacion(query, nombre):
         raise RuntimeError("Error GraphQL de Buffer: " + str(datos["errors"]))
     resultado = (datos.get("data") or {}).get(nombre) or {}
     if resultado.get("post"):
-        return resultado["post"]
+        post = resultado["post"]
+        if nombre in ("createPost", "editPost") and not post.get("assets"):
+            raise RuntimeError(
+                "Buffer aceptó la publicación, pero no confirmó ningún archivo de imagen adjunto. "
+                "Se detiene el flujo para evitar posts de Instagram solo con texto."
+            )
+        return post
     if resultado.get("message"):
         raise RuntimeError("Buffer rechazó la operación: " + resultado["message"])
     raise RuntimeError("Respuesta inesperada de Buffer: " + str(datos))
@@ -266,6 +272,7 @@ def obtener_posts_programados():
             dueAt
             status
             channelId
+            assets { id mimeType }
           }
         }
       }
@@ -445,7 +452,8 @@ def editar_o_crear_en_franja(noticia, puntuacion, franja, registro, post):
             str(registro.get("noticia_id")) != noticia_id
             or str(post.get("dueAt", "")) != due_at
             or not titulo_anterior
-            or registro.get("version_imagen") != 1
+            or registro.get("version_imagen") != 2
+            or not post.get("assets")
         ):
             resultado = editar_publicacion(post_id, noticia, due_at)
             print("PUBLICACIÓN PENDIENTE ACTUALIZADA EN BUFFER.")
@@ -467,7 +475,7 @@ def editar_o_crear_en_franja(noticia, puntuacion, franja, registro, post):
             "buffer_status": resultado.get("status") or "scheduled",
             "buffer_channel_id": resultado.get("channelId") or CHANNEL_ID,
             "fecha_actualizacion": fecha_local().isoformat(),
-            "version_imagen": 1,
+            "version_imagen": 2,
             "reemplazos": historial[-20:]
         })
         return registro
@@ -543,7 +551,7 @@ def ejecutar():
             "buffer_due_at": resultado.get("dueAt") or due_at,
             "fecha": fecha_local().isoformat(),
             "tipo_publicacion": "puntual",
-            "version_imagen": 1
+            "version_imagen": 2
         })
         noticia.pop("programar_a", None)
         print("PUBLICACIÓN PUNTUAL PROGRAMADA:", noticia.get("titulo"), "→", destino.isoformat())
