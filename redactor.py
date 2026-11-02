@@ -747,11 +747,21 @@ def categoria_titular_rss(entrada):
         "el dovio", "el dovío", "ulloa", "obando", "argelia"
     )
 
-    if "la fm deportes" in fuente or any(p in titulo for p in (
-        "fútbol", "futbol", "liga", "selección", "seleccion", "partido",
-        "mundial", "copa", "tenis", "ciclismo", "baloncesto", "nba",
-        "deporte", "deportivo", "fórmula 1", "formula 1", "torneo"
-    )):
+    hechos_no_deportivos = (
+        "accidente", "atentado", "muertos", "muerto", "muerte",
+        "homicidio", "asesin", "captur", "víctima", "victima",
+        "herido", "explosiv", "robo", "asalto", "secuestro",
+        "crimen", "disparos", "desaparec", "incendio", "volqueta"
+    )
+    menciona_hecho_no_deportivo = any(p in titulo for p in hechos_no_deportivos)
+    es_titular_deportivo = (
+        "la fm deportes" in fuente or any(p in titulo for p in (
+            "fútbol", "futbol", "liga", "selección", "seleccion", "partido",
+            "mundial", "copa", "tenis", "ciclismo", "baloncesto", "nba",
+            "deporte", "deportivo", "fórmula 1", "formula 1", "torneo"
+        ))
+    )
+    if es_titular_deportivo and not menciona_hecho_no_deportivo:
         return "Deportes"
 
     if any(municipio in titulo for municipio in municipios_valle) or "valle del cauca" in titulo:
