@@ -412,7 +412,8 @@ Devuelve exclusivamente JSON válido con esta estructura:
   "titulo": "Título original",
   "resumen": "Resumen de la noticia",
   "categoria": "Categoría",
-  "contenido": "Artículo completo con párrafos separados"
+  "contenido": "Artículo completo con párrafos separados",
+  "descripcion_instagram": "Descripción breve, fiel a los hechos y preparada para Instagram"
 }}
 """
 
@@ -561,6 +562,61 @@ def identificador_articulo(titulo):
     return hashlib.sha256(
         titulo.lower().encode("utf-8")
     ).hexdigest()[:16]
+
+
+def asegurar_datos_instagram(noticias):
+    """
+    Completa los datos de Instagram de noticias antiguas que ya están
+    publicadas en la web. Si no existe una imagen con licencia verificada,
+    utiliza una portada gráfica propia de CEV NOTICIAS.
+    """
+    portadas_creadas = 0
+    descripciones_creadas = 0
+
+    for noticia in noticias:
+        if not isinstance(noticia, dict):
+            continue
+
+        identificador = str(noticia.get("id", "")).strip()
+        titulo = str(noticia.get("titulo", "")).strip()
+        if not identificador or not titulo:
+            continue
+
+        imagen_instagram = str(noticia.get("imagen_instagram", "")).strip()
+        tipo_imagen = str(noticia.get("imagen_instagram_tipo", "")).strip()
+
+        if not imagen_instagram:
+            noticia["imagen_instagram"] = crear_portada_instagram(
+                identificador,
+                titulo,
+                noticia.get("categoria", "Actualidad")
+            )
+            noticia["imagen_instagram_tipo"] = "grafica_propia"
+            portadas_creadas += 1
+        elif not tipo_imagen:
+            # No se presume que una foto externa tenga licencia.
+            # Las imágenes antiguas sin metadatos se sustituyen por una
+            # portada gráfica propia para evitar reutilización no autorizada.
+            noticia["imagen_instagram"] = crear_portada_instagram(
+                identificador,
+                titulo,
+                noticia.get("categoria", "Actualidad")
+            )
+            noticia["imagen_instagram_tipo"] = "grafica_propia"
+            portadas_creadas += 1
+
+        if not str(noticia.get("descripcion_instagram", "")).strip():
+            noticia["descripcion_instagram"] = crear_caption_instagram(
+                noticia,
+                noticia.get("imagen_credito") or {}
+            )
+            descripciones_creadas += 1
+
+    print(
+        "Preparación Instagram: "
+        f"{portadas_creadas} portadas propias y "
+        f"{descripciones_creadas} descripciones completadas."
+    )
 
 
 def ejecutar():
@@ -718,6 +774,10 @@ def ejecutar():
 
     resultado = nuevas + publicadas
     resultado = resultado[:MAX_ARTICULOS_ANTERIORES]
+
+    # Completa también las noticias que ya estaban en la web para que
+    # puedan entrar a la cola de Instagram sin esperar a nuevos artículos.
+    asegurar_datos_instagram(resultado)
 
     guardar_json(CACHE, {
         "noticias": resultado,
