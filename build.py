@@ -246,7 +246,10 @@ body.noche .pie{{background:#090909}}
   let pausado=false, reanudar=null, anterior=0;
   const detener=()=>{{pausado=true;clearTimeout(reanudar);reanudar=setTimeout(()=>{{pausado=false;}},2200);}};
   track.addEventListener('pointerdown',detener,{{passive:true}});
+  track.addEventListener('pointerup',()=>{{clearTimeout(reanudar);reanudar=setTimeout(()=>{{pausado=false;}},1600);}},{{passive:true}});
+  track.addEventListener('pointercancel',()=>{{pausado=false;}},{{passive:true}});
   track.addEventListener('touchstart',detener,{{passive:true}});
+  track.addEventListener('touchend',()=>{{clearTimeout(reanudar);reanudar=setTimeout(()=>{{pausado=false;}},1600);}},{{passive:true}});
   track.addEventListener('wheel',detener,{{passive:true}});
   track.addEventListener('mouseenter',()=>{{pausado=true;}});
   track.addEventListener('mouseleave',()=>{{pausado=false;}});
