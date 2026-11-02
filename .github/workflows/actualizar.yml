@@ -47,14 +47,6 @@ jobs:
           python -u redactor.py
           echo "Redactor finalizado correctamente."
 
-      - name: Construir página web
-        env:
-          PYTHONUNBUFFERED: "1"
-        run: |
-          echo "Iniciando construcción de CEV NOTICIAS..."
-          python -u build.py
-          echo "Página web construida correctamente."
-
       - name: Guardar historial de noticias sin conflictos
         run: |
           git config user.name "github-actions[bot]"
@@ -105,6 +97,14 @@ jobs:
           done
           echo "No se pudo guardar el historial después de 3 intentos."
           exit 1
+
+      - name: Construir página web
+        env:
+          PYTHONUNBUFFERED: "1"
+        run: |
+          echo "Iniciando construcción de CEV NOTICIAS..."
+          python -u build.py
+          echo "Página web construida correctamente."
 
       - name: Preparar publicación web
         uses: actions/upload-pages-artifact@v3
