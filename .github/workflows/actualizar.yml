@@ -55,18 +55,51 @@ jobs:
           python -u build.py
           echo "Página web construida correctamente."
 
-      - name: Guardar historial de noticias
+      - name: Guardar historial de noticias sin conflictos
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add cache.json
-          if ! git diff --cached --quiet; then
+          cp cache.json /tmp/cev-cache-local.json
+          for intento in 1 2 3; do
+            git fetch origin main
+            git reset --hard origin/main
+            python - <<'PY'
+          import json
+          from pathlib import Path
+          local = json.loads(Path("/tmp/cev-cache-local.json").read_text(encoding="utf-8"))
+          remoto = json.loads(Path("cache.json").read_text(encoding="utf-8"))
+          def items(data):
+              return data.get("noticias", []) if isinstance(data, dict) else []
+          combinadas = {}
+          for noticia in items(remoto) + items(local):
+              if not isinstance(noticia, dict) or not noticia.get("id"):
+                  continue
+              ident = str(noticia["id"])
+              anterior = combinadas.get(ident, {})
+              # Conservar la versión con foto cuando la otra versión está vacía.
+              puntuacion = lambda n: (bool(n.get("imagen")), bool(n.get("imagen_instagram")), str(n.get("fecha", "")))
+              combinadas[ident] = noticia if puntuacion(noticia) >= puntuacion(anterior) else anterior
+          salida = dict(remoto) if isinstance(remoto, dict) else {}
+          salida.update({k:v for k,v in local.items() if k not in ("noticias", "solicitudes_groq")})
+          salida["noticias"] = sorted(combinadas.values(), key=lambda n: str(n.get("fecha", "")), reverse=True)[:150]
+          if local.get("fecha_solicitudes_groq") == remoto.get("fecha_solicitudes_groq"):
+              salida["solicitudes_groq"] = max(int(local.get("solicitudes_groq", 0)), int(remoto.get("solicitudes_groq", 0)))
+              salida["fecha_solicitudes_groq"] = local.get("fecha_solicitudes_groq")
+          else:
+              salida["fecha_solicitudes_groq"] = local.get("fecha_solicitudes_groq")
+              salida["solicitudes_groq"] = int(local.get("solicitudes_groq", 0))
+          Path("cache.json").write_text(json.dumps(salida, ensure_ascii=False, indent=2) + "\\n", encoding="utf-8")
+          PY
+            git add cache.json
+            if git diff --cached --quiet; then
+              echo "Historial sin cambios para guardar."
+              exit 0
+            fi
             git commit -m "Actualizar historial de noticias"
-            git pull --rebase origin main
-            git push
-          else
-            echo "No hay cambios en el historial."
-          fi
+            if git push origin HEAD:main; then exit 0; fi
+          done
+          echo "No se pudo guardar el historial después de 3 intentos."
+          exit 1
 
       - name: Preparar publicación web
         uses: actions/upload-pages-artifact@v3
@@ -82,15 +115,58 @@ jobs:
           PYTHONUNBUFFERED: "1"
         run: python -u publicar_buffer.py
 
-      - name: Guardar control de publicaciones para evitar duplicados
+      - name: Guardar control de publicaciones sin conflictos
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add buffer_publicados.json
-          if ! git diff --cached --quiet; then
+          cp buffer_publicados.json /tmp/cev-buffer-local.json
+          cp cache.json /tmp/cev-cache-buffer-local.json
+          for intento in 1 2 3; do
+            git fetch origin main
+            git reset --hard origin/main
+            python - <<'PY'
+          import json
+          from pathlib import Path
+          def leer(p, defecto):
+              try: return json.loads(Path(p).read_text(encoding="utf-8"))
+              except Exception: return defecto
+          local = leer("/tmp/cev-buffer-local.json", {})
+          remoto = leer("buffer_publicados.json", {})
+          def registros(data):
+              return data.get("publicaciones", []) if isinstance(data, dict) else []
+          unidos = {}
+          for reg in registros(remoto) + registros(local):
+              if not isinstance(reg, dict): continue
+              key = str(reg.get("buffer_post_id") or reg.get("noticia_id") or "")
+              if not key: continue
+              previo = unidos.get(key, {})
+              fecha = lambda r: str(r.get("fecha_actualizacion") or r.get("fecha") or r.get("buffer_due_at") or "")
+              unidos[key] = reg if fecha(reg) >= fecha(previo) else previo
+          salida = dict(remoto) if isinstance(remoto, dict) else {}
+          salida.update({k:v for k,v in local.items() if k != "publicaciones"})
+          salida["publicaciones"] = sorted(unidos.values(), key=lambda r: str(r.get("fecha") or r.get("buffer_due_at") or ""))[-500:]
+          Path("buffer_publicados.json").write_text(json.dumps(salida, ensure_ascii=False, indent=2) + "\\n", encoding="utf-8")
+          local_cache = leer("/tmp/cev-cache-buffer-local.json", {})
+          remoto_cache = leer("cache.json", {})
+          cache_items = {}
+          for n in (remoto_cache.get("noticias", []) if isinstance(remoto_cache, dict) else []) + (local_cache.get("noticias", []) if isinstance(local_cache, dict) else []):
+              if isinstance(n, dict) and n.get("id"):
+                  key = str(n["id"]); old = cache_items.get(key, {})
+                  score = lambda x: (bool(x.get("imagen")), bool(x.get("imagen_instagram")), str(x.get("fecha", "")))
+                  cache_items[key] = n if score(n) >= score(old) else old
+          merged = dict(remoto_cache) if isinstance(remoto_cache, dict) else {}
+          if isinstance(local_cache, dict):
+              merged.update({k:v for k,v in local_cache.items() if k != "noticias"})
+          merged["noticias"] = sorted(cache_items.values(), key=lambda n: str(n.get("fecha", "")), reverse=True)[:150]
+          Path("cache.json").write_text(json.dumps(merged, ensure_ascii=False, indent=2) + "\\n", encoding="utf-8")
+          PY
+            git add buffer_publicados.json cache.json
+            if git diff --cached --quiet; then
+              echo "Control de Buffer sin cambios."
+              exit 0
+            fi
             git commit -m "Registrar publicaciones enviadas a Buffer"
-            git pull --rebase origin main
-            git push
-          else
-            echo "No hay nuevos registros de Buffer."
-          fi
+            if git push origin HEAD:main; then exit 0; fi
+          done
+          echo "No se pudo guardar el control de Buffer después de 3 intentos."
+          exit 1
