@@ -409,6 +409,7 @@ Devuelve exclusivamente JSON válido con esta estructura:
 {{
   "descartar": false,
   "titulo": "Título original",
+  "titular_instagram": "Titular breve, llamativo y fiel a los hechos",
   "resumen": "Resumen de la noticia",
   "categoria": "Categoría",
   "contenido": "Artículo completo con párrafos separados"
@@ -440,6 +441,7 @@ Devuelve exclusivamente JSON válido con esta estructura:
         return None
 
     titulo = str(articulo.get("titulo", "")).strip()
+    titular_instagram = str(articulo.get("titular_instagram", "")).strip()
     resumen = str(articulo.get("resumen", "")).strip()
     contenido = str(articulo.get("contenido", "")).strip()
 
@@ -452,6 +454,7 @@ Devuelve exclusivamente JSON válido con esta estructura:
 
     return {
         "titulo": titulo,
+        "titular_instagram": titular_instagram or titulo,
         "resumen": resumen,
         "categoria": articulo["categoria"],
         "contenido": contenido,
@@ -460,45 +463,102 @@ Devuelve exclusivamente JSON válido con esta estructura:
 
 
 
-def crear_portada_instagram(identificador, titulo, categoria):
+def _fuente_social(negrita, tamano):
+    rutas = [
+        "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf" if negrita else "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+        "/usr/share/fonts/truetype/liberation2/LiberationSans-Bold.ttf" if negrita else "/usr/share/fonts/truetype/liberation2/LiberationSans-Regular.ttf"
+    ]
+    for ruta in rutas:
+        try:
+            return ImageFont.truetype(ruta, tamano)
+        except OSError:
+            continue
+    return ImageFont.load_default()
+
+
+def crear_portada_instagram(identificador, titular, categoria, foto_url):
+    """
+    Crea una portada editorial 4:5: fotografía real autorizada,
+    degradado de lectura y titular integrado en la propia imagen.
+    """
     carpeta = SITE / "social"
     carpeta.mkdir(parents=True, exist_ok=True)
     ruta = carpeta / f"{identificador}.jpg"
-    imagen = Image.new("RGB", (1080, 1080), "#171717")
+
+    respuesta = requests.get(foto_url, headers=CABECERAS, timeout=25)
+    respuesta.raise_for_status()
+    from io import BytesIO
+    foto = Image.open(BytesIO(respuesta.content)).convert("RGB")
+
+    ancho, alto = foto.size
+    escala = max(1080 / ancho, 1350 / alto)
+    foto = foto.resize((int(ancho * escala), int(alto * escala)), Image.Resampling.LANCZOS)
+    izquierda = (foto.width - 1080) // 2
+    arriba = (foto.height - 1350) // 2
+    imagen = foto.crop((izquierda, arriba, izquierda + 1080, arriba + 1350)).convert("RGBA")
+
+    # Oscurecimiento progresivo en la parte inferior para asegurar legibilidad.
+    degradado = Image.new("RGBA", (1080, 1350), (0, 0, 0, 0))
+    pixeles = degradado.load()
+    inicio = 470
+    for y in range(inicio, 1350):
+        proporcion = (y - inicio) / (1350 - inicio)
+        alpha = int(35 + 205 * proporcion)
+        for x in range(1080):
+            pixeles[x, y] = (8, 12, 18, alpha)
+    imagen = Image.alpha_composite(imagen, degradado)
     d = ImageDraw.Draw(imagen)
-    try:
-        grande = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSerif-Bold.ttf", 72)
-        pequena = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf", 30)
-    except OSError:
-        grande = ImageFont.load_default()
-        pequena = ImageFont.load_default()
-    d.rectangle((0, 0, 1080, 18), fill="#b5282f")
-    # Sello circular ilustrado para dar identidad visual incluso sin fotografía.
-    d.ellipse((790, 70, 1005, 285), fill="#b5282f", outline="#f1d6d6", width=5)
-    d.ellipse((825, 105, 970, 250), outline="white", width=4)
-    categoria_texto = str(categoria).lower()
-    simbolo = "♪" if "entreten" in categoria_texto or "tendencia" in categoria_texto else ("⚽" if "deport" in categoria_texto else categoria_texto[:2].upper())
-    caja = d.textbbox((0, 0), simbolo, font=grande)
-    d.text((897-(caja[2]-caja[0])/2, 172-(caja[3]-caja[1])/2), simbolo, font=grande, fill="white")
-    d.text((75, 75), "CEV NOTICIAS", font=pequena, fill="white")
-    d.text((75, 150), str(categoria).upper()[:35], font=pequena, fill="#e14a50")
-    lineas, actual = [], ""
-    for palabra in str(titulo).split():
+
+    rojo = "#c62832"
+    blanco = "#ffffff"
+    margen = 76
+    d.rectangle((0, 0, 1080, 16), fill=rojo)
+    d.rounded_rectangle((margen, 64, 350, 125), radius=10, fill=rojo)
+    d.text((margen + 20, 77), "CEV NOTICIAS", font=_fuente_social(True, 30), fill=blanco)
+    d.text((margen, 1010), str(categoria).upper()[:32], font=_fuente_social(True, 28), fill="#ff6b72")
+
+    # Titular de alto impacto, con tamaño adaptable y saltos de línea.
+    titular = re.sub(r"\s+", " ", str(titular)).strip()
+    fuente = _fuente_social(True, 76)
+    max_ancho = 928
+    lineas = []
+    actual = ""
+    for palabra in titular.split():
         prueba = (actual + " " + palabra).strip()
-        if d.textbbox((0, 0), prueba, font=grande)[2] > 920 and actual:
+        if d.textbbox((0, 0), prueba, font=fuente)[2] > max_ancho and actual:
             lineas.append(actual)
             actual = palabra
         else:
             actual = prueba
     if actual:
         lineas.append(actual)
-    y = 300
-    for linea in lineas[:6]:
-        d.text((75, y), linea, font=grande, fill="white")
-        y += 105
-    d.line((75, 930, 1005, 930), fill="#b5282f", width=5)
-    d.text((75, 960), "PERIODISMO · CONTEXTO · ACTUALIDAD", font=pequena, fill="#c9c6c0")
-    imagen.save(ruta, "JPEG", quality=90, optimize=True)
+
+    while len(lineas) > 4 and fuente.size > 52:
+        fuente = _fuente_social(True, fuente.size - 4)
+        lineas = []
+        actual = ""
+        for palabra in titular.split():
+            prueba = (actual + " " + palabra).strip()
+            if d.textbbox((0, 0), prueba, font=fuente)[2] > max_ancho and actual:
+                lineas.append(actual)
+                actual = palabra
+            else:
+                actual = prueba
+        if actual:
+            lineas.append(actual)
+
+    y = 1060
+    alto_linea = fuente.size + 13
+    for linea in lineas[:4]:
+        d.text((margen + 2, y + 3), linea, font=fuente, fill=(0, 0, 0, 180), stroke_width=1)
+        d.text((margen, y), linea, font=fuente, fill=blanco)
+        y += alto_linea
+
+    d.line((margen, 1285, 1004, 1285), fill=rojo, width=5)
+    d.text((margen, 1300), "PERIODISMO · CONTEXTO · ACTUALIDAD",
+           font=_fuente_social(True, 19), fill="#e7e7e7")
+
+    imagen.convert("RGB").save(ruta, "JPEG", quality=92, optimize=True)
     return f"https://cevnoticias.com/social/{identificador}.jpg"
 
 
@@ -731,17 +791,30 @@ def ejecutar():
                 continue
 
             caption_instagram = crear_caption_instagram(articulo, imagen_info)
+            titular_social = articulo.get("titular_instagram") or articulo["titulo"]
+            try:
+                portada_social = crear_portada_instagram(
+                    identificador,
+                    titular_social,
+                    articulo["categoria"],
+                    imagen_info["url"]
+                )
+            except Exception as error:
+                print("No se pudo diseñar la portada social; se aplaza la noticia:", error)
+                continue
+
 
             nuevas.append({
                 "id": identificador,
                 "titulo": articulo["titulo"],
+                "titular_instagram": articulo.get("titular_instagram") or articulo["titulo"],
                 "resumen": articulo["resumen"],
                 "categoria": articulo["categoria"],
                 "contenido": articulo["contenido"],
                 "imagen": imagen_info["url"],
                 "imagen_credito": imagen_info,
-                "imagen_instagram": imagen_info["url"],
-                "imagen_instagram_tipo": "externa_con_licencia",
+                "imagen_instagram": portada_social,
+                "imagen_instagram_tipo": "portada_editorial_con_fotografia",
                 "descripcion_instagram": caption_instagram,
                 "verificacion": (
                     "Varias fuentes independientes"
