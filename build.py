@@ -54,16 +54,61 @@ def imagen_segura(url):
     return escapar(url) if url.startswith(("https://", "http://")) else ""
 
 
+def portada_svg_noticia(noticia):
+    """
+    Genera una portada CEV local si no hay fotografía válida o si falla
+    la carga de la imagen externa.
+    """
+    identificador = slug(noticia.get("id") or noticia.get("titulo") or "noticia")
+    carpeta = SITE / "imagenes"
+    carpeta.mkdir(parents=True, exist_ok=True)
+    ruta = carpeta / f"{identificador}.svg"
+
+    titulo = str(noticia.get("titulo") or "Actualidad CEV").strip()
+    palabras = titulo.split()
+    lineas = []
+    actual = ""
+    for palabra in palabras:
+        prueba = f"{actual} {palabra}".strip()
+        if len(prueba) > 30 and actual:
+            lineas.append(actual)
+            actual = palabra
+        else:
+            actual = prueba
+    if actual:
+        lineas.append(actual)
+
+    titulo_svg = "".join(
+        f'<tspan x="92" dy="1.18em">{escapar(linea)}</tspan>'
+        for linea in lineas[:4]
+    )
+    categoria = escapar(noticia.get("categoria") or "ACTUALIDAD").upper()
+    svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+<defs><linearGradient id="fondo" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#171717"/><stop offset="1" stop-color="#6d1b23"/></linearGradient></defs>
+<rect width="1200" height="675" fill="url(#fondo)"/>
+<path d="M0 0H1200V14H0Z" fill="#c62832"/>
+<circle cx="1010" cy="155" r="190" fill="none" stroke="#c62832" stroke-opacity=".35" stroke-width="10"/>
+<circle cx="1010" cy="155" r="135" fill="none" stroke="#c62832" stroke-opacity=".2" stroke-width="5"/>
+<text x="92" y="112" fill="#ff8087" font-family="Arial,sans-serif" font-size="25" font-weight="700" letter-spacing="5">CEV NOTICIAS · {categoria}</text>
+<text x="92" y="250" fill="#ffffff" font-family="Georgia,serif" font-size="58" font-weight="700">{titulo_svg}</text>
+<path d="M92 585H1108" stroke="#c62832" stroke-width="5"/>
+<text x="92" y="630" fill="#dedede" font-family="Arial,sans-serif" font-size="19" letter-spacing="4">PERIODISMO · CONTEXTO · ACTUALIDAD</text>
+</svg>'''
+    ruta.write_text(svg, encoding="utf-8")
+    return f"https://cevnoticias.com/imagenes/{identificador}.svg"
+
+
 def imagen_noticia(noticia, alt="", clase="", loading="lazy", prioridad=False):
     """
-    Usa la fotografía editorial y conserva la portada CEV como respaldo.
-    Así una imagen externa que falle no deja la noticia sin recurso visual.
+    Prioriza la fotografía editorial y utiliza una portada CEV local como
+    respaldo para evitar espacios vacíos cuando un servidor externo falla.
     """
     principal = imagen_segura(noticia.get("imagen"))
     respaldo = imagen_segura(noticia.get("imagen_instagram"))
+    grafica = portada_svg_noticia(noticia)
+    if not respaldo or respaldo == principal:
+        respaldo = grafica
     origen = principal or respaldo
-    if not origen:
-        return ""
 
     clases = f' class="{escapar(clase)}"' if clase else ""
     prioridad_html = ' fetchpriority="high"' if prioridad else ""
@@ -72,7 +117,7 @@ def imagen_noticia(noticia, alt="", clase="", loading="lazy", prioridad=False):
         respaldo_html = (
             f' data-fallback="{respaldo}"'
             ' onerror="this.onerror=null;if(this.dataset.fallback){'
-            'this.src=this.dataset.fallback;this.dataset.fallback=\'\';}'
+            'this.src=this.dataset.fallback;this.dataset.fallback=\\'\\';}'
             'else{this.hidden=true;}"'
         )
 
@@ -81,7 +126,6 @@ def imagen_noticia(noticia, alt="", clase="", loading="lazy", prioridad=False):
         f'loading="{escapar(loading)}" decoding="async"{prioridad_html}'
         f'{respaldo_html}>'
     )
-
 
 def tarjeta(noticia, posicion=0):
     titulo = escapar(noticia.get("titulo"))
