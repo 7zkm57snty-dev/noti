@@ -1,16 +1,49 @@
 {
   "fecha": "2026-11-02",
-  "publicaciones_hoy": 5,
+  "publicaciones_hoy": 4,
   "publicaciones": [
     {
-      "noticia_id": "awooween-ryan-castro-20261102",
-      "buffer_post_id": "6ae8259d76279ec7eb959cf1",
-      "titulo": "¡Ryan Castro puso a El Campín a cantar de todo! 😳",
-      "buffer_status": "sent",
+      "noticia_id": "7251c34f22f02aed",
+      "buffer_post_id": "6ae81af264604db3143fc810",
+      "titulo": "Trump defiende los altos precios de la gasolina y amenaza con ataques a Irán",
+      "fecha": "2026-11-02T00:09:06.959151-05:00",
+      "buffer_due_at": "2026-11-03T04:00:00.000Z",
+      "buffer_status": "scheduled",
       "buffer_channel_id": "6ae80f3ce29c69a171328e5d",
-      "buffer_due_at": "2026-11-02T05:54:38.022Z",
-      "fecha": "2026-11-02T00:54:46.212685-05:00",
-      "tipo_publicacion": "inmediata"
+      "score_editorial": 10.82,
+      "fecha_actualizacion": "2026-11-02T01:03:41.397883-05:00",
+      "reemplazos": [
+        {
+          "noticia_id": "6f6e1983c93e7b43",
+          "titulo": "Kiev anuncia el fin de la tregua de cuatro días en el sur de Ucrania",
+          "reemplazada_en": "2026-11-02T00:28:08.474161-05:00"
+        },
+        {
+          "noticia_id": "cebc1408ecaa8333",
+          "titulo": "El apoyo a Israel se vuelve eje decisivo en las elecciones de mitad de mandato en EE.UU.",
+          "reemplazada_en": "2026-11-02T00:30:19.626898-05:00"
+        }
+      ],
+      "version_imagen": 1
+    },
+    {
+      "noticia_id": "31189fe94800ffeb",
+      "buffer_post_id": "6ae81b6d76279ec7eb93453d",
+      "titulo": "\"Es Gaza o nada\": cómo el apoyo a Israel se convirtió en un punto clave de la contienda electoral en EE.UU.",
+      "fecha": "2026-11-02T00:11:09.181760-05:00",
+      "buffer_due_at": "2026-11-02T22:00:00.000Z",
+      "buffer_status": "scheduled",
+      "buffer_channel_id": "6ae80f3ce29c69a171328e5d",
+      "score_editorial": 10.83,
+      "fecha_actualizacion": "2026-11-02T01:03:41.397854-05:00",
+      "reemplazos": [
+        {
+          "noticia_id": "77b91be9109cbdea",
+          "titulo": "El chisme corporativo: la moneda que impulsa decisiones y riesgos",
+          "reemplazada_en": "2026-11-02T00:28:08.012505-05:00"
+        }
+      ],
+      "version_imagen": 1
     },
     {
       "noticia_id": "4054019971503fda",
@@ -45,58 +78,26 @@
       "version_imagen": 1
     },
     {
-      "noticia_id": "31189fe94800ffeb",
-      "buffer_post_id": "6ae81b6d76279ec7eb93453d",
-      "titulo": "\"Es Gaza o nada\": cómo el apoyo a Israel se convirtió en un punto clave de la contienda electoral en EE.UU.",
-      "fecha": "2026-11-02T00:11:09.181760-05:00",
-      "buffer_due_at": "2026-11-02T22:00:00.000Z",
-      "buffer_status": "scheduled",
+      "noticia_id": "awooween-ryan-castro-20261102",
+      "buffer_post_id": "6ae8259d76279ec7eb959cf1",
+      "titulo": "¡Ryan Castro puso a El Campín a cantar de todo! 😳",
+      "buffer_status": "sent",
       "buffer_channel_id": "6ae80f3ce29c69a171328e5d",
-      "score_editorial": 10.83,
-      "fecha_actualizacion": "2026-11-02T01:03:41.397854-05:00",
-      "reemplazos": [
-        {
-          "noticia_id": "77b91be9109cbdea",
-          "titulo": "El chisme corporativo: la moneda que impulsa decisiones y riesgos",
-          "reemplazada_en": "2026-11-02T00:28:08.012505-05:00"
-        }
-      ],
-      "version_imagen": 1
-    },
-    {
-      "noticia_id": "7251c34f22f02aed",
-      "buffer_post_id": "6ae81af264604db3143fc810",
-      "titulo": "Trump defiende los altos precios de la gasolina y amenaza con ataques a Irán",
-      "fecha": "2026-11-02T00:09:06.959151-05:00",
-      "buffer_due_at": "2026-11-03T04:00:00.000Z",
-      "buffer_status": "scheduled",
-      "buffer_channel_id": "6ae80f3ce29c69a171328e5d",
-      "score_editorial": 10.82,
-      "fecha_actualizacion": "2026-11-02T01:03:41.397883-05:00",
-      "reemplazos": [
-        {
-          "noticia_id": "6f6e1983c93e7b43",
-          "titulo": "Kiev anuncia el fin de la tregua de cuatro días en el sur de Ucrania",
-          "reemplazada_en": "2026-11-02T00:28:08.474161-05:00"
-        },
-        {
-          "noticia_id": "cebc1408ecaa8333",
-          "titulo": "El apoyo a Israel se vuelve eje decisivo en las elecciones de mitad de mandato en EE.UU.",
-          "reemplazada_en": "2026-11-02T00:30:19.626898-05:00"
-        }
-      ],
-      "version_imagen": 1
+      "buffer_due_at": "2026-11-02T05:54:38.022Z",
+      "fecha": "2026-11-02T00:54:46.212685-05:00",
+      "tipo_publicacion": "inmediata"
     },
     {
       "noticia_id": "bfc4b6968bd6a1cf",
       "buffer_post_id": "6ae827bdc60bdbcc33da7e03",
       "titulo": "Cali se blindó por aire y tierra: así fue el impresionante operativo para proteger a 10.000 ciclistas en el Giro de Rigo",
-      "buffer_status": "scheduled",
+      "buffer_status": "sent",
       "buffer_channel_id": "6ae80f3ce29c69a171328e5d",
       "buffer_due_at": "2026-11-02T06:15:00.000Z",
       "fecha": "2026-11-02T01:03:41.288910-05:00",
       "tipo_publicacion": "puntual",
-      "version_imagen": 1
+      "version_imagen": 1,
+      "sent_at_estimada": "2026-11-02T01:15:00-05:00"
     }
   ]
-}
+}\n
