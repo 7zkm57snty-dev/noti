@@ -243,25 +243,19 @@ body.noche .pie{{background:#090909}}
 <script>
 (function(){{
 
- // Movimiento automático sin duplicar noticias ni tarjetas.
+ // Carruseles automáticos: movimiento constante, sin duplicar tarjetas.
  const carruseles=[...document.querySelectorAll('.rejilla.carrusel-infinito')];
  carruseles.forEach(track=>{{
-  let pausado=false,temporizador=null,anterior=0,direccion=1;
-  const velocidad=32; // píxeles por segundo
+  let pausado=false,anterior=0,direccion=1;
+  const velocidad=55;
   const maximo=()=>Math.max(0,track.scrollWidth-track.clientWidth);
-  const pausar=()=>{{pausado=true;clearTimeout(temporizador);}};
-  const reanudar=()=>{{clearTimeout(temporizador);temporizador=setTimeout(()=>{{pausado=false;anterior=0;}},900);}};
-  track.addEventListener('pointerdown',pausar,{{passive:true}});
-  track.addEventListener('pointerup',reanudar,{{passive:true}});
-  track.addEventListener('pointercancel',reanudar,{{passive:true}});
-  track.addEventListener('touchstart',pausar,{{passive:true}});
-  track.addEventListener('touchend',reanudar,{{passive:true}});
-  track.addEventListener('touchcancel',reanudar,{{passive:true}});
-  track.addEventListener('wheel',pausar,{{passive:true}});
-  track.addEventListener('mouseenter',pausar);
-  track.addEventListener('mouseleave',reanudar);
-  track.addEventListener('focusin',pausar);
-  track.addEventListener('focusout',reanudar);
+  track.addEventListener('pointerdown',()=>{{pausado=true;}},{{passive:true}});
+  const soltar=()=>{{pausado=false;anterior=0;}};
+  track.addEventListener('pointerup',soltar,{{passive:true}});
+  track.addEventListener('pointercancel',soltar,{{passive:true}});
+  track.addEventListener('touchend',soltar,{{passive:true}});
+  track.addEventListener('touchcancel',soltar,{{passive:true}});
+  track.addEventListener('wheel',()=>{{pausado=true;setTimeout(soltar,700);}},{{passive:true}});
   function mover(t){{
    if(!anterior)anterior=t;
    const delta=Math.min((t-anterior)/1000,0.05);anterior=t;
@@ -275,8 +269,7 @@ body.noche .pie{{background:#090909}}
    requestAnimationFrame(mover);
   }}
   requestAnimationFrame(mover);
- }}); // Cada tarjeta aparece una sola vez; el movimiento se adapta al ancho disponible.
-}})();
+ }});
 </script>
 <div class="progreso-lectura" id="progreso-lectura"></div>
 <button class="volver-arriba" id="volver-arriba" type="button" aria-label="Volver arriba" title="Volver arriba">↑</button>
