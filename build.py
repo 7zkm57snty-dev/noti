@@ -78,18 +78,17 @@ def tarjeta(noticia, posicion=0):
 
 def tarjeta_rss(titular):
     titulo = escapar(titular.get("titulo"))
-    fuente = escapar(titular.get("fuente", "Medio de origen"))
     categoria = escapar(titular.get("categoria"))
-    url = imagen_segura(titular.get("url"))
+    identificador = escapar(titular.get("id"))
     fecha = fecha_ordenable(titular)
     fecha_texto = datetime.fromtimestamp(fecha, COLOMBIA_TZ).strftime("%d/%m · %I:%M %p") if fecha else ""
     return f"""
     <article class="tarjeta titular-externo">
-      <a class="titular-rss-enlace" href="{url}" target="_blank" rel="noopener noreferrer">
-        <span class="rss-sello">Titular de actualidad · {categoria}</span>
+      <a class="titular-rss-enlace" href="notas/actualidad-{identificador}.html">
+        <span class="rss-sello">CEV NOTICIAS · ACTUALIDAD</span>
         <h3>{titulo}</h3>
-        <div class="rss-datos"><strong>{fuente}</strong><span>{fecha_texto}</span></div>
-        <span class="leer">Leer en el medio original ↗</span>
+        <div class="rss-datos"><strong>{categoria}</strong><span>{fecha_texto}</span></div>
+        <span class="leer">Leer noticia ↗</span>
       </a>
     </article>"""
 
@@ -172,6 +171,18 @@ nav a:hover,nav a:focus{{color:var(--rojo)}}
 .tarjeta.titular-externo h3{{font-family:'Playfair Display',Georgia,serif;font-size:22px;line-height:1.2;margin:0}}
 .rss-datos{{display:flex;flex-direction:column;gap:4px;margin-top:auto;color:var(--suave);font-size:10px}}
 .tarjeta.titular-externo .leer{{margin-top:4px}}
+
+/* Categorías en cuadrícula fija: sin desplazamiento automático */
+.rejilla.rejilla-categorias{{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px;width:100%;max-width:100%;overflow:visible;padding:0;scroll-snap-type:none;touch-action:auto}}
+.rejilla.rejilla-categorias .tarjeta{{flex:initial;width:auto;min-width:0}}
+.bloque-categoria{{overflow:visible}}
+.nav-interior{{justify-content:center;overflow-x:auto;scroll-behavior:smooth}}
+.ficha-actualidad .credito-fuente{{margin-top:36px}}
+.ficha-actualidad .credito-fuente .boton{{display:inline-flex;padding:12px 0}}
+.nota-atribucion{{font-size:11px;color:var(--suave);line-height:1.65;margin-top:18px}}
+@media(max-width:900px){{.rejilla.rejilla-categorias{{grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}}}}
+@media(max-width:650px){{.rejilla.rejilla-categorias{{display:grid;grid-template-columns:1fr;gap:20px;overflow:visible}}.rejilla.rejilla-categorias .tarjeta{{width:auto;flex:none}}.nav-interior{{justify-content:flex-start}}}}
+
 .tarjeta-contenido{{padding:13px 0 4px}}
 .tarjeta h3{{font-family:'Playfair Display',Georgia,serif;font-size:22px;line-height:1.16;letter-spacing:-.4px;margin:8px 0}}
 .tarjeta p{{font-size:12px;line-height:1.65;color:var(--suave);margin:8px 0 12px}}
@@ -226,26 +237,10 @@ body.noche .relacionadas .tarjeta{{background:#222;border-color:#484848}}
 @media(max-width:650px){{
  .barra-herramientas{{padding:10px 15px;flex-wrap:wrap}}
  .buscador{{flex-basis:100%}}
- .rejilla{{display:flex;overflow-x:auto;scroll-snap-type:none;gap:14px;padding-bottom:12px;overscroll-behavior-x:contain;-webkit-overflow-scrolling:touch}}
- .rejilla .tarjeta{{flex:0 0 84%;scroll-snap-align:none}}
+ .rejilla:not(.rejilla-categorias){{display:flex;overflow-x:auto;scroll-snap-type:none;gap:14px;padding-bottom:12px;overscroll-behavior-x:contain;-webkit-overflow-scrolling:touch}}
+ .rejilla:not(.rejilla-categorias) .tarjeta{{flex:0 0 84%;scroll-snap-align:none}}
  .rejilla .tarjeta-imagen{{height:190px}}
 }}
-
-
-/* Carruseles continuos por sección */
-.bloque-categoria{{overflow:hidden}}
-.rejilla.carrusel-infinito{{display:flex;gap:22px;overflow-x:auto;overflow-y:hidden;width:100%;max-width:100%;animation:none;scrollbar-width:none;overscroll-behavior-x:contain;-webkit-overflow-scrolling:touch;scroll-behavior:auto;scroll-snap-type:none;touch-action:pan-x;padding-bottom:12px}} .rejilla.carrusel-infinito::-webkit-scrollbar{{display:none}}
-
-.rejilla.carrusel-infinito .tarjeta{{flex:0 0 clamp(245px,27vw,330px);width:clamp(245px,27vw,330px);min-width:0}}
-.rejilla.carrusel-infinito .tarjeta-imagen{{height:185px}}
-
-
-@media(max-width:650px){{
- .rejilla.carrusel-infinito{{gap:14px}}
- .rejilla.carrusel-infinito .tarjeta{{flex-basis:82vw;width:82vw}}
- .rejilla.carrusel-infinito .tarjeta-imagen{{height:190px}}
-}}
-@media(prefers-reduced-motion:reduce){{.rejilla.carrusel-infinito{{scroll-snap-type:x mandatory}}.rejilla.carrusel-infinito .tarjeta{{scroll-snap-align:start}}}}
 
 
 @media(max-width:900px){{
@@ -296,49 +291,7 @@ body.noche .relacionadas .tarjeta{{background:#222;border-color:#484848}}
  <p><a href="https://www.instagram.com/cev.noticias/" target="_blank" rel="noopener noreferrer">Instagram · @cev.noticias</a></p>
  <p>Las fuentes consultadas se identifican al final de cada artículo.</p>
 </footer>
-<script>
-(function(){{
- // Carruseles automáticos para navegación y noticias, sin clonar contenido.
- const selectores=['.nav-interior','.rejilla.carrusel-infinito'];
- const carruseles=selectores.flatMap(selector=>[...document.querySelectorAll(selector)]);
- carruseles.forEach(track=>{{
-  let pausado=false,anterior=0,direccion=1,reactivar=null,ultimoScroll=track.scrollLeft;
-  const velocidad=64;
-  const maximo=()=>Math.max(0,track.scrollWidth-track.clientWidth);
-  const pausar=()=>{{pausado=true;anterior=0;if(reactivar)clearTimeout(reactivar);}};
-  const reanudar=()=>{{if(reactivar)clearTimeout(reactivar);reactivar=setTimeout(()=>{{pausado=false;anterior=0;}},450);}};
-  track.addEventListener('pointerdown',pausar,{{passive:true}});
-  window.addEventListener('pointerup',reanudar,{{passive:true}});
-  window.addEventListener('pointercancel',reanudar,{{passive:true}});
-  track.addEventListener('touchstart',pausar,{{passive:true}});
-  track.addEventListener('touchend',reanudar,{{passive:true}});
-  track.addEventListener('touchcancel',reanudar,{{passive:true}});
-  track.addEventListener('wheel',()=>{{pausar();reanudar();}},{{passive:true}});
-  track.addEventListener('mouseenter',pausar,{{passive:true}});
-  track.addEventListener('mouseleave',reanudar,{{passive:true}});
-  track.addEventListener('focusin',pausar);
-  track.addEventListener('focusout',reanudar);
-  window.addEventListener('blur',()=>{{pausado=false;anterior=0;}});
-  document.addEventListener('visibilitychange',()=>{{anterior=0;if(document.hidden)pausado=true;else pausado=false;}});
-  function mover(t){{
-   if(!anterior)anterior=t;
-   const delta=Math.min(Math.max((t-anterior)/1000,0),0.05);anterior=t;
-   const limite=maximo();
-   if(!pausado&&limite>3){{
-    const actual=track.scrollLeft;
-    if(Math.abs(actual-ultimoScroll)>1)direccion=actual>ultimoScroll?1:-1;
-    let siguiente=actual+direccion*velocidad*delta;
-    if(siguiente>=limite){{siguiente=limite;direccion=-1;}}
-    else if(siguiente<=0){{siguiente=0;direccion=1;}}
-    track.scrollLeft=siguiente;
-   }}
-   ultimoScroll=track.scrollLeft;
-   requestAnimationFrame(mover);
-  }}
-  requestAnimationFrame(mover);
- }});
-}})();
-</script>
+
 <div class="progreso-lectura" id="progreso-lectura"></div>
 <button class="volver-arriba" id="volver-arriba" type="button" aria-label="Volver arriba" title="Volver arriba">↑</button>
 <script>
@@ -439,6 +392,45 @@ def crear_articulo(noticia, noticias=None):
     (NOTAS / f"{identificador}.html").write_text(pagina, encoding="utf-8")
 
 
+def crear_pagina_titular_rss(titular):
+    identificador = escapar(titular.get("id"))
+    titulo = escapar(titular.get("titulo"))
+    categoria = escapar(titular.get("categoria"))
+    fuente = escapar(titular.get("fuente", "Medio de origen"))
+    url_original = imagen_segura(titular.get("url"))
+    fecha = fecha_ordenable(titular)
+    fecha_texto = datetime.fromtimestamp(fecha, COLOMBIA_TZ).strftime("%d/%m/%Y · %I:%M %p") if fecha else "Fecha no disponible"
+
+    cuerpo = f"""
+    <main class="articulo ficha-actualidad">
+      <div class="articulo-cabecera">
+        <a class="volver" href="../index.html">← Volver a CEV NOTICIAS</a>
+        <p class="etiqueta">{categoria}</p>
+        <p class="fecha">Titular recopilado por CEV NOTICIAS · No es un artículo original de nuestra redacción</p>
+        <h1>{titulo}</h1>
+        <p class="bajada">Este titular forma parte del seguimiento de actualidad de CEV NOTICIAS. Para consultar el desarrollo completo, los datos y el contexto de la información, visita la publicación original.</p>
+        <p class="fecha">Publicado originalmente: {fecha_texto}</p>
+      </div>
+      <section class="fuentes credito-fuente">
+        <strong>Crédito de información</strong>
+        <p>La publicación original y su desarrollo periodístico corresponden a <strong>{fuente}</strong>.</p>
+        <p><a class="boton" href="{url_original}" target="_blank" rel="noopener noreferrer">Consultar la noticia en {fuente} ↗</a></p>
+        <p class="nota-atribucion">CEV NOTICIAS identifica el medio de origen y enlaza a su cobertura. El contenido completo pertenece a la publicación citada.</p>
+      </section>
+    </main>"""
+
+    extra_head = '<meta name="robots" content="noindex,follow">'
+    pagina = plantilla(
+        titulo,
+        cuerpo,
+        "Titular de actualidad recopilado por CEV NOTICIAS con crédito al medio original.",
+        ruta_raiz="../",
+        extra_head=extra_head
+    )
+    NOTAS.mkdir(parents=True, exist_ok=True)
+    (NOTAS / f"actualidad-{identificador}.html").write_text(pagina, encoding="utf-8")
+
+
 def construir():
     datos = cargar_json(CACHE, {})
     noticias = datos.get("noticias", [])
@@ -470,6 +462,8 @@ def construir():
         crear_articulo(noticia, validas)
 
     SITE.mkdir(parents=True, exist_ok=True)
+    for titular in titulares_rss:
+        crear_pagina_titular_rss(titular)
     principal = validas[0] if validas else None
     laterales = validas[1:4]
     if principal:
@@ -521,7 +515,7 @@ def construir():
             + "".join(tarjeta_rss(t) for t in titulares_seccion)
         )
         contenido_seccion = (
-            f'<div class="rejilla carrusel-infinito">{tarjetas_seccion}</div>'
+            f'<div class="rejilla rejilla-categorias">{tarjetas_seccion}</div>'
             if tarjetas_seccion else
             '<div class="vacio">No hay más noticias en esta categoría por ahora.</div>'
         )
