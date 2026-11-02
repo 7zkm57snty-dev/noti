@@ -417,8 +417,7 @@ Devuelve exclusivamente JSON válido con esta estructura:
         model=MODELO,
         messages=[{"role": "user", "content": instrucciones}],
         temperature=0.2,
-        reasoning_format="hidden",
-        response_format={"type": "json_object"}
+        reasoning_format="hidden"
     )
 
     contenido_respuesta = respuesta.choices[0].message.content
@@ -688,6 +687,17 @@ def ejecutar():
                 n.get("id") == identificador
                 for n in publicadas + nuevas
             ):
+                print("Se omite un artículo con identificador ya publicado:", articulo["titulo"])
+                continue
+
+            # Evita publicar dos veces el mismo hecho cuando el modelo
+            # cambia ligeramente la redacción del titular.
+            if any(
+                son_misma_noticia(articulo["titulo"], n.get("titulo", ""))
+                for n in publicadas + nuevas
+                if n.get("titulo")
+            ):
+                print("Se omite un artículo duplicado por similitud:", articulo["titulo"])
                 continue
 
             # Se priorizan bancos de imágenes con licencias reutilizables.
