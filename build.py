@@ -155,6 +155,25 @@ nav a:hover,nav a:focus{{color:var(--rojo)}}
 .pie strong{{font-family:'Playfair Display',Georgia,serif;font-size:30px;letter-spacing:-1px}}
 .pie strong span{{color:#e14a50}}
 .pie p{{color:#aaa;font-size:11px;line-height:1.7}}
+/* Herramientas de lectura y navegación */
+.barra-herramientas{{max-width:var(--ancho);margin:auto;padding:12px 28px;display:flex;gap:10px;align-items:center;border-bottom:1px solid var(--linea)}}
+.buscador{{flex:1;min-width:0;padding:11px 14px;border:1px solid var(--linea);background:var(--blanco);color:var(--tinta);font:inherit;font-size:13px;border-radius:2px}}
+.accion-ui{{border:1px solid var(--tinta);background:transparent;color:var(--tinta);padding:10px 13px;font:700 10px 'DM Sans',sans-serif;letter-spacing:.7px;text-transform:uppercase;cursor:pointer}}
+.accion-ui:hover{{background:var(--tinta);color:var(--papel)}}
+.progreso-lectura{{position:fixed;z-index:30;top:0;left:0;height:3px;width:0;background:var(--rojo)}}
+.volver-arriba{{position:fixed;z-index:20;right:18px;bottom:18px;width:42px;height:42px;border:0;border-radius:50%;background:var(--rojo);color:#fff;font-size:20px;cursor:pointer;box-shadow:0 3px 14px #0003}}
+body.noche{{--papel:#171717;--blanco:#222;--tinta:#f3f0e9;--suave:#b8b4ad;--linea:#393939}}
+body.noche .imagen-vacia{{background:linear-gradient(135deg,#303030,#242424);color:#ddd}}
+body.noche .destacada-visual,body.noche .tarjeta-imagen{{background:#292929}}
+body.noche .pie{{background:#090909}}
+@media(max-width:650px){{
+ .barra-herramientas{{padding:10px 15px;flex-wrap:wrap}}
+ .buscador{{flex-basis:100%}}
+ .rejilla{{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;gap:14px;padding-bottom:12px;overscroll-behavior-x:contain;-webkit-overflow-scrolling:touch}}
+ .rejilla .tarjeta{{flex:0 0 84%;scroll-snap-align:start}}
+ .rejilla .tarjeta-imagen{{height:190px}}
+}}
+
 @media(max-width:900px){{
  .portada-grid{{grid-template-columns:minmax(0,1fr) 270px;gap:22px}}
  .destacada-visual{{height:290px}}
@@ -190,6 +209,10 @@ nav a:hover,nav a:focus{{color:var(--rojo)}}
  <nav aria-label="Secciones"><div class="nav-interior">
   <a href="{ruta_raiz}">Portada</a>{enlaces}
  </div></nav>
+ <div class="barra-herramientas">
+  <input id="buscar-noticias" class="buscador" type="search" placeholder="Buscar noticias, temas o palabras..." aria-label="Buscar noticias">
+  <button id="modo-noche" class="accion-ui" type="button" aria-pressed="false">◐ Modo oscuro</button>
+ </div>
 </header>
 {contenido}
 <footer class="pie">
@@ -214,6 +237,29 @@ nav a:hover,nav a:focus{{color:var(--rojo)}}
  }}
  window.addEventListener("hashchange",aplicarFiltro);
  aplicarFiltro();
+}})();
+</script>
+<div class="progreso-lectura" id="progreso-lectura"></div>
+<button class="volver-arriba" id="volver-arriba" type="button" aria-label="Volver arriba" title="Volver arriba">↑</button>
+<script>
+(function(){{
+ const buscar=document.getElementById('buscar-noticias');
+ if(buscar){{buscar.addEventListener('input',function(){{
+  const q=this.value.trim().toLocaleLowerCase('es');
+  document.querySelectorAll('.tarjeta,.relevante,.destacada').forEach(el=>{{el.hidden=!!q&&!el.innerText.toLocaleLowerCase('es').includes(q)}});
+  document.querySelectorAll('.bloque-categoria').forEach(sec=>{{sec.hidden=!!q&&sec.querySelectorAll('.tarjeta:not([hidden])').length===0}});
+ }});}}
+ const modo=document.getElementById('modo-noche');
+ if(modo){{modo.addEventListener('click',()=>{{
+  const activo=document.body.classList.toggle('noche');
+  modo.setAttribute('aria-pressed',String(activo));modo.textContent=activo?'☀ Modo claro':'◐ Modo oscuro';
+  try{{localStorage.setItem('cev-modo',activo?'noche':'claro')}}catch(e){{}}
+ }});
+ try{{if(localStorage.getItem('cev-modo')==='noche'){{document.body.classList.add('noche');modo.textContent='☀ Modo claro';modo.setAttribute('aria-pressed','true')}}}}catch(e){{}}}}
+ const barra=document.getElementById('progreso-lectura'),arriba=document.getElementById('volver-arriba');
+ function actualizar(){{const max=document.documentElement.scrollHeight-window.innerHeight;if(barra)barra.style.width=(max>0?(window.scrollY/max)*100:0)+'%';if(arriba)arriba.hidden=window.scrollY<450;}}
+ window.addEventListener('scroll',actualizar,{{passive:true}});actualizar();
+ if(arriba)arriba.addEventListener('click',()=>window.scrollTo({{top:0,behavior:'smooth'}}));
 }})();
 </script>
 </body>
