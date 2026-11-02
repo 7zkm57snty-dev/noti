@@ -253,134 +253,134 @@ body.noche .relacionadas .tarjeta{{background:#222;border-color:#484848}}
  .articulo .cuerpo{{font-size:18px}}
 }}
 /* Rediseño editorial CEV NOTICIAS */
-.franja-editorial{background:#17191d;color:#f8f7f3}
-.franja-editorial>div{max-width:var(--ancho);margin:auto;padding:8px 28px;display:flex;justify-content:space-between;gap:16px;align-items:center;font-size:10px;letter-spacing:.7px;text-transform:uppercase}
-.franja-editorial strong{color:#ef5960;letter-spacing:1.5px}
-.cabecera{padding:22px 28px 16px;text-align:left}
-.brand-row{display:flex;align-items:center;justify-content:space-between;gap:20px}
-.marca{font-size:clamp(42px,5.8vw,66px);letter-spacing:-3px;line-height:.92}
-.eslogan{margin-top:7px;letter-spacing:1.6px;text-align:left;font-size:10px}
-.instagram-marca{margin:0 0 0 auto;padding:10px 13px;border:1px solid var(--linea);border-radius:3px}
-.cabecera-meta{margin-top:17px;padding-top:10px}
-.nav-interior{max-width:var(--ancho);padding:13px 28px;gap:clamp(14px,2vw,27px)}
-nav a{font-size:10px;letter-spacing:1px}
-nav a[href$="institucional.html"],nav a[href$="boletin.html"]{color:var(--rojo)}
-.barra-herramientas{max-width:var(--ancho);padding:10px 28px;background:#eeece6}
-.buscador{max-width:420px;border-radius:3px}
-.accion-ui{border-radius:3px}
-.contenedor{padding-bottom:30px}
-.cinta{margin:22px 0 16px}
-.cinta>span{font-size:11px}
-.portada-grid{grid-template-columns:minmax(0,1.65fr) minmax(240px,.7fr);gap:28px;align-items:stretch;padding:0 0 30px;border-bottom:1px solid var(--tinta)}
-.destacada{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(260px,.9fr);background:#fff;border:1px solid #e1ded7;min-height:380px}
-.destacada-visual{height:100%;min-height:380px;background:#dedbd4}
-.destacada-texto{padding:28px 26px;display:flex;flex-direction:column;justify-content:center;align-items:flex-start}
-.destacada h1{font-size:clamp(29px,3.1vw,43px);line-height:1.06;margin:12px 0}
-.destacada p{font-size:13px;line-height:1.7}
-.destacada .boton{margin-top:18px}
-.estado-noticia{display:inline-flex;align-items:center;gap:6px;margin:8px 0 2px;padding:5px 9px;border-radius:2px;font-size:9px;font-weight:800;letter-spacing:.75px;text-transform:uppercase}
-.estado-noticia:before{content:"";width:6px;height:6px;border-radius:50%;background:currentColor}
-.estado-actualidad{background:#edf0f2;color:#40515e}
-.estado-confirmada{background:#e5f2e9;color:#23613b}
-.estado-desarrollo{background:#f7eedb;color:#805d1d}
-.estado-preliminar{background:#f6e4e3;color:#9b3438}
-.lateral{padding:24px 21px;border:1px solid #e1ded7;border-left:3px solid var(--rojo);background:#fff}
-.lateral-titulo{font-family:'Playfair Display',Georgia,serif;font-size:23px;letter-spacing:-.4px;text-transform:none;margin-bottom:14px}
-.lateral-titulo:before{display:none}
-.lateral-intro{font-size:12px;line-height:1.7;color:#676767;margin:0 0 18px}
-.lateral-enlace{display:flex;justify-content:space-between;gap:10px;padding:14px 0;border-top:1px solid #e6e3dc;font-size:12px;font-weight:700}
-.lateral-enlace span{color:var(--rojo)}
-.lateral-social{display:block;margin-top:12px;padding:12px;background:#f5f2ec;color:#252525;font-size:11px;line-height:1.5}
-.bloque-categoria{padding:29px 0 32px;border-bottom:1px solid var(--linea)}
-.titulo-seccion{font-size:clamp(27px,3vw,36px);margin-bottom:17px}
-.titulo-seccion:before{content:"";width:4px;height:25px;background:var(--rojo);display:inline-block;margin-right:1px;align-self:center}
-.rejilla{grid-template-columns:repeat(3,minmax(0,1fr));gap:23px}
-.tarjeta{background:#fff;border:1px solid #e4e1da;transition:transform .2s ease,box-shadow .2s ease}
-.tarjeta:hover{transform:translateY(-3px);box-shadow:0 10px 25px rgba(30,30,30,.08)}
-.tarjeta-imagen{height:175px}
-.tarjeta-contenido{padding:14px 15px 17px}
-.tarjeta h3{font-size:21px}
-.tarjeta p{font-size:12px}
-.tarjeta .estado-noticia{margin-top:9px}
-.pie{margin-top:0;background:#17191d;padding:35px 24px}
-.pie-interior{max-width:var(--ancho);margin:auto;display:grid;grid-template-columns:1.1fr 1fr;gap:24px;text-align:left}
-.pie-marca{font-family:'Playfair Display',Georgia,serif;font-size:31px;font-weight:800}
-.pie-links{display:flex;flex-wrap:wrap;justify-content:flex-end;align-content:start;gap:12px 20px;font-size:11px}
-.pie-links a{color:#f3eee8}
-.pie-links a:hover{color:#ff777d}
-.pie-legal{grid-column:1/-1;border-top:1px solid #3a3d42;padding-top:15px;color:#b8b8b8!important}
-.pagina-editorial{max-width:1000px;margin:0 auto;padding:48px 28px 70px}
-.pagina-editorial .sobrelinea{color:var(--rojo);font-size:10px;font-weight:800;letter-spacing:1.8px;text-transform:uppercase}
-.pagina-editorial h1{font-family:'Playfair Display',Georgia,serif;font-size:clamp(40px,6vw,65px);letter-spacing:-1.7px;line-height:1.02;margin:12px 0 17px}
-.pagina-editorial .entradilla{max-width:760px;color:#5e5e5e;font-size:18px;line-height:1.7;margin-bottom:32px}
-.editorial-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
-.editorial-card{padding:23px;background:#fff;border:1px solid var(--linea)}
-.editorial-card h2{font-family:'Playfair Display',Georgia,serif;font-size:23px;margin:0 0 10px}
-.editorial-card p,.editorial-card li{font-size:13px;line-height:1.75;color:#5c5c5c}
-.editorial-card ul{padding-left:18px}
-.boletin-fecha{display:inline-block;margin:7px 0 25px;padding:7px 10px;background:#f0ede6;color:#555;font-size:10px;font-weight:800;letter-spacing:1px;text-transform:uppercase}
-.boletin-lista{max-width:850px;display:grid;gap:0;border-top:1px solid var(--linea)}
-.boletin-item{display:grid;grid-template-columns:115px 1fr;gap:18px;padding:19px 0;border-bottom:1px solid var(--linea)}
-.boletin-item .fecha{font-size:10px;color:#858585}
-.boletin-item h2{font-family:'Playfair Display',Georgia,serif;font-size:22px;line-height:1.2;margin:5px 0 7px}
-.boletin-item p{font-size:12px;line-height:1.65;color:#666;margin:0}
-.boletin-cta{margin-top:30px;padding:22px 24px;background:#202329;color:white;display:flex;align-items:center;justify-content:space-between;gap:18px}
-.boletin-cta p{font-size:12px;line-height:1.6;color:#d1d1d1;margin:4px 0}
-.boletin-cta a{white-space:nowrap;background:var(--rojo);padding:11px 15px;font-size:10px;font-weight:800;text-transform:uppercase;letter-spacing:.7px}
-body.noche .franja-editorial,body.noche .pie{background:#090a0c}
-body.noche .barra-herramientas{background:#191a1c}
-body.noche .destacada,body.noche .lateral,body.noche .tarjeta,body.noche .editorial-card{background:#222;border-color:#444}
-body.noche .lateral-intro,body.noche .editorial-card p,body.noche .editorial-card li,body.noche .boletin-item p,body.noche .pagina-editorial .entradilla{color:#d0ccc4}
-body.noche .lateral-enlace{border-color:#484848}
-body.noche .lateral-social,body.noche .boletin-fecha{background:#303030;color:#eee}
-body.noche .boletin-cta{background:#101114}
-body.noche .boletin-item{border-color:#484848}
-body.noche .estado-actualidad{background:#303b44;color:#d5e0e7}
-body.noche .estado-confirmada{background:#233d2d;color:#a7e2b8}
-body.noche .estado-desarrollo{background:#453923;color:#f0d49c}
-body.noche .estado-preliminar{background:#482829;color:#f1b5b3}
-@media(max-width:900px){
- .destacada{grid-template-columns:1fr}
- .destacada-visual{height:300px;min-height:300px}
- .destacada-texto{padding:22px}
- .rejilla{grid-template-columns:repeat(2,minmax(0,1fr))}
-}
-@media(max-width:650px){
- .franja-editorial>div{padding:8px 15px;font-size:8px}
- .franja-editorial>div span:nth-child(2){display:none}
- .cabecera{padding:18px 15px 13px}
- .brand-row{align-items:flex-start;flex-wrap:wrap}
- .marca{font-size:47px;letter-spacing:-2.3px}
- .eslogan{font-size:9px}
- .instagram-marca{margin:4px 0 0 auto;padding:7px 9px}
- .cabecera-meta{font-size:9px}
- .nav-interior{padding:12px 15px}
- .barra-herramientas{padding:9px 15px}
- .contenedor{padding:0 15px 25px}
- .portada-grid{grid-template-columns:1fr;gap:14px}
- .destacada{grid-template-columns:1fr}
- .destacada-visual{height:225px;min-height:225px}
- .destacada-texto{padding:18px}
- .destacada h1{font-size:34px}
- .lateral{padding:19px}
- .rejilla{display:grid;grid-template-columns:1fr;gap:15px;overflow:visible}
- .rejilla .tarjeta{width:auto;flex:none}
- .tarjeta{display:grid;grid-template-columns:112px minmax(0,1fr);align-items:stretch}
- .tarjeta-imagen{height:100%;min-height:136px}
- .tarjeta-contenido{padding:10px 12px}
- .tarjeta h3{font-size:17px;margin:6px 0}
- .tarjeta p{font-size:11px;line-height:1.5;margin:6px 0}
- .tarjeta .etiqueta{font-size:8px}
- .tarjeta .estado-noticia{font-size:8px;padding:4px 6px;margin:5px 0}
- .pie-interior{grid-template-columns:1fr}
- .pie-links{justify-content:flex-start}
- .pie-legal{grid-column:auto}
- .pagina-editorial{padding:34px 17px 50px}
- .editorial-grid{grid-template-columns:1fr}
- .boletin-item{grid-template-columns:1fr;gap:5px}
- .boletin-cta{align-items:flex-start;flex-direction:column}
- .boletin-cta a{white-space:normal}
-}
+.franja-editorial{{background:#17191d;color:#f8f7f3}}
+.franja-editorial>div{{max-width:var(--ancho);margin:auto;padding:8px 28px;display:flex;justify-content:space-between;gap:16px;align-items:center;font-size:10px;letter-spacing:.7px;text-transform:uppercase}}
+.franja-editorial strong{{color:#ef5960;letter-spacing:1.5px}}
+.cabecera{{padding:22px 28px 16px;text-align:left}}
+.brand-row{{display:flex;align-items:center;justify-content:space-between;gap:20px}}
+.marca{{font-size:clamp(42px,5.8vw,66px);letter-spacing:-3px;line-height:.92}}
+.eslogan{{margin-top:7px;letter-spacing:1.6px;text-align:left;font-size:10px}}
+.instagram-marca{{margin:0 0 0 auto;padding:10px 13px;border:1px solid var(--linea);border-radius:3px}}
+.cabecera-meta{{margin-top:17px;padding-top:10px}}
+.nav-interior{{max-width:var(--ancho);padding:13px 28px;gap:clamp(14px,2vw,27px)}}
+nav a{{font-size:10px;letter-spacing:1px}}
+nav a[href$="institucional.html"],nav a[href$="boletin.html"]{{color:var(--rojo)}}
+.barra-herramientas{{max-width:var(--ancho);padding:10px 28px;background:#eeece6}}
+.buscador{{max-width:420px;border-radius:3px}}
+.accion-ui{{border-radius:3px}}
+.contenedor{{padding-bottom:30px}}
+.cinta{{margin:22px 0 16px}}
+.cinta>span{{font-size:11px}}
+.portada-grid{{grid-template-columns:minmax(0,1.65fr) minmax(240px,.7fr);gap:28px;align-items:stretch;padding:0 0 30px;border-bottom:1px solid var(--tinta)}}
+.destacada{{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(260px,.9fr);background:#fff;border:1px solid #e1ded7;min-height:380px}}
+.destacada-visual{{height:100%;min-height:380px;background:#dedbd4}}
+.destacada-texto{{padding:28px 26px;display:flex;flex-direction:column;justify-content:center;align-items:flex-start}}
+.destacada h1{{font-size:clamp(29px,3.1vw,43px);line-height:1.06;margin:12px 0}}
+.destacada p{{font-size:13px;line-height:1.7}}
+.destacada .boton{{margin-top:18px}}
+.estado-noticia{{display:inline-flex;align-items:center;gap:6px;margin:8px 0 2px;padding:5px 9px;border-radius:2px;font-size:9px;font-weight:800;letter-spacing:.75px;text-transform:uppercase}}
+.estado-noticia:before{{content:"";width:6px;height:6px;border-radius:50%;background:currentColor}}
+.estado-actualidad{{background:#edf0f2;color:#40515e}}
+.estado-confirmada{{background:#e5f2e9;color:#23613b}}
+.estado-desarrollo{{background:#f7eedb;color:#805d1d}}
+.estado-preliminar{{background:#f6e4e3;color:#9b3438}}
+.lateral{{padding:24px 21px;border:1px solid #e1ded7;border-left:3px solid var(--rojo);background:#fff}}
+.lateral-titulo{{font-family:'Playfair Display',Georgia,serif;font-size:23px;letter-spacing:-.4px;text-transform:none;margin-bottom:14px}}
+.lateral-titulo:before{{display:none}}
+.lateral-intro{{font-size:12px;line-height:1.7;color:#676767;margin:0 0 18px}}
+.lateral-enlace{{display:flex;justify-content:space-between;gap:10px;padding:14px 0;border-top:1px solid #e6e3dc;font-size:12px;font-weight:700}}
+.lateral-enlace span{{color:var(--rojo)}}
+.lateral-social{{display:block;margin-top:12px;padding:12px;background:#f5f2ec;color:#252525;font-size:11px;line-height:1.5}}
+.bloque-categoria{{padding:29px 0 32px;border-bottom:1px solid var(--linea)}}
+.titulo-seccion{{font-size:clamp(27px,3vw,36px);margin-bottom:17px}}
+.titulo-seccion:before{{content:"";width:4px;height:25px;background:var(--rojo);display:inline-block;margin-right:1px;align-self:center}}
+.rejilla{{grid-template-columns:repeat(3,minmax(0,1fr));gap:23px}}
+.tarjeta{{background:#fff;border:1px solid #e4e1da;transition:transform .2s ease,box-shadow .2s ease}}
+.tarjeta:hover{{transform:translateY(-3px);box-shadow:0 10px 25px rgba(30,30,30,.08)}}
+.tarjeta-imagen{{height:175px}}
+.tarjeta-contenido{{padding:14px 15px 17px}}
+.tarjeta h3{{font-size:21px}}
+.tarjeta p{{font-size:12px}}
+.tarjeta .estado-noticia{{margin-top:9px}}
+.pie{{margin-top:0;background:#17191d;padding:35px 24px}}
+.pie-interior{{max-width:var(--ancho);margin:auto;display:grid;grid-template-columns:1.1fr 1fr;gap:24px;text-align:left}}
+.pie-marca{{font-family:'Playfair Display',Georgia,serif;font-size:31px;font-weight:800}}
+.pie-links{{display:flex;flex-wrap:wrap;justify-content:flex-end;align-content:start;gap:12px 20px;font-size:11px}}
+.pie-links a{{color:#f3eee8}}
+.pie-links a:hover{{color:#ff777d}}
+.pie-legal{{grid-column:1/-1;border-top:1px solid #3a3d42;padding-top:15px;color:#b8b8b8!important}}
+.pagina-editorial{{max-width:1000px;margin:0 auto;padding:48px 28px 70px}}
+.pagina-editorial .sobrelinea{{color:var(--rojo);font-size:10px;font-weight:800;letter-spacing:1.8px;text-transform:uppercase}}
+.pagina-editorial h1{{font-family:'Playfair Display',Georgia,serif;font-size:clamp(40px,6vw,65px);letter-spacing:-1.7px;line-height:1.02;margin:12px 0 17px}}
+.pagina-editorial .entradilla{{max-width:760px;color:#5e5e5e;font-size:18px;line-height:1.7;margin-bottom:32px}}
+.editorial-grid{{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}}
+.editorial-card{{padding:23px;background:#fff;border:1px solid var(--linea)}}
+.editorial-card h2{{font-family:'Playfair Display',Georgia,serif;font-size:23px;margin:0 0 10px}}
+.editorial-card p,.editorial-card li{{font-size:13px;line-height:1.75;color:#5c5c5c}}
+.editorial-card ul{{padding-left:18px}}
+.boletin-fecha{{display:inline-block;margin:7px 0 25px;padding:7px 10px;background:#f0ede6;color:#555;font-size:10px;font-weight:800;letter-spacing:1px;text-transform:uppercase}}
+.boletin-lista{{max-width:850px;display:grid;gap:0;border-top:1px solid var(--linea)}}
+.boletin-item{{display:grid;grid-template-columns:115px 1fr;gap:18px;padding:19px 0;border-bottom:1px solid var(--linea)}}
+.boletin-item .fecha{{font-size:10px;color:#858585}}
+.boletin-item h2{{font-family:'Playfair Display',Georgia,serif;font-size:22px;line-height:1.2;margin:5px 0 7px}}
+.boletin-item p{{font-size:12px;line-height:1.65;color:#666;margin:0}}
+.boletin-cta{{margin-top:30px;padding:22px 24px;background:#202329;color:white;display:flex;align-items:center;justify-content:space-between;gap:18px}}
+.boletin-cta p{{font-size:12px;line-height:1.6;color:#d1d1d1;margin:4px 0}}
+.boletin-cta a{{white-space:nowrap;background:var(--rojo);padding:11px 15px;font-size:10px;font-weight:800;text-transform:uppercase;letter-spacing:.7px}}
+body.noche .franja-editorial,body.noche .pie{{background:#090a0c}}
+body.noche .barra-herramientas{{background:#191a1c}}
+body.noche .destacada,body.noche .lateral,body.noche .tarjeta,body.noche .editorial-card{{background:#222;border-color:#444}}
+body.noche .lateral-intro,body.noche .editorial-card p,body.noche .editorial-card li,body.noche .boletin-item p,body.noche .pagina-editorial .entradilla{{color:#d0ccc4}}
+body.noche .lateral-enlace{{border-color:#484848}}
+body.noche .lateral-social,body.noche .boletin-fecha{{background:#303030;color:#eee}}
+body.noche .boletin-cta{{background:#101114}}
+body.noche .boletin-item{{border-color:#484848}}
+body.noche .estado-actualidad{{background:#303b44;color:#d5e0e7}}
+body.noche .estado-confirmada{{background:#233d2d;color:#a7e2b8}}
+body.noche .estado-desarrollo{{background:#453923;color:#f0d49c}}
+body.noche .estado-preliminar{{background:#482829;color:#f1b5b3}}
+@media(max-width:900px){{
+ .destacada{{grid-template-columns:1fr}}
+ .destacada-visual{{height:300px;min-height:300px}}
+ .destacada-texto{{padding:22px}}
+ .rejilla{{grid-template-columns:repeat(2,minmax(0,1fr))}}
+}}
+@media(max-width:650px){{
+ .franja-editorial>div{{padding:8px 15px;font-size:8px}}
+ .franja-editorial>div span:nth-child(2){{display:none}}
+ .cabecera{{padding:18px 15px 13px}}
+ .brand-row{{align-items:flex-start;flex-wrap:wrap}}
+ .marca{{font-size:47px;letter-spacing:-2.3px}}
+ .eslogan{{font-size:9px}}
+ .instagram-marca{{margin:4px 0 0 auto;padding:7px 9px}}
+ .cabecera-meta{{font-size:9px}}
+ .nav-interior{{padding:12px 15px}}
+ .barra-herramientas{{padding:9px 15px}}
+ .contenedor{{padding:0 15px 25px}}
+ .portada-grid{{grid-template-columns:1fr;gap:14px}}
+ .destacada{{grid-template-columns:1fr}}
+ .destacada-visual{{height:225px;min-height:225px}}
+ .destacada-texto{{padding:18px}}
+ .destacada h1{{font-size:34px}}
+ .lateral{{padding:19px}}
+ .rejilla{{display:grid;grid-template-columns:1fr;gap:15px;overflow:visible}}
+ .rejilla .tarjeta{{width:auto;flex:none}}
+ .tarjeta{{display:grid;grid-template-columns:112px minmax(0,1fr);align-items:stretch}}
+ .tarjeta-imagen{{height:100%;min-height:136px}}
+ .tarjeta-contenido{{padding:10px 12px}}
+ .tarjeta h3{{font-size:17px;margin:6px 0}}
+ .tarjeta p{{font-size:11px;line-height:1.5;margin:6px 0}}
+ .tarjeta .etiqueta{{font-size:8px}}
+ .tarjeta .estado-noticia{{font-size:8px;padding:4px 6px;margin:5px 0}}
+ .pie-interior{{grid-template-columns:1fr}}
+ .pie-links{{justify-content:flex-start}}
+ .pie-legal{{grid-column:auto}}
+ .pagina-editorial{{padding:34px 17px 50px}}
+ .editorial-grid{{grid-template-columns:1fr}}
+ .boletin-item{{grid-template-columns:1fr;gap:5px}}
+ .boletin-cta{{align-items:flex-start;flex-direction:column}}
+ .boletin-cta a{{white-space:normal}}
+}}
 
 </style>
 </head>
