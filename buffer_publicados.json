@@ -1,5 +1,30 @@
 {
   "fecha": "2026-11-02",
-  "publicaciones_hoy": 0,
-  "publicaciones": []
-}
+  "publicaciones_hoy": 2,
+  "publicaciones": [
+    {
+      "noticia_id": "85900bf522714b5a",
+      "buffer_post_id": "6ae8a1c52426d4fa35007c8e",
+      "titulo": "El voto latino en EE. UU. no tiene dueño: la economía decide el Congreso",
+      "score_editorial": 9.68,
+      "buffer_due_at": "2026-11-02T19:00:00.000Z",
+      "buffer_status": "scheduled",
+      "buffer_channel_id": "6ae80f3ce29c69a171328e5d",
+      "fecha": "2026-11-02T09:44:21.376431-05:00",
+      "version_imagen": 1,
+      "reemplazos": []
+    },
+    {
+      "noticia_id": "e817e86f6599009a",
+      "buffer_post_id": "6ae8a1c504fa73faa22ac777",
+      "titulo": "La Comunidad Andina avanza con proyectos que prometen transformar la región",
+      "score_editorial": 8.69,
+      "buffer_due_at": "2026-11-02T22:00:00.000Z",
+      "buffer_status": "scheduled",
+      "buffer_channel_id": "6ae80f3ce29c69a171328e5d",
+      "fecha": "2026-11-02T09:44:21.887752-05:00",
+      "version_imagen": 1,
+      "reemplazos": []
+    }
+  ]
+}\n
