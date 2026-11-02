@@ -539,11 +539,11 @@ def identificador_articulo(titulo):
 
 def asegurar_datos_instagram(noticias):
     """
-    Completa los datos de Instagram de noticias antiguas que ya están
-    publicadas en la web. Si no existe una imagen con licencia verificada,
-    utiliza una portada gráfica propia de CEV NOTICIAS.
+    Garantiza una fotografía real con licencia reutilizable para web e Instagram.
+    No sustituye fotografías por carteles, portadas de texto ni gráficos propios.
     """
-    portadas_creadas = 0
+    imagenes_encontradas = 0
+    imagenes_pendientes = 0
     descripciones_creadas = 0
 
     for noticia in noticias:
@@ -555,20 +555,33 @@ def asegurar_datos_instagram(noticias):
         if not identificador or not titulo:
             continue
 
-        imagen_instagram = str(noticia.get("imagen_instagram", "")).strip()
-        tipo_imagen = str(noticia.get("imagen_instagram_tipo", "")).strip()
+        credito = noticia.get("imagen_credito") or {}
+        imagen_actual = str(noticia.get("imagen", "")).strip()
+        licencia_actual = str(credito.get("licencia", "")).lower()
+        licencia_apta = any(x in licencia_actual for x in LICENCIAS_VALIDAS) and not any(x in licencia_actual for x in ("nc", "nd")) and bool(credito.get("pagina") and credito.get("licencia_url"))
 
-        if not imagen_instagram or tipo_imagen == "grafica_propia" or not tipo_imagen:
-            # GitHub Actions utiliza un entorno temporal en cada ejecución:
-            # por eso las portadas propias se regeneran siempre antes del
-            # despliegue, aunque la URL ya figure guardada en cache.json.
-            noticia["imagen_instagram"] = crear_portada_instagram(
-                identificador,
+        if not imagen_actual.startswith("https://") or not licencia_apta:
+            print("Buscando fotografía real con licencia para:", titulo)
+            imagen_info = buscar_imagen(
                 titulo,
-                noticia.get("categoria", "Actualidad")
+                noticia.get("resumen", ""),
+                noticia.get("categoria", "")
             )
-            noticia["imagen_instagram_tipo"] = "grafica_propia"
-            portadas_creadas += 1
+            if imagen_info:
+                noticia["imagen"] = imagen_info["url"]
+                noticia["imagen_credito"] = imagen_info
+                noticia["imagen_instagram"] = imagen_info["url"]
+                noticia["imagen_instagram_tipo"] = "externa_con_licencia"
+                imagenes_encontradas += 1
+            else:
+                noticia["imagen"] = ""
+                noticia["imagen_instagram"] = ""
+                noticia["imagen_instagram_tipo"] = ""
+                noticia["imagen_credito"] = {}
+                imagenes_pendientes += 1
+        else:
+            noticia["imagen_instagram"] = imagen_actual
+            noticia["imagen_instagram_tipo"] = "externa_con_licencia"
 
         if not str(noticia.get("descripcion_instagram", "")).strip():
             noticia["descripcion_instagram"] = crear_caption_instagram(
@@ -578,8 +591,9 @@ def asegurar_datos_instagram(noticias):
             descripciones_creadas += 1
 
     print(
-        "Preparación Instagram: "
-        f"{portadas_creadas} portadas propias y "
+        "Control de imágenes reales: "
+        f"{imagenes_encontradas} fotografías encontradas, "
+        f"{imagenes_pendientes} noticias sin fotografía apta, "
         f"{descripciones_creadas} descripciones completadas."
     )
 
