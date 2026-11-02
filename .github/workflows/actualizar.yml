@@ -66,8 +66,13 @@ jobs:
             python - <<'PY'
           import json
           from pathlib import Path
-          local = json.loads(Path("/tmp/cev-cache-local.json").read_text(encoding="utf-8"))
-          remoto = json.loads(Path("cache.json").read_text(encoding="utf-8"))
+          def cargar_cache(ruta):
+              raw = Path(ruta).read_text(encoding="utf-8").rstrip()
+              if raw.endswith("\\n"):
+                  raw = raw[:-2]
+              return json.loads(raw)
+          local = cargar_cache("/tmp/cev-cache-local.json")
+          remoto = cargar_cache("cache.json")
           def items(data):
               return data.get("noticias", []) if isinstance(data, dict) else []
           combinadas = {}
@@ -128,7 +133,10 @@ jobs:
           import json
           from pathlib import Path
           def leer(p, defecto):
-              try: return json.loads(Path(p).read_text(encoding="utf-8"))
+              try:
+                  raw = Path(p).read_text(encoding="utf-8").rstrip()
+                  if raw.endswith("\\n"): raw = raw[:-2]
+                  return json.loads(raw)
               except Exception: return defecto
           local = leer("/tmp/cev-buffer-local.json", {})
           remoto = leer("buffer_publicados.json", {})
