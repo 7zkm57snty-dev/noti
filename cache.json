@@ -35,8 +35,8 @@
       "imagen": "",
       "imagen_credito": {},
       "imagen_busqueda_intentada": true,
-      "imagen_instagram": "",
-      "imagen_instagram_tipo": "externa_con_licencia",
+      "imagen_instagram": "https://cevnoticias.com/social/8c3d789d59f569fc.jpg",
+      "imagen_instagram_tipo": "portada_grafica_cev",
       "descripcion_instagram": "Giro de Rigo 2026 cambia ruta tras derrumbe en Dagua\\n\\nLa edición 2026 del Giro de Rigo, titulada 'La Sucursal', tuvo que modificar su itinerario original después de un derrumbe en la carretera de La Yolomba, km 69, en el municipio de Dagua. La organización, con el objetivo de garantizar la seguridad de los ciclistas, desvió la carrera hacia la ruta corta conocida como Reto Caña, evitando los municipios de Calima‑El Darién, Restrepo, Yotoco y Vijes. El comandante Operativo de la Secretaría de Movilidad de Cali, Jorge Vergara, explicó las medidas de evacuación y el apoyo logístico que se desplegó en el terreno.\\n\\nLee la noticia completa en cevnoticias.com.\\n\\n#CEVNoticias #Actualidad #Deportes #Colombia",
       "verificacion": "Una sola fuente",
       "fecha": "02/11/2026 · 06:12 PM",
@@ -226,7 +226,7 @@
     }
   ],
   "fecha_solicitudes_groq": "2026-11-02",
-  "ultima_actualizacion": "2026-11-02T23:15:25.505616+00:00",
+  "ultima_actualizacion": "2026-11-02T23:16:07.829924+00:00",
   "solicitudes_groq": 32,
   "titulares_rss": [
     {
@@ -680,15 +680,6 @@
       "imagen": "https://files.lafm.com.co/media/news-images/2026/11/02/010707/portadas-25-1200x675.jpg"
     },
     {
-      "id": "eff1171ba3ee1abb",
-      "titulo": "Cali se blindó por aire y tierra: así fue el impresionante operativo para proteger a 10.000 ciclistas en el Giro de Rigo",
-      "categoria": "Cali",
-      "fuente": "El Tiempo Cali",
-      "url": "https://www.eltiempo.com/colombia/cali/cali-se-blindo-por-aire-y-tierra-asi-fue-el-impresionante-operativo-para-proteger-a-10-000-ciclistas-en-el-giro-de-rigo-3597869",
-      "fecha": "2026-11-02T00:47:22+00:00",
-      "imagen": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/11/01/6ae7d24cca2c9.jpeg"
-    },
-    {
       "id": "74cbc480a65e34ec",
       "titulo": "Gobierno endurece controles de ingreso a estadios de fútbol: estas son las nuevas medidas",
       "categoria": "Deportes",
@@ -705,15 +696,6 @@
       "url": "https://www.lafm.com.co/deportes/boca-vencio-river-plate-alvaro-montero-titular-asi-quedo-tabla-clasificacion-anual-argentina-415867",
       "fecha": "2026-11-01T20:24:10+00:00",
       "imagen": "https://files.lafm.com.co/media/news-images/2026/11/01/203423/boca-vencio-river-plate-alvaro-montero-titular-asi-quedo-tabla-clasificacion-anual-argentina-1200x675.jpg"
-    },
-    {
-      "id": "9804a0755ba184d7",
-      "titulo": "Giro de Rigo en Valle del Cauca cambia su ruta: Secretaría de Movilidad de Cali explica lo sucedido en Dagua que obligó a desviar a miles de ciclistas",
-      "categoria": "Valle del Cauca",
-      "fuente": "El Tiempo Cali",
-      "url": "https://www.eltiempo.com/colombia/cali/atencion-giro-de-rigo-cambia-su-ruta-derrumbe-en-dagua-obliga-a-desviar-a-miles-de-ciclistas-en-cali-3597832",
-      "fecha": "2026-11-01T18:29:02+00:00",
-      "imagen": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2026/11/01/6ae7824cc36b8.r_d.351-170-0.jpeg"
     },
     {
       "id": "e5738cd43c021cbd",
@@ -806,6 +788,15 @@
       "imagen": "https://files.lafm.com.co/media/news-images/2026/10/31/025336/independiente-santa-fe-tiene-12-jugadores-proximos-a-vencer-su-contrato-1200x675.jpg"
     },
     {
+      "id": "d0f80cdfc0db3b68",
+      "titulo": "Con vigilancia satelital protegen islas Malpelo y Gorgona",
+      "categoria": "Valle del Cauca",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/medio-ambiente/pesca-ilegal-pacifico-colombiano-parques-nacionales-monitoreo-2026/",
+      "fecha": "2026-10-31T01:57:48+00:00",
+      "imagen": ""
+    },
+    {
       "id": "f37cc892f3e74ffe",
       "titulo": "Un hijo de 13 años, un padre sin casa y un grano que conquistó a Bogotá: la travesía de la familia detrás de Café Don Argelino",
       "categoria": "Cali",
@@ -815,5 +806,5 @@
       "imagen": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/10/30/6ae51aa04f5b8.jpeg"
     }
   ],
-  "ultima_solicitud_groq": "2026-11-02T23:15:22.315041+00:00"
+  "ultima_solicitud_groq": "2026-11-02T23:12:05.083906+00:00"
 }
