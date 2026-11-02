@@ -171,11 +171,13 @@ def lista_vertical(noticias, titulares, categoria=None, excluir=None):
     return "".join(html_card for _, html_card in elementos)
 
 
-def plantilla(titulo, contenido, descripcion="CEV NOTICIAS", ruta_raiz="", extra_head=""):
+def plantilla(titulo, contenido, descripcion="CEV NOTICIAS", ruta_raiz="", extra_head="", seccion_actual=""):
     enlaces = "".join(
-        f'<a href="{ruta_raiz}secciones/{slug(s)}.html">{escapar(s)}</a>'
+        f'<a data-seccion="{slug(s)}" class="{"nav-activa" if slug(s) == slug(seccion_actual) else ""}" href="{ruta_raiz}secciones/{slug(s)}.html" {"aria-current=page" if slug(s) == slug(seccion_actual) else ""}>{escapar(s)}</a>'
         for s in SECCIONES
     )
+    portada_activa = "nav-activa" if seccion_actual == "Portada" else ""
+    portada_aria = 'aria-current="page"' if seccion_actual == "Portada" else ""
     return f"""<!DOCTYPE html>
 <html lang="es">
 <head>
@@ -204,9 +206,19 @@ a{{color:inherit;text-decoration:none}}
 .cabecera-meta{{display:flex;justify-content:space-between;align-items:center;margin-top:22px;padding-top:11px;border-top:1px solid var(--tinta);font-size:11px;color:#555}}
 .estado{{font-weight:800;letter-spacing:1.5px;text-transform:uppercase;color:var(--rojo)}}
 nav{{border-top:1px solid var(--linea);border-bottom:1px solid var(--tinta);background:var(--papel)}}
-.nav-interior{{max-width:850px;margin:0 auto;display:flex;justify-content:flex-start;gap:clamp(15px,3vw,34px);padding:14px 22px;overflow-x:auto;white-space:nowrap;scrollbar-width:none;overscroll-behavior-x:contain;-webkit-overflow-scrolling:touch;scroll-behavior:auto}} .nav-interior::-webkit-scrollbar{{display:none}}
+.nav-carrusel{{max-width:1120px;margin:0 auto;padding:0 18px;display:grid;grid-template-columns:34px minmax(0,1fr) 34px;gap:10px;align-items:center}}
+.nav-interior{{min-width:0;max-width:none;margin:0;display:flex;align-items:center;justify-content:flex-start;gap:8px;padding:9px 2px;overflow-x:auto;overflow-y:hidden;white-space:nowrap;scrollbar-width:none;overscroll-behavior-x:contain;-webkit-overflow-scrolling:touch;scroll-behavior:smooth;scroll-snap-type:x mandatory}}
+.nav-interior::-webkit-scrollbar{{display:none}}
+.nav-interior a{{flex:0 0 auto;display:inline-flex;align-items:center;justify-content:center;padding:10px 13px;border-bottom:3px solid transparent;border-radius:3px 3px 0 0;scroll-snap-align:center;transition:background .18s ease,color .18s ease,border-color .18s ease}}
+.nav-interior a.nav-activa{{color:var(--rojo);background:#f5e7e7;border-bottom-color:var(--rojo);font-weight:800}}
+.nav-flecha{{width:34px;height:34px;border:1px solid var(--linea);border-radius:50%;background:transparent;color:var(--tinta);font:700 21px/1 'DM Sans',sans-serif;cursor:pointer;transition:all .18s ease}}
+.nav-flecha:hover:not(:disabled){{border-color:var(--rojo);background:#f5e7e7;color:var(--rojo)}}
+.nav-flecha:disabled{{opacity:.28;cursor:default}}
 nav a{{font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.8px}}
 nav a:hover,nav a:focus{{color:var(--rojo)}}
+body.noche .nav-interior a.nav-activa{{color:#ff858a;background:#3a2426;border-bottom-color:#ff858a}}
+body.noche .nav-flecha{{border-color:#555;color:var(--tinta)}}
+body.noche .nav-flecha:hover:not(:disabled){{background:#3a2426;border-color:#ff858a;color:#ff858a}}
 .contenedor{{max-width:var(--ancho);margin:0 auto;padding:0 28px}}
 .cinta{{display:flex;align-items:center;gap:12px;margin:27px 0 18px;font-size:10px;font-weight:800;letter-spacing:1.7px;text-transform:uppercase}}
 .cinta:after{{content:"";height:1px;background:var(--linea);flex:1}}
@@ -393,7 +405,10 @@ body.noche .relacionadas .tarjeta{{background:#222;border-color:#484848}}
  .cabecera{{padding:22px 15px 15px}}
  .marca{{font-size:49px;letter-spacing:-2.5px}}
  .cabecera-meta{{font-size:9px}}
- .nav-interior{{justify-content:flex-start;padding:13px 15px}}
+ .nav-carrusel{{padding:0 9px;grid-template-columns:30px minmax(0,1fr) 30px;gap:6px}}
+ .nav-flecha{{width:30px;height:30px;font-size:19px}}
+ .nav-interior{{padding:9px 1px;gap:6px}}
+ .nav-interior a{{padding:9px 11px;font-size:10px}}
  .contenedor{{padding:0 16px}}
  .portada-grid{{grid-template-columns:1fr;gap:20px}}
  .destacada-visual{{height:225px}}
@@ -416,9 +431,15 @@ body.noche .relacionadas .tarjeta{{background:#222;border-color:#484848}}
   <a class="instagram-marca" href="https://www.instagram.com/cev.noticias/" target="_blank" rel="noopener noreferrer" aria-label="Instagram de Cali en Vivo Noticias: @cev.noticias"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="17.5" cy="6.8" r="1.1" fill="currentColor"/></svg><span><strong>Cali en Vivo Noticias</strong><small>@cev.noticias</small></span></a>
   <div class="cabecera-meta"><span>{fecha_actual()} · COLOMBIA</span><span class="estado">Edición digital</span></div>
  </div>
- <nav aria-label="Secciones"><div class="nav-interior">
-  <a href="{ruta_raiz}">Portada</a>{enlaces}
- </div></nav>
+ <nav aria-label="Secciones">
+  <div class="nav-carrusel">
+   <button class="nav-flecha" id="nav-anterior" type="button" aria-label="Desplazar secciones hacia la izquierda">‹</button>
+   <div class="nav-interior" id="nav-secciones" tabindex="0">
+    <a data-seccion="portada" class="{portada_activa}" href="{ruta_raiz}" {portada_aria}>Portada</a>{enlaces}
+   </div>
+   <button class="nav-flecha" id="nav-siguiente" type="button" aria-label="Desplazar secciones hacia la derecha">›</button>
+  </div>
+ </nav>
  <div class="barra-herramientas">
   <input id="buscar-noticias" class="buscador" type="search" placeholder="Buscar noticias, temas o palabras..." aria-label="Buscar noticias">
   <button id="modo-noche" class="accion-ui" type="button" aria-pressed="false">◐ Modo oscuro</button>
@@ -473,6 +494,22 @@ body.noche .relacionadas .tarjeta{{background:#222;border-color:#484848}}
   escenario?.addEventListener('focusout',iniciarExpress);
   document.addEventListener('visibilitychange',iniciarExpress);
   iniciarExpress();
+ }}
+ const nav=document.getElementById('nav-secciones');
+ const navAnterior=document.getElementById('nav-anterior');
+ const navSiguiente=document.getElementById('nav-siguiente');
+ if(nav){{
+  const moverNav=(direccion)=>nav.scrollBy({{left:direccion*Math.max(220,nav.clientWidth*0.72),behavior:'smooth'}});
+  navAnterior?.addEventListener('click',()=>moverNav(-1));
+  navSiguiente?.addEventListener('click',()=>moverNav(1));
+  const actualizarNav=()=>{{
+   const maximo=nav.scrollWidth-nav.clientWidth;
+   if(navAnterior)navAnterior.disabled=nav.scrollLeft<=2;
+   if(navSiguiente)navSiguiente.disabled=nav.scrollLeft>=maximo-2;
+  }};
+  nav.addEventListener('scroll',actualizarNav,{{passive:true}});
+  window.addEventListener('resize',actualizarNav);
+  actualizarNav();
  }}
  const barra=document.getElementById('progreso-lectura'),arriba=document.getElementById('volver-arriba');
  function actualizar(){{const max=document.documentElement.scrollHeight-window.innerHeight;if(barra)barra.style.width=(max>0?(window.scrollY/max)*100:0)+'%';if(arriba)arriba.hidden=window.scrollY<450;}}
@@ -558,7 +595,7 @@ def crear_articulo(noticia, noticias=None):
     if imagen:
         datos_schema["image"] = imagen
     extra_head = f'<link rel="canonical" href="{url_articulo}"><meta property="og:type" content="article"><meta property="og:title" content="{titulo}"><meta property="og:description" content="{resumen}"><meta property="og:url" content="{url_articulo}">' + (f'<meta property="og:image" content="{imagen}">' if imagen else "") + '<script type="application/ld+json">' + json.dumps(datos_schema, ensure_ascii=False) + '</script>'
-    pagina = plantilla(titulo, cuerpo, resumen, ruta_raiz="../", extra_head=extra_head)
+    pagina = plantilla(titulo, cuerpo, resumen, ruta_raiz="../", extra_head=extra_head, seccion_actual=noticia.get("categoria", ""))
     NOTAS.mkdir(parents=True, exist_ok=True)
     (NOTAS / f"{identificador}.html").write_text(pagina, encoding="utf-8")
 
@@ -599,7 +636,8 @@ def crear_pagina_titular_rss(titular):
         cuerpo,
         "Titular de actualidad recopilado por CEV NOTICIAS con crédito al medio original.",
         ruta_raiz="../",
-        extra_head=extra_head
+        extra_head=extra_head,
+        seccion_actual=categoria
     )
     NOTAS.mkdir(parents=True, exist_ok=True)
     (NOTAS / f"actualidad-{identificador}.html").write_text(pagina, encoding="utf-8")
@@ -627,7 +665,8 @@ def crear_pagina_seccion(seccion, noticias, titulares):
         seccion,
         cuerpo,
         f"Noticias de {seccion} en CEV NOTICIAS.",
-        ruta_raiz="../"
+        ruta_raiz="../",
+        seccion_actual=seccion
     )
     carpeta = SITE / "secciones"
     carpeta.mkdir(parents=True, exist_ok=True)
@@ -736,7 +775,7 @@ def construir():
         '</section></main>'
     )
     portada_head = '<link rel="canonical" href="https://cevnoticias.com/"><meta property="og:type" content="website"><meta property="og:title" content="CEV NOTICIAS | Actualidad y periodismo">'
-    (SITE / "index.html").write_text(plantilla("Portada", contenido, "Noticias de Cali, Valle del Cauca, Colombia y el mundo.", extra_head=portada_head), encoding="utf-8")
+    (SITE / "index.html").write_text(plantilla("Portada", contenido, "Noticias de Cali, Valle del Cauca, Colombia y el mundo.", extra_head=portada_head, seccion_actual="Portada"), encoding="utf-8")
     urls = ["https://cevnoticias.com/"] + [f"https://cevnoticias.com/notas/{n['id']}.html" for n in validas] + [f"https://cevnoticias.com/secciones/{slug(s)}.html" for s in SECCIONES]
     sitemap = '<?xml version="1.0" encoding="UTF-8"?>\\n' + '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\\n' + ''.join(f'<url><loc>{html.escape(url)}</loc></url>\\n' for url in urls) + '</urlset>\\n'
     (SITE / "sitemap.xml").write_text(sitemap, encoding="utf-8")
