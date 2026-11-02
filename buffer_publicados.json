@@ -1,6 +1,6 @@
 {
   "fecha": "2026-11-02",
-  "publicaciones_hoy": 2,
+  "publicaciones_hoy": 3,
   "publicaciones": [
     {
       "noticia_id": "6f6e1983c93e7b43",
@@ -13,6 +13,12 @@
       "buffer_post_id": "6ae81b6d76279ec7eb93453d",
       "titulo": "El chisme corporativo: la moneda que impulsa decisiones y riesgos",
       "fecha": "2026-11-02T00:11:09.181760-05:00"
+    },
+    {
+      "noticia_id": "4054019971503fda",
+      "buffer_post_id": "6ae81bda64604db31440021d",
+      "titulo": "El chisme corporativo: la moneda que impulsa la cultura empresarial",
+      "fecha": "2026-11-02T00:12:58.243522-05:00"
     }
   ]
 }
