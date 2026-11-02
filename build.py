@@ -240,16 +240,16 @@ body.noche .pie{{background:#090909}}
 (function(){{
 
  // Duplicar cada sección para crear un recorrido continuo sin salto.
- document.querySelectorAll('.rejilla.carrusel-infinito').forEach(track=>{
+ document.querySelectorAll('.rejilla.carrusel-infinito').forEach(track=>{{
   const originales=Array.from(track.children);
   if(!originales.length)return;
-  originales.forEach(card=>{
+  originales.forEach(card=>{{
    const copia=card.cloneNode(true);
    copia.setAttribute('aria-hidden','true');
    copia.querySelectorAll('a,button').forEach(el=>el.setAttribute('tabindex','-1'));
    track.appendChild(copia);
-  });
- });
+  }});
+ }});
 
  function aplicarFiltro(){{
   const hash=decodeURIComponent(window.location.hash.slice(1));
