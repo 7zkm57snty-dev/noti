@@ -58,6 +58,7 @@ jobs:
             python - <<'PY'
           import json
           from pathlib import Path
+          from datetime import datetime
           def cargar_cache(ruta):
               raw = Path(ruta).read_text(encoding="utf-8").rstrip()
               if raw.endswith("\\n"):
@@ -67,6 +68,17 @@ jobs:
           remoto = cargar_cache("cache.json")
           def items(data):
               return data.get("noticias", []) if isinstance(data, dict) else []
+          def fecha_orden(noticia):
+              valor = str(noticia.get("fecha", "")).strip()
+              for formato in ("%d/%m/%Y · %I:%M %p", "%d/%m/%Y %I:%M %p"):
+                  try:
+                      return datetime.strptime(valor, formato).timestamp()
+                  except ValueError:
+                      pass
+              try:
+                  return datetime.fromisoformat(valor.replace("Z", "+00:00")).timestamp()
+              except (ValueError, OverflowError):
+                  return 0
           combinadas = {}
           for noticia in items(remoto) + items(local):
               if not isinstance(noticia, dict) or not noticia.get("id"):
@@ -84,7 +96,7 @@ jobs:
                   combinadas[ident]["estado_informacion"] = alternativa["estado_informacion"]
           salida = dict(remoto) if isinstance(remoto, dict) else {}
           salida.update({k:v for k,v in local.items() if k not in ("noticias", "solicitudes_groq")})
-          salida["noticias"] = sorted(combinadas.values(), key=lambda n: str(n.get("fecha", "")), reverse=True)[:150]
+          salida["noticias"] = sorted(combinadas.values(), key=fecha_orden, reverse=True)[:150]
           if local.get("fecha_solicitudes_groq") == remoto.get("fecha_solicitudes_groq"):
               salida["solicitudes_groq"] = max(int(local.get("solicitudes_groq", 0)), int(remoto.get("solicitudes_groq", 0)))
               salida["fecha_solicitudes_groq"] = local.get("fecha_solicitudes_groq")
