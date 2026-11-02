@@ -45,9 +45,9 @@ def tarjeta(noticia, posicion=0):
     titulo = escapar(noticia.get("titulo"))
     resumen = escapar(noticia.get("resumen"))
     categoria = escapar(noticia.get("categoria"))
-    imagen = imagen_segura(noticia.get("imagen") or noticia.get("imagen_instagram"))
+    imagen = imagen_segura(noticia.get("imagen"))
     identificador = escapar(noticia.get("id"))
-    visual = f'<img src="{imagen}" alt="{titulo}" loading="lazy">' if imagen else '<div class="imagen-vacia">CEV</div>'
+    visual = f'<img src="{imagen}" alt="{titulo}" loading="lazy">' if imagen else ""
     clase = " tarjeta-principal" if posicion == 0 else ""
     return f"""
     <article class="tarjeta{clase}">
@@ -226,7 +226,7 @@ def crear_articulo(noticia):
     resumen = escapar(noticia.get("resumen"))
     categoria = escapar(noticia.get("categoria"))
     contenido = str(noticia.get("contenido") or "").strip()
-    imagen = imagen_segura(noticia.get("imagen") or noticia.get("imagen_instagram"))
+    imagen = imagen_segura(noticia.get("imagen"))
     foto = f'<img class="foto" src="{imagen}" alt="{titulo}" loading="lazy">' if imagen else ""
     credito = noticia.get("imagen_credito") or {}
     atribucion_imagen = ""
@@ -275,7 +275,7 @@ def construir():
         titulo = str(noticia.get("titulo", "")).strip()
         contenido = str(noticia.get("contenido", "")).strip()
         categoria = noticia.get("categoria", "")
-        if not titulo or len(contenido) < 250 or categoria not in SECCIONES:
+        if not titulo or len(contenido) < 250 or categoria not in SECCIONES or not imagen_segura(noticia.get("imagen")):
             continue
         identificador = noticia.get("id") or slug(titulo)
         if identificador in vistos:
@@ -292,7 +292,7 @@ def construir():
     principal = validas[0] if validas else None
     laterales = validas[1:4]
     if principal:
-        imagen = imagen_segura(principal.get("imagen") or principal.get("imagen_instagram"))
+        imagen = imagen_segura(principal.get("imagen"))
         visual = f'<img src="{imagen}" alt="{escapar(principal.get("titulo"))}" fetchpriority="high">' if imagen else '<div class="imagen-vacia">CEV</div>'
         principal_html = f"""
         <article class="destacada">
