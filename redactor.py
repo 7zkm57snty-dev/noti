@@ -24,8 +24,13 @@ FEEDS = os.path.join(BASE, "feeds.json")
 
 MODELO = "openai/gpt-oss-20b"
 MAX_NOTICIAS = 20
-MAX_ARTICULOS_POR_EJECUCION = 3
+MAX_ARTICULOS_POR_EJECUCION = 1
+MAX_SOLICITUDES_POR_EJECUCION = 1
+MAX_GRUPOS_REVISADOS_POR_EJECUCION = 6
+MINUTOS_ENTRE_SOLICITUDES = 35
 MAX_SOLICITUDES_DIARIAS = 30
+MAX_TITULARES_POR_CATEGORIA = 10
+MAX_EDAD_TITULARES_HORAS = 72
 MAX_ARTICULOS_ANTERIORES = 150
 MAX_EDAD_HORAS = 168
 SITE = Path(BASE) / "site"
@@ -352,7 +357,8 @@ def fecha_mas_reciente_grupo(grupo):
 def leer_contenidos(grupo):
     fuentes_validas = []
 
-    for fuente in grupo["fuentes"]:
+    # Dos medios independientes bastan para contrastar sin inflar el contexto.
+    for fuente in grupo["fuentes"][:2]:
         texto = extraer_articulo(fuente["url"])
 
         if len(texto) < 500:
@@ -367,7 +373,7 @@ def leer_contenidos(grupo):
             "nombre": fuente["fuente"],
             "titulo": fuente["titulo"],
             "url": fuente["url"],
-            "texto": texto[:7500]
+            "texto": texto[:4500]
         })
 
     return fuentes_validas
@@ -727,15 +733,142 @@ def asegurar_datos_instagram(noticias):
     )
 
 
+def categoria_titular_rss(entrada):
+    titulo = str(entrada.get("titulo", "")).lower()
+    fuente = str(entrada.get("fuente", "")).lower()
+
+    municipios_valle = (
+        "jamundi", "jamundí", "palmira", "yumbo", "tulua", "tuluá",
+        "buenaventura", "buga", "cartago", "candelaria", "dagua",
+        "roldanillo", "guacari", "guacarí", "ginebra", "pradera",
+        "el cerrito", "zarzal", "sevilla", "caicedonia", "restrepo",
+        "la victoria", "versalles", "trujillo", "riofrio", "riofrío",
+        "san pedro", "la union", "la unión", "andalucia", "andalucía",
+        "el dovio", "el dovío", "ulloa", "obando", "argelia"
+    )
+
+    if any(municipio in titulo for municipio in municipios_valle) or "valle del cauca" in titulo:
+        return "Valle del Cauca"
+    if "cali" in titulo or fuente == "el tiempo cali":
+        return "Cali"
+    if "90 minutos" in fuente or "diario occidente" in fuente:
+        return "Valle del Cauca"
+
+    if "bbc sport" in fuente or any(p in titulo for p in (
+        "fútbol", "futbol", "liga", "selección", "seleccion", "partido",
+        "mundial", "copa", "tenis", "ciclismo", "baloncesto", "nba",
+        "deporte", "deportivo", "fórmula 1", "formula 1"
+    )):
+        return "Deportes"
+    if "xataka" in fuente or any(p in titulo for p in (
+        "inteligencia artificial", "tecnología", "tecnologia", "software",
+        "aplicación", "aplicacion", "ciberseguridad", "smartphone",
+        "celular", "computador", "videojuego"
+    )):
+        return "Tecnología"
+    if "portafolio" in fuente or any(p in titulo for p in (
+        "economía", "economia", "inflación", "inflacion", "dólar", "dolar",
+        "empresas", "mercado", "finanzas", "banco", "inversión", "inversion"
+    )):
+        return "Economía"
+    if any(p in fuente for p in ("bbc mundo", "dw español")):
+        return "Internacional"
+
+    return "Colombia"
+
+
+def fecha_a_timestamp(valor):
+    try:
+        fecha = datetime.fromisoformat(str(valor).replace("Z", "+00:00"))
+        if fecha.tzinfo is None:
+            fecha = fecha.replace(tzinfo=timezone.utc)
+        return fecha.timestamp()
+    except (TypeError, ValueError, OverflowError):
+        return 0
+
+
+def construir_titulares_rss(entradas, publicadas, anteriores):
+    ahora = datetime.now(timezone.utc)
+    limite = ahora - timedelta(hours=MAX_EDAD_TITULARES_HORAS)
+    grupos_rss = agrupar_noticias(entradas)
+    candidatos = []
+
+    for grupo in grupos_rss:
+        fuentes = grupo.get("fuentes", [])
+        if not fuentes:
+            continue
+
+        fuente = max(fuentes, key=lambda f: fecha_a_timestamp(f.get("fecha")))
+        fecha_ts = fecha_a_timestamp(fuente.get("fecha"))
+        if not fecha_ts or fecha_ts < limite.timestamp() or fecha_ts > (ahora + timedelta(hours=2)).timestamp():
+            continue
+
+        titulo = str(fuente.get("titulo") or grupo.get("titulo") or "").strip()
+        if not titulo:
+            continue
+
+        if any(son_misma_noticia(titulo, n.get("titulo", "")) for n in publicadas if n.get("titulo")):
+            continue
+
+        categoria = categoria_titular_rss({**fuente, "titulo": titulo})
+        url = str(fuente.get("url") or "")
+        if not url.startswith(("https://", "http://")):
+            continue
+
+        candidatos.append({
+            "id": hashlib.sha256(url.encode("utf-8")).hexdigest()[:16],
+            "titulo": titulo,
+            "categoria": categoria,
+            "fuente": str(fuente.get("fuente") or "Medio de origen"),
+            "url": url,
+            "fecha": str(fuente.get("fecha") or "")
+        })
+
+    candidatos.extend(anteriores if isinstance(anteriores, list) else [])
+    candidatos.sort(key=lambda n: fecha_a_timestamp(n.get("fecha")), reverse=True)
+
+    resultado = []
+    urls_vistas = set()
+    titulos_vistos = []
+    conteo = {}
+
+    for titular in candidatos:
+        url = str(titular.get("url", "")).strip()
+        titulo = str(titular.get("titulo", "")).strip()
+        categoria = titular.get("categoria")
+
+        if not url.startswith(("https://", "http://")) or not titulo or categoria not in CATEGORIAS:
+            continue
+        if fecha_a_timestamp(titular.get("fecha")) < limite.timestamp() or url in urls_vistas:
+            continue
+        if any(son_misma_noticia(titulo, anterior) for anterior in titulos_vistos):
+            continue
+        if any(son_misma_noticia(titulo, n.get("titulo", "")) for n in publicadas if n.get("titulo")):
+            continue
+        if conteo.get(categoria, 0) >= MAX_TITULARES_POR_CATEGORIA:
+            continue
+
+        resultado.append({
+            "id": str(titular.get("id") or hashlib.sha256(url.encode("utf-8")).hexdigest()[:16]),
+            "titulo": titulo,
+            "categoria": categoria,
+            "fuente": str(titular.get("fuente") or "Medio de origen"),
+            "url": url,
+            "fecha": str(titular.get("fecha") or "")
+        })
+        urls_vistas.add(url)
+        titulos_vistos.append(titulo)
+        conteo[categoria] = conteo.get(categoria, 0) + 1
+
+    print("Titulares RSS visibles:", len(resultado), "| por sección:", conteo)
+    return resultado
+
+
 def ejecutar():
     api_key = os.environ.get("GROQ_API_KEY")
-
+    cliente = Groq(api_key=api_key) if api_key else None
     if not api_key:
-        raise RuntimeError(
-            "No está configurada la clave GROQ_API_KEY."
-        )
-
-    cliente = Groq(api_key=api_key)
+        print("GROQ_API_KEY no configurada: se actualizarán titulares RSS sin generar artículos propios.")
 
     cache = leer_json(CACHE, {"noticias": []})
 
@@ -753,6 +886,11 @@ def ejecutar():
     ]
 
     entradas = obtener_fuentes()
+    titulares_rss = construir_titulares_rss(
+        entradas,
+        publicadas,
+        cache.get("titulares_rss", [])
+    )
 
     # Descarta titulares ya publicados.
     entradas_nuevas = [
@@ -793,127 +931,123 @@ def ejecutar():
         f"{MAX_SOLICITUDES_DIARIAS}"
     )
 
-    for grupo in grupos:
-        if len(nuevas) >= MAX_ARTICULOS_POR_EJECUCION:
-            break
+    ultima_solicitud_groq = cache.get("ultima_solicitud_groq", "")
+    timestamp_ultima = fecha_a_timestamp(ultima_solicitud_groq)
+    ahora_ts = datetime.now(timezone.utc).timestamp()
+    puede_generar = bool(cliente) and solicitudes_groq < MAX_SOLICITUDES_DIARIAS
 
-        if solicitudes_groq >= MAX_SOLICITUDES_DIARIAS:
-            print("Límite diario de seguridad alcanzado. Se detiene la generación.")
-            break
+    if puede_generar and timestamp_ultima and (ahora_ts - timestamp_ultima) < MINUTOS_ENTRE_SOLICITUDES * 60:
+        puede_generar = False
+        print("Pausa de consumo activa: los titulares RSS sí se actualizan en este ciclo.")
+    if solicitudes_groq >= MAX_SOLICITUDES_DIARIAS:
+        print("Cupo diario de artículos originales agotado. Se mantienen actualizados los titulares RSS.")
 
-        fuentes = leer_contenidos(grupo)
+    grupos_revisados = 0
+    solicitudes_esta_ejecucion = 0
 
-        dominios = {
-            urlparse(f["url"]).netloc.lower()
-            for f in fuentes
-        }
+    if puede_generar:
+        for grupo in grupos:
+            if len(nuevas) >= MAX_ARTICULOS_POR_EJECUCION:
+                break
+            if solicitudes_esta_ejecucion >= MAX_SOLICITUDES_POR_EJECUCION:
+                break
+            if grupos_revisados >= MAX_GRUPOS_REVISADOS_POR_EJECUCION:
+                print("Límite de grupos revisados en esta ejecución alcanzado.")
+                break
 
-        # Se permite publicar con una sola fuente.
-        # Si hay varias, se contrastan; si hay una, se usa
-        # únicamente la información recuperada de ese medio.
-        if len(fuentes) < 1:
-            print("Noticia sin contenido recuperable:", grupo["titulo"])
-            continue
+            grupos_revisados += 1
+            fuentes = leer_contenidos(grupo)
 
-        try:
-            solicitudes_groq += 1
-            articulo = generar_articulo(
-                cliente,
-                grupo["titulo"],
-                fuentes
-            )
+            dominios = {
+                urlparse(f["url"]).netloc.lower()
+                for f in fuentes
+            }
 
-            if not articulo:
+            if len(fuentes) < 1:
+                print("Noticia sin contenido recuperable:", grupo["titulo"])
                 continue
 
-            identificador = identificador_articulo(
-                articulo["titulo"]
-            )
-
-            if any(
-                n.get("id") == identificador
-                for n in publicadas + nuevas
-            ):
-                print("Se omite un artículo con identificador ya publicado:", articulo["titulo"])
-                continue
-
-            # Evita publicar dos veces el mismo hecho cuando el modelo
-            # cambia ligeramente la redacción del titular.
-            if any(
-                son_misma_noticia(articulo["titulo"], n.get("titulo", ""))
-                for n in publicadas + nuevas
-                if n.get("titulo")
-            ):
-                print("Se omite un artículo duplicado por similitud:", articulo["titulo"])
-                continue
-
-            # Se priorizan bancos de imágenes con licencias reutilizables.
-            # Las imágenes RSS/de medios no se reutilizan automáticamente,
-            # porque podrían tener derechos reservados.
-            imagen_info = buscar_imagen(
-                articulo["titulo"],
-                articulo["resumen"],
-                articulo["categoria"]
-            )
-
-            # No publicar una noticia si no tiene fotografía real y reutilizable.
-            # Nunca sustituir la fotografía por un cartel de texto.
-            if not imagen_info or not imagen_info.get("url"):
-                print("Noticia aplazada: no se encontró fotografía real con licencia:", articulo["titulo"])
-                continue
-
-            caption_instagram = crear_caption_instagram(articulo, imagen_info)
-            titular_social = articulo.get("titular_instagram") or articulo["titulo"]
             try:
-                portada_social = crear_portada_instagram(
-                    identificador,
-                    titular_social,
-                    articulo["categoria"],
-                    imagen_info["url"]
+                solicitudes_groq += 1
+                solicitudes_esta_ejecucion += 1
+                ultima_solicitud_groq = datetime.now(timezone.utc).isoformat()
+
+                articulo = generar_articulo(cliente, grupo["titulo"], fuentes)
+
+                if not articulo:
+                    print("El grupo no produjo un artículo publicable.")
+                    break
+
+                identificador = identificador_articulo(articulo["titulo"])
+
+                if any(n.get("id") == identificador for n in publicadas + nuevas):
+                    print("Se omite un artículo con identificador ya publicado:", articulo["titulo"])
+                    break
+
+                if any(
+                    son_misma_noticia(articulo["titulo"], n.get("titulo", ""))
+                    for n in publicadas + nuevas if n.get("titulo")
+                ):
+                    print("Se omite un artículo duplicado por similitud:", articulo["titulo"])
+                    break
+
+                imagen_info = buscar_imagen(
+                    articulo["titulo"],
+                    articulo["resumen"],
+                    articulo["categoria"]
                 )
+
+                if not imagen_info or not imagen_info.get("url"):
+                    print("Noticia aplazada: no se encontró fotografía real con licencia:", articulo["titulo"])
+                    break
+
+                caption_instagram = crear_caption_instagram(articulo, imagen_info)
+                titular_social = articulo.get("titular_instagram") or articulo["titulo"]
+                try:
+                    portada_social = crear_portada_instagram(
+                        identificador,
+                        titular_social,
+                        articulo["categoria"],
+                        imagen_info["url"]
+                    )
+                except Exception as error:
+                    print("No se pudo diseñar la portada social; se aplaza la noticia:", error)
+                    break
+
+                nuevas.append({
+                    "id": identificador,
+                    "titulo": articulo["titulo"],
+                    "titular_instagram": articulo.get("titular_instagram") or articulo["titulo"],
+                    "resumen": articulo["resumen"],
+                    "categoria": articulo["categoria"],
+                    "contenido": articulo["contenido"],
+                    "estado_informacion": articulo.get("estado_informacion", "confirmada"),
+                    "imagen": imagen_info["url"],
+                    "imagen_credito": imagen_info,
+                    "imagen_instagram": portada_social,
+                    "imagen_instagram_tipo": "portada_editorial_con_fotografia",
+                    "descripcion_instagram": caption_instagram,
+                    "verificacion": (
+                        "Varias fuentes independientes"
+                        if len(dominios) >= 2
+                        else "Una sola fuente"
+                    ),
+                    "fecha": datetime.now(
+                        timezone(timedelta(hours=-5))
+                    ).strftime("%d/%m/%Y · %I:%M %p"),
+                    "fuentes": [{"nombre": fuente["nombre"]} for fuente in fuentes]
+                })
+
+                print("Artículo creado:", articulo["titulo"])
+                time.sleep(2)
+                break
+
             except Exception as error:
-                print("No se pudo diseñar la portada social; se aplaza la noticia:", error)
-                continue
-
-
-            nuevas.append({
-                "id": identificador,
-                "titulo": articulo["titulo"],
-                "titular_instagram": articulo.get("titular_instagram") or articulo["titulo"],
-                "resumen": articulo["resumen"],
-                "categoria": articulo["categoria"],
-                "contenido": articulo["contenido"],
-                "estado_informacion": articulo.get("estado_informacion", "confirmada"),
-                "imagen": imagen_info["url"],
-                "imagen_credito": imagen_info,
-                "imagen_instagram": portada_social,
-                "imagen_instagram_tipo": "portada_editorial_con_fotografia",
-                "descripcion_instagram": caption_instagram,
-                "verificacion": (
-                    "Varias fuentes independientes"
-                    if len(dominios) >= 2
-                    else "Una sola fuente"
-                ),
-                "fecha": datetime.now(
-                    timezone(timedelta(hours=-5))
-                ).strftime("%d/%m/%Y · %I:%M %p"),
-                "fuentes": [
-                    {
-                        "nombre": fuente["nombre"]
-                    }
-                    for fuente in fuentes
-                ]
-            })
-
-            print("Artículo creado:", articulo["titulo"])
-            time.sleep(2)
-
-        except Exception as error:
-            mensaje_error = str(error)
-            print("Error al generar artículo:", mensaje_error)
-
-            print("Se detienen los intentos para evitar repetir errores de API.")
-            break
+                print("Error al generar artículo:", str(error))
+                print("Se detiene el intento para respetar el cupo del modelo.")
+                break
+    else:
+        print("En esta ejecución no corresponde consumir una solicitud de Groq.")
 
     resultado = nuevas + publicadas
     resultado = resultado[:MAX_ARTICULOS_ANTERIORES]
@@ -924,6 +1058,8 @@ def ejecutar():
 
     guardar_json(CACHE, {
         "noticias": resultado,
+        "titulares_rss": titulares_rss,
+        "ultima_solicitud_groq": ultima_solicitud_groq,
         "fecha_solicitudes_groq": fecha_control,
         "solicitudes_groq": solicitudes_groq,
         "ultima_actualizacion": datetime.now(
