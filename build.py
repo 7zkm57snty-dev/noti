@@ -491,7 +491,7 @@ def crear_articulo(noticia, noticias=None):
     categoria = escapar(noticia.get("categoria"))
     contenido = str(noticia.get("contenido") or "").strip()
     imagen = imagen_segura(noticia.get("imagen"))
-    foto = f'<img class="foto" src="{imagen}" alt="{titulo}" loading="lazy">' if imagen else ""
+    foto = f'<img class="foto" src="{imagen}" alt="{titulo}" loading="lazy">' if imagen else f'<div class="portada-sin-foto portada-ficha"><strong>CEV NOTICIAS</strong><span>{categoria}</span></div>'
     credito = noticia.get("imagen_credito") or {}
     atribucion_imagen = ""
     if imagen and credito:
@@ -528,7 +528,13 @@ def crear_articulo(noticia, noticias=None):
             for _, otra in relacionadas[:3]
         )
         bloque_relacionadas = f'<section class="relacionadas"><h2 class="titulo-seccion">También te puede interesar</h2><div class="rejilla">{tarjetas_rel}</div></section>'
-    referencias = [f"<li>{escapar(fuente.get('nombre', 'Fuente consultada'))}</li>" for fuente in noticia.get("fuentes", [])]
+    referencias = []
+    for fuente in noticia.get("fuentes", []):
+        nombre_fuente = escapar(fuente.get("nombre", "Fuente consultada"))
+        titulo_fuente = escapar(fuente.get("titulo") or fuente.get("nombre", "Fuente consultada"))
+        url_fuente = imagen_segura(fuente.get("url", ""))
+        texto_fuente = f'<a href="{url_fuente}" target="_blank" rel="noopener noreferrer">{titulo_fuente}</a>' if url_fuente else titulo_fuente
+        referencias.append(f"<li>{texto_fuente} · {nombre_fuente}</li>")
     cuerpo = f"""
     <main class="articulo">
       <div class="articulo-cabecera">
@@ -639,7 +645,7 @@ def construir():
         titulo = str(noticia.get("titulo", "")).strip()
         contenido = str(noticia.get("contenido", "")).strip()
         categoria = noticia.get("categoria", "")
-        if not titulo or len(contenido) < 250 or categoria not in SECCIONES or not imagen_segura(noticia.get("imagen")):
+        if not titulo or len(contenido) < 250 or categoria not in SECCIONES:
             continue
         identificador = noticia.get("id") or slug(titulo)
         titulo_normalizado = re.sub(r"[^a-z0-9]+", " ", titulo.lower()).strip()
@@ -659,8 +665,7 @@ def construir():
         crear_articulo(noticia, validas)
 
     SITE.mkdir(parents=True, exist_ok=True)
-    for titular in titulares_rss:
-        crear_pagina_titular_rss(titular)
+    # Los RSS se conservan solo como material de investigación interno; no se publican como noticias.
     principal = validas[0] if validas else None
     laterales = validas[1:4]
     if principal:
@@ -701,7 +706,7 @@ def construir():
 
     # Cada sección cuenta con una página propia; la portada mantiene un único flujo vertical.
     for seccion in SECCIONES:
-        crear_pagina_seccion(seccion, validas, titulares_rss)
+        crear_pagina_seccion(seccion, validas, [])
 
     candidatos_express = []
     for noticia in validas:
@@ -710,10 +715,6 @@ def construir():
         item = dict(noticia)
         item["tipo"] = "propia"
         candidatos_express.append(item)
-    for titular in titulares_rss:
-        item = dict(titular)
-        item["tipo"] = "rss"
-        candidatos_express.append(item)
     candidatos_express.sort(key=fecha_ordenable, reverse=True)
     noticias_express = candidatos_express[:5]
     ids_express = {item["id"] for item in noticias_express}
@@ -721,7 +722,7 @@ def construir():
     express_html = modulo_express(noticias_express)
     lista_portada = lista_vertical(
         validas,
-        titulares_rss,
+        [],
         excluir=ids_express | ({principal["id"]} if principal else set())
     )
     contenido = (
