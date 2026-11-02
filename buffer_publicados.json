@@ -1,6 +1,6 @@
 {
   "fecha": "2026-11-02",
-  "publicaciones_hoy": 3,
+  "publicaciones_hoy": 4,
   "publicaciones": [
     {
       "noticia_id": "6f6e1983c93e7b43",
@@ -19,6 +19,12 @@
       "buffer_post_id": "6ae81bda64604db31440021d",
       "titulo": "El chisme corporativo: la moneda que impulsa la cultura empresarial",
       "fecha": "2026-11-02T00:12:58.243522-05:00"
+    },
+    {
+      "noticia_id": "7251c34f22f02aed",
+      "buffer_post_id": "6ae81c737817c41d1a44faa8",
+      "titulo": "Trump defiende los altos precios de la gasolina y amenaza con ataques a Irán",
+      "fecha": "2026-11-02T00:15:31.769547-05:00"
     }
   ]
 }
