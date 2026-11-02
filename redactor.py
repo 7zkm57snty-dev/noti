@@ -16,6 +16,8 @@ from urllib.parse import urlparse
 from groq import Groq
 from imagenes import buscar_imagen
 
+LICENCIAS_VALIDAS = ("cc0", "cc-by", "cc-by-sa", "public domain", "publicdomain", "pdm", "cc-zero")
+
 BASE = os.path.dirname(os.path.abspath(__file__))
 CACHE = os.path.join(BASE, "cache.json")
 FEEDS = os.path.join(BASE, "feeds.json")
