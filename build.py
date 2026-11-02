@@ -514,7 +514,7 @@ body.noche .destacada-visual img,body.noche .tarjeta-imagen img,body.noche .arti
 <footer class="pie">
  <div class="pie-interior">
   <div><div class="pie-marca">CEV <span>NOTICIAS</span></div><p>Actualidad de Cali, el Valle del Cauca, Colombia y el mundo.</p></div>
-  <div class="pie-links"><a href="{ruta_raiz}">Portada</a><a href="{ruta_raiz}institucional.html">Quiénes somos</a><a href="{ruta_raiz}boletin.html">Boletín de noticias</a><a href="{ruta_raiz}mapa-del-sitio.html">Mapa del sitio</a><a href="https://www.instagram.com/cev.noticias/" target="_blank" rel="noopener noreferrer">Instagram · @cev.noticias</a></div>
+  <div class="pie-links"><a href="{ruta_raiz}">Portada</a><a href="institucional.html">Quiénes somos</a><a href="boletin.html">Boletín de noticias</a><a href="{ruta_raiz}mapa-del-sitio.html">Mapa del sitio</a><a href="https://www.instagram.com/cev.noticias/" target="_blank" rel="noopener noreferrer">Instagram · @cev.noticias</a></div>
   <p class="pie-legal">CEV NOTICIAS · Las fuentes consultadas se identifican al final de cada artículo. Las noticias en desarrollo se actualizan cuando existen nuevos datos respaldados.</p>
  </div>
 </footer>
@@ -821,8 +821,8 @@ def construir():
       <h2 class="lateral-titulo">Explora por secciones</h2>
       <p class="lateral-intro">Accede directamente a los temas que te interesan.</p>
       <div class="explorar-secciones">{chips_seccion}</div>
-      <div class="lateral-destino"><strong>Conoce nuestro medio</strong><p>Consulta quiénes somos y cómo trabajamos la información.</p><a href="{ruta_raiz}institucional.html">Nuestra línea editorial ↗</a></div>
-      <div class="lateral-destino lateral-boletin"><strong>Boletín de noticias</strong><p>Un resumen de las publicaciones más recientes.</p><a href="{ruta_raiz}boletin.html">Ver el boletín ↗</a></div>
+      <div class="lateral-destino"><strong>Conoce nuestro medio</strong><p>Consulta quiénes somos y cómo trabajamos la información.</p><a href="institucional.html">Nuestra línea editorial ↗</a></div>
+      <div class="lateral-destino lateral-boletin"><strong>Boletín de noticias</strong><p>Un resumen de las publicaciones más recientes.</p><a href="boletin.html">Ver el boletín ↗</a></div>
     </aside>"""
     portada = f'<section class="portada-grid">{principal_html}{lateral_html}</section>'
 
