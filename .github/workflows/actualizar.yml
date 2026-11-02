@@ -62,6 +62,7 @@ jobs:
           git add cache.json
           if ! git diff --cached --quiet; then
             git commit -m "Actualizar historial de noticias"
+            git pull --rebase origin main
             git push
           else
             echo "No hay cambios en el historial."
@@ -88,6 +89,7 @@ jobs:
           git add buffer_publicados.json
           if ! git diff --cached --quiet; then
             git commit -m "Registrar publicaciones enviadas a Buffer"
+            git pull --rebase origin main
             git push
           else
             echo "No hay nuevos registros de Buffer."
