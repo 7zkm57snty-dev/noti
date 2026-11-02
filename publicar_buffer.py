@@ -280,7 +280,15 @@ def similitud_titulos(a, b):
     palabras_b = set(re.findall(r"[a-záéíóúñü]{4,}", str(b).lower()))
     comunes = palabras_a & palabras_b
     union = palabras_a | palabras_b
-    return len(comunes) / max(1, len(union)) if len(comunes) >= 2 else 0.0
+    if len(comunes) < 3:
+        return 0.0
+    # El solapamiento relativo detecta titulares distintos del mismo hecho
+    # (por ejemplo, Israel/Gaza y elecciones en EE. UU.) aunque empleen
+    # estructuras y palabras diferentes.
+    return max(
+        len(comunes) / max(1, len(union)),
+        len(comunes) / max(1, min(len(palabras_a), len(palabras_b)))
+    )
 
 
 def puntuacion_editorial(noticia, ahora):
@@ -566,7 +574,11 @@ def ejecutar():
     estado["publicaciones_hoy"] = sum(
         1 for r in nuevos_registros
         if r.get("buffer_status") == "scheduled"
-        and str(r.get("buffer_due_at", "")).startswith(hoy)
+        and (
+            datetime.fromisoformat(
+                str(r.get("buffer_due_at", "")).replace("Z", "+00:00")
+            ).astimezone(TZ_COLOMBIA).date() == ahora.date()
+        )
     )
     estado["fecha"] = hoy
 
