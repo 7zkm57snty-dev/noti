@@ -1024,6 +1024,10 @@ def ejecutar():
                 continue
 
             try:
+                if solicitudes_esta_ejecucion > 0:
+                    print("Pausa de 65 segundos entre llamadas de generación.")
+                    time.sleep(65)
+
                 solicitudes_groq += 1
                 solicitudes_esta_ejecucion += 1
                 ultima_solicitud_groq = datetime.now(timezone.utc).isoformat()
@@ -1099,9 +1103,6 @@ def ejecutar():
                 })
 
                 print("Artículo creado:", articulo["titulo"])
-                if solicitudes_esta_ejecucion < MAX_SOLICITUDES_POR_EJECUCION:
-                    print("Pausa de 65 segundos antes de la siguiente generación para respetar el límite de tokens por minuto.")
-                    time.sleep(65)
 
             except Exception as error:
                 print("Error al generar artículo:", str(error))
