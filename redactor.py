@@ -515,7 +515,7 @@ def crear_portada_instagram(identificador, titular, categoria, foto_url):
     d.rectangle((0, 0, 1080, 16), fill=rojo)
     d.rounded_rectangle((margen, 64, 350, 125), radius=10, fill=rojo)
     d.text((margen + 20, 77), "CEV NOTICIAS", font=_fuente_social(True, 30), fill=blanco)
-    d.text((margen, 1010), str(categoria).upper()[:32], font=_fuente_social(True, 28), fill="#ff6b72")
+    d.text((margen, 845), str(categoria).upper()[:32], font=_fuente_social(True, 28), fill="#ff6b72")
 
     # Titular de alto impacto, con tamaño adaptable y saltos de línea.
     titular = re.sub(r"\s+", " ", str(titular)).strip()
@@ -533,7 +533,7 @@ def crear_portada_instagram(identificador, titular, categoria, foto_url):
     if actual:
         lineas.append(actual)
 
-    while len(lineas) > 4 and fuente.size > 52:
+    while len(lineas) > 4 and fuente.size > 48:
         fuente = _fuente_social(True, fuente.size - 4)
         lineas = []
         actual = ""
@@ -547,8 +547,8 @@ def crear_portada_instagram(identificador, titular, categoria, foto_url):
         if actual:
             lineas.append(actual)
 
-    y = 1060
-    alto_linea = fuente.size + 13
+    y = 900
+    alto_linea = fuente.size + 10
     for linea in lineas[:4]:
         d.text((margen + 2, y + 3), linea, font=fuente, fill=(0, 0, 0, 180), stroke_width=1)
         d.text((margen, y), linea, font=fuente, fill=blanco)
