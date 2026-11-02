@@ -645,6 +645,7 @@ def crear_articulo(noticia, noticias=None):
     resumen = escapar(noticia.get("resumen"))
     categoria = escapar(noticia.get("categoria"))
     contenido = str(noticia.get("contenido") or "").strip()
+    imagen = imagen_segura(noticia.get("imagen"))
     foto = imagen_noticia(noticia, alt=titulo, clase="foto", loading="eager") or f'<div class="portada-sin-foto portada-ficha"><strong>CEV NOTICIAS</strong><span>{categoria}</span></div>'
     credito = noticia.get("imagen_credito") or {}
     atribucion_imagen = ""
