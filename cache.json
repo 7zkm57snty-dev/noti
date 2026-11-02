@@ -172,7 +172,7 @@
     }
   ],
   "fecha_solicitudes_groq": "2026-11-02",
-  "ultima_actualizacion": "2026-11-02T22:40:01.849451+00:00",
+  "ultima_actualizacion": "2026-11-02T22:41:12.873647+00:00",
   "solicitudes_groq": 30,
   "titulares_rss": [
     {
@@ -186,7 +186,7 @@
     {
       "id": "0fa12b93ccd5cfbd",
       "titulo": "Las identidades de las víctimas del atentado con volqueta cargada de explosivos en Planadas, sur del Tolima: joven promesa del fútbol murió en su casa",
-      "categoria": "Deportes",
+      "categoria": "Colombia",
       "fuente": "El Tiempo",
       "url": "https://www.eltiempo.com/colombia/otras-ciudades/las-identidades-de-las-victimas-del-atentado-con-volqueta-cargada-de-explosivos-en-planadas-sur-del-tolima-joven-futbolista-murio-en-su-casa-3597954",
       "fecha": "2026-11-02T22:31:39+00:00"
@@ -464,14 +464,6 @@
       "fecha": "2026-11-02T18:02:02+00:00"
     },
     {
-      "id": "dfa14b0598a10a07",
-      "titulo": "'Lo de Planadas es terrorismo puro y duro de las mafias que se disfrazan con brazaletes de revolucionarios', gobernadora del Tolima",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/lo-de-planadas-es-terrorismo-puro-y-duro-de-las-mafias-que-se-disfrazan-con-brazaletes-de-revolucionarios-gobernadora-del-tolima-3597937",
-      "fecha": "2026-11-02T18:01:00+00:00"
-    },
-    {
       "id": "64d6885eabf65fc9",
       "titulo": "Jackson Martínez y una selecta lista: ser goleador en Colombia con 40 años",
       "categoria": "Deportes",
@@ -686,6 +678,14 @@
       "fuente": "Diario Occidente",
       "url": "https://occidente.co/regionales/valle-del-cauca/oportunidades-laborales-en-buga-y-buenaventura-sacyr-camino-del-pacifico-2026/",
       "fecha": "2026-10-31T03:38:04+00:00"
+    },
+    {
+      "id": "2715eef565c01491",
+      "titulo": "La encrucijada de Santa Fe: Fagúndez, Bustos, Marmolejo y otros jugadores que podría perder para 2027",
+      "categoria": "Deportes",
+      "fuente": "La FM Deportes",
+      "url": "https://www.lafm.com.co/deportes/santa-fe-encrucijada-fagundez-bustos-marmolejo-2027-415772",
+      "fecha": "2026-10-31T02:45:37+00:00"
     },
     {
       "id": "f37cc892f3e74ffe",
