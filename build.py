@@ -14,6 +14,7 @@ SECCIONES = [
     "Deportes", "Tecnología", "Economía", "Tendencias", "Humor y opinión"
 ]
 COLOMBIA_TZ = timezone(timedelta(hours=-5))
+SECCIONES_DISPONIBLES = []
 
 
 def escapar(valor):
@@ -209,7 +210,7 @@ button, input { font: inherit; }
 }
 .news-track::-webkit-scrollbar { display: none; }
 .story-card {
-  flex: 0 0 clamp(300px, 34vw, 410px); min-width: 0; overflow: hidden;
+  flex: 0 0 clamp(340px, 35vw, 440px); min-width: 0; overflow: hidden;
   display: flex; flex-direction: column; background: var(--surface); border: 1px solid var(--line);
 }
 .story-link { display: flex; flex-direction: column; height: 100%; }
@@ -306,7 +307,7 @@ body.dark .mode-button:hover { background: #fff; color: #151515; }
   .explore-panel { display: grid; grid-template-columns: 1fr 1fr; align-items: start; gap: 12px 18px; }
   .explore-panel > * { grid-column: 1 / -1; }
   .panel-links { grid-template-columns: 1fr 1fr; gap: 18px; }
-  .story-card { flex-basis: 365px; }
+  .story-card { flex-basis: clamp(340px, 42vw, 440px); }
 }
 @media (max-width: 700px) {
   .topline-inner { padding: 6px 15px; font-size: 8px; }
@@ -464,7 +465,7 @@ SCRIPT = r"""
 def plantilla(titulo, contenido, descripcion="CEV NOTICIAS", ruta_raiz="", extra_head=""):
     datos = cargar_json(CACHE, {})
     noticias = datos.get("noticias", []) if isinstance(datos, dict) else []
-    disponibles = {n.get("categoria") for n in noticias if isinstance(n, dict)}
+    disponibles = set(SECCIONES_DISPONIBLES) if SECCIONES_DISPONIBLES else {n.get("categoria") for n in noticias if isinstance(n, dict)}
     enlaces_seccion = "".join(
         f'<a href="https://cevnoticias.com/#categoria-{slug(seccion)}">{escapar(seccion)}</a>'
         for seccion in SECCIONES if seccion in disponibles
@@ -606,7 +607,6 @@ def crear_articulo(noticia, noticias):
         "@context": "https://schema.org", "@type": "NewsArticle",
         "headline": str(noticia.get("titulo", "")),
         "description": str(noticia.get("resumen", "")),
-        "datePublished": str(noticia.get("fecha", "")),
         "author": {"@type": "Organization", "name": "CEV NOTICIAS"},
         "publisher": {"@type": "Organization", "name": "CEV NOTICIAS"},
         "mainEntityOfPage": url
@@ -725,6 +725,9 @@ def construir():
         vistos_ids.add(ident)
         vistos_titulos.add(titulo_normalizado)
 
+    global SECCIONES_DISPONIBLES
+    SECCIONES_DISPONIBLES = [seccion for seccion in SECCIONES if any(n.get("categoria") == seccion for n in validas)]
+
     SITE.mkdir(parents=True, exist_ok=True)
     NOTAS.mkdir(parents=True, exist_ok=True)
 
@@ -830,6 +833,8 @@ def bloques_categoria(noticias, categoria_destacada):
         if not grupo:
             continue
         identificador = f"categoria-{slug(seccion)}"
+        if seccion == categoria_destacada:
+            identificador += "-mas"
         tarjetas = "".join(tarjeta(noticia) for noticia in grupo)
         controles = ""
         if len(grupo) > 1:
