@@ -724,7 +724,12 @@ def ejecutar():
                 articulo["categoria"]
             )
 
-            portada_instagram = crear_portada_instagram(identificador, articulo["titulo"], articulo["categoria"])
+            # No publicar una noticia si no tiene fotografía real y reutilizable.
+            # Nunca sustituir la fotografía por un cartel de texto.
+            if not imagen_info or not imagen_info.get("url"):
+                print("Noticia aplazada: no se encontró fotografía real con licencia:", articulo["titulo"])
+                continue
+
             caption_instagram = crear_caption_instagram(articulo, imagen_info)
 
             nuevas.append({
@@ -733,10 +738,10 @@ def ejecutar():
                 "resumen": articulo["resumen"],
                 "categoria": articulo["categoria"],
                 "contenido": articulo["contenido"],
-                "imagen": imagen_info.get("url", "") if imagen_info else "",
-                "imagen_credito": imagen_info if imagen_info else {},
-                "imagen_instagram": imagen_info.get("url") if imagen_info else portada_instagram,
-                "imagen_instagram_tipo": "externa_con_licencia" if imagen_info else "grafica_propia",
+                "imagen": imagen_info["url"],
+                "imagen_credito": imagen_info,
+                "imagen_instagram": imagen_info["url"],
+                "imagen_instagram_tipo": "externa_con_licencia",
                 "descripcion_instagram": caption_instagram,
                 "verificacion": (
                     "Varias fuentes independientes"
