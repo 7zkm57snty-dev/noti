@@ -1,0 +1,48 @@
+name: Retirar publicación de prueba 14:00
+
+on:
+  push:
+    paths:
+      - ".github/workflows/retirar-prueba-1400.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  retirar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Retirar únicamente la publicación de prueba de las 14:00
+        env:
+          BUFFER_ACCESS_TOKEN: ${{ secrets.BUFFER_ACCESS_TOKEN }}
+        run: |
+          python - <<'PY'
+          import os, requests
+          token = os.environ.get("BUFFER_ACCESS_TOKEN")
+          if not token:
+              raise SystemExit("Falta BUFFER_ACCESS_TOKEN.")
+          post_id = "6ae8938c3911b6a45d531107"
+          query = """
+          mutation DeleteScheduledPost {
+            deletePost(input: { id: "%s" }) {
+              ... on DeletePostSuccess { id }
+              ... on MutationError { message }
+            }
+          }
+          """ % post_id
+          r = requests.post(
+              "https://api.buffer.com",
+              headers={"Authorization": f"Bearer {token}", "Content-Type": "application/json"},
+              json={"query": query},
+              timeout=30
+          )
+          r.raise_for_status()
+          data = r.json()
+          if data.get("errors"):
+              raise RuntimeError(str(data["errors"]))
+          result = (data.get("data") or {}).get("deletePost") or {}
+          if result.get("id") != post_id:
+              raise RuntimeError("Buffer no confirmó la retirada: " + str(result))
+          print("Retirada confirmada del post de prueba 14:00:", post_id)
+          PY
