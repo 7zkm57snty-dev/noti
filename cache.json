@@ -1,6 +1,21 @@
 {
   "noticias": [
     {
+      "id": "e21c0dfdced6e2ab",
+      "titulo": "España identifica a 12 extranjeros muertos en accidente ferroviario en Urda",
+      "resumen": "Un tren de Renfe chocó con un tren detenido de Iryo en Urda, dejando 69 muertos, 12 de ellos extranjeros. La identificación de los restos se ha completado en su mayoría, aunque tres personas siguen desaparecidas.",
+      "categoria": "Internacional",
+      "contenido": "El miércoles pasado, un tren de la empresa nacional Renfe chocó por detrás con un tren del operador privado Iryo que estaba detenido en la vía de la localidad de Urda, a unos 150 kilómetros al sur de Madrid. El siniestro dejó 69 víctimas mortales, convirtiéndose en uno de los peores accidentes ferroviarios de Europa en el siglo XXI.\n\nEntre los fallecidos se identificaron 54 españoles y 12 extranjeros. De estos, cuatro estadounidenses, un argentino, un mexicano, un francés, un portugués, un canadiense, un japonés, otro portugués y un checo, además de dos latinoamericanos y los estadounidenses, suman los 12. La identificación de los restos se ha llevado a cabo mediante un organismo judicial especializado.\n\nHasta la fecha, 66 de las víctimas han sido identificadas. Tres personas siguen desaparecidas: dos australianos y un japonés. El organismo de identificación confirmó que, salvo estos tres casos, todas las víctimas han sido reconocidas, lo que permite a las familias recibir el cierre necesario.\n\nEl accidente se produjo cuando el tren de Renfe, en marcha, impactó contra el tren Iryo que se había detenido tras un desperfecto informático en el sistema de señalización. Este fallo técnico obligó al tren Iryo a parar, creando la situación de riesgo que culminó en el choque.\n\nEste incidente es el segundo accidente ferroviario fatal en España durante el año, después del que dejó 46 muertos en Andalucía en enero. La magnitud del desastre ha generado una revisión de los protocolos de seguridad y la supervisión de los sistemas de señalización en la red ferroviaria nacional.\n\nLas autoridades han declarado estado de emergencia en la zona y han movilizado equipos de rescate y de identificación forense. Se ha abierto una investigación para determinar las causas exactas del fallo informático y se revisarán los protocolos de comunicación entre los operadores Renfe e Iryo. Las familias de las víctimas han pedido una respuesta rápida y la transparencia del proceso.",
+      "imagen": "https://static.dw.com/image/79797254_6.jpg",
+      "verificacion": "Una sola fuente",
+      "fecha": "01/11/2026 · 09:38 PM",
+      "fuentes": [
+        {
+          "nombre": "DW Español"
+        }
+      ]
+    },
+    {
       "id": "91ff3865f7514190",
       "titulo": "Kimi Antonelli se convierte en el campeón más joven de la Fórmula 1",
       "resumen": "El piloto italiano Kimi Antonelli, de 20 años y 68 días, se coronó campeón mundial de Fórmula 1 tras terminar tercero en el Gran Premio de México, rompiendo el récord de Sebastian Vettel como el más joven campeón. Con 119 puntos, Antonelli superó a Max Verstappen y Lewis Hamilton, mientras su equipo Mercedes celebró la hazaña.",
@@ -122,6 +137,6 @@
     }
   ],
   "fecha_solicitudes_groq": "2026-11-01",
-  "solicitudes_groq": 11,
-  "ultima_actualizacion": "2026-11-02T01:42:15.675325+00:00"
+  "solicitudes_groq": 13,
+  "ultima_actualizacion": "2026-11-02T02:38:59.592333+00:00"
 }
