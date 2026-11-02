@@ -489,6 +489,7 @@ body.noche .destacada-visual img,body.noche .tarjeta-imagen img,body.noche .arti
  .tarjeta,.tarjeta-imagen img{{transition:none}}
 }}
 
+.tarjeta:hover .tarjeta-imagen img{{transform:none}}
 </style>
 </head>
 <body>
@@ -496,13 +497,13 @@ body.noche .destacada-visual img,body.noche .tarjeta-imagen img,body.noche .arti
 <header class="masthead">
  <div class="cabecera">
   <div class="brand-row">
-   <div><div class="marca"><a href="{ruta_raiz}" aria-label="CEV NOTICIAS, ir al inicio">CEV <span>NOTICIAS</span></a></div><div class="eslogan">La actualidad, con contexto.</div></div>
+   <div><div class="marca"><a href="https://cevnoticias.com/" aria-label="CEV NOTICIAS, ir al inicio">CEV <span>NOTICIAS</span></a></div><div class="eslogan">La actualidad, con contexto.</div></div>
    <a class="instagram-marca" href="https://www.instagram.com/cev.noticias/" target="_blank" rel="noopener noreferrer" aria-label="Instagram de Cali en Vivo Noticias: @cev.noticias"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="17.5" cy="6.8" r="1.1" fill="currentColor"/></svg><span><strong>Cali en Vivo Noticias</strong><small>@cev.noticias</small></span></a>
   </div>
   <div class="cabecera-meta"><span>Edición digital · Actualización permanente</span><span class="estado">Cali · Colombia</span></div>
  </div>
  <nav aria-label="Navegación principal"><div class="nav-interior">
-  <a href="{ruta_raiz}">Portada</a>{enlaces}
+  <a href="https://cevnoticias.com/">Portada</a>{enlaces}
   <a href="institucional.html">Quiénes somos</a><a href="boletin.html">Boletín</a>
  </div></nav>
  <div class="barra-herramientas">
