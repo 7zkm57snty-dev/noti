@@ -1,6 +1,36 @@
 {
   "noticias": [
     {
+      "id": "f342e62ae96f34af",
+      "titulo": "Rusia enfrenta ciberataque masivo contra su aplicación de emergencias",
+      "resumen": "El Ministerio de Situaciones de Emergencia de Rusia informó que su aplicación móvil fue atacada, permitiendo la difusión de información falsa. Ucrania también denunció un hackeo similar. El incidente ocurre tras el fin de una tregua limitada en la región de Jersón.",
+      "categoria": "Internacional",
+      "contenido": "El Ministerio de Situaciones de Emergencia de Rusia anunció el lunes 2 de noviembre de 2026 que su aplicación móvil, la cual sirve para alertar a la población sobre ataques de Ucrania y otras amenazas, fue objeto de un ciberataque masivo. Según el comunicado publicado en Telegram, los atacantes lograron enviar información falsa a los usuarios. El ministerio aseguró que se están llevando a cabo trabajos para corregir la vulnerabilidad y restablecer el funcionamiento normal de la aplicación.\n\nEl ataque se produjo en un momento de alta tensión entre Rusia y Ucrania. La misma semana, Ucrania denunció que su sistema de alerta aérea había sido hackeado, con avisos de amenaza de radiación que aparecieron en su aplicación. Ambos incidentes sugieren un intercambio de ciberataques entre los dos países, una práctica que se ha vuelto cada vez más frecuente en el contexto de la guerra.\n\nEl anuncio de Rusia llega justo después de que terminara una tregua limitada en la ciudad de Oleshki, en la región oriental de Jersón, que estuvo vigente del 27 de octubre al 1 de noviembre. La breve pausa en los combates dejó a ambos bandos vulnerables a ataques cibernéticos, ya que las defensas de información se han visto debilitadas por la falta de operaciones militares continuas.\n\nLa difusión de información falsa a través de una aplicación de emergencia puede tener consecuencias graves. Los ciudadanos que confían en las alertas oficiales podrían recibir mensajes erróneos sobre la presencia de ataques, lo que podría generar pánico innecesario o, peor aún, impedir que busquen refugio cuando realmente lo necesiten. Además, la credibilidad de las instituciones públicas se ve afectada cuando sus canales oficiales son utilizados para propaganda.\n\nEl Ministerio de Situaciones de Emergencia ha declarado que los equipos de ciberseguridad están trabajando para identificar la fuente del ataque y cerrar la brecha. Se espera que la aplicación vuelva a su estado normal en las próximas 48 horas, aunque no se ha confirmado una fecha exacta. Mientras tanto, los usuarios se les recomienda verificar la información a través de otros medios oficiales.\n\nEste episodio subraya la importancia de la ciberseguridad en la era de la guerra híbrida. Los gobiernos deben reforzar sus defensas digitales y capacitar a sus ciudadanos para reconocer la desinformación. La protección de las infraestructuras críticas, como las aplicaciones de emergencia, es esencial para garantizar la seguridad pública y la confianza en las instituciones.",
+      "imagen": "https://static.dw.com/image/61232940_6.jpg",
+      "verificacion": "Una sola fuente",
+      "fecha": "01/11/2026 · 09:44 PM",
+      "fuentes": [
+        {
+          "nombre": "DW Español"
+        }
+      ]
+    },
+    {
+      "id": "bfc4b6968bd6a1cf",
+      "titulo": "Cali se blindó por aire y tierra: así fue el impresionante operativo para proteger a 10.000 ciclistas en el Giro de Rigo",
+      "resumen": "El Giro de Rigo, con más de 10.000 ciclistas y 35.000 visitantes de 40 países, se celebró en Cali el 1 de noviembre de 2026. La ciudad desplegó un plan de seguridad terrestre y aérea, con 1.000 policías y el helicóptero 'Halcón', garantizando la tranquilidad y el orden público durante la carrera.",
+      "categoria": "Cali",
+      "contenido": "El Giro de Rigo, una de las competencias de ciclismo de ruta más importantes de la región, se celebró en la capital del Valle del Cauca el pasado 1 de noviembre de 2026. La carrera, que atrajo a más de 10.000 ciclistas y 35.000 visitantes de 40 países, se desarrolló en un recorrido que atravesó las principales avenidas de Cali, generando una gran afluencia de aficionados y turistas.\n\nAnte la magnitud del evento y la presencia masiva de público en las vías, las autoridades locales y la Fuerza Pública diseñaron un riguroso plan de contingencia para garantizar el orden público y la protección integral de los participantes a lo largo del recorrido.\n\nEl esquema de seguridad combinó cobertura terrestre y aérea. La Policía Nacional desplegó más de 1.000 uniformados en puntos estratégicos de la ruta y zonas de concentración, mientras que el helicóptero 'Halcón' proporcionó vigilancia continua desde el aire, permitiendo la reacción oportuna de los cuadrantes y la supervisión constante del flujo de competidores y espectadores.\n\nLa coordinación entre las distintas dependencias permitió una respuesta rápida ante cualquier eventualidad, manteniendo la movilidad y la seguridad de los ciclistas y del público. La presencia de la fuerza aérea y terrestre garantizó la integridad física de los deportistas y turistas, evitando incidentes y asegurando la tranquilidad de la ciudadanía.\n\nEl resultado fue un evento sin contratiempos, donde la seguridad y el orden público se mantuvieron bajo control durante toda la jornada. El éxito del operativo reafirma la capacidad logística y de respuesta institucional de Cali para albergar competencias y espectáculos de gran escala a nivel mundial.\n\nLa experiencia consolidó la imagen de la ciudad como una sede confiable y preparada para responder a desafíos organizativos de alta exigencia, lo que augura la continuidad de eventos internacionales en el futuro y refuerza el posicionamiento de Cali como epicentro deportivo del Valle del Cauca.",
+      "imagen": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/11/01/6ae7d24cca2c9.jpeg",
+      "verificacion": "Una sola fuente",
+      "fecha": "01/11/2026 · 09:44 PM",
+      "fuentes": [
+        {
+          "nombre": "El Tiempo"
+        }
+      ]
+    },
+    {
       "id": "e21c0dfdced6e2ab",
       "titulo": "España identifica a 12 extranjeros muertos en accidente ferroviario en Urda",
       "resumen": "Un tren de Renfe chocó con un tren detenido de Iryo en Urda, dejando 69 muertos, 12 de ellos extranjeros. La identificación de los restos se ha completado en su mayoría, aunque tres personas siguen desaparecidas.",
@@ -137,6 +167,6 @@
     }
   ],
   "fecha_solicitudes_groq": "2026-11-01",
-  "solicitudes_groq": 13,
-  "ultima_actualizacion": "2026-11-02T02:38:59.592333+00:00"
+  "solicitudes_groq": 15,
+  "ultima_actualizacion": "2026-11-02T02:44:56.526277+00:00"
 }
