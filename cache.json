@@ -172,7 +172,7 @@
     }
   ],
   "fecha_solicitudes_groq": "2026-11-02",
-  "ultima_actualizacion": "2026-11-02T22:37:30.168208+00:00",
+  "ultima_actualizacion": "2026-11-02T22:39:03.981641+00:00",
   "solicitudes_groq": 30,
   "titulares_rss": [
     {
@@ -296,6 +296,14 @@
       "fecha": "2026-11-02T20:36:00+00:00"
     },
     {
+      "id": "30552bf130099d2b",
+      "titulo": "¿Quién es Kimi Antonelli, el piloto italiano que se convirtió en campeón de la Fórmula 1 a los 20 años?",
+      "categoria": "Deportes",
+      "fuente": "La FM Deportes",
+      "url": "https://www.lafm.com.co/deportes/kimi-antonelli-piloto-campeon-formula-1-415919",
+      "fecha": "2026-11-02T20:25:16+00:00"
+    },
+    {
       "id": "55a2158a932cccb4",
       "titulo": "Fifa to share confidential World Cup sell-off plan documents",
       "categoria": "Deportes",
@@ -342,6 +350,14 @@
       "fuente": "El País Colombia",
       "url": "https://elpais.com/internacional/2026-11-02/el-diplomatico-turco-feridun-sinirlioglu-entra-en-la-carrera-para-liderar-la-onu.html",
       "fecha": "2026-11-02T19:55:57+00:00"
+    },
+    {
+      "id": "0856d8a2aa2f38fc",
+      "titulo": "¿Quién es Karl Bushby? El hombre que logró recorrer el mundo caminando durante 28 años",
+      "categoria": "Colombia",
+      "fuente": "La FM Internacional",
+      "url": "https://www.lafm.com.co/internacional/karl-bushby-hombre-que-recorrio-el-mundo-caminando-durante-28-anos-415916",
+      "fecha": "2026-11-02T19:49:07+00:00"
     },
     {
       "id": "13ee039997e752ab",
@@ -416,12 +432,12 @@
       "fecha": "2026-11-02T18:58:41+00:00"
     },
     {
-      "id": "c736525341fde605",
-      "titulo": "Asesinan a trabajador del sector petrolero frente a sus compañeros en Barrancabermeja, Santander: esto se sabe del crimen",
+      "id": "b6e2dc25c2231606",
+      "titulo": "Accidente aéreo en Florida: se conocen audios antes del choque",
       "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/santander/asesinan-a-trabajador-del-sector-petrolero-frente-a-sus-companeros-en-barrancabermeja-santander-esto-se-sabe-del-crimen-3597948",
-      "fecha": "2026-11-02T18:50:31+00:00"
+      "fuente": "La FM Internacional",
+      "url": "https://www.lafm.com.co/internacional/accidente-aereo-en-florida-revelan-audios-antes-del-choque-415915",
+      "fecha": "2026-11-02T18:52:26+00:00"
     },
     {
       "id": "291f7151e486f924",
@@ -464,14 +480,6 @@
       "fecha": "2026-11-02T18:15:00+00:00"
     },
     {
-      "id": "9f59a46ba81daf5c",
-      "titulo": "El historial del conductor de un lujoso Corvette que causó un accidente en Medellín: tenía licencia vencida y ocho multas",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/medellin/con-licencia-vencida-y-8-multas-previas-el-historial-del-conductor-de-un-corvette-que-causo-un-accidente-en-medellin-3597946",
-      "fecha": "2026-11-02T18:13:25+00:00"
-    },
-    {
       "id": "97633ae82bfd740a",
       "titulo": "Tajamar Occidental suma $100.000 millones del Gobierno a una obra de cerca de $380.000 millones en Barranquilla",
       "categoria": "Economía",
@@ -494,14 +502,6 @@
       "fuente": "La República",
       "url": "https://www.larepublica.co/empresas/alicorp-adquirio-rama-y-operara-desde-cali-para-atender-cuatro-mercados-de-la-region-4516243",
       "fecha": "2026-11-02T17:59:38+00:00"
-    },
-    {
-      "id": "a97d384cae94a3c9",
-      "titulo": "Almost 8.4m ticket requests for India-Pakistan World Cup tie",
-      "categoria": "Deportes",
-      "fuente": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/cricket/articles/cr2ke7gy8q1go?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-02T17:59:02+00:00"
     },
     {
       "id": "b62a99356a0e1198",
@@ -608,6 +608,14 @@
       "fecha": "2026-11-02T13:00:00+00:00"
     },
     {
+      "id": "810a63ed50a62283",
+      "titulo": "En Buenaventura siguen buscando a Dylan Campaz, completa más de 20 días desaparecido",
+      "categoria": "Valle del Cauca",
+      "fuente": "La FM Actualidad",
+      "url": "https://www.lafm.com.co/actualidad/dylan-campaz-20-dias-desaparecido-buenaventura-valle-del-cauca-415878",
+      "fecha": "2026-11-02T02:53:13+00:00"
+    },
+    {
       "id": "eff1171ba3ee1abb",
       "titulo": "Cali se blindó por aire y tierra: así fue el impresionante operativo para proteger a 10.000 ciclistas en el Giro de Rigo",
       "categoria": "Cali",
@@ -678,14 +686,6 @@
       "fuente": "Diario Occidente",
       "url": "https://occidente.co/regionales/valle-del-cauca/oportunidades-laborales-en-buga-y-buenaventura-sacyr-camino-del-pacifico-2026/",
       "fecha": "2026-10-31T03:38:04+00:00"
-    },
-    {
-      "id": "d0f80cdfc0db3b68",
-      "titulo": "Con vigilancia satelital protegen islas Malpelo y Gorgona",
-      "categoria": "Valle del Cauca",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/medio-ambiente/pesca-ilegal-pacifico-colombiano-parques-nacionales-monitoreo-2026/",
-      "fecha": "2026-10-31T01:57:48+00:00"
     },
     {
       "id": "f37cc892f3e74ffe",
