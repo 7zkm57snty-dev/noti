@@ -253,7 +253,7 @@ body.noche .pie{{background:#090909}}
  }});
 
  // Los enlaces de navegación usan anclas nativas para abrir la sección al primer clic.
-})();
+}})();
 </script>
 <div class="progreso-lectura" id="progreso-lectura"></div>
 <button class="volver-arriba" id="volver-arriba" type="button" aria-label="Volver arriba" title="Volver arriba">↑</button>
