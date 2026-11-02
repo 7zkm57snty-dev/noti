@@ -1,4 +1,5 @@
 import os
+import json
 import requests
 
 TOKEN = os.environ.get("BUFFER_ACCESS_TOKEN")
@@ -21,7 +22,13 @@ mutation CreateDraftPost {
     channelId: "%s",
     schedulingType: automatic,
     mode: addToQueue,
-    saveToDraft: true
+    saveToDraft: true,
+    metadata: {
+      instagram: {
+        type: post,
+        shouldShareToFeed: true
+      }
+    }
   }) {
     ... on PostActionSuccess {
       post {
@@ -34,7 +41,7 @@ mutation CreateDraftPost {
     }
   }
 }
-""" % (__import__("json").dumps(texto, ensure_ascii=False), CHANNEL_ID)
+""" % (json.dumps(texto, ensure_ascii=False), CHANNEL_ID)
 
 response = requests.post(
     "https://api.buffer.com",
