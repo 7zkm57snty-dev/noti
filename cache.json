@@ -1,6 +1,21 @@
 {
   "noticias": [
     {
+      "id": "6f6e1983c93e7b43",
+      "titulo": "Kiev anuncia el fin de la tregua de cuatro días en el sur de Ucrania",
+      "resumen": "El gobierno ucraniano informó el 1 de noviembre de que concluyó la tregua negociada con la primera dama de Estados Unidos, que permitió una misión humanitaria en Oleshki y dejó sin violaciones el alto el fuego en la región de Jersón. La extensión del cese de hostilidades fue rechazada por Rusia, mientras que en otras zonas el conflicto continúa.",
+      "categoria": "Internacional",
+      "contenido": "El 1 de noviembre, el defensor del Pueblo de Ucrania, Dmytro Lubinets, confirmó que la tregua más larga de la guerra en Ucrania, que se extendió del 27 de octubre al 1 de noviembre, había concluido sin incidentes. La pausa, negociada por la primera dama de Estados Unidos, Melania Trump, permitió el envío de una misión humanitaria a la ciudad de Oleshki, ocupada por fuerzas rusas desde 2022.\n\nDurante los cuatro días de alto el fuego, ninguna de las partes denunció violaciones. Un parlamentario ucraniano describió la situación como la “mayor desescalada desde 2022”. La ausencia de hostilidades brindó a los habitantes de la región de Jersón un respiro, algo que el jardinero Volodimir Omeltchenko, de 38 años, describió como un “soplo de aire fresco”.\n\nEl gobierno ucraniano intentó extender el cese de fuego, pero un alto funcionario de la presidencia informó que los rusos no aceptaron la propuesta. La falta de extensión refleja la persistente tensión entre ambos bandos, a pesar de la mediación internacional.\n\nMientras tanto, fuera de la zona de Jersón, el conflicto sigue activo. Rusia afirmó que un dron impactó una “empresa industrial” al este de Moscú, y los medios ucranianos reportaron un ataque contra la refinería de petróleo de Kstovo, una de las mayores instalaciones de Rusia. Ucrania ha atacado repetidamente infraestructuras energéticas rusas, alegando que es una respuesta legítima a los bombardeos contra sus propias instalaciones.\n\nEl presidente de Estados Unidos, Donald Trump, ha presionado a Kiev para que detenga estos ataques, argumentando que contribuyen al aumento de los precios del diésel. Los analistas vinculan el encarecimiento de los combustibles con la guerra con Irán.\n\nLa conclusión de la tregua en Jersón, aunque breve, representa un paso importante en los esfuerzos humanitarios conjuntos y demuestra la influencia de la diplomacia internacional en el conflicto. Sin embargo, la continuación de los combates en otras áreas subraya la complejidad de la situación y la necesidad de soluciones sostenibles para evitar más sufrimiento entre la población civil.",
+      "imagen": "https://static.dw.com/image/79822705_6.jpg",
+      "verificacion": "Una sola fuente",
+      "fecha": "01/11/2026 · 10:20 PM",
+      "fuentes": [
+        {
+          "nombre": "DW Español"
+        }
+      ]
+    },
+    {
       "id": "f342e62ae96f34af",
       "titulo": "Rusia enfrenta ciberataque masivo contra su aplicación de emergencias",
       "resumen": "El Ministerio de Situaciones de Emergencia de Rusia informó que su aplicación móvil fue atacada, permitiendo la difusión de información falsa. Ucrania también denunció un hackeo similar. El incidente ocurre tras el fin de una tregua limitada en la región de Jersón.",
@@ -167,6 +182,6 @@
     }
   ],
   "fecha_solicitudes_groq": "2026-11-01",
-  "solicitudes_groq": 16,
-  "ultima_actualizacion": "2026-11-02T02:47:46.550065+00:00"
+  "solicitudes_groq": 18,
+  "ultima_actualizacion": "2026-11-02T03:20:45.231458+00:00"
 }
