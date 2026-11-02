@@ -518,16 +518,17 @@ def plantilla(titulo, contenido, descripcion="CEV NOTICIAS", ruta_raiz="", extra
 </html>"""
 
 
-def tarjeta(noticia):
+def tarjeta(noticia, en_articulo=False):
     titulo = escapar(noticia.get("titulo"))
     resumen = escapar(noticia.get("resumen"))
     categoria = escapar(noticia.get("categoria"))
     identificador = escapar(noticia.get("id"))
+    destino = f"{identificador}.html" if en_articulo else f"notas/{identificador}.html"
     imagen = imagen_segura(noticia.get("imagen"))
     visual = f'<img src="{imagen}" alt="{titulo}" loading="lazy">' if imagen else '<div class="story-image">CEV NOTICIAS</div>'
     return f"""
     <article class="story-card">
-      <a class="story-link" href="notas/{identificador}.html">
+      <a class="story-link" href="{destino}">
         <div class="story-image">{visual}</div>
         <div class="story-copy">
           <span class="category-label">{categoria}</span>
@@ -584,7 +585,7 @@ def crear_articulo(noticia, noticias):
     relacionadas.sort(key=lambda item: item[0], reverse=True)
     rel = ""
     if relacionadas:
-        rel = '<section class="related"><h2>También te puede interesar</h2><div class="related-grid">' + "".join(tarjeta(n) for _, n in relacionadas[:2]) + "</div></section>"
+        rel = '<section class="related"><h2>También te puede interesar</h2><div class="related-grid">' + "".join(tarjeta(n, en_articulo=True) for _, n in relacionadas[:2]) + "</div></section>"
 
     cuerpo = f"""
     <main class="article-page">
