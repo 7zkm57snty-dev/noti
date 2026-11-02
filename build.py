@@ -3,6 +3,7 @@ import re
 import html
 from html.parser import HTMLParser
 import mimetypes
+import shutil
 from pathlib import Path
 from datetime import datetime, timezone, timedelta
 from urllib.request import Request, urlopen
@@ -159,11 +160,12 @@ def tarjeta_rss(titular):
     imagen = imagen_segura(titular.get("imagen"))
     fecha = fecha_ordenable(titular)
     fecha_texto = datetime.fromtimestamp(fecha, COLOMBIA_TZ).strftime("%d/%m · %I:%M %p") if fecha else ""
-    visual = f'<img src="{imagen}" alt="{titulo}" loading="lazy">' if imagen else f'<div class="portada-sin-foto"><strong>CEV</strong><span>{categoria}</span></div>'
+    visual = f'<img src="{imagen}" alt="{titulo}" loading="lazy">' if imagen else ""
+    bloque_imagen = f'<div class="tarjeta-imagen">{visual}</div>' if visual else ""
     return f"""
     <article class="tarjeta tarjeta-vertical titular-externo">
-      <a class="tarjeta-enlace titular-rss-enlace" href="notas/actualidad-{identificador}.html">
-        <div class="tarjeta-imagen">{visual}</div>
+      <a class="tarjeta-enlace titular-rss-enlace" href="/notas/actualidad-{identificador}.html">
+        {bloque_imagen}
         <div class="tarjeta-contenido">
           <span class="rss-sello">CEV NOTICIAS · ACTUALIDAD</span>
           <h3>{titulo}</h3>
@@ -404,10 +406,7 @@ body.noche .express-controles button{{color:var(--tinta)}}
 .tarjeta-vertical.titular-externo{{display:block;min-height:0;background:transparent;border:0;border-bottom:1px solid var(--linea)}}
 .tarjeta-vertical.titular-externo h3{{font-family:'Playfair Display',Georgia,serif}}
 .tarjeta-vertical .titular-rss-enlace{{padding:0;gap:0}}
-.portada-sin-foto{{height:100%;min-height:150px;display:flex;flex-direction:column;align-items:flex-start;justify-content:flex-end;gap:8px;padding:20px;background:linear-gradient(135deg,#171717 0%,#343434 60%,#b5282f 160%);color:#fff}}
-.portada-sin-foto strong{{font-family:'Playfair Display',Georgia,serif;font-size:clamp(30px,4vw,48px);letter-spacing:-2px}}
-.portada-sin-foto span{{font-size:10px;font-weight:800;letter-spacing:1.5px;text-transform:uppercase;color:#f2d4d4}}
-.portada-ficha{{max-width:740px;height:360px;margin:25px auto}}
+.portada-ficha{{max-width:740px;height:auto;margin:25px auto}}
 .pagina-seccion{{padding-top:30px;padding-bottom:50px}}
 .cabecera-seccion{{padding:5px 0 25px;border-bottom:1px solid var(--tinta);margin-bottom:8px}}
 .cabecera-seccion h1{{font-family:'Playfair Display',Georgia,serif;font-size:clamp(42px,7vw,74px);line-height:1;margin:10px 0}}
@@ -736,7 +735,7 @@ def crear_pagina_titular_rss(titular):
     fuente = escapar(titular.get("fuente", "Medio de origen"))
     url_original = imagen_segura(titular.get("url"))
     imagen = imagen_segura(titular.get("imagen"))
-    foto = f'<img class="foto" src="{imagen}" alt="{titulo}" loading="lazy">' if imagen else f'<div class="portada-sin-foto portada-ficha"><strong>CEV NOTICIAS</strong><span>{categoria}</span></div>'
+    foto = f'<img class="foto" src="{imagen}" alt="{titulo}" loading="lazy">' if imagen else ""
     fecha = fecha_ordenable(titular)
     fecha_texto = datetime.fromtimestamp(fecha, COLOMBIA_TZ).strftime("%d/%m/%Y · %I:%M %p") if fecha else "Fecha no disponible"
 
@@ -805,6 +804,25 @@ def crear_pagina_seccion(seccion, noticias, titulares):
 
 
 
+def limpiar_archivos_publicos_obsoletos():
+    """
+    Limpia páginas, secciones e imágenes públicas de versiones anteriores.
+    Conserva site/social porque contiene recursos aprobados para redes.
+    """
+    SITE.mkdir(parents=True, exist_ok=True)
+    for nombre in ("notas", "secciones", "imagenes"):
+        ruta = SITE / nombre
+        if ruta.exists():
+            shutil.rmtree(ruta)
+
+    for nombre in ("index.html", "sitemap.xml", "robots.txt"):
+        ruta = SITE / nombre
+        if ruta.exists():
+            ruta.unlink()
+
+    print("Archivos públicos antiguos eliminados; carpeta social conservada.")
+
+
 def validar_archivos_publicados(noticias):
     """
     Comprueba que cada artículo, categoría e imagen apuntados exista
@@ -844,8 +862,13 @@ def validar_archivos_publicados(noticias):
     for pagina in paginas:
         if not pagina.is_file():
             continue
+        contenido_html = pagina.read_text(encoding="utf-8")
+        if "portada-sin-foto" in contenido_html or "/social/" in contenido_html:
+            faltantes.append(
+                f"{pagina.relative_to(SITE)} contiene una portada de texto o un recurso social"
+            )
         parser = RecolectorEnlaces()
-        parser.feed(pagina.read_text(encoding="utf-8"))
+        parser.feed(contenido_html)
         for url in parser.urls:
             if url.startswith(("#", "mailto:", "tel:", "javascript:", "data:")):
                 continue
@@ -885,6 +908,7 @@ def validar_archivos_publicados(noticias):
 
 
 def construir():
+    limpiar_archivos_publicos_obsoletos()
     datos = cargar_json(CACHE, {})
     noticias = datos.get("noticias", [])
     titulares_rss = datos.get("titulares_rss", []) if isinstance(datos.get("titulares_rss", []), list) else []
