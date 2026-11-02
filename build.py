@@ -63,7 +63,7 @@ def tarjeta(noticia, posicion=0):
     </article>"""
 
 
-def plantilla(titulo, contenido, descripcion="CEV NOTICIAS", ruta_raiz=""):
+def plantilla(titulo, contenido, descripcion="CEV NOTICIAS", ruta_raiz="", extra_head=""):
     enlaces = "".join(
         f'<a href="{ruta_raiz}#categoria-{slug(s)}">{escapar(s)}</a>'
         for s in SECCIONES
@@ -75,6 +75,7 @@ def plantilla(titulo, contenido, descripcion="CEV NOTICIAS", ruta_raiz=""):
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="theme-color" content="#f7f6f2">
 <meta name="description" content="{escapar(descripcion)}">
+{extra_head}
 <title>{escapar(titulo)} | CEV NOTICIAS</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -158,6 +159,10 @@ nav a:hover,nav a:focus{{color:var(--rojo)}}
 .pie strong span{{color:#e14a50}}
 .pie p{{color:#aaa;font-size:11px;line-height:1.7}}
 /* Herramientas de lectura y navegación */
+.relacionadas{{margin:48px auto 0;max-width:740px}}
+.relacionadas .rejilla{{grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}}
+.relacionadas .tarjeta{{padding:16px;border:1px solid var(--linea);background:var(--blanco)}}
+.relacionadas .tarjeta h3{{font-size:19px}}
 .barra-herramientas{{max-width:var(--ancho);margin:auto;padding:12px 28px;display:flex;gap:10px;align-items:center;border-bottom:1px solid var(--linea)}}
 .buscador{{flex:1;min-width:0;padding:11px 14px;border:1px solid var(--linea);background:var(--blanco);color:var(--tinta);font:inherit;font-size:13px;border-radius:2px}}
 .accion-ui{{border:1px solid var(--tinta);background:transparent;color:var(--tinta);padding:10px 13px;font:700 10px 'DM Sans',sans-serif;letter-spacing:.7px;text-transform:uppercase;cursor:pointer}}
@@ -311,7 +316,7 @@ body.noche .pie{{background:#090909}}
 </html>"""
 
 
-def crear_articulo(noticia):
+def crear_articulo(noticia, noticias=None):
     identificador = noticia["id"]
     titulo = escapar(noticia.get("titulo"))
     resumen = escapar(noticia.get("resumen"))
@@ -335,6 +340,26 @@ def crear_articulo(noticia):
         extras = " · ".join(enlaces_credito)
         atribucion_imagen = f'<p class="credito-imagen">Imagen: {autor} · {origen} · {licencia} {extras}</p>'
     parrafos = "".join(f"<p>{escapar(p.strip())}</p>" for p in contenido.split("\n\n") if p.strip())
+    noticias = noticias or [noticia]
+    def palabras(texto):
+        return set(re.findall(r"[a-záéíóúñü]{4,}", str(texto or "").lower()))
+    actuales = palabras(noticia.get("titulo", "") + " " + noticia.get("resumen", ""))
+    relacionadas = []
+    for otra in noticias:
+        if otra.get("id") == identificador:
+            continue
+        comunes = len(actuales & palabras(otra.get("titulo", "") + " " + otra.get("resumen", "")))
+        puntaje = comunes + (2 if otra.get("categoria") == noticia.get("categoria") else 0)
+        if puntaje:
+            relacionadas.append((puntaje, otra))
+    relacionadas.sort(key=lambda x: x[0], reverse=True)
+    bloque_relacionadas = ""
+    if relacionadas:
+        tarjetas_rel = "".join(
+            f'<article class="tarjeta"><a class="tarjeta-enlace" href="{html.escape(otra.get("id", ""), quote=True)}.html"><span class="etiqueta">{escapar(otra.get("categoria"))}</span><h3>{escapar(otra.get("titulo"))}</h3><p>{escapar(otra.get("resumen"))}</p><span class="leer">Leer noticia ↗</span></a></article>'
+            for _, otra in relacionadas[:3]
+        )
+        bloque_relacionadas = f'<section class="relacionadas"><h2 class="titulo-seccion">También te puede interesar</h2><div class="rejilla">{tarjetas_rel}</div></section>'
     referencias = [f"<li>{escapar(fuente.get('nombre', 'Fuente consultada'))}</li>" for fuente in noticia.get("fuentes", [])]
     cuerpo = f"""
     <main class="articulo">
@@ -343,7 +368,8 @@ def crear_articulo(noticia):
        <p class="etiqueta">{categoria}</p>
        <h1>{titulo}</h1>
        <p class="bajada">{resumen}</p>
-       <p class="fecha">Publicado: {escapar(noticia.get("fecha", fecha_actual()))}</p>
+       <p class="fecha">Publicado: {escapar(noticia.get("fecha", fecha_actual()))} · Por CEV NOTICIAS</p>
+       <p class="fecha">Verificación editorial: {escapar(noticia.get("verificacion", "Fuente consultada; ver referencias"))}</p>
       </div>
       {foto}
       {atribucion_imagen}
@@ -351,8 +377,14 @@ def crear_articulo(noticia):
       <div class="fuentes"><strong>Fuentes consultadas</strong><ul>{''.join(referencias)}</ul>
        <p>Artículo de elaboración propia. Las fuentes se presentan para consulta y contraste.</p>
       </div>
+      {bloque_relacionadas}
     </main>"""
-    pagina = plantilla(titulo, cuerpo, resumen, ruta_raiz="../")
+    url_articulo = f"https://cevnoticias.com/notas/{identificador}.html"
+    datos_schema = {"@context":"https://schema.org","@type":"NewsArticle","headline":str(noticia.get("titulo","")),"description":str(noticia.get("resumen","")),"author":{"@type":"Organization","name":"CEV NOTICIAS"},"publisher":{"@type":"Organization","name":"CEV NOTICIAS"},"mainEntityOfPage":url_articulo}
+    if imagen:
+        datos_schema["image"] = imagen
+    extra_head = f'<link rel="canonical" href="{url_articulo}"><meta property="og:type" content="article"><meta property="og:title" content="{titulo}"><meta property="og:description" content="{resumen}"><meta property="og:url" content="{url_articulo}">' + (f'<meta property="og:image" content="{imagen}">' if imagen else "") + '<script type="application/ld+json">' + json.dumps(datos_schema, ensure_ascii=False) + '</script>'
+    pagina = plantilla(titulo, cuerpo, resumen, ruta_raiz="../", extra_head=extra_head)
     NOTAS.mkdir(parents=True, exist_ok=True)
     (NOTAS / f"{identificador}.html").write_text(pagina, encoding="utf-8")
 
@@ -380,7 +412,9 @@ def construir():
         vistos.add(identificador)
         titulos_vistos.add(titulo_normalizado)
         validas.append(noticia)
-        crear_articulo(noticia)
+    
+    for noticia in validas:
+        crear_articulo(noticia, validas)
 
     SITE.mkdir(parents=True, exist_ok=True)
     principal = validas[0] if validas else None
@@ -436,7 +470,12 @@ def construir():
         )
 
     contenido = f'<main class="contenedor"><div class="cinta"><span>En desarrollo</span><a class="cinta-enlace" href="#categoria-cali">Explorar actualidad <span aria-hidden="true">↘</span></a></div>{portada}{"".join(bloques)}</main>'
-    (SITE / "index.html").write_text(plantilla("Portada", contenido), encoding="utf-8")
+    portada_head = '<link rel="canonical" href="https://cevnoticias.com/"><meta property="og:type" content="website"><meta property="og:title" content="CEV NOTICIAS | Actualidad y periodismo">'
+    (SITE / "index.html").write_text(plantilla("Portada", contenido, "Noticias de Cali, Valle del Cauca, Colombia y el mundo.", extra_head=portada_head), encoding="utf-8")
+    urls = ["https://cevnoticias.com/"] + [f"https://cevnoticias.com/notas/{n['id']}.html" for n in validas]
+    sitemap = '<?xml version="1.0" encoding="UTF-8"?>\\n' + '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\\n' + ''.join(f'<url><loc>{html.escape(url)}</loc></url>\\n' for url in urls) + '</urlset>\\n'
+    (SITE / "sitemap.xml").write_text(sitemap, encoding="utf-8")
+    (SITE / "robots.txt").write_text("User-agent: *\\nAllow: /\\nSitemap: https://cevnoticias.com/sitemap.xml\\n", encoding="utf-8")
     print(f"Portada creada. Artículos publicados: {len(validas)}")
 
 
