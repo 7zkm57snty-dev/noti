@@ -447,6 +447,7 @@ def editar_o_crear_en_franja(noticia, puntuacion, franja, registro, post):
             str(registro.get("noticia_id")) != noticia_id
             or str(post.get("dueAt", "")) != due_at
             or not titulo_anterior
+            or registro.get("version_imagen") != 1
         ):
             resultado = editar_publicacion(post_id, noticia, due_at)
             print("PUBLICACIÓN PENDIENTE ACTUALIZADA EN BUFFER.")
@@ -468,6 +469,7 @@ def editar_o_crear_en_franja(noticia, puntuacion, franja, registro, post):
             "buffer_status": resultado.get("status") or "scheduled",
             "buffer_channel_id": resultado.get("channelId") or CHANNEL_ID,
             "fecha_actualizacion": fecha_local().isoformat(),
+            "version_imagen": 1,
             "reemplazos": historial[-20:]
         })
         return registro
@@ -482,6 +484,7 @@ def editar_o_crear_en_franja(noticia, puntuacion, franja, registro, post):
         "buffer_status": resultado.get("status") or "scheduled",
         "buffer_channel_id": resultado.get("channelId") or CHANNEL_ID,
         "fecha": fecha_local().isoformat(),
+        "version_imagen": 1,
         "reemplazos": []
     }
     print("PUBLICACIÓN AÑADIDA A BUFFER EN HORA FIJA.")
