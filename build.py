@@ -170,15 +170,15 @@ body.noche .pie{{background:#090909}}
 @media(max-width:650px){{
  .barra-herramientas{{padding:10px 15px;flex-wrap:wrap}}
  .buscador{{flex-basis:100%}}
- .rejilla{{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;gap:14px;padding-bottom:12px;overscroll-behavior-x:contain;-webkit-overflow-scrolling:touch}}
- .rejilla .tarjeta{{flex:0 0 84%;scroll-snap-align:start}}
+ .rejilla{{display:flex;overflow-x:auto;scroll-snap-type:none;gap:14px;padding-bottom:12px;overscroll-behavior-x:contain;-webkit-overflow-scrolling:touch}}
+ .rejilla .tarjeta{{flex:0 0 84%;scroll-snap-align:none}}
  .rejilla .tarjeta-imagen{{height:190px}}
 }}
 
 
 /* Carruseles continuos por sección */
 .bloque-categoria{{overflow:hidden}}
-.rejilla.carrusel-infinito{{display:flex;gap:22px;overflow-x:auto;overflow-y:hidden;width:100%;max-width:100%;animation:none;scrollbar-width:none;overscroll-behavior-x:contain;-webkit-overflow-scrolling:touch;scroll-behavior:auto;padding-bottom:12px}} .rejilla.carrusel-infinito::-webkit-scrollbar{{display:none}}
+.rejilla.carrusel-infinito{{display:flex;gap:22px;overflow-x:auto;overflow-y:hidden;width:100%;max-width:100%;animation:none;scrollbar-width:none;overscroll-behavior-x:contain;-webkit-overflow-scrolling:touch;scroll-behavior:auto;scroll-snap-type:none;touch-action:pan-x;padding-bottom:12px}} .rejilla.carrusel-infinito::-webkit-scrollbar{{display:none}}
 
 .rejilla.carrusel-infinito .tarjeta{{flex:0 0 clamp(245px,27vw,330px);width:clamp(245px,27vw,330px);min-width:0}}
 .rejilla.carrusel-infinito .tarjeta-imagen{{height:185px}}
@@ -243,33 +243,41 @@ body.noche .pie{{background:#090909}}
 <script>
 (function(){{
 
- // Carruseles: desplazamiento automático suave y control manual con dedo/ratón.
+ // Carruseles realmente continuos: duplicamos el contenido y reciclamos
+ // el desplazamiento sin saltar visualmente al inicio.
  const carruseles=[...document.querySelectorAll('.rejilla.carrusel-infinito, .nav-interior')];
- carruseles.forEach(track=>{{
-  let pausado=false, reanudar=null, anterior=0;
-  const detener=()=>{{pausado=true;clearTimeout(reanudar);reanudar=setTimeout(()=>{{pausado=false;}},2200);}};
-  track.addEventListener('pointerdown',detener,{{passive:true}});
-  track.addEventListener('pointerup',()=>{{clearTimeout(reanudar);reanudar=setTimeout(()=>{{pausado=false;}},1600);}},{{passive:true}});
-  track.addEventListener('pointercancel',()=>{{pausado=false;}},{{passive:true}});
-  track.addEventListener('touchstart',detener,{{passive:true}});
-  track.addEventListener('touchend',()=>{{clearTimeout(reanudar);reanudar=setTimeout(()=>{{pausado=false;}},1600);}},{{passive:true}});
-  track.addEventListener('wheel',detener,{{passive:true}});
-  track.addEventListener('mouseenter',()=>{{pausado=true;}});
-  track.addEventListener('mouseleave',()=>{{pausado=false;}});
-  track.addEventListener('focusin',()=>{{pausado=true;}});
-  track.addEventListener('focusout',()=>{{pausado=false;}});
-  function mover(t){{
+ carruseles.forEach(track=>{
+  const originales=[...track.children];
+  if(!originales.length)return;
+  originales.forEach(el=>track.appendChild(el.cloneNode(true)));
+  let pausado=false,temporizador=null,anterior=0,anchoCiclo=0;
+  const medir=()=>{anchoCiclo=track.scrollWidth/2;};
+  medir();
+  if('ResizeObserver' in window)new ResizeObserver(medir).observe(track);
+  const pausar=()=>{pausado=true;clearTimeout(temporizador);};
+  const reanudar=()=>{clearTimeout(temporizador);temporizador=setTimeout(()=>{pausado=false;},1800);};
+  track.addEventListener('pointerdown',pausar,{passive:true});
+  track.addEventListener('pointerup',reanudar,{passive:true});
+  track.addEventListener('pointercancel',reanudar,{passive:true});
+  track.addEventListener('touchstart',pausar,{passive:true});
+  track.addEventListener('touchend',reanudar,{passive:true});
+  track.addEventListener('touchcancel',reanudar,{passive:true});
+  track.addEventListener('wheel',pausar,{passive:true});
+  track.addEventListener('mouseenter',pausar);
+  track.addEventListener('mouseleave',reanudar);
+  track.addEventListener('focusin',pausar);
+  track.addEventListener('focusout',reanudar);
+  function mover(t){
    if(!anterior)anterior=t;
    const delta=Math.min(t-anterior,40);anterior=t;
-   if(!pausado&&track.scrollWidth>track.clientWidth+2){{
-    track.scrollLeft+=delta*0.018;
-    if(track.scrollLeft+track.clientWidth>=track.scrollWidth-1)track.scrollLeft=0;
-   }}
+   if(!pausado&&anchoCiclo>0){
+    track.scrollLeft+=delta*0.012;
+    if(track.scrollLeft>=anchoCiclo)track.scrollLeft-=anchoCiclo;
+   }
    requestAnimationFrame(mover);
-  }}
+  }
   requestAnimationFrame(mover);
- }});
- // La navegación conserva sus anclas nativas: cada sección abre al primer clic.
+ }); // La navegación conserva sus anclas nativas: cada sección abre al primer clic.
 }})();
 </script>
 <div class="progreso-lectura" id="progreso-lectura"></div>
