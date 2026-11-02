@@ -43,13 +43,16 @@ def imagen_segura(url):
 
 def etiqueta_estado(noticia):
     estado = str(noticia.get("estado_informacion", "")).strip().lower()
+    # El archivo histórico puede mostrar Confirmada si registra contraste
+    # de varias fuentes independientes y no tiene un estado más específico.
+    if not estado and "varias fuentes independientes" in str(noticia.get("verificacion", "")).lower():
+        estado = "confirmada"
     etiquetas = {
         "confirmada": ("Confirmada", "confirmada"),
         "en_desarrollo": ("En desarrollo", "desarrollo"),
         "informacion_preliminar": ("Información preliminar", "preliminar")
     }
-    # Las noticias ya archivadas y sin clasificación explícita se muestran
-    # como actualidad, no como confirmadas.
+    # El resto del archivo histórico conserva el rótulo neutral Actualidad.
     texto, clase = etiquetas.get(estado, ("Actualidad", "actualidad"))
     return f'<span class="estado-noticia estado-{clase}" aria-label="Estado de la información: {texto}">{texto}</span>'
 
