@@ -1,6 +1,6 @@
 {
   "fecha": "2026-11-02",
-  "publicaciones_hoy": 3,
+  "publicaciones_hoy": 4,
   "publicaciones": [
     {
       "noticia_id": "4054019971503fda",
@@ -11,7 +11,7 @@
       "buffer_status": "scheduled",
       "buffer_channel_id": "6ae80f3ce29c69a171328e5d",
       "score_editorial": 12.94,
-      "fecha_actualizacion": "2026-11-02T00:28:07.299081-05:00",
+      "fecha_actualizacion": "2026-11-02T00:29:09.991852-05:00",
       "reemplazos": []
     },
     {
@@ -23,7 +23,7 @@
       "buffer_status": "scheduled",
       "buffer_channel_id": "6ae80f3ce29c69a171328e5d",
       "score_editorial": 12.46,
-      "fecha_actualizacion": "2026-11-02T00:28:07.685253-05:00",
+      "fecha_actualizacion": "2026-11-02T00:29:09.991887-05:00",
       "reemplazos": [
         {
           "noticia_id": "7251c34f22f02aed",
@@ -41,7 +41,7 @@
       "buffer_status": "scheduled",
       "buffer_channel_id": "6ae80f3ce29c69a171328e5d",
       "score_editorial": 10.96,
-      "fecha_actualizacion": "2026-11-02T00:28:08.012524-05:00",
+      "fecha_actualizacion": "2026-11-02T00:29:09.991906-05:00",
       "reemplazos": [
         {
           "noticia_id": "77b91be9109cbdea",
@@ -59,7 +59,7 @@
       "buffer_status": "scheduled",
       "buffer_channel_id": "6ae80f3ce29c69a171328e5d",
       "score_editorial": 10.95,
-      "fecha_actualizacion": "2026-11-02T00:28:08.474180-05:00",
+      "fecha_actualizacion": "2026-11-02T00:29:09.991929-05:00",
       "reemplazos": [
         {
           "noticia_id": "6f6e1983c93e7b43",
