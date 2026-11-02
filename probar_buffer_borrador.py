@@ -10,7 +10,7 @@ if not TOKEN:
 
 # Fotografía real del centro de Cali, publicada en Wikimedia Commons.
 # Autor: Johannes Bud. Licencia: CC BY-SA 4.0.
-IMAGE_URL = "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Cali_downtown-_skyline.jpg/1280px-Cali_downtown-_skyline.jpg"
+IMAGE_URL = "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Cali_downtown-_skyline.jpg/1280px-Cali_downtown-_skyline.jpg"
 
 texto = (
     "🧪 PRUEBA TÉCNICA | CEV NOTICIAS\n\n"
