@@ -160,15 +160,26 @@ def foto_local_noticia(noticia):
 
 def imagen_noticia(noticia, alt="", clase="", loading="lazy", prioridad=False):
     """
-    Todas las imágenes se sirven desde el propio sitio.
-    Si falla la descarga de la fotografía, se genera un SVG editorial CEV.
+    Publica una fotografía local cuando se pudo descargar y mantiene
+    una portada CEV local lista como respaldo en todos los casos.
     """
-    origen = foto_local_noticia(noticia) or portada_svg_noticia(noticia)
+    grafica = portada_svg_noticia(noticia)
+    fotografia = foto_local_noticia(noticia)
+    origen = fotografia or grafica
+
     clases = f' class="{escapar(clase)}"' if clase else ""
     prioridad_html = ' fetchpriority="high"' if prioridad else ""
+    respaldo_html = ""
+    if fotografia:
+        respaldo_html = (
+            f' data-fallback="{grafica}"'
+            ' onerror="this.onerror=null;this.src=this.dataset.fallback;"'
+        )
+
     return (
         f'<img{clases} src="{origen}" alt="{escapar(alt)}" '
-        f'loading="{escapar(loading)}" decoding="async"{prioridad_html}>'
+        f'loading="{escapar(loading)}" decoding="async"{prioridad_html}'
+        f'{respaldo_html}>'
     )
 
 def tarjeta(noticia, posicion=0, ruta_raiz=""):
@@ -689,8 +700,8 @@ def crear_articulo(noticia, noticias=None):
     resumen = escapar(noticia.get("resumen"))
     categoria = escapar(noticia.get("categoria"))
     contenido = str(noticia.get("contenido") or "").strip()
-    imagen = imagen_segura(noticia.get("imagen"))
-    foto = imagen_noticia(noticia, alt=titulo, clase="foto", loading="eager") or f'<div class="portada-sin-foto portada-ficha"><strong>CEV NOTICIAS</strong><span>{categoria}</span></div>'
+    imagen = foto_local_noticia(noticia) or portada_svg_noticia(noticia)
+    foto = imagen_noticia(noticia, alt=titulo, clase="foto", loading="eager")
     credito = noticia.get("imagen_credito") or {}
     atribucion_imagen = ""
     if imagen and credito:
