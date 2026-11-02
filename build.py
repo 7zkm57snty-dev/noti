@@ -36,6 +36,19 @@ def fecha_actual():
     return datetime.now(COLOMBIA_TZ).strftime("%d/%m/%Y · %I:%M %p")
 
 
+def fecha_ordenable(noticia):
+    valor = str(noticia.get("fecha", "")).strip()
+    for formato in ("%d/%m/%Y · %I:%M %p", "%d/%m/%Y %I:%M %p"):
+        try:
+            return datetime.strptime(valor, formato).timestamp()
+        except ValueError:
+            pass
+    try:
+        return datetime.fromisoformat(valor.replace("Z", "+00:00")).timestamp()
+    except (ValueError, OverflowError):
+        return 0
+
+
 def imagen_segura(url):
     url = str(url or "").strip()
     return escapar(url) if url.startswith(("https://", "http://")) else ""
@@ -426,6 +439,8 @@ def construir():
         titulos_vistos.add(titulo_normalizado)
         validas.append(noticia)
     
+    validas.sort(key=fecha_ordenable, reverse=True)
+
     for noticia in validas:
         crear_articulo(noticia, validas)
 
