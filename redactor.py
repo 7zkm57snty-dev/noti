@@ -12,6 +12,7 @@ from html import unescape
 from datetime import datetime, timezone, timedelta
 from urllib.parse import urlparse
 from groq import Groq
+from imagenes import buscar_imagen
 
 BASE = os.path.dirname(os.path.abspath(__file__))
 CACHE = os.path.join(BASE, "cache.json")
@@ -571,19 +572,23 @@ def ejecutar():
             ):
                 continue
 
+            # Se priorizan bancos de imágenes con licencias reutilizables.
+            # Las imágenes RSS/de medios no se reutilizan automáticamente,
+            # porque podrían tener derechos reservados.
+            imagen_info = buscar_imagen(
+                articulo["titulo"],
+                articulo["resumen"],
+                articulo["categoria"]
+            )
+
             nuevas.append({
                 "id": identificador,
                 "titulo": articulo["titulo"],
                 "resumen": articulo["resumen"],
                 "categoria": articulo["categoria"],
                 "contenido": articulo["contenido"],
-                "imagen": (
-                    next(
-                        (f.get("imagen", "") for f in grupo["fuentes"] if f.get("imagen")),
-                        ""
-                    )
-                    or obtener_imagen_pagina(fuentes[0]["url"])
-                ),
+                "imagen": imagen_info.get("url", "") if imagen_info else "",
+                "imagen_credito": imagen_info if imagen_info else {},
                 "verificacion": (
                     "Varias fuentes independientes"
                     if len(dominios) >= 2
