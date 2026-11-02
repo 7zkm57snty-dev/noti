@@ -18,7 +18,7 @@ MAX_PUBLICACIONES_POR_DIA = 4
 MAX_PUBLICACIONES_POR_EJECUCION = 1
 TZ_COLOMBIA = timezone(timedelta(hours=-5))
 
-LICENCIAS_VALIDAS = ("cc0", "cc-by", "cc-by-sa", "public domain", "publicdomain", "pdm")
+LICENCIAS_VALIDAS = ("cc0", "cc-by", "cc-by-sa", "public-domain", "publicdomain", "pdm")
 
 
 def leer_json(ruta, defecto):
@@ -41,7 +41,7 @@ def fecha_local():
 
 
 def licencia_valida(info):
-    licencia = str(info.get("licencia", "")).lower()
+    licencia = str(info.get("licencia", "")).lower().replace(" ", "-")
     if not any(item in licencia for item in LICENCIAS_VALIDAS):
         return False
     if "nc" in licencia or "nd" in licencia:
