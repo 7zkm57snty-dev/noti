@@ -276,15 +276,25 @@ def fecha_noticia(noticia):
 
 
 def similitud_titulos(a, b):
-    palabras_a = set(re.findall(r"[a-záéíóúñü]{4,}", str(a).lower()))
-    palabras_b = set(re.findall(r"[a-záéíóúñü]{4,}", str(b).lower()))
+    def normalizar_palabras(texto):
+        palabras = set(re.findall(r"[a-záéíóúñü]{4,}", str(texto).lower()))
+        normalizadas = set()
+        for palabra in palabras:
+            if palabra in ("electoral", "elecciones", "eleccion"):
+                palabra = "eleccion"
+            elif palabra in ("estadounidense", "estadounidenses", "eeuu"):
+                palabra = "estadosunidos"
+            normalizadas.add(palabra)
+        return normalizadas
+
+    palabras_a = normalizar_palabras(a)
+    palabras_b = normalizar_palabras(b)
     comunes = palabras_a & palabras_b
     union = palabras_a | palabras_b
     if len(comunes) < 3:
         return 0.0
     # El solapamiento relativo detecta titulares distintos del mismo hecho
-    # (por ejemplo, Israel/Gaza y elecciones en EE. UU.) aunque empleen
-    # estructuras y palabras diferentes.
+    # aunque utilicen variantes como "electoral" y "elecciones".
     return max(
         len(comunes) / max(1, len(union)),
         len(comunes) / max(1, min(len(palabras_a), len(palabras_b)))
