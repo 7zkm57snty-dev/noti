@@ -390,10 +390,7 @@ REGLAS PERIODÍSTICAS:
     presentes una broma como noticia real.
 18. Mantén el humor ocasional y minoritario frente a
     la cobertura informativa.
-19. Crea una descripción independiente para Instagram, breve,
-    atractiva y fiel a los hechos. No copies el resumen literalmente.
-    Usa como máximo un emoji, ubicación solo si está confirmada
-    y entre 3 y 5 hashtags pertinentes. No inventes datos.
+19. No incluyas contenido promocional ni datos que no estén respaldados.
 
 La extensión deseada es de 350 a 550 palabras,
 pero nunca debes inventar información para alcanzar esa extensión.
@@ -412,8 +409,7 @@ Devuelve exclusivamente JSON válido con esta estructura:
   "titulo": "Título original",
   "resumen": "Resumen de la noticia",
   "categoria": "Categoría",
-  "contenido": "Artículo completo con párrafos separados",
-  "descripcion_instagram": "Descripción breve, fiel a los hechos y preparada para Instagram"
+  "contenido": "Artículo completo con párrafos separados"
 }}
 """
 
@@ -437,16 +433,14 @@ Devuelve exclusivamente JSON válido con esta estructura:
                             "type": "string",
                             "enum": CATEGORIAS
                         },
-                        "contenido": {"type": "string"},
-                        "descripcion_instagram": {"type": "string"}
+                        "contenido": {"type": "string"}
                     },
                     "required": [
                         "descartar",
                         "titulo",
                         "resumen",
                         "categoria",
-                        "contenido",
-                        "descripcion_instagram"
+                        "contenido"
                     ],
                     "additionalProperties": False
                 }
