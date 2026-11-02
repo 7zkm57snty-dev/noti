@@ -101,35 +101,41 @@ nav a:hover,nav a:focus{{color:var(--rojo)}}
 .cinta{{display:flex;align-items:center;gap:12px;margin:27px 0 18px;font-size:10px;font-weight:800;letter-spacing:1.7px;text-transform:uppercase}}
 .cinta:after{{content:"";height:1px;background:var(--linea);flex:1}}
 .cinta span{{color:var(--rojo)}}
-.destacada{{display:grid;grid-template-columns:1.12fr .88fr;min-height:390px;border-bottom:1px solid var(--tinta);padding-bottom:27px;gap:34px}}
-.destacada-visual{{min-height:350px;overflow:hidden;background:#e7e3dc}}
-.destacada-visual img{{width:100%;height:100%;min-height:350px;max-height:490px;object-fit:cover;display:block}}
-.destacada-visual .imagen-vacia{{min-height:350px}}
-.destacada-texto{{align-self:center;padding:12px 10px 12px 0}}
+.portada-grid{{display:grid;grid-template-columns:minmax(0,1fr) 330px;gap:30px;align-items:stretch;padding-bottom:27px;border-bottom:1px solid var(--tinta)}}
+.destacada{{min-width:0}}
+.destacada-visual{{height:340px;overflow:hidden;background:#e7e3dc}}
+.destacada-visual img{{width:100%;height:100%;object-fit:cover;display:block}}
+.destacada-visual .imagen-vacia{{height:100%}}
+.destacada-texto{{padding:18px 4px 0 0}}
 .etiqueta{{display:inline-block;color:var(--rojo);font-size:10px;font-weight:800;letter-spacing:1.5px;text-transform:uppercase}}
-.destacada h1{{font-family:'Playfair Display',Georgia,serif;font-size:clamp(34px,4.5vw,58px);line-height:1.04;letter-spacing:-1.5px;margin:15px 0}}
-.destacada p{{font-size:15px;line-height:1.75;color:var(--suave);max-width:560px}}
-.meta-noticia{{font-size:10px;color:#777;margin-top:22px;text-transform:uppercase;letter-spacing:.8px}}
-.boton{{display:inline-flex;align-items:center;gap:14px;margin-top:18px;padding:12px 0;border-top:1px solid var(--tinta);border-bottom:1px solid var(--tinta);font-size:11px;font-weight:800;text-transform:uppercase;letter-spacing:1px}}
+.destacada h1{{font-family:'Playfair Display',Georgia,serif;font-size:clamp(34px,4vw,52px);line-height:1.04;letter-spacing:-1.5px;margin:10px 0}}
+.destacada p{{font-size:14px;line-height:1.7;color:var(--suave);max-width:740px;margin:8px 0}}
+.meta-noticia{{font-size:10px;color:#777;margin-top:13px;text-transform:uppercase;letter-spacing:.8px}}
+.boton{{display:inline-flex;align-items:center;gap:14px;margin-top:13px;padding:10px 0;border-top:1px solid var(--tinta);border-bottom:1px solid var(--tinta);font-size:10px;font-weight:800;text-transform:uppercase;letter-spacing:1px}}
 .boton:hover{{color:var(--rojo);border-color:var(--rojo)}}
+.lateral{{padding-left:25px;border-left:1px solid var(--linea)}}
+.lateral-titulo{{display:flex;align-items:center;gap:9px;margin:0 0 8px;font-size:11px;font-weight:800;text-transform:uppercase;letter-spacing:1.4px}}
+.lateral-titulo:before{{content:"";width:7px;height:7px;background:var(--rojo);border-radius:50%}}
+.relevante{{padding:17px 0;border-bottom:1px solid var(--linea)}}
+.relevante:first-of-type{{padding-top:12px}}
+.relevante .etiqueta{{font-size:9px}}
+.relevante h3{{font-family:'Playfair Display',Georgia,serif;font-size:21px;line-height:1.18;margin:7px 0}}
+.relevante p{{font-size:11px;line-height:1.55;color:var(--suave);margin:0}}
+.relevante a:hover h3{{color:var(--rojo)}}
 .bloque-categoria{{padding:30px 0 34px;border-bottom:1px solid var(--linea)}}
 .titulo-seccion{{display:flex;align-items:baseline;gap:13px;margin:0 0 20px;font-family:'Playfair Display',Georgia,serif;font-size:clamp(25px,3vw,34px);letter-spacing:-.6px}}
 .titulo-seccion:after{{content:"";height:1px;background:var(--linea);flex:1}}
 .rejilla{{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px}}
 .tarjeta{{min-width:0}}
 .tarjeta-enlace{{display:block;height:100%}}
-.tarjeta-imagen{{height:205px;overflow:hidden;background:#e7e3dc}}
+.tarjeta-imagen{{height:190px;overflow:hidden;background:#e7e3dc}}
 .tarjeta-imagen img{{width:100%;height:100%;object-fit:cover;display:block;transition:transform .35s}}
 .tarjeta:hover .tarjeta-imagen img{{transform:scale(1.035)}}
-.imagen-vacia{{height:100%;min-height:150px;display:grid;place-items:center;background:linear-gradient(135deg,#e8e4dc,#d4d0c8);color:#6b6258;font-family:'Playfair Display',serif;font-size:30px;font-weight:800;letter-spacing:2px}}
-.tarjeta-contenido{{padding:14px 0 4px}}
-.tarjeta h3{{font-family:'Playfair Display',Georgia,serif;font-size:23px;line-height:1.16;letter-spacing:-.4px;margin:8px 0}}
+.imagen-vacia{{display:grid;place-items:center;background:linear-gradient(135deg,#e8e4dc,#d4d0c8);color:#6b6258;font-family:'Playfair Display',serif;font-size:30px;font-weight:800;letter-spacing:2px}}
+.tarjeta-contenido{{padding:13px 0 4px}}
+.tarjeta h3{{font-family:'Playfair Display',Georgia,serif;font-size:22px;line-height:1.16;letter-spacing:-.4px;margin:8px 0}}
 .tarjeta p{{font-size:12px;line-height:1.65;color:var(--suave);margin:8px 0 12px}}
 .leer{{font-size:10px;font-weight:800;text-transform:uppercase;letter-spacing:1px;color:var(--rojo)}}
-.tarjeta-principal{{grid-column:span 2;display:grid;grid-template-columns:1.15fr .85fr;gap:20px;border-right:1px solid var(--linea);padding-right:22px}}
-.tarjeta-principal .tarjeta-imagen{{height:100%;min-height:235px}}
-.tarjeta-principal h3{{font-size:clamp(25px,3vw,34px)}}
-.tarjeta-principal .tarjeta-contenido{{align-self:center;padding:8px 12px 8px 0}}
 .vacio{{padding:20px 0;color:var(--suave);font-size:13px;border-top:1px solid var(--linea)}}
 .articulo{{max-width:900px;margin:36px auto 65px;padding:0 28px}}
 .articulo-cabecera{{max-width:780px;margin:0 auto 25px}}
@@ -147,26 +153,25 @@ nav a:hover,nav a:focus{{color:var(--rojo)}}
 .pie strong{{font-family:'Playfair Display',Georgia,serif;font-size:30px;letter-spacing:-1px}}
 .pie strong span{{color:#e14a50}}
 .pie p{{color:#aaa;font-size:11px;line-height:1.7}}
-@media(max-width:850px){{
- .destacada{{grid-template-columns:1fr;gap:18px}}
- .destacada-visual,.destacada-visual img{{min-height:260px;max-height:380px}}
- .destacada-texto{{padding:0 4px}}
+@media(max-width:900px){{
+ .portada-grid{{grid-template-columns:minmax(0,1fr) 270px;gap:22px}}
+ .destacada-visual{{height:290px}}
+ .lateral{{padding-left:18px}}
  .rejilla{{grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}}
- .tarjeta-principal{{grid-column:span 2}}
 }}
-@media(max-width:560px){{
+@media(max-width:650px){{
  .cabecera{{padding:22px 15px 15px}}
  .marca{{font-size:49px;letter-spacing:-2.5px}}
  .cabecera-meta{{font-size:9px}}
  .nav-interior{{justify-content:flex-start;padding:13px 15px}}
  .contenedor{{padding:0 16px}}
- .destacada-visual,.destacada-visual img{{min-height:215px}}
- .destacada h1{{font-size:37px}}
- .rejilla{{grid-template-columns:1fr;gap:23px}}
- .tarjeta-principal{{grid-column:auto;display:block;border-right:0;padding-right:0}}
- .tarjeta-principal .tarjeta-imagen{{height:220px;min-height:0}}
- .tarjeta-principal .tarjeta-contenido{{padding:14px 0}}
- .tarjeta-imagen{{height:215px}}
+ .portada-grid{{grid-template-columns:1fr;gap:20px}}
+ .destacada-visual{{height:225px}}
+ .destacada h1{{font-size:36px}}
+ .lateral{{border-left:0;border-top:1px solid var(--linea);padding:18px 0 0}}
+ .relevante{{padding:13px 0}}
+ .rejilla{{grid-template-columns:1fr;gap:22px}}
+ .tarjeta-imagen{{height:210px}}
  .articulo{{padding:0 18px;margin-top:25px}}
  .articulo h1{{font-size:41px}}
  .articulo .cuerpo{{font-size:18px}}
@@ -195,14 +200,14 @@ nav a:hover,nav a:focus{{color:var(--rojo)}}
  function aplicarFiltro(){{
   const hash=decodeURIComponent(window.location.hash.slice(1));
   const categoria=hash.startsWith("categoria-")?hash.slice(10):"";
-  const destacada=document.querySelector(".destacada");
+  const portada=document.querySelector(".portada-grid");
   const secciones=document.querySelectorAll(".bloque-categoria");
   if(!categoria){{
-   if(destacada)destacada.hidden=false;
+   if(portada)portada.hidden=false;
    secciones.forEach(s=>s.hidden=false);
    return;
   }}
-  if(destacada)destacada.hidden=destacada.dataset.categoria!==categoria;
+  if(portada)portada.hidden=false;
   secciones.forEach(s=>s.hidden=s.dataset.seccion!==categoria);
  }}
  window.addEventListener("hashchange",aplicarFiltro);
@@ -222,10 +227,7 @@ def crear_articulo(noticia):
     imagen = imagen_segura(noticia.get("imagen"))
     foto = f'<img class="foto" src="{imagen}" alt="{titulo}" loading="lazy">' if imagen else ""
     parrafos = "".join(f"<p>{escapar(p.strip())}</p>" for p in contenido.split("\n\n") if p.strip())
-    referencias = [
-        f"<li>{escapar(fuente.get('nombre', 'Fuente consultada'))}</li>"
-        for fuente in noticia.get("fuentes", [])
-    ]
+    referencias = [f"<li>{escapar(fuente.get('nombre', 'Fuente consultada'))}</li>" for fuente in noticia.get("fuentes", [])]
     cuerpo = f"""
     <main class="articulo">
       <div class="articulo-cabecera">
@@ -269,38 +271,59 @@ def construir():
         crear_articulo(noticia)
 
     SITE.mkdir(parents=True, exist_ok=True)
-    destacada = validas[0] if validas else None
-    if destacada:
-        imagen = imagen_segura(destacada.get("imagen"))
-        visual = f'<img src="{imagen}" alt="{escapar(destacada.get("titulo"))}" fetchpriority="high">' if imagen else '<div class="imagen-vacia">CEV</div>'
-        hero = f"""
-        <section class="destacada" data-categoria="{slug(destacada['categoria'])}">
-         <div class="destacada-visual">{visual}</div>
-         <div class="destacada-texto">
-          <span class="etiqueta">En portada · {escapar(destacada['categoria'])}</span>
-          <h1>{escapar(destacada['titulo'])}</h1>
-          <p>{escapar(destacada['resumen'])}</p>
-          <div class="meta-noticia">{escapar(destacada.get('fecha', fecha_actual()))}</div>
-          <a class="boton" href="notas/{escapar(destacada['id'])}.html">Leer historia completa <span>↗</span></a>
-         </div>
-        </section>"""
+    principal = validas[0] if validas else None
+    laterales = validas[1:4]
+    if principal:
+        imagen = imagen_segura(principal.get("imagen"))
+        visual = f'<img src="{imagen}" alt="{escapar(principal.get("titulo"))}" fetchpriority="high">' if imagen else '<div class="imagen-vacia">CEV</div>'
+        principal_html = f"""
+        <article class="destacada">
+         <a href="notas/{escapar(principal['id'])}.html">
+          <div class="destacada-visual">{visual}</div>
+          <div class="destacada-texto">
+           <span class="etiqueta">Noticia central · {escapar(principal['categoria'])}</span>
+           <h1>{escapar(principal['titulo'])}</h1>
+           <p>{escapar(principal['resumen'])}</p>
+           <div class="meta-noticia">{escapar(principal.get('fecha', fecha_actual()))}</div>
+           <span class="boton">Leer noticia completa <span>↗</span></span>
+          </div>
+         </a>
+        </article>"""
     else:
-        hero = '<div class="vacio">Estamos preparando las próximas noticias. Vuelve pronto.</div>'
+        principal_html = '<div class="vacio">Estamos preparando las próximas noticias. Vuelve pronto.</div>'
+
+    if laterales:
+        lateral_html = '<aside class="lateral"><h2 class="lateral-titulo">Las más relevantes</h2>'
+        for noticia in laterales:
+            lateral_html += f"""
+            <article class="relevante">
+             <a href="notas/{escapar(noticia['id'])}.html">
+              <span class="etiqueta">{escapar(noticia['categoria'])}</span>
+              <h3>{escapar(noticia['titulo'])}</h3>
+              <p>{escapar(noticia.get('resumen'))}</p>
+             </a>
+            </article>"""
+        lateral_html += "</aside>"
+    else:
+        lateral_html = '<aside class="lateral"><h2 class="lateral-titulo">Las más relevantes</h2><p class="vacio">Próximamente encontrarás aquí más noticias destacadas.</p></aside>'
+
+    portada = f'<section class="portada-grid">{principal_html}{lateral_html}</section>'
 
     bloques = []
+    excluidas = {n["id"] for n in validas[:4]}
     for seccion in SECCIONES:
-        grupo = [n for n in validas if n["categoria"] == seccion and n is not destacada]
-        if grupo:
-            tarjetas = "".join(tarjeta(n, i) for i, n in enumerate(grupo))
-            contenido_seccion = f'<div class="rejilla">{tarjetas}</div>'
-        else:
-            contenido_seccion = '<div class="vacio">Aún no hay noticias publicadas en esta categoría.</div>'
+        grupo = [n for n in validas if n["categoria"] == seccion and n["id"] not in excluidas]
+        contenido_seccion = (
+            f'<div class="rejilla">{"".join(tarjeta(n, i) for i, n in enumerate(grupo))}</div>'
+            if grupo else
+            '<div class="vacio">No hay más noticias en esta categoría por ahora.</div>'
+        )
         bloques.append(
             f'<section id="categoria-{slug(seccion)}" class="bloque-categoria" data-seccion="{slug(seccion)}">'
             f'<h2 class="titulo-seccion">{escapar(seccion)}</h2>{contenido_seccion}</section>'
         )
 
-    contenido = f'<main class="contenedor"><div class="cinta"><span>Última hora</span> · Las noticias que importan</div>{hero}{"".join(bloques)}</main>'
+    contenido = f'<main class="contenedor"><div class="cinta"><span>En desarrollo</span> · La actualidad que necesitas conocer</div>{portada}{"".join(bloques)}</main>'
     (SITE / "index.html").write_text(plantilla("Portada", contenido), encoding="utf-8")
     print(f"Portada creada. Artículos publicados: {len(validas)}")
 
