@@ -59,7 +59,8 @@ def comprobar_imagen(url):
         tipo = respuesta.headers.get("Content-Type", "").lower()
         longitud = int(respuesta.headers.get("Content-Length", "0") or 0)
         valido = respuesta.status_code == 200 and "image/" in tipo
-        if longitud and longitud < 12000:
+        # Evita descartar fotografías pequeñas válidas por un umbral excesivo.
+        if longitud and longitud < 2048:
             valido = False
         respuesta.close()
         return valido
