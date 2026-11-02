@@ -706,9 +706,9 @@ def construir():
     portada_head = '<link rel="canonical" href="https://cevnoticias.com/"><meta property="og:type" content="website"><meta property="og:title" content="CEV NOTICIAS | Actualidad y periodismo"><meta property="og:description" content="Noticias de Cali, Valle del Cauca, Colombia y el mundo."><meta name="twitter:card" content="summary_large_image">' + '<script type="application/ld+json">' + json.dumps(datos_portada, ensure_ascii=False) + '</script>'
     (SITE / "index.html").write_text(plantilla("Portada", contenido, "Noticias de Cali, Valle del Cauca, Colombia y el mundo.", extra_head=portada_head), encoding="utf-8")
     urls = ["https://cevnoticias.com/", "https://cevnoticias.com/institucional.html", "https://cevnoticias.com/boletin.html"] + [f"https://cevnoticias.com/notas/{n['id']}.html" for n in validas]
-    sitemap = '<?xml version="1.0" encoding="UTF-8"?>\\n' + '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\\n' + ''.join(f'<url><loc>{html.escape(url)}</loc></url>\\n' for url in urls) + '</urlset>\\n'
+    sitemap = '<?xml version="1.0" encoding="UTF-8"?>\n' + '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + ''.join(f'<url><loc>{html.escape(url)}</loc></url>\n' for url in urls) + '</urlset>\n'
     (SITE / "sitemap.xml").write_text(sitemap, encoding="utf-8")
-    (SITE / "robots.txt").write_text("User-agent: *\\nAllow: /\\nSitemap: https://cevnoticias.com/sitemap.xml\\n", encoding="utf-8")
+    (SITE / "robots.txt").write_text("User-agent: *\nAllow: /\nSitemap: https://cevnoticias.com/sitemap.xml\n", encoding="utf-8")
     print(f"Portada creada. Artículos publicados: {len(validas)}")
 
 
