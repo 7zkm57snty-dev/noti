@@ -1,6 +1,7 @@
 import json
 import re
 import html
+from html.parser import HTMLParser
 import mimetypes
 from pathlib import Path
 from datetime import datetime, timezone, timedelta
@@ -852,7 +853,7 @@ def validar_archivos_publicados(noticias):
         if not ruta.is_file() or ruta.stat().st_size == 0:
             faltantes.append(str(ruta.relative_to(SITE)))
 
-    class RecolectorEnlaces(html.parser.HTMLParser):
+    class RecolectorEnlaces(HTMLParser):
         def __init__(self):
             super().__init__()
             self.urls = []
@@ -881,12 +882,13 @@ def validar_archivos_publicados(noticias):
                 if (partes.hostname or "").lower() not in ("cevnoticias.com", "www.cevnoticias.com"):
                     continue
                 destino_relativo = unquote(partes.path).lstrip("/")
-                destino = SITE / destino_relativo
+                destino = (SITE / destino_relativo).resolve()
             elif partes.path.startswith("/"):
                 destino = SITE / unquote(partes.path).lstrip("/")
             else:
                 destino = (pagina.parent / unquote(partes.path)).resolve()
 
+            destino = destino.resolve()
             if destino.is_dir():
                 destino = destino / "index.html"
             try:
