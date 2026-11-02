@@ -734,6 +734,14 @@ def asegurar_datos_instagram(noticias):
         elif licencia_apta:
             noticia["imagen_instagram"] = imagen_actual
             noticia["imagen_instagram_tipo"] = "externa_con_licencia"
+        elif noticia.get("imagen_busqueda_intentada") and not noticia.get("imagen_instagram"):
+            noticia["imagen_instagram"] = crear_portada_instagram(
+                identificador,
+                noticia.get("titular_instagram") or titulo,
+                noticia.get("categoria", ""),
+                ""
+            )
+            noticia["imagen_instagram_tipo"] = "portada_grafica_cev"
 
         if not str(noticia.get("descripcion_instagram", "")).strip():
             noticia["descripcion_instagram"] = crear_caption_instagram(
