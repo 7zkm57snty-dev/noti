@@ -60,10 +60,9 @@ def tarjeta(noticia, posicion=0):
     categoria = escapar(noticia.get("categoria"))
     imagen = imagen_segura(noticia.get("imagen"))
     identificador = escapar(noticia.get("id"))
-    visual = f'<img src="{imagen}" alt="{titulo}" loading="lazy">' if imagen else ""
-    clase = " tarjeta-principal" if posicion == 0 else ""
+    visual = f'<img src="{imagen}" alt="{titulo}" loading="lazy">' if imagen else f'<div class="portada-sin-foto"><strong>CEV</strong><span>{categoria}</span></div>'
     return f"""
-    <article class="tarjeta{clase}">
+    <article class="tarjeta tarjeta-vertical">
       <a class="tarjeta-enlace" href="notas/{identificador}.html">
         <div class="tarjeta-imagen">{visual}</div>
         <div class="tarjeta-contenido">
@@ -80,22 +79,42 @@ def tarjeta_rss(titular):
     titulo = escapar(titular.get("titulo"))
     categoria = escapar(titular.get("categoria"))
     identificador = escapar(titular.get("id"))
+    imagen = imagen_segura(titular.get("imagen"))
     fecha = fecha_ordenable(titular)
     fecha_texto = datetime.fromtimestamp(fecha, COLOMBIA_TZ).strftime("%d/%m · %I:%M %p") if fecha else ""
+    visual = f'<img src="{imagen}" alt="{titulo}" loading="lazy">' if imagen else f'<div class="portada-sin-foto"><strong>CEV</strong><span>{categoria}</span></div>'
     return f"""
-    <article class="tarjeta titular-externo">
-      <a class="titular-rss-enlace" href="notas/actualidad-{identificador}.html">
-        <span class="rss-sello">CEV NOTICIAS · ACTUALIDAD</span>
-        <h3>{titulo}</h3>
-        <div class="rss-datos"><strong>{categoria}</strong><span>{fecha_texto}</span></div>
-        <span class="leer">Leer noticia ↗</span>
+    <article class="tarjeta tarjeta-vertical titular-externo">
+      <a class="tarjeta-enlace titular-rss-enlace" href="notas/actualidad-{identificador}.html">
+        <div class="tarjeta-imagen">{visual}</div>
+        <div class="tarjeta-contenido">
+          <span class="rss-sello">CEV NOTICIAS · ACTUALIDAD</span>
+          <h3>{titulo}</h3>
+          <div class="rss-datos"><strong>{categoria}</strong><span>{fecha_texto}</span></div>
+          <span class="leer">Consultar información ↗</span>
+        </div>
       </a>
     </article>"""
 
 
+def lista_vertical(noticias, titulares, categoria=None, excluir=None):
+    excluir = excluir or set()
+    elementos = []
+    for noticia in noticias:
+        if noticia.get("id") in excluir or (categoria and noticia.get("categoria") != categoria):
+            continue
+        elementos.append((fecha_ordenable(noticia), tarjeta(noticia)))
+    for titular in titulares:
+        if categoria and titular.get("categoria") != categoria:
+            continue
+        elementos.append((fecha_ordenable(titular), tarjeta_rss(titular)))
+    elementos.sort(key=lambda elemento: elemento[0], reverse=True)
+    return "".join(html_card for _, html_card in elementos)
+
+
 def plantilla(titulo, contenido, descripcion="CEV NOTICIAS", ruta_raiz="", extra_head=""):
     enlaces = "".join(
-        f'<a href="{ruta_raiz}#categoria-{slug(s)}">{escapar(s)}</a>'
+        f'<a href="{ruta_raiz}secciones/{slug(s)}.html">{escapar(s)}</a>'
         for s in SECCIONES
     )
     return f"""<!DOCTYPE html>
@@ -134,7 +153,7 @@ nav a:hover,nav a:focus{{color:var(--rojo)}}
 .cinta:after{{content:"";height:1px;background:var(--linea);flex:1}}
 .cinta-enlace{{display:inline-flex;align-items:center;gap:7px;color:var(--rojo);font-size:10px;font-weight:800;letter-spacing:1px;text-decoration:none;white-space:nowrap}} .cinta-enlace:hover{{text-decoration:underline;text-underline-offset:4px}}
 .cinta span{{color:var(--rojo)}}
-.portada-grid{{display:grid;grid-template-columns:minmax(0,1fr) 330px;gap:30px;align-items:stretch;padding-bottom:27px;border-bottom:1px solid var(--tinta)}}
+ .portada-grid{{display:block;padding-bottom:27px;border-bottom:1px solid var(--tinta)}}
 .destacada{{min-width:0}}
 .destacada-visual{{height:340px;overflow:hidden;background:#e7e3dc}}
 .destacada-visual img{{width:100%;height:100%;object-fit:cover;display:block}}
@@ -180,6 +199,29 @@ nav a:hover,nav a:focus{{color:var(--rojo)}}
 .ficha-actualidad .credito-fuente{{margin-top:36px}}
 .ficha-actualidad .credito-fuente .boton{{display:inline-flex;padding:12px 0}}
 .nota-atribucion{{font-size:11px;color:var(--suave);line-height:1.65;margin-top:18px}}
+/* Portada y secciones con lectura vertical, inspirada en diarios digitales */
+.lista-noticias{{display:flex;flex-direction:column;border-top:1px solid var(--linea)}}
+.tarjeta-vertical{{display:block;border-bottom:1px solid var(--linea);padding:22px 0}}
+.tarjeta-vertical .tarjeta-enlace{{display:grid;grid-template-columns:minmax(220px,34%) minmax(0,1fr);gap:25px;align-items:center}}
+.tarjeta-vertical .tarjeta-imagen{{height:205px;min-height:0;aspect-ratio:16/10}}
+.tarjeta-vertical .tarjeta-imagen img{{width:100%;height:100%;object-fit:cover}}
+.tarjeta-vertical .tarjeta-contenido{{padding:0}}
+.tarjeta-vertical h3{{font-size:clamp(22px,2.5vw,31px);line-height:1.14;margin:9px 0}}
+.tarjeta-vertical p{{font-size:13px;line-height:1.7;max-width:760px;margin:8px 0 14px}}
+.tarjeta-vertical .leer{{display:inline-block;margin-top:5px}}
+.tarjeta-vertical.titular-externo{{display:block;min-height:0;background:transparent;border:0;border-bottom:1px solid var(--linea)}}
+.tarjeta-vertical.titular-externo h3{{font-family:'Playfair Display',Georgia,serif}}
+.tarjeta-vertical .titular-rss-enlace{{padding:0;gap:0}}
+.portada-sin-foto{{height:100%;min-height:150px;display:flex;flex-direction:column;align-items:flex-start;justify-content:flex-end;gap:8px;padding:20px;background:linear-gradient(135deg,#171717 0%,#343434 60%,#b5282f 160%);color:#fff}}
+.portada-sin-foto strong{{font-family:'Playfair Display',Georgia,serif;font-size:clamp(30px,4vw,48px);letter-spacing:-2px}}
+.portada-sin-foto span{{font-size:10px;font-weight:800;letter-spacing:1.5px;text-transform:uppercase;color:#f2d4d4}}
+.portada-ficha{{max-width:740px;height:360px;margin:25px auto}}
+.pagina-seccion{{padding-top:30px;padding-bottom:50px}}
+.cabecera-seccion{{padding:5px 0 25px;border-bottom:1px solid var(--tinta);margin-bottom:8px}}
+.cabecera-seccion h1{{font-family:'Playfair Display',Georgia,serif;font-size:clamp(42px,7vw,74px);line-height:1;margin:10px 0}}
+.cabecera-seccion p:last-child{{color:var(--suave);font-size:14px;line-height:1.6}}
+@media(max-width:650px){{.tarjeta-vertical{{padding:18px 0}}.tarjeta-vertical .tarjeta-enlace{{grid-template-columns:1fr;gap:12px}}.tarjeta-vertical .tarjeta-imagen{{height:auto;aspect-ratio:16/9}}.tarjeta-vertical h3{{font-size:24px}}.portada-ficha{{height:240px}}}}
+
 @media(max-width:900px){{.rejilla.rejilla-categorias{{grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}}}}
 @media(max-width:650px){{.rejilla.rejilla-categorias{{display:grid;grid-template-columns:1fr;gap:20px;overflow:visible}}.rejilla.rejilla-categorias .tarjeta{{width:auto;flex:none}}.nav-interior{{justify-content:flex-start}}}}
 
@@ -398,6 +440,8 @@ def crear_pagina_titular_rss(titular):
     categoria = escapar(titular.get("categoria"))
     fuente = escapar(titular.get("fuente", "Medio de origen"))
     url_original = imagen_segura(titular.get("url"))
+    imagen = imagen_segura(titular.get("imagen"))
+    foto = f'<img class="foto" src="{imagen}" alt="{titulo}" loading="lazy">' if imagen else f'<div class="portada-sin-foto portada-ficha"><strong>CEV NOTICIAS</strong><span>{categoria}</span></div>'
     fecha = fecha_ordenable(titular)
     fecha_texto = datetime.fromtimestamp(fecha, COLOMBIA_TZ).strftime("%d/%m/%Y · %I:%M %p") if fecha else "Fecha no disponible"
 
@@ -411,6 +455,7 @@ def crear_pagina_titular_rss(titular):
         <p class="bajada">Este titular forma parte del seguimiento de actualidad de CEV NOTICIAS. Para consultar el desarrollo completo, los datos y el contexto de la información, visita la publicación original.</p>
         <p class="fecha">Publicado originalmente: {fecha_texto}</p>
       </div>
+      {foto}
       <section class="fuentes credito-fuente">
         <strong>Crédito de información</strong>
         <p>La publicación original y su desarrollo periodístico corresponden a <strong>{fuente}</strong>.</p>
@@ -429,6 +474,35 @@ def crear_pagina_titular_rss(titular):
     )
     NOTAS.mkdir(parents=True, exist_ok=True)
     (NOTAS / f"actualidad-{identificador}.html").write_text(pagina, encoding="utf-8")
+
+
+
+def crear_pagina_seccion(seccion, noticias, titulares):
+    nombre = escapar(seccion)
+    slug_seccion = slug(seccion)
+    tarjetas = lista_vertical(noticias, titulares, categoria=seccion)
+    listado = tarjetas or '<div class="vacio">No hay noticias disponibles en esta sección por ahora.</div>'
+    cuerpo = f"""
+    <main class="contenedor pagina-seccion">
+      <a class="volver" href="../index.html">← Volver a la portada</a>
+      <header class="cabecera-seccion">
+        <p class="etiqueta">CEV NOTICIAS · SECCIÓN</p>
+        <h1>{nombre}</h1>
+        <p>Las noticias más recientes de {nombre}, organizadas en orden de publicación.</p>
+      </header>
+      <section class="lista-noticias" aria-label="Noticias de {nombre}">
+        {listado}
+      </section>
+    </main>"""
+    pagina = plantilla(
+        seccion,
+        cuerpo,
+        f"Noticias de {seccion} en CEV NOTICIAS.",
+        ruta_raiz="../"
+    )
+    carpeta = SITE / "secciones"
+    carpeta.mkdir(parents=True, exist_ok=True)
+    (carpeta / f"{slug_seccion}.html").write_text(pagina, encoding="utf-8")
 
 
 def construir():
@@ -500,34 +574,28 @@ def construir():
     else:
         lateral_html = '<aside class="lateral"><h2 class="lateral-titulo">Las más relevantes</h2><p class="vacio">Próximamente encontrarás aquí más noticias destacadas.</p></aside>'
 
-    portada = f'<section class="portada-grid">{principal_html}{lateral_html}</section>'
+    portada = f'<section class="portada-grid">{principal_html}</section>'
 
-    bloques = []
-    excluidas = {n["id"] for n in validas[:1]}
+    # Cada sección cuenta con una página propia; la portada mantiene un único flujo vertical.
     for seccion in SECCIONES:
-        grupo = [n for n in validas if n["categoria"] == seccion and n["id"] not in excluidas]
-        titulares_seccion = [
-            t for t in titulares_rss
-            if t.get("categoria") == seccion
-        ]
-        tarjetas_seccion = (
-            "".join(tarjeta(n, i) for i, n in enumerate(grupo))
-            + "".join(tarjeta_rss(t) for t in titulares_seccion)
-        )
-        contenido_seccion = (
-            f'<div class="rejilla rejilla-categorias">{tarjetas_seccion}</div>'
-            if tarjetas_seccion else
-            '<div class="vacio">No hay más noticias en esta categoría por ahora.</div>'
-        )
-        bloques.append(
-            f'<section id="categoria-{slug(seccion)}" class="bloque-categoria" data-seccion="{slug(seccion)}">'
-            f'<h2 class="titulo-seccion">{escapar(seccion)}</h2>{contenido_seccion}</section>'
-        )
+        crear_pagina_seccion(seccion, validas, titulares_rss)
 
-    contenido = f'<main class="contenedor"><div class="cinta"><span>En desarrollo</span><a class="cinta-enlace" href="#categoria-cali">Explorar actualidad <span aria-hidden="true">↘</span></a></div>{portada}{"".join(bloques)}</main>'
-    portada_head = '<link rel="canonical" href="https://cevnoticias.com/"><meta property="og:type" content="website"><meta property="og:title" content="CEV NOTICIAS | Actualidad y periodismo">'
+    lista_portada = lista_vertical(
+        validas,
+        titulares_rss,
+        excluir={principal["id"]} if principal else set()
+    )
+    contenido = (
+        '<main class="contenedor">'
+        '<div class="cinta"><span>En desarrollo</span><span>Últimas noticias</span></div>'
+        f'{portada}'
+        '<section class="bloque-categoria" id="ultimas-noticias">'
+        '<h2 class="titulo-seccion">Últimas noticias</h2>'
+        f'<div class="lista-noticias">{lista_portada or "<div class=vacio>No hay noticias disponibles por ahora.</div>"}</div>'
+        '</section></main>'
+    )
     (SITE / "index.html").write_text(plantilla("Portada", contenido, "Noticias de Cali, Valle del Cauca, Colombia y el mundo.", extra_head=portada_head), encoding="utf-8")
-    urls = ["https://cevnoticias.com/"] + [f"https://cevnoticias.com/notas/{n['id']}.html" for n in validas]
+    urls = ["https://cevnoticias.com/"] + [f"https://cevnoticias.com/notas/{n['id']}.html" for n in validas] + [f"https://cevnoticias.com/secciones/{slug(s)}.html" for s in SECCIONES]
     sitemap = '<?xml version="1.0" encoding="UTF-8"?>\\n' + '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\\n' + ''.join(f'<url><loc>{html.escape(url)}</loc></url>\\n' for url in urls) + '</urlset>\\n'
     (SITE / "sitemap.xml").write_text(sitemap, encoding="utf-8")
     (SITE / "robots.txt").write_text("User-agent: *\\nAllow: /\\nSitemap: https://cevnoticias.com/sitemap.xml\\n", encoding="utf-8")
