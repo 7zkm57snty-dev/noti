@@ -731,7 +731,7 @@ def asegurar_datos_instagram(noticias):
                 noticia["imagen_instagram_tipo"] = "portada_grafica_cev"
                 noticia["imagen_credito"] = {}
                 imagenes_pendientes += 1
-        else:
+        elif licencia_apta:
             noticia["imagen_instagram"] = imagen_actual
             noticia["imagen_instagram_tipo"] = "externa_con_licencia"
 
