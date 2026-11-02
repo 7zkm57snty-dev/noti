@@ -9,7 +9,10 @@ SITE = BASE / "site"
 NOTAS = SITE / "notas"
 CACHE = BASE / "cache.json"
 
-SECCIONES = ["Cali", "Valle del Cauca", "Colombia", "Internacional", "Deportes", "Tecnología", "Economía", "Tendencias", "Humor y opinión"]
+SECCIONES = [
+    "Cali", "Valle del Cauca", "Colombia", "Internacional",
+    "Deportes", "Tecnología", "Economía", "Tendencias", "Humor y opinión"
+]
 COLOMBIA_TZ = timezone(timedelta(hours=-5))
 
 
@@ -26,7 +29,7 @@ def cargar_json(ruta, defecto):
 
 
 def slug(texto):
-    texto = str(texto).lower()
+    texto = str(texto or "").lower()
     for original, nuevo in {"á": "a", "é": "e", "í": "i", "ó": "o", "ú": "u", "ñ": "n"}.items():
         texto = texto.replace(original, nuevo)
     return re.sub(r"[^a-z0-9]+", "-", texto).strip("-")[:75]
@@ -43,8 +46,6 @@ def imagen_segura(url):
 
 def etiqueta_estado(noticia):
     estado = str(noticia.get("estado_informacion", "")).strip().lower()
-    # El archivo histórico puede mostrar Confirmada si registra contraste
-    # de varias fuentes independientes y no tiene un estado más específico.
     if not estado and "varias fuentes independientes" in str(noticia.get("verificacion", "")).lower():
         estado = "confirmada"
     etiquetas = {
@@ -52,807 +53,794 @@ def etiqueta_estado(noticia):
         "en_desarrollo": ("En desarrollo", "desarrollo"),
         "informacion_preliminar": ("Información preliminar", "preliminar")
     }
-    # El resto del archivo histórico conserva el rótulo neutral Actualidad.
     texto, clase = etiquetas.get(estado, ("Actualidad", "actualidad"))
     return f'<span class="estado-noticia estado-{clase}" aria-label="Estado de la información: {texto}">{texto}</span>'
 
 
-def tarjeta(noticia, posicion=0):
-    titulo = escapar(noticia.get("titulo"))
-    resumen = escapar(noticia.get("resumen"))
-    categoria = escapar(noticia.get("categoria"))
-    imagen = imagen_segura(noticia.get("imagen"))
-    identificador = escapar(noticia.get("id"))
-    visual = f'<img src="{imagen}" alt="{titulo}" loading="lazy">' if imagen else '<div class="imagen-vacia">CEV</div>'
-    clase = " tarjeta-principal" if posicion == 0 else ""
-    return f"""
-    <article class="tarjeta{clase}">
-      <a class="tarjeta-enlace" href="notas/{identificador}.html">
-        <div class="tarjeta-imagen">{visual}</div>
-        <div class="tarjeta-contenido">
-          <span class="etiqueta">{categoria}</span>
-          {etiqueta_estado(noticia)}
-          <h3>{titulo}</h3>
-          <p>{resumen}</p>
-          <span class="leer">Leer noticia <span aria-hidden="true">↗</span></span>
-        </div>
-      </a>
-    </article>"""
+CSS = """
+:root {
+  --paper: #f5f4f0;
+  --surface: #ffffff;
+  --ink: #181818;
+  --muted: #656565;
+  --line: #dedbd4;
+  --red: #b32931;
+  --dark: #17191d;
+  --width: 1260px;
+  --serif: Georgia, "Times New Roman", serif;
+  --sans: Arial, Helvetica, sans-serif;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; scroll-padding-top: 18px; }
+body { margin: 0; background: var(--paper); color: var(--ink); font-family: var(--sans); }
+a { color: inherit; text-decoration: none; }
+img { display: block; max-width: 100%; }
+button, input { font: inherit; }
+[hidden] { display: none !important; }
+
+.topline { background: var(--dark); color: #f8f6f1; }
+.topline-inner {
+  max-width: var(--width); margin: auto; min-height: 30px; padding: 6px 24px;
+  display: flex; align-items: center; justify-content: space-between; gap: 16px;
+  font-size: 10px; letter-spacing: 1px; text-transform: uppercase;
+}
+.topline strong { color: #f06a70; letter-spacing: 1.6px; }
+.masthead { background: var(--surface); border-bottom: 1px solid var(--line); }
+.brand-row {
+  max-width: var(--width); margin: auto; padding: 22px 24px 18px;
+  display: flex; align-items: center; justify-content: space-between; gap: 24px;
+}
+.brand-name {
+  font-family: var(--serif); font-size: clamp(43px, 5.4vw, 70px);
+  font-weight: 800; letter-spacing: -3.8px; line-height: .9;
+}
+.brand-name span { color: var(--red); }
+.brand-tagline { margin-top: 9px; color: var(--muted); font-size: 10px; letter-spacing: 2.4px; text-transform: uppercase; }
+.brand-social { display: flex; align-items: center; gap: 9px; font-size: 11px; }
+.brand-social svg { width: 26px; height: 26px; color: var(--red); flex: none; }
+.brand-social span { display: flex; flex-direction: column; gap: 3px; }
+.brand-social small { color: var(--muted); font-size: 10px; }
+.edition { text-align: right; color: var(--muted); font-size: 10px; line-height: 1.7; text-transform: uppercase; letter-spacing: .7px; }
+
+.primary-nav { background: var(--surface); border-top: 1px solid var(--line); border-bottom: 1px solid var(--ink); }
+.nav-inner {
+  max-width: var(--width); margin: auto; padding: 0 24px;
+  display: flex; align-items: center; gap: 0; overflow-x: auto;
+  scrollbar-width: none; white-space: nowrap; -webkit-overflow-scrolling: touch;
+}
+.nav-inner::-webkit-scrollbar { display: none; }
+.nav-inner a {
+  display: inline-flex; align-items: center; min-height: 44px; padding: 0 14px;
+  border-right: 1px solid #ece9e3; font-size: 10px; font-weight: 800;
+  letter-spacing: .7px; text-transform: uppercase; flex: 0 0 auto;
+}
+.nav-inner a:first-child { padding-left: 0; }
+.nav-inner a:hover, .nav-inner a:focus-visible { color: var(--red); }
+.nav-inner .nav-page { color: var(--red); }
+
+.toolbar {
+  max-width: var(--width); margin: auto; padding: 11px 24px;
+  display: flex; align-items: center; justify-content: space-between; gap: 12px;
+}
+.search { display: flex; align-items: center; gap: 8px; width: min(460px, 100%); }
+.search input {
+  width: 100%; min-width: 0; padding: 10px 12px; background: var(--surface);
+  border: 1px solid var(--line); border-radius: 2px; font-size: 12px; color: var(--ink);
+}
+.mode-button {
+  padding: 9px 12px; color: var(--ink); background: transparent;
+  border: 1px solid var(--ink); border-radius: 2px; cursor: pointer;
+  font-size: 10px; font-weight: 800; text-transform: uppercase; letter-spacing: .5px;
+}
+.mode-button:hover { background: var(--ink); color: #fff; }
+
+.page { max-width: var(--width); margin: auto; padding: 0 24px 50px; }
+.section-kicker {
+  display: flex; align-items: center; gap: 12px; margin: 23px 0 15px;
+  color: var(--red); font-size: 10px; font-weight: 800; letter-spacing: 1.5px; text-transform: uppercase;
+}
+.section-kicker::after { content: ""; height: 1px; flex: 1; background: var(--line); }
+.lead-layout {
+  display: grid; grid-template-columns: minmax(0, 1.85fr) minmax(270px, .85fr);
+  gap: 22px; align-items: stretch;
+}
+.lead-story {
+  min-width: 0; background: var(--surface); border: 1px solid var(--line);
+  display: grid; grid-template-columns: minmax(0, 1.12fr) minmax(280px, .88fr);
+}
+.lead-image {
+  min-width: 0; align-self: stretch; background: #e9e6df;
+  display: flex; align-items: center; justify-content: center; overflow: hidden;
+}
+.lead-image img { width: 100%; height: 100%; object-fit: contain; object-position: center; }
+.lead-copy { min-width: 0; padding: 27px 25px; display: flex; flex-direction: column; justify-content: center; align-items: flex-start; }
+.category-label { color: var(--red); font-size: 10px; font-weight: 800; letter-spacing: 1.2px; text-transform: uppercase; }
+.state-wrap { margin-top: 7px; }
+.state-badge {
+  display: inline-flex; align-items: center; gap: 6px; margin: 0;
+  padding: 5px 8px; border-radius: 2px; font-size: 9px; font-weight: 800;
+  letter-spacing: .55px; text-transform: uppercase;
+}
+.state-badge::before { content: ""; width: 6px; height: 6px; border-radius: 50%; background: currentColor; }
+.state-actualidad { color: #40515e; background: #edf0f2; }
+.state-confirmada { color: #23613b; background: #e5f2e9; }
+.state-desarrollo { color: #805d1d; background: #f7eedb; }
+.state-preliminar { color: #9b3438; background: #f6e4e3; }
+.lead-copy h1 {
+  margin: 11px 0 12px; font-family: var(--serif);
+  font-size: clamp(29px, 3.1vw, 43px); line-height: 1.06; letter-spacing: -.8px;
+}
+.lead-copy p { margin: 0; color: var(--muted); font-size: 13px; line-height: 1.7; }
+.story-meta { margin-top: 14px; color: #888; font-size: 9px; text-transform: uppercase; letter-spacing: .8px; }
+.read-link {
+  display: inline-flex; align-items: center; gap: 11px; margin-top: 18px;
+  padding: 10px 0; border-top: 1px solid var(--ink); border-bottom: 1px solid var(--ink);
+  font-size: 10px; font-weight: 800; text-transform: uppercase; letter-spacing: .7px;
+}
+.read-link:hover { color: var(--red); border-color: var(--red); }
+
+.explore-panel {
+  min-width: 0; padding: 20px; background: #fff; border: 1px solid var(--line);
+  border-top: 3px solid var(--red); display: flex; flex-direction: column; gap: 13px;
+}
+.panel-overline { color: var(--red); font-size: 9px; font-weight: 800; letter-spacing: 1.5px; text-transform: uppercase; }
+.explore-panel h2 { margin: 0; font-family: var(--serif); font-size: 25px; line-height: 1.08; }
+.explore-panel > p { margin: -5px 0 0; color: var(--muted); font-size: 11px; line-height: 1.5; }
+.section-links { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 7px; }
+.section-chip {
+  min-width: 0; min-height: 38px; display: flex; align-items: center; justify-content: space-between;
+  gap: 6px; padding: 8px 9px; border: 1px solid #e7e3dc; background: #f7f5f0;
+  font-size: 10px; font-weight: 700;
+}
+.section-chip small { color: #777; font-size: 9px; }
+.section-chip:hover { color: var(--red); border-color: var(--red); }
+.panel-links { margin-top: auto; display: grid; gap: 0; border-top: 1px solid var(--line); }
+.panel-links a { padding: 11px 0 0; font-size: 10px; font-weight: 800; letter-spacing: .4px; text-transform: uppercase; }
+.panel-links a:hover { color: var(--red); }
+
+.category-block { margin-top: 33px; padding-top: 22px; border-top: 1px solid var(--ink); scroll-margin-top: 12px; }
+.category-heading { display: flex; align-items: baseline; justify-content: space-between; gap: 16px; margin-bottom: 15px; }
+.category-heading h2 { margin: 0; font-family: var(--serif); font-size: clamp(25px, 3vw, 34px); letter-spacing: -.45px; }
+.category-heading a { color: var(--red); font-size: 9px; font-weight: 800; letter-spacing: .7px; text-transform: uppercase; white-space: nowrap; }
+.news-track {
+  display: flex; align-items: stretch; gap: 18px; width: 100%; overflow-x: auto; overflow-y: hidden;
+  padding: 0 0 12px; scrollbar-width: none; scroll-behavior: auto; overscroll-behavior-x: contain;
+  -webkit-overflow-scrolling: touch;
+}
+.news-track::-webkit-scrollbar { display: none; }
+.story-card {
+  flex: 0 0 clamp(300px, 34vw, 410px); min-width: 0; overflow: hidden;
+  display: flex; flex-direction: column; background: var(--surface); border: 1px solid var(--line);
+}
+.story-link { display: flex; flex-direction: column; height: 100%; }
+.story-image {
+  width: 100%; aspect-ratio: 16 / 9; background: #e9e6df;
+  display: flex; align-items: center; justify-content: center; overflow: hidden;
+}
+.story-image img { width: 100%; height: 100%; object-fit: contain; object-position: center; }
+.story-copy { padding: 13px 15px 16px; display: flex; flex: 1; flex-direction: column; align-items: flex-start; }
+.story-copy h3 { margin: 8px 0 7px; font-family: var(--serif); font-size: 21px; line-height: 1.16; }
+.story-copy p {
+  margin: 0 0 13px; color: var(--muted); font-size: 11px; line-height: 1.6;
+  display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 3; overflow: hidden;
+}
+.story-copy .read-more { margin-top: auto; color: var(--red); font-size: 9px; font-weight: 800; text-transform: uppercase; letter-spacing: .7px; }
+.story-card:hover .story-copy h3 { color: var(--red); }
+.track-controls { display: flex; justify-content: flex-end; gap: 7px; margin-top: 4px; }
+.track-controls button {
+  width: 30px; height: 28px; border: 1px solid var(--line); background: var(--surface);
+  color: var(--ink); cursor: pointer;
+}
+.track-controls button:hover { border-color: var(--red); color: var(--red); }
+
+.article-page { max-width: 900px; margin: 35px auto 65px; padding: 0 24px; }
+.article-header { max-width: 780px; margin: 0 auto 24px; }
+.back-link { display: inline-block; margin-bottom: 24px; color: var(--red); font-size: 10px; font-weight: 800; letter-spacing: .8px; text-transform: uppercase; }
+.article-page h1 { margin: 12px 0 14px; font-family: var(--serif); font-size: clamp(36px, 5.5vw, 62px); line-height: 1.04; letter-spacing: -1px; }
+.article-summary { margin: 0; color: var(--muted); font-size: clamp(16px, 2vw, 20px); line-height: 1.6; }
+.article-meta { margin-top: 18px; color: #888; font-size: 10px; letter-spacing: .7px; text-transform: uppercase; }
+.preliminary-note { margin-top: 14px; padding: 12px 14px; border-left: 3px solid #b88732; background: #f2eadb; color: #55472f; font-size: 12px; line-height: 1.6; }
+.article-figure { margin: 24px auto; background: #e9e6df; display: flex; justify-content: center; align-items: center; }
+.article-figure img { width: 100%; height: auto; max-height: 72vh; object-fit: contain; }
+.image-credit { margin: -14px auto 26px; max-width: 760px; color: #777; font-size: 10px; line-height: 1.5; }
+.article-body { max-width: 760px; margin: auto; color: #292929; font: 18px/1.85 Georgia, serif; white-space: pre-line; }
+.article-body p { margin: 0 0 23px; }
+.sources { max-width: 760px; margin: 38px auto 0; padding-top: 18px; border-top: 1px solid var(--line); color: var(--muted); font-size: 12px; }
+.sources strong { color: var(--ink); font-size: 10px; letter-spacing: .8px; text-transform: uppercase; }
+.sources li { margin: 7px 0; }
+.related { max-width: 760px; margin: 44px auto 0; }
+.related h2 { font-family: var(--serif); font-size: 26px; }
+.related-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; }
+.related-grid .story-card { flex: initial; }
+
+.editorial-page { max-width: 1040px; margin: auto; padding: 45px 24px 65px; }
+.eyebrow { color: var(--red); font-size: 10px; font-weight: 800; letter-spacing: 1.7px; text-transform: uppercase; }
+.editorial-page h1 { margin: 12px 0 15px; font: 800 clamp(38px, 5.7vw, 62px)/1.03 var(--serif); letter-spacing: -1px; }
+.editorial-intro { max-width: 780px; margin: 0 0 30px; color: var(--muted); font-size: 17px; line-height: 1.7; }
+.info-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
+.info-card { padding: 21px; background: var(--surface); border: 1px solid var(--line); }
+.info-card h2 { margin: 0 0 10px; font: 700 22px var(--serif); }
+.info-card p, .info-card li { color: var(--muted); font-size: 12px; line-height: 1.75; }
+.info-card ul { padding-left: 18px; }
+.newsletter-list { max-width: 900px; border-top: 1px solid var(--line); }
+.newsletter-item { display: grid; grid-template-columns: 130px 1fr; gap: 18px; padding: 17px 0; border-bottom: 1px solid var(--line); }
+.newsletter-item time { color: #888; font-size: 10px; }
+.newsletter-item h2 { margin: 7px 0; font: 700 22px/1.2 var(--serif); }
+.newsletter-item p { margin: 0; color: var(--muted); font-size: 12px; line-height: 1.6; }
+.site-map-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+.site-map-list { list-style: none; padding: 0; }
+.site-map-list li { padding: 10px 0; border-bottom: 1px solid var(--line); font-size: 12px; }
+.site-map-list small { display: block; margin-top: 4px; color: #888; font-size: 10px; }
+
+.footer { background: var(--dark); color: #f8f6f1; padding: 30px 24px; }
+.footer-inner { max-width: var(--width); margin: auto; display: flex; align-items: flex-start; justify-content: space-between; gap: 25px; flex-wrap: wrap; }
+.footer-brand { font: 800 28px var(--serif); }
+.footer-brand span { color: #f06a70; }
+.footer-inner p { color: #c1c1c1; font-size: 11px; line-height: 1.6; }
+.footer-links { display: flex; flex-wrap: wrap; gap: 12px 18px; font-size: 10px; font-weight: 700; text-transform: uppercase; }
+.footer-links a:hover { color: #ff8b90; }
+
+.progress { position: fixed; z-index: 20; top: 0; left: 0; width: 0; height: 3px; background: var(--red); }
+.to-top { position: fixed; z-index: 15; right: 18px; bottom: 18px; width: 40px; height: 40px; border: 0; border-radius: 50%; background: var(--red); color: #fff; font-size: 19px; cursor: pointer; box-shadow: 0 3px 14px #0003; }
+body.dark {
+  --paper: #151515; --surface: #222; --ink: #f5f3ee; --muted: #d0ccc4; --line: #484848;
+}
+body.dark .masthead, body.dark .primary-nav, body.dark .story-card, body.dark .lead-story,
+body.dark .explore-panel, body.dark .info-card, body.dark .mode-button, body.dark .track-controls button {
+  background: var(--surface); color: var(--ink);
+}
+body.dark .section-chip { background: #303030; border-color: #484848; color: #f5f3ee; }
+body.dark .lead-image, body.dark .story-image, body.dark .article-figure { background: #282828; }
+body.dark .article-body { color: #f0eee8; }
+body.dark .preliminary-note { background: #302a20; color: #f0e2c5; border-color: #d0a65d; }
+body.dark .state-actualidad { background: #303b44; color: #d5e0e7; }
+body.dark .state-confirmada { background: #233d2d; color: #a7e2b8; }
+body.dark .state-desarrollo { background: #453923; color: #f0d49c; }
+body.dark .state-preliminar { background: #482829; color: #f1b5b3; }
+body.dark .mode-button:hover { background: #fff; color: #151515; }
+
+@media (max-width: 980px) {
+  .lead-layout { grid-template-columns: 1fr; }
+  .lead-story { grid-template-columns: minmax(0, 1fr) minmax(260px, .9fr); }
+  .lead-image { min-height: 300px; }
+  .explore-panel { display: grid; grid-template-columns: 1fr 1fr; align-items: start; gap: 12px 18px; }
+  .explore-panel > * { grid-column: 1 / -1; }
+  .panel-links { grid-template-columns: 1fr 1fr; gap: 18px; }
+  .story-card { flex-basis: 365px; }
+}
+@media (max-width: 700px) {
+  .topline-inner { padding: 6px 15px; font-size: 8px; }
+  .topline-inner span:nth-child(2) { display: none; }
+  .brand-row { padding: 18px 15px 14px; gap: 10px; flex-wrap: wrap; }
+  .brand-name { font-size: clamp(39px, 10vw, 48px); letter-spacing: -2.4px; }
+  .brand-tagline { font-size: 8px; letter-spacing: 1.6px; }
+  .brand-social { margin-left: auto; font-size: 10px; }
+  .brand-social svg { width: 22px; height: 22px; }
+  .brand-social small { font-size: 9px; }
+  .edition { display: none; }
+  .nav-inner { padding: 0 15px; }
+  .nav-inner a { min-height: 42px; padding: 0 12px; font-size: 9px; }
+  .toolbar { padding: 9px 15px; gap: 8px; }
+  .search { flex: 1; }
+  .search input { padding: 9px; font-size: 11px; }
+  .mode-button { padding: 9px; white-space: nowrap; font-size: 9px; }
+  .page { padding: 0 15px 35px; }
+  .section-kicker { margin: 18px 0 12px; }
+  .lead-story { grid-template-columns: 1fr; }
+  .lead-image { min-height: 0; aspect-ratio: 16 / 9; }
+  .lead-copy { padding: 18px 17px 20px; }
+  .lead-copy h1 { font-size: clamp(27px, 8vw, 36px); }
+  .lead-copy p { font-size: 12px; }
+  .explore-panel { display: flex; padding: 17px; gap: 11px; }
+  .explore-panel h2 { font-size: 23px; }
+  .section-links { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .panel-links { grid-template-columns: 1fr 1fr; }
+  .category-block { margin-top: 26px; padding-top: 18px; }
+  .category-heading h2 { font-size: 26px; }
+  .news-track { gap: 12px; margin-right: -15px; padding-right: 15px; }
+  .story-card { flex-basis: 84vw; }
+  .story-copy { padding: 12px 13px 14px; }
+  .story-copy h3 { font-size: 19px; }
+  .story-copy p { font-size: 11px; }
+  .article-page { margin-top: 25px; padding: 0 17px; }
+  .article-page h1 { font-size: clamp(34px, 9vw, 44px); }
+  .article-figure img { max-height: 60vh; }
+  .editorial-page { padding: 32px 17px 48px; }
+  .editorial-page h1 { font-size: clamp(36px, 10vw, 48px); }
+  .editorial-intro { font-size: 15px; }
+  .info-grid, .site-map-grid, .related-grid { grid-template-columns: 1fr; }
+  .newsletter-item { grid-template-columns: 1fr; gap: 6px; }
+  .footer { padding: 25px 17px; }
+  .footer-inner { display: block; }
+  .footer-links { margin-top: 18px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+}
+"""
+
+SCRIPT = r"""
+(function () {
+  const root = document.body;
+  const themeButton = document.getElementById("mode-toggle");
+  try {
+    if (localStorage.getItem("cev-theme") === "dark") root.classList.add("dark");
+  } catch (_) {}
+  function refreshThemeButton() {
+    if (!themeButton) return;
+    const dark = root.classList.contains("dark");
+    themeButton.textContent = dark ? "☀ Modo claro" : "◐ Modo oscuro";
+    themeButton.setAttribute("aria-pressed", String(dark));
+  }
+  refreshThemeButton();
+  if (themeButton) themeButton.addEventListener("click", function () {
+    root.classList.toggle("dark");
+    try { localStorage.setItem("cev-theme", root.classList.contains("dark") ? "dark" : "light"); } catch (_) {}
+    refreshThemeButton();
+  });
+
+  const search = document.getElementById("news-search");
+  if (search) search.addEventListener("input", function () {
+    const query = search.value.trim().toLocaleLowerCase("es");
+    document.querySelectorAll(".story-card, .lead-story").forEach(function (card) {
+      card.hidden = !!query && !card.innerText.toLocaleLowerCase("es").includes(query);
+    });
+    document.querySelectorAll(".category-block").forEach(function (section) {
+      section.hidden = !!query && section.querySelectorAll(".story-card:not([hidden])").length === 0;
+    });
+  });
+
+  document.querySelectorAll("[data-auto-carousel]").forEach(function (track) {
+    if (window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+    let paused = false;
+    let previousTime = 0;
+    let direction = 1;
+    let resumeTimer = null;
+    let lastPosition = track.scrollLeft;
+    const speed = 34;
+    function pause() {
+      paused = true;
+      previousTime = 0;
+      if (resumeTimer) clearTimeout(resumeTimer);
+    }
+    function resumeSoon() {
+      if (resumeTimer) clearTimeout(resumeTimer);
+      resumeTimer = setTimeout(function () { paused = false; previousTime = 0; }, 1100);
+    }
+    track.addEventListener("mouseenter", pause);
+    track.addEventListener("mouseleave", function () { paused = false; previousTime = 0; });
+    track.addEventListener("focusin", pause);
+    track.addEventListener("focusout", resumeSoon);
+    track.addEventListener("pointerdown", pause, { passive: true });
+    window.addEventListener("pointerup", resumeSoon, { passive: true });
+    track.addEventListener("touchstart", pause, { passive: true });
+    track.addEventListener("touchend", resumeSoon, { passive: true });
+    track.addEventListener("wheel", function () { pause(); resumeSoon(); }, { passive: true });
+    function animate(time) {
+      if (!previousTime) previousTime = time;
+      const delta = Math.min((time - previousTime) / 1000, 0.05);
+      previousTime = time;
+      const maximum = Math.max(0, track.scrollWidth - track.clientWidth);
+      if (!paused && maximum > 8) {
+        if (Math.abs(track.scrollLeft - lastPosition) > 2) direction = track.scrollLeft > lastPosition ? 1 : -1;
+        let next = track.scrollLeft + direction * speed * delta;
+        if (next >= maximum) { next = maximum; direction = -1; }
+        if (next <= 0) { next = 0; direction = 1; }
+        track.scrollLeft = next;
+      }
+      lastPosition = track.scrollLeft;
+      window.requestAnimationFrame(animate);
+    }
+    window.requestAnimationFrame(animate);
+  });
+
+  const progress = document.getElementById("read-progress");
+  const topButton = document.getElementById("back-top");
+  function updateScrollTools() {
+    const max = document.documentElement.scrollHeight - window.innerHeight;
+    if (progress) progress.style.width = (max > 0 ? window.scrollY / max * 100 : 0) + "%";
+    if (topButton) topButton.hidden = window.scrollY < 400;
+  }
+  window.addEventListener("scroll", updateScrollTools, { passive: true });
+  updateScrollTools();
+  if (topButton) topButton.addEventListener("click", function () { window.scrollTo({ top: 0, behavior: "smooth" }); });
+
+  document.querySelectorAll("[data-track-left]").forEach(function (button) {
+    button.addEventListener("click", function () {
+      const track = document.getElementById(button.getAttribute("data-track-left"));
+      if (track) track.scrollBy({ left: -track.clientWidth * 0.8, behavior: "smooth" });
+    });
+  });
+  document.querySelectorAll("[data-track-right]").forEach(function (button) {
+    button.addEventListener("click", function () {
+      const track = document.getElementById(button.getAttribute("data-track-right"));
+      if (track) track.scrollBy({ left: track.clientWidth * 0.8, behavior: "smooth" });
+    });
+  });
+})();
+"""
 
 
 def plantilla(titulo, contenido, descripcion="CEV NOTICIAS", ruta_raiz="", extra_head=""):
-    datos_navegacion = cargar_json(CACHE, {})
-    noticias_navegacion = datos_navegacion.get("noticias", []) if isinstance(datos_navegacion, dict) else []
-    secciones_disponibles = {n.get("categoria") for n in noticias_navegacion if isinstance(n, dict)}
-    enlaces = "".join(
-        f'<a href="https://cevnoticias.com/#categoria-{slug(s)}">{escapar(s)}</a>'
-        for s in SECCIONES if s in secciones_disponibles
+    datos = cargar_json(CACHE, {})
+    noticias = datos.get("noticias", []) if isinstance(datos, dict) else []
+    disponibles = {n.get("categoria") for n in noticias if isinstance(n, dict)}
+    enlaces_seccion = "".join(
+        f'<a href="https://cevnoticias.com/#categoria-{slug(seccion)}">{escapar(seccion)}</a>'
+        for seccion in SECCIONES if seccion in disponibles
     )
+    raiz = ruta_raiz or ""
     return f"""<!DOCTYPE html>
 <html lang="es">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="theme-color" content="#f7f6f2">
+<meta name="theme-color" content="#f5f4f0">
 <meta name="description" content="{escapar(descripcion)}">
 {extra_head}
 <title>{escapar(titulo)} | CEV NOTICIAS</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
-<style>
-:root{{--papel:#f7f6f2;--blanco:#fff;--tinta:#171717;--suave:#686868;--linea:#dedbd4;--rojo:#b5282f;--ancho:1280px}}
-*{{box-sizing:border-box}}
-[hidden]{{display:none!important}}
-html{{scroll-behavior:smooth}}
-body{{margin:0;background:var(--papel);color:var(--tinta);font-family:'DM Sans',Arial,sans-serif}}
-a{{color:inherit;text-decoration:none}}
-.masthead{{background:var(--papel)}}
-.cabecera{{max-width:var(--ancho);margin:auto;padding:28px 28px 18px;text-align:center}}
-.marca{{font-family:'Playfair Display',Georgia,serif;font-weight:800;font-size:clamp(43px,7vw,76px);line-height:.98;letter-spacing:-3.5px}}
-.marca span{{color:var(--rojo)}}
-.eslogan{{margin-top:10px;font-size:10px;letter-spacing:3px;text-transform:uppercase;color:#555}}
-.instagram-marca{{display:inline-flex;align-items:center;justify-content:center;gap:8px;margin:14px auto 0;color:var(--tinta);font-size:11px;text-align:left}} .instagram-marca svg{{width:25px;height:25px;color:var(--rojo);flex:none}} .instagram-marca span{{display:flex;flex-direction:column;gap:2px}} .instagram-marca strong{{font-size:11px;font-weight:800}} .instagram-marca small{{font-size:10px;color:var(--suave)}} .instagram-marca:hover strong{{color:var(--rojo)}}
-.cabecera-meta{{display:flex;justify-content:space-between;align-items:center;margin-top:22px;padding-top:11px;border-top:1px solid var(--tinta);font-size:11px;color:#555}}
-.estado{{font-weight:800;letter-spacing:1.5px;text-transform:uppercase;color:var(--rojo)}}
-nav{{border-top:1px solid var(--linea);border-bottom:1px solid var(--tinta);background:var(--papel)}}
-.nav-interior{{max-width:850px;margin:0 auto;display:flex;justify-content:flex-start;gap:clamp(15px,3vw,34px);padding:14px 22px;overflow-x:auto;white-space:nowrap;scrollbar-width:none;overscroll-behavior-x:contain;-webkit-overflow-scrolling:touch;scroll-behavior:auto}} .nav-interior::-webkit-scrollbar{{display:none}}
-nav a{{font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.8px}}
-nav a:hover,nav a:focus{{color:var(--rojo)}}
-.contenedor{{max-width:var(--ancho);margin:0 auto;padding:0 28px}}
-.cinta{{display:flex;align-items:center;gap:12px;margin:27px 0 18px;font-size:10px;font-weight:800;letter-spacing:1.7px;text-transform:uppercase}}
-.cinta:after{{content:"";height:1px;background:var(--linea);flex:1}}
-.cinta-enlace{{display:inline-flex;align-items:center;gap:7px;color:var(--rojo);font-size:10px;font-weight:800;letter-spacing:1px;text-decoration:none;white-space:nowrap}} .cinta-enlace:hover{{text-decoration:underline;text-underline-offset:4px}}
-.cinta span{{color:var(--rojo)}}
-.portada-grid{{display:grid;grid-template-columns:minmax(0,1fr) 330px;gap:30px;align-items:stretch;padding-bottom:27px;border-bottom:1px solid var(--tinta)}}
-.destacada{{min-width:0}}
-.destacada-visual{{height:340px;overflow:hidden;background:#e7e3dc}}
-.destacada-visual img{{width:100%;height:100%;object-fit:cover;display:block}}
-.destacada-visual .imagen-vacia{{height:100%}}
-.destacada-texto{{padding:18px 4px 0 0}}
-.etiqueta{{display:inline-block;color:var(--rojo);font-size:10px;font-weight:800;letter-spacing:1.5px;text-transform:uppercase}}
-.estado-informacion{{display:inline-block;margin:8px 0 2px;padding:5px 8px;border-left:2px solid #b88732;background:#f2eadb;color:#654b20;font-size:10px;font-weight:700;letter-spacing:.35px}}
-.aviso-desarrollo{{max-width:var(--ancho);margin:0 auto 18px;padding:13px 16px;border:1px solid #d8c69f;border-left:4px solid #b88732;background:#f2eadb;color:#55472f;font-size:13px;line-height:1.65;font-weight:600}}
-body.noche .aviso-desarrollo{{background:#302a20;border-color:#665333;border-left-color:#d0a65d;color:#f0e2c5}}
-body.noche .estado-informacion{{background:#393124;color:#f0d49c;border-color:#d0a65d}}
-.destacada h1{{font-family:'Playfair Display',Georgia,serif;font-size:clamp(34px,4vw,52px);line-height:1.04;letter-spacing:-1.5px;margin:10px 0}}
-.destacada p{{font-size:14px;line-height:1.7;color:var(--suave);max-width:740px;margin:8px 0}}
-.meta-noticia{{font-size:10px;color:#777;margin-top:13px;text-transform:uppercase;letter-spacing:.8px}}
-.boton{{display:inline-flex;align-items:center;gap:14px;margin-top:13px;padding:10px 0;border-top:1px solid var(--tinta);border-bottom:1px solid var(--tinta);font-size:10px;font-weight:800;text-transform:uppercase;letter-spacing:1px}}
-.boton:hover{{color:var(--rojo);border-color:var(--rojo)}}
-.lateral{{padding-left:25px;border-left:1px solid var(--linea)}}
-.lateral-titulo{{display:flex;align-items:center;gap:9px;margin:0 0 8px;font-size:11px;font-weight:800;text-transform:uppercase;letter-spacing:1.4px}}
-.lateral-titulo:before{{content:"";width:7px;height:7px;background:var(--rojo);border-radius:50%}}
-.relevante{{padding:17px 0;border-bottom:1px solid var(--linea)}}
-.relevante:first-of-type{{padding-top:12px}}
-.relevante .etiqueta{{font-size:9px}}
-.relevante h3{{font-family:'Playfair Display',Georgia,serif;font-size:21px;line-height:1.18;margin:7px 0}}
-.relevante p{{font-size:11px;line-height:1.55;color:var(--suave);margin:0}}
-.relevante a:hover h3{{color:var(--rojo)}}
-.bloque-categoria{{padding:30px 0 34px;border-bottom:1px solid var(--linea)}}
-.titulo-seccion{{display:flex;align-items:baseline;gap:13px;margin:0 0 20px;font-family:'Playfair Display',Georgia,serif;font-size:clamp(25px,3vw,34px);letter-spacing:-.6px}}
-.titulo-seccion:after{{content:"";height:1px;background:var(--linea);flex:1}}
-.rejilla{{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px}}
-.tarjeta{{min-width:0}}
-.tarjeta-enlace{{display:block;height:100%}}
-.tarjeta-imagen{{height:190px;overflow:hidden;background:#e7e3dc}}
-.tarjeta-imagen img{{width:100%;height:100%;object-fit:cover;display:block;transition:transform .35s}}
-.tarjeta:hover .tarjeta-imagen img{{transform:scale(1.035)}}
-.imagen-vacia{{display:grid;place-items:center;background:linear-gradient(135deg,#e8e4dc,#d4d0c8);color:#6b6258;font-family:'Playfair Display',serif;font-size:30px;font-weight:800;letter-spacing:2px}}
-.tarjeta-contenido{{padding:13px 0 4px}}
-.tarjeta h3{{font-family:'Playfair Display',Georgia,serif;font-size:22px;line-height:1.16;letter-spacing:-.4px;margin:8px 0}}
-.tarjeta p{{font-size:12px;line-height:1.65;color:var(--suave);margin:8px 0 12px}}
-.leer{{font-size:10px;font-weight:800;text-transform:uppercase;letter-spacing:1px;color:var(--rojo)}}
-.vacio{{padding:20px 0;color:var(--suave);font-size:13px;border-top:1px solid var(--linea)}}
-.articulo{{max-width:900px;margin:36px auto 65px;padding:0 28px}}
-.articulo-cabecera{{max-width:780px;margin:0 auto 25px}}
-.volver{{display:inline-block;font-size:10px;font-weight:800;text-transform:uppercase;letter-spacing:1px;color:var(--rojo);margin-bottom:30px}}
-.articulo h1{{font-family:'Playfair Display',Georgia,serif;font-size:clamp(38px,6vw,66px);line-height:1.03;letter-spacing:-1.8px;margin:13px 0 18px}}
-.articulo .bajada{{font-size:clamp(17px,2vw,21px);line-height:1.6;color:#555;margin:0}}
-.articulo .fecha{{font-size:10px;text-transform:uppercase;letter-spacing:1px;color:#777;margin:22px 0}}
-.articulo .foto{{width:100%;max-height:560px;object-fit:cover;display:block;margin:25px 0 8px}}
-.credito-imagen{{max-width:740px;margin:0 auto 30px;font-size:11px;line-height:1.6;color:#777}}
-.credito-imagen a{{text-decoration:underline}}
-.articulo .cuerpo{{max-width:740px;margin:auto;font-family:Georgia,serif;font-size:19px;line-height:1.9;color:#292929;white-space:pre-line}}
-.articulo .cuerpo p{{margin:0 0 24px}}
-.fuentes{{max-width:740px;margin:42px auto 0;padding-top:20px;border-top:1px solid var(--linea);font-size:12px;color:#666}}
-.fuentes strong{{color:var(--tinta);text-transform:uppercase;letter-spacing:1px;font-size:10px}}
-.fuentes li{{margin:8px 0}}
-.pie{{margin-top:35px;background:#171717;color:#fff;padding:36px 22px;text-align:center}}
-.pie strong{{font-family:'Playfair Display',Georgia,serif;font-size:30px;letter-spacing:-1px}}
-.pie strong span{{color:#e14a50}}
-.pie p{{color:#aaa;font-size:11px;line-height:1.7}}
-/* Herramientas de lectura y navegación */
-.relacionadas{{margin:48px auto 0;max-width:740px}}
-.relacionadas .rejilla{{grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}}
-.relacionadas .tarjeta{{padding:16px;border:1px solid var(--linea);background:var(--blanco)}}
-.relacionadas .tarjeta h3{{font-size:19px}}
-.barra-herramientas{{max-width:var(--ancho);margin:auto;padding:12px 28px;display:flex;gap:10px;align-items:center;border-bottom:1px solid var(--linea)}}
-.buscador{{flex:1;min-width:0;padding:11px 14px;border:1px solid var(--linea);background:var(--blanco);color:var(--tinta);font:inherit;font-size:13px;border-radius:2px}}
-.accion-ui{{border:1px solid var(--tinta);background:transparent;color:var(--tinta);padding:10px 13px;font:700 10px 'DM Sans',sans-serif;letter-spacing:.7px;text-transform:uppercase;cursor:pointer}}
-.accion-ui:hover{{background:var(--tinta);color:var(--papel)}}
-.progreso-lectura{{position:fixed;z-index:30;top:0;left:0;height:3px;width:0;background:var(--rojo)}}
-.volver-arriba{{position:fixed;z-index:20;right:18px;bottom:18px;width:42px;height:42px;border:0;border-radius:50%;background:var(--rojo);color:#fff;font-size:20px;cursor:pointer;box-shadow:0 3px 14px #0003}}
-body.noche{{--papel:#151515;--blanco:#222;--tinta:#fff;--suave:#d0ccc4;--linea:#484848}}
-body.noche .imagen-vacia{{background:linear-gradient(135deg,#303030,#242424);color:#f5f5f5}}
-body.noche .destacada-visual,body.noche .tarjeta-imagen{{background:#292929}}
-body.noche .pie{{background:#090909}}
-body.noche .eslogan,body.noche .cabecera-meta,body.noche .articulo .bajada,body.noche .articulo .fecha,body.noche .credito-imagen,body.noche .fuentes,body.noche .meta-noticia{{color:#d0ccc4}}
-body.noche .articulo .cuerpo{{color:#f1eee8}}
-body.noche .relevante p,body.noche .tarjeta p{{color:#d0ccc4}}
-body.noche .accion-ui{{border-color:#aaa;color:#fff}}
-body.noche .accion-ui:hover{{background:#fff;color:#151515}}
-body.noche .buscador{{background:#242424;color:#fff;border-color:#555}}
-body.noche .buscador::placeholder{{color:#c5c1ba}}
-body.noche .volver{{color:#ff777d}}
-body.noche .leer,body.noche .etiqueta{{color:#ff777d}}
-body.noche .cinta-enlace{{color:#ff858a}}
-body.noche .boton{{border-color:#ddd}}
-body.noche .boton:hover{{color:#ff858a;border-color:#ff858a}}
-body.noche .relacionadas .tarjeta{{background:#222;border-color:#484848}}
-@media(max-width:650px){{
- .barra-herramientas{{padding:10px 15px;flex-wrap:wrap}}
- .buscador{{flex-basis:100%}}
- .rejilla{{display:flex;overflow-x:auto;scroll-snap-type:none;gap:14px;padding-bottom:12px;overscroll-behavior-x:contain;-webkit-overflow-scrolling:touch}}
- .rejilla .tarjeta{{flex:0 0 84%;scroll-snap-align:none}}
- .rejilla .tarjeta-imagen{{height:190px}}
-}}
-
-
-/* Carruseles continuos por sección */
-.bloque-categoria{{overflow:hidden}}
-.rejilla.carrusel-infinito{{display:flex;gap:22px;overflow-x:auto;overflow-y:hidden;width:100%;max-width:100%;animation:none;scrollbar-width:none;overscroll-behavior-x:contain;-webkit-overflow-scrolling:touch;scroll-behavior:auto;scroll-snap-type:none;touch-action:pan-x;padding-bottom:12px}} .rejilla.carrusel-infinito::-webkit-scrollbar{{display:none}}
-
-.rejilla.carrusel-infinito .tarjeta{{flex:0 0 clamp(245px,27vw,330px);width:clamp(245px,27vw,330px);min-width:0}}
-.rejilla.carrusel-infinito .tarjeta-imagen{{height:185px}}
-
-
-@media(max-width:650px){{
- .rejilla.carrusel-infinito{{gap:14px}}
- .rejilla.carrusel-infinito .tarjeta{{flex-basis:82vw;width:82vw}}
- .rejilla.carrusel-infinito .tarjeta-imagen{{height:190px}}
-}}
-@media(prefers-reduced-motion:reduce){{.rejilla.carrusel-infinito{{scroll-snap-type:x mandatory}}.rejilla.carrusel-infinito .tarjeta{{scroll-snap-align:start}}}}
-
-
-@media(max-width:900px){{
- .portada-grid{{grid-template-columns:minmax(0,1fr) 270px;gap:22px}}
- .destacada-visual{{height:290px}}
- .lateral{{padding-left:18px}}
- .rejilla{{grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}}
-}}
-@media(max-width:650px){{
- .cabecera{{padding:22px 15px 15px}}
- .marca{{font-size:49px;letter-spacing:-2.5px}}
- .cabecera-meta{{font-size:9px}}
- .nav-interior{{justify-content:flex-start;padding:13px 15px}}
- .contenedor{{padding:0 16px}}
- .portada-grid{{grid-template-columns:1fr;gap:20px}}
- .destacada-visual{{height:225px}}
- .destacada h1{{font-size:36px}}
- .lateral{{border-left:0;border-top:1px solid var(--linea);padding:18px 0 0}}
- .relevante{{padding:13px 0}}
- .rejilla{{grid-template-columns:1fr;gap:22px}}
- .tarjeta-imagen{{height:210px}}
- .articulo{{padding:0 18px;margin-top:25px}}
- .articulo h1{{font-size:41px}}
- .articulo .cuerpo{{font-size:18px}}
-}}
-/* Rediseño editorial CEV NOTICIAS */
-.franja-editorial{{background:#17191d;color:#f8f7f3}}
-.franja-editorial>div{{max-width:var(--ancho);margin:auto;padding:8px 28px;display:flex;justify-content:space-between;gap:16px;align-items:center;font-size:10px;letter-spacing:.7px;text-transform:uppercase}}
-.franja-editorial strong{{color:#ef5960;letter-spacing:1.5px}}
-.cabecera{{padding:22px 28px 16px;text-align:left}}
-.brand-row{{display:flex;align-items:center;justify-content:space-between;gap:20px}}
-.marca{{font-size:clamp(42px,5.8vw,66px);letter-spacing:-3px;line-height:.92}}
-.eslogan{{margin-top:7px;letter-spacing:1.6px;text-align:left;font-size:10px}}
-.instagram-marca{{margin:0 0 0 auto;padding:10px 13px;border:1px solid var(--linea);border-radius:3px}}
-.cabecera-meta{{margin-top:17px;padding-top:10px}}
-.nav-interior{{max-width:var(--ancho);padding:13px 28px;gap:clamp(14px,2vw,27px)}}
-nav a{{font-size:10px;letter-spacing:1px}}
-nav a[href$="institucional.html"],nav a[href$="boletin.html"]{{color:var(--rojo)}}
-.barra-herramientas{{max-width:var(--ancho);padding:10px 28px;background:#eeece6}}
-.buscador{{max-width:420px;border-radius:3px}}
-.accion-ui{{border-radius:3px}}
-.contenedor{{padding-bottom:30px}}
-.cinta{{margin:22px 0 16px}}
-.cinta>span{{font-size:11px}}
-.portada-grid{{grid-template-columns:minmax(0,1.65fr) minmax(240px,.7fr);gap:28px;align-items:stretch;padding:0 0 30px;border-bottom:1px solid var(--tinta)}}
-.destacada{{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(260px,.9fr);background:#fff;border:1px solid #e1ded7;min-height:380px}}
-.destacada-visual{{height:100%;min-height:380px;background:#dedbd4}}
-.destacada-texto{{padding:28px 26px;display:flex;flex-direction:column;justify-content:center;align-items:flex-start}}
-.destacada h1{{font-size:clamp(29px,3.1vw,43px);line-height:1.06;margin:12px 0}}
-.destacada p{{font-size:13px;line-height:1.7}}
-.destacada .boton{{margin-top:18px}}
-.estado-noticia{{display:inline-flex;align-items:center;gap:6px;margin:8px 0 2px;padding:5px 9px;border-radius:2px;font-size:9px;font-weight:800;letter-spacing:.75px;text-transform:uppercase}}
-.estado-noticia:before{{content:"";width:6px;height:6px;border-radius:50%;background:currentColor}}
-.estado-actualidad{{background:#edf0f2;color:#40515e}}
-.estado-confirmada{{background:#e5f2e9;color:#23613b}}
-.estado-desarrollo{{background:#f7eedb;color:#805d1d}}
-.estado-preliminar{{background:#f6e4e3;color:#9b3438}}
-.lateral{{padding:24px 21px;border:1px solid #e1ded7;border-left:3px solid var(--rojo);background:#fff}}
-.lateral-titulo{{font-family:'Playfair Display',Georgia,serif;font-size:23px;letter-spacing:-.4px;text-transform:none;margin-bottom:14px}}
-.lateral-titulo:before{{display:none}}
-.lateral-intro{{font-size:12px;line-height:1.7;color:#676767;margin:0 0 18px}}
-.lateral-enlace{{display:flex;justify-content:space-between;gap:10px;padding:14px 0;border-top:1px solid #e6e3dc;font-size:12px;font-weight:700}}
-.lateral-enlace span{{color:var(--rojo)}}
-.lateral-social{{display:block;margin-top:12px;padding:12px;background:#f5f2ec;color:#252525;font-size:11px;line-height:1.5}}
-.bloque-categoria{{padding:29px 0 32px;border-bottom:1px solid var(--linea)}}
-.titulo-seccion{{font-size:clamp(27px,3vw,36px);margin-bottom:17px}}
-.titulo-seccion:before{{content:"";width:4px;height:25px;background:var(--rojo);display:inline-block;margin-right:1px;align-self:center}}
-.rejilla{{grid-template-columns:repeat(3,minmax(0,1fr));gap:23px}}
-.tarjeta{{background:#fff;border:1px solid #e4e1da;transition:transform .2s ease,box-shadow .2s ease}}
-.tarjeta:hover{{transform:translateY(-3px);box-shadow:0 10px 25px rgba(30,30,30,.08)}}
-.tarjeta-imagen{{height:175px}}
-.tarjeta-contenido{{padding:14px 15px 17px}}
-.tarjeta h3{{font-size:21px}}
-.tarjeta p{{font-size:12px}}
-.tarjeta .estado-noticia{{margin-top:9px}}
-.pie{{margin-top:0;background:#17191d;padding:35px 24px}}
-.pie-interior{{max-width:var(--ancho);margin:auto;display:grid;grid-template-columns:1.1fr 1fr;gap:24px;text-align:left}}
-.pie-marca{{font-family:'Playfair Display',Georgia,serif;font-size:31px;font-weight:800}}
-.pie-links{{display:flex;flex-wrap:wrap;justify-content:flex-end;align-content:start;gap:12px 20px;font-size:11px}}
-.pie-links a{{color:#f3eee8}}
-.pie-links a:hover{{color:#ff777d}}
-.pie-legal{{grid-column:1/-1;border-top:1px solid #3a3d42;padding-top:15px;color:#b8b8b8!important}}
-.pagina-editorial{{max-width:1000px;margin:0 auto;padding:48px 28px 70px}}
-.pagina-editorial .sobrelinea{{color:var(--rojo);font-size:10px;font-weight:800;letter-spacing:1.8px;text-transform:uppercase}}
-.pagina-editorial h1{{font-family:'Playfair Display',Georgia,serif;font-size:clamp(40px,6vw,65px);letter-spacing:-1.7px;line-height:1.02;margin:12px 0 17px}}
-.pagina-editorial .entradilla{{max-width:760px;color:#5e5e5e;font-size:18px;line-height:1.7;margin-bottom:32px}}
-.editorial-grid{{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}}
-.editorial-card{{padding:23px;background:#fff;border:1px solid var(--linea)}}
-.editorial-card h2{{font-family:'Playfair Display',Georgia,serif;font-size:23px;margin:0 0 10px}}
-.editorial-card p,.editorial-card li{{font-size:13px;line-height:1.75;color:#5c5c5c}}
-.editorial-card ul{{padding-left:18px}}
-.boletin-fecha{{display:inline-block;margin:7px 0 25px;padding:7px 10px;background:#f0ede6;color:#555;font-size:10px;font-weight:800;letter-spacing:1px;text-transform:uppercase}}
-.boletin-lista{{max-width:850px;display:grid;gap:0;border-top:1px solid var(--linea)}}
-.boletin-item{{display:grid;grid-template-columns:115px 1fr;gap:18px;padding:19px 0;border-bottom:1px solid var(--linea)}}
-.boletin-item .fecha{{font-size:10px;color:#858585}}
-.boletin-item h2{{font-family:'Playfair Display',Georgia,serif;font-size:22px;line-height:1.2;margin:5px 0 7px}}
-.boletin-item p{{font-size:12px;line-height:1.65;color:#666;margin:0}}
-.boletin-cta{{margin-top:30px;padding:22px 24px;background:#202329;color:white;display:flex;align-items:center;justify-content:space-between;gap:18px}}
-.boletin-cta p{{font-size:12px;line-height:1.6;color:#d1d1d1;margin:4px 0}}
-.boletin-cta a{{white-space:nowrap;background:var(--rojo);padding:11px 15px;font-size:10px;font-weight:800;text-transform:uppercase;letter-spacing:.7px}}
-body.noche .franja-editorial,body.noche .pie{{background:#090a0c}}
-body.noche .barra-herramientas{{background:#191a1c}}
-body.noche .destacada,body.noche .lateral,body.noche .tarjeta,body.noche .editorial-card{{background:#222;border-color:#444}}
-body.noche .lateral-intro,body.noche .editorial-card p,body.noche .editorial-card li,body.noche .boletin-item p,body.noche .pagina-editorial .entradilla{{color:#d0ccc4}}
-body.noche .lateral-enlace{{border-color:#484848}}
-body.noche .lateral-social,body.noche .boletin-fecha{{background:#303030;color:#eee}}
-body.noche .boletin-cta{{background:#101114}}
-body.noche .boletin-item{{border-color:#484848}}
-body.noche .estado-actualidad{{background:#303b44;color:#d5e0e7}}
-body.noche .estado-confirmada{{background:#233d2d;color:#a7e2b8}}
-body.noche .estado-desarrollo{{background:#453923;color:#f0d49c}}
-body.noche .estado-preliminar{{background:#482829;color:#f1b5b3}}
-@media(max-width:900px){{
- .destacada{{grid-template-columns:1fr}}
- .destacada-visual{{height:300px;min-height:300px}}
- .destacada-texto{{padding:22px}}
- .rejilla{{grid-template-columns:repeat(2,minmax(0,1fr))}}
-}}
-@media(max-width:650px){{
- .franja-editorial>div{{padding:8px 15px;font-size:8px}}
- .franja-editorial>div span:nth-child(2){{display:none}}
- .cabecera{{padding:18px 15px 13px}}
- .brand-row{{align-items:flex-start;flex-wrap:wrap}}
- .marca{{font-size:47px;letter-spacing:-2.3px}}
- .eslogan{{font-size:9px}}
- .instagram-marca{{margin:4px 0 0 auto;padding:7px 9px}}
- .cabecera-meta{{font-size:9px}}
- .nav-interior{{padding:12px 15px}}
- .barra-herramientas{{padding:9px 15px}}
- .contenedor{{padding:0 15px 25px}}
- .portada-grid{{grid-template-columns:1fr;gap:14px}}
- .destacada{{grid-template-columns:1fr}}
- .destacada-visual{{height:225px;min-height:225px}}
- .destacada-texto{{padding:18px}}
- .destacada h1{{font-size:34px}}
- .lateral{{padding:19px}}
- .rejilla{{display:grid;grid-template-columns:1fr;gap:15px;overflow:visible}}
- .rejilla .tarjeta{{width:auto;flex:none}}
- .tarjeta{{display:grid;grid-template-columns:112px minmax(0,1fr);align-items:stretch}}
- .tarjeta-imagen{{height:100%;min-height:136px}}
- .tarjeta-contenido{{padding:10px 12px}}
- .tarjeta h3{{font-size:17px;margin:6px 0}}
- .tarjeta p{{font-size:11px;line-height:1.5;margin:6px 0}}
- .tarjeta .etiqueta{{font-size:8px}}
- .tarjeta .estado-noticia{{font-size:8px;padding:4px 6px;margin:5px 0}}
- .pie-interior{{grid-template-columns:1fr}}
- .pie-links{{justify-content:flex-start}}
- .pie-legal{{grid-column:auto}}
- .pagina-editorial{{padding:34px 17px 50px}}
- .editorial-grid{{grid-template-columns:1fr}}
- .boletin-item{{grid-template-columns:1fr;gap:5px}}
- .boletin-cta{{align-items:flex-start;flex-direction:column}}
- .boletin-cta a{{white-space:normal}}
-}}
-
-.destacada>a{{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(260px,.9fr);height:100%}}
-@media(max-width:900px){{.destacada>a{{grid-template-columns:1fr}}}}
-
-/* Sistema editorial responsive: fotografías completas y jerarquía consistente */
-.destacada>a{{display:grid;grid-template-columns:minmax(0,1.08fr) minmax(270px,.92fr);height:100%;align-items:stretch}}
-.destacada-visual{{height:auto;min-height:360px;aspect-ratio:4/3;background:#e9e6df;display:flex;align-items:center;justify-content:center}}
-.destacada-visual img{{width:100%;height:100%;object-fit:contain;object-position:center;background:#e9e6df}}
-.destacada-texto{{min-width:0}}
-.portada-grid{{grid-template-columns:minmax(0,1.7fr) minmax(280px,.8fr);align-items:stretch;gap:24px}}
-.lateral{{border:1px solid var(--linea);border-top:3px solid var(--rojo);border-left:1px solid var(--linea);padding:22px;background:#fff;display:flex;flex-direction:column;gap:10px}}
-.lateral-kicker{{font-size:9px;font-weight:800;letter-spacing:1.5px;color:var(--rojo)}}
-.lateral-titulo{{display:block;font-family:'Playfair Display',Georgia,serif;font-size:27px;line-height:1.1;text-transform:none;margin:0}}
-.lateral-intro{{font-size:12px;line-height:1.65;color:#666;margin:0 0 4px}}
-.explorar-secciones{{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}}
-.explorar-chip{{display:flex;align-items:center;justify-content:space-between;gap:8px;padding:10px 11px;background:#f4f2ed;border:1px solid #e8e4dc;font-size:11px;font-weight:700;min-width:0}}
-.explorar-chip:hover{{border-color:var(--rojo);color:var(--rojo)}}
-.explorar-chip small{{color:#777;font-size:10px}}
-.lateral-destino{{padding:13px 0 0;border-top:1px solid var(--linea)}}
-.lateral-destino strong{{font-family:'Playfair Display',Georgia,serif;font-size:18px}}
-.lateral-destino p{{font-size:11px;color:#666;line-height:1.5;margin:5px 0}}
-.lateral-destino a{{font-size:10px;font-weight:800;color:var(--rojo);text-transform:uppercase;letter-spacing:.6px}}
-.feed-noticias{{margin-top:30px}}
-.feed-noticias .titulo-seccion{{margin-bottom:18px}}
-.ancla-seccion{{display:block;position:relative;top:-18px;scroll-margin-top:18px}}
-.destacada-visual img,.tarjeta-imagen img,.articulo .foto{{object-fit:contain!important;object-position:center;background:#e9e6df}}
-.tarjeta-imagen{{height:auto;aspect-ratio:16/9;display:flex;align-items:center;justify-content:center;background:#e9e6df}}
-.tarjeta-imagen img{{width:100%;height:100%;object-fit:contain;display:block}}
-.tarjeta{{display:flex;flex-direction:column;min-width:0;overflow:hidden}}
-.tarjeta-enlace{{display:flex;flex-direction:column;height:100%}}
-.tarjeta-contenido{{padding:14px 16px 17px}}
-.tarjeta h3{{font-size:clamp(18px,1.55vw,22px);line-height:1.18}}
-.tarjeta p{{display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}}
-.rejilla.carrusel-infinito{{display:flex;align-items:stretch;gap:20px;overflow-x:auto;overflow-y:hidden;width:100%;max-width:100%;padding:0 0 14px;scrollbar-width:none;scroll-behavior:auto;scroll-snap-type:x proximity;overscroll-behavior-x:contain;-webkit-overflow-scrolling:touch}}
-.rejilla.carrusel-infinito::-webkit-scrollbar{{display:none}}
-.rejilla.carrusel-infinito .tarjeta{{flex:0 0 clamp(270px,29vw,350px);width:clamp(270px,29vw,350px);min-width:0;scroll-snap-align:start}}
-.rejilla.carrusel-infinito .tarjeta-imagen{{height:auto;aspect-ratio:16/9}}
-.articulo .foto-marco{{margin:26px auto 8px;max-width:900px;max-height:72vh;background:#e9e6df;display:flex;align-items:center;justify-content:center;overflow:hidden}}
-.articulo .foto{{width:100%;height:auto;max-height:72vh;display:block;margin:0;object-fit:contain;object-position:center}}
-.mapa-articulos{{grid-column:1/-1}}
-.mapa-articulos ul{{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:13px 28px;list-style:none;padding:0}}
-.mapa-articulos li{{padding:10px 0;border-bottom:1px solid var(--linea)}}
-.mapa-articulos small{{display:block;font-size:10px;color:#888;margin-top:4px}}
-body.noche .lateral{{background:#222;border-color:#484848}}
-body.noche .lateral-intro,body.noche .lateral-destino p{{color:#d0ccc4}}
-body.noche .explorar-chip{{background:#303030;border-color:#484848;color:#eee}}
-body.noche .destacada-visual img,body.noche .tarjeta-imagen img,body.noche .articulo .foto,body.noche .destacada-visual,body.noche .tarjeta-imagen{{background:#252525}}
-@media(max-width:980px){{
- .portada-grid{{grid-template-columns:1fr}}
- .destacada>a{{grid-template-columns:minmax(0,1fr) minmax(260px,.9fr)}}
- .destacada-visual{{min-height:300px}}
- .lateral{{display:grid;grid-template-columns:1fr 1fr;gap:12px 18px}}
- .lateral-kicker,.lateral-titulo,.lateral-intro,.explorar-secciones{{grid-column:1/-1}}
- .lateral-destino{{margin-top:0}}
-}}
-@media(max-width:700px){{
- .franja-editorial>div{{padding:8px 14px;font-size:8px}}
- .cabecera{{padding:18px 15px 13px}}
- .brand-row{{align-items:center;gap:10px}}
- .marca{{font-size:clamp(39px,10vw,48px);letter-spacing:-2.2px}}
- .instagram-marca{{margin:0;padding:7px 9px}}
- .instagram-marca strong{{font-size:10px}}
- .instagram-marca small{{font-size:9px}}
- .cabecera-meta{{font-size:9px;gap:10px}}
- .nav-interior{{padding:12px 15px;gap:18px;overflow-x:auto}}
- .barra-herramientas{{padding:9px 15px;flex-wrap:nowrap}}
- .buscador{{max-width:none;flex:1;min-width:0}}
- .accion-ui{{white-space:nowrap;padding:9px 10px}}
- .contenedor{{padding:0 15px 24px}}
- .cinta{{margin:18px 0 13px}}
- .destacada>a{{grid-template-columns:1fr}}
- .destacada-visual{{height:auto;min-height:0;aspect-ratio:16/9}}
- .destacada-texto{{padding:18px 17px 20px}}
- .destacada h1{{font-size:clamp(27px,8vw,35px)}}
- .destacada p{{font-size:12px}}
- .lateral{{display:flex;padding:18px}}
- .lateral-titulo{{font-size:24px}}
- .explorar-secciones{{grid-template-columns:repeat(2,minmax(0,1fr))}}
- .feed-noticias{{margin-top:24px}}
- .rejilla.carrusel-infinito{{gap:13px;margin-right:-15px;padding-right:15px}}
- .rejilla.carrusel-infinito .tarjeta{{flex:0 0 min(82vw,350px);width:min(82vw,350px)}}
- .tarjeta-imagen{{aspect-ratio:16/9;height:auto}}
- .tarjeta-contenido{{padding:12px 13px 15px}}
- .tarjeta h3{{font-size:18px}}
- .tarjeta p{{font-size:11px;-webkit-line-clamp:3}}
- .pagina-editorial{{padding:32px 17px 48px}}
- .pagina-editorial h1{{font-size:clamp(36px,10vw,48px)}}
- .editorial-grid{{grid-template-columns:1fr}}
- .mapa-articulos ul{{grid-template-columns:1fr}}
- .pie-interior{{grid-template-columns:1fr}}
- .pie-links{{justify-content:flex-start}}
- .pie-legal{{grid-column:auto}}
- .articulo{{padding:0 17px;margin-top:22px}}
- .articulo h1{{font-size:clamp(34px,10vw,43px)}}
- .articulo .foto-marco{{margin:20px -2px 8px;max-height:60vh}}
- .articulo .foto{{max-height:60vh;width:100%}}
-}}
-@media(prefers-reduced-motion:reduce){{
- .rejilla.carrusel-infinito{{scroll-behavior:auto}}
- .tarjeta,.tarjeta-imagen img{{transition:none}}
-}}
-
-.tarjeta:hover .tarjeta-imagen img{{transform:none}}
-</style>
+<style>{CSS}</style>
 </head>
 <body>
-<div class="franja-editorial"><div><strong>CEV NOTICIAS</strong><span>Periodismo · Contexto · Actualidad</span><span>{fecha_actual()} · Cali, Colombia</span></div></div>
+<div class="topline"><div class="topline-inner"><strong>CEV NOTICIAS</strong><span>Periodismo · Contexto · Actualidad</span><span>{fecha_actual()} · Cali, Colombia</span></div></div>
 <header class="masthead">
- <div class="cabecera">
   <div class="brand-row">
-   <div><div class="marca"><a href="https://cevnoticias.com/" aria-label="CEV NOTICIAS, ir al inicio">CEV <span>NOTICIAS</span></a></div><div class="eslogan">La actualidad, con contexto.</div></div>
-   <a class="instagram-marca" href="https://www.instagram.com/cev.noticias/" target="_blank" rel="noopener noreferrer" aria-label="Instagram de Cali en Vivo Noticias: @cev.noticias"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="17.5" cy="6.8" r="1.1" fill="currentColor"/></svg><span><strong>Cali en Vivo Noticias</strong><small>@cev.noticias</small></span></a>
+    <div><div class="brand-name"><a href="https://cevnoticias.com/">CEV <span>NOTICIAS</span></a></div><div class="brand-tagline">La actualidad, con contexto.</div></div>
+    <a class="brand-social" href="https://www.instagram.com/cev.noticias/" target="_blank" rel="noopener noreferrer" aria-label="Instagram CEV Noticias">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="17.5" cy="6.8" r="1.1" fill="currentColor"/></svg>
+      <span><strong>Cali en Vivo Noticias</strong><small>@cev.noticias</small></span>
+    </a>
+    <div class="edition">Edición digital<br>Actualización permanente</div>
   </div>
-  <div class="cabecera-meta"><span>Edición digital · Actualización permanente</span><span class="estado">Cali · Colombia</span></div>
- </div>
- <nav aria-label="Navegación principal"><div class="nav-interior">
-  <a href="https://cevnoticias.com/">Portada</a>{enlaces}
-  <a href="institucional.html">Quiénes somos</a><a href="boletin.html">Boletín</a>
- </div></nav>
- <div class="barra-herramientas">
-  <input id="buscar-noticias" class="buscador" type="search" placeholder="Buscar noticias, temas o palabras..." aria-label="Buscar noticias">
-  <button id="modo-noche" class="accion-ui" type="button" aria-pressed="false">◐ Modo oscuro</button>
- </div>
+  <nav class="primary-nav" aria-label="Navegación principal">
+    <div class="nav-inner"><a href="https://cevnoticias.com/">Portada</a>{enlaces_seccion}<a class="nav-page" href="{raiz}institucional.html">Quiénes somos</a><a class="nav-page" href="{raiz}boletin.html">Boletín</a><a class="nav-page" href="{raiz}mapa-del-sitio.html">Mapa del sitio</a></div>
+  </nav>
+  <div class="toolbar">
+    <label class="search"><input id="news-search" type="search" placeholder="Buscar noticias o temas..." aria-label="Buscar noticias"></label>
+    <button class="mode-button" id="mode-toggle" type="button" aria-pressed="false">◐ Modo oscuro</button>
+  </div>
 </header>
 {contenido}
-<footer class="pie">
- <div class="pie-interior">
-  <div><div class="pie-marca">CEV <span>NOTICIAS</span></div><p>Actualidad de Cali, el Valle del Cauca, Colombia y el mundo.</p></div>
-  <div class="pie-links"><a href="{ruta_raiz}">Portada</a><a href="institucional.html">Quiénes somos</a><a href="boletin.html">Boletín de noticias</a><a href="{ruta_raiz}mapa-del-sitio.html">Mapa del sitio</a><a href="https://www.instagram.com/cev.noticias/" target="_blank" rel="noopener noreferrer">Instagram · @cev.noticias</a></div>
-  <p class="pie-legal">CEV NOTICIAS · Las fuentes consultadas se identifican al final de cada artículo. Las noticias en desarrollo se actualizan cuando existen nuevos datos respaldados.</p>
- </div>
+<footer class="footer">
+  <div class="footer-inner">
+    <div><div class="footer-brand">CEV <span>NOTICIAS</span></div><p>Actualidad de Cali, el Valle del Cauca, Colombia y el mundo.</p></div>
+    <nav class="footer-links" aria-label="Enlaces del pie"><a href="https://cevnoticias.com/">Portada</a><a href="{raiz}institucional.html">Quiénes somos</a><a href="{raiz}boletin.html">Boletín</a><a href="{raiz}mapa-del-sitio.html">Mapa del sitio</a><a href="https://www.instagram.com/cev.noticias/" target="_blank" rel="noopener noreferrer">Instagram</a></nav>
+  </div>
 </footer>
-<script>
-(function(){{
- // Carruseles automáticos para navegación y noticias, sin clonar contenido.
- const selectores=['.rejilla.carrusel-infinito'];
- const carruseles=selectores.flatMap(selector=>[...document.querySelectorAll(selector)]);
- carruseles.forEach(track=>{{
-  let pausado=false,anterior=0,direccion=1,reactivar=null,ultimoScroll=track.scrollLeft;
-  const velocidad=64;
-  const maximo=()=>Math.max(0,track.scrollWidth-track.clientWidth);
-  const pausar=()=>{{pausado=true;anterior=0;if(reactivar)clearTimeout(reactivar);}};
-  const reanudar=()=>{{if(reactivar)clearTimeout(reactivar);reactivar=setTimeout(()=>{{pausado=false;anterior=0;}},450);}};
-  track.addEventListener('pointerdown',pausar,{{passive:true}});
-  window.addEventListener('pointerup',reanudar,{{passive:true}});
-  window.addEventListener('pointercancel',reanudar,{{passive:true}});
-  track.addEventListener('touchstart',pausar,{{passive:true}});
-  track.addEventListener('touchend',reanudar,{{passive:true}});
-  track.addEventListener('touchcancel',reanudar,{{passive:true}});
-  track.addEventListener('wheel',()=>{{pausar();reanudar();}},{{passive:true}});
-  track.addEventListener('mouseenter',pausar,{{passive:true}});
-  track.addEventListener('mouseleave',reanudar,{{passive:true}});
-  track.addEventListener('focusin',pausar);
-  track.addEventListener('focusout',reanudar);
-  window.addEventListener('blur',()=>{{pausado=false;anterior=0;}});
-  document.addEventListener('visibilitychange',()=>{{anterior=0;if(document.hidden)pausado=true;else pausado=false;}});
-  function mover(t){{
-   if(!anterior)anterior=t;
-   const delta=Math.min(Math.max((t-anterior)/1000,0),0.05);anterior=t;
-   const limite=maximo();
-   if(!pausado&&limite>3){{
-    const actual=track.scrollLeft;
-    if(Math.abs(actual-ultimoScroll)>1)direccion=actual>ultimoScroll?1:-1;
-    let siguiente=actual+direccion*velocidad*delta;
-    if(siguiente>=limite){{siguiente=limite;direccion=-1;}}
-    else if(siguiente<=0){{siguiente=0;direccion=1;}}
-    track.scrollLeft=siguiente;
-   }}
-   ultimoScroll=track.scrollLeft;
-   requestAnimationFrame(mover);
-  }}
-  requestAnimationFrame(mover);
- }});
-}})();
-</script>
-<div class="progreso-lectura" id="progreso-lectura"></div>
-<button class="volver-arriba" id="volver-arriba" type="button" aria-label="Volver arriba" title="Volver arriba">↑</button>
-<script>
-(function(){{
- const buscar=document.getElementById('buscar-noticias');
- if(buscar){{buscar.addEventListener('input',function(){{
-  const q=this.value.trim().toLocaleLowerCase('es');
-  document.querySelectorAll('.tarjeta,.relevante,.destacada').forEach(el=>{{el.hidden=!!q&&!el.innerText.toLocaleLowerCase('es').includes(q)}});
-  document.querySelectorAll('.bloque-categoria').forEach(sec=>{{sec.hidden=!!q&&sec.querySelectorAll('.tarjeta:not([hidden])').length===0}});
- }});}}
- const modo=document.getElementById('modo-noche');
- if(modo){{modo.addEventListener('click',()=>{{
-  const activo=document.body.classList.toggle('noche');
-  modo.setAttribute('aria-pressed',String(activo));modo.textContent=activo?'☀ Modo claro':'◐ Modo oscuro';
-  try{{localStorage.setItem('cev-modo',activo?'noche':'claro')}}catch(e){{}}
- }});
- try{{if(localStorage.getItem('cev-modo')==='noche'){{document.body.classList.add('noche');modo.textContent='☀ Modo claro';modo.setAttribute('aria-pressed','true')}}}}catch(e){{}}}}
- const barra=document.getElementById('progreso-lectura'),arriba=document.getElementById('volver-arriba');
- function actualizar(){{const max=document.documentElement.scrollHeight-window.innerHeight;if(barra)barra.style.width=(max>0?(window.scrollY/max)*100:0)+'%';if(arriba)arriba.hidden=window.scrollY<450;}}
- window.addEventListener('scroll',actualizar,{{passive:true}});actualizar();
- if(arriba)arriba.addEventListener('click',()=>window.scrollTo({{top:0,behavior:'smooth'}}));
-}})();
-</script>
+<div class="progress" id="read-progress"></div>
+<button class="to-top" id="back-top" type="button" aria-label="Volver arriba" hidden>↑</button>
+<script>{SCRIPT}</script>
 </body>
 </html>"""
 
 
-def crear_articulo(noticia, noticias=None):
-    identificador = noticia["id"]
+def tarjeta(noticia):
     titulo = escapar(noticia.get("titulo"))
     resumen = escapar(noticia.get("resumen"))
     categoria = escapar(noticia.get("categoria"))
-    contenido = str(noticia.get("contenido") or "").strip()
+    identificador = escapar(noticia.get("id"))
     imagen = imagen_segura(noticia.get("imagen"))
-    foto = f'<figure class="foto-marco"><img class="foto" src="{imagen}" alt="{titulo}" loading="lazy"></figure>' if imagen else ""
+    visual = f'<img src="{imagen}" alt="{titulo}" loading="lazy">' if imagen else '<div class="story-image">CEV NOTICIAS</div>'
+    return f"""
+    <article class="story-card">
+      <a class="story-link" href="notas/{identificador}.html">
+        <div class="story-image">{visual}</div>
+        <div class="story-copy">
+          <span class="category-label">{categoria}</span>
+          <div class="state-wrap">{etiqueta_estado(noticia)}</div>
+          <h3>{titulo}</h3>
+          <p>{resumen}</p>
+          <span class="read-more">Leer noticia completa ↗</span>
+        </div>
+      </a>
+    </article>"""
+
+
+def crear_articulo(noticia, noticias):
+    ident = str(noticia["id"])
+    titulo = escapar(noticia.get("titulo"))
+    resumen = escapar(noticia.get("resumen"))
+    categoria = escapar(noticia.get("categoria"))
+    imagen = imagen_segura(noticia.get("imagen"))
+    contenido = str(noticia.get("contenido") or "").strip()
+    foto = f'<figure class="article-figure"><img src="{imagen}" alt="{titulo}" loading="lazy"></figure>' if imagen else ""
+    parrafos = "".join(f"<p>{escapar(parrafo.strip())}</p>" for parrafo in contenido.split("\n\n") if parrafo.strip())
+
     credito = noticia.get("imagen_credito") or {}
-    atribucion_imagen = ""
+    atribucion = ""
     if imagen and credito:
         autor = escapar(credito.get("autor", "Autor no identificado"))
         origen = escapar(credito.get("fuente", "Archivo de imágenes"))
         licencia = escapar(credito.get("licencia", "Consultar licencia"))
         pagina_imagen = imagen_segura(credito.get("pagina", ""))
         licencia_url = imagen_segura(credito.get("licencia_url", ""))
-        enlaces_credito = []
+        extras = []
         if pagina_imagen:
-            enlaces_credito.append(f'<a href="{pagina_imagen}" target="_blank" rel="noopener">fuente original</a>')
+            extras.append(f'<a href="{pagina_imagen}" target="_blank" rel="noopener noreferrer">fuente original</a>')
         if licencia_url:
-            enlaces_credito.append(f'<a href="{licencia_url}" target="_blank" rel="noopener">licencia</a>')
-        extras = " · ".join(enlaces_credito)
-        atribucion_imagen = f'<p class="credito-imagen">Imagen: {autor} · {origen} · {licencia} {extras}</p>'
-    parrafos = "".join(f"<p>{escapar(p.strip())}</p>" for p in contenido.split("\n\n") if p.strip())
-    noticias = noticias or [noticia]
-    def palabras(texto):
-        return set(re.findall(r"[a-záéíóúñü]{4,}", str(texto or "").lower()))
-    actuales = palabras(noticia.get("titulo", "") + " " + noticia.get("resumen", ""))
+            extras.append(f'<a href="{licencia_url}" target="_blank" rel="noopener noreferrer">licencia</a>')
+        atribucion = f'<p class="image-credit">Imagen: {autor} · {origen} · {licencia} {" · ".join(extras)}</p>'
+
+    refs = [f"<li>{escapar(fuente.get('nombre', 'Fuente consultada'))}</li>" for fuente in noticia.get("fuentes", [])]
+    estado = noticia.get("estado_informacion")
+    nota_preliminar = ""
+    if estado in ("en_desarrollo", "informacion_preliminar"):
+        nota_preliminar = '<p class="preliminary-note">La información disponible es preliminar y puede cambiar. Se actualizará cuando existan nuevos datos respaldados por fuentes confiables.</p>'
+
+    palabras = lambda text: set(re.findall(r"[a-záéíóúñü]{4,}", str(text or "").lower()))
+    base = palabras(str(noticia.get("titulo", "")) + " " + str(noticia.get("resumen", "")))
     relacionadas = []
     for otra in noticias:
-        if otra.get("id") == identificador:
+        if otra.get("id") == noticia.get("id"):
             continue
-        comunes = len(actuales & palabras(otra.get("titulo", "") + " " + otra.get("resumen", "")))
+        comunes = len(base & palabras(str(otra.get("titulo", "")) + " " + str(otra.get("resumen", ""))))
         puntaje = comunes + (2 if otra.get("categoria") == noticia.get("categoria") else 0)
         if puntaje:
             relacionadas.append((puntaje, otra))
-    relacionadas.sort(key=lambda x: x[0], reverse=True)
-    bloque_relacionadas = ""
+    relacionadas.sort(key=lambda item: item[0], reverse=True)
+    rel = ""
     if relacionadas:
-        tarjetas_rel = "".join(
-            f'<article class="tarjeta"><a class="tarjeta-enlace" href="{html.escape(otra.get("id", ""), quote=True)}.html"><span class="etiqueta">{escapar(otra.get("categoria"))}</span><h3>{escapar(otra.get("titulo"))}</h3><p>{escapar(otra.get("resumen"))}</p><span class="leer">Leer noticia ↗</span></a></article>'
-            for _, otra in relacionadas[:3]
-        )
-        bloque_relacionadas = f'<section class="relacionadas"><h2 class="titulo-seccion">También te puede interesar</h2><div class="rejilla">{tarjetas_rel}</div></section>'
-    referencias = [f"<li>{escapar(fuente.get('nombre', 'Fuente consultada'))}</li>" for fuente in noticia.get("fuentes", [])]
+        rel = '<section class="related"><h2>También te puede interesar</h2><div class="related-grid">' + "".join(tarjeta(n) for _, n in relacionadas[:2]) + "</div></section>"
+
     cuerpo = f"""
-    <main class="articulo">
-      <div class="articulo-cabecera">
-       <a class="volver" href="../index.html">← Volver a la portada</a>
-       <p class="etiqueta">{categoria}</p>
-       <h1>{titulo}</h1>
-       <p class="bajada">{resumen}</p>
-       <p class="fecha">Publicado: {escapar(noticia.get("fecha", fecha_actual()))} · Por CEV NOTICIAS</p>
-       {etiqueta_estado(noticia)}
-       {f'<p class="aviso-desarrollo">La información disponible es preliminar y puede cambiar. Se actualizará cuando existan nuevos datos confirmados por fuentes confiables.</p>' if noticia.get("estado_informacion") in ("en_desarrollo", "informacion_preliminar") else ""}
-       <p class="fecha">Verificación editorial: {escapar(noticia.get("verificacion", "Fuente consultada; ver referencias"))}</p>
-      </div>
-      {foto}
-      {atribucion_imagen}
-      <div class="cuerpo">{parrafos}</div>
-      <div class="fuentes"><strong>Fuentes consultadas</strong><ul>{''.join(referencias)}</ul>
-       <p>Artículo de elaboración propia. Las fuentes se presentan para consulta y contraste.</p>
-      </div>
-      {bloque_relacionadas}
+    <main class="article-page">
+      <header class="article-header">
+        <a class="back-link" href="https://cevnoticias.com/">← Volver a portada</a>
+        <div class="category-label">{categoria}</div>
+        <div class="state-wrap">{etiqueta_estado(noticia)}</div>
+        <h1>{titulo}</h1>
+        <p class="article-summary">{resumen}</p>
+        <div class="article-meta">Publicado: {escapar(noticia.get("fecha", fecha_actual()))} · CEV NOTICIAS</div>
+        {nota_preliminar}
+      </header>
+      {foto}{atribucion}
+      <div class="article-body">{parrafos}</div>
+      <section class="sources"><strong>Fuentes consultadas</strong><ul>{''.join(refs)}</ul><p>Artículo de elaboración propia. Consulta las fuentes relacionadas para ampliar la información.</p></section>
+      {rel}
     </main>"""
-    url_articulo = f"https://cevnoticias.com/notas/{identificador}.html"
-    datos_schema = {"@context":"https://schema.org","@type":"NewsArticle","headline":str(noticia.get("titulo","")),"description":str(noticia.get("resumen","")),"author":{"@type":"Organization","name":"CEV NOTICIAS"},"publisher":{"@type":"Organization","name":"CEV NOTICIAS"},"mainEntityOfPage":url_articulo}
+    url = f"https://cevnoticias.com/notas/{ident}.html"
+    schema = {
+        "@context": "https://schema.org", "@type": "NewsArticle",
+        "headline": str(noticia.get("titulo", "")),
+        "description": str(noticia.get("resumen", "")),
+        "datePublished": str(noticia.get("fecha", "")),
+        "author": {"@type": "Organization", "name": "CEV NOTICIAS"},
+        "publisher": {"@type": "Organization", "name": "CEV NOTICIAS"},
+        "mainEntityOfPage": url
+    }
     if imagen:
-        datos_schema["image"] = imagen
-    extra_head = f'<link rel="canonical" href="{url_articulo}"><meta property="og:type" content="article"><meta property="og:title" content="{titulo}"><meta property="og:description" content="{resumen}"><meta property="og:url" content="{url_articulo}">' + (f'<meta property="og:image" content="{imagen}">' if imagen else "") + '<script type="application/ld+json">' + json.dumps(datos_schema, ensure_ascii=False) + '</script>'
-    pagina = plantilla(titulo, cuerpo, resumen, ruta_raiz="../", extra_head=extra_head)
+        schema["image"] = imagen
+    extra = (
+        f'<link rel="canonical" href="{url}">'
+        f'<meta property="og:type" content="article">'
+        f'<meta property="og:title" content="{titulo}">'
+        f'<meta property="og:description" content="{resumen}">'
+        f'<meta property="og:url" content="{url}">'
+        + (f'<meta property="og:image" content="{imagen}">' if imagen else "")
+        + '<script type="application/ld+json">' + json.dumps(schema, ensure_ascii=False) + "</script>"
+    )
+    pagina = plantilla(titulo, cuerpo, resumen, ruta_raiz="../", extra_head=extra)
     NOTAS.mkdir(parents=True, exist_ok=True)
-    (NOTAS / f"{identificador}.html").write_text(pagina, encoding="utf-8")
+    (NOTAS / f"{ident}.html").write_text(pagina, encoding="utf-8")
 
 
-
-
-def crear_pagina_institucional(noticias):
+def crear_pagina_institucional():
     contenido = """
-    <main class="pagina-editorial">
-      <div class="sobrelinea">Conoce nuestro medio</div>
+    <main class="editorial-page">
+      <div class="eyebrow">Conoce nuestro medio</div>
       <h1>Información con contexto.</h1>
-      <p class="entradilla">CEV NOTICIAS es el espacio informativo de Cali en Vivo. Reunimos actualidad de Cali, el Valle del Cauca, Colombia y el mundo con una prioridad: contar qué se sabe, de dónde viene la información y qué sigue en desarrollo.</p>
-      <div class="editorial-grid">
-        <section class="editorial-card">
-          <h2>Qué hacemos</h2>
-          <p>Publicamos información de interés público en distintas áreas: ciudad, región, país, mundo, economía, deportes y tecnología. Cada noticia se presenta con un titular, un resumen y el contexto disponible.</p>
-        </section>
-        <section class="editorial-card">
-          <h2>Criterios editoriales</h2>
-          <ul>
-            <li>Separar los hechos conocidos de las versiones iniciales.</li>
-            <li>Atribuir la información a las fuentes consultadas.</li>
-            <li>No presentar rumores como hechos ni completar vacíos con suposiciones.</li>
-            <li>Actualizar las publicaciones cuando existan datos nuevos respaldados.</li>
-          </ul>
-        </section>
-        <section class="editorial-card">
-          <h2>Cómo leer los estados</h2>
-          <p><strong>Actualidad:</strong> noticia publicada que no tiene una marca explícita de seguimiento.</p>
-          <p><strong>Confirmada:</strong> los datos centrales están respaldados por las fuentes consultadas.</p>
-          <p><strong>En desarrollo:</strong> el hecho sigue evolucionando y algunos datos pueden cambiar.</p>
-          <p><strong>Información preliminar:</strong> se trata de un primer reporte o de datos que todavía requieren confirmación.</p>
-        </section>
-        <section class="editorial-card">
-          <h2>Fuentes y correcciones</h2>
-          <p>Las fuentes consultadas se muestran al final de cada artículo. Si encuentras un dato que deba revisarse, una actualización relevante o un error, puedes comunicarlo al equipo editorial para su evaluación.</p>
-          <p><a class="leer" href="https://www.instagram.com/cev.noticias/" target="_blank" rel="noopener noreferrer">Contactar a CEV NOTICIAS por Instagram ↗</a></p>
-        </section>
+      <p class="editorial-intro">CEV NOTICIAS es el espacio informativo de Cali en Vivo. Reunimos actualidad de Cali, el Valle del Cauca, Colombia y el mundo, distinguiendo los hechos confirmados de la información que continúa en desarrollo.</p>
+      <div class="info-grid">
+        <section class="info-card"><h2>Qué hacemos</h2><p>Publicamos información de interés público en ciudad, región, país, mundo, economía, deportes y tecnología. Cada noticia presenta titular, resumen y el contexto disponible.</p></section>
+        <section class="info-card"><h2>Criterios editoriales</h2><ul><li>Separar hechos conocidos de versiones iniciales.</li><li>Atribuir la información a las fuentes consultadas.</li><li>No presentar rumores como hechos.</li><li>Actualizar publicaciones con nuevos datos respaldados.</li></ul></section>
+        <section class="info-card"><h2>Estados de la información</h2><p><strong>Actualidad:</strong> publicación sin una marca específica de seguimiento.</p><p><strong>Confirmada:</strong> los datos centrales cuentan con respaldo suficiente en las fuentes consultadas.</p><p><strong>En desarrollo:</strong> el hecho sigue evolucionando.</p><p><strong>Información preliminar:</strong> los primeros datos todavía requieren confirmación.</p></section>
+        <section class="info-card"><h2>Fuentes y correcciones</h2><p>Las fuentes consultadas se identifican al final de cada artículo. Para comunicar una corrección o actualización, escribe al equipo editorial.</p><p><a href="https://www.instagram.com/cev.noticias/" target="_blank" rel="noopener noreferrer">Contactar a CEV NOTICIAS ↗</a></p></section>
       </div>
     </main>"""
-    extra = '<link rel="canonical" href="https://cevnoticias.com/institucional.html"><meta property="og:type" content="website"><meta property="og:title" content="Quiénes somos | CEV NOTICIAS"><meta property="og:description" content="Conoce el propósito, los criterios editoriales y los estados informativos de CEV NOTICIAS."><meta name="robots" content="index,follow">'
-    pagina = plantilla("Quiénes somos", contenido, "Conoce CEV NOTICIAS, sus criterios editoriales, sus fuentes y cómo identificar la información preliminar.", extra_head=extra)
-    (SITE / "institucional.html").write_text(pagina, encoding="utf-8")
+    extra = '<link rel="canonical" href="https://cevnoticias.com/institucional.html"><meta property="og:title" content="Quiénes somos | CEV NOTICIAS"><meta property="og:type" content="website">'
+    (SITE / "institucional.html").write_text(
+        plantilla("Quiénes somos", contenido, "Conoce CEV NOTICIAS y sus criterios editoriales.", extra_head=extra),
+        encoding="utf-8"
+    )
 
 
 def crear_pagina_boletin(noticias):
     elementos = []
-    for noticia in noticias[:10]:
-        ident = escapar(noticia.get("id"))
-        titulo = escapar(noticia.get("titulo"))
-        resumen = escapar(noticia.get("resumen"))
-        fecha = escapar(noticia.get("fecha", ""))
-        categoria = escapar(noticia.get("categoria", "Actualidad"))
+    for noticia in noticias[:12]:
         elementos.append(
-            f'<article class="boletin-item"><div class="fecha">{fecha}</div>'
-            f'<div><span class="etiqueta">{categoria}</span>{etiqueta_estado(noticia)}'
-            f'<h2><a href="notas/{ident}.html">{titulo}</a></h2><p>{resumen}</p></div></article>'
+            f'<article class="newsletter-item"><time>{escapar(noticia.get("fecha", ""))}</time>'
+            f'<div><span class="category-label">{escapar(noticia.get("categoria"))}</span>'
+            f'<div class="state-wrap">{etiqueta_estado(noticia)}</div>'
+            f'<h2><a href="notas/{escapar(noticia.get("id"))}.html">{escapar(noticia.get("titulo"))}</a></h2>'
+            f'<p>{escapar(noticia.get("resumen"))}</p></div></article>'
         )
-    listado = "".join(elementos) if elementos else '<p class="vacio">El boletín se actualizará cuando haya noticias disponibles.</p>'
     contenido = f"""
-    <main class="pagina-editorial">
-      <div class="sobrelinea">Boletín informativo</div>
+    <main class="editorial-page">
+      <div class="eyebrow">Boletín informativo</div>
       <h1>Lo esencial, sin perder el contexto.</h1>
-      <p class="entradilla">Una selección de las noticias más recientes publicadas por CEV NOTICIAS. Este resumen se actualiza junto con la edición digital para que puedas ponerte al día en un solo lugar.</p>
-      <span class="boletin-fecha">Actualizado · {fecha_actual()}</span>
-      <section class="boletin-lista" aria-label="Últimas noticias del boletín">{listado}</section>
-      <div class="boletin-cta"><div><strong>¿Tienes una noticia o una corrección?</strong><p>Comparte información de interés y sugerencias con el equipo de CEV NOTICIAS.</p></div><a href="https://www.instagram.com/cev.noticias/" target="_blank" rel="noopener noreferrer">Escribir al medio ↗</a></div>
+      <p class="editorial-intro">Resumen de las noticias más recientes publicadas por CEV NOTICIAS. Esta página se actualiza junto con la edición digital.</p>
+      <p class="article-meta">Actualizado: {fecha_actual()}</p>
+      <section class="newsletter-list">{''.join(elementos) if elementos else '<p>Aún no hay publicaciones disponibles.</p>'}</section>
     </main>"""
-    extra = '<link rel="canonical" href="https://cevnoticias.com/boletin.html"><meta property="og:type" content="website"><meta property="og:title" content="Boletín de noticias | CEV NOTICIAS"><meta property="og:description" content="Consulta el resumen de las noticias más recientes de CEV NOTICIAS."><meta name="robots" content="index,follow">'
-    pagina = plantilla("Boletín de noticias", contenido, "Resumen actualizado de las noticias publicadas por CEV NOTICIAS.", extra_head=extra)
-    (SITE / "boletin.html").write_text(pagina, encoding="utf-8")
-
+    extra = '<link rel="canonical" href="https://cevnoticias.com/boletin.html"><meta property="og:title" content="Boletín de noticias | CEV NOTICIAS"><meta property="og:type" content="website">'
+    (SITE / "boletin.html").write_text(
+        plantilla("Boletín de noticias", contenido, "Resumen de las noticias más recientes de CEV NOTICIAS.", extra_head=extra),
+        encoding="utf-8"
+    )
 
 
 def crear_mapa_sitio(noticias):
-    categorias = []
+    secciones = []
     for seccion in SECCIONES:
         if any(n.get("categoria") == seccion for n in noticias):
-            categorias.append(f'<li><a href="https://cevnoticias.com/#categoria-{slug(seccion)}">{escapar(seccion)}</a></li>')
+            secciones.append(f'<li><a href="https://cevnoticias.com/#categoria-{slug(seccion)}">{escapar(seccion)}</a></li>')
     articulos = "".join(
         f'<li><a href="notas/{escapar(n.get("id"))}.html">{escapar(n.get("titulo"))}</a><small>{escapar(n.get("categoria"))} · {escapar(n.get("fecha", ""))}</small></li>'
         for n in noticias
     )
     contenido = f"""
-    <main class="pagina-editorial mapa-sitio">
-      <div class="sobrelinea">Navegación</div><h1>Mapa del sitio</h1>
-      <p class="entradilla">Encuentra las secciones, páginas y noticias publicadas en CEV NOTICIAS.</p>
-      <div class="editorial-grid">
-        <section class="editorial-card"><h2>Páginas principales</h2><ul><li><a href="https://cevnoticias.com/">Portada</a></li><li><a href="institucional.html">Quiénes somos</a></li><li><a href="boletin.html">Boletín de noticias</a></li></ul></section>
-        <section class="editorial-card"><h2>Secciones con noticias</h2><ul>{''.join(categorias)}</ul></section>
-        <section class="editorial-card mapa-articulos"><h2>Artículos publicados</h2><ul>{articulos}</ul></section>
+    <main class="editorial-page">
+      <div class="eyebrow">Navegación</div><h1>Mapa del sitio</h1>
+      <p class="editorial-intro">Encuentra las páginas, secciones y artículos de CEV NOTICIAS.</p>
+      <div class="site-map-grid">
+        <section class="info-card"><h2>Páginas principales</h2><ul class="site-map-list"><li><a href="https://cevnoticias.com/">Portada</a></li><li><a href="institucional.html">Quiénes somos</a></li><li><a href="boletin.html">Boletín de noticias</a></li></ul></section>
+        <section class="info-card"><h2>Secciones</h2><ul class="site-map-list">{''.join(secciones)}</ul></section>
+        <section class="info-card" style="grid-column:1/-1"><h2>Artículos publicados</h2><ul class="site-map-list">{articulos}</ul></section>
       </div>
     </main>"""
-    extra = '<link rel="canonical" href="https://cevnoticias.com/mapa-del-sitio.html"><meta property="og:type" content="website"><meta property="og:title" content="Mapa del sitio | CEV NOTICIAS"><meta property="og:description" content="Navega por las secciones y noticias de CEV NOTICIAS.">'
-    pagina = plantilla("Mapa del sitio", contenido, "Mapa de secciones, páginas y noticias publicadas por CEV NOTICIAS.", extra_head=extra)
-    (SITE / "mapa-del-sitio.html").write_text(pagina, encoding="utf-8")
+    extra = '<link rel="canonical" href="https://cevnoticias.com/mapa-del-sitio.html"><meta property="og:title" content="Mapa del sitio | CEV NOTICIAS"><meta property="og:type" content="website">'
+    (SITE / "mapa-del-sitio.html").write_text(
+        plantilla("Mapa del sitio", contenido, "Mapa de páginas y artículos de CEV NOTICIAS.", extra_head=extra),
+        encoding="utf-8"
+    )
 
 
 def construir():
     datos = cargar_json(CACHE, {})
-    noticias = datos.get("noticias", [])
+    noticias = datos.get("noticias", []) if isinstance(datos, dict) else []
     validas = []
-    vistos = set()
-    titulos_vistos = set()
+    vistos_ids = set()
+    vistos_titulos = set()
+
     for noticia in noticias:
+        if not isinstance(noticia, dict):
+            continue
         titulo = str(noticia.get("titulo", "")).strip()
-        contenido = str(noticia.get("contenido", "")).strip()
+        cuerpo = str(noticia.get("contenido", "")).strip()
         categoria = noticia.get("categoria", "")
-        if not titulo or len(contenido) < 250 or categoria not in SECCIONES or not imagen_segura(noticia.get("imagen")):
+        if not titulo or len(cuerpo) < 250 or categoria not in SECCIONES or not imagen_segura(noticia.get("imagen")):
             continue
-        identificador = noticia.get("id") or slug(titulo)
+        ident = str(noticia.get("id") or slug(titulo))
         titulo_normalizado = re.sub(r"[^a-z0-9]+", " ", titulo.lower()).strip()
-        if identificador in vistos or titulo_normalizado in titulos_vistos:
+        if ident in vistos_ids or titulo_normalizado in vistos_titulos:
             continue
-        noticia["id"] = identificador
+        noticia["id"] = ident
         noticia.setdefault("fecha", fecha_actual())
-        noticia.setdefault("resumen", contenido[:220])
+        noticia.setdefault("resumen", cuerpo[:220])
         noticia.setdefault("fuentes", [])
-        vistos.add(identificador)
-        titulos_vistos.add(titulo_normalizado)
         validas.append(noticia)
-    
-    for noticia in validas:
-        crear_articulo(noticia, validas)
+        vistos_ids.add(ident)
+        vistos_titulos.add(titulo_normalizado)
 
     SITE.mkdir(parents=True, exist_ok=True)
-    crear_pagina_institucional(validas)
+    NOTAS.mkdir(parents=True, exist_ok=True)
+
+    for noticia in validas:
+        crear_articulo(noticia, validas)
+    crear_pagina_institucional()
     crear_pagina_boletin(validas)
     crear_mapa_sitio(validas)
+
     principal = validas[0] if validas else None
-    laterales = validas[1:4]
     if principal:
         imagen = imagen_segura(principal.get("imagen"))
-        visual = f'<img src="{imagen}" alt="{escapar(principal.get("titulo"))}" fetchpriority="high">' if imagen else '<div class="imagen-vacia">CEV</div>'
-        principal_html = f"""
-        <article class="destacada" id="categoria-{slug(principal.get('categoria', ''))}">
-         <a href="notas/{escapar(principal['id'])}.html">
-          <div class="destacada-visual">{visual}</div>
-          <div class="destacada-texto">
-           <span class="etiqueta">Noticia central · {escapar(principal['categoria'])}</span>
-           {etiqueta_estado(principal)}
-           <h1>{escapar(principal['titulo'])}</h1>
-           <p>{escapar(principal['resumen'])}</p>
-           <div class="meta-noticia">{escapar(principal.get('fecha', fecha_actual()))}</div>
-           <span class="boton">Leer noticia completa <span>↗</span></span>
+        imagen_html = f'<img src="{imagen}" alt="{escapar(principal.get("titulo"))}" fetchpriority="high">' if imagen else ""
+        hero = f"""
+        <article class="lead-story" id="categoria-{slug(principal.get('categoria'))}">
+          <div class="lead-image">{imagen_html}</div>
+          <div class="lead-copy">
+            <span class="category-label">{escapar(principal.get('categoria'))} · NOTICIA DESTACADA</span>
+            <div class="state-wrap">{etiqueta_estado(principal)}</div>
+            <h1>{escapar(principal.get('titulo'))}</h1>
+            <p>{escapar(principal.get('resumen'))}</p>
+            <div class="story-meta">{escapar(principal.get('fecha', fecha_actual()))} · CEV NOTICIAS</div>
+            <a class="read-link" href="notas/{escapar(principal.get('id'))}.html">Leer noticia completa ↗</a>
           </div>
-         </a>
         </article>"""
+        categoria_destacada = principal.get("categoria")
     else:
-        principal_html = '<div class="vacio">Estamos preparando las próximas noticias. Vuelve pronto.</div>'
+        hero = '<article class="lead-story"><div class="lead-copy"><h1>CEV NOTICIAS</h1><p>Estamos preparando las próximas publicaciones.</p></div></article>'
+        categoria_destacada = None
 
     conteos = {seccion: sum(1 for n in validas if n.get("categoria") == seccion) for seccion in SECCIONES}
-    chips_seccion = "".join(
-        f'<a class="explorar-chip" href="https://cevnoticias.com/#categoria-{slug(seccion)}"><span>{escapar(seccion)}</span><small>{conteos[seccion]}</small></a>'
+    chips = "".join(
+        f'<a class="section-chip" href="https://cevnoticias.com/#categoria-{slug(seccion)}"><span>{escapar(seccion)}</span><small>{conteos[seccion]}</small></a>'
         for seccion in SECCIONES if conteos[seccion]
     )
-    lateral_html = f"""
-    <aside class="lateral">
-      <div class="lateral-kicker">CEV · GUÍA DE LECTURA</div>
-      <h2 class="lateral-titulo">Explora por secciones</h2>
-      <p class="lateral-intro">Accede directamente a los temas que te interesan.</p>
-      <div class="explorar-secciones">{chips_seccion}</div>
-      <div class="lateral-destino"><strong>Conoce nuestro medio</strong><p>Consulta quiénes somos y cómo trabajamos la información.</p><a href="institucional.html">Nuestra línea editorial ↗</a></div>
-      <div class="lateral-destino lateral-boletin"><strong>Boletín de noticias</strong><p>Un resumen de las publicaciones más recientes.</p><a href="boletin.html">Ver el boletín ↗</a></div>
+    panel = f"""
+    <aside class="explore-panel">
+      <div class="panel-overline">CEV · GUÍA DE LECTURA</div>
+      <h2>Explora por secciones</h2>
+      <p>Elige un tema y accede directamente a sus publicaciones.</p>
+      <div class="section-links">{chips}</div>
+      <div class="panel-links"><a href="institucional.html">Conoce nuestro medio ↗</a><a href="boletin.html">Ver el boletín ↗</a></div>
     </aside>"""
-    portada = f'<section class="portada-grid">{principal_html}{lateral_html}</section>'
 
-    excluidas = {principal["id"]} if principal else set()
-    resto = [n for n in validas if n["id"] not in excluidas]
-    categorias_ancladas = {principal.get("categoria")} if principal else set()
-    tarjetas_lista = []
-    for indice, noticia in enumerate(resto):
-        categoria_noticia = noticia.get("categoria", "")
-        ancla = ""
-        if categoria_noticia not in categorias_ancladas:
-            ancla = f'<span class="ancla-seccion" id="categoria-{slug(categoria_noticia)}" aria-hidden="true"></span>'
-            categorias_ancladas.add(categoria_noticia)
-        tarjetas_lista.append(ancla + tarjeta(noticia, indice))
-    tarjetas = "".join(tarjetas_lista)
-    feed = (
-        f'<section class="bloque-categoria feed-noticias" id="ultimas-noticias"><h2 class="titulo-seccion">Últimas noticias</h2><div class="rejilla carrusel-infinito">{tarjetas}</div></section>'
-        if resto else
-        '<section class="bloque-categoria" id="ultimas-noticias"><h2 class="titulo-seccion">Últimas noticias</h2><p class="vacio">Próximamente encontrarás nuevas publicaciones.</p></section>'
+    layout = f"""
+    <main class="page">
+      <div class="section-kicker">Primera plana <span>{fecha_actual()}</span></div>
+      <section class="lead-layout">{hero}{panel}</section>
+      {''.join(bloques_categoria(validas, categoria_destacada))}
+    </main>"""
+    if not validas:
+        layout = '<main class="page"><p class="section-kicker">Primera plana</p><p>No hay noticias disponibles en este momento.</p></main>'
+
+    schema = {
+        "@context": "https://schema.org",
+        "@type": "NewsMediaOrganization",
+        "name": "CEV NOTICIAS",
+        "url": "https://cevnoticias.com/",
+        "sameAs": ["https://www.instagram.com/cev.noticias/"],
+        "description": "Noticias de Cali, Valle del Cauca, Colombia y el mundo."
+    }
+    extra = (
+        '<link rel="canonical" href="https://cevnoticias.com/">'
+        '<meta property="og:type" content="website">'
+        '<meta property="og:title" content="CEV NOTICIAS | Actualidad y periodismo">'
+        '<meta property="og:description" content="Noticias de Cali, Valle del Cauca, Colombia y el mundo.">'
+        '<meta name="twitter:card" content="summary_large_image">'
+        '<script type="application/ld+json">' + json.dumps(schema, ensure_ascii=False) + "</script>"
     )
-    contenido = f'<main class="contenedor"><div class="cinta"><span>Primera plana</span><a class="cinta-enlace" href="#ultimas-noticias">Ver últimas noticias <span aria-hidden="true">↘</span></a></div>{portada}{feed}</main>'
-    datos_portada = {"@context":"https://schema.org","@type":"NewsMediaOrganization","name":"CEV NOTICIAS","url":"https://cevnoticias.com/","sameAs":["https://www.instagram.com/cev.noticias/"],"description":"Noticias de Cali, Valle del Cauca, Colombia y el mundo."}
-    portada_head = '<link rel="canonical" href="https://cevnoticias.com/"><meta property="og:type" content="website"><meta property="og:title" content="CEV NOTICIAS | Actualidad y periodismo"><meta property="og:description" content="Noticias de Cali, Valle del Cauca, Colombia y el mundo."><meta name="twitter:card" content="summary_large_image">' + '<script type="application/ld+json">' + json.dumps(datos_portada, ensure_ascii=False) + '</script>'
-    (SITE / "index.html").write_text(plantilla("Portada", contenido, "Noticias de Cali, Valle del Cauca, Colombia y el mundo.", extra_head=portada_head), encoding="utf-8")
-    urls = ["https://cevnoticias.com/", "https://cevnoticias.com/institucional.html", "https://cevnoticias.com/boletin.html", "https://cevnoticias.com/mapa-del-sitio.html"] + [f"https://cevnoticias.com/notas/{n['id']}.html" for n in validas]
-    sitemap = '<?xml version="1.0" encoding="UTF-8"?>\n' + '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + ''.join(f'<url><loc>{html.escape(url)}</loc></url>\n' for url in urls) + '</urlset>\n'
+    (SITE / "index.html").write_text(
+        plantilla("Portada", layout, "Noticias de Cali, Valle del Cauca, Colombia y el mundo.", extra_head=extra),
+        encoding="utf-8"
+    )
+
+    urls = [
+        "https://cevnoticias.com/",
+        "https://cevnoticias.com/institucional.html",
+        "https://cevnoticias.com/boletin.html",
+        "https://cevnoticias.com/mapa-del-sitio.html"
+    ] + [f"https://cevnoticias.com/notas/{n['id']}.html" for n in validas]
+    sitemap = '<?xml version="1.0" encoding="UTF-8"?>\n'
+    sitemap += '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+    sitemap += "".join(f"<url><loc>{html.escape(url)}</loc></url>\n" for url in urls)
+    sitemap += "</urlset>\n"
     (SITE / "sitemap.xml").write_text(sitemap, encoding="utf-8")
-    (SITE / "robots.txt").write_text("User-agent: *\nAllow: /\nSitemap: https://cevnoticias.com/sitemap.xml\n", encoding="utf-8")
+    (SITE / "robots.txt").write_text(
+        "User-agent: *\nAllow: /\nSitemap: https://cevnoticias.com/sitemap.xml\n",
+        encoding="utf-8"
+    )
     print(f"Portada creada. Artículos publicados: {len(validas)}")
+
+
+def bloques_categoria(noticias, categoria_destacada):
+    bloques = []
+    por_seccion = {}
+    for noticia in noticias:
+        if noticia.get("categoria") == categoria_destacada and noticia.get("id") == (noticias[0].get("id") if noticias else None):
+            continue
+        por_seccion.setdefault(noticia.get("categoria", "Actualidad"), []).append(noticia)
+
+    for seccion in SECCIONES:
+        grupo = por_seccion.get(seccion, [])
+        if not grupo:
+            continue
+        identificador = f"categoria-{slug(seccion)}"
+        tarjetas = "".join(tarjeta(noticia) for noticia in grupo)
+        controles = ""
+        if len(grupo) > 1:
+            controles = f'<div class="track-controls"><button type="button" data-track-left="{identificador}-track" aria-label="Mover a la izquierda">‹</button><button type="button" data-track-right="{identificador}-track" aria-label="Mover a la derecha">›</button></div>'
+        carrusel = f'<div class="news-track" id="{identificador}-track" data-auto-carousel>{tarjetas}</div>' if len(grupo) > 1 else f'<div class="news-track">{tarjetas}</div>'
+        bloques.append(
+            f'<section class="category-block" id="{identificador}">'
+            f'<div class="category-heading"><h2>{escapar(seccion)}</h2><a href="https://cevnoticias.com/#categoria-{slug(seccion)}">Ver sección</a></div>'
+            f'{carrusel}{controles}</section>'
+        )
+    return "".join(bloques)
 
 
 if __name__ == "__main__":
