@@ -840,7 +840,18 @@ def construir_titulares_rss(entradas, publicadas, anteriores):
             "fecha": str(fuente.get("fecha") or "")
         })
 
-    candidatos.extend([n for n in anteriores if str(n.get("fuente", "")) != "BBC Sport"] if isinstance(anteriores, list) else [])
+    anteriores_validos = []
+    for anterior in (anteriores if isinstance(anteriores, list) else []):
+        if str(anterior.get("fuente", "")) == "BBC Sport":
+            continue
+        anterior = dict(anterior)
+        anterior["categoria"] = categoria_titular_rss({
+            "titulo": anterior.get("titulo", ""),
+            "fuente": anterior.get("fuente", "")
+        })
+        anteriores_validos.append(anterior)
+
+    candidatos.extend(anteriores_validos)
     candidatos.sort(key=lambda n: fecha_a_timestamp(n.get("fecha")), reverse=True)
 
     resultado = []
