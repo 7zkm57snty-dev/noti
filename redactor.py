@@ -551,18 +551,10 @@ def asegurar_datos_instagram(noticias):
         imagen_instagram = str(noticia.get("imagen_instagram", "")).strip()
         tipo_imagen = str(noticia.get("imagen_instagram_tipo", "")).strip()
 
-        if not imagen_instagram:
-            noticia["imagen_instagram"] = crear_portada_instagram(
-                identificador,
-                titulo,
-                noticia.get("categoria", "Actualidad")
-            )
-            noticia["imagen_instagram_tipo"] = "grafica_propia"
-            portadas_creadas += 1
-        elif not tipo_imagen:
-            # No se presume que una foto externa tenga licencia.
-            # Las imágenes antiguas sin metadatos se sustituyen por una
-            # portada gráfica propia para evitar reutilización no autorizada.
+        if not imagen_instagram or tipo_imagen == "grafica_propia" or not tipo_imagen:
+            # GitHub Actions utiliza un entorno temporal en cada ejecución:
+            # por eso las portadas propias se regeneran siempre antes del
+            # despliegue, aunque la URL ya figure guardada en cache.json.
             noticia["imagen_instagram"] = crear_portada_instagram(
                 identificador,
                 titulo,
