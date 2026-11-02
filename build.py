@@ -248,7 +248,7 @@ body.noche .pie{{background:#090909}}
  const carruseles=selectores.flatMap(selector=>[...document.querySelectorAll(selector)]);
  carruseles.forEach(track=>{{
   let pausado=false,anterior=0,direccion=1,reactivar=null,ultimoScroll=track.scrollLeft;
-  const velocidad=78;
+  const velocidad=64;
   const maximo=()=>Math.max(0,track.scrollWidth-track.clientWidth);
   const pausar=()=>{{pausado=true;anterior=0;if(reactivar)clearTimeout(reactivar);}};
   const reanudar=()=>{{if(reactivar)clearTimeout(reactivar);reactivar=setTimeout(()=>{{pausado=false;anterior=0;}},450);}};
