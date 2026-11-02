@@ -246,38 +246,38 @@ body.noche .pie{{background:#090909}}
  // Carruseles realmente continuos: duplicamos el contenido y reciclamos
  // el desplazamiento sin saltar visualmente al inicio.
  const carruseles=[...document.querySelectorAll('.rejilla.carrusel-infinito, .nav-interior')];
- carruseles.forEach(track=>{
+ carruseles.forEach(track=>{{
   const originales=[...track.children];
   if(!originales.length)return;
   originales.forEach(el=>track.appendChild(el.cloneNode(true)));
   let pausado=false,temporizador=null,anterior=0,anchoCiclo=0;
-  const medir=()=>{anchoCiclo=track.scrollWidth/2;};
+  const medir=()=>{{anchoCiclo=track.scrollWidth/2;}};
   medir();
   if('ResizeObserver' in window)new ResizeObserver(medir).observe(track);
-  const pausar=()=>{pausado=true;clearTimeout(temporizador);};
-  const reanudar=()=>{clearTimeout(temporizador);temporizador=setTimeout(()=>{pausado=false;},1800);};
-  track.addEventListener('pointerdown',pausar,{passive:true});
-  track.addEventListener('pointerup',reanudar,{passive:true});
-  track.addEventListener('pointercancel',reanudar,{passive:true});
-  track.addEventListener('touchstart',pausar,{passive:true});
-  track.addEventListener('touchend',reanudar,{passive:true});
-  track.addEventListener('touchcancel',reanudar,{passive:true});
-  track.addEventListener('wheel',pausar,{passive:true});
+  const pausar=()=>{{pausado=true;clearTimeout(temporizador);}};
+  const reanudar=()=>{{clearTimeout(temporizador);temporizador=setTimeout(()=>{{pausado=false;}},1800);}};
+  track.addEventListener('pointerdown',pausar,{{passive:true}});
+  track.addEventListener('pointerup',reanudar,{{passive:true}});
+  track.addEventListener('pointercancel',reanudar,{{passive:true}});
+  track.addEventListener('touchstart',pausar,{{passive:true}});
+  track.addEventListener('touchend',reanudar,{{passive:true}});
+  track.addEventListener('touchcancel',reanudar,{{passive:true}});
+  track.addEventListener('wheel',pausar,{{passive:true}});
   track.addEventListener('mouseenter',pausar);
   track.addEventListener('mouseleave',reanudar);
   track.addEventListener('focusin',pausar);
   track.addEventListener('focusout',reanudar);
-  function mover(t){
+  function mover(t){{
    if(!anterior)anterior=t;
    const delta=Math.min(t-anterior,40);anterior=t;
-   if(!pausado&&anchoCiclo>0){
+   if(!pausado&&anchoCiclo>0){{
     track.scrollLeft+=delta*0.012;
     if(track.scrollLeft>=anchoCiclo)track.scrollLeft-=anchoCiclo;
-   }
+   }}
    requestAnimationFrame(mover);
-  }
+  }}
   requestAnimationFrame(mover);
- }); // La navegación conserva sus anclas nativas: cada sección abre al primer clic.
+ }}); // La navegación conserva sus anclas nativas: cada sección abre al primer clic.
 }})();
 </script>
 <div class="progreso-lectura" id="progreso-lectura"></div>
