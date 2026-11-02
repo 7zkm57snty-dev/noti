@@ -1,6 +1,25 @@
 {
   "noticias": [
     {
+      "id": "77b91be9109cbdea",
+      "titulo": "El chisme corporativo: la moneda que impulsa decisiones y riesgos",
+      "resumen": "El chisme en las empresas, respaldado por un estudio de la Universidad de California en Riverside, ocupa casi una hora diaria de conversación y puede afectar decisiones y productividad. La gestión proactiva de la información, según La República, es clave para contrarrestar rumores y mantener la confianza del equipo.",
+      "categoria": "Economía",
+      "contenido": "El chisme corporativo se ha convertido en una moneda de pertenencia dentro de las empresas, según un artículo de La República titulado \"Chismis\". El autor relata cómo, desde su adolescencia, recibió ese apodo por compartir rumores de telenovelas y cómo, en el ámbito laboral, la información no oficial circula con rapidez y sin fuentes verificadas. En la práctica, el chisme permite a los empleados ganar estatus y, en tiempos de incertidumbre, sentirse informados y seguros.\n\nUn estudio reciente de la Universidad de California en Riverside, que grabó conversaciones de 467 personas con autorización, reveló que los trabajadores dedican en promedio 52 minutos diarios a hablar de alguien ausente. La mayoría de las conversaciones se centran en conocidos y se mantienen en tono neutral. En un entorno corporativo, eso equivale a casi una hora diaria dedicada a discutir al jefe, a un compañero, a un proveedor o a un cliente, no con la intención de difamar, sino de comprender la situación y anticipar cambios.\n\nEl impacto de estos rumores se hace evidente cuando la comunicación oficial se retrasa. En el caso de una planta que evaluaba trasladar una línea de producción, la falta de una decisión clara generó rumores de que dos soldadores experimentados se irían a otra empresa. El sindicato pidió una reunión urgente y la productividad cayó justo antes de una entrega clave. Cuando finalmente se comunicó que no había decisión, la credibilidad del anuncio se vio erosionada porque el pasillo ya había establecido la narrativa.\n\nPara los directivos, la tarea no es erradicar el chisme, una misión imposible, sino escucharlo y responder primero. La escucha activa permite medir la temperatura del equipo y detectar problemas antes de que se conviertan en crisis. Cuando la dirección comunica de manera oportuna, incluso si la respuesta es que aún no hay decisión, se cierra el espacio donde los rumores pueden crecer y distorsionar la realidad.\n\nEn conclusión, el chisme no es intrínsecamente dañino; el problema surge cuando los líderes dejan vacíos de información que el pasillo llena con especulaciones. El papel del directivo es llenar esos vacíos con datos claros y oportunos, convirtiéndose en la fuente confiable que reemplaza la moneda de rumores. Así, la cultura corporativa se alinea con la transparencia y la confianza, reduciendo los riesgos que los rumores pueden generar.",
+      "imagen": "",
+      "imagen_credito": {},
+      "imagen_instagram": "https://cevnoticias.com/social/77b91be9109cbdea.jpg",
+      "imagen_instagram_tipo": "grafica_propia",
+      "descripcion_instagram": "El chisme corporativo: la moneda que impulsa decisiones y riesgos\\n\\nEl chisme en las empresas, respaldado por un estudio de la Universidad de California en Riverside, ocupa casi una hora diaria de conversación y puede afectar decisiones y productividad. La gestión proactiva de la información, según La República, es clave para contrarrestar rumores y mantener la confianza del equipo.\\n\\nLee la noticia completa en cevnoticias.com.\\n\\n#CEVNoticias #Actualidad #Colombia",
+      "verificacion": "Una sola fuente",
+      "fecha": "02/11/2026 · 12:10 AM",
+      "fuentes": [
+        {
+          "nombre": "La República"
+        }
+      ]
+    },
+    {
       "id": "6f6e1983c93e7b43",
       "titulo": "Kiev anuncia el fin de la tregua de cuatro días en el sur de Ucrania",
       "resumen": "El gobierno ucraniano informó el 1 de noviembre de que concluyó la tregua negociada con la primera dama de Estados Unidos, que permitió una misión humanitaria en Oleshki y dejó sin violaciones el alto el fuego en la región de Jersón. La extensión del cese de hostilidades fue rechazada por Rusia, mientras que en otras zonas el conflicto continúa.",
@@ -218,6 +237,6 @@
     }
   ],
   "fecha_solicitudes_groq": "2026-11-02",
-  "solicitudes_groq": 2,
-  "ultima_actualizacion": "2026-11-02T05:08:55.665926+00:00"
+  "solicitudes_groq": 4,
+  "ultima_actualizacion": "2026-11-02T05:10:59.500201+00:00"
 }
