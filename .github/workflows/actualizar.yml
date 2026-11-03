@@ -147,7 +147,7 @@ jobs:
                   errores.append("resumen insuficiente")
               if palabras < 380:
                   errores.append("artículo de menos de 380 palabras")
-              parrafos = [p.strip() for p in cuerpo.split("\\n\\n") if p.strip()]
+              parrafos = [p.strip() for p in cuerpo.split("\n\n") if p.strip()]
               if len(parrafos) < 5:
                   errores.append("artículo con menos de cinco párrafos sustanciales")
               investigacion = noticia.get("investigacion") or {}
@@ -227,7 +227,7 @@ jobs:
                   ),
                   ""
               ])
-          Path("/tmp/cev_revision_body.md").write_text("\\n".join(lineas), encoding="utf-8")
+          Path("/tmp/cev_revision_body.md").write_text("\n".join(lineas), encoding="utf-8")
 
           ids_validas = {str(n.get("id")) for n in validas}
           ids_permitidos = ids_antes | ids_validas
