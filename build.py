@@ -246,10 +246,14 @@ def tarjeta(noticia, posicion=0, ruta_raiz=""):
     return f"""
     <article class="tarjeta tarjeta-vertical{clase_sin_imagen}">
       <a class="tarjeta-enlace" href="/notas/{identificador}.html">
-        {bloque_imagen}
+        <div class="tarjeta-cabecera">
+          {bloque_imagen}
+          <div class="tarjeta-titular">
+            <span class="etiqueta">{categoria}</span>
+            <h3>{titulo}</h3>
+          </div>
+        </div>
         <div class="tarjeta-contenido">
-          <span class="etiqueta">{categoria}</span>
-          <h3>{titulo}</h3>
           <p>{resumen}</p>
           <div class="meta-tarjeta">{marca_tiempo}</div>
           <span class="leer">Leer noticia <span aria-hidden="true">↗</span></span>
@@ -845,7 +849,8 @@ body.noche .cev-cookie-actions .principal{{background:#b5282f;border-color:#b528
 .meta-tarjeta{{margin-top:8px;font-size:10px;color:#687786}}
 .tiempo-relativo{{font-variant-numeric:tabular-nums;white-space:nowrap}}
 .visual-ia{{position:relative;display:block;width:100%;height:100%;min-height:120px;background-color:#dfe6ed;background-repeat:no-repeat;overflow:hidden;border-radius:inherit}}
-.visual-ia .imagen-ia-img{{display:block;width:100%;height:100%;min-height:0;object-fit:cover;border-radius:inherit}}\n.visual-ia .sello-imagen-ia{{position:absolute;z-index:2;right:7px;bottom:7px;padding:5px 7px;border-radius:4px;background:rgba(15,29,42,.86);color:#fff;font-size:8px;font-weight:900;letter-spacing:.65px;text-transform:uppercase}}
+.visual-ia .imagen-ia-img{{display:block;width:100%;height:100%;min-height:0;object-fit:cover;border-radius:inherit}}
+.visual-ia .sello-imagen-ia{{position:absolute;z-index:2;right:8px;bottom:8px;padding:4px 7px;border-radius:4px;background:rgba(15,29,42,.72);color:#fff;font-size:7px;font-weight:800;letter-spacing:.45px;text-transform:uppercase;pointer-events:none}}
 .tarjeta-imagen .visual-ia{{min-height:100%;height:100%}}
 .destacada-visual .visual-ia{{min-height:0;height:100%}}
 .express-foto .visual-ia{{min-height:0;height:100%}}
@@ -1179,6 +1184,95 @@ body.noche .breve-pie{{border-color:#49535e}}
  .destacada h1{{font-size:29px}}
  .tarjeta-vertical h3{{font-size:21px}}
  .articulo{{margin-inline:7px;padding-inline:14px}}
+}}
+
+
+/* Ajuste final de tarjetas: cabecera visual independiente y cuerpo alineado. */
+.tarjeta-vertical .tarjeta-enlace{{
+ display:block;
+ min-width:0;
+}}
+.tarjeta-vertical .tarjeta-cabecera{{
+ display:grid;
+ grid-template-columns:minmax(210px,34%) minmax(0,1fr);
+ gap:clamp(16px,2.2vw,27px);
+ align-items:stretch;
+ min-width:0;
+}}
+.tarjeta-vertical .tarjeta-imagen{{
+ width:100%;
+ height:auto;
+ min-height:0;
+ aspect-ratio:16/10;
+ overflow:hidden;
+ border-radius:11px;
+ background:#e3e9ef;
+}}
+.tarjeta-vertical .tarjeta-imagen img,
+.tarjeta-vertical .tarjeta-imagen .visual-ia,
+.tarjeta-vertical .tarjeta-imagen .visual-ia-img{{
+ display:block;
+ width:100%;
+ height:100%;
+ min-height:0;
+ object-fit:cover;
+ border-radius:11px;
+}}
+.tarjeta-vertical .tarjeta-titular{{
+ display:flex;
+ min-width:0;
+ flex-direction:column;
+ justify-content:center;
+ align-items:flex-start;
+ padding:4px 0;
+}}
+.tarjeta-vertical .tarjeta-titular .etiqueta{{margin:0 0 8px}}
+.tarjeta-vertical .tarjeta-titular h3{{
+ margin:0;
+ color:#17212b;
+ font-size:clamp(22px,2.25vw,31px);
+ line-height:1.14;
+ letter-spacing:-.35px;
+ overflow-wrap:break-word;
+ hyphens:auto;
+}}
+.tarjeta-vertical .tarjeta-contenido{{
+ display:block;
+ min-width:0;
+ padding:14px 0 3px;
+}}
+.tarjeta-vertical .tarjeta-contenido p{{
+ max-width:none;
+ margin:0 0 12px;
+ font-size:13px;
+ line-height:1.7;
+ color:#596775;
+ overflow-wrap:anywhere;
+}}
+.tarjeta-vertical .meta-tarjeta{{margin:0 0 8px;font-size:10px;color:#687786}}
+.tarjeta-vertical .leer{{display:inline-block;margin-top:2px}}
+.tarjeta-vertical.tarjeta-sin-imagen .tarjeta-cabecera{{grid-template-columns:minmax(0,1fr)}}
+.tarjeta-vertical.tarjeta-sin-imagen .tarjeta-titular{{padding:3px 0}}
+.tarjeta-vertical .tarjeta-imagen .visual-ia{{min-height:0;height:100%}}
+.visual-ia .imagen-ia-img{{display:block;width:100%;height:100%;min-height:0;object-fit:cover}}
+.breve-imagen{{width:100%;max-width:420px;aspect-ratio:16/9;height:auto;margin:0 0 12px;overflow:hidden;border-radius:10px;background:#e3e9ef}}
+.breve-imagen .visual-ia{{width:100%;height:100%;min-height:0}}
+.breve-imagen img,.breve-foto{{display:block;width:100%;height:100%;min-height:0;object-fit:cover}}
+.articulo .foto{{width:100%;height:auto;max-height:560px;aspect-ratio:16/9;object-fit:cover;display:block}}
+.articulo .visual-ia.foto{{display:block;width:100%;height:auto;min-height:0;aspect-ratio:16/9;max-height:560px;overflow:hidden;border-radius:13px}}
+.articulo .visual-ia.foto .imagen-ia-img{{width:100%;height:100%;min-height:0;object-fit:cover}}
+.visual-ia .sello-imagen-ia{{position:absolute;right:8px;bottom:8px;padding:4px 7px;border-radius:4px;background:rgba(15,29,42,.72);color:#fff;font-size:7px;font-weight:800;letter-spacing:.45px;pointer-events:none}}
+@media(max-width:900px){{
+ .tarjeta-vertical .tarjeta-cabecera{{grid-template-columns:minmax(180px,36%) minmax(0,1fr);gap:18px}}
+}}
+@media(max-width:700px){{
+ .tarjeta-vertical .tarjeta-cabecera{{grid-template-columns:minmax(0,1fr);gap:12px}}
+ .tarjeta-vertical .tarjeta-imagen{{aspect-ratio:16/9;max-height:none}}
+ .tarjeta-vertical .tarjeta-titular{{justify-content:flex-start;padding:0}}
+ .tarjeta-vertical .tarjeta-titular h3{{font-size:clamp(22px,6.4vw,26px);line-height:1.16}}
+ .tarjeta-vertical .tarjeta-contenido{{padding:10px 0 2px}}
+ .tarjeta-vertical .tarjeta-contenido p{{font-size:12px;line-height:1.62}}
+ .breve-imagen{{max-width:none;aspect-ratio:16/9}}
 }}
 
 </style>
