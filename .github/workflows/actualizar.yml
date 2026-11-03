@@ -41,10 +41,10 @@ jobs:
         shell: bash
         run: |
           BRANCH="revision-editorial/noticias-pendientes"
-          OPEN_PR="$(gh pr list --state open --head "$BRANCH" --json number --jq 'length')"
+          OPEN_PR="$(gh pr list --state open --base main --json headRefName --jq '[.[] | select(.headRefName == "revision-editorial/noticias-pendientes" or (.headRefName | startswith("revision-admin/")))] | length')"
           if [ "${OPEN_PR:-0}" -gt 0 ]; then
             echo "revision_pendiente=true" >> "$GITHUB_OUTPUT"
-            echo "Hay una propuesta editorial abierta. Se pausa la generación para no acumular más noticias."
+            echo "Hay una propuesta editorial abierta (automática o del panel administrativo). Se pausa la generación para evitar conflictos."
             exit 0
           fi
           if git ls-remote --exit-code --heads origin "$BRANCH" >/dev/null 2>&1; then
