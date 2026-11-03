@@ -157,10 +157,10 @@ jobs:
               if not isinstance(hechos_clave, list) or len([h for h in hechos_clave if str(h).strip()]) < 3:
                   errores.append("faltan al menos tres hechos clave identificados")
               if noticia.get("categoria") not in {
-                  "Cali", "Valle del Cauca", "Colombia", "Internacional",
+                  "Cali", "Valle del Cauca", "Colombia",
                   "Deportes", "Tecnología", "Economía", "Tendencias", "Humor y opinión"
               }:
-                  errores.append("categoría no reconocida")
+                  errores.append("categoría no reconocida para el enfoque regional y nacional")
 
               fuentes = []
               dominios = set()
@@ -234,10 +234,12 @@ jobs:
               if palabras < 45 or palabras > 100:
                   errores.append("mini-noticia fuera del rango de 45 a 100 palabras")
               if breve.get("categoria") not in {
-                  "Cali", "Valle del Cauca", "Colombia", "Internacional",
+                  "Cali", "Valle del Cauca", "Colombia",
                   "Deportes", "Tecnología", "Economía", "Tendencias", "Humor y opinión"
               }:
-                  errores.append("categoría de mini-noticia no reconocida")
+                  errores.append("categoría de mini-noticia fuera del enfoque regional y nacional")
+              if breve.get("ambito") not in {"Cali", "Valle del Cauca", "Colombia"}:
+                  errores.append("mini-noticia sin ámbito geográfico válido: Cali, Valle del Cauca o Colombia")
               clave = re.sub(r"[^a-z0-9]+", " ", titulo.lower()).strip()
               if not clave or clave in titulos_breves_vistos:
                   errores.append("mini-noticia duplicada")
@@ -318,6 +320,7 @@ jobs:
           for breve in breves_validos:
               lineas.extend([
                   f"### MINI-NOTICIA · {breve.get('titulo', 'Sin título')}",
+                  f"- **Ámbito geográfico:** {breve.get('ambito', 'Sin ámbito')}",
                   f"- **Sección:** {breve.get('categoria', 'Sin sección')}",
                   f"- **Extensión:** {len(str(breve.get('texto', '')).split())} palabras",
                   f"- **Estado:** {breve.get('estado_informacion', 'información preliminar')}",
