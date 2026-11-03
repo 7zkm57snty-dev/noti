@@ -40,10 +40,10 @@ function sourceList(feeds,statuses,limit){
   const st=byName.get(String(feed.nombre||""));
   const status=st?st.estado:"sin_verificar";
   const label=status==="ok"?"Respondió":(status==="error"?"Error":(status==="sin_entradas"?"Sin entradas":"Sin prueba todavía"));
-  const cls=status==="ok"?"good":(status==="sin_verificar"?"pending":"bad");
-  const detail=st?((Number(st.entradas_rss)||0)+" entradas recibidas · "+(Number(st.titulares_vigentes)||0)+" recientes"):"Se comprobará en la próxima ejecución del recolector.";
+  const cls=status==="ok"?"good":((status==="sin_verificar"||status==="sin_entradas")?"pending":"bad");
+  const detail=st?((Number(st.entradas_rss)||0)+" entradas recibidas · "+(Number(st.titulares_vigentes)||0)+" titulares recientes"+(st.ultima_consulta?" · "+dateTimeFull(st.ultima_consulta):"")):"Se comprobará en la próxima ejecución del recolector.";
   const error=st&&st.error?'<small class="sourceerror">'+esc(st.error)+'</small>':"";
-  return '<div class="newsrow"><div class="thumb '+cls+'">'+(status==="ok"?"✓":(status==="sin_verificar"?"…":"!"))+'</div><div><h3>'+esc(feed.nombre||"Fuente")+'</h3><span class="muted">'+esc(feed.zona||"Nacional / internacional")+' · '+label+' · '+detail+'</span>'+error+'</div><div class="actions">'+(feed.url?'<a class="mini" href="'+esc(feed.url)+'" target="_blank" rel="noopener" title="Abrir fuente">'+ico("open")+'</a>':"")+'</div></div>';
+  return '<div class="newsrow"><div class="thumb '+cls+'">'+(status==="ok"?"✓":(status==="sin_verificar"?"…":(status==="sin_entradas"?"–":"!")))+'</div><div><h3>'+esc(feed.nombre||"Fuente")+'</h3><span class="muted">'+esc(feed.zona||"Nacional / internacional")+' · '+label+' · '+detail+'</span>'+error+'</div><div class="actions">'+(feed.url?'<a class="mini" href="'+esc(feed.url)+'" target="_blank" rel="noopener" title="Abrir fuente">'+ico("open")+'</a>':"")+'</div></div>';
  }).join("")+'</div>';
 }
 function words(v){return String(v||"").trim().split(/\s+/).filter(Boolean).length}
