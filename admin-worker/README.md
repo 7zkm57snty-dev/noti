@@ -8,7 +8,7 @@ Worker privado para `admin.cevnoticias.com`, integrado con el repositorio `7zkm5
 - La interfaz se importa como módulo de texto mediante Wrangler. No se usa el router de Static Assets, para conservar el contexto de Access en el Worker.
 - El token de GitHub solo se lee desde el secreto `GITHUB_TOKEN` del Worker. Nunca se devuelve al navegador.
 - Las altas, ediciones y retiros crean una rama `revision-admin/*` y una propuesta contra `main`.
-- Aprobar fusiona la propuesta; eso dispara el workflow existente de GitHub Pages. Rechazar cierra la propuesta.
+- Aprobar fusiona la propuesta y el panel espera a que el workflow de GitHub Pages termine correctamente antes de confirmar que la web ya se puede actualizar. Rechazar cierra la propuesta.
 - Se mantiene `cache.json` como fuente de datos y se conservan los procesos de publicación actuales.
 - El workflow automático ahora se pausa tanto ante propuestas automáticas como ante propuestas creadas desde el panel.
 
