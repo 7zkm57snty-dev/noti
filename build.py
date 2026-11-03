@@ -14,6 +14,9 @@ BASE = Path(__file__).parent
 SITE = BASE / "site"
 NOTAS = SITE / "notas"
 CACHE = BASE / "cache.json"
+RADAR_RSS = BASE / "radar_rss.json"
+MAX_TITULARES_PUBLICOS = 24
+MAX_EDAD_TITULARES_PUBLICOS_HORAS = 72
 
 SECCIONES = ["Cali", "Valle del Cauca", "Colombia", "Internacional", "Deportes", "Tecnología", "Economía", "Tendencias", "Humor y opinión"]
 COLOMBIA_TZ = timezone(timedelta(hours=-5))
@@ -176,21 +179,20 @@ def tarjeta(noticia, posicion=0, ruta_raiz=""):
 def tarjeta_rss(titular):
     titulo = escapar(titular.get("titulo"))
     categoria = escapar(titular.get("categoria"))
-    identificador = escapar(titular.get("id"))
-    imagen = imagen_segura(titular.get("imagen"))
+    fuente = escapar(titular.get("fuente") or "Medio externo")
+    url = imagen_segura(titular.get("url"))
     fecha = fecha_ordenable(titular)
     fecha_texto = datetime.fromtimestamp(fecha, COLOMBIA_TZ).strftime("%d/%m · %I:%M %p") if fecha else ""
-    visual = f'<img src="{imagen}" alt="{titulo}" loading="lazy">' if imagen else ""
-    bloque_imagen = f'<div class="tarjeta-imagen">{visual}</div>' if visual else ""
+    if not titulo or not url:
+        return ""
     return f"""
     <article class="tarjeta tarjeta-vertical titular-externo">
-      <a class="tarjeta-enlace titular-rss-enlace" href="/notas/actualidad-{identificador}.html">
-        {bloque_imagen}
+      <a class="tarjeta-enlace titular-rss-enlace" href="{url}" target="_blank" rel="noopener noreferrer">
         <div class="tarjeta-contenido">
-          <span class="rss-sello">CEV NOTICIAS · ACTUALIDAD</span>
+          <span class="rss-sello">OTROS MEDIOS · {fuente}</span>
           <h3>{titulo}</h3>
           <div class="rss-datos"><strong>{categoria}</strong><span>{fecha_texto}</span></div>
-          <span class="leer">Consultar información ↗</span>
+          <span class="leer">Leer en {fuente} ↗</span>
         </div>
       </a>
     </article>"""
@@ -253,6 +255,64 @@ def modulo_express(items):
         </div>
       </div>
     </section>"""
+
+
+def palabras_titulo(texto):
+    ignorar = {
+        "para", "desde", "sobre", "entre", "tras", "cuando", "donde",
+        "porque", "como", "esta", "este", "estos", "estas", "tambien",
+        "contra", "despues", "antes", "hacia", "hasta", "ante", "sera",
+        "fue", "son", "los", "las", "una", "uno", "del", "por", "con",
+        "sin", "que", "sus", "mas", "hoy", "ayer", "nuevo", "nueva",
+        "colombia", "cali", "valle", "cauca", "noticia", "noticias"
+    }
+    return {
+        palabra for palabra in re.findall(r"[a-záéíóúñü]{4,}", str(texto or "").lower())
+        if palabra not in ignorar
+    }
+
+
+def titular_repite_articulo(titular, noticias):
+    palabras = palabras_titulo(titular)
+    if not palabras:
+        return False
+    for noticia in noticias:
+        otras = palabras_titulo(noticia.get("titulo", ""))
+        comunes = palabras.intersection(otras)
+        union = palabras.union(otras)
+        if len(comunes) >= 2 and len(comunes) / max(1, len(union)) >= 0.20:
+            return True
+    return False
+
+
+def seleccionar_titulares_publicos(titulares, noticias):
+    ahora = datetime.now(timezone.utc).timestamp()
+    limite = ahora - MAX_EDAD_TITULARES_PUBLICOS_HORAS * 3600
+    resultado = []
+    vistos = set()
+    for original in titulares if isinstance(titulares, list) else []:
+        if not isinstance(original, dict):
+            continue
+        titular = dict(original)
+        titulo = str(titular.get("titulo") or "").strip()
+        fuente = str(titular.get("fuente") or "").strip()
+        url = str(titular.get("url") or "").strip()
+        fecha = fecha_ordenable(titular)
+        if not titulo or not fuente or not url.startswith("https://"):
+            continue
+        if not fecha or fecha < limite or fecha > ahora + 2 * 3600:
+            continue
+        if titular.get("categoria") not in SECCIONES:
+            continue
+        if titular_repite_articulo(titulo, noticias):
+            continue
+        clave = re.sub(r"[^a-z0-9]+", " ", titulo.lower()).strip()
+        if not clave or clave in vistos:
+            continue
+        vistos.add(clave)
+        resultado.append(titular)
+    resultado.sort(key=fecha_ordenable, reverse=True)
+    return resultado[:MAX_TITULARES_PUBLICOS]
 
 
 def lista_vertical(noticias, titulares, categoria=None, excluir=None, ruta_raiz=""):
@@ -1118,7 +1178,8 @@ def construir():
     limpiar_archivos_publicos_obsoletos()
     datos = cargar_json(CACHE, {})
     noticias = datos.get("noticias", [])
-    titulares_rss = datos.get("titulares_rss", []) if isinstance(datos.get("titulares_rss", []), list) else []
+    radar = cargar_json(RADAR_RSS, {})
+    titulares_rss = radar.get("titulares_rss", []) if isinstance(radar, dict) else []
     validas = []
     vistos = set()
     titulos_vistos = set()
@@ -1171,6 +1232,11 @@ def construir():
         validas.append(noticia)
     
     validas.sort(key=fecha_ordenable, reverse=True)
+    titulares_publicos = seleccionar_titulares_publicos(titulares_rss, validas)
+    print(
+        f"Portada editorial: {len(validas)} artículos propios · "
+        f"{len(titulares_publicos)} titulares atribuidos a medios externos."
+    )
 
     for noticia in validas:
         crear_articulo(noticia, validas)
@@ -1222,7 +1288,7 @@ def construir():
 
     # Cada sección cuenta con una página propia; la portada mantiene un único flujo vertical.
     for seccion in SECCIONES:
-        crear_pagina_seccion(seccion, validas, [])
+        crear_pagina_seccion(seccion, validas, titulares_publicos)
     crear_paginas_institucionales()
 
     candidatos_express = []
@@ -1251,8 +1317,13 @@ def construir():
         '<div class="cinta"><span>En desarrollo</span><span>Últimas noticias</span></div>'
         f'{portada}'
         '<section class="bloque-categoria" id="ultimas-noticias">'
-        '<h2 class="titulo-seccion">Últimas noticias</h2>'
-        f'<div class="lista-noticias">{lista_portada or "<div class=vacio>No hay noticias disponibles por ahora.</div>"}</div>'
+        f'<h2 class="titulo-seccion">Noticias propias de CEV NOTICIAS <span class="contador-noticias">{len(validas)} artículos</span></h2>'
+        f'<div class="lista-noticias">{lista_portada or "<div class=vacio>No hay noticias propias disponibles por ahora.</div>"}</div>'
+        '</section>'
+        '<section class="bloque-categoria" id="mas-actualidad">'
+        f'<h2 class="titulo-seccion">Más actualidad en otros medios <span class="contador-noticias">{len(titulares_publicos)} titulares</span></h2>'
+        '<p class="nota-rss-publica">Seguimiento de publicaciones recientes de medios externos. Cada titular conserva el crédito y dirige al artículo original; no representa una publicación de autoría propia de CEV NOTICIAS.</p>'
+        f'<div class="rejilla rejilla-categorias">{lista_vertical([], titulares_publicos) or "<div class=vacio>No hay titulares externos recientes.</div>"}</div>'
         '</section></main>'
     )
     portada_head = '<link rel="canonical" href="https://cevnoticias.com/"><meta property="og:type" content="website"><meta property="og:title" content="CEV NOTICIAS | Actualidad y periodismo">'
@@ -1273,7 +1344,7 @@ def construir():
     (SITE / "sitemap.xml").write_text(sitemap, encoding="utf-8")
     (SITE / "robots.txt").write_text("User-agent: *\nAllow: /\nSitemap: https://cevnoticias.com/sitemap.xml\n", encoding="utf-8")
     validar_archivos_publicados(validas)
-    print(f"Portada creada. Artículos propios: {len(validas)} · Titulares de fuentes: {len(titulares_rss)}")
+    print(f"Portada creada. Artículos propios: {len(validas)} · Titulares externos publicados: {len(titulares_publicos)} · Titulares RSS disponibles: {len(titulares_rss)}")
 
 
 if __name__ == "__main__":
