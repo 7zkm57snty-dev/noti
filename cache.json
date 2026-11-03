@@ -1,6 +1,30 @@
 {
   "noticias": [
     {
+      "id": "b0d8e5fe805675ea",
+      "titulo": "Un hijo de 13 años, un padre sin casa y un grano que conquistó a Bogotá: la travesía de la familia detrás de Café Don Argelino",
+      "titular_instagram": "Café Don Argelino: de la montaña a la capital con un niño de 13 años",
+      "resumen": "Jesús Antonio y su hijo Juan Antonio, originarios de Argelia, Valle del Cauca, transformaron su cultivo de café en una marca que triunfó en la Expo Agrofuturo de Bogotá. A pesar de perder su hogar en el terremoto del 10 de agosto, la familia sigue soñando con colocar a su municipio en el mapa del café colombiano.",
+      "categoria": "Valle del Cauca",
+      "contenido": "Jesús Antonio y su hijo de 13 años, Juan Antonio, son los protagonistas de una historia que parte de las veredas de Argelia, municipio del Valle del Cauca, y llega a la capital del país. Hace ocho años, decidieron no quedarse como simples caficultores, sino convertirse en cafeteros, es decir, vender el grano y la historia que lo acompaña.\n\nEl café Don Argelino, cultivado a más de 1 600 metros sobre el nivel del mar, se caracteriza por su tueste medio oscuro, su acidez equilibrada, su cuerpo intenso y un retrogusto que permanece en el paladar como una promesa. “La idea de nosotros es que Argelia esté en el mapa de los cafés de mejor calidad de Colombia”, afirma Jesús Antonio.\n\nLa oportunidad llegó cuando la Gobernación del Valle del Cauca, a través del Fondo ValleINN, los seleccionó para participar en la Expo Agrofuturo, una plataforma que conecta a productores colombianos con mercados de América Latina. “Nos pusimos muy contentos porque sabemos que Bogotá es muy buena plaza”, recuerda el padre.\n\nEn la feria, el café Don Argelino captó la atención de los visitantes. “Nos fue muy bien, todo se vendió, fue maravilloso”, comenta Jesús Antonio. Los capitalinos se acercaban a probar el grano, preguntaban de dónde venía y, al escuchar que era de Argelia, sentían un vínculo con el territorio.\n\nSin embargo, la familia enfrentó una dura prueba cuando el terremoto del 10 de agosto arrasó sus viviendas y dejó al padre sin casa. A pesar de la adversidad, la pasión por el café y la visión de llevar su producto a nuevos mercados los impulsó a seguir adelante.\n\nHoy, el café Don Argelino sigue conquistando paladares en Bogotá y en otros lugares, y la familia continúa trabajando para que su municipio sea reconocido como un referente de calidad cafetera. La historia de Jesús Antonio y Juan Antonio es un testimonio de resiliencia, de la fuerza de la tradición y de la capacidad de convertir un grano en un símbolo de identidad y esperanza.",
+      "estado_informacion": "confirmada",
+      "imagen": "",
+      "imagen_credito": {},
+      "imagen_busqueda_intentada": true,
+      "imagen_instagram": "https://cevnoticias.com/social/b0d8e5fe805675ea.jpg",
+      "imagen_instagram_tipo": "portada_grafica_cev",
+      "descripcion_instagram": "Un hijo de 13 años, un padre sin casa y un grano que conquistó a Bogotá: la travesía de la familia detrás de Café Don Argelino\\n\\nJesús Antonio y su hijo Juan Antonio, originarios de Argelia, Valle del Cauca, transformaron su cultivo de café en una marca que triunfó en la Expo Agrofuturo de Bogotá. A pesar de perder su hogar en el terremoto del 10 de agosto, la familia sigue soñando con colocar a su municipio en el mapa del café colombiano.\\n\\nLee la noticia completa en cevnoticias.com.\\n\\n#CEVNoticias #Actualidad #ValleDelCauca #Colombia",
+      "verificacion": "Una sola fuente",
+      "fecha": "03/11/2026 · 12:29 AM",
+      "fuentes": [
+        {
+          "nombre": "El Tiempo Cali",
+          "titulo": "Un hijo de 13 años, un padre sin casa y un grano que conquistó a Bogotá: la travesía de la familia detrás de Café Don Argelino",
+          "url": "https://www.eltiempo.com/colombia/cali/un-hijo-de-13-anos-un-padre-sin-casa-y-un-grano-que-conquisto-a-bogota-la-travesia-de-la-familia-detras-de-cafe-don-argelino-3597569"
+        }
+      ]
+    },
+    {
       "id": "ee8f446505615ab2",
       "titulo": "Cali y el Pacífico perfilan su futuro con 54 megaproyectos en el Plan Nacional de Desarrollo: las inversiones podrían alcanzar los $49,2 billones",
       "titular_instagram": "54 megaproyectos y $49.2 billones: el futuro del Pacífico se perfila en Cali",
@@ -164,10 +188,268 @@
       "estado_informacion": "confirmada"
     }
   ],
-  "fecha_solicitudes_groq": "2026-11-02",
-  "ultima_actualizacion": "2026-11-03T00:47:13.166564+00:00",
-  "solicitudes_groq": 40,
   "titulares_rss": [
+    {
+      "id": "3253455dc1ad6c66",
+      "titulo": "¿Quién lidera la IA regional?",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/caja-fuerte/quien-lidera-la-ia-regional-4516376",
+      "fecha": "2026-11-03T05:07:18+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "93be4a0252b8425c",
+      "titulo": "Estados Unidos define 470 escaños del Congreso en las elecciones del 'midterm'",
+      "categoria": "Internacional",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/globoeconomia/estados-unidos-define-470-escanos-del-congreso-en-las-elecciones-midterm-4515550",
+      "fecha": "2026-11-03T05:04:09+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "5ff0c6bb41d09e8c",
+      "titulo": "GFT desarrolló una solución con IA para migrar los sistemas de Itaú Unibanco a la nube",
+      "categoria": "Economía",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/finanzas/gft-desarrollo-una-solucion-con-ia-para-migrar-los-sistemas-de-itau-unibanco-a-la-nube-4513144",
+      "fecha": "2026-11-03T05:01:58+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "dd46c453804e1f34",
+      "titulo": "Y mientras tanto... El partido invisible",
+      "categoria": "Deportes",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/analisis/maria-claudia-lacouture-402341/y-mientras-tanto-el-partido-invisible-4516271",
+      "fecha": "2026-11-03T05:01:57+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "3de41a15cc6c9f13",
+      "titulo": "Comprar frutas y verduras en plaza o supermercado, ¿dónde sale más barato el mercado?",
+      "categoria": "Economía",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/consumo/comprar-frutas-y-verduras-en-plaza-o-supermercado-donde-sale-mas-barato-el-mercado-4515263",
+      "fecha": "2026-11-03T05:01:54+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "03b137e4b27a589b",
+      "titulo": "Desinflar pretensiones",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/analisis/alberto-carrasquilla-562150/desinflar-pretensiones-4516291",
+      "fecha": "2026-11-03T05:01:53+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "cacf4c32bf65fb09",
+      "titulo": "Futbolistas de la Premier League obtienen un aplazamiento de la recaudación",
+      "categoria": "Deportes",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/ocio/los-futbolistas-de-la-premier-league-obtienen-un-aplazamiento-de-la-recaudacion-de-impuestos-4515302",
+      "fecha": "2026-11-03T05:01:51+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "2e2205f791541dfb",
+      "titulo": "Protocolos",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/analisis/lewis-acuna-3441162/protocolos-4515520",
+      "fecha": "2026-11-03T05:01:50+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "016226d6e777c7b3",
+      "titulo": "TotalEnergies anuncia alianzas con empresas del sector transportador",
+      "categoria": "Economía",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/ocio/totalenergies-anuncia-alianzas-con-empresas-del-sector-transportador-4515731",
+      "fecha": "2026-11-03T05:01:50+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "9974135b6fdd5ef5",
+      "titulo": "En 2025, alrededor de 480.000 personas quedaron excluidas del sistema de crédito formal",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/finanzas/en-2025-alrededor-de-480-000-personas-quedaron-excluidas-del-sistema-de-credito-formal-4515577",
+      "fecha": "2026-11-03T05:01:46+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "d80ff79931de2af0",
+      "titulo": "De la esencia del liderazgo en la vida real al nefasto liderazgo de la era digital",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/analisis/luis-guillermo-echeverri-velez-3075852/de-la-esencia-del-liderazgo-en-la-vida-real-al-nefasto-liderazgo-de-la-era-digital-4516301",
+      "fecha": "2026-11-03T05:01:44+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "bf12a7351b8397f5",
+      "titulo": "Qbano y Subway lideran un mercado que consume 25 millones de sánduches",
+      "categoria": "Economía",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/empresas/qbano-y-subway-lideran-un-mercado-que-consume-25-millones-de-sanduches-4515632",
+      "fecha": "2026-11-03T05:01:43+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "8c3adb5f6b49ea2f",
+      "titulo": "La EdTech Crack the Code espera llegar a más de 45.000 estudiantes en 2027",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/empresas/crack-the-code-espera-llegar-a-mas-de-45-ooo-estudiantes-en-2027-4514964",
+      "fecha": "2026-11-03T05:01:43+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "05690ab785f807df",
+      "titulo": "¿Puede un colombiano demandar en Colombia si su contrato laboral está sometido a las leyes de otro país?",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/analisis/pilar-ibanez-514336/puede-un-colombiano-demandar-en-colombia-si-su-contrato-laboral-esta-sometido-a-las-leyes-de-otro-pais-4516277",
+      "fecha": "2026-11-03T05:01:39+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "95ea9c747e8dcba0",
+      "titulo": "Cómo robarse una democracia",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/analisis/diego-gomez-3234242/como-robarse-una-democracia-4516287",
+      "fecha": "2026-11-03T05:01:33+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "7e7404144700d5ef",
+      "titulo": "Texaco pasará de 560 a 760 estaciones de servicio con inversión de US$100 millones",
+      "categoria": "Economía",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/empresas/texaco-busca-pasar-de-560-a-760-estaciones-de-servicio-4515203",
+      "fecha": "2026-11-03T05:01:33+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "4cf420e20ada2c7a",
+      "titulo": "No afectar el consumo de final de año",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/opinion/editorial/no-afectar-el-consumo-de-final-de-ano-4514966",
+      "fecha": "2026-11-03T05:01:33+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "65e33cb35e9ba5e7",
+      "titulo": "El ajuste en el IVA presionaría más la inflación y la llevaría arriba de 6,4% el próximo año",
+      "categoria": "Economía",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/economia/el-ajuste-en-el-iva-presionaria-mas-la-inflacion-y-la-llevaria-arriba-de-6-4-el-proximo-ano-4515593",
+      "fecha": "2026-11-03T05:01:32+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "f14ced55c9d91b3c",
+      "titulo": "Casi 100 países tienen impuestos a compras en plataformas como Temu y Shein",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/globoeconomia/casi-100-paises-tienen-impuestos-a-compras-en-plataformas-como-temu-y-shein-4515523",
+      "fecha": "2026-11-03T05:01:31+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "911962577a9f3d06",
+      "titulo": "“BMI Seguros Colombia abrirá nuevas oficinas en Barranquilla y Cali durante el próximo curso”",
+      "categoria": "Cali",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/finanzas/bmi-seguros-colombia-abrira-nuevas-oficinas-en-barranquilla-y-cali-el-proximo-ano-4516192",
+      "fecha": "2026-11-03T05:01:28+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "448cae6ba42adc20",
+      "titulo": "Sin empresas no hay paraíso",
+      "categoria": "Economía",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/analisis/alberto-j-bernal-leon-500059/sin-empresas-no-hay-paraiso-4516283",
+      "fecha": "2026-11-03T05:01:26+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "d7999608303c9741",
+      "titulo": "Mural consiguió US$15 millones en la inversión durante la jornada liderada por Tether",
+      "categoria": "Economía",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/finanzas/mural-consiguio-us-15-millones-en-inversion-durante-jornada-liderada-por-tether-4514117",
+      "fecha": "2026-11-03T05:01:17+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "aee388d7becfcd3b",
+      "titulo": "¿Burbuja en inversiones de inteligencia artificial?",
+      "categoria": "Economía",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/analisis/sergio-clavijo-500041/burbuja-en-inversiones-de-inteligencia-artificial-4516273",
+      "fecha": "2026-11-03T05:01:01+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "1c51b66e4c969969",
+      "titulo": "8 gráficos que muestran por qué las elecciones de medio mandato llegan en mal momento para Trump y qué hay en juego",
+      "categoria": "Internacional",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/cq5ynzzkxeymo?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-03T04:41:52+00:00",
+      "imagen": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/f64c/live/4e58ab20-c552-11f1-bc2e-018d645d8d21.jpg"
+    },
+    {
+      "id": "d6386d358ff0df89",
+      "titulo": "Quiénes son las 9 víctimas del fatal accidente del avión privado que se estrelló en Florida",
+      "categoria": "Internacional",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/cx054q17vvezo?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-03T03:49:51+00:00",
+      "imagen": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/c344/live/65462e20-d736-11f1-b306-c3f1b394ab8d.jpg"
+    },
+    {
+      "id": "bafbc4beabc8f59b",
+      "titulo": "Corte Suprema de Estados Unidos rechaza nuevo intento de Trump de invalidar 20.000 votos en California",
+      "categoria": "Internacional",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/corte-suprema-de-estados-unidos-rechaza-nuevo-intento-de-trump-de-invalidar-20-000-votos-en-california/a-79835036?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-03T02:13:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "e878459001f732ad",
+      "titulo": "Automatizar con IA: el paso que sigue después de los prompts",
+      "categoria": "Valle del Cauca",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/mi-talento-es-negocio-2026/automatizacion-con-ia-en-redes-sociales-mi-talento-es-negocio-2026/",
+      "fecha": "2026-11-03T01:00:29+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "04a86747ce3ae606",
+      "titulo": "Elecciones de medio término en EEUU: ¿qué estados decidirán el rumbo?",
+      "categoria": "Internacional",
+      "fuente": "La FM Internacional",
+      "url": "https://www.lafm.com.co/internacional/elecciones-de-medio-termino-en-eeuu-estados-deciden-rumbo-415925",
+      "fecha": "2026-11-03T00:56:14+00:00",
+      "imagen": "https://files.lafm.com.co/media/news-images/2026/11/02/233038/eleccionesestadosunidosmediotermino-1200x675.jpg"
+    },
+    {
+      "id": "c71da1d4d5750206",
+      "titulo": "Irán anuncia contactos \"intensos\" con Estados Unidos para evitar una escalada en el conflicto",
+      "categoria": "Internacional",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/irán-anuncia-contactos-intensos-con-estados-unidos-para-evitar-una-escalada-en-el-conflicto/a-79834973?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-03T00:43:00+00:00",
+      "imagen": ""
+    },
     {
       "id": "250987248e2f1cde",
       "titulo": "El emotivo regreso a casa de Karl Bushby, el aventurero británico que recorrió el mundo a pie tras partir de Chile hace 28 años",
@@ -178,31 +460,31 @@
       "imagen": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/fb3b/live/8b401f50-d6eb-11f1-a741-236ee91c2e25.jpg"
     },
     {
-      "id": "1c2184e9b0e536be",
-      "titulo": "Shein y Temu en Colombia: el secreto detrás de sus precios bajos y el negocio que preocupa a empresarios",
+      "id": "75ed525ef6a2ffc7",
+      "titulo": "Gobierno ADLE defiende ajuste fiscal: \"No estamos para pañitos tibios, tiene que ser radical\"",
       "categoria": "Economía",
       "fuente": "La FM Economía",
-      "url": "https://www.lafm.com.co/economia/shein-temu-precios-bajos-colombia-preocupacion-empresarios-415928",
-      "fecha": "2026-11-03T00:30:01+00:00",
-      "imagen": "https://files.lafm.com.co/assets/public/2025-04/shein_y_temu_1.jpg"
+      "url": "https://www.lafm.com.co/economia/ley-de-ajuste-fiscal-gobierno-abelardo-de-la-espriella-415930",
+      "fecha": "2026-11-03T00:35:45+00:00",
+      "imagen": "https://files.lafm.com.co/media/news-images/2026/11/03/004116/portadas-32-1200x675.jpg"
     },
     {
-      "id": "08a50dc239aec795",
-      "titulo": "Qué se sabe de la dramática caída de un avión privado en Florida que dejó 9 muertos",
+      "id": "621fb2edfc0c0188",
+      "titulo": "EEUU mediará en negociaciones entre Rusia y Ucrania en Abu Dabi la próxima semana",
       "categoria": "Internacional",
-      "fuente": "BBC Mundo",
-      "url": "https://www.bbc.com/mundo/articles/ckvg7l4dp0n8o?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-02T23:39:04+00:00",
-      "imagen": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/af3d/live/c7bbd3a0-d710-11f1-b7b1-f5dd7fa5128f.jpg"
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/eeuu-mediará-en-negociaciones-entre-rusia-y-ucrania-en-abu-dabi-la-próxima-semana/a-79834962?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-03T00:21:00+00:00",
+      "imagen": ""
     },
     {
-      "id": "86bac9aaeb898e4c",
-      "titulo": "Exministro de Hacienda de Petro pide que recorte al gasto sea mayor al presentado en la Ley de Rescate",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/impuestos/jose-antonio-ocampo-exministro-de-hacienda-de-petro-pide-que-recorte-sea-mayor-al-presentado-en-la-ley-de-rescate-505589",
-      "fecha": "2026-11-02T23:20:44+00:00",
-      "imagen": "https://imagenes.portafolio.co/files/og_thumbnail/files/fp/uploads/2025/11/02/69078676eaf9c.r_d.520-274-0.png"
+      "id": "42e7dffeb8300540",
+      "titulo": "Trump abre la puerta a indultos para favorecer a sus aliados  ante posible triunfo demócrata",
+      "categoria": "Internacional",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/trump-abre-la-puerta-a-indultos-para-favorecer-a-sus-aliados-ante-posible-triunfo-demócrata/a-79834954?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-02T23:40:00+00:00",
+      "imagen": ""
     },
     {
       "id": "dba31cb2c5415f40",
@@ -214,15 +496,6 @@
       "imagen": "https://files.lafm.com.co/media/news-images/2026/11/02/230409/portadas-30-1200x675.jpg"
     },
     {
-      "id": "70568f727976c30e",
-      "titulo": "María Eugenia Carreño será la viceministra de Diálogo Social de Ordóñez",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/en-vivo/maria-eugenia-carreno-sera-la-viceministra-de-dialogo-social-de-ordonez/",
-      "fecha": "2026-11-02T22:57:18+00:00",
-      "imagen": "https://i0.wp.com/www.lasillavacia.com/wp-content/uploads/2026/11/Carreno_Portada-1.jpg?fit=1024%2C768&quality=80&strip=all&ssl=1"
-    },
-    {
       "id": "bc70658a2ac180b8",
       "titulo": "Binance sufrió el mayor robo de criptomonedas de la historia, pero el verdadero examen llegó después: la confianza",
       "categoria": "Tecnología",
@@ -230,51 +503,6 @@
       "url": "https://www.xataka.com/criptomonedas/binance-sufrio-mayor-robo-criptomonedas-historia-verdadero-examen-llego-despues-confianza",
       "fecha": "2026-11-02T22:55:00+00:00",
       "imagen": "https://i.blogs.es/a724ca/binance/1024_2000.jpeg"
-    },
-    {
-      "id": "9f59a46ba81daf5c",
-      "titulo": "El historial del conductor de un lujoso Corvette que causó un accidente en Medellín: tenía licencia vencida y ocho multas",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/medellin/con-licencia-vencida-y-8-multas-previas-el-historial-del-conductor-de-un-corvette-que-causo-un-accidente-en-medellin-3597946",
-      "fecha": "2026-11-02T22:32:19+00:00",
-      "imagen": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2026/11/02/6ae8cf35c0b9d.r_d.885-384-0.jpeg"
-    },
-    {
-      "id": "0fa12b93ccd5cfbd",
-      "titulo": "Las identidades de las víctimas del atentado con volqueta cargada de explosivos en Planadas, sur del Tolima: joven promesa del fútbol murió en su casa",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/las-identidades-de-las-victimas-del-atentado-con-volqueta-cargada-de-explosivos-en-planadas-sur-del-tolima-joven-futbolista-murio-en-su-casa-3597954",
-      "fecha": "2026-11-02T22:31:39+00:00",
-      "imagen": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2026/11/02/6ae8e7070bfcb.r_d.279-227-0.jpeg"
-    },
-    {
-      "id": "4232adf717a9a076",
-      "titulo": "Al menos 26 muertos por un bombardeo ruso contra una escuela en Ucrania",
-      "categoria": "Internacional",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/internacional/2026-11-02/varios-muertos-por-un-bombardeo-ruso-contra-una-escuela-en-ucrania.html",
-      "fecha": "2026-11-02T22:20:10+00:00",
-      "imagen": "https://imagenes.elpais.com/resizer/v2/5INTQLRCXNFFDKOXDNPDC6D7SY.JPG?auth=4d040b96d428f0a58423fb2fb1d85dc79883ca9acbaeddb3868a8f780fa52a2e"
-    },
-    {
-      "id": "855c0704ac599444",
-      "titulo": "Salario mínimo 2027: las cifras que ya están sobre la mesa; esta es la fecha clave para el aumento",
-      "categoria": "Economía",
-      "fuente": "La FM Economía",
-      "url": "https://www.lafm.com.co/economia/salario-minimo-2027-cifras-sobre-la-mesa-y-fecha-clave-del-aumento-415923",
-      "fecha": "2026-11-02T22:08:03+00:00",
-      "imagen": "https://files.lafm.com.co/media/news-images/2026/11/02/222501/portadas-29-1200x675.jpg"
-    },
-    {
-      "id": "778d781935ec804f",
-      "titulo": "Las 7 elecciones clave que tienes que mirar para saber si los demócratas recuperan el control del Senado en EE.UU.",
-      "categoria": "Internacional",
-      "fuente": "BBC Mundo",
-      "url": "https://www.bbc.com/mundo/articles/c9ly0x3jr86eo?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-02T22:06:33+00:00",
-      "imagen": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/d352/live/f9439fd0-d6fb-11f1-b983-c357054e4d1e.png"
     },
     {
       "id": "a11dc26b1d13b69d",
@@ -286,69 +514,6 @@
       "imagen": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/11/02/6ae8fe8717f54.jpeg"
     },
     {
-      "id": "9a99085e82d8df6d",
-      "titulo": "FMI, prestamista del gobierno, respalda la tributaria de De la Espriella",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/en-vivo/fmi-prestamista-del-gobierno-respalda-la-tributaria-de-de-la-espriella/",
-      "fecha": "2026-11-02T21:34:53+00:00",
-      "imagen": "https://i0.wp.com/www.lasillavacia.com/wp-content/uploads/2026/10/FotoJet-1.jpg?fit=1024%2C768&quality=80&strip=all&ssl=1"
-    },
-    {
-      "id": "ed86d42c5721bfd0",
-      "titulo": "Presidente Abelardo De La Espriella pidió reforzar despliegue de operaciones en Planadas, Tolima, tras atentado con explosivos que dejó varios muertos",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/presidente-abelardo-de-la-espriella-pidio-reforzar-despliegue-de-operaciones-en-planadas-tolima-tras-atentado-con-explosivos-que-dejo-varios-muertos-3597961",
-      "fecha": "2026-11-02T21:11:18+00:00",
-      "imagen": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2026/11/02/6ae846667366d.r_d.538-268-0.png"
-    },
-    {
-      "id": "5d0bd4b162115e6a",
-      "titulo": "Cuatro claves que decidirán si Irán camina hacia la guerra o la paz",
-      "categoria": "Internacional",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/cuatro-claves-que-decidirán-si-irán-camina-hacia-la-guerra-o-la-paz/a-79833938?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-02T21:06:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "b8ffae8eebf657e4",
-      "titulo": "El clima desaparece de la campaña demócrata para las Midterms",
-      "categoria": "Internacional",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/el-clima-desaparece-de-la-campaña-demócrata-para-las-midterms/a-79832303?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-02T21:06:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "baa3b196994fc324",
-      "titulo": "El petróleo se desploma a su nivel más bajo desde julio mientras EE.UU. e Irán muestran apertura al diálogo",
-      "categoria": "Internacional",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/el-petroleo-se-desploma-a-su-nivel-mas-bajo-desde-julio-mientras-ee-uu-e-iran-muestran-apertura-al-dialogo-4516248",
-      "fecha": "2026-11-02T20:53:38+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "100a12f3679f9bd1",
-      "titulo": "El bloque anti-Netanyahu se reunirá por primera vez desde las elecciones",
-      "categoria": "Internacional",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/el-bloque-anti-netanyahu-se-reunirá-por-primera-vez-desde-las-elecciones/a-79834465?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-02T20:44:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "226bd7bddb12cd45",
-      "titulo": "Seúl teme quedar relegado a un segundo plano mientras Estados Unidos tiende la mano a Corea del Norte",
-      "categoria": "Internacional",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/seúl-teme-quedar-relegado-a-un-segundo-plano-mientras-estados-unidos-tiende-la-mano-a-corea-del-norte/a-79834043?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-02T20:36:00+00:00",
-      "imagen": ""
-    },
-    {
       "id": "30552bf130099d2b",
       "titulo": "¿Quién es Kimi Antonelli, el piloto italiano que se convirtió en campeón de la Fórmula 1 a los 20 años?",
       "categoria": "Deportes",
@@ -356,24 +521,6 @@
       "url": "https://www.lafm.com.co/deportes/kimi-antonelli-piloto-campeon-formula-1-415919",
       "fecha": "2026-11-02T20:25:16+00:00",
       "imagen": "https://files.lafm.com.co/media/news-images/2026/11/02/203626/este-es-kimi-antonelli-el-piloto-mas-joven-en-ganar-la-f1-1200x675.jpg"
-    },
-    {
-      "id": "baa17a6d7ff8b5a0",
-      "titulo": "Los Gilinski aseguran su millonario negocio petrolero en Venezuela",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/en-vivo/los-gilinski-aseguran-su-millonario-negocio-petrolero-en-venezuela/",
-      "fecha": "2026-11-02T20:07:16+00:00",
-      "imagen": "https://i0.wp.com/www.lasillavacia.com/wp-content/uploads/2026/08/gilinskiposesion-1.jpg?fit=1024%2C768&quality=80&strip=all&ssl=1"
-    },
-    {
-      "id": "b347fb5752555c18",
-      "titulo": "'Walter' el robot que coloca ladrillos con precisión y rinde por varios albañiles: llegaría a obras en 2027",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/infraestructura/walter-el-robot-que-coloca-ladrillos-con-precision-y-rinde-por-varios-albaniles-llegaria-a-obras-en-505591",
-      "fecha": "2026-11-02T20:05:00+00:00",
-      "imagen": "https://imagenes.portafolio.co/files/og_thumbnail/uploads/2026/11/02/6ae8eba8baf0e.webp"
     },
     {
       "id": "5060fee8ece355fc",
@@ -385,42 +532,6 @@
       "imagen": "https://i.blogs.es/d4a681/google-ia-espacio2/1024_2000.jpeg"
     },
     {
-      "id": "93ae5fcb5a7c98da",
-      "titulo": "Tiempo y canasta familiar, obstáculos de la ley de rescate fiscal que presentó el Gobierno De La Espriella",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/canasta-familiar-duro-escollo-para-la-ley-de-rescate-fiscal-505570",
-      "fecha": "2026-11-02T19:59:48+00:00",
-      "imagen": "https://imagenes.portafolio.co/files/og_thumbnail/uploads/2026/02/13/698f6b1b9e349.webp"
-    },
-    {
-      "id": "edaff3dde467712e",
-      "titulo": "El diplomático turco Feridun Sinirlioglu entra en la carrera para liderar la ONU",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/internacional/2026-11-02/el-diplomatico-turco-feridun-sinirlioglu-entra-en-la-carrera-para-liderar-la-onu.html",
-      "fecha": "2026-11-02T19:55:57+00:00",
-      "imagen": "https://imagenes.elpais.com/resizer/v2/RFNSTHAPBVMRJLCPO2OEIVXAS4.jpg?auth=2c70fb57e95c6573e1a5e2f54a2a639a7772058ecd275ab77aa4729a78182d6f"
-    },
-    {
-      "id": "13ee039997e752ab",
-      "titulo": "Ley de rescate fiscal también trae un alivio tributario para las empresas que inviertan y den empleo",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/impuestos/empuje-tributario-a-empresas-que-inviertan-y-den-empleo-505585",
-      "fecha": "2026-11-02T19:46:53+00:00",
-      "imagen": "https://imagenes.portafolio.co/files/og_thumbnail/uploads/2026/07/09/6a4fc6de99622.jpeg"
-    },
-    {
-      "id": "81adc68951ea3623",
-      "titulo": "La receta europea frente a las “incertidumbres” de un mundo hostil",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/internacional/2026-11-02/la-receta-europea-frente-a-las-incertidumbres-de-un-mundo-hostil.html",
-      "fecha": "2026-11-02T19:35:57+00:00",
-      "imagen": "https://vdmedia.elpais.com/mcv/elpais/multimedia/20261102/1232711_084803_video_1800.mp4"
-    },
-    {
       "id": "2dc4f57ac00a4c77",
       "titulo": "Los hosteleros le han puesto ya una tarea al próximo Gobierno: que los 'mercaurantes' dejen de ser un negocio redondo",
       "categoria": "Tecnología",
@@ -428,15 +539,6 @@
       "url": "https://www.xataka.com/magnet/hosteleros-le-han-puesto-tarea-al-proximo-gobierno-que-mercaurantes-dejen-ser-negocio-redondo",
       "fecha": "2026-11-02T19:31:27+00:00",
       "imagen": "https://i.blogs.es/ab9a64/img_7082-1-/1024_2000.jpeg"
-    },
-    {
-      "id": "6906ba3a49a6223e",
-      "titulo": "El rescate fiscal de la salud podría tener un efecto contrario: más costos y mayores incentivos para evadir aportes",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/gobierno/el-rescate-fiscal-de-la-salud-podria-tener-un-efecto-contrario-mas-costos-y-mayores-incentivos-para-evadir-aportes-505588",
-      "fecha": "2026-11-02T19:26:34+00:00",
-      "imagen": "https://imagenes.portafolio.co/files/og_thumbnail/files/fp/uploads/2026/10/29/6ae333fd918c7.r_d.871-451-0.png"
     },
     {
       "id": "84c1598e7abfc770",
@@ -448,31 +550,13 @@
       "imagen": "https://i.blogs.es/ca7e7a/magnific__aplica-el-estilo-quiero-que-el-fondo-sea-rojo-y-la__53736/1024_2000.jpeg"
     },
     {
-      "id": "a4d2be356ed2e55d",
-      "titulo": "Rebeca Grynspan, candidata a secretaria general de la ONU: “Se han desdibujado las lecciones del pasado”",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/internacional/2026-11-02/rebeca-grynspan-candidata-a-secretaria-general-de-la-onu-se-han-desdibujado-las-lecciones-del-pasado.html",
-      "fecha": "2026-11-02T18:58:41+00:00",
-      "imagen": "https://vdmedia.elpais.com/mcv/elpais/multimedia/20261102/1232939_193400_video_1800.mp4"
-    },
-    {
-      "id": "c736525341fde605",
-      "titulo": "Asesinan a trabajador del sector petrolero frente a sus compañeros en Barrancabermeja, Santander: esto se sabe del crimen",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/santander/asesinan-a-trabajador-del-sector-petrolero-frente-a-sus-companeros-en-barrancabermeja-santander-esto-se-sabe-del-crimen-3597948",
-      "fecha": "2026-11-02T18:50:31+00:00",
-      "imagen": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2026/11/02/6ae8d41f5ba6f.r_d.396-269-0.png"
-    },
-    {
-      "id": "291f7151e486f924",
-      "titulo": "Una familia de 4 pagará $312.000 por una noche en el Tren de la Navidad: los menores de 3 años viajan gratis",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/una-familia-de-4-pagara-312-000-por-una-noche-en-el-tren-de-la-navidad-los-menores-de-3-anos-viajan-gratis-505586",
-      "fecha": "2026-11-02T18:45:00+00:00",
-      "imagen": "https://imagenes.portafolio.co/files/og_thumbnail/uploads/2026/11/02/6ae8d9f03aff8.webp"
+      "id": "ead90f1fb26aa8ed",
+      "titulo": "Grid Protectors: programa para la red eléctrica",
+      "categoria": "Valle del Cauca",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/secciones/tecnologia/grid-protectors-programa-red-electrica/",
+      "fecha": "2026-11-02T19:00:00+00:00",
+      "imagen": ""
     },
     {
       "id": "7bd948f1eb575111",
@@ -482,24 +566,6 @@
       "url": "https://www.lafm.com.co/deportes/champions-league-fecha-cuatro-horarios-programacion-oficial-415908",
       "fecha": "2026-11-02T18:31:01+00:00",
       "imagen": "https://files.lafm.com.co/media/news-images/2026/11/02/181051/champions-league-fecha-cuatro-horarios-programacion-oficial-1200x675.jpg"
-    },
-    {
-      "id": "9d3a86d0508374d7",
-      "titulo": "GeoPark completa antes de lo previsto su entrada a Venezuela y se prepara para operar el bloque Bare",
-      "categoria": "Economía",
-      "fuente": "La FM Economía",
-      "url": "https://www.lafm.com.co/economia/geopark-completa-entrada-venezuela-operacion-bloque-bare-2026-415913",
-      "fecha": "2026-11-02T18:29:11+00:00",
-      "imagen": "https://files.lafm.com.co/media/news-images/2026/10/21/193107/geopark-1200x675.jpg"
-    },
-    {
-      "id": "ed6cdda820c7ffae",
-      "titulo": "Cómo le está yendo realmente a la economía de EE.UU. bajo la presidencia de Trump",
-      "categoria": "Economía",
-      "fuente": "BBC Mundo",
-      "url": "https://www.bbc.com/mundo/watch/cw33x0zz1pj3o?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-02T18:18:32+00:00",
-      "imagen": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/f54a/live/a57cf570-d6e9-11f1-b441-2b33b063138f.jpg"
     },
     {
       "id": "64d6885eabf65fc9",
@@ -646,6 +712,15 @@
       "imagen": ""
     },
     {
+      "id": "d95ac030e5a18de9",
+      "titulo": "David Alonso hace historia en Malasia: segunda victoria del colombiano en Moto2 2026",
+      "categoria": "Deportes",
+      "fuente": "La FM Deportes",
+      "url": "https://www.lafm.com.co/deportes/david-alonso-triunfa-moto2-malasia-segunda-victoria-2026-415839",
+      "fecha": "2026-11-01T14:09:33+00:00",
+      "imagen": "https://files.lafm.com.co/media/news-images/2026/11/01/140136/david-alonso-triunfo-colombia-moto2-malasia-segunda-victoria-2026-1200x675.jpg"
+    },
+    {
       "id": "0e11c6763e9783c2",
       "titulo": "MinSalud intensificó vigilancia epidemiológica por casos de malaria en el Valle del Cauca",
       "categoria": "Valle del Cauca",
@@ -653,15 +728,6 @@
       "url": "https://www.larepublica.co/economia/el-ministerio-de-salud-intensifico-vigilancia-epidemiologica-por-dos-casos-de-malaria-en-el-valle-del-cauca-4515956",
       "fecha": "2026-11-01T12:45:34+00:00",
       "imagen": ""
-    },
-    {
-      "id": "5e7fc84d2729321f",
-      "titulo": "Bayern Múnich no pudo con Dortmund en Der Klassiker: Luis Díaz se perdió el gran clásico alemán",
-      "categoria": "Deportes",
-      "fuente": "La FM Deportes",
-      "url": "https://www.lafm.com.co/deportes/bayern-munich-dortmund-resultado-goles-luis-diaz-goleadores-jugadores-destacados-415807",
-      "fecha": "2026-10-31T20:09:52+00:00",
-      "imagen": "https://files.lafm.com.co/media/news-images/2026/10/31/195450/bayern-munich-dortmund-resultado-goles-luis-diaz-goleadores-jugadores-destacados-1200x675.jpg"
     },
     {
       "id": "53ea8b62a689b482",
@@ -673,15 +739,6 @@
       "imagen": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/10/16/6ad26545baa96.jpeg"
     },
     {
-      "id": "ece1430eccd26b78",
-      "titulo": "El United no levanta cabeza: cayó 2-0 ante Chelsea y depende de otros resultados para evitar el descenso",
-      "categoria": "Deportes",
-      "fuente": "La FM Deportes",
-      "url": "https://www.lafm.com.co/deportes/manchester-united-pierde-chelsea-zona-del-descenso-resultados-premier-league-tabla-de-posiciones-415790",
-      "fecha": "2026-10-31T15:00:37+00:00",
-      "imagen": "https://files.lafm.com.co/media/news-images/2026/10/31/145729/manchester-united-pierde-chelsea-zona-del-descenso-resultados-premier-league-tabla-de-posiciones-1200x675.jpg"
-    },
-    {
       "id": "f3ab6b9124d91ed9",
       "titulo": "Anthropic presenta su IPO",
       "categoria": "Valle del Cauca",
@@ -689,43 +746,10 @@
       "url": "https://occidente.co/secciones/tecnologia/anthropic-presenta-su-ipo/",
       "fecha": "2026-10-31T15:00:00+00:00",
       "imagen": ""
-    },
-    {
-      "id": "cd2b4484a6cf8459",
-      "titulo": "¿Busca empleo en el Valle del Cauca? Sacyr ofrece seis vacantes en Buga y Buenaventura",
-      "categoria": "Valle del Cauca",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/regionales/valle-del-cauca/oportunidades-laborales-en-buga-y-buenaventura-sacyr-camino-del-pacifico-2026/",
-      "fecha": "2026-10-31T03:38:04+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "2715eef565c01491",
-      "titulo": "La encrucijada de Santa Fe: Fagúndez, Bustos, Marmolejo y otros jugadores que podría perder para 2027",
-      "categoria": "Deportes",
-      "fuente": "La FM Deportes",
-      "url": "https://www.lafm.com.co/deportes/santa-fe-encrucijada-fagundez-bustos-marmolejo-2027-415772",
-      "fecha": "2026-10-31T02:45:37+00:00",
-      "imagen": "https://files.lafm.com.co/media/news-images/2026/10/31/025336/independiente-santa-fe-tiene-12-jugadores-proximos-a-vencer-su-contrato-1200x675.jpg"
-    },
-    {
-      "id": "d0f80cdfc0db3b68",
-      "titulo": "Con vigilancia satelital protegen islas Malpelo y Gorgona",
-      "categoria": "Valle del Cauca",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/medio-ambiente/pesca-ilegal-pacifico-colombiano-parques-nacionales-monitoreo-2026/",
-      "fecha": "2026-10-31T01:57:48+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "f37cc892f3e74ffe",
-      "titulo": "Un hijo de 13 años, un padre sin casa y un grano que conquistó a Bogotá: la travesía de la familia detrás de Café Don Argelino",
-      "categoria": "Cali",
-      "fuente": "El Tiempo Cali",
-      "url": "https://www.eltiempo.com/colombia/cali/un-hijo-de-13-anos-un-padre-sin-casa-y-un-grano-que-conquisto-a-bogota-la-travesia-de-la-familia-detras-de-cafe-don-argelino-3597569",
-      "fecha": "2026-10-31T01:11:42+00:00",
-      "imagen": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/10/30/6ae51aa04f5b8.jpeg"
     }
   ],
-  "ultima_solicitud_groq": "2026-11-03T00:47:12.984892+00:00"
+  "ultima_solicitud_groq": "2026-11-03T05:29:41.920085+00:00",
+  "fecha_solicitudes_groq": "2026-11-03",
+  "solicitudes_groq": 2,
+  "ultima_actualizacion": "2026-11-03T05:29:56.827930+00:00"
 }
