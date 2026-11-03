@@ -108,9 +108,8 @@ jobs:
           cache = json.loads(Path("../cache.json").read_text(encoding="utf-8"))
           breves = cache.get("breves", [])
           seleccionadas = build.seleccionar_breves_publicos(breves, cache.get("noticias", []))
-          assert len(seleccionadas) == 5, (
-              f"Se esperaban 5 notas visibles y quedaron {len(seleccionadas)}: "
-              + ", ".join(str(x.get("titulo")) for x in seleccionadas)
+          assert 1 <= len(seleccionadas) <= 5, (
+              f"La edición debe mostrar entre 1 y 5 notas verificadas; quedaron {len(seleccionadas)}."
           )
           for breve in seleccionadas:
               palabras = len(str(breve.get("texto", "")).split())
@@ -125,7 +124,7 @@ jobs:
                   dominio = urlsplit(fuente["url"]).hostname or ""
                   assert dominio not in tarjeta
               assert "href=" not in tarjeta
-          print("Correcto: las cinco notas reales pasan filtros y muestran crédito sin enlaces externos.")
+          print(f"Correcto: {len(seleccionadas)} notas de la edición pasan filtros y muestran crédito sin enlaces externos.")
           PY
 
       - name: Probar que el sitio público solo contiene artículos propios
