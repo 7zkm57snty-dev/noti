@@ -53,6 +53,7 @@ jobs:
             exit 0
           fi
           cp cache.json /tmp/cev-cache-antes.json
+          cp automation_state.json /tmp/cev-automation-antes.json
           echo "revision_pendiente=false" >> "$GITHUB_OUTPUT"
 
       - name: Generar borradores
@@ -114,8 +115,10 @@ jobs:
           import json
           import os
           import re
+          from datetime import datetime
           from pathlib import Path
           from urllib.parse import urlsplit
+          from zoneinfo import ZoneInfo
 
           ruta_cache = Path("cache.json")
           antes = json.loads(Path("/tmp/cev-cache-antes.json").read_text(encoding="utf-8"))
@@ -198,6 +201,26 @@ jobs:
               if n.get("id") and str(n["id"]) in ids_permitidos
           ]
 
+          # El cupo diario cuenta solo los artículos que superan las validaciones.
+          estado_path = Path("automation_state.json")
+          estado_actual = json.loads(estado_path.read_text(encoding="utf-8"))
+          estado_antes = json.loads(Path("/tmp/cev-automation-antes.json").read_text(encoding="utf-8"))
+          hoy = datetime.now(ZoneInfo("America/Bogota")).date().isoformat()
+          base_hoy = (
+              int(estado_antes.get("articulos_generados_dia", 0))
+              if estado_antes.get("fecha_articulos_dia") == hoy else 0
+          )
+          estado_actual["fecha_articulos_dia"] = hoy
+          estado_actual["articulos_generados_dia"] = base_hoy + len(validas)
+          estado_path.write_text(
+              json.dumps(estado_actual, ensure_ascii=False, indent=2) + "\n",
+              encoding="utf-8"
+          )
+          print(
+              f"Cupo diario conciliado: {estado_actual['articulos_generados_dia']}/"
+              f"{estado_actual.get('limite_articulos_diario', 20)} artículos válidos."
+          )
+
           if not validas:
               ruta_cache.write_text(
                   json.dumps(antes, ensure_ascii=False, indent=2) + "\n",
@@ -216,6 +239,20 @@ jobs:
               Path(os.environ["GITHUB_OUTPUT"]).write_text("hay_novedades=true\n", encoding="utf-8")
           PY
 
+      - name: Persistir límites diarios cuando no hay artículos para publicar
+        if: steps.estado_cola.outputs.revision_pendiente != 'true' && steps.novedades.outputs.hay_novedades != 'true'
+        shell: bash
+        run: |
+          git add automation_state.json
+          if git diff --cached --quiet; then
+            echo "Los límites diarios ya están actualizados."
+          else
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git commit -m "Actualizar consumo diario de automatización"
+            git push origin HEAD:main
+          fi
+
       - name: Publicar automáticamente el lote validado
         if: steps.estado_cola.outputs.revision_pendiente != 'true' && steps.novedades.outputs.hay_novedades == 'true'
         env:
@@ -224,7 +261,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add cache.json
+          git add cache.json automation_state.json
           git commit -m "Publicar lote automático de noticias CEV NOTICIAS"
           git push origin HEAD:main
           gh workflow run publicar.yml --ref main
