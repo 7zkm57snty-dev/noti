@@ -1272,7 +1272,8 @@ def ejecutar():
             if articulos_hoy + len(nuevas) >= MAX_ARTICULOS_DIARIOS:
                 print("Límite diario de artículos alcanzado.")
                 break
-            if solicitudes_esta_ejecucion >= MAX_SOLICITUDES_POR_EJECUCION:
+            if solicitudes_esta_ejecucion >= (MAX_SOLICITUDES_POR_EJECUCION - MAX_BREVES_POR_EJECUCION):
+                print("Se reservan las últimas solicitudes del ciclo para mini-noticias.")
                 break
             if grupos_revisados >= MAX_GRUPOS_REVISADOS_POR_EJECUCION:
                 print("Límite de grupos revisados en esta ejecución alcanzado.")
@@ -1468,7 +1469,7 @@ def ejecutar():
                 titulo_grupo + " " + " ".join(str(f.get("texto", "")) for f in fuentes_breve)
             ).lower()
             temas_sensibles_breve = re.search(
-                r"\\b(accidente|muert[eo]|falleci|homicid|asesinat|robo|hurto|captura|detenid|denuncia|acusaci[oó]n|víctim|victim|agresi[oó]n|desaparici[oó]n|abuso|corrupci[oó]n)\\w*",
+                r"\b(accidente|muert[eo]|falleci|homicid|asesinat|robo|hurto|captura|detenid|denuncia|acusaci[oó]n|víctim|victim|agresi[oó]n|desaparici[oó]n|abuso|corrupci[oó]n)\w*",
                 texto_breve_revision
             )
             if temas_sensibles_breve and len(dominios_breve) < 2:
