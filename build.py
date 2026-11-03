@@ -27,6 +27,8 @@ SECCIONES = ["Cali", "Valle del Cauca", "Colombia", "Internacional", "Deportes",
 ALCANCES_BREVES_PUBLICOS = {"Cali", "Valle del Cauca", "Colombia"}
 COLOMBIA_TZ = timezone(timedelta(hours=-5))
 IMAGENES_PROCESADAS = {}
+FOTOS_RESPALDO_USADAS = set()
+BIBLIOTECA_FOTOS = BASE / "biblioteca_fotos.json"
 
 
 def escapar(valor):
@@ -139,9 +141,45 @@ def foto_local_noticia(noticia):
         print(f"Fotografía real guardada en el sitio: {identificador}{extension}")
         return local
     except Exception as error:
-        print(f"Sin foto descargable para {identificador}; la noticia se mostrará sin imagen: {error}")
-        IMAGENES_PROCESADAS[identificador] = ""
-        return ""
+        print(f"Foto original no disponible para {identificador}; se buscará respaldo: {error}")
+        respaldo = imagen_respaldo_categoria(noticia, identificador)
+        IMAGENES_PROCESADAS[identificador] = respaldo
+        return respaldo
+
+
+def imagen_respaldo_categoria(noticia, identificador):
+    """Usa fotografías reales almacenadas por categoría; nunca crea huecos visuales."""
+    biblioteca = cargar_json(BIBLIOTECA_FOTOS, {"categorias": {}})
+    categorias = biblioteca.get("categorias", {}) if isinstance(biblioteca, dict) else {}
+    categoria = str(noticia.get("categoria") or "").strip()
+    candidatos = categorias.get(categoria, []) or categorias.get("General", [])
+    if not candidatos:
+        candidatos = categorias.get("General", [])
+    for item in candidatos:
+        if not isinstance(item, dict):
+            continue
+        ruta = BASE / str(item.get("archivo") or "")
+        if not ruta.is_file():
+            continue
+        clave = str(ruta)
+        if clave in FOTOS_RESPALDO_USADAS:
+            continue
+        FOTOS_RESPALDO_USADAS.add(clave)
+        destino = SITE / "imagenes" / "biblioteca" / ruta.name
+        destino.parent.mkdir(parents=True, exist_ok=True)
+        shutil.copy2(ruta, destino)
+        noticia["imagen_credito"] = {
+            "tipo": "imagen de referencia · fotografía de archivo",
+            "fuente": item.get("fuente", "Wikimedia Commons"),
+            "autor": item.get("autor", "Autor no identificado"),
+            "pagina": item.get("pagina", ""),
+            "licencia": item.get("licencia", ""),
+            "licencia_url": item.get("licencia_url", "")
+        }
+        print(f"Fotografía de respaldo por categoría {categoria}: {ruta.name}")
+        return f"/imagenes/biblioteca/{ruta.name}"
+    print(f"Sin fotografía de respaldo disponible para categoría: {categoria}")
+    return ""
 
 
 def seleccionar_ilustracion_ia(noticia):
