@@ -396,8 +396,61 @@ async function downloadPhoto(urlValue,nameValue){
 }
 
 
+function createLocalHeadlineOptions(body){
+  const title=String(body.titulo||"").trim().replace(/\s+/g," ");
+  const summary=String(body.resumen||"").trim().replace(/\s+/g," ");
+  const content=String(body.contenido||"").trim().replace(/\s+/g," ");
+  const tone=String(body.estilo||"impact").trim();
+  if(title.length<12)throw new AdminError(400,"Selecciona una noticia con un titular válido.");
+  const base=title.replace(/[.!?]+$/,"").trim();
+  const lower=base.charAt(0).toLowerCase()+base.slice(1);
+  const short=(value,max=112)=>{
+    const clean=String(value||"").trim();
+    if(clean.length<=max)return clean.replace(/[.!?]+$/,"");
+    const part=clean.slice(0,max+1),cut=part.lastIndexOf(" ");
+    return (cut>55?part.slice(0,cut):part.slice(0,max)).replace(/[,;:—–-]+$/,"").trim();
+  };
+  const firstSentence=value=>String(value||"").split(/(?<=[.!?])\s+/).map(x=>x.trim()).find(x=>x.length>=35&&x.length<=170)||"";
+  const context=short(firstSentence(summary)||firstSentence(content),112);
+  const subject=short(base,112);
+  let options;
+  if(tone==="inform"){
+    options=[
+      "Los detalles de "+subject,
+      "Qué se sabe sobre "+lower,
+      subject+": los datos principales",
+      "El contexto de "+lower,
+      "Las claves informativas de "+lower
+    ];
+  }else if(tone==="curious"){
+    options=[
+      "¿Qué se sabe hasta ahora sobre "+lower+"?",
+      "Las preguntas clave que deja "+lower,
+      "¿Cuáles son los detalles de "+lower+"?",
+      "Las claves para entender "+lower,
+      "Esto es lo que se conoce sobre "+lower
+    ];
+  }else{
+    options=[
+      "El dato central detrás de "+lower,
+      subject+": lo que conviene conocer",
+      "El foco está en "+lower,
+      "La noticia, punto por punto: "+subject,
+      "Lo que deja sobre la mesa "+lower
+    ];
+  }
+  if(context&&context.toLowerCase()!==base.toLowerCase()){
+    options[4]=tone==="inform"?"El hecho, explicado: "+context:
+      tone==="curious"?"Una pista para entender el hecho: "+context:
+      "El detalle que pone el foco en el tema: "+context;
+  }
+  const unique=[...new Set(options.map(x=>x.replace(/\s+/g," ").trim()).filter(x=>x.length>=25&&x.length<=150&&x.toLowerCase()!==base.toLowerCase()))].slice(0,5);
+  if(unique.length<3)throw new AdminError(422,"No se pudieron crear suficientes variantes. Revisa el titular original.");
+  return {ok:true,opciones:unique,modelo:"generador-editorial-local",modo:"local"};
+}
+
 async function createHeadlineOptions(body,env) {
-  if(!env.GROQ_API_KEY) throw new AdminError(503,"No está activada la IA de titulares. Agrega el secreto GROQ_API_KEY en Cloudflare Workers → cev-admin → Settings → Variables and Secrets.");
+  if(!env.GROQ_API_KEY) return createLocalHeadlineOptions(body);
   const title=String(body.titulo||"").trim(),summary=String(body.resumen||"").trim();
   const content=String(body.contenido||"").trim().slice(0,8500);
   const category=String(body.categoria||"").trim(),tone=String(body.estilo||"impact").trim();

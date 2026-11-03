@@ -29,23 +29,32 @@ def consultas_imagen(titulo, resumen="", categoria=""):
         if palabra not in STOPWORDS and palabra not in unicas:
             unicas.append(palabra)
 
+    consulta_tema = " ".join(unicas[:6]).strip()
     consultas = []
+    if consulta_tema:
+        consultas.append(consulta_tema)
+    if categoria:
+        consultas.append(f"{' '.join(unicas[:4])} {categoria}".strip())
     if categoria and categoria.lower() in ("cali", "valle del cauca"):
         consultas.extend([
             f"{' '.join(unicas[:5])} Cali Colombia",
-            f"{' '.join(unicas[:4])} Valle del Cauca"
+            f"{' '.join(unicas[:4])} Valle del Cauca Colombia"
         ])
-    consultas.append(" ".join(unicas[:6]))
-    consultas.append(" ".join(unicas[:4]))
-    if categoria and categoria not in ("Cali", "Valle del Cauca"):
-        consultas.append(f"{' '.join(unicas[:4])} {categoria}")
+    if re.search(r"carrera|corredor|atlet|ciclis|f[uú]tbol|baloncesto|partido|deport|estadio|marat[oó]n", texto, re.I):
+        consultas.append(f"{' '.join(unicas[:4])} sports running football competition")
+    if re.search(r"planetario|astronom|cosmos|telescopio|espacio|cohete|sat[eé]lite", texto, re.I):
+        consultas.append(f"{' '.join(unicas[:4])} planetarium astronomy space")
+    if re.search(r"sismo|temblor|terremoto|incendio|rescate|inundaci[oó]n|emergencia", texto, re.I):
+        consultas.append(f"{' '.join(unicas[:4])} emergency response rescue")
+    if re.search(r"tr[aá]nsito|movilidad|transporte|carretera|v[ií]a", texto, re.I):
+        consultas.append(f"{' '.join(unicas[:4])} road traffic transport")
 
     resultado = []
     for consulta in consultas:
         consulta = consulta.strip()
         if len(consulta) >= 8 and consulta not in resultado:
             resultado.append(consulta)
-    return resultado[:2]
+    return resultado[:4]
 
 
 def comprobar_imagen(url):

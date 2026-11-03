@@ -91,6 +91,59 @@ def imagen_segura(url):
     return escapar(url) if url.startswith(("https://", "http://")) else ""
 
 
+def archivo_fotografia_editorial(url):
+    """
+    Resuelve una foto subida desde el panel directamente al archivo del repositorio.
+    Evita volver a descargar por Internet el mismo archivo que ya está en el checkout.
+    """
+    valor = str(url or "").strip()
+    if not valor:
+        return None
+    ruta_relativa = ""
+    if valor.startswith("/assets/editorial-news/"):
+        ruta_relativa = valor.lstrip("/")
+    elif valor.startswith("assets/editorial-news/"):
+        ruta_relativa = valor
+    else:
+        partes = urlsplit(valor)
+        segmentos = [unquote(x) for x in partes.path.split("/") if x]
+        if (
+            partes.hostname == "raw.githubusercontent.com"
+            and len(segmentos) == 6
+            and segmentos[:5] == [
+                "7zkm57snty-dev", "noti", "main", "assets", "editorial-news"
+            ]
+        ):
+            ruta_relativa = "/".join(segmentos[3:])
+    if not ruta_relativa.startswith("assets/editorial-news/"):
+        return None
+    raiz = (BASE / "assets" / "editorial-news").resolve()
+    archivo = (BASE / ruta_relativa).resolve()
+    try:
+        archivo.relative_to(raiz)
+    except ValueError:
+        return None
+    if not archivo.is_file() or archivo.suffix.lower() not in {".jpg", ".jpeg", ".png", ".webp"}:
+        return None
+    if archivo.stat().st_size < 2048 or archivo.stat().st_size > 15 * 1024 * 1024:
+        return None
+    return archivo
+
+
+def copiar_fotografia_editorial(archivo, identificador):
+    """Copia el archivo del repositorio al directorio estático que sirve la web."""
+    carpeta = SITE / "imagenes"
+    carpeta.mkdir(parents=True, exist_ok=True)
+    extension = archivo.suffix.lower()
+    nombre = f"{identificador}{extension}"
+    destino = carpeta / nombre
+    shutil.copy2(archivo, destino)
+    local = f"/imagenes/{nombre}"
+    IMAGENES_PROCESADAS[identificador] = local
+    print(f"Fotografía subida desde el panel copiada directamente al sitio: {nombre}")
+    return local
+
+
 def foto_local_noticia(noticia):
     """
     Descarga una fotografía editorial con URL válida al artefacto estático.
@@ -101,6 +154,10 @@ def foto_local_noticia(noticia):
         return IMAGENES_PROCESADAS[identificador]
 
     url = str(noticia.get("imagen") or "").strip()
+    archivo_subido = archivo_fotografia_editorial(url)
+    if archivo_subido:
+        return copiar_fotografia_editorial(archivo_subido, identificador)
+
     if not url.startswith(("https://", "http://")):
         # Segundo nivel: repositorios abiertos con licencia compatible.
         try:
@@ -172,16 +229,32 @@ def foto_local_noticia(noticia):
 
 
 def imagen_respaldo_categoria(noticia, identificador):
-    """Usa fotografías reales almacenadas por categoría; nunca crea huecos visuales."""
+    """Selecciona un respaldo real según el tema de la noticia y su categoría."""
     biblioteca = cargar_json(BIBLIOTECA_FOTOS, {"categorias": {}})
     categorias = biblioteca.get("categorias", {}) if isinstance(biblioteca, dict) else {}
     categoria = str(noticia.get("categoria") or "").strip()
-    candidatos = categorias.get(categoria, []) or categorias.get("General", [])
+    texto = " ".join(
+        str(noticia.get(campo) or "")
+        for campo in ("titulo", "resumen", "contenido")
+    ).lower()
+    subcategoria = None
+    reglas = [
+        ("Deportes", r"\b(deport\w*|f[uú]tbol|futbol|carrera\s*5?k|corredor\w*|atlet\w*|ciclis\w*|ciclismo|baloncesto|b[aá]squet|voleibol|tenis|marat[oó]n|estadio|torneo|campeonato|jugador\w*|partido)\b"),
+        ("Ciencia y espacio", r"\b(planetario|astronom[ií]a|astronaut\w*|telescopio|cosmos|espacio|sat[eé]lite|cohete|nasa|universo)\b"),
+        ("Emergencias", r"\b(sismo|temblor|terremoto|deslizamiento|inundaci[oó]n|incendio|rescate|emergencia|bombero\w*|evacuaci[oó]n)\b"),
+        ("Movilidad", r"\b(tr[aá]nsito|tr[aá]fico|movilidad|carretera|v[ií]a\b|puente|transporte|autob[uú]s|bus\b|metro|accidente vial)\b"),
+        ("Salud pública", r"\b(hospital|salud|vacuna|medicina|m[eé]dico|paciente|cl[ií]nica|epidemia|enfermer\w*)\b")
+    ]
+    for nombre, patron in reglas:
+        if re.search(patron, texto, re.IGNORECASE):
+            subcategoria = nombre
+            break
+    candidatos = categorias.get(subcategoria, []) if subcategoria else []
+    if not candidatos:
+        candidatos = categorias.get(categoria, []) or categorias.get("General", [])
     if not candidatos:
         candidatos = categorias.get("General", [])
     disponibles = [x for x in candidatos if isinstance(x, dict)]
-    # Prioriza fotos no repetidas; si se agotan, permite reutilizar una de la categoría
-    # antes que dejar una tarjeta sin imagen.
     ordenados = [x for x in disponibles if str(BASE / str(x.get("archivo") or "")) not in FOTOS_RESPALDO_USADAS]
     ordenados += [x for x in disponibles if x not in ordenados]
     for item in ordenados:
@@ -201,9 +274,9 @@ def imagen_respaldo_categoria(noticia, identificador):
             "licencia": item.get("licencia", ""),
             "licencia_url": item.get("licencia_url", "")
         }
-        print(f"Fotografía de respaldo por categoría {categoria}: {ruta.name}")
+        etiqueta = subcategoria or categoria
+        print(f"Fotografía de respaldo por tema {etiqueta}: {ruta.name}")
         return f"/imagenes/biblioteca/{ruta.name}"
-    print(f"Sin fotografía de respaldo disponible para categoría: {categoria}")
     return ""
 
 

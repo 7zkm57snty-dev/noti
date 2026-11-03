@@ -10,18 +10,96 @@ ASSETS = BASE / "assets" / "biblioteca-fotos"
 MANIFEST = BASE / "biblioteca_fotos.json"
 HEADERS = {"User-Agent": "CEVNoticias/1.0 (https://cevnoticias.com; archivo editorial)", "Accept": "application/json,image/*"}
 CATEGORIAS = {
-    "Cali": ["Cali Colombia skyline panorama", "Cali Colombia city streets"],
-    "Valle del Cauca": ["Valle del Cauca Colombia landscape", "Valle del Cauca coffee region"],
-    "Colombia": ["Colombia Bogota city landmark", "Colombia landscape Andes"],
-    "Internacional": ["world city skyline international", "global city aerial view"],
-    "Deportes": ["football stadium sports field", "athletics sports stadium"],
-    "Tecnología": ["technology data center server racks", "computer circuit board electronics"],
-    "Economía": ["business commerce market stock exchange", "industrial factory production"],
-    "Tendencias": ["urban culture lifestyle fashion", "modern culture exhibition"],
-    "Humor y opinión": ["newspaper press editorial newsroom", "journalism newspaper printing"],
-    "General": ["news editorial photography press camera", "journalism city street photography"]
+    "Cali": [
+        "Santiago de Cali Colombia city streets",
+        "Cali Colombia aerial city skyline",
+        "Cali Colombia public transport MIO",
+        "Cali Colombia urban public spaces",
+        "Cali Colombia community events"
+    ],
+    "Valle del Cauca": [
+        "Valle del Cauca Colombia landscape",
+        "Valle del Cauca coffee region",
+        "Valle del Cauca Colombia sugar cane agriculture",
+        "Palmira Buga Buenaventura Valle del Cauca"
+    ],
+    "Colombia": [
+        "Colombia Bogota city landmark",
+        "Colombia landscape Andes",
+        "Colombia public infrastructure city",
+        "Colombia community public events"
+    ],
+    "Internacional": [
+        "world city skyline international",
+        "global city aerial view",
+        "international diplomacy conference",
+        "world public events crowd"
+    ],
+    "Deportes": [
+        "football soccer match action players stadium",
+        "athletics track running race marathon runners",
+        "cycling road race peloton cyclists",
+        "basketball game court athletes",
+        "swimming competition pool athletes",
+        "volleyball tennis sports competition",
+        "football stadium crowd goal goalkeeper",
+        "Colombia sports national team competition"
+    ],
+    "Tecnología": [
+        "technology data center server racks",
+        "computer circuit board electronics",
+        "robotics industrial automation",
+        "artificial intelligence computer technology"
+    ],
+    "Economía": [
+        "business commerce market stock exchange",
+        "industrial factory production",
+        "retail market small business commerce",
+        "Colombia logistics port cargo containers"
+    ],
+    "Tendencias": [
+        "urban culture lifestyle fashion",
+        "modern culture exhibition",
+        "music concert cultural festival",
+        "urban art public exhibition"
+    ],
+    "Humor y opinión": [
+        "newspaper press editorial newsroom",
+        "journalism newspaper printing",
+        "press conference journalist microphones"
+    ],
+    "Ciencia y espacio": [
+        "planetarium astronomy projection stars",
+        "astronomy telescope observatory night sky",
+        "space exploration rocket launch spacecraft",
+        "science museum planetarium exhibition"
+    ],
+    "Emergencias": [
+        "firefighters emergency rescue response",
+        "earthquake rescue emergency services",
+        "flood emergency response rescue workers",
+        "civil defense disaster response"
+    ],
+    "Movilidad": [
+        "urban traffic street transportation",
+        "road construction traffic infrastructure",
+        "public transport bus city",
+        "cycling urban mobility pedestrian"
+    ],
+    "Salud pública": [
+        "hospital doctors healthcare",
+        "public health medical team",
+        "vaccination healthcare clinic",
+        "medical research laboratory"
+    ],
+    "General": [
+        "news editorial photography press camera",
+        "journalism city street photography",
+        "press conference media briefing",
+        "community public event reportage"
+    ]
 }
-MAX_POR_CATEGORIA = 6
+MAX_POR_CATEGORIA = 16
 EXTENSIONES = {".jpg", ".jpeg", ".png", ".webp"}
 
 def limpia(valor):
