@@ -60,17 +60,19 @@ async function reviews(env) {
     additions:p.additions||0,deletions:p.deletions||0,changedFiles:p.changed_files||0
   }));
 }
-async function submitChange(env,mutate,title,description) {
+async function submitChange(env,mutate,title,description,imageUpload) {
   const pending=await reviews(env);
   if(pending.length) throw new AdminError(409,"Ya existe una propuesta editorial pendiente. Resuélvela antes de crear otra.",{pending});
   const ref1=await gh("/repos/"+OWNER+"/"+REPO+"/git/ref/heads/"+MAIN,env);
   const cached=await readCache(env);
   const ref2=await gh("/repos/"+OWNER+"/"+REPO+"/git/ref/heads/"+MAIN,env);
   if(ref1.object.sha!==ref2.object.sha) throw new AdminError(409,"El repositorio cambió durante la operación. Actualiza el panel e inténtalo otra vez.");
-  const updated=mutate(cached.data);
   const branch="revision-admin/panel-"+Date.now()+"-"+crypto.randomUUID().slice(0,8);
   await gh("/repos/"+OWNER+"/"+REPO+"/git/refs",env,"POST",{ref:"refs/heads/"+branch,sha:ref1.object.sha});
+  let uploadedImageUrl="";
   try {
+    if(imageUpload){const types={"image/jpeg":"jpg","image/png":"png","image/webp":"webp"},ext=types[String(imageUpload.type||"")];if(!ext||typeof imageUpload.data!=="string"||imageUpload.data.length>890000)throw new AdminError(400,"Imagen no válida o demasiado grande. Usa JPG, PNG o WebP de máximo 650 KB.");const imagePath="assets/editorial-news/"+crypto.randomUUID()+"."+ext;await gh("/repos/"+OWNER+"/"+REPO+"/contents/"+imagePath,env,"PUT",{message:"Panel CEV: subir fotografía editorial",content:imageUpload.data,branch});uploadedImageUrl="https://raw.githubusercontent.com/"+OWNER+"/"+REPO+"/"+branch+"/"+imagePath;}
+    const updated=mutate(cached.data,uploadedImageUrl);
     await gh("/repos/"+OWNER+"/"+REPO+"/contents/cache.json",env,"PUT",{
       message:"Panel CEV: "+description,content:encode64(JSON.stringify(updated,null,2)+"\n"),sha:cached.sha,branch
     });
@@ -187,9 +189,9 @@ async function api(request,env,identity) {
     const fields=validateArticle(body);
     const pr=await submitChange(env,cache=>{
       const id=crypto.randomUUID().replace(/-/g,"").slice(0,16);
-      cache.noticias.unshift(Object.assign({id,fecha:dateCO(),imagen_busqueda_intentada:false,imagen_instagram:"",imagen_instagram_tipo:"",descripcion_instagram:""},fields));
+      if(imageUrl)fields.imagen=imageUrl;cache.noticias.unshift(Object.assign({id,fecha:dateCO(),imagen_busqueda_intentada:false,imagen_instagram:"",imagen_instagram_tipo:"",descripcion_instagram:""},fields));
       return cache;
-    },"CEV NOTICIAS | Nueva noticia: "+fields.titulo.slice(0,85),"crear noticia");
+    },"CEV NOTICIAS | Nueva noticia: "+fields.titulo.slice(0,85),"crear noticia",body.imagenUpload);
     return json({ok:true,message:"Noticia enviada a revisión editorial.",pr},201);
   }
   const match=path.match(/^\/api\/news\/([a-f0-9-]+)$/i);
@@ -198,8 +200,8 @@ async function api(request,env,identity) {
     const pr=await submitChange(env,cache=>{
       const article=cache.noticias.find(x=>String(x.id)===id);
       if(!article)throw new AdminError(404,"La noticia ya no existe en la versión publicada.");
-      Object.assign(article,fields);return cache;
-    },"CEV NOTICIAS | Editar noticia: "+fields.titulo.slice(0,85),"editar noticia "+id);
+      if(imageUrl)fields.imagen=imageUrl;Object.assign(article,fields);return cache;
+    },"CEV NOTICIAS | Editar noticia: "+fields.titulo.slice(0,85),"editar noticia "+id,body.imagenUpload);
     return json({ok:true,message:"Cambios enviados a revisión editorial.",pr});
   }
   if(match&&method==="DELETE"){
