@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675">
+<defs><linearGradient id="b" x2="1" y2="1"><stop stop-color="#17212b"/><stop offset="1" stop-color="#344e61"/></linearGradient><linearGradient id="chip" x2="1" y2="1"><stop stop-color="#f5f7fa"/><stop offset="1" stop-color="#b9cbd5"/></linearGradient></defs>
+<rect width="1200" height="675" rx="36" fill="url(#b)"/><circle cx="600" cy="330" r="260" fill="#4f829a" opacity=".1"/>
+<g stroke="#6b9eb1" stroke-width="12" fill="none" stroke-linecap="round"><path d="M600 110v-75M600 565v75M370 335H240M960 335H830M435 170l-80-80M765 500l80 80M765 170l80-80M435 500l-80 80"/></g>
+<rect x="390" y="140" width="420" height="385" rx="44" fill="url(#chip)" stroke="#f5f7fa" stroke-width="10"/>
+<rect x="475" y="220" width="250" height="220" rx="22" fill="#17212b"/><path d="M530 365l65-75 50 48 40-62" fill="none" stroke="#ef6b70" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+<g stroke="#f5f7fa" stroke-width="10" stroke-linecap="round"><path d="M470 112v40M530 112v40M590 112v40M650 112v40M710 112v40M470 515v40M530 515v40M590 515v40M650 515v40M710 515v40"/></g>
+<circle cx="600" cy="330" r="15" fill="#ef6b70"/><circle cx="240" cy="335" r="18" fill="#ef6b70"/><circle cx="960" cy="335" r="18" fill="#ef6b70"/>
+</svg>
