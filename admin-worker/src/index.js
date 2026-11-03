@@ -323,9 +323,47 @@ async function publicationStatus(env,sha) {
   };
 }
 
+
+async function downloadPhoto(urlValue,nameValue){
+ const allowedHosts=new Set(["thumb.wikimedia.org","upload.wikimedia.org","raw.githubusercontent.com","cevnoticias.com","www.cevnoticias.com","images.unsplash.com"]);
+ let current;
+ try{current=new URL(String(urlValue||""))}catch(_){throw new AdminError(400,"La dirección de la fotografía no es válida.");}
+ if(current.protocol!=="https:"||!allowedHosts.has(current.hostname.toLowerCase()))throw new AdminError(400,"Por seguridad, solo se pueden descargar fotografías de las fuentes autorizadas.");
+ let response=null;
+ for(let hop=0;hop<4;hop++){
+  if(current.protocol!=="https:"||!allowedHosts.has(current.hostname.toLowerCase()))throw new AdminError(400,"La fotografía redirige a un dominio no autorizado.");
+  response=await fetch(current.toString(),{redirect:"manual",headers:{"accept":"image/avif,image/webp,image/apng,image/*,*/*;q=0.8","user-agent":"CEVNoticias-Admin/1.0"}});
+  if([301,302,303,307,308].includes(response.status)){
+   const location=response.headers.get("location");
+   if(!location)throw new AdminError(502,"La fuente no entregó una redirección válida.");
+   current=new URL(location,current);
+   continue;
+  }
+  break;
+ }
+ if(!response||[301,302,303,307,308].includes(response.status))throw new AdminError(502,"La fotografía tiene demasiadas redirecciones.");
+ if(!response.ok)throw new AdminError(502,"No se pudo descargar la fotografía desde su fuente.");
+ const type=String(response.headers.get("content-type")||"").split(";")[0].toLowerCase();
+ const ext={"image/jpeg":"jpg","image/png":"png","image/webp":"webp","image/gif":"gif"}[type];
+ if(!ext)throw new AdminError(415,"La dirección no devolvió un archivo JPG, PNG, WebP o GIF.");
+ const length=Number(response.headers.get("content-length")||0);
+ if(length>15728640)throw new AdminError(413,"La fotografía supera el límite de 15 MB.");
+ const bytes=await response.arrayBuffer();
+ if(!bytes.byteLength||bytes.byteLength>15728640)throw new AdminError(413,"La fotografía está vacía o supera el límite de 15 MB.");
+ const base=String(nameValue||"fotografia").normalize("NFD").replace(/[\u0300-\u036f]/g,"").replace(/[^a-z0-9_-]+/gi,"-").replace(/^-+|-+$/g,"").slice(0,64)||"fotografia";
+ return new Response(bytes,{status:200,headers:{
+  "content-type":type,
+  "content-length":String(bytes.byteLength),
+  "content-disposition":'attachment; filename="'+base+"."+ext+'"',
+  "cache-control":"no-store, private",
+  "x-content-type-options":"nosniff"
+ }});
+}
+
 async function api(request,env,identity) {
   const url=new URL(request.url),path=url.pathname,method=request.method.toUpperCase();
   if(method==="GET"&&path==="/api/dashboard") return json(await dashboard(env,identity));
+  if(method==="GET"&&path==="/api/photo-download") return await downloadPhoto(url.searchParams.get("url"),url.searchParams.get("name"));
   const deploymentMatch=path.match(/^\/api\/deployments\/([a-f0-9]{40})$/i);
   if(method==="GET"&&deploymentMatch) return json(await publicationStatus(env,deploymentMatch[1]));
   if(method==="GET"&&path==="/api/diagnostics") { const r=await readCache(env); return json(runDiagnostics(r.data)); }
