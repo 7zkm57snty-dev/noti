@@ -1,68 +1,293 @@
 {
-  "ultima_actualizacion": "2026-11-03T13:33:54.222666+00:00",
+  "ultima_actualizacion": "2026-11-03T14:33:14.583340+00:00",
   "titulares_rss": [
     {
-      "id": "8e6fd64b4fa79489",
-      "titulo": "“No queremos negociar la impunidad con nadie”: Eimy Suárez, congresista ponente",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/entrevista-eimy-suarez-congresista-ponente-ley-de-sometimiento-HP43086067",
-      "fecha": "2026-11-03T13:21:33+00:00",
-      "imagen": "https://estaticos.elcolombiano.com/binrepository/480x300/0c0/0d0/center/11101/JBTI/milimg-34402-28047746-52020332-20261_52036559_20261102183128.jpg"
-    },
-    {
-      "id": "43cfe26c040bc497",
-      "titulo": "Video | Así se vivió el temblor de 5,6 que sacudió a Colombia; van más de cinco réplicas",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/video-temblor-5-6-sacudio-colombia-cinco-replicas-evacuacion-sismo-OO43090583",
-      "fecha": "2026-11-03T13:17:47+00:00",
-      "imagen": "https://estaticos.elcolombiano.com/binrepository/450x300/0c0/0d0/center/11101/CIGD/video-asi-se-vivio-el-temblor-de-5_52038017_20261103065439.jpg"
-    },
-    {
-      "id": "6ed78daea6088ed3",
-      "titulo": "Suspensión de agua en cuatro municipios de Cundinamarca: estos son los sectores afectados y cuándo volverá el servicio",
-      "categoria": "Colombia",
-      "fuente": "La FM Actualidad",
-      "url": "https://www.lafm.com.co/actualidad/corte-agua-toncaipa-zipaquira-ganchacipa-sopo-mantenimiento-planta-tibitoc-415959",
-      "fecha": "2026-11-03T13:15:47+00:00",
-      "imagen": "https://files.lafm.com.co/media/news-images/2026/11/03/131647/suspension-de-agua-en-cuatro-municipios-de-cundinamarca-por-mantenimiento-de-planta-tibitoc-1200x675.jpg"
-    },
-    {
-      "id": "994c9aa439f11180",
-      "titulo": "San Victorino a la Moda llevará 24 marcas al Bronx Distrito Creativo con pasarelas",
+      "id": "120c967c7179e299",
+      "titulo": "La fiebre del petróleo en Venezuela trae jets privados y alquileres disparados a una ciudad fronteriza",
       "categoria": "Colombia",
       "fuente": "La República",
-      "url": "https://www.larepublica.co/ocio/san-victorino-a-la-moda-llevara-24-marcas-al-bronx-distrito-creativo-con-pasarelas-y-rueda-de-negocios-4516538",
-      "fecha": "2026-11-03T13:13:31+00:00",
+      "url": "https://www.larepublica.co/globoeconomia/la-fiebre-del-petroleo-en-venezuela-trae-jets-privados-y-alquileres-disparados-a-una-ciudad-fronteriza-4516589",
+      "fecha": "2026-11-03T14:26:08+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "76d1abbaab92bb00",
+      "titulo": "La aprobación de José Antonio Kast cae a mínimo tras liberación anticipada de pedófilos",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/globoeconomia/la-aprobacion-de-jose-antonio-kast-cae-a-minimo-tras-liberacion-anticipada-de-pedofilos-4516607",
+      "fecha": "2026-11-03T14:18:31+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "8d6f8fb1f40486d8",
+      "titulo": "El futbolista Erling Haaland se suma a los 25 creadores reconocidos por Instagram en 2026",
+      "categoria": "Deportes",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/ocio/el-futbolista-erling-haaland-se-suma-a-los-25-creadores-reconocidos-por-instagram-en-2026-4516586",
+      "fecha": "2026-11-03T14:15:55+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "74ee3d63e33172c4",
+      "titulo": "El último adiós a Antonio Navarro Wolff, una de las figuras que apostó por la paz en Colombia",
+      "categoria": "Valle del Cauca",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/colombia/despedida-antonio-navarro-wolff-figuras-paz-colombia-3-11-2026/",
+      "fecha": "2026-11-03T14:15:09+00:00",
+      "imagen": "https://90minutos.co/90minutos.co/wp-content/uploads/2026/10/cancilleria.jpg"
+    },
+    {
+      "id": "84ff882989fc6bc1",
+      "titulo": "Paraguay toma el control del Banco Ueno mientras el regulador jefe planea renunciar",
+      "categoria": "Economía",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/globoeconomia/paraguay-toma-el-control-del-banco-ueno-mientras-el-regulador-jefe-planea-renunciar-4516597",
+      "fecha": "2026-11-03T14:11:25+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "264c84e559c8488d",
+      "titulo": "Dólar en Colombia inició noviembre al alza: así cotiza la divisa este martes 3",
+      "categoria": "Economía",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/finanzas/dolar-en-colombia-podria-alcanzar-los-3-250-esta-semana-asi-cotiza-la-divisa-este-martes-3-de-noviembre-505595",
+      "fecha": "2026-11-03T14:10:31+00:00",
+      "imagen": "https://imagenes.portafolio.co/files/og_thumbnail/uploads/2026/01/29/697b96803ebb9.jpeg"
+    },
+    {
+      "id": "80d04aefef91bc48",
+      "titulo": "Procuraduría formuló cargos contra Quintero por participación en política",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/en-vivo/procuraduria-formulo-cargos-contra-quintero-por-participacion-en-politica/",
+      "fecha": "2026-11-03T14:07:48+00:00",
+      "imagen": "https://i0.wp.com/www.lasillavacia.com/wp-content/uploads/2026/05/Daniel-Quintero.jpg?fit=1024%2C768&quality=80&strip=all&ssl=1"
+    },
+    {
+      "id": "8188582bc1087099",
+      "titulo": "Rusia y Ucrania volverán a negociar en Emiratos Árabes bajo mediación de Estados Unidos",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/internacional/2026-11-03/rusia-anuncia-que-negociara-con-ucrania-bajo-mediacion-de-estados-unidos-la-proxima-semana-en-abu-dabi.html",
+      "fecha": "2026-11-03T14:03:34+00:00",
+      "imagen": "https://imagenes.elpais.com/resizer/v2/D7QVQNKCNJNYRHOMKWWBT5XP3I.jpg?auth=056c891b6bd9741aa9b1f29e43e31091eb42fab0f62875b0af501af2433b0746"
+    },
+    {
+      "id": "eb29006fa288feff",
+      "titulo": "¿Qué clima hará este lunes en Cali? este es el pronóstico el 3 de noviembre",
+      "categoria": "Cali",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/vida-moderna/ecologia/que-clima-hara-este-lunes-en-cali-03-11-2026/",
+      "fecha": "2026-11-03T14:03:04+00:00",
+      "imagen": "https://90minutos.co/wp-content/uploads/2026/08/clima-cali-clima-cvc-montanas-farallones.jpg"
+    },
+    {
+      "id": "dbb9cbc818d76865",
+      "titulo": "MinTransporte propone nueva licencia por puntos para evitar la reincidencia de conductores",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/economia/mintransporte-propone-implementar-licencia-por-puntos-para-evitar-la-reincidencia-4516580",
+      "fecha": "2026-11-03T14:01:36+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "9b1ad7271fd7f412",
+      "titulo": "La llegada de las IA con \"automejora recursiva\": qué significa que Astra haya ayudado a modificar otro modelo de IA y qué riesgos y beneficios conlleva",
+      "categoria": "Internacional",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/robotica-e-ia/llegada-ia-automejora-recursiva-que-significa-que-astra-haya-ayudado-a-modificar-otro-modelo-ia-que-riesgos-beneficios-conlleva",
+      "fecha": "2026-11-03T14:01:27+00:00",
+      "imagen": "https://i.blogs.es/092a94/gpt-6-astra_-esfera-orbital-de-ia/1024_2000.jpeg"
+    },
+    {
+      "id": "fc382b27e04d2237",
+      "titulo": "Réplicas de los sismos: ¿cuánto pueden durar y por qué no permiten anticipar un terremoto?",
+      "categoria": "Valle del Cauca",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/colombia/replicas-de-los-sismos-terremoto-colombia-03-11-2026/",
+      "fecha": "2026-11-03T13:59:33+00:00",
+      "imagen": "https://90minutos.co/wp-content/uploads/2023/08/ALERTA-DE-SISMO.jpg"
+    },
+    {
+      "id": "dc69bfa113a3d2d1",
+      "titulo": "Peso mexicano cae tras dos sesiones de ganancias atento a elecciones intermedias EE.UU.",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/globoeconomia/peso-mexicano-cae-tras-dos-sesiones-de-ganancias-atento-a-elecciones-intermedias-ee-uu-4516578",
+      "fecha": "2026-11-03T13:59:25+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "548e5944d5abc04d",
+      "titulo": "Rentabilidades de los CDT continuarían altas en el corto plazo, tras mantenerse la tasa de interés en 12,25%",
+      "categoria": "Economía",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/gobierno/con-la-tasa-del-emisor-en-12-25-los-cdt-preven-que-los-rendimientos-sigan-altos-en-el-corto-plazo-505598",
+      "fecha": "2026-11-03T13:58:12+00:00",
+      "imagen": "https://imagenes.portafolio.co/files/og_thumbnail/files/fp/uploads/2026/06/22/6a3951272813e.r_d.598-508-0.webp"
+    },
+    {
+      "id": "132bdb0731585646",
+      "titulo": "Bogotá destinaría $6,8 billones a la movilidad en 2027 para impulsar el Metro y grandes corredores",
+      "categoria": "Economía",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/regiones/bogota-destinaria-6-8-billones-a-la-movilidad-en-2027-para-impulsar-el-metro-y-grandes-corredores-505603",
+      "fecha": "2026-11-03T13:56:32+00:00",
+      "imagen": "https://imagenes.portafolio.co/files/og_thumbnail/uploads/2026/10/28/6ae268563e34f.png"
+    },
+    {
+      "id": "23ef4b8311070a6b",
+      "titulo": "Cuatro aviones afectados en Europa por amenaza de bomba",
+      "categoria": "Internacional",
+      "fuente": "La FM Internacional",
+      "url": "https://www.lafm.com.co/internacional/cuatro-aviones-afectados-en-europa-por-amenaza-de-bomba-415965",
+      "fecha": "2026-11-03T13:54:03+00:00",
+      "imagen": "https://files.lafm.com.co/assets/public/2020-07/ryanair_0.jpg"
+    },
+    {
+      "id": "7dacca0a86eb41df",
+      "titulo": "Bicicletas y monopatines eléctricos tendrán nuevas reglas para circular desde 2027",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/economia/bicicletas-y-monopatines-electricos-tendran-nuevas-reglas-para-circular-a-partir-de-2027-4516536",
+      "fecha": "2026-11-03T13:53:18+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "39b881a33c0124c8",
+      "titulo": "Alerta en el Tolima por escalada violenta: van seis atentados en tres meses",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/alerta-en-el-tolima-por-escalada-violenta-van-seis-atentados-en-tres-meses-3598071",
+      "fecha": "2026-11-03T13:52:14+00:00",
+      "imagen": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2026/11/03/6ae9e6d38e780.r_d.241-198-0.jpeg"
+    },
+    {
+      "id": "9c6a658d96c45e6f",
+      "titulo": "Más de 12 millones de pacientes ya tienen historia clínica digital: así avanza la interoperabilidad en Colombia",
+      "categoria": "Economía",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/gobierno/mas-de-12-millones-de-pacientes-ya-tienen-historia-clinica-digital-asi-avanza-la-interoperabilidad-en-colombia-505605",
+      "fecha": "2026-11-03T13:51:20+00:00",
+      "imagen": "https://imagenes.portafolio.co/files/og_thumbnail/uploads/2026/04/15/69dfba7412818.png"
+    },
+    {
+      "id": "a9f14656c268b1d0",
+      "titulo": "Tragedia familiar | Mamá, papá e hija fallecieron en un trágico accidente en Santander: esto se sabe del siniestro vial",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/santander/tragedia-familiar-mama-papa-e-hija-fallecieron-en-un-tragico-accidente-en-santander-esto-se-sabe-del-siniestro-vial-3598068",
+      "fecha": "2026-11-03T13:50:27+00:00",
+      "imagen": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/11/03/6ae9e518181a5.jpeg"
+    },
+    {
+      "id": "8a4273e4a242bd55",
+      "titulo": "Temblor en Colombia: ¿cuáles fueron los más recientes sismos en las últimas 24 horas, qué magnitud tuvieron y dónde se registraron?",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/temblor-en-colombia-cuales-fueron-los-mas-recientes-sismos-en-las-ultimas-24-horas-que-magnitud-tuvieron-y-donde-se-registraron-3598035",
+      "fecha": "2026-11-03T13:50:22+00:00",
+      "imagen": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/11/03/6ae9d2b38bc2e.png"
+    },
+    {
+      "id": "98b521e092b37e21",
+      "titulo": "Sismo en Chaparral, Tolima: alcalde reporta una vivienda destruida y otras afectaciones",
+      "categoria": "Valle del Cauca",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/colombia/sismo-chaparral-alcalde-reporta-vivienda-destruida-afectaciones-3-11-2026/",
+      "fecha": "2026-11-03T13:47:20+00:00",
+      "imagen": "https://90minutos.co/90minutos.co/wp-content/uploads/2026/06/sismo-temblor.jpg"
+    },
+    {
+      "id": "9865ba2a6ee710cb",
+      "titulo": "Un delantero del Tenerife ha muerto tras un rodillazo. La pregunta ahora es si Jesús Owono afronta responsabilidades penales",
+      "categoria": "Internacional",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/magnet/delantero-tenerife-ha-muerto-rodillazo-pregunta-ahora-jesus-owono-afronta-responsabilidades-penales",
+      "fecha": "2026-11-03T13:45:27+00:00",
+      "imagen": "https://i.blogs.es/2c5d64/portada/1024_2000.jpeg"
+    },
+    {
+      "id": "42d99a86f2c1fdb1",
+      "titulo": "El Internet de las Cosas parecía una gran idea en 2013: los supermercados de Europa están descubriendo que con la IA no lo era tanto",
+      "categoria": "Internacional",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/seguridad/internet-cosas-parecia-gran-idea-2013-supermercados-europa-estan-descubriendo-que-ia-no-era",
+      "fecha": "2026-11-03T13:45:27+00:00",
+      "imagen": "https://i.blogs.es/e25ff4/sandra-tan-ot_id6pyvom-unsplash/1024_2000.jpeg"
+    },
+    {
+      "id": "3b4420c6e071b186",
+      "titulo": "La china BYD duplica su cuota de mercado en Brasil con una nueva planta en proyecto",
+      "categoria": "Internacional",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/globoeconomia/la-china-byd-duplica-su-cuota-de-mercado-en-brasil-con-una-nueva-planta-en-proyecto-4516568",
+      "fecha": "2026-11-03T13:44:16+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "5e8af770e87bf222",
+      "titulo": "Video| ¿Por qué está temblando tanto en Chaparral? Esto explica el SGC",
+      "categoria": "Valle del Cauca",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/vida-moderna/ecologia/video-temblando-tanto-en-chaparral-tolima-03-11-2026/",
+      "fecha": "2026-11-03T13:35:21+00:00",
+      "imagen": "https://90minutos.co/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-20-at-10.25.41-AM.jpeg"
+    },
+    {
+      "id": "1af3381a37268694",
+      "titulo": "Lidl tiene rebajada (a menos de 30 euros) la solución para decirle adiós a los microcortes de Internet en casa",
+      "categoria": "Internacional",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/seleccion/lidl-tiene-rebajada-a-30-euros-solucion-para-decirle-adios-a-microcortes-internet-casa",
+      "fecha": "2026-11-03T13:31:30+00:00",
+      "imagen": "https://i.blogs.es/ac2907/img_3112/1024_2000.jpeg"
+    },
+    {
+      "id": "8b23318b3db2897c",
+      "titulo": "En 2022, alguien decidió construir la mayor batería hidroeléctrica de Canarias. El único problema es que empezó la casa por el tejado",
+      "categoria": "Internacional",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/ecologia-y-naturaleza/2022-alguien-decidio-construir-mayor-bateria-hidroelectrica-canarias-unico-problema-que-empezo-casa-tejado",
+      "fecha": "2026-11-03T13:31:29+00:00",
+      "imagen": "https://i.blogs.es/660c14/el-salto-de-chira-no-tiene-desague-de-fondo-1/1024_2000.jpeg"
+    },
+    {
+      "id": "f34af1d71cb5f0d1",
+      "titulo": "Esto es el 'Commotio cordis', la probable causa de muerte del futbolista del Tenerife Jesús de Miguel",
+      "categoria": "Internacional",
+      "fuente": "La FM Internacional",
+      "url": "https://www.lafm.com.co/internacional/muerte-futbolista-jesus-de-miguel-tenerife-choque-arquero-futbol-espana-segunda-division-415961",
+      "fecha": "2026-11-03T13:26:33+00:00",
+      "imagen": "https://files.lafm.com.co/media/news-images/2026/11/03/112650/jesus-de-miguel-accidente-choque-portero-andorra-de-que-murio-1200x675.jpg"
+    },
+    {
+      "id": "d7d27c4181244cab",
+      "titulo": "Diez futbolistas que murieron durante un partido: estos casos han marcado las últimas dos décadas",
+      "categoria": "Deportes",
+      "fuente": "La FM Deportes",
+      "url": "https://www.lafm.com.co/deportes/diez-futbolistas-murieron-partido-415960",
+      "fecha": "2026-11-03T13:24:31+00:00",
+      "imagen": "https://files.lafm.com.co/media/news-images/2026/11/03/134143/diez-futbolistas-que-murieron-durante-un-partido-estos-casos-han-marcado-las-ultimas-dos-decadas-1200x675.jpg"
+    },
+    {
+      "id": "394fe2ce72e2823c",
+      "titulo": "Cuatro vuelos reciben amenazas en Europa y obligan a activar dispositivos de seguridad",
+      "categoria": "Internacional",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/cuatro-vuelos-reciben-amenazas-en-europa-y-obligan-a-activar-dispositivos-de-seguridad/a-79841753?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-03T13:23:00+00:00",
       "imagen": ""
     },
     {
       "id": "cb92924b7778e836",
       "titulo": "El dólar abrió $37,01 al alza, a la espera de los resultados electorales en Estados Unidos",
-      "categoria": "Economía",
+      "categoria": "Internacional",
       "fuente": "La República",
       "url": "https://www.larepublica.co/finanzas/precios-del-dolar-y-del-petroleo-hoy-3-de-noviembre-de-2026-4516451",
       "fecha": "2026-11-03T13:11:38+00:00",
       "imagen": ""
-    },
-    {
-      "id": "58b27b62b94cb82d",
-      "titulo": "A contrarreloj, Ley de Sometimiento retomará debate en Cámara",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/en-vivo/a-contrarreloj-ley-de-sometimiento-retomara-debate-en-camara/",
-      "fecha": "2026-11-03T13:09:20+00:00",
-      "imagen": "https://i0.wp.com/www.lasillavacia.com/wp-content/uploads/2026/11/Proposicion_Juvinao.jpeg?fit=1600%2C1200&quality=80&strip=all&ssl=1"
-    },
-    {
-      "id": "25482cee7446bd37",
-      "titulo": "¿Qué cambiaría si los demócratas recuperan el Congreso de EE. UU. frente a Trump?",
-      "categoria": "Internacional",
-      "fuente": "La FM Internacional",
-      "url": "https://www.lafm.com.co/internacional/donald-trump-elecciones-medio-termino-estados-unidos-congreso-democratas-republicanos-415942",
-      "fecha": "2026-11-03T13:09:04+00:00",
-      "imagen": "https://files.lafm.com.co/media/news-images/2026/11/03/123950/trump-1200x675.jpg"
     },
     {
       "id": "8f4201b845403954",
@@ -83,60 +308,6 @@
       "imagen": ""
     },
     {
-      "id": "ce6d8eb1ffd18a4e",
-      "titulo": "Temblor hoy en Colombia con epicentro en Tolima se sintió en Medellín y el Valle de Aburrá",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/temblor-hoy-en-colombia-con-epicentro-en-tolima-se-sintio-en-medellin-GO43090060",
-      "fecha": "2026-11-03T13:04:30+00:00",
-      "imagen": "https://estaticos.elcolombiano.com/binrepository/232x300/0c0/0d0/center/11101/TCSL/hwmkxhoxiaawhmt_52037873_20261103042632.jpg"
-    },
-    {
-      "id": "4c7ff0f4912468e6",
-      "titulo": "¿Qué hacer durante y después de un temblor? Estas son las recomendaciones de la Cruz Roja tras el sismo de magnitud 5,6 de este 3 de noviembre",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/que-hacer-durante-y-despues-de-un-temblor-estas-son-las-recomendaciones-de-la-cruz-roja-tras-el-sismo-de-magnitud-5-6-de-este-3-de-noviembre-3598037",
-      "fecha": "2026-11-03T13:03:15+00:00",
-      "imagen": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/11/03/6ae9d544298e2.jpeg"
-    },
-    {
-      "id": "1e8a0d5553942df9",
-      "titulo": "Murió en Barranquilla Héctor Julio Alfonso Pastrana, viudo de Enilce López Romero, ‘La Gata’, y padre del exalcalde de Magangué (Bolívar)",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/barranquilla/murio-en-barranquilla-hector-julio-alfonso-pastrana-viudo-de-enilce-lopez-romero-la-gata-y-padre-del-exalcalde-de-magangue-bolivar-3598049",
-      "fecha": "2026-11-03T13:02:34+00:00",
-      "imagen": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/11/03/6ae9d5544e29a.png"
-    },
-    {
-      "id": "0d7a3d49c662be35",
-      "titulo": "Educación es el sector con mayor asignación en el proyecto de Presupuesto de Bogotá",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/economia/proyecto-de-presupuesto-de-bogota-radicado-por-la-alcaldia-para-2027-4516523",
-      "fecha": "2026-11-03T13:01:51+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "4d2113027911f961",
-      "titulo": "PlayStation está empezando a escribir a los usuarios para que vendan sus PS5 a Back Market",
-      "categoria": "Tecnología",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/videojuegos/playstation-esta-empezando-a-escribir-a-usuarios-vendan-sus-ps5-a-back-market",
-      "fecha": "2026-11-03T13:01:30+00:00",
-      "imagen": "https://i.blogs.es/5a5491/notificacion-destacada-de-playstation/1024_2000.png"
-    },
-    {
-      "id": "8c999b41a4f4e4e9",
-      "titulo": "Arnoldo Palacios: Heraldos de un nuevo día. Sobre la creación del departamento del Chocó",
-      "categoria": "Colombia",
-      "fuente": "Chocó 7 días",
-      "url": "https://choco7dias.com/arnoldo-palacios-heraldos-de-un-nuevo-dia-sobre-la-creacion-del-departamento-del-choco-3/",
-      "fecha": "2026-11-03T13:00:43+00:00",
-      "imagen": ""
-    },
-    {
       "id": "6034a49bab9090af",
       "titulo": "Financia UAO: conozca las opciones de financiación para estudiar un pregrado y posgrado",
       "categoria": "Valle del Cauca",
@@ -144,15 +315,6 @@
       "url": "https://90minutos.co/la-uao/financia-uao-evento-posgrados-pregrados-03-11-2026/",
       "fecha": "2026-11-03T13:00:00+00:00",
       "imagen": "https://90minutos.co/90minutos.co/wp-content/uploads/2026/10/premios-xilopalo.jpg"
-    },
-    {
-      "id": "548e5944d5abc04d",
-      "titulo": "Con la tasa del Emisor en 12,25 %, los CDT prevén que los rendimientos sigan altos en el corto plazo",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/gobierno/con-la-tasa-del-emisor-en-12-25-los-cdt-preven-que-los-rendimientos-sigan-altos-en-el-corto-plazo-505598",
-      "fecha": "2026-11-03T12:48:50+00:00",
-      "imagen": "https://imagenes.portafolio.co/files/og_thumbnail/files/fp/uploads/2026/06/22/6a3951272813e.r_d.598-508-0.webp"
     },
     {
       "id": "46c81315f12166f1",
@@ -164,85 +326,13 @@
       "imagen": ""
     },
     {
-      "id": "e08dd7ab0a54ff26",
-      "titulo": "Ya es oficial el nuevo Oppo A7 Pro 5G: una brutal batería de 7.400 mAh y certificación de grado militar para reventar la gama media",
-      "categoria": "Tecnología",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/seleccion/oficial-nuevo-oppo-a7-pro-5g-brutal-bateria-7-400-mah-certificacion-grado-militar-para-reventar-gama-media",
-      "fecha": "2026-11-03T12:45:27+00:00",
-      "imagen": "https://i.blogs.es/0a7e77/oppo-a7-pro-5g/1024_2000.jpeg"
-    },
-    {
       "id": "4f673e573ee7d1b9",
-      "titulo": "Transportes reducirá la circulación en la vía Madrid-Sevilla para separar más los trenes hasta que esté en pie el nuevo sistema de seguridad ERTMS",
+      "titulo": "Transportes reduce el tráfico entre Madrid y Sevilla para separar más los trenes hasta que esté en pie el nuevo sistema de seguridad ERTMS",
       "categoria": "Valle del Cauca",
       "fuente": "El País Colombia",
       "url": "https://elpais.com/espana/2026-11-03/transportes-reducira-la-circulacion-en-la-via-madrid-sevilla-para-separar-mas-los-trenes-hasta-que-este-en-pie-el-nuevo-sistema-de-seguridad-ertms.html",
       "fecha": "2026-11-03T12:42:04+00:00",
-      "imagen": "https://imagenes.elpais.com/resizer/v2/6XD5KMRAVZAO5LNCSNDGAC2XAU.jpg?auth=a39740ae0d73a1efaf685325744768076292cd179dfe55f92dea4e5c77843d8f"
-    },
-    {
-      "id": "0665ac44e34b4d79",
-      "titulo": "Por qué (ahora sí) los demócratas pueden lograr en Texas un triunfo trascendental tras décadas de derrotas",
-      "categoria": "Internacional",
-      "fuente": "BBC Mundo",
-      "url": "https://www.bbc.com/mundo/articles/cr2ke7qdk71eo?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-03T12:40:18+00:00",
-      "imagen": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/f303/live/84cce500-d54b-11f1-bcb7-8f812b44c2e5.jpg"
-    },
-    {
-      "id": "8b7dc06ec479a40e",
-      "titulo": "Joven niñera colombiana entre las víctimas del accidente de avioneta en La Florida",
-      "categoria": "Internacional",
-      "fuente": "La FM Internacional",
-      "url": "https://www.lafm.com.co/internacional/ninera-colombiana-victimas-accidente-aereo-avioneta-palm-beach-415954",
-      "fecha": "2026-11-03T12:35:29+00:00",
-      "imagen": "https://files.lafm.com.co/media/news-images/2026/11/03/130645/accidente-aereo-palm-beach-1200x675.jpg"
-    },
-    {
-      "id": "8fc746fe105c0f62",
-      "titulo": "La Policía ha desalojado de madrugada la acampada de Sol y detiene a quienes se resisten",
-      "categoria": "Tecnología",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/magnet/policia-ha-desalojado-madrugada-acampada-sol-detiene-a-quienes-se-resisten",
-      "fecha": "2026-11-03T12:31:28+00:00",
-      "imagen": "https://i.blogs.es/ffd7d2/des/1024_2000.jpeg"
-    },
-    {
-      "id": "81c37164870b2754",
-      "titulo": "“Un referéndum contra Trump”: Demócratas esperan un 'tsunami' en elecciones de medio término en EE. UU.",
-      "categoria": "Internacional",
-      "fuente": "La FM Internacional",
-      "url": "https://www.lafm.com.co/internacional/elecciones-medio-termino-estados-unidos-democratas-anticipan-golpe-electoral-trump-415953",
-      "fecha": "2026-11-03T12:29:42+00:00",
-      "imagen": "https://files.lafm.com.co/media/news-images/2026/08/20/061200/donald-trump-presidente-de-estados-unidos-1200x675.jpg"
-    },
-    {
-      "id": "721f3bb676348502",
-      "titulo": "Conozca los barrios sin agua en Cali este martes, 3 de noviembre",
-      "categoria": "Cali",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/cali/barrios-sin-agua-cali-martes-3-noviembre-3-11-2026/",
-      "fecha": "2026-11-03T12:28:15+00:00",
-      "imagen": "https://90minutos.co/90minutos.co/wp-content/uploads/2026/06/sismo-temblor.jpg"
-    },
-    {
-      "id": "1635f45b69f5e415",
-      "titulo": "Tasa de personas conectadas a internet en el mundo supera por primera vez el 75 %",
-      "categoria": "Internacional",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/tasa-de-personas-conectadas-a-internet-en-el-mundo-supera-por-primera-vez-el-75/a-79840551?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-03T12:28:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "7a64f9b04516d4f2",
-      "titulo": "¿Qué hay detrás del bombardeo al ELN en Venezuela? Así fue la inédita acción militar",
-      "categoria": "Internacional",
-      "fuente": "La FM Internacional",
-      "url": "https://www.lafm.com.co/internacional/venezuela-bombardeo-campamento-eln-apure-cambia-relaciones-colombia-415948",
-      "fecha": "2026-11-03T12:27:59+00:00",
-      "imagen": "https://files.lafm.com.co/media/news-images/2026/09/15/193457/cabecillas-del-eln-1200x675.png"
+      "imagen": "https://vdmedia.elpais.com/mcv/elpais/multimedia/20261103/1233209_134341_video_1800.mp4"
     },
     {
       "id": "88ef4467a67bf808",
@@ -254,15 +344,6 @@
       "imagen": "https://90minutos.co/wp-content/uploads/2026/11/HWMNTMaW4AAx1Lj.jpg"
     },
     {
-      "id": "1466e0874e189714",
-      "titulo": "Alcaldía de Ocaña ordenó el cierre total de la vía en el puente El Líbano tras el reporte de dos cilindros y una caja con posibles explosivos",
-      "categoria": "Internacional",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/alcaldia-de-ocana-ordeno-el-cierre-total-de-la-via-en-el-puente-el-libano-tras-el-reporte-de-dos-cilindros-y-una-caja-con-posibles-explosivos-3598017",
-      "fecha": "2026-11-03T12:22:06+00:00",
-      "imagen": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/11/03/6ae97f5fd1028.png"
-    },
-    {
       "id": "0ab2dda09e46738c",
       "titulo": "Ley de rescate económico recibe espaldarazo del FMI y el Banco de la República destaca sus posibles efectos",
       "categoria": "Economía",
@@ -270,33 +351,6 @@
       "url": "https://www.portafolio.co/economia/gobierno/ley-de-rescate-fiscal-recibe-espaldarazo-del-fmi-y-el-banco-de-la-republica-destaca-sus-posibles-efectos-505597",
       "fecha": "2026-11-03T12:10:32+00:00",
       "imagen": "https://imagenes.portafolio.co/files/og_thumbnail/uploads/2026/11/03/6ae9ce862989f.jpeg"
-    },
-    {
-      "id": "8188582bc1087099",
-      "titulo": "Rusia anuncia que negociará con Ucrania, bajo mediación de Estados Unidos, la próxima semana en Abu Dabi",
-      "categoria": "Internacional",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/internacional/2026-11-03/rusia-anuncia-que-negociara-con-ucrania-bajo-mediacion-de-estados-unidos-la-proxima-semana-en-abu-dabi.html",
-      "fecha": "2026-11-03T12:08:04+00:00",
-      "imagen": "https://imagenes.elpais.com/resizer/v2/D7QVQNKCNJNYRHOMKWWBT5XP3I.jpg?auth=056c891b6bd9741aa9b1f29e43e31091eb42fab0f62875b0af501af2433b0746"
-    },
-    {
-      "id": "ba4109e6ffe6aca4",
-      "titulo": "Crudo sube tras declaraciones de Irán de que acuerdo de paz con EE.UU. sigue lejano",
-      "categoria": "Internacional",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/crudo-sube-tras-declaraciones-de-iran-de-que-acuerdo-de-paz-con-ee-uu-sigue-lejano-4516455",
-      "fecha": "2026-11-03T12:06:48+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "d51a9f69774e1736",
-      "titulo": "Elon Musk tiene un plan para acabar con los vecinos quejándose de centros de datos cerca: comprar sus casas",
-      "categoria": "Tecnología",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/robotica-e-ia/elon-musk-tiene-plan-para-acabar-vecinos-quejandose-centros-datos-cerca-comprar-sus-casas",
-      "fecha": "2026-11-03T12:05:22+00:00",
-      "imagen": "https://i.blogs.es/872f2b/retrato-pop-art-de-un-conferenciante-gesticulando/1024_2000.png"
     },
     {
       "id": "66ecd177f319aa78",
@@ -308,42 +362,6 @@
       "imagen": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/11/03/6ae97888826d1.jpeg"
     },
     {
-      "id": "e2c0860c6438ab80",
-      "titulo": "Los supermercados están empeñados en empezar la Navidad casi en verano. La única incógnita es por qué no lo han hecho antes",
-      "categoria": "Economía",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/magnet/supermercados-estan-empenados-empezar-navidad-casi-verano-unica-incognita-que-no-han-hecho-antes",
-      "fecha": "2026-11-03T12:01:28+00:00",
-      "imagen": "https://i.blogs.es/537d1e/15720959162_995d1d339d_k-1-/1024_2000.jpeg"
-    },
-    {
-      "id": "c185d0f640ad9bec",
-      "titulo": "El Corte Inglés liquida esta enorme smart TV MiniLED TCL de 75 pulgadas con sonido Onkyo y 144 Hz",
-      "categoria": "Tecnología",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/seleccion/corte-ingles-liquida-esta-enorme-smart-tv-miniled-tcl-75-pulgadas-sonido-onkyo-144-hz",
-      "fecha": "2026-11-03T12:01:28+00:00",
-      "imagen": "https://i.blogs.es/6f40b4/el-corte-ingles-4-/1024_2000.jpeg"
-    },
-    {
-      "id": "a540fb545d39c592",
-      "titulo": "Foro World in Progress 2026 de Barcelona, en directo | Shlomo Ben-Ami: “En Israel hace falta un líder visionario que tenga la brutalidad necesaria para tomar decisiones”",
-      "categoria": "Internacional",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/internacional/2026-11-03/foro-world-in-progress-de-barcelona-en-directo.html",
-      "fecha": "2026-11-03T12:00:35+00:00",
-      "imagen": "https://www.youtube.com/watch?v=JRT_OoQXbpE"
-    },
-    {
-      "id": "ed6b0e01d59017c8",
-      "titulo": "La madre en Chile a la que obligaron a esperar que su bebé muriera en su vientre y ahora un fallo histórico le otorga una indemnización millonaria",
-      "categoria": "Deportes",
-      "fuente": "BBC Mundo",
-      "url": "https://www.bbc.com/mundo/articles/cm3el01qqeqxo?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-03T11:58:03+00:00",
-      "imagen": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/024b/live/41301ca0-cec4-11f1-b9e0-e5f0da03dc7f.jpg"
-    },
-    {
       "id": "62475992c62fa756",
       "titulo": "¿Hasta dónde puede caer el Nasdaq? Estos son los niveles clave que observa el mercado",
       "categoria": "Economía",
@@ -353,33 +371,6 @@
       "imagen": "https://files.lafm.com.co/media/news-images/2026/11/03/132409/hasta-donde-puede-caer-el-nasdaq-estos-son-los-niveles-clave-que-observa-el-mercado-1200x675.jpg"
     },
     {
-      "id": "d2b4e3d95f278f6b",
-      "titulo": "Nuevo sorteo exclusivo para suscriptores de Xataka Xtra: sorteamos diez entradas dobles para ver 'Cómo robar un banco' en cines",
-      "categoria": "Economía",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/xataka-xtra/nuevo-sorteo-exclusivo-para-suscriptores-xataka-xtra-sorteamos-diez-entradas-dobles-para-ver-como-robar-banco-cines",
-      "fecha": "2026-11-03T11:41:00+00:00",
-      "imagen": "https://i.blogs.es/933365/sorteo-entradas/1024_2000.jpeg"
-    },
-    {
-      "id": "264c84e559c8488d",
-      "titulo": "Dólar en Colombia podría alcanzar los $3.250 esta semana: así cotiza la divisa este martes 3 de noviembre",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/finanzas/dolar-en-colombia-podria-alcanzar-los-3-250-esta-semana-asi-cotiza-la-divisa-este-martes-3-de-noviembre-505595",
-      "fecha": "2026-11-03T11:36:49+00:00",
-      "imagen": "https://imagenes.portafolio.co/files/og_thumbnail/uploads/2026/01/29/697b96803ebb9.jpeg"
-    },
-    {
-      "id": "6f1dc7c4491edf2d",
-      "titulo": "Tragedia en España: futbolista de la segunda división murió tras un choque con el arquero",
-      "categoria": "Deportes",
-      "fuente": "La FM Deportes",
-      "url": "https://www.lafm.com.co/deportes/jesus-de-miguel-accidente-choque-portero-andorra-de-que-murio-415941",
-      "fecha": "2026-11-03T11:30:48+00:00",
-      "imagen": "https://files.lafm.com.co/media/news-images/2026/11/03/112650/jesus-de-miguel-accidente-choque-portero-andorra-de-que-murio-1200x675.jpg"
-    },
-    {
       "id": "dfe61cfd882b1992",
       "titulo": "Copa de Asia se aplaza hasta finales de 2027 debido a los ataques contra Arabia Saudita",
       "categoria": "Deportes",
@@ -387,69 +378,6 @@
       "url": "https://www.larepublica.co/ocio/copa-de-asia-se-aplaza-hasta-finales-de-2027-debido-a-los-ataques-contra-arabia-saudita-4516432",
       "fecha": "2026-11-03T11:17:56+00:00",
       "imagen": ""
-    },
-    {
-      "id": "2e48fc2d976f443e",
-      "titulo": "Todos estos dispositivos Xiaomi están muy rebajados en el 11.11 de AliExpress (y con envío desde España): hay móviles, tablets, teles y más",
-      "categoria": "Tecnología",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/seleccion/todos-estos-dispositivos-xiaomi-estan-muy-rebajados-11-11-aliexpress-envio-espana-hay-moviles-tablets-teles",
-      "fecha": "2026-11-03T11:15:28+00:00",
-      "imagen": "https://i.blogs.es/0c663b/aliexpress-aniversario-xiaomi-portada/1024_2000.jpeg"
-    },
-    {
-      "id": "607c1f60753e3b74",
-      "titulo": "Muere el delantero del Tenerife Jesús de Miguel tras golpe y paro cardíaco sufridos en un partido de Segunda División",
-      "categoria": "Deportes",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/muere-el-delantero-del-tenerife-jesús-de-miguel-tras-golpe-y-paro-cardíaco-sufridos-en-un-partido-de-segunda-división/a-79837882?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-03T11:09:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "121b4428237d1735",
-      "titulo": "Llegan las primeras campañas del Black Friday con el Google Pixel 11 de oferta, nuevo y ahora más barato",
-      "categoria": "Tecnología",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/seleccion/llegan-primeras-campanas-black-friday-google-pixel-11-oferta-nuevo-ahora-barato",
-      "fecha": "2026-11-03T11:01:28+00:00",
-      "imagen": "https://i.blogs.es/4b8f3e/google-pixel-11/1024_2000.jpeg"
-    },
-    {
-      "id": "b8d5b59cc333a3c5",
-      "titulo": "Una IA ha hecho mejor a otra IA con un método inesperado: recortarle lo que le estorbaba",
-      "categoria": "Tecnología",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/robotica-e-ia/ia-ha-hecho-mejor-a-otra-ia-metodo-inesperado-recortarle-que-le-estorbaba",
-      "fecha": "2026-11-03T11:01:28+00:00",
-      "imagen": "https://i.blogs.es/20a6af/recortar-ia-portada/1024_2000.jpeg"
-    },
-    {
-      "id": "85479fff845ebdb3",
-      "titulo": "Lula, Sheinbaum y Delcy Rodríguez no participarán en la XXX Cumbre Iberoamericana en Madrid",
-      "categoria": "Deportes",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/lula-sheinbaum-y-delcy-rodríguez-no-participarán-en-la-xxx-cumbre-iberoamericana-en-madrid/a-79837532?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-03T11:00:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "4428365c4f88dedb",
-      "titulo": "Ya en Action (y rebajada) esta caja de sincronización HDMI para disfrutar de la experiencia Ambilight en cualquier tele",
-      "categoria": "Tecnología",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/seleccion/action-rebajada-esta-caja-sincronizacion-hdmi-para-disfrutar-experiencia-ambilight-cualquier-tele",
-      "fecha": "2026-11-03T10:31:28+00:00",
-      "imagen": "https://i.blogs.es/3c2bb3/action-tienda/1024_2000.jpeg"
-    },
-    {
-      "id": "9e281bc4f4ac905e",
-      "titulo": "En 1970, EEUU tuvo una disparatada idea para construir carreteras. 56 años después, asfaltar con cristales ha dejado de ser ciencia ficción",
-      "categoria": "Tecnología",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/movilidad/1970-california-asfalto-calle-botellas-rotas-sorprendente-no-que-funcionara-sino-que-vino-despues",
-      "fecha": "2026-11-03T10:30:00+00:00",
-      "imagen": "https://i.blogs.es/c6f2d1/calle-principal-de-los-anos-50/1024_2000.png"
     },
     {
       "id": "dd46c453804e1f34",
@@ -506,15 +434,6 @@
       "imagen": "https://estaticos.elcolombiano.com/binrepository/382x300/0c0/0d0/center/11101/TTKI/antonio-wolff_52036906_20261102194824.jpg"
     },
     {
-      "id": "f9eae172b4296d00",
-      "titulo": "El pesista chocoano Yeison López conquista oro y nuevo récord mundial en China",
-      "categoria": "Deportes",
-      "fuente": "Chocó 7 días",
-      "url": "https://choco7dias.com/el-pesista-chocoano-yeison-lopez-conquista-oro-y-nuevo-record-mundial-en-china/",
-      "fecha": "2026-11-02T21:40:59+00:00",
-      "imagen": ""
-    },
-    {
       "id": "a11dc26b1d13b69d",
       "titulo": "El Ejército desarticula peligrosa estructura criminal de 'Iván Mordisco' en el Valle del Cauca",
       "categoria": "Valle del Cauca",
@@ -531,6 +450,24 @@
       "url": "https://www.lafm.com.co/deportes/kimi-antonelli-piloto-campeon-formula-1-415919",
       "fecha": "2026-11-02T20:25:16+00:00",
       "imagen": "https://files.lafm.com.co/media/news-images/2026/11/02/203626/este-es-kimi-antonelli-el-piloto-mas-joven-en-ganar-la-f1-1200x675.jpg"
+    },
+    {
+      "id": "7bd948f1eb575111",
+      "titulo": "La lucha por avanzar continúa: así se jugará la cuarta fecha de la Champions League",
+      "categoria": "Deportes",
+      "fuente": "La FM Deportes",
+      "url": "https://www.lafm.com.co/deportes/champions-league-fecha-cuatro-horarios-programacion-oficial-415908",
+      "fecha": "2026-11-02T18:31:01+00:00",
+      "imagen": "https://files.lafm.com.co/media/news-images/2026/11/02/181051/champions-league-fecha-cuatro-horarios-programacion-oficial-1200x675.jpg"
+    },
+    {
+      "id": "64d6885eabf65fc9",
+      "titulo": "Jackson Martínez y una selecta lista: ser goleador en Colombia con 40 años",
+      "categoria": "Deportes",
+      "fuente": "La FM Deportes",
+      "url": "https://www.lafm.com.co/deportes/liga-betplay-jackson-martinez-jugadores-que-han-hecho-col-con-40-anos-415910",
+      "fecha": "2026-11-02T18:00:14+00:00",
+      "imagen": "https://files.lafm.com.co/media/news-images/2026/11/02/184818/portadas-26-1200x675.jpg"
     },
     {
       "id": "0be1dad17305837d",
@@ -551,40 +488,13 @@
       "imagen": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/11/02/6ae8b30f9d381.jpeg"
     },
     {
-      "id": "810a63ed50a62283",
-      "titulo": "En Buenaventura siguen buscando a Dylan Campaz, completa más de 20 días desaparecido",
-      "categoria": "Valle del Cauca",
-      "fuente": "La FM Actualidad",
-      "url": "https://www.lafm.com.co/actualidad/dylan-campaz-20-dias-desaparecido-buenaventura-valle-del-cauca-415878",
-      "fecha": "2026-11-02T02:53:13+00:00",
-      "imagen": "https://files.lafm.com.co/media/news-images/2026/10/28/195200/padre-de-dilan-clama-por-la-liberacion-de-su-hijo-desaparecido-en-buenaventura-1200x675.jpg"
-    },
-    {
-      "id": "56f1adca4b2af420",
-      "titulo": "SpaceX financiamiento GPU con Apollo",
-      "categoria": "Valle del Cauca",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/secciones/tecnologia/spacex-financiamiento-gpu-apollo/",
-      "fecha": "2026-11-01T15:00:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "0e11c6763e9783c2",
-      "titulo": "MinSalud intensificó vigilancia epidemiológica por casos de malaria en el Valle del Cauca",
-      "categoria": "Valle del Cauca",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/economia/el-ministerio-de-salud-intensifico-vigilancia-epidemiologica-por-dos-casos-de-malaria-en-el-valle-del-cauca-4515956",
-      "fecha": "2026-11-01T12:45:34+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "53ea8b62a689b482",
-      "titulo": "La angustiosa búsqueda de Dylan Campaz en Buenaventura: el caso se eleva a desaparición forzada y ofrecen millonaria recompensa",
-      "categoria": "Valle del Cauca",
-      "fuente": "El Tiempo Cali",
-      "url": "https://www.eltiempo.com/colombia/cali/la-angustiosa-busqueda-de-dylan-campaz-en-buenaventura-el-caso-se-eleva-a-desaparicion-forzada-y-ofrecen-millonaria-recompensa-3597726",
-      "fecha": "2026-10-31T19:26:16+00:00",
-      "imagen": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/10/16/6ad26545baa96.jpeg"
+      "id": "40aefad69ff751ff",
+      "titulo": "Jackson Martínez: debut, gol y victoria con DIM en Liga Betplay",
+      "categoria": "Deportes",
+      "fuente": "La FM Deportes",
+      "url": "https://www.lafm.com.co/deportes/jackson-martinez-debuta-con-gol-en-liga-betplay-con-dim-415876",
+      "fecha": "2026-11-02T01:01:33+00:00",
+      "imagen": "https://files.lafm.com.co/media/news-images/2026/11/02/010707/portadas-25-1200x675.jpg"
     }
   ],
   "estado_fuentes": [
@@ -595,7 +505,7 @@
       "estado": "ok",
       "entradas_rss": 10,
       "titulares_vigentes": 10,
-      "ultima_consulta": "2026-11-03T13:27:35.843741+00:00",
+      "ultima_consulta": "2026-11-03T14:27:11.936955+00:00",
       "error": ""
     },
     {
@@ -605,7 +515,7 @@
       "estado": "ok",
       "entradas_rss": 10,
       "titulares_vigentes": 8,
-      "ultima_consulta": "2026-11-03T13:27:35.915974+00:00",
+      "ultima_consulta": "2026-11-03T14:27:12.170683+00:00",
       "error": ""
     },
     {
@@ -615,7 +525,7 @@
       "estado": "sin_entradas",
       "entradas_rss": 0,
       "titulares_vigentes": 0,
-      "ultima_consulta": "2026-11-03T13:27:35.960491+00:00",
+      "ultima_consulta": "2026-11-03T14:27:12.241524+00:00",
       "error": "La respuesta no contiene entradas RSS/Atom."
     },
     {
@@ -625,7 +535,7 @@
       "estado": "ok",
       "entradas_rss": 10,
       "titulares_vigentes": 10,
-      "ultima_consulta": "2026-11-03T13:27:36.321241+00:00",
+      "ultima_consulta": "2026-11-03T14:27:12.898593+00:00",
       "error": ""
     },
     {
@@ -635,7 +545,7 @@
       "estado": "ok",
       "entradas_rss": 10,
       "titulares_vigentes": 10,
-      "ultima_consulta": "2026-11-03T13:27:36.437136+00:00",
+      "ultima_consulta": "2026-11-03T14:27:13.230063+00:00",
       "error": ""
     },
     {
@@ -645,7 +555,7 @@
       "estado": "ok",
       "entradas_rss": 60,
       "titulares_vigentes": 40,
-      "ultima_consulta": "2026-11-03T13:27:36.574524+00:00",
+      "ultima_consulta": "2026-11-03T14:27:13.422103+00:00",
       "error": ""
     },
     {
@@ -654,8 +564,8 @@
       "zona": "Nacional / internacional",
       "estado": "ok",
       "entradas_rss": 12,
-      "titulares_vigentes": 3,
-      "ultima_consulta": "2026-11-03T13:27:36.652330+00:00",
+      "titulares_vigentes": 9,
+      "ultima_consulta": "2026-11-03T14:27:13.647061+00:00",
       "error": ""
     },
     {
@@ -664,8 +574,8 @@
       "zona": "Nacional / internacional",
       "estado": "ok",
       "entradas_rss": 34,
-      "titulares_vigentes": 26,
-      "ultima_consulta": "2026-11-03T13:27:36.774032+00:00",
+      "titulares_vigentes": 24,
+      "ultima_consulta": "2026-11-03T14:27:13.925666+00:00",
       "error": ""
     },
     {
@@ -675,7 +585,7 @@
       "estado": "ok",
       "entradas_rss": 20,
       "titulares_vigentes": 20,
-      "ultima_consulta": "2026-11-03T13:27:37.057236+00:00",
+      "ultima_consulta": "2026-11-03T14:27:14.216635+00:00",
       "error": ""
     },
     {
@@ -685,7 +595,7 @@
       "estado": "ok",
       "entradas_rss": 26,
       "titulares_vigentes": 26,
-      "ultima_consulta": "2026-11-03T13:27:37.377586+00:00",
+      "ultima_consulta": "2026-11-03T14:27:14.888547+00:00",
       "error": ""
     },
     {
@@ -693,9 +603,9 @@
       "url": "https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/section/america-colombia/portada",
       "zona": "Nacional / internacional",
       "estado": "ok",
-      "entradas_rss": 113,
+      "entradas_rss": 112,
       "titulares_vigentes": 39,
-      "ultima_consulta": "2026-11-03T13:27:38.014624+00:00",
+      "ultima_consulta": "2026-11-03T14:27:15.897304+00:00",
       "error": ""
     },
     {
@@ -705,7 +615,7 @@
       "estado": "ok",
       "entradas_rss": 11,
       "titulares_vigentes": 5,
-      "ultima_consulta": "2026-11-03T13:27:38.288862+00:00",
+      "ultima_consulta": "2026-11-03T14:27:17.063916+00:00",
       "error": ""
     },
     {
@@ -714,8 +624,8 @@
       "zona": "Nacional / internacional",
       "estado": "ok",
       "entradas_rss": 20,
-      "titulares_vigentes": 10,
-      "ultima_consulta": "2026-11-03T13:27:38.407865+00:00",
+      "titulares_vigentes": 11,
+      "ultima_consulta": "2026-11-03T14:27:17.293122+00:00",
       "error": ""
     },
     {
@@ -725,7 +635,7 @@
       "estado": "ok",
       "entradas_rss": 20,
       "titulares_vigentes": 17,
-      "ultima_consulta": "2026-11-03T13:27:38.526531+00:00",
+      "ultima_consulta": "2026-11-03T14:27:17.449477+00:00",
       "error": ""
     },
     {
@@ -735,7 +645,7 @@
       "estado": "ok",
       "entradas_rss": 20,
       "titulares_vigentes": 20,
-      "ultima_consulta": "2026-11-03T13:27:38.603837+00:00",
+      "ultima_consulta": "2026-11-03T14:27:17.588702+00:00",
       "error": ""
     },
     {
@@ -745,7 +655,7 @@
       "estado": "ok",
       "entradas_rss": 20,
       "titulares_vigentes": 20,
-      "ultima_consulta": "2026-11-03T13:27:38.656551+00:00",
+      "ultima_consulta": "2026-11-03T14:27:17.710055+00:00",
       "error": ""
     },
     {
@@ -755,7 +665,7 @@
       "estado": "ok",
       "entradas_rss": 12,
       "titulares_vigentes": 0,
-      "ultima_consulta": "2026-11-03T13:27:38.706566+00:00",
+      "ultima_consulta": "2026-11-03T14:27:17.850151+00:00",
       "error": ""
     },
     {
@@ -765,7 +675,7 @@
       "estado": "ok",
       "entradas_rss": 35,
       "titulares_vigentes": 33,
-      "ultima_consulta": "2026-11-03T13:27:39.449232+00:00",
+      "ultima_consulta": "2026-11-03T14:27:18.762790+00:00",
       "error": ""
     },
     {
@@ -775,7 +685,7 @@
       "estado": "error",
       "entradas_rss": 0,
       "titulares_vigentes": 0,
-      "ultima_consulta": "2026-11-03T13:27:39.627451+00:00",
+      "ultima_consulta": "2026-11-03T14:27:19.072505+00:00",
       "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     {
@@ -785,7 +695,7 @@
       "estado": "ok",
       "entradas_rss": 10,
       "titulares_vigentes": 10,
-      "ultima_consulta": "2026-11-03T13:27:39.812588+00:00",
+      "ultima_consulta": "2026-11-03T14:27:19.217743+00:00",
       "error": ""
     },
     {
@@ -795,7 +705,7 @@
       "estado": "ok",
       "entradas_rss": 10,
       "titulares_vigentes": 7,
-      "ultima_consulta": "2026-11-03T13:27:40.042676+00:00",
+      "ultima_consulta": "2026-11-03T14:27:19.502321+00:00",
       "error": ""
     }
   ]
