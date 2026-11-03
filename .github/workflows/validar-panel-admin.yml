@@ -78,6 +78,7 @@ jobs:
           import json
           import sys
           import tempfile
+          from datetime import datetime, timezone
           from pathlib import Path
 
           sys.path.insert(0, "..")
@@ -132,7 +133,7 @@ jobs:
                   ),
                   "categoria": "Cali",
                   "estado_informacion": "en_desarrollo",
-                  "fecha": "2026-11-03T12:00:00+00:00",
+                  "fecha": datetime.now(timezone.utc).isoformat(),
                   "fuentes": [{
                       "nombre": "Fuente de prueba externa",
                       "titulo": "Reporte original de movilidad",
@@ -146,7 +147,7 @@ jobs:
                       "categoria": "Cali",
                       "fuente": "Medio externo",
                       "url": "https://otro-medio.example/noticia",
-                      "fecha": "2026-11-03T12:00:00+00:00"
+                      "fecha": datetime.now(timezone.utc).isoformat()
                   }]
               }
               build.CACHE.write_text(json.dumps({"noticias": [articulo], "breves": [breve]}), encoding="utf-8")
