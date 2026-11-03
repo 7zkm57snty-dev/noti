@@ -1163,5 +1163,158 @@
   "ultima_solicitud_groq": "2026-11-03T13:33:14.292391+00:00",
   "fecha_solicitudes_groq": "2026-11-03",
   "solicitudes_groq": 11,
-  "ultima_actualizacion": "2026-11-03T13:33:54.222666+00:00"
+  "ultima_actualizacion": "2026-11-03T19:12:26+00:00",
+  "breves": [
+    {
+      "id": "cev-breve-sismo-chaparral-20261103",
+      "autor": "Redacción CEV NOTICIAS",
+      "titulo": "Sismo de 5,6 se sintió en Cali: autoridades activaron monitoreo preventivo",
+      "texto": "Un sismo de magnitud 5,6 se registró a las 4:13 a. m. del 3 de noviembre, con epicentro en Chaparral, Tolima, y profundidad aproximada de 19 kilómetros, según el Servicio Geológico Colombiano. El movimiento se sintió en Cali y otros municipios del Valle. La Alcaldía activó el monitoreo preventivo y, hasta el balance consultado, no reportaba daños nuevos ni personas afectadas. Los organismos de socorro revisaron también edificaciones que ya estaban bajo evaluación por el terremoto de agosto.",
+      "categoria": "Cali",
+      "ambito": "Cali",
+      "estado_informacion": "en_desarrollo",
+      "fecha": "2026-11-03T04:13:00-05:00",
+      "fecha_preparacion": "2026-11-03T19:12:26+00:00",
+      "fuentes": [
+        {
+          "nombre": "Servicio Geológico Colombiano",
+          "titulo": "El SGC registra sismo con epicentro en Chaparral, Tolima, este 3 de noviembre de 2026",
+          "url": "https://www2.sgc.gov.co/Noticias/Paginas/El-SGC-registra-sismo-con-epicentro-en-Chaparral-Tolima-este-3-de-noviembre-de-2026.aspx"
+        },
+        {
+          "nombre": "El País",
+          "titulo": "Temblor de 5,6 sacudió a Cali en la madrugada de este martes, 3 noviembre: este es el balance de las autoridades",
+          "url": "https://www.elpais.com.co/colombia/temblor-de-56-sacudio-a-cali-en-la-madrugada-de-este-martes-3-noviembre-lo-sintio-este-es-el-balance-de-las-autoridades-0336.html"
+        },
+        {
+          "nombre": "Blu Radio",
+          "titulo": "Autoridades revisan edificaciones con riesgo de colapso en Cali tras sismo de esta madrugada",
+          "url": "https://www.bluradio.com/regiones/pacifico/autoridades-revisan-edificaciones-con-riesgo-de-colapso-en-cali-tras-sismo-de-esta-madrugada-rg10"
+        }
+      ]
+    },
+    {
+      "id": "cev-breve-demoliciones-cali-20261102",
+      "autor": "Redacción CEV NOTICIAS",
+      "titulo": "Cali eleva a 85 las edificaciones que requieren demolición tras el terremoto",
+      "texto": "El censo de estructuras que requieren demolición en Cali llegó a 85 después de nuevas evaluaciones técnicas por los daños del terremoto del 10 de agosto. El balance divulgado por la Secretaría de Gestión del Riesgo señalaba que 11 edificaciones ya habían sido derribadas y otras dos estaban en intervención. El Fondo Milagro financiará parte de las obras pendientes, mientras el Distrito coordina los cronogramas. Las lluvias han complicado algunos trabajos en Los Cámbulos; por eso, las intervenciones no avanzan todas al mismo ritmo.",
+      "categoria": "Cali",
+      "ambito": "Cali",
+      "estado_informacion": "en_desarrollo",
+      "fecha": "2026-11-02T17:27:00-05:00",
+      "fecha_preparacion": "2026-11-03T19:12:26+00:00",
+      "fuentes": [
+        {
+          "nombre": "El País",
+          "titulo": "Fondo Milagro del Gobierno financiará algunas demoliciones en Cali: estos son los edificios escogidos",
+          "url": "https://www.elpais.com.co/cali/fondo-milagro-del-gobierno-financiara-algunas-demoliciones-en-cali-estos-son-los-edificios-escogidos-0250.html"
+        },
+        {
+          "nombre": "Blu Radio",
+          "titulo": "Esta semana inician demoliciones financiadas por el Fondo Milagro en Cali",
+          "url": "https://www.bluradio.com/regiones/pacifico/esta-semana-inician-demoliciones-financiadas-por-el-fondo-milagro-en-cali-rg10"
+        },
+        {
+          "nombre": "Caracol Radio",
+          "titulo": "Aumentó a 85 el número de edificaciones que serán demolidas en Cali tras el terremoto",
+          "url": "https://caracol.com.co/2026/11/01/aumento-a-85-el-numero-de-edificaciones-que-seran-demolidas-en-cali-tras-el-terremoto/"
+        }
+      ]
+    },
+    {
+      "id": "cev-breve-zonas-bajo-puentes-cali-20261103",
+      "autor": "Redacción CEV NOTICIAS",
+      "titulo": "Cali prepara un piloto para recuperar los espacios ubicados bajo los puentes",
+      "texto": "El Departamento Administrativo de Planeación prepara un piloto para transformar zonas bajo puentes de Cali en espacios comerciales o de encuentro. La propuesta contempla alianzas con empresas y un periodo inicial de tres meses sin cobro por el aprovechamiento económico. La idea es que los recursos posteriores ayuden al mantenimiento urbano, pero el proyecto todavía requiere una guía técnica con condiciones para los interesados. El Distrito anunció que esa hoja de ruta se elaboraría en los próximos dos meses; por ahora no se trata de una apertura general.",
+      "categoria": "Cali",
+      "ambito": "Cali",
+      "estado_informacion": "informacion_preliminar",
+      "fecha": "2026-11-03T00:38:00-05:00",
+      "fecha_preparacion": "2026-11-03T19:12:26+00:00",
+      "fuentes": [
+        {
+          "nombre": "El País",
+          "titulo": "Zonas debajo de los puentes en Cali pasarán a ser espacios comerciales o de encuentro",
+          "url": "https://www.elpais.com.co/amp/cali/zonas-debajo-de-los-puentes-en-cali-pasaran-a-ser-espacios-comerciales-o-de-encuentro-conozca-como-sera-la-iniciativa-0217.html"
+        },
+        {
+          "nombre": "Pyme Noticias",
+          "titulo": "Cali abrirá los espacios bajo puentes a empresas privadas con un piloto de tres meses sin cobro",
+          "url": "https://www.pymenoticias.com/post/cali-espacios-bajo-puentes-empresas-piloto"
+        },
+        {
+          "nombre": "La Región",
+          "titulo": "Cali busca transformar las zonas bajo puentes con alianzas y recursos",
+          "url": "https://la-region.com/colombia/valle/cali-busca-transformar-las-zonas-bajo-puentes-con-alianzas-y-recursos"
+        }
+      ]
+    },
+    {
+      "id": "cev-breve-malaria-valle-20261102",
+      "autor": "Redacción CEV NOTICIAS",
+      "titulo": "Malaria importada: un paciente falleció en Palmira y otro permanece hospitalizado en Cali",
+      "texto": "Las autoridades sanitarias confirmaron dos casos importados de malaria por Plasmodium falciparum en ciudadanos colombianos que regresaron de la República Democrática del Congo. Uno de los pacientes, de 33 años, falleció el 31 de octubre en Palmira; el segundo, de 50 años, seguía hospitalizado en Cali. La Secretaría de Salud del Valle descartó que los casos correspondieran a ébola y mantuvo la vigilancia epidemiológica. La malaria se transmite por la picadura de mosquitos Anopheles infectados, no por el contacto cotidiano entre personas.",
+      "categoria": "Valle del Cauca",
+      "ambito": "Valle del Cauca",
+      "estado_informacion": "confirmada",
+      "fecha": "2026-11-02T15:03:00-05:00",
+      "fecha_preparacion": "2026-11-03T19:12:26+00:00",
+      "fuentes": [
+        {
+          "nombre": "Agencia EFE",
+          "titulo": "Colombia confirma dos casos de malaria y las autoridades activan protocolos de vigilancia",
+          "url": "https://efe.com/salud/2026-11-02/colombia-confirma-casos-malaria-vigilancia/"
+        },
+        {
+          "nombre": "Caracol Radio",
+          "titulo": "Confirman dos casos de malaria complicada en Palmira; uno de los pacientes falleció",
+          "url": "https://caracol.com.co/2026/11/01/confirman-dos-casos-de-malaria-complicada-en-palmira-uno-de-los-pacientes-fallecio/"
+        },
+        {
+          "nombre": "El País",
+          "titulo": "Valle del Cauca en alerta: confirman dos casos importados de malaria provenientes de África en Palmira",
+          "url": "https://www.elpais.com.co/valle/valle-del-cauca-en-alerta-confirman-dos-casos-importados-de-malaria-provenientes-de-africa-en-palmira-0145.html"
+        },
+        {
+          "nombre": "Ministerio de Salud",
+          "titulo": "Malaria: transmisión y prevención",
+          "url": "https://www.minsalud.gov.co/salud/publica/PET/Paginas/malaria.aspx"
+        }
+      ]
+    },
+    {
+      "id": "cev-breve-ley-sometimiento-camara-20261103",
+      "autor": "Redacción CEV NOTICIAS",
+      "titulo": "Ley de Sometimiento avanza en el Congreso, pero aún no es una norma aprobada",
+      "texto": "El proyecto de Ley de Sometimiento avanzó en la Cámara después de que la ponencia positiva obtuvo 99 votos a favor y 39 en contra, tras repetirse la votación por cuestionamientos de procedimiento. Ese resultado no significa que la ley ya esté aprobada: el Congreso aún debe completar la discusión y votar el articulado. La iniciativa propone condiciones para que integrantes de organizaciones armadas entreguen armas, información y bienes a cambio de beneficios judiciales sujetos a requisitos. El calendario es estrecho porque la vigencia de la Ley 418 termina el 4 de noviembre.",
+      "categoria": "Colombia",
+      "ambito": "Colombia",
+      "estado_informacion": "en_desarrollo",
+      "fecha": "2026-11-03T12:48:00-05:00",
+      "fecha_preparacion": "2026-11-03T19:12:26+00:00",
+      "fuentes": [
+        {
+          "nombre": "El País",
+          "titulo": "Ley de sometimiento avanza a contrarreloj en la Cámara: estos son los cambios que plantea frente a la Paz Total",
+          "url": "https://www.elpais.com.co/politica/ley-de-sometimiento-avanza-a-contrarreloj-en-la-camara-estos-son-los-cambios-que-plantea-frente-a-la-paz-total-de-petro-0337.html"
+        },
+        {
+          "nombre": "El Espectador",
+          "titulo": "Arranca recta final de ley de sometimiento en Congreso: discusión por trámite en Cámara",
+          "url": "https://www.elespectador.com/politica/arranca-recta-final-de-ley-de-sometimiento-en-congreso-discusion-por-tramite-en-camara/"
+        },
+        {
+          "nombre": "Caracol Radio",
+          "titulo": "Se aprobó en Cámara la ponencia positiva de Ley de Sometimiento: sigue la carrera contrarreloj",
+          "url": "https://caracol.com.co/2026/11/03/se-aprobo-en-camara-la-ponencia-positiva-de-ley-de-sometimiento-sigue-la-carrera-contrarreloj/?outputType=amp"
+        },
+        {
+          "nombre": "Infobae",
+          "titulo": "Ley de Sometimiento supera primer filtro en la Plenaria de la Cámara tras repetirse la votación",
+          "url": "https://www.infobae.com/colombia/2026/11/03/ley-de-sometimiento-supera-primer-filtro-en-la-plenaria-de-la-camara-tras-repetirse-la-votacion/?outputType=amp-type"
+        }
+      ]
+    }
+  ],
+  "breves_actualizadas": "2026-11-03T19:12:26+00:00"
 }
