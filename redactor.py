@@ -24,15 +24,15 @@ FEEDS = os.path.join(BASE, "feeds.json")
 
 MODELO = "openai/gpt-oss-20b"
 MAX_NOTICIAS = 20
-MAX_ARTICULOS_POR_EJECUCION = 2
-MAX_SOLICITUDES_POR_EJECUCION = 2
-MAX_GRUPOS_REVISADOS_POR_EJECUCION = 12
+MAX_ARTICULOS_POR_EJECUCION = 3
+MAX_SOLICITUDES_POR_EJECUCION = 3
+MAX_GRUPOS_REVISADOS_POR_EJECUCION = 20
 MINUTOS_ENTRE_SOLICITUDES = 20
 MAX_SOLICITUDES_DIARIAS = 40
 MAX_TITULARES_POR_CATEGORIA = 10
 MAX_EDAD_TITULARES_HORAS = 72
 MAX_ARTICULOS_ANTERIORES = 150
-MAX_EDAD_HORAS = 168
+MAX_EDAD_HORAS = 72
 SITE = Path(BASE) / "site"
 
 CATEGORIAS = [
@@ -90,7 +90,7 @@ def fecha_entrada(entrada):
         except Exception:
             pass
 
-    return datetime.now(timezone.utc)
+    return None
 
 
 def url_imagen_entrada(entrada):
@@ -191,6 +191,10 @@ def obtener_fuentes():
 
             for entrada in datos.entries[:40]:
                 fecha = fecha_entrada(entrada)
+
+                if fecha is None:
+                    print(f"Entrada RSS sin fecha verificable; se omite: {nombre}")
+                    continue
 
                 if fecha < limite:
                     continue
@@ -373,7 +377,7 @@ def leer_contenidos(grupo):
             "nombre": fuente["fuente"],
             "titulo": fuente["titulo"],
             "url": fuente["url"],
-            "texto": texto[:4500]
+            "texto": texto[:6500]
         })
 
     return fuentes_validas
@@ -516,7 +520,7 @@ Devuelve exclusivamente JSON válido con esta estructura:
     if not titulo or not resumen:
         return None
 
-    if len(contenido.split()) < 250:
+    if len(contenido.split()) < 300:
         print("Artículo demasiado corto.")
         return None
 
@@ -1104,6 +1108,7 @@ def ejecutar():
 
                 nuevas.append({
                     "id": identificador,
+                    "autor": "CEV NOTICIAS",
                     "titulo": articulo["titulo"],
                     "titular_instagram": articulo.get("titular_instagram") or articulo["titulo"],
                     "resumen": articulo["resumen"],

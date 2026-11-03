@@ -93,7 +93,7 @@ function validateArticle(v) {
   const category=String(v.categoria||"").trim(), info=String(v.estado_informacion||"confirmada");
   if(title.length<12) throw new AdminError(400,"El titular debe tener al menos 12 caracteres.");
   if(summary.length<40) throw new AdminError(400,"El resumen debe tener al menos 40 caracteres.");
-  if(content.split(/\s+/).filter(Boolean).length<250) throw new AdminError(400,"El artículo debe tener al menos 250 palabras.");
+  if(content.split(/\s+/).filter(Boolean).length<300) throw new AdminError(400,"El artículo debe tener al menos 300 palabras.");
   if(!CATEGORIES.includes(category)) throw new AdminError(400,"Selecciona una categoría válida.");
   if(!["confirmada","en_desarrollo"].includes(info)) throw new AdminError(400,"Selecciona un estado de información válido.");
   const sources=[],domains=new Set();
@@ -146,7 +146,7 @@ function runDiagnostics(cache) {
       catch (_) { add("critical","invalid_source","URL de fuente no válida.",id,"Corrige la URL de la fuente y comprueba que corresponda al documento o noticia citada."); }
     }
     if (String(n.resumen || "").trim().length < 40) add("warning","short_summary","Resumen inferior a 40 caracteres.",id,"Amplía el resumen para que explique el hecho principal con al menos 40 caracteres.");
-    if (String(n.contenido || "").trim().split(/\s+/).filter(Boolean).length < 250) add("warning","short_content","Contenido inferior a 250 palabras.",id,"Completa el contenido con contexto, datos, antecedentes y atribución. El editor exige al menos 250 palabras.");
+    if (String(n.contenido || "").trim().split(/\s+/).filter(Boolean).length < 300) add("warning","short_content","Contenido inferior a 300 palabras.",id,"Completa el contenido con contexto, datos, antecedentes y atribución. El editor exige al menos 300 palabras.");
   }
   return {scannedAt:new Date().toISOString(),articles:articles.length,rssCount:Array.isArray(cache.titulares_rss)?cache.titulares_rss.length:0,findings,counts:{critical:findings.filter(x=>x.severity==="critical").length,warning:findings.filter(x=>x.severity==="warning").length}};
 }

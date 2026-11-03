@@ -775,7 +775,7 @@ def crear_articulo(noticia, noticias=None):
        <p class="etiqueta">{categoria}</p>
        <h1>{titulo}</h1>
        <p class="bajada">{resumen}</p>
-       <p class="fecha">Publicado: {escapar(noticia.get("fecha", fecha_actual()))} · Por <a href="../redaccion.html">Redacción CEV NOTICIAS</a></p>
+       <p class="fecha">Publicado: {escapar(noticia.get("fecha", fecha_actual()))} · Por <a href="../redaccion.html">CEV NOTICIAS</a></p>
        <p class="fecha">Fuentes consultadas: {len(noticia.get("fuentes", []))}</p>
       </div>
       {foto}

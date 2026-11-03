@@ -99,8 +99,8 @@ jobs:
                   errores.append("titular ausente o demasiado corto")
               if not resumen or len(resumen) < 40:
                   errores.append("resumen insuficiente")
-              if palabras < 250:
-                  errores.append("artículo de menos de 250 palabras")
+              if palabras < 300:
+                  errores.append("artículo de menos de 300 palabras")
               if noticia.get("categoria") not in {
                   "Cali", "Valle del Cauca", "Colombia", "Internacional",
                   "Deportes", "Tecnología", "Economía", "Tendencias", "Humor y opinión"
