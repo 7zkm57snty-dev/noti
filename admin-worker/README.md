@@ -72,4 +72,4 @@ Se registra este cambio documental para activar la primera compilación automát
 
 ## Verificación de publicación pública
 
-`verificar_publicacion.py` compara las páginas servidas por el dominio configurado en GitHub Pages con los artículos de `cache.json`. Se ejecuta después de `deploy-pages`, usa peticiones HTTP sin caché y reintenta durante varios minutos para dar margen a la propagación. Si el dominio sigue sirviendo texto anterior, falta una fotografía o una noticia retirada continúa visible, el workflow falla y el panel no anuncia que la web ya está actualizada.
+`verificar_publicacion.py` compara las páginas servidas por el dominio configurado en GitHub Pages con los artículos de `cache.json`. Se ejecuta después de `deploy-pages`, usa peticiones HTTP sin caché y reintenta hasta nueve minutos para dar margen a la propagación. Si el dominio sigue sirviendo texto anterior, falta una fotografía o una noticia retirada continúa visible, el workflow falla y el panel no anuncia que la web ya está actualizada.
