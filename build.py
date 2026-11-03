@@ -22,6 +22,7 @@ MAX_EDAD_BREVES_HORAS = 48
 HORAS_ETIQUETA_ULTIMA_HORA = 8
 
 SECCIONES = ["Cali", "Valle del Cauca", "Colombia", "Internacional", "Deportes", "Tecnología", "Economía", "Tendencias", "Humor y opinión"]
+ALCANCES_BREVES_PUBLICOS = {"Cali", "Valle del Cauca", "Colombia"}
 COLOMBIA_TZ = timezone(timedelta(hours=-5))
 IMAGENES_PROCESADAS = {}
 
@@ -360,6 +361,7 @@ def seleccionar_breves_publicos(breves, noticias):
         titulo = str(breve.get("titulo") or "").strip()
         texto = str(breve.get("texto") or "").strip()
         categoria = breve.get("categoria")
+        ambito = breve.get("ambito")
         fecha = fecha_ordenable(breve)
         fuentes = breve.get("fuentes", [])
         fuentes_validas = [
@@ -371,7 +373,13 @@ def seleccionar_breves_publicos(breves, noticias):
             and urlsplit(str(f.get("url", "")).strip()).hostname
         ] if isinstance(fuentes, list) else []
         palabras = len(texto.split())
-        if not titulo or categoria not in SECCIONES or not 45 <= palabras <= 100:
+        if (
+            not titulo
+            or categoria not in SECCIONES
+            or categoria == "Internacional"
+            or ambito not in ALCANCES_BREVES_PUBLICOS
+            or not 45 <= palabras <= 100
+        ):
             continue
         if not fecha or fecha < limite or fecha > ahora + 2 * 3600 or not fuentes_validas:
             continue
@@ -392,6 +400,7 @@ def tarjeta_breve(breve):
     titulo = escapar(breve.get("titulo"))
     texto = escapar(breve.get("texto"))
     categoria = escapar(breve.get("categoria"))
+    ambito = escapar(breve.get("ambito"))
     fecha = fecha_ordenable(breve)
     ahora = datetime.now(timezone.utc).timestamp()
     es_ultima_hora = bool(fecha and 0 <= ahora - fecha <= HORAS_ETIQUETA_ULTIMA_HORA * 3600)
@@ -407,7 +416,7 @@ def tarjeta_breve(breve):
     <article class="breve-actualidad">
       <div class="breve-etiquetas">
         <span class="breve-estado">{etiqueta}</span>
-        <span class="breve-categoria">{categoria}</span>
+        <span class="breve-categoria">{ambito} · {categoria}</span>
       </div>
       <h3>{titulo}</h3>
       <p class="breve-texto">{texto}</p>
@@ -1108,9 +1117,9 @@ def crear_paginas_institucionales():
               <a class="volver" href="/">← Volver a la portada</a>
               <p class="etiqueta">CEV NOTICIAS · EL MEDIO</p><h1>Quiénes somos</h1>
               <div class="cuerpo">
-                <p><strong>CEV NOTICIAS</strong> es un proyecto digital independiente de carácter personal, no constituido como empresa ni sociedad. Es un medio de actualidad con especial atención a Cali y el Valle del Cauca, Colombia y los acontecimientos internacionales de interés para el público hispanohablante.</p>
+                <p><strong>CEV NOTICIAS</strong> es un proyecto digital independiente de carácter personal, no constituido como empresa ni sociedad. Es un medio de actualidad con enfoque prioritario en Cali, el Valle del Cauca y Colombia. La cobertura internacional se limita a acontecimientos con repercusión directa y comprobable para el país.</p>
                 <p>Nuestro propósito es facilitar el acceso a información reciente mediante noticias organizadas por temas, contexto y referencias a las fuentes consultadas.</p>
-                <h2>Qué publicamos</h2><p>Cubrimos actualidad local, regional, nacional e internacional, además de deportes, tecnología, economía y tendencias. La selección de temas responde a su relevancia pública y a la disponibilidad de información verificable.</p>
+                <h2>Qué publicamos</h2><p>Cubrimos actualidad local, regional y nacional, además de deportes, tecnología, economía y tendencias. Nuestra prioridad es Cali y el Valle del Cauca, sin perder de vista los hechos de Colombia. No desarrollamos una cobertura internacional general; solo abordamos acontecimientos extranjeros cuando tienen consecuencias directas y verificables para el país.</p>
                 <h2>Cómo trabajamos</h2><p>Utilizamos fuentes identificables, documentos y herramientas digitales para investigar la actualidad, contrastar versiones y preparar contenidos originales. La automatización ayuda a organizar el trabajo, pero no sustituye la verificación ni la decisión editorial. Los artículos generados pasan por revisión humana antes de publicarse. Identificamos las fuentes consultadas y ofrecemos un canal para reportar errores o solicitar aclaraciones.</p>
                 <p>Los titulares de medios externos se conservan como material interno de investigación. La portada pública está dedicada a artículos completos de CEV NOTICIAS, con crédito a las fuentes utilizadas en cada cobertura.</p>
               </div></main>"""
@@ -1438,7 +1447,7 @@ def construir():
         <div>
           <p class="etiqueta">CEV NOTICIAS · ACTUALIDAD RÁPIDA</p>
           <h2>Última hora · Lo más destacado</h2>
-          <p>Breves informativos de Cali, el Valle del Cauca, Colombia y el mundo. Redacción propia, con crédito visible a los medios y documentos consultados.</p>
+          <p>Información breve de Cali, el Valle del Cauca y Colombia. Priorizamos lo que ocurre cerca de nuestros lectores y los hechos nacionales; no incluimos actualidad internacional general.</p>
         </div>
         <span class="contador-noticias">{len(breves_publicos)} breves</span>
       </div>
@@ -1489,7 +1498,7 @@ def construir():
         '</section></main>'
     )
     portada_head = '<link rel="canonical" href="https://cevnoticias.com/"><meta property="og:type" content="website"><meta property="og:title" content="CEV NOTICIAS | Actualidad y periodismo">'
-    (SITE / "index.html").write_text(plantilla("Portada", contenido, "Noticias de Cali, Valle del Cauca, Colombia y el mundo.", extra_head=portada_head, seccion_actual="Portada"), encoding="utf-8")
+    (SITE / "index.html").write_text(plantilla("Portada", contenido, "Noticias de Cali, Valle del Cauca y Colombia.", extra_head=portada_head, seccion_actual="Portada"), encoding="utf-8")
     recurso_cookies = BASE / "cookies.js"
     if not recurso_cookies.is_file():
         raise RuntimeError("No se encontró cookies.js; no se puede publicar el gestor de consentimiento.")
