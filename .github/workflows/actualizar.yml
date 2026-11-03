@@ -59,30 +59,112 @@ jobs:
           echo "Preparando noticias; todavía no se publican."
           python -u redactor.py
 
-      - name: Evitar propuestas sin noticias nuevas
+      - name: Filtrar borradores y evitar propuestas vacías
         id: novedades
         shell: bash
         run: |
           python - <<'PY'
           import json
           import os
+          import re
           from pathlib import Path
+          from urllib.parse import urlsplit
 
+          ruta_cache = Path("cache.json")
           antes = json.loads(Path("/tmp/cev-cache-antes.json").read_text(encoding="utf-8"))
-          despues = json.loads(Path("cache.json").read_text(encoding="utf-8"))
+          despues = json.loads(ruta_cache.read_text(encoding="utf-8"))
           ids_antes = {str(n.get("id")) for n in antes.get("noticias", []) if n.get("id")}
           nuevas = [n for n in despues.get("noticias", []) if n.get("id") and str(n["id"]) not in ids_antes]
+          validas = []
+          invalidas = []
 
-          if not nuevas:
-              Path("cache.json").write_text(
+          patron_sensible = re.compile(
+              r"\\b(accidente|muert[eo]|falleci|homicid|asesinat|robo|hurto|captura|detenid|denuncia|acusaci[oó]n|víctim|victim|agresi[oó]n|desaparici[oó]n|abuso|corrupci[oó]n)\\w*",
+              re.IGNORECASE
+          )
+
+          for noticia in nuevas:
+              titulo = str(noticia.get("titulo", "")).strip()
+              resumen = str(noticia.get("resumen", "")).strip()
+              cuerpo = str(noticia.get("contenido", "")).strip()
+              palabras = len(cuerpo.split())
+              errores = []
+
+              if not titulo or len(titulo) < 12:
+                  errores.append("titular ausente o demasiado corto")
+              if not resumen or len(resumen) < 40:
+                  errores.append("resumen insuficiente")
+              if palabras < 250:
+                  errores.append("artículo de menos de 250 palabras")
+              if noticia.get("categoria") not in {
+                  "Cali", "Valle del Cauca", "Colombia", "Internacional",
+                  "Deportes", "Tecnología", "Economía", "Tendencias", "Humor y opinión"
+              }:
+                  errores.append("categoría no reconocida")
+
+              fuentes = []
+              dominios = set()
+              for fuente in noticia.get("fuentes", []):
+                  if not isinstance(fuente, dict):
+                      continue
+                  url = str(fuente.get("url", "")).strip()
+                  partes = urlsplit(url)
+                  nombre = str(fuente.get("nombre", "")).strip()
+                  titulo_fuente = str(fuente.get("titulo", "")).strip()
+                  if partes.scheme == "https" and partes.hostname and nombre and titulo_fuente:
+                      fuentes.append(fuente)
+                      dominios.add(partes.hostname.lower().removeprefix("www."))
+
+              if not fuentes:
+                  errores.append("no hay fuentes directas con HTTPS")
+              texto = " ".join((titulo, resumen, cuerpo))
+              if patron_sensible.search(texto) and len(dominios) < 2:
+                  errores.append("tema sensible sin dos fuentes independientes")
+
+              imagen = str(noticia.get("imagen", "")).strip()
+              if imagen:
+                  credito = noticia.get("imagen_credito") or {}
+                  campos = ("autor", "fuente", "pagina", "licencia", "licencia_url")
+                  partes_imagen = urlsplit(imagen)
+                  completo = partes_imagen.scheme == "https" and partes_imagen.hostname and all(
+                      str(credito.get(campo, "")).strip() for campo in campos
+                  )
+                  if not completo:
+                      noticia["imagen"] = ""
+                      noticia["imagen_credito"] = {}
+                      print(f"FOTO RETIRADA por falta de atribución/licencia completa: {titulo}")
+
+              if errores:
+                  invalidas.append((titulo or "Sin título", errores))
+              else:
+                  noticia["fuentes"] = fuentes
+                  validas.append(noticia)
+
+          if invalidas:
+              for titulo, errores in invalidas:
+                  print("BORRADOR DESCARTADO:", titulo, "|", "; ".join(errores))
+
+          ids_validas = {str(n.get("id")) for n in validas}
+          ids_permitidos = ids_antes | ids_validas
+          despues["noticias"] = [
+              n for n in despues.get("noticias", [])
+              if n.get("id") and str(n["id"]) in ids_permitidos
+          ]
+
+          if not validas:
+              ruta_cache.write_text(
                   json.dumps(antes, ensure_ascii=False, indent=2) + "\n",
                   encoding="utf-8"
               )
-              print("No hay artículos nuevos. No se actualizará la propuesta editorial.")
+              print("No quedaron borradores aptos. No se crea ni actualiza la propuesta editorial.")
               Path(os.environ["GITHUB_OUTPUT"]).write_text("hay_novedades=false\n", encoding="utf-8")
           else:
-              print(f"Artículos nuevos para revisión humana: {len(nuevas)}")
-              for noticia in nuevas:
+              ruta_cache.write_text(
+                  json.dumps(despues, ensure_ascii=False, indent=2) + "\n",
+                  encoding="utf-8"
+              )
+              print(f"Borradores aptos para revisión humana: {len(validas)}")
+              for noticia in validas:
                   print(f"- {noticia.get('categoria')}: {noticia.get('titulo')}")
               Path(os.environ["GITHUB_OUTPUT"]).write_text("hay_novedades=true\n", encoding="utf-8")
           PY
