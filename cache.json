@@ -1,6 +1,71 @@
 {
   "noticias": [
     {
+      "id": "5be8a0b750244278",
+      "autor": "CEV NOTICIAS",
+      "titulo": "OpenAI lanza Grid Protectors: un programa que promete reducir la demanda eléctrica de sus centros de datos en momentos críticos",
+      "titular_instagram": "OpenAI y la red eléctrica: ¿pueden los data centers salvarnos de apagones?",
+      "resumen": "OpenAI ha anunciado el programa Grid Protectors, que busca que sus instalaciones de cómputo reduzcan su consumo eléctrico cuando la red esté bajo presión, liberando energía para hogares y negocios. El piloto, ubicado en el condado de Effingham, Georgia, contempla hasta 1.000 megavatios de demanda flexible y la cobertura de los costos de infraestructura por parte de la compañía.",
+      "categoria": "Internacional",
+      "contenido": "OpenAI ha presentado Grid Protectors, una iniciativa que pretende usar la flexibilidad de sus centros de datos para aliviar la presión sobre la red eléctrica durante picos de demanda. El programa, anunciado por la propia compañía, se basa en acuerdos con servicios públicos, reguladores y responsables de política para que los campus informáticos reduzcan o modifiquen su consumo en momentos críticos.\n\nEl proyecto piloto se ubica en el condado de Effingham, Georgia, donde OpenAI se ha comprometido a financiar las infraestructuras necesarias y a ofrecer hasta 1.000 megavatios de demanda flexible. Según la compañía, esa capacidad podría mantener el aire acondicionado en cientos de miles de hogares durante olas de calor o fríos extremos, evitando cortes generalizados.\n\nCuando la red eléctrica se encuentre bajo tensión, los centros de datos podrán reducir su consumo, liberando energía para viviendas y pequeñas empresas. Este mecanismo permitiría a las compañías eléctricas evitar la necesidad de nuevas infraestructuras para cubrir los picos de demanda, lo que, según OpenAI, se traduciría en ahorros que podrían trasladarse a los usuarios residenciales en forma de menores costos o menores inversiones adicionales.\n\nOpenAI ha declarado que pagará los costos de infraestructura eléctrica de su campus en Effingham, de modo que la carga financiera no recaiga sobre los usuarios locales. No obstante, el programa no sustituye las inversiones en nueva generación y transmisión, que siguen siendo necesarias para el crecimiento de la capacidad eléctrica.\n\nLos detalles de cada acuerdo local aún están por definirse: cuánto se puede reducir la demanda, con qué rapidez y por cuánto tiempo; además, dependerá de las condiciones y equipos disponibles en cada ubicación. También se debe confirmar cómo se coordinarán las respuestas con los operadores de red y qué garantías financieras protegerán a los clientes en caso de retrasos, cambios o cancelaciones.\n\nEl piloto en Georgia servirá como modelo para futuras instalaciones, pero su efectividad y alcance real dependerán de las negociaciones y de la implementación técnica en cada región. Grid Protectors plantea una nueva forma de integrar grandes cargas informáticas con la gestión de la red, ofreciendo protección al suministro en picos y reduciendo el riesgo de cortes, al tiempo que abre un modelo de contrato innovador para los servicios públicos.\n\nEn un contexto de creciente demanda energética y de eventos climáticos extremos, la propuesta de OpenAI representa una alternativa interesante para mejorar la resiliencia del sistema eléctrico sin comprometer la continuidad de los servicios de cómputo de la compañía.",
+      "estado_informacion": "confirmada",
+      "imagen": "",
+      "imagen_credito": {},
+      "imagen_busqueda_intentada": true,
+      "imagen_instagram": "https://cevnoticias.com/social/5be8a0b750244278.jpg",
+      "imagen_instagram_tipo": "portada_grafica_cev",
+      "descripcion_instagram": "OpenAI lanza Grid Protectors: un programa que promete reducir la demanda eléctrica de sus centros de datos en momentos críticos\\n\\nOpenAI ha anunciado el programa Grid Protectors, que busca que sus instalaciones de cómputo reduzcan su consumo eléctrico cuando la red esté bajo presión, liberando energía para hogares y negocios. El piloto, ubicado en el condado de Effingham, Georgia, contempla hasta 1.000 megavatios de demanda flexible y la cobertura de los costos de infraestructura por parte de la compañía.\\n\\nLee la noticia completa en cevnoticias.com.\\n\\n#CEVNoticias #Actualidad #Internacional",
+      "verificacion": "Tres fuentes independientes, incluida la fuente primaria",
+      "fecha": "03/11/2026 · 07:15 AM",
+      "fuentes": [
+        {
+          "nombre": "Diario Occidente",
+          "titulo": "Grid Protectors: programa para la red eléctrica",
+          "url": "https://occidente.co/secciones/tecnologia/grid-protectors-programa-red-electrica/"
+        },
+        {
+          "nombre": "The Verge",
+          "titulo": "OpenAI pitches data center power plants as a way to protect nearby areas",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1024604/openai-data-center-grid-protection-program"
+        },
+        {
+          "nombre": "OpenAI (fuente primaria)",
+          "titulo": "Introducing the Grid Protectors Program",
+          "url": "https://openai.com/index/grid-protectors-program/"
+        }
+      ]
+    },
+    {
+      "id": "9014cb52f61b2a81",
+      "autor": "CEV NOTICIAS",
+      "titulo": "Herramientas para admins de Forum",
+      "titular_instagram": "Meta impulsa la moderación con IA en Facebook Groups",
+      "resumen": "Meta ha anunciado nuevas funciones de inteligencia artificial en su plataforma Forum, destinada a los administradores de grupos de Facebook. Entre las novedades, Admin AI etiqueta publicaciones según las reglas del grupo y sugiere borradores, mientras que Admin Assist permite crear reglas automáticas más flexibles y ofrece una vista de insights y un calendario compartido para equipos de moderación.",
+      "categoria": "Tecnología",
+      "contenido": "Meta presentó en su conferencia del 23 de octubre de 2026 una serie de mejoras para la aplicación Forum, la herramienta oficial de gestión de grupos de Facebook. La actualización incluye una versión integrada de Admin AI y la expansión de Admin Assist, con el objetivo de reducir el trabajo manual que realizan los administradores y facilitar la coordinación entre equipos de moderación.\n\nAdmin AI es la función que más destaca. La inteligencia artificial etiqueta las publicaciones pendientes indicando si cumplen o no con las reglas del grupo, lo que permite a los administradores decidir rápidamente qué mensajes aprobar. Además, la herramienta puede generar borradores de publicaciones y programar hasta cinco posts de una sola vez, lo que ayuda a mantener la conversación activa sin que el administrador tenga que redactar cada mensaje desde cero.\n\nPor su parte, Admin Assist permite crear reglas automáticas más flexibles combinando condiciones como la longitud del post, el uso de enlaces o acciones de moderación previas. La actualización también incorpora una vista de insights adaptada al estado del grupo y un calendario compartido para equipos de moderación, evitando duplicidades y permitiendo ver lo que otros moderadores ya han programado.\n\nAunque la actualización se lanzó en Estados Unidos, Meta no especificó fechas de lanzamiento en otros países ni idiomas. Tampoco se detallaron los límites técnicos de las etiquetas de Admin AI ni el grado de control que tendrán los administradores sobre las decisiones automatizadas más allá de las reglas combinadas de Admin Assist. La compañía recordó que todas las publicaciones siguen sujetas a los Community Standards, pero no explicó cómo se armonizarán esas normas con las reglas internas de cada grupo cuando haya conflictos.\n\nLas mejoras buscan reducir tareas repetitivas y ofrecer herramientas de colaboración, pero la adopción y el ajuste fino dependerán de pruebas y retroalimentación de los administradores. Según la nota, los usuarios pueden esperar menos tiempo en moderación y respuestas más rápidas, mientras que las organizaciones podrán mantener comunidades activas con menos recursos humanos.\n\nEste lanzamiento se enmarca en la tendencia creciente de ofrecer funciones de automatización para gestores de comunidades y de facilitar la colaboración en equipos de moderación. La incorporación de la IA en la gestión de grupos de Facebook refleja el impulso de Meta por integrar tecnologías emergentes en sus plataformas sociales, con el objetivo de mejorar la experiencia de los usuarios y la eficiencia de los administradores.",
+      "estado_informacion": "confirmada",
+      "imagen": "",
+      "imagen_credito": {},
+      "imagen_busqueda_intentada": true,
+      "imagen_instagram": "https://cevnoticias.com/social/9014cb52f61b2a81.jpg",
+      "imagen_instagram_tipo": "portada_grafica_cev",
+      "descripcion_instagram": "Herramientas para admins de Forum\\n\\nMeta ha anunciado nuevas funciones de inteligencia artificial en su plataforma Forum, destinada a los administradores de grupos de Facebook. Entre las novedades, Admin AI etiqueta publicaciones según las reglas del grupo y sugiere borradores, mientras que Admin Assist permite crear reglas automáticas más flexibles y ofrece una vista de insights y un calendario compartido para equipos de moderación.\\n\\nLee la noticia completa en cevnoticias.com.\\n\\n#CEVNoticias #Actualidad #Tecnología #Colombia",
+      "verificacion": "Dos fuentes, incluida la fuente primaria",
+      "fecha": "03/11/2026 · 07:16 AM",
+      "fuentes": [
+        {
+          "nombre": "Diario Occidente",
+          "titulo": "Herramientas para admins de Forum",
+          "url": "https://occidente.co/secciones/tecnologia/herramientas-admins-forum/"
+        },
+        {
+          "nombre": "Meta Newsroom (fuente primaria)",
+          "titulo": "New Tools for the Admins Who Build Communities on Forum",
+          "url": "https://about.fb.com/news/2026/10/new-tools-for-the-admins-who-build-communities-on-forum/"
+        }
+      ]
+    },
+    {
       "id": "b0d8e5fe805675ea",
       "titulo": "Un hijo de 13 años, un padre sin casa y un grano que conquistó a Bogotá: la travesía de la familia detrás de Café Don Argelino",
       "titular_instagram": "Café Don Argelino: de la montaña a la capital con un niño de 13 años",
@@ -190,22 +255,373 @@
   ],
   "titulares_rss": [
     {
-      "id": "3253455dc1ad6c66",
-      "titulo": "¿Quién lidera la IA regional?",
+      "id": "a8a4d1009f417c77",
+      "titulo": "Djokovic busca recuperar su mejor nivel en el Masters de París y asegurar su lugar en ATP",
       "categoria": "Colombia",
       "fuente": "La República",
-      "url": "https://www.larepublica.co/caja-fuerte/quien-lidera-la-ia-regional-4516376",
-      "fecha": "2026-11-03T05:07:18+00:00",
+      "url": "https://www.larepublica.co/ocio/djokovic-busca-recuperar-su-mejor-nivel-en-el-masters-de-paris-4516495",
+      "fecha": "2026-11-03T12:12:12+00:00",
       "imagen": ""
     },
     {
-      "id": "93be4a0252b8425c",
-      "titulo": "Estados Unidos define 470 escaños del Congreso en las elecciones del 'midterm'",
+      "id": "7488b3483db15e8c",
+      "titulo": "Temblor de 5,6 en Colombia: una mujer herida en Chaparral y parte de una iglesia se cae en Quimbaya",
+      "categoria": "Colombia",
+      "fuente": "La FM Actualidad",
+      "url": "https://www.lafm.com.co/actualidad/temblor-colombia-3-noviembre-2026-chaparral-tolima-herida-danos-iglesia-415944",
+      "fecha": "2026-11-03T12:09:54+00:00",
+      "imagen": "https://files.lafm.com.co/media/news-images/2026/11/03/115043/sismo-en-chaparral-1200x675.jpg"
+    },
+    {
+      "id": "1d08ecd994344d96",
+      "titulo": "Jesús de Miguel Alameda",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/obituarios/jesus-de-miguel-alameda-n-1996-2026-4516477",
+      "fecha": "2026-11-03T12:08:27+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "8188582bc1087099",
+      "titulo": "Rusia anuncia que negociará con Ucrania, bajo mediación de Estados Unidos, la próxima semana en Abu Dabi",
+      "categoria": "Internacional",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/internacional/2026-11-03/rusia-anuncia-que-negociara-con-ucrania-bajo-mediacion-de-estados-unidos-la-proxima-semana-en-abu-dabi.html",
+      "fecha": "2026-11-03T12:08:04+00:00",
+      "imagen": "https://imagenes.elpais.com/resizer/v2/D7QVQNKCNJNYRHOMKWWBT5XP3I.jpg?auth=056c891b6bd9741aa9b1f29e43e31091eb42fab0f62875b0af501af2433b0746"
+    },
+    {
+      "id": "ba4109e6ffe6aca4",
+      "titulo": "Crudo sube tras declaraciones de Irán de que acuerdo de paz con EE.UU. sigue lejano",
       "categoria": "Internacional",
       "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/estados-unidos-define-470-escanos-del-congreso-en-las-elecciones-midterm-4515550",
-      "fecha": "2026-11-03T05:04:09+00:00",
+      "url": "https://www.larepublica.co/globoeconomia/crudo-sube-tras-declaraciones-de-iran-de-que-acuerdo-de-paz-con-ee-uu-sigue-lejano-4516455",
+      "fecha": "2026-11-03T12:06:48+00:00",
       "imagen": ""
+    },
+    {
+      "id": "d51a9f69774e1736",
+      "titulo": "Elon Musk tiene un plan para acabar con los vecinos quejándose de centros de datos cerca: comprar sus casas",
+      "categoria": "Tecnología",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/robotica-e-ia/elon-musk-tiene-plan-para-acabar-vecinos-quejandose-centros-datos-cerca-comprar-sus-casas",
+      "fecha": "2026-11-03T12:05:22+00:00",
+      "imagen": "https://i.blogs.es/872f2b/retrato-pop-art-de-un-conferenciante-gesticulando/1024_2000.png"
+    },
+    {
+      "id": "66ecd177f319aa78",
+      "titulo": "Negocio del miedo a un clic de distancia: así operaban 'Joel Piraña' y 'Rulay', la cúpula criminal que sembraba el terror en el Atlántico desde Cali",
+      "categoria": "Cali",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/cali/negocio-del-miedo-a-un-clic-de-distancia-asi-operaban-joel-pirana-y-rulay-la-cupula-criminal-que-sembraba-el-terror-en-el-atlantico-desde-cali-3598016",
+      "fecha": "2026-11-03T12:03:01+00:00",
+      "imagen": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/11/03/6ae97888826d1.jpeg"
+    },
+    {
+      "id": "e2c0860c6438ab80",
+      "titulo": "Los supermercados están empeñados en empezar la Navidad casi en verano. La única incógnita es por qué no lo han hecho antes",
+      "categoria": "Economía",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/magnet/supermercados-estan-empenados-empezar-navidad-casi-verano-unica-incognita-que-no-han-hecho-antes",
+      "fecha": "2026-11-03T12:01:28+00:00",
+      "imagen": "https://i.blogs.es/537d1e/15720959162_995d1d339d_k-1-/1024_2000.jpeg"
+    },
+    {
+      "id": "c185d0f640ad9bec",
+      "titulo": "El Corte Inglés liquida esta enorme smart TV MiniLED TCL de 75 pulgadas con sonido Onkyo y 144 Hz",
+      "categoria": "Tecnología",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/seleccion/corte-ingles-liquida-esta-enorme-smart-tv-miniled-tcl-75-pulgadas-sonido-onkyo-144-hz",
+      "fecha": "2026-11-03T12:01:28+00:00",
+      "imagen": "https://i.blogs.es/6f40b4/el-corte-ingles-4-/1024_2000.jpeg"
+    },
+    {
+      "id": "a540fb545d39c592",
+      "titulo": "Foro World in Progress 2026 de Barcelona, en directo | Shlomo Ben-Ami: “En Israel hace falta un líder visionario que tenga la brutalidad necesaria para tomar decisiones”",
+      "categoria": "Internacional",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/internacional/2026-11-03/foro-world-in-progress-de-barcelona-en-directo.html",
+      "fecha": "2026-11-03T12:00:35+00:00",
+      "imagen": "https://www.youtube.com/watch?v=JRT_OoQXbpE"
+    },
+    {
+      "id": "c2924506565fc34f",
+      "titulo": "Un herido y daños materiales en iglesia de Quindío: primer balance tras temblor de 5,6",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/temblor-sismo-cercano-terremoto-chaparral-tolima-IO43090549",
+      "fecha": "2026-11-03T12:00:11+00:00",
+      "imagen": "https://estaticos.elcolombiano.com/binrepository/450x300/0c0/0d0/center/11101/RSHL/chaparral-tolima-1_52037932_20261103062141.jpg"
+    },
+    {
+      "id": "a954ec83c9975721",
+      "titulo": "Dar por muerto el derecho internacional solo le sirve al próximo agresor",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/red-de-expertos/dar-por-muerto-el-derecho-internacional-solo-le-sirve-al-proximo-agresor/",
+      "fecha": "2026-11-03T12:00:00+00:00",
+      "imagen": "https://i0.wp.com/www.lasillavacia.com/wp-content/uploads/2026/11/foto_columna_2_1200x900-1.jpg?fit=1024%2C768&quality=80&strip=all&ssl=1"
+    },
+    {
+      "id": "3f63870fe2b05f6c",
+      "titulo": "Socio, amigo, estratega: el poder de Carlos Suárez",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/podcasts/huevos-revueltos-con-politica/socio-amigo-estratega-el-poder-de-carlos-suarez/",
+      "fecha": "2026-11-03T12:00:00+00:00",
+      "imagen": "https://i0.wp.com/www.lasillavacia.com/wp-content/uploads/2026/10/Perfil_a_carlos_suarez_huevos_1120.jpg?fit=1024%2C769&quality=80&strip=all&ssl=1"
+    },
+    {
+      "id": "ed6b0e01d59017c8",
+      "titulo": "La madre en Chile a la que obligaron a esperar que su bebé muriera en su vientre y ahora un fallo histórico le otorga una indemnización millonaria",
+      "categoria": "Deportes",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/cm3el01qqeqxo?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-03T11:58:03+00:00",
+      "imagen": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/024b/live/41301ca0-cec4-11f1-b9e0-e5f0da03dc7f.jpg"
+    },
+    {
+      "id": "6025854cf7da677c",
+      "titulo": "Procuraduría formuló pliego de cargos contra el exalcalde de Medellín, Daniel Quintero, por participación política durante su periodo como Supersalud",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/medellin/procuraduria-formulo-pliego-de-cargos-contra-el-exalcalde-de-medellin-daniel-quintero-por-participacion-politica-durante-su-periodo-como-supersalud-3598041",
+      "fecha": "2026-11-03T11:55:32+00:00",
+      "imagen": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/11/03/6ae9cad65090f.png"
+    },
+    {
+      "id": "bb4702f3f4926882",
+      "titulo": "Temblor de 5,6 sacude a Colombia en la madrugada del martes 3 de noviembre| Conozca detalles y videos: se sintió en Chaparral, Bogotá y Pereira",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/terremoto-de-5-6-sacude-a-colombia-en-la-madrugada-del-3-de-noviembre-conozca-los-detalles-3598022",
+      "fecha": "2026-11-03T11:54:40+00:00",
+      "imagen": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2026/11/03/6ae9a733e7890.r_d.445-192-0.png"
+    },
+    {
+      "id": "a292774284989a94",
+      "titulo": "El Festival de Cortos de Bogotá reunirá más de 170 cortometrajes de 50 países en su edición 24",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/ocio/bogoshorts-reunira-mas-de-170-cortometrajes-de-50-paises-en-su-edicion-24-4516466",
+      "fecha": "2026-11-03T11:52:03+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "43cfe26c040bc497",
+      "titulo": "Video | Así se vivió el temblor de 5,6 que sacudió a Colombia; van más de cinco réplicas",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/video-temblor-5-6-sacudio-colombia-cinco-replicas-evacuacion-sismo-OO43090583",
+      "fecha": "2026-11-03T11:48:56+00:00",
+      "imagen": "https://estaticos.elcolombiano.com/binrepository/450x300/0c0/0d0/center/11101/CIGD/video-asi-se-vivio-el-temblor-de-5_52038017_20261103065439.jpg"
+    },
+    {
+      "id": "42b98dafb88b77a8",
+      "titulo": "Abren colegios electorales en la costa este de EE. UU. en elecciones intermedias cruciales",
+      "categoria": "Internacional",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/abren-colegios-electorales-en-la-costa-este-de-ee-uu-en-elecciones-intermedias-cruciales/a-79840523?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-03T11:48:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "d2b4e3d95f278f6b",
+      "titulo": "Nuevo sorteo exclusivo para suscriptores de Xataka Xtra: sorteamos diez entradas dobles para ver 'Cómo robar un banco' en cines",
+      "categoria": "Economía",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/xataka-xtra/nuevo-sorteo-exclusivo-para-suscriptores-xataka-xtra-sorteamos-diez-entradas-dobles-para-ver-como-robar-banco-cines",
+      "fecha": "2026-11-03T11:41:00+00:00",
+      "imagen": "https://i.blogs.es/933365/sorteo-entradas/1024_2000.jpeg"
+    },
+    {
+      "id": "264c84e559c8488d",
+      "titulo": "Dólar en Colombia podría alcanzar los $3.250 esta semana: así cotiza la divisa este martes 3 de noviembre",
+      "categoria": "Economía",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/finanzas/dolar-en-colombia-podria-alcanzar-los-3-250-esta-semana-asi-cotiza-la-divisa-este-martes-3-de-noviembre-505595",
+      "fecha": "2026-11-03T11:36:49+00:00",
+      "imagen": "https://imagenes.portafolio.co/files/og_thumbnail/uploads/2026/01/29/697b96803ebb9.jpeg"
+    },
+    {
+      "id": "addc8153fd4e7772",
+      "titulo": "Wall Street repunta y el crudo cae bajo US$100 por señales de diálogo con Irán",
+      "categoria": "Internacional",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/globoeconomia/wall-street-repunta-y-el-crudo-cae-bajo-us-100-por-senales-de-dialogo-con-iran-4516443",
+      "fecha": "2026-11-03T11:31:35+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "9d2df22db5442d7b",
+      "titulo": "Prime Video sigue siendo un negocio redondo para Amazon, con previsiones de ganancias de \"decenas de miles de millones de dólares\"",
+      "categoria": "Economía",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/streaming/prime-video-sigue-siendo-negocio-redondo-para-amazon-previsiones-ganancias-decenas-miles-millones-dolares",
+      "fecha": "2026-11-03T11:31:31+00:00",
+      "imagen": "https://i.blogs.es/f4190e/captura-de-pantalla-2026-11-03-a-las-9.29.37/1024_2000.jpeg"
+    },
+    {
+      "id": "6f1dc7c4491edf2d",
+      "titulo": "Tragedia en España: futbolista de la segunda división murió tras un choque con el arquero",
+      "categoria": "Deportes",
+      "fuente": "La FM Deportes",
+      "url": "https://www.lafm.com.co/deportes/jesus-de-miguel-accidente-choque-portero-andorra-de-que-murio-415941",
+      "fecha": "2026-11-03T11:30:48+00:00",
+      "imagen": "https://files.lafm.com.co/media/news-images/2026/11/03/112650/jesus-de-miguel-accidente-choque-portero-andorra-de-que-murio-1200x675.jpg"
+    },
+    {
+      "id": "c1407d8cc64f82ca",
+      "titulo": "Qué es el \"zeptoverso\", el mundo más pequeño jamás detectado en la naturaleza y por qué es clave para entender el universo",
+      "categoria": "Internacional",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/c60rldxq8k1ro?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-03T11:29:22+00:00",
+      "imagen": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/eca0/live/1ab4cfb0-d2ef-11f1-b441-2b33b063138f.jpg"
+    },
+    {
+      "id": "dfe61cfd882b1992",
+      "titulo": "Copa de Asia se aplaza hasta finales de 2027 debido a los ataques contra Arabia Saudita",
+      "categoria": "Deportes",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/ocio/copa-de-asia-se-aplaza-hasta-finales-de-2027-debido-a-los-ataques-contra-arabia-saudita-4516432",
+      "fecha": "2026-11-03T11:17:56+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "2e48fc2d976f443e",
+      "titulo": "Todos estos dispositivos Xiaomi están muy rebajados en el 11.11 de AliExpress (y con envío desde España): hay móviles, tablets, teles y más",
+      "categoria": "Tecnología",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/seleccion/todos-estos-dispositivos-xiaomi-estan-muy-rebajados-11-11-aliexpress-envio-espana-hay-moviles-tablets-teles",
+      "fecha": "2026-11-03T11:15:28+00:00",
+      "imagen": "https://i.blogs.es/0c663b/aliexpress-aniversario-xiaomi-portada/1024_2000.jpeg"
+    },
+    {
+      "id": "607c1f60753e3b74",
+      "titulo": "Muere el delantero del Tenerife Jesús de Miguel tras golpe y paro cardíaco sufridos en un partido de Segunda División",
+      "categoria": "Deportes",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/muere-el-delantero-del-tenerife-jesús-de-miguel-tras-golpe-y-paro-cardíaco-sufridos-en-un-partido-de-segunda-división/a-79837882?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-03T11:09:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "bfa1daff1a8da237",
+      "titulo": "El oro cayó por temores de inflación, con foco en las elecciones en Estados Unidos",
+      "categoria": "Economía",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/finanzas/precio-del-oro-3-de-noviembre-4516418",
+      "fecha": "2026-11-03T11:02:54+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "121b4428237d1735",
+      "titulo": "Llegan las primeras campañas del Black Friday con el Google Pixel 11 de oferta, nuevo y ahora más barato",
+      "categoria": "Tecnología",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/seleccion/llegan-primeras-campanas-black-friday-google-pixel-11-oferta-nuevo-ahora-barato",
+      "fecha": "2026-11-03T11:01:28+00:00",
+      "imagen": "https://i.blogs.es/4b8f3e/google-pixel-11/1024_2000.jpeg"
+    },
+    {
+      "id": "b8d5b59cc333a3c5",
+      "titulo": "Una IA ha hecho mejor a otra IA con un método inesperado: recortarle lo que le estorbaba",
+      "categoria": "Tecnología",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/robotica-e-ia/ia-ha-hecho-mejor-a-otra-ia-metodo-inesperado-recortarle-que-le-estorbaba",
+      "fecha": "2026-11-03T11:01:28+00:00",
+      "imagen": "https://i.blogs.es/20a6af/recortar-ia-portada/1024_2000.jpeg"
+    },
+    {
+      "id": "85479fff845ebdb3",
+      "titulo": "Lula, Sheinbaum y Delcy Rodríguez no participarán en la XXX Cumbre Iberoamericana en Madrid",
+      "categoria": "Deportes",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/lula-sheinbaum-y-delcy-rodríguez-no-participarán-en-la-xxx-cumbre-iberoamericana-en-madrid/a-79837532?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-03T11:00:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "4428365c4f88dedb",
+      "titulo": "Ya en Action (y rebajada) esta caja de sincronización HDMI para disfrutar de la experiencia Ambilight en cualquier tele",
+      "categoria": "Tecnología",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/seleccion/action-rebajada-esta-caja-sincronizacion-hdmi-para-disfrutar-experiencia-ambilight-cualquier-tele",
+      "fecha": "2026-11-03T10:31:28+00:00",
+      "imagen": "https://i.blogs.es/3c2bb3/action-tienda/1024_2000.jpeg"
+    },
+    {
+      "id": "9e281bc4f4ac905e",
+      "titulo": "En 1970, California asfaltó una calle con botellas rotas. Lo sorprendente no es solo que funcionara, sino lo que vino después",
+      "categoria": "Tecnología",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/movilidad/1970-california-asfalto-calle-botellas-rotas-sorprendente-no-que-funcionara-sino-que-vino-despues",
+      "fecha": "2026-11-03T10:30:00+00:00",
+      "imagen": "https://i.blogs.es/c6f2d1/calle-principal-de-los-anos-50/1024_2000.png"
+    },
+    {
+      "id": "3764b75d6fdbbc2c",
+      "titulo": "Por qué se sospecha que Corea del Norte pueda estar detrás del robo de US$6.300 millones a Binance",
+      "categoria": "Internacional",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/c3ewepn4e08do?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-03T10:23:00+00:00",
+      "imagen": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/43fe/live/e65a2ef0-d478-11f1-8edb-d9fce66588c6.jpg"
+    },
+    {
+      "id": "b9a08204cd5ed634",
+      "titulo": "El portátil gaming que se adelanta al Black Friday: tiene 32 GB de RAM, incluye una RTX 5060 y su descuento es de 500 euros",
+      "categoria": "Tecnología",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/seleccion/portatil-gaming-que-se-adelanta-al-black-friday-tiene-32-gb-ram-incluye-rtx-5060-su-descuento-500-euros",
+      "fecha": "2026-11-03T10:01:29+00:00",
+      "imagen": "https://i.blogs.es/ec2cb8/gigabyte-a16/1024_2000.jpeg"
+    },
+    {
+      "id": "5cae09b82198e91a",
+      "titulo": "El gran ganador de la IA en Apple no es Siri. Es el Mac",
+      "categoria": "Tecnología",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/ordenadores/gran-ganador-ia-apple-no-siri-mac",
+      "fecha": "2026-11-03T09:47:30+00:00",
+      "imagen": "https://i.blogs.es/4ce401/amanz-lbcddw34ivw-unsplash/1024_2000.jpeg"
+    },
+    {
+      "id": "f2c4fd54e31e8595",
+      "titulo": "Trump entra en la lista de \"Depredadores de la Libertad de Prensa\" de Reporteros sin Fronteras",
+      "categoria": "Internacional",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/trump-entra-en-la-lista-de-depredadores-de-la-libertad-de-prensa-de-reporteros-sin-fronteras/a-79835620?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-03T09:44:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "d97e0558fc9a720b",
+      "titulo": "\"Es el peor barrio de Madrid\": fue un experimento en los años 50 y tiene a 408 pisos de 40 metros cuadrados casi en ruinas",
+      "categoria": "Tecnología",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/magnet/peor-barrio-madrid-fue-experimento-anos-50-tiene-a-408-pisos-40-metros-cuadrados-casi-ruinas",
+      "fecha": "2026-11-03T09:31:22+00:00",
+      "imagen": "https://i.blogs.es/2436a0/55393652853_cb1f4a54f7_k/1024_2000.jpeg"
+    },
+    {
+      "id": "f2d65ef419939b33",
+      "titulo": "Del Ejército de Lula al Ejército peronista: la oposición argentina recluta al ‘general’ digital que impulsó la remontada en Brasil",
+      "categoria": "Internacional",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/argentina/2026-11-03/del-ejercito-de-lula-al-ejercito-peronista-la-oposicion-argentina-recluta-al-general-digital-que-impulso-la-remontada-en-brasil.html",
+      "fecha": "2026-11-03T09:30:00+00:00",
+      "imagen": "https://imagenes.elpais.com/resizer/v2/FXKJTKMKM5GKPONG7257C3A6HA.jpg?auth=66b55f627eab189cfa2867697923620f4844d0e46a676230e91fd2a459919a09"
+    },
+    {
+      "id": "2fbd2c6fcc6af843",
+      "titulo": "Trabajadoras sexuales de Argentina convocan a un paro tras la muerte de cuatro mujeres en un mes",
+      "categoria": "Internacional",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/argentina/2026-11-03/trabajadoras-sexuales-de-argentina-convocan-a-un-paro-tras-la-muerte-de-cuatro-mujeres-en-un-mes.html",
+      "fecha": "2026-11-03T09:30:00+00:00",
+      "imagen": "https://imagenes.elpais.com/resizer/v2/YXQZYRJV3ZBFFBEANKWWGDO6SQ.jpg?auth=a7d8aa27071cf533377355c21d7ad0c550f875deded78bcfc6a5527916865023"
     },
     {
       "id": "5ff0c6bb41d09e8c",
@@ -235,30 +651,12 @@
       "imagen": ""
     },
     {
-      "id": "03b137e4b27a589b",
-      "titulo": "Desinflar pretensiones",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/analisis/alberto-carrasquilla-562150/desinflar-pretensiones-4516291",
-      "fecha": "2026-11-03T05:01:53+00:00",
-      "imagen": ""
-    },
-    {
       "id": "cacf4c32bf65fb09",
       "titulo": "Futbolistas de la Premier League obtienen un aplazamiento de la recaudación",
       "categoria": "Deportes",
       "fuente": "La República",
       "url": "https://www.larepublica.co/ocio/los-futbolistas-de-la-premier-league-obtienen-un-aplazamiento-de-la-recaudacion-de-impuestos-4515302",
       "fecha": "2026-11-03T05:01:51+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "2e2205f791541dfb",
-      "titulo": "Protocolos",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/analisis/lewis-acuna-3441162/protocolos-4515520",
-      "fecha": "2026-11-03T05:01:50+00:00",
       "imagen": ""
     },
     {
@@ -271,57 +669,12 @@
       "imagen": ""
     },
     {
-      "id": "9974135b6fdd5ef5",
-      "titulo": "En 2025, alrededor de 480.000 personas quedaron excluidas del sistema de crédito formal",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/finanzas/en-2025-alrededor-de-480-000-personas-quedaron-excluidas-del-sistema-de-credito-formal-4515577",
-      "fecha": "2026-11-03T05:01:46+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "d80ff79931de2af0",
-      "titulo": "De la esencia del liderazgo en la vida real al nefasto liderazgo de la era digital",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/analisis/luis-guillermo-echeverri-velez-3075852/de-la-esencia-del-liderazgo-en-la-vida-real-al-nefasto-liderazgo-de-la-era-digital-4516301",
-      "fecha": "2026-11-03T05:01:44+00:00",
-      "imagen": ""
-    },
-    {
       "id": "bf12a7351b8397f5",
       "titulo": "Qbano y Subway lideran un mercado que consume 25 millones de sánduches",
       "categoria": "Economía",
       "fuente": "La República",
       "url": "https://www.larepublica.co/empresas/qbano-y-subway-lideran-un-mercado-que-consume-25-millones-de-sanduches-4515632",
       "fecha": "2026-11-03T05:01:43+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "8c3adb5f6b49ea2f",
-      "titulo": "La EdTech Crack the Code espera llegar a más de 45.000 estudiantes en 2027",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/empresas/crack-the-code-espera-llegar-a-mas-de-45-ooo-estudiantes-en-2027-4514964",
-      "fecha": "2026-11-03T05:01:43+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "05690ab785f807df",
-      "titulo": "¿Puede un colombiano demandar en Colombia si su contrato laboral está sometido a las leyes de otro país?",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/analisis/pilar-ibanez-514336/puede-un-colombiano-demandar-en-colombia-si-su-contrato-laboral-esta-sometido-a-las-leyes-de-otro-pais-4516277",
-      "fecha": "2026-11-03T05:01:39+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "95ea9c747e8dcba0",
-      "titulo": "Cómo robarse una democracia",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/analisis/diego-gomez-3234242/como-robarse-una-democracia-4516287",
-      "fecha": "2026-11-03T05:01:33+00:00",
       "imagen": ""
     },
     {
@@ -334,33 +687,6 @@
       "imagen": ""
     },
     {
-      "id": "4cf420e20ada2c7a",
-      "titulo": "No afectar el consumo de final de año",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/opinion/editorial/no-afectar-el-consumo-de-final-de-ano-4514966",
-      "fecha": "2026-11-03T05:01:33+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "65e33cb35e9ba5e7",
-      "titulo": "El ajuste en el IVA presionaría más la inflación y la llevaría arriba de 6,4% el próximo año",
-      "categoria": "Economía",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/economia/el-ajuste-en-el-iva-presionaria-mas-la-inflacion-y-la-llevaria-arriba-de-6-4-el-proximo-ano-4515593",
-      "fecha": "2026-11-03T05:01:32+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "f14ced55c9d91b3c",
-      "titulo": "Casi 100 países tienen impuestos a compras en plataformas como Temu y Shein",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/casi-100-paises-tienen-impuestos-a-compras-en-plataformas-como-temu-y-shein-4515523",
-      "fecha": "2026-11-03T05:01:31+00:00",
-      "imagen": ""
-    },
-    {
       "id": "911962577a9f3d06",
       "titulo": "“BMI Seguros Colombia abrirá nuevas oficinas en Barranquilla y Cali durante el próximo curso”",
       "categoria": "Cali",
@@ -370,58 +696,13 @@
       "imagen": ""
     },
     {
-      "id": "448cae6ba42adc20",
-      "titulo": "Sin empresas no hay paraíso",
-      "categoria": "Economía",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/analisis/alberto-j-bernal-leon-500059/sin-empresas-no-hay-paraiso-4516283",
-      "fecha": "2026-11-03T05:01:26+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "d7999608303c9741",
-      "titulo": "Mural consiguió US$15 millones en la inversión durante la jornada liderada por Tether",
-      "categoria": "Economía",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/finanzas/mural-consiguio-us-15-millones-en-inversion-durante-jornada-liderada-por-tether-4514117",
-      "fecha": "2026-11-03T05:01:17+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "aee388d7becfcd3b",
-      "titulo": "¿Burbuja en inversiones de inteligencia artificial?",
-      "categoria": "Economía",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/analisis/sergio-clavijo-500041/burbuja-en-inversiones-de-inteligencia-artificial-4516273",
-      "fecha": "2026-11-03T05:01:01+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "1c51b66e4c969969",
-      "titulo": "8 gráficos que muestran por qué las elecciones de medio mandato llegan en mal momento para Trump y qué hay en juego",
-      "categoria": "Internacional",
-      "fuente": "BBC Mundo",
-      "url": "https://www.bbc.com/mundo/articles/cq5ynzzkxeymo?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-03T04:41:52+00:00",
-      "imagen": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/f64c/live/4e58ab20-c552-11f1-bc2e-018d645d8d21.jpg"
-    },
-    {
-      "id": "d6386d358ff0df89",
-      "titulo": "Quiénes son las 9 víctimas del fatal accidente del avión privado que se estrelló en Florida",
-      "categoria": "Internacional",
-      "fuente": "BBC Mundo",
-      "url": "https://www.bbc.com/mundo/articles/cx054q17vvezo?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-03T03:49:51+00:00",
-      "imagen": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/c344/live/65462e20-d736-11f1-b306-c3f1b394ab8d.jpg"
-    },
-    {
-      "id": "bafbc4beabc8f59b",
-      "titulo": "Corte Suprema de Estados Unidos rechaza nuevo intento de Trump de invalidar 20.000 votos en California",
-      "categoria": "Internacional",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/corte-suprema-de-estados-unidos-rechaza-nuevo-intento-de-trump-de-invalidar-20-000-votos-en-california/a-79835036?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-03T02:13:00+00:00",
-      "imagen": ""
+      "id": "43a490b29d3bde35",
+      "titulo": "¿El Pacto Histórico está sin rumbo? Así buscan campo los partidos para el 2027",
+      "categoria": "Deportes",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/pacto-historico-rumbo-partidos-politicos-2027-IP43086592",
+      "fecha": "2026-11-03T01:32:45+00:00",
+      "imagen": "https://estaticos.elcolombiano.com/binrepository/511x300/0c0/0d0/center/11101/XTKG/pacto-historico-congreso_52036869_20261102192434.png"
     },
     {
       "id": "e878459001f732ad",
@@ -433,82 +714,28 @@
       "imagen": ""
     },
     {
-      "id": "04a86747ce3ae606",
-      "titulo": "Elecciones de medio término en EEUU: ¿qué estados decidirán el rumbo?",
-      "categoria": "Internacional",
-      "fuente": "La FM Internacional",
-      "url": "https://www.lafm.com.co/internacional/elecciones-de-medio-termino-en-eeuu-estados-deciden-rumbo-415925",
-      "fecha": "2026-11-03T00:56:14+00:00",
-      "imagen": "https://files.lafm.com.co/media/news-images/2026/11/02/233038/eleccionesestadosunidosmediotermino-1200x675.jpg"
+      "id": "413af5fe9ab2c89f",
+      "titulo": "El almuerzo en Cuba con Laura Restrepo en el que Antonio Navarro se enteró de la toma del Palacio y otras historias",
+      "categoria": "Valle del Cauca",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/antonio-navarro-wolff-asi-fue-su-vida-desde-cinco-angulos-distintos-HP43086908",
+      "fecha": "2026-11-03T00:51:19+00:00",
+      "imagen": "https://estaticos.elcolombiano.com/binrepository/382x300/0c0/0d0/center/11101/TTKI/antonio-wolff_52036906_20261102194824.jpg"
     },
     {
-      "id": "c71da1d4d5750206",
-      "titulo": "Irán anuncia contactos \"intensos\" con Estados Unidos para evitar una escalada en el conflicto",
-      "categoria": "Internacional",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/irán-anuncia-contactos-intensos-con-estados-unidos-para-evitar-una-escalada-en-el-conflicto/a-79834973?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-03T00:43:00+00:00",
+      "id": "f9eae172b4296d00",
+      "titulo": "El pesista chocoano Yeison López conquista oro y nuevo récord mundial en China",
+      "categoria": "Deportes",
+      "fuente": "Chocó 7 días",
+      "url": "https://choco7dias.com/el-pesista-chocoano-yeison-lopez-conquista-oro-y-nuevo-record-mundial-en-china/",
+      "fecha": "2026-11-02T21:40:59+00:00",
       "imagen": ""
-    },
-    {
-      "id": "250987248e2f1cde",
-      "titulo": "El emotivo regreso a casa de Karl Bushby, el aventurero británico que recorrió el mundo a pie tras partir de Chile hace 28 años",
-      "categoria": "Internacional",
-      "fuente": "BBC Mundo",
-      "url": "https://www.bbc.com/mundo/articles/c8wy941ee4rzo?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-03T00:38:16+00:00",
-      "imagen": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/fb3b/live/8b401f50-d6eb-11f1-a741-236ee91c2e25.jpg"
-    },
-    {
-      "id": "75ed525ef6a2ffc7",
-      "titulo": "Gobierno ADLE defiende ajuste fiscal: \"No estamos para pañitos tibios, tiene que ser radical\"",
-      "categoria": "Economía",
-      "fuente": "La FM Economía",
-      "url": "https://www.lafm.com.co/economia/ley-de-ajuste-fiscal-gobierno-abelardo-de-la-espriella-415930",
-      "fecha": "2026-11-03T00:35:45+00:00",
-      "imagen": "https://files.lafm.com.co/media/news-images/2026/11/03/004116/portadas-32-1200x675.jpg"
-    },
-    {
-      "id": "621fb2edfc0c0188",
-      "titulo": "EEUU mediará en negociaciones entre Rusia y Ucrania en Abu Dabi la próxima semana",
-      "categoria": "Internacional",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/eeuu-mediará-en-negociaciones-entre-rusia-y-ucrania-en-abu-dabi-la-próxima-semana/a-79834962?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-03T00:21:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "42e7dffeb8300540",
-      "titulo": "Trump abre la puerta a indultos para favorecer a sus aliados  ante posible triunfo demócrata",
-      "categoria": "Internacional",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/trump-abre-la-puerta-a-indultos-para-favorecer-a-sus-aliados-ante-posible-triunfo-demócrata/a-79834954?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-02T23:40:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "dba31cb2c5415f40",
-      "titulo": "Corea del Norte rechaza acusaciones del FBI sobre hackeo a Binance",
-      "categoria": "Internacional",
-      "fuente": "La FM Internacional",
-      "url": "https://www.lafm.com.co/internacional/corea-del-norte-rechaza-acusaciones-del-fbi-sobre-hackeo-binance-415924",
-      "fecha": "2026-11-02T23:02:06+00:00",
-      "imagen": "https://files.lafm.com.co/media/news-images/2026/11/02/230409/portadas-30-1200x675.jpg"
-    },
-    {
-      "id": "bc70658a2ac180b8",
-      "titulo": "Binance sufrió el mayor robo de criptomonedas de la historia, pero el verdadero examen llegó después: la confianza",
-      "categoria": "Tecnología",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/criptomonedas/binance-sufrio-mayor-robo-criptomonedas-historia-verdadero-examen-llego-despues-confianza",
-      "fecha": "2026-11-02T22:55:00+00:00",
-      "imagen": "https://i.blogs.es/a724ca/binance/1024_2000.jpeg"
     },
     {
       "id": "a11dc26b1d13b69d",
       "titulo": "El Ejército desarticula peligrosa estructura criminal de 'Iván Mordisco' en el Valle del Cauca",
       "categoria": "Valle del Cauca",
-      "fuente": "El Tiempo",
+      "fuente": "El Tiempo Cali",
       "url": "https://www.eltiempo.com/colombia/cali/el-ejercito-desarticula-peligrosa-estructura-criminal-de-ivan-mordisco-en-el-valle-del-cauca-3597962",
       "fecha": "2026-11-02T21:35:48+00:00",
       "imagen": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/11/02/6ae8fe8717f54.jpeg"
@@ -523,33 +750,6 @@
       "imagen": "https://files.lafm.com.co/media/news-images/2026/11/02/203626/este-es-kimi-antonelli-el-piloto-mas-joven-en-ganar-la-f1-1200x675.jpg"
     },
     {
-      "id": "5060fee8ece355fc",
-      "titulo": "Google ha dado un paso clave hacia los centros de datos espaciales: acaba de ejecutar IA en órbita",
-      "categoria": "Tecnología",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/robotica-e-ia/google-ha-dado-paso-clave-centros-datos-espaciales-acaba-ejecutar-ia-orbita",
-      "fecha": "2026-11-02T20:01:24+00:00",
-      "imagen": "https://i.blogs.es/d4a681/google-ia-espacio2/1024_2000.jpeg"
-    },
-    {
-      "id": "2dc4f57ac00a4c77",
-      "titulo": "Los hosteleros le han puesto ya una tarea al próximo Gobierno: que los 'mercaurantes' dejen de ser un negocio redondo",
-      "categoria": "Tecnología",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/magnet/hosteleros-le-han-puesto-tarea-al-proximo-gobierno-que-mercaurantes-dejen-ser-negocio-redondo",
-      "fecha": "2026-11-02T19:31:27+00:00",
-      "imagen": "https://i.blogs.es/ab9a64/img_7082-1-/1024_2000.jpeg"
-    },
-    {
-      "id": "84c1598e7abfc770",
-      "titulo": "Shigeru Miyamoto, padre de Super Mario y Zelda: \"Si la IA llegara a encargarse de todo, siempre habrá un papel para nosotros\"",
-      "categoria": "Tecnología",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/robotica-e-ia/shigeru-miyamoto-padre-super-mario-zelda-ia-llegara-a-encargarse-todo-siempre-habra-papel-para-nosotros",
-      "fecha": "2026-11-02T19:01:26+00:00",
-      "imagen": "https://i.blogs.es/ca7e7a/magnific__aplica-el-estilo-quiero-que-el-fondo-sea-rojo-y-la__53736/1024_2000.jpeg"
-    },
-    {
       "id": "ead90f1fb26aa8ed",
       "titulo": "Grid Protectors: programa para la red eléctrica",
       "categoria": "Valle del Cauca",
@@ -557,33 +757,6 @@
       "url": "https://occidente.co/secciones/tecnologia/grid-protectors-programa-red-electrica/",
       "fecha": "2026-11-02T19:00:00+00:00",
       "imagen": ""
-    },
-    {
-      "id": "7bd948f1eb575111",
-      "titulo": "La lucha por avanzar continúa: así se jugará la cuarta fecha de la Champions League",
-      "categoria": "Deportes",
-      "fuente": "La FM Deportes",
-      "url": "https://www.lafm.com.co/deportes/champions-league-fecha-cuatro-horarios-programacion-oficial-415908",
-      "fecha": "2026-11-02T18:31:01+00:00",
-      "imagen": "https://files.lafm.com.co/media/news-images/2026/11/02/181051/champions-league-fecha-cuatro-horarios-programacion-oficial-1200x675.jpg"
-    },
-    {
-      "id": "64d6885eabf65fc9",
-      "titulo": "Jackson Martínez y una selecta lista: ser goleador en Colombia con 40 años",
-      "categoria": "Deportes",
-      "fuente": "La FM Deportes",
-      "url": "https://www.lafm.com.co/deportes/liga-betplay-jackson-martinez-jugadores-que-han-hecho-col-con-40-anos-415910",
-      "fecha": "2026-11-02T18:00:14+00:00",
-      "imagen": "https://files.lafm.com.co/media/news-images/2026/11/02/184818/portadas-26-1200x675.jpg"
-    },
-    {
-      "id": "e3c74ff874965e2c",
-      "titulo": "OpenAI combinará Chat y Work. Y hará realidad lo que muchos temían: ChatGPT y Codex compartirán los límites de uso",
-      "categoria": "Tecnología",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/robotica-e-ia/openai-combinara-chat-work-hara-realidad-que-muchos-temian-chatgpt-codex-compartiran-limites-uso",
-      "fecha": "2026-11-02T18:00:00+00:00",
-      "imagen": "https://i.blogs.es/6d03da/chatgpt-limites-de-uso/1024_2000.jpeg"
     },
     {
       "id": "0be1dad17305837d",
@@ -595,67 +768,13 @@
       "imagen": ""
     },
     {
-      "id": "3339f59397e502e3",
-      "titulo": "Hoy en Action la powerbank perfecta para llevarla en el bolsillo: es ideal para viajes o festivales y está disponible en varios colores",
-      "categoria": "Tecnología",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/seleccion/hoy-action-powerbank-perfecta-para-llevarla-bolsillo-ideal-para-viajes-festivales-esta-disponible-varios-colores",
-      "fecha": "2026-11-02T17:15:26+00:00",
-      "imagen": "https://i.blogs.es/240266/action/1024_2000.jpeg"
-    },
-    {
-      "id": "89d23745db7865d4",
-      "titulo": "Brasil hundirá un túnel bajo el canal del mayor puerto de Latinoamérica: de una hora en coche a unos 5 minutos",
-      "categoria": "Tecnología",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/ingenieria-y-megaconstrucciones/brasil-hundira-tunel-canal-mayor-puerto-latinoamerica-hora-coche-a-unos-5-minutos",
-      "fecha": "2026-11-02T17:01:28+00:00",
-      "imagen": "https://i.blogs.es/88f7c7/gemini_generated_image_h90gwwh90gwwh90g/1024_2000.jpeg"
-    },
-    {
-      "id": "c015e0e8817e1b95",
-      "titulo": "Javier Tebas, presidente de LaLiga: “No sé cuánto durará el boicot de China, pero es un problema para nuestros patrocinios”",
-      "categoria": "Deportes",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/internacional/2026-11-02/javier-tebas-presidente-de-laliga-no-se-cuanto-durara-el-boicot-de-china-pero-es-un-problema-para-nuestros-patrocinios.html",
-      "fecha": "2026-11-02T16:37:53+00:00",
-      "imagen": "https://imagenes.elpais.com/resizer/v2/LH2U5Q23PRHM7P6QRAVDLCQ3WQ.jpg?auth=062453c88d2c4eb8b94dbe459043caeaa83088bfc8e8f76f12ea140da70c611a"
-    },
-    {
-      "id": "c07f1801efd628ae",
-      "titulo": "Google por fin te da la respuesta a la primera. Y ese es justo su problema",
-      "categoria": "Tecnología",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/robotica-e-ia/google-ha-mejorado-su-buscador-ia-que-se-ha-encontrado-problema-necesita-empeorarlo-para-ganar-dinero",
-      "fecha": "2026-11-02T16:30:00+00:00",
-      "imagen": "https://i.blogs.es/243fdd/google-portada/1024_2000.jpeg"
-    },
-    {
       "id": "85336563332e8565",
       "titulo": "Golpe al Frente 57 'Yair Bermúdez': caen cinco presuntos integrantes tras ataque a patrulla de la Policía en Tuluá",
       "categoria": "Valle del Cauca",
-      "fuente": "El Tiempo",
+      "fuente": "El Tiempo Cali",
       "url": "https://www.eltiempo.com/colombia/cali/golpe-al-frente-57-yair-bermudez-caen-cinco-presuntos-integrantes-tras-ataque-a-patrulla-de-la-policia-en-tulua-3597930",
       "fecha": "2026-11-02T16:17:14+00:00",
       "imagen": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/11/02/6ae8b30f9d381.jpeg"
-    },
-    {
-      "id": "de3b44566cbab127",
-      "titulo": "Un militar australiano subió a la gran fragata española y se quedó a cuadros: era un calco del diseño de su propio destructor",
-      "categoria": "Tecnología",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/magnet/militar-australiano-subio-a-fragata-espanola-se-quedo-a-cuadros-era-calco-diseno-su-propio-destructor",
-      "fecha": "2026-11-02T16:01:30+00:00",
-      "imagen": "https://i.blogs.es/79a101/fragata_f-101_-22alvaro_de_bazan-22_fondeada_en_la_ria_de_pontevedra_-14694192716-/1024_2000.jpeg"
-    },
-    {
-      "id": "92fa13f384d690ed",
-      "titulo": "48 GB de RAM DDR5, Ryzen 7 y RTX 5070: así es el PC gaming rebajado por Black Friday que destaca en Coolmod",
-      "categoria": "Tecnología",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/seleccion/48-gb-ram-ddr5-ryzen-7-rtx-5070-asi-pc-gaming-rebajado-black-friday-que-destaca-coolmod",
-      "fecha": "2026-11-02T15:45:26+00:00",
-      "imagen": "https://i.blogs.es/504062/black-friday-coolmod-pc/1024_2000.jpeg"
     },
     {
       "id": "c30a381fd49e7058",
@@ -676,33 +795,6 @@
       "imagen": "https://files.lafm.com.co/media/news-images/2026/10/28/195200/padre-de-dilan-clama-por-la-liberacion-de-su-hijo-desaparecido-en-buenaventura-1200x675.jpg"
     },
     {
-      "id": "40aefad69ff751ff",
-      "titulo": "Jackson Martínez: debut, gol y victoria con DIM en Liga Betplay",
-      "categoria": "Deportes",
-      "fuente": "La FM Deportes",
-      "url": "https://www.lafm.com.co/deportes/jackson-martinez-debuta-con-gol-en-liga-betplay-con-dim-415876",
-      "fecha": "2026-11-02T01:01:33+00:00",
-      "imagen": "https://files.lafm.com.co/media/news-images/2026/11/02/010707/portadas-25-1200x675.jpg"
-    },
-    {
-      "id": "74cbc480a65e34ec",
-      "titulo": "Gobierno endurece controles de ingreso a estadios de fútbol: estas son las nuevas medidas",
-      "categoria": "Deportes",
-      "fuente": "La FM Actualidad",
-      "url": "https://www.lafm.com.co/actualidad/gobierno-anuncia-detectores-de-metales-y-controles-en-estadios-de-futbol-415875",
-      "fecha": "2026-11-02T00:44:55+00:00",
-      "imagen": "https://files.lafm.com.co/media/news-images/2026/08/25/194109/violencia-estadios-colombia-hinchadas-visitantes-barras-policia-seguridad-nacional-1200x675.jpg"
-    },
-    {
-      "id": "a65d66c496ed2bba",
-      "titulo": "El Boca de Montero se impuso ante River en La Bombonera: así quedó la pelea por el título en la clasificación anual",
-      "categoria": "Deportes",
-      "fuente": "La FM Deportes",
-      "url": "https://www.lafm.com.co/deportes/boca-vencio-river-plate-alvaro-montero-titular-asi-quedo-tabla-clasificacion-anual-argentina-415867",
-      "fecha": "2026-11-01T20:24:10+00:00",
-      "imagen": "https://files.lafm.com.co/media/news-images/2026/11/01/203423/boca-vencio-river-plate-alvaro-montero-titular-asi-quedo-tabla-clasificacion-anual-argentina-1200x675.jpg"
-    },
-    {
       "id": "56f1adca4b2af420",
       "titulo": "SpaceX financiamiento GPU con Apollo",
       "categoria": "Valle del Cauca",
@@ -710,15 +802,6 @@
       "url": "https://occidente.co/secciones/tecnologia/spacex-financiamiento-gpu-apollo/",
       "fecha": "2026-11-01T15:00:00+00:00",
       "imagen": ""
-    },
-    {
-      "id": "d95ac030e5a18de9",
-      "titulo": "David Alonso hace historia en Malasia: segunda victoria del colombiano en Moto2 2026",
-      "categoria": "Deportes",
-      "fuente": "La FM Deportes",
-      "url": "https://www.lafm.com.co/deportes/david-alonso-triunfa-moto2-malasia-segunda-victoria-2026-415839",
-      "fecha": "2026-11-01T14:09:33+00:00",
-      "imagen": "https://files.lafm.com.co/media/news-images/2026/11/01/140136/david-alonso-triunfo-colombia-moto2-malasia-segunda-victoria-2026-1200x675.jpg"
     },
     {
       "id": "0e11c6763e9783c2",
@@ -739,17 +822,229 @@
       "imagen": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/10/16/6ad26545baa96.jpeg"
     },
     {
-      "id": "f3ab6b9124d91ed9",
-      "titulo": "Anthropic presenta su IPO",
-      "categoria": "Valle del Cauca",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/secciones/tecnologia/anthropic-presenta-su-ipo/",
-      "fecha": "2026-10-31T15:00:00+00:00",
-      "imagen": ""
+      "id": "6d5b19e29ad96db3",
+      "titulo": "Asesinan a Luis Francisco Ramírez, dragoneante del Inpec, cerca de la cárcel Villahermosa en Cali: esto se sabe del crimen",
+      "categoria": "Cali",
+      "fuente": "El Tiempo Cali",
+      "url": "https://www.eltiempo.com/colombia/cali/asesinan-a-luis-francisco-ramirez-dragoneante-del-inpec-cerca-de-la-carcel-villahermosa-en-cali-esto-se-sabe-del-crimen-3597666",
+      "fecha": "2026-10-31T12:39:48+00:00",
+      "imagen": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2026/10/31/6ae5dafef132b.r_d.600-267-0.png"
     }
   ],
-  "ultima_solicitud_groq": "2026-11-03T05:29:41.920085+00:00",
+  "estado_fuentes": [
+    {
+      "nombre": "El Tiempo",
+      "url": "https://www.eltiempo.com/rss/colombia.xml",
+      "zona": "Nacional / internacional",
+      "estado": "ok",
+      "entradas_rss": 10,
+      "titulares_vigentes": 10,
+      "ultima_consulta": "2026-11-03T12:14:09.222222+00:00",
+      "error": ""
+    },
+    {
+      "nombre": "El Tiempo Cali",
+      "url": "https://www.eltiempo.com/rss/colombia_cali.xml",
+      "zona": "Nacional / internacional",
+      "estado": "ok",
+      "entradas_rss": 10,
+      "titulares_vigentes": 8,
+      "ultima_consulta": "2026-11-03T12:14:09.370191+00:00",
+      "error": ""
+    },
+    {
+      "nombre": "El Espectador",
+      "url": "https://www.elespectador.com/rss/",
+      "zona": "Nacional / internacional",
+      "estado": "sin_entradas",
+      "entradas_rss": 0,
+      "titulares_vigentes": 0,
+      "ultima_consulta": "2026-11-03T12:14:09.452561+00:00",
+      "error": "La respuesta no contiene entradas RSS/Atom."
+    },
+    {
+      "nombre": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/feed/",
+      "zona": "Nacional / internacional",
+      "estado": "ok",
+      "entradas_rss": 10,
+      "titulares_vigentes": 10,
+      "ultima_consulta": "2026-11-03T12:14:10.082431+00:00",
+      "error": ""
+    },
+    {
+      "nombre": "Portafolio",
+      "url": "https://www.portafolio.co/rss/economia.xml",
+      "zona": "Nacional / internacional",
+      "estado": "ok",
+      "entradas_rss": 10,
+      "titulares_vigentes": 10,
+      "ultima_consulta": "2026-11-03T12:14:10.241754+00:00",
+      "error": ""
+    },
+    {
+      "nombre": "La República",
+      "url": "https://www.larepublica.co/rss",
+      "zona": "Nacional / internacional",
+      "estado": "ok",
+      "entradas_rss": 60,
+      "titulares_vigentes": 40,
+      "ultima_consulta": "2026-11-03T12:14:10.449177+00:00",
+      "error": ""
+    },
+    {
+      "nombre": "90 Minutos",
+      "url": "https://90minutos.co/feed/",
+      "zona": "Nacional / internacional",
+      "estado": "ok",
+      "entradas_rss": 12,
+      "titulares_vigentes": 0,
+      "ultima_consulta": "2026-11-03T12:14:10.710841+00:00",
+      "error": ""
+    },
+    {
+      "nombre": "BBC Mundo",
+      "url": "https://feeds.bbci.co.uk/mundo/rss.xml",
+      "zona": "Nacional / internacional",
+      "estado": "ok",
+      "entradas_rss": 34,
+      "titulares_vigentes": 26,
+      "ultima_consulta": "2026-11-03T12:14:10.911142+00:00",
+      "error": ""
+    },
+    {
+      "nombre": "DW Español",
+      "url": "https://rss.dw.com/rdf/rss-sp-all",
+      "zona": "Nacional / internacional",
+      "estado": "ok",
+      "entradas_rss": 20,
+      "titulares_vigentes": 20,
+      "ultima_consulta": "2026-11-03T12:14:11.299772+00:00",
+      "error": ""
+    },
+    {
+      "nombre": "Xataka",
+      "url": "https://feeds.weblogssl.com/xataka2",
+      "zona": "Nacional / internacional",
+      "estado": "ok",
+      "entradas_rss": 26,
+      "titulares_vigentes": 26,
+      "ultima_consulta": "2026-11-03T12:14:12.273357+00:00",
+      "error": ""
+    },
+    {
+      "nombre": "El País Colombia",
+      "url": "https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/section/america-colombia/portada",
+      "zona": "Nacional / internacional",
+      "estado": "ok",
+      "entradas_rss": 113,
+      "titulares_vigentes": 39,
+      "ultima_consulta": "2026-11-03T12:14:12.880003+00:00",
+      "error": ""
+    },
+    {
+      "nombre": "Diario Occidente",
+      "url": "https://occidente.co/feed/",
+      "zona": "Nacional / internacional",
+      "estado": "ok",
+      "entradas_rss": 11,
+      "titulares_vigentes": 5,
+      "ultima_consulta": "2026-11-03T12:14:13.941412+00:00",
+      "error": ""
+    },
+    {
+      "nombre": "La FM Deportes",
+      "url": "https://www.lafm.com.co/rss/deportes.xml",
+      "zona": "Nacional / internacional",
+      "estado": "ok",
+      "entradas_rss": 20,
+      "titulares_vigentes": 10,
+      "ultima_consulta": "2026-11-03T12:14:15.738041+00:00",
+      "error": ""
+    },
+    {
+      "nombre": "La FM Economía",
+      "url": "https://www.lafm.com.co/rss/economia.xml",
+      "zona": "Nacional / internacional",
+      "estado": "ok",
+      "entradas_rss": 20,
+      "titulares_vigentes": 16,
+      "ultima_consulta": "2026-11-03T12:14:15.917011+00:00",
+      "error": ""
+    },
+    {
+      "nombre": "La FM Internacional",
+      "url": "https://www.lafm.com.co/rss/internacional.xml",
+      "zona": "Nacional / internacional",
+      "estado": "ok",
+      "entradas_rss": 20,
+      "titulares_vigentes": 20,
+      "ultima_consulta": "2026-11-03T12:14:15.996422+00:00",
+      "error": ""
+    },
+    {
+      "nombre": "La FM Actualidad",
+      "url": "https://www.lafm.com.co/rss/actualidad.xml",
+      "zona": "Nacional / internacional",
+      "estado": "ok",
+      "entradas_rss": 20,
+      "titulares_vigentes": 20,
+      "ultima_consulta": "2026-11-03T12:14:16.124580+00:00",
+      "error": ""
+    },
+    {
+      "nombre": "Q'hubo Cali",
+      "url": "https://www.qhubocali.com/feed/",
+      "zona": "Cali y Valle del Cauca",
+      "estado": "ok",
+      "entradas_rss": 12,
+      "titulares_vigentes": 0,
+      "ultima_consulta": "2026-11-03T12:14:16.246144+00:00",
+      "error": ""
+    },
+    {
+      "nombre": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/rss/Colombia.xml",
+      "zona": "Antioquia y Colombia",
+      "estado": "ok",
+      "entradas_rss": 36,
+      "titulares_vigentes": 34,
+      "ultima_consulta": "2026-11-03T12:14:17.238110+00:00",
+      "error": ""
+    },
+    {
+      "nombre": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/feed/",
+      "zona": "Eje Cafetero",
+      "estado": "error",
+      "entradas_rss": 0,
+      "titulares_vigentes": 0,
+      "ultima_consulta": "2026-11-03T12:14:17.500905+00:00",
+      "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+    },
+    {
+      "nombre": "Chocó 7 días",
+      "url": "https://choco7dias.com/feed/",
+      "zona": "Pacífico colombiano",
+      "estado": "ok",
+      "entradas_rss": 10,
+      "titulares_vigentes": 10,
+      "ultima_consulta": "2026-11-03T12:14:17.666547+00:00",
+      "error": ""
+    },
+    {
+      "nombre": "La Patria — Caldas",
+      "url": "https://www.lapatria.com/rss.xml",
+      "zona": "Eje Cafetero",
+      "estado": "ok",
+      "entradas_rss": 10,
+      "titulares_vigentes": 7,
+      "ultima_consulta": "2026-11-03T12:14:17.947236+00:00",
+      "error": ""
+    }
+  ],
+  "ultima_solicitud_groq": "2026-11-03T12:17:53.548851+00:00",
   "fecha_solicitudes_groq": "2026-11-03",
-  "solicitudes_groq": 2,
-  "ultima_actualizacion": "2026-11-03T05:29:56.827930+00:00"
+  "solicitudes_groq": 6,
+  "ultima_actualizacion": "2026-11-03T12:17:57.068774+00:00"
 }
