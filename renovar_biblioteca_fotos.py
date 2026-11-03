@@ -18,7 +18,8 @@ CATEGORIAS = {
     "Tecnología": ["technology data center server racks", "computer circuit board electronics"],
     "Economía": ["business commerce market stock exchange", "industrial factory production"],
     "Tendencias": ["urban culture lifestyle fashion", "modern culture exhibition"],
-    "Humor y opinión": ["newspaper press editorial newsroom", "journalism newspaper printing"]
+    "Humor y opinión": ["newspaper press editorial newsroom", "journalism newspaper printing"],
+    "General": ["news editorial photography press camera", "journalism city street photography"]
 }
 MAX_POR_CATEGORIA = 6
 EXTENSIONES = {".jpg", ".jpeg", ".png", ".webp"}
