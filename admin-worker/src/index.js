@@ -60,6 +60,23 @@ async function reviews(env) {
     additions:p.additions||0,deletions:p.deletions||0,changedFiles:p.changed_files||0
   }));
 }
+async function publishEditorialProposal(env,proposal) {
+  const merged=await gh("/repos/"+OWNER+"/"+REPO+"/pulls/"+proposal.number+"/merge",env,"PUT",{
+    merge_method:"squash",commit_title:"Edición publicada desde el panel CEV NOTICIAS"
+  });
+  if(!merged.merged||!merged.sha) throw new AdminError(409,"La edición se guardó, pero GitHub no pudo publicarla automáticamente. Revisa la propuesta editorial.");
+  try{await gh("/repos/"+OWNER+"/"+REPO+"/git/refs/heads/"+proposal.branch,env,"DELETE")}catch(_){}
+  return merged.sha;
+}
+async function publicationStatus(env,sha) {
+  const result=await gh("/repos/"+OWNER+"/"+REPO+"/actions/runs?head_sha="+encodeURIComponent(sha)+"&per_page=20",env);
+  const runs=(result.workflow_runs||[]).filter(x=>x.path===".github/workflows/publicar.yml");
+  if(!runs.length) return {state:"queued",message:"Esperando que GitHub inicie la publicación."};
+  runs.sort((a,b)=>String(b.created_at||"").localeCompare(String(a.created_at||"")));
+  const run=runs[0];
+  if(run.status!=="completed") return {state:"running",message:"El sitio se está generando y publicando.",runUrl:run.html_url||""};
+  return {state:run.conclusion==="success"?"success":"failure",message:run.conclusion==="success"?"Los cambios ya están publicados.":"La publicación no terminó correctamente.",runUrl:run.html_url||"",conclusion:run.conclusion||""};
+}
 async function submitChange(env,mutate,title,description,imageUpload) {
   const pending=await reviews(env);
   if(pending.length) throw new AdminError(409,"Ya existe una propuesta editorial pendiente. Resuélvela antes de crear otra.",{pending});
@@ -172,6 +189,8 @@ async function dashboard(env,identity) {
 async function api(request,env,identity) {
   const url=new URL(request.url),path=url.pathname,method=request.method.toUpperCase();
   if(method==="GET"&&path==="/api/dashboard") return json(await dashboard(env,identity));
+  const deploymentMatch=path.match(/^\\/api\\/deployments\\/([a-f0-9]{40})$/i);
+  if(method==="GET"&&deploymentMatch) return json(await publicationStatus(env,deploymentMatch[1]));
   if(method==="GET"&&path==="/api/diagnostics") { const r=await readCache(env); return json(runDiagnostics(r.data)); }
   if(method==="POST"&&path==="/api/diagnostics/repair") { const r=await readCache(env); const count=normalizeSafeFields(r.data); if(!count) { const diag=runDiagnostics(r.data); return json({ok:true,changed:0,manualFindings:diag.findings.length,message:"No hay cambios de formato técnico pendientes. Las incidencias detectadas requieren revisión editorial: abre cada publicación con el botón de lápiz, añade o cambia la fotografía y completa sus fuentes según corresponda."}); } const pr=await submitChange(env,(cache,imageUrl)=>{normalizeSafeFields(cache);return cache;},"CEV NOTICIAS | Normalización técnica segura","normalización técnica segura"); return json({ok:true,changed:count,pr,message:"Propuesta de reparación técnica creada. Revisa y aprueba la solicitud antes de publicar."}); }
   if(method==="GET"&&path==="/api/health") {
@@ -202,7 +221,8 @@ async function api(request,env,identity) {
       if(!article)throw new AdminError(404,"La noticia ya no existe en la versión publicada.");
       if(imageUrl)fields.imagen=imageUrl;Object.assign(article,fields);return cache;
     },"CEV NOTICIAS | Editar noticia: "+fields.titulo.slice(0,85),"editar noticia "+id,body.imagenUpload);
-    return json({ok:true,message:"Cambios enviados a revisión editorial.",pr});
+    const deploySha=await publishEditorialProposal(env,pr);
+    return json({ok:true,message:"Cambios guardados. Publicación automática iniciada.",pr,deploySha});
   }
   if(match&&method==="DELETE"){
     const id=match[1];
