@@ -1390,7 +1390,7 @@ body.noche .breve-pie{{border-color:#49535e}}
     <div class="indicador-texto"><small>Clima actual · Cali</small><strong id="cev-clima-valor">Consultando…</strong><span id="cev-clima-detalle">Condiciones meteorológicas</span></div>
    </div>
    <div class="fuentes-indicadores">
-    <span>Datos de referencia · actualización automática</span>
+    <span>Datos de referencia · consulta automática cada 12 horas</span>
     <span><a href="https://www.datos.gov.co/Econom-a-y-Finanzas/Tasa-de-Cambio-Representativa-del-Mercado-TRM/32sa-8pi3" target="_blank" rel="noopener noreferrer">TRM: Superfinanciera</a> · <a href="https://open-meteo.com/" target="_blank" rel="noopener noreferrer">Clima: Open-Meteo</a></span>
    </div>
   </section>
@@ -1561,7 +1561,7 @@ body.noche .breve-pie{{border-color:#49535e}}
  actualizarTiemposRelativos();
  window.setInterval(actualizarTiemposRelativos,60000);
 
- // Indicadores: TRM diaria y condiciones meteorológicas de Cali.
+ // Indicadores: TRM oficial y clima de Cali; ambos se consultan al cargar y cada 12 horas.
  const trmValor=document.getElementById('cev-trm-valor');
  const trmVigencia=document.getElementById('cev-trm-vigencia');
  const climaValor=document.getElementById('cev-clima-valor');
@@ -1631,7 +1631,9 @@ body.noche .breve-pie{{border-color:#49535e}}
  }}
  cargarTRM();
  cargarClima();
- window.setInterval(cargarClima,30*60*1000);
+ const intervaloIndicadores=12*60*60*1000;
+ window.setInterval(cargarTRM,intervaloIndicadores);
+ window.setInterval(cargarClima,intervaloIndicadores);
 
 }})();
 </script>
