@@ -293,10 +293,13 @@ async function dashboard(env,identity) {
     automation:r[3],
     automationLimits:{
       articlesToday:r[4].fecha_articulos_dia===dateISOCO()?(Number(r[4].articulos_generados_dia)||0):0,
-      dailyArticleLimit:Number(r[4].limite_articulos_diario)||20,
+      dailyArticleLimit:Number(r[4].limite_articulos_diario)||30,
+      briefsToday:r[4].fecha_breves_dia===dateISOCO()?(Number(r[4].breves_generados_dia)||0):0,
+      dailyBriefLimit:Number(r[4].limite_breves_diario)||30,
+      maxBriefsPerRun:Number(r[4].limite_breves_ejecucion)||3,
       dailyRequests:r[4].fecha_solicitudes_groq===dateISOCO()?(Number(r[4].solicitudes_groq)||0):0,
-      dailyRequestLimit:Number(r[4].limite_solicitudes_diario)||40,
-      maxArticlesPerRun:Number(r[4].limite_articulos_ejecucion)||4,
+      dailyRequestLimit:Number(r[4].limite_solicitudes_diario)||60,
+      maxArticlesPerRun:Number(r[4].limite_articulos_ejecucion)||5,
       articleDate:r[4].fecha_articulos_dia||"",
       requestDate:r[4].fecha_solicitudes_groq||"",
       lastRequest:r[4].ultima_solicitud_groq||""
