@@ -1083,6 +1083,32 @@ def ejecutar():
     if not isinstance(estado_automatizacion, dict):
         estado_automatizacion = {}
 
+    # Si una propuesta fue rechazada desde el panel, no se vuelve a presentar
+    # el mismo material de origen durante las siguientes 72 horas.
+    ahora_descartes = datetime.now(timezone.utc)
+    fuentes_descartadas = []
+    for item in estado_automatizacion.get("fuentes_descartadas", []):
+        if not isinstance(item, dict):
+            continue
+        url_descartada = str(item.get("url", "")).strip()
+        fecha_descartada = fecha_a_timestamp(item.get("fecha"))
+        if url_descartada and fecha_descartada >= ahora_descartes.timestamp() - 72 * 3600:
+            fuentes_descartadas.append({"url": url_descartada, "fecha": str(item.get("fecha"))})
+    fuentes_descartadas_set = {item["url"] for item in fuentes_descartadas}
+    if fuentes_descartadas_set:
+        grupos_antes = len(grupos)
+        grupos = [
+            grupo for grupo in grupos
+            if not any(
+                str(fuente.get("url", "")).strip() in fuentes_descartadas_set
+                for fuente in grupo.get("fuentes", [])
+            )
+        ]
+        print(
+            f"Se omiten {grupos_antes - len(grupos)} grupos asociados a propuestas "
+            "rechazadas recientemente."
+        )
+
     # Los contadores viven en un archivo separado para que un borrador
     # descartado nunca reinicie el límite diario ni el intervalo del modelo.
     if estado_automatizacion.get("fecha_solicitudes_groq") == fecha_control:
@@ -1282,7 +1308,8 @@ def ejecutar():
         "articulos_generados_dia": articulos_hoy,
         "limite_articulos_diario": MAX_ARTICULOS_DIARIOS,
         "limite_solicitudes_diario": MAX_SOLICITUDES_DIARIAS,
-        "limite_articulos_ejecucion": MAX_ARTICULOS_POR_EJECUCION
+        "limite_articulos_ejecucion": MAX_ARTICULOS_POR_EJECUCION,
+        "fuentes_descartadas": fuentes_descartadas[-500:]
     })
 
     resultado = nuevas + publicadas
