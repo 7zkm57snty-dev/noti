@@ -1,0 +1,55 @@
+name: Validar panel administrativo CEV
+
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - "admin-worker/**"
+      - ".github/workflows/validar-panel-admin.yml"
+  push:
+    branches:
+      - "feature/panel-admin-cev-2026-11"
+    paths:
+      - "admin-worker/**"
+      - ".github/workflows/validar-panel-admin.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  validar:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: admin-worker
+    steps:
+      - name: Descargar código
+        uses: actions/checkout@v4
+
+      - name: Configurar Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Instalar Wrangler
+        run: npm install
+
+      - name: Validar sintaxis del Worker
+        run: node --check src/index.js
+
+      - name: Validar JavaScript de la interfaz
+        run: |
+          python - <<'PY'
+          import re
+          from pathlib import Path
+          html = Path("src/dashboard.html").read_text(encoding="utf-8")
+          scripts = re.findall(r"<script>(.*?)</script>", html, re.S)
+          if len(scripts) != 1:
+              raise SystemExit(f"Se esperaba un script principal; se encontraron {len(scripts)}")
+          Path("/tmp/cev-dashboard.js").write_text(scripts[0], encoding="utf-8")
+          print("Script de la interfaz extraído para validar.")
+          PY
+          node --check /tmp/cev-dashboard.js
+
+      - name: Compilar Worker sin desplegar
+        run: npx wrangler deploy --dry-run --outdir=/tmp/cev-admin-dry-run
