@@ -594,7 +594,7 @@ Devuelve exclusivamente JSON válido con esta estructura:
         return None
 
     palabras_articulo = len(contenido.split())
-    parrafos = [p.strip() for p in contenido.split("\\n\\n") if p.strip()]
+    parrafos = [p.strip() for p in contenido.split("\n\n") if p.strip()]
     enfoque_original = str(articulo.get("enfoque_original", "")).strip()
     hechos_clave = articulo.get("hechos_clave", [])
     hechos_clave = [
