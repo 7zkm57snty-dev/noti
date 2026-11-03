@@ -861,7 +861,7 @@ def crear_paginas_institucionales():
               <a class="volver" href="/">← Volver a la portada</a>
               <p class="etiqueta">CEV NOTICIAS · TRANSPARENCIA</p><h1>Política de privacidad y cookies</h1>
               <div class="cuerpo">
-                <p><strong>Última actualización:</strong> 3 de noviembre de 2026.</p>
+                <p><strong>Última actualización:</strong> 2 de noviembre de 2026.</p>
                 <h2>1. Alcance</h2><p>Esta política explica cómo CEV NOTICIAS utiliza tecnologías de medición y qué información técnica puede tratarse cuando visitas cevnoticias.com. El sitio puede actualizar esta política si cambian sus herramientas o servicios.</p>
                 <h2>2. Medición de audiencia</h2><p>CEV NOTICIAS utiliza Google Analytics 4 para conocer de forma estadística cómo se utiliza el sitio. Esta herramienta puede tratar datos como páginas visitadas, duración aproximada de la visita, tipo de dispositivo y navegador, fuente de llegada y ubicación geográfica aproximada. Google puede utilizar cookies u otras tecnologías para prestar el servicio, conforme a sus propias condiciones y políticas.</p>
                 <p>Más información: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Política de privacidad de Google</a> y <a href="https://support.google.com/analytics/answer/6004245" target="_blank" rel="noopener noreferrer">cómo protege Google Analytics los datos</a>.</p>
