@@ -201,7 +201,11 @@ def imagen_noticia(noticia, alt="", clase="", loading="lazy", prioridad=False):
     """
     fotografia = foto_local_noticia(noticia)
     if fotografia:
-        clases = " ".join(parte for parte in (clase, "imagen-editorial") if parte)
+        credito = noticia.get("imagen_credito") or {}
+        clases_base = [clase, "imagen-editorial"]
+        if clase == "foto" and str(credito.get("tipo", "")).lower().startswith("retrato"):
+            clases_base.append("foto-retrato")
+        clases = " ".join(parte for parte in clases_base if parte)
         clase_html = f' class="{escapar(clases)}"' if clases else ""
         prioridad_html = ' fetchpriority="high"' if prioridad else ""
         return (
@@ -241,7 +245,10 @@ def tarjeta(noticia, posicion=0, ruta_raiz=""):
     identificador = escapar(noticia.get("id"))
     visual = imagen_noticia(noticia, alt=titulo)
     clase_sin_imagen = "" if visual else " tarjeta-sin-imagen"
-    bloque_imagen = f'<div class="tarjeta-imagen">{visual}</div>' if visual else ""
+    credito_visual = noticia.get("imagen_credito") or {}
+    tipo_visual = str(credito_visual.get("tipo", "")).lower()
+    sello_visual = '<span class="sello-foto">Imagen de referencia</span>' if tipo_visual.startswith("imagen de referencia") else ""
+    bloque_imagen = f'<div class="tarjeta-imagen">{visual}{sello_visual}</div>' if visual else ""
     marca_tiempo = tiempo_relativo_html(noticia, str(noticia.get("fecha", "")))
     return f"""
     <article class="tarjeta tarjeta-vertical{clase_sin_imagen}">
@@ -491,7 +498,23 @@ def tarjeta_breve(breve):
     fecha_texto = datetime.fromtimestamp(fecha, COLOMBIA_TZ).strftime("%d/%m · %I:%M %p") if fecha else ""
     marca_tiempo = tiempo_relativo_html(breve, fecha_texto)
     visual = imagen_noticia(breve, alt=titulo, clase="breve-foto")
-    bloque_visual = f'<div class="breve-imagen">{visual}</div>' if visual else ""
+    credito_visual = breve.get("imagen_credito") or {}
+    tipo_visual = str(credito_visual.get("tipo", "")).lower()
+    sello_visual = '<span class="sello-foto">Imagen de referencia</span>' if tipo_visual.startswith("imagen de referencia") else ""
+    bloque_visual = f'<div class="breve-imagen">{visual}{sello_visual}</div>' if visual else ""
+    autor_visual = escapar(credito_visual.get("autor", ""))
+    fuente_visual = escapar(credito_visual.get("fuente", ""))
+    pagina_visual = imagen_segura(credito_visual.get("pagina", ""))
+    licencia_visual = imagen_segura(credito_visual.get("licencia_url", ""))
+    enlaces_visual = []
+    if pagina_visual:
+        enlaces_visual.append(f'<a href="{pagina_visual}" target="_blank" rel="noopener noreferrer">fuente de imagen</a>')
+    if licencia_visual:
+        enlaces_visual.append(f'<a href="{licencia_visual}" target="_blank" rel="noopener noreferrer">licencia</a>')
+    credito_visual_html = (
+        f'<p class="credito-imagen-mini">Imagen: {autor_visual} · {fuente_visual} {" · ".join(enlaces_visual)}</p>'
+        if autor_visual or fuente_visual else ""
+    )
     nombres = []
     for fuente in breve.get("fuentes", []):
         nombre = str(fuente.get("nombre", "")).strip()
@@ -501,6 +524,7 @@ def tarjeta_breve(breve):
     return f"""
     <article class="breve-actualidad">
       {bloque_visual}
+      {credito_visual_html}
       <div class="breve-etiquetas">
         <span class="breve-estado">{etiqueta}</span>
         <span class="breve-categoria">{ambito} · {categoria}</span>
@@ -1275,6 +1299,15 @@ body.noche .breve-pie{{border-color:#49535e}}
  .breve-imagen{{max-width:none;aspect-ratio:16/9}}
 }}
 
+ 
+/* Créditos discretos y etiquetas de referencia sin alterar el encuadre. */
+.tarjeta-imagen,.breve-imagen{{position:relative}}
+.sello-foto{{position:absolute;z-index:3;left:8px;bottom:8px;padding:4px 7px;border-radius:4px;background:rgba(19,31,43,.72);color:#fff;font-size:8px;font-weight:700;letter-spacing:.25px;line-height:1.2;pointer-events:none}}
+.credito-imagen-mini{{margin:4px 0 10px;color:#73808b;font-size:9px;line-height:1.4;overflow-wrap:anywhere}}
+.credito-imagen-mini a{{color:inherit;text-decoration:underline;text-underline-offset:2px}}
+.articulo .foto-retrato{{display:block;width:auto;height:auto;max-width:100%;max-height:640px;aspect-ratio:auto;object-fit:contain;margin:25px auto 8px}}
+@media(max-width:700px){{.credito-imagen-mini{{font-size:8px}}}}
+
 </style>
 </head>
 <body>
@@ -1568,6 +1601,7 @@ def crear_articulo(noticia, noticias=None):
         autor = escapar(credito.get("autor", "Autor no identificado"))
         origen = escapar(credito.get("fuente", "Archivo de imágenes"))
         licencia = escapar(credito.get("licencia", "Consultar licencia"))
+        tipo_imagen = escapar(credito.get("tipo", "Fotografía de archivo"))
         pagina_imagen = imagen_segura(credito.get("pagina", ""))
         licencia_url = imagen_segura(credito.get("licencia_url", ""))
         enlaces_credito = []
@@ -1576,7 +1610,7 @@ def crear_articulo(noticia, noticias=None):
         if licencia_url:
             enlaces_credito.append(f'<a href="{licencia_url}" target="_blank" rel="noopener">licencia</a>')
         extras = " · ".join(enlaces_credito)
-        atribucion_imagen = f'<p class="credito-imagen">Imagen: {autor} · {origen} · {licencia} {extras}</p>'
+        atribucion_imagen = f'<p class="credito-imagen">{tipo_imagen}: {autor} · {origen} · {licencia} {extras}</p>'
     parrafos = "".join(f"<p>{escapar(p.strip())}</p>" for p in contenido.split("\n\n") if p.strip())
     noticias = noticias or [noticia]
     def palabras(texto):
