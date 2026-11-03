@@ -282,14 +282,7 @@ def plantilla(titulo, contenido, descripcion="CEV NOTICIAS", ruta_raiz="", extra
     return f"""<!DOCTYPE html>
 <html lang="es">
 <head>
-<!-- Google Analytics 4: CEV NOTICIAS -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-ERGNTK4W26"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){{dataLayer.push(arguments);}}
-  gtag('js', new Date());
-  gtag('config', 'G-ERGNTK4W26');
-</script>
+<!-- Google Analytics 4 solo se carga después de aceptar la analítica opcional. -->
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="theme-color" content="#f7f6f2">
@@ -532,6 +525,27 @@ body.noche .relacionadas .tarjeta{{background:#222;border-color:#484848}}
  .articulo h1{{font-size:41px}}
  .articulo .cuerpo{{font-size:18px}}
 }}
+.cev-cookie-banner{{position:fixed;z-index:10000;left:18px;bottom:18px;width:min(680px,calc(100vw - 36px));max-height:min(78vh,560px);overflow:auto;background:#fff;color:#171717;border:1px solid #cfc9bf;border-top:4px solid #b5282f;border-radius:10px;box-shadow:0 12px 38px rgba(0,0,0,.22);padding:20px;font:14px/1.55 'DM Sans',Arial,sans-serif}}
+.cev-cookie-banner h2{{font:700 19px/1.2 'Playfair Display',Georgia,serif;margin:0 0 8px;color:#171717}}
+.cev-cookie-banner p{{margin:7px 0;color:#444;font-size:13px}}
+.cev-cookie-banner a{{text-decoration:underline;text-underline-offset:3px;color:#8e1e25}}
+.cev-cookie-actions{{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}}
+.cev-cookie-actions button,.cev-cookie-options button{{border:1px solid #242424;border-radius:5px;padding:10px 13px;background:#fff;color:#171717;font:700 12px 'DM Sans',Arial,sans-serif;cursor:pointer}}
+.cev-cookie-actions .principal{{background:#b5282f;border-color:#b5282f;color:#fff}}
+.cev-cookie-actions button:hover,.cev-cookie-options button:hover{{filter:brightness(.95)}}
+.cev-cookie-options{{margin-top:14px;padding-top:13px;border-top:1px solid #dedbd4}}
+.cev-cookie-options label{{display:flex;align-items:flex-start;gap:9px;margin:10px 0;font-size:13px}}
+.cev-cookie-options input{{margin-top:3px;accent-color:#b5282f}}
+.cev-cookie-settings{{border:0;background:transparent;color:inherit;text-decoration:underline;text-underline-offset:3px;cursor:pointer;font:inherit;padding:5px 0}}
+body.noche .cev-cookie-banner{{background:#202020;color:#f5f5f5;border-color:#555}}
+body.noche .cev-cookie-banner h2,body.noche .cev-cookie-banner p{{color:#f1f1f1}}
+body.noche .cev-cookie-actions button,body.noche .cev-cookie-options button{{background:#292929;color:#fff;border-color:#aaa}}
+body.noche .cev-cookie-actions .principal{{background:#b5282f;border-color:#b5282f}}
+@media(max-width:600px){{
+ .cev-cookie-banner{{left:10px;bottom:10px;width:calc(100vw - 20px);padding:15px}}
+ .cev-cookie-actions{{display:grid;grid-template-columns:1fr}}
+ .cev-cookie-actions button{{width:100%}}
+}}
 </style>
 </head>
 <body>
@@ -570,7 +584,24 @@ body.noche .relacionadas .tarjeta{{background:#222;border-color:#484848}}
   <a href="{ruta_raiz}correcciones.html">Correcciones</a>
   <a href="{ruta_raiz}politica-de-privacidad.html">Privacidad y cookies</a>
  </nav>
+ <button type="button" class="cev-cookie-settings" id="cev-cookie-settings">Configurar cookies</button>
 </footer>
+
+<section class="cev-cookie-banner" id="cev-cookie-banner" role="dialog" aria-modal="false" aria-labelledby="cev-cookie-title" aria-describedby="cev-cookie-description" hidden>
+ <h2 id="cev-cookie-title">Privacidad y cookies</h2>
+ <p id="cev-cookie-description">CEV NOTICIAS usa almacenamiento necesario para recordar tu elección. Google Analytics solo se activa si autorizas las cookies de analítica. Actualmente no mostramos publicidad ni activamos cookies publicitarias.</p>
+ <p>Consulta nuestra <a href="{ruta_raiz}politica-de-privacidad.html">política de privacidad y cookies</a>.</p>
+ <div class="cev-cookie-actions">
+  <button class="principal" id="cev-cookie-accept" type="button">Aceptar analítica</button>
+  <button id="cev-cookie-reject" type="button">Rechazar opcionales</button>
+  <button id="cev-cookie-configure" type="button" aria-expanded="false" aria-controls="cev-cookie-options">Configurar</button>
+ </div>
+ <div class="cev-cookie-options" id="cev-cookie-options" hidden>
+  <label><input type="checkbox" checked disabled> Almacenamiento necesario para recordar tu elección (siempre activo).</label>
+  <label><input type="checkbox" id="cev-cookie-analytics"> Analítica opcional: permite que Google Analytics mida el uso del sitio.</label>
+  <button id="cev-cookie-save" type="button">Guardar preferencias</button>
+ </div>
+</section>
 
 <div class="progreso-lectura" id="progreso-lectura"></div>
 <button class="volver-arriba" id="volver-arriba" type="button" aria-label="Volver arriba" title="Volver arriba">↑</button>
@@ -683,6 +714,7 @@ body.noche .relacionadas .tarjeta{{background:#222;border-color:#484848}}
  if(arriba)arriba.addEventListener('click',()=>window.scrollTo({{top:0,behavior:'smooth'}}));
 }})();
 </script>
+<script src="{ruta_raiz}cookies.js" defer></script>
 </body>
 </html>"""
 
@@ -861,7 +893,7 @@ def crear_paginas_institucionales():
               <div class="cuerpo">
                 <p><strong>CEV NOTICIAS</strong> es un proyecto digital independiente de carácter personal. Actualmente no está constituido como empresa ni como sociedad.</p>
                 <p>La firma institucional <strong>Redacción CEV NOTICIAS</strong> identifica la autoría editorial de las publicaciones que no llevan la firma de una persona. Su uso no significa que exista una plantilla o un equipo de periodistas: es la firma del medio.</p>
-                <p>Los contenidos pueden apoyarse en herramientas automatizadas para localizar fuentes públicas, organizar información y preparar borradores. Estas herramientas no son autores humanos ni garantizan por sí solas la exactitud de una noticia. Las fuentes consultadas se identifican en cada publicación.</p>
+                <p>Los contenidos pueden apoyarse en herramientas automatizadas para localizar fuentes públicas, organizar información y preparar borradores. Antes de incorporarse a la edición pública, los nuevos artículos pasan por una revisión humana breve de titular, datos principales, fuentes y pertinencia de la imagen. Esta revisión no constituye una garantía absoluta de que no existan errores. Las fuentes consultadas se identifican en cada publicación.</p>
                 <p>Para consultas editoriales, puedes escribir a <a href="mailto:cevnoticiascontacto@gmail.com">cevnoticiascontacto@gmail.com</a>.</p>
                 <p>Cuando un artículo tenga un autor individual, su nombre y la información profesional correspondiente deberán aparecer en la propia publicación. Para conocer nuestros criterios, consulta la <a href="/politica-editorial.html">Política editorial</a>.</p>
               </div></main>"""
@@ -876,7 +908,7 @@ def crear_paginas_institucionales():
                 <p><strong>CEV NOTICIAS</strong> es un proyecto digital independiente de carácter personal, no constituido como empresa ni sociedad. Es un medio de actualidad con especial atención a Cali y el Valle del Cauca, Colombia y los acontecimientos internacionales de interés para el público hispanohablante.</p>
                 <p>Nuestro propósito es facilitar el acceso a información reciente mediante noticias organizadas por temas, contexto y referencias a las fuentes consultadas.</p>
                 <h2>Qué publicamos</h2><p>Cubrimos actualidad local, regional, nacional e internacional, además de deportes, tecnología, economía y tendencias. La selección de temas responde a su relevancia pública y a la disponibilidad de información verificable.</p>
-                <h2>Cómo trabajamos</h2><p>Utilizamos fuentes identificables y herramientas digitales para apoyar el seguimiento de la actualidad y la preparación de contenidos. La automatización puede ayudar a recopilar y organizar información, pero no constituye por sí sola una verificación independiente. Identificamos las fuentes disponibles y ofrecemos un canal para reportar errores o solicitar aclaraciones.</p>
+                <h2>Cómo trabajamos</h2><p>Utilizamos fuentes identificables y herramientas digitales para apoyar el seguimiento de la actualidad y la preparación de contenidos. La automatización puede ayudar a recopilar y organizar información, pero no constituye por sí sola una verificación independiente. Los artículos nuevos pasan por una aprobación humana breve antes de publicarse. Identificamos las fuentes disponibles y ofrecemos un canal para reportar errores o solicitar aclaraciones.</p>
                 <p>Cuando una publicación es un titular recopilado y no un artículo propio, se identifica como tal y se enlaza al medio de origen.</p>
               </div></main>"""
         ),
@@ -903,10 +935,10 @@ def crear_paginas_institucionales():
               <div class="cuerpo">
                 <p><strong>Última actualización:</strong> 3 de noviembre de 2026.</p>
                 <h2>1. Responsable y alcance</h2><p>CEV NOTICIAS es un proyecto digital independiente de carácter personal, administrado por una persona natural y no constituido como empresa o sociedad. El responsable del tratamiento es la persona natural que administra el proyecto bajo la marca CEV NOTICIAS. El canal electrónico para consultas y solicitudes es <a href="mailto:cevnoticiascontacto@gmail.com">cevnoticiascontacto@gmail.com</a>.</p><p>Esta política explica qué información puede tratarse al visitar cevnoticias.com o al comunicarse voluntariamente con el medio. No se ofrece un formulario de registro ni se solicita crear una cuenta para leer las publicaciones.</p>
-                <h2>2. Información y finalidades</h2><p>Al navegar por el sitio, las herramientas de medición pueden tratar datos técnicos y de uso, como páginas visitadas, duración aproximada de la visita, tipo de dispositivo y navegador, fuente de llegada y ubicación geográfica aproximada. Si escribes al correo o a Instagram, podremos tratar los datos que decidas incluir —por ejemplo, nombre de usuario, dirección de correo, contenido del mensaje y archivos adjuntos— para responder consultas, recibir información periodística, revisar reportes de errores y gestionar solicitudes.</p><p>Evita enviar datos sensibles o información de terceros que no sea necesaria. No utilizamos los mensajes recibidos para publicar datos personales sin una revisión de pertinencia y una base legítima para hacerlo.</p>
-                <h2>3. Medición de audiencia</h2><p>CEV NOTICIAS utiliza Google Analytics 4 para conocer de forma estadística cómo se utiliza el sitio y mejorar su funcionamiento. Google puede tratar identificadores en línea, datos de dispositivo, eventos de navegación y otros datos técnicos conforme a la configuración del servicio y sus propias políticas.</p><p>Más información: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Política de privacidad de Google</a> y <a href="https://support.google.com/analytics/answer/6004245" target="_blank" rel="noopener noreferrer">cómo protege Google Analytics los datos</a>.</p>
-                <h2>4. Cookies y tecnologías similares</h2><p>El sitio utiliza tecnologías relacionadas con Google Analytics 4, que pueden almacenar o leer identificadores y cookies en el navegador. También pueden existir cookies técnicas necesarias para el funcionamiento del servicio o preferencias del navegador. Puedes administrar o eliminar cookies desde la configuración de tu navegador; bloquearlas puede afectar algunas mediciones.</p>
-                <h2>5. Publicidad de terceros</h2><p>A la fecha de esta actualización, CEV NOTICIAS no tiene código de anuncios de Google AdSense implementado. Si en el futuro se incorporan anuncios u otros proveedores publicitarios, esta política se actualizará para identificar las tecnologías y finalidades pertinentes. Antes de activar publicidad se implementarán los avisos y mecanismos de consentimiento que correspondan, incluidos los requisitos aplicables a visitantes del Espacio Económico Europeo, Reino Unido y Suiza.</p>
+                <h2>2. Información y finalidades</h2><p>Si aceptas la analítica opcional, Google Analytics puede tratar datos técnicos y de uso, como páginas visitadas, duración aproximada de la visita, tipo de dispositivo y navegador, fuente de llegada y ubicación geográfica aproximada. Si escribes al correo o a Instagram, podremos tratar los datos que decidas incluir —por ejemplo, nombre de usuario, dirección de correo, contenido del mensaje y archivos adjuntos— para responder consultas, recibir información periodística, revisar reportes de errores y gestionar solicitudes.</p><p>Evita enviar datos sensibles o información de terceros que no sea necesaria. No utilizamos los mensajes recibidos para publicar datos personales sin una revisión de pertinencia y una base legítima para hacerlo.</p>
+                <h2>3. Medición de audiencia</h2><p>Google Analytics 4 solo se carga después de que el visitante acepta expresamente la analítica opcional. Si la rechaza, la etiqueta de Google no se carga y no se envían datos de Analytics. Si posteriormente retira su elección desde «Configurar cookies», se actualiza el estado de consentimiento y el sitio intenta eliminar las cookies de Analytics que estén disponibles en el dominio.</p><p>Cuando se autoriza la medición, Google puede tratar identificadores en línea, datos de dispositivo, eventos de navegación y otros datos técnicos conforme a la configuración del servicio y sus propias políticas. Más información: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Política de privacidad de Google</a> y <a href="https://support.google.com/analytics/answer/6004245" target="_blank" rel="noopener noreferrer">cómo protege Google Analytics los datos</a>.</p>
+                <h2>4. Cookies y tecnologías similares</h2><p>El sitio utiliza almacenamiento local del navegador para recordar la preferencia de consentimiento. Este almacenamiento es necesario para respetar la elección del visitante en páginas posteriores. Las cookies de analítica de Google Analytics (por ejemplo, identificadores que comienzan por «_ga») solo se habilitan cuando el visitante acepta la opción de analítica. Puedes rechazarla o cambiar tu decisión desde el botón «Configurar cookies» del pie de página. También puedes borrar los datos guardados desde la configuración de tu navegador; al hacerlo, volverá a mostrarse el aviso de consentimiento.</p>
+                <h2>5. Publicidad de terceros</h2><p>A la fecha de esta actualización, CEV NOTICIAS no tiene código de anuncios de Google AdSense implementado ni instala cookies publicitarias. Si en el futuro se incorporan anuncios u otros proveedores publicitarios, esta política se actualizará para identificar las tecnologías y finalidades pertinentes. Antes de activar publicidad se implementará una CMP certificada por Google e integrada con el TCF cuando resulte exigible para visitantes del Espacio Económico Europeo, Reino Unido y Suiza, además de los demás avisos y mecanismos de consentimiento aplicables.</p>
                 <h2>6. Proveedores y enlaces externos</h2><p>Google presta el servicio de medición de audiencia bajo sus propias condiciones y políticas. Las noticias también pueden enlazar a sitios de terceros. CEV NOTICIAS no controla las políticas de privacidad, cookies ni prácticas de tratamiento de esos sitios; consulta sus avisos antes de compartir información.</p>
                 <h2>7. Conservación y seguridad</h2><p>Los mensajes recibidos se conservarán durante el tiempo necesario para responder, tramitar la solicitud y mantener un registro razonable de la gestión, salvo que exista una obligación legal de conservación por más tiempo. Se procurará limitar el acceso a la información y evitar su divulgación no autorizada. Los periodos de conservación de datos gestionados por proveedores externos, como Google Analytics, se rigen también por la configuración disponible en esos servicios.</p>
                 <h2>8. Derechos y solicitudes</h2><p>Cuando resulte aplicable la legislación colombiana de protección de datos personales, puedes solicitar conocer, actualizar y rectificar tus datos; pedir información sobre su uso; solicitar prueba de la autorización cuando corresponda; presentar consultas o reclamos; y solicitar la revocatoria de la autorización o la supresión del dato en los casos previstos por la ley.</p><p>Para presentar una consulta o reclamo, escribe a <a href="mailto:cevnoticiascontacto@gmail.com">cevnoticiascontacto@gmail.com</a>. Incluye el asunto «Protección de datos», describe claramente tu petición y aporta la información mínima necesaria para localizar los datos. También puedes utilizar Instagram <a href="https://www.instagram.com/cev.noticias/" target="_blank" rel="noopener noreferrer">@cev.noticias</a>. Las personas titulares pueden acudir a la Superintendencia de Industria y Comercio cuando proceda, después de agotar la consulta o reclamo ante el responsable.</p>
@@ -922,7 +954,7 @@ def crear_paginas_institucionales():
               <div class="cuerpo">
                 <h2>1. Principios</h2><p>CEV NOTICIAS busca ofrecer información clara, relevante y atribuida. Procuramos distinguir los hechos confirmados, los datos preliminares, las opiniones y la información que continúa en desarrollo.</p>
                 <h2>2. Fuentes y atribución</h2><p>Priorizamos documentos, comunicados y datos de primera mano cuando están disponibles, junto con medios y organizaciones identificables. Los enlaces a las fuentes se incluyen para que los lectores puedan consultar el material original. La existencia de varias fuentes no garantiza por sí sola que sean independientes ni que todos los datos estén confirmados.</p>
-                <h2>3. Herramientas automatizadas</h2><p>El seguimiento de noticias y la preparación de algunos contenidos pueden apoyarse en sistemas automatizados y herramientas de inteligencia artificial. Estas herramientas pueden cometer errores, omitir contexto o interpretar incorrectamente una fuente. La automatización no debe presentarse como una verificación humana ni como una garantía de exactitud.</p>
+                <h2>3. Herramientas automatizadas y revisión humana</h2><p>El seguimiento de noticias y la preparación de borradores pueden apoyarse en sistemas automatizados y herramientas de inteligencia artificial. Estas herramientas pueden cometer errores, omitir contexto o interpretar incorrectamente una fuente. Los artículos nuevos se presentan en una propuesta de publicación y no pasan al sitio público hasta que una persona revise el titular, los datos principales, las fuentes y la pertinencia y atribución de la imagen, y apruebe la propuesta. La revisión humana reduce riesgos, pero no garantiza que nunca existan errores.</p>
                 <h2>4. Titulares recopilados y contenido propio</h2><p>Un titular que remite a una publicación externa no se presenta como una investigación propia de CEV NOTICIAS. Cuando elaboramos un artículo a partir de fuentes consultadas, identificamos esas fuentes y enlazamos a sus publicaciones. Respetamos los derechos de autor y no pretendemos atribuirnos fotografías ni textos ajenos.</p>
                 <h2>5. Imágenes</h2><p>Procuramos utilizar imágenes con permisos de reutilización adecuados y mostrar la atribución o licencia cuando corresponda. Una imagen ilustrativa no debe interpretarse como prueba visual del hecho si no corresponde al acontecimiento descrito.</p>
                 <h2>6. Publicidad y contenido patrocinado</h2><p>Si se incorporan anuncios, patrocinios o enlaces de afiliados, deberán distinguirse visualmente del contenido periodístico. La publicidad no debe confundirse con una noticia ni condicionar la presentación de los hechos.</p>
@@ -978,7 +1010,7 @@ def validar_archivos_publicados(noticias):
     faltantes = []
     esperados = [SITE / "index.html"]
     esperados.extend(SITE / nombre for nombre in ("quienes-somos.html", "redaccion.html", "contacto.html", "politica-de-privacidad.html", "politica-editorial.html", "correcciones.html"))
-    esperados.extend([SITE / "sitemap.xml", SITE / "robots.txt"])
+    esperados.extend([SITE / "sitemap.xml", SITE / "robots.txt", SITE / "cookies.js"])
     esperados.extend(NOTAS / f"{noticia['id']}.html" for noticia in noticias)
     esperados.extend(SITE / "secciones" / f"{slug(seccion)}.html" for seccion in SECCIONES)
     esperados.extend(
@@ -1187,6 +1219,10 @@ def construir():
     )
     portada_head = '<link rel="canonical" href="https://cevnoticias.com/"><meta property="og:type" content="website"><meta property="og:title" content="CEV NOTICIAS | Actualidad y periodismo">'
     (SITE / "index.html").write_text(plantilla("Portada", contenido, "Noticias de Cali, Valle del Cauca, Colombia y el mundo.", extra_head=portada_head, seccion_actual="Portada"), encoding="utf-8")
+    recurso_cookies = BASE / "cookies.js"
+    if not recurso_cookies.is_file():
+        raise RuntimeError("No se encontró cookies.js; no se puede publicar el gestor de consentimiento.")
+    shutil.copy2(recurso_cookies, SITE / "cookies.js")
     paginas_institucionales = ["quienes-somos.html", "redaccion.html", "contacto.html", "politica-de-privacidad.html", "politica-editorial.html", "correcciones.html"]
     urls = (["https://cevnoticias.com/"]
             + [f"https://cevnoticias.com/notas/{n['id']}.html" for n in validas]
