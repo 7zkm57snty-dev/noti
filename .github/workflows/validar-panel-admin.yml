@@ -104,7 +104,7 @@ jobs:
                   "titulo": "CEV NOTICIAS explica un acontecimiento local de prueba",
                   "resumen": "Una cobertura propia de prueba que explica el acontecimiento y su relevancia para Cali.",
                   "categoria": "Cali",
-                  "contenido": "\\n\\n".join([parrafo] * 5),
+                  "contenido": "\n\n".join([parrafo] * 5),
                   "fecha": "03/11/2026 · 08:00 AM",
                   "fuentes": [{
                       "nombre": "Fuente de prueba",
