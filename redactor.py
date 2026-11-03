@@ -1261,6 +1261,21 @@ def ejecutar():
     print("Noticias nuevas para revisar:", len(entradas_nuevas))
 
     grupos = agrupar_noticias(entradas_nuevas)
+    grupos_antes_enfoque = len(grupos)
+    grupos = [
+        grupo for grupo in grupos
+        if categoria_titular_rss({
+            "titulo": grupo.get("titulo", ""),
+            "fuente": " ".join(
+                str(f.get("fuente", "")) for f in grupo.get("fuentes", [])
+                if isinstance(f, dict)
+            )
+        }) != "Internacional"
+    ]
+    print(
+        "Grupos internacionales sin repercusión colombiana excluidos:",
+        grupos_antes_enfoque - len(grupos)
+    )
     grupos.sort(
         key=lambda grupo: (prioridad_regional(grupo), fecha_mas_reciente_grupo(grupo)),
         reverse=True
