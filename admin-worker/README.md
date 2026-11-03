@@ -57,7 +57,15 @@ Después de que Cloudflare despliegue la versión y el secreto exista, abre `htt
 - Editar y solicitar retiro de artículos.
 - Buscar y filtrar noticias.
 - Aprobar o rechazar propuestas.
-- Validaciones de titular, resumen, categoría, 250 palabras, enlaces HTTPS, doble fuente para temas sensibles y atribución completa de fotografías.
+- Validaciones de titular, resumen, categoría, 300 palabras, enlaces HTTPS, doble fuente para temas sensibles y atribución completa de fotografías.
+
+## Monitor de automatización y fuentes
+
+- El resumen muestra las últimas ejecuciones del recolector RSS, su estado y enlace al detalle de GitHub Actions.
+- El directorio de fuentes lista los RSS configurados y distingue los que respondieron, los que no devolvieron entradas y los que fallaron.
+- El registro de cada fuente indica las entradas recibidas y los titulares recientes que superaron el filtro de fecha.
+- La automatización puede preparar hasta cuatro artículos por ejecución, sujeta al límite diario de 40 solicitudes, revisión editorial y filtros de calidad.
+- El catálogo técnico de sismos del Servicio Geológico Colombiano no se procesa como RSS editorial: requiere un conector de datos estructurados independiente.
 
 ## Funciones posteriores
 

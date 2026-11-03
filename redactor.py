@@ -24,9 +24,9 @@ FEEDS = os.path.join(BASE, "feeds.json")
 
 MODELO = "openai/gpt-oss-20b"
 MAX_NOTICIAS = 20
-MAX_ARTICULOS_POR_EJECUCION = 3
-MAX_SOLICITUDES_POR_EJECUCION = 3
-MAX_GRUPOS_REVISADOS_POR_EJECUCION = 20
+MAX_ARTICULOS_POR_EJECUCION = 4
+MAX_SOLICITUDES_POR_EJECUCION = 4
+MAX_GRUPOS_REVISADOS_POR_EJECUCION = 24
 MINUTOS_ENTRE_SOLICITUDES = 20
 MAX_SOLICITUDES_DIARIAS = 40
 MAX_TITULARES_POR_CATEGORIA = 10
@@ -159,15 +159,26 @@ def obtener_fuentes():
         configuracion = configuracion.get("feeds", [])
 
     resultados = []
-    limite = datetime.now(timezone.utc) - timedelta(
-        hours=MAX_EDAD_HORAS
-    )
+    estado_fuentes = []
+    limite = datetime.now(timezone.utc) - timedelta(hours=MAX_EDAD_HORAS)
 
     for feed in configuracion:
-        url_feed = feed.get("url")
-        nombre = feed.get("nombre", "Fuente")
+        url_feed = str(feed.get("url", "")).strip()
+        nombre = str(feed.get("nombre", "Fuente")).strip()
+        zona = str(feed.get("zona", "Nacional / internacional")).strip()
+        consulta = datetime.now(timezone.utc).isoformat()
 
         if not url_feed:
+            estado_fuentes.append({
+                "nombre": nombre,
+                "url": "",
+                "zona": zona,
+                "estado": "error",
+                "entradas_rss": 0,
+                "titulares_vigentes": 0,
+                "ultima_consulta": consulta,
+                "error": "La fuente no tiene una URL configurada."
+            })
             continue
 
         try:
@@ -177,11 +188,21 @@ def obtener_fuentes():
                 timeout=20
             )
             respuesta.raise_for_status()
-
             datos = feedparser.parse(respuesta.content)
+            titulares_vigentes = 0
 
             if not datos.entries:
                 print("RSS sin noticias:", nombre)
+                estado_fuentes.append({
+                    "nombre": nombre,
+                    "url": url_feed,
+                    "zona": zona,
+                    "estado": "sin_entradas",
+                    "entradas_rss": 0,
+                    "titulares_vigentes": 0,
+                    "ultima_consulta": consulta,
+                    "error": "La respuesta no contiene entradas RSS/Atom."
+                })
                 continue
 
             print(
@@ -199,13 +220,10 @@ def obtener_fuentes():
                 if fecha < limite:
                     continue
 
-                titulo = entrada.get("title", "").strip()
-                enlace = entrada.get("link", "").strip()
+                titulo = str(entrada.get("title", "")).strip()
+                enlace = str(entrada.get("link", "")).strip()
 
-                if not titulo:
-                    continue
-
-                if not enlace.startswith(("https://", "http://")):
+                if not titulo or not enlace.startswith(("https://", "http://")):
                     continue
 
                 resultados.append({
@@ -215,17 +233,45 @@ def obtener_fuentes():
                     "fecha": fecha.isoformat(),
                     "imagen": url_imagen_entrada(entrada)
                 })
+                titulares_vigentes += 1
+
+            estado_fuentes.append({
+                "nombre": nombre,
+                "url": url_feed,
+                "zona": zona,
+                "estado": "ok",
+                "entradas_rss": len(datos.entries),
+                "titulares_vigentes": titulares_vigentes,
+                "ultima_consulta": consulta,
+                "error": ""
+            })
 
         except Exception as error:
-            print(f"No se pudo leer {nombre}: {error}")
+            mensaje = f"{type(error).__name__}: {str(error)[:160]}"
+            print(f"No se pudo leer {nombre}: {mensaje}")
+            estado_fuentes.append({
+                "nombre": nombre,
+                "url": url_feed,
+                "zona": zona,
+                "estado": "error",
+                "entradas_rss": 0,
+                "titulares_vigentes": 0,
+                "ultima_consulta": consulta,
+                "error": mensaje
+            })
 
     resultados.sort(
         key=lambda noticia: noticia["fecha"],
         reverse=True
     )
 
-    print("Total de noticias encontradas en RSS:", len(resultados))
-    return resultados
+    total_ok = sum(1 for f in estado_fuentes if f["estado"] == "ok")
+    total_error = sum(1 for f in estado_fuentes if f["estado"] != "ok")
+    print(
+        f"Total de noticias encontradas en RSS: {len(resultados)} | "
+        f"Fuentes activas: {total_ok} | Fuentes con incidencias: {total_error}"
+    )
+    return resultados, estado_fuentes
 
 
 def extraer_articulo(url):
@@ -329,7 +375,7 @@ def prioridad_regional(grupo):
     texto = f"{titulo} {nombres}"
 
     puntos = 0
-    if any(nombre in nombres for nombre in ("el tiempo cali", "90 minutos", "diario occidente")):
+    if any(nombre in nombres for nombre in ("el tiempo cali", "90 minutos", "diario occidente", "qhubo cali")):
         puntos += 12
 
     localidades = (
@@ -797,7 +843,7 @@ def categoria_titular_rss(entrada):
         return "Valle del Cauca"
     if re.search(r"\bcali\b", titulo) or fuente == "el tiempo cali":
         return "Cali"
-    if "90 minutos" in fuente or "diario occidente" in fuente:
+    if "90 minutos" in fuente or "diario occidente" in fuente or "qhubo cali" in fuente:
         return "Valle del Cauca"
 
     if "la fm economía" in fuente or "portafolio" in fuente or any(p in titulo for p in (
@@ -953,7 +999,7 @@ def ejecutar():
         for noticia in publicadas
     ]
 
-    entradas = obtener_fuentes()
+    entradas, estado_fuentes = obtener_fuentes()
     titulares_rss = construir_titulares_rss(
         entradas,
         publicadas,
@@ -1154,6 +1200,7 @@ def ejecutar():
     guardar_json(CACHE, {
         "noticias": resultado,
         "titulares_rss": titulares_rss,
+        "estado_fuentes": estado_fuentes,
         "ultima_solicitud_groq": ultima_solicitud_groq,
         "fecha_solicitudes_groq": fecha_control,
         "solicitudes_groq": solicitudes_groq,
