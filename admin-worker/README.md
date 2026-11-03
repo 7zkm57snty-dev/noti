@@ -55,7 +55,8 @@ Después de que Cloudflare despliegue la versión y el secreto exista, abre `htt
 - Cola de revisión editorial.
 - Crear artículos.
 - Editar y solicitar retiro de artículos.
-- Buscar y filtrar noticias.
+- Buscar y filtrar noticias propias publicadas.
+- Consultar un Radar RSS separado, con búsqueda por titular, medio y categoría, enlaces a las fuentes originales y conteo de titulares detectados. Los titulares externos no se mezclan con la autoría ni con el archivo público de CEV NOTICIAS.
 - Aprobar o rechazar propuestas.
 - Validaciones de titular, resumen, categoría, 300 palabras, enlaces HTTPS, doble fuente para temas sensibles y atribución completa de fotografías.
 
