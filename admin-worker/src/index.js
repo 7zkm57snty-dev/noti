@@ -187,7 +187,7 @@ async function api(request,env,identity) {
   }
   if(method==="POST"&&path==="/api/news"){
     const fields=validateArticle(body.imagenUpload?Object.assign({},body,{imagen:"https://image-upload.pending.invalid/photo"}):body);
-    const pr=await submitChange(env,cache=>{
+    const pr=await submitChange(env,(cache,imageUrl)=>{
       const id=crypto.randomUUID().replace(/-/g,"").slice(0,16);
       if(imageUrl)fields.imagen=imageUrl;cache.noticias.unshift(Object.assign({id,fecha:dateCO(),imagen_busqueda_intentada:false,imagen_instagram:"",imagen_instagram_tipo:"",descripcion_instagram:""},fields));
       return cache;
@@ -197,7 +197,7 @@ async function api(request,env,identity) {
   const match=path.match(/^\/api\/news\/([a-f0-9-]+)$/i);
   if(match&&method==="PATCH"){
     const id=match[1],fields=validateArticle(body);
-    const pr=await submitChange(env,cache=>{
+    const pr=await submitChange(env,(cache,imageUrl)=>{
       const article=cache.noticias.find(x=>String(x.id)===id);
       if(!article)throw new AdminError(404,"La noticia ya no existe en la versión publicada.");
       if(imageUrl)fields.imagen=imageUrl;Object.assign(article,fields);return cache;
@@ -206,7 +206,7 @@ async function api(request,env,identity) {
   }
   if(match&&method==="DELETE"){
     const id=match[1];
-    const pr=await submitChange(env,cache=>{
+    const pr=await submitChange(env,(cache,imageUrl)=>{
       const before=cache.noticias.length;
       cache.noticias=cache.noticias.filter(x=>String(x.id)!==id);
       if(cache.noticias.length===before)throw new AdminError(404,"La noticia ya no existe en la versión publicada.");
