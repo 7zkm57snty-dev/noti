@@ -1,31 +1,6 @@
 {
   "noticias": [
     {
-      "id": "0f6285ee07115043",
-      "autor": "CEV NOTICIAS",
-      "titulo": "Automatizar con IA: el siguiente paso tras los prompts",
-      "titular_instagram": "IA + automatización: la nueva era del marketing digital",
-      "resumen": "El uso de la inteligencia artificial en marketing está evolucionando. Más allá de escribir prompts, las empresas pueden automatizar flujos de trabajo que integran la IA en la creación, revisión y publicación de contenidos, multiplicando la productividad y manteniendo la identidad de marca.",
-      "categoria": "Tecnología",
-      "contenido": "Para muchas personas, la inteligencia artificial sigue siendo sinónimo de abrir un chat, escribir un prompt y esperar una respuesta. Ese es el primer nivel de interacción con la IA, útil para redactar, analizar o resumir textos. Sin embargo, según el artículo de Diario Occidente, escrito por Rosa María Agudelo Ayerbe, el siguiente nivel es la automatización.\n\nLa diferencia entre un prompt y la automatización es fundamental. Un prompt ayuda a resolver una tarea puntual, mientras que la automatización permite integrar la IA dentro de un proceso que ejecuta varias actividades de forma coordinada. En el contexto de las redes sociales, esta distinción puede marcar la diferencia entre publicar contenido a tiempo y perder oportunidades de mercado.\n\nLas empresas generan diariamente promociones, eventos, descuentos y lanzamientos. El reto no suele ser decidir qué publicar, sino lograrlo con la rapidez que exige el entorno digital. La información valiosa a menudo llega tarde o no se publica en absoluto. La automatización, según la autora, cambia esa dinámica al crear un flujo donde la IA genera el contenido, se mantiene la identidad de la marca, se supervisa el trabajo humano y se publica de manera programada.\n\nEste enfoque no pretende reemplazar al equipo de marketing; al contrario, busca multiplicar su capacidad. Con más contenido, mayor velocidad y una presencia digital más constante, los profesionales pueden conservar el control de las decisiones estratégicas y dedicar su tiempo a tareas que requieren creatividad y pensamiento crítico.\n\nEl tema se profundiza en la Sesión 9 de “Mi Talento es Negocio 2026 | AI Transformation”, donde se discute cómo la automatización con IA transforma la forma de trabajar. La sesión destaca que, mientras la IA ayuda a realizar una tarea, la automatización permite que esa tarea se repita de manera eficiente y escalable.\n\nEn la práctica, la automatización con IA puede incluir la programación de publicaciones, la generación de captions adaptados al tono de la marca, la selección de imágenes mediante algoritmos de reconocimiento y la optimización de horarios de publicación basados en análisis de datos. Todo ello bajo supervisión humana, garantizando que la voz de la marca se mantenga coherente.\n\nEn conclusión, el salto de los prompts a la automatización representa una evolución estratégica para las empresas que buscan mantenerse competitivas en el entorno digital. Al integrar la IA en flujos de trabajo completos, las organizaciones no solo aumentan su productividad, sino que también liberan recursos humanos para la innovación y la planificación estratégica, elementos esenciales para el éxito a largo plazo.",
-      "estado_informacion": "confirmada",
-      "imagen": "",
-      "imagen_credito": {},
-      "imagen_busqueda_intentada": true,
-      "imagen_instagram": "https://cevnoticias.com/social/0f6285ee07115043.jpg",
-      "imagen_instagram_tipo": "portada_grafica_cev",
-      "descripcion_instagram": "Automatizar con IA: el siguiente paso tras los prompts\\n\\nEl uso de la inteligencia artificial en marketing está evolucionando. Más allá de escribir prompts, las empresas pueden automatizar flujos de trabajo que integran la IA en la creación, revisión y publicación de contenidos, multiplicando la productividad y manteniendo la identidad de marca.\\n\\nLee la noticia completa en cevnoticias.com.\\n\\n#CEVNoticias #Actualidad #Tecnología #Colombia",
-      "verificacion": "Una sola fuente",
-      "fecha": "03/11/2026 · 07:14 AM",
-      "fuentes": [
-        {
-          "nombre": "Diario Occidente",
-          "titulo": "Automatizar con IA: el paso que sigue después de los prompts",
-          "url": "https://occidente.co/mi-talento-es-negocio-2026/automatizacion-con-ia-en-redes-sociales-mi-talento-es-negocio-2026/"
-        }
-      ]
-    },
-    {
       "id": "5be8a0b750244278",
       "autor": "CEV NOTICIAS",
       "titulo": "OpenAI lanza Grid Protectors: un programa que promete reducir la demanda eléctrica de sus centros de datos en momentos críticos",
@@ -40,13 +15,23 @@
       "imagen_instagram": "https://cevnoticias.com/social/5be8a0b750244278.jpg",
       "imagen_instagram_tipo": "portada_grafica_cev",
       "descripcion_instagram": "OpenAI lanza Grid Protectors: un programa que promete reducir la demanda eléctrica de sus centros de datos en momentos críticos\\n\\nOpenAI ha anunciado el programa Grid Protectors, que busca que sus instalaciones de cómputo reduzcan su consumo eléctrico cuando la red esté bajo presión, liberando energía para hogares y negocios. El piloto, ubicado en el condado de Effingham, Georgia, contempla hasta 1.000 megavatios de demanda flexible y la cobertura de los costos de infraestructura por parte de la compañía.\\n\\nLee la noticia completa en cevnoticias.com.\\n\\n#CEVNoticias #Actualidad #Internacional",
-      "verificacion": "Una sola fuente",
+      "verificacion": "Tres fuentes independientes, incluida la fuente primaria",
       "fecha": "03/11/2026 · 07:15 AM",
       "fuentes": [
         {
           "nombre": "Diario Occidente",
           "titulo": "Grid Protectors: programa para la red eléctrica",
           "url": "https://occidente.co/secciones/tecnologia/grid-protectors-programa-red-electrica/"
+        },
+        {
+          "nombre": "The Verge",
+          "titulo": "OpenAI pitches data center power plants as a way to protect nearby areas",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1024604/openai-data-center-grid-protection-program"
+        },
+        {
+          "nombre": "OpenAI (fuente primaria)",
+          "titulo": "Introducing the Grid Protectors Program",
+          "url": "https://openai.com/index/grid-protectors-program/"
         }
       ]
     },
@@ -65,13 +50,18 @@
       "imagen_instagram": "https://cevnoticias.com/social/9014cb52f61b2a81.jpg",
       "imagen_instagram_tipo": "portada_grafica_cev",
       "descripcion_instagram": "Herramientas para admins de Forum\\n\\nMeta ha anunciado nuevas funciones de inteligencia artificial en su plataforma Forum, destinada a los administradores de grupos de Facebook. Entre las novedades, Admin AI etiqueta publicaciones según las reglas del grupo y sugiere borradores, mientras que Admin Assist permite crear reglas automáticas más flexibles y ofrece una vista de insights y un calendario compartido para equipos de moderación.\\n\\nLee la noticia completa en cevnoticias.com.\\n\\n#CEVNoticias #Actualidad #Tecnología #Colombia",
-      "verificacion": "Una sola fuente",
+      "verificacion": "Dos fuentes, incluida la fuente primaria",
       "fecha": "03/11/2026 · 07:16 AM",
       "fuentes": [
         {
           "nombre": "Diario Occidente",
           "titulo": "Herramientas para admins de Forum",
           "url": "https://occidente.co/secciones/tecnologia/herramientas-admins-forum/"
+        },
+        {
+          "nombre": "Meta Newsroom (fuente primaria)",
+          "titulo": "New Tools for the Admins Who Build Communities on Forum",
+          "url": "https://about.fb.com/news/2026/10/new-tools-for-the-admins-who-build-communities-on-forum/"
         }
       ]
     },
