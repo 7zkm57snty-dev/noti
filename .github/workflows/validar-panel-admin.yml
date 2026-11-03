@@ -132,6 +132,7 @@ jobs:
                       "Los conductores deberán consultar las indicaciones instaladas en cada sector y atender las recomendaciones de los agentes."
                   ),
                   "categoria": "Cali",
+                  "ambito": "Cali",
                   "estado_informacion": "en_desarrollo",
                   "fecha": datetime.now(timezone.utc).isoformat(),
                   "fuentes": [{
