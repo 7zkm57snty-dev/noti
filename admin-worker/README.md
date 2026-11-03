@@ -9,8 +9,11 @@ Worker privado para `admin.cevnoticias.com`, integrado con el repositorio `7zkm5
 - El token de GitHub solo se lee desde el secreto `GITHUB_TOKEN` del Worker. Nunca se devuelve al navegador.
 - Las altas, ediciones y retiros crean una rama `revision-admin/*` y una propuesta contra `main`.
 - Aprobar fusiona la propuesta y el panel espera a que el workflow de GitHub Pages termine. Antes de marcar la actualización como completada, el workflow consulta el dominio público sin caché y compara portada, titular, resumen, cuerpo y fotografía con cache.json. Rechazar cierra la propuesta.
-- Se mantiene `cache.json` como fuente de datos y se conservan los procesos de publicación actuales.
-- El workflow automático ahora se pausa tanto ante propuestas automáticas como ante propuestas creadas desde el panel.
+- `cache.json` conserva las noticias propias y sigue siendo la fuente del sitio público.
+- `radar_rss.json` conserva por separado los titulares externos, la salud de cada feed y la fecha de actualización. El recolector lo actualiza directamente en `main`, sin esperar a que se apruebe o se descarte una noticia propia.
+- Las actualizaciones de `radar_rss.json` no reconstruyen el sitio público; el radar se consulta desde el panel privado.
+- Los cambios en `feeds.json`, `redactor.py` o el propio workflow activan una comprobación RSS, además del ciclo programado cada 20 minutos.
+- El workflow automático se pausa tanto ante propuestas automáticas como ante propuestas creadas desde el panel.
 
 ## Conectar el Worker existente a GitHub
 
@@ -56,7 +59,7 @@ Después de que Cloudflare despliegue la versión y el secreto exista, abre `htt
 - Crear artículos.
 - Editar y solicitar retiro de artículos.
 - Buscar y filtrar noticias propias publicadas.
-- Consultar un Radar RSS separado, con búsqueda por titular, medio y categoría, enlaces a las fuentes originales y conteo de titulares detectados. Los titulares externos no se mezclan con la autoría ni con el archivo público de CEV NOTICIAS.
+- Consultar un Radar RSS separado, con búsqueda por titular, medio y categoría, enlaces a las fuentes originales y conteo de titulares detectados. Los titulares externos no se mezclan con la autoría ni con el archivo público de CEV NOTICIAS. La información del radar se refresca aunque el recolector no genere artículos aptos para revisión.
 - Aprobar o rechazar propuestas.
 - Validaciones de titular, resumen, categoría, 300 palabras, enlaces HTTPS, doble fuente para temas sensibles y atribución completa de fotografías.
 
