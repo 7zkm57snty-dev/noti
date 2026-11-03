@@ -64,3 +64,7 @@ Después de que Cloudflare despliegue la versión y el secreto exista, abre `htt
 - WhatsApp: pendiente de activar un proveedor y guardar su API key como secreto.
 - Notificaciones web/push: pendiente de implementar y probar.
 - El panel confirma la fusión de una propuesta y el inicio del despliegue, pero no afirma que el sitio esté actualizado hasta que GitHub Actions termine correctamente.
+
+## Registro de despliegue
+
+Se registra este cambio documental para activar la primera compilación automática de Cloudflare desde la rama `main`, con el directorio raíz `admin-worker`.
