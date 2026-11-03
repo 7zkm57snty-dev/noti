@@ -70,7 +70,80 @@ jobs:
           assert len(completos) == 3, f"Se esperaban 3 titulares sin límite y llegaron {len(completos)}"
           tarjeta = build.tarjeta_rss(seleccionados[0])
           assert "REDACCIÓN CEV NOTICIAS" in tarjeta and "/notas/actualidad-" in tarjeta
-          print("Prueba RSS correcta: selección limitada, archivo completo y crédito editorial.")
+          print("Prueba RSS interna correcta: selección y deduplicación.")
+          PY
+      - name: Probar que el sitio público solo contiene artículos propios
+        run: |
+          python - <<'PY'
+          import json
+          import sys
+          import tempfile
+          from pathlib import Path
+
+          sys.path.insert(0, "..")
+          import build
+
+          with tempfile.TemporaryDirectory() as raw:
+              root = Path(raw)
+              build.BASE = root
+              build.CACHE = root / "cache.json"
+              build.RADAR_RSS = root / "radar_rss.json"
+              build.SITE = root / "site"
+              build.NOTAS = build.SITE / "notas"
+              build.IMAGENES_PROCESADAS = {}
+              (root / "cookies.js").write_text("// test", encoding="utf-8")
+
+              parrafo = (
+                  "La información disponible permite explicar el hecho, el lugar y su impacto. "
+                  "Este párrafo de prueba representa una explicación periodística propia con "
+                  "datos verificables, contexto local y una consecuencia concreta para los lectores."
+              )
+              articulo = {
+                  "id": "prueba-cev-original",
+                  "autor": "CEV NOTICIAS",
+                  "titulo": "CEV NOTICIAS explica un acontecimiento local de prueba",
+                  "resumen": "Una cobertura propia de prueba que explica el acontecimiento y su relevancia para Cali.",
+                  "categoria": "Cali",
+                  "contenido": "\\n\\n".join([parrafo] * 5),
+                  "fecha": "03/11/2026 · 08:00 AM",
+                  "fuentes": [{
+                      "nombre": "Fuente de prueba",
+                      "titulo": "Documento original de prueba",
+                      "url": "https://example.com/documento"
+                  }],
+                  "investigacion": {
+                      "enfoque_original": "La cobertura explica el efecto local y diferencia los datos confirmados de los pendientes.",
+                      "hechos_clave": [
+                          "El acontecimiento ocurrió en Cali.",
+                          "La información fue contrastada con un documento enlazado.",
+                          "La publicación distingue los hechos confirmados."
+                      ]
+                  }
+              }
+              radar = {
+                  "titulares_rss": [{
+                      "id": "externa-prueba",
+                      "titulo": "TITULAR EXTERNO QUE NO DEBE APARECER EN LA WEB",
+                      "categoria": "Cali",
+                      "fuente": "Medio externo",
+                      "url": "https://otro-medio.example/noticia",
+                      "fecha": "2026-11-03T12:00:00+00:00"
+                  }]
+              }
+              build.CACHE.write_text(json.dumps({"noticias": [articulo]}), encoding="utf-8")
+              build.RADAR_RSS.write_text(json.dumps(radar), encoding="utf-8")
+              build.construir()
+
+              portada = (build.SITE / "index.html").read_text(encoding="utf-8")
+              seccion = (build.SITE / "secciones" / "cali.html").read_text(encoding="utf-8")
+              pagina_articulo = (build.NOTAS / "prueba-cev-original.html").read_text(encoding="utf-8")
+              assert articulo["titulo"] in portada
+              assert "TITULAR EXTERNO QUE NO DEBE APARECER EN LA WEB" not in portada
+              assert "TITULAR EXTERNO QUE NO DEBE APARECER EN LA WEB" not in seccion
+              assert not (build.SITE / "actualidad.html").exists()
+              assert "Qué aporta esta cobertura" in pagina_articulo
+              assert "La cobertura explica el efecto local" in pagina_articulo
+              print("Correcto: portada y secciones contienen solo artículos propios; el radar RSS sigue siendo interno.")
           PY
       - name: Validar sintaxis del verificador de publicación
         run: python -m py_compile ../verificar_publicacion.py
