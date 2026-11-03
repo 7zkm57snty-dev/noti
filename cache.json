@@ -1163,7 +1163,7 @@
   "ultima_solicitud_groq": "2026-11-03T13:33:14.292391+00:00",
   "fecha_solicitudes_groq": "2026-11-03",
   "solicitudes_groq": 11,
-  "ultima_actualizacion": "2026-11-03T19:12:26+00:00",
+  "ultima_actualizacion": "2026-11-03T14:24:05+00:00",
   "breves": [
     {
       "id": "cev-breve-sismo-chaparral-20261103",
@@ -1174,7 +1174,7 @@
       "ambito": "Cali",
       "estado_informacion": "en_desarrollo",
       "fecha": "2026-11-03T04:13:00-05:00",
-      "fecha_preparacion": "2026-11-03T19:12:26+00:00",
+      "fecha_preparacion": "2026-11-03T14:24:05+00:00",
       "fuentes": [
         {
           "nombre": "Servicio Geológico Colombiano",
@@ -1202,7 +1202,7 @@
       "ambito": "Cali",
       "estado_informacion": "en_desarrollo",
       "fecha": "2026-11-02T17:27:00-05:00",
-      "fecha_preparacion": "2026-11-03T19:12:26+00:00",
+      "fecha_preparacion": "2026-11-03T14:24:05+00:00",
       "fuentes": [
         {
           "nombre": "El País",
@@ -1230,7 +1230,7 @@
       "ambito": "Cali",
       "estado_informacion": "informacion_preliminar",
       "fecha": "2026-11-03T00:38:00-05:00",
-      "fecha_preparacion": "2026-11-03T19:12:26+00:00",
+      "fecha_preparacion": "2026-11-03T14:24:05+00:00",
       "fuentes": [
         {
           "nombre": "El País",
@@ -1258,7 +1258,7 @@
       "ambito": "Valle del Cauca",
       "estado_informacion": "confirmada",
       "fecha": "2026-11-02T15:03:00-05:00",
-      "fecha_preparacion": "2026-11-03T19:12:26+00:00",
+      "fecha_preparacion": "2026-11-03T14:24:05+00:00",
       "fuentes": [
         {
           "nombre": "Agencia EFE",
@@ -1290,13 +1290,13 @@
       "categoria": "Colombia",
       "ambito": "Colombia",
       "estado_informacion": "en_desarrollo",
-      "fecha": "2026-11-03T12:48:00-05:00",
-      "fecha_preparacion": "2026-11-03T19:12:26+00:00",
+      "fecha": "2026-11-03T08:52:00-05:00",
+      "fecha_preparacion": "2026-11-03T14:24:05+00:00",
       "fuentes": [
         {
-          "nombre": "El País",
-          "titulo": "Ley de sometimiento avanza a contrarreloj en la Cámara: estos son los cambios que plantea frente a la Paz Total",
-          "url": "https://www.elpais.com.co/politica/ley-de-sometimiento-avanza-a-contrarreloj-en-la-camara-estos-son-los-cambios-que-plantea-frente-a-la-paz-total-de-petro-0337.html"
+          "nombre": "La FM",
+          "titulo": "Proyecto de Ley de Sometimiento avanza a contrarreloj en Cámara",
+          "url": "https://www.lafm.com.co/politica/avanza-ley-de-sometimiento-en-camara-en-medio-de-polemica-415937"
         },
         {
           "nombre": "El Espectador",
@@ -1309,6 +1309,11 @@
           "url": "https://caracol.com.co/2026/11/03/se-aprobo-en-camara-la-ponencia-positiva-de-ley-de-sometimiento-sigue-la-carrera-contrarreloj/?outputType=amp"
         },
         {
+          "nombre": "La Silla Vacía",
+          "titulo": "A contrarreloj, Ley de Sometimiento retomará debate en Cámara",
+          "url": "https://www.lasillavacia.com/en-vivo/a-contrarreloj-ley-de-sometimiento-retomara-debate-en-camara/"
+        },
+        {
           "nombre": "Infobae",
           "titulo": "Ley de Sometimiento supera primer filtro en la Plenaria de la Cámara tras repetirse la votación",
           "url": "https://www.infobae.com/colombia/2026/11/03/ley-de-sometimiento-supera-primer-filtro-en-la-plenaria-de-la-camara-tras-repetirse-la-votacion/?outputType=amp-type"
@@ -1316,5 +1321,5 @@
       ]
     }
   ],
-  "breves_actualizadas": "2026-11-03T19:12:26+00:00"
+  "breves_actualizadas": "2026-11-03T14:24:05+00:00"
 }
