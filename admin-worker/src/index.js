@@ -173,7 +173,7 @@ async function api(request,env,identity) {
   const url=new URL(request.url),path=url.pathname,method=request.method.toUpperCase();
   if(method==="GET"&&path==="/api/dashboard") return json(await dashboard(env,identity));
   if(method==="GET"&&path==="/api/diagnostics") { const r=await readCache(env); return json(runDiagnostics(r.data)); }
-  if(method==="POST"&&path==="/api/diagnostics/repair") { const r=await readCache(env); const count=normalizeSafeFields(r.data); if(!count) { const diag=runDiagnostics(r.data); return json({ok:true,changed:0,manualFindings:diag.findings.length,message:"No hay cambios de formato técnico pendientes. Las incidencias detectadas requieren revisión editorial: abre cada publicación con el botón de lápiz, añade o cambia la fotografía y completa sus fuentes según corresponda."}); } const pr=await submitChange(env,cache=>{normalizeSafeFields(cache);return cache;},"CEV NOTICIAS | Normalización técnica segura","normalización técnica segura"); return json({ok:true,changed:count,pr,message:"Propuesta de reparación técnica creada. Revisa y aprueba la solicitud antes de publicar."}); }
+  if(method==="POST"&&path==="/api/diagnostics/repair") { const r=await readCache(env); const count=normalizeSafeFields(r.data); if(!count) { const diag=runDiagnostics(r.data); return json({ok:true,changed:0,manualFindings:diag.findings.length,message:"No hay cambios de formato técnico pendientes. Las incidencias detectadas requieren revisión editorial: abre cada publicación con el botón de lápiz, añade o cambia la fotografía y completa sus fuentes según corresponda."}); } const pr=await submitChange(env,(cache,imageUrl)=>{normalizeSafeFields(cache);return cache;},"CEV NOTICIAS | Normalización técnica segura","normalización técnica segura"); return json({ok:true,changed:count,pr,message:"Propuesta de reparación técnica creada. Revisa y aprueba la solicitud antes de publicar."}); }
   if(method==="GET"&&path==="/api/health") {
     if(!env.GITHUB_TOKEN)return json({ok:false,message:"Falta configurar GITHUB_TOKEN."},503);
     await gh("/repos/"+OWNER+"/"+REPO,env);return json({ok:true,repository:OWNER+"/"+REPO});
@@ -186,7 +186,7 @@ async function api(request,env,identity) {
     try{body=await request.json()}catch(_){throw new AdminError(400,"El cuerpo de la solicitud no contiene JSON válido.")}
   }
   if(method==="POST"&&path==="/api/news"){
-    const fields=validateArticle(body);
+    const fields=validateArticle(body.imagenUpload?Object.assign({},body,{imagen:"https://image-upload.pending.invalid/photo"}):body);
     const pr=await submitChange(env,cache=>{
       const id=crypto.randomUUID().replace(/-/g,"").slice(0,16);
       if(imageUrl)fields.imagen=imageUrl;cache.noticias.unshift(Object.assign({id,fecha:dateCO(),imagen_busqueda_intentada:false,imagen_instagram:"",imagen_instagram_tipo:"",descripcion_instagram:""},fields));
