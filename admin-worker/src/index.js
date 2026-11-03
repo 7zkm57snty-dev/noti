@@ -80,6 +80,27 @@ async function readRSSRadar(env,fallback) {
   }
 }
 
+async function readAutomationState(env) {
+  const defaults = {
+    fecha_solicitudes_groq:"",
+    solicitudes_groq:0,
+    ultima_solicitud_groq:"",
+    fecha_articulos_dia:"",
+    articulos_generados_dia:0,
+    limite_articulos_diario:20,
+    limite_solicitudes_diario:40,
+    limite_articulos_ejecucion:4
+  };
+  try {
+    const f=await gh("/repos/"+OWNER+"/"+REPO+"/contents/automation_state.json?ref="+MAIN,env);
+    if(!f.content||f.encoding!=="base64") return defaults;
+    const data=JSON.parse(decode64(f.content));
+    return Object.assign({},defaults,data);
+  } catch (_) {
+    return defaults;
+  }
+}
+
 async function readFeeds(env) {
   const f=await gh("/repos/"+OWNER+"/"+REPO+"/contents/feeds.json?ref="+MAIN,env);
   if(!f.content||f.encoding!=="base64") throw new AdminError(502,"No se pudo leer feeds.json.");
@@ -213,7 +234,7 @@ function normalizeSafeFields(cache) {
 
 async function dashboard(env,identity) {
   if(!env.GITHUB_TOKEN) return {configured:false,user:identity.email||identity.name||"Administrador",news:[],reviews:[],feeds:[],feedStatus:[],automation:[]};
-  const r=await Promise.all([readCache(env),reviews(env),readFeeds(env),automationRuns()]);
+  const r=await Promise.all([readCache(env),reviews(env),readFeeds(env),automationRuns(),readAutomationState(env)]);
   const radar=await readRSSRadar(env,r[0].data);
   return {
     configured:true,
@@ -225,6 +246,16 @@ async function dashboard(env,identity) {
     feeds:r[2].map(f=>({nombre:String(f.nombre||"Fuente"),url:String(f.url||""),zona:String(f.zona||"Nacional / internacional")})),
     feedStatus:radar.estado_fuentes,
     automation:r[3],
+    automationLimits:{
+      articlesToday:r[4].fecha_articulos_dia===dateCO().slice(6,10)+"-"+dateCO().slice(3,5)+"-"+dateCO().slice(0,2)?Number(r[4].articulos_generados_dia)||0:Number(r[4].articulos_generados_dia)||0,
+      dailyArticleLimit:Number(r[4].limite_articulos_diario)||20,
+      dailyRequests:Number(r[4].solicitudes_groq)||0,
+      dailyRequestLimit:Number(r[4].limite_solicitudes_diario)||40,
+      maxArticlesPerRun:Number(r[4].limite_articulos_ejecucion)||4,
+      articleDate:r[4].fecha_articulos_dia||"",
+      requestDate:r[4].fecha_solicitudes_groq||"",
+      lastRequest:r[4].ultima_solicitud_groq||""
+    },
     rssCount:radar.titulares_rss.length,
     latestUpdate:radar.ultima_actualizacion
   };
