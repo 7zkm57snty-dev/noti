@@ -169,9 +169,26 @@ async function dashboard(env,identity) {
   return {configured:true,user:identity.email||identity.name||"Administrador",news:r[0].data.noticias,reviews:r[1],
     rssCount:Array.isArray(r[0].data.titulares_rss)?r[0].data.titulares_rss.length:0,latestUpdate:r[0].data.ultima_actualizacion||null};
 }
+async function publicationStatus(env,sha) {
+  const response=await gh("/repos/"+OWNER+"/"+REPO+"/actions/runs?head_sha="+encodeURIComponent(sha)+"&per_page=20",env);
+  const runs=(response.workflow_runs||[]).filter(run=>run.path===".github/workflows/publicar.yml"&&run.head_branch==="main");
+  if(!runs.length) return {state:"queued",message:"Esperando que GitHub inicie la publicación."};
+  runs.sort((a,b)=>String(b.created_at||"").localeCompare(String(a.created_at||"")));
+  const run=runs[0];
+  if(run.status!=="completed") return {state:"running",message:"La web se está reconstruyendo y publicando.",runUrl:run.html_url||""};
+  return {
+    state:run.conclusion==="success"?"success":"failure",
+    message:run.conclusion==="success"?"La publicación de la web terminó correctamente.":"GitHub Actions no pudo completar la publicación.",
+    conclusion:run.conclusion||"",
+    runUrl:run.html_url||""
+  };
+}
+
 async function api(request,env,identity) {
   const url=new URL(request.url),path=url.pathname,method=request.method.toUpperCase();
   if(method==="GET"&&path==="/api/dashboard") return json(await dashboard(env,identity));
+  const deploymentMatch=path.match(/^\/api\/deployments\/([a-f0-9]{40})$/i);
+  if(method==="GET"&&deploymentMatch) return json(await publicationStatus(env,deploymentMatch[1]));
   if(method==="GET"&&path==="/api/diagnostics") { const r=await readCache(env); return json(runDiagnostics(r.data)); }
   if(method==="POST"&&path==="/api/diagnostics/repair") { const r=await readCache(env); const count=normalizeSafeFields(r.data); if(!count) { const diag=runDiagnostics(r.data); return json({ok:true,changed:0,manualFindings:diag.findings.length,message:"No hay cambios de formato técnico pendientes. Las incidencias detectadas requieren revisión editorial: abre cada publicación con el botón de lápiz, añade o cambia la fotografía y completa sus fuentes según corresponda."}); } const pr=await submitChange(env,(cache,imageUrl)=>{normalizeSafeFields(cache);return cache;},"CEV NOTICIAS | Normalización técnica segura","normalización técnica segura"); return json({ok:true,changed:count,pr,message:"Propuesta de reparación técnica creada. Revisa y aprueba la solicitud antes de publicar."}); }
   if(method==="GET"&&path==="/api/health") {
@@ -223,7 +240,7 @@ async function api(request,env,identity) {
       const result=await gh("/repos/"+OWNER+"/"+REPO+"/pulls/"+number+"/merge",env,"PUT",{merge_method:"squash",commit_title:"Publicación editorial CEV NOTICIAS"});
       if(!result.merged)throw new AdminError(409,"GitHub no pudo fusionar la propuesta. Revisa los conflictos.");
       try{await gh("/repos/"+OWNER+"/"+REPO+"/git/refs/heads/"+pr.head.ref,env,"DELETE")}catch(_){}
-      return json({ok:true,message:"Propuesta aprobada y fusionada. GitHub Pages iniciará la publicación."});
+      return json({ok:true,message:"Propuesta aprobada y fusionada. Esperando la publicación de GitHub Pages.",deploySha:result.sha});
     }
     await gh("/repos/"+OWNER+"/"+REPO+"/pulls/"+number,env,"PATCH",{state:"closed"});
     try{await gh("/repos/"+OWNER+"/"+REPO+"/git/refs/heads/"+pr.head.ref,env,"DELETE")}catch(_){}

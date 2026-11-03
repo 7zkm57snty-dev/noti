@@ -76,7 +76,30 @@ async function submit(e){
  finally{button.disabled=false;button.textContent=state.editing?"Enviar cambios a revisión":"Enviar a revisión"}
 }
 async function remove(id){if(!confirm("¿Solicitar el retiro de esta noticia? Seguirá visible hasta aprobar la propuesta."))return;try{const r=await api("/api/news/"+encodeURIComponent(id),{method:"DELETE"});toast(r.message+" · PR #"+r.pr.number,"success");state.page="review";await load()}catch(e){toast(e.message,"error")}}
-async function actReview(id,action){if(!confirm(action==="approve"?"¿Aprobar y fusionar esta propuesta? Se iniciará la publicación del sitio.":"¿Rechazar y cerrar esta propuesta?"))return;try{const r=await api("/api/reviews/"+id+"/"+action,{method:"POST",headers:{"content-type":"application/json"},body:"{}"});toast(r.message,"success");await load()}catch(e){toast(e.message,"error")}}
+async function waitForPublication(sha){
+ const deadline=Date.now()+180000;
+ while(Date.now()<deadline){
+  const status=await api("/api/deployments/"+encodeURIComponent(sha));
+  if(status.state==="success")return status;
+  if(status.state==="failure")return status;
+  await new Promise(resolve=>setTimeout(resolve,2500));
+ }
+ return {state:"timeout",message:"La publicación sigue en curso."};
+}
+async function actReview(id,action){
+ if(!confirm(action==="approve"?"¿Aprobar y fusionar esta propuesta? El panel esperará hasta que la web esté publicada.":"¿Rechazar y cerrar esta propuesta?"))return;
+ try{
+  const r=await api("/api/reviews/"+id+"/"+action,{method:"POST",headers:{"content-type":"application/json"},body:"{}"});
+  if(action==="approve"&&r.deploySha){
+   toast("Propuesta aprobada. Esperando la publicación de la web…","success");
+   const publication=await waitForPublication(r.deploySha);
+   if(publication.state==="success")toast("Publicación terminada. Ya puedes actualizar la página de la noticia.","success");
+   else if(publication.state==="failure")toast("La propuesta se aprobó, pero falló la publicación. Revisa GitHub Actions. "+(publication.runUrl||""),"error");
+   else toast("La propuesta se aprobó, pero la publicación sigue en curso. No recargues todavía. "+(publication.runUrl||""),"error");
+  }else toast(r.message,"success");
+  await load();
+ }catch(e){toast(e.message,"error")}
+}
 $$(".nav button").forEach(b=>b.addEventListener("click",()=>go(b.dataset.page)));$("#refresh").addEventListener("click",load);$("#menubtn").addEventListener("click",()=>$("#side").classList.toggle("open"));$("#close").addEventListener("click",closeForm);$("#cancel").addEventListener("click",closeForm);$("#modal").addEventListener("click",e=>{if(e.target===$("#modal"))closeForm()});$("#form").addEventListener("submit",submit);$("#content").addEventListener("input",()=>$("#words").textContent=words($("#content").value)+" palabras · mínimo 250");$("#imageFile").addEventListener("change",()=>{const f=$("#imageFile").files[0];if(!f){$("#imagePreview").innerHTML="";return}if(f.size>665600){$("#imageHelp").textContent="Archivo demasiado grande (máximo 650 KB).";$("#imagePreview").innerHTML="";return}const u=URL.createObjectURL(f);$("#imagePreview").innerHTML='<img src="'+u+'" alt="Vista previa de la nueva imagen" style="max-width:100%;max-height:200px;border-radius:8px"><div class="muted">Nueva imagen seleccionada: '+esc(f.name)+'</div>';$("#imageHelp").textContent="La imagen nueva reemplazará la anterior cuando se apruebe la propuesta."});document.addEventListener("keydown",e=>{if(e.key==="Escape")closeForm()});load();
 })();
 </script></body></html>
