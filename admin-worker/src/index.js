@@ -198,6 +198,8 @@ async function dashboard(env,identity) {
     configured:true,
     user:identity.email||identity.name||"Administrador",
     news:r[0].data.noticias,
+    // El radar conserva titulares externos separados de las noticias propias.
+    rssHeadlines:Array.isArray(r[0].data.titulares_rss)?r[0].data.titulares_rss:[],
     reviews:r[1],
     feeds:r[2].map(f=>({nombre:String(f.nombre||"Fuente"),url:String(f.url||""),zona:String(f.zona||"Nacional / internacional")})),
     feedStatus:Array.isArray(r[0].data.estado_fuentes)?r[0].data.estado_fuentes:[],
