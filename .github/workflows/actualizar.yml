@@ -7,6 +7,7 @@ on:
       - "feeds.json"
       - "redactor.py"
       - "periodos_breves.py"
+      - "fusionar_cache_borrador.py"
       - ".github/workflows/actualizar.yml"
   schedule:
     # Rutina de artículos y monitoreo, desplazada para no coincidir con las ediciones de mini-noticias.
