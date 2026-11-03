@@ -78,7 +78,7 @@ function home(){
 }
 function articleDate(n){
  const raw=String(n.fecha||"");
- let m=raw.match(/(\\d{2})\\/(\\d{2})\\/(\\d{4})/);
+ let m=raw.match(/(\d{2})\/(\d{2})\/(\d{4})/);
  if(m)return new Date(Number(m[3]),Number(m[2])-1,Number(m[1]));
  const d=new Date(raw);return Number.isNaN(d.getTime())?null:new Date(d.getFullYear(),d.getMonth(),d.getDate());
 }
@@ -207,6 +207,6 @@ async function actReview(id,action){
   await load();
  }catch(e){toast(e.message,"error")}
 }
-$$(".nav button").forEach(b=>b.addEventListener("click",()=>go(b.dataset.page)));$("#refresh").addEventListener("click",load);$("#menubtn").addEventListener("click",()=>$("#side").classList.toggle("open"));$("#close").addEventListener("click",closeForm);$("#cancel").addEventListener("click",closeForm);$("#modal").addEventListener("click",e=>{if(e.target===$("#modal"))closeForm()});$("#form").addEventListener("submit",submit);$("#content").addEventListener("input",()=>$("#words").textContent=words($("#content").value)+" palabras · mínimo 300");$("#imageFile").addEventListener("change",()=>{const f=$("#imageFile").files[0];if(!f){$("#imagePreview").innerHTML="";return}if(f.size>665600){$("#imageHelp").textContent="Archivo demasiado grande (máximo 650 KB).";$("#imagePreview").innerHTML="";return}const u=URL.createObjectURL(f);$("#imagePreview").innerHTML='<img src="'+u+'" alt="Vista previa de la nueva imagen" style="max-width:100%;max-height:200px;border-radius:8px"><div class="muted">Nueva imagen seleccionada: '+esc(f.name)+'</div>';$("#imageHelp").textContent="La imagen nueva reemplazará la anterior cuando se apruebe la propuesta."});document.addEventListener("keydown",e=>{if(e.key==="Escape")closeForm()});load();
+$$(".nav button").forEach(b=>b.addEventListener("click",()=>go(b.dataset.page)));$("#refresh").addEventListener("click",load);$("#menubtn").addEventListener("click",()=>$("#side").classList.toggle("open"));$("#close").addEventListener("click",closeForm);$("#cancel").addEventListener("click",closeForm);$("#modal").addEventListener("click",e=>{if(e.target===$("#modal"))closeForm()});$("#form").addEventListener("submit",submit);$("#content").addEventListener("input",()=>$("#words").textContent=words($("#content").value)+" palabras · mínimo 300");$("#imageFile").addEventListener("change",()=>{const f=$("#imageFile").files[0];if(!f){$("#imagePreview").innerHTML="";return}if(f.size>665600){$("#imageHelp").textContent="Archivo demasiado grande (máximo 650 KB).";$("#imagePreview").innerHTML="";return}const u=URL.createObjectURL(f);$("#imagePreview").innerHTML='<img src="'+u+'" alt="Vista previa de la nueva imagen" style="max-width:100%;max-height:200px;border-radius:8px"><div class="muted">Nueva imagen seleccionada: '+esc(f.name)+'</div>';$("#imageHelp").textContent="La imagen nueva reemplazará la anterior cuando se apruebe la propuesta."});document.addEventListener("keydown",e=>{if(e.key==="Escape")closeForm()});load();setInterval(()=>{if(!document.hidden&&!state.busy)load()},15*60*1000);
 })();
 </script></body></html>
