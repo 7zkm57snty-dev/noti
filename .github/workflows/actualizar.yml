@@ -321,6 +321,7 @@ jobs:
                   f"- **Sección:** {breve.get('categoria', 'Sin sección')}",
                   f"- **Extensión:** {len(str(breve.get('texto', '')).split())} palabras",
                   f"- **Estado:** {breve.get('estado_informacion', 'información preliminar')}",
+                  f"- **Texto:** {breve.get('texto', '')}",
                   "- **Crédito de fuentes:** " + ", ".join(
                       str(x.get("nombre", "Fuente")) for x in breve.get("fuentes", [])
                   ),
