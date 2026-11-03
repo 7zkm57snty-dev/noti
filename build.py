@@ -27,6 +27,8 @@ SECCIONES = ["Cali", "Valle del Cauca", "Colombia", "Internacional", "Deportes",
 ALCANCES_BREVES_PUBLICOS = {"Cali", "Valle del Cauca", "Colombia"}
 COLOMBIA_TZ = timezone(timedelta(hours=-5))
 IMAGENES_PROCESADAS = {}
+FOTOS_RESPALDO_USADAS = set()
+BIBLIOTECA_FOTOS = BASE / "biblioteca_fotos.json"
 
 
 def escapar(valor):
@@ -100,13 +102,28 @@ def foto_local_noticia(noticia):
 
     url = str(noticia.get("imagen") or "").strip()
     if not url.startswith(("https://", "http://")):
-        IMAGENES_PROCESADAS[identificador] = ""
-        return ""
+        # Segundo nivel: repositorios abiertos con licencia compatible.
+        try:
+            from imagenes import buscar_imagen
+            resultado = buscar_imagen(
+                noticia.get("titulo", ""),
+                noticia.get("resumen", ""),
+                noticia.get("categoria", "")
+            )
+            if resultado and resultado.get("url"):
+                noticia["imagen"] = resultado["url"]
+                noticia["imagen_credito"] = resultado
+                url = resultado["url"]
+        except Exception as error:
+            print(f"No fue posible consultar repositorios externos: {error}")
+    if not url.startswith(("https://", "http://")):
+        respaldo = imagen_respaldo_categoria(noticia, identificador)
+        IMAGENES_PROCESADAS[identificador] = respaldo
+        return respaldo
 
     host = (urlsplit(url).hostname or "").lower()
     if host in ("cevnoticias.com", "www.cevnoticias.com"):
-        IMAGENES_PROCESADAS[identificador] = ""
-        return ""
+        url = ""
 
     tipos = {
         "image/jpeg": ".jpg",
@@ -139,9 +156,55 @@ def foto_local_noticia(noticia):
         print(f"Fotografía real guardada en el sitio: {identificador}{extension}")
         return local
     except Exception as error:
-        print(f"Sin foto descargable para {identificador}; la noticia se mostrará sin imagen: {error}")
-        IMAGENES_PROCESADAS[identificador] = ""
-        return ""
+        print(f"Foto original no disponible para {identificador}; se consultarán repositorios: {error}")
+        try:
+            from imagenes import buscar_imagen
+            resultado = buscar_imagen(noticia.get("titulo", ""), noticia.get("resumen", ""), noticia.get("categoria", ""))
+            if resultado and resultado.get("url"):
+                noticia["imagen"] = resultado["url"]
+                noticia["imagen_credito"] = resultado
+                return foto_local_noticia(noticia)
+        except Exception as error_repositorio:
+            print(f"Repositorios externos no disponibles: {error_repositorio}")
+        respaldo = imagen_respaldo_categoria(noticia, identificador)
+        IMAGENES_PROCESADAS[identificador] = respaldo
+        return respaldo
+
+
+def imagen_respaldo_categoria(noticia, identificador):
+    """Usa fotografías reales almacenadas por categoría; nunca crea huecos visuales."""
+    biblioteca = cargar_json(BIBLIOTECA_FOTOS, {"categorias": {}})
+    categorias = biblioteca.get("categorias", {}) if isinstance(biblioteca, dict) else {}
+    categoria = str(noticia.get("categoria") or "").strip()
+    candidatos = categorias.get(categoria, []) or categorias.get("General", [])
+    if not candidatos:
+        candidatos = categorias.get("General", [])
+    disponibles = [x for x in candidatos if isinstance(x, dict)]
+    # Prioriza fotos no repetidas; si se agotan, permite reutilizar una de la categoría
+    # antes que dejar una tarjeta sin imagen.
+    ordenados = [x for x in disponibles if str(BASE / str(x.get("archivo") or "")) not in FOTOS_RESPALDO_USADAS]
+    ordenados += [x for x in disponibles if x not in ordenados]
+    for item in ordenados:
+        ruta = BASE / str(item.get("archivo") or "")
+        if not ruta.is_file():
+            continue
+        clave = str(ruta)
+        FOTOS_RESPALDO_USADAS.add(clave)
+        destino = SITE / "imagenes" / "biblioteca" / ruta.name
+        destino.parent.mkdir(parents=True, exist_ok=True)
+        shutil.copy2(ruta, destino)
+        noticia["imagen_credito"] = {
+            "tipo": "imagen de referencia · fotografía de archivo",
+            "fuente": item.get("fuente", "Wikimedia Commons"),
+            "autor": item.get("autor", "Autor no identificado"),
+            "pagina": item.get("pagina", ""),
+            "licencia": item.get("licencia", ""),
+            "licencia_url": item.get("licencia_url", "")
+        }
+        print(f"Fotografía de respaldo por categoría {categoria}: {ruta.name}")
+        return f"/imagenes/biblioteca/{ruta.name}"
+    print(f"Sin fotografía de respaldo disponible para categoría: {categoria}")
+    return ""
 
 
 def seleccionar_ilustracion_ia(noticia):

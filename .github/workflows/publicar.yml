@@ -36,6 +36,11 @@ jobs:
         with:
           python-version: "3.11"
 
+      - name: Preparar biblioteca de fotografías de respaldo
+        run: |
+          python -m pip install requests
+          python renovar_biblioteca_fotos.py
+
       - name: Construir el sitio
         env:
           PYTHONUNBUFFERED: "1"
