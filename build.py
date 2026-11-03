@@ -56,6 +56,25 @@ def fecha_ordenable(noticia):
         return 0
 
 
+
+def fecha_schema(noticia):
+    """Convierte la fecha editorial a ISO 8601 con la zona horaria de Colombia."""
+    valor = str(noticia.get("fecha", "")).strip()
+    for formato in ("%d/%m/%Y · %I:%M %p", "%d/%m/%Y %I:%M %p"):
+        try:
+            return datetime.strptime(valor, formato).replace(tzinfo=COLOMBIA_TZ).isoformat()
+        except ValueError:
+            pass
+    try:
+        fecha = datetime.fromisoformat(valor.replace("Z", "+00:00"))
+        if fecha.tzinfo is None:
+            fecha = fecha.replace(tzinfo=COLOMBIA_TZ)
+        return fecha.isoformat()
+    except (ValueError, OverflowError):
+        return ""
+
+
+
 def imagen_segura(url):
     url = str(url or "").strip()
     return escapar(url) if url.startswith(("https://", "http://")) else ""
@@ -546,6 +565,7 @@ body.noche .relacionadas .tarjeta{{background:#222;border-color:#484848}}
  <p>Las fuentes consultadas se identifican al final de cada artículo.</p>
  <nav class="pie-enlaces" aria-label="Información institucional">
   <a href="{ruta_raiz}quienes-somos.html">Quiénes somos</a>
+  <a href="{ruta_raiz}redaccion.html">Redacción</a>
   <a href="{ruta_raiz}contacto.html">Contacto</a>
   <a href="{ruta_raiz}politica-editorial.html">Política editorial</a>
   <a href="{ruta_raiz}correcciones.html">Correcciones</a>
@@ -726,7 +746,7 @@ def crear_articulo(noticia, noticias=None):
        <p class="etiqueta">{categoria}</p>
        <h1>{titulo}</h1>
        <p class="bajada">{resumen}</p>
-       <p class="fecha">Publicado: {escapar(noticia.get("fecha", fecha_actual()))} · Por CEV NOTICIAS</p>
+       <p class="fecha">Publicado: {escapar(noticia.get("fecha", fecha_actual()))} · Por <a href="../redaccion.html">Redacción CEV NOTICIAS</a></p>
        <p class="fecha">Fuentes consultadas: {len(noticia.get("fuentes", []))}</p>
       </div>
       {foto}
@@ -739,6 +759,10 @@ def crear_articulo(noticia, noticias=None):
     </main>"""
     url_articulo = f"https://cevnoticias.com/notas/{identificador}.html"
     datos_schema = {"@context":"https://schema.org","@type":"NewsArticle","headline":str(noticia.get("titulo","")),"description":str(noticia.get("resumen","")),"author":{"@type":"Organization","name":"CEV NOTICIAS"},"publisher":{"@type":"Organization","name":"CEV NOTICIAS"},"mainEntityOfPage":url_articulo}
+    fecha_publicacion = fecha_schema(noticia)
+    if fecha_publicacion:
+        datos_schema["datePublished"] = fecha_publicacion
+        datos_schema["dateModified"] = fecha_publicacion
     if imagen:
         datos_schema["image"] = imagen
     extra_head = f'<link rel="canonical" href="{url_articulo}"><meta property="og:type" content="article"><meta property="og:title" content="{titulo}"><meta property="og:description" content="{resumen}"><meta property="og:url" content="{url_articulo}">' + (f'<meta property="og:image" content="{imagen}">' if imagen else "") + '<script type="application/ld+json">' + json.dumps(datos_schema, ensure_ascii=False) + '</script>'
@@ -808,11 +832,14 @@ def crear_pagina_seccion(seccion, noticias, titulares):
         {listado}
       </section>
     </main>"""
+    url_seccion = f"https://cevnoticias.com/secciones/{slug_seccion}.html"
+    extra_head = f'<link rel="canonical" href="{url_seccion}"><meta property="og:type" content="website">'
     pagina = plantilla(
         seccion,
         cuerpo,
         f"Noticias de {seccion} en CEV NOTICIAS.",
         ruta_raiz="../",
+        extra_head=extra_head,
         seccion_actual=seccion
     )
     carpeta = SITE / "secciones"
@@ -827,6 +854,18 @@ def crear_pagina_seccion(seccion, noticias, titulares):
 def crear_paginas_institucionales():
     """Genera páginas públicas de identidad, contacto, privacidad y responsabilidad editorial."""
     paginas = {
+        "redaccion.html": (
+            "Redacción CEV NOTICIAS",
+            "Conoce la autoría institucional y los criterios de preparación de los artículos de CEV NOTICIAS.",
+            """<main class="articulo pagina-institucional">
+              <a class="volver" href="/">← Volver a la portada</a>
+              <p class="etiqueta">CEV NOTICIAS · AUTORÍA</p><h1>Redacción CEV NOTICIAS</h1>
+              <div class="cuerpo">
+                <p>La firma institucional <strong>Redacción CEV NOTICIAS</strong> identifica los contenidos publicados bajo la responsabilidad editorial del medio, cuando no se atribuyen a un periodista individual.</p>
+                <p>Los contenidos pueden apoyarse en herramientas automatizadas para localizar fuentes públicas, organizar información y preparar borradores. Estas herramientas no son autores humanos ni garantizan por sí solas la exactitud de una noticia. Las fuentes consultadas se identifican en cada publicación.</p>
+                <p>Cuando un artículo tenga un autor individual, su nombre y la información profesional correspondiente deberán aparecer en la propia publicación. Para conocer nuestros criterios, consulta la <a href="/politica-editorial.html">Política editorial</a>.</p>
+              </div></main>"""
+        ),
         "quienes-somos.html": (
             "Quiénes somos",
             "Conoce el propósito, el enfoque informativo y el alcance de CEV NOTICIAS.",
@@ -937,7 +976,7 @@ def validar_archivos_publicados(noticias):
     """
     faltantes = []
     esperados = [SITE / "index.html"]
-    esperados.extend(SITE / nombre for nombre in ("quienes-somos.html", "contacto.html", "politica-de-privacidad.html", "politica-editorial.html", "correcciones.html"))
+    esperados.extend(SITE / nombre for nombre in ("quienes-somos.html", "redaccion.html", "contacto.html", "politica-de-privacidad.html", "politica-editorial.html", "correcciones.html"))
     esperados.extend([SITE / "sitemap.xml", SITE / "robots.txt"])
     esperados.extend(NOTAS / f"{noticia['id']}.html" for noticia in noticias)
     esperados.extend(SITE / "secciones" / f"{slug(seccion)}.html" for seccion in SECCIONES)
@@ -965,7 +1004,7 @@ def validar_archivos_publicados(noticias):
                     self.urls.append(valor)
 
     paginas = [SITE / "index.html"]
-    paginas.extend(SITE / nombre for nombre in ("quienes-somos.html", "contacto.html", "politica-de-privacidad.html", "politica-editorial.html", "correcciones.html"))
+    paginas.extend(SITE / nombre for nombre in ("quienes-somos.html", "redaccion.html", "contacto.html", "politica-de-privacidad.html", "politica-editorial.html", "correcciones.html"))
     paginas.extend(NOTAS / f"{noticia['id']}.html" for noticia in noticias)
     paginas.extend(SITE / "secciones" / f"{slug(seccion)}.html" for seccion in SECCIONES)
 
@@ -1143,7 +1182,7 @@ def construir():
     )
     portada_head = '<link rel="canonical" href="https://cevnoticias.com/"><meta property="og:type" content="website"><meta property="og:title" content="CEV NOTICIAS | Actualidad y periodismo">'
     (SITE / "index.html").write_text(plantilla("Portada", contenido, "Noticias de Cali, Valle del Cauca, Colombia y el mundo.", extra_head=portada_head, seccion_actual="Portada"), encoding="utf-8")
-    paginas_institucionales = ["quienes-somos.html", "contacto.html", "politica-de-privacidad.html", "politica-editorial.html", "correcciones.html"]
+    paginas_institucionales = ["quienes-somos.html", "redaccion.html", "contacto.html", "politica-de-privacidad.html", "politica-editorial.html", "correcciones.html"]
     urls = (["https://cevnoticias.com/"]
             + [f"https://cevnoticias.com/notas/{n['id']}.html" for n in validas]
             + [f"https://cevnoticias.com/secciones/{slug(s)}.html" for s in SECCIONES]
