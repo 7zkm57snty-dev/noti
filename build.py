@@ -195,9 +195,10 @@ def copiar_ilustraciones_ia():
 
 
 def imagen_noticia(noticia, alt="", clase="", loading="lazy", prioridad=False):
-    """
-    Prioriza fotografías editoriales validadas. Si no existen, usa una
-    ilustración vectorial generada con IA y rotulada como imagen conceptual.
+    """Muestra únicamente fotografías reales con licencia y atribución verificadas.
+
+    Si no hay una fotografía editorial válida, deja el espacio sin imagen:
+    nunca sustituye el hecho por una ilustración sintética genérica.
     """
     fotografia = foto_local_noticia(noticia)
     if fotografia:
@@ -213,18 +214,7 @@ def imagen_noticia(noticia, alt="", clase="", loading="lazy", prioridad=False):
             f'loading="{escapar(loading)}" decoding="async"{prioridad_html}>'
         )
 
-    archivo = seleccionar_ilustracion_ia(noticia)
-    if not (ASSETS_IA / archivo).is_file():
-        return ""
-    clases = " ".join(parte for parte in (clase, "visual-ia") if parte)
-    descripcion = "Ilustración editorial generada con IA; no es una fotografía del hecho. " + str(alt or "")
-    prioridad_html = ' fetchpriority="high"' if prioridad else ""
-    return (
-        f'<span class="{escapar(clases)}" role="img" aria-label="{escapar(descripcion)}">'
-        f'<img class="imagen-ia-img" src="/imagenes-ia/{archivo}" alt="" '
-        f'loading="{escapar(loading)}" decoding="async"{prioridad_html}>'
-        f'<span class="sello-imagen-ia">Ilustración IA</span></span>'
-    )
+    return ""
 
 
 def tiempo_relativo_html(noticia, fecha_fallback=""):
