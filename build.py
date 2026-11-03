@@ -262,6 +262,14 @@ def plantilla(titulo, contenido, descripcion="CEV NOTICIAS", ruta_raiz="", extra
     return f"""<!DOCTYPE html>
 <html lang="es">
 <head>
+<!-- Google Analytics 4: CEV NOTICIAS -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ERGNTK4W26"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){{dataLayer.push(arguments);}}
+  gtag('js', new Date());
+  gtag('config', 'G-ERGNTK4W26');
+</script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="theme-color" content="#f7f6f2">
