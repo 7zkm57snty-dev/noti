@@ -1450,6 +1450,7 @@ def construir():
 
     portada = f'<section class="portada-grid">{principal_html}</section>'
     tarjetas_breves = "".join(tarjeta_breve(breve) for breve in breves_publicos)
+    # Resumen editorial semanal; la selección se renueva cada cuatro días.
     seccion_breves = f"""
     <section class="bloque-breves" id="ultima-hora" aria-label="Lo más destacado de la semana">
       <div class="breves-encabezado">
