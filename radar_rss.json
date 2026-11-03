@@ -1,22 +1,256 @@
 {
-  "ultima_actualizacion": "2026-11-03T21:57:13.408729+00:00",
+  "ultima_actualizacion": "2026-11-03T22:52:33.464547+00:00",
   "titulares_rss": [
     {
       "id": "988cbf8bbfc246cc",
-      "titulo": "EE.UU. acude a las urnas en unas elecciones de medio mandato cruciales para el futuro del gobierno de Trump",
+      "titulo": "EE.UU. vota en unas elecciones de medio mandato cruciales para el futuro del gobierno de Trump",
       "categoria": "Internacional",
       "fuente": "BBC Mundo",
       "url": "https://www.bbc.co.uk/mundo/live/cq9vz4g97xy2t?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-03T21:57:13.408729+00:00",
+      "fecha": "2026-11-03T22:52:33.464547+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "7bdc31b2b511a048",
+      "titulo": "Calculadora de la Ley de Rescate: así le pega la tributaria de Abelardo",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/silla-nacional/calculadora-de-la-ley-de-rescate-asi-le-pega-la-tributaria-de-abelardo/",
+      "fecha": "2026-11-03T22:46:12+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "a59f92c5b70f20d1",
+      "titulo": "Luz verde en medio de cuestionamientos: Emcali adjudica el megacontrato que llevará a Cali a tener alumbrado 100 por ciento LED en 18 meses",
+      "categoria": "Cali",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/cali/luz-verde-en-medio-de-cuestionamientos-emcali-adjudica-el-megacontrato-que-llevara-a-cali-a-tener-alumbrado-100-por-ciento-led-en-18-meses-3598238",
+      "fecha": "2026-11-03T22:42:53+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "654ef496768422c3",
+      "titulo": "Pico y placa en Cali este miércoles, 04 de noviembre: restricción de movilidad",
+      "categoria": "Cali",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/cali/pico-y-placa-en-cali-este-miercoles-04-11-2026/",
+      "fecha": "2026-11-03T22:37:55+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "2d8ab50d353e98c7",
+      "titulo": "Fenalco propone pacto de austeridad fiscal para todo el Estado",
+      "categoria": "Economía",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/fenalco-propone-pacto-de-austeridad-fiscal-para-todo-el-estado-505650",
+      "fecha": "2026-11-03T22:36:06+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "01b681c6dbb868e4",
+      "titulo": "Así quedarían los cargos clave del MinInterior con la llegada de Ordóñez; ¿aterriza ficha de Carlos Suárez?",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/cargos-clave-mininterior-llega-cercano-carlos-suarez-AF43137502",
+      "fecha": "2026-11-03T22:35:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "e305f8fb442e1f1e",
+      "titulo": "Gobierno Petro creó un consulado en Tijuana que nunca abrió y dejó una deuda de arriendo: esta es la historia",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/consulado-colombia-tijuana-gobierno-petro-nunca-abrio-deuda-arriendo-KC43143090",
+      "fecha": "2026-11-03T22:28:39+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "cca7cdb6d7e84a06",
+      "titulo": "Aprenda a hacer contenidos que le interesen a su audiencia con La Silla",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/en-vivo/aprenda-a-hacer-contenidos-que-le-interesen-a-su-audiencia-con-la-silla/",
+      "fecha": "2026-11-03T22:22:03+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "f250bbd5f4cb24c4",
+      "titulo": "Se conocen más detalles del sismo del 3 de noviembre: SGC puntualizó información",
+      "categoria": "Valle del Cauca",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/colombia/sismo-del-3-de-noviembre-sgc-03-11-2026/",
+      "fecha": "2026-11-03T22:18:43+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "774f887476e96d73",
+      "titulo": "Davivienda se opone a Plata Colombia: la fintech tiene 30 días hábiles para defender su marca",
+      "categoria": "Colombia",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/davivienda-se-opone-a-plata-colombia-la-fintech-tiene-30-dias-habiles-para-defender-su-marca-505649",
+      "fecha": "2026-11-03T22:16:42+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "116a2cdd48351a32",
+      "titulo": "¿Cómo le fue a Cali y al Valle con el sismo de 5,6 grados que despertó al país este martes 3 de noviembre?",
+      "categoria": "Cali",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/colombia/sismo-en-colombia-temblor-chaparral-tolima-danos-2026/",
+      "fecha": "2026-11-03T22:15:26+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "ca96c9826eb26c10",
+      "titulo": "Con más de 10.000 ciclistas e impacto económico de 90.000 millones de pesos, el Giro de Rigo hizo historia en Cali y el Valle del Cauca",
+      "categoria": "Cali",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/cali/con-mas-de-10-000-ciclistas-e-impacto-economico-de-90-000-millones-de-pesos-el-giro-de-rigo-hizo-historia-en-cali-y-el-valle-del-cauca-3598216",
+      "fecha": "2026-11-03T22:14:26+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "1c84b2a43c1e2a99",
+      "titulo": "Uribe vs MinHacienda por supuesta entrega de hojas de vida en debate",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/en-vivo/uribe-vs-minhacienda-por-supuesta-entrega-de-hojas-de-vida-en-debate/",
+      "fecha": "2026-11-03T22:11:13+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "026adbce432ba99d",
+      "titulo": "La chica que decidió volar",
+      "categoria": "Colombia",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/opinion/columnistas/la-chica-que-decidio-volar/",
+      "fecha": "2026-11-03T22:09:05+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "aa881e52d4d296d3",
+      "titulo": "Ataque con drones en Chocó dejó dos soldados muertos",
+      "categoria": "Colombia",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/colombia/ejercito-nacional-sufre-ataque-con-drones-en-el-choco/",
+      "fecha": "2026-11-03T22:05:50+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "97cd8dc9e9c0c5f0",
+      "titulo": "¡Orgullo! Colombia ocupa el tercer lugar entre los países más bonitos del mundo, listado completo",
+      "categoria": "Internacional",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/vida-moderna/ecologia/colombia-paises-mas-bonitos-del-mundo-03-11-2026/",
+      "fecha": "2026-11-03T22:05:41+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "8a5e3d78f9aa5a3e",
+      "titulo": "Las ‘midterms’ 2026, en vivo | Las elecciones de Estados Unidos transcurren sin mayores incidentes pese al temor a la presencia de agentes federales",
+      "categoria": "Internacional",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/us/2026-11-03/las-midterms-2026-en-vivo.html",
+      "fecha": "2026-11-03T22:04:12+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "96e9ee0315edd7f9",
+      "titulo": "Abelardo radica mensaje de urgencia para acelerar su ley de rescate fiscal",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/en-vivo/abelardo-radica-mensaje-de-urgencia-para-acelerar-su-ley-de-rescate-fiscal/",
+      "fecha": "2026-11-03T22:04:04+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "c3181465d2646469",
+      "titulo": "Ley de Rescate Económico: los cambios en impuestos que plantea el Gobierno",
+      "categoria": "Colombia",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/impuestos/ley-de-rescate-economico-los-cambios-en-impuestos-que-plantea-el-gobierno-505648",
+      "fecha": "2026-11-03T22:03:38+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "472352daaf8e1b78",
+      "titulo": "IVA a la gasolina, impuesto al carbono y otros efectos de la ley de rescate en la energía",
+      "categoria": "Economía",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/iva-a-la-gasolina-impuesto-al-carbono-y-otros-efectos-de-la-ley-de-rescate-en-la-energia-505647",
+      "fecha": "2026-11-03T22:02:14+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "5c6973cdddb64047",
+      "titulo": "De la Espriella lo encaró, perdió la visa y ahora la Fiscalía lo llama a interrogatorio: el caso del alcalde de Sincelejo",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/alcalde-sincelejo-llamado-interrogatorio-fiscalia-delito-soborno-DC43140377",
+      "fecha": "2026-11-03T22:01:51+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "e42d5b753f7c4ea7",
+      "titulo": "Renunció el abogado de Deicy Jiménez, denunciante de los ‘sexocontratos’",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/noticias/renuncio-el-abogado-de-deicy-jimenez-denunciante-de-los-sexocontratos/",
+      "fecha": "2026-11-03T22:00:25+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "670ba91416769226",
+      "titulo": "La Cancillería debe responder por el traslado de su biblioteca",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/red-de-expertos/red-social/la-cancilleria-debe-responder-por-el-traslado-de-su-biblioteca/",
+      "fecha": "2026-11-03T22:00:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "658dfb114edf1270",
+      "titulo": "Defensoría alerta por desplazamiento de 500 indígenas en Nuquí",
+      "categoria": "Colombia",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/colombia/defensoria-del-pueblo-alerta-por-desplazamiento-en-nuqui/",
+      "fecha": "2026-11-03T21:56:12+00:00",
       "imagen": ""
     },
     {
       "id": "a69c98a8ac73866f",
-      "titulo": "Comunidades del Chocó se quedaron esperando la energía comunitaria del Gobierno Petro",
+      "titulo": "Comunidades del Chocó se quedaron esperando la energía solar del Gobierno Petro",
       "categoria": "Colombia",
       "fuente": "Chocó 7 días",
       "url": "https://choco7dias.com/comunidades-del-choco-se-quedaron-esperando-la-energia-comunitaria-del-gobierno-petro/",
       "fecha": "2026-11-03T21:54:43+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "320b5e85899f1415",
+      "titulo": "Subsidios a damnificados en Cali: Revisión del censo oficial y ciclos de pagos",
+      "categoria": "Cali",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/vida-moderna/subsidios-a-damnificados-en-cali-terremoto-03-11-2026/",
+      "fecha": "2026-11-03T21:53:09+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "d0e2f2043cc62560",
+      "titulo": "Trump: a republicanos les irá \"mejor de lo esperado\" en las elecciones",
+      "categoria": "Internacional",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/trump-a-republicanos-les-irá-mejor-de-lo-esperado-en-las-elecciones/live-79845739?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-03T21:53:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "c3132af7a4547d06",
+      "titulo": "“No podemos entregar hojas de vida al Gobierno”: el regaño de Uribe a su bancada",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/uribe-hojas-de-vida-gobierno-centro-democratico-mateo-hidalgo-IH43118725",
+      "fecha": "2026-11-03T21:49:34+00:00",
       "imagen": ""
     },
     {
@@ -53,6 +287,24 @@
       "fuente": "Portafolio",
       "url": "https://www.portafolio.co/economia/gobierno/gobierno-de-la-espriella-radico-en-el-congreso-mensaje-de-urgencia-para-acelerar-tramite-de-ley-de-rescate-fiscal-505646",
       "fecha": "2026-11-03T21:40:59+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "3d60e23a167824e0",
+      "titulo": "Eisenkot promete acelerar medidas para formar un Gobierno y desbancar a Netanyahu",
+      "categoria": "Colombia",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/eisenkot-promete-acelerar-medidas-para-formar-un-gobierno-y-desbancar-a-netanyahu/a-79848282?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-03T21:40:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "0452e8034dd37b26",
+      "titulo": "Partidos de la Champions League hoy martes 3 de noviembre: resultados, goles y marcadores",
+      "categoria": "Deportes",
+      "fuente": "La FM Deportes",
+      "url": "https://www.lafm.com.co/deportes/champions-league-partidos-resultados-goles-y-marcadores-416028",
+      "fecha": "2026-11-03T21:39:21+00:00",
       "imagen": ""
     },
     {
@@ -102,20 +354,11 @@
     },
     {
       "id": "b6b006972a1b1073",
-      "titulo": "El Banco Central del Paraguay interviene Ueno Bank, uno de los mayores bancos del país, dejando congelados los ahorros de miles de clientes",
+      "titulo": "El Banco Central del Paraguay interviene Ueno Bank, uno de los mayores bancos del país, y deja congelados los ahorros de millones de clientes",
       "categoria": "Economía",
       "fuente": "BBC Mundo",
       "url": "https://www.bbc.com/mundo/articles/ckx2qj89lggxo?at_medium=RSS&at_campaign=rss",
       "fecha": "2026-11-03T21:28:19+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "c3132af7a4547d06",
-      "titulo": "“No podemos entregar hojas de vida al Gobierno”: el regaño de Uribe a su bancada",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/uribe-hojas-de-vida-gobierno-centro-democratico-mateo-hidalgo-IH43118725",
-      "fecha": "2026-11-03T21:26:15+00:00",
       "imagen": ""
     },
     {
@@ -137,12 +380,12 @@
       "imagen": ""
     },
     {
-      "id": "8a5e3d78f9aa5a3e",
-      "titulo": "Las ‘midterms’ 2026, en vivo | Las elecciones de Estados Unidos transcurren sin mayores incidentes pese al temor a la presencia de agentes federales",
+      "id": "611580acd3ccc109",
+      "titulo": "Así podrían influir las elecciones intermedias en EE. UU. en las guerras de Ucrania e Irán",
       "categoria": "Internacional",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/us/2026-11-03/las-midterms-2026-en-vivo.html",
-      "fecha": "2026-11-03T21:21:48+00:00",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/así-podrían-influir-las-elecciones-intermedias-en-ee-uu-en-las-guerras-de-ucrania-e-irán/a-79844126?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-03T21:23:00+00:00",
       "imagen": ""
     },
     {
@@ -263,15 +506,6 @@
       "imagen": ""
     },
     {
-      "id": "d0e2f2043cc62560",
-      "titulo": "Trump: a republicanos les irá \"mejor de lo esperado\" en las elecciones",
-      "categoria": "Internacional",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/trump-a-republicanos-les-irá-mejor-de-lo-esperado-en-las-elecciones/live-79845739?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-03T21:00:00+00:00",
-      "imagen": ""
-    },
-    {
       "id": "bb898bae568f48c1",
       "titulo": "Gobierno Petro dejó un consulado de papel que costó cerca de $500 millones",
       "categoria": "Colombia",
@@ -305,240 +539,6 @@
       "fuente": "90 Minutos",
       "url": "https://90minutos.co/vida-moderna/ciencia-y-tecnologia/angela-gomez-llega-oxford-doctorado-busca-apoyo-financiar-estudios-3-11-2026/",
       "fecha": "2026-11-03T20:55:05+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "834cd586d830300b",
-      "titulo": "Ataque con drones y ráfagas de fusil a estación de Policía de Chimichagua, Cesar, no dejó heridos, gracias a la valerosa respuesta de los uniformados",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/ataque-con-drones-y-rafagas-de-fusil-a-la-estacion-de-policia-de-chimichagua-cesar-no-dejo-heridos-3598190",
-      "fecha": "2026-11-03T20:54:41+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "44b7ae1b022a5006",
-      "titulo": "Un mes de preparación, drones y helicópteros artillados: así fue el bombardeo al ELN en Venezuela que habría apoyado EE. UU.",
-      "categoria": "Internacional",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/drones-asi-fue-el-ataque-aereo-en-venezuela-contra-eln-OF43130608",
-      "fecha": "2026-11-03T20:53:55+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "43a256b89838a239",
-      "titulo": "Embajador Gaona pidió traslado de cinco diplomáticos; sindicato denunció malos tratos y pide investigar",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/unidiplo-denuncia-malos-tratos-traslado-diplomaticos-nueva-york-HF43130272",
-      "fecha": "2026-11-03T20:50:50+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "d1aac4989ace1ea2",
-      "titulo": "Comunidad de La Buitrera denuncia presuntos retrasos en obras de una cancha deportiva",
-      "categoria": "Valle del Cauca",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/cali/comunidad-buitrera-denuncia-presuntos-retrasos-obras-cancha-3-11-2026/",
-      "fecha": "2026-11-03T20:46:59+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "21345a0c56d74212",
-      "titulo": "La Policía española abre una investigación sobre la muerte del futbolista Jesús de Miguel",
-      "categoria": "Deportes",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/la-policía-española-abre-una-investigación-sobre-la-muerte-del-futbolista-jesús-de-miguel/a-79848095?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-03T20:43:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "f3ecb976705e3188",
-      "titulo": "Kast vuelve a respaldar a Rabat y desafía a la oposición: “Que presenten la acusación mañana”",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/chile/2026-11-03/kast-vuelve-a-respaldar-a-rabat-y-desafia-a-la-oposicion-que-presenten-la-acusacion-manana.html",
-      "fecha": "2026-11-03T20:41:40+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "9cd00b9ca93d7d1b",
-      "titulo": "Óscar Puente anuncia su dimisión como ministro de Transportes",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/movilidad/oscar-puente-anuncia-su-dimision-como-ministro-transportes",
-      "fecha": "2026-11-03T20:41:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "98768850ae73a21d",
-      "titulo": "Reforma busca reactivar la regla fiscal en 2027 y establecer límites automáticos al crecimiento del gasto público",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/reforma-busca-reactivar-la-regla-fiscal-en-2027-y-establecer-limites-automaticos-al-crecimiento-del-gasto-publico-505640",
-      "fecha": "2026-11-03T20:39:49+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "05ddb148044b55db",
-      "titulo": "Cómo consultar el historial laboral en Colpensiones",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/temas/como-consultar-el-historial-laboral-en-colpensiones/",
-      "fecha": "2026-11-03T20:39:40+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "26d81776d86207f3",
-      "titulo": "El desafío de Alemania: encontrar un depósito nuclear permanente",
-      "categoria": "Internacional",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/el-desafío-de-alemania-encontrar-un-depósito-nuclear-permanente/a-79847687?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-03T20:39:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "f99c7a7033754560",
-      "titulo": "Cómo consultar el estado de una solicitud de visa colombiana",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/temas/como-consultar-el-estado-de-una-solicitud-de-visa-colombiana/",
-      "fecha": "2026-11-03T20:35:48+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "8e233fa55975af00",
-      "titulo": "Salario mínimo regional en Colombia: ¿Quiénes ganarían y quiénes podrían verse afectados con la propuesta?",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/noticias/salario-minimo-regional-en-colombia-quienes-ganarian-y-quienes-podrian-verse-afectados-con-la-propuesta/",
-      "fecha": "2026-11-03T20:30:23+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "07086d7bdb312dca",
-      "titulo": "Video | ¿Cómo saber si necesita tomar suplementos? nutricionista explica",
-      "categoria": "Valle del Cauca",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/vida-moderna/salud/necesita-tomar-suplementos-nutricionista-03-11-2026/",
-      "fecha": "2026-11-03T20:28:16+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "e20ec15284adf094",
-      "titulo": "Los Ángeles dice adiós al petróleo tras años de lucha vecinal",
-      "categoria": "Economía",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/los-ángeles-dice-adiós-al-petróleo-tras-años-de-lucha-vecinal/a-79846695?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-03T20:27:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "17efac3affe7b8f4",
-      "titulo": "Ley de Rescate podría llevar la inflación de 2027 hasta 6,49%",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/ley-de-rescate-podria-llevar-la-inflacion-de-2027-hasta-6-505636",
-      "fecha": "2026-11-03T20:23:27+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "7a24c7bbd86c1650",
-      "titulo": "Cetaphil amplía su propuesta de cuidado corporal con Skin Activator Hydrating & Firming",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/empresas/cetaphil-amplia-su-propuesta-de-cuidado-corporal-con-skin-activator-hydrating-firming-4516798",
-      "fecha": "2026-11-03T20:19:34+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "3cf1beb36d8a4a53",
-      "titulo": "Cómo inscribir o actualizar la hoja de vida en el Servicio Público de Empleo",
-      "categoria": "Economía",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/temas/como-inscribir-o-actualizar-la-hoja-de-vida-en-el-servicio-publico-de-empleo/",
-      "fecha": "2026-11-03T20:15:37+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "6b532444504182f7",
-      "titulo": "Austeridad en Navidad: entidades del Gobierno deberán racionalizar el gasto en celebraciones de fin de año",
-      "categoria": "Colombia",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/austeridad-en-navidad-entidades-del-gobierno-deberan-racionalizar-el-gasto-en-celebraciones-de-fin-de-ano-505634",
-      "fecha": "2026-11-03T20:12:06+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "517c87e0d174da47",
-      "titulo": "Cómo verificar la vigencia de la licencia de conducción en el RUNT",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/temas/como-verificar-la-vigencia-de-la-licencia-de-conduccion-en-el-runt/",
-      "fecha": "2026-11-03T20:08:05+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "54b330f03e7c80a1",
-      "titulo": "Merz garantiza a Zelenski apoyo hasta el final de la guerra y más ayuda para el invierno",
-      "categoria": "Internacional",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/merz-garantiza-a-zelenski-apoyo-hasta-el-final-de-la-guerra-y-más-ayuda-para-el-invierno/a-79847171?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-03T20:07:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "b6f04be9efce355e",
-      "titulo": "Ganaderos denuncian a fiscal de Corozal por presunta negligencia tras dejar en libertad a ocho capturados señalados de robar 530 reses en Sucre",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/ganaderos-denuncian-a-fiscal-de-corozal-por-presunta-negligencia-tras-dejar-en-libertad-a-ocho-capturados-senalados-de-robar-530-reses-en-sucre-3598178",
-      "fecha": "2026-11-03T20:05:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "037866e8265d4218",
-      "titulo": "Arturo Reyes en el sonajero del Junior: ¿funcionaría una nueva etapa?",
-      "categoria": "Deportes",
-      "fuente": "La FM Deportes",
-      "url": "https://www.lafm.com.co/deportes/crisis-junior-de-barranquilla-liga-betplay-arturo-reyes-suena-416016",
-      "fecha": "2026-11-03T20:04:45+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "def64224c613b3c2",
-      "titulo": "Las actas y testimonios de generales por los que la JEP pidió investigar a Luis Pérez por su silencio en las operaciones Orión y Mariscal en Medellín",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/medellin/las-actas-y-testimonios-de-generales-por-los-que-la-jep-pidio-investigar-a-luis-perez-por-su-silencio-en-las-operaciones-orion-y-mariscal-en-medellin-3598155",
-      "fecha": "2026-11-03T20:03:25+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "89cb5b8b3336a866",
-      "titulo": "Salud, subsidios y pensiones quedarían en riesgo si Colombia no aprueba ley de rescate económico: Anif",
-      "categoria": "Colombia",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/gobierno/salud-subsidios-y-pensiones-quedarian-en-riesgo-si-colombia-no-aprueba-ley-de-rescate-economico-anif-505629",
-      "fecha": "2026-11-03T20:02:04+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "7c7a6443e3c8edd1",
-      "titulo": "Almacenamiento en la nube, VPN, correo y más: esta alternativa europea a Google Drive inaugura el Black Friday con un 87 % de descuento",
-      "categoria": "Tecnología",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/seleccion/almacenamiento-nube-vpn-correo-esta-alternativa-europea-a-google-drive-inaugura-black-friday-87-descuento",
-      "fecha": "2026-11-03T20:01:27+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "e492f85b37f83ac1",
-      "titulo": "Jesús Owono, el portero del Andorra que cerró sus redes tras la muerte de Jesús de Miguel",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/actualidad/jesus-owono-el-portero-del-andorra-que-cerro-sus-redes-tras-la-muerte-de-jesus-de-miguel/",
-      "fecha": "2026-11-03T20:00:46+00:00",
       "imagen": ""
     }
   ],
@@ -590,7 +590,7 @@
       "nombre": "BBC Mundo",
       "url": "https://feeds.bbci.co.uk/mundo/rss.xml",
       "estado": "correcto",
-      "titulares": 26
+      "titulares": 24
     },
     {
       "nombre": "DW Español",
@@ -620,7 +620,7 @@
       "nombre": "La FM Deportes",
       "url": "https://www.lafm.com.co/rss/deportes.xml",
       "estado": "correcto",
-      "titulares": 15
+      "titulares": 16
     },
     {
       "nombre": "La FM Economía",
@@ -668,7 +668,7 @@
       "nombre": "La Patria — Caldas",
       "url": "https://www.lapatria.com/rss.xml",
       "estado": "correcto",
-      "titulares": 6
+      "titulares": 5
     }
   ]
 }
