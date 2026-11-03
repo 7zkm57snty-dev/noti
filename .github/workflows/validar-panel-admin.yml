@@ -6,6 +6,7 @@ on:
     paths:
       - "admin-worker/**"
       - "redactor.py"
+      - "build.py"
       - "feeds.json"
       - ".github/workflows/validar-panel-admin.yml"
       - ".github/workflows/actualizar.yml"
@@ -18,6 +19,7 @@ on:
     paths:
       - "admin-worker/**"
       - "redactor.py"
+      - "build.py"
       - "feeds.json"
       - ".github/workflows/validar-panel-admin.yml"
 
