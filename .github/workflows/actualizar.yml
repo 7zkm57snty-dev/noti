@@ -13,6 +13,7 @@ on:
 
 permissions:
   contents: write
+  pull-requests: write
   actions: write
 
 concurrency:
@@ -46,10 +47,10 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         shell: bash
         run: |
-          OPEN_ADMIN_PR="$(gh pr list --state open --base main --json headRefName --jq '[.[] | select(.headRefName | startswith("revision-admin/"))] | length')"
-          if [ "${OPEN_ADMIN_PR:-0}" -gt 0 ]; then
+          OPEN_REVIEW_PR="$(gh pr list --state open --base main --json headRefName --jq '[.[] | select((.headRefName | startswith("revision-admin/")) or (.headRefName | startswith("revision-editorial/noticias-pendientes-")))] | length')"
+          if [ "${OPEN_REVIEW_PR:-0}" -gt 0 ]; then
             echo "revision_pendiente=true" >> "$GITHUB_OUTPUT"
-            echo "Hay cambios manuales pendientes desde el panel. Se pausa la automatización para no sobrescribirlos."
+            echo "Hay una revisión humana pendiente en el panel. La redacción automática se pausa para no duplicar ni sobrescribir propuestas."
             exit 0
           fi
           cp cache.json /tmp/cev-cache-antes.json
@@ -62,7 +63,7 @@ jobs:
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
           PYTHONUNBUFFERED: "1"
         run: |
-          echo "Generando artículos originales. Los que superen todas las verificaciones se publicarán automáticamente."
+          echo "Investigando acontecimientos, contrastando fuentes y preparando artículos originales para revisión editorial humana."
           python -u redactor.py
 
       - name: Guardar radar RSS y límites diarios independientes
@@ -90,9 +91,9 @@ jobs:
           )
           print(
               f"Tope diario: {state.get('articulos_generados_dia', 0)}/"
-              f"{state.get('limite_articulos_diario', 20)} artículos; "
+              f"{state.get('limite_articulos_diario', 30)} artículos; "
               f"{state.get('solicitudes_groq', 0)}/"
-              f"{state.get('limite_solicitudes_diario', 40)} solicitudes."
+              f"{state.get('limite_solicitudes_diario', 60)} solicitudes."
           )
           PY
 
@@ -144,8 +145,17 @@ jobs:
                   errores.append("titular ausente o demasiado corto")
               if not resumen or len(resumen) < 40:
                   errores.append("resumen insuficiente")
-              if palabras < 300:
-                  errores.append("artículo de menos de 300 palabras")
+              if palabras < 380:
+                  errores.append("artículo de menos de 380 palabras")
+              parrafos = [p.strip() for p in cuerpo.split("\n\n") if p.strip()]
+              if len(parrafos) < 5:
+                  errores.append("artículo con menos de cinco párrafos sustanciales")
+              investigacion = noticia.get("investigacion") or {}
+              if len(str(investigacion.get("enfoque_original", "")).strip()) < 45:
+                  errores.append("falta explicar el enfoque o aporte original de CEV")
+              hechos_clave = investigacion.get("hechos_clave") or []
+              if not isinstance(hechos_clave, list) or len([h for h in hechos_clave if str(h).strip()]) < 3:
+                  errores.append("faltan al menos tres hechos clave identificados")
               if noticia.get("categoria") not in {
                   "Cali", "Valle del Cauca", "Colombia", "Internacional",
                   "Deportes", "Tecnología", "Economía", "Tendencias", "Humor y opinión"
@@ -195,6 +205,30 @@ jobs:
               for titulo, errores in invalidas:
                   print("BORRADOR DESCARTADO:", titulo, "|", "; ".join(errores))
 
+          # Resumen que acompañará la propuesta en la cola de revisión humana.
+          lineas = [
+              "## Lote de investigaciones propias de CEV NOTICIAS",
+              "",
+              "Estos artículos fueron preparados a partir de investigación documental y contraste de fuentes. No se publican hasta que una persona los revise y apruebe desde el panel privado.",
+              "",
+              f"**Propuestas válidas:** {len(validas)}",
+              ""
+          ]
+          for noticia in validas:
+              investigacion = noticia.get("investigacion") or {}
+              lineas.extend([
+                  f"### {noticia.get('titulo', 'Sin título')}",
+                  f"- **Sección:** {noticia.get('categoria', 'Sin sección')}",
+                  f"- **Extensión:** {len(str(noticia.get('contenido', '')).split())} palabras",
+                  f"- **Fuentes recuperadas:** {investigacion.get('fuentes_recuperadas', len(noticia.get('fuentes', [])))}",
+                  f"- **Enfoque CEV:** {investigacion.get('enfoque_original', 'No indicado')}",
+                  "- **Fuentes consultadas:** " + ", ".join(
+                      str(x.get("nombre", "Fuente")) for x in noticia.get("fuentes", [])
+                  ),
+                  ""
+              ])
+          Path("/tmp/cev_revision_body.md").write_text("\n".join(lineas), encoding="utf-8")
+
           ids_validas = {str(n.get("id")) for n in validas}
           ids_permitidos = ids_antes | ids_validas
           despues["noticias"] = [
@@ -240,7 +274,7 @@ jobs:
               Path(os.environ["GITHUB_OUTPUT"]).write_text("hay_novedades=true\n", encoding="utf-8")
           PY
 
-      - name: Persistir límites diarios cuando no hay artículos para publicar
+      - name: Persistir límites diarios cuando no hay artículos para proponer
         if: steps.estado_cola.outputs.revision_pendiente != 'true' && steps.novedades.outputs.hay_novedades != 'true'
         shell: bash
         run: |
@@ -254,16 +288,35 @@ jobs:
             git push origin HEAD:main
           fi
 
-      - name: Publicar automáticamente el lote validado
+      - name: Persistir límites diarios antes de solicitar aprobación editorial
+        if: steps.estado_cola.outputs.revision_pendiente != 'true' && steps.novedades.outputs.hay_novedades == 'true'
+        shell: bash
+        run: |
+          git add automation_state.json
+          if git diff --cached --quiet; then
+            echo "Los límites diarios ya están guardados."
+          else
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git commit -m "Actualizar consumo de investigación editorial"
+            git push origin HEAD:main
+          fi
+
+      - name: Enviar artículos completos a revisión editorial humana
         if: steps.estado_cola.outputs.revision_pendiente != 'true' && steps.novedades.outputs.hay_novedades == 'true'
         env:
           GH_TOKEN: ${{ github.token }}
+          RUN_ID: ${{ github.run_id }}
         shell: bash
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add cache.json automation_state.json
-          git commit -m "Publicar lote automático de noticias CEV NOTICIAS"
-          git push origin HEAD:main
-          gh workflow run publicar.yml --ref main
-          echo "Lote validado enviado a main y publicación web solicitada mediante workflow_dispatch."
+          BRANCH="revision-editorial/noticias-pendientes-${RUN_ID}"
+          git checkout -b "$BRANCH"
+          git add cache.json
+          git commit -m "Preparar propuestas de investigación CEV NOTICIAS"
+          git push origin "HEAD:refs/heads/$BRANCH"
+          gh pr create \
+            --base main \
+            --head "$BRANCH" \
+            --title "CEV NOTICIAS | Investigaciones para revisión editorial" \
+            --body-file /tmp/cev_revision_body.md
+          echo "Propuestas preparadas; no se publican hasta su aprobación desde el panel editorial."
