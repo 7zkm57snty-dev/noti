@@ -77,21 +77,21 @@ async function submit(e){
 }
 async function remove(id){if(!confirm("¿Solicitar el retiro de esta noticia? Seguirá visible hasta aprobar la propuesta."))return;try{const r=await api("/api/news/"+encodeURIComponent(id),{method:"DELETE"});toast(r.message+" · PR #"+r.pr.number,"success");state.page="review";await load()}catch(e){toast(e.message,"error")}}
 async function waitForPublication(sha){
- const deadline=Date.now()+180000;
+ const deadline=Date.now()+660000;
  while(Date.now()<deadline){
   const status=await api("/api/deployments/"+encodeURIComponent(sha));
   if(status.state==="success")return status;
   if(status.state==="failure")return status;
   await new Promise(resolve=>setTimeout(resolve,2500));
  }
- return {state:"timeout",message:"La publicación sigue en curso."};
+ return {state:"timeout",message:"La publicación sigue en curso. El dominio todavía no ha confirmado los cambios."};
 }
 async function actReview(id,action){
  if(!confirm(action==="approve"?"¿Aprobar y fusionar esta propuesta? El panel esperará hasta que la web esté publicada.":"¿Rechazar y cerrar esta propuesta?"))return;
  try{
   const r=await api("/api/reviews/"+id+"/"+action,{method:"POST",headers:{"content-type":"application/json"},body:"{}"});
   if(action==="approve"&&r.deploySha){
-   toast("Propuesta aprobada. Esperando la publicación de la web…","success");
+   toast("Propuesta aprobada. Comprobando que el dominio público muestre los cambios…","success");
    const publication=await waitForPublication(r.deploySha);
    if(publication.state==="success")toast("Publicación terminada. Ya puedes actualizar la página de la noticia.","success");
    else if(publication.state==="failure")toast("La propuesta se aprobó, pero falló la publicación. Revisa GitHub Actions. "+(publication.runUrl||""),"error");

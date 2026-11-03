@@ -8,7 +8,7 @@ Worker privado para `admin.cevnoticias.com`, integrado con el repositorio `7zkm5
 - La interfaz se importa como módulo de texto mediante Wrangler. No se usa el router de Static Assets, para conservar el contexto de Access en el Worker.
 - El token de GitHub solo se lee desde el secreto `GITHUB_TOKEN` del Worker. Nunca se devuelve al navegador.
 - Las altas, ediciones y retiros crean una rama `revision-admin/*` y una propuesta contra `main`.
-- Aprobar fusiona la propuesta y el panel espera a que el workflow de GitHub Pages termine correctamente antes de confirmar que la web ya se puede actualizar. Rechazar cierra la propuesta.
+- Aprobar fusiona la propuesta y el panel espera a que el workflow de GitHub Pages termine. Antes de marcar la actualización como completada, el workflow consulta el dominio público sin caché y compara portada, titular, resumen, cuerpo y fotografía con cache.json. Rechazar cierra la propuesta.
 - Se mantiene `cache.json` como fuente de datos y se conservan los procesos de publicación actuales.
 - El workflow automático ahora se pausa tanto ante propuestas automáticas como ante propuestas creadas desde el panel.
 
@@ -68,3 +68,8 @@ Después de que Cloudflare despliegue la versión y el secreto exista, abre `htt
 ## Registro de despliegue
 
 Se registra este cambio documental para activar la primera compilación automática de Cloudflare desde la rama `main`, con el directorio raíz `admin-worker`.
+
+
+## Verificación de publicación pública
+
+`verificar_publicacion.py` compara las páginas servidas por el dominio configurado en GitHub Pages con los artículos de `cache.json`. Se ejecuta después de `deploy-pages`, usa peticiones HTTP sin caché y reintenta hasta nueve minutos para dar margen a la propagación. Si el dominio sigue sirviendo texto anterior, falta una fotografía o una noticia retirada continúa visible, el workflow falla y el panel no anuncia que la web ya está actualizada.
