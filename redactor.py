@@ -1749,7 +1749,8 @@ def ejecutar():
 
     guardar_json(CACHE, {
         "noticias": resultado,
-        "breves": (breves_nuevos + breves_publicados)[:MAX_BREVES_ANTERIORES],
+        # Al publicar una edición nueva, reemplaza la anterior para no mezclar ventanas.
+        "breves": (breves_nuevos if breves_nuevos else breves_publicados)[:MAX_BREVES_ANTERIORES],
         "breves_actualizadas": fecha_ultima_rotacion_breves or cache.get("breves_actualizadas", ""),
         "periodo_breves_publicado": periodo_breves_publicado,
         "titulares_rss": titulares_rss,
