@@ -247,6 +247,11 @@ jobs:
                   publicado = datetime.fromisoformat(str(breve.get("fecha", "")).replace("Z", "+00:00"))
                   if publicado.tzinfo is None:
                       publicado = publicado.replace(tzinfo=ZoneInfo("UTC"))
+                  ahora_local = datetime.now(ZoneInfo("America/Bogota"))
+                  publicado_local = publicado.astimezone(ZoneInfo("America/Bogota"))
+                  lunes_actual = (ahora_local - __import__("datetime").timedelta(days=ahora_local.weekday())).date()
+                  if publicado_local.date() < lunes_actual or publicado_local > ahora_local:
+                      errores.append("mini-noticia fuera de la semana actual (lunes a domingo) o con fecha futura")
                   edad_horas = (datetime.now(ZoneInfo("UTC")) - publicado).total_seconds() / 3600
                   if edad_horas > 48 or edad_horas < -2:
                       errores.append("mini-noticia fuera de la ventana de actualidad de 48 horas")
