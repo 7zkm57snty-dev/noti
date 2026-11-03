@@ -787,8 +787,9 @@ nav a:hover,nav a:focus{{color:#ff9a9e}}
 .express-enlace{{padding:18px}}
 .contenedor{{max-width:1280px;margin:0 auto 28px;padding:8px 32px 42px;background:#f8fafc;border:1px solid #dfe5eb;border-top:0;border-radius:0 0 18px 18px;box-shadow:0 12px 34px rgba(23,33,43,.07)}}
 .cinta{{margin:24px 0 18px}}
-.portada-grid{{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(300px,.9fr);gap:30px;align-items:center;padding:22px;background:#fff;border:1px solid #dce3e9;border-radius:16px;box-shadow:0 8px 24px rgba(23,33,43,.06)}}
-.destacada{{display:contents}}
+.portada-grid{{display:block;padding:22px;background:#fff;border:1px solid #dce3e9;border-radius:16px;box-shadow:0 8px 24px rgba(23,33,43,.06)}}
+.destacada{{min-width:0}}
+.destacada > a{{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(300px,.9fr);gap:30px;align-items:center}}
 .destacada-visual{{height:390px;min-height:0;border-radius:12px;background:#dce3e9}}
 .destacada-texto{{padding:12px 8px 12px 0}}
 .destacada h1{{font-size:clamp(34px,3.4vw,50px);line-height:1.06;letter-spacing:-1.35px;color:#17212b}}
@@ -858,7 +859,8 @@ body.noche .articulo .cuerpo{{color:#e8edf1}}
 body.noche .bloque-investigacion{{background:#2a3540;color:#e8edf1}}
 body.noche .vacio{{background:#222d37;border-color:#49535e}}
 @media(max-width:900px){{
- .portada-grid{{grid-template-columns:minmax(0,1fr) minmax(260px,.9fr);gap:20px;padding:18px}}
+ .portada-grid{{padding:18px}}
+ .destacada > a{{grid-template-columns:minmax(0,1fr) minmax(260px,.9fr);gap:20px}}
  .destacada-visual{{height:320px}}
  .tarjeta-vertical .tarjeta-enlace{{grid-template-columns:minmax(190px,36%) minmax(0,1fr);gap:18px}}
  .contenedor{{padding-left:22px;padding-right:22px}}
@@ -881,8 +883,8 @@ body.noche .vacio{{background:#222d37;border-color:#49535e}}
  .express-foto{{height:112px}}
  .contenedor{{padding:8px 13px 26px;margin-bottom:18px;border-radius:0 0 13px 13px}}
  .cinta{{margin:17px 1px 13px;font-size:9px;letter-spacing:1.2px}}
- .portada-grid{{grid-template-columns:minmax(0,1fr);gap:0;padding:12px;border-radius:13px}}
- .destacada{{display:block}}
+ .portada-grid{{padding:12px;border-radius:13px}}
+ .destacada > a{{grid-template-columns:minmax(0,1fr);gap:0}}
  .destacada-visual{{height:auto;aspect-ratio:16/9;border-radius:10px}}
  .destacada-texto{{padding:15px 3px 5px}}
  .destacada h1{{font-size:clamp(28px,8vw,36px);letter-spacing:-.8px}}
