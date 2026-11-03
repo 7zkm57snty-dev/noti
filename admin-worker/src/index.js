@@ -71,8 +71,13 @@ async function registrarFuentesDePropuestaRechazada(env,branch) {
   const cachePropuesta=JSON.parse(decode64(propuesta.content));
   const estado=JSON.parse(decode64(archivoEstado.content));
   const idsPublicados=new Set((cachePrincipal.noticias||[]).map(n=>String(n.id||"")));
+  const idsBrevesPublicados=new Set((cachePrincipal.breves||[]).map(n=>String(n.id||"")));
   const articulosNuevos=(cachePropuesta.noticias||[]).filter(n=>n.id&&!idsPublicados.has(String(n.id)));
-  const urlsNuevas=articulosNuevos.flatMap(n=>(n.fuentes||[]).map(f=>String(f.url||"").trim()).filter(u=>u.startsWith("https://")));
+  const brevesNuevos=(cachePropuesta.breves||[]).filter(n=>n.id&&!idsBrevesPublicados.has(String(n.id)));
+  const urlsNuevas=[
+    ...articulosNuevos.flatMap(n=>(n.fuentes||[]).map(f=>String(f.url||"").trim())),
+    ...brevesNuevos.flatMap(n=>(n.fuentes||[]).map(f=>String(f.url||"").trim()))
+  ].filter(u=>u.startsWith("https://"));
   const existentes=Array.isArray(estado.fuentes_descartadas)?estado.fuentes_descartadas:[];
   const ahora=new Date().toISOString();
   const porUrl=new Map(existentes.filter(x=>x&&x.url).map(x=>[String(x.url),x]));
@@ -124,6 +129,10 @@ async function readAutomationState(env) {
     fecha_articulos_dia:"",
     articulos_generados_dia:0,
     limite_articulos_diario:30,
+    limite_breves_diario:30,
+    breves_generados_dia:0,
+    fecha_breves_dia:"",
+    limite_breves_ejecucion:3,
     limite_solicitudes_diario:60,
     limite_articulos_ejecucion:5
   };
@@ -284,10 +293,13 @@ async function dashboard(env,identity) {
     automation:r[3],
     automationLimits:{
       articlesToday:r[4].fecha_articulos_dia===dateISOCO()?(Number(r[4].articulos_generados_dia)||0):0,
-      dailyArticleLimit:Number(r[4].limite_articulos_diario)||20,
+      dailyArticleLimit:Number(r[4].limite_articulos_diario)||30,
+      briefsToday:r[4].fecha_breves_dia===dateISOCO()?(Number(r[4].breves_generados_dia)||0):0,
+      dailyBriefLimit:Number(r[4].limite_breves_diario)||30,
+      maxBriefsPerRun:Number(r[4].limite_breves_ejecucion)||3,
       dailyRequests:r[4].fecha_solicitudes_groq===dateISOCO()?(Number(r[4].solicitudes_groq)||0):0,
-      dailyRequestLimit:Number(r[4].limite_solicitudes_diario)||40,
-      maxArticlesPerRun:Number(r[4].limite_articulos_ejecucion)||4,
+      dailyRequestLimit:Number(r[4].limite_solicitudes_diario)||60,
+      maxArticlesPerRun:Number(r[4].limite_articulos_ejecucion)||5,
       articleDate:r[4].fecha_articulos_dia||"",
       requestDate:r[4].fecha_solicitudes_groq||"",
       lastRequest:r[4].ultima_solicitud_groq||""

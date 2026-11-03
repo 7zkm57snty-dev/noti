@@ -27,8 +27,12 @@ MODELO = "openai/gpt-oss-20b"
 MAX_NOTICIAS = 20
 MAX_ARTICULOS_POR_EJECUCION = 5
 MAX_ARTICULOS_DIARIOS = 30
-MAX_SOLICITUDES_POR_EJECUCION = 5
+MAX_BREVES_POR_EJECUCION = 3
+MAX_BREVES_DIARIOS = 30
+MAX_BREVES_ANTERIORES = 50
+MAX_SOLICITUDES_POR_EJECUCION = 8
 MAX_GRUPOS_REVISADOS_POR_EJECUCION = 36
+MAX_GRUPOS_BREVES_REVISADOS_POR_EJECUCION = 18
 MINUTOS_ENTRE_SOLICITUDES = 20
 MAX_SOLICITUDES_DIARIAS = 60
 MAX_FUENTES_POR_ARTICULO = 4
@@ -630,6 +634,104 @@ Devuelve exclusivamente JSON válido con esta estructura:
 
 
 
+def generar_breve(cliente, titulo_referencia, fuentes):
+    """Redacta una mini-noticia original a partir de textos completos ya recuperados."""
+    material = []
+    for fuente in fuentes:
+        material.append(
+            f"""
+MEDIO: {fuente['nombre']}
+TÍTULO ORIGINAL: {fuente['titulo']}
+TEXTO RECUPERADO:
+{fuente['texto'][:6500]}
+"""
+        )
+
+    instrucciones = f"""
+Eres parte de la mesa de actualidad rápida de CEV NOTICIAS.
+Debes elaborar una MINI-NOTICIA original, útil y verificable para una
+sección de portada llamada "Última hora · Lo más destacado".
+
+TEMA DETECTADO:
+{titulo_referencia}
+
+TEXTOS RECUPERADOS PARA INVESTIGACIÓN:
+{''.join(material)}
+
+INSTRUCCIONES:
+1. No te limites a cambiar palabras del titular original.
+2. Escribe desde cero un texto breve de 50 a 85 palabras que responda
+   qué ocurrió, dónde, cuál es la novedad y por qué importa.
+3. Usa exclusivamente hechos presentes en los textos recuperados.
+4. Contrasta las fuentes y distingue datos confirmados de versiones
+   preliminares o declaraciones atribuidas.
+5. Si hay contradicciones relevantes, falta el hecho central o el material
+   es insuficiente, devuelve "descartar": true.
+6. No inventes nombres, cifras, fechas, causas, consecuencias ni citas.
+7. No copies frases distintivas de los artículos originales.
+8. El titular debe ser propio, informativo y llamativo sin exagerar.
+9. No incluyas enlaces ni invitaciones a visitar los sitios originales.
+10. No presentes una publicación como primicia de CEV si otro medio
+    informó primero. El crédito a los medios consultados se incorporará
+    por separado en la tarjeta pública.
+11. No atribuyas a una autoridad hechos que no haya confirmado.
+12. Para homicidios, accidentes, víctimas, capturas, denuncias,
+    acusaciones, delitos o controversias políticas exige dos dominios
+    periodísticos u oficiales independientes. Si no existen, descarta.
+13. Elige una categoría correcta de esta lista:
+{", ".join(CATEGORIAS)}
+
+ESTADO:
+Usa "confirmada", "en_desarrollo" o "informacion_preliminar"
+según la evidencia disponible.
+
+Devuelve exclusivamente JSON válido:
+{{
+  "descartar": false,
+  "titulo": "Titular propio de la mini-noticia",
+  "texto": "Mini-noticia original de 50 a 85 palabras",
+  "categoria": "Categoría",
+  "estado_informacion": "confirmada | en_desarrollo | informacion_preliminar"
+}}
+"""
+
+    respuesta = cliente.chat.completions.create(
+        model=MODELO,
+        messages=[{"role": "user", "content": instrucciones}],
+        temperature=0.2,
+        reasoning_format="hidden"
+    )
+    contenido_respuesta = respuesta.choices[0].message.content
+    if not contenido_respuesta:
+        return None
+    try:
+        breve = json.loads(contenido_respuesta)
+    except json.JSONDecodeError:
+        print("Groq devolvió una mini-noticia no válida.")
+        return None
+
+    if breve.get("descartar") is True:
+        print("Mini-noticia descartada por falta de información.")
+        return None
+    titulo = str(breve.get("titulo", "")).strip()
+    texto = str(breve.get("texto", "")).strip()
+    palabras = len(texto.split())
+    if not titulo or len(titulo) < 12 or palabras < 45 or palabras > 100:
+        print(f"Mini-noticia descartada por extensión o titular: {palabras} palabras.")
+        return None
+    if breve.get("categoria") not in CATEGORIAS:
+        return None
+    estado = str(breve.get("estado_informacion", "informacion_preliminar")).strip().lower()
+    if estado not in ("confirmada", "en_desarrollo", "informacion_preliminar"):
+        estado = "informacion_preliminar"
+    return {
+        "titulo": titulo,
+        "texto": texto,
+        "categoria": breve["categoria"],
+        "estado_informacion": estado
+    }
+
+
 def _fuente_social(negrita, tamano):
     rutas = [
         "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf" if negrita else "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
@@ -1034,9 +1136,12 @@ def ejecutar():
         cache = {"noticias": []}
 
     publicadas = cache.get("noticias", [])
+    breves_publicados = cache.get("breves", [])
 
     if not isinstance(publicadas, list):
         publicadas = []
+    if not isinstance(breves_publicados, list):
+        breves_publicados = []
 
     titulos_publicados = [
         noticia.get("titulo", "")
@@ -1123,6 +1228,11 @@ def ejecutar():
     else:
         articulos_hoy = 0
 
+    if estado_automatizacion.get("fecha_breves_dia") == fecha_control:
+        breves_hoy = int(estado_automatizacion.get("breves_generados_dia", 0))
+    else:
+        breves_hoy = 0
+
     print(
         f"Solicitudes Groq usadas hoy: {solicitudes_groq}/"
         f"{MAX_SOLICITUDES_DIARIAS}"
@@ -1141,7 +1251,7 @@ def ejecutar():
     puede_generar = (
         bool(cliente)
         and solicitudes_groq < MAX_SOLICITUDES_DIARIAS
-        and articulos_hoy < MAX_ARTICULOS_DIARIOS
+        and (articulos_hoy < MAX_ARTICULOS_DIARIOS or breves_hoy < MAX_BREVES_DIARIOS)
     )
 
     if puede_generar and timestamp_ultima and (ahora_ts - timestamp_ultima) < MINUTOS_ENTRE_SOLICITUDES * 60:
@@ -1162,7 +1272,8 @@ def ejecutar():
             if articulos_hoy + len(nuevas) >= MAX_ARTICULOS_DIARIOS:
                 print("Límite diario de artículos alcanzado.")
                 break
-            if solicitudes_esta_ejecucion >= MAX_SOLICITUDES_POR_EJECUCION:
+            if solicitudes_esta_ejecucion >= (MAX_SOLICITUDES_POR_EJECUCION - MAX_BREVES_POR_EJECUCION):
+                print("Se reservan las últimas solicitudes del ciclo para mini-noticias.")
                 break
             if grupos_revisados >= MAX_GRUPOS_REVISADOS_POR_EJECUCION:
                 print("Límite de grupos revisados en esta ejecución alcanzado.")
@@ -1296,7 +1407,139 @@ def ejecutar():
     else:
         print("En esta ejecución no corresponde consumir una solicitud de Groq.")
 
+    # Mini-noticias de portada: se producen con el remanente de llamadas,
+    # sin sustituir ni duplicar los artículos completos.
+    breves_nuevos = []
+    if puede_generar and solicitudes_groq < MAX_SOLICITUDES_DIARIAS and breves_hoy < MAX_BREVES_DIARIOS:
+        titulos_articulos = [
+            str(n.get("titulo", ""))
+            for n in publicadas + nuevas
+            if n.get("titulo")
+        ]
+        titulos_breves = [
+            str(b.get("titulo", ""))
+            for b in breves_publicados
+            if b.get("titulo")
+        ]
+        urls_breves_existentes = {
+            str(f.get("url", "")).strip()
+            for b in breves_publicados
+            for f in b.get("fuentes", [])
+            if f.get("url")
+        }
+        grupos_breves_revisados = 0
+
+        for grupo in grupos:
+            if len(breves_nuevos) >= MAX_BREVES_POR_EJECUCION:
+                break
+            if breves_hoy + len(breves_nuevos) >= MAX_BREVES_DIARIOS:
+                break
+            if solicitudes_groq >= MAX_SOLICITUDES_DIARIAS:
+                break
+            if solicitudes_esta_ejecucion >= MAX_SOLICITUDES_POR_EJECUCION:
+                break
+            if grupos_breves_revisados >= MAX_GRUPOS_BREVES_REVISADOS_POR_EJECUCION:
+                break
+
+            titulo_grupo = str(grupo.get("titulo", "")).strip()
+            if not titulo_grupo:
+                continue
+            if any(son_misma_noticia(titulo_grupo, t) for t in titulos_articulos):
+                continue
+            if any(son_misma_noticia(titulo_grupo, t) for t in titulos_breves):
+                continue
+
+            grupos_breves_revisados += 1
+            fuentes_breve = leer_contenidos(grupo)
+            fuentes_breve = [
+                fuente for fuente in fuentes_breve
+                if urlparse(str(fuente.get("url", ""))).scheme == "https"
+                and urlparse(str(fuente.get("url", ""))).hostname
+                and len(str(fuente.get("texto", "")).strip()) >= 500
+                and str(fuente.get("nombre", "")).strip()
+            ]
+            dominios_breve = {
+                urlparse(f["url"]).hostname.lower().removeprefix("www.")
+                for f in fuentes_breve
+            }
+            if not fuentes_breve:
+                continue
+
+            texto_breve_revision = (
+                titulo_grupo + " " + " ".join(str(f.get("texto", "")) for f in fuentes_breve)
+            ).lower()
+            temas_sensibles_breve = re.search(
+                r"\b(accidente|muert[eo]|falleci|homicid|asesinat|robo|hurto|captura|detenid|denuncia|acusaci[oó]n|víctim|victim|agresi[oó]n|desaparici[oó]n|abuso|corrupci[oó]n)\w*",
+                texto_breve_revision
+            )
+            if temas_sensibles_breve and len(dominios_breve) < 2:
+                print("Mini-noticia sensible descartada: requiere dos fuentes independientes:", titulo_grupo)
+                continue
+            if len(dominios_breve) < 2 and not any(
+                prioridad_de_investigacion(fuente)[0] == 0 for fuente in fuentes_breve
+            ):
+                print("Mini-noticia descartada: necesita dos fuentes o un documento primario verificable:", titulo_grupo)
+                continue
+
+            try:
+                if solicitudes_esta_ejecucion > 0:
+                    print("Pausa de 65 segundos entre solicitudes del lote.")
+                    time.sleep(65)
+                solicitudes_groq += 1
+                solicitudes_esta_ejecucion += 1
+                ultima_solicitud_groq = datetime.now(timezone.utc).isoformat()
+
+                breve = generar_breve(cliente, titulo_grupo, fuentes_breve)
+                if not breve:
+                    continue
+
+                if any(son_misma_noticia(breve["titulo"], t) for t in titulos_articulos + titulos_breves):
+                    print("Mini-noticia omitida por duplicidad:", breve["titulo"])
+                    continue
+
+                urls_fuente = [str(f.get("url", "")).strip() for f in fuentes_breve]
+                identificador_breve = hashlib.sha256(
+                    (breve["titulo"] + "|" + "|".join(sorted(urls_fuente))).encode("utf-8")
+                ).hexdigest()[:16]
+                if any(str(x.get("id", "")) == identificador_breve for x in breves_publicados + breves_nuevos):
+                    continue
+
+                fecha_breve = max(
+                    fuentes_breve,
+                    key=lambda f: fecha_a_timestamp(f.get("fecha"))
+                ).get("fecha") or datetime.now(timezone.utc).isoformat()
+
+                breves_nuevos.append({
+                    "id": identificador_breve,
+                    "autor": "Redacción CEV NOTICIAS",
+                    "titulo": breve["titulo"],
+                    "texto": breve["texto"],
+                    "categoria": breve["categoria"],
+                    "estado_informacion": breve["estado_informacion"],
+                    "fecha": str(fecha_breve),
+                    "fecha_preparacion": datetime.now(timezone.utc).isoformat(),
+                    "fuentes": [
+                        {
+                            "nombre": fuente["nombre"],
+                            "titulo": fuente["titulo"],
+                            "url": fuente["url"]
+                        }
+                        for fuente in fuentes_breve
+                    ]
+                })
+                titulos_breves.append(breve["titulo"])
+                urls_breves_existentes.update(urls_fuente)
+                print("Mini-noticia preparada:", breve["titulo"])
+
+            except Exception as error:
+                print("Error al preparar mini-noticia:", str(error))
+                print("Se detiene la cola de breves para respetar el cupo del modelo.")
+                break
+    else:
+        print("No hay capacidad de modelo para preparar mini-noticias en esta ejecución.")
+
     articulos_hoy += len(nuevas)
+    breves_hoy += len(breves_nuevos)
 
     # Persistencia independiente: estos contadores no se pierden cuando
     # el workflow descarta un lote editorial por sus validaciones.
@@ -1307,6 +1550,10 @@ def ejecutar():
         "fecha_articulos_dia": fecha_control,
         "articulos_generados_dia": articulos_hoy,
         "limite_articulos_diario": MAX_ARTICULOS_DIARIOS,
+        "limite_breves_diario": MAX_BREVES_DIARIOS,
+        "breves_generados_dia": breves_hoy,
+        "fecha_breves_dia": fecha_control,
+        "limite_breves_ejecucion": MAX_BREVES_POR_EJECUCION,
         "limite_solicitudes_diario": MAX_SOLICITUDES_DIARIAS,
         "limite_articulos_ejecucion": MAX_ARTICULOS_POR_EJECUCION,
         "fuentes_descartadas": fuentes_descartadas[-500:]
@@ -1321,6 +1568,7 @@ def ejecutar():
 
     guardar_json(CACHE, {
         "noticias": resultado,
+        "breves": (breves_nuevos + breves_publicados)[:MAX_BREVES_ANTERIORES],
         "titulares_rss": titulares_rss,
         "estado_fuentes": estado_fuentes,
         "ultima_solicitud_groq": ultima_solicitud_groq,
@@ -1333,6 +1581,8 @@ def ejecutar():
 
     print("--------------------------------")
     print("Artículos nuevos:", len(nuevas))
+    print("Mini-noticias nuevas:", len(breves_nuevos))
+    print("Total de mini-noticias:", min(len(breves_nuevos) + len(breves_publicados), MAX_BREVES_ANTERIORES))
     print("Total de artículos:", len(resultado))
     print("--------------------------------")
 

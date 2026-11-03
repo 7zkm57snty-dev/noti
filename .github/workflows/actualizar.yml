@@ -205,13 +205,101 @@ jobs:
               for titulo, errores in invalidas:
                   print("BORRADOR DESCARTADO:", titulo, "|", "; ".join(errores))
 
+          # Validar mini-noticias. Son textos breves originales, no enlaces ni extractos
+          # publicados de otros sitios; el crédito de las fuentes se muestra como texto.
+          ids_breves_antes = {
+              str(b.get("id")) for b in antes.get("breves", []) or [] if b.get("id")
+          }
+          breves_anteriores = [
+              b for b in (antes.get("breves", []) or [])
+              if isinstance(b, dict) and b.get("id")
+          ]
+          breves_nuevos = [
+              b for b in (despues.get("breves", []) or [])
+              if isinstance(b, dict) and b.get("id") and str(b["id"]) not in ids_breves_antes
+          ]
+          breves_validos = []
+          breves_invalidos = []
+          titulos_breves_vistos = {
+              re.sub(r"[^a-z0-9]+", " ", str(b.get("titulo", "")).lower()).strip()
+              for b in breves_anteriores
+          }
+          for breve in breves_nuevos:
+              titulo = str(breve.get("titulo", "")).strip()
+              texto_breve = str(breve.get("texto", "")).strip()
+              palabras = len(texto_breve.split())
+              errores = []
+              if len(titulo) < 12:
+                  errores.append("titular de mini-noticia ausente o demasiado corto")
+              if palabras < 45 or palabras > 100:
+                  errores.append("mini-noticia fuera del rango de 45 a 100 palabras")
+              if breve.get("categoria") not in {
+                  "Cali", "Valle del Cauca", "Colombia", "Internacional",
+                  "Deportes", "Tecnología", "Economía", "Tendencias", "Humor y opinión"
+              }:
+                  errores.append("categoría de mini-noticia no reconocida")
+              clave = re.sub(r"[^a-z0-9]+", " ", titulo.lower()).strip()
+              if not clave or clave in titulos_breves_vistos:
+                  errores.append("mini-noticia duplicada")
+              try:
+                  publicado = datetime.fromisoformat(str(breve.get("fecha", "")).replace("Z", "+00:00"))
+                  if publicado.tzinfo is None:
+                      publicado = publicado.replace(tzinfo=ZoneInfo("UTC"))
+                  edad_horas = (datetime.now(ZoneInfo("UTC")) - publicado).total_seconds() / 3600
+                  if edad_horas > 48 or edad_horas < -2:
+                      errores.append("mini-noticia fuera de la ventana de actualidad de 48 horas")
+              except (TypeError, ValueError):
+                  errores.append("fecha de mini-noticia no verificable")
+
+              fuentes_breve = []
+              dominios_breve = set()
+              for fuente in breve.get("fuentes", []) or []:
+                  if not isinstance(fuente, dict):
+                      continue
+                  url = str(fuente.get("url", "")).strip()
+                  partes = urlsplit(url)
+                  nombre = str(fuente.get("nombre", "")).strip()
+                  titular_fuente = str(fuente.get("titulo", "")).strip()
+                  if partes.scheme == "https" and partes.hostname and nombre and titular_fuente:
+                      fuentes_breve.append(fuente)
+                      dominios_breve.add(partes.hostname.lower().removeprefix("www."))
+              if not fuentes_breve:
+                  errores.append("mini-noticia sin fuentes directas identificables")
+              texto_completo_breve = " ".join((titulo, texto_breve))
+              if patron_sensible.search(texto_completo_breve) and len(dominios_breve) < 2:
+                  errores.append("tema sensible sin dos fuentes independientes")
+              fuentes_primarias = (
+                  "gov.co", ".gov", ".gob.es", ".gov.uk",
+                  "cali.gov.co", "valledelcauca.gov.co", "emcali.com.co",
+                  "policia.gov.co", "fiscalia.gov.co", "dane.gov.co",
+                  "minsalud.gov.co", "mintransporte.gov.co"
+              )
+              hay_primaria = any(
+                  any((urlsplit(f["url"]).hostname or "").lower().removeprefix("www.").endswith(d) for d in fuentes_primarias)
+                  for f in fuentes_breve
+              )
+              if len(dominios_breve) < 2 and not hay_primaria:
+                  errores.append("mini-noticia necesita dos dominios o una fuente primaria oficial")
+              if errores:
+                  breves_invalidos.append((titulo or "Sin título", errores))
+              else:
+                  breve["autor"] = "Redacción CEV NOTICIAS"
+                  breve["fuentes"] = fuentes_breve
+                  breves_validos.append(breve)
+                  titulos_breves_vistos.add(clave)
+
+          if breves_invalidos:
+              for titulo, errores in breves_invalidos:
+                  print("MINI-NOTICIA DESCARTADA:", titulo, "|", "; ".join(errores))
+
           # Resumen que acompañará la propuesta en la cola de revisión humana.
           lineas = [
-              "## Lote de investigaciones propias de CEV NOTICIAS",
+              "## Lote editorial CEV NOTICIAS",
               "",
-              "Estos artículos fueron preparados a partir de investigación documental y contraste de fuentes. No se publican hasta que una persona los revise y apruebe desde el panel privado.",
+              "Los artículos completos y las mini-noticias de este lote fueron redactados a partir de investigación documental. Nada se publica hasta que una persona revise y apruebe el lote desde el panel privado.",
               "",
-              f"**Propuestas válidas:** {len(validas)}",
+              f"**Artículos completos válidos:** {len(validas)}",
+              f"**Mini-noticias válidas:** {len(breves_validos)}",
               ""
           ]
           for noticia in validas:
@@ -227,6 +315,18 @@ jobs:
                   ),
                   ""
               ])
+          for breve in breves_validos:
+              lineas.extend([
+                  f"### MINI-NOTICIA · {breve.get('titulo', 'Sin título')}",
+                  f"- **Sección:** {breve.get('categoria', 'Sin sección')}",
+                  f"- **Extensión:** {len(str(breve.get('texto', '')).split())} palabras",
+                  f"- **Estado:** {breve.get('estado_informacion', 'información preliminar')}",
+                  f"- **Texto:** {breve.get('texto', '')}",
+                  "- **Crédito de fuentes:** " + ", ".join(
+                      str(x.get("nombre", "Fuente")) for x in breve.get("fuentes", [])
+                  ),
+                  ""
+              ])
           Path("/tmp/cev_revision_body.md").write_text("\n".join(lineas), encoding="utf-8")
 
           ids_validas = {str(n.get("id")) for n in validas}
@@ -235,8 +335,13 @@ jobs:
               n for n in despues.get("noticias", [])
               if n.get("id") and str(n["id"]) in ids_permitidos
           ]
+          ids_breves_validos = ids_breves_antes | {str(b.get("id")) for b in breves_validos}
+          despues["breves"] = [
+              b for b in (despues.get("breves", []) or [])
+              if b.get("id") and str(b["id"]) in ids_breves_validos
+          ][:50]
 
-          # El cupo diario cuenta solo los artículos que superan las validaciones.
+          # El cupo diario cuenta solo los artículos y mini-noticias que superan las validaciones.
           estado_path = Path("automation_state.json")
           estado_actual = json.loads(estado_path.read_text(encoding="utf-8"))
           estado_antes = json.loads(Path("/tmp/cev-automation-antes.json").read_text(encoding="utf-8"))
@@ -247,6 +352,13 @@ jobs:
           )
           estado_actual["fecha_articulos_dia"] = hoy
           estado_actual["articulos_generados_dia"] = base_hoy + len(validas)
+          base_breves_hoy = (
+              int(estado_antes.get("breves_generados_dia", 0))
+              if estado_antes.get("fecha_breves_dia") == hoy else 0
+          )
+          estado_actual["fecha_breves_dia"] = hoy
+          estado_actual["breves_generados_dia"] = base_breves_hoy + len(breves_validos)
+          estado_actual["limite_breves_diario"] = int(estado_actual.get("limite_breves_diario", 30))
           estado_path.write_text(
               json.dumps(estado_actual, ensure_ascii=False, indent=2) + "\n",
               encoding="utf-8"
@@ -256,21 +368,24 @@ jobs:
               f"{estado_actual.get('limite_articulos_diario', 20)} artículos válidos."
           )
 
-          if not validas:
+          if not validas and not breves_validos:
               ruta_cache.write_text(
                   json.dumps(antes, ensure_ascii=False, indent=2) + "\n",
                   encoding="utf-8"
               )
-              print("No quedaron artículos aptos para publicación automática. Se conserva intacto el archivo editorial.")
+              print("No quedaron artículos o mini-noticias aptos para revisión editorial. Se conserva intacto el archivo editorial.")
               Path(os.environ["GITHUB_OUTPUT"]).write_text("hay_novedades=false\n", encoding="utf-8")
           else:
               ruta_cache.write_text(
                   json.dumps(despues, ensure_ascii=False, indent=2) + "\n",
                   encoding="utf-8"
               )
-              print(f"Artículos originales aptos para publicación: {len(validas)}")
+              print(f"Artículos completos aptos: {len(validas)}")
+              print(f"Mini-noticias rápidas aptas: {len(breves_validos)}")
               for noticia in validas:
-                  print(f"- {noticia.get('categoria')}: {noticia.get('titulo')}")
+                  print(f"ARTÍCULO · {noticia.get('categoria')}: {noticia.get('titulo')}")
+              for breve in breves_validos:
+                  print(f"BREVE · {breve.get('categoria')}: {breve.get('titulo')}")
               Path(os.environ["GITHUB_OUTPUT"]).write_text("hay_novedades=true\n", encoding="utf-8")
           PY
 
@@ -317,6 +432,6 @@ jobs:
           gh pr create \
             --base main \
             --head "$BRANCH" \
-            --title "CEV NOTICIAS | Investigaciones para revisión editorial" \
+            --title "CEV NOTICIAS | Artículos y mini-noticias para revisión editorial" \
             --body-file /tmp/cev_revision_body.md
           echo "Propuestas preparadas; no se publican hasta su aprobación desde el panel editorial."
