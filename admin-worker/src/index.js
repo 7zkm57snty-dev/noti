@@ -120,31 +120,31 @@ function validateArticle(v) {
 
 function runDiagnostics(cache) {
   const findings = [], titles = new Map(), images = new Map();
-  const add = (severity, code, message, id) => findings.push({severity,code,message,articleId:id || null});
+  const add = (severity, code, message, id, remediation) => { const article=articles.find(x=>String(x.id)===String(id)); findings.push({severity,code,message,articleId:id||null,articleTitle:article?String(article.titulo||"Sin titular"):"",remediation:remediation||"Abre la publicación y revisa sus datos editoriales."}); };
   const articles = Array.isArray(cache.noticias) ? cache.noticias : [];
   for (const n of articles) {
     const id = String(n.id || ""), title = String(n.titulo || "").trim();
     const key = title.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"").replace(/[^a-z0-9]+/g," ").trim();
-    if (!title) add("critical","missing_title","Noticia sin titular",id);
-    if (key && titles.has(key)) add("warning","duplicate_title","Titular idéntico al registro "+titles.get(key),id);
+    if (!title) add("critical","missing_title","Noticia sin titular",id,"Añade un titular claro y verificable desde el editor.");
+    if (key && titles.has(key)) add("warning","duplicate_title","Titular idéntico al registro "+titles.get(key),id,"Comprueba si es una noticia duplicada. Si es la misma información, conserva un solo registro o diferencia el titular si son hechos distintos.");
     else if (key) titles.set(key,id);
     const image = String(n.imagen || "").trim();
-    if (!image) add("warning","missing_image","Falta imagen periodística principal; no se sustituye por una portada con texto.",id);
+    if (!image) add("warning","missing_image","Falta imagen periodística principal.",id,"En el editor, añade una fotografía real relacionada con el titular y completa autor, fuente, página de origen y licencia. No uses una imagen genérica ni una portada con texto.");
     else {
-      try { if (new URL(image).protocol !== "https:") add("critical","image_not_https","La imagen no usa HTTPS.",id); }
-      catch (_) { add("critical","invalid_image","URL de imagen no válida.",id); }
-      if (images.has(image)) add("warning","duplicate_image","La imagen se repite en otra noticia.",id);
+      try { if (new URL(image).protocol !== "https:") add("critical","image_not_https","La imagen no usa HTTPS.",id,"Sustituye la URL por el enlace HTTPS de la fotografía y verifica que la licencia permita su uso."); }
+      catch (_) { add("critical","invalid_image","URL de imagen no válida.",id,"Introduce una URL directa y válida de una fotografía pertinente; completa también sus datos de atribución."); }
+      if (images.has(image)) add("warning","duplicate_image","La imagen se repite en otra noticia.",id,"Comprueba si la fotografía corresponde realmente a esta noticia. Si no, reemplázala por una imagen específica y autorizada.");
       else images.set(image,id);
     }
     const sources = Array.isArray(n.fuentes) ? n.fuentes : [];
-    if (!sources.length) add("critical","missing_sources","Noticia sin fuentes registradas.",id);
-    if (sources.length === 1) add("warning","single_source","Noticia con una sola fuente; requiere corroboración.",id);
+    if (!sources.length) add("critical","missing_sources","Noticia sin fuentes registradas.",id,"Añade la fuente original con nombre, titular de referencia y URL HTTPS. No publiques afirmaciones sin respaldo verificable.");
+    if (sources.length === 1) add("warning","single_source","Noticia con una sola fuente; requiere corroboración.",id,"Busca una segunda fuente independiente que confirme los datos. Añádela en el segundo bloque de fuentes del editor.");
     for (const source of sources) {
-      try { if (new URL(source.url).protocol !== "https:") add("critical","invalid_source","Fuente sin HTTPS.",id); }
-      catch (_) { add("critical","invalid_source","URL de fuente no válida.",id); }
+      try { if (new URL(source.url).protocol !== "https:") add("critical","invalid_source","Fuente sin HTTPS.",id,"Reemplaza el enlace por la dirección HTTPS oficial de la fuente y verifica que abra correctamente."); }
+      catch (_) { add("critical","invalid_source","URL de fuente no válida.",id,"Corrige la URL de la fuente y comprueba que corresponda al documento o noticia citada."); }
     }
-    if (String(n.resumen || "").trim().length < 40) add("warning","short_summary","Resumen inferior a 40 caracteres.",id);
-    if (String(n.contenido || "").trim().split(/\s+/).filter(Boolean).length < 250) add("warning","short_content","Contenido inferior a 250 palabras.",id);
+    if (String(n.resumen || "").trim().length < 40) add("warning","short_summary","Resumen inferior a 40 caracteres.",id,"Amplía el resumen para que explique el hecho principal con al menos 40 caracteres.");
+    if (String(n.contenido || "").trim().split(/\s+/).filter(Boolean).length < 250) add("warning","short_content","Contenido inferior a 250 palabras.",id,"Completa el contenido con contexto, datos, antecedentes y atribución. El editor exige al menos 250 palabras.");
   }
   return {scannedAt:new Date().toISOString(),articles:articles.length,rssCount:Array.isArray(cache.titulares_rss)?cache.titulares_rss.length:0,findings,counts:{critical:findings.filter(x=>x.severity==="critical").length,warning:findings.filter(x=>x.severity==="warning").length}};
 }
@@ -171,7 +171,7 @@ async function api(request,env,identity) {
   const url=new URL(request.url),path=url.pathname,method=request.method.toUpperCase();
   if(method==="GET"&&path==="/api/dashboard") return json(await dashboard(env,identity));
   if(method==="GET"&&path==="/api/diagnostics") { const r=await readCache(env); return json(runDiagnostics(r.data)); }
-  if(method==="POST"&&path==="/api/diagnostics/repair") { const r=await readCache(env); const count=normalizeSafeFields(r.data); if(!count)return json({ok:true,changed:0,message:"No hay normalizaciones pendientes."}); const pr=await submitChange(env,cache=>{normalizeSafeFields(cache);return cache;},"CEV NOTICIAS | Normalización técnica segura","normalización técnica segura"); return json({ok:true,changed:count,pr,message:"Propuesta de reparación creada para revisión."}); }
+  if(method==="POST"&&path==="/api/diagnostics/repair") { const r=await readCache(env); const count=normalizeSafeFields(r.data); if(!count) { const diag=runDiagnostics(r.data); return json({ok:true,changed:0,manualFindings:diag.findings.length,message:"No hay cambios de formato técnico pendientes. Las incidencias detectadas requieren revisión editorial: abre cada publicación con el botón de lápiz, añade o cambia la fotografía y completa sus fuentes según corresponda."}); } const pr=await submitChange(env,cache=>{normalizeSafeFields(cache);return cache;},"CEV NOTICIAS | Normalización técnica segura","normalización técnica segura"); return json({ok:true,changed:count,pr,message:"Propuesta de reparación técnica creada. Revisa y aprueba la solicitud antes de publicar."}); }
   if(method==="GET"&&path==="/api/health") {
     if(!env.GITHUB_TOKEN)return json({ok:false,message:"Falta configurar GITHUB_TOKEN."},503);
     await gh("/repos/"+OWNER+"/"+REPO,env);return json({ok:true,repository:OWNER+"/"+REPO});
