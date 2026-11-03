@@ -366,10 +366,10 @@ a{{color:inherit;text-decoration:none}}
 .cabecera-meta{{display:flex;justify-content:space-between;align-items:center;margin-top:22px;padding-top:11px;border-top:1px solid var(--tinta);font-size:11px;color:#555}}
 .estado{{font-weight:800;letter-spacing:1.5px;text-transform:uppercase;color:var(--rojo)}}
 nav{{border-top:1px solid var(--linea);border-bottom:1px solid var(--tinta);background:var(--papel)}}
-.nav-carrusel{{max-width:1120px;margin:0 auto;padding:0 18px;display:grid;grid-template-columns:34px minmax(0,1fr) 34px;gap:10px;align-items:center}}
-.nav-interior{{min-width:0;max-width:none;margin:0;display:flex;align-items:center;justify-content:flex-start;gap:8px;padding:9px 2px;overflow-x:auto;overflow-y:hidden;white-space:nowrap;scrollbar-width:none;overscroll-behavior-x:contain;-webkit-overflow-scrolling:touch;scroll-behavior:smooth;scroll-snap-type:x mandatory}}
+.nav-carrusel{{width:100%;max-width:980px;margin:0 auto;padding:0 18px;display:grid;grid-template-columns:34px minmax(0,1fr) 34px;gap:10px;align-items:center}}
+.nav-interior{{width:100%;min-width:0;max-width:100%;margin:0;display:flex;flex-wrap:nowrap;align-items:center;justify-content:flex-start;gap:8px;padding:9px 2px;overflow-x:auto;overflow-y:hidden;white-space:nowrap;scrollbar-width:none;overscroll-behavior-x:contain;-webkit-overflow-scrolling:touch;scroll-behavior:smooth;scroll-snap-type:x proximity;}}
 .nav-interior::-webkit-scrollbar{{display:none}}
-.nav-interior a{{flex:0 0 auto;display:inline-flex;align-items:center;justify-content:center;padding:10px 13px;border-bottom:3px solid transparent;border-radius:3px 3px 0 0;scroll-snap-align:center;transition:background .18s ease,color .18s ease,border-color .18s ease}}
+.nav-interior a{{flex:0 0 auto;display:inline-flex;align-items:center;justify-content:center;padding:10px 13px;border-bottom:3px solid transparent;border-radius:3px 3px 0 0;scroll-snap-align:start;transition:background .18s ease,color .18s ease,border-color .18s ease}}
 .nav-interior a.nav-activa{{color:var(--rojo);background:#f5e7e7;border-bottom-color:var(--rojo);font-weight:800}}
 .nav-flecha{{width:34px;height:34px;border:1px solid var(--linea);border-radius:50%;background:transparent;color:var(--tinta);font:700 21px/1 'DM Sans',sans-serif;cursor:pointer;transition:all .18s ease}}
 .nav-flecha:hover:not(:disabled){{border-color:var(--rojo);background:#f5e7e7;color:var(--rojo)}}
@@ -408,6 +408,13 @@ body.noche .nav-flecha:hover:not(:disabled){{background:#3a2426;border-color:#ff
 .bloque-categoria{{padding:30px 0 34px;border-bottom:1px solid var(--linea)}}
 .titulo-seccion{{display:flex;align-items:baseline;gap:13px;margin:0 0 20px;font-family:'Playfair Display',Georgia,serif;font-size:clamp(25px,3vw,34px);letter-spacing:-.6px}}
 .titulo-seccion:after{{content:"";height:1px;background:var(--linea);flex:1}}
+.contador-noticias{{flex:none;color:var(--rojo);font:800 10px 'DM Sans',Arial,sans-serif;letter-spacing:1px;text-transform:uppercase;white-space:nowrap}}
+.nota-rss-publica{{max-width:900px;margin:-8px 0 20px;color:var(--suave);font-size:12px;line-height:1.6}}
+.tarjeta.titular-externo{{min-height:220px}}
+.tarjeta.titular-externo .tarjeta-contenido{{display:flex;flex:1;flex-direction:column;align-items:flex-start;gap:12px}}
+.tarjeta.titular-externo h3{{font-family:'Playfair Display',Georgia,serif;font-size:clamp(18px,1.8vw,22px);line-height:1.2;margin:0}}
+.tarjeta.titular-externo .rss-datos{{margin-top:auto}}
+.tarjeta.titular-externo .rss-sello{{line-height:1.4}}
 .rejilla{{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px}}
 .tarjeta{{min-width:0}}
 .tarjeta-enlace{{display:block;height:100%}}
@@ -715,28 +722,20 @@ body.noche .cev-cookie-actions .principal{{background:#b5282f;border-color:#b528
   }};
   const moverNav=(direccion)=>{{
    const maximo=maxScroll();
-   if(maximo<=4)return;
-   const enlaces=[...nav.querySelectorAll('a[data-seccion]')];
-   const rectNav=nav.getBoundingClientRect();
-   const centro=rectNav.left+rectNav.width/2;
-   let destino=null;
-   if(direccion>0){{
-    destino=enlaces.find(enlace=>enlace.getBoundingClientRect().right>centro+8);
-   }}else{{
-    destino=[...enlaces].reverse().find(enlace=>enlace.getBoundingClientRect().left<centro-8);
-   }}
-   if(destino){{
-    const rect=destino.getBoundingClientRect();
-    const objetivo=nav.scrollLeft+(rect.left-rectNav.left)-(nav.clientWidth-rect.width)/2;
-    nav.scrollTo({{left:Math.min(maximo,Math.max(0,objetivo)),behavior:'smooth'}});
-   }}else{{
-    nav.scrollTo({{left:direccion>0?maximo:0,behavior:'smooth'}});
-   }}
-   window.setTimeout(actualizarNav,350);
+   if(maximo<=4){{actualizarNav();return;}}
+   const paso=Math.max(180,Math.round(nav.clientWidth*0.72));
+   const inicio=nav.scrollLeft;
+   const destino=Math.max(0,Math.min(maximo,inicio+(direccion*paso)));
+   nav.scrollTo({{left:destino,behavior:'smooth'}});
+   window.setTimeout(()=>{{
+    if(Math.abs(nav.scrollLeft-inicio)<2)nav.scrollLeft=destino;
+    actualizarNav();
+   }},450);
   }};
   navAnterior?.addEventListener('click',()=>moverNav(-1));
   navSiguiente?.addEventListener('click',()=>moverNav(1));
   nav.addEventListener('scroll',actualizarNav,{{passive:true}});
+  nav.addEventListener('scrollend',actualizarNav);
   nav.addEventListener('keydown',evento=>{{
    if(evento.key==='ArrowRight'){{evento.preventDefault();moverNav(1);}}
    if(evento.key==='ArrowLeft'){{evento.preventDefault();moverNav(-1);}}
