@@ -397,8 +397,7 @@ body.noche .nav-flecha:hover:not(:disabled){{background:#3a2426;border-color:#ff
 .express-sello{{font-size:9px;font-weight:800;letter-spacing:1.2px;text-transform:uppercase;color:var(--rojo)}}
 .express-texto h3{{font:700 clamp(21px,2.5vw,30px)/1.12 'Playfair Display',Georgia,serif;margin:0}}
 .express-texto p{{font-size:12px;color:var(--suave);line-height:1.5;margin:0;max-width:800px}}
-.express-leer{{font-size:9px;font-weight:800;text-transform:uppercase;letter-spacing:1px;color:var(--rojo)}}
-.express-texto small{{font-size:9px;color:var(--suave)}}
+.express-leer{{font-size:9px;font-weight:800;text-transform:uppercase;letter-spacing:1px;color:var(--rojo)}}.express-texto small{{font-size:9px;color:var(--suave)}}
 .express-controles{{padding:8px 0 0}}
 .express-estado{{font-size:8px;font-weight:800;letter-spacing:1.2px;color:var(--suave)}}
 .express-controles>div{{display:flex;gap:6px}}
@@ -797,8 +796,7 @@ def crear_pagina_titular_rss(titular):
         <strong>Crédito de información</strong>
         <p>La publicación original y su desarrollo periodístico corresponden a <strong>{fuente}</strong>.</p>
         <p><a class="boton" href="{url_original}" target="_blank" rel="noopener noreferrer">Consultar la noticia en {fuente} ↗</a></p>
-        <p class="nota-atribucion">CEV NOTICIAS identifica el medio de origen y enlaza a su cobertura. El contenido completo pertenece a la publicación citada.</p>
-      </section>
+        <p class="nota-atribucion">CEV NOTICIAS identifica el medio de origen y enlaza a su cobertura. El contenido completo pertenece a la publicación citada.</p>      </section>
     </main>"""
 
     extra_head = '<meta name="robots" content="noindex,follow">'
@@ -861,8 +859,10 @@ def crear_paginas_institucionales():
               <a class="volver" href="/">← Volver a la portada</a>
               <p class="etiqueta">CEV NOTICIAS · AUTORÍA</p><h1>Redacción CEV NOTICIAS</h1>
               <div class="cuerpo">
-                <p>La firma institucional <strong>Redacción CEV NOTICIAS</strong> identifica los contenidos publicados bajo la responsabilidad editorial del medio, cuando no se atribuyen a un periodista individual.</p>
+                <p><strong>CEV NOTICIAS</strong> es un proyecto digital independiente de carácter personal. Actualmente no está constituido como empresa ni como sociedad.</p>
+                <p>La firma institucional <strong>Redacción CEV NOTICIAS</strong> identifica la autoría editorial de las publicaciones que no llevan la firma de una persona. Su uso no significa que exista una plantilla o un equipo de periodistas: es la firma del medio.</p>
                 <p>Los contenidos pueden apoyarse en herramientas automatizadas para localizar fuentes públicas, organizar información y preparar borradores. Estas herramientas no son autores humanos ni garantizan por sí solas la exactitud de una noticia. Las fuentes consultadas se identifican en cada publicación.</p>
+                <p>Para consultas editoriales, puedes escribir a <a href="mailto:cevnoticiascontacto@gmail.com">cevnoticiascontacto@gmail.com</a>.</p>
                 <p>Cuando un artículo tenga un autor individual, su nombre y la información profesional correspondiente deberán aparecer en la propia publicación. Para conocer nuestros criterios, consulta la <a href="/politica-editorial.html">Política editorial</a>.</p>
               </div></main>"""
         ),
@@ -873,7 +873,7 @@ def crear_paginas_institucionales():
               <a class="volver" href="/">← Volver a la portada</a>
               <p class="etiqueta">CEV NOTICIAS · EL MEDIO</p><h1>Quiénes somos</h1>
               <div class="cuerpo">
-                <p><strong>CEV NOTICIAS</strong> es un medio digital de actualidad con especial atención a Cali y el Valle del Cauca, Colombia y los acontecimientos internacionales de interés para el público hispanohablante.</p>
+                <p><strong>CEV NOTICIAS</strong> es un proyecto digital independiente de carácter personal, no constituido como empresa ni sociedad. Es un medio de actualidad con especial atención a Cali y el Valle del Cauca, Colombia y los acontecimientos internacionales de interés para el público hispanohablante.</p>
                 <p>Nuestro propósito es facilitar el acceso a información reciente mediante noticias organizadas por temas, contexto y referencias a las fuentes consultadas.</p>
                 <h2>Qué publicamos</h2><p>Cubrimos actualidad local, regional, nacional e internacional, además de deportes, tecnología, economía y tendencias. La selección de temas responde a su relevancia pública y a la disponibilidad de información verificable.</p>
                 <h2>Cómo trabajamos</h2><p>Utilizamos fuentes identificables y herramientas digitales para apoyar el seguimiento de la actualidad y la preparación de contenidos. La automatización puede ayudar a recopilar y organizar información, pero no constituye por sí sola una verificación independiente. Identificamos las fuentes disponibles y ofrecemos un canal para reportar errores o solicitar aclaraciones.</p>
@@ -887,8 +887,9 @@ def crear_paginas_institucionales():
               <a class="volver" href="/">← Volver a la portada</a>
               <p class="etiqueta">CEV NOTICIAS · COMUNICACIÓN</p><h1>Contacto</h1>
               <div class="cuerpo">
-                <p>¿Tienes una noticia, una consulta, una propuesta de colaboración o información relevante para la comunidad? Puedes comunicarte con CEV NOTICIAS mediante nuestro canal público de Instagram.</p>
-                <p><a class="boton" href="https://www.instagram.com/cev.noticias/" target="_blank" rel="noopener noreferrer">Escribir a @cev.noticias ↗</a></p>
+                <p>CEV NOTICIAS es un proyecto digital independiente de carácter personal y actualmente no está constituido como empresa ni sociedad.</p>
+                <p>Para noticias, consultas, propuestas de colaboración, solicitudes de prensa o asuntos relacionados con tus datos personales, escribe a nuestro correo oficial: <a href="mailto:cevnoticiascontacto@gmail.com"><strong>cevnoticiascontacto@gmail.com</strong></a>.</p>
+                <p>También puedes comunicarte mediante Instagram: <a href="https://www.instagram.com/cev.noticias/" target="_blank" rel="noopener noreferrer">@cev.noticias</a>.</p>
                 <p>Para reportar un posible error, incluye el enlace exacto de la publicación, una descripción clara del dato que debe revisarse y, si es posible, documentos o enlaces que respalden la solicitud.</p>
                 <p>La recepción de un mensaje no implica que su contenido vaya a publicarse. La información enviada podrá ser revisada antes de utilizarse.</p>
               </div></main>"""
@@ -900,16 +901,16 @@ def crear_paginas_institucionales():
               <a class="volver" href="/">← Volver a la portada</a>
               <p class="etiqueta">CEV NOTICIAS · TRANSPARENCIA</p><h1>Política de privacidad y cookies</h1>
               <div class="cuerpo">
-                <p><strong>Última actualización:</strong> 2 de noviembre de 2026.</p>
-                <h2>1. Alcance</h2><p>Esta política explica cómo CEV NOTICIAS utiliza tecnologías de medición y qué información técnica puede tratarse cuando visitas cevnoticias.com. El sitio puede actualizar esta política si cambian sus herramientas o servicios.</p>
-                <h2>2. Medición de audiencia</h2><p>CEV NOTICIAS utiliza Google Analytics 4 para conocer de forma estadística cómo se utiliza el sitio. Esta herramienta puede tratar datos como páginas visitadas, duración aproximada de la visita, tipo de dispositivo y navegador, fuente de llegada y ubicación geográfica aproximada. Google puede utilizar cookies u otras tecnologías para prestar el servicio, conforme a sus propias condiciones y políticas.</p>
-                <p>Más información: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Política de privacidad de Google</a> y <a href="https://support.google.com/analytics/answer/6004245" target="_blank" rel="noopener noreferrer">cómo protege Google Analytics los datos</a>.</p>
-                <h2>3. Cookies y tecnologías similares</h2><p>Las cookies son pequeños archivos que el navegador puede guardar para recordar preferencias o apoyar funciones de medición. Puedes administrar, bloquear o eliminar cookies desde la configuración de tu navegador. Si las bloqueas, algunas funciones o mediciones podrían no operar como se espera.</p>
-                <h2>4. Publicidad de terceros</h2><p>A la fecha de esta actualización, CEV NOTICIAS no tiene código de anuncios de Google AdSense implementado. Si en el futuro se incorporan servicios publicitarios de Google u otros proveedores, terceros podrán colocar y leer cookies en el navegador, utilizar balizas web, direcciones IP, identificadores u otras tecnologías para mostrar, limitar y medir anuncios. Antes de activar publicidad se actualizarán esta política y los mecanismos de información y consentimiento que resulten exigibles, incluidos los requisitos aplicables a visitantes del Espacio Económico Europeo, Reino Unido y Suiza.</p>
-                <h2>5. Enlaces externos</h2><p>Las noticias pueden enlazar a sitios de terceros. CEV NOTICIAS no controla sus políticas de privacidad, cookies ni prácticas de tratamiento de datos. Recomendamos consultar las políticas de cada sitio que visites.</p>
-                <h2>6. Mensajes y solicitudes</h2><p>Si decides comunicarte mediante Instagram, la información que compartas será tratada también conforme a las políticas de esa plataforma. Evita enviar datos sensibles que no sean necesarios para tu consulta.</p>
-                <h2>7. Derechos de las personas</h2><p>Cuando resulte aplicable la legislación colombiana de protección de datos personales, las personas titulares podrán solicitar conocer, actualizar y rectificar sus datos; pedir información sobre su uso; solicitar prueba de la autorización cuando corresponda; presentar consultas o reclamos; y solicitar la revocatoria de la autorización o la supresión del dato en los casos previstos por la ley.</p><p>Para presentar una solicitud, utiliza el canal de <a href="/contacto.html">Contacto</a>, identifica el dato o publicación relacionada y describe claramente tu petición. No envíes datos sensibles que no sean necesarios. El canal público actualmente disponible es Instagram @cev.noticias. La identificación legal completa del responsable del tratamiento y su dirección de notificación deberán incorporarse cuando se definan esos datos institucionales.</p>
-                <h2>8. Cambios y contacto</h2><p>Esta política puede modificarse para reflejar cambios técnicos, legales o de servicios. Para preguntas sobre privacidad, utiliza el canal indicado en la página de <a href="/contacto.html">Contacto</a>.</p>
+                <p><strong>Última actualización:</strong> 3 de noviembre de 2026.</p>
+                <h2>1. Responsable y alcance</h2><p>CEV NOTICIAS es un proyecto digital independiente de carácter personal, administrado por una persona natural y no constituido como empresa o sociedad. El responsable del tratamiento es la persona natural que administra el proyecto bajo la marca CEV NOTICIAS. El canal electrónico para consultas y solicitudes es <a href="mailto:cevnoticiascontacto@gmail.com">cevnoticiascontacto@gmail.com</a>.</p><p>Esta política explica qué información puede tratarse al visitar cevnoticias.com o al comunicarse voluntariamente con el medio. No se ofrece un formulario de registro ni se solicita crear una cuenta para leer las publicaciones.</p>
+                <h2>2. Información y finalidades</h2><p>Al navegar por el sitio, las herramientas de medición pueden tratar datos técnicos y de uso, como páginas visitadas, duración aproximada de la visita, tipo de dispositivo y navegador, fuente de llegada y ubicación geográfica aproximada. Si escribes al correo o a Instagram, podremos tratar los datos que decidas incluir —por ejemplo, nombre de usuario, dirección de correo, contenido del mensaje y archivos adjuntos— para responder consultas, recibir información periodística, revisar reportes de errores y gestionar solicitudes.</p><p>Evita enviar datos sensibles o información de terceros que no sea necesaria. No utilizamos los mensajes recibidos para publicar datos personales sin una revisión de pertinencia y una base legítima para hacerlo.</p>
+                <h2>3. Medición de audiencia</h2><p>CEV NOTICIAS utiliza Google Analytics 4 para conocer de forma estadística cómo se utiliza el sitio y mejorar su funcionamiento. Google puede tratar identificadores en línea, datos de dispositivo, eventos de navegación y otros datos técnicos conforme a la configuración del servicio y sus propias políticas.</p><p>Más información: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Política de privacidad de Google</a> y <a href="https://support.google.com/analytics/answer/6004245" target="_blank" rel="noopener noreferrer">cómo protege Google Analytics los datos</a>.</p>
+                <h2>4. Cookies y tecnologías similares</h2><p>El sitio utiliza tecnologías relacionadas con Google Analytics 4, que pueden almacenar o leer identificadores y cookies en el navegador. También pueden existir cookies técnicas necesarias para el funcionamiento del servicio o preferencias del navegador. Puedes administrar o eliminar cookies desde la configuración de tu navegador; bloquearlas puede afectar algunas mediciones.</p>
+                <h2>5. Publicidad de terceros</h2><p>A la fecha de esta actualización, CEV NOTICIAS no tiene código de anuncios de Google AdSense implementado. Si en el futuro se incorporan anuncios u otros proveedores publicitarios, esta política se actualizará para identificar las tecnologías y finalidades pertinentes. Antes de activar publicidad se implementarán los avisos y mecanismos de consentimiento que correspondan, incluidos los requisitos aplicables a visitantes del Espacio Económico Europeo, Reino Unido y Suiza.</p>
+                <h2>6. Proveedores y enlaces externos</h2><p>Google presta el servicio de medición de audiencia bajo sus propias condiciones y políticas. Las noticias también pueden enlazar a sitios de terceros. CEV NOTICIAS no controla las políticas de privacidad, cookies ni prácticas de tratamiento de esos sitios; consulta sus avisos antes de compartir información.</p>
+                <h2>7. Conservación y seguridad</h2><p>Los mensajes recibidos se conservarán durante el tiempo necesario para responder, tramitar la solicitud y mantener un registro razonable de la gestión, salvo que exista una obligación legal de conservación por más tiempo. Se procurará limitar el acceso a la información y evitar su divulgación no autorizada. Los periodos de conservación de datos gestionados por proveedores externos, como Google Analytics, se rigen también por la configuración disponible en esos servicios.</p>
+                <h2>8. Derechos y solicitudes</h2><p>Cuando resulte aplicable la legislación colombiana de protección de datos personales, puedes solicitar conocer, actualizar y rectificar tus datos; pedir información sobre su uso; solicitar prueba de la autorización cuando corresponda; presentar consultas o reclamos; y solicitar la revocatoria de la autorización o la supresión del dato en los casos previstos por la ley.</p><p>Para presentar una consulta o reclamo, escribe a <a href="mailto:cevnoticiascontacto@gmail.com">cevnoticiascontacto@gmail.com</a>. Incluye el asunto «Protección de datos», describe claramente tu petición y aporta la información mínima necesaria para localizar los datos. También puedes utilizar Instagram <a href="https://www.instagram.com/cev.noticias/" target="_blank" rel="noopener noreferrer">@cev.noticias</a>. Las personas titulares pueden acudir a la Superintendencia de Industria y Comercio cuando proceda, después de agotar la consulta o reclamo ante el responsable.</p>
+                <h2>9. Cambios</h2><p>Esta política puede modificarse para reflejar cambios técnicos, legales o de servicios. La fecha de actualización aparecerá al inicio de esta página. Para preguntas sobre privacidad, utiliza el correo oficial indicado en esta política.</p>
               </div></main>"""
         ),
         "politica-editorial.html": (
@@ -937,7 +938,7 @@ def crear_paginas_institucionales():
               <div class="cuerpo">
                 <p>CEV NOTICIAS procura corregir errores factuales y aclarar información cuando se identifica que una publicación contiene datos incorrectos, incompletos o desactualizados.</p>
                 <h2>Cómo reportar un error</h2><ol><li>Envía el enlace exacto de la noticia.</li><li>Indica qué dato consideras incorrecto y por qué.</li><li>Adjunta, si es posible, una fuente primaria, documento o referencia que permita comprobar la observación.</li><li>Incluye un medio de contacto si deseas recibir respuesta.</li></ol>
-                <p>Puedes enviar la solicitud mediante nuestro canal de <a href="https://www.instagram.com/cev.noticias/" target="_blank" rel="noopener noreferrer">Instagram @cev.noticias</a>.</p>
+                <p>Puedes enviar la solicitud a nuestro correo oficial <a href="mailto:cevnoticiascontacto@gmail.com">cevnoticiascontacto@gmail.com</a> o mediante <a href="https://www.instagram.com/cev.noticias/" target="_blank" rel="noopener noreferrer">Instagram @cev.noticias</a>.</p>
                 <h2>Qué hacemos con la solicitud</h2><p>Revisaremos la información aportada y, cuando corresponda, actualizaremos el contenido o añadiremos una aclaración. No todas las solicitudes implican una modificación: la decisión depende de la evidencia disponible. Si se realiza un cambio sustancial, procuraremos dejar constancia de la corrección en la publicación.</p>
               </div></main>"""
         )
@@ -961,7 +962,7 @@ def limpiar_archivos_publicos_obsoletos():
         if ruta.exists():
             shutil.rmtree(ruta)
 
-    for nombre in ("index.html", "sitemap.xml", "robots.txt", "quienes-somos.html", "contacto.html", "politica-de-privacidad.html", "politica-editorial.html", "correcciones.html"):
+    for nombre in ("index.html", "sitemap.xml", "robots.txt", "quienes-somos.html", "redaccion.html", "contacto.html", "politica-de-privacidad.html", "politica-editorial.html", "correcciones.html"):
         ruta = SITE / nombre
         if ruta.exists():
             ruta.unlink()
@@ -1051,6 +1052,10 @@ def validar_archivos_publicados(noticias):
         )
 
     try:
+        for archivo_contacto in ("contacto.html", "politica-de-privacidad.html", "correcciones.html", "redaccion.html"):
+            contenido_contacto = (SITE / archivo_contacto).read_text(encoding="utf-8")
+            if "cevnoticiascontacto@gmail.com" not in contenido_contacto:
+                raise ValueError(f"{archivo_contacto} no incluye el correo oficial de contacto.")
         raiz_sitemap = ET.parse(SITE / "sitemap.xml").getroot()
         if raiz_sitemap.tag != "{http://www.sitemaps.org/schemas/sitemap/0.9}urlset":
             raise ValueError("La raíz del sitemap no es urlset.")
