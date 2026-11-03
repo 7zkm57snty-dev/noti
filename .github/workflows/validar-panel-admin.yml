@@ -47,6 +47,31 @@ jobs:
           python -m json.tool ../feeds.json > /dev/null
           python -m json.tool ../radar_rss.json > /dev/null
           python -m json.tool ../automation_state.json > /dev/null
+          python - <<'PY'
+          from datetime import datetime, timezone, timedelta
+          import sys
+          sys.path.insert(0, "..")
+          import build
+
+          now = datetime.now(timezone.utc)
+          samples = []
+          for i in range(3):
+              samples.append({
+                  "id": f"rss-{i}",
+                  "titulo": f"Noticia de prueba número {i} sobre actualidad",
+                  "categoria": "Colombia",
+                  "fuente": "Medio de prueba",
+                  "url": f"https://example.com/noticia-{i}",
+                  "fecha": (now - timedelta(minutes=i)).isoformat()
+              })
+          seleccionados = build.seleccionar_titulares_publicos(samples, [], limite=2)
+          completos = build.seleccionar_titulares_publicos(samples, [], limite=None)
+          assert len(seleccionados) == 2, f"Se esperaban 2 titulares y llegaron {len(seleccionados)}"
+          assert len(completos) == 3, f"Se esperaban 3 titulares sin límite y llegaron {len(completos)}"
+          tarjeta = build.tarjeta_rss(seleccionados[0])
+          assert "REDACCIÓN CEV NOTICIAS" in tarjeta and "/notas/actualidad-" in tarjeta
+          print("Prueba RSS correcta: selección limitada, archivo completo y crédito editorial.")
+          PY
       - name: Validar sintaxis del verificador de publicación
         run: python -m py_compile ../verificar_publicacion.py
       - name: Instalar Wrangler
