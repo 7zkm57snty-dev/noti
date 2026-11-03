@@ -42,6 +42,7 @@ jobs:
         run: |
           python -m py_compile ../redactor.py ../build.py ../verificar_publicacion.py
           python -m json.tool ../feeds.json > /dev/null
+          python -m json.tool ../radar_rss.json > /dev/null
       - name: Validar sintaxis del verificador de publicación
         run: python -m py_compile ../verificar_publicacion.py
       - name: Instalar Wrangler
