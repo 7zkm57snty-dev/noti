@@ -1,6 +1,69 @@
 {
-  "ultima_actualizacion": "2026-11-03T12:17:57.068774+00:00",
+  "ultima_actualizacion": "2026-11-03T12:34:44.788153+00:00",
   "titulares_rss": [
+    {
+      "id": "a540fb545d39c592",
+      "titulo": "Foro World in Progress 2026 de Barcelona, en directo | Shlomo Ben-Ami: “En Israel hace falta un líder visionario que tenga la brutalidad necesaria para tomar decisiones”",
+      "categoria": "Internacional",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/internacional/2026-11-03/foro-world-in-progress-de-barcelona-en-directo.html",
+      "fecha": "2026-11-03T12:30:10+00:00",
+      "imagen": "https://www.youtube.com/watch?v=JRT_OoQXbpE"
+    },
+    {
+      "id": "721f3bb676348502",
+      "titulo": "Conozca los barrios sin agua en Cali este martes, 3 de noviembre",
+      "categoria": "Cali",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/cali/barrios-sin-agua-cali-martes-3-noviembre-3-11-2026/",
+      "fecha": "2026-11-03T12:28:15+00:00",
+      "imagen": "https://90minutos.co/90minutos.co/wp-content/uploads/2026/06/sismo-temblor.jpg"
+    },
+    {
+      "id": "7a64f9b04516d4f2",
+      "titulo": "¿Qué hay detrás del bombardeo al ELN en Venezuela? Así fue la inédita acción militar",
+      "categoria": "Internacional",
+      "fuente": "La FM Internacional",
+      "url": "https://www.lafm.com.co/internacional/venezuela-bombardeo-campamento-eln-apure-cambia-relaciones-colombia-415948",
+      "fecha": "2026-11-03T12:27:59+00:00",
+      "imagen": "https://files.lafm.com.co/media/news-images/2026/09/15/193457/cabecillas-del-eln-1200x675.png"
+    },
+    {
+      "id": "88ef4467a67bf808",
+      "titulo": "Sismo de 5,6 se sintió en Cali y otros municipios del Valle; autoridades entregan balance",
+      "categoria": "Cali",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/cali/temblor-en-cali-autoridades-entregan-balance-3-11-2026/",
+      "fecha": "2026-11-03T12:22:18+00:00",
+      "imagen": "https://90minutos.co/wp-content/uploads/2026/11/HWMNTMaW4AAx1Lj.jpg"
+    },
+    {
+      "id": "4ef9444a832a3c50",
+      "titulo": "Desayune informado con las claves de este 3 de noviembre de 2026",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/en-vivo/desayune-informado-con-las-claves-de-este-3-de-noviembre-de-2026/",
+      "fecha": "2026-11-03T12:22:00+00:00",
+      "imagen": "https://i0.wp.com/www.lasillavacia.com/wp-content/uploads/2025/03/La-Silla-En-Vivo.jpg?fit=1024%2C768&quality=80&strip=all&ssl=1"
+    },
+    {
+      "id": "1466e0874e189714",
+      "titulo": "Alcaldía de Ocaña ordenó el cierre total de la vía en el puente El Líbano tras el reporte de dos cilindros y una caja con posibles explosivos",
+      "categoria": "Internacional",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/alcaldia-de-ocana-ordeno-el-cierre-total-de-la-via-en-el-puente-el-libano-tras-el-reporte-de-dos-cilindros-y-una-caja-con-posibles-explosivos-3598017",
+      "fecha": "2026-11-03T12:20:46+00:00",
+      "imagen": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/11/03/6ae97f5fd1028.png"
+    },
+    {
+      "id": "ce57ca1ebd5e7e43",
+      "titulo": "Las razones de la salida de Juan Carlos Echeverry",
+      "categoria": "Colombia",
+      "fuente": "La FM Actualidad",
+      "url": "https://www.lafm.com.co/actualidad/juan-carlos-echeverry-banco-de-bogota-razones-salida-415946",
+      "fecha": "2026-11-03T12:18:31+00:00",
+      "imagen": "https://files.lafm.com.co/media/news-images/2026/11/03/121102/juan-carlos-echeverry-1200x675.jpg"
+    },
     {
       "id": "a8a4d1009f417c77",
       "titulo": "Djokovic busca recuperar su mejor nivel en el Masters de París y asegurar su lugar en ATP",
@@ -9,6 +72,15 @@
       "url": "https://www.larepublica.co/ocio/djokovic-busca-recuperar-su-mejor-nivel-en-el-masters-de-paris-4516495",
       "fecha": "2026-11-03T12:12:12+00:00",
       "imagen": ""
+    },
+    {
+      "id": "0ab2dda09e46738c",
+      "titulo": "Ley de rescate económico recibe espaldarazo del FMI y el Banco de la República destaca sus posibles efectos",
+      "categoria": "Economía",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/gobierno/ley-de-rescate-fiscal-recibe-espaldarazo-del-fmi-y-el-banco-de-la-republica-destaca-sus-posibles-efectos-505597",
+      "fecha": "2026-11-03T12:10:32+00:00",
+      "imagen": "https://imagenes.portafolio.co/files/og_thumbnail/uploads/2026/11/03/6ae9ce862989f.jpeg"
     },
     {
       "id": "7488b3483db15e8c",
@@ -83,13 +155,13 @@
       "imagen": "https://i.blogs.es/6f40b4/el-corte-ingles-4-/1024_2000.jpeg"
     },
     {
-      "id": "a540fb545d39c592",
-      "titulo": "Foro World in Progress 2026 de Barcelona, en directo | Shlomo Ben-Ami: “En Israel hace falta un líder visionario que tenga la brutalidad necesaria para tomar decisiones”",
-      "categoria": "Internacional",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/internacional/2026-11-03/foro-world-in-progress-de-barcelona-en-directo.html",
-      "fecha": "2026-11-03T12:00:35+00:00",
-      "imagen": "https://www.youtube.com/watch?v=JRT_OoQXbpE"
+      "id": "a001ccf29cb85e67",
+      "titulo": "Procuraduría llama a juicio disciplinario al exalcalde Daniel Quintero",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/procuraduria-llama-a-juicio-disciplinario-al-exalcalde-daniel-quintero-HO43091273",
+      "fecha": "2026-11-03T12:00:54+00:00",
+      "imagen": "https://estaticos.elcolombiano.com/binrepository/450x300/0c0/0d0/center/11101/NNYT/des-deben-estar-sometidas-a-la-const_52038106_20261103064314.jpg"
     },
     {
       "id": "c2924506565fc34f",
@@ -128,39 +200,12 @@
       "imagen": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/024b/live/41301ca0-cec4-11f1-b9e0-e5f0da03dc7f.jpg"
     },
     {
-      "id": "6025854cf7da677c",
-      "titulo": "Procuraduría formuló pliego de cargos contra el exalcalde de Medellín, Daniel Quintero, por participación política durante su periodo como Supersalud",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/medellin/procuraduria-formulo-pliego-de-cargos-contra-el-exalcalde-de-medellin-daniel-quintero-por-participacion-politica-durante-su-periodo-como-supersalud-3598041",
-      "fecha": "2026-11-03T11:55:32+00:00",
-      "imagen": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/11/03/6ae9cad65090f.png"
-    },
-    {
-      "id": "bb4702f3f4926882",
-      "titulo": "Temblor de 5,6 sacude a Colombia en la madrugada del martes 3 de noviembre| Conozca detalles y videos: se sintió en Chaparral, Bogotá y Pereira",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/terremoto-de-5-6-sacude-a-colombia-en-la-madrugada-del-3-de-noviembre-conozca-los-detalles-3598022",
-      "fecha": "2026-11-03T11:54:40+00:00",
-      "imagen": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2026/11/03/6ae9a733e7890.r_d.445-192-0.png"
-    },
-    {
-      "id": "a292774284989a94",
-      "titulo": "El Festival de Cortos de Bogotá reunirá más de 170 cortometrajes de 50 países en su edición 24",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/ocio/bogoshorts-reunira-mas-de-170-cortometrajes-de-50-paises-en-su-edicion-24-4516466",
-      "fecha": "2026-11-03T11:52:03+00:00",
-      "imagen": ""
-    },
-    {
       "id": "43cfe26c040bc497",
       "titulo": "Video | Así se vivió el temblor de 5,6 que sacudió a Colombia; van más de cinco réplicas",
       "categoria": "Colombia",
       "fuente": "El Colombiano — Colombia",
       "url": "https://www.elcolombiano.com/colombia/video-temblor-5-6-sacudio-colombia-cinco-replicas-evacuacion-sismo-OO43090583",
-      "fecha": "2026-11-03T11:48:56+00:00",
+      "fecha": "2026-11-03T11:55:54+00:00",
       "imagen": "https://estaticos.elcolombiano.com/binrepository/450x300/0c0/0d0/center/11101/CIGD/video-asi-se-vivio-el-temblor-de-5_52038017_20261103065439.jpg"
     },
     {
@@ -219,7 +264,7 @@
     },
     {
       "id": "c1407d8cc64f82ca",
-      "titulo": "Qué es el \"zeptoverso\", el mundo más pequeño jamás detectado en la naturaleza y por qué es clave para entender el universo",
+      "titulo": "Qué es el \"zeptoverso\", el mundo más pequeño jamás detectado en la naturaleza, y por qué es clave para entender el universo",
       "categoria": "Internacional",
       "fuente": "BBC Mundo",
       "url": "https://www.bbc.com/mundo/articles/c60rldxq8k1ro?at_medium=RSS&at_campaign=rss",
@@ -353,24 +398,6 @@
       "imagen": "https://i.blogs.es/2436a0/55393652853_cb1f4a54f7_k/1024_2000.jpeg"
     },
     {
-      "id": "f2d65ef419939b33",
-      "titulo": "Del Ejército de Lula al Ejército peronista: la oposición argentina recluta al ‘general’ digital que impulsó la remontada en Brasil",
-      "categoria": "Internacional",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/argentina/2026-11-03/del-ejercito-de-lula-al-ejercito-peronista-la-oposicion-argentina-recluta-al-general-digital-que-impulso-la-remontada-en-brasil.html",
-      "fecha": "2026-11-03T09:30:00+00:00",
-      "imagen": "https://imagenes.elpais.com/resizer/v2/FXKJTKMKM5GKPONG7257C3A6HA.jpg?auth=66b55f627eab189cfa2867697923620f4844d0e46a676230e91fd2a459919a09"
-    },
-    {
-      "id": "2fbd2c6fcc6af843",
-      "titulo": "Trabajadoras sexuales de Argentina convocan a un paro tras la muerte de cuatro mujeres en un mes",
-      "categoria": "Internacional",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/argentina/2026-11-03/trabajadoras-sexuales-de-argentina-convocan-a-un-paro-tras-la-muerte-de-cuatro-mujeres-en-un-mes.html",
-      "fecha": "2026-11-03T09:30:00+00:00",
-      "imagen": "https://imagenes.elpais.com/resizer/v2/YXQZYRJV3ZBFFBEANKWWGDO6SQ.jpg?auth=a7d8aa27071cf533377355c21d7ad0c550f875deded78bcfc6a5527916865023"
-    },
-    {
       "id": "5ff0c6bb41d09e8c",
       "titulo": "GFT desarrolló una solución con IA para migrar los sistemas de Itaú Unibanco a la nube",
       "categoria": "Economía",
@@ -422,15 +449,6 @@
       "fuente": "La República",
       "url": "https://www.larepublica.co/empresas/qbano-y-subway-lideran-un-mercado-que-consume-25-millones-de-sanduches-4515632",
       "fecha": "2026-11-03T05:01:43+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "7e7404144700d5ef",
-      "titulo": "Texaco pasará de 560 a 760 estaciones de servicio con inversión de US$100 millones",
-      "categoria": "Economía",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/empresas/texaco-busca-pasar-de-560-a-760-estaciones-de-servicio-4515203",
-      "fecha": "2026-11-03T05:01:33+00:00",
       "imagen": ""
     },
     {
@@ -497,15 +515,6 @@
       "imagen": "https://files.lafm.com.co/media/news-images/2026/11/02/203626/este-es-kimi-antonelli-el-piloto-mas-joven-en-ganar-la-f1-1200x675.jpg"
     },
     {
-      "id": "ead90f1fb26aa8ed",
-      "titulo": "Grid Protectors: programa para la red eléctrica",
-      "categoria": "Valle del Cauca",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/secciones/tecnologia/grid-protectors-programa-red-electrica/",
-      "fecha": "2026-11-02T19:00:00+00:00",
-      "imagen": ""
-    },
-    {
       "id": "0be1dad17305837d",
       "titulo": "Alicorp adquirió Rama y operará desde Cali para atender cuatro mercados de la región",
       "categoria": "Cali",
@@ -522,15 +531,6 @@
       "url": "https://www.eltiempo.com/colombia/cali/golpe-al-frente-57-yair-bermudez-caen-cinco-presuntos-integrantes-tras-ataque-a-patrulla-de-la-policia-en-tulua-3597930",
       "fecha": "2026-11-02T16:17:14+00:00",
       "imagen": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/11/02/6ae8b30f9d381.jpeg"
-    },
-    {
-      "id": "c30a381fd49e7058",
-      "titulo": "Herramientas para admins de Forum",
-      "categoria": "Valle del Cauca",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/secciones/tecnologia/herramientas-admins-forum/",
-      "fecha": "2026-11-02T13:00:00+00:00",
-      "imagen": ""
     },
     {
       "id": "810a63ed50a62283",
@@ -569,6 +569,15 @@
       "imagen": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/10/16/6ad26545baa96.jpeg"
     },
     {
+      "id": "f3ab6b9124d91ed9",
+      "titulo": "Anthropic presenta su IPO",
+      "categoria": "Valle del Cauca",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/secciones/tecnologia/anthropic-presenta-su-ipo/",
+      "fecha": "2026-10-31T15:00:00+00:00",
+      "imagen": ""
+    },
+    {
       "id": "6d5b19e29ad96db3",
       "titulo": "Asesinan a Luis Francisco Ramírez, dragoneante del Inpec, cerca de la cárcel Villahermosa en Cali: esto se sabe del crimen",
       "categoria": "Cali",
@@ -586,7 +595,7 @@
       "estado": "ok",
       "entradas_rss": 10,
       "titulares_vigentes": 10,
-      "ultima_consulta": "2026-11-03T12:14:09.222222+00:00",
+      "ultima_consulta": "2026-11-03T12:34:38.892859+00:00",
       "error": ""
     },
     {
@@ -595,8 +604,8 @@
       "zona": "Nacional / internacional",
       "estado": "ok",
       "entradas_rss": 10,
-      "titulares_vigentes": 8,
-      "ultima_consulta": "2026-11-03T12:14:09.370191+00:00",
+      "titulares_vigentes": 9,
+      "ultima_consulta": "2026-11-03T12:34:39.020099+00:00",
       "error": ""
     },
     {
@@ -606,7 +615,7 @@
       "estado": "sin_entradas",
       "entradas_rss": 0,
       "titulares_vigentes": 0,
-      "ultima_consulta": "2026-11-03T12:14:09.452561+00:00",
+      "ultima_consulta": "2026-11-03T12:34:39.070750+00:00",
       "error": "La respuesta no contiene entradas RSS/Atom."
     },
     {
@@ -616,7 +625,7 @@
       "estado": "ok",
       "entradas_rss": 10,
       "titulares_vigentes": 10,
-      "ultima_consulta": "2026-11-03T12:14:10.082431+00:00",
+      "ultima_consulta": "2026-11-03T12:34:39.498082+00:00",
       "error": ""
     },
     {
@@ -626,7 +635,7 @@
       "estado": "ok",
       "entradas_rss": 10,
       "titulares_vigentes": 10,
-      "ultima_consulta": "2026-11-03T12:14:10.241754+00:00",
+      "ultima_consulta": "2026-11-03T12:34:39.613994+00:00",
       "error": ""
     },
     {
@@ -636,7 +645,7 @@
       "estado": "ok",
       "entradas_rss": 60,
       "titulares_vigentes": 40,
-      "ultima_consulta": "2026-11-03T12:14:10.449177+00:00",
+      "ultima_consulta": "2026-11-03T12:34:39.805288+00:00",
       "error": ""
     },
     {
@@ -645,8 +654,8 @@
       "zona": "Nacional / internacional",
       "estado": "ok",
       "entradas_rss": 12,
-      "titulares_vigentes": 0,
-      "ultima_consulta": "2026-11-03T12:14:10.710841+00:00",
+      "titulares_vigentes": 2,
+      "ultima_consulta": "2026-11-03T12:34:39.959117+00:00",
       "error": ""
     },
     {
@@ -656,7 +665,7 @@
       "estado": "ok",
       "entradas_rss": 34,
       "titulares_vigentes": 26,
-      "ultima_consulta": "2026-11-03T12:14:10.911142+00:00",
+      "ultima_consulta": "2026-11-03T12:34:40.081638+00:00",
       "error": ""
     },
     {
@@ -666,7 +675,7 @@
       "estado": "ok",
       "entradas_rss": 20,
       "titulares_vigentes": 20,
-      "ultima_consulta": "2026-11-03T12:14:11.299772+00:00",
+      "ultima_consulta": "2026-11-03T12:34:40.505484+00:00",
       "error": ""
     },
     {
@@ -676,7 +685,7 @@
       "estado": "ok",
       "entradas_rss": 26,
       "titulares_vigentes": 26,
-      "ultima_consulta": "2026-11-03T12:14:12.273357+00:00",
+      "ultima_consulta": "2026-11-03T12:34:40.758467+00:00",
       "error": ""
     },
     {
@@ -684,9 +693,9 @@
       "url": "https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/section/america-colombia/portada",
       "zona": "Nacional / internacional",
       "estado": "ok",
-      "entradas_rss": 113,
+      "entradas_rss": 114,
       "titulares_vigentes": 39,
-      "ultima_consulta": "2026-11-03T12:14:12.880003+00:00",
+      "ultima_consulta": "2026-11-03T12:34:41.417399+00:00",
       "error": ""
     },
     {
@@ -696,7 +705,7 @@
       "estado": "ok",
       "entradas_rss": 11,
       "titulares_vigentes": 5,
-      "ultima_consulta": "2026-11-03T12:14:13.941412+00:00",
+      "ultima_consulta": "2026-11-03T12:34:41.716478+00:00",
       "error": ""
     },
     {
@@ -706,7 +715,7 @@
       "estado": "ok",
       "entradas_rss": 20,
       "titulares_vigentes": 10,
-      "ultima_consulta": "2026-11-03T12:14:15.738041+00:00",
+      "ultima_consulta": "2026-11-03T12:34:41.823351+00:00",
       "error": ""
     },
     {
@@ -716,7 +725,7 @@
       "estado": "ok",
       "entradas_rss": 20,
       "titulares_vigentes": 16,
-      "ultima_consulta": "2026-11-03T12:14:15.917011+00:00",
+      "ultima_consulta": "2026-11-03T12:34:41.940391+00:00",
       "error": ""
     },
     {
@@ -726,7 +735,7 @@
       "estado": "ok",
       "entradas_rss": 20,
       "titulares_vigentes": 20,
-      "ultima_consulta": "2026-11-03T12:14:15.996422+00:00",
+      "ultima_consulta": "2026-11-03T12:34:41.993841+00:00",
       "error": ""
     },
     {
@@ -736,7 +745,7 @@
       "estado": "ok",
       "entradas_rss": 20,
       "titulares_vigentes": 20,
-      "ultima_consulta": "2026-11-03T12:14:16.124580+00:00",
+      "ultima_consulta": "2026-11-03T12:34:42.067095+00:00",
       "error": ""
     },
     {
@@ -746,7 +755,7 @@
       "estado": "ok",
       "entradas_rss": 12,
       "titulares_vigentes": 0,
-      "ultima_consulta": "2026-11-03T12:14:16.246144+00:00",
+      "ultima_consulta": "2026-11-03T12:34:42.124641+00:00",
       "error": ""
     },
     {
@@ -756,7 +765,7 @@
       "estado": "ok",
       "entradas_rss": 36,
       "titulares_vigentes": 34,
-      "ultima_consulta": "2026-11-03T12:14:17.238110+00:00",
+      "ultima_consulta": "2026-11-03T12:34:43.006109+00:00",
       "error": ""
     },
     {
@@ -766,7 +775,7 @@
       "estado": "error",
       "entradas_rss": 0,
       "titulares_vigentes": 0,
-      "ultima_consulta": "2026-11-03T12:14:17.500905+00:00",
+      "ultima_consulta": "2026-11-03T12:34:43.205286+00:00",
       "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     {
@@ -776,7 +785,7 @@
       "estado": "ok",
       "entradas_rss": 10,
       "titulares_vigentes": 10,
-      "ultima_consulta": "2026-11-03T12:14:17.666547+00:00",
+      "ultima_consulta": "2026-11-03T12:34:43.388200+00:00",
       "error": ""
     },
     {
@@ -786,7 +795,7 @@
       "estado": "ok",
       "entradas_rss": 10,
       "titulares_vigentes": 7,
-      "ultima_consulta": "2026-11-03T12:14:17.947236+00:00",
+      "ultima_consulta": "2026-11-03T12:34:43.634266+00:00",
       "error": ""
     }
   ]
