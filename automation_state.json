@@ -7,5 +7,9 @@
   "limite_articulos_diario": 30,
   "limite_solicitudes_diario": 60,
   "limite_articulos_ejecucion": 5,
-  "fuentes_descartadas": []
+  "fuentes_descartadas": [],
+  "fecha_breves_dia": "2026-11-03",
+  "breves_generados_dia": 0,
+  "limite_breves_diario": 30,
+  "limite_breves_ejecucion": 3
 }
