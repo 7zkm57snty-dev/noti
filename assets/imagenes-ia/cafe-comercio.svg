@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675">
+<defs><linearGradient id="b" x2="1" y2="1"><stop stop-color="#17212b"/><stop offset="1" stop-color="#5a6b60"/></linearGradient><linearGradient id="cup" x2="0" y2="1"><stop stop-color="#f7f4ed"/><stop offset="1" stop-color="#d1d4cb"/></linearGradient></defs>
+<rect width="1200" height="675" rx="36" fill="url(#b)"/><circle cx="950" cy="130" r="190" fill="#fff" opacity=".05"/>
+<path d="M0 525h1200v150H0z" fill="#25382f"/>
+<path d="M180 420q160-150 310 0" fill="none" stroke="#7aa37c" stroke-width="20"/><g fill="#7aa37c"><ellipse cx="230" cy="365" rx="78" ry="35" transform="rotate(-35 230 365)"/><ellipse cx="315" cy="330" rx="78" ry="35" transform="rotate(25 315 330)"/><ellipse cx="400" cy="376" rx="78" ry="35" transform="rotate(-25 400 376)"/></g>
+<g fill="#a65a3f"><ellipse cx="245" cy="365" rx="22" ry="38" transform="rotate(-35 245 365)"/><ellipse cx="322" cy="330" rx="22" ry="38" transform="rotate(25 322 330)"/><ellipse cx="405" cy="375" rx="22" ry="38" transform="rotate(-25 405 375)"/></g>
+<path d="M640 265h245l-28 250H665z" fill="url(#cup)"/><path d="M885 325h50q80 0 45 100q-20 50-80 40" fill="none" stroke="#f4f1e9" stroke-width="25"/><path d="M680 310h165" stroke="#a75b3e" stroke-width="18"/><path d="M690 275q-55-85 10-135M760 265q-45-85 15-145" fill="none" stroke="#f5f7fa" stroke-width="12" stroke-linecap="round" opacity=".7"/>
+<path d="M590 535h370" stroke="#ef6b70" stroke-width="13" stroke-linecap="round"/><circle cx="1040" cy="455" r="58" fill="#bd2632" opacity=".8"/>
+</svg>

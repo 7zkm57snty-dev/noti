@@ -15,6 +15,8 @@ SITE = BASE / "site"
 NOTAS = SITE / "notas"
 CACHE = BASE / "cache.json"
 RADAR_RSS = BASE / "radar_rss.json"
+ASSETS_IA = BASE / "assets" / "imagenes-ia"
+ARCHIVOS_ILUSTRACIONES_IA = ("sismo.svg", "infraestructura.svg", "espacio-publico.svg", "salud.svg", "gobierno.svg", "tecnologia.svg", "ciclismo.svg", "cafe-comercio.svg", "movilidad.svg")
 MAX_TITULARES_PUBLICOS = 60
 MAX_EDAD_TITULARES_PUBLICOS_HORAS = 72
 MAX_BREVES_PUBLICOS = 8
@@ -142,20 +144,93 @@ def foto_local_noticia(noticia):
         return ""
 
 
+def seleccionar_ilustracion_ia(noticia):
+    """Selecciona un dibujo editorial conceptual, según el tema de la noticia."""
+    texto = " ".join(str(noticia.get(campo, "")) for campo in ("titulo", "resumen", "texto", "contenido", "categoria")).lower()
+    if re.search(r"bajo (los )?puentes|espacios publicos|parques|zonas verdes", texto):
+        return "espacio-publico.svg"
+    if re.search(r"demolicion|edificacion|edificios|infraestructura|megaproyectos|construccion|obras publicas", texto):
+        return "infraestructura.svg"
+    if re.search(r"sismo|terremoto|temblor|chaparral", texto):
+        return "sismo.svg"
+    if re.search(r"malaria|salud|hospital|paciente|virus|epidemia|enfermedad", texto):
+        return "salud.svg"
+    if re.search(r"ley de|congreso|camara|senado|legislativ|proyecto de ley", texto):
+        return "gobierno.svg"
+    if re.search(r"inteligencia artificial|\\bia\\b|tecnolog|spacex|anthropic|openai|marketing digital|centro de datos|software", texto):
+        return "tecnologia.svg"
+    if re.search(r"giro de rigo|ciclista|ciclismo|deporte|deportiv|atleta|carrera", texto):
+        return "ciclismo.svg"
+    if re.search(r"cafe|caficult|productores|agricultur|cultivo|cosecha|grano|economia|ingresos|ventas|tienda|comercio|negocio|emprend", texto):
+        return "cafe-comercio.svg"
+    if re.search(r"movilidad|transito|trafico|vehiculo|comparendo|caravana|transporte|vial", texto):
+        return "movilidad.svg"
+
+    categoria = str(noticia.get("categoria", "")).lower()
+    if categoria == "deportes":
+        return "ciclismo.svg"
+    if categoria in ("economía", "economia", "valle del cauca"):
+        return "cafe-comercio.svg"
+    if categoria == "cali":
+        return "movilidad.svg"
+    if categoria == "colombia":
+        return "gobierno.svg"
+    if categoria == "tecnología":
+        return "tecnologia.svg"
+    return "espacio-publico.svg"
+
+
+def copiar_ilustraciones_ia():
+    """Copia las ilustraciones SVG editoriales al sitio estático."""
+    if not ASSETS_IA.is_dir():
+        print("No se encontró el directorio de ilustraciones; se mantiene el modo sin fotografía.")
+        return
+    destino = SITE / "imagenes-ia"
+    destino.mkdir(parents=True, exist_ok=True)
+    for nombre in ARCHIVOS_ILUSTRACIONES_IA:
+        origen = ASSETS_IA / nombre
+        if origen.is_file():
+            shutil.copy2(origen, destino / nombre)
+    print("Ilustraciones editoriales SVG copiadas al sitio.")
+
+
 def imagen_noticia(noticia, alt="", clase="", loading="lazy", prioridad=False):
     """
-    Inserta únicamente una fotografía guardada en el propio sitio.
-    Si no hay fotografía real, devuelve vacío para no inventar un cartel.
+    Prioriza fotografías editoriales validadas. Si no existen, usa una
+    ilustración vectorial generada con IA y rotulada como imagen conceptual.
     """
     fotografia = foto_local_noticia(noticia)
-    if not fotografia:
-        return ""
+    if fotografia:
+        clases = " ".join(parte for parte in (clase, "imagen-editorial") if parte)
+        clase_html = f' class="{escapar(clases)}"' if clases else ""
+        prioridad_html = ' fetchpriority="high"' if prioridad else ""
+        return (
+            f'<img{clase_html} src="{fotografia}" alt="{escapar(alt)}" '
+            f'loading="{escapar(loading)}" decoding="async"{prioridad_html}>'
+        )
 
-    clases = f' class="{escapar(clase)}"' if clase else ""
+    archivo = seleccionar_ilustracion_ia(noticia)
+    if not (ASSETS_IA / archivo).is_file():
+        return ""
+    clases = " ".join(parte for parte in (clase, "visual-ia") if parte)
+    descripcion = "Ilustración editorial generada con IA; no es una fotografía del hecho. " + str(alt or "")
     prioridad_html = ' fetchpriority="high"' if prioridad else ""
     return (
-        f'<img{clases} src="{fotografia}" alt="{escapar(alt)}" '
+        f'<span class="{escapar(clases)}" role="img" aria-label="{escapar(descripcion)}">'
+        f'<img class="imagen-ia-img" src="/imagenes-ia/{archivo}" alt="" '
         f'loading="{escapar(loading)}" decoding="async"{prioridad_html}>'
+        f'<span class="sello-imagen-ia">Ilustración IA</span></span>'
+    )
+
+
+def tiempo_relativo_html(noticia, fecha_fallback=""):
+    """Marca temporal que el navegador recalcula en cada carga de la página."""
+    fecha_iso = fecha_schema(noticia)
+    if not fecha_iso:
+        return f'<span class="tiempo-absoluto">{escapar(fecha_fallback)}</span>' if fecha_fallback else ""
+    return (
+        f'<time class="tiempo-relativo" datetime="{escapar(fecha_iso)}" '
+        f'title="{escapar(fecha_fallback)}">{escapar(fecha_fallback or "Publicado recientemente")}</time>'
     )
 
 
@@ -167,6 +242,7 @@ def tarjeta(noticia, posicion=0, ruta_raiz=""):
     visual = imagen_noticia(noticia, alt=titulo)
     clase_sin_imagen = "" if visual else " tarjeta-sin-imagen"
     bloque_imagen = f'<div class="tarjeta-imagen">{visual}</div>' if visual else ""
+    marca_tiempo = tiempo_relativo_html(noticia, str(noticia.get("fecha", "")))
     return f"""
     <article class="tarjeta tarjeta-vertical{clase_sin_imagen}">
       <a class="tarjeta-enlace" href="/notas/{identificador}.html">
@@ -175,6 +251,7 @@ def tarjeta(noticia, posicion=0, ruta_raiz=""):
           <span class="etiqueta">{categoria}</span>
           <h3>{titulo}</h3>
           <p>{resumen}</p>
+          <div class="meta-tarjeta">{marca_tiempo}</div>
           <span class="leer">Leer noticia <span aria-hidden="true">↗</span></span>
         </div>
       </a>
@@ -186,6 +263,7 @@ def tarjeta_rss(titular):
     fuente = escapar(titular.get("fuente") or "Medio de origen")
     fecha = fecha_ordenable(titular)
     fecha_texto = datetime.fromtimestamp(fecha, COLOMBIA_TZ).strftime("%d/%m · %I:%M %p") if fecha else ""
+    marca_tiempo = tiempo_relativo_html(titular, fecha_texto)
     if not titulo or not identificador:
         return ""
     destino = f"/notas/actualidad-{identificador}.html"
@@ -195,7 +273,7 @@ def tarjeta_rss(titular):
         <div class="tarjeta-contenido">
           <span class="rss-sello">REDACCIÓN CEV NOTICIAS · FUENTE: {fuente}</span>
           <h3>{titulo}</h3>
-          <div class="rss-datos"><span>Publicado originalmente · {fecha_texto}</span></div>
+          <div class="rss-datos"><span>Publicado originalmente · {marca_tiempo}</span></div>
           <span class="leer">Ver ficha y crédito de origen ↗</span>
         </div>
       </a>
@@ -211,7 +289,8 @@ def tarjeta_express(item):
     resumen = escapar(item.get("resumen", "")) if not es_rss else "Sigue esta noticia y consulta la información completa."
     fecha = fecha_ordenable(item)
     fecha_texto = datetime.fromtimestamp(fecha, COLOMBIA_TZ).strftime("%d/%m · %I:%M %p") if fecha else ""
-    visual = imagen_noticia(item, alt="")
+    marca_tiempo = tiempo_relativo_html(item, fecha_texto)
+    visual = imagen_noticia(item, alt=titulo)
     clase_sin_imagen = "" if visual else " sin-imagen"
     bloque_imagen = f'<div class="express-foto">{visual}</div>' if visual else ""
     sello = "CEV NOTICIAS · EXPRESS"
@@ -225,7 +304,7 @@ def tarjeta_express(item):
           <h3>{titulo}</h3>
           <p>{resumen}</p>
           <span class="express-leer">Abrir noticia ↗</span>
-          <small>{fecha_texto}</small>
+          <small>{marca_tiempo}</small>
         </div>
       </a>
     </article>"""
@@ -406,6 +485,9 @@ def tarjeta_breve(breve):
     es_ultima_hora = bool(fecha and 0 <= ahora - fecha <= HORAS_ETIQUETA_ULTIMA_HORA * 3600)
     etiqueta = "ÚLTIMA HORA" if es_ultima_hora else "LO MÁS DESTACADO"
     fecha_texto = datetime.fromtimestamp(fecha, COLOMBIA_TZ).strftime("%d/%m · %I:%M %p") if fecha else ""
+    marca_tiempo = tiempo_relativo_html(breve, fecha_texto)
+    visual = imagen_noticia(breve, alt=titulo, clase="breve-foto")
+    bloque_visual = f'<div class="breve-imagen">{visual}</div>' if visual else ""
     nombres = []
     for fuente in breve.get("fuentes", []):
         nombre = str(fuente.get("nombre", "")).strip()
@@ -414,6 +496,7 @@ def tarjeta_breve(breve):
     credito = escapar(", ".join(nombres))
     return f"""
     <article class="breve-actualidad">
+      {bloque_visual}
       <div class="breve-etiquetas">
         <span class="breve-estado">{etiqueta}</span>
         <span class="breve-categoria">{ambito} · {categoria}</span>
@@ -423,7 +506,7 @@ def tarjeta_breve(breve):
       <div class="breve-pie">
         <span>Redacción CEV NOTICIAS</span>
         <span>Fuentes: {credito}</span>
-        <time>{fecha_texto}</time>
+        {marca_tiempo}
       </div>
     </article>"""
 
@@ -746,6 +829,50 @@ body.noche .cev-cookie-banner{{background:#202020;color:#f5f5f5;border-color:#55
 body.noche .cev-cookie-banner h2,body.noche .cev-cookie-banner p{{color:#f1f1f1}}
 body.noche .cev-cookie-actions button,body.noche .cev-cookie-options button{{background:#292929;color:#fff;border-color:#aaa}}
 body.noche .cev-cookie-actions .principal{{background:#b5282f;border-color:#b5282f}}
+
+/* Indicadores compactos superiores: TRM oficial y condiciones actuales de Cali. */
+.franja-indicadores{{max-width:1360px;margin:0 auto;padding:12px clamp(16px,3.2vw,42px);display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr) auto;gap:12px;align-items:center;background:#f5f7fa;border-bottom:1px solid #dce3e9}}
+.indicador-dato{{min-width:0;display:flex;align-items:center;gap:11px;padding:8px 12px;background:#fff;border:1px solid #e0e6ec;border-radius:10px}}
+.indicador-icono{{width:36px;height:36px;flex:none;border-radius:9px;display:grid;place-items:center;background:#eef2f6;color:#17212b;font-size:14px;font-weight:900}}
+.indicador-texto{{min-width:0;display:flex;flex-direction:column;gap:2px}}
+.indicador-texto small{{font-size:8px;font-weight:900;letter-spacing:1.1px;text-transform:uppercase;color:#697887}}
+.indicador-texto strong{{font-size:16px;line-height:1.1;color:#17212b;font-variant-numeric:tabular-nums}}
+.indicador-texto span{{font-size:9px;color:#667482;line-height:1.35}}
+.fuentes-indicadores{{display:flex;flex-direction:column;gap:4px;align-items:flex-end;font-size:8px;color:#657483;text-align:right;line-height:1.4}}
+.fuentes-indicadores a{{text-decoration:underline;text-underline-offset:2px}}
+.fuentes-indicadores a:hover{{color:#b5282f}}
+.indicador-error{{color:#a5222a!important}}
+.meta-tarjeta{{margin-top:8px;font-size:10px;color:#687786}}
+.tiempo-relativo{{font-variant-numeric:tabular-nums;white-space:nowrap}}
+.visual-ia{{position:relative;display:block;width:100%;height:100%;min-height:120px;background-color:#dfe6ed;background-repeat:no-repeat;overflow:hidden;border-radius:inherit}}
+.visual-ia .imagen-ia-img{{display:block;width:100%;height:100%;min-height:0;object-fit:cover;border-radius:inherit}}\n.visual-ia .sello-imagen-ia{{position:absolute;z-index:2;right:7px;bottom:7px;padding:5px 7px;border-radius:4px;background:rgba(15,29,42,.86);color:#fff;font-size:8px;font-weight:900;letter-spacing:.65px;text-transform:uppercase}}
+.tarjeta-imagen .visual-ia{{min-height:100%;height:100%}}
+.destacada-visual .visual-ia{{min-height:0;height:100%}}
+.express-foto .visual-ia{{min-height:0;height:100%}}
+.breve-imagen{{height:auto;aspect-ratio:16/9;overflow:hidden;border-radius:9px;background:#e3e9ef}}
+.breve-imagen .visual-ia{{min-height:0;height:100%}}
+.breve-foto{{height:100%;min-height:0}}
+.articulo .visual-ia.foto{{width:100%;height:auto;min-height:0;aspect-ratio:16/9;max-height:600px;margin:25px 0 8px;border-radius:13px}}
+.articulo .visual-ia.foto .sello-imagen-ia{{font-size:9px;padding:6px 9px}}
+.copyright{{margin:20px auto 0;padding-top:14px;max-width:760px;border-top:1px solid #41505d;color:#b8c3cd;font-size:10px;letter-spacing:.25px}}
+@media(max-width:760px){{
+ .franja-indicadores{{grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:8px;padding:9px 12px}}
+ .indicador-dato{{gap:8px;padding:8px}}
+ .indicador-icono{{width:30px;height:30px;font-size:12px}}
+ .indicador-texto small{{font-size:7px;letter-spacing:.7px}}
+ .indicador-texto strong{{font-size:14px}}
+ .indicador-texto span{{font-size:8px}}
+ .fuentes-indicadores{{grid-column:1/-1;flex-direction:row;justify-content:space-between;align-items:center;gap:7px;font-size:8px;text-align:left}}
+}}
+@media(max-width:390px){{
+ .franja-indicadores{{padding:8px 9px;gap:6px}}
+ .indicador-dato{{padding:7px 6px;gap:6px}}
+ .indicador-icono{{width:26px;height:26px;font-size:10px}}
+ .indicador-texto small{{font-size:6px}}
+ .indicador-texto strong{{font-size:13px}}
+ .indicador-texto span{{font-size:7px}}
+}}
+
 @media(max-width:600px){{
  .cev-cookie-banner{{left:10px;bottom:10px;width:calc(100vw - 20px);padding:15px}}
  .cev-cookie-actions{{display:grid;grid-template-columns:1fr}}
@@ -1073,6 +1200,20 @@ body.noche .breve-pie{{border-color:#49535e}}
    <button class="nav-flecha" id="nav-siguiente" type="button" aria-label="Desplazar secciones hacia la derecha">›</button>
   </div>
  </nav>
+ <section class="franja-indicadores" aria-label="Indicadores del día">
+   <div class="indicador-dato indicador-trm">
+    <span class="indicador-icono" aria-hidden="true">USD</span>
+    <div class="indicador-texto"><small>Dólar · TRM oficial</small><strong id="cev-trm-valor">Consultando…</strong><span id="cev-trm-vigencia">Superintendencia Financiera</span></div>
+   </div>
+   <div class="indicador-dato indicador-clima">
+    <span class="indicador-icono" id="cev-clima-icono" aria-hidden="true">☁</span>
+    <div class="indicador-texto"><small>Clima actual · Cali</small><strong id="cev-clima-valor">Consultando…</strong><span id="cev-clima-detalle">Condiciones meteorológicas</span></div>
+   </div>
+   <div class="fuentes-indicadores">
+    <span>Datos de referencia · actualización automática</span>
+    <span><a href="https://www.datos.gov.co/Econom-a-y-Finanzas/Tasa-de-Cambio-Representativa-del-Mercado-TRM/32sa-8pi3" target="_blank" rel="noopener noreferrer">TRM: Superfinanciera</a> · <a href="https://open-meteo.com/" target="_blank" rel="noopener noreferrer">Clima: Open-Meteo</a></span>
+   </div>
+  </section>
  <div class="barra-herramientas">
   <input id="buscar-noticias" class="buscador" type="search" placeholder="Buscar noticias, temas o palabras..." aria-label="Buscar noticias">
   <button id="modo-noche" class="accion-ui" type="button" aria-pressed="false">◐ Modo oscuro</button>
@@ -1093,6 +1234,7 @@ body.noche .breve-pie{{border-color:#49535e}}
   <a href="{ruta_raiz}politica-de-privacidad.html">Privacidad y cookies</a>
  </nav>
  <button type="button" class="cev-cookie-settings" id="cev-cookie-settings">Configurar cookies</button>
+  <p class="copyright">Copyright © {datetime.now(COLOMBIA_TZ).year} CEV NOTICIAS · Todos los derechos reservados.</p>
 </footer>
 
 <section class="cev-cookie-banner" id="cev-cookie-banner" role="dialog" aria-modal="false" aria-labelledby="cev-cookie-title" aria-describedby="cev-cookie-description" hidden>
@@ -1213,6 +1355,104 @@ body.noche .breve-pie{{border-color:#49535e}}
  function actualizar(){{const max=document.documentElement.scrollHeight-window.innerHeight;if(barra)barra.style.width=(max>0?(window.scrollY/max)*100:0)+'%';if(arriba)arriba.hidden=window.scrollY<450;}}
  window.addEventListener('scroll',actualizar,{{passive:true}});actualizar();
  if(arriba)arriba.addEventListener('click',()=>window.scrollTo({{top:0,behavior:'smooth'}}));
+
+ // Antigüedad editorial: se calcula con la fecha original y el reloj del visitante.
+ function actualizarTiemposRelativos(){{
+  const ahora=Date.now();
+  document.querySelectorAll('time.tiempo-relativo[datetime]').forEach(el=>{{
+   const instante=Date.parse(el.getAttribute('datetime')||'');
+   if(!Number.isFinite(instante))return;
+   const minutos=Math.floor((ahora-instante)/60000);
+   if(minutos<0){{el.textContent='Programada';return;}}
+   if(minutos<1){{el.textContent='Hace menos de un minuto';return;}}
+   if(minutos<60){{el.textContent='Hace '+minutos+' '+(minutos===1?'minuto':'minutos');return;}}
+   const horas=Math.floor(minutos/60);
+   if(horas<24){{el.textContent='Hace '+horas+' '+(horas===1?'hora':'horas');return;}}
+   const dias=Math.floor(horas/24);
+   if(dias<7){{el.textContent='Hace '+dias+' '+(dias===1?'día':'días');return;}}
+   const semanas=Math.floor(dias/7);
+   if(semanas<5){{el.textContent='Hace '+semanas+' '+(semanas===1?'semana':'semanas');return;}}
+   const meses=Math.floor(dias/30);
+   if(meses<12){{el.textContent='Hace '+meses+' '+(meses===1?'mes':'meses');return;}}
+   const anios=Math.floor(dias/365);
+   el.textContent='Hace '+anios+' '+(anios===1?'año':'años');
+  }});
+ }}
+ actualizarTiemposRelativos();
+ window.setInterval(actualizarTiemposRelativos,60000);
+
+ // Indicadores: TRM diaria y condiciones meteorológicas de Cali.
+ const trmValor=document.getElementById('cev-trm-valor');
+ const trmVigencia=document.getElementById('cev-trm-vigencia');
+ const climaValor=document.getElementById('cev-clima-valor');
+ const climaDetalle=document.getElementById('cev-clima-detalle');
+ const climaIcono=document.getElementById('cev-clima-icono');
+ async function cargarTRM(){{
+  if(!trmValor)return;
+  try{{
+   const respuesta=await fetch('https://www.datos.gov.co/resource/32sa-8pi3.json?$limit=1&$order=vigenciadesde%20DESC',{{cache:'no-store'}});
+   if(!respuesta.ok)throw new Error('TRM HTTP '+respuesta.status);
+   const filas=await respuesta.json(),dato=Array.isArray(filas)?filas[0]:null;
+   const valor=Number(dato?.valor);
+   if(!dato||!Number.isFinite(valor)||valor<=0)throw new Error('La fuente no devolvió una tasa válida');
+   trmValor.textContent=new Intl.NumberFormat('es-CO',{{style:'currency',currency:'COP',maximumFractionDigits:2}}).format(valor)+' por USD';
+   const vigencia=dato.vigenciadesde?new Date(dato.vigenciadesde):null;
+   trmVigencia.textContent=vigencia&&!Number.isNaN(vigencia.getTime())?'Vigencia: '+vigencia.toLocaleDateString('es-CO',{{day:'2-digit',month:'short',year:'numeric',timeZone:'America/Bogota'}}):'Vigencia oficial más reciente';
+   trmValor.classList.remove('indicador-error');
+  }}catch(error){{
+   trmValor.textContent='No disponible';
+   trmVigencia.textContent='No se pudo consultar la fuente oficial';
+   trmValor.classList.add('indicador-error');
+  }}
+ }}
+ function textoClima(codigo){{
+  if(codigo===0)return 'Despejado';
+  if(codigo===1)return 'Mayormente despejado';
+  if(codigo===2)return 'Parcialmente nublado';
+  if(codigo===3)return 'Nublado';
+  if(codigo===45||codigo===48)return 'Neblina';
+  if([51,53,55,56,57].includes(codigo))return 'Llovizna';
+  if([61,63,65,66,67,80,81,82].includes(codigo))return 'Lluvia';
+  if([71,73,75,77,85,86].includes(codigo))return 'Nieve';
+  if([95,96,99].includes(codigo))return 'Tormenta';
+  return 'Condición variable';
+ }}
+ function iconoClima(codigo,dia){{
+  if(codigo===0)return dia?'☀':'🌙';
+  if([1,2,3].includes(codigo))return '⛅';
+  if([45,48].includes(codigo))return '🌫';
+  if([51,53,55,56,57,61,63,65,66,67,80,81,82].includes(codigo))return '🌧';
+  if([71,73,75,77,85,86].includes(codigo))return '❄';
+  if([95,96,99].includes(codigo))return '⛈';
+  return '🌤';
+ }}
+ async function cargarClima(){{
+  if(!climaValor)return;
+  const url='https://api.open-meteo.com/v1/forecast?latitude=3.4516&longitude=-76.5320&current=temperature_2m,apparent_temperature,relative_humidity_2m,weather_code,is_day&timezone=America%2FBogota';
+  try{{
+   const respuesta=await fetch(url,{{cache:'no-store'}});
+   if(!respuesta.ok)throw new Error('Clima HTTP '+respuesta.status);
+   const datos=await respuesta.json(),actual=datos.current||{{}};
+   const temp=Number(actual.temperature_2m),sensacion=Number(actual.apparent_temperature),codigo=Number(actual.weather_code);
+   if(!Number.isFinite(temp)||!Number.isFinite(codigo))throw new Error('El proveedor no devolvió condiciones válidas');
+   climaValor.textContent=Math.round(temp)+' °C · '+textoClima(codigo);
+   const partes=[];
+   if(Number.isFinite(sensacion))partes.push('Sensación '+Math.round(sensacion)+' °C');
+   if(Number.isFinite(Number(actual.relative_humidity_2m)))partes.push('Humedad '+Math.round(Number(actual.relative_humidity_2m))+'%');
+   climaDetalle.textContent=partes.join(' · ')||'Condiciones actuales en Cali';
+   climaIcono.textContent=iconoClima(codigo,Number(actual.is_day)!==0);
+   climaValor.classList.remove('indicador-error');
+  }}catch(error){{
+   climaValor.textContent='No disponible';
+   climaDetalle.textContent='No se pudo consultar el clima actual';
+   climaIcono.textContent='—';
+   climaValor.classList.add('indicador-error');
+  }}
+ }}
+ cargarTRM();
+ cargarClima();
+ window.setInterval(cargarClima,30*60*1000);
+
 }})();
 </script>
 <script src="{ruta_raiz}cookies.js" defer></script>
@@ -1293,10 +1533,11 @@ def crear_articulo(noticia, noticias=None):
        <p class="etiqueta">{categoria}</p>
        <h1>{titulo}</h1>
        <p class="bajada">{resumen}</p>
-       <p class="fecha">Publicado: {escapar(noticia.get("fecha", fecha_actual()))} · Por <a href="../redaccion.html">Redacción CEV NOTICIAS</a></p>
+       <p class="fecha">Publicado: {tiempo_relativo_html(noticia, str(noticia.get("fecha", fecha_actual())))} · Por <a href="../redaccion.html">Redacción CEV NOTICIAS</a></p>
        <p class="fecha">Fuentes consultadas: {len(noticia.get("fuentes", []))}</p>
       </div>
       {foto}
+      {f'<p class="credito-imagen">Ilustración conceptual generada con IA; no corresponde a una fotografía documental del hecho.</p>' if foto and not imagen else ''}
       {atribucion_imagen}
       {bloque_investigacion}
       <div class="cuerpo">{parrafos}</div>
@@ -1634,6 +1875,7 @@ def validar_archivos_publicados(noticias):
 
 def construir():
     limpiar_archivos_publicos_obsoletos()
+    copiar_ilustraciones_ia()
     datos = cargar_json(CACHE, {})
     noticias = datos.get("noticias", [])
     breves_cache = datos.get("breves", [])
