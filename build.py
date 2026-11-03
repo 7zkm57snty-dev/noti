@@ -560,6 +560,7 @@ body.noche .bloque-investigacion{{background:#262322;color:#eee}}
 .breves-encabezado h2{{margin:0;font-family:Georgia,serif;font-size:clamp(24px,3vw,34px);letter-spacing:-.5px}}
 .breves-encabezado p{{margin:8px 0 0;color:var(--suave);font-size:13px;line-height:1.55;max-width:660px}}
 .breves-encabezado .contador-noticias{{white-space:nowrap}}
+.breves-actualizacion{{display:block;margin-top:7px;color:var(--suave);font-size:10px;letter-spacing:.2px}}
 .breves-grid{{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}}
 .breve-actualidad{{min-width:0;padding:17px 17px 15px;border:1px solid var(--linea);border-radius:12px;background:#fbfaf7;display:flex;flex-direction:column;gap:10px}}
 .breve-etiquetas{{display:flex;flex-wrap:wrap;align-items:center;gap:7px}}
@@ -1333,6 +1334,14 @@ def construir():
     datos = cargar_json(CACHE, {})
     noticias = datos.get("noticias", [])
     breves_cache = datos.get("breves", [])
+    fecha_edicion_breves = str(datos.get("breves_actualizadas", "")).strip()
+    try:
+        fecha_edicion = datetime.fromisoformat(fecha_edicion_breves.replace("Z", "+00:00"))
+        if fecha_edicion.tzinfo is None:
+            fecha_edicion = fecha_edicion.replace(tzinfo=timezone.utc)
+        fecha_edicion_breves_texto = fecha_edicion.astimezone(COLOMBIA_TZ).strftime("%d/%m/%Y · %I:%M %p")
+    except (ValueError, OverflowError):
+        fecha_edicion_breves_texto = ""
     radar = cargar_json(RADAR_RSS, {})
     titulares_rss = radar.get("titulares_rss", []) if isinstance(radar, dict) else []
     validas = []
@@ -1447,9 +1456,10 @@ def construir():
         <div>
           <p class="etiqueta">CEV NOTICIAS · ACTUALIDAD RÁPIDA</p>
           <h2>Última hora · Lo más destacado</h2>
-          <p>Información breve de Cali, el Valle del Cauca y Colombia. Priorizamos lo que ocurre cerca de nuestros lectores y los hechos nacionales; no incluimos actualidad internacional general.</p>
+          <p>Notas breves y originales de CEV NOTICIAS, elaboradas a partir de información consultada y contrastada. Cubrimos Cali, el Valle del Cauca y Colombia; esta selección se renueva cada cuatro días.</p>
+          <small class="breves-actualizacion">Edición actualizada: {escapar(fecha_edicion_breves_texto or "En preparación")}</small>
         </div>
-        <span class="contador-noticias">{len(breves_publicos)} breves</span>
+        <span class="contador-noticias">{len(breves_publicos)} notas</span>
       </div>
       <div class="breves-grid">
         {tarjetas_breves or '<div class="vacio">Estamos verificando nuevos reportes para preparar las próximas mini-noticias.</div>'}
