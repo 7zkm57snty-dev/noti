@@ -460,10 +460,10 @@ async function createHeadlineOptions(body,env) {
   let parsed;
   try{parsed=JSON.parse(String(payload?.choices?.[0]?.message?.content||""))}
   catch(_){throw new AdminError(502,"No se pudo interpretar la respuesta del generador de titulares.");}
-  const original=title.toLowerCase().replace(/\\s+/g," ").trim();
+  const original=title.toLowerCase().replace(/\s+/g," ").trim();
   const options=[...new Set((Array.isArray(parsed.opciones)?parsed.opciones:[])
     .map(x=>String(x||"").trim())
-    .filter(x=>x.length>=35&&x.length<=140&&x.toLowerCase().replace(/\\s+/g," ").trim()!==original))].slice(0,5);
+    .filter(x=>x.length>=35&&x.length<=140&&x.toLowerCase().replace(/\s+/g," ").trim()!==original))].slice(0,5);
   if(options.length<3)throw new AdminError(502,"El generador no produjo suficientes titulares distintos. Vuelve a intentarlo.");
   return {ok:true,opciones:options,modelo:"openai/gpt-oss-20b"};
 }
