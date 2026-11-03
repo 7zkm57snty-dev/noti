@@ -31,6 +31,8 @@ jobs:
         with:
           node-version: 22
 
+      - name: Validar sintaxis del verificador de publicación
+        run: python -m py_compile ../verificar_publicacion.py
       - name: Instalar Wrangler
         run: npm install
 
