@@ -29,6 +29,12 @@ function dateCO() {
     .formatToParts(new Date()).forEach(x=>p[x.type]=x.value);
   return p.day+"/"+p.month+"/"+p.year+" · "+p.hour+":"+p.minute+" "+p.dayPeriod.toUpperCase();
 }
+function dateISOCO() {
+  const p={};
+  new Intl.DateTimeFormat("en-CA",{timeZone:"America/Bogota",year:"numeric",month:"2-digit",day:"2-digit"})
+    .formatToParts(new Date()).forEach(x=>p[x.type]=x.value);
+  return p.year+"-"+p.month+"-"+p.day;
+}
 function managedBranch(b) { return b==="revision-editorial/noticias-pendientes" || String(b||"").startsWith("revision-admin/") || String(b||"").startsWith("feature/centro-diagnostico-automatico"); }
 
 async function gh(path,env,method="GET",body) {
@@ -247,9 +253,9 @@ async function dashboard(env,identity) {
     feedStatus:radar.estado_fuentes,
     automation:r[3],
     automationLimits:{
-      articlesToday:r[4].fecha_articulos_dia===dateCO().slice(6,10)+"-"+dateCO().slice(3,5)+"-"+dateCO().slice(0,2)?Number(r[4].articulos_generados_dia)||0:Number(r[4].articulos_generados_dia)||0,
+      articlesToday:r[4].fecha_articulos_dia===dateISOCO()?(Number(r[4].articulos_generados_dia)||0):0,
       dailyArticleLimit:Number(r[4].limite_articulos_diario)||20,
-      dailyRequests:Number(r[4].solicitudes_groq)||0,
+      dailyRequests:r[4].fecha_solicitudes_groq===dateISOCO()?(Number(r[4].solicitudes_groq)||0):0,
       dailyRequestLimit:Number(r[4].limite_solicitudes_diario)||40,
       maxArticlesPerRun:Number(r[4].limite_articulos_ejecucion)||4,
       articleDate:r[4].fecha_articulos_dia||"",
