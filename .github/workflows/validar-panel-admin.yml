@@ -146,9 +146,9 @@ jobs:
                   dominio = urlsplit(fuente["url"]).hostname or ""
                   assert dominio not in tarjeta
               enlaces_imagen = re.findall(r'href="([^"]+)"', tarjeta)
-    for enlace in enlaces_imagen:
-        host = urlsplit(enlace).hostname or ""
-        assert host in {"commons.wikimedia.org", "creativecommons.org"}, f"Enlace no permitido en mini-noticia: {enlace}"
+              for enlace in enlaces_imagen:
+                  host = urlsplit(enlace).hostname or ""
+                  assert host in {"commons.wikimedia.org", "creativecommons.org"}, f"Enlace no permitido en mini-noticia: {enlace}"
           print(f"Correcto: {len(seleccionadas)} notas de la edición pasan filtros y muestran crédito sin enlaces externos.")
           PY
 
