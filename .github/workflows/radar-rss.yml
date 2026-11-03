@@ -2,7 +2,7 @@ name: Actualizar radar RSS CEV NOTICIAS
 
 on:
   schedule:
-    # Independiente de la cola editorial: se actualiza cada 20 minutos.
+    # Independiente de la cola editorial: se actualiza cada 30 minutos.
     - cron: "15,45 * * * *"
   workflow_dispatch:
   push:
