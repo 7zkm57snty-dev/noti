@@ -7,8 +7,9 @@ Worker privado para `admin.cevnoticias.com`, integrado con el repositorio `7zkm5
 - Cloudflare Access autentica la solicitud antes de que el Worker entregue el panel o procese la API. El Worker vuelve a comprobar `ctx.access` y la identidad.
 - La interfaz se importa como módulo de texto mediante Wrangler. No se usa el router de Static Assets, para conservar el contexto de Access en el Worker.
 - El token de GitHub solo se lee desde el secreto `GITHUB_TOKEN` del Worker. Nunca se devuelve al navegador.
-- Las altas, ediciones y retiros crean una rama `revision-admin/*` y una propuesta contra `main`.
-- Aprobar fusiona la propuesta; eso dispara el workflow existente de GitHub Pages. Rechazar cierra la propuesta.
+- Las altas y retiros crean una rama `revision-admin/*` y una propuesta contra `main` para revisión editorial.
+- Las ediciones de noticias existentes se fusionan automáticamente al guardar desde el panel. El panel espera a que GitHub Pages confirme la publicación antes de indicar que se puede recargar la noticia.
+- Las nuevas noticias siguen requiriendo aprobación editorial; los retiros también conservan su revisión.
 - Se mantiene `cache.json` como fuente de datos y se conservan los procesos de publicación actuales.
 - El workflow automático ahora se pausa tanto ante propuestas automáticas como ante propuestas creadas desde el panel.
 
