@@ -102,8 +102,24 @@ def foto_local_noticia(noticia):
 
     url = str(noticia.get("imagen") or "").strip()
     if not url.startswith(("https://", "http://")):
-        IMAGENES_PROCESADAS[identificador] = ""
-        return ""
+        # Segundo nivel: repositorios abiertos con licencia compatible.
+        try:
+            from imagenes import buscar_imagen
+            resultado = buscar_imagen(
+                noticia.get("titulo", ""),
+                noticia.get("resumen", ""),
+                noticia.get("categoria", "")
+            )
+            if resultado and resultado.get("url"):
+                noticia["imagen"] = resultado["url"]
+                noticia["imagen_credito"] = resultado
+                url = resultado["url"]
+        except Exception as error:
+            print(f"No fue posible consultar repositorios externos: {error}")
+    if not url.startswith(("https://", "http://")):
+        respaldo = imagen_respaldo_categoria(noticia, identificador)
+        IMAGENES_PROCESADAS[identificador] = respaldo
+        return respaldo
 
     host = (urlsplit(url).hostname or "").lower()
     if host in ("cevnoticias.com", "www.cevnoticias.com"):
@@ -141,7 +157,16 @@ def foto_local_noticia(noticia):
         print(f"Fotografía real guardada en el sitio: {identificador}{extension}")
         return local
     except Exception as error:
-        print(f"Foto original no disponible para {identificador}; se buscará respaldo: {error}")
+        print(f"Foto original no disponible para {identificador}; se consultarán repositorios: {error}")
+        try:
+            from imagenes import buscar_imagen
+            resultado = buscar_imagen(noticia.get("titulo", ""), noticia.get("resumen", ""), noticia.get("categoria", ""))
+            if resultado and resultado.get("url"):
+                noticia["imagen"] = resultado["url"]
+                noticia["imagen_credito"] = resultado
+                return foto_local_noticia(noticia)
+        except Exception as error_repositorio:
+            print(f"Repositorios externos no disponibles: {error_repositorio}")
         respaldo = imagen_respaldo_categoria(noticia, identificador)
         IMAGENES_PROCESADAS[identificador] = respaldo
         return respaldo
