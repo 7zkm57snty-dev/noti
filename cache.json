@@ -20,8 +20,16 @@
         "dominios_independientes": 1,
         "fecha": "2026-11-03T13:30:35.542653+00:00"
       },
-      "imagen": "",
-      "imagen_credito": {},
+      "imagen": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Business_professional_working_on_laptop_in_a_bright_office_space.jpg/960px-Business_professional_working_on_laptop_in_a_bright_office_space.jpg?utm_campaign=index&utm_content=thumbnail&utm_source=commons.wikimedia.org",
+      "imagen_credito": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Business_professional_working_on_laptop_in_a_bright_office_space.jpg/960px-Business_professional_working_on_laptop_in_a_bright_office_space.jpg?utm_campaign=index&utm_content=thumbnail&utm_source=commons.wikimedia.org",
+        "autor": "Shixart1985",
+        "fuente": "Wikimedia Commons",
+        "pagina": "https://commons.wikimedia.org/wiki/File:Business_professional_working_on_laptop_in_a_bright_office_space.jpg",
+        "licencia": "CC BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0//",
+        "tipo": "Imagen de referencia"
+      },
       "imagen_busqueda_intentada": true,
       "imagen_instagram": "https://cevnoticias.com/social/3f7ae057239b2cf1.jpg",
       "imagen_instagram_tipo": "portada_grafica_cev",
@@ -56,8 +64,16 @@
         "dominios_independientes": 1,
         "fecha": "2026-11-03T13:32:09.175193+00:00"
       },
-      "imagen": "",
-      "imagen_credito": {},
+      "imagen": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Falcon_9_-_Starlink_10-53_Launch_%289714136%29.jpg/1280px-Falcon_9_-_Starlink_10-53_Launch_%289714136%29.jpg?utm_campaign=index&utm_content=thumbnail&utm_source=commons.wikimedia.org",
+      "imagen_credito": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Falcon_9_-_Starlink_10-53_Launch_%289714136%29.jpg/1280px-Falcon_9_-_Starlink_10-53_Launch_%289714136%29.jpg?utm_campaign=index&utm_content=thumbnail&utm_source=commons.wikimedia.org",
+        "autor": "U.S. Space Force · Gwendolyn Kurzen",
+        "fuente": "Wikimedia Commons",
+        "pagina": "https://commons.wikimedia.org/wiki/File:Falcon_9_-_Starlink_10-53_Launch_(9714136).jpg",
+        "licencia": "Dominio público (fotografía oficial de la U.S. Space Force)",
+        "licencia_url": "https://commons.wikimedia.org/wiki/File:Falcon_9_-_Starlink_10-53_Launch_(9714136).jpg",
+        "tipo": "Fotografía de archivo"
+      },
       "imagen_busqueda_intentada": true,
       "imagen_instagram": "https://cevnoticias.com/social/bdda5bc19234acfb.jpg",
       "imagen_instagram_tipo": "portada_grafica_cev",
@@ -92,8 +108,16 @@
         "dominios_independientes": 1,
         "fecha": "2026-11-03T13:33:54.222168+00:00"
       },
-      "imagen": "",
-      "imagen_credito": {},
+      "imagen": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Stock-exchange-trading-floor.jpg/1280px-Stock-exchange-trading-floor.jpg?utm_campaign=index&utm_content=thumbnail&utm_source=commons.wikimedia.org",
+      "imagen_credito": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Stock-exchange-trading-floor.jpg/1280px-Stock-exchange-trading-floor.jpg?utm_campaign=index&utm_content=thumbnail&utm_source=commons.wikimedia.org",
+        "autor": "S.aderogba",
+        "fuente": "Wikimedia Commons",
+        "pagina": "https://commons.wikimedia.org/wiki/File:Stock-exchange-trading-floor.jpg",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0//",
+        "tipo": "Imagen de referencia"
+      },
       "imagen_busqueda_intentada": true,
       "imagen_instagram": "https://cevnoticias.com/social/54523b15134923f6.jpg",
       "imagen_instagram_tipo": "portada_grafica_cev",
@@ -117,8 +141,16 @@
       "categoria": "Internacional",
       "contenido": "OpenAI ha presentado Grid Protectors, una iniciativa que pretende usar la flexibilidad de sus centros de datos para aliviar la presión sobre la red eléctrica durante picos de demanda. El programa, anunciado por la propia compañía, se basa en acuerdos con servicios públicos, reguladores y responsables de política para que los campus informáticos reduzcan o modifiquen su consumo en momentos críticos.\n\nEl proyecto piloto se ubica en el condado de Effingham, Georgia, donde OpenAI se ha comprometido a financiar las infraestructuras necesarias y a ofrecer hasta 1.000 megavatios de demanda flexible. Según la compañía, esa capacidad podría mantener el aire acondicionado en cientos de miles de hogares durante olas de calor o fríos extremos, evitando cortes generalizados.\n\nCuando la red eléctrica se encuentre bajo tensión, los centros de datos podrán reducir su consumo, liberando energía para viviendas y pequeñas empresas. Este mecanismo permitiría a las compañías eléctricas evitar la necesidad de nuevas infraestructuras para cubrir los picos de demanda, lo que, según OpenAI, se traduciría en ahorros que podrían trasladarse a los usuarios residenciales en forma de menores costos o menores inversiones adicionales.\n\nOpenAI ha declarado que pagará los costos de infraestructura eléctrica de su campus en Effingham, de modo que la carga financiera no recaiga sobre los usuarios locales. No obstante, el programa no sustituye las inversiones en nueva generación y transmisión, que siguen siendo necesarias para el crecimiento de la capacidad eléctrica.\n\nLos detalles de cada acuerdo local aún están por definirse: cuánto se puede reducir la demanda, con qué rapidez y por cuánto tiempo; además, dependerá de las condiciones y equipos disponibles en cada ubicación. También se debe confirmar cómo se coordinarán las respuestas con los operadores de red y qué garantías financieras protegerán a los clientes en caso de retrasos, cambios o cancelaciones.\n\nEl piloto en Georgia servirá como modelo para futuras instalaciones, pero su efectividad y alcance real dependerán de las negociaciones y de la implementación técnica en cada región. Grid Protectors plantea una nueva forma de integrar grandes cargas informáticas con la gestión de la red, ofreciendo protección al suministro en picos y reduciendo el riesgo de cortes, al tiempo que abre un modelo de contrato innovador para los servicios públicos.\n\nEn un contexto de creciente demanda energética y de eventos climáticos extremos, la propuesta de OpenAI representa una alternativa interesante para mejorar la resiliencia del sistema eléctrico sin comprometer la continuidad de los servicios de cómputo de la compañía.",
       "estado_informacion": "confirmada",
-      "imagen": "",
-      "imagen_credito": {},
+      "imagen": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Datacenter_Server_Racks_%2822370909788%29.jpg/1280px-Datacenter_Server_Racks_%2822370909788%29.jpg?utm_campaign=index&utm_content=thumbnail&utm_source=commons.wikimedia.org",
+      "imagen_credito": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Datacenter_Server_Racks_%2822370909788%29.jpg/1280px-Datacenter_Server_Racks_%2822370909788%29.jpg?utm_campaign=index&utm_content=thumbnail&utm_source=commons.wikimedia.org",
+        "autor": "Carl Lender",
+        "fuente": "Wikimedia Commons",
+        "pagina": "https://commons.wikimedia.org/wiki/File:Datacenter_Server_Racks_(22370909788).jpg",
+        "licencia": "CC BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0//",
+        "tipo": "Imagen de referencia"
+      },
       "imagen_busqueda_intentada": true,
       "imagen_instagram": "https://cevnoticias.com/social/5be8a0b750244278.jpg",
       "imagen_instagram_tipo": "portada_grafica_cev",
@@ -152,8 +184,16 @@
       "categoria": "Tecnología",
       "contenido": "Meta presentó en su conferencia del 23 de octubre de 2026 una serie de mejoras para la aplicación Forum, la herramienta oficial de gestión de grupos de Facebook. La actualización incluye una versión integrada de Admin AI y la expansión de Admin Assist, con el objetivo de reducir el trabajo manual que realizan los administradores y facilitar la coordinación entre equipos de moderación.\n\nAdmin AI es la función que más destaca. La inteligencia artificial etiqueta las publicaciones pendientes indicando si cumplen o no con las reglas del grupo, lo que permite a los administradores decidir rápidamente qué mensajes aprobar. Además, la herramienta puede generar borradores de publicaciones y programar hasta cinco posts de una sola vez, lo que ayuda a mantener la conversación activa sin que el administrador tenga que redactar cada mensaje desde cero.\n\nPor su parte, Admin Assist permite crear reglas automáticas más flexibles combinando condiciones como la longitud del post, el uso de enlaces o acciones de moderación previas. La actualización también incorpora una vista de insights adaptada al estado del grupo y un calendario compartido para equipos de moderación, evitando duplicidades y permitiendo ver lo que otros moderadores ya han programado.\n\nAunque la actualización se lanzó en Estados Unidos, Meta no especificó fechas de lanzamiento en otros países ni idiomas. Tampoco se detallaron los límites técnicos de las etiquetas de Admin AI ni el grado de control que tendrán los administradores sobre las decisiones automatizadas más allá de las reglas combinadas de Admin Assist. La compañía recordó que todas las publicaciones siguen sujetas a los Community Standards, pero no explicó cómo se armonizarán esas normas con las reglas internas de cada grupo cuando haya conflictos.\n\nLas mejoras buscan reducir tareas repetitivas y ofrecer herramientas de colaboración, pero la adopción y el ajuste fino dependerán de pruebas y retroalimentación de los administradores. Según la nota, los usuarios pueden esperar menos tiempo en moderación y respuestas más rápidas, mientras que las organizaciones podrán mantener comunidades activas con menos recursos humanos.\n\nEste lanzamiento se enmarca en la tendencia creciente de ofrecer funciones de automatización para gestores de comunidades y de facilitar la colaboración en equipos de moderación. La incorporación de la IA en la gestión de grupos de Facebook refleja el impulso de Meta por integrar tecnologías emergentes en sus plataformas sociales, con el objetivo de mejorar la experiencia de los usuarios y la eficiencia de los administradores.",
       "estado_informacion": "confirmada",
-      "imagen": "",
-      "imagen_credito": {},
+      "imagen": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Social_Media_App_Icons_On_The_Screen_of_A_Smartphone.jpg/1280px-Social_Media_App_Icons_On_The_Screen_of_A_Smartphone.jpg?utm_campaign=index&utm_content=thumbnail&utm_source=commons.wikimedia.org",
+      "imagen_credito": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Social_Media_App_Icons_On_The_Screen_of_A_Smartphone.jpg/1280px-Social_Media_App_Icons_On_The_Screen_of_A_Smartphone.jpg?utm_campaign=index&utm_content=thumbnail&utm_source=commons.wikimedia.org",
+        "autor": "mikemacmarketing · VPNsRUs.com",
+        "fuente": "Wikimedia Commons",
+        "pagina": "https://commons.wikimedia.org/wiki/File:Social_Media_App_Icons_On_The_Screen_of_A_Smartphone.jpg",
+        "licencia": "CC BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0//",
+        "tipo": "Imagen de referencia"
+      },
       "imagen_busqueda_intentada": true,
       "imagen_instagram": "https://cevnoticias.com/social/9014cb52f61b2a81.jpg",
       "imagen_instagram_tipo": "portada_grafica_cev",
@@ -181,8 +221,16 @@
       "categoria": "Valle del Cauca",
       "contenido": "Jesús Antonio y su hijo de 13 años, Juan Antonio, son los protagonistas de una historia que parte de las veredas de Argelia, municipio del Valle del Cauca, y llega a la capital del país. Hace ocho años, decidieron no quedarse como simples caficultores, sino convertirse en cafeteros, es decir, vender el grano y la historia que lo acompaña.\n\nEl café Don Argelino, cultivado a más de 1 600 metros sobre el nivel del mar, se caracteriza por su tueste medio oscuro, su acidez equilibrada, su cuerpo intenso y un retrogusto que permanece en el paladar como una promesa. “La idea de nosotros es que Argelia esté en el mapa de los cafés de mejor calidad de Colombia”, afirma Jesús Antonio.\n\nLa oportunidad llegó cuando la Gobernación del Valle del Cauca, a través del Fondo ValleINN, los seleccionó para participar en la Expo Agrofuturo, una plataforma que conecta a productores colombianos con mercados de América Latina. “Nos pusimos muy contentos porque sabemos que Bogotá es muy buena plaza”, recuerda el padre.\n\nEn la feria, el café Don Argelino captó la atención de los visitantes. “Nos fue muy bien, todo se vendió, fue maravilloso”, comenta Jesús Antonio. Los capitalinos se acercaban a probar el grano, preguntaban de dónde venía y, al escuchar que era de Argelia, sentían un vínculo con el territorio.\n\nSin embargo, la familia enfrentó una dura prueba cuando el terremoto del 10 de agosto arrasó sus viviendas y dejó al padre sin casa. A pesar de la adversidad, la pasión por el café y la visión de llevar su producto a nuevos mercados los impulsó a seguir adelante.\n\nHoy, el café Don Argelino sigue conquistando paladares en Bogotá y en otros lugares, y la familia continúa trabajando para que su municipio sea reconocido como un referente de calidad cafetera. La historia de Jesús Antonio y Juan Antonio es un testimonio de resiliencia, de la fuerza de la tradición y de la capacidad de convertir un grano en un símbolo de identidad y esperanza.",
       "estado_informacion": "confirmada",
-      "imagen": "",
-      "imagen_credito": {},
+      "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/NP_Coffee_Farmer3_%285867168901%29.jpg/1280px-NP_Coffee_Farmer3_%285867168901%29.jpg",
+      "imagen_credito": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/NP_Coffee_Farmer3_%285867168901%29.jpg/1280px-NP_Coffee_Farmer3_%285867168901%29.jpg",
+        "autor": "CIAT · Neil Palmer",
+        "fuente": "Wikimedia Commons",
+        "pagina": "https://commons.wikimedia.org/wiki/File:NP_Coffee_Farmer3_(5867168901).jpg",
+        "licencia": "CC BY-SA 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/2.0//",
+        "tipo": "Imagen de referencia"
+      },
       "imagen_busqueda_intentada": true,
       "imagen_instagram": "https://cevnoticias.com/social/b0d8e5fe805675ea.jpg",
       "imagen_instagram_tipo": "portada_grafica_cev",
@@ -205,8 +253,16 @@
       "categoria": "Cali",
       "contenido": "El 15 de septiembre, el Departamento Nacional de Planeación (DNP) abrió en Cali el Encuentro Regional del Pacífico para la formulación del Plan Nacional de Desarrollo 2026‑2030. En la sesión, que contó con una extensión simultánea en el Puerto de Buenaventura, se reveló un ambicioso portafolio de 54 megaproyectos que podrían generar $49.24 billones de inversión en la región del Pacífico.\n\nEl desglose financiero indica que el Valle del Cauca alberga 32 proyectos por un valor de $28.53 billones, el Cauca ocho proyectos por $9.52 billones y Nariño ocho iniciativas por $4.60 billones. Además, seis proyectos interdepartamentales suman $6.58 billones. Todos los recursos están diseñados para ejecutarse mediante esquemas de cofinanciación que integren al sector privado y a la cooperación internacional.\n\nEl evento se desarrolló en un contexto marcado por la emergencia tras el terremoto del 10 de agosto y por la seguridad, considerada un pilar fundamental para habilitar cualquier inversión. El director del DNP, Julián Buitrago, enfatizó la trascendencia de la región para la administración central, señalando que el suroccidente del país alberga más de ocho millones de colombianos y que los tres departamentos generan $243.3 billones al año.\n\nDurante la presentación, se destacó que el Plan Nacional de Desarrollo 2026‑2030 debe incluir las prioridades regionales y que el Valle del Cauca aporta el 9.7 % de la economía nacional. El DNP invitó a los actores locales a consolidar una mesa de seguimiento con responsables y compromisos verificables para convertir las prioridades en realidades.\n\nLos megaproyectos abarcan sectores clave como infraestructura vial, portuaria y energética, así como programas de desarrollo social y ambiental. La propuesta busca fortalecer la conectividad global, mejorar la competitividad de la región y garantizar la seguridad de sus habitantes.\n\nEl encuentro concluyó con la promesa de avanzar en la articulación de la agenda regional dentro del Plan Nacional de Desarrollo y del plan de inversiones, reforzando la apuesta por una estrategia descentralizada y colaborativa que transforme el Valle del Cauca y el Pacífico colombiano.",
       "estado_informacion": "confirmada",
-      "imagen": "",
-      "imagen_credito": {},
+      "imagen": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Building_the_road_bridge_IMG_4480c.jpg/1280px-Building_the_road_bridge_IMG_4480c.jpg?utm_campaign=index&utm_content=thumbnail&utm_source=commons.wikimedia.org",
+      "imagen_credito": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Building_the_road_bridge_IMG_4480c.jpg/1280px-Building_the_road_bridge_IMG_4480c.jpg?utm_campaign=index&utm_content=thumbnail&utm_source=commons.wikimedia.org",
+        "autor": "Talsarnau Times",
+        "fuente": "Wikimedia Commons",
+        "pagina": "https://commons.wikimedia.org/wiki/File:Building_the_road_bridge_IMG_4480c.jpg",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0//",
+        "tipo": "Imagen de referencia (obra de infraestructura fuera de Colombia)"
+      },
       "imagen_busqueda_intentada": true,
       "imagen_instagram": "https://cevnoticias.com/social/ee8f446505615ab2.jpg",
       "imagen_instagram_tipo": "portada_grafica_cev",
@@ -229,8 +285,16 @@
       "categoria": "Cali",
       "contenido": "El 31 de octubre y la madrugada del 1 de noviembre, la capital vallecaucana vivió una de sus celebraciones más concurridas: las caravanas de motocicletas que se realizan cada año en honor al Día de los Muertos. Para evitar alteraciones del orden público y garantizar la seguridad vial, la Alcaldía de Cali, a través de la Secretaría de Movilidad y la Policía Nacional, desplegó un plan de seguridad que contó con más de 2.100 uniformados.\n\nEl operativo incluyó la presencia de 1.600 policías y 500 agentes de tránsito en puntos críticos de la ciudad, como la calle 5 y la Autopista Suroriental, donde se concentraron las rutas habituales de las caravanas. Además, se establecieron mesas de concertación con los voceros de los clubes de motociclistas para intentar encauzar las agrupaciones bajo normas estrictas de convivencia.\n\nSegún la Secretaría de Movilidad, la acción dio como resultado la emisión de más de 3.000 comparendos a conductores que infringieron las normas de tránsito y la inmovilización de 350 vehículos. La autoridad destacó que la medida fue necesaria para evitar accidentes y garantizar la circulación de los demás usuarios de la vía.\n\nDurante la madrugada, se registraron incidentes de alta tensión, entre los que se destacó el caso de una uniformada que reprendió a dos infractores que intentaban evadir la inmovilización de su motocicleta. La intervención de la policía fue rápida y eficaz, evitando que la situación se agravara.\n\nEl balance de la operación fue considerado positivo por las autoridades locales, que calificaron el control como un éxito en la prevención de delitos y la protección de la ciudadanía. La Alcaldía de Cali reiteró su compromiso con la seguridad vial y la responsabilidad compartida en el espacio público.\n\nLa celebración de Halloween en Cali, aunque marcada por la presencia de miles de motociclistas, se desarrolló en calma en la mayoría de los centros comerciales, parques y barrios. La coordinación entre las distintas instituciones y la participación de los clubes de motociclistas fueron factores clave para lograr un evento seguro y ordenado.\n\nLa Secretaría de Movilidad concluyó que la operación demostró la capacidad de respuesta de las autoridades y la importancia de la planificación anticipada en eventos de gran afluencia. Se espera que las lecciones aprendidas se apliquen en futuras celebraciones para seguir garantizando la seguridad de todos los habitantes de la ciudad.",
       "estado_informacion": "confirmada",
-      "imagen": "",
-      "imagen_credito": {},
+      "imagen": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Bus_del_MIO_ingresando_al_Bulevar_del_R%C3%ADo.JPG/1280px-Bus_del_MIO_ingresando_al_Bulevar_del_R%C3%ADo.JPG?utm_campaign=index&utm_content=thumbnail&utm_source=commons.wikimedia.org",
+      "imagen_credito": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Bus_del_MIO_ingresando_al_Bulevar_del_R%C3%ADo.JPG/1280px-Bus_del_MIO_ingresando_al_Bulevar_del_R%C3%ADo.JPG?utm_campaign=index&utm_content=thumbnail&utm_source=commons.wikimedia.org",
+        "autor": "Camiloeleazar",
+        "fuente": "Wikimedia Commons",
+        "pagina": "https://commons.wikimedia.org/wiki/File:Bus_del_MIO_ingresando_al_Bulevar_del_R%C3%ADo.JPG",
+        "licencia": "CC BY-SA 3.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/3.0//",
+        "tipo": "Fotografía de archivo"
+      },
       "imagen_busqueda_intentada": true,
       "imagen_instagram": "https://cevnoticias.com/social/a79e5a31136914ff.jpg",
       "imagen_instagram_tipo": "portada_grafica_cev",
@@ -253,8 +317,16 @@
       "categoria": "Deportes",
       "contenido": "El Giro de Rigo, la carrera ciclista que se celebró el 1 de noviembre de 2026 en Santiago de Cali, contó con la participación de más de 10.000 ciclistas y la presencia de 35.000 visitantes procedentes de 40 países. La magnitud del evento exigió una respuesta logística y de seguridad sin precedentes.\n\nPara garantizar el orden público y la protección de los competidores y espectadores, las autoridades locales y la Fuerza Pública implementaron un plan de contingencia que cubrió la ruta tanto desde el espacio aéreo como desde el terreno. La Policía Metropolitana de Cali desplegó más de 1.000 uniformados en puntos estratégicos de la ruta y de las zonas de concentración, mientras que el helicóptero ‘Halcón’ realizó un monitoreo continuo sobre el recorrido.\n\nEl operativo aéreo permitió una visión panorámica de la circulación de ciclistas y de la afluencia de público, facilitando la respuesta rápida ante cualquier eventualidad. En tierra, los cuadrantes policiales se encargaron de la vigilancia de las vías, la coordinación con los servicios de emergencia y la gestión del flujo de espectadores.\n\nSegún el comunicado de la Policía Metropolitana, la cobertura aérea y terrestre garantizó la movilidad y la seguridad de los participantes, evitando incidentes y manteniendo la tranquilidad en las calles de la capital del Valle. La coordinación entre los distintos cuerpos de seguridad y los organizadores del evento fue clave para el éxito del Giro.\n\nEl resultado fue una jornada deportiva sin contratiempos, donde los ciclistas completaron el recorrido con total seguridad y los visitantes disfrutaron de una experiencia memorable. El balance positivo del evento reafirma la capacidad logística y de respuesta institucional de Cali para albergar competencias y espectáculos de gran escala.\n\nAdemás, la presencia de un número tan elevado de turistas internacionales reforzó la imagen de la ciudad como una sede confiable y preparada para eventos de alta exigencia. La coordinación entre la Policía, los servicios de salud y los organizadores del Giro demostró la eficacia de los protocolos de seguridad implementados.\n\nEn conclusión, el Giro de Rigo se desarrolló con éxito gracias a un operativo de seguridad integral que combinó la vigilancia aérea del helicóptero ‘Halcón’ con la presencia de 1.000 policías en tierra. La ciudad de Santiago de Cali, con su infraestructura y su capacidad de respuesta, logró proteger a los 10.000 ciclistas y a los 35.000 visitantes, consolidando su reputación como una sede preparada para eventos internacionales de gran escala.",
       "estado_informacion": "confirmada",
-      "imagen": "",
-      "imagen_credito": {},
+      "imagen": "https://upload.wikimedia.org/wikipedia/commons/1/14/EVD-ciclismoruta-006.jpg?utm_campaign=index&utm_content=original&utm_source=commons.wikimedia.org",
+      "imagen_credito": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/14/EVD-ciclismoruta-006.jpg?utm_campaign=index&utm_content=original&utm_source=commons.wikimedia.org",
+        "autor": "EVDColdeportes · Escuela Virtual de Deportes",
+        "fuente": "Wikimedia Commons",
+        "pagina": "https://commons.wikimedia.org/wiki/File:EVD-ciclismoruta-006.jpg",
+        "licencia": "CC BY-SA 2.5 Colombia",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/2.5/co/",
+        "tipo": "Fotografía de archivo"
+      },
       "imagen_busqueda_intentada": true,
       "imagen_instagram": "https://cevnoticias.com/social/bfc4b6968bd6a1cf.jpg",
       "imagen_instagram_tipo": "portada_grafica_cev",
@@ -277,8 +349,16 @@
       "categoria": "Deportes",
       "contenido": "El Giro de Rigo 2026, en su edición titulada \"La Sucursal\", se vio obligado a cambiar su itinerario planificado cuando un derrumbe severo bloqueó la carretera de La Yolomba, ubicada en el kilómetro 69 del municipio de Dagua, en el Valle del Cauca. La organización del evento, con el fin prioritario de salvaguardar la vida y la integridad física de los deportistas inscritos, anunció la modificación del recorrido.\n\nEl incidente ocurrió durante la fase de la carrera que atravesaba la zona de Dagua. El bloqueo y los riesgos asociados a la vía obligaron a la organización a redirigir a los corredores hacia la ruta corta conocida como Reto Caña, garantizando así la continuidad de la jornada bajo estrictos parámetros de seguridad.\n\nComo consecuencia directa de esta alteración logística, la carrera ya no transitará por los municipios de Calima‑El Darién, Restrepo, Yotoco y Vijes, localidades que formaban parte del trazado largo original y que se habían preparado para recibir la caravana ciclística.\n\nEl comité organizador expresó su profundo agradecimiento a las autoridades locales, equipos de logística y comunidades por la comprensión brindada ante esta situación de fuerza mayor.\n\nEl comandante Operativo de la Secretaría de Movilidad de Cali, Jorge Vergara, explicó el despliegue operativo en el terreno. Según el oficial, el flujo vehicular con destino al kilómetro 30 se detuvo por completo mientras se contenía el tránsito y se escoltaba el retorno de los deportistas que alcanzaron a cruzar el punto crítico.\n\nLa estrategia de evacuación y desvío, articulada con la Dirección de Tránsito y Transporte (Ditra) y la Policía Nacional, guía a los participantes hacia la ruta de Vitaco, con el objetivo de empalmar hacia La Cumbre y culminar el trayecto en el Centro de Eventos Valle del Pacífico.\n\nAsimismo, las autoridades mantienen acompañamiento con unidades de movilidad bajo el kilómetro 18 para proteger a quienes decidan regresar directamente hacia la capital vallecaucana.\n\nEl cambio de ruta, aunque inesperado, refleja la capacidad de respuesta de la organización y de las autoridades locales ante una emergencia de carácter inesperado. Los ciclistas, los equipos y el público que asistieron al evento continúan disfrutando de la competición, ahora en un recorrido seguro y adaptado a las condiciones del terreno.\n\nLa organización del Giro de Rigo ha confirmado que la carrera seguirá adelante, con los ajustes necesarios para garantizar la seguridad de todos los participantes y espectadores. La comunidad ciclista y los seguidores del deporte esperan que la edición 2026 sea un éxito a pesar de los contratiempos iniciales.",
       "estado_informacion": "confirmada",
-      "imagen": "",
-      "imagen_credito": {},
+      "imagen": "https://upload.wikimedia.org/wikipedia/commons/d/df/T%C3%BAnel_v%C3%ADa_a_Buenaventura.jpg?utm_campaign=index&utm_content=thumbnail_unscaled&utm_source=commons.wikimedia.org",
+      "imagen_credito": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/df/T%C3%BAnel_v%C3%ADa_a_Buenaventura.jpg?utm_campaign=index&utm_content=thumbnail_unscaled&utm_source=commons.wikimedia.org",
+        "autor": "Roboting",
+        "fuente": "Wikimedia Commons",
+        "pagina": "https://commons.wikimedia.org/wiki/File:T%C3%BAnel_v%C3%ADa_a_Buenaventura.jpg",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0//",
+        "tipo": "Fotografía de referencia de la vía a Buenaventura"
+      },
       "imagen_busqueda_intentada": true,
       "imagen_instagram": "https://cevnoticias.com/social/8c3d789d59f569fc.jpg",
       "imagen_instagram_tipo": "portada_grafica_cev",
@@ -300,15 +380,15 @@
       "resumen": "El DJ y productor estadounidense Juan Atkins, figura clave del nacimiento del techno, murió en Ciudad de México a los 64 años. Fue hallado inconsciente en su habitación de hotel antes de una actuación programada y posteriormente declarado muerto en el hospital. La causa del fallecimiento sigue sin conocerse. Atkins, originario de Detroit, fue miembro fundador de Cybotron y del trío Belleville Three, junto a Kevin Saunderson y Derrick May.",
       "categoria": "Internacional",
       "contenido": "El DJ y productor estadounidense Juan Atkins, considerado uno de los pioneros del techno, falleció en Ciudad de México a los 64 años. La noticia fue publicada por la agencia Greensmith Artists, que confirmó el suceso a través de un comunicado difundido en la revista de música Resident Advisor y en su cuenta de Instagram.\n\nSegún el comunicado, Atkins fue hallado inconsciente en su habitación de hotel el sábado antes de una actuación prevista en la capital mexicana. Fue trasladado al hospital, donde fue declarado muerto. La causa de la muerte no ha sido revelada por la agencia ni por las autoridades.\n\nAtkins inició su carrera musical en 1980, cuando formó el dúo Cybotron junto con Richard Davis. El grupo lanzó el sencillo “Clear” en 1983, que se convirtió en un referente del género y ayudó a definir el sonido del techno. Más tarde, junto a sus amigos de la infancia Kevin Saunderson y Derrick May, formó el trío Belleville Three, considerado el núcleo fundacional del techno.\n\nEl anuncio de la muerte fue acompañado por un mensaje emotivo de la agencia, que recordó los “tantos años, tantos escenarios, tantos momentos que nunca olvidaremos” y expresó que “siempre pensamos que habría más”.\n\nEn declaraciones a las redes sociales, Kevin Saunderson, uno de los integrantes del Belleville Three, expresó: “Juan fue el creador del techno, un verdadero visionario que abrió el camino a tantos de nosotros”.\n\nSegún medios estadounidenses, Atkins había estado lidiando con problemas de salud, principalmente relacionados con la diabetes, durante varios años. Esta información fue corroborada por AFP y Der Spiegel, que reportaron sobre su historial médico.\n\nEl fallecimiento de Atkins marca el fin de una era en la música electrónica. Su legado como pionero del techno sigue vivo en las pistas de baile de todo el mundo y en la influencia que dejó en generaciones de productores y DJs.\n\nLa comunidad musical internacional ha expresado su pesar y ha recordado la importancia de su contribución al desarrollo del género. Aún se espera que las autoridades mexicanas determinen la causa exacta de la muerte, pero la noticia ya ha generado un amplio debate sobre la salud y el bienestar de los artistas que continúan trabajando a nivel internacional.\n\nEl legado de Juan Atkins permanece como una inspiración para los músicos emergentes y como un recordatorio de la innovación que surgió de Detroit en la década de los 80, transformando la escena musical global.",
-      "imagen": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Daniel_Corro_Arenas.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "imagen": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Juan_Atkins.jpg?utm_campaign=index&utm_content=thumbnail_unscaled&utm_source=commons.wikimedia.org",
       "imagen_credito": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Daniel_Corro_Arenas.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "autor": "IDCorr",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Juan_Atkins.jpg?utm_campaign=index&utm_content=thumbnail_unscaled&utm_source=commons.wikimedia.org",
+        "autor": "Angie Linder",
         "fuente": "Wikimedia Commons",
-        "pagina": "https://commons.wikimedia.org/wiki/File:Daniel_Corro_Arenas.jpg",
-        "licencia": "CC BY-SA 4.0",
-        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
-        "tipo": "fotografía de archivo"
+        "pagina": "https://commons.wikimedia.org/wiki/File:Juan_Atkins.jpg",
+        "licencia": "CC BY-SA 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/2.0//",
+        "tipo": "Retrato de archivo"
       },
       "imagen_instagram": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Daniel_Corro_Arenas.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
       "imagen_instagram_tipo": "externa_con_licencia",
@@ -337,13 +417,15 @@
       "resumen": "La estacionalidad de la oferta agrícola afecta los precios en el mercado. Un análisis de la producción de banano en Urabá muestra que los meses de mayor abastecimiento suelen coincidir con precios más bajos. Expertos recomiendan estrategias como escalar la producción, investigar precios históricos y comparar ofertas para reducir la exposición a la volatilidad del mercado.",
       "categoria": "Economía",
       "contenido": "La producción de alimentos en Colombia no llega al mercado de forma uniforme a lo largo del año. Factores como las lluvias, los ciclos biológicos y las decisiones de los productores generan variaciones mensuales en la oferta, fenómeno conocido como estacionalidad.\n\nUn estudio reciente del Servicio Nacional de Información de Precios Agropecuarios (Sipsa) para el periodo 2023‑2025 ilustra este fenómeno con el banano de Urabá. Los índices mensuales de abastecimiento y precios revelan que, en varios meses, los niveles más altos de producción coinciden con precios más bajos. Octubre, por ejemplo, presenta un índice de abastecimiento cercano al 120 % del promedio, mientras que el precio se sitúa por debajo de su media histórica. Este patrón demuestra la influencia del momento de llegada al mercado sobre el valor del producto.\n\nPara los pequeños productores, cambiar la oferta de todo el país no es una opción viable. Sin embargo, sí pueden adoptar medidas prácticas para mitigar la exposición a la estacionalidad.\n\nUna primera estrategia es escalar la producción. En lugar de sembrar toda la parcela simultáneamente, se pueden dividir los cultivos en lotes y establecerlos en diferentes momentos. De esta manera, la cosecha se distribuye a lo largo de un periodo más amplio, reduciendo la presión de mercado que surge cuando muchos productores venden al mismo tiempo. En la ganadería, la lógica es similar: programar la salida de animales en lotes para evitar concentrar la oferta.\n\nLa segunda acción, de bajo costo, consiste en estudiar el mercado antes de producir y antes de vender. Consultar los precios históricos del Sipsa permite identificar los meses en los que la oferta suele aumentar o los precios tienden a bajar. Además, antes de comercializar, los productores pueden comparar precios entre plazas y negociar con varios compradores, en lugar de aceptar la primera oferta recibida.\n\nFinalmente, cuando las características del producto lo permiten, el productor puede gestionar el momento de cosecha, maduración o salida al mercado dentro de sus límites técnicos. No se trata de esperar indefinidamente por un precio ideal, sino de incorporar la información comercial en la toma de decisiones que tradicionalmente se basan únicamente en la producción.\n\nEn conclusión, aunque un pequeño agricultor o ganadero no puede eliminar la estacionalidad del mercado, sí puede reducir su exposición a ella. La lección, según la investigación de Juan Pablo Taramuel‑Taramuel, docente e investigador en agronegocios, es que la tarea no comienza cuando el producto ya está cosechado, sino mucho antes, cuando se decide qué producir, cuánto producir y, sobre todo, cuándo llegar al mercado.\n\nEsta perspectiva, publicada en La Silla Vacía, destaca la importancia de la planificación estratégica en la cadena de valor agrícola y ofrece herramientas concretas para que los productores colombianos optimicen sus ingresos en un entorno de precios volátiles.",
-      "imagen": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Ciclonautas_espa%C3%B1ol.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "imagen": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/NP_colombia_coffee_drying_%285867167147%29.jpg/960px-NP_colombia_coffee_drying_%285867167147%29.jpg?utm_campaign=index&utm_content=thumbnail&utm_source=commons.wikimedia.org",
       "imagen_credito": {
-        "autor": "Fer, Andrei y Dulce",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/NP_colombia_coffee_drying_%285867167147%29.jpg/960px-NP_colombia_coffee_drying_%285867167147%29.jpg?utm_campaign=index&utm_content=thumbnail&utm_source=commons.wikimedia.org",
+        "autor": "CIAT · Neil Palmer",
         "fuente": "Wikimedia Commons",
-        "pagina": "https://commons.wikimedia.org/wiki/File:Ciclonautas_espa%C3%B1ol.jpg",
-        "licencia": "CC BY-SA 4.0",
-        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0"
+        "pagina": "https://commons.wikimedia.org/wiki/File:NP_colombia_coffee_drying_(5867167147).jpg",
+        "licencia": "CC BY-SA 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/2.0//",
+        "tipo": "Imagen de referencia"
       },
       "imagen_instagram": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Ciclonautas_espa%C3%B1ol.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
       "imagen_instagram_tipo": "externa_con_licencia",
@@ -1191,7 +1273,17 @@
           "titulo": "Autoridades revisan edificaciones con riesgo de colapso en Cali tras sismo de esta madrugada",
           "url": "https://www.bluradio.com/regiones/pacifico/autoridades-revisan-edificaciones-con-riesgo-de-colapso-en-cali-tras-sismo-de-esta-madrugada-rg10"
         }
-      ]
+      ],
+      "imagen": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Casa_con_escombros_despu%C3%A9s_del_terremoto_2026_Cali_Colombia.jpg/1280px-Casa_con_escombros_despu%C3%A9s_del_terremoto_2026_Cali_Colombia.jpg?utm_campaign=index&utm_content=thumbnail&utm_source=commons.wikimedia.org",
+      "imagen_credito": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Casa_con_escombros_despu%C3%A9s_del_terremoto_2026_Cali_Colombia.jpg/1280px-Casa_con_escombros_despu%C3%A9s_del_terremoto_2026_Cali_Colombia.jpg?utm_campaign=index&utm_content=thumbnail&utm_source=commons.wikimedia.org",
+        "autor": "Tefita228",
+        "fuente": "Wikimedia Commons",
+        "pagina": "https://commons.wikimedia.org/wiki/File:Casa_con_escombros_despu%C3%A9s_del_terremoto_2026_Cali_Colombia.jpg",
+        "licencia": "CC BY 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/4.0//",
+        "tipo": "Fotografía del hecho"
+      }
     },
     {
       "id": "cev-breve-demoliciones-cali-20261102",
@@ -1219,7 +1311,17 @@
           "titulo": "Aumentó a 85 el número de edificaciones que serán demolidas en Cali tras el terremoto",
           "url": "https://caracol.com.co/2026/11/01/aumento-a-85-el-numero-de-edificaciones-que-seran-demolidas-en-cali-tras-el-terremoto/"
         }
-      ]
+      ],
+      "imagen": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Debris_from_a_building_after_the_2026_Colombia_earthquake_-_WCK.jpg/960px-Debris_from_a_building_after_the_2026_Colombia_earthquake_-_WCK.jpg?utm_campaign=index&utm_content=thumbnail&utm_source=commons.wikimedia.org",
+      "imagen_credito": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Debris_from_a_building_after_the_2026_Colombia_earthquake_-_WCK.jpg/960px-Debris_from_a_building_after_the_2026_Colombia_earthquake_-_WCK.jpg?utm_campaign=index&utm_content=thumbnail&utm_source=commons.wikimedia.org",
+        "autor": "World Central Kitchen",
+        "fuente": "Wikimedia Commons",
+        "pagina": "https://commons.wikimedia.org/wiki/File:Debris_from_a_building_after_the_2026_Colombia_earthquake_-_WCK.jpg",
+        "licencia": "CC BY 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/4.0//",
+        "tipo": "Fotografía del hecho"
+      }
     },
     {
       "id": "cev-breve-zonas-bajo-puentes-cali-20261103",
@@ -1247,7 +1349,17 @@
           "titulo": "Cali busca transformar las zonas bajo puentes con alianzas y recursos",
           "url": "https://la-region.com/colombia/valle/cali-busca-transformar-las-zonas-bajo-puentes-con-alianzas-y-recursos"
         }
-      ]
+      ],
+      "imagen": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Underpass_Park_%286281702890%29.jpg/1280px-Underpass_Park_%286281702890%29.jpg?utm_campaign=index&utm_content=thumbnail&utm_source=commons.wikimedia.org",
+      "imagen_credito": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Underpass_Park_%286281702890%29.jpg/1280px-Underpass_Park_%286281702890%29.jpg?utm_campaign=index&utm_content=thumbnail&utm_source=commons.wikimedia.org",
+        "autor": "Chris Tyler",
+        "fuente": "Wikimedia Commons",
+        "pagina": "https://commons.wikimedia.org/wiki/File:Underpass_Park_(6281702890).jpg",
+        "licencia": "CC BY-SA 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/2.0//",
+        "tipo": "Imagen de referencia (Toronto, Canadá)"
+      }
     },
     {
       "id": "cev-breve-malaria-valle-20261102",
@@ -1280,7 +1392,17 @@
           "titulo": "Malaria: transmisión y prevención",
           "url": "https://www.minsalud.gov.co/salud/publica/PET/Paginas/malaria.aspx"
         }
-      ]
+      ],
+      "imagen": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Scientist_working_in_laboratory_%282%29.jpg/1280px-Scientist_working_in_laboratory_%282%29.jpg?utm_campaign=index&utm_content=thumbnail&utm_source=commons.wikimedia.org",
+      "imagen_credito": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Scientist_working_in_laboratory_%282%29.jpg/1280px-Scientist_working_in_laboratory_%282%29.jpg?utm_campaign=index&utm_content=thumbnail&utm_source=commons.wikimedia.org",
+        "autor": "Diane A. Reid · National Cancer Institute",
+        "fuente": "Wikimedia Commons",
+        "pagina": "https://commons.wikimedia.org/wiki/File:Scientist_working_in_laboratory_(2).jpg",
+        "licencia": "Dominio público (National Cancer Institute)",
+        "licencia_url": "",
+        "tipo": "Imagen de referencia"
+      }
     },
     {
       "id": "cev-breve-ley-sometimiento-camara-20261103",
@@ -1318,7 +1440,17 @@
           "titulo": "Ley de Sometimiento supera primer filtro en la Plenaria de la Cámara tras repetirse la votación",
           "url": "https://www.infobae.com/colombia/2026/11/03/ley-de-sometimiento-supera-primer-filtro-en-la-plenaria-de-la-camara-tras-repetirse-la-votacion/?outputType=amp-type"
         }
-      ]
+      ],
+      "imagen": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/20230720_Instalacion_Sesiones_del_Congreso-Juan_Cano07913.jpg/1280px-20230720_Instalacion_Sesiones_del_Congreso-Juan_Cano07913.jpg?utm_campaign=index&utm_content=thumbnail&utm_source=commons.wikimedia.org",
+      "imagen_credito": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/20230720_Instalacion_Sesiones_del_Congreso-Juan_Cano07913.jpg/1280px-20230720_Instalacion_Sesiones_del_Congreso-Juan_Cano07913.jpg?utm_campaign=index&utm_content=thumbnail&utm_source=commons.wikimedia.org",
+        "autor": "Fotografía oficial de la Presidencia de Colombia",
+        "fuente": "Wikimedia Commons",
+        "pagina": "https://commons.wikimedia.org/wiki/File:20230720_Instalacion_Sesiones_del_Congreso-Juan_Cano07913.jpg",
+        "licencia": "Dominio público",
+        "licencia_url": "https://commons.wikimedia.org/wiki/File:20230720_Instalacion_Sesiones_del_Congreso-Juan_Cano07913.jpg",
+        "tipo": "Fotografía de archivo"
+      }
     }
   ],
   "breves_actualizadas": "2026-11-03T14:24:05+00:00"
