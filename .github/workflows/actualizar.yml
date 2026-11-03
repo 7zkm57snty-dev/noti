@@ -56,7 +56,7 @@ jobs:
           cp automation_state.json /tmp/cev-automation-antes.json
           echo "revision_pendiente=false" >> "$GITHUB_OUTPUT"
 
-      - name: Generar borradores
+      - name: Generar artículos originales
         if: steps.estado_cola.outputs.revision_pendiente != 'true'
         env:
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
@@ -106,7 +106,7 @@ jobs:
             git push origin HEAD:main
           fi
 
-      - name: Filtrar borradores y evitar propuestas vacías
+      - name: Validar artículos y preparar publicación automática
         id: novedades
         if: steps.estado_cola.outputs.revision_pendiente != 'true'
         shell: bash
