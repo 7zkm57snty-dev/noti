@@ -105,6 +105,12 @@ jobs:
           if git diff --quiet -- radar_rss.json automation_state.json; then
             echo "El radar y los contadores no cambiaron."
           else
+            cache_draft=false
+            if ! git diff --quiet -- cache.json; then
+              cp cache.json /tmp/cev-cache-borrador.json
+              git restore --worktree -- cache.json
+              cache_draft=true
+            fi
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
             git add radar_rss.json automation_state.json
@@ -127,6 +133,9 @@ jobs:
             if [ "$pushed" != "true" ]; then
               echo "No se pudo guardar tras tres intentos." >&2
               exit 1
+            fi
+            if [ "$cache_draft" = "true" ]; then
+              python fusionar_cache_borrador.py --base /tmp/cev-cache-antes.json --draft /tmp/cev-cache-borrador.json --target cache.json
             fi
           fi
 
@@ -460,6 +469,12 @@ jobs:
           if git diff --cached --quiet; then
             echo "Los límites diarios ya están guardados."
           else
+            cache_draft=false
+            if ! git diff --quiet -- cache.json; then
+              cp cache.json /tmp/cev-cache-borrador.json
+              git restore --worktree -- cache.json
+              cache_draft=true
+            fi
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
             git commit -m "Actualizar consumo de investigación editorial"
@@ -481,6 +496,9 @@ jobs:
             if [ "$pushed" != "true" ]; then
               echo "No se pudo guardar tras tres intentos." >&2
               exit 1
+            fi
+            if [ "$cache_draft" = "true" ]; then
+              python fusionar_cache_borrador.py --base /tmp/cev-cache-antes.json --draft /tmp/cev-cache-borrador.json --target cache.json
             fi
           fi
 
