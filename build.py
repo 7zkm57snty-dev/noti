@@ -897,7 +897,7 @@ def crear_articulo(noticia, noticias=None):
       {bloque_relacionadas}
     </main>"""
     url_articulo = f"https://cevnoticias.com/notas/{identificador}.html"
-    datos_schema = {"@context":"https://schema.org","@type":"NewsArticle","headline":str(noticia.get("titulo","")),"description":str(noticia.get("resumen","")),"author":{"@type":"Organization","name":"CEV NOTICIAS"},"publisher":{"@type":"Organization","name":"CEV NOTICIAS"},"mainEntityOfPage":url_articulo}
+    datos_schema = {"@context":"https://schema.org","@type":"NewsArticle","headline":str(noticia.get("titulo","")),"description":str(noticia.get("resumen","")),"author":{"@type":"Organization","name":"Redacción CEV NOTICIAS"},"publisher":{"@type":"Organization","name":"CEV NOTICIAS"},"mainEntityOfPage":url_articulo}
     fecha_publicacion = fecha_schema(noticia)
     if fecha_publicacion:
         datos_schema["datePublished"] = fecha_publicacion
