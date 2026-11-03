@@ -17,6 +17,9 @@ CACHE = BASE / "cache.json"
 RADAR_RSS = BASE / "radar_rss.json"
 MAX_TITULARES_PUBLICOS = 60
 MAX_EDAD_TITULARES_PUBLICOS_HORAS = 72
+MAX_BREVES_PUBLICOS = 8
+MAX_EDAD_BREVES_HORAS = 48
+HORAS_ETIQUETA_ULTIMA_HORA = 8
 
 SECCIONES = ["Cali", "Valle del Cauca", "Colombia", "Internacional", "Deportes", "Tecnología", "Economía", "Tendencias", "Humor y opinión"]
 COLOMBIA_TZ = timezone(timedelta(hours=-5))
@@ -344,6 +347,78 @@ def crear_pagina_actualidad_externa(titulares):
     (SITE / "actualidad.html").write_text(pagina, encoding="utf-8")
 
 
+def seleccionar_breves_publicos(breves, noticias):
+    """Muestra solo mini-noticias recientes, revisadas y con crédito de fuente verificable."""
+    ahora = datetime.now(timezone.utc).timestamp()
+    limite = ahora - MAX_EDAD_BREVES_HORAS * 3600
+    resultado = []
+    vistos = set()
+    for original in breves if isinstance(breves, list) else []:
+        if not isinstance(original, dict):
+            continue
+        breve = dict(original)
+        titulo = str(breve.get("titulo") or "").strip()
+        texto = str(breve.get("texto") or "").strip()
+        categoria = breve.get("categoria")
+        fecha = fecha_ordenable(breve)
+        fuentes = breve.get("fuentes", [])
+        fuentes_validas = [
+            f for f in fuentes
+            if isinstance(f, dict)
+            and str(f.get("nombre", "")).strip()
+            and str(f.get("titulo", "")).strip()
+            and urlsplit(str(f.get("url", "")).strip()).scheme == "https"
+            and urlsplit(str(f.get("url", "")).strip()).hostname
+        ] if isinstance(fuentes, list) else []
+        palabras = len(texto.split())
+        if not titulo or categoria not in SECCIONES or not 45 <= palabras <= 100:
+            continue
+        if not fecha or fecha < limite or fecha > ahora + 2 * 3600 or not fuentes_validas:
+            continue
+        if titular_repite_articulo(titulo, noticias):
+            continue
+        clave = re.sub(r"[^a-z0-9]+", " ", titulo.lower()).strip()
+        if not clave or clave in vistos:
+            continue
+        vistos.add(clave)
+        breve["fuentes"] = fuentes_validas
+        resultado.append(breve)
+    resultado.sort(key=fecha_ordenable, reverse=True)
+    return resultado[:MAX_BREVES_PUBLICOS]
+
+
+def tarjeta_breve(breve):
+    """Tarjeta editorial de texto; acredita los medios sin enlazar ni redirigir fuera del sitio."""
+    titulo = escapar(breve.get("titulo"))
+    texto = escapar(breve.get("texto"))
+    categoria = escapar(breve.get("categoria"))
+    fecha = fecha_ordenable(breve)
+    ahora = datetime.now(timezone.utc).timestamp()
+    es_ultima_hora = bool(fecha and 0 <= ahora - fecha <= HORAS_ETIQUETA_ULTIMA_HORA * 3600)
+    etiqueta = "ÚLTIMA HORA" if es_ultima_hora else "LO MÁS DESTACADO"
+    fecha_texto = datetime.fromtimestamp(fecha, COLOMBIA_TZ).strftime("%d/%m · %I:%M %p") if fecha else ""
+    nombres = []
+    for fuente in breve.get("fuentes", []):
+        nombre = str(fuente.get("nombre", "")).strip()
+        if nombre and nombre not in nombres:
+            nombres.append(nombre)
+    credito = escapar(", ".join(nombres))
+    return f"""
+    <article class="breve-actualidad">
+      <div class="breve-etiquetas">
+        <span class="breve-estado">{etiqueta}</span>
+        <span class="breve-categoria">{categoria}</span>
+      </div>
+      <h3>{titulo}</h3>
+      <p class="breve-texto">{texto}</p>
+      <div class="breve-pie">
+        <span>Redacción CEV NOTICIAS</span>
+        <span>Fuentes: {credito}</span>
+        <time>{fecha_texto}</time>
+      </div>
+    </article>"""
+
+
 def lista_vertical(noticias, titulares, categoria=None, excluir=None, ruta_raiz=""):
     excluir = excluir or set()
     elementos = []
@@ -470,6 +545,27 @@ body.noche .nav-flecha:hover:not(:disabled){{background:#3a2426;border-color:#ff
 .bloque-investigacion p{{margin:6px 0}}
 .bloque-investigacion ul{{margin:8px 0 0;padding-left:20px}}
 body.noche .bloque-investigacion{{background:#262322;color:#eee}}
+.bloque-breves{{margin:34px 0 42px;padding:24px;background:var(--blanco);border:1px solid var(--linea);border-radius:16px}}
+.breves-encabezado{{display:flex;justify-content:space-between;align-items:flex-end;gap:16px;margin-bottom:20px}}
+.breves-encabezado .etiqueta{{margin:0 0 7px;color:var(--rojo);font-size:10px;font-weight:800;letter-spacing:1.5px}}
+.breves-encabezado h2{{margin:0;font-family:Georgia,serif;font-size:clamp(24px,3vw,34px);letter-spacing:-.5px}}
+.breves-encabezado p{{margin:8px 0 0;color:var(--suave);font-size:13px;line-height:1.55;max-width:660px}}
+.breves-encabezado .contador-noticias{{white-space:nowrap}}
+.breves-grid{{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}}
+.breve-actualidad{{min-width:0;padding:17px 17px 15px;border:1px solid var(--linea);border-radius:12px;background:#fbfaf7;display:flex;flex-direction:column;gap:10px}}
+.breve-etiquetas{{display:flex;flex-wrap:wrap;align-items:center;gap:7px}}
+.breve-estado{{padding:4px 7px;background:#b5282f;color:#fff;border-radius:4px;font-size:9px;font-weight:800;letter-spacing:.7px}}
+.breve-categoria{{color:var(--suave);font-size:10px;font-weight:800;text-transform:uppercase;letter-spacing:.7px}}
+.breve-actualidad h3{{margin:0;font-size:17px;line-height:1.3;letter-spacing:-.2px}}
+.breve-texto{{margin:0;color:#383838;font-size:13px;line-height:1.65}}
+.breve-pie{{margin-top:auto;padding-top:11px;border-top:1px solid var(--linea);display:flex;flex-direction:column;gap:4px;color:var(--suave);font-size:10px;line-height:1.45}}
+.breve-pie span:first-child{{color:var(--tinta);font-weight:800}}
+.breve-pie time{{font-variant-numeric:tabular-nums}}
+body.noche .bloque-breves{{background:#191919;border-color:#444}}
+body.noche .breve-actualidad{{background:#222;border-color:#444}}
+body.noche .breve-texto{{color:#ddd}}
+@media(max-width:900px){{.breves-grid{{grid-template-columns:repeat(2,minmax(0,1fr))}}}}
+@media(max-width:600px){{.bloque-breves{{padding:16px;margin:22px 0 30px}}.breves-grid{{grid-template-columns:1fr}}.breves-encabezado{{align-items:flex-start;flex-direction:column}}}}
 .nota-atribucion{{font-size:11px;color:var(--suave);line-height:1.65;margin-top:18px}}
 /* CEV Express: carrusel independiente de la portada y de las secciones */
 .express-modulo{{max-width:var(--ancho);margin:22px auto 12px;padding:0 28px}}
@@ -1227,6 +1323,7 @@ def construir():
     limpiar_archivos_publicos_obsoletos()
     datos = cargar_json(CACHE, {})
     noticias = datos.get("noticias", [])
+    breves_cache = datos.get("breves", [])
     radar = cargar_json(RADAR_RSS, {})
     titulares_rss = radar.get("titulares_rss", []) if isinstance(radar, dict) else []
     validas = []
@@ -1281,10 +1378,10 @@ def construir():
         validas.append(noticia)
     
     validas.sort(key=fecha_ordenable, reverse=True)
-    titulares_publicos = seleccionar_titulares_publicos(titulares_rss, validas)
+    breves_publicos = seleccionar_breves_publicos(breves_cache, validas)
     print(
-        f"Portada editorial: {len(validas)} artículos propios · "
-        f"{len(titulares_publicos)} titulares atribuidos a medios externos."
+        f"Portada editorial: {len(validas)} artículos completos propios · "
+        f"{len(breves_publicos)} mini-noticias rápidas con fuentes acreditadas."
     )
 
     for noticia in validas:
@@ -1334,6 +1431,21 @@ def construir():
         lateral_html = '<aside class="lateral"><h2 class="lateral-titulo">Las más relevantes</h2><p class="vacio">Próximamente encontrarás aquí más noticias destacadas.</p></aside>'
 
     portada = f'<section class="portada-grid">{principal_html}</section>'
+    tarjetas_breves = "".join(tarjeta_breve(breve) for breve in breves_publicos)
+    seccion_breves = f"""
+    <section class="bloque-breves" id="ultima-hora" aria-label="Última hora y lo más destacado">
+      <div class="breves-encabezado">
+        <div>
+          <p class="etiqueta">CEV NOTICIAS · ACTUALIDAD RÁPIDA</p>
+          <h2>Última hora · Lo más destacado</h2>
+          <p>Breves informativos de Cali, el Valle del Cauca, Colombia y el mundo. Redacción propia, con crédito visible a los medios y documentos consultados.</p>
+        </div>
+        <span class="contador-noticias">{len(breves_publicos)} breves</span>
+      </div>
+      <div class="breves-grid">
+        {tarjetas_breves or '<div class="vacio">Estamos verificando nuevos reportes para preparar las próximas mini-noticias.</div>'}
+      </div>
+    </section>"""
 
     # El radar RSS es material de investigación interno. Las páginas públicas
     # contienen exclusivamente artículos completos redactados por CEV NOTICIAS.
@@ -1366,13 +1478,14 @@ def construir():
         '<main class="contenedor">'
         '<div class="cinta"><span>En desarrollo</span><span>Últimas noticias</span></div>'
         f'{portada}'
+        f'{seccion_breves}'
         '<section class="bloque-categoria" id="ultimas-noticias">'
         f'<h2 class="titulo-seccion">Noticias propias de CEV NOTICIAS <span class="contador-noticias">{len(validas)} artículos</span></h2>'
         f'<div class="lista-noticias">{lista_portada or "<div class=vacio>No hay noticias propias disponibles por ahora.</div>"}</div>'
         '</section>'
         '<section class="bloque-categoria" id="mas-noticias">'
         f'<h2 class="titulo-seccion">Todas las noticias de CEV NOTICIAS <span class="contador-noticias">{len(validas)} artículos completos</span></h2>'
-        '<p class="nota-rss-publica">Cada publicación de esta portada es una noticia propia, elaborada a partir de investigación, contraste de fuentes y revisión editorial. Las fuentes consultadas se acreditan dentro de cada artículo.</p>'
+        '<p class="nota-rss-publica">Los artículos completos y los breves de esta portada son redactados por CEV NOTICIAS. Las fuentes consultadas se acreditan con su nombre; las mini-noticias no redirigen a páginas externas.</p>'
         '</section></main>'
     )
     portada_head = '<link rel="canonical" href="https://cevnoticias.com/"><meta property="og:type" content="website"><meta property="og:title" content="CEV NOTICIAS | Actualidad y periodismo">'
