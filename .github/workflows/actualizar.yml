@@ -187,6 +187,7 @@ jobs:
               if errores:
                   invalidas.append((titulo or "Sin título", errores))
               else:
+                  noticia["autor"] = "CEV NOTICIAS"
                   noticia["fuentes"] = fuentes
                   validas.append(noticia)
 
