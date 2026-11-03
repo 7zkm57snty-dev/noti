@@ -4,6 +4,8 @@ on:
   push:
     branches:
       - main
+    paths-ignore:
+      - "radar_rss.json"
   workflow_dispatch:
 
 permissions:
