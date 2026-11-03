@@ -57,13 +57,18 @@ jobs:
           css = source.split("<style>", 1)[1].split("</style>", 1)[0]
           required = (
               ".masthead", ".contenedor", ".portada-grid", ".bloque-breves",
-              ".tarjeta-vertical", ".articulo", "@media(max-width:900px)",
+              ".tarjeta-vertical", ".tarjeta-cabecera", ".tarjeta-titular",
+              ".sello-foto", ".credito-imagen-mini", ".foto-retrato",
+              ".articulo", "@media(max-width:900px)",
               "@media(max-width:700px)", "@media(max-width:390px)"
           )
           missing = [selector for selector in required if selector not in css]
           assert not missing, "Faltan reglas del rediseño: " + ", ".join(missing)
           assert 'content="#17212b"' in source, "La barra del navegador móvil no usa el color del encabezado."
-          print("Correcto: sistema editorial multidispositivo, tarjetas y vista de artículo con reglas adaptativas.")
+          assert "tarjeta-cabecera" in source and "tarjeta-titular" in source
+          assert "tarjeta-contenido" in source, "Falta el bloque inferior de resumen de las tarjetas."
+          assert "}}\\n.visual-ia" not in source, "Hay un salto de línea literal que puede invalidar el CSS de imágenes."
+          print("Correcto: miniaturas y titulares comparten una cabecera; resumen y acciones quedan debajo, con reglas adaptativas.")
           PY
           python - <<'PY'
           from datetime import datetime, timezone, timedelta
@@ -242,6 +247,16 @@ jobs:
               assert "otro-medio.example" not in portada
               assert 'href="https://otro-medio.example' not in portada
               print("Correcto: la portada muestra mini-noticias propias con crédito visible y sin enlaces externos; el radar RSS sigue siendo interno.")
+          # Las fotografías editoriales y las mini-noticias deben llevar crédito verificable.
+          cache = json.loads(build.CACHE.read_text(encoding="utf-8"))
+          for item in list(cache.get("noticias", [])) + list(cache.get("breves", [])):
+              if item.get("imagen"):
+                  credito = item.get("imagen_credito") or {}
+                  for campo in ("autor", "fuente", "pagina", "licencia", "tipo"):
+                      assert credito.get(campo), f"Falta el crédito {campo} para {item.get('titulo')}"
+                  assert credito.get("url") == item["imagen"], f"La URL de crédito no coincide en {item.get('titulo')}"
+          print("Correcto: todas las fotos publicadas tienen autor, fuente, página de origen, licencia y tipo de imagen.")
+
           PY
       - name: Validar sintaxis del verificador de publicación
         run: python -m py_compile ../verificar_publicacion.py
