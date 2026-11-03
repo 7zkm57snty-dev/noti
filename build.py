@@ -8,6 +8,7 @@ from pathlib import Path
 from datetime import datetime, timezone, timedelta
 from urllib.request import Request, urlopen
 from urllib.parse import urlsplit, unquote
+import xml.etree.ElementTree as ET
 
 BASE = Path(__file__).parent
 SITE = BASE / "site"
@@ -447,6 +448,9 @@ body.noche .express-controles button{{color:var(--tinta)}}
 .pie strong{{font-family:'Playfair Display',Georgia,serif;font-size:30px;letter-spacing:-1px}}
 .pie strong span{{color:#e14a50}}
 .pie p{{color:#aaa;font-size:11px;line-height:1.7}}
+.pie-enlaces{{display:flex;flex-wrap:wrap;justify-content:center;gap:10px 22px;margin:18px auto 0;max-width:760px}}
+.pie-enlaces a{{color:#eee;font-size:11px;text-decoration:underline;text-decoration-color:#777;text-underline-offset:4px}}
+.pie-enlaces a:hover{{color:#ff858a}}
 /* Herramientas de lectura y navegación */
 .relacionadas{{margin:48px auto 0;max-width:740px}}
 .relacionadas .rejilla{{grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}}
@@ -540,6 +544,13 @@ body.noche .relacionadas .tarjeta{{background:#222;border-color:#484848}}
  <p>Información, contexto y actualidad.</p>
  <p><a href="https://www.instagram.com/cev.noticias/" target="_blank" rel="noopener noreferrer">Instagram · @cev.noticias</a></p>
  <p>Las fuentes consultadas se identifican al final de cada artículo.</p>
+ <nav class="pie-enlaces" aria-label="Información institucional">
+  <a href="{ruta_raiz}quienes-somos.html">Quiénes somos</a>
+  <a href="{ruta_raiz}contacto.html">Contacto</a>
+  <a href="{ruta_raiz}politica-editorial.html">Política editorial</a>
+  <a href="{ruta_raiz}correcciones.html">Correcciones</a>
+  <a href="{ruta_raiz}politica-de-privacidad.html">Privacidad y cookies</a>
+ </nav>
 </footer>
 
 <div class="progreso-lectura" id="progreso-lectura"></div>
@@ -716,13 +727,13 @@ def crear_articulo(noticia, noticias=None):
        <h1>{titulo}</h1>
        <p class="bajada">{resumen}</p>
        <p class="fecha">Publicado: {escapar(noticia.get("fecha", fecha_actual()))} · Por CEV NOTICIAS</p>
-       <p class="fecha">Verificación editorial: {escapar(noticia.get("verificacion", "Fuente consultada; ver referencias"))}</p>
+       <p class="fecha">Fuentes consultadas: {len(noticia.get("fuentes", []))}</p>
       </div>
       {foto}
       {atribucion_imagen}
       <div class="cuerpo">{parrafos}</div>
       <div class="fuentes"><strong>Fuentes consultadas</strong><ul>{''.join(referencias)}</ul>
-       <p>Artículo de elaboración propia. Las fuentes se presentan para consulta y contraste.</p>
+       <p>Contenido elaborado por CEV NOTICIAS a partir de las fuentes identificadas. Consulta las publicaciones originales para ampliar la información y contrastar los datos.</p>
       </div>
       {bloque_relacionadas}
     </main>"""
@@ -812,6 +823,93 @@ def crear_pagina_seccion(seccion, noticias, titulares):
 
 
 
+
+def crear_paginas_institucionales():
+    """Genera páginas públicas de identidad, contacto, privacidad y responsabilidad editorial."""
+    paginas = {
+        "quienes-somos.html": (
+            "Quiénes somos",
+            "Conoce el propósito, el enfoque informativo y el alcance de CEV NOTICIAS.",
+            """<main class="articulo pagina-institucional">
+              <a class="volver" href="/">← Volver a la portada</a>
+              <p class="etiqueta">CEV NOTICIAS · EL MEDIO</p><h1>Quiénes somos</h1>
+              <div class="cuerpo">
+                <p><strong>CEV NOTICIAS</strong> es un medio digital de actualidad con especial atención a Cali y el Valle del Cauca, Colombia y los acontecimientos internacionales de interés para el público hispanohablante.</p>
+                <p>Nuestro propósito es facilitar el acceso a información reciente mediante noticias organizadas por temas, contexto y referencias a las fuentes consultadas.</p>
+                <h2>Qué publicamos</h2><p>Cubrimos actualidad local, regional, nacional e internacional, además de deportes, tecnología, economía y tendencias. La selección de temas responde a su relevancia pública y a la disponibilidad de información verificable.</p>
+                <h2>Cómo trabajamos</h2><p>Utilizamos fuentes identificables y herramientas digitales para apoyar el seguimiento de la actualidad y la preparación de contenidos. La automatización puede ayudar a recopilar y organizar información, pero no constituye por sí sola una verificación independiente. Identificamos las fuentes disponibles y ofrecemos un canal para reportar errores o solicitar aclaraciones.</p>
+                <p>Cuando una publicación es un titular recopilado y no un artículo propio, se identifica como tal y se enlaza al medio de origen.</p>
+              </div></main>"""
+        ),
+        "contacto.html": (
+            "Contacto",
+            "Canales para comunicarse con CEV NOTICIAS y enviar consultas editoriales.",
+            """<main class="articulo pagina-institucional">
+              <a class="volver" href="/">← Volver a la portada</a>
+              <p class="etiqueta">CEV NOTICIAS · COMUNICACIÓN</p><h1>Contacto</h1>
+              <div class="cuerpo">
+                <p>¿Tienes una noticia, una consulta, una propuesta de colaboración o información relevante para la comunidad? Puedes comunicarte con CEV NOTICIAS mediante nuestro canal público de Instagram.</p>
+                <p><a class="boton" href="https://www.instagram.com/cev.noticias/" target="_blank" rel="noopener noreferrer">Escribir a @cev.noticias ↗</a></p>
+                <p>Para reportar un posible error, incluye el enlace exacto de la publicación, una descripción clara del dato que debe revisarse y, si es posible, documentos o enlaces que respalden la solicitud.</p>
+                <p>La recepción de un mensaje no implica que su contenido vaya a publicarse. La información enviada podrá ser revisada antes de utilizarse.</p>
+              </div></main>"""
+        ),
+        "politica-de-privacidad.html": (
+            "Política de privacidad y cookies",
+            "Información sobre cookies, medición de audiencia, datos técnicos y privacidad en CEV NOTICIAS.",
+            """<main class="articulo pagina-institucional">
+              <a class="volver" href="/">← Volver a la portada</a>
+              <p class="etiqueta">CEV NOTICIAS · TRANSPARENCIA</p><h1>Política de privacidad y cookies</h1>
+              <div class="cuerpo">
+                <p><strong>Última actualización:</strong> 3 de noviembre de 2026.</p>
+                <h2>1. Alcance</h2><p>Esta política explica cómo CEV NOTICIAS utiliza tecnologías de medición y qué información técnica puede tratarse cuando visitas cevnoticias.com. El sitio puede actualizar esta política si cambian sus herramientas o servicios.</p>
+                <h2>2. Medición de audiencia</h2><p>CEV NOTICIAS utiliza Google Analytics 4 para conocer de forma estadística cómo se utiliza el sitio. Esta herramienta puede tratar datos como páginas visitadas, duración aproximada de la visita, tipo de dispositivo y navegador, fuente de llegada y ubicación geográfica aproximada. Google puede utilizar cookies u otras tecnologías para prestar el servicio, conforme a sus propias condiciones y políticas.</p>
+                <p>Más información: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Política de privacidad de Google</a> y <a href="https://support.google.com/analytics/answer/6004245" target="_blank" rel="noopener noreferrer">cómo protege Google Analytics los datos</a>.</p>
+                <h2>3. Cookies y tecnologías similares</h2><p>Las cookies son pequeños archivos que el navegador puede guardar para recordar preferencias o apoyar funciones de medición. Puedes administrar, bloquear o eliminar cookies desde la configuración de tu navegador. Si las bloqueas, algunas funciones o mediciones podrían no operar como se espera.</p>
+                <h2>4. Publicidad de terceros</h2><p>Actualmente, CEV NOTICIAS no declara tener anuncios de Google AdSense activos en el sitio. Si en el futuro se incorporan servicios publicitarios de Google u otros proveedores, estos podrán utilizar cookies, identificadores o tecnologías similares para mostrar y medir anuncios, de acuerdo con sus políticas y las opciones de consentimiento que correspondan. Esta política será actualizada al momento de activar dichos servicios.</p>
+                <h2>5. Enlaces externos</h2><p>Las noticias pueden enlazar a sitios de terceros. CEV NOTICIAS no controla sus políticas de privacidad, cookies ni prácticas de tratamiento de datos. Recomendamos consultar las políticas de cada sitio que visites.</p>
+                <h2>6. Mensajes y solicitudes</h2><p>Si decides comunicarte mediante Instagram, la información que compartas será tratada también conforme a las políticas de esa plataforma. Evita enviar datos sensibles que no sean necesarios para tu consulta.</p>
+                <h2>7. Cambios y contacto</h2><p>Esta política puede modificarse para reflejar cambios técnicos, legales o de servicios. Para preguntas sobre privacidad, utiliza el canal indicado en la página de <a href="/contacto.html">Contacto</a>.</p>
+              </div></main>"""
+        ),
+        "politica-editorial.html": (
+            "Política editorial",
+            "Criterios de selección, fuentes, automatización, atribución y transparencia de CEV NOTICIAS.",
+            """<main class="articulo pagina-institucional">
+              <a class="volver" href="/">← Volver a la portada</a>
+              <p class="etiqueta">CEV NOTICIAS · CRITERIOS</p><h1>Política editorial</h1>
+              <div class="cuerpo">
+                <h2>1. Principios</h2><p>CEV NOTICIAS busca ofrecer información clara, relevante y atribuida. Procuramos distinguir los hechos confirmados, los datos preliminares, las opiniones y la información que continúa en desarrollo.</p>
+                <h2>2. Fuentes y atribución</h2><p>Priorizamos documentos, comunicados y datos de primera mano cuando están disponibles, junto con medios y organizaciones identificables. Los enlaces a las fuentes se incluyen para que los lectores puedan consultar el material original. La existencia de varias fuentes no garantiza por sí sola que sean independientes ni que todos los datos estén confirmados.</p>
+                <h2>3. Herramientas automatizadas</h2><p>El seguimiento de noticias y la preparación de algunos contenidos pueden apoyarse en sistemas automatizados y herramientas de inteligencia artificial. Estas herramientas pueden cometer errores, omitir contexto o interpretar incorrectamente una fuente. La automatización no debe presentarse como una verificación humana ni como una garantía de exactitud.</p>
+                <h2>4. Titulares recopilados y contenido propio</h2><p>Un titular que remite a una publicación externa no se presenta como una investigación propia de CEV NOTICIAS. Cuando elaboramos un artículo a partir de fuentes consultadas, identificamos esas fuentes y enlazamos a sus publicaciones. Respetamos los derechos de autor y no pretendemos atribuirnos fotografías ni textos ajenos.</p>
+                <h2>5. Imágenes</h2><p>Procuramos utilizar imágenes con permisos de reutilización adecuados y mostrar la atribución o licencia cuando corresponda. Una imagen ilustrativa no debe interpretarse como prueba visual del hecho si no corresponde al acontecimiento descrito.</p>
+                <h2>6. Publicidad y contenido patrocinado</h2><p>Si se incorporan anuncios, patrocinios o enlaces de afiliados, deberán distinguirse visualmente del contenido periodístico. La publicidad no debe confundirse con una noticia ni condicionar la presentación de los hechos.</p>
+                <h2>7. Correcciones</h2><p>Si detectas un error factual, una atribución incorrecta o información desactualizada, consulta nuestra <a href="/correcciones.html">Política de correcciones</a> y envíanos los datos necesarios para revisarlo.</p>
+              </div></main>"""
+        ),
+        "correcciones.html": (
+            "Política de correcciones",
+            "Cómo reportar errores, solicitar aclaraciones y comunicar información relevante a CEV NOTICIAS.",
+            """<main class="articulo pagina-institucional">
+              <a class="volver" href="/">← Volver a la portada</a>
+              <p class="etiqueta">CEV NOTICIAS · RESPONSABILIDAD</p><h1>Política de correcciones</h1>
+              <div class="cuerpo">
+                <p>CEV NOTICIAS procura corregir errores factuales y aclarar información cuando se identifica que una publicación contiene datos incorrectos, incompletos o desactualizados.</p>
+                <h2>Cómo reportar un error</h2><ol><li>Envía el enlace exacto de la noticia.</li><li>Indica qué dato consideras incorrecto y por qué.</li><li>Adjunta, si es posible, una fuente primaria, documento o referencia que permita comprobar la observación.</li><li>Incluye un medio de contacto si deseas recibir respuesta.</li></ol>
+                <p>Puedes enviar la solicitud mediante nuestro canal de <a href="https://www.instagram.com/cev.noticias/" target="_blank" rel="noopener noreferrer">Instagram @cev.noticias</a>.</p>
+                <h2>Qué hacemos con la solicitud</h2><p>Revisaremos la información aportada y, cuando corresponda, actualizaremos el contenido o añadiremos una aclaración. No todas las solicitudes implican una modificación: la decisión depende de la evidencia disponible. Si se realiza un cambio sustancial, procuraremos dejar constancia de la corrección en la publicación.</p>
+              </div></main>"""
+        )
+    }
+    for archivo, (titulo, descripcion, cuerpo) in paginas.items():
+        url = f"https://cevnoticias.com/{archivo}"
+        extra_head = f'<link rel="canonical" href="{url}"><meta property="og:type" content="website">'
+        pagina = plantilla(titulo, cuerpo, descripcion, extra_head=extra_head)
+        (SITE / archivo).write_text(pagina, encoding="utf-8")
+
+
+
 def limpiar_archivos_publicos_obsoletos():
     """
     Limpia páginas, secciones e imágenes públicas de versiones anteriores.
@@ -823,7 +921,7 @@ def limpiar_archivos_publicos_obsoletos():
         if ruta.exists():
             shutil.rmtree(ruta)
 
-    for nombre in ("index.html", "sitemap.xml", "robots.txt"):
+    for nombre in ("index.html", "sitemap.xml", "robots.txt", "quienes-somos.html", "contacto.html", "politica-de-privacidad.html", "politica-editorial.html", "correcciones.html"):
         ruta = SITE / nombre
         if ruta.exists():
             ruta.unlink()
@@ -838,6 +936,8 @@ def validar_archivos_publicados(noticias):
     """
     faltantes = []
     esperados = [SITE / "index.html"]
+    esperados.extend(SITE / nombre for nombre in ("quienes-somos.html", "contacto.html", "politica-de-privacidad.html", "politica-editorial.html", "correcciones.html"))
+    esperados.extend([SITE / "sitemap.xml", SITE / "robots.txt"])
     esperados.extend(NOTAS / f"{noticia['id']}.html" for noticia in noticias)
     esperados.extend(SITE / "secciones" / f"{slug(seccion)}.html" for seccion in SECCIONES)
     esperados.extend(
@@ -864,6 +964,7 @@ def validar_archivos_publicados(noticias):
                     self.urls.append(valor)
 
     paginas = [SITE / "index.html"]
+    paginas.extend(SITE / nombre for nombre in ("quienes-somos.html", "contacto.html", "politica-de-privacidad.html", "politica-editorial.html", "correcciones.html"))
     paginas.extend(NOTAS / f"{noticia['id']}.html" for noticia in noticias)
     paginas.extend(SITE / "secciones" / f"{slug(seccion)}.html" for seccion in SECCIONES)
 
@@ -909,9 +1010,21 @@ def validar_archivos_publicados(noticias):
             "La validación detectó archivos o enlaces internos rotos:\n" + resumen
         )
 
+    try:
+        raiz_sitemap = ET.parse(SITE / "sitemap.xml").getroot()
+        if raiz_sitemap.tag != "{http://www.sitemaps.org/schemas/sitemap/0.9}urlset":
+            raise ValueError("La raíz del sitemap no es urlset.")
+        if not any((elemento.text or "").strip() == "https://cevnoticias.com/" for elemento in raiz_sitemap):
+            raise ValueError("El sitemap no incluye la portada.")
+        robots = (SITE / "robots.txt").read_text(encoding="utf-8")
+        if "Sitemap: https://cevnoticias.com/sitemap.xml" not in robots:
+            raise ValueError("robots.txt no declara el sitemap.")
+    except (ET.ParseError, OSError, ValueError) as error:
+        raise RuntimeError(f"Validación SEO fallida: {error}") from error
+
     print(
         f"Validación completa: {len(noticias)} artículos, "
-        f"{len(SECCIONES)} secciones y rutas internas verificadas."
+        f"{len(SECCIONES)} secciones, páginas institucionales, sitemap XML y rutas internas verificadas."
     )
 
 
@@ -994,6 +1107,7 @@ def construir():
     # Cada sección cuenta con una página propia; la portada mantiene un único flujo vertical.
     for seccion in SECCIONES:
         crear_pagina_seccion(seccion, validas, [])
+    crear_paginas_institucionales()
 
     candidatos_express = []
     for noticia in validas:
@@ -1027,10 +1141,17 @@ def construir():
     )
     portada_head = '<link rel="canonical" href="https://cevnoticias.com/"><meta property="og:type" content="website"><meta property="og:title" content="CEV NOTICIAS | Actualidad y periodismo">'
     (SITE / "index.html").write_text(plantilla("Portada", contenido, "Noticias de Cali, Valle del Cauca, Colombia y el mundo.", extra_head=portada_head, seccion_actual="Portada"), encoding="utf-8")
-    urls = ["https://cevnoticias.com/"] + [f"https://cevnoticias.com/notas/{n['id']}.html" for n in validas] + [f"https://cevnoticias.com/secciones/{slug(s)}.html" for s in SECCIONES]
-    sitemap = '<?xml version="1.0" encoding="UTF-8"?>\\n' + '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\\n' + ''.join(f'<url><loc>{html.escape(url)}</loc></url>\\n' for url in urls) + '</urlset>\\n'
+    paginas_institucionales = ["quienes-somos.html", "contacto.html", "politica-de-privacidad.html", "politica-editorial.html", "correcciones.html"]
+    urls = (["https://cevnoticias.com/"]
+            + [f"https://cevnoticias.com/notas/{n['id']}.html" for n in validas]
+            + [f"https://cevnoticias.com/secciones/{slug(s)}.html" for s in SECCIONES]
+            + [f"https://cevnoticias.com/{nombre}" for nombre in paginas_institucionales])
+    sitemap = ('<?xml version="1.0" encoding="UTF-8"?>\n'
+               + '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+               + ''.join(f"  <url><loc>{html.escape(url)}</loc></url>\n" for url in urls)
+               + '</urlset>\n')
     (SITE / "sitemap.xml").write_text(sitemap, encoding="utf-8")
-    (SITE / "robots.txt").write_text("User-agent: *\\nAllow: /\\nSitemap: https://cevnoticias.com/sitemap.xml\\n", encoding="utf-8")
+    (SITE / "robots.txt").write_text("User-agent: *\nAllow: /\nSitemap: https://cevnoticias.com/sitemap.xml\n", encoding="utf-8")
     validar_archivos_publicados(validas)
     print(f"Portada creada. Artículos propios: {len(validas)} · Titulares de fuentes: {len(titulares_rss)}")
 
