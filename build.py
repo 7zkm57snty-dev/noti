@@ -289,9 +289,7 @@ def plantilla(titulo, contenido, descripcion="CEV NOTICIAS", ruta_raiz="", extra
 <meta name="description" content="{escapar(descripcion)}">
 {extra_head}
 <title>{escapar(titulo)} | CEV NOTICIAS</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+<!-- Tipografías del sistema: no se contactan proveedores externos antes del consentimiento. -->
 <style>
 :root{{--papel:#f7f6f2;--blanco:#fff;--tinta:#171717;--suave:#686868;--linea:#dedbd4;--rojo:#b5282f;--ancho:1280px}}
 *{{box-sizing:border-box}}
