@@ -165,8 +165,13 @@
     const current = readChoice();
     if (current && current.analytics) {
       loadGoogleAnalytics();
-    } else if (!current) {
-      banner.hidden = false;
+    } else {
+      // Limpia identificadores heredados de la versión anterior sin consentimiento.
+      updateGoogleConsent(false);
+      removeAnalyticsCookies();
+      if (!current) {
+        banner.hidden = false;
+      }
     }
   }
 
