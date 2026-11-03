@@ -1,5 +1,5 @@
 {
-  "ultima_actualizacion": "2026-11-03T19:09:06.915929+00:00",
+  "ultima_actualizacion": "2026-11-03T20:02:13.847099+00:00",
   "titulares_rss": [
     {
       "id": "988cbf8bbfc246cc",
@@ -7,7 +7,277 @@
       "categoria": "Internacional",
       "fuente": "BBC Mundo",
       "url": "https://www.bbc.co.uk/mundo/live/cq9vz4g97xy2t?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-03T19:09:06.915929+00:00",
+      "fecha": "2026-11-03T20:02:13.847099+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "e492f85b37f83ac1",
+      "titulo": "Jesús Owono, el portero del Andorra que cerró sus redes tras la muerte de Jesús de Miguel",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/actualidad/jesus-owono-el-portero-del-andorra-que-cerro-sus-redes-tras-la-muerte-de-jesus-de-miguel/",
+      "fecha": "2026-11-03T20:00:46+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "ec6bcdfe21855a69",
+      "titulo": "Crudo cae un mínimo de casi cuatro semanas mientras siguen negociaciones de paz",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/globoeconomia/crudo-cae-un-minimo-de-casi-cuatro-semanas-mientras-siguen-negociaciones-de-paz-4516830",
+      "fecha": "2026-11-03T20:00:06+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "5f6b6cd9ebea35fd",
+      "titulo": "Trump anuncia que EE.UU. suspenderá la ayuda financiera a Israel a finales de este año",
+      "categoria": "Internacional",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/cm4g1317y8e9o?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-03T19:55:08+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "1f23faf971a00f24",
+      "titulo": "Bancolombia lanzará nueva vitrina digital en Mercado Libre para afectados por el sismo",
+      "categoria": "Economía",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/finanzas/bancolombia-lanzara-vitrina-digital-en-mercado-libre-para-afectados-por-el-sismo-4516626",
+      "fecha": "2026-11-03T19:54:03+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "a0dbb575cb6b4429",
+      "titulo": "La lectura es el único detector de IA que nos queda",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/red-de-expertos/red-de-democracia-y-tecnologia/la-lectura-es-el-unico-detector-de-ia-que-nos-queda/",
+      "fecha": "2026-11-03T19:50:17+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "8a5e3d78f9aa5a3e",
+      "titulo": "Las ‘midterms’ 2026, en vivo | Los votantes acuden a las urnas en unas elecciones en las que Estados Unidos decide el control del Congreso",
+      "categoria": "Internacional",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/us/2026-11-03/las-midterms-2026-en-vivo.html",
+      "fecha": "2026-11-03T19:47:49+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "b5c23c65c715e6a5",
+      "titulo": "El futuro del deporte colombiano compite en Dakar: DSPORTS transmitirá los Juegos Olímpicos de la Juventud 2026",
+      "categoria": "Colombia",
+      "fuente": "La FM Deportes",
+      "url": "https://www.lafm.com.co/deportes/el-futuro-del-deporte-colombiano-compite-en-dakar-dsports-transmite-juegos-olimpicos-de-la-juventud-2026-416011",
+      "fecha": "2026-11-03T19:43:24+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "332c536a22c7b0aa",
+      "titulo": "YAWA renueva la cartelera inmersiva de su planetario 360° en Cali",
+      "categoria": "Cali",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/vida-moderna/ciencia-y-tecnologia/yawa-cartelera-planetario-cali-3-11-2026/",
+      "fecha": "2026-11-03T19:42:46+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "da442c7fe834c012",
+      "titulo": "Deicy Jiménez, la mujer que denunció los ‘sexo contratos’, se quedó sin abogado: renunció por motivos de seguridad",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/deicy-jimenez-se-queda-sin-abogado-renuncia-seguridad-NE43121963",
+      "fecha": "2026-11-03T19:39:37+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "875959be6ca28e6f",
+      "titulo": "Gobierno buscaría eliminar el Fomag: salud de los maestros pasaría a Nueva EPS, según Fecode",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/noticias/gobierno-buscaria-eliminar-el-fomag-salud-de-los-maestros-pasaria-a-nueva-eps-segun-fecode/",
+      "fecha": "2026-11-03T19:37:42+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "03ef9b8374cb46bf",
+      "titulo": "Cómo consultar una tarjeta profesional y verificar su registro en Colombia",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/temas/como-consultar-una-tarjeta-profesional-y-verificar-su-registro-en-colombia/",
+      "fecha": "2026-11-03T19:34:46+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "e43d7a9d1191b1e2",
+      "titulo": "Confirman dos casos de malaria en pacientes procedentes del Congo; uno falleció en Palmira",
+      "categoria": "Valle del Cauca",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/cali/confirman-dos-casos-malaria-valle-3-11-2026/",
+      "fecha": "2026-11-03T19:34:27+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "219e4addcde76c0a",
+      "titulo": "Superluna de noviembre: todo sobre el fenómeno y su avistamiento en Colombia",
+      "categoria": "Colombia",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/vida-moderna/ciencia-y-tecnologia/superluna-de-noviembre-fenomeno-colombia-03-11-2026/",
+      "fecha": "2026-11-03T19:32:15+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "0c800b9b8c3838a3",
+      "titulo": "MinHacienda, Miguel Gómez, negó que pidió hojas de vida a los congresistas por votos",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/economia/minhacienda-miguel-gomez-nego-que-pidio-hojas-de-vida-a-los-congresistas-por-un-voto-4516733",
+      "fecha": "2026-11-03T19:31:36+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "8401f73f7ed59a07",
+      "titulo": "La colombiana Ana María Cetina murió en el accidente de un avión privado en Florida",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/america-colombia/2026-11-03/la-colombiana-ana-maria-cetina-murio-en-el-accidente-de-un-avion-privado-en-florida.html",
+      "fecha": "2026-11-03T19:31:04+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "0bf0f4216e762ef4",
+      "titulo": "Cómo consultar certificados y trámites académicos en Colombia",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/temas/como-consultar-certificados-y-tramites-academicos-en-colombia/",
+      "fecha": "2026-11-03T19:30:12+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "4fd6e4f3edd7105b",
+      "titulo": "Se ultiman detalles del 'Supermetro' para la final de la Copa Sudamericana: estas son las obras que tiene a contrarreloj el estadio de Barranquilla",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/barranquilla/se-ultiman-detalles-del-supermetro-para-la-final-de-la-copa-sudamericana-estas-son-las-obras-que-tiene-a-contrarreloj-el-estadio-de-barranquilla-3598160",
+      "fecha": "2026-11-03T19:30:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "55dcf146535b6263",
+      "titulo": "La Patria Milagro no podría prosperar recortando la ciencia",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/red-de-expertos/red-de-ciencia-e-innovacion/la-patria-milagro-no-podria-prosperar-recortando-la-ciencia/",
+      "fecha": "2026-11-03T19:29:02+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "117c4ba36d73217b",
+      "titulo": "Suspenden obras de almacén de cadena en Pance por presuntas inconsistencias en los permisos",
+      "categoria": "Valle del Cauca",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/cali/suspenden-obras-pance-presuntas-inconsistencias-permisos-3-11-2026/",
+      "fecha": "2026-11-03T19:27:23+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "7abfd72963d3c077",
+      "titulo": "Sandra Ramírez pide aplazar su versión ante la JEP por reclutamiento y abusos contra menores: víctimas rechazan solicitud",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/sandra-ramirez-pide-aplazar-version-jep-abusos-menores-BE43120010",
+      "fecha": "2026-11-03T19:26:50+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "805051745e780b9e",
+      "titulo": "Gobierno tendría respaldo inicial del 70% de las comisiones económicas para tramitar reforma tributaria",
+      "categoria": "Colombia",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/gobierno-tendria-respaldo-inicial-del-70-de-las-comisiones-economicas-para-tramitar-reforma-tributaria-505626",
+      "fecha": "2026-11-03T19:26:34+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "1eb63dc776f89fb7",
+      "titulo": "Google recibe un revés ante el TJUE por el uso de noticias en Gemini y los medios ganan terreno para reclamar compensaciones",
+      "categoria": "Tecnología",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/robotica-e-ia/google-recibe-reves-tjue-uso-noticias-gemini-medios-ganan-terreno-para-reclamar-compensaciones",
+      "fecha": "2026-11-03T19:25:52+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "bc2f53cb1725b4fb",
+      "titulo": "Zelenski rechaza hablar por teléfono o reunirse con Putin en Moscú o Kiev",
+      "categoria": "Internacional",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/zelenski-rechaza-hablar-por-teléfono-o-reunirse-con-putin-en-moscú-o-kiev/a-79846820?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-03T19:22:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "4c539de414cf6d34",
+      "titulo": "Edison Tigreros, cercano a Suárez, será asesor del MinInterior",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/en-vivo/edison-tigreros-cercano-a-suarez-sera-asesor-del-mininterior/",
+      "fecha": "2026-11-03T19:20:22+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "64ab2782a9085015",
+      "titulo": "Todo sobre las elecciones intermedias en Estados Unidos",
+      "categoria": "Internacional",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/todo-sobre-las-elecciones-intermedias-en-estados-unidos/live-79845739?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-03T19:19:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "383994c24e045bf2",
+      "titulo": "Cómo consultar el estado de una cuenta de ahorro en Colombia",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/temas/como-consultar-el-estado-de-una-cuenta-de-ahorro-en-colombia/",
+      "fecha": "2026-11-03T19:10:40+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "1dc9ebaeba8f85d3",
+      "titulo": "¿Cuándo será el próximo día festivo en Colombia? tome nota",
+      "categoria": "Colombia",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/vida-moderna/proximo-dia-festivo-en-colombia-03-11-2026/",
+      "fecha": "2026-11-03T19:09:14+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "28d7f52df0a1e34e",
+      "titulo": "Contraloría advierte fallas en la ejecución de recursos contra el cambio climático en Colombia",
+      "categoria": "Colombia",
+      "fuente": "La FM Economía",
+      "url": "https://www.lafm.com.co/economia/contraloria-advierte-fallas-ejecucion-recursos-planes-contra-cambio-climatico-colombia-416007",
+      "fecha": "2026-11-03T19:06:59+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "7756fc5f909f8479",
+      "titulo": "¿A cuántos puntos quedó Mercedes de ganar el mundial de constructores, tras el título de Antonelli?",
+      "categoria": "Deportes",
+      "fuente": "La FM Deportes",
+      "url": "https://www.lafm.com.co/deportes/cuantos-puntos-mercedes-ganar-mundial-constructores-formula-1-416006",
+      "fecha": "2026-11-03T19:01:54+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "c3132af7a4547d06",
+      "titulo": "“No podemos entregar hojas de vida al Gobierno”: el regaño de Uribe a su bancada",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/uribe-hojas-de-vida-gobierno-centro-democratico-mateo-hidalgo-IH43118725",
+      "fecha": "2026-11-03T19:01:39+00:00",
       "imagen": ""
     },
     {
@@ -29,12 +299,30 @@
       "imagen": ""
     },
     {
+      "id": "54f65ff013445cf4",
+      "titulo": "Trump asegura que suspenderá a final de año los 4.000 millones de dólares de ayuda militar a Israel",
+      "categoria": "Economía",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/internacional/2026-11-03/trump-dice-que-suspendera-4000-millones-de-dolares-en-ayuda-a-israel.html",
+      "fecha": "2026-11-03T19:00:03+00:00",
+      "imagen": ""
+    },
+    {
       "id": "531d19a78ea6073b",
-      "titulo": "Gobernador de Antioquia propuso plan de austeridad que implica ahorro por $26 billones",
+      "titulo": "Gobernador de Antioquia propuso plan de austeridad por $26 billones",
       "categoria": "Colombia",
       "fuente": "La República",
       "url": "https://www.larepublica.co/economia/gobernador-de-antioquia-propuso-plan-de-austeridad-que-implica-ahorro-por-26-billones-4516791",
       "fecha": "2026-11-03T18:59:12+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "b7db41c50f03679d",
+      "titulo": "Gobierno restringe el uso de recursos públicos para fiestas de Navidad: estas son las reglas",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/gobierno-restringe-uso-recursos-publicos-fiestas-navidad-reglas-FE43120207",
+      "fecha": "2026-11-03T18:56:31+00:00",
       "imagen": ""
     },
     {
@@ -84,11 +372,20 @@
     },
     {
       "id": "92522e24255a0e98",
-      "titulo": "José Luis Gómez Pardo, CEO de Nixval: \"La factura de agua de nuestro centro de datos es literalmente la del consumo de los baños\"",
+      "titulo": "José Luis Gómez-Pardo, CEO de Nixval: \"La factura de agua de nuestro centro de datos es literalmente la del consumo de los baños\"",
       "categoria": "Colombia",
       "fuente": "Xataka",
       "url": "https://www.xataka.com/empresas-y-economia/jose-luis-gomez-pardo-ceo-nixval-factura-agua-nuestro-centro-datos-literalmente-consumo-banos",
-      "fecha": "2026-11-03T18:31:28+00:00",
+      "fecha": "2026-11-03T18:30:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "bb6242f8bdec4f40",
+      "titulo": "Ley de Rescate Económico cambiaría impuestos, IVA y gasto público",
+      "categoria": "Colombia",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/empresario/ley-de-rescate-economico-plantea-ajuste-fiscal-y-cambios-en-iva/",
+      "fecha": "2026-11-03T18:23:06+00:00",
       "imagen": ""
     },
     {
@@ -98,15 +395,6 @@
       "fuente": "El Colombiano — Colombia",
       "url": "https://www.elcolombiano.com/colombia/gobierno-abelardo-ley-sometimiento-probacion-consejo-politica-criminal-IH43113092",
       "fecha": "2026-11-03T18:22:23+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "28cfd8f73dd08a8e",
-      "titulo": "Carlos III describe el tráfico de esclavos como un “capítulo vergonzoso” de la historia del Reino Unido",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/internacional/2026-11-03/carlos-iii-describe-el-trafico-de-esclavos-como-un-capitulo-vergonzoso-de-la-historia-del-reino-unido.html",
-      "fecha": "2026-11-03T18:18:50+00:00",
       "imagen": ""
     },
     {
@@ -142,15 +430,6 @@
       "categoria": "Colombia",
       "fuente": "La Silla Vacía",
       "url": "https://www.lasillavacia.com/en-vivo/diario-del-gobierno-de-abelardo-la-ley-de-sometimiento-a-contrarreloj/",
-      "fecha": "2026-11-03T18:00:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "64ab2782a9085015",
-      "titulo": "Todo sobre las elecciones intermedias en Estados Unidos",
-      "categoria": "Internacional",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/todo-sobre-las-elecciones-intermedias-en-estados-unidos/live-79845739?maca=spa-rss-sp-all-1122-rdf",
       "fecha": "2026-11-03T18:00:00+00:00",
       "imagen": ""
     },
@@ -261,285 +540,6 @@
       "url": "https://www.eltiempo.com/colombia/otras-ciudades/llorando-de-rodillas-clamamos-a-dios-que-parara-esta-tembladera-asi-vivio-chaparral-tolima-el-sismo-que-saco-a-las-calles-a-todos-sus-habitantes-3598096",
       "fecha": "2026-11-03T17:25:10+00:00",
       "imagen": ""
-    },
-    {
-      "id": "81a61c67dbd73f87",
-      "titulo": "Millonarios vs. América: hora, canal y lo que está en juego para ambos en la fecha 17 de la Liga BetPlay",
-      "categoria": "Deportes",
-      "fuente": "La FM Deportes",
-      "url": "https://www.lafm.com.co/deportes/millonarios-america-hora-canal-esta-juego-liga-betplay-415991",
-      "fecha": "2026-11-03T17:22:43+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "439a9dffa11742bc",
-      "titulo": "Inquilino habría puesto en riesgo a sus vecinos tras prenderle fuego a una vivienda en Medellín: el hombre fue capturado",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/medellin/inquilino-habria-puesto-en-riesgo-a-sus-vecinos-tras-prenderle-fuego-a-una-vivienda-en-medellin-el-hombre-fue-capturado-3598136",
-      "fecha": "2026-11-03T17:22:38+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "faeeaa2cdf891823",
-      "titulo": "El valor de la palabra tolerancia",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/america-colombia/2026-11-03/el-valor-de-la-palabra-tolerancia.html",
-      "fecha": "2026-11-03T17:22:28+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "e102f86e84df5f50",
-      "titulo": "La reforma antimermelada se queda corta contra la corrupción",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/red-de-expertos/red-social/la-reforma-antimermelada-se-queda-corta-contra-la-corrupcion/",
-      "fecha": "2026-11-03T17:20:07+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "7efb147e858ae257",
-      "titulo": "Donald Trump advierte que estas elecciones son las más importantes de la historia",
-      "categoria": "Internacional",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/mundo/donald-trump-advierte-elecciones-importantes-historia-3-11-2026/",
-      "fecha": "2026-11-03T17:17:52+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "968b8d4c8774c395",
-      "titulo": "El túnel de la A-5 de Madrid ya tiene fecha de fin: los coches circularán bajo la autovía a partir de diciembre",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/movilidad/tunel-a-5-madrid-tiene-fecha-fin-coches-circularan-autovia-a-partir-diciembre",
-      "fecha": "2026-11-03T17:15:27+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "fd4f588975b36c5a",
-      "titulo": "Red de Salud del Oriente fortalece la participación comunitaria con primer encuentro de ediles en Cali",
-      "categoria": "Cali",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/cali/red-de-salud-del-oriente-reporta-cero-muertes-maternas/",
-      "fecha": "2026-11-03T17:15:08+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "d78ce157592e7de0",
-      "titulo": "¿Quién es Park Jin Hyok? El hacker norcoreano que figura entre los más buscados por el FBI",
-      "categoria": "Internacional",
-      "fuente": "La FM Internacional",
-      "url": "https://www.lafm.com.co/internacional/park-jin-hyok-hacker-norcoreano-busca-fbi-ciberataques-millonarios-415980",
-      "fecha": "2026-11-03T17:14:42+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "d7a173a520c5bcbe",
-      "titulo": "Bogotá busca frenar los taponamientos del alcantarillado por el aceite de cocina",
-      "categoria": "Colombia",
-      "fuente": "La FM Actualidad",
-      "url": "https://www.lafm.com.co/actualidad/bogota-busca-frenar-ltaponamientos-alcantarillado-aceite-cocina-415990",
-      "fecha": "2026-11-03T17:14:20+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "399b2d0729eb0b3e",
-      "titulo": "Unos científicos italianos viajaron a Etiopía a estudiar monos y volvieron con una inverosímil historia de amor entre un burro y un toro",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/ecologia-y-naturaleza/unos-cientificos-italianos-viajaron-a-etiopia-a-estudiar-monos-volvieron-inverosimil-historia-amor-burro-toro",
-      "fecha": "2026-11-03T17:10:19+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "7cbb02ecc7823248",
-      "titulo": "Video | ¿Licencia de conducción por puntos en Colombia? esta es la propuesta del Gobierno",
-      "categoria": "Colombia",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/colombia/video-licencia-de-conduccion-por-puntos-en-colombia-03-11-2026/",
-      "fecha": "2026-11-03T17:08:59+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "ed2827edf9949f5d",
-      "titulo": "Sismo de magnitud 5,6 en Cali revivió las heridas del terremoto del 10 de agosto: 'Seguimos esperando ayuda'",
-      "categoria": "Cali",
-      "fuente": "El Tiempo Cali",
-      "url": "https://www.eltiempo.com/colombia/cali/sismo-de-magnitud-5-6-en-cali-revivio-las-heridas-del-terremoto-del-10-de-agosto-seguimos-esperando-ayuda-3598075",
-      "fecha": "2026-11-03T17:08:10+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "2758bc60dc6e3ef7",
-      "titulo": "En nueva diligencia, Eva Ferrer habló de Euclides Torres, el megacontratista del Gobierno Petro, ¿qué dijo?",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/eva-ferrer-declaracion-visitas-euclides-torres-casa-narino-GH43110042",
-      "fecha": "2026-11-03T17:03:28+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "25256ac60a629a93",
-      "titulo": "Sofia Coppola, sobre su 'María Antonieta' de 2006: \"Le dedicamos mucho trabajo, pero no tuvo una acogida muy cálida\"",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/cine-y-tv/sofia-coppola-su-maria-antonieta-2006-le-dedicamos-mucho-trabajo-no-tuvo-acogida-muy-calida",
-      "fecha": "2026-11-03T17:01:28+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "08f13fac16956d20",
-      "titulo": "Escalada terrorista en Tolima y el suroccidente de Colombia; hay 18 heridos y 117 viviendas afectadas, según la gobernadora Adriana Magali Matiz",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/escalada-terrorista-en-tolima-y-el-suroccidente-de-colombia-hay-18-heridos-y-117-viviendas-afectadas-segun-la-gobernadora-adriana-magali-matiz-3598079",
-      "fecha": "2026-11-03T17:01:13+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "13a596962c93fef6",
-      "titulo": "MinComercio denuncia firma de 148 contratos por más de $125.000 millones en Fontur antes de Ley de Garantías",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/gobierno-abelardo-de-la-espriella-ministerio-comercio-contratos-fontur-NG43100683",
-      "fecha": "2026-11-03T17:01:06+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "99dbdbf874921e33",
-      "titulo": "Muere Jesús de Miguel, futbolista del Tenerife, tras un fuerte choque con el arquero rival",
-      "categoria": "Deportes",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/noticias/muere-jesus-de-miguel-futbolista-del-tenerife-tras-un-fuerte-choque-con-el-arquero-rival/",
-      "fecha": "2026-11-03T16:58:21+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "dd3e6a35840a67c1",
-      "titulo": "Banco Mundial prevé alza de 10% en alimentos por tensiones geopolíticas y climáticas",
-      "categoria": "Deportes",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/banco-mundial-preve-alza-de-10-en-alimentos-por-tensiones-geopoliticas-y-climaticas-4516741",
-      "fecha": "2026-11-03T16:57:41+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "e7d51f569c8750e7",
-      "titulo": "Taxista que mató a un hombre en una vía de Cartagena tenía 28 comparendos y la licencia vencida: la víctima era un trabajador de aseo del Distrito",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/taxista-que-mato-a-un-hombre-en-una-via-de-cartagena-tenia-28-comparendos-y-la-licencia-vencida-la-victima-era-un-trabajador-de-aseo-del-distrito-3598098",
-      "fecha": "2026-11-03T16:54:44+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "68cf51e6ff2fdbcf",
-      "titulo": "Drones con explosivos fueron lanzados contra estación de Policía en Chimichagua, Cesar",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/ataque-drones-explosivos-estacion-policia-chimichagua-cesar-BG43106337",
-      "fecha": "2026-11-03T16:51:08+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "a9027337a8262e37",
-      "titulo": "Las exportaciones petroleras de Venezuela se mantienen estables en octubre",
-      "categoria": "Internacional",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/las-exportaciones-petroleras-de-venezuela-se-mantienen-estables-en-octubre-4516743",
-      "fecha": "2026-11-03T16:49:23+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "71f358f4d8a53a29",
-      "titulo": "EN VIDEO | Choque de dos helicópteros cerca del Everest deja un turista muerto y tres heridos",
-      "categoria": "Internacional",
-      "fuente": "La FM Internacional",
-      "url": "https://www.lafm.com.co/internacional/choque-helicopteros-nepal-everest-muerto-heridos-video-415988",
-      "fecha": "2026-11-03T16:47:03+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "91789da97054f5bf",
-      "titulo": "Groenlandia se convierte en la pieza clave del internet europeo: Bruselas planea un cable submarino que esquive a EEUU",
-      "categoria": "Tecnología",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/empresas-y-economia/groenlandia-se-convierte-pieza-clave-internet-europeo-bruselas-planea-cable-submarino-que-esquive-a-eeuu",
-      "fecha": "2026-11-03T16:45:27+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "853f7743711a6be4",
-      "titulo": "Bogotá inicia noviembre con 3.074 vacantes de empleo: conozca los cargos y cómo postularse",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/regiones/bogota-inicia-noviembre-con-3-074-vacantes-de-empleo-conozca-los-cargos-y-como-postularse-505622",
-      "fecha": "2026-11-03T16:44:42+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "df28dc4984c37adc",
-      "titulo": "Virus del herpes en la piel: cómo se propaga",
-      "categoria": "Colombia",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/secciones/salud/virus-del-herpes-en-la-piel-como-se-propaga/",
-      "fecha": "2026-11-03T16:44:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "a973db754e9e0087",
-      "titulo": "'La bola negra', el fenómeno cinematográfico español que triunfa en taquilla y también conquista Hollywood",
-      "categoria": "Tendencias",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/la-bola-negra-el-fenómeno-cinematográfico-español-que-triunfa-en-taquilla-y-también-conquista-hollywood/a-79845445?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-03T16:43:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "4d04aaa688fe29c6",
-      "titulo": "Hospital de Nariño lleva atención especializada a mujeres embarazadas en Olaya Herrera",
-      "categoria": "Colombia",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/colombia/hospital-universitario-departamental-de-narino-en-olaya-herrera/",
-      "fecha": "2026-11-03T16:39:56+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "a2f5be88fb78886f",
-      "titulo": "Trump plantea poner fin a la ayuda militar de EE. UU. a Israel por 4.000 millones de dólares",
-      "categoria": "Economía",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/mundo/trump-plantea-poner-fin-ayuda-militar-eeuu-a-israel-3-11-2026/",
-      "fecha": "2026-11-03T16:39:22+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "fbd4b517fa0b4fc5",
-      "titulo": "Argentina TGN realizará concurso para financiar el gasoducto de Vaca Muerta",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/argentina-tgn-realizara-concurso-para-financiar-gasoducto-de-vaca-muerta-4516723",
-      "fecha": "2026-11-03T16:38:40+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "d0888e70b1293b95",
-      "titulo": "Shakira habría viajado a Barranquilla ante una hospitalización de su padre William Mebarak: esto es todo lo que se sabe hasta el momento",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/barranquilla/shakira-habria-viajado-a-barranquilla-ante-una-hospitalizacion-de-su-padre-william-mebarak-esto-es-todo-lo-que-se-sabe-hasta-el-momento-3598121",
-      "fecha": "2026-11-03T16:35:12+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "050bbf22513386f7",
-      "titulo": "Misión del FMI inicia reuniones mientras el Gobierno explora crédito de US$5.000 millones",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/economia/mision-del-fmi-inicia-reuniones-mientras-el-gobierno-explora-credito-de-us-5-000-millones-4516695",
-      "fecha": "2026-11-03T16:35:04+00:00",
-      "imagen": ""
     }
   ],
   "estado_fuentes": [
@@ -620,13 +620,13 @@
       "nombre": "La FM Deportes",
       "url": "https://www.lafm.com.co/rss/deportes.xml",
       "estado": "correcto",
-      "titulares": 13
+      "titulares": 15
     },
     {
       "nombre": "La FM Economía",
       "url": "https://www.lafm.com.co/rss/economia.xml",
       "estado": "correcto",
-      "titulares": 18
+      "titulares": 19
     },
     {
       "nombre": "La FM Internacional",
