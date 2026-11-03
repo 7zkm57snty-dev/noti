@@ -118,6 +118,41 @@ jobs:
           assert not grupo_en_periodo_breves({"fuentes": [{"fecha": "2026-11-06T11:00:00+00:00"}]}, viernes)
           print("Correcto: ventanas lunes-viernes y viernes-lunes, con límites exactos de las 6:00 a. m.")
           PY
+          python - <<'PY'
+          import sys
+          sys.path.insert(0, "..")
+          from fusionar_cache_borrador import merge_cache
+
+          base = {
+              "noticias": [
+                  {"id": "base", "titulo": "Titular original", "resumen": "Resumen base"}
+              ],
+              "breves": []
+          }
+          draft = {
+              "noticias": [
+                  {"id": "base", "titulo": "Titular corregido", "resumen": "Resumen base"},
+                  {"id": "borrador-local", "titulo": "Nueva noticia pendiente"}
+              ],
+              "breves": []
+          }
+          current = {
+              "noticias": [
+                  {"id": "base", "titulo": "Titular original", "resumen": "Resumen editado en main"},
+                  {"id": "noticia-remota", "titulo": "Noticia añadida en main"}
+              ],
+              "breves": []
+          }
+          added, updated = merge_cache(base, draft, current)
+          by_id = {item["id"]: item for item in current["noticias"]}
+          assert added == 1 and updated == 1
+          assert by_id["borrador-local"]["titulo"] == "Nueva noticia pendiente"
+          assert by_id["noticia-remota"]["titulo"] == "Noticia añadida en main"
+          assert by_id["base"]["titulo"] == "Titular corregido"
+          assert by_id["base"]["resumen"] == "Resumen editado en main"
+          print("Correcto: el borrador local conserva sus artículos sin borrar ediciones concurrentes de main.")
+          PY
+
       - name: Validar las cinco notas reales del mini blog
         run: |
           python - <<'PY'
