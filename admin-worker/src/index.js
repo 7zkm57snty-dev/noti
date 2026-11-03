@@ -117,7 +117,50 @@ function validateArticle(v) {
   return {titulo:title,titular_instagram:social||title,resumen:summary,categoria:category,contenido:content,estado_informacion:info,
     imagen:image,imagen_credito:credit,verificacion:sources.length>1?"Fuentes independientes":"Una sola fuente",fuentes:sources};
 }
-async function dashboard(env,identity) {
+
+function runDiagnostics(cache) {
+  const findings = [], titles = new Map(), images = new Map();
+  const add = (severity, code, message, id) => findings.push({severity,code,message,articleId:id || null});
+  const articles = Array.isArray(cache.noticias) ? cache.noticias : [];
+  for (const n of articles) {
+    const id = String(n.id || ""), title = String(n.titulo || "").trim();
+    const key = title.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"").replace(/[^a-z0-9]+/g," ").trim();
+    if (!title) add("critical","missing_title","Noticia sin titular",id);
+    if (key && titles.has(key)) add("warning","duplicate_title","Titular idéntico al registro "+titles.get(key),id);
+    else if (key) titles.set(key,id);
+    const image = String(n.imagen || "").trim();
+    if (!image) add("warning","missing_image","Falta imagen periodística principal; no se sustituye por una portada con texto.",id);
+    else {
+      try { if (new URL(image).protocol !== "https:") add("critical","image_not_https","La imagen no usa HTTPS.",id); }
+      catch (_) { add("critical","invalid_image","URL de imagen no válida.",id); }
+      if (images.has(image)) add("warning","duplicate_image","La imagen se repite en otra noticia.",id);
+      else images.set(image,id);
+    }
+    const sources = Array.isArray(n.fuentes) ? n.fuentes : [];
+    if (!sources.length) add("critical","missing_sources","Noticia sin fuentes registradas.",id);
+    if (sources.length === 1) add("warning","single_source","Noticia con una sola fuente; requiere corroboración.",id);
+    for (const source of sources) {
+      try { if (new URL(source.url).protocol !== "https:") add("critical","invalid_source","Fuente sin HTTPS.",id); }
+      catch (_) { add("critical","invalid_source","URL de fuente no válida.",id); }
+    }
+    if (String(n.resumen || "").trim().length < 40) add("warning","short_summary","Resumen inferior a 40 caracteres.",id);
+    if (String(n.contenido || "").trim().split(/\s+/).filter(Boolean).length < 250) add("warning","short_content","Contenido inferior a 250 palabras.",id);
+  }
+  return {scannedAt:new Date().toISOString(),articles:articles.length,rssCount:Array.isArray(cache.titulares_rss)?cache.titulares_rss.length:0,findings,counts:{critical:findings.filter(x=>x.severity==="critical").length,warning:findings.filter(x=>x.severity==="warning").length}};
+}
+function normalizeSafeFields(cache) {
+  let changed = 0;
+  for (const n of (cache.noticias || [])) {
+    for (const key of ["titulo","titular_instagram","resumen","contenido","categoria"]) {
+      if (typeof n[key] === "string") {
+        const value = n[key].replace(/\r\n/g,"\n").trim().replace(/[ \t]+/g," ");
+        if (value !== n[key]) { n[key] = value; changed++; }
+      }
+    }
+  }
+  return changed;
+}
+\nasync function dashboard(env,identity) {
   if(!env.GITHUB_TOKEN) return {configured:false,user:identity.email||identity.name||"Administrador",news:[],reviews:[]};
   const r=await Promise.all([readCache(env),reviews(env)]);
   return {configured:true,user:identity.email||identity.name||"Administrador",news:r[0].data.noticias,reviews:r[1],
@@ -126,7 +169,7 @@ async function dashboard(env,identity) {
 async function api(request,env,identity) {
   const url=new URL(request.url),path=url.pathname,method=request.method.toUpperCase();
   if(method==="GET"&&path==="/api/dashboard") return json(await dashboard(env,identity));
-  if(method==="GET"&&path==="/api/health") {
+  if(method==="GET"&&path==="/api/diagnostics") { const r=await readCache(env); return json(runDiagnostics(r.data)); }\n  if(method==="POST"&&path==="/api/diagnostics/repair") { const r=await readCache(env); const count=normalizeSafeFields(r.data); if(!count)return json({ok:true,changed:0,message:"No hay normalizaciones pendientes."}); const pr=await submitChange(env,cache=>{normalizeSafeFields(cache);return cache;},"CEV NOTICIAS | Normalización técnica segura","normalización técnica segura"); return json({ok:true,changed:count,pr,message:"Propuesta de reparación creada para revisión."}); }\n  if(method==="GET"&&path==="/api/health") {
     if(!env.GITHUB_TOKEN)return json({ok:false,message:"Falta configurar GITHUB_TOKEN."},503);
     await gh("/repos/"+OWNER+"/"+REPO,env);return json({ok:true,repository:OWNER+"/"+REPO});
   }
