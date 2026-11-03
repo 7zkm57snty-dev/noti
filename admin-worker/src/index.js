@@ -81,7 +81,7 @@ async function registrarFuentesDePropuestaRechazada(env,branch) {
   if(urlsNuevas.length){
     await gh(base+"automation_state.json",env,"PUT",{
       message:"Registrar fuentes de propuestas editoriales rechazadas",
-      content:encode64(JSON.stringify(estado,null,2)+"\\n"),
+      content:encode64(JSON.stringify(estado,null,2)+"\n"),
       sha:archivoEstado.sha,
       branch:MAIN
     });
@@ -123,9 +123,9 @@ async function readAutomationState(env) {
     ultima_solicitud_groq:"",
     fecha_articulos_dia:"",
     articulos_generados_dia:0,
-    limite_articulos_diario:20,
-    limite_solicitudes_diario:40,
-    limite_articulos_ejecucion:4
+    limite_articulos_diario:30,
+    limite_solicitudes_diario:60,
+    limite_articulos_ejecucion:5
   };
   try {
     const f=await gh("/repos/"+OWNER+"/"+REPO+"/contents/automation_state.json?ref="+MAIN,env);
