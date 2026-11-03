@@ -7,6 +7,7 @@ on:
       - "admin-worker/**"
       - "redactor.py"
       - "periodos_breves.py"
+      - "fusionar_cache_borrador.py"
       - "build.py"
       - "feeds.json"
       - ".github/workflows/validar-panel-admin.yml"
@@ -20,6 +21,7 @@ on:
     paths:
       - "admin-worker/**"
       - "redactor.py"
+      - "fusionar_cache_borrador.py"
       - "build.py"
       - "feeds.json"
       - ".github/workflows/validar-panel-admin.yml"
@@ -44,7 +46,7 @@ jobs:
 
       - name: Validar código Python y catálogo de fuentes
         run: |
-          python -m py_compile ../redactor.py ../periodos_breves.py ../build.py ../verificar_publicacion.py
+          python -m py_compile ../redactor.py ../periodos_breves.py ../build.py ../verificar_publicacion.py ../fusionar_cache_borrador.py
           python -m json.tool ../feeds.json > /dev/null
           python -m json.tool ../radar_rss.json > /dev/null
           python -m json.tool ../automation_state.json > /dev/null
