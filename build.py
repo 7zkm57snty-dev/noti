@@ -1037,7 +1037,7 @@ def crear_paginas_institucionales():
               <div class="cuerpo">
                 <h2>1. Principios</h2><p>CEV NOTICIAS busca ofrecer información clara, relevante y atribuida. Procuramos distinguir los hechos confirmados, los datos preliminares, las opiniones y la información que continúa en desarrollo.</p>
                 <h2>2. Fuentes y atribución</h2><p>Priorizamos documentos, comunicados y datos de primera mano cuando están disponibles, junto con medios y organizaciones identificables. Los enlaces a las fuentes se incluyen para que los lectores puedan consultar el material original. La existencia de varias fuentes no garantiza por sí sola que sean independientes ni que todos los datos estén confirmados.</p>
-                <h2>3. Herramientas automatizadas y revisión humana</h2><p>El seguimiento de noticias y la preparación de borradores pueden apoyarse en sistemas automatizados y herramientas de inteligencia artificial. Estas herramientas pueden cometer errores, omitir contexto o interpretar incorrectamente una fuente. Los artículos nuevos se presentan en una propuesta de publicación y no pasan al sitio público hasta que una persona revise el titular, los datos principales, las fuentes y la pertinencia y atribución de la imagen, y apruebe la propuesta. La revisión humana reduce riesgos, pero no garantiza que nunca existan errores.</p>
+                <h2>3. Herramientas automatizadas y controles de publicación</h2><p>El seguimiento de fuentes y la preparación de artículos originales pueden apoyarse en sistemas automatizados y herramientas de inteligencia artificial. Estas herramientas pueden cometer errores, omitir contexto o interpretar incorrectamente una fuente. Antes de publicar, cada artículo debe superar controles de extensión, categoría, enlaces HTTPS, detección de duplicados y atribución de las fuentes; los temas sensibles requieren corroboración de medios independientes. Las fotografías sin licencia y atribución completas se excluyen. Los titulares de otros medios se muestran por separado, identifican su fuente y enlazan al contenido original; no se presentan como artículos propios. Las altas, ediciones y retiros solicitados manualmente desde el panel sí pasan por revisión antes de publicarse. Estos controles reducen riesgos, pero no garantizan que nunca existan errores.</p>
                 <h2>4. Titulares recopilados y contenido propio</h2><p>Un titular que remite a una publicación externa no se presenta como una investigación propia de CEV NOTICIAS. Cuando elaboramos un artículo a partir de fuentes consultadas, identificamos esas fuentes y enlazamos a sus publicaciones. Respetamos los derechos de autor y no pretendemos atribuirnos fotografías ni textos ajenos.</p>
                 <h2>5. Imágenes</h2><p>Procuramos utilizar imágenes con permisos de reutilización adecuados y mostrar la atribución o licencia cuando corresponda. Una imagen ilustrativa no debe interpretarse como prueba visual del hecho si no corresponde al acontecimiento descrito.</p>
                 <h2>6. Publicidad y contenido patrocinado</h2><p>Si se incorporan anuncios, patrocinios o enlaces de afiliados, deberán distinguirse visualmente del contenido periodístico. La publicidad no debe confundirse con una noticia ni condicionar la presentación de los hechos.</p>
@@ -1077,7 +1077,7 @@ def limpiar_archivos_publicos_obsoletos():
         if ruta.exists():
             shutil.rmtree(ruta)
 
-    for nombre in ("index.html", "sitemap.xml", "robots.txt", "quienes-somos.html", "redaccion.html", "contacto.html", "politica-de-privacidad.html", "politica-editorial.html", "correcciones.html"):
+    for nombre in ("index.html", "sitemap.xml", "robots.txt", "actualidad.html", "quienes-somos.html", "redaccion.html", "contacto.html", "politica-de-privacidad.html", "politica-editorial.html", "correcciones.html"):
         ruta = SITE / nombre
         if ruta.exists():
             ruta.unlink()
@@ -1092,7 +1092,7 @@ def validar_archivos_publicados(noticias):
     """
     faltantes = []
     esperados = [SITE / "index.html"]
-    esperados.extend(SITE / nombre for nombre in ("quienes-somos.html", "redaccion.html", "contacto.html", "politica-de-privacidad.html", "politica-editorial.html", "correcciones.html"))
+    esperados.extend(SITE / nombre for nombre in ("actualidad.html", "quienes-somos.html", "redaccion.html", "contacto.html", "politica-de-privacidad.html", "politica-editorial.html", "correcciones.html"))
     esperados.extend([SITE / "sitemap.xml", SITE / "robots.txt", SITE / "cookies.js"])
     esperados.extend(NOTAS / f"{noticia['id']}.html" for noticia in noticias)
     esperados.extend(SITE / "secciones" / f"{slug(seccion)}.html" for seccion in SECCIONES)
@@ -1312,9 +1312,9 @@ def construir():
     portada = f'<section class="portada-grid">{principal_html}</section>'
 
     # Cada sección cuenta con una página propia; la portada mantiene un único flujo vertical.
-    for seccion in SECCIONES:
-        crear_pagina_seccion(seccion, validas, [])
     titulares_archivo = seleccionar_titulares_publicos(titulares_rss, validas, limite=None)
+    for seccion in SECCIONES:
+        crear_pagina_seccion(seccion, validas, titulares_archivo)
     crear_pagina_actualidad_externa(titulares_archivo)
     crear_paginas_institucionales()
 
