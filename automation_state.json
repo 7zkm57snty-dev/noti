@@ -11,5 +11,7 @@
   "fecha_breves_dia": "2026-11-03",
   "breves_generados_dia": 0,
   "limite_breves_diario": 30,
-  "limite_breves_ejecucion": 3
+  "limite_breves_ejecucion": 3,
+  "fecha_ultima_rotacion_breves": "2026-11-03T14:24:05+00:00",
+  "intervalo_rotacion_breves_dias": 4
 }

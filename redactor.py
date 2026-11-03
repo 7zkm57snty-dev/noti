@@ -29,6 +29,7 @@ MAX_ARTICULOS_POR_EJECUCION = 5
 MAX_ARTICULOS_DIARIOS = 30
 MAX_BREVES_POR_EJECUCION = 3
 MAX_BREVES_DIARIOS = 30
+DIAS_ENTRE_ROTACIONES_BREVES = 4
 MAX_BREVES_ANTERIORES = 50
 MAX_SOLICITUDES_POR_EJECUCION = 8
 MAX_GRUPOS_REVISADOS_POR_EJECUCION = 36
@@ -737,9 +738,11 @@ TEXTOS RECUPERADOS PARA INVESTIGACIÓN:
 
 INSTRUCCIONES:
 1. No te limites a cambiar palabras del titular original.
-2. Escribe desde cero un texto breve de 50 a 85 palabras que responda
-   qué ocurrió, dónde, cuál es la novedad y por qué importa.
-3. Usa exclusivamente hechos presentes en los textos recuperados.
+2. Escribe desde cero una nota informativa tipo blog de 70 a 95 palabras.
+   Abre con el hecho principal, añade contexto útil y termina explicando
+   qué cambia, por qué importa o qué falta por conocerse.
+3. Usa exclusivamente hechos presentes en los textos recuperados; no añadas
+   opiniones personales ni afirmes que CEV estuvo en el lugar.
 4. Contrasta las fuentes y distingue datos confirmados de versiones
    preliminares o declaraciones atribuidas.
 5. Si hay contradicciones relevantes, falta el hecho central o el material
@@ -1340,6 +1343,22 @@ def ejecutar():
     else:
         breves_hoy = 0
 
+    fecha_ultima_rotacion_breves = (
+        estado_automatizacion.get("fecha_ultima_rotacion_breves")
+        or cache.get("breves_actualizadas", "")
+    )
+    timestamp_ultima_rotacion_breves = fecha_a_timestamp(fecha_ultima_rotacion_breves)
+    ahora_rotacion_breves = datetime.now(timezone.utc).timestamp()
+    rotacion_breves_vencida = (
+        not timestamp_ultima_rotacion_breves
+        or ahora_rotacion_breves - timestamp_ultima_rotacion_breves
+        >= DIAS_ENTRE_ROTACIONES_BREVES * 24 * 3600
+    )
+    print(
+        "Rotación de mini-noticias:",
+        "corresponde renovar" if rotacion_breves_vencida else "todavía dentro del ciclo de cuatro días"
+    )
+
     print(
         f"Solicitudes Groq usadas hoy: {solicitudes_groq}/"
         f"{MAX_SOLICITUDES_DIARIAS}"
@@ -1517,7 +1536,12 @@ def ejecutar():
     # Mini-noticias de portada: se producen con el remanente de llamadas,
     # sin sustituir ni duplicar los artículos completos.
     breves_nuevos = []
-    if puede_generar and solicitudes_groq < MAX_SOLICITUDES_DIARIAS and breves_hoy < MAX_BREVES_DIARIOS:
+    if (
+        puede_generar
+        and rotacion_breves_vencida
+        and solicitudes_groq < MAX_SOLICITUDES_DIARIAS
+        and breves_hoy < MAX_BREVES_DIARIOS
+    ):
         titulos_articulos = [
             str(n.get("titulo", ""))
             for n in publicadas + nuevas
@@ -1656,7 +1680,13 @@ def ejecutar():
                 print("Se detiene la cola de breves para respetar el cupo del modelo.")
                 break
     else:
-        print("No hay capacidad de modelo para preparar mini-noticias en esta ejecución.")
+        if not rotacion_breves_vencida:
+            print("No se generan mini-noticias: la próxima edición corresponde cuatro días después de la última.")
+        else:
+            print("No hay capacidad de modelo para preparar mini-noticias en esta ejecución.")
+
+    if breves_nuevos:
+        fecha_ultima_rotacion_breves = datetime.now(timezone.utc).isoformat()
 
     articulos_hoy += len(nuevas)
     breves_hoy += len(breves_nuevos)
@@ -1673,6 +1703,7 @@ def ejecutar():
         "limite_breves_diario": MAX_BREVES_DIARIOS,
         "breves_generados_dia": breves_hoy,
         "fecha_breves_dia": fecha_control,
+        "fecha_ultima_rotacion_breves": fecha_ultima_rotacion_breves,
         "limite_breves_ejecucion": MAX_BREVES_POR_EJECUCION,
         "limite_solicitudes_diario": MAX_SOLICITUDES_DIARIAS,
         "limite_articulos_ejecucion": MAX_ARTICULOS_POR_EJECUCION,
@@ -1689,6 +1720,7 @@ def ejecutar():
     guardar_json(CACHE, {
         "noticias": resultado,
         "breves": (breves_nuevos + breves_publicados)[:MAX_BREVES_ANTERIORES],
+        "breves_actualizadas": fecha_ultima_rotacion_breves or cache.get("breves_actualizadas", ""),
         "titulares_rss": titulares_rss,
         "estado_fuentes": estado_fuentes,
         "ultima_solicitud_groq": ultima_solicitud_groq,
