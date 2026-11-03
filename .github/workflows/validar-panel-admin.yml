@@ -72,6 +72,40 @@ jobs:
           assert "REDACCIÓN CEV NOTICIAS" in tarjeta and "/notas/actualidad-" in tarjeta
           print("Prueba RSS interna correcta: selección y deduplicación.")
           PY
+      - name: Validar las cinco notas reales del mini blog
+        run: |
+          python - <<'PY'
+          import json
+          import sys
+          from pathlib import Path
+          from urllib.parse import urlsplit
+
+          sys.path.insert(0, "..")
+          import build
+
+          cache = json.loads(Path("../cache.json").read_text(encoding="utf-8"))
+          breves = cache.get("breves", [])
+          seleccionadas = build.seleccionar_breves_publicos(breves, cache.get("noticias", []))
+          assert len(seleccionadas) == 5, (
+              f"Se esperaban 5 notas visibles y quedaron {len(seleccionadas)}: "
+              + ", ".join(str(x.get("titulo")) for x in seleccionadas)
+          )
+          for breve in seleccionadas:
+              palabras = len(str(breve.get("texto", "")).split())
+              assert 45 <= palabras <= 100, f"Extensión incorrecta: {breve.get('titulo')}"
+              assert breve.get("ambito") in {"Cali", "Valle del Cauca", "Colombia"}
+              tarjeta = build.tarjeta_breve(breve)
+              assert breve["titulo"] in tarjeta
+              assert "Redacción CEV NOTICIAS" in tarjeta
+              for fuente in breve.get("fuentes", []):
+                  assert fuente["nombre"] in tarjeta
+                  assert fuente["url"] not in tarjeta
+                  dominio = urlsplit(fuente["url"]).hostname or ""
+                  assert dominio not in tarjeta
+              assert "href=" not in tarjeta
+          print("Correcto: las cinco notas reales pasan filtros y muestran crédito sin enlaces externos.")
+          PY
+
       - name: Probar que el sitio público solo contiene artículos propios
         run: |
           python - <<'PY'
