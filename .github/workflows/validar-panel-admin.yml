@@ -198,7 +198,7 @@ jobs:
               assert not (build.SITE / "actualidad.html").exists()
               assert "Qué aporta esta cobertura" in pagina_articulo
               assert "La cobertura explica el efecto local" in pagina_articulo
-              assert "Última hora · Lo más destacado" in portada
+              assert "Lo más destacado de la semana" in portada
               assert breve["titulo"] in portada
               assert "Fuente de prueba externa" in portada
               assert "otro-medio.example" not in portada
