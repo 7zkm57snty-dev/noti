@@ -2,8 +2,8 @@ name: Actualizar radar RSS CEV NOTICIAS
 
 on:
   schedule:
-    # Independiente de la cola editorial: se actualiza cada 20 minutos.
-    - cron: "10,30,50 * * * *"
+    # Independiente de la cola editorial: se actualiza cada 30 minutos.
+    - cron: "15,45 * * * *"
   workflow_dispatch:
   push:
     branches: [main]
@@ -16,7 +16,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: cev-radar-rss
+  group: cev-contenido-y-radar
   cancel-in-progress: false
 
 jobs:
@@ -46,4 +46,38 @@ jobs:
             exit 0
           fi
           git commit -m "Actualizar radar RSS automáticamente"
-          git push origin HEAD:main
+          pushed=false
+          for attempt in 1 2 3; do
+            git fetch origin main
+            if ! git rebase origin/main; then
+              git rebase --abort || true
+              echo "No fue posible integrar los cambios remotos sin conflicto."
+              exit 1
+            fi
+            if git push origin HEAD:main; then
+              pushed=true
+              break
+            fi
+            echo "La rama principal avanzó durante el guardado. Se reintentará ($attempt/3)."
+            sleep 2
+          done
+          if [ "$pushed" != "true" ]; then
+            echo "No se pudo guardar tras tres intentos." >&2
+            exit 1
+          fi
+
+                    for attempt in 1 2 3; do
+            git fetch origin main
+            if ! git rebase origin/main; then
+              git rebase --abort || true
+              echo "No fue posible integrar los cambios remotos sin conflicto."
+              exit 1
+            fi
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+            echo "La rama principal avanzó durante el guardado. Se reintentará ($attempt/3)."
+            sleep 2
+          done
+          echo "No se pudo guardar tras tres intentos." >&2
+          exit 1

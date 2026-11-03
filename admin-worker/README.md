@@ -9,13 +9,13 @@ Worker privado para `admin.cevnoticias.com`, integrado con el repositorio `7zkm5
 - El token de GitHub solo se lee desde el secreto `GITHUB_TOKEN` del Worker. Nunca se devuelve al navegador.
 - Las noticias automáticas pasan directamente a `cache.json` y se publican en el sitio cuando superan las verificaciones editoriales y técnicas del workflow.
 - Las altas, ediciones y retiros manuales desde el panel crean una rama `revision-admin/*` y una propuesta contra `main`; esas propuestas sí requieren aprobación.
-- El recolector se ejecuta cada 20 minutos, puede generar hasta cuatro artículos por ejecución y tiene un máximo de 20 artículos válidos por día en hora de Colombia. Además, mantiene un límite independiente de 40 solicitudes diarias al modelo y registra ambos contadores en `automation_state.json`.
+- El recolector se ejecuta cada 30 minutos, puede generar hasta cuatro artículos por ejecución y tiene un máximo de 20 artículos válidos por día en hora de Colombia. Además, mantiene un límite independiente de 40 solicitudes diarias al modelo y registra ambos contadores en `automation_state.json`.
 - Aprobar fusiona la propuesta y el panel espera a que el workflow de GitHub Pages termine. Antes de marcar la actualización como completada, el workflow consulta el dominio público sin caché y compara portada, titular, resumen, cuerpo y fotografía con cache.json. Rechazar cierra la propuesta.
 - `cache.json` conserva las noticias propias y sigue siendo la fuente del sitio público.
 - `radar_rss.json` conserva por separado los titulares externos, la salud de cada feed y la fecha de actualización. El recolector lo actualiza directamente en `main`, sin esperar a que se apruebe o se descarte una noticia propia.
 - Las actualizaciones de `radar_rss.json` no reconstruyen el sitio público; el radar se consulta desde el panel privado.
-- Los cambios en `feeds.json`, `redactor.py` o el propio workflow activan una comprobación RSS, además del ciclo programado cada 20 minutos.
-- El workflow automático se pausa tanto ante propuestas automáticas como ante propuestas creadas desde el panel.
+- Los cambios en `feeds.json`, `redactor.py` o el propio workflow activan una comprobación RSS, además del ciclo programado cada 30 minutos.
+- El workflow automático se pausa tanto ante propuestas automáticas como ante propuestas creadas desde el panel. El redactor retoma la investigación cuando la cola queda resuelta. El radar RSS continúa por separado, y ambos procesos comparten una misma cola de ejecución para evitar conflictos de escritura en main; los guardados hacen hasta tres intentos de sincronización si la rama principal avanza.
 
 ## Conectar el Worker existente a GitHub
 
@@ -40,6 +40,7 @@ En GitHub crea un Fine-grained personal access token:
   - Metadata: Read-only.
   - Contents: Read and write.
   - Pull requests: Read and write.
+  - Actions: Read and write (para iniciar una consulta manual del radar RSS desde el panel).
 
 En Cloudflare → Workers & Pages → `cev-admin` → Settings → Variables and Secrets:
 1. En Production, elige Add variable.
@@ -48,7 +49,11 @@ En Cloudflare → Workers & Pages → `cev-admin` → Settings → Variables and
 4. Pega el token directamente en Cloudflare y guarda.
 5. No lo pegues en GitHub, no lo añadas a archivos y no lo compartas en el chat.
 
-El token habilita lectura de `cache.json`, creación de ramas y pull requests, cierre y fusión de propuestas. Limítalo al repositorio de CEV NOTICIAS y establece una expiración razonable.
+El token habilita lectura de `cache.json`, creación de ramas y pull requests, cierre y fusión de propuestas, además de ejecutar manualmente el flujo del radar RSS. Limítalo al repositorio de CEV NOTICIAS y establece una expiración razonable.
+
+## Activar el generador de titulares con IA
+
+En Cloudflare → Workers & Pages → `cev-admin` → Settings → Variables and Secrets, añade un secreto llamado `GROQ_API_KEY` con una clave válida de Groq. El asistente utiliza `openai/gpt-oss-20b`; la clave se mantiene en el Worker y nunca se envía al navegador. La interfaz muestra si la variable está conectada.
 
 ## Probar
 
@@ -70,7 +75,7 @@ Después de que Cloudflare despliegue la versión y el secreto exista, abre `htt
 - El resumen muestra las últimas ejecuciones del recolector RSS, su estado y enlace al detalle de GitHub Actions.
 - El directorio de fuentes lista los RSS configurados y distingue los que respondieron, los que no devolvieron entradas y los que fallaron.
 - El registro de cada fuente indica las entradas recibidas y los titulares recientes que superaron el filtro de fecha.
-- La automatización puede publicar hasta cuatro artículos por ejecución y 20 por día, siempre que superen las validaciones; tiene un tope adicional de 40 solicitudes al modelo al día y respeta una pausa mínima de 20 minutos entre ciclos.
+- La automatización puede publicar hasta cuatro artículos por ejecución y 20 por día, siempre que superen las validaciones; tiene un tope adicional de 40 solicitudes al modelo al día y respeta una pausa mínima de 20 minutos entre solicitudes al modelo.
 - Las publicaciones automáticas llevan la firma institucional `CEV NOTICIAS`. Los titulares externos del Radar RSS nunca se convierten directamente en artículos propios.
 - El catálogo técnico de sismos del Servicio Geológico Colombiano no se procesa como RSS editorial: requiere un conector de datos estructurados independiente.
 

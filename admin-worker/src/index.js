@@ -96,9 +96,31 @@ async function registrarFuentesDePropuestaRechazada(env,branch) {
 
 async function reviews(env) {
   const all=await gh("/repos/"+OWNER+"/"+REPO+"/pulls?state=open&per_page=100&sort=created&direction=desc",env);
-  return all.filter(p=>p.base&&p.base.ref===MAIN&&p.head&&managedBranch(p.head.ref)).map(p=>({
-    number:p.number,title:p.title,body:p.body||"",url:p.html_url,branch:p.head.ref,createdAt:p.created_at,author:p.user?p.user.login:"GitHub",
-    additions:p.additions||0,deletions:p.deletions||0,changedFiles:p.changed_files||0
+  const managed=all.filter(p=>p.base&&p.base.ref===MAIN&&p.head&&managedBranch(p.head.ref)).slice(0,25);
+  return Promise.all(managed.map(async p=>{
+    let detail=p,files=[];
+    try{detail=await gh("/repos/"+OWNER+"/"+REPO+"/pulls/"+p.number,env)}catch(_){}
+    try{files=await gh("/repos/"+OWNER+"/"+REPO+"/pulls/"+p.number+"/files?per_page=100",env)}catch(_){}
+    const fileRows=(Array.isArray(files)?files:[]).map(f=>({
+      filename:String(f.filename||"archivo"),
+      status:String(f.status||"modified"),
+      additions:Number(f.additions)||0,
+      deletions:Number(f.deletions)||0,
+      changes:Number(f.changes)||0
+    }));
+    const add=Number(detail.additions),del=Number(detail.deletions),body=String(detail.body||p.body||"");
+    const proposedTitles=[...body.matchAll(/^###\s+(.+)$/gm)].map(m=>m[1].trim()).filter(Boolean).slice(0,20);
+    return {
+      number:p.number,title:detail.title||p.title,body,url:p.html_url,
+      branch:p.head.ref,createdAt:detail.created_at||p.created_at,
+      updatedAt:detail.updated_at||p.updated_at||p.created_at,
+      author:p.user?p.user.login:"GitHub",draft:Boolean(detail.draft),
+      additions:Number.isFinite(add)?add:fileRows.reduce((sum,x)=>sum+x.additions,0),
+      deletions:Number.isFinite(del)?del:fileRows.reduce((sum,x)=>sum+x.deletions,0),
+      changedFiles:Number(detail.changed_files)||fileRows.length,
+      statsAvailable:(Number.isFinite(add)&&Number.isFinite(del)&&Number(detail.changed_files)>0)||fileRows.length>0,
+      files:fileRows.slice(0,20),proposedTitles
+    };
   }));
 }
 async function readRSSRadar(env,fallback) {
@@ -289,7 +311,19 @@ async function dashboard(env,identity) {
     rssHeadlines:radar.titulares_rss,
     reviews:r[1],
     feeds:r[2].map(f=>({nombre:String(f.nombre||"Fuente"),url:String(f.url||""),zona:String(f.zona||"Nacional / internacional")})),
-    feedStatus:radar.estado_fuentes,
+    feedStatus:(radar.estado_fuentes||[]).map(x=>{
+      const sourceState=String(x.estado||"").toLowerCase();
+      const detail=String(x.detalle||x.error||"");
+      const normalized=sourceState==="correcto"?"ok":
+        (sourceState==="sin_novedades"||detail.toLowerCase().includes("no contiene entradas")?"sin_entradas":"error");
+      return {
+        nombre:String(x.nombre||"Fuente RSS"),estado:normalized,
+        entradas_rss:Number(x.titulares)||0,titulares_vigentes:Number(x.titulares)||0,
+        error:normalized==="error"?detail:"",
+        ultima_consulta:x.ultima_consulta||radar.ultima_actualizacion||null
+      };
+    }),
+    headlineAIConfigured:Boolean(env.GROQ_API_KEY),
     automation:r[3],
     automationLimits:{
       articlesToday:r[4].fecha_articulos_dia===dateISOCO()?(Number(r[4].articulos_generados_dia)||0):0,
@@ -305,7 +339,8 @@ async function dashboard(env,identity) {
       lastRequest:r[4].ultima_solicitud_groq||""
     },
     rssCount:radar.titulares_rss.length,
-    latestUpdate:radar.ultima_actualizacion
+    latestUpdate:radar.ultima_actualizacion,
+    latestNewsUpdate:r[0].data.ultima_actualizacion||null
   };
 }
 async function publicationStatus(env,sha) {
@@ -360,6 +395,79 @@ async function downloadPhoto(urlValue,nameValue){
  }});
 }
 
+
+async function createHeadlineOptions(body,env) {
+  if(!env.GROQ_API_KEY) throw new AdminError(503,"No está activada la IA de titulares. Agrega el secreto GROQ_API_KEY en Cloudflare Workers → cev-admin → Settings → Variables and Secrets.");
+  const title=String(body.titulo||"").trim(),summary=String(body.resumen||"").trim();
+  const content=String(body.contenido||"").trim().slice(0,8500);
+  const category=String(body.categoria||"").trim(),tone=String(body.estilo||"impact").trim();
+  const toneText={
+    impact:"Picante y profesional: directo, contundente y con gancho periodístico, sin sensacionalismo ni exageraciones.",
+    inform:"Informativo: neutral, preciso, claro y centrado en el hecho comprobado.",
+    curious:"Intriga periodística: despierta interés con una pregunta o un ángulo relevante, sin ocultar información ni insinuar hechos no demostrados."
+  }[tone]||"Picante y profesional: directo, contundente y con gancho periodístico, sin sensacionalismo ni exageraciones.";
+  if(title.length<12||summary.length<30||content.length<100) throw new AdminError(400,"La noticia no tiene suficiente contexto para proponer titulares.");
+  const prompt=[
+    "Redacta cinco versiones realmente distintas del titular de una noticia para un medio digital colombiano.",
+    "Cada titular debe cambiar la construcción sintáctica, el orden de la información y el ángulo narrativo; no repitas el original con un sufijo.",
+    "Estilo solicitado: "+toneText,
+    "Usa exclusivamente hechos expresamente presentes en el título, resumen o texto proporcionados.",
+    "No inventes cifras, fechas, lugares, personas, declaraciones, causas, consecuencias ni acusaciones.",
+    "No conviertas hipótesis en hechos. No uses comillas si no existe una cita textual verificable.",
+    "Cada titular debe tener entre 45 y 125 caracteres, ser legible y funcionar por sí solo.",
+    "Evita que las cinco opciones comiencen con la misma estructura.",
+    "Devuelve exclusivamente JSON válido con una propiedad opciones que contenga exactamente cinco titulares.",
+    "",
+    "CATEGORÍA: "+category,
+    "TITULAR ORIGINAL: "+title,
+    "RESUMEN: "+summary,
+    "CONTENIDO DE LA NOTICIA: "+content
+  ].join("\n");
+  let response;
+  try{
+    response=await fetch("https://api.groq.com/openai/v1/chat/completions",{
+      method:"POST",
+      headers:{"authorization":"Bearer "+env.GROQ_API_KEY,"content-type":"application/json"},
+      body:JSON.stringify({
+        model:"openai/gpt-oss-20b",
+        messages:[
+          {role:"system",content:"Eres editor de titulares de CEV NOTICIAS. Prioriza fidelidad factual, claridad y variedad real de redacción. Nunca inventes información. Devuelve JSON válido."},
+          {role:"user",content:prompt}
+        ],
+        response_format:{
+          type:"json_schema",
+          json_schema:{
+            name:"headline_options",strict:true,
+            schema:{
+              type:"object",
+              properties:{opciones:{type:"array",items:{type:"string"},minItems:5,maxItems:5}},
+              required:["opciones"],additionalProperties:false
+            }
+          }
+        },
+        reasoning_format:"hidden",reasoning_effort:"low",
+        temperature:0.7,max_completion_tokens:1000
+      })
+    });
+  }catch(_){throw new AdminError(502,"No fue posible conectar con el servicio de generación de titulares.");}
+  if(!response.ok){
+    if(response.status===401||response.status===403)throw new AdminError(503,"Groq rechazó la clave GROQ_API_KEY configurada en Cloudflare.");
+    if(response.status===429)throw new AdminError(503,"Se alcanzó temporalmente el límite de generación de titulares. Inténtalo más tarde.");
+    throw new AdminError(502,"El servicio de titulares no pudo generar las alternativas en este momento.");
+  }
+  let payload;
+  try{payload=await response.json()}catch(_){throw new AdminError(502,"El servicio de titulares devolvió una respuesta no válida.");}
+  let parsed;
+  try{parsed=JSON.parse(String(payload?.choices?.[0]?.message?.content||""))}
+  catch(_){throw new AdminError(502,"No se pudo interpretar la respuesta del generador de titulares.");}
+  const original=title.toLowerCase().replace(/\s+/g," ").trim();
+  const options=[...new Set((Array.isArray(parsed.opciones)?parsed.opciones:[])
+    .map(x=>String(x||"").trim())
+    .filter(x=>x.length>=35&&x.length<=140&&x.toLowerCase().replace(/\s+/g," ").trim()!==original))].slice(0,5);
+  if(options.length<3)throw new AdminError(502,"El generador no produjo suficientes titulares distintos. Vuelve a intentarlo.");
+  return {ok:true,opciones:options,modelo:"openai/gpt-oss-20b"};
+}
+
 async function api(request,env,identity) {
   const url=new URL(request.url),path=url.pathname,method=request.method.toUpperCase();
   if(method==="GET"&&path==="/api/dashboard") return json(await dashboard(env,identity));
@@ -371,6 +479,16 @@ async function api(request,env,identity) {
   if(method==="GET"&&path==="/api/health") {
     if(!env.GITHUB_TOKEN)return json({ok:false,message:"Falta configurar GITHUB_TOKEN."},503);
     await gh("/repos/"+OWNER+"/"+REPO,env);return json({ok:true,repository:OWNER+"/"+REPO});
+  }
+  if(method==="POST"&&path==="/api/radar/refresh"){
+    if(request.headers.get("origin")!==ORIGIN)return json({error:"Origen no autorizado."},403);
+    await gh("/repos/"+OWNER+"/"+REPO+"/actions/workflows/radar-rss.yml/dispatches",env,"POST",{ref:MAIN});
+    return json({ok:true,message:"Consulta RSS solicitada. El radar se actualizará cuando termine el ciclo de lectura."});
+  }
+  if(method==="POST"&&path==="/api/headlines"){
+    if(request.headers.get("origin")!==ORIGIN)return json({error:"Origen no autorizado."},403);
+    let body={};try{body=await request.json()}catch(_){throw new AdminError(400,"El cuerpo de la solicitud no contiene JSON válido.");}
+    return json(await createHeadlineOptions(body,env));
   }
   if(!["POST","PATCH","DELETE"].includes(method)) return json({error:"Ruta no encontrada."},404);
   if(request.headers.get("origin")!==ORIGIN) return json({error:"Origen no autorizado."},403);
