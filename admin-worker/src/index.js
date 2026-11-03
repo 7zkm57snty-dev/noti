@@ -480,6 +480,11 @@ async function api(request,env,identity) {
     if(!env.GITHUB_TOKEN)return json({ok:false,message:"Falta configurar GITHUB_TOKEN."},503);
     await gh("/repos/"+OWNER+"/"+REPO,env);return json({ok:true,repository:OWNER+"/"+REPO});
   }
+  if(method==="POST"&&path==="/api/radar/refresh"){
+    if(request.headers.get("origin")!==ORIGIN)return json({error:"Origen no autorizado."},403);
+    await gh("/repos/"+OWNER+"/"+REPO+"/actions/workflows/radar-rss.yml/dispatches",env,"POST",{ref:MAIN});
+    return json({ok:true,message:"Consulta RSS solicitada. El radar se actualizará cuando termine el ciclo de lectura."});
+  }
   if(method==="POST"&&path==="/api/headlines"){
     if(request.headers.get("origin")!==ORIGIN)return json({error:"Origen no autorizado."},403);
     let body={};try{body=await request.json()}catch(_){throw new AdminError(400,"El cuerpo de la solicitud no contiene JSON válido.");}
