@@ -25,12 +25,14 @@ AUTOMATION_STATE = os.path.join(BASE, "automation_state.json")
 
 MODELO = "openai/gpt-oss-20b"
 MAX_NOTICIAS = 20
-MAX_ARTICULOS_POR_EJECUCION = 4
-MAX_ARTICULOS_DIARIOS = 20
-MAX_SOLICITUDES_POR_EJECUCION = 4
-MAX_GRUPOS_REVISADOS_POR_EJECUCION = 24
+MAX_ARTICULOS_POR_EJECUCION = 5
+MAX_ARTICULOS_DIARIOS = 30
+MAX_SOLICITUDES_POR_EJECUCION = 5
+MAX_GRUPOS_REVISADOS_POR_EJECUCION = 36
 MINUTOS_ENTRE_SOLICITUDES = 20
-MAX_SOLICITUDES_DIARIAS = 40
+MAX_SOLICITUDES_DIARIAS = 60
+MAX_FUENTES_POR_ARTICULO = 4
+MAX_CARACTERES_POR_FUENTE = 9000
 MAX_TITULARES_POR_CATEGORIA = 10
 MAX_EDAD_TITULARES_HORAS = 72
 MAX_ARTICULOS_ANTERIORES = 150
@@ -406,28 +408,56 @@ def fecha_mas_reciente_grupo(grupo):
     return max(fechas, default=0)
 
 
+def prioridad_de_investigacion(fuente):
+    """Ordena primero documentos y comunicados primarios; después, prensa independiente."""
+    host = (urlparse(str(fuente.get("url", "")).strip()).hostname or "").lower()
+    oficiales = (
+        ".gov.co", ".gov", ".gob.es", ".gov.uk", ".gov.au",
+        "cali.gov.co", "valledelcauca.gov.co", "emcali.com.co",
+        "policia.gov.co", "fiscalia.gov.co", "dane.gov.co",
+        "minsalud.gov.co", "mintransporte.gov.co"
+    )
+    if any(host.endswith(dominio) for dominio in oficiales):
+        nivel = 0
+    else:
+        nivel = 1
+    return (nivel, -fecha_a_timestamp(fuente.get("fecha")))
+
+
 def leer_contenidos(grupo):
+    """Recupera hasta cuatro textos completos de dominios distintos para investigar un hecho."""
     fuentes_validas = []
+    dominios_leidos = set()
+    candidatas = sorted(
+        grupo.get("fuentes", []),
+        key=prioridad_de_investigacion
+    )
 
-    # Dos medios independientes bastan para contrastar sin inflar el contexto.
-    for fuente in grupo["fuentes"][:2]:
-        texto = extraer_articulo(fuente["url"])
+    for fuente in candidatas:
+        if len(fuentes_validas) >= MAX_FUENTES_POR_ARTICULO:
+            break
+        url = str(fuente.get("url", "")).strip()
+        host = (urlparse(url).hostname or "").lower().removeprefix("www.")
+        if not url.startswith("https://") or not host or host in dominios_leidos:
+            continue
 
+        texto = extraer_articulo(url)
         if len(texto) < 500:
-            print(
-                "Texto insuficiente:",
-                fuente["fuente"],
-                fuente["titulo"]
-            )
+            print("Texto insuficiente:", fuente.get("fuente"), fuente.get("titulo"))
             continue
 
         fuentes_validas.append({
-            "nombre": fuente["fuente"],
-            "titulo": fuente["titulo"],
-            "url": fuente["url"],
-            "texto": texto[:6500]
+            "nombre": str(fuente.get("fuente") or "Fuente consultada"),
+            "titulo": str(fuente.get("titulo") or ""),
+            "url": url,
+            "texto": texto[:MAX_CARACTERES_POR_FUENTE]
         })
+        dominios_leidos.add(host)
 
+    print(
+        f"Investigación documental: {len(fuentes_validas)} textos recuperados "
+        f"de {len(dominios_leidos)} dominios."
+    )
     return fuentes_validas
 
 
@@ -445,93 +475,88 @@ INFORMACIÓN:
         )
 
     instrucciones = f"""
-Eres periodista de CEV NOTICIAS, un periódico digital
-independiente dirigido al público colombiano.
+Eres parte de la mesa de investigación y redacción de CEV NOTICIAS,
+un medio digital independiente con prioridad informativa en Cali,
+el Valle del Cauca, Colombia y la actualidad internacional.
 
-Debes elaborar un artículo periodístico ORIGINAL.
+Tu tarea NO es resumir ni parafrasear el primer titular. Debes producir
+una cobertura periodística propia a partir de una investigación documental
+que contraste los textos completos disponibles.
 
-TÍTULO DE REFERENCIA:
+TEMA DETECTADO POR EL RADAR:
 {titulo_referencia}
 
-INFORMACIÓN DE LOS MEDIOS:
+MATERIAL DOCUMENTAL RECUPERADO:
 {''.join(material)}
 
-REGLAS PERIODÍSTICAS:
+MÉTODO DE INVESTIGACIÓN OBLIGATORIO:
+1. Identifica el hecho central, su fecha, lugar, protagonistas y qué cambió.
+2. Compara los textos: separa hechos coincidentes, datos que solo aporta
+   una fuente, versiones oficiales, testimonios atribuidos y contradicciones.
+3. Busca un enfoque periodístico útil para el lector de CEV NOTICIAS.
+   No reproduzcas la estructura ni el orden de los artículos consultados.
+4. Añade contexto comprobable que ayude a entender las consecuencias,
+   antecedentes inmediatos, alcance local o nacional y próximos pasos.
+5. Explica qué se sabe y qué todavía no está confirmado. Si faltan datos
+   importantes, dilo de manera explícita y no los rellenes.
+6. Si las fuentes solo repiten el mismo comunicado, no las presentes como
+   confirmaciones independientes.
+7. Si solo hay un texto recuperado, solo puedes elaborar una nota breve
+   de servicio o información atribuida cuando el documento sea primario
+   y verificable. Para sucesos sensibles o acusaciones, descarta.
+8. Si el material no permite responder qué ocurrió, dónde, cuándo y por
+   qué importa, devuelve "descartar": true.
 
-1. Utiliza únicamente hechos respaldados por las fuentes.
-2. No copies los artículos originales.
-3. No inventes nombres, fechas, cifras, declaraciones ni acontecimientos.
-4. Contrasta los datos entre los medios.
-5. Si hay contradicciones importantes, descarta la noticia.
-6. No inventes citas textuales.
-7. No presentes rumores como hechos confirmados.
-8. Explica qué ocurrió, dónde, cuándo y por qué es relevante,
-   siempre que las fuentes permitan responderlo.
-9. Redacta en español colombiano, con estilo periodístico
-   claro, profesional y natural.
-10. No incluyas enlaces externos dentro del artículo.
-11. No incluyas publicidad ni contenido promocional.
-12. No rellenes el texto con opiniones o información inventada.
-13. Si no existe suficiente información para un artículo
-    desarrollado, responde con "descartar": true.
-14. Para accidentes, homicidios, robos, hurtos, capturas,
-    víctimas, denuncias y controversias políticas, exige
-    corroboración de al menos dos fuentes independientes.
-    Si solo hay una fuente, descarta el artículo. En noticias
-    generales de bajo riesgo puede bastar una fuente fiable,
-    siempre atribuyendo la información.
-15. Distingue los comunicados oficiales de los hechos
-    confirmados de manera independiente. Atribuye siempre
-    la información a la entidad que la comunica.
-16. La categoría "Tendencias" solo se usa cuando el tema
-    muestra atención creciente o aparece en varias fuentes.
-17. "Humor y opinión" se reserva para sátira y humor
-    claramente identificados; nunca inventes hechos ni
-    presentes una broma como noticia real.
-18. Mantén el humor ocasional y minoritario frente a
-    la cobertura informativa.
-19. No incluyas contenido promocional ni datos que no estén respaldados.
+REGLAS DE AUTORÍA Y EXACTITUD:
+- Redacta desde cero en español colombiano, con voz periodística natural.
+- El artículo debe aportar contexto, explicación y datos, no solo cambiar
+  palabras del material fuente.
+- No inventes cifras, nombres, declaraciones, causas, responsables,
+  reacciones, antecedentes ni consecuencias.
+- No inventes citas textuales. Parafrasea con atribución clara.
+- Distingue entre lo que afirma una autoridad y lo que está verificado
+  por otras fuentes.
+- No conviertas una denuncia, hipótesis o versión preliminar en hecho.
+- Evita adjetivos sensacionalistas que alteren el sentido de los hechos.
+- No incluyas publicidad, frases de relleno ni conclusiones genéricas.
+- No incluyas enlaces dentro del cuerpo del artículo; las referencias
+  se adjuntan en el apartado de fuentes del sitio.
 
-La extensión deseada es de 350 a 550 palabras,
-pero nunca debes inventar información para alcanzar esa extensión.
+ESTRUCTURA DEL ARTÍCULO:
+- Extensión orientativa: 400 a 600 palabras, solo si el material lo permite.
+- Entre 6 y 9 párrafos sustanciales, con una idea útil en cada uno.
+- Apertura: el hecho y la novedad principal, sin rodeos.
+- Desarrollo: datos concretos, versiones atribuidas, contraste y cronología.
+- Contexto: por qué importa para los habitantes o para el país.
+- Cierre: qué falta por conocerse, qué sigue o cuál es el estado actual.
+- No repitas el resumen en el primer párrafo.
 
-Elige UNA categoría correcta de esta lista:
+CATEGORÍA:
+Elige UNA de estas categorías:
 {", ".join(CATEGORIAS)}
-
-No clasifiques una noticia local como internacional.
-No clasifiques una noticia deportiva en Colombia si
-su tema principal es el deporte.
-
-CRITERIO TERRITORIAL OBLIGATORIO:
-- "Cali": el hecho ocurre principalmente dentro de Santiago de Cali.
-- "Valle del Cauca": el hecho ocurre en otro municipio del departamento.
-- "Colombia": el hecho ocurre en otra región del país o es de alcance nacional.
-- "Internacional": el hecho ocurre fuera de Colombia.
-No uses "Colombia" para ocultar una noticia que corresponde a Cali
-o a otro municipio del Valle del Cauca.
+- "Cali": el hecho ocurre principalmente en Santiago de Cali.
+- "Valle del Cauca": ocurre en otro municipio del departamento.
+- "Colombia": ocurre en otra región del país o tiene alcance nacional.
+- "Internacional": ocurre fuera de Colombia.
+- No clasifiques una noticia local como internacional o nacional.
+- No clasifiques una noticia deportiva general como actualidad de Colombia.
 
 ESTADO DE LA INFORMACIÓN:
-- Usa "confirmada" cuando los hechos centrales estén respaldados
-  por las fuentes disponibles y no haya contradicciones relevantes.
-- Usa "en_desarrollo" cuando el acontecimiento siga ocurriendo,
-  las autoridades aún estén verificando datos o el balance pueda cambiar.
-- Usa "informacion_preliminar" cuando los datos centrales procedan
-  de reportes iniciales, versiones no confirmadas o información parcial.
-- No marques una noticia como preliminar solo por tener una fuente:
-  evalúa si esa fuente respalda claramente los hechos publicados.
-- Nunca inventes confirmaciones, cifras, causas ni responsables.
-- Si una afirmación relevante no está confirmada, atribúyela a su fuente
-  y marca el estado correspondiente.
+- "confirmada": hechos centrales corroborados y sin contradicciones relevantes.
+- "en_desarrollo": el acontecimiento sigue ocurriendo o el balance puede cambiar.
+- "informacion_preliminar": los datos son iniciales o están sujetos a verificación.
+Atribuye las afirmaciones que no estén confirmadas.
 
 Devuelve exclusivamente JSON válido con esta estructura:
-
 {{
   "descartar": false,
-  "titulo": "Título original",
+  "titulo": "Titular propio, preciso y atractivo",
   "titular_instagram": "Titular breve, llamativo y fiel a los hechos",
-  "resumen": "Resumen de la noticia",
+  "resumen": "Resumen propio que explique el hecho y su relevancia",
   "categoria": "Categoría",
   "estado_informacion": "confirmada | en_desarrollo | informacion_preliminar",
+  "enfoque_original": "Qué aporta esta cobertura de CEV frente a la información inicial, con datos concretos",
+  "hechos_clave": ["Hecho verificable 1", "Hecho verificable 2", "Hecho verificable 3"],
   "contenido": "Artículo completo con párrafos separados"
 }}
 """
@@ -568,8 +593,23 @@ Devuelve exclusivamente JSON válido con esta estructura:
     if not titulo or not resumen:
         return None
 
-    if len(contenido.split()) < 300:
-        print("Artículo demasiado corto.")
+    palabras_articulo = len(contenido.split())
+    parrafos = [p.strip() for p in contenido.split("\\n\\n") if p.strip()]
+    enfoque_original = str(articulo.get("enfoque_original", "")).strip()
+    hechos_clave = articulo.get("hechos_clave", [])
+    hechos_clave = [
+        str(hecho).strip() for hecho in hechos_clave
+        if str(hecho).strip()
+    ] if isinstance(hechos_clave, list) else []
+
+    if palabras_articulo < 380:
+        print(f"Artículo descartado: solo {palabras_articulo} palabras; mínimo 380.")
+        return None
+    if len(parrafos) < 5:
+        print(f"Artículo descartado: solo {len(parrafos)} párrafos sustanciales.")
+        return None
+    if len(enfoque_original) < 45 or len(hechos_clave) < 3:
+        print("Artículo descartado: no explica su aporte original o no identifica tres hechos clave.")
         return None
 
     estado_informacion = str(articulo.get("estado_informacion", "actualidad")).strip().lower()
@@ -583,6 +623,8 @@ Devuelve exclusivamente JSON válido con esta estructura:
         "categoria": articulo["categoria"],
         "contenido": contenido,
         "estado_informacion": estado_informacion,
+        "enfoque_original": enfoque_original,
+        "hechos_clave": hechos_clave[:6],
         "descripcion_instagram": str(articulo.get("descripcion_instagram", "")).strip()
     }
 
@@ -1192,6 +1234,13 @@ def ejecutar():
                     "categoria": articulo["categoria"],
                     "contenido": articulo["contenido"],
                     "estado_informacion": articulo.get("estado_informacion", "confirmada"),
+                    "investigacion": {
+                        "enfoque_original": articulo.get("enfoque_original", ""),
+                        "hechos_clave": articulo.get("hechos_clave", []),
+                        "fuentes_recuperadas": len(fuentes),
+                        "dominios_independientes": len(dominios),
+                        "fecha": datetime.now(timezone.utc).isoformat()
+                    },
                     "imagen": imagen_info["url"] if imagen_info else "",
                     "imagen_credito": imagen_info or {},
                     "imagen_busqueda_intentada": True,
