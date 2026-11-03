@@ -84,7 +84,7 @@ jobs:
               "estado_fuentes": cache.get("estado_fuentes", [])
           }
           Path("radar_rss.json").write_text(
-              json.dumps(radar, ensure_ascii=False, indent=2) + "\\n",
+              json.dumps(radar, ensure_ascii=False, indent=2) + "\n",
               encoding="utf-8"
           )
           print(
