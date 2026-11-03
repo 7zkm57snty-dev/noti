@@ -1451,12 +1451,12 @@ def construir():
     portada = f'<section class="portada-grid">{principal_html}</section>'
     tarjetas_breves = "".join(tarjeta_breve(breve) for breve in breves_publicos)
     seccion_breves = f"""
-    <section class="bloque-breves" id="ultima-hora" aria-label="Última hora y lo más destacado">
+    <section class="bloque-breves" id="ultima-hora" aria-label="Lo más destacado de la semana">
       <div class="breves-encabezado">
         <div>
-          <p class="etiqueta">CEV NOTICIAS · ACTUALIDAD RÁPIDA</p>
-          <h2>Última hora · Lo más destacado</h2>
-          <p>Notas breves y originales de CEV NOTICIAS, elaboradas a partir de información consultada y contrastada. Cubrimos Cali, el Valle del Cauca y Colombia; esta selección se renueva cada cuatro días.</p>
+          <p class="etiqueta">CEV NOTICIAS · RESUMEN DE LA SEMANA</p>
+          <h2>Lo más destacado de la semana</h2>
+          <p>Un repaso de los hechos más relevantes de Cali, el Valle del Cauca y Colombia, con información consultada y contrastada. La selección se renueva cada cuatro días.</p>
           <small class="breves-actualizacion">Edición actualizada: {escapar(fecha_edicion_breves_texto or "En preparación")}</small>
         </div>
         <span class="contador-noticias">{len(breves_publicos)} notas</span>
