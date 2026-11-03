@@ -29,7 +29,7 @@ function dateCO() {
     .formatToParts(new Date()).forEach(x=>p[x.type]=x.value);
   return p.day+"/"+p.month+"/"+p.year+" · "+p.hour+":"+p.minute+" "+p.dayPeriod.toUpperCase();
 }
-function managedBranch(b) { return b==="revision-editorial/noticias-pendientes" || String(b||"").startsWith("revision-admin/"); }
+function managedBranch(b) { return b==="revision-editorial/noticias-pendientes" || String(b||"").startsWith("revision-admin/") || String(b||"").startsWith("feature/centro-diagnostico-automatico"); }
 
 async function gh(path,env,method="GET",body) {
   if(!env.GITHUB_TOKEN) throw new AdminError(503,"Falta configurar el secreto GITHUB_TOKEN en Cloudflare.");
