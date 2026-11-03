@@ -1576,8 +1576,14 @@ body.noche .breve-pie{{border-color:#49535e}}
    const valor=Number(dato?.valor);
    if(!dato||!Number.isFinite(valor)||valor<=0)throw new Error('La fuente no devolvió una tasa válida');
    trmValor.textContent=new Intl.NumberFormat('es-CO',{{style:'currency',currency:'COP',maximumFractionDigits:2}}).format(valor)+' por USD';
-   const vigencia=dato.vigenciadesde?new Date(dato.vigenciadesde):null;
-   trmVigencia.textContent=vigencia&&!Number.isNaN(vigencia.getTime())?'Vigencia: '+vigencia.toLocaleDateString('es-CO',{{day:'2-digit',month:'short',year:'numeric',timeZone:'America/Bogota'}}):'Vigencia oficial más reciente';
+   const desde=dato.vigenciadesde?new Date(dato.vigenciadesde):null;
+   const hasta=dato.vigenciahasta?new Date(dato.vigenciahasta):null;
+   const formatoFecha=fecha=>fecha.toLocaleDateString('es-CO',{{day:'2-digit',month:'short',year:'numeric',timeZone:'America/Bogota'}});
+   if(desde&&!Number.isNaN(desde.getTime())){{
+    const inicio=formatoFecha(desde);
+    const fin=hasta&&!Number.isNaN(hasta.getTime())?formatoFecha(hasta):'';
+    trmVigencia.textContent='Vigente: '+inicio+(fin&&fin!==inicio?' – '+fin:'');
+   }}else{{trmVigencia.textContent='Vigencia oficial más reciente';}}
    trmValor.classList.remove('indicador-error');
   }}catch(error){{
    trmValor.textContent='No disponible';
