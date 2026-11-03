@@ -465,6 +465,11 @@ body.noche .nav-flecha:hover:not(:disabled){{background:#3a2426;border-color:#ff
 .nav-interior{{justify-content:flex-start;overflow-x:auto;scroll-behavior:smooth}}
 .ficha-actualidad .credito-fuente{{margin-top:36px}}
 .ficha-actualidad .credito-fuente .boton{{display:inline-flex;padding:12px 0}}
+.bloque-investigacion{{max-width:780px;margin:28px auto;padding:18px 20px;border-left:3px solid var(--rojo);background:#efece6;font-size:13px;line-height:1.65}}
+.bloque-investigacion strong{{display:block;margin-bottom:7px;text-transform:uppercase;letter-spacing:1px;font-size:10px}}
+.bloque-investigacion p{{margin:6px 0}}
+.bloque-investigacion ul{{margin:8px 0 0;padding-left:20px}}
+body.noche .bloque-investigacion{{background:#262322;color:#eee}}
 .nota-atribucion{{font-size:11px;color:var(--suave);line-height:1.65;margin-top:18px}}
 /* CEV Express: carrusel independiente de la portada y de las secciones */
 .express-modulo{{max-width:var(--ancho);margin:22px auto 12px;padding:0 28px}}
@@ -857,6 +862,21 @@ def crear_articulo(noticia, noticias=None):
         url_fuente = imagen_segura(fuente.get("url", ""))
         texto_fuente = f'<a href="{url_fuente}" target="_blank" rel="noopener noreferrer">{titulo_fuente}</a>' if url_fuente else titulo_fuente
         referencias.append(f"<li>{texto_fuente} · {nombre_fuente}</li>")
+
+    investigacion = noticia.get("investigacion") or {}
+    enfoque = escapar(investigacion.get("enfoque_original", ""))
+    hechos = investigacion.get("hechos_clave") or []
+    hechos = [escapar(hecho) for hecho in hechos if str(hecho).strip()]
+    bloque_investigacion = ""
+    if enfoque or hechos:
+        lista_hechos = "".join(f"<li>{hecho}</li>" for hecho in hechos[:5])
+        bloque_investigacion = f"""
+        <aside class="bloque-investigacion">
+          <strong>Qué aporta esta cobertura</strong>
+          {f'<p>{enfoque}</p>' if enfoque else ''}
+          {f'<ul>{lista_hechos}</ul>' if lista_hechos else ''}
+        </aside>"""
+
     cuerpo = f"""
     <main class="articulo">
       <div class="articulo-cabecera">
@@ -869,6 +889,7 @@ def crear_articulo(noticia, noticias=None):
       </div>
       {foto}
       {atribucion_imagen}
+      {bloque_investigacion}
       <div class="cuerpo">{parrafos}</div>
       <div class="fuentes"><strong>Fuentes consultadas</strong><ul>{''.join(referencias)}</ul>
        <p>Contenido elaborado por CEV NOTICIAS a partir de las fuentes identificadas. Consulta las publicaciones originales para ampliar la información y contrastar los datos.</p>
