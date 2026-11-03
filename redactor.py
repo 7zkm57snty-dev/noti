@@ -16,6 +16,7 @@ from urllib.parse import urlparse
 from zoneinfo import ZoneInfo
 from groq import Groq
 from imagenes import buscar_imagen
+from periodos_breves import obtener_periodo_breves, grupo_en_periodo_breves
 
 LICENCIAS_VALIDAS = ("cc0", "cc-by", "cc-by-sa", "public domain", "publicdomain", "pdm", "cc-zero")
 
@@ -42,7 +43,7 @@ MAX_CARACTERES_POR_FUENTE = 9000
 MAX_TITULARES_POR_CATEGORIA = 10
 MAX_EDAD_TITULARES_HORAS = 72
 MAX_ARTICULOS_ANTERIORES = 150
-MAX_EDAD_HORAS = 72
+MAX_EDAD_HORAS = 120
 SITE = Path(BASE) / "site"
 
 CATEGORIAS = [
@@ -1358,28 +1359,30 @@ def ejecutar():
         estado_automatizacion.get("fecha_ultima_rotacion_breves")
         or cache.get("breves_actualizadas", "")
     )
-    timestamp_ultima_rotacion_breves = fecha_a_timestamp(fecha_ultima_rotacion_breves)
+    periodo_breves_publicado = (
+        estado_automatizacion.get("periodo_breves_publicado")
+        or cache.get("periodo_breves_publicado", "")
+    )
     ahora_local = datetime.now(ZoneInfo("America/Bogota"))
-    lunes_actual = (ahora_local - timedelta(days=ahora_local.weekday())).date()
-    if timestamp_ultima_rotacion_breves:
-        ultima_rotacion_local = datetime.fromtimestamp(
-            timestamp_ultima_rotacion_breves,
-            tz=ZoneInfo("America/Bogota")
+    breves_programados = os.getenv("BREVES_PROGRAMADOS", "false").lower() == "true"
+    periodo_breves = obtener_periodo_breves(ahora_local) if breves_programados else None
+    rotacion_breves_vencida = bool(
+        periodo_breves
+        and periodo_breves.get("clave") != periodo_breves_publicado
+    )
+    if periodo_breves:
+        print(
+            "Edición programada de mini-noticias:",
+            periodo_breves["clave"],
+            "| ventana:",
+            periodo_breves["inicio"].isoformat(),
+            "a",
+            periodo_breves["fin"].isoformat(),
+            "| renovar:",
+            rotacion_breves_vencida
         )
-        lunes_ultima_rotacion = (
-            ultima_rotacion_local - timedelta(days=ultima_rotacion_local.weekday())
-        ).date()
     else:
-        lunes_ultima_rotacion = None
-    rotacion_breves_vencida = (
-        lunes_ultima_rotacion is None
-        or lunes_ultima_rotacion < lunes_actual
-    )
-    print(
-        "Edición semanal de mini-noticias:",
-        "corresponde renovar (lunes de esta semana)" if rotacion_breves_vencida
-        else f"ya corresponde a la semana iniciada el {lunes_actual.isoformat()}"
-    )
+        print("Esta ejecución no corresponde a una de las dos ediciones semanales de mini-noticias.")
 
     print(
         f"Solicitudes Groq usadas hoy: {solicitudes_groq}/"
@@ -1597,8 +1600,8 @@ def ejecutar():
             titulo_grupo = str(grupo.get("titulo", "")).strip()
             if not titulo_grupo:
                 continue
-            if not grupo_corresponde_a_semana_actual(grupo):
-                print("Mini-noticia omitida: el hecho no pertenece a la semana actual (lunes a domingo):", titulo_grupo)
+            if not grupo_en_periodo_breves(grupo, periodo_breves):
+                print("Mini-noticia omitida: el hecho queda fuera de la ventana de esta edición:", titulo_grupo)
                 continue
             fuentes_titular = " ".join(
                 str(f.get("fuente", "")) for f in grupo.get("fuentes", [])
@@ -1706,12 +1709,13 @@ def ejecutar():
                 break
     else:
         if not rotacion_breves_vencida:
-            print("No se generan mini-noticias: la edición se renueva cada lunes, con hechos de la semana que comienza.")
+            print("No se generan mini-noticias: solo se renuevan en las ediciones programadas de lunes y viernes.")
         else:
             print("No hay capacidad de modelo para preparar mini-noticias en esta ejecución.")
 
     if breves_nuevos:
         fecha_ultima_rotacion_breves = datetime.now(timezone.utc).isoformat()
+        periodo_breves_publicado = periodo_breves["clave"]
 
     articulos_hoy += len(nuevas)
     breves_hoy += len(breves_nuevos)
@@ -1729,6 +1733,7 @@ def ejecutar():
         "breves_generados_dia": breves_hoy,
         "fecha_breves_dia": fecha_control,
         "fecha_ultima_rotacion_breves": fecha_ultima_rotacion_breves,
+        "periodo_breves_publicado": periodo_breves_publicado,
         "limite_breves_ejecucion": MAX_BREVES_POR_EJECUCION,
         "limite_solicitudes_diario": MAX_SOLICITUDES_DIARIAS,
         "limite_articulos_ejecucion": MAX_ARTICULOS_POR_EJECUCION,
@@ -1746,6 +1751,7 @@ def ejecutar():
         "noticias": resultado,
         "breves": (breves_nuevos + breves_publicados)[:MAX_BREVES_ANTERIORES],
         "breves_actualizadas": fecha_ultima_rotacion_breves or cache.get("breves_actualizadas", ""),
+        "periodo_breves_publicado": periodo_breves_publicado,
         "titulares_rss": titulares_rss,
         "estado_fuentes": estado_fuentes,
         "ultima_solicitud_groq": ultima_solicitud_groq,
