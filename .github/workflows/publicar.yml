@@ -25,6 +25,8 @@ jobs:
     steps:
       - name: Descargar repositorio
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
 
       - name: Configurar Python
         uses: actions/setup-python@v5
@@ -45,3 +47,11 @@ jobs:
       - name: Publicar CEV NOTICIAS
         id: deployment
         uses: actions/deploy-pages@v4
+
+      - name: Verificar que el dominio público refleja la versión desplegada
+        env:
+          SITE_URL: ${{ steps.deployment.outputs.page_url }}
+          BUILD_SHA: ${{ github.sha }}
+          VERIFY_ATTEMPTS: "55"
+          VERIFY_RETRY_SECONDS: "10"
+        run: python -u verificar_publicacion.py
