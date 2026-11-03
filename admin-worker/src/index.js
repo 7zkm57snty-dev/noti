@@ -60,6 +60,34 @@ async function reviews(env) {
     additions:p.additions||0,deletions:p.deletions||0,changedFiles:p.changed_files||0
   }));
 }
+async function readFeeds(env) {
+  const f=await gh("/repos/"+OWNER+"/"+REPO+"/contents/feeds.json?ref="+MAIN,env);
+  if(!f.content||f.encoding!=="base64") throw new AdminError(502,"No se pudo leer feeds.json.");
+  let data;
+  try{data=JSON.parse(decode64(f.content))}catch(_){throw new AdminError(502,"feeds.json no contiene JSON válido.")}
+  if(Array.isArray(data)) return data;
+  return Array.isArray(data.feeds)?data.feeds:[];
+}
+async function automationRuns() {
+  try {
+    const path="/repos/"+OWNER+"/"+REPO+"/actions/workflows/actualizar.yml/runs?per_page=6";
+    const response=await fetch(API+path,{headers:{"accept":"application/vnd.github+json","user-agent":"CEVNoticias-Admin/1.0"}});
+    if(!response.ok) return [];
+    const data=await response.json();
+    return (data.workflow_runs||[]).map(run=>({
+      id:run.id,
+      status:run.status||"unknown",
+      conclusion:run.conclusion||"",
+      createdAt:run.created_at||"",
+      updatedAt:run.updated_at||"",
+      branch:run.head_branch||"",
+      event:run.event||"",
+      url:run.html_url||""
+    }));
+  } catch(_) {
+    return [];
+  }
+}
 async function submitChange(env,mutate,title,description,imageUpload) {
   const pending=await reviews(env);
   if(pending.length) throw new AdminError(409,"Ya existe una propuesta editorial pendiente. Resuélvela antes de crear otra.",{pending});
@@ -164,10 +192,19 @@ function normalizeSafeFields(cache) {
 }
 
 async function dashboard(env,identity) {
-  if(!env.GITHUB_TOKEN) return {configured:false,user:identity.email||identity.name||"Administrador",news:[],reviews:[]};
-  const r=await Promise.all([readCache(env),reviews(env)]);
-  return {configured:true,user:identity.email||identity.name||"Administrador",news:r[0].data.noticias,reviews:r[1],
-    rssCount:Array.isArray(r[0].data.titulares_rss)?r[0].data.titulares_rss.length:0,latestUpdate:r[0].data.ultima_actualizacion||null};
+  if(!env.GITHUB_TOKEN) return {configured:false,user:identity.email||identity.name||"Administrador",news:[],reviews:[],feeds:[],feedStatus:[],automation:[]};
+  const r=await Promise.all([readCache(env),reviews(env),readFeeds(env),automationRuns()]);
+  return {
+    configured:true,
+    user:identity.email||identity.name||"Administrador",
+    news:r[0].data.noticias,
+    reviews:r[1],
+    feeds:r[2].map(f=>({nombre:String(f.nombre||"Fuente"),url:String(f.url||""),zona:String(f.zona||"Nacional / internacional")})),
+    feedStatus:Array.isArray(r[0].data.estado_fuentes)?r[0].data.estado_fuentes:[],
+    automation:r[3],
+    rssCount:Array.isArray(r[0].data.titulares_rss)?r[0].data.titulares_rss.length:0,
+    latestUpdate:r[0].data.ultima_actualizacion||null
+  };
 }
 async function publicationStatus(env,sha) {
   const response=await gh("/repos/"+OWNER+"/"+REPO+"/actions/runs?head_sha="+encodeURIComponent(sha)+"&per_page=20",env);
