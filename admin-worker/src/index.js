@@ -187,7 +187,7 @@ async function publicationStatus(env,sha) {
 async function api(request,env,identity) {
   const url=new URL(request.url),path=url.pathname,method=request.method.toUpperCase();
   if(method==="GET"&&path==="/api/dashboard") return json(await dashboard(env,identity));
-  const deploymentMatch=path.match(/^\\/api\\/deployments\\/([a-f0-9]{40})$/i);
+  const deploymentMatch=path.match(/^\/api\/deployments\/([a-f0-9]{40})$/i);
   if(method==="GET"&&deploymentMatch) return json(await publicationStatus(env,deploymentMatch[1]));
   if(method==="GET"&&path==="/api/diagnostics") { const r=await readCache(env); return json(runDiagnostics(r.data)); }
   if(method==="POST"&&path==="/api/diagnostics/repair") { const r=await readCache(env); const count=normalizeSafeFields(r.data); if(!count) { const diag=runDiagnostics(r.data); return json({ok:true,changed:0,manualFindings:diag.findings.length,message:"No hay cambios de formato técnico pendientes. Las incidencias detectadas requieren revisión editorial: abre cada publicación con el botón de lápiz, añade o cambia la fotografía y completa sus fuentes según corresponda."}); } const pr=await submitChange(env,(cache,imageUrl)=>{normalizeSafeFields(cache);return cache;},"CEV NOTICIAS | Normalización técnica segura","normalización técnica segura"); return json({ok:true,changed:count,pr,message:"Propuesta de reparación técnica creada. Revisa y aprueba la solicitud antes de publicar."}); }
