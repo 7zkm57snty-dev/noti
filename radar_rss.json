@@ -1,5 +1,5 @@
 {
-  "ultima_actualizacion": "2026-11-03T21:50:23.745385+00:00",
+  "ultima_actualizacion": "2026-11-03T21:57:13.408729+00:00",
   "titulares_rss": [
     {
       "id": "988cbf8bbfc246cc",
@@ -7,7 +7,16 @@
       "categoria": "Internacional",
       "fuente": "BBC Mundo",
       "url": "https://www.bbc.co.uk/mundo/live/cq9vz4g97xy2t?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-03T21:50:23.745385+00:00",
+      "fecha": "2026-11-03T21:57:13.408729+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "a69c98a8ac73866f",
+      "titulo": "Comunidades del Chocó se quedaron esperando la energía comunitaria del Gobierno Petro",
+      "categoria": "Colombia",
+      "fuente": "Chocó 7 días",
+      "url": "https://choco7dias.com/comunidades-del-choco-se-quedaron-esperando-la-energia-comunitaria-del-gobierno-petro/",
+      "fecha": "2026-11-03T21:54:43+00:00",
       "imagen": ""
     },
     {
@@ -17,15 +26,6 @@
       "fuente": "Diario Occidente",
       "url": "https://occidente.co/secciones/salud/gestion-de-las-emociones-equilibrio-del-ser-bienestar-emocional-2026/",
       "fecha": "2026-11-03T21:47:52+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "8a5e3d78f9aa5a3e",
-      "titulo": "Las ‘midterms’ 2026, en vivo | Los votantes acuden a las urnas en unas elecciones en las que Estados Unidos decide el control del Congreso",
-      "categoria": "Internacional",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/us/2026-11-03/las-midterms-2026-en-vivo.html",
-      "fecha": "2026-11-03T21:46:49+00:00",
       "imagen": ""
     },
     {
@@ -110,6 +110,15 @@
       "imagen": ""
     },
     {
+      "id": "c3132af7a4547d06",
+      "titulo": "“No podemos entregar hojas de vida al Gobierno”: el regaño de Uribe a su bancada",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/uribe-hojas-de-vida-gobierno-centro-democratico-mateo-hidalgo-IH43118725",
+      "fecha": "2026-11-03T21:26:15+00:00",
+      "imagen": ""
+    },
+    {
       "id": "b9671d9a35dc9c29",
       "titulo": "Licencia de conducción por puntos: ¿perderían los infractores el derecho a manejar?",
       "categoria": "Economía",
@@ -125,6 +134,15 @@
       "fuente": "La República",
       "url": "https://www.larepublica.co/globoeconomia/ministro-de-transporte-de-espana-anuncia-que-dimitira-tras-el-ultimo-accidente-ferroviario-mortal-4516896",
       "fecha": "2026-11-03T21:24:16+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "8a5e3d78f9aa5a3e",
+      "titulo": "Las ‘midterms’ 2026, en vivo | Las elecciones de Estados Unidos transcurren sin mayores incidentes pese al temor a la presencia de agentes federales",
+      "categoria": "Internacional",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/us/2026-11-03/las-midterms-2026-en-vivo.html",
+      "fecha": "2026-11-03T21:21:48+00:00",
       "imagen": ""
     },
     {
@@ -308,21 +326,21 @@
       "imagen": ""
     },
     {
+      "id": "43a256b89838a239",
+      "titulo": "Embajador Gaona pidió traslado de cinco diplomáticos; sindicato denunció malos tratos y pide investigar",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/unidiplo-denuncia-malos-tratos-traslado-diplomaticos-nueva-york-HF43130272",
+      "fecha": "2026-11-03T20:50:50+00:00",
+      "imagen": ""
+    },
+    {
       "id": "d1aac4989ace1ea2",
       "titulo": "Comunidad de La Buitrera denuncia presuntos retrasos en obras de una cancha deportiva",
       "categoria": "Valle del Cauca",
       "fuente": "90 Minutos",
       "url": "https://90minutos.co/cali/comunidad-buitrera-denuncia-presuntos-retrasos-obras-cancha-3-11-2026/",
       "fecha": "2026-11-03T20:46:59+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "43a256b89838a239",
-      "titulo": "Embajador Gaona pidió traslado de cinco diplomáticos; sindicato denunció malos tratos y pide investigar",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/unidiplo-denuncia-malos-tratos-traslado-diplomaticos-nueva-york-HF43130272",
-      "fecha": "2026-11-03T20:46:47+00:00",
       "imagen": ""
     },
     {
@@ -350,15 +368,6 @@
       "fuente": "Xataka",
       "url": "https://www.xataka.com/movilidad/oscar-puente-anuncia-su-dimision-como-ministro-transportes",
       "fecha": "2026-11-03T20:41:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "c3132af7a4547d06",
-      "titulo": "“No podemos entregar hojas de vida al Gobierno”: el regaño de Uribe a su bancada",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/uribe-hojas-de-vida-gobierno-centro-democratico-mateo-hidalgo-IH43118725",
-      "fecha": "2026-11-03T20:40:56+00:00",
       "imagen": ""
     },
     {
@@ -531,15 +540,6 @@
       "url": "https://www.eldiario.com.co/actualidad/jesus-owono-el-portero-del-andorra-que-cerro-sus-redes-tras-la-muerte-de-jesus-de-miguel/",
       "fecha": "2026-11-03T20:00:46+00:00",
       "imagen": ""
-    },
-    {
-      "id": "ec6bcdfe21855a69",
-      "titulo": "Crudo cae un mínimo de casi cuatro semanas mientras siguen negociaciones de paz",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/crudo-cae-un-minimo-de-casi-cuatro-semanas-mientras-siguen-negociaciones-de-paz-4516830",
-      "fecha": "2026-11-03T20:00:06+00:00",
-      "imagen": ""
     }
   ],
   "estado_fuentes": [
@@ -560,7 +560,7 @@
       "url": "https://www.elespectador.com/rss/",
       "estado": "error",
       "titulares": 0,
-      "detalle": "403 Client Error: Forbidden for url: https://www.elespectador.com/feed/"
+      "detalle": "El feed no contiene entradas."
     },
     {
       "nombre": "La Silla Vacía",
