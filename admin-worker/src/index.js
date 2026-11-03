@@ -71,7 +71,7 @@ async function submitChange(env,mutate,title,description,imageUpload) {
   await gh("/repos/"+OWNER+"/"+REPO+"/git/refs",env,"POST",{ref:"refs/heads/"+branch,sha:ref1.object.sha});
   let uploadedImageUrl="";
   try {
-    if(imageUpload){const types={"image/jpeg":"jpg","image/png":"png","image/webp":"webp"},ext=types[String(imageUpload.type||"")];if(!ext||typeof imageUpload.data!=="string"||imageUpload.data.length>890000)throw new AdminError(400,"Imagen no válida o demasiado grande. Usa JPG, PNG o WebP de máximo 650 KB.");const imagePath="assets/editorial-news/"+crypto.randomUUID()+"."+ext;await gh("/repos/"+OWNER+"/"+REPO+"/contents/"+imagePath,env,"PUT",{message:"Panel CEV: subir fotografía editorial",content:imageUpload.data,branch});uploadedImageUrl="https://raw.githubusercontent.com/"+OWNER+"/"+REPO+"/"+branch+"/"+imagePath;}
+    if(imageUpload){const types={"image/jpeg":"jpg","image/png":"png","image/webp":"webp"},ext=types[String(imageUpload.type||"")];if(!ext||typeof imageUpload.data!=="string"||imageUpload.data.length>890000)throw new AdminError(400,"Imagen no válida o demasiado grande. Usa JPG, PNG o WebP de máximo 650 KB.");const imagePath="assets/editorial-news/"+crypto.randomUUID()+"."+ext;await gh("/repos/"+OWNER+"/"+REPO+"/contents/"+imagePath,env,"PUT",{message:"Panel CEV: subir fotografía editorial",content:imageUpload.data,branch});uploadedImageUrl="https://raw.githubusercontent.com/"+OWNER+"/"+REPO+"/"+MAIN+"/"+imagePath;}
     const updated=mutate(cached.data,uploadedImageUrl);
     await gh("/repos/"+OWNER+"/"+REPO+"/contents/cache.json",env,"PUT",{
       message:"Panel CEV: "+description,content:encode64(JSON.stringify(updated,null,2)+"\n"),sha:cached.sha,branch
@@ -182,7 +182,7 @@ async function api(request,env,identity) {
   if(request.headers.get("origin")!==ORIGIN) return json({error:"Origen no autorizado."},403);
   let body={};
   if(method!=="DELETE"){
-    if(Number(request.headers.get("content-length")||0)>900000)throw new AdminError(413,"El contenido supera el tamaño permitido.");
+    if(Number(request.headers.get("content-length")||0)>1200000)throw new AdminError(413,"El contenido supera el tamaño permitido.");
     try{body=await request.json()}catch(_){throw new AdminError(400,"El cuerpo de la solicitud no contiene JSON válido.")}
   }
   if(method==="POST"&&path==="/api/news"){
