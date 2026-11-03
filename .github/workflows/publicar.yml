@@ -6,6 +6,7 @@ on:
       - main
     paths-ignore:
       - "radar_rss.json"
+      - "automation_state.json"
   workflow_dispatch:
 
 permissions:
