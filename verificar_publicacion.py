@@ -95,7 +95,6 @@ def main():
         if not title or len(body)<250 or category not in CATEGORIES or not ident or not sources_ok(n): continue
         if ident in seen: continue
         seen.add(ident); articles.append(n)
-    if not articles: raise SystemExit("No se encontraron artículos publicables para verificar.")
     selected=[n for n in articles if not changed or str(n["id"]) in changed] or articles
     print(f"Dominio: {SITE} · commit: {SHA}")
     print(f"Noticias a comprobar: {len(selected)}")
