@@ -21,10 +21,12 @@ LICENCIAS_VALIDAS = ("cc0", "cc-by", "cc-by-sa", "public domain", "publicdomain"
 BASE = os.path.dirname(os.path.abspath(__file__))
 CACHE = os.path.join(BASE, "cache.json")
 FEEDS = os.path.join(BASE, "feeds.json")
+AUTOMATION_STATE = os.path.join(BASE, "automation_state.json")
 
 MODELO = "openai/gpt-oss-20b"
 MAX_NOTICIAS = 20
 MAX_ARTICULOS_POR_EJECUCION = 4
+MAX_ARTICULOS_DIARIOS = 20
 MAX_SOLICITUDES_POR_EJECUCION = 4
 MAX_GRUPOS_REVISADOS_POR_EJECUCION = 24
 MINUTOS_ENTRE_SOLICITUDES = 20
@@ -1035,26 +1037,52 @@ def ejecutar():
         timezone(timedelta(hours=-5))
     ).strftime("%Y-%m-%d")
 
-    if cache.get("fecha_solicitudes_groq") != fecha_control:
-        solicitudes_groq = 0
-    else:
+    estado_automatizacion = leer_json(AUTOMATION_STATE, {})
+    if not isinstance(estado_automatizacion, dict):
+        estado_automatizacion = {}
+
+    # Los contadores viven en un archivo separado para que un borrador
+    # descartado nunca reinicie el límite diario ni el intervalo del modelo.
+    if estado_automatizacion.get("fecha_solicitudes_groq") == fecha_control:
+        solicitudes_groq = int(estado_automatizacion.get("solicitudes_groq", 0))
+    elif cache.get("fecha_solicitudes_groq") == fecha_control:
         solicitudes_groq = int(cache.get("solicitudes_groq", 0))
+    else:
+        solicitudes_groq = 0
+
+    if estado_automatizacion.get("fecha_articulos_dia") == fecha_control:
+        articulos_hoy = int(estado_automatizacion.get("articulos_generados_dia", 0))
+    else:
+        articulos_hoy = 0
 
     print(
         f"Solicitudes Groq usadas hoy: {solicitudes_groq}/"
         f"{MAX_SOLICITUDES_DIARIAS}"
     )
+    print(
+        f"Artículos originales generados hoy: {articulos_hoy}/"
+        f"{MAX_ARTICULOS_DIARIOS}"
+    )
 
-    ultima_solicitud_groq = cache.get("ultima_solicitud_groq", "")
+    ultima_solicitud_groq = (
+        estado_automatizacion.get("ultima_solicitud_groq")
+        or cache.get("ultima_solicitud_groq", "")
+    )
     timestamp_ultima = fecha_a_timestamp(ultima_solicitud_groq)
     ahora_ts = datetime.now(timezone.utc).timestamp()
-    puede_generar = bool(cliente) and solicitudes_groq < MAX_SOLICITUDES_DIARIAS
+    puede_generar = (
+        bool(cliente)
+        and solicitudes_groq < MAX_SOLICITUDES_DIARIAS
+        and articulos_hoy < MAX_ARTICULOS_DIARIOS
+    )
 
     if puede_generar and timestamp_ultima and (ahora_ts - timestamp_ultima) < MINUTOS_ENTRE_SOLICITUDES * 60:
         puede_generar = False
         print("Pausa de consumo activa: los titulares RSS sí se actualizan en este ciclo.")
     if solicitudes_groq >= MAX_SOLICITUDES_DIARIAS:
-        print("Cupo diario de artículos originales agotado. Se mantienen actualizados los titulares RSS.")
+        print("Cupo diario de solicitudes del modelo agotado. Se mantienen los titulares RSS.")
+    if articulos_hoy >= MAX_ARTICULOS_DIARIOS:
+        print("Cupo diario de artículos originales agotado. Se mantienen los titulares RSS.")
 
     grupos_revisados = 0
     solicitudes_esta_ejecucion = 0
@@ -1062,6 +1090,9 @@ def ejecutar():
     if puede_generar:
         for grupo in grupos:
             if len(nuevas) >= MAX_ARTICULOS_POR_EJECUCION:
+                break
+            if articulos_hoy + len(nuevas) >= MAX_ARTICULOS_DIARIOS:
+                print("Límite diario de artículos alcanzado.")
                 break
             if solicitudes_esta_ejecucion >= MAX_SOLICITUDES_POR_EJECUCION:
                 break
@@ -1189,6 +1220,21 @@ def ejecutar():
                 break
     else:
         print("En esta ejecución no corresponde consumir una solicitud de Groq.")
+
+    articulos_hoy += len(nuevas)
+
+    # Persistencia independiente: estos contadores no se pierden cuando
+    # el workflow descarta un lote editorial por sus validaciones.
+    guardar_json(AUTOMATION_STATE, {
+        "fecha_solicitudes_groq": fecha_control,
+        "solicitudes_groq": solicitudes_groq,
+        "ultima_solicitud_groq": ultima_solicitud_groq,
+        "fecha_articulos_dia": fecha_control,
+        "articulos_generados_dia": articulos_hoy,
+        "limite_articulos_diario": MAX_ARTICULOS_DIARIOS,
+        "limite_solicitudes_diario": MAX_SOLICITUDES_DIARIAS,
+        "limite_articulos_ejecucion": MAX_ARTICULOS_POR_EJECUCION
+    })
 
     resultado = nuevas + publicadas
     resultado = resultado[:MAX_ARTICULOS_ANTERIORES]
