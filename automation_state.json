@@ -1,9 +1,9 @@
 {
   "fecha_solicitudes_groq": "2026-11-03",
-  "solicitudes_groq": 2,
-  "ultima_solicitud_groq": "2026-11-03T05:29:41.920085+00:00",
+  "solicitudes_groq": 6,
+  "ultima_solicitud_groq": "2026-11-03T12:17:53.548851+00:00",
   "fecha_articulos_dia": "2026-11-03",
-  "articulos_generados_dia": 1,
+  "articulos_generados_dia": 3,
   "limite_articulos_diario": 20,
   "limite_solicitudes_diario": 40,
   "limite_articulos_ejecucion": 4
