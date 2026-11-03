@@ -49,6 +49,23 @@ jobs:
           python -m json.tool ../radar_rss.json > /dev/null
           python -m json.tool ../automation_state.json > /dev/null
           python - <<'PY'
+          from pathlib import Path
+          import re
+
+          source = Path("../build.py").read_text(encoding="utf-8")
+          assert source.count("<style>") == 1 and source.count("</style>") == 1
+          css = source.split("<style>", 1)[1].split("</style>", 1)[0]
+          required = (
+              ".masthead", ".contenedor", ".portada-grid", ".bloque-breves",
+              ".tarjeta-vertical", ".articulo", "@media(max-width:900px)",
+              "@media(max-width:700px)", "@media(max-width:390px)"
+          )
+          missing = [selector for selector in required if selector not in css]
+          assert not missing, "Faltan reglas del rediseño: " + ", ".join(missing)
+          assert 'content="#17212b"' in source, "La barra del navegador móvil no usa el color del encabezado."
+          print("Correcto: sistema editorial multidispositivo, tarjetas y vista de artículo con reglas adaptativas.")
+          PY
+          python - <<'PY'
           from datetime import datetime, timezone, timedelta
           import sys
           sys.path.insert(0, "..")

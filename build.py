@@ -458,13 +458,13 @@ def plantilla(titulo, contenido, descripcion="CEV NOTICIAS", ruta_raiz="", extra
 <!-- Google Analytics 4 solo se carga después de aceptar la analítica opcional. -->
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="theme-color" content="#f7f6f2">
+<meta name="theme-color" content="#17212b">
 <meta name="description" content="{escapar(descripcion)}">
 {extra_head}
 <title>{escapar(titulo)} | CEV NOTICIAS</title>
 <!-- Tipografías del sistema: no se contactan proveedores externos antes del consentimiento. -->
 <style>
-:root{{--papel:#f7f6f2;--blanco:#fff;--tinta:#171717;--suave:#686868;--linea:#dedbd4;--rojo:#b5282f;--ancho:1280px}}
+:root{{--papel:#edf1f5;--blanco:#fff;--tinta:#17212b;--suave:#5e6975;--linea:#d9e0e7;--rojo:#b5282f;--ancho:1280px}}
 *{{box-sizing:border-box}}
 [hidden]{{display:none!important}}
 html{{scroll-behavior:smooth}}
@@ -751,6 +751,184 @@ body.noche .cev-cookie-actions .principal{{background:#b5282f;border-color:#b528
  .cev-cookie-actions{{display:grid;grid-template-columns:1fr}}
  .cev-cookie-actions button{{width:100%}}
 }}
+
+/* ------------------------------------------------------------------
+   CEV NOTICIAS · SISTEMA EDITORIAL MULTIDISPOSITIVO
+   Una sola identidad visual para escritorio, tablet y celular.
+------------------------------------------------------------------- */
+body{{background:#e7ecf1;color:#17212b}}
+.masthead{{background:#17212b;color:#f8fafc;box-shadow:0 5px 22px rgba(10,22,34,.16)}}
+.cabecera{{padding:30px 32px 21px;text-align:center}}
+.marca,.marca a{{color:#fff}}
+.marca{{font-size:clamp(48px,6.2vw,78px);letter-spacing:-3px}}
+.marca span{{color:#f06b70}}
+.eslogan{{color:#d4dce4;letter-spacing:3.2px}}
+.instagram-marca{{color:#f8fafc}}
+.instagram-marca small{{color:#c5d0da}}
+.instagram-marca svg{{color:#ff777d}}
+.cabecera-meta{{border-top-color:#526171;color:#d4dce4}}
+.estado{{color:#ff858a}}
+nav{{background:#1d2a36;border-top:1px solid #354555;border-bottom:1px solid #354555}}
+.nav-carrusel{{max-width:1280px;padding:0 24px;grid-template-columns:36px minmax(0,1fr) 36px;gap:12px}}
+.nav-interior{{justify-content:center;gap:5px;padding:10px 2px}}
+.nav-interior a{{color:#edf2f6;border-radius:7px 7px 0 0;padding:12px 13px}}
+.nav-interior a.nav-activa{{color:#fff;background:#71343a;border-bottom-color:#ff858a}}
+.nav-flecha{{width:36px;height:36px;border-color:#536475;color:#f8fafc}}
+.nav-flecha:hover:not(:disabled){{background:#344555;border-color:#ff858a;color:#ff858a}}
+nav a:hover,nav a:focus{{color:#ff9a9e}}
+.barra-herramientas{{max-width:1280px;padding:13px 32px 16px;border:0;background:#243341}}
+.buscador{{border:1px solid #536475;background:#f8fafc;color:#17212b;border-radius:8px;padding:12px 15px}}
+.buscador::placeholder{{color:#697887}}
+.accion-ui{{border:1px solid #83909d;border-radius:8px;background:transparent;color:#f8fafc;padding:12px 16px}}
+.accion-ui:hover{{background:#f8fafc;color:#17212b;border-color:#f8fafc}}
+.express-modulo{{max-width:1280px;margin:24px auto 18px;padding:0 28px}}
+.express-cabecera{{padding:0 0 12px}}
+.express-escenario{{border:1px solid #d9e0e7;border-radius:14px;overflow:hidden;box-shadow:0 6px 18px rgba(23,33,43,.06)}}
+.express-enlace{{padding:18px}}
+.contenedor{{max-width:1280px;margin:0 auto 28px;padding:8px 32px 42px;background:#f8fafc;border:1px solid #dfe5eb;border-top:0;border-radius:0 0 18px 18px;box-shadow:0 12px 34px rgba(23,33,43,.07)}}
+.cinta{{margin:24px 0 18px}}
+.portada-grid{{display:block;padding:22px;background:#fff;border:1px solid #dce3e9;border-radius:16px;box-shadow:0 8px 24px rgba(23,33,43,.06)}}
+.destacada{{min-width:0}}
+.destacada > a{{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(300px,.9fr);gap:30px;align-items:center}}
+.destacada-visual{{height:390px;min-height:0;border-radius:12px;background:#dce3e9}}
+.destacada-texto{{padding:12px 8px 12px 0}}
+.destacada h1{{font-size:clamp(34px,3.4vw,50px);line-height:1.06;letter-spacing:-1.35px;color:#17212b}}
+.destacada p{{font-size:15px;line-height:1.75;color:#5b6875}}
+.destacada .etiqueta{{color:#a5222a}}
+.meta-noticia{{color:#697887}}
+.boton{{border-color:#b5282f;color:#a5222a}}
+.lateral{{border-color:#d9e0e7}}
+.relevante{{border-bottom-color:#e1e6eb}}
+.relevante h3{{color:#1b2936}}
+.bloque-breves{{margin:28px 0 34px;padding:26px;background:#f8e9eb;border:1px solid #eed1d5;border-radius:16px}}
+.breves-encabezado{{margin-bottom:18px}}
+.breves-encabezado h2{{color:#17212b}}
+.breves-grid{{gap:14px}}
+.breve-actualidad{{background:#fff;border:1px solid #ead8db;border-radius:12px;box-shadow:0 4px 12px rgba(70,30,35,.045)}}
+.breve-texto{{color:#344250}}
+.breve-pie{{border-color:#ead8db}}
+.breve-pie span:first-child{{color:#17212b}}
+.bloque-categoria{{margin-top:24px;padding:26px;background:#edf1f5;border:1px solid #dce3e9;border-radius:16px}}
+.titulo-seccion{{color:#17212b}}
+.lista-noticias{{gap:14px;border:0}}
+.tarjeta-vertical{{padding:14px;background:#fff;border:1px solid #dce3e9;border-radius:14px;box-shadow:0 4px 14px rgba(23,33,43,.045);transition:transform .18s ease,box-shadow .18s ease,border-color .18s ease}}
+.tarjeta-vertical:hover{{transform:translateY(-2px);border-color:#bdc9d4;box-shadow:0 9px 22px rgba(23,33,43,.09)}}
+.tarjeta-vertical .tarjeta-enlace{{grid-template-columns:minmax(230px,34%) minmax(0,1fr);gap:24px}}
+.tarjeta-vertical .tarjeta-imagen{{height:205px;border-radius:10px;background:#e4e9ee}}
+.tarjeta-vertical .tarjeta-imagen img{{border-radius:10px}}
+.tarjeta-vertical .tarjeta-contenido{{padding:5px 4px}}
+.tarjeta-vertical h3{{color:#17212b;font-size:clamp(22px,2.15vw,30px);line-height:1.14}}
+.tarjeta-vertical p{{color:#596775;font-size:13px}}
+.tarjeta-vertical .etiqueta{{color:#a5222a}}
+.tarjeta-sin-imagen .tarjeta-enlace{{grid-template-columns:minmax(0,1fr)}}
+.tarjeta-sin-imagen .tarjeta-contenido{{padding:10px 8px}}
+.vacio{{padding:22px;background:#fff;border:1px dashed #cbd4dd;border-radius:10px}}
+.articulo{{max-width:980px;margin:34px auto 62px;padding:38px 54px 54px;background:#fff;border:1px solid #dce3e9;border-radius:18px;box-shadow:0 10px 30px rgba(23,33,43,.07)}}
+.articulo-cabecera{{max-width:820px}}
+.articulo h1{{color:#17212b;line-height:1.05}}
+.articulo .bajada{{color:#526171}}
+.articulo .fecha{{color:#75818c}}
+.articulo .foto{{width:100%;max-height:600px;aspect-ratio:16/9;object-fit:cover;border-radius:14px;margin:28px 0 10px;background:#e7ecf1}}
+.credito-imagen{{color:#697887}}
+.articulo .cuerpo{{color:#273542;font-size:19px;line-height:1.88}}
+.fuentes{{border-top:1px solid #dce3e9;color:#526171}}
+.fuentes strong{{color:#17212b}}
+.bloque-investigacion{{max-width:740px;margin:26px auto;padding:20px 22px;background:#edf2f6;border-left:4px solid #b5282f;border-radius:0 10px 10px 0;color:#273542}}
+.relacionadas .tarjeta{{border:1px solid #dce3e9;border-radius:12px;box-shadow:0 4px 12px rgba(23,33,43,.04)}}
+.pie{{margin-top:0;background:#17212b;border-top:5px solid #b5282f;padding:42px 22px}}
+.pie strong span{{color:#ff777d}}
+.pie-enlaces a{{text-decoration:none}}
+.pie-enlaces a:hover{{color:#ff9a9e}}
+body.noche{{background:#111820}}
+body.noche .masthead{{background:#121d27}}
+body.noche nav{{background:#182633}}
+body.noche .contenedor{{background:#1a232c;border-color:#34414d}}
+body.noche .buscador{{background:#eef2f6;color:#17212b}}
+body.noche .portada-grid,body.noche .tarjeta-vertical,body.noche .express-escenario{{background:#222d37;border-color:#3b4854}}
+body.noche .destacada h1,body.noche .relevante h3,body.noche .titulo-seccion,body.noche .breves-encabezado h2{{color:#f5f7f9}}
+body.noche .destacada p,body.noche .tarjeta-vertical p,body.noche .relevante p{{color:#c3cdd6}}
+body.noche .bloque-breves{{background:#302329;border-color:#65434a}}
+body.noche .breve-actualidad{{background:#252e37;border-color:#49535e}}
+body.noche .breve-texto{{color:#e2e7ec}}
+body.noche .breve-pie{{border-color:#49535e}}
+body.noche .breve-pie span:first-child{{color:#f5f7f9}}
+body.noche .bloque-categoria{{background:#202a34;border-color:#394652}}
+body.noche .articulo{{background:#202a34;border-color:#3b4854}}
+body.noche .articulo h1,body.noche .fuentes strong{{color:#f5f7f9}}
+body.noche .articulo .cuerpo{{color:#e8edf1}}
+body.noche .bloque-investigacion{{background:#2a3540;color:#e8edf1}}
+body.noche .vacio{{background:#222d37;border-color:#49535e}}
+@media(max-width:900px){{
+ .portada-grid{{padding:18px}}
+ .destacada > a{{grid-template-columns:minmax(0,1fr) minmax(260px,.9fr);gap:20px}}
+ .destacada-visual{{height:320px}}
+ .tarjeta-vertical .tarjeta-enlace{{grid-template-columns:minmax(190px,36%) minmax(0,1fr);gap:18px}}
+ .contenedor{{padding-left:22px;padding-right:22px}}
+ .articulo{{margin-left:22px;margin-right:22px;padding:32px 34px 42px}}
+}}
+@media(max-width:700px){{
+ .cabecera{{padding:23px 16px 17px}}
+ .marca{{font-size:clamp(41px,11vw,52px);letter-spacing:-2.5px}}
+ .eslogan{{font-size:9px;letter-spacing:2px}}
+ .cabecera-meta{{margin-top:17px;font-size:9px}}
+ .nav-carrusel{{padding:0 10px;grid-template-columns:30px minmax(0,1fr) 30px;gap:7px}}
+ .nav-flecha{{width:30px;height:30px}}
+ .nav-interior{{justify-content:flex-start;gap:5px;padding:8px 1px}}
+ .nav-interior a{{padding:10px 11px;font-size:9px}}
+ .barra-herramientas{{padding:11px 15px 14px;flex-wrap:wrap;gap:8px}}
+ .buscador{{flex:1 1 100%;min-width:0}}
+ .accion-ui{{flex:1 1 auto;padding:11px 12px}}
+ .express-modulo{{padding:0 15px;margin:18px auto 14px}}
+ .express-enlace{{grid-template-columns:112px minmax(0,1fr);gap:13px;padding:13px}}
+ .express-foto{{height:112px}}
+ .contenedor{{padding:8px 13px 26px;margin-bottom:18px;border-radius:0 0 13px 13px}}
+ .cinta{{margin:17px 1px 13px;font-size:9px;letter-spacing:1.2px}}
+ .portada-grid{{padding:12px;border-radius:13px}}
+ .destacada > a{{grid-template-columns:minmax(0,1fr);gap:0}}
+ .destacada-visual{{height:auto;aspect-ratio:16/9;border-radius:10px}}
+ .destacada-texto{{padding:15px 3px 5px}}
+ .destacada h1{{font-size:clamp(28px,8vw,36px);letter-spacing:-.8px}}
+ .destacada p{{font-size:13px;line-height:1.65}}
+ .bloque-breves{{margin:20px 0 24px;padding:17px 14px;border-radius:13px}}
+ .breves-grid{{grid-template-columns:minmax(0,1fr);gap:11px}}
+ .breve-actualidad{{padding:14px}}
+ .bloque-categoria{{margin-top:18px;padding:18px 12px;border-radius:13px}}
+ .titulo-seccion{{font-size:25px;gap:8px;line-height:1.15}}
+ .tarjeta-vertical{{padding:11px;border-radius:12px}}
+ .tarjeta-vertical .tarjeta-enlace{{grid-template-columns:minmax(0,1fr);gap:12px}}
+ .tarjeta-vertical .tarjeta-imagen{{height:auto;aspect-ratio:16/9;border-radius:9px}}
+ .tarjeta-vertical .tarjeta-imagen img{{border-radius:9px}}
+ .tarjeta-vertical .tarjeta-contenido{{padding:3px 2px 5px}}
+ .tarjeta-vertical h3{{font-size:23px;line-height:1.16}}
+ .tarjeta-vertical p{{font-size:12px;line-height:1.6;margin:7px 0 10px}}
+ .articulo{{margin:18px 12px 34px;padding:23px 18px 32px;border-radius:13px}}
+ .articulo-cabecera{{margin-bottom:19px}}
+ .articulo h1{{font-size:clamp(31px,9vw,40px);letter-spacing:-.9px;line-height:1.06}}
+ .articulo .bajada{{font-size:16px;line-height:1.55}}
+ .articulo .fecha{{font-size:9px;line-height:1.55}}
+ .articulo .foto{{margin:20px 0 8px;border-radius:10px;max-height:none}}
+ .articulo .cuerpo{{font-size:17px;line-height:1.78}}
+ .articulo .cuerpo p{{margin-bottom:20px}}
+ .bloque-investigacion{{padding:16px;margin:20px auto}}
+ .fuentes{{margin-top:30px;font-size:11px;overflow-wrap:anywhere}}
+ .relacionadas{{margin-top:34px}}
+ .relacionadas .rejilla{{grid-template-columns:minmax(0,1fr)}}
+ .pie{{padding:33px 17px}}
+}}
+@media(max-width:390px){{
+ .cabecera-meta{{font-size:8px;letter-spacing:.2px}}
+ .nav-carrusel{{padding:0 7px;gap:5px}}
+ .nav-interior a{{padding:9px 9px;font-size:8px}}
+ .marca{{font-size:41px}}
+ .destacada h1{{font-size:29px}}
+ .tarjeta-vertical h3{{font-size:21px}}
+ .articulo{{margin-left:8px;margin-right:8px;padding:20px 15px 28px}}
+ .articulo h1{{font-size:30px}}
+}}
+@media(prefers-reduced-motion:reduce){{
+ *,*::before,*::after{{scroll-behavior:auto!important;transition:none!important;animation:none!important}}
+}}
+
 </style>
 </head>
 <body>
