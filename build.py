@@ -15,7 +15,7 @@ SITE = BASE / "site"
 NOTAS = SITE / "notas"
 CACHE = BASE / "cache.json"
 RADAR_RSS = BASE / "radar_rss.json"
-MAX_TITULARES_PUBLICOS = 24
+MAX_TITULARES_PUBLICOS = 60
 MAX_EDAD_TITULARES_PUBLICOS_HORAS = 72
 
 SECCIONES = ["Cali", "Valle del Cauca", "Colombia", "Internacional", "Deportes", "Tecnología", "Economía", "Tendencias", "Humor y opinión"]
@@ -178,21 +178,21 @@ def tarjeta(noticia, posicion=0, ruta_raiz=""):
 
 def tarjeta_rss(titular):
     titulo = escapar(titular.get("titulo"))
-    categoria = escapar(titular.get("categoria"))
-    fuente = escapar(titular.get("fuente") or "Medio externo")
-    url = imagen_segura(titular.get("url"))
+    identificador = escapar(titular.get("id"))
+    fuente = escapar(titular.get("fuente") or "Medio de origen")
     fecha = fecha_ordenable(titular)
     fecha_texto = datetime.fromtimestamp(fecha, COLOMBIA_TZ).strftime("%d/%m · %I:%M %p") if fecha else ""
-    if not titulo or not url:
+    if not titulo or not identificador:
         return ""
+    destino = f"/notas/actualidad-{identificador}.html"
     return f"""
     <article class="tarjeta tarjeta-vertical titular-externo">
-      <a class="tarjeta-enlace titular-rss-enlace" href="{url}" target="_blank" rel="noopener noreferrer">
+      <a class="tarjeta-enlace titular-rss-enlace" href="{destino}">
         <div class="tarjeta-contenido">
-          <span class="rss-sello">OTROS MEDIOS · {fuente}</span>
+          <span class="rss-sello">REDACCIÓN CEV NOTICIAS · FUENTE: {fuente}</span>
           <h3>{titulo}</h3>
           <div class="rss-datos"><span>Publicado originalmente · {fecha_texto}</span></div>
-          <span class="leer">Leer en {fuente} ↗</span>
+          <span class="leer">Ver ficha y crédito de origen ↗</span>
         </div>
       </a>
     </article>"""
@@ -286,8 +286,9 @@ def titular_repite_articulo(titular, noticias):
 
 
 def seleccionar_titulares_publicos(titulares, noticias, limite=MAX_TITULARES_PUBLICOS):
+    """Filtra titulares recientes sin confundir el tope de resultados con la fecha mínima."""
     ahora = datetime.now(timezone.utc).timestamp()
-    limite = ahora - MAX_EDAD_TITULARES_PUBLICOS_HORAS * 3600
+    fecha_minima = ahora - MAX_EDAD_TITULARES_PUBLICOS_HORAS * 3600
     resultado = []
     vistos = set()
     for original in titulares if isinstance(titulares, list) else []:
@@ -300,7 +301,7 @@ def seleccionar_titulares_publicos(titulares, noticias, limite=MAX_TITULARES_PUB
         fecha = fecha_ordenable(titular)
         if not titulo or not fuente or not url.startswith("https://"):
             continue
-        if not fecha or fecha < limite or fecha > ahora + 2 * 3600:
+        if not fecha or fecha < fecha_minima or fecha > ahora + 2 * 3600:
             continue
         if titular.get("categoria") not in SECCIONES:
             continue
@@ -312,7 +313,9 @@ def seleccionar_titulares_publicos(titulares, noticias, limite=MAX_TITULARES_PUB
         vistos.add(clave)
         resultado.append(titular)
     resultado.sort(key=fecha_ordenable, reverse=True)
-    return resultado[:limite] if limite else resultado
+    if limite is None:
+        return resultado
+    return resultado[:max(0, int(limite))]
 
 
 def crear_pagina_actualidad_externa(titulares):
@@ -392,8 +395,8 @@ a{{color:inherit;text-decoration:none}}
 .cabecera-meta{{display:flex;justify-content:space-between;align-items:center;margin-top:22px;padding-top:11px;border-top:1px solid var(--tinta);font-size:11px;color:#555}}
 .estado{{font-weight:800;letter-spacing:1.5px;text-transform:uppercase;color:var(--rojo)}}
 nav{{border-top:1px solid var(--linea);border-bottom:1px solid var(--tinta);background:var(--papel)}}
-.nav-carrusel{{width:100%;max-width:980px;margin:0 auto;padding:0 18px;display:grid;grid-template-columns:34px minmax(0,1fr) 34px;gap:10px;align-items:center}}
-.nav-interior{{width:100%;min-width:0;max-width:100%;margin:0;display:flex;flex-wrap:nowrap;align-items:center;justify-content:flex-start;gap:8px;padding:9px 2px;overflow-x:auto;overflow-y:hidden;white-space:nowrap;scrollbar-width:none;overscroll-behavior-x:contain;-webkit-overflow-scrolling:touch;scroll-behavior:smooth;scroll-snap-type:x proximity;}}
+.nav-carrusel{{width:100%;max-width:760px;margin:0 auto;padding:0 18px;display:grid;grid-template-columns:34px minmax(0,1fr) 34px;gap:10px;align-items:center}}
+.nav-interior{{display:flex;width:100%;min-width:0;max-width:100%;margin:0;flex-flow:row nowrap;align-items:center;justify-content:flex-start;gap:8px;padding:9px 2px;overflow-x:scroll;overflow-y:hidden;white-space:nowrap;scrollbar-width:none;overscroll-behavior-x:contain;-webkit-overflow-scrolling:touch;scroll-behavior:auto;scroll-snap-type:none;touch-action:pan-x;}}
 .nav-interior::-webkit-scrollbar{{display:none}}
 .nav-interior a{{flex:0 0 auto;display:inline-flex;align-items:center;justify-content:center;padding:10px 13px;border-bottom:3px solid transparent;border-radius:3px 3px 0 0;scroll-snap-align:start;transition:background .18s ease,color .18s ease,border-color .18s ease}}
 .nav-interior a.nav-activa{{color:var(--rojo);background:#f5e7e7;border-bottom-color:var(--rojo);font-weight:800}}
@@ -743,25 +746,22 @@ body.noche .cev-cookie-actions .principal{{background:#b5282f;border-color:#b528
   const maxScroll=()=>Math.max(0,nav.scrollWidth-nav.clientWidth);
   const actualizarNav=()=>{{
    const maximo=maxScroll();
-   if(navAnterior)navAnterior.disabled=maximo<=4||nav.scrollLeft<=2;
-   if(navSiguiente)navSiguiente.disabled=maximo<=4||nav.scrollLeft>=maximo-2;
+   const hayDesbordamiento=maximo>4;
+   if(navAnterior)navAnterior.disabled=!hayDesbordamiento||nav.scrollLeft<=2;
+   if(navSiguiente)navSiguiente.disabled=!hayDesbordamiento||nav.scrollLeft>=maximo-2;
   }};
   const moverNav=(direccion)=>{{
    const maximo=maxScroll();
    if(maximo<=4){{actualizarNav();return;}}
-   const paso=Math.max(180,Math.round(nav.clientWidth*0.72));
-   const inicio=nav.scrollLeft;
-   const destino=Math.max(0,Math.min(maximo,inicio+(direccion*paso)));
-   nav.scrollTo({{left:destino,behavior:'smooth'}});
-   window.setTimeout(()=>{{
-    if(Math.abs(nav.scrollLeft-inicio)<2)nav.scrollLeft=destino;
-    actualizarNav();
-   }},450);
+   const paso=Math.max(200,Math.round(nav.clientWidth*0.8));
+   const destino=Math.max(0,Math.min(maximo,nav.scrollLeft+(direccion*paso)));
+   nav.scrollLeft=destino;
+   actualizarNav();
+   window.setTimeout(actualizarNav,80);
   }};
   navAnterior?.addEventListener('click',()=>moverNav(-1));
   navSiguiente?.addEventListener('click',()=>moverNav(1));
   nav.addEventListener('scroll',actualizarNav,{{passive:true}});
-  nav.addEventListener('scrollend',actualizarNav);
   nav.addEventListener('keydown',evento=>{{
    if(evento.key==='ArrowRight'){{evento.preventDefault();moverNav(1);}}
    if(evento.key==='ArrowLeft'){{evento.preventDefault();moverNav(-1);}}
@@ -782,14 +782,18 @@ body.noche .cev-cookie-actions .principal{{background:#b5282f;border-color:#b528
    const rectNav=nav.getBoundingClientRect();
    const rect=activa.getBoundingClientRect();
    const objetivo=nav.scrollLeft+(rect.left-rectNav.left)-(nav.clientWidth-rect.width)/2;
-   nav.scrollTo({{left:Math.max(0,Math.min(maxScroll(),objetivo)),behavior:'auto'}});
+   nav.scrollLeft=Math.max(0,Math.min(maxScroll(),objetivo));
   }};
   const recalcular=()=>{{centrarActiva();actualizarNav();}};
   window.addEventListener('resize',recalcular);
   window.addEventListener('load',recalcular,{{once:true}});
-  if('ResizeObserver' in window){{new ResizeObserver(actualizarNav).observe(nav);}}
+  if('ResizeObserver' in window){{
+   const observador=new ResizeObserver(recalcular);
+   observador.observe(nav);
+   if(nav.parentElement)observador.observe(nav.parentElement);
+  }}
   requestAnimationFrame(recalcular);
-  document.fonts?.ready?.then(recalcular);
+  if(document.fonts?.ready)document.fonts.ready.then(recalcular);
  }}
  const barra=document.getElementById('progreso-lectura'),arriba=document.getElementById('volver-arriba');
  function actualizar(){{const max=document.documentElement.scrollHeight-window.innerHeight;if(barra)barra.style.width=(max>0?(window.scrollY/max)*100:0)+'%';if(arriba)arriba.hidden=window.scrollY<450;}}
@@ -891,8 +895,7 @@ def crear_pagina_titular_rss(titular):
     categoria = escapar(titular.get("categoria"))
     fuente = escapar(titular.get("fuente", "Medio de origen"))
     url_original = imagen_segura(titular.get("url"))
-    imagen = imagen_segura(titular.get("imagen"))
-    foto = f'<img class="foto" src="{imagen}" alt="{titulo}" loading="lazy">' if imagen else ""
+    # No reproducimos imágenes RSS sin poder comprobar que correspondan a esta noticia.
     fecha = fecha_ordenable(titular)
     fecha_texto = datetime.fromtimestamp(fecha, COLOMBIA_TZ).strftime("%d/%m/%Y · %I:%M %p") if fecha else "Fecha no disponible"
 
@@ -901,24 +904,24 @@ def crear_pagina_titular_rss(titular):
       <div class="articulo-cabecera">
         <a class="volver" href="/">← Volver a CEV NOTICIAS</a>
         <p class="etiqueta">{categoria}</p>
-        <p class="fecha">Titular recopilado por CEV NOTICIAS · No es un artículo original de nuestra redacción</p>
+        <p class="fecha">Ficha de seguimiento · Redacción CEV NOTICIAS · Con información de {fuente}</p>
         <h1>{titulo}</h1>
-        <p class="bajada">Este titular forma parte del seguimiento de actualidad de CEV NOTICIAS. Para consultar el desarrollo completo, los datos y el contexto de la información, visita la publicación original.</p>
+        <p class="bajada">Redacción CEV NOTICIAS registra esta publicación dentro de su seguimiento informativo. El desarrollo periodístico, los datos completos y la cobertura original corresponden al medio citado; consulta allí la noticia íntegra.</p>
         <p class="fecha">Publicado originalmente: {fecha_texto}</p>
       </div>
-      {foto}
       <section class="fuentes credito-fuente">
-        <strong>Crédito de información</strong>
-        <p>La publicación original y su desarrollo periodístico corresponden a <strong>{fuente}</strong>.</p>
-        <p><a class="boton" href="{url_original}" target="_blank" rel="noopener noreferrer">Consultar la noticia en {fuente} ↗</a></p>
-        <p class="nota-atribucion">CEV NOTICIAS identifica el medio de origen y enlaza a su cobertura. El contenido completo pertenece a la publicación citada.</p>      </section>
+        <strong>Crédito de información y cobertura original</strong>
+        <p>La noticia y su desarrollo periodístico fueron publicados originalmente por <strong>{fuente}</strong>.</p>
+        <p><a class="boton" href="{url_original}" target="_blank" rel="noopener noreferrer">Consultar la publicación original en {fuente} ↗</a></p>
+        <p class="nota-atribucion">Autoría de esta ficha de seguimiento: Redacción CEV NOTICIAS. Crédito de la información, el titular y la cobertura original: {fuente}. Esta ficha no reproduce ni sustituye el artículo del medio citado.</p>
+      </section>
     </main>"""
 
     extra_head = '<meta name="robots" content="noindex,follow">'
     pagina = plantilla(
         titulo,
         cuerpo,
-        "Titular de actualidad recopilado por CEV NOTICIAS con crédito al medio original.",
+        "Ficha de seguimiento de actualidad de Redacción CEV NOTICIAS, con crédito a la publicación original.",
         ruta_raiz="../",
         extra_head=extra_head,
         seccion_actual=categoria
@@ -1085,16 +1088,18 @@ def limpiar_archivos_publicos_obsoletos():
     print("Archivos públicos antiguos eliminados; carpeta social conservada.")
 
 
-def validar_archivos_publicados(noticias):
+def validar_archivos_publicados(noticias, titulares_rss=None):
     """
     Comprueba que cada artículo, categoría e imagen apuntados exista
     físicamente dentro del artefacto que se va a desplegar.
     """
+    titulares_rss = titulares_rss or []
     faltantes = []
     esperados = [SITE / "index.html"]
     esperados.extend(SITE / nombre for nombre in ("actualidad.html", "quienes-somos.html", "redaccion.html", "contacto.html", "politica-de-privacidad.html", "politica-editorial.html", "correcciones.html"))
     esperados.extend([SITE / "sitemap.xml", SITE / "robots.txt", SITE / "cookies.js"])
     esperados.extend(NOTAS / f"{noticia['id']}.html" for noticia in noticias)
+    esperados.extend(NOTAS / f"actualidad-{titular['id']}.html" for titular in titulares_rss)
     esperados.extend(SITE / "secciones" / f"{slug(seccion)}.html" for seccion in SECCIONES)
     esperados.extend(
         SITE / "imagenes" / f"{slug(noticia['id'])}{extension}"
@@ -1122,6 +1127,7 @@ def validar_archivos_publicados(noticias):
     paginas = [SITE / "index.html"]
     paginas.extend(SITE / nombre for nombre in ("quienes-somos.html", "redaccion.html", "contacto.html", "politica-de-privacidad.html", "politica-editorial.html", "correcciones.html"))
     paginas.extend(NOTAS / f"{noticia['id']}.html" for noticia in noticias)
+    paginas.extend(NOTAS / f"actualidad-{titular['id']}.html" for titular in titulares_rss)
     paginas.extend(SITE / "secciones" / f"{slug(seccion)}.html" for seccion in SECCIONES)
 
     for pagina in paginas:
@@ -1315,6 +1321,8 @@ def construir():
     titulares_archivo = seleccionar_titulares_publicos(titulares_rss, validas, limite=None)
     for seccion in SECCIONES:
         crear_pagina_seccion(seccion, validas, titulares_archivo)
+    for titular in titulares_archivo:
+        crear_pagina_titular_rss(titular)
     crear_pagina_actualidad_externa(titulares_archivo)
     crear_paginas_institucionales()
 
@@ -1371,7 +1379,7 @@ def construir():
                + '</urlset>\n')
     (SITE / "sitemap.xml").write_text(sitemap, encoding="utf-8")
     (SITE / "robots.txt").write_text("User-agent: *\nAllow: /\nSitemap: https://cevnoticias.com/sitemap.xml\n", encoding="utf-8")
-    validar_archivos_publicados(validas)
+    validar_archivos_publicados(validas, titulares_archivo)
     print(f"Portada creada. Artículos propios: {len(validas)} · Titulares externos publicados: {len(titulares_publicos)} · Titulares RSS disponibles: {len(titulares_rss)}")
 
 
