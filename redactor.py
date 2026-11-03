@@ -1021,14 +1021,33 @@ def ejecutar():
 
             grupos_revisados += 1
             fuentes = leer_contenidos(grupo)
+            # Solo se admiten fuentes HTTPS con dominio real y texto extraído.
+            fuentes = [
+                fuente for fuente in fuentes
+                if urlparse(str(fuente.get("url", ""))).scheme == "https"
+                and urlparse(str(fuente.get("url", ""))).hostname
+                and len(str(fuente.get("texto", "")).strip()) >= 500
+                and str(fuente.get("nombre", "")).strip()
+            ]
 
             dominios = {
-                urlparse(f["url"]).netloc.lower()
+                urlparse(f["url"]).hostname.lower()
                 for f in fuentes
             }
 
-            if len(fuentes) < 1:
-                print("Noticia sin contenido recuperable:", grupo["titulo"])
+            if not dominios:
+                print("Noticia descartada: no tiene una fuente HTTPS comprobable:", grupo["titulo"])
+                continue
+
+            texto_revision = (str(grupo.get("titulo", "")) + " " + " ".join(
+                str(f.get("texto", "")) for f in fuentes
+            )).lower()
+            temas_sensibles = re.search(
+                r"\\b(accidente|muert[eo]|falleci|homicid|asesinat|robo|hurto|captura|detenid|denuncia|acusaci[oó]n|víctim|victim|agresi[oó]n|desaparici[oó]n|abuso|corrupci[oó]n)\\w*",
+                texto_revision
+            )
+            if temas_sensibles and len(dominios) < 2:
+                print("Noticia sensible descartada: requiere dos fuentes independientes:", grupo["titulo"])
                 continue
 
             try:
@@ -1065,8 +1084,9 @@ def ejecutar():
                     articulo["categoria"]
                 )
 
-                if not imagen_info or not imagen_info.get("url"):
-                    print("No hay fotografía libre adecuada; se usará una portada gráfica original de CEV:", articulo["titulo"])
+                datos_imagen_obligatorios = ("url", "autor", "fuente", "pagina", "licencia", "licencia_url")
+                if not imagen_info or not all(str(imagen_info.get(campo, "")).strip() for campo in datos_imagen_obligatorios):
+                    print("No hay fotografía con licencia y atribución completas; la noticia se publicará sin foto:", articulo["titulo"])
                     imagen_info = None
 
                 caption_instagram = crear_caption_instagram(articulo, imagen_info or {})
