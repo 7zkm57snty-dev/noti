@@ -62,5 +62,30 @@
   {
     "nombre": "La FM Actualidad",
     "url": "https://www.lafm.com.co/rss/actualidad.xml"
+  },
+  {
+    "nombre": "Q'hubo Cali",
+    "url": "https://www.qhubocali.com/feed/",
+    "zona": "Cali y Valle del Cauca"
+  },
+  {
+    "nombre": "El Colombiano — Colombia",
+    "url": "https://www.elcolombiano.com/rss/Colombia.xml",
+    "zona": "Antioquia y Colombia"
+  },
+  {
+    "nombre": "El Diario — Pereira",
+    "url": "https://www.eldiario.com.co/feed/",
+    "zona": "Eje Cafetero"
+  },
+  {
+    "nombre": "Chocó 7 días",
+    "url": "https://choco7dias.com/feed/",
+    "zona": "Pacífico colombiano"
+  },
+  {
+    "nombre": "La Patria — Caldas",
+    "url": "https://www.lapatria.com/rss.xml",
+    "zona": "Eje Cafetero"
   }
 ]
