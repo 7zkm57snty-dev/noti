@@ -191,7 +191,7 @@ def tarjeta_rss(titular):
         <div class="tarjeta-contenido">
           <span class="rss-sello">OTROS MEDIOS · {fuente}</span>
           <h3>{titulo}</h3>
-          <div class="rss-datos"><strong>{categoria}</strong><span>{fecha_texto}</span></div>
+          <div class="rss-datos"><span>Publicado originalmente · {fecha_texto}</span></div>
           <span class="leer">Leer en {fuente} ↗</span>
         </div>
       </a>
@@ -285,7 +285,7 @@ def titular_repite_articulo(titular, noticias):
     return False
 
 
-def seleccionar_titulares_publicos(titulares, noticias):
+def seleccionar_titulares_publicos(titulares, noticias, limite=MAX_TITULARES_PUBLICOS):
     ahora = datetime.now(timezone.utc).timestamp()
     limite = ahora - MAX_EDAD_TITULARES_PUBLICOS_HORAS * 3600
     resultado = []
@@ -312,7 +312,33 @@ def seleccionar_titulares_publicos(titulares, noticias):
         vistos.add(clave)
         resultado.append(titular)
     resultado.sort(key=fecha_ordenable, reverse=True)
-    return resultado[:MAX_TITULARES_PUBLICOS]
+    return resultado[:limite] if limite else resultado
+
+
+def crear_pagina_actualidad_externa(titulares):
+    tarjetas = lista_vertical([], titulares)
+    contenido = f"""
+    <main class="contenedor pagina-seccion">
+      <a class="volver" href="/">← Volver a la portada</a>
+      <header class="cabecera-seccion">
+        <p class="etiqueta">CEV NOTICIAS · SEGUIMIENTO DE MEDIOS</p>
+        <h1>Más actualidad</h1>
+        <p>Selección de titulares recientes publicados por medios externos. Cada tarjeta identifica su fuente y enlaza directamente al contenido original. Estos titulares no son artículos propios de CEV NOTICIAS.</p>
+      </header>
+      <section class="rejilla rejilla-categorias" aria-label="Titulares de medios externos">
+        {tarjetas or '<div class="vacio">No hay titulares recientes disponibles.</div>'}
+      </section>
+    </main>"""
+    extra_head = '<link rel="canonical" href="https://cevnoticias.com/actualidad.html"><meta property="og:type" content="website">'
+    pagina = plantilla(
+        "Más actualidad",
+        contenido,
+        "Titulares recientes de medios externos, identificados y enlazados a sus fuentes originales.",
+        ruta_raiz="",
+        extra_head=extra_head,
+        seccion_actual=""
+    )
+    (SITE / "actualidad.html").write_text(pagina, encoding="utf-8")
 
 
 def lista_vertical(noticias, titulares, categoria=None, excluir=None, ruta_raiz=""):
@@ -1287,7 +1313,9 @@ def construir():
 
     # Cada sección cuenta con una página propia; la portada mantiene un único flujo vertical.
     for seccion in SECCIONES:
-        crear_pagina_seccion(seccion, validas, titulares_publicos)
+        crear_pagina_seccion(seccion, validas, [])
+    titulares_archivo = seleccionar_titulares_publicos(titulares_rss, validas, limite=None)
+    crear_pagina_actualidad_externa(titulares_archivo)
     crear_paginas_institucionales()
 
     candidatos_express = []
@@ -1323,6 +1351,7 @@ def construir():
         f'<h2 class="titulo-seccion">Más actualidad en otros medios <span class="contador-noticias">{len(titulares_publicos)} titulares</span></h2>'
         '<p class="nota-rss-publica">Seguimiento de publicaciones recientes de medios externos. Cada titular conserva el crédito y dirige al artículo original; no representa una publicación de autoría propia de CEV NOTICIAS.</p>'
         f'<div class="rejilla rejilla-categorias">{lista_vertical([], titulares_publicos) or "<div class=vacio>No hay titulares externos recientes.</div>"}</div>'
+        '<a class="boton" href="/actualidad.html">Ver todos los titulares de otros medios ↗</a>'
         '</section></main>'
     )
     portada_head = '<link rel="canonical" href="https://cevnoticias.com/"><meta property="og:type" content="website"><meta property="og:title" content="CEV NOTICIAS | Actualidad y periodismo">'
@@ -1331,7 +1360,7 @@ def construir():
     if not recurso_cookies.is_file():
         raise RuntimeError("No se encontró cookies.js; no se puede publicar el gestor de consentimiento.")
     shutil.copy2(recurso_cookies, SITE / "cookies.js")
-    paginas_institucionales = ["quienes-somos.html", "redaccion.html", "contacto.html", "politica-de-privacidad.html", "politica-editorial.html", "correcciones.html"]
+    paginas_institucionales = ["quienes-somos.html", "redaccion.html", "contacto.html", "politica-de-privacidad.html", "politica-editorial.html", "correcciones.html", "actualidad.html"]
     urls = (["https://cevnoticias.com/"]
             + [f"https://cevnoticias.com/notas/{n['id']}.html" for n in validas]
             + [f"https://cevnoticias.com/secciones/{slug(s)}.html" for s in SECCIONES]
