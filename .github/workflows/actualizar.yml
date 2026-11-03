@@ -1,24 +1,20 @@
-name: Actualizar CEV NOTICIAS
+name: Preparar noticias para revisión editorial
 
 on:
-  push:
-    branches:
-      - main
   schedule:
     - cron: "*/20 * * * *"
   workflow_dispatch:
 
 permissions:
   contents: write
-  pages: write
-  id-token: write
+  pull-requests: write
 
 concurrency:
-  group: cev-noticias-publicacion-v2
+  group: cev-noticias-revision-editorial
   cancel-in-progress: false
 
 jobs:
-  actualizar:
+  preparar:
     runs-on: ubuntu-latest
     timeout-minutes: 25
 
@@ -38,96 +34,80 @@ jobs:
           python -m pip install --upgrade pip
           pip install requests feedparser trafilatura groq pillow
 
-      - name: Generar noticias
+      - name: Recuperar borradores de una revisión abierta
         env:
-          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          GH_TOKEN: \${{ github.token }}
+        shell: bash
+        run: |
+          BRANCH="revision-editorial/noticias-pendientes"
+          OPEN_PR="$(gh pr list --state open --head "$BRANCH" --json number --jq 'length')"
+          if [ "\${OPEN_PR:-0}" -gt 0 ] && git ls-remote --exit-code --heads origin "$BRANCH" >/dev/null 2>&1; then
+            git fetch origin "$BRANCH"
+            git show "origin/$BRANCH:cache.json" > cache.json
+            echo "Se recuperó la cola que ya está pendiente de revisión."
+          elif git ls-remote --exit-code --heads origin "$BRANCH" >/dev/null 2>&1; then
+            git push origin --delete "$BRANCH"
+            echo "Se limpió una rama anterior que ya no tiene una revisión abierta."
+          fi
+          cp cache.json /tmp/cev-cache-antes.json
+
+      - name: Generar borradores
+        env:
+          GROQ_API_KEY: \${{ secrets.GROQ_API_KEY }}
           PYTHONUNBUFFERED: "1"
         run: |
-          echo "Iniciando redactor de noticias..."
+          echo "Preparando noticias; todavía no se publican."
           python -u redactor.py
-          echo "Redactor finalizado correctamente."
 
-      - name: Guardar historial de noticias sin conflictos
+      - name: Evitar propuestas sin noticias nuevas
+        id: novedades
+        shell: bash
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          cp cache.json /tmp/cev-cache-local.json
-          for intento in 1 2 3; do
-            git fetch origin main
-            git reset --hard origin/main
-            python - <<'PY'
+          python - <<'PY'
           import json
+          import os
           from pathlib import Path
-          from datetime import datetime
-          def cargar_cache(ruta):
-              raw = Path(ruta).read_text(encoding="utf-8").rstrip()
-              if raw.endswith("\\n"):
-                  raw = raw[:-2]
-              return json.loads(raw)
-          local = cargar_cache("/tmp/cev-cache-local.json")
-          remoto = cargar_cache("cache.json")
-          def items(data):
-              return data.get("noticias", []) if isinstance(data, dict) else []
-          def fecha_orden(noticia):
-              valor = str(noticia.get("fecha", "")).strip()
-              for formato in ("%d/%m/%Y · %I:%M %p", "%d/%m/%Y %I:%M %p"):
-                  try:
-                      return datetime.strptime(valor, formato).timestamp()
-                  except ValueError:
-                      pass
-              try:
-                  return datetime.fromisoformat(valor.replace("Z", "+00:00")).timestamp()
-              except (ValueError, OverflowError):
-                  return 0
-          combinadas = {}
-          for noticia in items(remoto) + items(local):
-              if not isinstance(noticia, dict) or not noticia.get("id"):
-                  continue
-              ident = str(noticia["id"])
-              anterior = combinadas.get(ident, {})
-              # Conservar la versión con foto cuando la otra versión está vacía.
-              puntuacion = lambda n: (bool(n.get("imagen")), bool(n.get("imagen_instagram")), str(n.get("fecha", "")))
-              elegida = noticia if puntuacion(noticia) >= puntuacion(anterior) else anterior
-              alternativa = anterior if elegida is noticia else noticia
-              # Combinar campos para no perder estados editoriales u otros
-              # metadatos que existan en una de las dos versiones.
-              combinadas[ident] = {**alternativa, **elegida}
-              if not elegida.get("estado_informacion") and alternativa.get("estado_informacion"):
-                  combinadas[ident]["estado_informacion"] = alternativa["estado_informacion"]
-          salida = dict(remoto) if isinstance(remoto, dict) else {}
-          salida.update({k:v for k,v in local.items() if k not in ("noticias", "solicitudes_groq")})
-          salida["noticias"] = sorted(combinadas.values(), key=fecha_orden, reverse=True)[:150]
-          if local.get("fecha_solicitudes_groq") == remoto.get("fecha_solicitudes_groq"):
-              salida["solicitudes_groq"] = max(int(local.get("solicitudes_groq", 0)), int(remoto.get("solicitudes_groq", 0)))
-              salida["fecha_solicitudes_groq"] = local.get("fecha_solicitudes_groq")
+
+          antes = json.loads(Path("/tmp/cev-cache-antes.json").read_text(encoding="utf-8"))
+          despues = json.loads(Path("cache.json").read_text(encoding="utf-8"))
+          ids_antes = {str(n.get("id")) for n in antes.get("noticias", []) if n.get("id")}
+          nuevas = [n for n in despues.get("noticias", []) if n.get("id") and str(n["id"]) not in ids_antes]
+
+          if not nuevas:
+              Path("cache.json").write_text(
+                  json.dumps(antes, ensure_ascii=False, indent=2) + "\n",
+                  encoding="utf-8"
+              )
+              print("No hay artículos nuevos. No se actualizará la propuesta editorial.")
+              Path(os.environ["GITHUB_OUTPUT"]).write_text("hay_novedades=false\n", encoding="utf-8")
           else:
-              salida["fecha_solicitudes_groq"] = local.get("fecha_solicitudes_groq")
-              salida["solicitudes_groq"] = int(local.get("solicitudes_groq", 0))
-          Path("cache.json").write_text(json.dumps(salida, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+              print(f"Artículos nuevos para revisión humana: {len(nuevas)}")
+              for noticia in nuevas:
+                  print(f"- {noticia.get('categoria')}: {noticia.get('titulo')}")
+              Path(os.environ["GITHUB_OUTPUT"]).write_text("hay_novedades=true\n", encoding="utf-8")
           PY
-            git add cache.json
-            if git diff --cached --quiet; then
-              echo "Historial sin cambios para guardar."
-              exit 0
-            fi
-            git commit -m "Actualizar historial de noticias"
-            if git push origin HEAD:main; then exit 0; fi
-          done
-          echo "No se pudo guardar el historial después de 3 intentos."
-          exit 1
 
-      - name: Construir página web
-        env:
-          PYTHONUNBUFFERED: "1"
-        run: |
-          echo "Iniciando construcción de CEV NOTICIAS..."
-          python -u build.py
-          echo "Página web construida correctamente."
-
-      - name: Preparar publicación web
-        uses: actions/upload-pages-artifact@v3
+      - name: Abrir o actualizar propuesta editorial
+        if: steps.novedades.outputs.hay_novedades == 'true'
+        uses: peter-evans/create-pull-request@v8
         with:
-          path: site
+          token: \${{ secrets.GITHUB_TOKEN }}
+          add-paths: |
+            cache.json
+          branch: revision-editorial/noticias-pendientes
+          base: main
+          delete-branch: true
+          commit-message: "Proponer noticias para revisión editorial"
+          title: "CEV NOTICIAS | Revisión editorial de nuevas noticias"
+          body: |
+            La automatización preparó nuevos borradores. **No se publicarán en CEV NOTICIAS hasta que esta propuesta sea revisada y fusionada.**
 
-      - name: Publicar CEV NOTICIAS
-        uses: actions/deploy-pages@v4
+            ### Revisión humana mínima antes de publicar
+            - [ ] El titular y el resumen representan fielmente el artículo, sin exagerar los hechos.
+            - [ ] Se abrieron las fuentes y se comprobaron nombres, fechas, cifras y lugares.
+            - [ ] Accidentes, delitos, víctimas, acusaciones y controversias sensibles tienen corroboración de fuentes independientes; si no, retirar o corregir el artículo antes de fusionar.
+            - [ ] Toda fotografía es pertinente y conserva crédito, página de origen y licencia; si no hay foto válida, la noticia queda sin imagen.
+            - [ ] No hay duplicados ni datos personales innecesarios.
+
+            **Al fusionar esta propuesta, autorizas la publicación del lote completo.** Si algún artículo no cumple, edita cache.json en esta propuesta antes de fusionar.
+          draft: false
