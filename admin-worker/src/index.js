@@ -196,7 +196,7 @@ async function api(request,env,identity) {
   }
   const match=path.match(/^\/api\/news\/([a-f0-9-]+)$/i);
   if(match&&method==="PATCH"){
-    const id=match[1],fields=validateArticle(body);
+    const id=match[1],fields=validateArticle(body.imagenUpload?Object.assign({},body,{imagen:"https://image-upload.pending.invalid/photo"}):body);
     const pr=await submitChange(env,(cache,imageUrl)=>{
       const article=cache.noticias.find(x=>String(x.id)===id);
       if(!article)throw new AdminError(404,"La noticia ya no existe en la versión publicada.");
