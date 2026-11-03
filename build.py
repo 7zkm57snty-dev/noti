@@ -929,6 +929,131 @@ body.noche .vacio{{background:#222d37;border-color:#49535e}}
  *,*::before,*::after{{scroll-behavior:auto!important;transition:none!important;animation:none!important}}
 }}
 
+
+/* CEV NOTICIAS · refinamiento editorial común para escritorio, tableta y móvil */
+:root{{--papel:#eef2f6;--blanco:#fff;--tinta:#17212b;--suave:#596775;--linea:#dfe5eb;--rojo:#bd2632;--ancho:1320px}}
+html,body{{max-width:100%;overflow-x:clip}}
+body{{background:#eef2f6;color:#17212b;line-height:1.55}}
+.masthead{{background:#17212b;color:#f8fafc;box-shadow:0 5px 24px rgba(10,22,34,.17)}}
+.cabecera{{max-width:1360px;padding:30px clamp(16px,3.2vw,42px) 20px}}
+.marca{{font-size:clamp(48px,6.2vw,80px);letter-spacing:-3.2px}}
+.eslogan{{color:#d9e1e8}}
+.cabecera-meta{{border-top-color:#526171;color:#d9e1e8}}
+.estado{{color:#ff858a}}
+nav{{background:#1d2a36;border-color:#354555}}
+.nav-carrusel{{max-width:1360px;padding-inline:clamp(10px,2.4vw,32px)}}
+.nav-interior a{{border-radius:7px 7px 0 0}}
+.barra-herramientas{{max-width:1360px;padding:13px clamp(16px,3.2vw,42px) 16px;background:#243341}}
+.buscador{{border-radius:9px;background:#fff;border-color:#647382}}
+.accion-ui{{border-radius:9px}}
+.express-modulo{{max-width:1360px}}
+.contenedor{{max-width:1360px;padding:10px clamp(16px,3.2vw,42px) 44px;background:#fff;border:1px solid #dfe5eb;border-top:0;border-radius:0 0 20px 20px;box-shadow:0 12px 34px rgba(23,33,43,.07)}}
+.cinta{{margin:25px 0 18px}}
+.cinta span:first-child{{color:#bd2632}}
+.portada-grid{{padding:clamp(18px,2.2vw,30px);background:#fff;border:1px solid #dce3e9;border-top:4px solid #bd2632;border-radius:16px;box-shadow:0 8px 24px rgba(23,33,43,.055)}}
+.destacada > a{{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(280px,.85fr);gap:clamp(20px,2.6vw,34px);align-items:center}}
+.destacada > a:has(.destacada-visual) .destacada-visual{{height:auto;min-height:0;aspect-ratio:16/9;max-height:440px;border-radius:12px;background:#dce3e9}}
+.destacada-visual img{{border-radius:12px}}
+.destacada-texto{{padding:8px 4px}}
+.destacada h1{{font-size:clamp(32px,3.6vw,52px);line-height:1.06;letter-spacing:-1.3px;color:#17212b}}
+.destacada p{{font-size:15px;line-height:1.75;color:#596775}}
+.destacada .etiqueta,.tarjeta-vertical .etiqueta{{color:#a5222a}}
+.meta-noticia{{color:#6b7783}}
+.boton{{border-color:#bd2632;color:#a5222a}}
+.relevante h3{{color:#17212b}}
+.bloque-breves{{background:#fff1f2;border-color:#efd5d8}}
+.breve-actualidad{{background:#fff;border-color:#ead8db}}
+.bloque-categoria{{background:#f2f5f8;border-color:#e0e6ec}}
+.titulo-seccion{{color:#17212b}}
+.lista-noticias{{gap:14px;border:0}}
+.tarjeta-vertical{{padding:15px;background:#fff;border:1px solid #e0e6ec;border-radius:13px;box-shadow:0 4px 14px rgba(23,33,43,.045);transition:transform .18s ease,box-shadow .18s ease,border-color .18s ease}}
+.tarjeta-vertical:hover{{transform:translateY(-2px);border-color:#c5d0da;box-shadow:0 9px 22px rgba(23,33,43,.085)}}
+.tarjeta-vertical .tarjeta-enlace{{grid-template-columns:minmax(220px,34%) minmax(0,1fr);gap:clamp(16px,2.2vw,28px)}}
+.tarjeta-vertical .tarjeta-imagen{{height:auto;min-height:0;aspect-ratio:16/10;border-radius:9px;background:#e2e8ee}}
+.tarjeta-vertical .tarjeta-imagen img{{border-radius:9px}}
+.tarjeta-vertical .tarjeta-contenido{{padding:5px 7px}}
+.tarjeta-vertical h3{{font-size:clamp(21px,2.1vw,30px);line-height:1.15;color:#17212b}}
+.tarjeta-vertical p{{color:#596775;line-height:1.7}}
+.articulo{{max-width:1020px;background:#fff;border:1px solid #dfe5eb;border-radius:18px;box-shadow:0 10px 32px rgba(23,33,43,.065)}}
+.articulo h1{{color:#17212b}}
+.articulo .bajada{{color:#536170}}
+.articulo .cuerpo{{color:#263542}}
+.articulo .foto{{border-radius:13px}}
+.pie{{background:#17212b;border-top:5px solid #bd2632}}
+/* La variante oscura manual sigue disponible y mantiene contraste legible. */
+body.noche{{background:#111820;color:#f5f7f9}}
+body.noche .masthead{{background:#121d27}}
+body.noche nav{{background:#182633}}
+body.noche .contenedor{{background:#1a232c;border-color:#34414d}}
+body.noche .portada-grid,body.noche .tarjeta-vertical,body.noche .express-escenario{{background:#222d37;border-color:#3b4854}}
+body.noche .bloque-categoria{{background:#202a34;border-color:#394652}}
+body.noche .destacada h1,body.noche .relevante h3,body.noche .titulo-seccion,body.noche .breves-encabezado h2,body.noche .tarjeta-vertical h3{{color:#f5f7f9}}
+body.noche .destacada p,body.noche .tarjeta-vertical p,body.noche .relevante p{{color:#c3cdd6}}
+body.noche .articulo{{background:#202a34;border-color:#3b4854}}
+body.noche .articulo h1,body.noche .fuentes strong{{color:#f5f7f9}}
+body.noche .articulo .cuerpo{{color:#e8edf1}}
+body.noche .bloque-breves{{background:#302329;border-color:#65434a}}
+body.noche .breve-actualidad{{background:#252e37;border-color:#49535e}}
+body.noche .breve-texto{{color:#e2e7ec}}
+body.noche .breve-pie{{border-color:#49535e}}
+@media(max-width:900px){{
+ .contenedor{{padding-inline:22px}}
+ .tarjeta-vertical .tarjeta-enlace{{grid-template-columns:minmax(190px,36%) minmax(0,1fr);gap:18px}}
+ .articulo{{margin-inline:22px}}
+}}
+@media(max-width:700px){{
+ .cabecera{{padding:21px 15px 16px}}
+ .marca{{font-size:clamp(40px,10.8vw,53px);letter-spacing:-2.4px}}
+ .eslogan{{font-size:9px;letter-spacing:1.8px}}
+ .cabecera-meta{{margin-top:15px;padding-top:10px;font-size:9px;gap:8px}}
+ .nav-carrusel{{padding:0 9px;grid-template-columns:28px minmax(0,1fr) 28px;gap:6px}}
+ .nav-flecha{{width:28px;height:28px;font-size:18px}}
+ .nav-interior{{justify-content:flex-start;gap:5px;padding:8px 1px}}
+ .nav-interior a{{padding:10px 10px;font-size:9px}}
+ .barra-herramientas{{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:8px;padding:10px 13px 13px}}
+ .buscador{{width:100%;min-width:0;padding:11px 12px;font-size:12px}}
+ .accion-ui{{white-space:nowrap;padding:10px 9px;font-size:9px}}
+ .express-modulo{{padding:0 14px;margin:17px auto 13px}}
+ .express-enlace{{grid-template-columns:108px minmax(0,1fr);gap:12px;padding:12px}}
+ .express-foto{{height:auto;aspect-ratio:1/1}}
+ .contenedor{{padding:8px 13px 25px;margin:0 0 17px;border-left:0;border-right:0;border-radius:0 0 13px 13px}}
+ .cinta{{margin:16px 1px 12px;font-size:9px;letter-spacing:1px}}
+ .portada-grid{{padding:12px;border-radius:13px}}
+ .destacada > a{{grid-template-columns:minmax(0,1fr);gap:0}}
+ .destacada > a:has(.destacada-visual) .destacada-visual{{height:auto;aspect-ratio:16/9;border-radius:9px}}
+ .destacada-texto{{padding:13px 3px 5px}}
+ .destacada h1{{font-size:clamp(28px,8vw,36px);letter-spacing:-.8px}}
+ .destacada p{{font-size:13px;line-height:1.65}}
+ .bloque-breves{{margin:18px 0 22px;padding:15px 13px;border-radius:13px}}
+ .breves-grid{{grid-template-columns:minmax(0,1fr);gap:10px}}
+ .breve-actualidad{{padding:13px}}
+ .bloque-categoria{{margin-top:16px;padding:16px 11px;border-radius:13px}}
+ .titulo-seccion{{font-size:24px;gap:7px;line-height:1.15}}
+ .tarjeta-vertical{{padding:11px;border-radius:11px}}
+ .tarjeta-vertical .tarjeta-enlace{{grid-template-columns:minmax(0,1fr);gap:10px}}
+ .tarjeta-vertical .tarjeta-imagen{{height:auto;aspect-ratio:16/9;border-radius:8px}}
+ .tarjeta-vertical .tarjeta-contenido{{padding:2px 2px 4px}}
+ .tarjeta-vertical h3{{font-size:clamp(21px,6.4vw,24px)}}
+ .tarjeta-vertical p{{font-size:12px;line-height:1.6;margin:7px 0 9px}}
+ .articulo{{margin:16px 10px 30px;padding:21px 16px 29px;border-radius:13px}}
+ .articulo h1{{font-size:clamp(30px,8.5vw,39px)}}
+ .articulo .bajada{{font-size:16px}}
+ .articulo .cuerpo{{font-size:17px;line-height:1.78}}
+ .pie{{padding:31px 16px}}
+}}
+@media(max-width:390px){{
+ .cabecera{{padding-inline:12px}}
+ .marca{{font-size:40px}}
+ .cabecera-meta{{font-size:8px;letter-spacing:.1px}}
+ .nav-interior a{{padding:9px 8px;font-size:8px}}
+ .barra-herramientas{{padding-inline:10px}}
+ .accion-ui{{font-size:8px;padding-inline:7px}}
+ .contenedor{{padding-inline:10px}}
+ .destacada h1{{font-size:29px}}
+ .tarjeta-vertical h3{{font-size:21px}}
+ .articulo{{margin-inline:7px;padding-inline:14px}}
+}}
+
 </style>
 </head>
 <body>
