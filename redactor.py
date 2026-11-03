@@ -29,7 +29,7 @@ MAX_ARTICULOS_POR_EJECUCION = 5
 MAX_ARTICULOS_DIARIOS = 30
 MAX_BREVES_POR_EJECUCION = 3
 MAX_BREVES_DIARIOS = 30
-DIAS_ENTRE_ROTACIONES_BREVES = 4
+ROTACION_BREVES_SEMANAL = True
 MAX_BREVES_ANTERIORES = 50
 MAX_SOLICITUDES_POR_EJECUCION = 8
 MAX_GRUPOS_REVISADOS_POR_EJECUCION = 36
@@ -476,6 +476,16 @@ def fecha_mas_reciente_grupo(grupo):
         except (TypeError, ValueError, OverflowError):
             continue
     return max(fechas, default=0)
+
+def grupo_corresponde_a_semana_actual(grupo):
+    """Solo acepta hechos fechados desde el lunes de la semana local hasta ahora."""
+    ahora = datetime.now(ZoneInfo("America/Bogota"))
+    lunes = (ahora - timedelta(days=ahora.weekday())).date()
+    timestamp = fecha_mas_reciente_grupo(grupo)
+    if not timestamp:
+        return False
+    fecha_hecho = datetime.fromtimestamp(timestamp, tz=ZoneInfo("America/Bogota"))
+    return lunes <= fecha_hecho.date() <= ahora.date() and fecha_hecho <= ahora
 
 
 def prioridad_de_investigacion(fuente):
@@ -1348,15 +1358,26 @@ def ejecutar():
         or cache.get("breves_actualizadas", "")
     )
     timestamp_ultima_rotacion_breves = fecha_a_timestamp(fecha_ultima_rotacion_breves)
-    ahora_rotacion_breves = datetime.now(timezone.utc).timestamp()
+    ahora_local = datetime.now(ZoneInfo("America/Bogota"))
+    lunes_actual = (ahora_local - timedelta(days=ahora_local.weekday())).date()
+    if timestamp_ultima_rotacion_breves:
+        ultima_rotacion_local = datetime.fromtimestamp(
+            timestamp_ultima_rotacion_breves,
+            tz=ZoneInfo("America/Bogota")
+        )
+        lunes_ultima_rotacion = (
+            ultima_rotacion_local - timedelta(days=ultima_rotacion_local.weekday())
+        ).date()
+    else:
+        lunes_ultima_rotacion = None
     rotacion_breves_vencida = (
-        not timestamp_ultima_rotacion_breves
-        or ahora_rotacion_breves - timestamp_ultima_rotacion_breves
-        >= DIAS_ENTRE_ROTACIONES_BREVES * 24 * 3600
+        lunes_ultima_rotacion is None
+        or lunes_ultima_rotacion < lunes_actual
     )
     print(
-        "Rotación de mini-noticias:",
-        "corresponde renovar" if rotacion_breves_vencida else "todavía dentro del ciclo de cuatro días"
+        "Edición semanal de mini-noticias:",
+        "corresponde renovar (lunes de esta semana)" if rotacion_breves_vencida
+        else f"ya corresponde a la semana iniciada el {lunes_actual.isoformat()}"
     )
 
     print(
@@ -1575,6 +1596,9 @@ def ejecutar():
             titulo_grupo = str(grupo.get("titulo", "")).strip()
             if not titulo_grupo:
                 continue
+            if not grupo_corresponde_a_semana_actual(grupo):
+                print("Mini-noticia omitida: el hecho no pertenece a la semana actual (lunes a domingo):", titulo_grupo)
+                continue
             fuentes_titular = " ".join(
                 str(f.get("fuente", "")) for f in grupo.get("fuentes", [])
                 if isinstance(f, dict)
@@ -1681,7 +1705,7 @@ def ejecutar():
                 break
     else:
         if not rotacion_breves_vencida:
-            print("No se generan mini-noticias: la próxima edición corresponde cuatro días después de la última.")
+            print("No se generan mini-noticias: la edición se renueva cada lunes, con hechos de la semana que comienza.")
         else:
             print("No hay capacidad de modelo para preparar mini-noticias en esta ejecución.")
 
