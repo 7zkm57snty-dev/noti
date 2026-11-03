@@ -79,7 +79,7 @@ jobs:
           invalidas = []
 
           patron_sensible = re.compile(
-              r"\\b(accidente|muert[eo]|falleci|homicid|asesinat|robo|hurto|captura|detenid|denuncia|acusaci[oó]n|víctim|victim|agresi[oó]n|desaparici[oó]n|abuso|corrupci[oó]n)\\w*",
+              r"\b(accidente|muert[eo]|falleci|homicid|asesinat|robo|hurto|captura|detenid|denuncia|acusaci[oó]n|víctim|victim|agresi[oó]n|desaparici[oó]n|abuso|corrupci[oó]n)\w*",
               re.IGNORECASE
           )
 
