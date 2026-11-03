@@ -1,0 +1,11 @@
+name = "cev-admin"
+main = "src/index.js"
+compatibility_date = "2026-11-02"
+workers_dev = false
+keep_vars = true
+minify = true
+
+[[rules]]
+type = "Text"
+globs = ["**/*.html"]
+fallthrough = false
