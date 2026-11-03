@@ -1077,6 +1077,16 @@ def validar_archivos_publicados(noticias):
                     f"{pagina.relative_to(SITE)} -> {url}"
                 )
 
+    for noticia in noticias:
+        fuentes = noticia.get("fuentes", [])
+        if not any(
+            isinstance(fuente, dict)
+            and urlsplit(str(fuente.get("url", ""))).scheme == "https"
+            and urlsplit(str(fuente.get("url", ""))).hostname
+            for fuente in fuentes
+        ):
+            faltantes.append(f"Artículo sin fuente HTTPS verificable: {noticia.get('id', 'sin-id')}")
+
     if faltantes:
         resumen = "\n".join(f" - {ruta}" for ruta in faltantes[:30])
         raise RuntimeError(
@@ -1120,6 +1130,36 @@ def construir():
         categoria = noticia.get("categoria", "")
         if not titulo or len(contenido) < 250 or categoria not in SECCIONES:
             continue
+
+        # No se publica un artículo sin al menos una fuente directa y enlazable.
+        fuentes_validas = []
+        for fuente in noticia.get("fuentes", []):
+            if not isinstance(fuente, dict):
+                continue
+            url_fuente = str(fuente.get("url", "")).strip()
+            partes_fuente = urlsplit(url_fuente)
+            if (
+                partes_fuente.scheme == "https"
+                and partes_fuente.hostname
+                and str(fuente.get("nombre", "")).strip()
+                and str(fuente.get("titulo", "")).strip()
+            ):
+                fuentes_validas.append(fuente)
+        if not fuentes_validas:
+            print(f"Artículo omitido por falta de fuente HTTPS verificable: {titulo}")
+            continue
+        noticia["fuentes"] = fuentes_validas
+
+        # Si los datos de licencia y atribución de la foto están incompletos,
+        # se conserva el artículo, pero se publica sin fotografía.
+        if noticia.get("imagen"):
+            credito = noticia.get("imagen_credito") or {}
+            campos_credito = ("autor", "fuente", "pagina", "licencia", "licencia_url")
+            if not all(str(credito.get(campo, "")).strip() for campo in campos_credito):
+                print(f"Fotografía omitida por falta de licencia o atribución completa: {titulo}")
+                noticia["imagen"] = ""
+                noticia["imagen_credito"] = {}
+
         identificador = noticia.get("id") or slug(titulo)
         titulo_normalizado = re.sub(r"[^a-z0-9]+", " ", titulo.lower()).strip()
         if identificador in vistos or titulo_normalizado in titulos_vistos:
