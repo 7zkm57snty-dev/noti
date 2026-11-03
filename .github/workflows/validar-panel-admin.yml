@@ -252,7 +252,7 @@ jobs:
               assert 'href="https://otro-medio.example' not in portada
               print("Correcto: la portada muestra mini-noticias propias con crédito visible y sin enlaces externos; el radar RSS sigue siendo interno.")
           # Las fotografías editoriales y las mini-noticias deben llevar crédito verificable.
-          cache = json.loads(build.CACHE.read_text(encoding="utf-8"))
+          cache = json.loads(Path("../cache.json").read_text(encoding="utf-8"))
           for item in list(cache.get("noticias", [])) + list(cache.get("breves", [])):
               if item.get("imagen"):
                   credito = item.get("imagen_credito") or {}
