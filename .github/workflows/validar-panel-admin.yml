@@ -120,6 +120,25 @@ jobs:
                       ]
                   }
               }
+              breve = {
+                  "id": "breve-propio-prueba",
+                  "autor": "Redacción CEV NOTICIAS",
+                  "titulo": "Cali prepara medidas para mejorar la movilidad en el centro",
+                  "texto": (
+                      "La Secretaría de Movilidad anunció una intervención temporal en varios corredores del centro de Cali. "
+                      "La medida contempla ajustes de circulación y señalización durante las jornadas de trabajo. "
+                      "La entidad señaló que informará los horarios y desvíos antes de iniciar las labores. "
+                      "Los conductores deberán consultar las indicaciones instaladas en cada sector y atender las recomendaciones de los agentes."
+                  ),
+                  "categoria": "Cali",
+                  "estado_informacion": "en_desarrollo",
+                  "fecha": "2026-11-03T12:00:00+00:00",
+                  "fuentes": [{
+                      "nombre": "Fuente de prueba externa",
+                      "titulo": "Reporte original de movilidad",
+                      "url": "https://otro-medio.example/noticia"
+                  }]
+              }
               radar = {
                   "titulares_rss": [{
                       "id": "externa-prueba",
@@ -130,7 +149,7 @@ jobs:
                       "fecha": "2026-11-03T12:00:00+00:00"
                   }]
               }
-              build.CACHE.write_text(json.dumps({"noticias": [articulo]}), encoding="utf-8")
+              build.CACHE.write_text(json.dumps({"noticias": [articulo], "breves": [breve]}), encoding="utf-8")
               build.RADAR_RSS.write_text(json.dumps(radar), encoding="utf-8")
               build.construir()
 
@@ -143,7 +162,12 @@ jobs:
               assert not (build.SITE / "actualidad.html").exists()
               assert "Qué aporta esta cobertura" in pagina_articulo
               assert "La cobertura explica el efecto local" in pagina_articulo
-              print("Correcto: portada y secciones contienen solo artículos propios; el radar RSS sigue siendo interno.")
+              assert "Última hora · Lo más destacado" in portada
+              assert breve["titulo"] in portada
+              assert "Fuente de prueba externa" in portada
+              assert "otro-medio.example" not in portada
+              assert 'href="https://otro-medio.example' not in portada
+              print("Correcto: la portada muestra mini-noticias propias con crédito visible y sin enlaces externos; el radar RSS sigue siendo interno.")
           PY
       - name: Validar sintaxis del verificador de publicación
         run: python -m py_compile ../verificar_publicacion.py
