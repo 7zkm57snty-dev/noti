@@ -1043,7 +1043,7 @@ def ejecutar():
                 str(f.get("texto", "")) for f in fuentes
             )).lower()
             temas_sensibles = re.search(
-                r"\\b(accidente|muert[eo]|falleci|homicid|asesinat|robo|hurto|captura|detenid|denuncia|acusaci[oó]n|víctim|victim|agresi[oó]n|desaparici[oó]n|abuso|corrupci[oó]n)\\w*",
+                r"\b(accidente|muert[eo]|falleci|homicid|asesinat|robo|hurto|captura|detenid|denuncia|acusaci[oó]n|víctim|victim|agresi[oó]n|desaparici[oó]n|abuso|corrupci[oó]n)\w*",
                 texto_revision
             )
             if temas_sensibles and len(dominios) < 2:
