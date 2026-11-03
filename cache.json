@@ -1,6 +1,83 @@
 {
   "noticias": [
     {
+      "id": "90b8c2e9c7e8af28",
+      "autor": "CEV NOTICIAS",
+      "titulo": "Malaria en Cali y Palmira: cuatro casos vinculados a viaje a la República Democrática del Congo, sin evidencia de ébola",
+      "titular_instagram": "Malaria en Cali y Palmira: cuatro casos, ébola descartado",
+      "resumen": "Cuatro pacientes vinculados a un viaje a la República Democrática del Congo fueron diagnosticados con malaria por Plasmodium falciparum en Cali y Palmira. El Ministerio de Salud y el Instituto Nacional de Salud descartaron la presencia de ébola y mantienen vigilancia epidemiológica. Un paciente falleció el 31 de octubre, otro permanece hospitalizado y dos están en tratamiento.",
+      "categoria": "Valle del Cauca",
+      "contenido": "El 31 de octubre, el Ministerio de Salud confirmó que un ciudadano colombiano de 33 años, quien había regresado de la República Democrática del Congo, falleció en una institución hospitalaria de Palmira con diagnóstico de malaria por Plasmodium falciparum. El mismo día, otro paciente de 50 años fue trasladado a una unidad de alta complejidad en Cali, donde continúa su tratamiento bajo medidas de aislamiento.\n\nDurante la investigación epidemiológica, se identificaron dos personas adicionales vinculadas a los casos iniciales. Ambas también presentaron malaria y están recibiendo tratamiento médico. En total, cuatro personas están bajo seguimiento sanitario en el Valle del Cauca.\n\nAnte los antecedentes de viaje a un país donde el ébola circula, las autoridades activaron protocolos de vigilancia. Se tomaron muestras y se realizaron pruebas de laboratorio en el Instituto Nacional de Salud (INS). Los resultados descartaron la presencia del virus del ébola en los cuatro pacientes.\n\nEl secretario de Salud del Valle del Cauca, Alberto Campos, enfatizó que los dos ciudadanos que ingresaron a Palmira provenían de una región de bajo riesgo de ébola y que la muerte se debió a una complicación de la malaria. Campos aseguró que no existe riesgo de salud pública en el departamento y que las medidas de bioseguridad se mantienen vigentes.\n\nLa malaria sigue siendo una enfermedad endémica en Colombia, concentrada principalmente en zonas rurales y selváticas por debajo de los 1.600 metros sobre el nivel del mar. En el Valle del Cauca, los casos se registran principalmente en Buenaventura y áreas del Pacífico, mientras que en ciudades como Cali y Palmira suelen ser importados de otras regiones endémicas o del exterior.\n\nEl seguimiento epidemiológico incluye la verificación de los lugares de desplazamiento, antecedentes de exposición y posibles contactos. Los equipos de salud continúan con las investigaciones de campo y la aplicación de los protocolos de bioseguridad.\n\nPara la población, la información confirma que, aunque la malaria es una amenaza, los casos en Cali y Palmira son importados y no indican un brote local. Las autoridades mantienen la vigilancia activa y la atención médica adecuada.\n\nLo que aún no está confirmado es la evolución de los dos pacientes en tratamiento y si se identifican más contactos. Los próximos pasos incluyen la continuidad del seguimiento de los cuatro casos y la aplicación de las medidas de prevención recomendadas por el Ministerio de Salud.\n\nEn síntesis, la malaria ha sido confirmada en cuatro pacientes vinculados a un viaje a la República Democrática del Congo, el ébola ha sido descartado y las autoridades sanitarias siguen en vigilancia para garantizar la seguridad pública en el Valle del Cauca.",
+      "estado_informacion": "confirmada",
+      "investigacion": {
+        "enfoque_original": "Esta cobertura contextualiza los casos de malaria en Cali y Palmira dentro del panorama de enfermedades importadas en el Valle del Cauca, explica las medidas de vigilancia y refuerza la información oficial sobre la ausencia de riesgo de ébola, ofreciendo a la comunidad una visión clara y basada en datos verificados.",
+        "hechos_clave": [
+          "Cuatro pacientes vinculados a un viaje a la República Democrática del Congo fueron diagnosticados con malaria por Plasmodium falciparum.",
+          "El Ministerio de Salud y el Instituto Nacional de Salud descartaron la presencia de ébola en estos casos.",
+          "Un paciente de 33 años falleció el 31 de octubre en Palmira; otro de 50 años permanece hospitalizado en Cali; dos personas adicionales están en tratamiento."
+        ],
+        "fuentes_recuperadas": 2,
+        "dominios_independientes": 2,
+        "fecha": "2026-11-03T23:40:59.622041+00:00"
+      },
+      "imagen": "",
+      "imagen_credito": {},
+      "imagen_busqueda_intentada": true,
+      "imagen_instagram": "https://cevnoticias.com/social/90b8c2e9c7e8af28.jpg",
+      "imagen_instagram_tipo": "portada_grafica_cev",
+      "descripcion_instagram": "Malaria en Cali y Palmira: cuatro casos vinculados a viaje a la República Democrática del Congo, sin evidencia de ébola\\n\\nCuatro pacientes vinculados a un viaje a la República Democrática del Congo fueron diagnosticados con malaria por Plasmodium falciparum en Cali y Palmira. El Ministerio de Salud y el Instituto Nacional de Salud descartaron la presencia de ébola y mantienen vigilancia epidemiológica. Un paciente falleció el 31 de octubre, otro permanece hospitalizado y dos están en tratamiento.\\n\\n📍 Valle del Cauca\\n\\nLee la noticia completa en cevnoticias.com.\\n\\n#CEVNoticias #Actualidad #ValleDelCauca #Colombia",
+      "verificacion": "Varias fuentes independientes",
+      "fecha": "03/11/2026 · 06:40 PM",
+      "fuentes": [
+        {
+          "nombre": "Diario Occidente",
+          "titulo": "¿Qué se sabe de los casos de malaria en Cali y Palmira? Descartan ébola y mantienen vigilancia a cuatro personas",
+          "url": "https://occidente.co/regionales/valle-del-cauca/descartan-ebola-en-el-valle-del-cauca-malaria-viajeros-congo-2026/"
+        },
+        {
+          "nombre": "La FM Actualidad",
+          "titulo": "\"Las personas provenían de una región de bajo riesgo y de contagio del ébola\": secretario de Salud del Valle sobre casos de malaria",
+          "url": "https://www.lafm.com.co/actualidad/ebola-malaria-personas-provenian-de-una-region-de-bajo-riesgo-y-de-contagio-415861"
+        }
+      ]
+    },
+    {
+      "id": "edfb5498152da4a5",
+      "autor": "CEV NOTICIAS",
+      "titulo": "Mercado Campesino Valle Agro abre sus puertas en Cali para impulsar la economía rural",
+      "titular_instagram": "¡Valle compra Valle! Mercado Campesino Valle Agro en Cali",
+      "resumen": "El próximo miércoles la plaza de San Francisco en Santiago de Cali será el escenario de un gran mercado campesino que reunirá a más de 200 productores de 19 municipios del Valle del Cauca. La iniciativa, impulsada por la Gobernación y la Secretaría de Desarrollo Rural, Agricultura y Pesca, busca vender productos sin intermediarios, movilizar más de tres toneladas de alimentos y fortalecer la economía rural.",
+      "categoria": "Valle del Cauca",
+      "contenido": "El próximo miércoles la plaza de San Francisco, en el centro de Santiago de Cali, se convertirá en el epicentro de un gran mercado campesino que reunirá a productores de todo el Valle del Cauca. La iniciativa, denominada Mercado Campesino Valle Agro, forma parte de la estrategia de la Gobernación para impulsar la economía rural y promover la venta directa de alimentos.\n\nSegún la Secretaría de Desarrollo Rural, Agricultura y Pesca, el evento contará con la participación de más de 200 productores que provienen de 19 municipios del departamento. Además, 80 asociaciones campesinas se unirán a la jornada, lo que convierte al mercado en una plataforma de gran alcance para la comercialización de frutas, verduras, hortalizas y productos transformados.\n\nEl modelo de venta directa, sin intermediarios, es el eje central de la propuesta. Los productores podrán exhibir y vender sus cosechas frescas directamente a los consumidores, lo que se traduce en mayores ingresos para ellos y precios más competitivos para los compradores. La Secretaría enfatiza que esta modalidad fortalece la cadena de suministro local y reduce la dependencia de intermediarios.\n\nÁngela Reyes, secretaria de Desarrollo Rural, Agricultura y Pesca, explicó que el objetivo es “Valle compra Valle”, movilizando más de tres toneladas de alimentos para que los habitantes de la región compren productos frescos y sostenibles a precios justos. La directora también destacó la importancia de este mercado como una herramienta para reconstruir la economía rural del Valle del Cauca.\n\nEl evento está programado para comenzar a las 7:30 a.m. y se espera que los productores lleguen con sus productos frescos y sostenibles para abastecer a los hogares vallecaucanos. La Secretaría invita a la ciudadanía a participar y apoyar a los agricultores locales, reforzando la idea de que el consumo interno puede ser una fuerza de desarrollo.\n\nEl Mercado Campesino Valle Agro no solo representa una oportunidad de venta para los productores, sino también una muestra de la política de sostenibilidad y competitividad que la Gobernación busca impulsar en el departamento. Al fomentar la compra directa, se pretende reducir la pérdida de ingresos que suelen sufrir los agricultores al depender de intermediarios.\n\nAún no se dispone de datos precisos sobre la cantidad exacta de productos que se venderán ni sobre la participación de los consumidores, pero la Secretaría ha confirmado que el evento será una plataforma abierta a toda la comunidad. Se espera que la jornada sirva como modelo replicable en otras regiones del Valle del Cauca.\n\nLo que queda por conocer incluye la respuesta de los consumidores y la efectividad de la iniciativa en términos de ingresos para los productores. La Gobernación y la Secretaría planean evaluar el impacto del mercado y considerar la posibilidad de convertirlo en un evento recurrente, con el objetivo de consolidar la economía rural y fortalecer la cadena de valor local.",
+      "estado_informacion": "informacion_preliminar",
+      "investigacion": {
+        "enfoque_original": "Esta cobertura detalla la magnitud del evento, la participación de 80 asociaciones y 200 productores, y la estrategia de la Secretaría para fomentar la compra directa y precios competitivos, aportando datos concretos que no aparecen en la nota original.",
+        "hechos_clave": [
+          "El Mercado Campesino Valle Agro se realizará en la plazoleta de San Francisco, Cali, el próximo miércoles.",
+          "Participarán más de 80 asociaciones y 200 productores de 19 municipios del Valle del Cauca.",
+          "La Secretaría de Desarrollo Rural, Agricultura y Pesca, Ángela Reyes, anunció la movilización de más de tres toneladas de alimentos y la intención de fomentar la compra directa y precios competitivos."
+        ],
+        "fuentes_recuperadas": 1,
+        "dominios_independientes": 1,
+        "fecha": "2026-11-03T23:46:01.285716+00:00"
+      },
+      "imagen": "",
+      "imagen_credito": {},
+      "imagen_busqueda_intentada": true,
+      "imagen_instagram": "https://cevnoticias.com/social/edfb5498152da4a5.jpg",
+      "imagen_instagram_tipo": "portada_grafica_cev",
+      "descripcion_instagram": "Mercado Campesino Valle Agro abre sus puertas en Cali para impulsar la economía rural\\n\\nEl próximo miércoles la plaza de San Francisco en Santiago de Cali será el escenario de un gran mercado campesino que reunirá a más de 200 productores de 19 municipios del Valle del Cauca. La iniciativa, impulsada por la Gobernación y la Secretaría de Desarrollo Rural, Agricultura y Pesca, busca vender productos sin intermediarios, movilizar más de tres toneladas de alimentos y fortalecer la economía rural.\\n\\n📍 Valle del Cauca\\n\\nLee la noticia completa en cevnoticias.com.\\n\\n#CEVNoticias #Actualidad #ValleDelCauca #Colombia",
+      "verificacion": "Una sola fuente",
+      "fecha": "03/11/2026 · 06:46 PM",
+      "fuentes": [
+        {
+          "nombre": "Diario Occidente",
+          "titulo": "Llamado a apoyar productores del campo en el Valle",
+          "url": "https://occidente.co/regionales/valle-del-cauca/mercado-campesino-valle-agro-reune-a-200-productores/"
+        }
+      ]
+    },
+    {
       "id": "245ca8dbcb703a59",
       "autor": "CEV NOTICIAS",
       "titulo": "Alto Jordán sigue sin recibir ayudas del sismo del 10 de agosto, pese a los desembolsos anunciados por la Alcaldía",
@@ -1017,6 +1094,141 @@
   "periodo_breves_publicado": "edicion-inicial-2026-11-03",
   "titulares_rss": [
     {
+      "id": "8a5e3d78f9aa5a3e",
+      "titulo": "Las ‘midterms’ 2026, en vivo | Cierran los primeros colegios electorales y empieza el recuento de los votos al Congreso",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/us/2026-11-03/las-midterms-2026-en-vivo.html",
+      "fecha": "2026-11-03T23:39:33+00:00",
+      "imagen": "https://imagenes.elpais.com/resizer/v2/S3S53UZYKJCXTLJHBYO2VGGVEI.jpg?auth=2968bd565843ac41c09a52df41f3065c934434975be9c79b3d56430dc6d39ad1"
+    },
+    {
+      "id": "05c1f62494ea4c55",
+      "titulo": "Deicy Jiménez no declaró ante la Fiscalía tras renuncia de su abogado",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/en-vivo/deicy-jimenez-no-declaro-ante-la-fiscalia-tras-renuncia-de-su-abogado/",
+      "fecha": "2026-11-03T23:37:18+00:00",
+      "imagen": "https://i0.wp.com/www.lasillavacia.com/wp-content/uploads/2026/11/Deicy-Jimenez-Felipe-Caballero.jpg?fit=1024%2C768&quality=80&strip=all&ssl=1"
+    },
+    {
+      "id": "755cdc215311bcf1",
+      "titulo": "Los resultados de las ‘midterms’ de 2026 en Estados Unidos, en vivo",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/us/2026-11-03/los-resultados-de-las-midterms-de-2026-en-estados-unidos-en-vivo.html",
+      "fecha": "2026-11-03T23:36:50+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "4f96336a5e196503",
+      "titulo": "La apuesta de la Cámara de Comercio de Cartagena para llevar innovación y tecnología al tejido empresarial de la ciudad: inicia InnovaLatam 2026",
+      "categoria": "Tecnología",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/la-apuesta-de-la-camara-de-comercio-de-cartagena-para-llevar-innovacion-y-tecnologia-al-tejido-empresarial-de-la-ciudad-inicia-innovalatam-3598240",
+      "fecha": "2026-11-03T23:30:07+00:00",
+      "imagen": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2026/10/15/6ad12e6c1a513.r_d.641-462-0.jpeg"
+    },
+    {
+      "id": "a04d914d56c78f54",
+      "titulo": "Hoteleros en Medellín expresan apoyo al POT para regular vivienda turística",
+      "categoria": "Colombia",
+      "fuente": "La FM Actualidad",
+      "url": "https://www.lafm.com.co/actualidad/medellin-hoteleros-apoyo-pot-regulacion-vivienda-turistica-416041",
+      "fecha": "2026-11-03T23:29:22+00:00",
+      "imagen": "https://files.lafm.com.co/media/news-images/2026/11/03/233043/contenidopatrocinadoalcaldiamedellin-1200x675.jpg"
+    },
+    {
+      "id": "b056fb2f08a74d87",
+      "titulo": "Fenalco propuso cambios en la Ley de Rescate que se empezará a discutir en el Congreso",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/economia/fenalco-propuso-cambios-en-la-ley-de-rescate-que-se-empezara-a-discutir-en-el-congreso-4517012",
+      "fecha": "2026-11-03T23:15:35+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "cc4d9600d970e39b",
+      "titulo": "Tras 10 horas de debate, Senado aprueba la ley de sometimiento pero la Cámara tiene la última palabra",
+      "categoria": "Economía",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/gobierno/tras-10-horas-de-debate-senado-aprueba-la-ley-de-sometimiento-pero-la-camara-tiene-la-ultima-palabra-505657",
+      "fecha": "2026-11-03T23:14:21+00:00",
+      "imagen": "https://imagenes.portafolio.co/files/og_thumbnail/uploads/2026/10/19/6ad69b4359779.jpeg"
+    },
+    {
+      "id": "774f887476e96d73",
+      "titulo": "El rifirrafe marcario que enfrenta a Davivienda y a Plata Colombia: la fintech tiene un mes para defender su nombre",
+      "categoria": "Economía",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/davivienda-se-opone-a-plata-colombia-la-fintech-tiene-30-dias-habiles-para-defender-su-marca-505649",
+      "fecha": "2026-11-03T23:09:41+00:00",
+      "imagen": "https://imagenes.portafolio.co/files/og_thumbnail/files/fp/uploads/2026/11/03/6aea5c90b3593.r_d.476-310-1.webp"
+    },
+    {
+      "id": "b120a4c020753f94",
+      "titulo": "Gobierno radicó mensaje de urgencia para tramitar la Ley de Rescate Económico",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/economia/gobierno-radico-mensaje-de-urgencia-para-tramitar-la-ley-de-rescate-economico-4517003",
+      "fecha": "2026-11-03T23:08:51+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "e5719c103079a85c",
+      "titulo": "Llamado a apoyar productores del campo en el Valle",
+      "categoria": "Valle del Cauca",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/regionales/valle-del-cauca/mercado-campesino-valle-agro-reune-a-200-productores/",
+      "fecha": "2026-11-03T23:01:01+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "a6bb510500c5c9d7",
+      "titulo": "Once Caldas elimina a Santa Fe en Copa BetPlay",
+      "categoria": "Valle del Cauca",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/deportes/once-caldas-elimina-a-santa-fe-en-copa-betplay/",
+      "fecha": "2026-11-03T23:00:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "7a1d01a2f0e172c6",
+      "titulo": "Águilas Doradas venció 1-0 a Fortaleza",
+      "categoria": "Valle del Cauca",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/deportes/aguilas-doradas-vencio-1-0-a-fortaleza/",
+      "fecha": "2026-11-03T23:00:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "7042e39419c4cc72",
+      "titulo": "Ni un impuesto más para los colombianos",
+      "categoria": "Valle del Cauca",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/opinion/editorial/reforma-tributaria-abelardo-de-la-espriella-polemica-impuestos-colombia-2026/",
+      "fecha": "2026-11-03T22:56:27+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "72e41e6a1739764f",
+      "titulo": "En Comfandi la armonía también se vive a través de la cultura",
+      "categoria": "Colombia",
+      "fuente": "Q'hubo Cali",
+      "url": "https://www.qhubocali.com/especiales/en-comfandi-la-armonia-tambien-se-vive-a-traves-de-la-cultura/",
+      "fecha": "2026-11-03T22:55:11+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "a0c41f06aba2a3cd",
+      "titulo": "El expresidente Álvaro Uribe señala al ministro de Hacienda de clientelismo en la antesala de la ley de ajuste fiscal",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/america-colombia/2026-11-03/el-expresidente-alvaro-uribe-senala-al-ministro-de-hacienda-de-clientelismo-en-la-antesala-de-la-ley-de-ajuste-fiscal.html",
+      "fecha": "2026-11-03T22:53:35+00:00",
+      "imagen": "https://imagenes.elpais.com/resizer/v2/HX6GSASTUJFRZNJAMB2A254RAE.jpg?auth=4c443e39804985da2fc3f1d4608ca34f8204be2342dfc67736fdc92f74cadf98"
+    },
+    {
       "id": "cf41b8617f504245",
       "titulo": "Valle entre los priorizados en plan de choque del Fomag",
       "categoria": "Valle del Cauca",
@@ -1041,16 +1253,7 @@
       "fuente": "La Silla Vacía",
       "url": "https://www.lasillavacia.com/silla-nacional/calculadora-de-la-ley-de-rescate-asi-le-pega-la-tributaria-de-abelardo/",
       "fecha": "2026-11-03T22:46:12+00:00",
-      "imagen": "https://i0.wp.com/www.lasillavacia.com/wp-content/uploads/2026/10/FotoJet-1.jpg?fit=1024%2C768&quality=80&strip=all&ssl=1"
-    },
-    {
-      "id": "db01aa387a8dd06c",
-      "titulo": "Damnificados del sismo en Alto Jordán, en Cali, reclaman ayudas que aún no llegan",
-      "categoria": "Cali",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/cali/sismo-en-cali-afectados-reservas-de-melendez-denuncian-falta-de-ayudas-2026/",
-      "fecha": "2026-11-03T22:43:10+00:00",
-      "imagen": ""
+      "imagen": "https://i0.wp.com/www.lasillavacia.com/wp-content/uploads/2026/11/portada_silla_factura_v2_1200x900.png?fit=1024%2C768&quality=80&strip=all&ssl=1"
     },
     {
       "id": "a59f92c5b70f20d1",
@@ -1060,15 +1263,6 @@
       "url": "https://www.eltiempo.com/colombia/cali/luz-verde-en-medio-de-cuestionamientos-emcali-adjudica-el-megacontrato-que-llevara-a-cali-a-tener-alumbrado-100-por-ciento-led-en-18-meses-3598238",
       "fecha": "2026-11-03T22:42:53+00:00",
       "imagen": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/11/03/6aea61065687d.jpeg"
-    },
-    {
-      "id": "feb1c1b7a121ae2f",
-      "titulo": "Pico y placa en Cali este miércoles, 04 de noviembre: restricción de movilidad",
-      "categoria": "Cali",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/cali/pico-y-placa-en-cali-este-miercoles-04-11-2026/",
-      "fecha": "2026-11-03T22:37:55+00:00",
-      "imagen": "https://90minutos.co/wp-content/uploads/2026/10/movilidad-multa-transporte-motos.jpg"
     },
     {
       "id": "2d8ab50d353e98c7",
@@ -1098,24 +1292,6 @@
       "imagen": ""
     },
     {
-      "id": "e305f8fb442e1f1e",
-      "titulo": "Gobierno Petro creó un consulado en Tijuana que nunca abrió y dejó una deuda de arriendo: esta es la historia",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/consulado-colombia-tijuana-gobierno-petro-nunca-abrio-deuda-arriendo-KC43143090",
-      "fecha": "2026-11-03T22:28:39+00:00",
-      "imagen": "https://estaticos.elcolombiano.com/binrepository/533x300/0c0/0d0/center/11101/YDPH/tamanos-el-colombiano-2026-11-03t1_52047241_20261103171756.png"
-    },
-    {
-      "id": "9fb0ad1f2944be01",
-      "titulo": "Aprenda a hacer contenidos que le interesen a su audiencia con La Silla",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/en-vivo/aprenda-a-hacer-contenidos-que-le-interesen-a-su-audiencia-con-la-silla/",
-      "fecha": "2026-11-03T22:22:03+00:00",
-      "imagen": "https://i0.wp.com/www.lasillavacia.com/wp-content/uploads/2026/10/Portada_-Comunicar-ideas-con-impacto-1.jpg?fit=1024%2C768&quality=80&strip=all&ssl=1"
-    },
-    {
       "id": "aab723b419f62098",
       "titulo": "Se conocen más detalles del sismo del 3 de noviembre: SGC puntualizó información",
       "categoria": "Valle del Cauca",
@@ -1123,33 +1299,6 @@
       "url": "https://90minutos.co/colombia/sismo-del-3-de-noviembre-sgc-03-11-2026/",
       "fecha": "2026-11-03T22:18:43+00:00",
       "imagen": "https://90minutos.co/wp-content/uploads/2026/09/sismo-terremoto-2.jpg"
-    },
-    {
-      "id": "774f887476e96d73",
-      "titulo": "Davivienda se opone a Plata Colombia: la fintech tiene 30 días hábiles para defender su marca",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/davivienda-se-opone-a-plata-colombia-la-fintech-tiene-30-dias-habiles-para-defender-su-marca-505649",
-      "fecha": "2026-11-03T22:16:42+00:00",
-      "imagen": "https://imagenes.portafolio.co/files/og_thumbnail/files/fp/uploads/2026/11/03/6aea5c90b3593.r_d.476-310-1.webp"
-    },
-    {
-      "id": "cfcba7cf264717f4",
-      "titulo": "¿Cómo le fue a Cali y al Valle con el sismo de 5,6 grados que despertó al país este martes 3 de noviembre?",
-      "categoria": "Cali",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/colombia/sismo-en-colombia-temblor-chaparral-tolima-danos-2026/",
-      "fecha": "2026-11-03T22:15:26+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "6a2e2a9141b063a7",
-      "titulo": "Uribe vs MinHacienda por supuesta entrega de hojas de vida en debate",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/en-vivo/uribe-vs-minhacienda-por-supuesta-entrega-de-hojas-de-vida-en-debate/",
-      "fecha": "2026-11-03T22:11:13+00:00",
-      "imagen": "https://i0.wp.com/www.lasillavacia.com/wp-content/uploads/2026/11/Alvaro-Uribe-Miguel-Gomez.jpg?fit=1024%2C768&quality=80&strip=all&ssl=1"
     },
     {
       "id": "5ce913f3d5bc614a",
@@ -1170,33 +1319,6 @@
       "imagen": ""
     },
     {
-      "id": "b3d15075fb263ba1",
-      "titulo": "¡Orgullo! Colombia ocupa el tercer lugar entre los países más bonitos del mundo, listado completo",
-      "categoria": "Valle del Cauca",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/vida-moderna/ecologia/colombia-paises-mas-bonitos-del-mundo-03-11-2026/",
-      "fecha": "2026-11-03T22:05:41+00:00",
-      "imagen": "https://90minutos.co/wp-content/uploads/2024/05/cano-cristales.jpg"
-    },
-    {
-      "id": "8a5e3d78f9aa5a3e",
-      "titulo": "Las ‘midterms’ 2026, en vivo | Las elecciones de Estados Unidos transcurren sin mayores incidentes pese al temor a la presencia de agentes federales",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/us/2026-11-03/las-midterms-2026-en-vivo.html",
-      "fecha": "2026-11-03T22:04:12+00:00",
-      "imagen": "https://imagenes.elpais.com/resizer/v2/S3S53UZYKJCXTLJHBYO2VGGVEI.jpg?auth=2968bd565843ac41c09a52df41f3065c934434975be9c79b3d56430dc6d39ad1"
-    },
-    {
-      "id": "c3181465d2646469",
-      "titulo": "Ley de Rescate Económico: los cambios en impuestos que plantea el Gobierno",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/impuestos/ley-de-rescate-economico-los-cambios-en-impuestos-que-plantea-el-gobierno-505648",
-      "fecha": "2026-11-03T22:03:38+00:00",
-      "imagen": "https://imagenes.portafolio.co/files/og_thumbnail/uploads/2026/11/03/6aea5a15c8f67.jpeg"
-    },
-    {
       "id": "472352daaf8e1b78",
       "titulo": "IVA a la gasolina, impuesto al carbono y otros efectos de la ley de rescate en la energía",
       "categoria": "Economía",
@@ -1204,42 +1326,6 @@
       "url": "https://www.portafolio.co/economia/iva-a-la-gasolina-impuesto-al-carbono-y-otros-efectos-de-la-ley-de-rescate-en-la-energia-505647",
       "fecha": "2026-11-03T22:02:14+00:00",
       "imagen": "https://imagenes.portafolio.co/files/og_thumbnail/uploads/2025/08/05/6891eae61cc0b.jpeg"
-    },
-    {
-      "id": "5c6973cdddb64047",
-      "titulo": "De la Espriella lo encaró, perdió la visa y ahora la Fiscalía lo llama a interrogatorio: el caso del alcalde de Sincelejo",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/alcalde-sincelejo-llamado-interrogatorio-fiscalia-delito-soborno-DC43140377",
-      "fecha": "2026-11-03T22:01:51+00:00",
-      "imagen": "https://estaticos.elcolombiano.com/binrepository/450x300/0c0/0d0/center/11101/UTQP/alcalde-sincelejo-51797212-202610041_52047262_20261103171406.webp"
-    },
-    {
-      "id": "9d7863a47f1b2919",
-      "titulo": "La Cancillería debe responder por el traslado de su biblioteca",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/red-de-expertos/red-social/la-cancilleria-debe-responder-por-el-traslado-de-su-biblioteca/",
-      "fecha": "2026-11-03T22:00:00+00:00",
-      "imagen": "https://i0.wp.com/www.lasillavacia.com/wp-content/uploads/2026/11/Cancilleria_Biblioteca.jpeg?fit=1280%2C853&quality=80&strip=all&ssl=1"
-    },
-    {
-      "id": "0811d2c57b433704",
-      "titulo": "Defensoría alerta por desplazamiento de 500 indígenas en Nuquí",
-      "categoria": "Valle del Cauca",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/colombia/defensoria-del-pueblo-alerta-por-desplazamiento-en-nuqui/",
-      "fecha": "2026-11-03T21:56:12+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "30966146a6502484",
-      "titulo": "Comunidades del Chocó se quedaron esperando la energía solar del Gobierno Petro",
-      "categoria": "Colombia",
-      "fuente": "Chocó 7 días",
-      "url": "https://choco7dias.com/comunidades-del-choco-se-quedaron-esperando-la-energia-comunitaria-del-gobierno-petro/",
-      "fecha": "2026-11-03T21:54:43+00:00",
-      "imagen": ""
     },
     {
       "id": "469a369406ed4688",
@@ -1258,33 +1344,6 @@
       "url": "https://www.dw.com/es/trump-a-republicanos-les-irá-mejor-de-lo-esperado-en-las-elecciones/live-79845739?maca=spa-rss-sp-all-1122-rdf",
       "fecha": "2026-11-03T21:53:00+00:00",
       "imagen": ""
-    },
-    {
-      "id": "3e951ad35c52cc85",
-      "titulo": "¿Y si lo que hoy te hace sufrir tuviera algo que enseñarte?",
-      "categoria": "Valle del Cauca",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/secciones/salud/gestion-de-las-emociones-equilibrio-del-ser-bienestar-emocional-2026/",
-      "fecha": "2026-11-03T21:47:52+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "45cc2e30fb22774e",
-      "titulo": "El Grupo Empresarial Díaz estaría cerca de hacerse con 100% del equipo Real Cartagena",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/empresas/el-grupo-empresarial-diaz-estaria-cerca-de-hacerse-con-100-del-real-cartagena-4516883",
-      "fecha": "2026-11-03T21:46:08+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "0e7daefe003a5e9e",
-      "titulo": "Gobierno De La Espriella radicó en el Congreso mensaje de urgencia para acelerar trámite de ley de rescate fiscal",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/gobierno/gobierno-de-la-espriella-radico-en-el-congreso-mensaje-de-urgencia-para-acelerar-tramite-de-ley-de-rescate-fiscal-505646",
-      "fecha": "2026-11-03T21:40:59+00:00",
-      "imagen": "https://imagenes.portafolio.co/files/og_thumbnail/files/fp/uploads/2026/10/01/6abed598bcbb6.r_d.849-361-0.png"
     },
     {
       "id": "3d60e23a167824e0",
@@ -1311,15 +1370,6 @@
       "fuente": "La República",
       "url": "https://www.larepublica.co/globoeconomia/carlos-carvallo-formaliza-su-renuncia-al-banco-central-en-medio-de-crisis-de-ueno-bank-4516905",
       "fecha": "2026-11-03T21:38:54+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "410556e052807479",
-      "titulo": "Piden reubicar peaje de El Mango en Cauca",
-      "categoria": "Valle del Cauca",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/regionales/cauca/peaje-de-el-mango-piden-traslado-por-constantes-ataques/",
-      "fecha": "2026-11-03T21:35:38+00:00",
       "imagen": ""
     },
     {
@@ -1429,6 +1479,15 @@
       "url": "https://www.xataka.com/movilidad/oscar-puente-anuncia-su-dimision-como-ministro-transportes",
       "fecha": "2026-11-03T20:41:00+00:00",
       "imagen": "https://i.blogs.es/1f105d/oscar-puente/1024_2000.jpeg"
+    },
+    {
+      "id": "98768850ae73a21d",
+      "titulo": "Reforma busca reactivar la regla fiscal en 2027 y establecer límites automáticos al crecimiento del gasto público",
+      "categoria": "Economía",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/reforma-busca-reactivar-la-regla-fiscal-en-2027-y-establecer-limites-automaticos-al-crecimiento-del-gasto-publico-505640",
+      "fecha": "2026-11-03T20:39:49+00:00",
+      "imagen": "https://imagenes.portafolio.co/files/og_thumbnail/files/fp/uploads/2026/02/12/698de4c1f228d.r_d.506-319-0.jpeg"
     },
     {
       "id": "26d81776d86207f3",
@@ -1548,6 +1607,15 @@
       "imagen": "https://files.lafm.com.co/media/news-images/2026/11/03/151528/mohamed-salah-jugara-para-turquia-rumores-y-distincion-en-egipto-1200x675.jpg"
     },
     {
+      "id": "ba243506cec334b0",
+      "titulo": "¡Los buscaban en el Caribe y cayeron en Cali! Capturan a dos presuntos cabecillas criminales",
+      "categoria": "Cali",
+      "fuente": "Q'hubo Cali",
+      "url": "https://www.qhubocali.com/judiciales/los-buscaban-en-el-caribe-y-cayeron-en-cali-capturan-a-dos-presuntos-cabecillas-criminales/",
+      "fecha": "2026-11-03T15:17:50+00:00",
+      "imagen": ""
+    },
+    {
       "id": "55c08ef11341e356",
       "titulo": "¿Qué tal? Encontraron seis antenas Starlink y 582 celulares tras megaoperativo en La Picota",
       "categoria": "Tecnología",
@@ -1557,6 +1625,15 @@
       "imagen": "https://estaticos.elcolombiano.com/binrepository/533x300/0c0/0d0/center/11101/CCPH/tamanos-el-colombiano-2026-11-03t0_52038604_20261103093236.png"
     },
     {
+      "id": "b52fb583775bad7a",
+      "titulo": "¡En Cali volvió a temblar! El susto se apoderó de la madrugada",
+      "categoria": "Cali",
+      "fuente": "Q'hubo Cali",
+      "url": "https://www.qhubocali.com/asi-paso/en-cali-volvio-a-temblar-el-susto-se-apodero-de-la-madrugada/",
+      "fecha": "2026-11-03T14:39:40+00:00",
+      "imagen": ""
+    },
+    {
       "id": "8d6f8fb1f40486d8",
       "titulo": "El futbolista Erling Haaland se suma a los 25 creadores reconocidos por Instagram en 2026",
       "categoria": "Deportes",
@@ -1564,6 +1641,15 @@
       "url": "https://www.larepublica.co/ocio/el-futbolista-erling-haaland-se-suma-a-los-25-creadores-reconocidos-por-instagram-en-2026-4516586",
       "fecha": "2026-11-03T14:15:55+00:00",
       "imagen": ""
+    },
+    {
+      "id": "66ecd177f319aa78",
+      "titulo": "Negocio del miedo a un clic de distancia: así operaban 'Joel Piraña' y 'Rulay', la cúpula criminal que sembraba el terror en el Atlántico desde Cali",
+      "categoria": "Cali",
+      "fuente": "El Tiempo Cali",
+      "url": "https://www.eltiempo.com/colombia/cali/negocio-del-miedo-a-un-clic-de-distancia-asi-operaban-joel-pirana-y-rulay-la-cupula-criminal-que-sembraba-el-terror-en-el-atlantico-desde-cali-3598016",
+      "fecha": "2026-11-03T12:03:01+00:00",
+      "imagen": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/11/03/6ae97888826d1.jpeg"
     }
   ],
   "estado_fuentes": [
@@ -1574,7 +1660,7 @@
       "estado": "ok",
       "entradas_rss": 10,
       "titulares_vigentes": 10,
-      "ultima_consulta": "2026-11-03T22:54:07.424878+00:00",
+      "ultima_consulta": "2026-11-03T23:40:21.481077+00:00",
       "error": ""
     },
     {
@@ -1584,7 +1670,7 @@
       "estado": "ok",
       "entradas_rss": 10,
       "titulares_vigentes": 10,
-      "ultima_consulta": "2026-11-03T22:54:07.624898+00:00",
+      "ultima_consulta": "2026-11-03T23:40:21.629500+00:00",
       "error": ""
     },
     {
@@ -1594,7 +1680,7 @@
       "estado": "sin_entradas",
       "entradas_rss": 0,
       "titulares_vigentes": 0,
-      "ultima_consulta": "2026-11-03T22:54:07.683477+00:00",
+      "ultima_consulta": "2026-11-03T23:40:21.692201+00:00",
       "error": "La respuesta no contiene entradas RSS/Atom."
     },
     {
@@ -1604,7 +1690,7 @@
       "estado": "ok",
       "entradas_rss": 10,
       "titulares_vigentes": 10,
-      "ultima_consulta": "2026-11-03T22:54:08.053793+00:00",
+      "ultima_consulta": "2026-11-03T23:40:22.386705+00:00",
       "error": ""
     },
     {
@@ -1614,7 +1700,7 @@
       "estado": "ok",
       "entradas_rss": 10,
       "titulares_vigentes": 10,
-      "ultima_consulta": "2026-11-03T22:54:08.293058+00:00",
+      "ultima_consulta": "2026-11-03T23:40:22.642071+00:00",
       "error": ""
     },
     {
@@ -1624,7 +1710,7 @@
       "estado": "ok",
       "entradas_rss": 60,
       "titulares_vigentes": 40,
-      "ultima_consulta": "2026-11-03T22:54:08.442729+00:00",
+      "ultima_consulta": "2026-11-03T23:40:22.788782+00:00",
       "error": ""
     },
     {
@@ -1634,7 +1720,7 @@
       "estado": "ok",
       "entradas_rss": 12,
       "titulares_vigentes": 12,
-      "ultima_consulta": "2026-11-03T22:54:08.688472+00:00",
+      "ultima_consulta": "2026-11-03T23:40:23.070704+00:00",
       "error": ""
     },
     {
@@ -1644,7 +1730,7 @@
       "estado": "ok",
       "entradas_rss": 31,
       "titulares_vigentes": 29,
-      "ultima_consulta": "2026-11-03T22:54:08.938444+00:00",
+      "ultima_consulta": "2026-11-03T23:40:23.377313+00:00",
       "error": ""
     },
     {
@@ -1654,7 +1740,7 @@
       "estado": "ok",
       "entradas_rss": 25,
       "titulares_vigentes": 25,
-      "ultima_consulta": "2026-11-03T22:54:09.161149+00:00",
+      "ultima_consulta": "2026-11-03T23:40:23.674576+00:00",
       "error": ""
     },
     {
@@ -1664,7 +1750,7 @@
       "estado": "ok",
       "entradas_rss": 26,
       "titulares_vigentes": 26,
-      "ultima_consulta": "2026-11-03T22:54:09.591869+00:00",
+      "ultima_consulta": "2026-11-03T23:40:24.461419+00:00",
       "error": ""
     },
     {
@@ -1672,9 +1758,9 @@
       "url": "https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/section/america-colombia/portada",
       "zona": "Nacional / internacional",
       "estado": "ok",
-      "entradas_rss": 112,
+      "entradas_rss": 113,
       "titulares_vigentes": 39,
-      "ultima_consulta": "2026-11-03T22:54:10.259779+00:00",
+      "ultima_consulta": "2026-11-03T23:40:25.287613+00:00",
       "error": ""
     },
     {
@@ -1684,7 +1770,7 @@
       "estado": "ok",
       "entradas_rss": 11,
       "titulares_vigentes": 11,
-      "ultima_consulta": "2026-11-03T22:54:11.046155+00:00",
+      "ultima_consulta": "2026-11-03T23:40:26.517839+00:00",
       "error": ""
     },
     {
@@ -1694,7 +1780,7 @@
       "estado": "ok",
       "entradas_rss": 20,
       "titulares_vigentes": 20,
-      "ultima_consulta": "2026-11-03T22:54:12.663920+00:00",
+      "ultima_consulta": "2026-11-03T23:40:26.636161+00:00",
       "error": ""
     },
     {
@@ -1704,7 +1790,7 @@
       "estado": "ok",
       "entradas_rss": 20,
       "titulares_vigentes": 20,
-      "ultima_consulta": "2026-11-03T22:54:12.805038+00:00",
+      "ultima_consulta": "2026-11-03T23:40:26.752293+00:00",
       "error": ""
     },
     {
@@ -1714,7 +1800,7 @@
       "estado": "ok",
       "entradas_rss": 20,
       "titulares_vigentes": 20,
-      "ultima_consulta": "2026-11-03T22:54:12.886250+00:00",
+      "ultima_consulta": "2026-11-03T23:40:26.813547+00:00",
       "error": ""
     },
     {
@@ -1724,7 +1810,7 @@
       "estado": "ok",
       "entradas_rss": 20,
       "titulares_vigentes": 20,
-      "ultima_consulta": "2026-11-03T22:54:12.956997+00:00",
+      "ultima_consulta": "2026-11-03T23:40:26.872164+00:00",
       "error": ""
     },
     {
@@ -1733,8 +1819,8 @@
       "zona": "Cali y Valle del Cauca",
       "estado": "ok",
       "entradas_rss": 12,
-      "titulares_vigentes": 10,
-      "ultima_consulta": "2026-11-03T22:54:13.062623+00:00",
+      "titulares_vigentes": 11,
+      "ultima_consulta": "2026-11-03T23:40:27.011743+00:00",
       "error": ""
     },
     {
@@ -1744,7 +1830,7 @@
       "estado": "ok",
       "entradas_rss": 51,
       "titulares_vigentes": 40,
-      "ultima_consulta": "2026-11-03T22:54:13.937258+00:00",
+      "ultima_consulta": "2026-11-03T23:40:28.214370+00:00",
       "error": ""
     },
     {
@@ -1754,7 +1840,7 @@
       "estado": "sin_entradas",
       "entradas_rss": 0,
       "titulares_vigentes": 0,
-      "ultima_consulta": "2026-11-03T22:54:14.295526+00:00",
+      "ultima_consulta": "2026-11-03T23:40:28.900352+00:00",
       "error": "La respuesta no contiene entradas RSS/Atom."
     },
     {
@@ -1764,7 +1850,7 @@
       "estado": "ok",
       "entradas_rss": 10,
       "titulares_vigentes": 10,
-      "ultima_consulta": "2026-11-03T22:54:14.479985+00:00",
+      "ultima_consulta": "2026-11-03T23:40:29.136255+00:00",
       "error": ""
     },
     {
@@ -1774,12 +1860,12 @@
       "estado": "ok",
       "entradas_rss": 10,
       "titulares_vigentes": 9,
-      "ultima_consulta": "2026-11-03T22:54:14.766159+00:00",
+      "ultima_consulta": "2026-11-03T23:40:29.606077+00:00",
       "error": ""
     }
   ],
-  "ultima_solicitud_groq": "2026-11-03T22:59:41.953012+00:00",
+  "ultima_solicitud_groq": "2026-11-03T23:45:42.896394+00:00",
   "fecha_solicitudes_groq": "2026-11-03",
-  "solicitudes_groq": 26,
-  "ultima_actualizacion": "2026-11-03T23:00:08.822336+00:00"
+  "solicitudes_groq": 31,
+  "ultima_actualizacion": "2026-11-03T23:46:01.286281+00:00"
 }
