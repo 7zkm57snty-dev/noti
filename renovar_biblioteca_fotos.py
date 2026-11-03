@@ -99,7 +99,11 @@ CATEGORIAS = {
         "community public event reportage"
     ]
 }
-MAX_POR_CATEGORIA = 16
+MAX_POR_CATEGORIA = 8
+LIMITES_POR_CATEGORIA = {"Deportes": 14, "Ciencia y espacio": 10}
+MAX_CONSULTAS_POR_CATEGORIA = 3
+TIMEOUT_CONSULTA = 15
+TIMEOUT_IMAGEN = 18
 EXTENSIONES = {".jpg", ".jpeg", ".png", ".webp"}
 
 def limpia(valor):
@@ -109,7 +113,7 @@ def consulta_commons(consulta):
     params = {"action":"query","generator":"search","gsrsearch":f"{consulta} filetype:bitmap",
               "gsrnamespace":6,"gsrlimit":30,"prop":"imageinfo","iiprop":"url|extmetadata",
               "iiurlwidth":1400,"format":"json"}
-    r=requests.get("https://commons.wikimedia.org/w/api.php",params=params,headers=HEADERS,timeout=25)
+    r=requests.get("https://commons.wikimedia.org/w/api.php",params=params,headers=HEADERS,timeout=TIMEOUT_CONSULTA)
     r.raise_for_status()
     return list(r.json().get("query",{}).get("pages",{}).values())
 
@@ -119,13 +123,15 @@ def renovar():
     except (OSError,ValueError): anterior={"version":1,"categorias":{}}
     nuevo={"version":1,"actualizado":time.strftime("%Y-%m-%dT%H:%M:%SZ",time.gmtime()),"categorias":{}}
     for categoria,consultas in CATEGORIAS.items():
+        limite = LIMITES_POR_CATEGORIA.get(categoria, MAX_POR_CATEGORIA)
+        max_consultas = MAX_CONSULTAS_POR_CATEGORIA if categoria in ("Deportes", "Ciencia y espacio") else 2
         elegidas=[]; vistos=set()
-        for consulta in consultas:
+        for consulta in consultas[:max_consultas]:
             try: paginas=consulta_commons(consulta)
             except requests.RequestException as e:
                 print(f"Commons no disponible ({categoria}): {e}"); continue
             for pagina in paginas:
-                if len(elegidas)>=MAX_POR_CATEGORIA: break
+                if len(elegidas)>=limite: break
                 info=(pagina.get("imageinfo") or [{}])[0]
                 meta=info.get("extmetadata",{})
                 licencia=limpia(meta.get("LicenseShortName",{}).get("value",""))
@@ -137,7 +143,7 @@ def renovar():
                 if not url.startswith("https://") or not pagina_url or pagina_url in vistos: continue
                 vistos.add(pagina_url)
                 try:
-                    resp=requests.get(url,headers=HEADERS,timeout=30); resp.raise_for_status()
+                    resp=requests.get(url,headers=HEADERS,timeout=TIMEOUT_IMAGEN); resp.raise_for_status()
                     tipo=resp.headers.get("Content-Type","").split(";")[0].lower()
                     ext={"image/jpeg":".jpg","image/png":".png","image/webp":".webp"}.get(tipo)
                     if not ext or len(resp.content)<5000 or len(resp.content)>12*1024*1024: continue
@@ -149,11 +155,11 @@ def renovar():
                         "pagina":pagina_url,"licencia":licencia,
                         "licencia_url":limpia(meta.get("LicenseUrl",{}).get("value",""))})
                 except requests.RequestException as e: print("No se pudo descargar foto:",e)
-            if len(elegidas)>=MAX_POR_CATEGORIA: break
+            if len(elegidas)>=limite: break
         if len(elegidas)<3 and anterior.get("categorias",{}).get(categoria):
             # Conserva la biblioteca anterior si la fuente falla temporalmente.
             elegidas.extend(anterior["categorias"][categoria])
-        nuevo["categorias"][categoria]=elegidas[:MAX_POR_CATEGORIA]
+        nuevo["categorias"][categoria]=elegidas[:limite]
         print(f"{categoria}: {len(nuevo['categorias'][categoria])} fotografías disponibles")
     MANIFEST.write_text(json.dumps(nuevo,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
     total=sum(len(x) for x in nuevo["categorias"].values())
