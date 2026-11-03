@@ -35,7 +35,7 @@ function dateISOCO() {
     .formatToParts(new Date()).forEach(x=>p[x.type]=x.value);
   return p.year+"-"+p.month+"-"+p.day;
 }
-function managedBranch(b) { return b==="revision-editorial/noticias-pendientes" || String(b||"").startsWith("revision-admin/") || String(b||"").startsWith("feature/centro-diagnostico-automatico"); }
+function managedBranch(b) { return b==="revision-editorial/noticias-pendientes" || String(b||"").startsWith("revision-editorial/noticias-pendientes-") || String(b||"").startsWith("revision-admin/") || String(b||"").startsWith("feature/centro-diagnostico-automatico"); }
 
 async function gh(path,env,method="GET",body) {
   if(!env.GITHUB_TOKEN) throw new AdminError(503,"Falta configurar el secreto GITHUB_TOKEN en Cloudflare.");
@@ -59,6 +59,36 @@ async function readCache(env) {
   if(!data||!Array.isArray(data.noticias)) throw new AdminError(502,"La estructura de cache.json no coincide con CEV NOTICIAS.");
   return {data,sha:f.sha};
 }
+async function registrarFuentesDePropuestaRechazada(env,branch) {
+  const base="/repos/"+OWNER+"/"+REPO+"/contents/";
+  const [principal,propuesta,archivoEstado]=await Promise.all([
+    gh(base+"cache.json?ref="+MAIN,env),
+    gh(base+"cache.json?ref="+encodeURIComponent(branch),env),
+    gh(base+"automation_state.json?ref="+MAIN,env)
+  ]);
+  if(!principal.content||!propuesta.content||!archivoEstado.content) return 0;
+  const cachePrincipal=JSON.parse(decode64(principal.content));
+  const cachePropuesta=JSON.parse(decode64(propuesta.content));
+  const estado=JSON.parse(decode64(archivoEstado.content));
+  const idsPublicados=new Set((cachePrincipal.noticias||[]).map(n=>String(n.id||"")));
+  const articulosNuevos=(cachePropuesta.noticias||[]).filter(n=>n.id&&!idsPublicados.has(String(n.id)));
+  const urlsNuevas=articulosNuevos.flatMap(n=>(n.fuentes||[]).map(f=>String(f.url||"").trim()).filter(u=>u.startsWith("https://")));
+  const existentes=Array.isArray(estado.fuentes_descartadas)?estado.fuentes_descartadas:[];
+  const ahora=new Date().toISOString();
+  const porUrl=new Map(existentes.filter(x=>x&&x.url).map(x=>[String(x.url),x]));
+  for(const url of urlsNuevas) porUrl.set(url,{url,fecha:ahora});
+  estado.fuentes_descartadas=[...porUrl.values()].slice(-500);
+  if(urlsNuevas.length){
+    await gh(base+"automation_state.json",env,"PUT",{
+      message:"Registrar fuentes de propuestas editoriales rechazadas",
+      content:encode64(JSON.stringify(estado,null,2)+"\\n"),
+      sha:archivoEstado.sha,
+      branch:MAIN
+    });
+  }
+  return urlsNuevas.length;
+}
+
 async function reviews(env) {
   const all=await gh("/repos/"+OWNER+"/"+REPO+"/pulls?state=open&per_page=100&sort=created&direction=desc",env);
   return all.filter(p=>p.base&&p.base.ref===MAIN&&p.head&&managedBranch(p.head.ref)).map(p=>({
@@ -340,8 +370,20 @@ async function api(request,env,identity) {
       return json({ok:true,message:"Propuesta aprobada y fusionada. Esperando la publicación de GitHub Pages.",deploySha:result.sha});
     }
     await gh("/repos/"+OWNER+"/"+REPO+"/pulls/"+number,env,"PATCH",{state:"closed"});
+    let fuentesBloqueadas=0;
+    try {
+      fuentesBloqueadas=await registrarFuentesDePropuestaRechazada(env,pr.head.ref);
+    } catch (_) {
+      // El rechazo se mantiene; si GitHub no permite registrar el filtro,
+      // el panel sigue funcionando y la cola continúa disponible.
+    }
     try{await gh("/repos/"+OWNER+"/"+REPO+"/git/refs/heads/"+pr.head.ref,env,"DELETE")}catch(_){}
-    return json({ok:true,message:"Propuesta rechazada y cerrada."});
+    return json({
+      ok:true,
+      message:fuentesBloqueadas
+        ? "Propuesta rechazada. Sus fuentes quedan en pausa durante 72 horas para evitar que el mismo tema vuelva a la cola."
+        : "Propuesta rechazada y cerrada."
+    });
   }
   return json({error:"Ruta no encontrada."},404);
 }
