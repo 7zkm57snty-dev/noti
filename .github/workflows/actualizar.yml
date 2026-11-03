@@ -1,4 +1,4 @@
-name: Preparar noticias para revisión editorial
+name: Automatizar y publicar noticias CEV NOTICIAS
 
 on:
   push:
@@ -13,7 +13,6 @@ on:
 
 permissions:
   contents: write
-  pull-requests: write
 
 concurrency:
   group: cev-noticias-revision-editorial
@@ -46,16 +45,11 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         shell: bash
         run: |
-          BRANCH="revision-editorial/noticias-pendientes"
-          OPEN_PR="$(gh pr list --state open --base main --json headRefName --jq '[.[] | select(.headRefName == "revision-editorial/noticias-pendientes" or (.headRefName | startswith("revision-admin/")))] | length')"
-          if [ "${OPEN_PR:-0}" -gt 0 ]; then
+          OPEN_ADMIN_PR="$(gh pr list --state open --base main --json headRefName --jq '[.[] | select(.headRefName | startswith("revision-admin/"))] | length')"
+          if [ "${OPEN_ADMIN_PR:-0}" -gt 0 ]; then
             echo "revision_pendiente=true" >> "$GITHUB_OUTPUT"
-            echo "Hay una propuesta editorial abierta (automática o del panel administrativo). Se pausa la generación para evitar conflictos."
+            echo "Hay cambios manuales pendientes desde el panel. Se pausa la automatización para no sobrescribirlos."
             exit 0
-          fi
-          if git ls-remote --exit-code --heads origin "$BRANCH" >/dev/null 2>&1; then
-            git push origin --delete "$BRANCH"
-            echo "Se limpió una rama anterior sin revisión abierta."
           fi
           cp cache.json /tmp/cev-cache-antes.json
           echo "revision_pendiente=false" >> "$GITHUB_OUTPUT"
@@ -66,10 +60,10 @@ jobs:
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
           PYTHONUNBUFFERED: "1"
         run: |
-          echo "Preparando noticias; todavía no se publican."
+          echo "Generando artículos originales. Los que superen todas las verificaciones se publicarán automáticamente."
           python -u redactor.py
 
-      - name: Guardar radar RSS independiente de las noticias propias
+      - name: Guardar radar RSS y límites diarios independientes
         if: steps.estado_cola.outputs.revision_pendiente != 'true'
         shell: bash
         run: |
@@ -87,19 +81,26 @@ jobs:
               json.dumps(radar, ensure_ascii=False, indent=2) + "\n",
               encoding="utf-8"
           )
+          state = json.loads(Path("automation_state.json").read_text(encoding="utf-8"))
           print(
-              f"Radar RSS preparado: {len(radar['titulares_rss'])} titulares; "
+              f"Radar RSS: {len(radar['titulares_rss'])} titulares; "
               f"{len(radar['estado_fuentes'])} fuentes comprobadas."
+          )
+          print(
+              f"Tope diario: {state.get('articulos_generados_dia', 0)}/"
+              f"{state.get('limite_articulos_diario', 20)} artículos; "
+              f"{state.get('solicitudes_groq', 0)}/"
+              f"{state.get('limite_solicitudes_diario', 40)} solicitudes."
           )
           PY
 
-          if git diff --quiet -- radar_rss.json; then
-            echo "El radar RSS no cambió; no hace falta crear un commit."
+          if git diff --quiet -- radar_rss.json automation_state.json; then
+            echo "El radar y los contadores no cambiaron."
           else
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add radar_rss.json
-            git commit -m "Actualizar radar RSS y salud de fuentes"
+            git add radar_rss.json automation_state.json
+            git commit -m "Actualizar radar RSS y límites de automatización"
             git push origin HEAD:main
           fi
 
@@ -201,40 +202,26 @@ jobs:
                   json.dumps(antes, ensure_ascii=False, indent=2) + "\n",
                   encoding="utf-8"
               )
-              print("No quedaron borradores aptos. No se crea ni actualiza la propuesta editorial.")
+              print("No quedaron artículos aptos para publicación automática. Se conserva intacto el archivo editorial.")
               Path(os.environ["GITHUB_OUTPUT"]).write_text("hay_novedades=false\n", encoding="utf-8")
           else:
               ruta_cache.write_text(
                   json.dumps(despues, ensure_ascii=False, indent=2) + "\n",
                   encoding="utf-8"
               )
-              print(f"Borradores aptos para revisión humana: {len(validas)}")
+              print(f"Artículos originales aptos para publicación: {len(validas)}")
               for noticia in validas:
                   print(f"- {noticia.get('categoria')}: {noticia.get('titulo')}")
               Path(os.environ["GITHUB_OUTPUT"]).write_text("hay_novedades=true\n", encoding="utf-8")
           PY
 
-      - name: Abrir o actualizar propuesta editorial
+      - name: Publicar automáticamente el lote validado
         if: steps.estado_cola.outputs.revision_pendiente != 'true' && steps.novedades.outputs.hay_novedades == 'true'
-        uses: peter-evans/create-pull-request@v8
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          add-paths: |
-            cache.json
-          branch: revision-editorial/noticias-pendientes
-          base: main
-          delete-branch: true
-          commit-message: "Proponer noticias para revisión editorial"
-          title: "CEV NOTICIAS | Revisión editorial de nuevas noticias"
-          body: |
-            La automatización preparó nuevos borradores. **No se publicarán en CEV NOTICIAS hasta que esta propuesta sea revisada y fusionada.**
-
-            ### Revisión humana mínima antes de publicar
-            - [ ] El titular y el resumen representan fielmente el artículo, sin exagerar los hechos.
-            - [ ] Se abrieron las fuentes y se comprobaron nombres, fechas, cifras y lugares.
-            - [ ] Accidentes, delitos, víctimas, acusaciones y controversias sensibles tienen corroboración de fuentes independientes; si no, retirar o corregir el artículo antes de fusionar.
-            - [ ] Toda fotografía es pertinente y conserva crédito, página de origen y licencia; si no hay foto válida, la noticia queda sin imagen.
-            - [ ] No hay duplicados ni datos personales innecesarios.
-
-            **Al fusionar esta propuesta, autorizas la publicación del lote completo.** Si algún artículo no cumple, edita cache.json en esta propuesta antes de fusionar.
-          draft: false
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add cache.json
+          git commit -m "Publicar lote automático de noticias CEV NOTICIAS"
+          git push origin HEAD:main
+          echo "Lote publicado en main. GitHub Pages iniciará la actualización del sitio público."
