@@ -864,7 +864,7 @@ def crear_articulo(noticia, noticias=None):
        <p class="etiqueta">{categoria}</p>
        <h1>{titulo}</h1>
        <p class="bajada">{resumen}</p>
-       <p class="fecha">Publicado: {escapar(noticia.get("fecha", fecha_actual()))} · Por <a href="../redaccion.html">CEV NOTICIAS</a></p>
+       <p class="fecha">Publicado: {escapar(noticia.get("fecha", fecha_actual()))} · Por <a href="../redaccion.html">Redacción CEV NOTICIAS</a></p>
        <p class="fecha">Fuentes consultadas: {len(noticia.get("fuentes", []))}</p>
       </div>
       {foto}
@@ -979,7 +979,7 @@ def crear_paginas_institucionales():
               <div class="cuerpo">
                 <p><strong>CEV NOTICIAS</strong> es un proyecto digital independiente de carácter personal. Actualmente no está constituido como empresa ni como sociedad.</p>
                 <p>La firma institucional <strong>Redacción CEV NOTICIAS</strong> identifica la autoría editorial de las publicaciones que no llevan la firma de una persona. Su uso no significa que exista una plantilla o un equipo de periodistas: es la firma del medio.</p>
-                <p>Los contenidos pueden apoyarse en herramientas automatizadas para localizar fuentes públicas, organizar información y preparar borradores. Antes de incorporarse a la edición pública, los nuevos artículos pasan por una revisión humana breve de titular, datos principales, fuentes y pertinencia de la imagen. Esta revisión no constituye una garantía absoluta de que no existan errores. Las fuentes consultadas se identifican en cada publicación.</p>
+                <p>Los contenidos pueden apoyarse en herramientas automatizadas para localizar fuentes, recuperar documentos, comparar versiones y preparar borradores. Ningún artículo generado automáticamente se publica sin revisión y aprobación editorial humana. La revisión incluye titular, datos principales, contexto, enfoque propio, fuentes y pertinencia de la imagen. Esta revisión no constituye una garantía absoluta de que no existan errores. Las fuentes consultadas se identifican en cada publicación.</p>
                 <p>Para consultas editoriales, puedes escribir a <a href="mailto:cevnoticiascontacto@gmail.com">cevnoticiascontacto@gmail.com</a>.</p>
                 <p>Cuando un artículo tenga un autor individual, su nombre y la información profesional correspondiente deberán aparecer en la propia publicación. Para conocer nuestros criterios, consulta la <a href="/politica-editorial.html">Política editorial</a>.</p>
               </div></main>"""
@@ -994,8 +994,8 @@ def crear_paginas_institucionales():
                 <p><strong>CEV NOTICIAS</strong> es un proyecto digital independiente de carácter personal, no constituido como empresa ni sociedad. Es un medio de actualidad con especial atención a Cali y el Valle del Cauca, Colombia y los acontecimientos internacionales de interés para el público hispanohablante.</p>
                 <p>Nuestro propósito es facilitar el acceso a información reciente mediante noticias organizadas por temas, contexto y referencias a las fuentes consultadas.</p>
                 <h2>Qué publicamos</h2><p>Cubrimos actualidad local, regional, nacional e internacional, además de deportes, tecnología, economía y tendencias. La selección de temas responde a su relevancia pública y a la disponibilidad de información verificable.</p>
-                <h2>Cómo trabajamos</h2><p>Utilizamos fuentes identificables y herramientas digitales para apoyar el seguimiento de la actualidad y la preparación de contenidos. La automatización puede ayudar a recopilar y organizar información, pero no constituye por sí sola una verificación independiente. Los artículos nuevos pasan por una aprobación humana breve antes de publicarse. Identificamos las fuentes disponibles y ofrecemos un canal para reportar errores o solicitar aclaraciones.</p>
-                <p>Cuando una publicación es un titular recopilado y no un artículo propio, se identifica como tal y se enlaza al medio de origen.</p>
+                <h2>Cómo trabajamos</h2><p>Utilizamos fuentes identificables, documentos y herramientas digitales para investigar la actualidad, contrastar versiones y preparar contenidos originales. La automatización ayuda a organizar el trabajo, pero no sustituye la verificación ni la decisión editorial. Los artículos generados pasan por revisión humana antes de publicarse. Identificamos las fuentes consultadas y ofrecemos un canal para reportar errores o solicitar aclaraciones.</p>
+                <p>Los titulares de medios externos se conservan como material interno de investigación. La portada pública está dedicada a artículos completos de CEV NOTICIAS, con crédito a las fuentes utilizadas en cada cobertura.</p>
               </div></main>"""
         ),
         "contacto.html": (
@@ -1040,8 +1040,8 @@ def crear_paginas_institucionales():
               <div class="cuerpo">
                 <h2>1. Principios</h2><p>CEV NOTICIAS busca ofrecer información clara, relevante y atribuida. Procuramos distinguir los hechos confirmados, los datos preliminares, las opiniones y la información que continúa en desarrollo.</p>
                 <h2>2. Fuentes y atribución</h2><p>Priorizamos documentos, comunicados y datos de primera mano cuando están disponibles, junto con medios y organizaciones identificables. Los enlaces a las fuentes se incluyen para que los lectores puedan consultar el material original. La existencia de varias fuentes no garantiza por sí sola que sean independientes ni que todos los datos estén confirmados.</p>
-                <h2>3. Herramientas automatizadas y controles de publicación</h2><p>El seguimiento de fuentes y la preparación de artículos originales pueden apoyarse en sistemas automatizados y herramientas de inteligencia artificial. Estas herramientas pueden cometer errores, omitir contexto o interpretar incorrectamente una fuente. Antes de publicar, cada artículo debe superar controles de extensión, categoría, enlaces HTTPS, detección de duplicados y atribución de las fuentes; los temas sensibles requieren corroboración de medios independientes. Las fotografías sin licencia y atribución completas se excluyen. Los titulares de otros medios se muestran por separado, identifican su fuente y enlazan al contenido original; no se presentan como artículos propios. Las altas, ediciones y retiros solicitados manualmente desde el panel sí pasan por revisión antes de publicarse. Estos controles reducen riesgos, pero no garantizan que nunca existan errores.</p>
-                <h2>4. Titulares recopilados y contenido propio</h2><p>Un titular que remite a una publicación externa no se presenta como una investigación propia de CEV NOTICIAS. Cuando elaboramos un artículo a partir de fuentes consultadas, identificamos esas fuentes y enlazamos a sus publicaciones. Respetamos los derechos de autor y no pretendemos atribuirnos fotografías ni textos ajenos.</p>
+                <h2>3. Herramientas automatizadas y controles de publicación</h2><p>El seguimiento de fuentes RSS, la investigación documental y la preparación de borradores pueden apoyarse en sistemas automatizados y herramientas de inteligencia artificial. El radar RSS es una herramienta interna de detección: no se publica como un directorio de titulares ni como sustituto de la cobertura periodística. Cada borrador debe incorporar información suficiente, contraste de textos recuperados, enfoque propio, contexto verificable y referencias de origen. Los controles automáticos comprueban extensión, estructura, categoría, duplicados, fuentes HTTPS y atribución; los temas sensibles requieren corroboración independiente. Ningún borrador generado automáticamente se publica por el solo hecho de superar esos controles: se envía a la cola de revisión editorial y requiere aprobación humana antes de incorporarse al sitio. Las fotografías sin licencia y atribución completas se excluyen. Estos controles reducen riesgos, pero no garantizan que nunca existan errores.</p>
+                <h2>4. Investigación, autoría y atribución</h2><p>CEV NOTICIAS publica artículos completos elaborados con redacción propia a partir de investigación documental. Una fuente puede haber informado primero sobre el acontecimiento; reconocemos ese origen y enlazamos las publicaciones consultadas, pero no copiamos ni presentamos la cobertura ajena como propia. Las publicaciones externas se conservan como material de investigación interno y no como noticias de portada. Respetamos los derechos de autor y no pretendemos atribuirnos fotografías ni textos ajenos.</p>
                 <h2>5. Imágenes</h2><p>Procuramos utilizar imágenes con permisos de reutilización adecuados y mostrar la atribución o licencia cuando corresponda. Una imagen ilustrativa no debe interpretarse como prueba visual del hecho si no corresponde al acontecimiento descrito.</p>
                 <h2>6. Publicidad y contenido patrocinado</h2><p>Si se incorporan anuncios, patrocinios o enlaces de afiliados, deberán distinguirse visualmente del contenido periodístico. La publicidad no debe confundirse con una noticia ni condicionar la presentación de los hechos.</p>
                 <h2>7. Correcciones</h2><p>Si detectas un error factual, una atribución incorrecta o información desactualizada, consulta nuestra <a href="/correcciones.html">Política de correcciones</a> y envíanos los datos necesarios para revisarlo.</p>
@@ -1088,18 +1088,16 @@ def limpiar_archivos_publicos_obsoletos():
     print("Archivos públicos antiguos eliminados; carpeta social conservada.")
 
 
-def validar_archivos_publicados(noticias, titulares_rss=None):
+def validar_archivos_publicados(noticias):
     """
-    Comprueba que cada artículo, categoría e imagen apuntados exista
+    Comprueba que cada artículo propio, categoría e imagen del sitio exista
     físicamente dentro del artefacto que se va a desplegar.
     """
-    titulares_rss = titulares_rss or []
     faltantes = []
     esperados = [SITE / "index.html"]
-    esperados.extend(SITE / nombre for nombre in ("actualidad.html", "quienes-somos.html", "redaccion.html", "contacto.html", "politica-de-privacidad.html", "politica-editorial.html", "correcciones.html"))
+    esperados.extend(SITE / nombre for nombre in ("quienes-somos.html", "redaccion.html", "contacto.html", "politica-de-privacidad.html", "politica-editorial.html", "correcciones.html"))
     esperados.extend([SITE / "sitemap.xml", SITE / "robots.txt", SITE / "cookies.js"])
     esperados.extend(NOTAS / f"{noticia['id']}.html" for noticia in noticias)
-    esperados.extend(NOTAS / f"actualidad-{titular['id']}.html" for titular in titulares_rss)
     esperados.extend(SITE / "secciones" / f"{slug(seccion)}.html" for seccion in SECCIONES)
     esperados.extend(
         SITE / "imagenes" / f"{slug(noticia['id'])}{extension}"
@@ -1127,7 +1125,6 @@ def validar_archivos_publicados(noticias, titulares_rss=None):
     paginas = [SITE / "index.html"]
     paginas.extend(SITE / nombre for nombre in ("quienes-somos.html", "redaccion.html", "contacto.html", "politica-de-privacidad.html", "politica-editorial.html", "correcciones.html"))
     paginas.extend(NOTAS / f"{noticia['id']}.html" for noticia in noticias)
-    paginas.extend(NOTAS / f"actualidad-{titular['id']}.html" for titular in titulares_rss)
     paginas.extend(SITE / "secciones" / f"{slug(seccion)}.html" for seccion in SECCIONES)
 
     for pagina in paginas:
@@ -1317,13 +1314,10 @@ def construir():
 
     portada = f'<section class="portada-grid">{principal_html}</section>'
 
-    # Cada sección cuenta con una página propia; la portada mantiene un único flujo vertical.
-    titulares_archivo = seleccionar_titulares_publicos(titulares_rss, validas, limite=None)
+    # El radar RSS es material de investigación interno. Las páginas públicas
+    # contienen exclusivamente artículos completos redactados por CEV NOTICIAS.
     for seccion in SECCIONES:
-        crear_pagina_seccion(seccion, validas, titulares_archivo)
-    for titular in titulares_archivo:
-        crear_pagina_titular_rss(titular)
-    crear_pagina_actualidad_externa(titulares_archivo)
+        crear_pagina_seccion(seccion, validas, [])
     crear_paginas_institucionales()
 
     candidatos_express = []
@@ -1355,11 +1349,9 @@ def construir():
         f'<h2 class="titulo-seccion">Noticias propias de CEV NOTICIAS <span class="contador-noticias">{len(validas)} artículos</span></h2>'
         f'<div class="lista-noticias">{lista_portada or "<div class=vacio>No hay noticias propias disponibles por ahora.</div>"}</div>'
         '</section>'
-        '<section class="bloque-categoria" id="mas-actualidad">'
-        f'<h2 class="titulo-seccion">Más actualidad en otros medios <span class="contador-noticias">{len(titulares_publicos)} titulares</span></h2>'
-        '<p class="nota-rss-publica">Seguimiento de publicaciones recientes de medios externos. Cada titular conserva el crédito y dirige al artículo original; no representa una publicación de autoría propia de CEV NOTICIAS.</p>'
-        f'<div class="rejilla rejilla-categorias">{lista_vertical([], titulares_publicos) or "<div class=vacio>No hay titulares externos recientes.</div>"}</div>'
-        '<a class="boton" href="/actualidad.html">Ver todos los titulares de otros medios ↗</a>'
+        '<section class="bloque-categoria" id="mas-noticias">'
+        f'<h2 class="titulo-seccion">Todas las noticias de CEV NOTICIAS <span class="contador-noticias">{len(validas)} artículos completos</span></h2>'
+        '<p class="nota-rss-publica">Cada publicación de esta portada es una noticia propia, elaborada a partir de investigación, contraste de fuentes y revisión editorial. Las fuentes consultadas se acreditan dentro de cada artículo.</p>'
         '</section></main>'
     )
     portada_head = '<link rel="canonical" href="https://cevnoticias.com/"><meta property="og:type" content="website"><meta property="og:title" content="CEV NOTICIAS | Actualidad y periodismo">'
@@ -1368,7 +1360,7 @@ def construir():
     if not recurso_cookies.is_file():
         raise RuntimeError("No se encontró cookies.js; no se puede publicar el gestor de consentimiento.")
     shutil.copy2(recurso_cookies, SITE / "cookies.js")
-    paginas_institucionales = ["quienes-somos.html", "redaccion.html", "contacto.html", "politica-de-privacidad.html", "politica-editorial.html", "correcciones.html", "actualidad.html"]
+    paginas_institucionales = ["quienes-somos.html", "redaccion.html", "contacto.html", "politica-de-privacidad.html", "politica-editorial.html", "correcciones.html"]
     urls = (["https://cevnoticias.com/"]
             + [f"https://cevnoticias.com/notas/{n['id']}.html" for n in validas]
             + [f"https://cevnoticias.com/secciones/{slug(s)}.html" for s in SECCIONES]
@@ -1379,8 +1371,11 @@ def construir():
                + '</urlset>\n')
     (SITE / "sitemap.xml").write_text(sitemap, encoding="utf-8")
     (SITE / "robots.txt").write_text("User-agent: *\nAllow: /\nSitemap: https://cevnoticias.com/sitemap.xml\n", encoding="utf-8")
-    validar_archivos_publicados(validas, titulares_archivo)
-    print(f"Portada creada. Artículos propios: {len(validas)} · Titulares externos publicados: {len(titulares_publicos)} · Titulares RSS disponibles: {len(titulares_rss)}")
+    validar_archivos_publicados(validas)
+    print(
+        f"Portada propia creada: {len(validas)} artículos completos. "
+        f"Radar RSS interno: {len(titulares_rss)} titulares; no se muestran como fichas públicas."
+    )
 
 
 if __name__ == "__main__":
