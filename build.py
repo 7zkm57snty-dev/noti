@@ -14,6 +14,9 @@ BASE = Path(__file__).parent
 SITE = BASE / "site"
 NOTAS = SITE / "notas"
 CACHE = BASE / "cache.json"
+RADAR_RSS = BASE / "radar_rss.json"
+MAX_TITULARES_PUBLICOS = 24
+MAX_EDAD_TITULARES_PUBLICOS_HORAS = 72
 
 SECCIONES = ["Cali", "Valle del Cauca", "Colombia", "Internacional", "Deportes", "Tecnología", "Economía", "Tendencias", "Humor y opinión"]
 COLOMBIA_TZ = timezone(timedelta(hours=-5))
@@ -176,21 +179,20 @@ def tarjeta(noticia, posicion=0, ruta_raiz=""):
 def tarjeta_rss(titular):
     titulo = escapar(titular.get("titulo"))
     categoria = escapar(titular.get("categoria"))
-    identificador = escapar(titular.get("id"))
-    imagen = imagen_segura(titular.get("imagen"))
+    fuente = escapar(titular.get("fuente") or "Medio externo")
+    url = imagen_segura(titular.get("url"))
     fecha = fecha_ordenable(titular)
     fecha_texto = datetime.fromtimestamp(fecha, COLOMBIA_TZ).strftime("%d/%m · %I:%M %p") if fecha else ""
-    visual = f'<img src="{imagen}" alt="{titulo}" loading="lazy">' if imagen else ""
-    bloque_imagen = f'<div class="tarjeta-imagen">{visual}</div>' if visual else ""
+    if not titulo or not url:
+        return ""
     return f"""
     <article class="tarjeta tarjeta-vertical titular-externo">
-      <a class="tarjeta-enlace titular-rss-enlace" href="/notas/actualidad-{identificador}.html">
-        {bloque_imagen}
+      <a class="tarjeta-enlace titular-rss-enlace" href="{url}" target="_blank" rel="noopener noreferrer">
         <div class="tarjeta-contenido">
-          <span class="rss-sello">CEV NOTICIAS · ACTUALIDAD</span>
+          <span class="rss-sello">OTROS MEDIOS · {fuente}</span>
           <h3>{titulo}</h3>
-          <div class="rss-datos"><strong>{categoria}</strong><span>{fecha_texto}</span></div>
-          <span class="leer">Consultar información ↗</span>
+          <div class="rss-datos"><span>Publicado originalmente · {fecha_texto}</span></div>
+          <span class="leer">Leer en {fuente} ↗</span>
         </div>
       </a>
     </article>"""
@@ -255,6 +257,90 @@ def modulo_express(items):
     </section>"""
 
 
+def palabras_titulo(texto):
+    ignorar = {
+        "para", "desde", "sobre", "entre", "tras", "cuando", "donde",
+        "porque", "como", "esta", "este", "estos", "estas", "tambien",
+        "contra", "despues", "antes", "hacia", "hasta", "ante", "sera",
+        "fue", "son", "los", "las", "una", "uno", "del", "por", "con",
+        "sin", "que", "sus", "mas", "hoy", "ayer", "nuevo", "nueva",
+        "colombia", "cali", "valle", "cauca", "noticia", "noticias"
+    }
+    return {
+        palabra for palabra in re.findall(r"[a-záéíóúñü]{4,}", str(texto or "").lower())
+        if palabra not in ignorar
+    }
+
+
+def titular_repite_articulo(titular, noticias):
+    palabras = palabras_titulo(titular)
+    if not palabras:
+        return False
+    for noticia in noticias:
+        otras = palabras_titulo(noticia.get("titulo", ""))
+        comunes = palabras.intersection(otras)
+        union = palabras.union(otras)
+        if len(comunes) >= 2 and len(comunes) / max(1, len(union)) >= 0.20:
+            return True
+    return False
+
+
+def seleccionar_titulares_publicos(titulares, noticias, limite=MAX_TITULARES_PUBLICOS):
+    ahora = datetime.now(timezone.utc).timestamp()
+    limite = ahora - MAX_EDAD_TITULARES_PUBLICOS_HORAS * 3600
+    resultado = []
+    vistos = set()
+    for original in titulares if isinstance(titulares, list) else []:
+        if not isinstance(original, dict):
+            continue
+        titular = dict(original)
+        titulo = str(titular.get("titulo") or "").strip()
+        fuente = str(titular.get("fuente") or "").strip()
+        url = str(titular.get("url") or "").strip()
+        fecha = fecha_ordenable(titular)
+        if not titulo or not fuente or not url.startswith("https://"):
+            continue
+        if not fecha or fecha < limite or fecha > ahora + 2 * 3600:
+            continue
+        if titular.get("categoria") not in SECCIONES:
+            continue
+        if titular_repite_articulo(titulo, noticias):
+            continue
+        clave = re.sub(r"[^a-z0-9]+", " ", titulo.lower()).strip()
+        if not clave or clave in vistos:
+            continue
+        vistos.add(clave)
+        resultado.append(titular)
+    resultado.sort(key=fecha_ordenable, reverse=True)
+    return resultado[:limite] if limite else resultado
+
+
+def crear_pagina_actualidad_externa(titulares):
+    tarjetas = lista_vertical([], titulares)
+    contenido = f"""
+    <main class="contenedor pagina-seccion">
+      <a class="volver" href="/">← Volver a la portada</a>
+      <header class="cabecera-seccion">
+        <p class="etiqueta">CEV NOTICIAS · SEGUIMIENTO DE MEDIOS</p>
+        <h1>Más actualidad</h1>
+        <p>Selección de titulares recientes publicados por medios externos. Cada tarjeta identifica su fuente y enlaza directamente al contenido original. Estos titulares no son artículos propios de CEV NOTICIAS.</p>
+      </header>
+      <section class="rejilla rejilla-categorias" aria-label="Titulares de medios externos">
+        {tarjetas or '<div class="vacio">No hay titulares recientes disponibles.</div>'}
+      </section>
+    </main>"""
+    extra_head = '<link rel="canonical" href="https://cevnoticias.com/actualidad.html"><meta property="og:type" content="website">'
+    pagina = plantilla(
+        "Más actualidad",
+        contenido,
+        "Titulares recientes de medios externos, identificados y enlazados a sus fuentes originales.",
+        ruta_raiz="",
+        extra_head=extra_head,
+        seccion_actual=""
+    )
+    (SITE / "actualidad.html").write_text(pagina, encoding="utf-8")
+
+
 def lista_vertical(noticias, titulares, categoria=None, excluir=None, ruta_raiz=""):
     excluir = excluir or set()
     elementos = []
@@ -306,10 +392,10 @@ a{{color:inherit;text-decoration:none}}
 .cabecera-meta{{display:flex;justify-content:space-between;align-items:center;margin-top:22px;padding-top:11px;border-top:1px solid var(--tinta);font-size:11px;color:#555}}
 .estado{{font-weight:800;letter-spacing:1.5px;text-transform:uppercase;color:var(--rojo)}}
 nav{{border-top:1px solid var(--linea);border-bottom:1px solid var(--tinta);background:var(--papel)}}
-.nav-carrusel{{max-width:1120px;margin:0 auto;padding:0 18px;display:grid;grid-template-columns:34px minmax(0,1fr) 34px;gap:10px;align-items:center}}
-.nav-interior{{min-width:0;max-width:none;margin:0;display:flex;align-items:center;justify-content:flex-start;gap:8px;padding:9px 2px;overflow-x:auto;overflow-y:hidden;white-space:nowrap;scrollbar-width:none;overscroll-behavior-x:contain;-webkit-overflow-scrolling:touch;scroll-behavior:smooth;scroll-snap-type:x mandatory}}
+.nav-carrusel{{width:100%;max-width:980px;margin:0 auto;padding:0 18px;display:grid;grid-template-columns:34px minmax(0,1fr) 34px;gap:10px;align-items:center}}
+.nav-interior{{width:100%;min-width:0;max-width:100%;margin:0;display:flex;flex-wrap:nowrap;align-items:center;justify-content:flex-start;gap:8px;padding:9px 2px;overflow-x:auto;overflow-y:hidden;white-space:nowrap;scrollbar-width:none;overscroll-behavior-x:contain;-webkit-overflow-scrolling:touch;scroll-behavior:smooth;scroll-snap-type:x proximity;}}
 .nav-interior::-webkit-scrollbar{{display:none}}
-.nav-interior a{{flex:0 0 auto;display:inline-flex;align-items:center;justify-content:center;padding:10px 13px;border-bottom:3px solid transparent;border-radius:3px 3px 0 0;scroll-snap-align:center;transition:background .18s ease,color .18s ease,border-color .18s ease}}
+.nav-interior a{{flex:0 0 auto;display:inline-flex;align-items:center;justify-content:center;padding:10px 13px;border-bottom:3px solid transparent;border-radius:3px 3px 0 0;scroll-snap-align:start;transition:background .18s ease,color .18s ease,border-color .18s ease}}
 .nav-interior a.nav-activa{{color:var(--rojo);background:#f5e7e7;border-bottom-color:var(--rojo);font-weight:800}}
 .nav-flecha{{width:34px;height:34px;border:1px solid var(--linea);border-radius:50%;background:transparent;color:var(--tinta);font:700 21px/1 'DM Sans',sans-serif;cursor:pointer;transition:all .18s ease}}
 .nav-flecha:hover:not(:disabled){{border-color:var(--rojo);background:#f5e7e7;color:var(--rojo)}}
@@ -348,6 +434,13 @@ body.noche .nav-flecha:hover:not(:disabled){{background:#3a2426;border-color:#ff
 .bloque-categoria{{padding:30px 0 34px;border-bottom:1px solid var(--linea)}}
 .titulo-seccion{{display:flex;align-items:baseline;gap:13px;margin:0 0 20px;font-family:'Playfair Display',Georgia,serif;font-size:clamp(25px,3vw,34px);letter-spacing:-.6px}}
 .titulo-seccion:after{{content:"";height:1px;background:var(--linea);flex:1}}
+.contador-noticias{{flex:none;color:var(--rojo);font:800 10px 'DM Sans',Arial,sans-serif;letter-spacing:1px;text-transform:uppercase;white-space:nowrap}}
+.nota-rss-publica{{max-width:900px;margin:-8px 0 20px;color:var(--suave);font-size:12px;line-height:1.6}}
+.tarjeta.titular-externo{{min-height:220px}}
+.tarjeta.titular-externo .tarjeta-contenido{{display:flex;flex:1;flex-direction:column;align-items:flex-start;gap:12px}}
+.tarjeta.titular-externo h3{{font-family:'Playfair Display',Georgia,serif;font-size:clamp(18px,1.8vw,22px);line-height:1.2;margin:0}}
+.tarjeta.titular-externo .rss-datos{{margin-top:auto}}
+.tarjeta.titular-externo .rss-sello{{line-height:1.4}}
 .rejilla{{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px}}
 .tarjeta{{min-width:0}}
 .tarjeta-enlace{{display:block;height:100%}}
@@ -655,28 +748,20 @@ body.noche .cev-cookie-actions .principal{{background:#b5282f;border-color:#b528
   }};
   const moverNav=(direccion)=>{{
    const maximo=maxScroll();
-   if(maximo<=4)return;
-   const enlaces=[...nav.querySelectorAll('a[data-seccion]')];
-   const rectNav=nav.getBoundingClientRect();
-   const centro=rectNav.left+rectNav.width/2;
-   let destino=null;
-   if(direccion>0){{
-    destino=enlaces.find(enlace=>enlace.getBoundingClientRect().right>centro+8);
-   }}else{{
-    destino=[...enlaces].reverse().find(enlace=>enlace.getBoundingClientRect().left<centro-8);
-   }}
-   if(destino){{
-    const rect=destino.getBoundingClientRect();
-    const objetivo=nav.scrollLeft+(rect.left-rectNav.left)-(nav.clientWidth-rect.width)/2;
-    nav.scrollTo({{left:Math.min(maximo,Math.max(0,objetivo)),behavior:'smooth'}});
-   }}else{{
-    nav.scrollTo({{left:direccion>0?maximo:0,behavior:'smooth'}});
-   }}
-   window.setTimeout(actualizarNav,350);
+   if(maximo<=4){{actualizarNav();return;}}
+   const paso=Math.max(180,Math.round(nav.clientWidth*0.72));
+   const inicio=nav.scrollLeft;
+   const destino=Math.max(0,Math.min(maximo,inicio+(direccion*paso)));
+   nav.scrollTo({{left:destino,behavior:'smooth'}});
+   window.setTimeout(()=>{{
+    if(Math.abs(nav.scrollLeft-inicio)<2)nav.scrollLeft=destino;
+    actualizarNav();
+   }},450);
   }};
   navAnterior?.addEventListener('click',()=>moverNav(-1));
   navSiguiente?.addEventListener('click',()=>moverNav(1));
   nav.addEventListener('scroll',actualizarNav,{{passive:true}});
+  nav.addEventListener('scrollend',actualizarNav);
   nav.addEventListener('keydown',evento=>{{
    if(evento.key==='ArrowRight'){{evento.preventDefault();moverNav(1);}}
    if(evento.key==='ArrowLeft'){{evento.preventDefault();moverNav(-1);}}
@@ -952,7 +1037,7 @@ def crear_paginas_institucionales():
               <div class="cuerpo">
                 <h2>1. Principios</h2><p>CEV NOTICIAS busca ofrecer información clara, relevante y atribuida. Procuramos distinguir los hechos confirmados, los datos preliminares, las opiniones y la información que continúa en desarrollo.</p>
                 <h2>2. Fuentes y atribución</h2><p>Priorizamos documentos, comunicados y datos de primera mano cuando están disponibles, junto con medios y organizaciones identificables. Los enlaces a las fuentes se incluyen para que los lectores puedan consultar el material original. La existencia de varias fuentes no garantiza por sí sola que sean independientes ni que todos los datos estén confirmados.</p>
-                <h2>3. Herramientas automatizadas y revisión humana</h2><p>El seguimiento de noticias y la preparación de borradores pueden apoyarse en sistemas automatizados y herramientas de inteligencia artificial. Estas herramientas pueden cometer errores, omitir contexto o interpretar incorrectamente una fuente. Los artículos nuevos se presentan en una propuesta de publicación y no pasan al sitio público hasta que una persona revise el titular, los datos principales, las fuentes y la pertinencia y atribución de la imagen, y apruebe la propuesta. La revisión humana reduce riesgos, pero no garantiza que nunca existan errores.</p>
+                <h2>3. Herramientas automatizadas y controles de publicación</h2><p>El seguimiento de fuentes y la preparación de artículos originales pueden apoyarse en sistemas automatizados y herramientas de inteligencia artificial. Estas herramientas pueden cometer errores, omitir contexto o interpretar incorrectamente una fuente. Antes de publicar, cada artículo debe superar controles de extensión, categoría, enlaces HTTPS, detección de duplicados y atribución de las fuentes; los temas sensibles requieren corroboración de medios independientes. Las fotografías sin licencia y atribución completas se excluyen. Los titulares de otros medios se muestran por separado, identifican su fuente y enlazan al contenido original; no se presentan como artículos propios. Las altas, ediciones y retiros solicitados manualmente desde el panel sí pasan por revisión antes de publicarse. Estos controles reducen riesgos, pero no garantizan que nunca existan errores.</p>
                 <h2>4. Titulares recopilados y contenido propio</h2><p>Un titular que remite a una publicación externa no se presenta como una investigación propia de CEV NOTICIAS. Cuando elaboramos un artículo a partir de fuentes consultadas, identificamos esas fuentes y enlazamos a sus publicaciones. Respetamos los derechos de autor y no pretendemos atribuirnos fotografías ni textos ajenos.</p>
                 <h2>5. Imágenes</h2><p>Procuramos utilizar imágenes con permisos de reutilización adecuados y mostrar la atribución o licencia cuando corresponda. Una imagen ilustrativa no debe interpretarse como prueba visual del hecho si no corresponde al acontecimiento descrito.</p>
                 <h2>6. Publicidad y contenido patrocinado</h2><p>Si se incorporan anuncios, patrocinios o enlaces de afiliados, deberán distinguirse visualmente del contenido periodístico. La publicidad no debe confundirse con una noticia ni condicionar la presentación de los hechos.</p>
@@ -992,7 +1077,7 @@ def limpiar_archivos_publicos_obsoletos():
         if ruta.exists():
             shutil.rmtree(ruta)
 
-    for nombre in ("index.html", "sitemap.xml", "robots.txt", "quienes-somos.html", "redaccion.html", "contacto.html", "politica-de-privacidad.html", "politica-editorial.html", "correcciones.html"):
+    for nombre in ("index.html", "sitemap.xml", "robots.txt", "actualidad.html", "quienes-somos.html", "redaccion.html", "contacto.html", "politica-de-privacidad.html", "politica-editorial.html", "correcciones.html"):
         ruta = SITE / nombre
         if ruta.exists():
             ruta.unlink()
@@ -1007,7 +1092,7 @@ def validar_archivos_publicados(noticias):
     """
     faltantes = []
     esperados = [SITE / "index.html"]
-    esperados.extend(SITE / nombre for nombre in ("quienes-somos.html", "redaccion.html", "contacto.html", "politica-de-privacidad.html", "politica-editorial.html", "correcciones.html"))
+    esperados.extend(SITE / nombre for nombre in ("actualidad.html", "quienes-somos.html", "redaccion.html", "contacto.html", "politica-de-privacidad.html", "politica-editorial.html", "correcciones.html"))
     esperados.extend([SITE / "sitemap.xml", SITE / "robots.txt", SITE / "cookies.js"])
     esperados.extend(NOTAS / f"{noticia['id']}.html" for noticia in noticias)
     esperados.extend(SITE / "secciones" / f"{slug(seccion)}.html" for seccion in SECCIONES)
@@ -1118,7 +1203,8 @@ def construir():
     limpiar_archivos_publicos_obsoletos()
     datos = cargar_json(CACHE, {})
     noticias = datos.get("noticias", [])
-    titulares_rss = datos.get("titulares_rss", []) if isinstance(datos.get("titulares_rss", []), list) else []
+    radar = cargar_json(RADAR_RSS, {})
+    titulares_rss = radar.get("titulares_rss", []) if isinstance(radar, dict) else []
     validas = []
     vistos = set()
     titulos_vistos = set()
@@ -1171,6 +1257,11 @@ def construir():
         validas.append(noticia)
     
     validas.sort(key=fecha_ordenable, reverse=True)
+    titulares_publicos = seleccionar_titulares_publicos(titulares_rss, validas)
+    print(
+        f"Portada editorial: {len(validas)} artículos propios · "
+        f"{len(titulares_publicos)} titulares atribuidos a medios externos."
+    )
 
     for noticia in validas:
         crear_articulo(noticia, validas)
@@ -1221,8 +1312,10 @@ def construir():
     portada = f'<section class="portada-grid">{principal_html}</section>'
 
     # Cada sección cuenta con una página propia; la portada mantiene un único flujo vertical.
+    titulares_archivo = seleccionar_titulares_publicos(titulares_rss, validas, limite=None)
     for seccion in SECCIONES:
-        crear_pagina_seccion(seccion, validas, [])
+        crear_pagina_seccion(seccion, validas, titulares_archivo)
+    crear_pagina_actualidad_externa(titulares_archivo)
     crear_paginas_institucionales()
 
     candidatos_express = []
@@ -1251,8 +1344,14 @@ def construir():
         '<div class="cinta"><span>En desarrollo</span><span>Últimas noticias</span></div>'
         f'{portada}'
         '<section class="bloque-categoria" id="ultimas-noticias">'
-        '<h2 class="titulo-seccion">Últimas noticias</h2>'
-        f'<div class="lista-noticias">{lista_portada or "<div class=vacio>No hay noticias disponibles por ahora.</div>"}</div>'
+        f'<h2 class="titulo-seccion">Noticias propias de CEV NOTICIAS <span class="contador-noticias">{len(validas)} artículos</span></h2>'
+        f'<div class="lista-noticias">{lista_portada or "<div class=vacio>No hay noticias propias disponibles por ahora.</div>"}</div>'
+        '</section>'
+        '<section class="bloque-categoria" id="mas-actualidad">'
+        f'<h2 class="titulo-seccion">Más actualidad en otros medios <span class="contador-noticias">{len(titulares_publicos)} titulares</span></h2>'
+        '<p class="nota-rss-publica">Seguimiento de publicaciones recientes de medios externos. Cada titular conserva el crédito y dirige al artículo original; no representa una publicación de autoría propia de CEV NOTICIAS.</p>'
+        f'<div class="rejilla rejilla-categorias">{lista_vertical([], titulares_publicos) or "<div class=vacio>No hay titulares externos recientes.</div>"}</div>'
+        '<a class="boton" href="/actualidad.html">Ver todos los titulares de otros medios ↗</a>'
         '</section></main>'
     )
     portada_head = '<link rel="canonical" href="https://cevnoticias.com/"><meta property="og:type" content="website"><meta property="og:title" content="CEV NOTICIAS | Actualidad y periodismo">'
@@ -1261,7 +1360,7 @@ def construir():
     if not recurso_cookies.is_file():
         raise RuntimeError("No se encontró cookies.js; no se puede publicar el gestor de consentimiento.")
     shutil.copy2(recurso_cookies, SITE / "cookies.js")
-    paginas_institucionales = ["quienes-somos.html", "redaccion.html", "contacto.html", "politica-de-privacidad.html", "politica-editorial.html", "correcciones.html"]
+    paginas_institucionales = ["quienes-somos.html", "redaccion.html", "contacto.html", "politica-de-privacidad.html", "politica-editorial.html", "correcciones.html", "actualidad.html"]
     urls = (["https://cevnoticias.com/"]
             + [f"https://cevnoticias.com/notas/{n['id']}.html" for n in validas]
             + [f"https://cevnoticias.com/secciones/{slug(s)}.html" for s in SECCIONES]
@@ -1273,7 +1372,7 @@ def construir():
     (SITE / "sitemap.xml").write_text(sitemap, encoding="utf-8")
     (SITE / "robots.txt").write_text("User-agent: *\nAllow: /\nSitemap: https://cevnoticias.com/sitemap.xml\n", encoding="utf-8")
     validar_archivos_publicados(validas)
-    print(f"Portada creada. Artículos propios: {len(validas)} · Titulares de fuentes: {len(titulares_rss)}")
+    print(f"Portada creada. Artículos propios: {len(validas)} · Titulares externos publicados: {len(titulares_publicos)} · Titulares RSS disponibles: {len(titulares_rss)}")
 
 
 if __name__ == "__main__":
