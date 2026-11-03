@@ -16,7 +16,7 @@ NOTAS = SITE / "notas"
 CACHE = BASE / "cache.json"
 RADAR_RSS = BASE / "radar_rss.json"
 ASSETS_IA = BASE / "assets" / "imagenes-ia"
-ARCHIVOS_ILUSTRACIONES_IA = ("cev-editorial-sprite.webp", "cev-local-sprite.webp")
+ARCHIVOS_ILUSTRACIONES_IA = ("sismo.svg", "infraestructura.svg", "espacio-publico.svg", "salud.svg", "gobierno.svg", "tecnologia.svg", "ciclismo.svg", "cafe-comercio.svg", "movilidad.svg")
 MAX_TITULARES_PUBLICOS = 60
 MAX_EDAD_TITULARES_PUBLICOS_HORAS = 72
 MAX_BREVES_PUBLICOS = 8
@@ -145,44 +145,45 @@ def foto_local_noticia(noticia):
 
 
 def seleccionar_ilustracion_ia(noticia):
-    """Asigna una ilustración conceptual de IA según el tema, sin simular una foto documental."""
+    """Selecciona un dibujo editorial conceptual, según el tema de la noticia."""
     texto = " ".join(str(noticia.get(campo, "")) for campo in ("titulo", "resumen", "texto", "contenido", "categoria")).lower()
     if re.search(r"bajo (los )?puentes|espacios publicos|parques|zonas verdes", texto):
-        return "cev-editorial-sprite.webp", "0% 50%", "300%"
+        return "espacio-publico.svg"
     if re.search(r"demolicion|edificacion|edificios|infraestructura|megaproyectos|construccion|obras publicas", texto):
-        return "cev-editorial-sprite.webp", "100% 0%", "300%"
+        return "infraestructura.svg"
     if re.search(r"sismo|terremoto|temblor|chaparral", texto):
-        return "cev-editorial-sprite.webp", "0% 0%", "300%"
+        return "sismo.svg"
     if re.search(r"malaria|salud|hospital|paciente|virus|epidemia|enfermedad", texto):
-        return "cev-editorial-sprite.webp", "100% 50%", "300%"
+        return "salud.svg"
     if re.search(r"ley de|congreso|camara|senado|legislativ|proyecto de ley", texto):
-        return "cev-editorial-sprite.webp", "0% 100%", "300%"
-    if re.search(r"inteligencia artificial|\bia\b|tecnolog|spacex|anthropic|openai|marketing digital|centro de datos|software", texto):
-        return "cev-editorial-sprite.webp", "100% 100%", "300%"
+        return "gobierno.svg"
+    if re.search(r"inteligencia artificial|\\bia\\b|tecnolog|spacex|anthropic|openai|marketing digital|centro de datos|software", texto):
+        return "tecnologia.svg"
     if re.search(r"giro de rigo|ciclista|ciclismo|deporte|deportiv|atleta|carrera", texto):
-        return "cev-local-sprite.webp", "0% 0%", "200%"
-    if re.search(r"cafe|caficult|productores|agricultur|cultivo|cosecha|grano|economia|ingresos|ventas", texto):
-        return "cev-local-sprite.webp", "100% 0%", "200%"
-    if re.search(r"tienda|comercio|negocio|emprend|pequena empresa|pequeño negocio", texto):
-        return "cev-local-sprite.webp", "0% 100%", "200%"
+        return "ciclismo.svg"
+    if re.search(r"cafe|caficult|productores|agricultur|cultivo|cosecha|grano|economia|ingresos|ventas|tienda|comercio|negocio|emprend", texto):
+        return "cafe-comercio.svg"
     if re.search(r"movilidad|transito|trafico|vehiculo|comparendo|caravana|transporte|vial", texto):
-        return "cev-local-sprite.webp", "100% 100%", "200%"
+        return "movilidad.svg"
+
     categoria = str(noticia.get("categoria", "")).lower()
     if categoria == "deportes":
-        return "cev-local-sprite.webp", "0% 0%", "200%"
+        return "ciclismo.svg"
     if categoria in ("economía", "economia", "valle del cauca"):
-        return "cev-local-sprite.webp", "100% 0%", "200%"
+        return "cafe-comercio.svg"
     if categoria == "cali":
-        return "cev-local-sprite.webp", "100% 100%", "200%"
+        return "movilidad.svg"
     if categoria == "colombia":
-        return "cev-editorial-sprite.webp", "0% 100%", "300%"
-    return "cev-editorial-sprite.webp", "100% 100%", "300%"
+        return "gobierno.svg"
+    if categoria == "tecnología":
+        return "tecnologia.svg"
+    return "espacio-publico.svg"
 
 
 def copiar_ilustraciones_ia():
-    """Copia al sitio los sprites editoriales generados con IA."""
+    """Copia las ilustraciones SVG editoriales al sitio estático."""
     if not ASSETS_IA.is_dir():
-        print("No se encontró el directorio de ilustraciones IA; se mantiene el modo sin fotografía.")
+        print("No se encontró el directorio de ilustraciones; se mantiene el modo sin fotografía.")
         return
     destino = SITE / "imagenes-ia"
     destino.mkdir(parents=True, exist_ok=True)
@@ -190,13 +191,13 @@ def copiar_ilustraciones_ia():
         origen = ASSETS_IA / nombre
         if origen.is_file():
             shutil.copy2(origen, destino / nombre)
-    print("Ilustraciones editoriales IA copiadas al sitio.")
+    print("Ilustraciones editoriales SVG copiadas al sitio.")
 
 
 def imagen_noticia(noticia, alt="", clase="", loading="lazy", prioridad=False):
     """
-    Prioriza fotografías editoriales validadas. Si no existen, utiliza una
-    ilustración conceptual generada con IA e identificada visiblemente como tal.
+    Prioriza fotografías editoriales validadas. Si no existen, usa una
+    ilustración vectorial generada con IA y rotulada como imagen conceptual.
     """
     fotografia = foto_local_noticia(noticia)
     if fotografia:
@@ -207,19 +208,18 @@ def imagen_noticia(noticia, alt="", clase="", loading="lazy", prioridad=False):
             f'<img{clase_html} src="{fotografia}" alt="{escapar(alt)}" '
             f'loading="{escapar(loading)}" decoding="async"{prioridad_html}>'
         )
-    archivo, posicion, filas = seleccionar_ilustracion_ia(noticia)
+
+    archivo = seleccionar_ilustracion_ia(noticia)
     if not (ASSETS_IA / archivo).is_file():
         return ""
-    sprite = "sprite-local" if archivo == "cev-local-sprite.webp" else "sprite-editorial"
-    clases = " ".join(parte for parte in (clase, "visual-ia", sprite) if parte)
+    clases = " ".join(parte for parte in (clase, "visual-ia") if parte)
     descripcion = "Ilustración editorial generada con IA; no es una fotografía del hecho. " + str(alt or "")
-    estilo = (
-        f"background-image:linear-gradient(rgba(18,31,44,.04),rgba(18,31,44,.04)),url('/imagenes-ia/{archivo}');"
-        f"background-position:center,{posicion};background-size:100% 100%,200% {filas};"
-    )
+    prioridad_html = ' fetchpriority="high"' if prioridad else ""
     return (
-        f'<span class="{escapar(clases)}" role="img" aria-label="{escapar(descripcion)}" '
-        f'style="{estilo}"><span class="sello-imagen-ia">Ilustración IA</span></span>'
+        f'<span class="{escapar(clases)}" role="img" aria-label="{escapar(descripcion)}">'
+        f'<img class="imagen-ia-img" src="/imagenes-ia/{archivo}" alt="" '
+        f'loading="{escapar(loading)}" decoding="async"{prioridad_html}>'
+        f'<span class="sello-imagen-ia">Ilustración IA</span></span>'
     )
 
 
@@ -845,7 +845,7 @@ body.noche .cev-cookie-actions .principal{{background:#b5282f;border-color:#b528
 .meta-tarjeta{{margin-top:8px;font-size:10px;color:#687786}}
 .tiempo-relativo{{font-variant-numeric:tabular-nums;white-space:nowrap}}
 .visual-ia{{position:relative;display:block;width:100%;height:100%;min-height:120px;background-color:#dfe6ed;background-repeat:no-repeat;overflow:hidden;border-radius:inherit}}
-.visual-ia .sello-imagen-ia{{position:absolute;z-index:2;right:7px;bottom:7px;padding:5px 7px;border-radius:4px;background:rgba(15,29,42,.86);color:#fff;font-size:8px;font-weight:900;letter-spacing:.65px;text-transform:uppercase}}
+.visual-ia .imagen-ia-img{{display:block;width:100%;height:100%;min-height:0;object-fit:cover;border-radius:inherit}}\n.visual-ia .sello-imagen-ia{{position:absolute;z-index:2;right:7px;bottom:7px;padding:5px 7px;border-radius:4px;background:rgba(15,29,42,.86);color:#fff;font-size:8px;font-weight:900;letter-spacing:.65px;text-transform:uppercase}}
 .tarjeta-imagen .visual-ia{{min-height:100%;height:100%}}
 .destacada-visual .visual-ia{{min-height:0;height:100%}}
 .express-foto .visual-ia{{min-height:0;height:100%}}
