@@ -123,8 +123,7 @@ def foto_local_noticia(noticia):
 
     host = (urlsplit(url).hostname or "").lower()
     if host in ("cevnoticias.com", "www.cevnoticias.com"):
-        IMAGENES_PROCESADAS[identificador] = ""
-        return ""
+        url = ""
 
     tipos = {
         "image/jpeg": ".jpg",
@@ -180,15 +179,16 @@ def imagen_respaldo_categoria(noticia, identificador):
     candidatos = categorias.get(categoria, []) or categorias.get("General", [])
     if not candidatos:
         candidatos = categorias.get("General", [])
-    for item in candidatos:
-        if not isinstance(item, dict):
-            continue
+    disponibles = [x for x in candidatos if isinstance(x, dict)]
+    # Prioriza fotos no repetidas; si se agotan, permite reutilizar una de la categoría
+    # antes que dejar una tarjeta sin imagen.
+    ordenados = [x for x in disponibles if str(BASE / str(x.get("archivo") or "")) not in FOTOS_RESPALDO_USADAS]
+    ordenados += [x for x in disponibles if x not in ordenados]
+    for item in ordenados:
         ruta = BASE / str(item.get("archivo") or "")
         if not ruta.is_file():
             continue
         clave = str(ruta)
-        if clave in FOTOS_RESPALDO_USADAS:
-            continue
         FOTOS_RESPALDO_USADAS.add(clave)
         destino = SITE / "imagenes" / "biblioteca" / ruta.name
         destino.parent.mkdir(parents=True, exist_ok=True)
