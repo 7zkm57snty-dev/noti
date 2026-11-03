@@ -1,6 +1,12 @@
 name: Preparar noticias para revisión editorial
 
 on:
+  push:
+    branches: [main]
+    paths:
+      - "feeds.json"
+      - "redactor.py"
+      - ".github/workflows/actualizar.yml"
   schedule:
     - cron: "*/20 * * * *"
   workflow_dispatch:
@@ -62,6 +68,40 @@ jobs:
         run: |
           echo "Preparando noticias; todavía no se publican."
           python -u redactor.py
+
+      - name: Guardar radar RSS independiente de las noticias propias
+        if: steps.estado_cola.outputs.revision_pendiente != 'true'
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          cache = json.loads(Path("cache.json").read_text(encoding="utf-8"))
+          radar = {
+              "ultima_actualizacion": cache.get("ultima_actualizacion"),
+              "titulares_rss": cache.get("titulares_rss", []),
+              "estado_fuentes": cache.get("estado_fuentes", [])
+          }
+          Path("radar_rss.json").write_text(
+              json.dumps(radar, ensure_ascii=False, indent=2) + "\n",
+              encoding="utf-8"
+          )
+          print(
+              f"Radar RSS preparado: {len(radar['titulares_rss'])} titulares; "
+              f"{len(radar['estado_fuentes'])} fuentes comprobadas."
+          )
+          PY
+
+          if git diff --quiet -- radar_rss.json; then
+            echo "El radar RSS no cambió; no hace falta crear un commit."
+          else
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add radar_rss.json
+            git commit -m "Actualizar radar RSS y salud de fuentes"
+            git push origin HEAD:main
+          fi
 
       - name: Filtrar borradores y evitar propuestas vacías
         id: novedades

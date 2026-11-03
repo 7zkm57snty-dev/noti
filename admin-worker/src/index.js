@@ -60,6 +60,26 @@ async function reviews(env) {
     additions:p.additions||0,deletions:p.deletions||0,changedFiles:p.changed_files||0
   }));
 }
+async function readRSSRadar(env,fallback) {
+  const base=fallback&&typeof fallback==="object"?fallback:{};
+  try {
+    const f=await gh("/repos/"+OWNER+"/"+REPO+"/contents/radar_rss.json?ref="+MAIN,env);
+    if(!f.content||f.encoding!=="base64") throw new Error("Archivo RSS sin contenido.");
+    const data=JSON.parse(decode64(f.content));
+    return {
+      titulares_rss:Array.isArray(data.titulares_rss)?data.titulares_rss:(Array.isArray(base.titulares_rss)?base.titulares_rss:[]),
+      estado_fuentes:Array.isArray(data.estado_fuentes)?data.estado_fuentes:(Array.isArray(base.estado_fuentes)?base.estado_fuentes:[]),
+      ultima_actualizacion:data.ultima_actualizacion||base.ultima_actualizacion||null
+    };
+  } catch (_) {
+    return {
+      titulares_rss:Array.isArray(base.titulares_rss)?base.titulares_rss:[],
+      estado_fuentes:Array.isArray(base.estado_fuentes)?base.estado_fuentes:[],
+      ultima_actualizacion:base.ultima_actualizacion||null
+    };
+  }
+}
+
 async function readFeeds(env) {
   const f=await gh("/repos/"+OWNER+"/"+REPO+"/contents/feeds.json?ref="+MAIN,env);
   if(!f.content||f.encoding!=="base64") throw new AdminError(502,"No se pudo leer feeds.json.");
@@ -194,18 +214,19 @@ function normalizeSafeFields(cache) {
 async function dashboard(env,identity) {
   if(!env.GITHUB_TOKEN) return {configured:false,user:identity.email||identity.name||"Administrador",news:[],reviews:[],feeds:[],feedStatus:[],automation:[]};
   const r=await Promise.all([readCache(env),reviews(env),readFeeds(env),automationRuns()]);
+  const radar=await readRSSRadar(env,r[0].data);
   return {
     configured:true,
     user:identity.email||identity.name||"Administrador",
     news:r[0].data.noticias,
-    // El radar conserva titulares externos separados de las noticias propias.
-    rssHeadlines:Array.isArray(r[0].data.titulares_rss)?r[0].data.titulares_rss:[],
+    // El radar se lee desde un archivo independiente: no depende de aprobar artículos.
+    rssHeadlines:radar.titulares_rss,
     reviews:r[1],
     feeds:r[2].map(f=>({nombre:String(f.nombre||"Fuente"),url:String(f.url||""),zona:String(f.zona||"Nacional / internacional")})),
-    feedStatus:Array.isArray(r[0].data.estado_fuentes)?r[0].data.estado_fuentes:[],
+    feedStatus:radar.estado_fuentes,
     automation:r[3],
-    rssCount:Array.isArray(r[0].data.titulares_rss)?r[0].data.titulares_rss.length:0,
-    latestUpdate:r[0].data.ultima_actualizacion||null
+    rssCount:radar.titulares_rss.length,
+    latestUpdate:radar.ultima_actualizacion
   };
 }
 async function publicationStatus(env,sha) {
