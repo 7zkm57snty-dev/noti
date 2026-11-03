@@ -7,7 +7,9 @@ Worker privado para `admin.cevnoticias.com`, integrado con el repositorio `7zkm5
 - Cloudflare Access autentica la solicitud antes de que el Worker entregue el panel o procese la API. El Worker vuelve a comprobar `ctx.access` y la identidad.
 - La interfaz se importa como módulo de texto mediante Wrangler. No se usa el router de Static Assets, para conservar el contexto de Access en el Worker.
 - El token de GitHub solo se lee desde el secreto `GITHUB_TOKEN` del Worker. Nunca se devuelve al navegador.
-- Las altas, ediciones y retiros crean una rama `revision-admin/*` y una propuesta contra `main`.
+- Las noticias automáticas pasan directamente a `cache.json` y se publican en el sitio cuando superan las verificaciones editoriales y técnicas del workflow.
+- Las altas, ediciones y retiros manuales desde el panel crean una rama `revision-admin/*` y una propuesta contra `main`; esas propuestas sí requieren aprobación.
+- El recolector se ejecuta cada 20 minutos, puede generar hasta cuatro artículos por ejecución y tiene un máximo de 20 artículos válidos por día en hora de Colombia. Además, mantiene un límite independiente de 40 solicitudes diarias al modelo y registra ambos contadores en `automation_state.json`.
 - Aprobar fusiona la propuesta y el panel espera a que el workflow de GitHub Pages termine. Antes de marcar la actualización como completada, el workflow consulta el dominio público sin caché y compara portada, titular, resumen, cuerpo y fotografía con cache.json. Rechazar cierra la propuesta.
 - `cache.json` conserva las noticias propias y sigue siendo la fuente del sitio público.
 - `radar_rss.json` conserva por separado los titulares externos, la salud de cada feed y la fecha de actualización. El recolector lo actualiza directamente en `main`, sin esperar a que se apruebe o se descarte una noticia propia.
@@ -68,7 +70,8 @@ Después de que Cloudflare despliegue la versión y el secreto exista, abre `htt
 - El resumen muestra las últimas ejecuciones del recolector RSS, su estado y enlace al detalle de GitHub Actions.
 - El directorio de fuentes lista los RSS configurados y distingue los que respondieron, los que no devolvieron entradas y los que fallaron.
 - El registro de cada fuente indica las entradas recibidas y los titulares recientes que superaron el filtro de fecha.
-- La automatización puede preparar hasta cuatro artículos por ejecución, sujeta al límite diario de 40 solicitudes, revisión editorial y filtros de calidad.
+- La automatización puede publicar hasta cuatro artículos por ejecución y 20 por día, siempre que superen las validaciones; tiene un tope adicional de 40 solicitudes al modelo al día y respeta una pausa mínima de 20 minutos entre ciclos.
+- Las publicaciones automáticas llevan la firma institucional `CEV NOTICIAS`. Los titulares externos del Radar RSS nunca se convierten directamente en artículos propios.
 - El catálogo técnico de sismos del Servicio Geológico Colombiano no se procesa como RSS editorial: requiere un conector de datos estructurados independiente.
 
 ## Funciones posteriores
