@@ -34,26 +34,30 @@ jobs:
           python -m pip install --upgrade pip
           pip install requests feedparser trafilatura groq pillow
 
-      - name: Recuperar borradores de una revisión abierta
+      - name: Comprobar si ya hay una revisión pendiente
+        id: estado_cola
         env:
-          GH_TOKEN: \${{ github.token }}
+          GH_TOKEN: ${{ github.token }}
         shell: bash
         run: |
           BRANCH="revision-editorial/noticias-pendientes"
           OPEN_PR="$(gh pr list --state open --head "$BRANCH" --json number --jq 'length')"
-          if [ "\${OPEN_PR:-0}" -gt 0 ] && git ls-remote --exit-code --heads origin "$BRANCH" >/dev/null 2>&1; then
-            git fetch origin "$BRANCH"
-            git show "origin/$BRANCH:cache.json" > cache.json
-            echo "Se recuperó la cola que ya está pendiente de revisión."
-          elif git ls-remote --exit-code --heads origin "$BRANCH" >/dev/null 2>&1; then
+          if [ "${OPEN_PR:-0}" -gt 0 ]; then
+            echo "revision_pendiente=true" >> "$GITHUB_OUTPUT"
+            echo "Hay una propuesta editorial abierta. Se pausa la generación para no acumular más noticias."
+            exit 0
+          fi
+          if git ls-remote --exit-code --heads origin "$BRANCH" >/dev/null 2>&1; then
             git push origin --delete "$BRANCH"
-            echo "Se limpió una rama anterior que ya no tiene una revisión abierta."
+            echo "Se limpió una rama anterior sin revisión abierta."
           fi
           cp cache.json /tmp/cev-cache-antes.json
+          echo "revision_pendiente=false" >> "$GITHUB_OUTPUT"
 
       - name: Generar borradores
+        if: steps.estado_cola.outputs.revision_pendiente != 'true'
         env:
-          GROQ_API_KEY: \${{ secrets.GROQ_API_KEY }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
           PYTHONUNBUFFERED: "1"
         run: |
           echo "Preparando noticias; todavía no se publican."
@@ -61,6 +65,7 @@ jobs:
 
       - name: Filtrar borradores y evitar propuestas vacías
         id: novedades
+        if: steps.estado_cola.outputs.revision_pendiente != 'true'
         shell: bash
         run: |
           python - <<'PY'
@@ -170,10 +175,10 @@ jobs:
           PY
 
       - name: Abrir o actualizar propuesta editorial
-        if: steps.novedades.outputs.hay_novedades == 'true'
+        if: steps.estado_cola.outputs.revision_pendiente != 'true' && steps.novedades.outputs.hay_novedades == 'true'
         uses: peter-evans/create-pull-request@v8
         with:
-          token: \${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
           add-paths: |
             cache.json
           branch: revision-editorial/noticias-pendientes
