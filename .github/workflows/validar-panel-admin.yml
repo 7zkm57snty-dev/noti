@@ -8,6 +8,9 @@ on:
       - "redactor.py"
       - "feeds.json"
       - ".github/workflows/validar-panel-admin.yml"
+      - ".github/workflows/actualizar.yml"
+      - ".github/workflows/publicar.yml"
+      - "radar_rss.json"
   push:
     branches:
       - "feature/panel-admin-cev-2026-11"
