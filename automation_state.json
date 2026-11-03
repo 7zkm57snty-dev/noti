@@ -12,5 +12,6 @@
   "limite_breves_ejecucion": 3,
   "limite_solicitudes_diario": 60,
   "limite_articulos_ejecucion": 5,
-  "fuentes_descartadas": []
+  "fuentes_descartadas": [],
+  "periodo_breves_publicado": "edicion-inicial-2026-11-03"
 }

@@ -18,7 +18,7 @@ RADAR_RSS = BASE / "radar_rss.json"
 MAX_TITULARES_PUBLICOS = 60
 MAX_EDAD_TITULARES_PUBLICOS_HORAS = 72
 MAX_BREVES_PUBLICOS = 8
-MAX_EDAD_BREVES_HORAS = 48
+MAX_EDAD_BREVES_HORAS = 120
 HORAS_ETIQUETA_ULTIMA_HORA = 8
 
 SECCIONES = ["Cali", "Valle del Cauca", "Colombia", "Internacional", "Deportes", "Tecnología", "Economía", "Tendencias", "Humor y opinión"]
@@ -1457,7 +1457,7 @@ def construir():
         <div>
           <p class="etiqueta">CEV NOTICIAS · RESUMEN DE LA SEMANA</p>
           <h2>Lo más destacado de la semana</h2>
-          <p>Un repaso de los hechos más relevantes de Cali, el Valle del Cauca y Colombia, con información consultada y contrastada. La selección se renueva cada cuatro días.</p>
+          <p>Un repaso de los hechos más relevantes de Cali, el Valle del Cauca y Colombia, con información consultada y contrastada. Dos ediciones semanales: lunes y viernes a las 6:00 a. m. (hora de Colombia).</p>
           <small class="breves-actualizacion">Edición actualizada: {escapar(fecha_edicion_breves_texto or "En preparación")}</small>
         </div>
         <span class="contador-noticias">{len(breves_publicos)} notas</span>

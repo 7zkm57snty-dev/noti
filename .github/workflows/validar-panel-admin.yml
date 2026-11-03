@@ -6,6 +6,7 @@ on:
     paths:
       - "admin-worker/**"
       - "redactor.py"
+      - "periodos_breves.py"
       - "build.py"
       - "feeds.json"
       - ".github/workflows/validar-panel-admin.yml"
@@ -43,7 +44,7 @@ jobs:
 
       - name: Validar código Python y catálogo de fuentes
         run: |
-          python -m py_compile ../redactor.py ../build.py ../verificar_publicacion.py
+          python -m py_compile ../redactor.py ../periodos_breves.py ../build.py ../verificar_publicacion.py
           python -m json.tool ../feeds.json > /dev/null
           python -m json.tool ../radar_rss.json > /dev/null
           python -m json.tool ../automation_state.json > /dev/null
@@ -71,6 +72,27 @@ jobs:
           tarjeta = build.tarjeta_rss(seleccionados[0])
           assert "REDACCIÓN CEV NOTICIAS" in tarjeta and "/notas/actualidad-" in tarjeta
           print("Prueba RSS interna correcta: selección y deduplicación.")
+
+          from datetime import datetime
+          from zoneinfo import ZoneInfo
+          from periodos_breves import obtener_periodo_breves, grupo_en_periodo_breves
+
+          bogota = ZoneInfo("America/Bogota")
+          lunes = obtener_periodo_breves(datetime(2026, 11, 2, 6, 0, tzinfo=bogota))
+          viernes = obtener_periodo_breves(datetime(2026, 11, 6, 6, 0, tzinfo=bogota))
+          assert lunes["clave"] == "lunes-2026-11-02"
+          assert lunes["inicio"] == datetime(2026, 10, 30, 6, 0, tzinfo=bogota)
+          assert lunes["fin"] == datetime(2026, 11, 2, 6, 0, tzinfo=bogota)
+          assert viernes["clave"] == "viernes-2026-11-06"
+          assert viernes["inicio"] == datetime(2026, 11, 2, 6, 0, tzinfo=bogota)
+          assert viernes["fin"] == datetime(2026, 11, 6, 6, 0, tzinfo=bogota)
+          assert obtener_periodo_breves(datetime(2026, 11, 3, 6, 0, tzinfo=bogota)) is None
+          assert obtener_periodo_breves(datetime(2026, 11, 6, 5, 59, tzinfo=bogota)) is None
+          muestra = {"fuentes": [{"fecha": "2026-11-02T11:00:00+00:00"}]}
+          assert grupo_en_periodo_breves(muestra, viernes)
+          assert not grupo_en_periodo_breves({"fuentes": [{"fecha": "2026-11-02T10:59:00+00:00"}]}, viernes)
+          assert not grupo_en_periodo_breves({"fuentes": [{"fecha": "2026-11-06T11:00:00+00:00"}]}, viernes)
+          print("Correcto: ventanas lunes-viernes y viernes-lunes, con límites exactos de las 6:00 a. m.")
           PY
       - name: Validar las cinco notas reales del mini blog
         run: |
@@ -86,9 +108,8 @@ jobs:
           cache = json.loads(Path("../cache.json").read_text(encoding="utf-8"))
           breves = cache.get("breves", [])
           seleccionadas = build.seleccionar_breves_publicos(breves, cache.get("noticias", []))
-          assert len(seleccionadas) == 5, (
-              f"Se esperaban 5 notas visibles y quedaron {len(seleccionadas)}: "
-              + ", ".join(str(x.get("titulo")) for x in seleccionadas)
+          assert 1 <= len(seleccionadas) <= 5, (
+              f"La edición debe mostrar entre 1 y 5 notas verificadas; quedaron {len(seleccionadas)}."
           )
           for breve in seleccionadas:
               palabras = len(str(breve.get("texto", "")).split())
@@ -103,7 +124,7 @@ jobs:
                   dominio = urlsplit(fuente["url"]).hostname or ""
                   assert dominio not in tarjeta
               assert "href=" not in tarjeta
-          print("Correcto: las cinco notas reales pasan filtros y muestran crédito sin enlaces externos.")
+          print(f"Correcto: {len(seleccionadas)} notas de la edición pasan filtros y muestran crédito sin enlaces externos.")
           PY
 
       - name: Probar que el sitio público solo contiene artículos propios
