@@ -54,6 +54,7 @@ CATEGORIAS = [
     "Tendencias",
     "Humor y opinión"
 ]
+CATEGORIAS_BREVES = [categoria for categoria in CATEGORIAS if categoria != "Internacional"]
 
 IGNORAR = {
     "para", "desde", "sobre", "entre", "tras", "cuando",
@@ -402,6 +403,68 @@ def prioridad_regional(grupo):
     return puntos
 
 
+def determinar_ambito_breve(grupo, fuentes_recuperadas):
+    """Devuelve Cali, Valle del Cauca o Colombia; excluye hechos internacionales ajenos al país."""
+    titulo = str(grupo.get("titulo", "")).strip()
+    fuentes = grupo.get("fuentes", []) or []
+    nombres = " ".join(str(f.get("fuente", "")) for f in fuentes if isinstance(f, dict))
+    material = " ".join(
+        [titulo, nombres]
+        + [str(f.get("titulo", "")) + " " + str(f.get("texto", "")) for f in fuentes_recuperadas]
+    ).lower()
+    material = material.translate(str.maketrans({
+        "á": "a", "é": "e", "í": "i", "ó": "o", "ú": "u", "ü": "u", "ñ": "n"
+    }))
+
+    referencia_colombiana = any(re.search(rf"\b{re.escape(palabra)}\b", material) for palabra in (
+        "colombia", "colombiano", "colombiana", "colombianos", "colombianas",
+        "bogota", "medellin", "barranquilla", "cartagena", "bucaramanga",
+        "manizales", "pereira", "popayan", "pasto", "ibague", "neiva",
+        "villavicencio", "santa marta", "tunja", "cucuta", "armenia",
+        "ministerio", "gobernacion", "alcaldia", "congreso", "dane",
+        "fiscalia general", "policia nacional", "corte constitucional"
+    ))
+    senales_extranjeras = (
+        "ucrania", "rusia", "estados unidos", "eeuu", "mexico", "argentina",
+        "brasil", "peru", "ecuador", "bolivia", "chile", "israel", "gaza",
+        "palestina", "iran", "china", "japon", "reino unido", "francia",
+        "alemania", "italia", "espana", "canada", "haiti", "cuba",
+        "nicaragua", "honduras", "guatemala", "siria", "libano", "pakistan",
+        "india", "sudan", "etiopia", "nigeria", "kenia", "sudafrica",
+        "taiwan", "corea", "afganistan", "spacex", "apollo global",
+        "anthropic", "silicon valley", "wall street"
+    )
+    if any(re.search(rf"\b{re.escape(palabra)}\b", material) for palabra in senales_extranjeras) and not referencia_colombiana:
+        return ""
+
+    fuente_texto = nombres.lower()
+    fuentes_internacionales = ("bbc mundo", "dw español", "la fm internacional", "xataka")
+    if any(nombre in fuente_texto for nombre in fuentes_internacionales) and not referencia_colombiana:
+        return ""
+
+    if re.search(r"\bcali\b", material):
+        return "Cali"
+
+    municipios_valle = (
+        "jamundi", "palmira", "yumbo", "tulua", "buenaventura", "buga",
+        "cartago", "candelaria", "dagua", "roldanillo", "guacari", "ginebra",
+        "pradera", "el cerrito", "zarzal", "sevilla", "caicedonia", "restrepo",
+        "la victoria", "versalles", "trujillo", "riofrio", "san pedro",
+        "la union", "andalucia", "el dovio", "ulloa", "obando", "argelia"
+    )
+    if any(re.search(rf"\b{re.escape(municipio)}\b", material) for municipio in municipios_valle):
+        return "Valle del Cauca"
+
+    fuentes_regionales = ("el tiempo cali", "90 minutos", "diario occidente", "qhubo cali")
+    if any(nombre in fuente_texto for nombre in fuentes_regionales):
+        return "Valle del Cauca"
+
+    categoria = categoria_titular_rss({"titulo": titulo, "fuente": nombres})
+    if categoria == "Internacional":
+        return ""
+    return "Colombia" if referencia_colombiana or nombres.strip() else ""
+
+
 def fecha_mas_reciente_grupo(grupo):
     fechas = []
     for fuente in grupo.get("fuentes", []):
@@ -481,7 +544,14 @@ INFORMACIÓN:
     instrucciones = f"""
 Eres parte de la mesa de investigación y redacción de CEV NOTICIAS,
 un medio digital independiente con prioridad informativa en Cali,
-el Valle del Cauca, Colombia y la actualidad internacional.
+el Valle del Cauca y Colombia.
+
+ENFOQUE EDITORIAL ACTUAL:
+- Prioriza los hechos de Cali, los municipios del Valle del Cauca y Colombia.
+- No prepares artículos sobre acontecimientos internacionales sin una
+  consecuencia directa, concreta y comprobable para Colombia.
+- Si el hecho principal ocurre fuera del país y no tiene esa repercusión,
+  devuelve "descartar": true.
 
 Tu tarea NO es resumir ni parafrasear el primer titular. Debes producir
 una cobertura periodística propia a partir de una investigación documental
@@ -537,13 +607,12 @@ ESTRUCTURA DEL ARTÍCULO:
 
 CATEGORÍA:
 Elige UNA de estas categorías:
-{", ".join(CATEGORIAS)}
+{", ".join(c for c in CATEGORIAS if c != "Internacional")}
 - "Cali": el hecho ocurre principalmente en Santiago de Cali.
 - "Valle del Cauca": ocurre en otro municipio del departamento.
 - "Colombia": ocurre en otra región del país o tiene alcance nacional.
-- "Internacional": ocurre fuera de Colombia.
-- No clasifiques una noticia local como internacional o nacional.
-- No clasifiques una noticia deportiva general como actualidad de Colombia.
+- No uses una categoría internacional para acontecimientos sin repercusión directa en Colombia.
+- No clasifiques una noticia deportiva extranjera como actualidad colombiana.
 
 ESTADO DE LA INFORMACIÓN:
 - "confirmada": hechos centrales corroborados y sin contradicciones relevantes.
@@ -586,7 +655,7 @@ Devuelve exclusivamente JSON válido con esta estructura:
         print("Noticia descartada por falta de información.")
         return None
 
-    if articulo.get("categoria") not in CATEGORIAS:
+    if articulo.get("categoria") not in CATEGORIAS or articulo.get("categoria") == "Internacional":
         return None
 
     titulo = str(articulo.get("titulo", "")).strip()
@@ -634,7 +703,7 @@ Devuelve exclusivamente JSON válido con esta estructura:
 
 
 
-def generar_breve(cliente, titulo_referencia, fuentes):
+def generar_breve(cliente, titulo_referencia, fuentes, ambito):
     """Redacta una mini-noticia original a partir de textos completos ya recuperados."""
     material = []
     for fuente in fuentes:
@@ -651,6 +720,12 @@ TEXTO RECUPERADO:
 Eres parte de la mesa de actualidad rápida de CEV NOTICIAS.
 Debes elaborar una MINI-NOTICIA original, útil y verificable para una
 sección de portada llamada "Última hora · Lo más destacado".
+
+ALCANCE GEOGRÁFICO DEFINIDO POR EL SISTEMA: {ambito}
+La sección cubre exclusivamente Cali, el Valle del Cauca y Colombia.
+No incluyas acontecimientos internacionales generales. Solo admite un
+hecho ocurrido fuera del país cuando su efecto directo y concreto en
+Colombia esté explicado en los textos recuperados.
 
 TEMA DETECTADO:
 {titulo_referencia}
@@ -678,8 +753,11 @@ INSTRUCCIONES:
 12. Para homicidios, accidentes, víctimas, capturas, denuncias,
     acusaciones, delitos o controversias políticas exige dos dominios
     periodísticos u oficiales independientes. Si no existen, descarta.
-13. Elige una categoría correcta de esta lista:
-{", ".join(CATEGORIAS)}
+13. El hecho debe corresponder al ámbito geográfico definido por el sistema.
+    Si el tema principal es internacional y no tiene repercusión directa
+    en Colombia, devuelve "descartar": true.
+14. Elige una categoría correcta de esta lista:
+{", ".join(CATEGORIAS_BREVES)}
 
 ESTADO:
 Usa "confirmada", "en_desarrollo" o "informacion_preliminar"
@@ -719,7 +797,7 @@ Devuelve exclusivamente JSON válido:
     if not titulo or len(titulo) < 12 or palabras < 45 or palabras > 100:
         print(f"Mini-noticia descartada por extensión o titular: {palabras} palabras.")
         return None
-    if breve.get("categoria") not in CATEGORIAS:
+    if breve.get("categoria") not in CATEGORIAS_BREVES:
         return None
     estado = str(breve.get("estado_informacion", "informacion_preliminar")).strip().lower()
     if estado not in ("confirmada", "en_desarrollo", "informacion_preliminar"):
@@ -728,6 +806,7 @@ Devuelve exclusivamente JSON válido:
         "titulo": titulo,
         "texto": texto,
         "categoria": breve["categoria"],
+        "ambito": ambito,
         "estado_informacion": estado
     }
 
@@ -968,6 +1047,41 @@ def categoria_titular_rss(entrada):
         "el dovio", "el dovío", "ulloa", "obando", "argelia"
     )
 
+    # Antes de clasificar por tema o por el nombre del medio, comprobamos
+    # si el hecho es extranjero y carece de una conexión explícita con Colombia.
+    texto_clasificacion = f"{titulo} {fuente}".lower().translate(str.maketrans({
+        "á": "a", "é": "e", "í": "i", "ó": "o", "ú": "u", "ü": "u", "ñ": "n"
+    }))
+    referencia_colombiana = any(re.search(rf"\b{re.escape(p)}\b", texto_clasificacion) for p in (
+        "colombia", "colombiano", "colombiana", "cali", "valle del cauca",
+        "bogota", "medellin", "barranquilla", "cartagena", "bucaramanga",
+        "palmira", "yumbo", "jamundi", "buenaventura", "pereira", "manizales",
+        "ministerio", "gobernacion", "alcaldia", "congreso", "dane", "fiscalia"
+    ))
+    referencias_extranjeras = (
+        "ucrania", "rusia", "estados unidos", "eeuu", "mexico", "argentina",
+        "brasil", "peru", "ecuador", "bolivia", "chile", "israel", "gaza",
+        "palestina", "iran", "china", "japon", "reino unido", "francia",
+        "alemania", "italia", "espana", "canada", "haiti", "cuba",
+        "nicaragua", "honduras", "guatemala", "siria", "libano", "pakistan",
+        "india", "sudan", "etiopia", "nigeria", "kenia", "sudafrica",
+        "taiwan", "corea", "afganistan", "spacex", "apollo global",
+        "anthropic", "silicon valley", "wall street"
+    )
+    fuentes_globales = ("bbc mundo", "dw español", "la fm internacional", "xataka")
+    if not referencia_colombiana and (
+        any(re.search(rf"\b{re.escape(p)}\b", texto_clasificacion) for p in referencias_extranjeras)
+        or any(nombre in fuente for nombre in fuentes_globales)
+    ):
+        return "Internacional"
+
+    if any(municipio in titulo for municipio in municipios_valle) or "valle del cauca" in titulo:
+        return "Valle del Cauca"
+    if re.search(r"\bcali\b", titulo) or fuente == "el tiempo cali":
+        return "Cali"
+    if "90 minutos" in fuente or "diario occidente" in fuente or "qhubo cali" in fuente:
+        return "Valle del Cauca"
+
     hechos_no_deportivos = (
         "accidente", "atentado", "muertos", "muerto", "muerte",
         "homicidio", "asesin", "captur", "víctima", "victima",
@@ -985,41 +1099,17 @@ def categoria_titular_rss(entrada):
     if es_titular_deportivo and not menciona_hecho_no_deportivo:
         return "Deportes"
 
-    if any(municipio in titulo for municipio in municipios_valle) or "valle del cauca" in titulo:
-        return "Valle del Cauca"
-    if re.search(r"\bcali\b", titulo) or fuente == "el tiempo cali":
-        return "Cali"
-    if "90 minutos" in fuente or "diario occidente" in fuente or "qhubo cali" in fuente:
-        return "Valle del Cauca"
-
     if "la fm economía" in fuente or "portafolio" in fuente or any(p in titulo for p in (
         "economía", "economia", "inflación", "inflacion", "dólar", "dolar",
         "empresas", "mercado", "finanzas", "banco", "inversión", "inversion"
     )):
         return "Economía"
-    if "la fm internacional" in fuente:
-        return "Internacional"
-    if "xataka" in fuente or any(p in titulo for p in (
+    if any(p in titulo for p in (
         "inteligencia artificial", "tecnología", "tecnologia", "software",
         "aplicación", "aplicacion", "ciberseguridad", "smartphone",
         "celular", "computador", "videojuego"
     )):
         return "Tecnología"
-
-    paises_extranjeros = (
-        "ucrania", "rusia", "estados unidos", "ee.uu", "eeuu", "méxico", "mexico",
-        "argentina", "brasil", "perú", "peru", "ecuador", "bolivia", "chile",
-        "israel", "gaza", "palestina", "irán", "iran", "china", "japón", "japon",
-        "reino unido", "francia", "alemania", "italia", "españa", "canadá", "canada",
-        "haití", "haiti", "cuba", "nicaragua", "honduras", "guatemala", "siria",
-        "líbano", "libano", "pakistán", "pakistan", "india", "sudán", "sudan",
-        "etiopía", "etiopia", "nigeria", "kenia", "sudáfrica", "sudafrica",
-        "taiwán", "taiwan", "corea", "afganistán", "afganistan"
-    )
-    if any(pais in titulo for pais in paises_extranjeros):
-        return "Internacional"
-    if any(p in fuente for p in ("bbc mundo", "dw español")):
-        return "Internacional"
 
     return "Colombia"
 
@@ -1444,6 +1534,13 @@ def ejecutar():
             titulo_grupo = str(grupo.get("titulo", "")).strip()
             if not titulo_grupo:
                 continue
+            fuentes_titular = " ".join(
+                str(f.get("fuente", "")) for f in grupo.get("fuentes", [])
+                if isinstance(f, dict)
+            )
+            if categoria_titular_rss({"titulo": titulo_grupo, "fuente": fuentes_titular}) == "Internacional":
+                print("Mini-noticia omitida: fuera del enfoque geográfico de CEV:", titulo_grupo)
+                continue
             if any(son_misma_noticia(titulo_grupo, t) for t in titulos_articulos):
                 continue
             if any(son_misma_noticia(titulo_grupo, t) for t in titulos_breves):
@@ -1463,6 +1560,11 @@ def ejecutar():
                 for f in fuentes_breve
             }
             if not fuentes_breve:
+                continue
+
+            ambito_breve = determinar_ambito_breve(grupo, fuentes_breve)
+            if not ambito_breve:
+                print("Mini-noticia descartada: no corresponde a Cali, Valle del Cauca o Colombia:", titulo_grupo)
                 continue
 
             texto_breve_revision = (
@@ -1489,7 +1591,7 @@ def ejecutar():
                 solicitudes_esta_ejecucion += 1
                 ultima_solicitud_groq = datetime.now(timezone.utc).isoformat()
 
-                breve = generar_breve(cliente, titulo_grupo, fuentes_breve)
+                breve = generar_breve(cliente, titulo_grupo, fuentes_breve, ambito_breve)
                 if not breve:
                     continue
 
@@ -1515,6 +1617,7 @@ def ejecutar():
                     "titulo": breve["titulo"],
                     "texto": breve["texto"],
                     "categoria": breve["categoria"],
+                    "ambito": breve["ambito"],
                     "estado_informacion": breve["estado_informacion"],
                     "fecha": str(fecha_breve),
                     "fecha_preparacion": datetime.now(timezone.utc).isoformat(),
