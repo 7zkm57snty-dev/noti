@@ -462,7 +462,9 @@ def determinar_ambito_breve(grupo, fuentes_recuperadas):
     categoria = categoria_titular_rss({"titulo": titulo, "fuente": nombres})
     if categoria == "Internacional":
         return ""
-    return "Colombia" if referencia_colombiana or nombres.strip() else ""
+    # El nombre de un medio nacional, por sí solo, no convierte una noticia
+    # extranjera en colombiana: exigimos referencias nacionales en el material.
+    return "Colombia" if referencia_colombiana else ""
 
 
 def fecha_mas_reciente_grupo(grupo):
