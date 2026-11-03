@@ -1,6 +1,114 @@
 {
   "noticias": [
     {
+      "id": "3f7ae057239b2cf1",
+      "autor": "CEV NOTICIAS",
+      "titulo": "Más allá de los prompts: la automatización con IA que está cambiando el marketing digital",
+      "titular_instagram": "IA + automatización: el futuro del marketing",
+      "resumen": "El uso de la inteligencia artificial en marketing ya no se limita a responder a un prompt; la tendencia actual es integrar la IA en procesos completos que generan, revisan y publican contenido de forma coordinada. La sesión 9 de Mi Talento es Negocio 2026, titulada \"AI Transformation\", destaca cómo esta automatización puede multiplicar la capacidad de los equipos de marketing, especialmente en redes sociales, y acelerar la publicación de promociones y novedades.",
+      "categoria": "Tecnología",
+      "contenido": "El uso de la inteligencia artificial en marketing ya no se limita a responder a un prompt; la tendencia actual es integrar la IA en procesos completos que generan, revisan y publican contenido de forma coordinada.\n\nSegún Rosa María Agudelo Ayerbe, reportera del Diario Occidente, la diferencia entre un prompt y la automatización radica en la escala y la coordinación. Un prompt ayuda a resolver una tarea puntual, mientras que la automatización permite que la IA participe en varias actividades de un flujo de trabajo, manteniendo la identidad de la marca y la supervisión humana.\n\nEn el contexto de las redes sociales, donde las empresas generan diariamente promociones, eventos y lanzamientos, el principal problema no es decidir qué publicar, sino hacerlo a tiempo. La automatización permite que la información entre en un flujo donde la IA crea el contenido, el equipo de marketing lo revisa y se publica sin retrasos, multiplicando la capacidad de producción y la presencia digital.\n\nLa sesión 9 de Mi Talento es Negocio 2026, titulada \"AI Transformation\", se presentó como un espacio para explorar cómo la IA puede transformar la forma de trabajar. En ella, expertos compartieron casos de uso donde la automatización con IA ha acelerado la publicación de contenido y ha permitido a los equipos enfocarse en tareas estratégicas como la creatividad y la planificación.\n\nPara los habitantes de Cali y el Valle del Cauca, la adopción de estas herramientas puede significar una ventaja competitiva. Pequeñas y medianas empresas que antes dependían de recursos limitados para publicar contenido pueden ahora aprovechar flujos automatizados que garantizan consistencia y rapidez, sin reemplazar al equipo de marketing, sino potenciándolo.\n\nAunque la propuesta es prometedora, la implementación práctica requiere inversión en herramientas de IA, capacitación del personal y la definición de flujos de trabajo claros. Además, la supervisión humana sigue siendo esencial para evitar errores y mantener la coherencia de la marca.\n\nEn la actualidad, la automatización con IA se encuentra en fase de adopción temprana en el sector de marketing digital en Colombia. No obstante, la tendencia apunta a una expansión rápida, impulsada por la necesidad de responder a la velocidad de la información y la demanda de contenido constante.\n\nLo que aún falta por conocer es cómo las empresas locales están integrando estas soluciones, qué herramientas específicas están utilizando y cuáles son los resultados medibles en términos de engagement y retorno de inversión. Los organizadores de Mi Talento es Negocio 2026 planean seguir ofreciendo sesiones prácticas y estudios de caso para acompañar a los profesionales en este proceso.\n\nEn conclusión, la automatización con IA representa un paso significativo más allá de los simples prompts, ofreciendo a los equipos de marketing una forma de multiplicar su capacidad y de responder con mayor rapidez a las demandas del mercado digital. La adopción de esta tecnología en Cali y el Valle del Cauca podría marcar la diferencia entre quienes lideran la conversación en línea y quienes se quedan rezagados.",
+      "estado_informacion": "informacion_preliminar",
+      "investigacion": {
+        "enfoque_original": "Esta cobertura contextualiza la propuesta de la sesión de Mi Talento es Negocio 2026 dentro del ecosistema digital de Cali y el Valle del Cauca, resaltando cómo la automatización con IA puede ser una herramienta práctica para pequeñas y medianas empresas locales que luchan por publicar contenido a tiempo. Se incluyen ejemplos de flujos de trabajo automatizados y se explica la diferencia entre un prompt y una solución de automatización, aportando claridad a los lectores que buscan aplicar la tecnología en sus estrategias de marketing.",
+        "hechos_clave": [
+          "La automatización con IA permite integrar la generación de contenido en procesos coordinados que incluyen revisión humana y publicación.",
+          "En redes sociales, la automatización ayuda a publicar promociones, eventos y descuentos de manera oportuna, evitando retrasos o la falta de publicación.",
+          "La sesión 9 de Mi Talento es Negocio 2026, titulada \"AI Transformation\", se centra en cómo la IA puede transformar la forma de trabajar en marketing."
+        ],
+        "fuentes_recuperadas": 1,
+        "dominios_independientes": 1,
+        "fecha": "2026-11-03T13:30:35.542653+00:00"
+      },
+      "imagen": "",
+      "imagen_credito": {},
+      "imagen_busqueda_intentada": true,
+      "imagen_instagram": "https://cevnoticias.com/social/3f7ae057239b2cf1.jpg",
+      "imagen_instagram_tipo": "portada_grafica_cev",
+      "descripcion_instagram": "Más allá de los prompts: la automatización con IA que está cambiando el marketing digital\\n\\nEl uso de la inteligencia artificial en marketing ya no se limita a responder a un prompt; la tendencia actual es integrar la IA en procesos completos que generan, revisan y publican contenido de forma coordinada. La sesión 9 de Mi Talento es Negocio 2026, titulada \"AI Transformation\", destaca cómo esta automatización puede multiplicar la capacidad de los equipos de marketing, especialmente en redes sociales, y acelerar la publicación de promociones y novedades.\\n\\nLee la noticia completa en cevnoticias.com.\\n\\n#CEVNoticias #Actualidad #Tecnología #Colombia",
+      "verificacion": "Una sola fuente",
+      "fecha": "03/11/2026 · 08:30 AM",
+      "fuentes": [
+        {
+          "nombre": "Diario Occidente",
+          "titulo": "Automatizar con IA: el paso que sigue después de los prompts",
+          "url": "https://occidente.co/mi-talento-es-negocio-2026/automatizacion-con-ia-en-redes-sociales-mi-talento-es-negocio-2026/"
+        }
+      ]
+    },
+    {
+      "id": "bdda5bc19234acfb",
+      "autor": "CEV NOTICIAS",
+      "titulo": "SpaceX busca ampliar su IA con un contrato de $40 mil millones de Apollo Global",
+      "titular_instagram": "SpaceX y Apollo: $40 bn para GPUs y servidores",
+      "resumen": "SpaceX ha anunciado un acuerdo preliminar con Apollo Global Management por aproximadamente 40 mil millones de dólares para la compra y arrendamiento de GPUs y servidores, con el objetivo de reforzar su infraestructura de inteligencia artificial y servicios en la nube. El contrato, que aún no se ha cerrado, contempla arrendamientos de cinco a cinco años y medio que iniciarían en la primera mitad de 2027. La operación diversifica las fuentes de financiamiento de la compañía y podría influir en la disponibilidad y precios de sus productos de IA.",
+      "categoria": "Tecnología",
+      "contenido": "SpaceX anunció hoy, a través de un documento regulatorio, que ha firmado un compromiso de financiamiento de aproximadamente 40 mil millones de dólares con Apollo Global Management para la adquisición de GPUs y equipos de servidores. En el acuerdo, Apollo comprará el hardware, incluyendo las futuras GPUs Vera Rubin de Nvidia, y lo arrendará a SpaceX bajo contratos de arrendamiento de cinco a cinco años y medio que se activarán cuando se entreguen los tramos de equipo.\n\nEl documento indica que el acuerdo se espera cerrar antes de fin de año y que los arrendamientos comenzarían en la primera mitad de 2027, a medida que los equipos lleguen a la compañía. SpaceX ha señalado que esta operación diversifica sus fuentes de financiamiento y cubre una porción significativa de la inversión necesaria para sus planes de expansión en infraestructura de inteligencia artificial.\n\nCon la compra y arrendamiento de GPUs, SpaceX busca ampliar la capacidad de cómputo que alimenta servicios como el chatbot Grok y sus herramientas de nube. Para los usuarios, esto podría traducirse en mayor disponibilidad y rendimiento de dichos servicios a medida que la infraestructura se despliegue.\n\nDesde el punto de vista financiero, el acuerdo permite a SpaceX separar parte de la inversión en IA de su deuda tradicional. Al financiar la compra de GPUs a través de un tercero, la compañía reduce el riesgo financiero asociado a compras masivas y puede moderar la presión sobre su balance de deuda. Aunque el efecto directo sobre los precios finales de sus ofertas de nube y productos de IA dependerá de decisiones comerciales futuras, la operación sugiere una estrategia para mantener la competitividad sin comprometer la salud financiera.\n\nEl acuerdo llega tras un trimestre fuerte para la unidad de IA de SpaceX, que ha contribuido significativamente a los ingresos recientes de la compañía y ha elevado sus gastos de capital. El financiamiento permitirá acelerar la llegada de los equipos necesarios para sostener ese crecimiento.\n\nSin embargo, el cierre del acuerdo aún no está confirmado. El documento regulatorio señala que el acuerdo está sujeto a condiciones de cierre y que no se han revelado los términos financieros completos del contrato de arrendamiento. Tampoco se dispone de información pública sobre el ritmo de entrega de los distintos tramos de equipos ni sobre la fecha exacta de inicio de los arrendamientos.\n\nEste modelo de financiamiento, que combina la compra de hardware con el arrendamiento a través de un tercero, podría convertirse en una referencia para otras empresas que buscan expandir su infraestructura de IA sin sobrecargar su balance de deuda. La práctica, aunque no nueva en otros sectores, es poco habitual en la industria de la IA, donde la compra directa de hardware suele ser la norma.\n\nEn los próximos días, la confirmación del cierre del acuerdo y los detalles de los términos de arrendamiento serán los principales puntos de seguimiento. Mientras tanto, los analistas observarán cómo esta operación influye en la estrategia de expansión de SpaceX y en la dinámica competitiva de los servicios de IA y nube.",
+      "estado_informacion": "informacion_preliminar",
+      "investigacion": {
+        "enfoque_original": "Esta cobertura destaca cómo el financiamiento de SpaceX con Apollo representa un modelo híbrido de compra y arrendamiento que busca reducir el impacto inmediato en la caja y distribuir los pagos a lo largo de varios años, algo poco habitual en la industria de la IA. Además, se contextualiza la decisión dentro del rápido crecimiento de la unidad de IA de SpaceX y su relación con otras líneas de negocio como Starlink, ofreciendo una visión más amplia de las implicaciones estratégicas y financieras del acuerdo.",
+        "hechos_clave": [
+          "SpaceX ha firmado un compromiso de financiamiento de alrededor de 40 mil millones de dólares con Apollo Global Management para la compra de GPUs y equipos de servidores.",
+          "Apollo comprará el hardware, incluidos futuros modelos de Nvidia, y lo arrendará a SpaceX bajo contratos de 5 a 5,5 años que comenzarán cuando se entreguen los equipos.",
+          "El acuerdo está previsto para cerrarse antes de fin de año, con los arrendamientos iniciando en la primera mitad de 2027."
+        ],
+        "fuentes_recuperadas": 1,
+        "dominios_independientes": 1,
+        "fecha": "2026-11-03T13:32:09.175193+00:00"
+      },
+      "imagen": "",
+      "imagen_credito": {},
+      "imagen_busqueda_intentada": true,
+      "imagen_instagram": "https://cevnoticias.com/social/bdda5bc19234acfb.jpg",
+      "imagen_instagram_tipo": "portada_grafica_cev",
+      "descripcion_instagram": "SpaceX busca ampliar su IA con un contrato de $40 mil millones de Apollo Global\\n\\nSpaceX ha anunciado un acuerdo preliminar con Apollo Global Management por aproximadamente 40 mil millones de dólares para la compra y arrendamiento de GPUs y servidores, con el objetivo de reforzar su infraestructura de inteligencia artificial y servicios en la nube. El contrato, que aún no se ha cerrado, contempla arrendamientos de cinco a cinco años y medio que iniciarían en la primera mitad de 2027. La operación diversifica las fuentes de financiamiento de la compañía y podría influir en la disponibilidad y precios de sus productos de IA.\\n\\nLee la noticia completa en cevnoticias.com.\\n\\n#CEVNoticias #Actualidad #Tecnología #Colombia",
+      "verificacion": "Una sola fuente",
+      "fecha": "03/11/2026 · 08:32 AM",
+      "fuentes": [
+        {
+          "nombre": "Diario Occidente",
+          "titulo": "SpaceX financiamiento GPU con Apollo",
+          "url": "https://occidente.co/secciones/tecnologia/spacex-financiamiento-gpu-apollo/"
+        }
+      ]
+    },
+    {
+      "id": "54523b15134923f6",
+      "autor": "CEV NOTICIAS",
+      "titulo": "Anthropic presenta su IPO: ingresos en alza, pérdidas millonarias y control de los fundadores",
+      "titular_instagram": "Anthropic: ingresos crecen, pérdidas se disparan y los fundadores dominan la votación",
+      "resumen": "La compañía de inteligencia artificial Anthropic ha presentado oficialmente su solicitud de salida a bolsa ante la SEC, revelando ingresos de 16,3 mil millones de dólares en el primer semestre de 2026, pero también una pérdida neta de 80,7 mil millones de dólares. El documento destaca la concentración de clientes corporativos y el control del 50,1 % del poder de voto por parte de los fundadores, lo que plantea interrogantes sobre la gobernanza y la sostenibilidad financiera de la empresa.",
+      "categoria": "Internacional",
+      "contenido": "Anthropic, la firma de inteligencia artificial fundada por ex‑empleados de OpenAI, dio a conocer su intención de salir a bolsa el lunes, presentando ante la Comisión de Bolsa y Valores de Estados Unidos (SEC) un formulario de registro bajo el símbolo propuesto ANT. La compañía no ha revelado el precio de las acciones ni la cantidad de capital que espera recaudar, pero el documento ofrece una visión detallada de su situación financiera.\n\nEn el primer semestre de 2026, Anthropic reportó ingresos de 16,3 mil millones de dólares, un salto sustancial respecto a los 1,2 mil millones que obtuvo en el mismo período del año anterior. A pesar de este crecimiento, la empresa registró una pérdida operativa de 693 millones de dólares, mejor que los 2,1 millones del semestre 2025, pero una pérdida neta de 80,7 mil millones de dólares, impulsada principalmente por ajustes contables no monetarios vinculados a deuda convertible. La compañía advierte que podría no alcanzar o mantener la rentabilidad en el futuro.\n\nEl informe también revela la composición de su base de clientes: a finales de septiembre, más de 11 900 clientes pagaban 100 000 dólares o más al año, 1 900 clientes facturaban al menos 1 millón y alrededor de 250 clientes gastaban 10 millones o más. Este perfil indica una adopción significativa de sus servicios por parte de grandes corporaciones, lo que sugiere que la empresa priorizará contratos corporativos y desarrollos con ingresos recurrentes antes de lanzar productos de consumo masivo.\n\nUn aspecto que genera atención es la estructura de control. Los siete cofundadores formarán una entidad llamada Founder LLC que controlará el 50,1 % del poder de voto, lo que limita la influencia práctica de los accionistas públicos sobre decisiones clave, incluida la política de seguridad y gobernanza de la empresa. La falta de claridad sobre cómo se traducirá este control en la práctica plantea interrogantes para los inversores que buscan transparencia y participación en la toma de decisiones.\n\nEl anuncio llega en un momento en que el sector de la inteligencia artificial está atrayendo una creciente atención de los mercados de capital. Empresas como OpenAI, Google y Microsoft han consolidado modelos de negocio basados en suscripciones corporativas y licencias de tecnología, mientras que nuevas firmas buscan capital a través de IPOs para acelerar el desarrollo de modelos de lenguaje y aplicaciones industriales.\n\nPara los habitantes de Colombia y el Valle del Cauca, el movimiento de Anthropic puede tener repercusiones indirectas. El aumento de la disponibilidad de herramientas de IA a nivel corporativo puede impulsar la adopción de soluciones tecnológicas en empresas locales, especialmente en sectores como la logística, la salud y la educación. Además, la presencia de una empresa de IA en el mercado público puede inspirar a startups colombianas a buscar financiamiento externo y a fortalecer la infraestructura de datos y talento en el país.\n\nSin embargo, la información sigue en desarrollo. No se ha confirmado el precio de las acciones ni la cantidad exacta de capital que la compañía planea recaudar. Tampoco se ha aclarado cómo se gestionará la gobernanza con el alto poder de voto de los fundadores. Los inversores y analistas deberán esperar la aprobación de la SEC y la fijación de precios antes de que Anthropic pueda cotizar en la bolsa.\n\nEn resumen, Anthropic ha presentado su IPO con ingresos en crecimiento pero pérdidas netas significativas y una estructura de control que favorece a los fundadores. La compañía se encuentra en una fase de transición que podría redefinir su posición en el mercado de IA, pero la falta de datos concretos sobre la recaudación y la gobernanza deja a los inversores y al público con preguntas que deberán responderse en los próximos meses.",
+      "estado_informacion": "en_desarrollo",
+      "investigacion": {
+        "enfoque_original": "Esta cobertura destaca la brecha entre el rápido crecimiento de ingresos y las enormes pérdidas netas de Anthropic, además de la estructura de control que favorece a los fundadores. Se contextualiza la IPO dentro del panorama global de IA y se analizan las implicaciones para inversores y clientes corporativos, ofreciendo una visión más completa que la simple presentación del comunicado.",
+        "hechos_clave": [
+          "Anthropic presentó su solicitud de IPO ante la SEC el lunes, con el símbolo propuesto ANT.",
+          "En el primer semestre de 2026 la compañía registró ingresos de 16,3 mil millones de dólares, frente a 1,2 mil millones en el mismo periodo del año anterior.",
+          "Los siete cofundadores controlan el 50,1 % del poder de voto a través de una entidad llamada Founder LLC."
+        ],
+        "fuentes_recuperadas": 1,
+        "dominios_independientes": 1,
+        "fecha": "2026-11-03T13:33:54.222168+00:00"
+      },
+      "imagen": "",
+      "imagen_credito": {},
+      "imagen_busqueda_intentada": true,
+      "imagen_instagram": "https://cevnoticias.com/social/54523b15134923f6.jpg",
+      "imagen_instagram_tipo": "portada_grafica_cev",
+      "descripcion_instagram": "Anthropic presenta su IPO: ingresos en alza, pérdidas millonarias y control de los fundadores\\n\\nLa compañía de inteligencia artificial Anthropic ha presentado oficialmente su solicitud de salida a bolsa ante la SEC, revelando ingresos de 16,3 mil millones de dólares en el primer semestre de 2026, pero también una pérdida neta de 80,7 mil millones de dólares. El documento destaca la concentración de clientes corporativos y el control del 50,1 % del poder de voto por parte de los fundadores, lo que plantea interrogantes sobre la gobernanza y la sostenibilidad financiera de la empresa.\\n\\nLee la noticia completa en cevnoticias.com.\\n\\n#CEVNoticias #Actualidad #Internacional",
+      "verificacion": "Una sola fuente",
+      "fecha": "03/11/2026 · 08:33 AM",
+      "fuentes": [
+        {
+          "nombre": "Diario Occidente",
+          "titulo": "Anthropic presenta su IPO",
+          "url": "https://occidente.co/secciones/tecnologia/anthropic-presenta-su-ipo/"
+        }
+      ]
+    },
+    {
       "id": "5be8a0b750244278",
       "autor": "CEV NOTICIAS",
       "titulo": "OpenAI lanza Grid Protectors: un programa que promete reducir la demanda eléctrica de sus centros de datos en momentos críticos",
@@ -255,31 +363,274 @@
   ],
   "titulares_rss": [
     {
-      "id": "a8a4d1009f417c77",
-      "titulo": "Djokovic busca recuperar su mejor nivel en el Masters de París y asegurar su lugar en ATP",
+      "id": "8e6fd64b4fa79489",
+      "titulo": "“No queremos negociar la impunidad con nadie”: Eimy Suárez, congresista ponente",
       "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/ocio/djokovic-busca-recuperar-su-mejor-nivel-en-el-masters-de-paris-4516495",
-      "fecha": "2026-11-03T12:12:12+00:00",
-      "imagen": ""
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/entrevista-eimy-suarez-congresista-ponente-ley-de-sometimiento-HP43086067",
+      "fecha": "2026-11-03T13:21:33+00:00",
+      "imagen": "https://estaticos.elcolombiano.com/binrepository/480x300/0c0/0d0/center/11101/JBTI/milimg-34402-28047746-52020332-20261_52036559_20261102183128.jpg"
     },
     {
-      "id": "7488b3483db15e8c",
-      "titulo": "Temblor de 5,6 en Colombia: una mujer herida en Chaparral y parte de una iglesia se cae en Quimbaya",
+      "id": "43cfe26c040bc497",
+      "titulo": "Video | Así se vivió el temblor de 5,6 que sacudió a Colombia; van más de cinco réplicas",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/video-temblor-5-6-sacudio-colombia-cinco-replicas-evacuacion-sismo-OO43090583",
+      "fecha": "2026-11-03T13:17:47+00:00",
+      "imagen": "https://estaticos.elcolombiano.com/binrepository/450x300/0c0/0d0/center/11101/CIGD/video-asi-se-vivio-el-temblor-de-5_52038017_20261103065439.jpg"
+    },
+    {
+      "id": "6ed78daea6088ed3",
+      "titulo": "Suspensión de agua en cuatro municipios de Cundinamarca: estos son los sectores afectados y cuándo volverá el servicio",
       "categoria": "Colombia",
       "fuente": "La FM Actualidad",
-      "url": "https://www.lafm.com.co/actualidad/temblor-colombia-3-noviembre-2026-chaparral-tolima-herida-danos-iglesia-415944",
-      "fecha": "2026-11-03T12:09:54+00:00",
-      "imagen": "https://files.lafm.com.co/media/news-images/2026/11/03/115043/sismo-en-chaparral-1200x675.jpg"
+      "url": "https://www.lafm.com.co/actualidad/corte-agua-toncaipa-zipaquira-ganchacipa-sopo-mantenimiento-planta-tibitoc-415959",
+      "fecha": "2026-11-03T13:15:47+00:00",
+      "imagen": "https://files.lafm.com.co/media/news-images/2026/11/03/131647/suspension-de-agua-en-cuatro-municipios-de-cundinamarca-por-mantenimiento-de-planta-tibitoc-1200x675.jpg"
     },
     {
-      "id": "1d08ecd994344d96",
-      "titulo": "Jesús de Miguel Alameda",
+      "id": "994c9aa439f11180",
+      "titulo": "San Victorino a la Moda llevará 24 marcas al Bronx Distrito Creativo con pasarelas",
       "categoria": "Colombia",
       "fuente": "La República",
-      "url": "https://www.larepublica.co/obituarios/jesus-de-miguel-alameda-n-1996-2026-4516477",
-      "fecha": "2026-11-03T12:08:27+00:00",
+      "url": "https://www.larepublica.co/ocio/san-victorino-a-la-moda-llevara-24-marcas-al-bronx-distrito-creativo-con-pasarelas-y-rueda-de-negocios-4516538",
+      "fecha": "2026-11-03T13:13:31+00:00",
       "imagen": ""
+    },
+    {
+      "id": "cb92924b7778e836",
+      "titulo": "El dólar abrió $37,01 al alza, a la espera de los resultados electorales en Estados Unidos",
+      "categoria": "Economía",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/finanzas/precios-del-dolar-y-del-petroleo-hoy-3-de-noviembre-de-2026-4516451",
+      "fecha": "2026-11-03T13:11:38+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "58b27b62b94cb82d",
+      "titulo": "A contrarreloj, Ley de Sometimiento retomará debate en Cámara",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/en-vivo/a-contrarreloj-ley-de-sometimiento-retomara-debate-en-camara/",
+      "fecha": "2026-11-03T13:09:20+00:00",
+      "imagen": "https://i0.wp.com/www.lasillavacia.com/wp-content/uploads/2026/11/Proposicion_Juvinao.jpeg?fit=1600%2C1200&quality=80&strip=all&ssl=1"
+    },
+    {
+      "id": "25482cee7446bd37",
+      "titulo": "¿Qué cambiaría si los demócratas recuperan el Congreso de EE. UU. frente a Trump?",
+      "categoria": "Internacional",
+      "fuente": "La FM Internacional",
+      "url": "https://www.lafm.com.co/internacional/donald-trump-elecciones-medio-termino-estados-unidos-congreso-democratas-republicanos-415942",
+      "fecha": "2026-11-03T13:09:04+00:00",
+      "imagen": "https://files.lafm.com.co/media/news-images/2026/11/03/123950/trump-1200x675.jpg"
+    },
+    {
+      "id": "8f4201b845403954",
+      "titulo": "Presidente saliente de la Andi, Bruce Mac Master, pide claridad sobre ahorro estatal antes de subir los impuestos",
+      "categoria": "Economía",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/gobierno/presidente-saliente-de-la-andi-bruce-mac-master-pide-claridad-sobre-ahorro-estatal-antes-de-subir-los-impuestos-505599",
+      "fecha": "2026-11-03T13:07:06+00:00",
+      "imagen": "https://imagenes.portafolio.co/files/og_thumbnail/files/fp/uploads/2026/08/13/6a7e328699f99.r_d.265-720-0.jpeg"
+    },
+    {
+      "id": "735837ba4f5ed2ee",
+      "titulo": "Economistas brasileños revisan al alza previsiones de inflación y tasas tras reelección de Lula",
+      "categoria": "Economía",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/globoeconomia/economistas-brasilenos-revisan-al-alza-previsiones-de-inflacion-y-tasas-tras-reeleccion-de-lula-4516533",
+      "fecha": "2026-11-03T13:04:40+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "ce6d8eb1ffd18a4e",
+      "titulo": "Temblor hoy en Colombia con epicentro en Tolima se sintió en Medellín y el Valle de Aburrá",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/temblor-hoy-en-colombia-con-epicentro-en-tolima-se-sintio-en-medellin-GO43090060",
+      "fecha": "2026-11-03T13:04:30+00:00",
+      "imagen": "https://estaticos.elcolombiano.com/binrepository/232x300/0c0/0d0/center/11101/TCSL/hwmkxhoxiaawhmt_52037873_20261103042632.jpg"
+    },
+    {
+      "id": "4c7ff0f4912468e6",
+      "titulo": "¿Qué hacer durante y después de un temblor? Estas son las recomendaciones de la Cruz Roja tras el sismo de magnitud 5,6 de este 3 de noviembre",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/que-hacer-durante-y-despues-de-un-temblor-estas-son-las-recomendaciones-de-la-cruz-roja-tras-el-sismo-de-magnitud-5-6-de-este-3-de-noviembre-3598037",
+      "fecha": "2026-11-03T13:03:15+00:00",
+      "imagen": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/11/03/6ae9d544298e2.jpeg"
+    },
+    {
+      "id": "1e8a0d5553942df9",
+      "titulo": "Murió en Barranquilla Héctor Julio Alfonso Pastrana, viudo de Enilce López Romero, ‘La Gata’, y padre del exalcalde de Magangué (Bolívar)",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/barranquilla/murio-en-barranquilla-hector-julio-alfonso-pastrana-viudo-de-enilce-lopez-romero-la-gata-y-padre-del-exalcalde-de-magangue-bolivar-3598049",
+      "fecha": "2026-11-03T13:02:34+00:00",
+      "imagen": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/11/03/6ae9d5544e29a.png"
+    },
+    {
+      "id": "0d7a3d49c662be35",
+      "titulo": "Educación es el sector con mayor asignación en el proyecto de Presupuesto de Bogotá",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/economia/proyecto-de-presupuesto-de-bogota-radicado-por-la-alcaldia-para-2027-4516523",
+      "fecha": "2026-11-03T13:01:51+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "4d2113027911f961",
+      "titulo": "PlayStation está empezando a escribir a los usuarios para que vendan sus PS5 a Back Market",
+      "categoria": "Tecnología",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/videojuegos/playstation-esta-empezando-a-escribir-a-usuarios-vendan-sus-ps5-a-back-market",
+      "fecha": "2026-11-03T13:01:30+00:00",
+      "imagen": "https://i.blogs.es/5a5491/notificacion-destacada-de-playstation/1024_2000.png"
+    },
+    {
+      "id": "8c999b41a4f4e4e9",
+      "titulo": "Arnoldo Palacios: Heraldos de un nuevo día. Sobre la creación del departamento del Chocó",
+      "categoria": "Colombia",
+      "fuente": "Chocó 7 días",
+      "url": "https://choco7dias.com/arnoldo-palacios-heraldos-de-un-nuevo-dia-sobre-la-creacion-del-departamento-del-choco-3/",
+      "fecha": "2026-11-03T13:00:43+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "6034a49bab9090af",
+      "titulo": "Financia UAO: conozca las opciones de financiación para estudiar un pregrado y posgrado",
+      "categoria": "Valle del Cauca",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/la-uao/financia-uao-evento-posgrados-pregrados-03-11-2026/",
+      "fecha": "2026-11-03T13:00:00+00:00",
+      "imagen": "https://90minutos.co/90minutos.co/wp-content/uploads/2026/10/premios-xilopalo.jpg"
+    },
+    {
+      "id": "548e5944d5abc04d",
+      "titulo": "Con la tasa del Emisor en 12,25 %, los CDT prevén que los rendimientos sigan altos en el corto plazo",
+      "categoria": "Economía",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/gobierno/con-la-tasa-del-emisor-en-12-25-los-cdt-preven-que-los-rendimientos-sigan-altos-en-el-corto-plazo-505598",
+      "fecha": "2026-11-03T12:48:50+00:00",
+      "imagen": "https://imagenes.portafolio.co/files/og_thumbnail/files/fp/uploads/2026/06/22/6a3951272813e.r_d.598-508-0.webp"
+    },
+    {
+      "id": "46c81315f12166f1",
+      "titulo": "Los mercados sopesan un posible cambio de control del Congreso en las elecciones de EE.UU.",
+      "categoria": "Economía",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/globoeconomia/los-mercados-sopesan-un-posible-cambio-de-control-del-congreso-en-las-elecciones-de-ee-uu-4516522",
+      "fecha": "2026-11-03T12:46:39+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "e08dd7ab0a54ff26",
+      "titulo": "Ya es oficial el nuevo Oppo A7 Pro 5G: una brutal batería de 7.400 mAh y certificación de grado militar para reventar la gama media",
+      "categoria": "Tecnología",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/seleccion/oficial-nuevo-oppo-a7-pro-5g-brutal-bateria-7-400-mah-certificacion-grado-militar-para-reventar-gama-media",
+      "fecha": "2026-11-03T12:45:27+00:00",
+      "imagen": "https://i.blogs.es/0a7e77/oppo-a7-pro-5g/1024_2000.jpeg"
+    },
+    {
+      "id": "4f673e573ee7d1b9",
+      "titulo": "Transportes reducirá la circulación en la vía Madrid-Sevilla para separar más los trenes hasta que esté en pie el nuevo sistema de seguridad ERTMS",
+      "categoria": "Valle del Cauca",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/espana/2026-11-03/transportes-reducira-la-circulacion-en-la-via-madrid-sevilla-para-separar-mas-los-trenes-hasta-que-este-en-pie-el-nuevo-sistema-de-seguridad-ertms.html",
+      "fecha": "2026-11-03T12:42:04+00:00",
+      "imagen": "https://imagenes.elpais.com/resizer/v2/6XD5KMRAVZAO5LNCSNDGAC2XAU.jpg?auth=a39740ae0d73a1efaf685325744768076292cd179dfe55f92dea4e5c77843d8f"
+    },
+    {
+      "id": "0665ac44e34b4d79",
+      "titulo": "Por qué (ahora sí) los demócratas pueden lograr en Texas un triunfo trascendental tras décadas de derrotas",
+      "categoria": "Internacional",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/cr2ke7qdk71eo?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-03T12:40:18+00:00",
+      "imagen": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/f303/live/84cce500-d54b-11f1-bcb7-8f812b44c2e5.jpg"
+    },
+    {
+      "id": "8b7dc06ec479a40e",
+      "titulo": "Joven niñera colombiana entre las víctimas del accidente de avioneta en La Florida",
+      "categoria": "Internacional",
+      "fuente": "La FM Internacional",
+      "url": "https://www.lafm.com.co/internacional/ninera-colombiana-victimas-accidente-aereo-avioneta-palm-beach-415954",
+      "fecha": "2026-11-03T12:35:29+00:00",
+      "imagen": "https://files.lafm.com.co/media/news-images/2026/11/03/130645/accidente-aereo-palm-beach-1200x675.jpg"
+    },
+    {
+      "id": "8fc746fe105c0f62",
+      "titulo": "La Policía ha desalojado de madrugada la acampada de Sol y detiene a quienes se resisten",
+      "categoria": "Tecnología",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/magnet/policia-ha-desalojado-madrugada-acampada-sol-detiene-a-quienes-se-resisten",
+      "fecha": "2026-11-03T12:31:28+00:00",
+      "imagen": "https://i.blogs.es/ffd7d2/des/1024_2000.jpeg"
+    },
+    {
+      "id": "81c37164870b2754",
+      "titulo": "“Un referéndum contra Trump”: Demócratas esperan un 'tsunami' en elecciones de medio término en EE. UU.",
+      "categoria": "Internacional",
+      "fuente": "La FM Internacional",
+      "url": "https://www.lafm.com.co/internacional/elecciones-medio-termino-estados-unidos-democratas-anticipan-golpe-electoral-trump-415953",
+      "fecha": "2026-11-03T12:29:42+00:00",
+      "imagen": "https://files.lafm.com.co/media/news-images/2026/08/20/061200/donald-trump-presidente-de-estados-unidos-1200x675.jpg"
+    },
+    {
+      "id": "721f3bb676348502",
+      "titulo": "Conozca los barrios sin agua en Cali este martes, 3 de noviembre",
+      "categoria": "Cali",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/cali/barrios-sin-agua-cali-martes-3-noviembre-3-11-2026/",
+      "fecha": "2026-11-03T12:28:15+00:00",
+      "imagen": "https://90minutos.co/90minutos.co/wp-content/uploads/2026/06/sismo-temblor.jpg"
+    },
+    {
+      "id": "1635f45b69f5e415",
+      "titulo": "Tasa de personas conectadas a internet en el mundo supera por primera vez el 75 %",
+      "categoria": "Internacional",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/tasa-de-personas-conectadas-a-internet-en-el-mundo-supera-por-primera-vez-el-75/a-79840551?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-03T12:28:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "7a64f9b04516d4f2",
+      "titulo": "¿Qué hay detrás del bombardeo al ELN en Venezuela? Así fue la inédita acción militar",
+      "categoria": "Internacional",
+      "fuente": "La FM Internacional",
+      "url": "https://www.lafm.com.co/internacional/venezuela-bombardeo-campamento-eln-apure-cambia-relaciones-colombia-415948",
+      "fecha": "2026-11-03T12:27:59+00:00",
+      "imagen": "https://files.lafm.com.co/media/news-images/2026/09/15/193457/cabecillas-del-eln-1200x675.png"
+    },
+    {
+      "id": "88ef4467a67bf808",
+      "titulo": "Sismo de 5,6 se sintió en Cali y otros municipios del Valle; autoridades entregan balance",
+      "categoria": "Cali",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/cali/temblor-en-cali-autoridades-entregan-balance-3-11-2026/",
+      "fecha": "2026-11-03T12:22:18+00:00",
+      "imagen": "https://90minutos.co/wp-content/uploads/2026/11/HWMNTMaW4AAx1Lj.jpg"
+    },
+    {
+      "id": "1466e0874e189714",
+      "titulo": "Alcaldía de Ocaña ordenó el cierre total de la vía en el puente El Líbano tras el reporte de dos cilindros y una caja con posibles explosivos",
+      "categoria": "Internacional",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/alcaldia-de-ocana-ordeno-el-cierre-total-de-la-via-en-el-puente-el-libano-tras-el-reporte-de-dos-cilindros-y-una-caja-con-posibles-explosivos-3598017",
+      "fecha": "2026-11-03T12:22:06+00:00",
+      "imagen": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/11/03/6ae97f5fd1028.png"
+    },
+    {
+      "id": "0ab2dda09e46738c",
+      "titulo": "Ley de rescate económico recibe espaldarazo del FMI y el Banco de la República destaca sus posibles efectos",
+      "categoria": "Economía",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/gobierno/ley-de-rescate-fiscal-recibe-espaldarazo-del-fmi-y-el-banco-de-la-republica-destaca-sus-posibles-efectos-505597",
+      "fecha": "2026-11-03T12:10:32+00:00",
+      "imagen": "https://imagenes.portafolio.co/files/og_thumbnail/uploads/2026/11/03/6ae9ce862989f.jpeg"
     },
     {
       "id": "8188582bc1087099",
@@ -345,33 +696,6 @@
       "imagen": "https://www.youtube.com/watch?v=JRT_OoQXbpE"
     },
     {
-      "id": "c2924506565fc34f",
-      "titulo": "Un herido y daños materiales en iglesia de Quindío: primer balance tras temblor de 5,6",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/temblor-sismo-cercano-terremoto-chaparral-tolima-IO43090549",
-      "fecha": "2026-11-03T12:00:11+00:00",
-      "imagen": "https://estaticos.elcolombiano.com/binrepository/450x300/0c0/0d0/center/11101/RSHL/chaparral-tolima-1_52037932_20261103062141.jpg"
-    },
-    {
-      "id": "a954ec83c9975721",
-      "titulo": "Dar por muerto el derecho internacional solo le sirve al próximo agresor",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/red-de-expertos/dar-por-muerto-el-derecho-internacional-solo-le-sirve-al-proximo-agresor/",
-      "fecha": "2026-11-03T12:00:00+00:00",
-      "imagen": "https://i0.wp.com/www.lasillavacia.com/wp-content/uploads/2026/11/foto_columna_2_1200x900-1.jpg?fit=1024%2C768&quality=80&strip=all&ssl=1"
-    },
-    {
-      "id": "3f63870fe2b05f6c",
-      "titulo": "Socio, amigo, estratega: el poder de Carlos Suárez",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/podcasts/huevos-revueltos-con-politica/socio-amigo-estratega-el-poder-de-carlos-suarez/",
-      "fecha": "2026-11-03T12:00:00+00:00",
-      "imagen": "https://i0.wp.com/www.lasillavacia.com/wp-content/uploads/2026/10/Perfil_a_carlos_suarez_huevos_1120.jpg?fit=1024%2C769&quality=80&strip=all&ssl=1"
-    },
-    {
       "id": "ed6b0e01d59017c8",
       "titulo": "La madre en Chile a la que obligaron a esperar que su bebé muriera en su vientre y ahora un fallo histórico le otorga una indemnización millonaria",
       "categoria": "Deportes",
@@ -381,49 +705,13 @@
       "imagen": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/024b/live/41301ca0-cec4-11f1-b9e0-e5f0da03dc7f.jpg"
     },
     {
-      "id": "6025854cf7da677c",
-      "titulo": "Procuraduría formuló pliego de cargos contra el exalcalde de Medellín, Daniel Quintero, por participación política durante su periodo como Supersalud",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/medellin/procuraduria-formulo-pliego-de-cargos-contra-el-exalcalde-de-medellin-daniel-quintero-por-participacion-politica-durante-su-periodo-como-supersalud-3598041",
-      "fecha": "2026-11-03T11:55:32+00:00",
-      "imagen": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/11/03/6ae9cad65090f.png"
-    },
-    {
-      "id": "bb4702f3f4926882",
-      "titulo": "Temblor de 5,6 sacude a Colombia en la madrugada del martes 3 de noviembre| Conozca detalles y videos: se sintió en Chaparral, Bogotá y Pereira",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/terremoto-de-5-6-sacude-a-colombia-en-la-madrugada-del-3-de-noviembre-conozca-los-detalles-3598022",
-      "fecha": "2026-11-03T11:54:40+00:00",
-      "imagen": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2026/11/03/6ae9a733e7890.r_d.445-192-0.png"
-    },
-    {
-      "id": "a292774284989a94",
-      "titulo": "El Festival de Cortos de Bogotá reunirá más de 170 cortometrajes de 50 países en su edición 24",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/ocio/bogoshorts-reunira-mas-de-170-cortometrajes-de-50-paises-en-su-edicion-24-4516466",
-      "fecha": "2026-11-03T11:52:03+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "43cfe26c040bc497",
-      "titulo": "Video | Así se vivió el temblor de 5,6 que sacudió a Colombia; van más de cinco réplicas",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/video-temblor-5-6-sacudio-colombia-cinco-replicas-evacuacion-sismo-OO43090583",
-      "fecha": "2026-11-03T11:48:56+00:00",
-      "imagen": "https://estaticos.elcolombiano.com/binrepository/450x300/0c0/0d0/center/11101/CIGD/video-asi-se-vivio-el-temblor-de-5_52038017_20261103065439.jpg"
-    },
-    {
-      "id": "42b98dafb88b77a8",
-      "titulo": "Abren colegios electorales en la costa este de EE. UU. en elecciones intermedias cruciales",
-      "categoria": "Internacional",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/abren-colegios-electorales-en-la-costa-este-de-ee-uu-en-elecciones-intermedias-cruciales/a-79840523?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-03T11:48:00+00:00",
-      "imagen": ""
+      "id": "62475992c62fa756",
+      "titulo": "¿Hasta dónde puede caer el Nasdaq? Estos son los niveles clave que observa el mercado",
+      "categoria": "Economía",
+      "fuente": "La FM Economía",
+      "url": "https://www.lafm.com.co/economia/hasta-donde-puede-caer-nasdaq-niveles-mercado-415943",
+      "fecha": "2026-11-03T11:42:07+00:00",
+      "imagen": "https://files.lafm.com.co/media/news-images/2026/11/03/132409/hasta-donde-puede-caer-el-nasdaq-estos-son-los-niveles-clave-que-observa-el-mercado-1200x675.jpg"
     },
     {
       "id": "d2b4e3d95f278f6b",
@@ -444,24 +732,6 @@
       "imagen": "https://imagenes.portafolio.co/files/og_thumbnail/uploads/2026/01/29/697b96803ebb9.jpeg"
     },
     {
-      "id": "addc8153fd4e7772",
-      "titulo": "Wall Street repunta y el crudo cae bajo US$100 por señales de diálogo con Irán",
-      "categoria": "Internacional",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/wall-street-repunta-y-el-crudo-cae-bajo-us-100-por-senales-de-dialogo-con-iran-4516443",
-      "fecha": "2026-11-03T11:31:35+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "9d2df22db5442d7b",
-      "titulo": "Prime Video sigue siendo un negocio redondo para Amazon, con previsiones de ganancias de \"decenas de miles de millones de dólares\"",
-      "categoria": "Economía",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/streaming/prime-video-sigue-siendo-negocio-redondo-para-amazon-previsiones-ganancias-decenas-miles-millones-dolares",
-      "fecha": "2026-11-03T11:31:31+00:00",
-      "imagen": "https://i.blogs.es/f4190e/captura-de-pantalla-2026-11-03-a-las-9.29.37/1024_2000.jpeg"
-    },
-    {
       "id": "6f1dc7c4491edf2d",
       "titulo": "Tragedia en España: futbolista de la segunda división murió tras un choque con el arquero",
       "categoria": "Deportes",
@@ -469,15 +739,6 @@
       "url": "https://www.lafm.com.co/deportes/jesus-de-miguel-accidente-choque-portero-andorra-de-que-murio-415941",
       "fecha": "2026-11-03T11:30:48+00:00",
       "imagen": "https://files.lafm.com.co/media/news-images/2026/11/03/112650/jesus-de-miguel-accidente-choque-portero-andorra-de-que-murio-1200x675.jpg"
-    },
-    {
-      "id": "c1407d8cc64f82ca",
-      "titulo": "Qué es el \"zeptoverso\", el mundo más pequeño jamás detectado en la naturaleza y por qué es clave para entender el universo",
-      "categoria": "Internacional",
-      "fuente": "BBC Mundo",
-      "url": "https://www.bbc.com/mundo/articles/c60rldxq8k1ro?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-03T11:29:22+00:00",
-      "imagen": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/eca0/live/1ab4cfb0-d2ef-11f1-b441-2b33b063138f.jpg"
     },
     {
       "id": "dfe61cfd882b1992",
@@ -504,15 +765,6 @@
       "fuente": "DW Español",
       "url": "https://www.dw.com/es/muere-el-delantero-del-tenerife-jesús-de-miguel-tras-golpe-y-paro-cardíaco-sufridos-en-un-partido-de-segunda-división/a-79837882?maca=spa-rss-sp-all-1122-rdf",
       "fecha": "2026-11-03T11:09:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "bfa1daff1a8da237",
-      "titulo": "El oro cayó por temores de inflación, con foco en las elecciones en Estados Unidos",
-      "categoria": "Economía",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/finanzas/precio-del-oro-3-de-noviembre-4516418",
-      "fecha": "2026-11-03T11:02:54+00:00",
       "imagen": ""
     },
     {
@@ -553,84 +805,12 @@
     },
     {
       "id": "9e281bc4f4ac905e",
-      "titulo": "En 1970, California asfaltó una calle con botellas rotas. Lo sorprendente no es solo que funcionara, sino lo que vino después",
+      "titulo": "En 1970, EEUU tuvo una disparatada idea para construir carreteras. 56 años después, asfaltar con cristales ha dejado de ser ciencia ficción",
       "categoria": "Tecnología",
       "fuente": "Xataka",
       "url": "https://www.xataka.com/movilidad/1970-california-asfalto-calle-botellas-rotas-sorprendente-no-que-funcionara-sino-que-vino-despues",
       "fecha": "2026-11-03T10:30:00+00:00",
       "imagen": "https://i.blogs.es/c6f2d1/calle-principal-de-los-anos-50/1024_2000.png"
-    },
-    {
-      "id": "3764b75d6fdbbc2c",
-      "titulo": "Por qué se sospecha que Corea del Norte pueda estar detrás del robo de US$6.300 millones a Binance",
-      "categoria": "Internacional",
-      "fuente": "BBC Mundo",
-      "url": "https://www.bbc.com/mundo/articles/c3ewepn4e08do?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-03T10:23:00+00:00",
-      "imagen": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/43fe/live/e65a2ef0-d478-11f1-8edb-d9fce66588c6.jpg"
-    },
-    {
-      "id": "b9a08204cd5ed634",
-      "titulo": "El portátil gaming que se adelanta al Black Friday: tiene 32 GB de RAM, incluye una RTX 5060 y su descuento es de 500 euros",
-      "categoria": "Tecnología",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/seleccion/portatil-gaming-que-se-adelanta-al-black-friday-tiene-32-gb-ram-incluye-rtx-5060-su-descuento-500-euros",
-      "fecha": "2026-11-03T10:01:29+00:00",
-      "imagen": "https://i.blogs.es/ec2cb8/gigabyte-a16/1024_2000.jpeg"
-    },
-    {
-      "id": "5cae09b82198e91a",
-      "titulo": "El gran ganador de la IA en Apple no es Siri. Es el Mac",
-      "categoria": "Tecnología",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/ordenadores/gran-ganador-ia-apple-no-siri-mac",
-      "fecha": "2026-11-03T09:47:30+00:00",
-      "imagen": "https://i.blogs.es/4ce401/amanz-lbcddw34ivw-unsplash/1024_2000.jpeg"
-    },
-    {
-      "id": "f2c4fd54e31e8595",
-      "titulo": "Trump entra en la lista de \"Depredadores de la Libertad de Prensa\" de Reporteros sin Fronteras",
-      "categoria": "Internacional",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/trump-entra-en-la-lista-de-depredadores-de-la-libertad-de-prensa-de-reporteros-sin-fronteras/a-79835620?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-03T09:44:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "d97e0558fc9a720b",
-      "titulo": "\"Es el peor barrio de Madrid\": fue un experimento en los años 50 y tiene a 408 pisos de 40 metros cuadrados casi en ruinas",
-      "categoria": "Tecnología",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/magnet/peor-barrio-madrid-fue-experimento-anos-50-tiene-a-408-pisos-40-metros-cuadrados-casi-ruinas",
-      "fecha": "2026-11-03T09:31:22+00:00",
-      "imagen": "https://i.blogs.es/2436a0/55393652853_cb1f4a54f7_k/1024_2000.jpeg"
-    },
-    {
-      "id": "f2d65ef419939b33",
-      "titulo": "Del Ejército de Lula al Ejército peronista: la oposición argentina recluta al ‘general’ digital que impulsó la remontada en Brasil",
-      "categoria": "Internacional",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/argentina/2026-11-03/del-ejercito-de-lula-al-ejercito-peronista-la-oposicion-argentina-recluta-al-general-digital-que-impulso-la-remontada-en-brasil.html",
-      "fecha": "2026-11-03T09:30:00+00:00",
-      "imagen": "https://imagenes.elpais.com/resizer/v2/FXKJTKMKM5GKPONG7257C3A6HA.jpg?auth=66b55f627eab189cfa2867697923620f4844d0e46a676230e91fd2a459919a09"
-    },
-    {
-      "id": "2fbd2c6fcc6af843",
-      "titulo": "Trabajadoras sexuales de Argentina convocan a un paro tras la muerte de cuatro mujeres en un mes",
-      "categoria": "Internacional",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/argentina/2026-11-03/trabajadoras-sexuales-de-argentina-convocan-a-un-paro-tras-la-muerte-de-cuatro-mujeres-en-un-mes.html",
-      "fecha": "2026-11-03T09:30:00+00:00",
-      "imagen": "https://imagenes.elpais.com/resizer/v2/YXQZYRJV3ZBFFBEANKWWGDO6SQ.jpg?auth=a7d8aa27071cf533377355c21d7ad0c550f875deded78bcfc6a5527916865023"
-    },
-    {
-      "id": "5ff0c6bb41d09e8c",
-      "titulo": "GFT desarrolló una solución con IA para migrar los sistemas de Itaú Unibanco a la nube",
-      "categoria": "Economía",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/finanzas/gft-desarrollo-una-solucion-con-ia-para-migrar-los-sistemas-de-itau-unibanco-a-la-nube-4513144",
-      "fecha": "2026-11-03T05:01:58+00:00",
-      "imagen": ""
     },
     {
       "id": "dd46c453804e1f34",
@@ -642,48 +822,12 @@
       "imagen": ""
     },
     {
-      "id": "3de41a15cc6c9f13",
-      "titulo": "Comprar frutas y verduras en plaza o supermercado, ¿dónde sale más barato el mercado?",
-      "categoria": "Economía",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/consumo/comprar-frutas-y-verduras-en-plaza-o-supermercado-donde-sale-mas-barato-el-mercado-4515263",
-      "fecha": "2026-11-03T05:01:54+00:00",
-      "imagen": ""
-    },
-    {
       "id": "cacf4c32bf65fb09",
       "titulo": "Futbolistas de la Premier League obtienen un aplazamiento de la recaudación",
       "categoria": "Deportes",
       "fuente": "La República",
       "url": "https://www.larepublica.co/ocio/los-futbolistas-de-la-premier-league-obtienen-un-aplazamiento-de-la-recaudacion-de-impuestos-4515302",
       "fecha": "2026-11-03T05:01:51+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "016226d6e777c7b3",
-      "titulo": "TotalEnergies anuncia alianzas con empresas del sector transportador",
-      "categoria": "Economía",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/ocio/totalenergies-anuncia-alianzas-con-empresas-del-sector-transportador-4515731",
-      "fecha": "2026-11-03T05:01:50+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "bf12a7351b8397f5",
-      "titulo": "Qbano y Subway lideran un mercado que consume 25 millones de sánduches",
-      "categoria": "Economía",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/empresas/qbano-y-subway-lideran-un-mercado-que-consume-25-millones-de-sanduches-4515632",
-      "fecha": "2026-11-03T05:01:43+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "7e7404144700d5ef",
-      "titulo": "Texaco pasará de 560 a 760 estaciones de servicio con inversión de US$100 millones",
-      "categoria": "Economía",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/empresas/texaco-busca-pasar-de-560-a-760-estaciones-de-servicio-4515203",
-      "fecha": "2026-11-03T05:01:33+00:00",
       "imagen": ""
     },
     {
@@ -750,15 +894,6 @@
       "imagen": "https://files.lafm.com.co/media/news-images/2026/11/02/203626/este-es-kimi-antonelli-el-piloto-mas-joven-en-ganar-la-f1-1200x675.jpg"
     },
     {
-      "id": "ead90f1fb26aa8ed",
-      "titulo": "Grid Protectors: programa para la red eléctrica",
-      "categoria": "Valle del Cauca",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/secciones/tecnologia/grid-protectors-programa-red-electrica/",
-      "fecha": "2026-11-02T19:00:00+00:00",
-      "imagen": ""
-    },
-    {
       "id": "0be1dad17305837d",
       "titulo": "Alicorp adquirió Rama y operará desde Cali para atender cuatro mercados de la región",
       "categoria": "Cali",
@@ -775,15 +910,6 @@
       "url": "https://www.eltiempo.com/colombia/cali/golpe-al-frente-57-yair-bermudez-caen-cinco-presuntos-integrantes-tras-ataque-a-patrulla-de-la-policia-en-tulua-3597930",
       "fecha": "2026-11-02T16:17:14+00:00",
       "imagen": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/11/02/6ae8b30f9d381.jpeg"
-    },
-    {
-      "id": "c30a381fd49e7058",
-      "titulo": "Herramientas para admins de Forum",
-      "categoria": "Valle del Cauca",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/secciones/tecnologia/herramientas-admins-forum/",
-      "fecha": "2026-11-02T13:00:00+00:00",
-      "imagen": ""
     },
     {
       "id": "810a63ed50a62283",
@@ -820,15 +946,6 @@
       "url": "https://www.eltiempo.com/colombia/cali/la-angustiosa-busqueda-de-dylan-campaz-en-buenaventura-el-caso-se-eleva-a-desaparicion-forzada-y-ofrecen-millonaria-recompensa-3597726",
       "fecha": "2026-10-31T19:26:16+00:00",
       "imagen": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/10/16/6ad26545baa96.jpeg"
-    },
-    {
-      "id": "6d5b19e29ad96db3",
-      "titulo": "Asesinan a Luis Francisco Ramírez, dragoneante del Inpec, cerca de la cárcel Villahermosa en Cali: esto se sabe del crimen",
-      "categoria": "Cali",
-      "fuente": "El Tiempo Cali",
-      "url": "https://www.eltiempo.com/colombia/cali/asesinan-a-luis-francisco-ramirez-dragoneante-del-inpec-cerca-de-la-carcel-villahermosa-en-cali-esto-se-sabe-del-crimen-3597666",
-      "fecha": "2026-10-31T12:39:48+00:00",
-      "imagen": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2026/10/31/6ae5dafef132b.r_d.600-267-0.png"
     }
   ],
   "estado_fuentes": [
@@ -839,7 +956,7 @@
       "estado": "ok",
       "entradas_rss": 10,
       "titulares_vigentes": 10,
-      "ultima_consulta": "2026-11-03T12:14:09.222222+00:00",
+      "ultima_consulta": "2026-11-03T13:27:35.843741+00:00",
       "error": ""
     },
     {
@@ -849,7 +966,7 @@
       "estado": "ok",
       "entradas_rss": 10,
       "titulares_vigentes": 8,
-      "ultima_consulta": "2026-11-03T12:14:09.370191+00:00",
+      "ultima_consulta": "2026-11-03T13:27:35.915974+00:00",
       "error": ""
     },
     {
@@ -859,7 +976,7 @@
       "estado": "sin_entradas",
       "entradas_rss": 0,
       "titulares_vigentes": 0,
-      "ultima_consulta": "2026-11-03T12:14:09.452561+00:00",
+      "ultima_consulta": "2026-11-03T13:27:35.960491+00:00",
       "error": "La respuesta no contiene entradas RSS/Atom."
     },
     {
@@ -869,7 +986,7 @@
       "estado": "ok",
       "entradas_rss": 10,
       "titulares_vigentes": 10,
-      "ultima_consulta": "2026-11-03T12:14:10.082431+00:00",
+      "ultima_consulta": "2026-11-03T13:27:36.321241+00:00",
       "error": ""
     },
     {
@@ -879,7 +996,7 @@
       "estado": "ok",
       "entradas_rss": 10,
       "titulares_vigentes": 10,
-      "ultima_consulta": "2026-11-03T12:14:10.241754+00:00",
+      "ultima_consulta": "2026-11-03T13:27:36.437136+00:00",
       "error": ""
     },
     {
@@ -889,7 +1006,7 @@
       "estado": "ok",
       "entradas_rss": 60,
       "titulares_vigentes": 40,
-      "ultima_consulta": "2026-11-03T12:14:10.449177+00:00",
+      "ultima_consulta": "2026-11-03T13:27:36.574524+00:00",
       "error": ""
     },
     {
@@ -898,8 +1015,8 @@
       "zona": "Nacional / internacional",
       "estado": "ok",
       "entradas_rss": 12,
-      "titulares_vigentes": 0,
-      "ultima_consulta": "2026-11-03T12:14:10.710841+00:00",
+      "titulares_vigentes": 3,
+      "ultima_consulta": "2026-11-03T13:27:36.652330+00:00",
       "error": ""
     },
     {
@@ -909,7 +1026,7 @@
       "estado": "ok",
       "entradas_rss": 34,
       "titulares_vigentes": 26,
-      "ultima_consulta": "2026-11-03T12:14:10.911142+00:00",
+      "ultima_consulta": "2026-11-03T13:27:36.774032+00:00",
       "error": ""
     },
     {
@@ -919,7 +1036,7 @@
       "estado": "ok",
       "entradas_rss": 20,
       "titulares_vigentes": 20,
-      "ultima_consulta": "2026-11-03T12:14:11.299772+00:00",
+      "ultima_consulta": "2026-11-03T13:27:37.057236+00:00",
       "error": ""
     },
     {
@@ -929,7 +1046,7 @@
       "estado": "ok",
       "entradas_rss": 26,
       "titulares_vigentes": 26,
-      "ultima_consulta": "2026-11-03T12:14:12.273357+00:00",
+      "ultima_consulta": "2026-11-03T13:27:37.377586+00:00",
       "error": ""
     },
     {
@@ -939,7 +1056,7 @@
       "estado": "ok",
       "entradas_rss": 113,
       "titulares_vigentes": 39,
-      "ultima_consulta": "2026-11-03T12:14:12.880003+00:00",
+      "ultima_consulta": "2026-11-03T13:27:38.014624+00:00",
       "error": ""
     },
     {
@@ -949,7 +1066,7 @@
       "estado": "ok",
       "entradas_rss": 11,
       "titulares_vigentes": 5,
-      "ultima_consulta": "2026-11-03T12:14:13.941412+00:00",
+      "ultima_consulta": "2026-11-03T13:27:38.288862+00:00",
       "error": ""
     },
     {
@@ -959,7 +1076,7 @@
       "estado": "ok",
       "entradas_rss": 20,
       "titulares_vigentes": 10,
-      "ultima_consulta": "2026-11-03T12:14:15.738041+00:00",
+      "ultima_consulta": "2026-11-03T13:27:38.407865+00:00",
       "error": ""
     },
     {
@@ -968,8 +1085,8 @@
       "zona": "Nacional / internacional",
       "estado": "ok",
       "entradas_rss": 20,
-      "titulares_vigentes": 16,
-      "ultima_consulta": "2026-11-03T12:14:15.917011+00:00",
+      "titulares_vigentes": 17,
+      "ultima_consulta": "2026-11-03T13:27:38.526531+00:00",
       "error": ""
     },
     {
@@ -979,7 +1096,7 @@
       "estado": "ok",
       "entradas_rss": 20,
       "titulares_vigentes": 20,
-      "ultima_consulta": "2026-11-03T12:14:15.996422+00:00",
+      "ultima_consulta": "2026-11-03T13:27:38.603837+00:00",
       "error": ""
     },
     {
@@ -989,7 +1106,7 @@
       "estado": "ok",
       "entradas_rss": 20,
       "titulares_vigentes": 20,
-      "ultima_consulta": "2026-11-03T12:14:16.124580+00:00",
+      "ultima_consulta": "2026-11-03T13:27:38.656551+00:00",
       "error": ""
     },
     {
@@ -999,7 +1116,7 @@
       "estado": "ok",
       "entradas_rss": 12,
       "titulares_vigentes": 0,
-      "ultima_consulta": "2026-11-03T12:14:16.246144+00:00",
+      "ultima_consulta": "2026-11-03T13:27:38.706566+00:00",
       "error": ""
     },
     {
@@ -1007,9 +1124,9 @@
       "url": "https://www.elcolombiano.com/rss/Colombia.xml",
       "zona": "Antioquia y Colombia",
       "estado": "ok",
-      "entradas_rss": 36,
-      "titulares_vigentes": 34,
-      "ultima_consulta": "2026-11-03T12:14:17.238110+00:00",
+      "entradas_rss": 35,
+      "titulares_vigentes": 33,
+      "ultima_consulta": "2026-11-03T13:27:39.449232+00:00",
       "error": ""
     },
     {
@@ -1019,7 +1136,7 @@
       "estado": "error",
       "entradas_rss": 0,
       "titulares_vigentes": 0,
-      "ultima_consulta": "2026-11-03T12:14:17.500905+00:00",
+      "ultima_consulta": "2026-11-03T13:27:39.627451+00:00",
       "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     {
@@ -1029,7 +1146,7 @@
       "estado": "ok",
       "entradas_rss": 10,
       "titulares_vigentes": 10,
-      "ultima_consulta": "2026-11-03T12:14:17.666547+00:00",
+      "ultima_consulta": "2026-11-03T13:27:39.812588+00:00",
       "error": ""
     },
     {
@@ -1039,12 +1156,12 @@
       "estado": "ok",
       "entradas_rss": 10,
       "titulares_vigentes": 7,
-      "ultima_consulta": "2026-11-03T12:14:17.947236+00:00",
+      "ultima_consulta": "2026-11-03T13:27:40.042676+00:00",
       "error": ""
     }
   ],
-  "ultima_solicitud_groq": "2026-11-03T12:17:53.548851+00:00",
+  "ultima_solicitud_groq": "2026-11-03T13:33:14.292391+00:00",
   "fecha_solicitudes_groq": "2026-11-03",
-  "solicitudes_groq": 6,
-  "ultima_actualizacion": "2026-11-03T12:17:57.068774+00:00"
+  "solicitudes_groq": 11,
+  "ultima_actualizacion": "2026-11-03T13:33:54.222666+00:00"
 }
