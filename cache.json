@@ -274,9 +274,27 @@
     }
   ],
   "fecha_solicitudes_groq": "2026-11-02",
-  "ultima_actualizacion": "2026-11-03T00:25:08.844762+00:00",
+  "ultima_actualizacion": "2026-11-03T00:39:13.279112+00:00",
   "solicitudes_groq": 38,
   "titulares_rss": [
+    {
+      "id": "250987248e2f1cde",
+      "titulo": "El emotivo regreso a casa de Karl Bushby, el aventurero británico que recorrió el mundo a pie tras partir de Chile hace 28 años",
+      "categoria": "Internacional",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/c8wy941ee4rzo?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-03T00:38:16+00:00",
+      "imagen": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/fb3b/live/8b401f50-d6eb-11f1-a741-236ee91c2e25.jpg"
+    },
+    {
+      "id": "1c2184e9b0e536be",
+      "titulo": "Shein y Temu en Colombia: el secreto detrás de sus precios bajos y el negocio que preocupa a empresarios",
+      "categoria": "Economía",
+      "fuente": "La FM Economía",
+      "url": "https://www.lafm.com.co/economia/shein-temu-precios-bajos-colombia-preocupacion-empresarios-415928",
+      "fecha": "2026-11-03T00:30:01+00:00",
+      "imagen": "https://files.lafm.com.co/assets/public/2025-04/shein_y_temu_1.jpg"
+    },
     {
       "id": "08a50dc239aec795",
       "titulo": "Qué se sabe de la dramática caída de un avión privado en Florida que dejó 9 muertos",
@@ -494,15 +512,6 @@
       "imagen": "https://imagenes.elpais.com/resizer/v2/RFNSTHAPBVMRJLCPO2OEIVXAS4.jpg?auth=2c70fb57e95c6573e1a5e2f54a2a639a7772058ecd275ab77aa4729a78182d6f"
     },
     {
-      "id": "0856d8a2aa2f38fc",
-      "titulo": "¿Quién es Karl Bushby? El hombre que logró recorrer el mundo caminando durante 28 años",
-      "categoria": "Internacional",
-      "fuente": "La FM Internacional",
-      "url": "https://www.lafm.com.co/internacional/karl-bushby-hombre-que-recorrio-el-mundo-caminando-durante-28-anos-415916",
-      "fecha": "2026-11-02T19:49:07+00:00",
-      "imagen": "https://files.lafm.com.co/media/news-images/2026/11/02/192031/karl-bushby-hombre-que-recorrio-el-mundo-caminando-durante-28-anos-1200x675.jpg"
-    },
-    {
       "id": "13ee039997e752ab",
       "titulo": "Ley de rescate fiscal también trae un alivio tributario para las empresas que inviertan y den empleo",
       "categoria": "Economía",
@@ -600,15 +609,6 @@
       "url": "https://www.bbc.com/mundo/watch/cw33x0zz1pj3o?at_medium=RSS&at_campaign=rss",
       "fecha": "2026-11-02T18:18:32+00:00",
       "imagen": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/f54a/live/a57cf570-d6e9-11f1-b441-2b33b063138f.jpg"
-    },
-    {
-      "id": "97633ae82bfd740a",
-      "titulo": "Tajamar Occidental suma $100.000 millones del Gobierno a una obra de cerca de $380.000 millones en Barranquilla",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/infraestructura/tajamar-occidental-suma-100-000-millones-del-gobierno-a-una-obra-de-cerca-de-380-000-millones-en-barranquilla-505581",
-      "fecha": "2026-11-02T18:05:00+00:00",
-      "imagen": "https://imagenes.portafolio.co/files/og_thumbnail/uploads/2026/11/02/6ae8d01c04cd2.jpeg"
     },
     {
       "id": "64d6885eabf65fc9",
