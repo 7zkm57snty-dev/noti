@@ -1,4 +1,5 @@
 import json
+import hashlib
 import re
 import html
 from html.parser import HTMLParser
