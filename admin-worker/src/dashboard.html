@@ -142,7 +142,113 @@ td small,.newsrow .muted,.setting p{color:#514d46}
 button:disabled{opacity:.72;color:#514d46}
 .state.off{color:#765016}
 .empty p{color:#514d46}
-</style></style></style></head><body>
+</style></style></style><style id="cev-readable-typography">
+/* Lectura cómoda: aumento moderado y uniforme sin alterar la jerarquía visual. */
+body{font-size:15px}
+.nav button{font-size:13px}
+.navlabel,.brand small,.sidefoot,.sidecard p{font-size:10px}
+.sidecard b{font-size:11px}
+.crumb,.identity small,.avatar{font-size:11px}
+.identity b{font-size:11px}
+.eyebrow,.herok{font-size:10px}
+.sub{font-size:13px}
+.btn{font-size:12px}
+.hero p{font-size:12px}
+.heroaside{font-size:10px}
+.metric label{font-size:11px}
+.metric small{font-size:11px}
+.panelnote,.muted,.metric .muted{font-size:11px}
+.empty p,.pr p,.practions .btn{font-size:11px}
+.pill{font-size:9px}
+.prnum{font-size:10px}
+.newsrow h3{font-size:13px}
+.toolbar .search input,.filter{font-size:12px}
+th{font-size:9px}
+td{font-size:11px}
+td b{font-size:13px}
+td small{font-size:10px}
+.cat{font-size:9px}
+.setting p{font-size:12px}
+.setting h3{font-size:16px}
+.state{font-size:9px}
+.note{font-size:12px}
+.setup p{font-size:13px}
+.step{font-size:12px}
+.modalhead p,.field small{font-size:11px}
+.field label{font-size:10px}
+.field input,.field select,.field textarea{font-size:12px}
+.formsection .sourcehead{font-size:9px}
+.toast{font-size:12px}
+.loading{font-size:12px}
+.calweek b{font-size:10px}
+.calday,.calday>b{font-size:11px}
+.calitem{font-size:9px}
+.calday small{font-size:9px}
+.photoCard b{font-size:13px}
+.proposal-files>b,.proposal-titles>b,.proposal-body>b{font-size:10px}
+.proposal-files>div{font-size:11px}
+.proposal-titles{font-size:12px}
+.proposal-body{font-size:12px}
+.proposal-raw{font-size:10px}
+.setting li{font-size:11px}
+@media(max-width:480px){.nav button{font-size:13px}.metric strong{font-size:25px}.calitem{font-size:8px}}
+</style>
+<style id="cev-premium-warm-palette">
+/* Identidad editorial premium: carbón, marfil y borgoña. Sin dominante azul. */
+:root{--paper:#f4f1eb;--white:#fffefa;--ink:#24211e;--muted:#716b63;--line:#e7e0d7;--red:#a52f37;--red2:#84252d;--green:#52745e;--greenbg:#eaf1eb;--amber:#956b32;--amberbg:#f5eddf;--shadow:0 12px 36px rgba(38,29,22,.07);--panel-bg:#fffefa;--panel-ink:#24211e;--panel-line:#e7e0d7}
+body,.shell{background:#f4f1eb;color:#24211e}
+.side{background:#1b1a19;color:#fff;border-right:1px solid #302d2a}
+.brand{border-color:#393431}.mark{background:#a52f37;color:#fff}
+.brand small,.sidefoot{color:#aaa19a}.navlabel{color:#8e857c}
+.nav button{color:#c9c1b9}.nav button:hover{background:#302725;color:#fff}
+.nav button.active{background:#402729;color:#fff;box-shadow:inset 3px 0 #b84a50}
+.count{background:#a52f37;color:#fff}
+.sidecard{background:#252321;border-color:#403a35}.sidecard p{color:#bcb3aa}
+.top{background:rgba(255,254,250,.94);border-color:#e7e0d7;color:#24211e}
+.crumb,.sub,.panelnote,.muted,.identity small{color:#716b63}
+.top h2,h1,.paneltitle,.metric strong,.pr h3,.newsrow h3,.setting h3,.modalhead h2,main,#main{color:#24211e}
+.eyebrow,.herok{color:#a52f37}
+.hero{background:linear-gradient(120deg,#252321,#3a2928);border:1px solid #4a3834;color:#fff}
+.hero p,.heroaside{color:#d1c8bf}.heroaside b{color:#fff}
+.metric,.panel,.setting,.setup,.dialog,.editorial-chart-panel{background:#fffefa;border:1px solid #e7e0d7;box-shadow:0 8px 26px rgba(38,29,22,.05)}
+.metric label,.metric small{color:#716b63}.metric.alert strong{color:#956b32}
+.panelhead{border-color:#eee8df}.panelbody{color:#39342f}
+.empty{border-color:#ddd4c9;background:#fcfaf6}.empty b{color:#24211e}.empty p{color:#716b63}
+.pr{background:#fbf7f1;border-color:#e8dccd}.pr h3{color:#24211e}.pr p{color:#716b63}
+.pill{background:#f5eddf;color:#956b32}
+.primary{background:#a52f37;color:#fff;box-shadow:0 5px 14px #a52f371c}.primary:hover{background:#84252d}
+.secondary,.iconbtn,.mini{background:#fffefa;border-color:#e2dbd1;color:#514b44}
+.secondary:hover,.mini:hover{border-color:#c8b8a8;color:#a52f37}
+.quiet{color:#716b63}.quiet:hover{background:#f1ece4;color:#24211e}
+.danger{background:#fff0ef;border-color:#edd2cf;color:#922d32}
+.search input,.filter,.field input,.field select,.field textarea{background:#fffefa;border-color:#ded6cc;color:#24211e}
+.search input::placeholder,.field input::placeholder,.field textarea::placeholder{color:#958b80}
+.search svg{stroke:#81786e}
+table{color:#39342f}th{background:#f8f5ef;border-color:#e7e0d7;color:#81786e}td{border-color:#eee8df}td b{color:#24211e}
+.cat{background:#f1ece4;color:#66594e}
+.settings .state{background:#eaf1eb;color:#52745e}.settings .state.off{background:#f5eddf;color:#956b32}
+.note{background:#faf4e9;border-color:#eadcc5;color:#705b3d}
+.setup p,.setting p{color:#716b63}.step{background:#f8f5ef;color:#39342f}
+.modal{background:rgba(24,20,18,.58)}.modalhead,.modalfoot,.formbody{background:#fffefa;border-color:#e7e0d7}
+.field label{color:#625b53}.field small{color:#716b63}
+.formsection{background:#f8f5ef;border-color:#e7e0d7}.formsection h3{color:#24211e}
+.formsection .sourcehead{color:#a52f37}
+.toast{background:#292522;color:#fff}.toast.success{background:#315b43}.toast.error{background:#84252d}
+.publication-progress{background:#f5f0e8;border-color:#e5d9c9;color:#51483e}
+.publication-progress.success{background:#eaf1eb;border-color:#cbdccd;color:#42634c}
+.publication-progress.failed{background:#fff0ef;border-color:#edd2cf;color:#922d32}
+.calweek{background:#f8f5ef;border-color:#e7e0d7}.calweek b{color:#716b63}
+.calday{border-color:#e7e0d7;color:#39342f}.calday.outside{background:#faf8f4;color:#aaa19a}.calday.today{background:#fff8f0}
+.calitem{background:#f3e4e2;color:#812b31}.calitem:hover{background:#ead1ce;color:#642126}
+.calmore{color:#a52f37}.calendar-expanded-panel,.calendar-expanded-row{background:#fffefa;border-color:#e7e0d7}
+.photoCard img{background:#f1ece4}
+.proposal-files,.proposal-titles,.proposal-body,.proposal-raw>div{background:#f8f5ef;border-color:#e7e0d7;color:#39342f}
+.proposal-files>b,.proposal-titles>b,.proposal-body>b{color:#625b53}
+.editorial-period{color:#716b63;background:#f8f5ef;border-color:#e7e0d7}
+.editorial-chart-total strong{color:#24211e}.editorial-chart-total span{color:#716b63}
+.editorial-legend-row{color:#514b44}.editorial-legend-name{color:#716b63}.editorial-legend-row b{color:#24211e}.editorial-legend-row small{color:#81786e}
+@media(max-width:720px){.top{background:rgba(255,254,250,.97)}}
+</style></head><body>
 <aside class="side" id="side"><div class="brand"><div class="mark">CEV</div><div><b>CEV NOTICIAS</b><small>Centro de control</small></div></div><div class="navlabel">Administración</div><nav class="nav"><button class="active" data-page="home"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="8" height="8" rx="1"/><rect x="14" y="3" width="7" height="5" rx="1"/><rect x="14" y="11" width="7" height="10" rx="1"/><rect x="3" y="14" width="8" height="7" rx="1"/></svg>Resumen</button><button data-page="review"><svg viewBox="0 0 24 24"><path d="M8 5H5a2 2 0 0 0-2 2v12h18V7h-5"/><rect x="8" y="2" width="8" height="5" rx="1"/><path d="m8 13 2 2 5-5"/></svg>Revisión editorial<span class="count" id="pendingCount" hidden></span></button><button data-page="diagnostics">⚙ Centro de diagnóstico</button><button data-page="control">◉ Centro de control</button><button data-page="news"><svg viewBox="0 0 24 24"><path d="M4 4h16v16H4zM8 8h8M8 12h8M8 16h5"/></svg>Noticias publicadas</button><button data-page="calendar">▦ Calendario editorial</button><button data-page="statuses">◷ Estados de noticias</button><button data-page="headlines">✦ Asistente de titulares</button><button data-page="photos">▧ Biblioteca de fotos</button><button data-page="activity">◷ Registro de actividad</button><button data-page="rss"><svg viewBox="0 0 24 24"><path d="M5 19a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"/><path d="M4 4a16 16 0 0 1 16 16M4 10a10 10 0 0 1 10 10"/></svg>Radar RSS</button><button data-page="settings"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M19 13a7 7 0 0 0 0-2l2-1-2-4-2 1a7 7 0 0 0-2-1l-.3-2h-4L10 6a7 7 0 0 0-2 1L6 6 4 10l2 1a7 7 0 0 0 0 2l-2 1 2 4 2-1a7 7 0 0 0 2 1l.7 2h4L15 18a7 7 0 0 0 2-1l2 1 2-4z"/></svg>Configuración</button></nav><div class="sidebottom"><div class="sidecard"><b>PUBLICACIÓN BAJO CONTROL</b><p>Las modificaciones pasan por revisión antes de llegar al sitio público.</p></div><div class="sidefoot">CEV NOTICIAS · PANEL PRIVADO<br>OPERACIÓN EDITORIAL</div></div></aside>
 <div class="shell"><header class="top"><div style="display:flex;align-items:center;gap:12px"><button class="iconbtn mobile" id="menubtn" aria-label="Menú"><svg viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h16"/></svg></button><div><div class="crumb">CEV NOTICIAS / OPERACIONES</div><h2 id="topTitle">Resumen general</h2></div></div><div class="topright"><button class="iconbtn" id="refresh" aria-label="Actualizar"><svg viewBox="0 0 24 24"><path d="M20 7v5h-5M4 17v-5h5M5.5 9a7 7 0 0 1 12-2L20 12M4 12l2.5 5a7 7 0 0 0 12-2"/></svg></button><div class="identity"><div class="avatar" id="avatar">CE</div><div><b id="user">Administrador</b><small>Acceso protegido</small></div></div></div></header><main id="main"><div class="loading"><div class="spin"></div>Conectando con la redacción…</div></main></div>
 <div class="modal" id="modal" hidden><div class="dialog" role="dialog" aria-modal="true" aria-labelledby="modalTitle"><div class="modalhead"><div><div class="eyebrow">GESTIÓN EDITORIAL</div><h2 id="modalTitle">Nueva noticia</h2><p>La propuesta pasa por revisión antes de publicarse.</p></div><button class="iconbtn" id="close" aria-label="Cerrar">×</button></div><form id="form"><div class="formbody"><div class="formgrid">
@@ -218,19 +324,19 @@ function editorialCharts(news){
  const pts=daily.map((x,i)=>({x:left+(plotW/(daily.length-1))*i,y:top+plotH-(x.count/max)*plotH}));
  const path=pts.map((p,i)=>(i?"L":"M")+p.x.toFixed(1)+" "+p.y.toFixed(1)).join(" ");
  const area=path+" L "+pts[pts.length-1].x+" "+(top+plotH)+" L "+pts[0].x+" "+(top+plotH)+" Z";
- const grid=[0,.5,1].map(t=>{const y=top+plotH*t;return '<line x1="'+left+'" y1="'+y+'" x2="'+(w-right)+'" y2="'+y+'" stroke="#2a3442" stroke-width="1"/>'}).join("");
- const labels=daily.map((x,i)=>'<text x="'+pts[i].x+'" y="'+(h-7)+'" fill="#8491a3" font-size="10" text-anchor="middle">'+esc(x.label)+'</text>').join("");
- const dots=pts.map((p,i)=>'<circle cx="'+p.x+'" cy="'+p.y+'" r="3.2" fill="#a7b9cf" stroke="#151d29" stroke-width="2"><title>'+esc(daily[i].label)+': '+daily[i].count+' noticias</title></circle>').join("");
- const line='<svg class="editorial-line" viewBox="0 0 '+w+' '+h+'" role="img" aria-label="Publicaciones por día durante los últimos siete días">'+grid+'<path d="'+area+'" fill="url(#editorialFade)" opacity=".8"/><defs><linearGradient id="editorialFade" x1="0" x2="0" y1="0" y2="1"><stop offset="0%" stop-color="#829bb8" stop-opacity=".22"/><stop offset="100%" stop-color="#829bb8" stop-opacity="0"/></linearGradient></defs><path d="'+path+'" fill="none" stroke="#a7b9cf" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>'+dots+labels+'</svg>';
+ const grid=[0,.5,1].map(t=>{const y=top+plotH*t;return '<line x1="'+left+'" y1="'+y+'" x2="'+(w-right)+'" y2="'+y+'" stroke="#e7e0d7" stroke-width="1"/>'}).join("");
+ const labels=daily.map((x,i)=>'<text x="'+pts[i].x+'" y="'+(h-7)+'" fill="#8a8178" font-size="10" text-anchor="middle">'+esc(x.label)+'</text>').join("");
+ const dots=pts.map((p,i)=>'<circle cx="'+p.x+'" cy="'+p.y+'" r="3.2" fill="#a52f37" stroke="#fffefa" stroke-width="2"><title>'+esc(daily[i].label)+': '+daily[i].count+' noticias</title></circle>').join("");
+ const line='<svg class="editorial-line" viewBox="0 0 '+w+' '+h+'" role="img" aria-label="Publicaciones por día durante los últimos siete días">'+grid+'<path d="'+area+'" fill="url(#editorialFade)" opacity=".8"/><defs><linearGradient id="editorialFade" x1="0" x2="0" y1="0" y2="1"><stop offset="0%" stop-color="#a52f37" stop-opacity=".22"/><stop offset="100%" stop-color="#829bb8" stop-opacity="0"/></linearGradient></defs><path d="'+path+'" fill="none" stroke="#a52f37" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>'+dots+labels+'</svg>';
  const groups={};rows.forEach(n=>{const k=String(n.categoria||"Sin categoría").trim()||"Sin categoría";groups[k]=(groups[k]||0)+1});
- const palette=["#91A7C1","#8FA99B","#A5AAB4","#7D8FA5","#B0A99A","#718B91"];
+ const palette=["#a52f37","#b68a62","#718675","#c7b7a5","#776d65","#d0a5a2"];
  const sorted=Object.entries(groups).sort((a,b)=>b[1]-a[1]),topCats=sorted.slice(0,5),other=sorted.slice(5).reduce((sum,x)=>sum+x[1],0);
  if(other)topCats.push(["Otras",other]);
  const total=topCats.reduce((sum,x)=>sum+x[1],0),radius=43,circ=2*Math.PI*radius;
  let offset=0;
  const arcs=topCats.map((x,i)=>{const len=total?x[1]/total*circ:0,part='<circle cx="58" cy="58" r="'+radius+'" fill="none" stroke="'+palette[i%palette.length]+'" stroke-width="10" stroke-dasharray="'+len.toFixed(2)+' '+(circ-len).toFixed(2)+'" stroke-dashoffset="'+(-offset).toFixed(2)+'" transform="rotate(-90 58 58)"/>';offset+=len;return part}).join("");
  const legend=topCats.map((x,i)=>'<div class="editorial-legend-row"><span class="editorial-dot" style="background:'+palette[i%palette.length]+'"></span><span class="editorial-legend-name">'+esc(x[0])+'</span><b>'+x[1]+'</b><small>'+(total?Math.round(x[1]/total*100):0)+'%</small></div>').join("");
- return '<section class="editorial-analytics"><article class="panel editorial-chart-panel"><div class="panelhead"><div><div class="paneltitle">Ritmo de publicaciones</div><div class="panelnote">Noticias registradas en los últimos siete días</div></div><span class="editorial-period">7 DÍAS</span></div><div class="panelbody editorial-line-body"><div class="editorial-chart-total"><strong>'+daily.reduce((sum,x)=>sum+x.count,0)+'</strong><span>publicaciones</span></div>'+line+'</div></article><article class="panel editorial-chart-panel editorial-category-panel"><div class="panelhead"><div><div class="paneltitle">Distribución editorial</div><div class="panelnote">Participación por categoría</div></div></div><div class="panelbody editorial-category-body">'+(total?'<div class="editorial-donut-wrap"><svg class="editorial-donut" viewBox="0 0 116 116" role="img" aria-label="Distribución de noticias por categoría"><circle cx="58" cy="58" r="'+radius+'" fill="none" stroke="#293443" stroke-width="10"/>'+arcs+'<text x="58" y="55" text-anchor="middle" fill="#f0f3f7" font-size="20" font-weight="650">'+total+'</text><text x="58" y="69" text-anchor="middle" fill="#8996a8" font-size="8">NOTICIAS</text></svg></div><div class="editorial-legend">'+legend+'</div>':'<div class="empty"><b>Sin datos editoriales</b><p>La distribución aparecerá cuando existan noticias publicadas.</p></div>')+'</div></article></section>';
+ return '<section class="editorial-analytics"><article class="panel editorial-chart-panel"><div class="panelhead"><div><div class="paneltitle">Ritmo de publicaciones</div><div class="panelnote">Noticias registradas en los últimos siete días</div></div><span class="editorial-period">7 DÍAS</span></div><div class="panelbody editorial-line-body"><div class="editorial-chart-total"><strong>'+daily.reduce((sum,x)=>sum+x.count,0)+'</strong><span>publicaciones</span></div>'+line+'</div></article><article class="panel editorial-chart-panel editorial-category-panel"><div class="panelhead"><div><div class="paneltitle">Distribución editorial</div><div class="panelnote">Participación por categoría</div></div></div><div class="panelbody editorial-category-body">'+(total?'<div class="editorial-donut-wrap"><svg class="editorial-donut" viewBox="0 0 116 116" role="img" aria-label="Distribución de noticias por categoría"><circle cx="58" cy="58" r="'+radius+'" fill="none" stroke="#e8e1d8" stroke-width="10"/>'+arcs+'<text x="58" y="55" text-anchor="middle" fill="#24211e" font-size="20" font-weight="650">'+total+'</text><text x="58" y="69" text-anchor="middle" fill="#8a8178" font-size="8">NOTICIAS</text></svg></div><div class="editorial-legend">'+legend+'</div>':'<div class="empty"><b>Sin datos editoriales</b><p>La distribución aparecerá cuando existan noticias publicadas.</p></div>')+'</div></article></section>';
 }
 function home(){
  const d=state.data,n=d.news||[],p=d.reviews||[],cats=new Set(n.map(x=>x.categoria));
