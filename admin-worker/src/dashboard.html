@@ -142,7 +142,58 @@ td small,.newsrow .muted,.setting p{color:#514d46}
 button:disabled{opacity:.72;color:#514d46}
 .state.off{color:#765016}
 .empty p{color:#514d46}
-</style></style></style></head><body>
+</style></style></style><style id="cev-readable-typography">
+/* Lectura cómoda: aumento moderado y uniforme sin alterar la jerarquía visual. */
+body{font-size:15px}
+.nav button{font-size:13px}
+.navlabel,.brand small,.sidefoot,.sidecard p{font-size:10px}
+.sidecard b{font-size:11px}
+.crumb,.identity small,.avatar{font-size:11px}
+.identity b{font-size:11px}
+.eyebrow,.herok{font-size:10px}
+.sub{font-size:13px}
+.btn{font-size:12px}
+.hero p{font-size:12px}
+.heroaside{font-size:10px}
+.metric label{font-size:11px}
+.metric small{font-size:11px}
+.panelnote,.muted,.metric .muted{font-size:11px}
+.empty p,.pr p,.practions .btn{font-size:11px}
+.pill{font-size:9px}
+.prnum{font-size:10px}
+.newsrow h3{font-size:13px}
+.toolbar .search input,.filter{font-size:12px}
+th{font-size:9px}
+td{font-size:11px}
+td b{font-size:13px}
+td small{font-size:10px}
+.cat{font-size:9px}
+.setting p{font-size:12px}
+.setting h3{font-size:16px}
+.state{font-size:9px}
+.note{font-size:12px}
+.setup p{font-size:13px}
+.step{font-size:12px}
+.modalhead p,.field small{font-size:11px}
+.field label{font-size:10px}
+.field input,.field select,.field textarea{font-size:12px}
+.formsection .sourcehead{font-size:9px}
+.toast{font-size:12px}
+.loading{font-size:12px}
+.calweek b{font-size:10px}
+.calday,.calday>b{font-size:11px}
+.calitem{font-size:9px}
+.calday small{font-size:9px}
+.photoCard b{font-size:13px}
+.proposal-files>b,.proposal-titles>b,.proposal-body>b{font-size:10px}
+.proposal-files>div{font-size:11px}
+.proposal-titles{font-size:12px}
+.proposal-body{font-size:12px}
+.proposal-raw{font-size:10px}
+.setting li{font-size:11px}
+@media(max-width:480px){.nav button{font-size:13px}.metric strong{font-size:25px}.calitem{font-size:8px}}
+</style>
+</head><body>
 <aside class="side" id="side"><div class="brand"><div class="mark">CEV</div><div><b>CEV NOTICIAS</b><small>Centro de control</small></div></div><div class="navlabel">Administración</div><nav class="nav"><button class="active" data-page="home"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="8" height="8" rx="1"/><rect x="14" y="3" width="7" height="5" rx="1"/><rect x="14" y="11" width="7" height="10" rx="1"/><rect x="3" y="14" width="8" height="7" rx="1"/></svg>Resumen</button><button data-page="review"><svg viewBox="0 0 24 24"><path d="M8 5H5a2 2 0 0 0-2 2v12h18V7h-5"/><rect x="8" y="2" width="8" height="5" rx="1"/><path d="m8 13 2 2 5-5"/></svg>Revisión editorial<span class="count" id="pendingCount" hidden></span></button><button data-page="diagnostics">⚙ Centro de diagnóstico</button><button data-page="control">◉ Centro de control</button><button data-page="news"><svg viewBox="0 0 24 24"><path d="M4 4h16v16H4zM8 8h8M8 12h8M8 16h5"/></svg>Noticias publicadas</button><button data-page="calendar">▦ Calendario editorial</button><button data-page="statuses">◷ Estados de noticias</button><button data-page="headlines">✦ Asistente de titulares</button><button data-page="photos">▧ Biblioteca de fotos</button><button data-page="activity">◷ Registro de actividad</button><button data-page="rss"><svg viewBox="0 0 24 24"><path d="M5 19a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"/><path d="M4 4a16 16 0 0 1 16 16M4 10a10 10 0 0 1 10 10"/></svg>Radar RSS</button><button data-page="settings"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M19 13a7 7 0 0 0 0-2l2-1-2-4-2 1a7 7 0 0 0-2-1l-.3-2h-4L10 6a7 7 0 0 0-2 1L6 6 4 10l2 1a7 7 0 0 0 0 2l-2 1 2 4 2-1a7 7 0 0 0 2 1l.7 2h4L15 18a7 7 0 0 0 2-1l2 1 2-4z"/></svg>Configuración</button></nav><div class="sidebottom"><div class="sidecard"><b>PUBLICACIÓN BAJO CONTROL</b><p>Las modificaciones pasan por revisión antes de llegar al sitio público.</p></div><div class="sidefoot">CEV NOTICIAS · PANEL PRIVADO<br>OPERACIÓN EDITORIAL</div></div></aside>
 <div class="shell"><header class="top"><div style="display:flex;align-items:center;gap:12px"><button class="iconbtn mobile" id="menubtn" aria-label="Menú"><svg viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h16"/></svg></button><div><div class="crumb">CEV NOTICIAS / OPERACIONES</div><h2 id="topTitle">Resumen general</h2></div></div><div class="topright"><button class="iconbtn" id="refresh" aria-label="Actualizar"><svg viewBox="0 0 24 24"><path d="M20 7v5h-5M4 17v-5h5M5.5 9a7 7 0 0 1 12-2L20 12M4 12l2.5 5a7 7 0 0 0 12-2"/></svg></button><div class="identity"><div class="avatar" id="avatar">CE</div><div><b id="user">Administrador</b><small>Acceso protegido</small></div></div></div></header><main id="main"><div class="loading"><div class="spin"></div>Conectando con la redacción…</div></main></div>
 <div class="modal" id="modal" hidden><div class="dialog" role="dialog" aria-modal="true" aria-labelledby="modalTitle"><div class="modalhead"><div><div class="eyebrow">GESTIÓN EDITORIAL</div><h2 id="modalTitle">Nueva noticia</h2><p>La propuesta pasa por revisión antes de publicarse.</p></div><button class="iconbtn" id="close" aria-label="Cerrar">×</button></div><form id="form"><div class="formbody"><div class="formgrid">
