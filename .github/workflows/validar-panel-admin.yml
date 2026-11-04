@@ -211,6 +211,7 @@ jobs:
               build.NOTAS = build.SITE / "notas"
               build.IMAGENES_PROCESADAS = {}
               (root / "cookies.js").write_text("// test", encoding="utf-8")
+              (root / "google881f069782e14b80.html").write_text("google-site-verification: google881f069782e14b80.html\\n", encoding="utf-8")
 
               parrafo = (
                   "La información disponible permite explicar el hecho, el lugar y su impacto. "
@@ -283,6 +284,7 @@ jobs:
               assert "Qué aporta esta cobertura" in pagina_articulo
               assert "La cobertura explica el efecto local" in pagina_articulo
               assert "Lo más destacado de la semana" in portada
+              assert (build.SITE / "google881f069782e14b80.html").read_text(encoding="utf-8") == "google-site-verification: google881f069782e14b80.html\\n"
               assert breve["titulo"] in portada
               assert "Fuente de prueba externa" in portada
               assert "otro-medio.example" not in portada
