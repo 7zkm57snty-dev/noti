@@ -65,19 +65,3 @@ jobs:
             echo "No se pudo guardar tras tres intentos." >&2
             exit 1
           fi
-
-                    for attempt in 1 2 3; do
-            git fetch origin main
-            if ! git rebase origin/main; then
-              git rebase --abort || true
-              echo "No fue posible integrar los cambios remotos sin conflicto."
-              exit 1
-            fi
-            if git push origin HEAD:main; then
-              exit 0
-            fi
-            echo "La rama principal avanzó durante el guardado. Se reintentará ($attempt/3)."
-            sleep 2
-          done
-          echo "No se pudo guardar tras tres intentos." >&2
-          exit 1
