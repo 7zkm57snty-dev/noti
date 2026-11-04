@@ -2319,7 +2319,7 @@ def construir():
         '<p class="nota-rss-publica">Los artículos completos y los breves de esta portada son redactados por CEV NOTICIAS. Las fuentes consultadas se acreditan con su nombre; las mini-noticias no redirigen a páginas externas.</p>'
         '</section></main>'
     )
-    portada_head = '<link rel="canonical" href="https://cevnoticias.com/"><meta property="og:type" content="website"><meta property="og:title" content="CEV NOTICIAS | Actualidad y periodismo">'
+    portada_head = '<link rel="canonical" href="https://cevnoticias.com/"><meta property="og:type" content="website"><meta property="og:title" content="CEV NOTICIAS | Actualidad y periodismo"><meta name="adminbanner-verification" content="B5gogPBvEjUZYQdsNMmtb3uGeb2HVUXT">'
     (SITE / "index.html").write_text(plantilla("Portada", contenido, "Noticias de Cali, Valle del Cauca y Colombia.", extra_head=portada_head, seccion_actual="Portada"), encoding="utf-8")
     recurso_cookies = BASE / "cookies.js"
     if not recurso_cookies.is_file():
