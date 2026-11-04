@@ -1,6 +1,83 @@
 {
   "noticias": [
     {
+      "id": "e0225872edda040f",
+      "autor": "CEV NOTICIAS",
+      "titulo": "Camión abandonado en Cali: policía descarta bomba y encuentra marihuana",
+      "titular_instagram": "Camión sin conductor en Cali: sospecha de bomba, se halló droga",
+      "resumen": "El 4 de octubre, un camión de carga quedó abandonado en la autopista Simón Bolívar, en el barrio República de Israel, generando alarma por posible bomba. La policía cerró la vía, desplegó unidades antiexplosivos y, tras inspección, descartó explosivos y halló un cargamento de marihuana. El conductor huyó del lugar. La investigación continúa.",
+      "categoria": "Cali",
+      "contenido": "El 4 de octubre, a primera hora de la mañana, un camión de carga quedó detenido en la autopista Simón Bolívar, en la intersección de la calle 36 con la carrera 43, dentro del barrio República de Israel, en el suroriente de Cali. La patrulla de la Policía Metropolitana le hizo la señal de pare al conductor, quien, según las primeras notas, bajó del vehículo y se retiró a pie.\n\nAnte la sospecha de que el camión pudiera contener un artefacto explosivo, la policía activó de inmediato el protocolo de seguridad antiterrorista. Se acordonó la zona, se cerró el tramo de la autopista y se desplegaron unidades especializadas en explosivos junto a un guía canino. La intervención se realizó bajo la premisa de evitar cualquier riesgo para los transeúntes y el tráfico.\n\nDurante la inspección, los uniformados descartaron la presencia de explosivos. Sin embargo, al revisar la carga, se encontró un cargamento oculto de marihuana. El vehículo permaneció cerrado de forma preventiva mientras se realizaba el conteo de la droga y se retiró el automotor.\n\nEl conductor, que no fue identificado en los primeros comunicados, huyó del lugar antes de que se completara la inspección. La policía no ha publicado su nombre ni su paradero, y la investigación sobre su identidad y posible vínculo con la carga de drogas continúa.\n\nEl hallazgo de marihuana en un camión de carga no es aislado en el Valle del Cauca. En los últimos años, la región ha sido escenario de varios incidentes de tráfico de drogas, donde los transportistas a veces ocultan estupefacientes en vehículos de carga para evitar la detección. La presencia de la droga en este caso refuerza la necesidad de reforzar los controles en los puntos de entrada y salida de la autopista.\n\nPara la comunidad, el cierre de la autopista generó una congestión significativa, afectando el flujo de personas y mercancías. La Policía Metropolitana informó que la vía se reabrió a las 10:00 a.m. después de que se completara la inspección y se retirara el vehículo.\n\nLa investigación sigue en curso. La Policía Nacional y la Fiscalía del Valle del Cauca están trabajando en la identificación del conductor y en la posible persecución de los responsables del transporte de la droga. Se ha solicitado a la ciudadanía que aporte cualquier información que pueda ayudar a esclarecer el caso, a través de los canales oficiales de denuncia.\n\nHasta el momento, no se reportaron lesiones ni daños materiales significativos. La respuesta rápida de las autoridades evitó que la sospecha de una bomba se convirtiera en un incidente de mayor gravedad. La investigación continuará para determinar las motivaciones del conductor y la cadena logística de la droga encontrada.",
+      "estado_informacion": "en_desarrollo",
+      "investigacion": {
+        "enfoque_original": "Esta cobertura integra la información de dos medios locales, confirma la ausencia de explosivos y la presencia de drogas, y detalla la respuesta policial y la fuga del conductor, aportando un panorama más completo que el comunicado inicial.",
+        "hechos_clave": [
+          "Camión de carga abandonado en la autopista Simón Bolívar, barrio República de Israel, el 4 de octubre.",
+          "Policía cerró la vía y activó protocolo antiterrorista; unidades antiexplosivos y guía canino inspeccionaron el vehículo.",
+          "Inspección descartó explosivos y reveló un cargamento de marihuana; el conductor huyó del lugar."
+        ],
+        "fuentes_recuperadas": 2,
+        "dominios_independientes": 2,
+        "fecha": "2026-11-04T21:24:29.385637+00:00"
+      },
+      "imagen": "",
+      "imagen_credito": {},
+      "imagen_busqueda_intentada": true,
+      "imagen_instagram": "https://cevnoticias.com/social/e0225872edda040f.jpg",
+      "imagen_instagram_tipo": "portada_grafica_cev",
+      "descripcion_instagram": "Camión abandonado en Cali: policía descarta bomba y encuentra marihuana\\n\\nEl 4 de octubre, un camión de carga quedó abandonado en la autopista Simón Bolívar, en el barrio República de Israel, generando alarma por posible bomba. La policía cerró la vía, desplegó unidades antiexplosivos y, tras inspección, descartó explosivos y halló un cargamento de marihuana. El conductor huyó del lugar. La investigación continúa.\\n\\nLee la noticia completa en cevnoticias.com.\\n\\n#CEVNoticias #Actualidad #Cali #ValleDelCauca",
+      "verificacion": "Varias fuentes independientes",
+      "fecha": "04/11/2026 · 04:24 PM",
+      "fuentes": [
+        {
+          "nombre": "El Tiempo",
+          "titulo": "¿Qué escondía? El misterio del camión abandonado que obligó a activar un plan antiterrorista en el suroriente de Cali: su conductor salió corriendo",
+          "url": "https://www.eltiempo.com/colombia/cali/que-escondia-el-misterio-del-camion-abandonado-que-obligo-a-activar-un-plan-antiterrorista-en-el-suroriente-de-cali-su-conductor-salio-corriendo-3598451"
+        },
+        {
+          "nombre": "Diario Occidente",
+          "titulo": "Conductor huyó y dejó un camión abandonado en Cali: la sospecha de una bomba obligó a cerrar la vía",
+          "url": "https://occidente.co/cali/autopista-simon-bolivar-descartan-explosivos-en-camion/"
+        }
+      ]
+    },
+    {
+      "id": "f43ba71d20c0d326",
+      "autor": "CEV NOTICIAS",
+      "titulo": "Oiga Mire Lea 2026: el Valle del Cauca se prepara para diez días de literatura y más de 200 invitados",
+      "titular_instagram": "Oiga Mire Lea 2026: 10 días de literatura en el Valle",
+      "resumen": "El Valle del Cauca se prepara para la duodécima edición del Festival Internacional de Literatura Oiga Mire Lea, que se celebrará del 20 al 29 de noviembre de 2026. El evento, organizado por la Biblioteca Departamental Jorge Garcés Borrero y la Gobernación, contará con una franja infantil, una fase descentralizada a diez municipios y una agenda principal para adultos, y reunirá a más de 200 figuras, entre ellas 13 internacionales.",
+      "categoria": "Valle del Cauca",
+      "contenido": "El Valle del Cauca se prepara para la duodécima edición del Festival Internacional de Literatura Oiga Mire Lea, que se celebrará del 20 al 29 de noviembre de 2026. La Biblioteca Departamental Jorge Garcés Borrero y la Gobernación del Valle del Cauca anunciaron la programación en la Cinemateca La Tertulia de Cali, donde se destacó la extensión a diez días y la inclusión de una franja infantil.\n\nLa organización ha dividido el festival en tres etapas. Del 20 al 22 de noviembre se centrará en el segmento junior, con talleres de cómic, funciones teatrales y espectáculos de títeres en la Comicteca de la biblioteca. El 23 al 25 de noviembre se trasladará a diez municipios del departamento, llevando la literatura a comunidades que no suelen contar con espacios culturales de esta magnitud. Finalmente, del 25 al 29 de noviembre se desplegará la agenda principal para el público adulto, con conferencias, mesas redondas y presentaciones de autores.\n\nLa gobernadora Dilian Francisca Toro, quien enfatizó la importancia del festival tras el sismo de agosto, dijo que el evento es “fundamental para sanar el tejido social, promover la resiliencia y congregar a las familias en torno a la imaginación, la lectura y la música”.\n\nEntre los atractivos del año, la Biblioteca Departamental habilitará de forma gratuita la galería Arteca del 18 al 22 de noviembre, con exhibiciones de maestros de la plástica como Fernando Botero, Luis Caballero, Enrique Grau, Alejandro Obregón y Caravaggio. Además, la franja infantil contará con la alianza estratégica con la Fundación Pombo y la presentación de la agrupación de rock infantil Tu Rockcito.\n\nEl festival reunirá a más de 200 figuras, entre ellas 13 invitados internacionales de renombre, como Guillermo Arriaga, Nona Fernández y Pablo Di Marco. La agenda se desarrollará en la Biblioteca Departamental, auditorios universitarios, el Museo La Tertulia y los diez municipios participantes.\n\nAunque la información proviene de un comunicado de la Biblioteca Departamental y la Gobernación, la cobertura confirma la estructura descentralizada y la participación de artistas locales e internacionales. Se espera que el evento refuerce la presencia cultural del Valle del Cauca y sirva como plataforma de resiliencia tras la reciente sismicidad.\n\nLo que aún falta por conocer son los detalles finales de la programación, la logística de traslado a los municipios y la confirmación de la asistencia de los invitados internacionales. Los organizadores han indicado que se publicará una agenda completa en las próximas semanas.",
+      "estado_informacion": "informacion_preliminar",
+      "investigacion": {
+        "enfoque_original": "Esta cobertura destaca la estructura descentralizada del festival, la inclusión de una franja infantil y la respuesta institucional a la reciente sismicidad, ofreciendo un panorama detallado de la programación y la participación de artistas locales e internacionales.",
+        "hechos_clave": [
+          "El Festival Oiga Mire Lea 2026 se llevará a cabo del 20 al 29 de noviembre en el Valle del Cauca.",
+          "La programación incluye una franja infantil (20‑22 nov), una fase descentralizada a diez municipios (23‑25 nov) y una agenda principal para adultos (25‑29 nov).",
+          "Más de 200 invitados, incluidos 13 internacionales, participarán en el evento."
+        ],
+        "fuentes_recuperadas": 1,
+        "dominios_independientes": 1,
+        "fecha": "2026-11-04T21:29:15.575695+00:00"
+      },
+      "imagen": "",
+      "imagen_credito": {},
+      "imagen_busqueda_intentada": true,
+      "imagen_instagram": "https://cevnoticias.com/social/f43ba71d20c0d326.jpg",
+      "imagen_instagram_tipo": "portada_grafica_cev",
+      "descripcion_instagram": "Oiga Mire Lea 2026: el Valle del Cauca se prepara para diez días de literatura y más de 200 invitados\\n\\nEl Valle del Cauca se prepara para la duodécima edición del Festival Internacional de Literatura Oiga Mire Lea, que se celebrará del 20 al 29 de noviembre de 2026. El evento, organizado por la Biblioteca Departamental Jorge Garcés Borrero y la Gobernación, contará con una franja infantil, una fase descentralizada a diez municipios y una agenda principal para adultos, y reunirá a más de 200 figuras, entre ellas 13 internacionales.\\n\\nLee la noticia completa en cevnoticias.com.\\n\\n#CEVNoticias #Actualidad #ValleDelCauca #Colombia",
+      "verificacion": "Una sola fuente",
+      "fecha": "04/11/2026 · 04:29 PM",
+      "fuentes": [
+        {
+          "nombre": "90 Minutos",
+          "titulo": "Oiga Mire Lea 2026: el Valle se prepara para 10 días de literatura y más de 200 invitados",
+          "url": "https://90minutos.co/vida-moderna/cultura/oiga-mire-lea-2026-valle-literatura-invitados-4-11-2026/"
+        }
+      ]
+    },
+    {
       "id": "4d8e4c0d4f61fe24",
       "autor": "CEV NOTICIAS",
       "titulo": "Accidente en la Panamericana de Rosas deja al menos tres muertos y más de una docena de heridos",
@@ -1369,31 +1446,391 @@
   "periodo_breves_publicado": "edicion-inicial-2026-11-03",
   "titulares_rss": [
     {
-      "id": "a9c4a277414bf9e6",
-      "titulo": "Gobierno de Estados Unidos se mantendrá igual tras la victoria demócrata, señala Alemania",
-      "categoria": "Internacional",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/gobierno-de-estados-unidos-se-mantendrá-igual-tras-la-victoria-demócrata-señala-alemania/live-79845739?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-04T16:20:00+00:00",
+      "id": "1c28d981beef705b",
+      "titulo": "Tributaria: partidos se reúnen a la espera de reunión del gobierno",
+      "categoria": "Deportes",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/en-vivo/tributaria-partidos-se-reunen-a-la-espera-de-reunion-del-gobierno/",
+      "fecha": "2026-11-04T21:19:58+00:00",
+      "imagen": "https://i0.wp.com/www.lasillavacia.com/wp-content/uploads/2026/11/Comisiones-economicas.jpg?fit=1024%2C768&quality=80&strip=all&ssl=1"
+    },
+    {
+      "id": "e2bd7d1150c5c7ca",
+      "titulo": "Por fallas en el radar de El Dorado, hay cancelaciones de vuelos de Latam",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/empresas/por-fallas-en-el-radar-de-el-dorado-hay-cancelaciones-de-vuelos-de-latam-4517739",
+      "fecha": "2026-11-04T21:12:38+00:00",
       "imagen": ""
     },
     {
+      "id": "daef36159307fcc4",
+      "titulo": "Viajar a Estados Unidos: nuevo requisito sanitario obligatorio para pasajeros desde noviembre",
+      "categoria": "Internacional",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/vida-moderna/turismo/viajar-a-estados-unidos-nuevo-requisito-04-11-2026/",
+      "fecha": "2026-11-04T21:11:43+00:00",
+      "imagen": "https://90minutos.co/90minutos.co/wp-content/uploads/2026/11/turismo-viajar-pasaporte.jpg"
+    },
+    {
+      "id": "5f328907bd8eb89c",
+      "titulo": "Comisiones económicas avalan cambios al Presupuesto de 2026 con recursos para damnificados y energía",
+      "categoria": "Economía",
+      "fuente": "La FM Economía",
+      "url": "https://www.lafm.com.co/economia/presupuesto-2026-aprueban-adicion-para-damnificados-y-adultos-mayores-416138",
+      "fecha": "2026-11-04T21:10:41+00:00",
+      "imagen": "https://files.lafm.com.co/media/news-images/2026/09/08/134023/abelardo-de-la-espriella-congreso-1200x675.jpg"
+    },
+    {
+      "id": "7e798b0b540b2a66",
+      "titulo": "Elecciones Junta Directiva 2027–2030 | Cámara de Comercio del Chocó",
+      "categoria": "Colombia",
+      "fuente": "Chocó 7 días",
+      "url": "https://choco7dias.com/elecciones-junta-directiva-2027-2030-camara-de-comercio-del-choco/",
+      "fecha": "2026-11-04T21:09:49+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "ca09642b90f1d45d",
+      "titulo": "Tras venta de Gran Plaza, Pactia quedó con $2,6 billones en activos gestionados",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/empresas/tras-venta-de-gran-plaza-pactia-quedo-con-2-6-billones-en-activos-gestionados-4517709",
+      "fecha": "2026-11-04T21:05:27+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "60bb96899c8aef8f",
+      "titulo": "El doble siniestro de Volare Mare: radiografía de la caída del megaproyecto urbanístico que prometía una isla artificial, estilo Dubái, en Cartagena",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/el-doble-siniestro-de-volare-mare-radiografia-de-la-caida-del-megaproyecto-urbanistico-que-prometia-una-isla-artificial-estilo-dubai-en-cartagena-3598471",
+      "fecha": "2026-11-04T21:04:54+00:00",
+      "imagen": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/11/04/6aeb973960179.jpeg"
+    },
+    {
+      "id": "042a36beba06293f",
+      "titulo": "SAE recuperó dos inmuebles que tenían familiares de Euclides Torres",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/en-vivo/sae-recupero-dos-inmuebles-que-tenian-familiares-de-euclides-torres/",
+      "fecha": "2026-11-04T21:04:46+00:00",
+      "imagen": "https://i0.wp.com/www.lasillavacia.com/wp-content/uploads/2026/11/SAE.jpg?fit=1024%2C768&quality=80&strip=all&ssl=1"
+    },
+    {
       "id": "205407a51d52b290",
-      "titulo": "Las ‘midterms’ 2026, en vivo | Comienzan los reproches republicanos tras la ola azul que le arrebató el control del Congreso y repudió a Trump",
+      "titulo": "Las ‘midterms’ 2026, en vivo | Trump admite que la guerra en Irán  influyó en la derrota, pero que “lo haría de nuevo”",
       "categoria": "Colombia",
       "fuente": "El País Colombia",
       "url": "https://elpais.com/us/2026-11-04/las-midterms-2026-en-vivo.html",
-      "fecha": "2026-11-04T16:19:26+00:00",
-      "imagen": "https://imagenes.elpais.com/resizer/v2/WJALBCEW6VKAPDIYDNRWL6Z6JI.jpg?auth=a2f2aee1fe31f13836b9014831e22c6831b897c28bf55b7d4441d33942438356"
+      "fecha": "2026-11-04T21:01:59+00:00",
+      "imagen": "https://imagenes.elpais.com/resizer/v2/2LESBGV5NFKNLK7TK7A26E5EY4.jpg?auth=2b430e9940757b33fc35c3349fc198f55e6edd6b84da827a72483f8a48464ef1"
     },
     {
-      "id": "703ae323a24f8709",
-      "titulo": "Seguridad aérea: operar un dron cerca del aeropuerto de Cartagena acarrea multas de cerca de $100 millones e imputaciones penales y cárcel",
+      "id": "5c2216042e5c13de",
+      "titulo": "El IVA a la maquinaria puede frenar la modernización del campo",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/red-de-expertos/red-rural/el-iva-a-la-maquinaria-puede-frenar-la-modernizacion-del-campo/",
+      "fecha": "2026-11-04T21:00:00+00:00",
+      "imagen": "https://i0.wp.com/www.lasillavacia.com/wp-content/uploads/2026/10/Jairo_Andres_Rendon_portada_nueva.jpg?fit=1024%2C768&quality=80&strip=all&ssl=1"
+    },
+    {
+      "id": "5b0d59809e05ab04",
+      "titulo": "La Casa Blanca recuerda que Trump \"es todavía presidente\" pese a la derrota en las legislativas",
+      "categoria": "Internacional",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/la-casa-blanca-recuerda-que-trump-es-todavía-presidente-pese-a-la-derrota-en-las-legislativas/live-79845739?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-04T21:00:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "d5d820cf85ac972d",
+      "titulo": "El banco francés Credit Mutuel Arkea registra pérdidas por un ciberataque",
+      "categoria": "Economía",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/globoeconomia/el-banco-frances-credit-mutuel-arkea-registra-perdidas-por-un-ciberataque-4517723",
+      "fecha": "2026-11-04T20:56:25+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "e738000d98340629",
+      "titulo": "Inicia la cuenta regresiva para definir el salario mínimo 2027: estos son los montos que se manejan hasta ahora",
+      "categoria": "Economía",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/gobierno/inicia-la-cuenta-regresiva-para-definir-el-salario-minimo-2027-estos-son-los-montos-que-se-manejan-hasta-ahora-505723",
+      "fecha": "2026-11-04T20:56:11+00:00",
+      "imagen": "https://imagenes.portafolio.co/files/og_thumbnail/files/fp/uploads/2026/01/30/697ce051e3a3a.r_d.1024-682-0.jpeg"
+    },
+    {
+      "id": "fe24c1645ba6dffe",
+      "titulo": "Oiga Mire Lea 2026: el Valle se prepara para 10 días de literatura y más de 200 invitados",
+      "categoria": "Valle del Cauca",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/vida-moderna/cultura/oiga-mire-lea-2026-valle-literatura-invitados-4-11-2026/",
+      "fecha": "2026-11-04T20:53:42+00:00",
+      "imagen": "https://90minutos.co/wp-content/uploads/2026/11/Oiga-mire-lea-1.jpg"
+    },
+    {
+      "id": "0d6ae505487e5ff4",
+      "titulo": "Él era Felipe Joaquín Rivera, quien murió por explosivos lanzados desde un vehículo en El Patía, Cauca: 'Atacaron a los civiles en una zona comercial'",
       "categoria": "Colombia",
       "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/seguridad-aerea-operar-un-dron-cerca-del-aeropuerto-de-cartagena-acarrea-multas-de-cerca-de-100-millones-e-imputaciones-penales-con-penas-de-carcel-3598368",
-      "fecha": "2026-11-04T16:18:57+00:00",
-      "imagen": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/11/04/6aeb4834b1703.jpeg"
+      "url": "https://www.eltiempo.com/colombia/cali/el-era-felipe-joaquin-rivera-quien-murio-por-explosivos-lanzados-desde-un-vehiculo-en-el-patia-cauca-atacaron-a-los-civiles-en-una-zona-comercial-3598488",
+      "fecha": "2026-11-04T20:53:35+00:00",
+      "imagen": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2026/11/04/6aeb9a2b0d27a.r_d.407-224-0.jpeg"
+    },
+    {
+      "id": "998ea879ef8fc226",
+      "titulo": "Habitantes de municipios en Caldas, Risaralda y Quindío pagarán solo $700 en algunos peajes: así puede inscribirse para recibir la tarifa diferencial",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/habitantes-de-municipios-en-caldas-risaralda-y-quindio-pagaran-solo-700-en-algunos-peajes-asi-puede-inscribirse-para-recibir-la-tarifa-diferencial-3598493",
+      "fecha": "2026-11-04T20:52:14+00:00",
+      "imagen": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/11/04/6aeb983134950.png"
+    },
+    {
+      "id": "197a6fd0ddedf217",
+      "titulo": "Perú declaró el estado de emergencia en 70% de su territorio por el riesgo de lluvias",
+      "categoria": "Internacional",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/globoeconomia/peru-declaro-el-estado-de-emergencia-en-70-de-su-territorio-por-el-riesgo-de-lluvias-4517708",
+      "fecha": "2026-11-04T20:47:26+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "07b36eb927423bba",
+      "titulo": "¿Qué hacer después de un sismo? Estas son las recomendaciones de la UNGRD",
+      "categoria": "Valle del Cauca",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/colombia/que-hacer-despues-de-un-sismo-ungrd-04-11-2026/",
+      "fecha": "2026-11-04T20:46:59+00:00",
+      "imagen": "https://90minutos.co/wp-content/uploads/2026/08/silencio-rescatistas-senales-de-vida-sismo-4.jpeg"
+    },
+    {
+      "id": "d40dbed537379d19",
+      "titulo": "Caos en El Dorado: pantallas en negro y cese de operaciones por falla crítica en los radares del aeropuerto en Bogotá",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/reportan-fallas-radares-aeropuerto-internacional-el-dorado-bogota-KO43187629",
+      "fecha": "2026-11-04T20:46:26+00:00",
+      "imagen": "https://estaticos.elcolombiano.com/binrepository/450x300/0c0/0d0/center/11101/NPST/foto-radares-del-aeropuerto-el-dorad_52055525_20261104153857.jpg"
+    },
+    {
+      "id": "3b206e9a00abd0a5",
+      "titulo": "JEP advierte que recortes de presupuesto pueden causar impunidad",
+      "categoria": "Valle del Cauca",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/colombia/jep-advierte-recortes-presupuesto-pueden-causar-impunidad-4-11-2026/",
+      "fecha": "2026-11-04T20:45:08+00:00",
+      "imagen": "https://90minutos.co/90minutos.co/wp-content/uploads/2026/11/Que-es-la-ley-de-sometimiento.jpg"
+    },
+    {
+      "id": "1986ae87cd98ffb3",
+      "titulo": "El giro demócrata del voto latino castiga a Trump en EE.UU.",
+      "categoria": "Internacional",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/el-giro-demócrata-del-voto-latino-castiga-a-trump-en-ee-uu/a-79858970?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-04T20:45:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "e797477595012a79",
+      "titulo": "'La adicción de Gustavo Petro a la deuda tiene al borde del colapso nuestra economía': Ministro de Hacienda",
+      "categoria": "Economía",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/finanzas/la-adiccion-de-gustavo-petro-a-la-deuda-tiene-al-borde-del-colapso-nuestra-economia-ministro-de-hacienda-505717",
+      "fecha": "2026-11-04T20:33:30+00:00",
+      "imagen": "https://imagenes.portafolio.co/files/og_thumbnail/files/fp/uploads/2026/10/01/6abed598bcbb6.r_d.849-361-0.png"
+    },
+    {
+      "id": "ba9ba3c919be69ef",
+      "titulo": "El impacto de la victoria demócrata en la economía estadounidense",
+      "categoria": "Internacional",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/el-impacto-de-la-victoria-demócrata-en-la-economía-estadounidense/a-79858843?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-04T20:32:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "543469d1d4bba497",
+      "titulo": "Comprar electricidad barata y venderla cara: el negocio de las baterías eléctricas tiene un enemigo inesperado",
+      "categoria": "Internacional",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/energia/comprar-electricidad-barata-venderla-cara-negocio-baterias-tiene-enemigo-inesperado",
+      "fecha": "2026-11-04T20:31:29+00:00",
+      "imagen": "https://i.blogs.es/89c774/virtue-solar-5ckhscrqmxc-unsplash/1024_2000.jpeg"
+    },
+    {
+      "id": "00f5e390061f1623",
+      "titulo": "Accidente en el rodaje de película de Batman habría afectado a actor; pausaron grabaciones",
+      "categoria": "Valle del Cauca",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/entretenimiento/accidente-en-el-rodaje-de-pelicula-de-batman-04-11-2026/",
+      "fecha": "2026-11-04T20:26:14+00:00",
+      "imagen": "https://90minutos.co/wp-content/uploads/2026/07/cine-luto.jpg"
+    },
+    {
+      "id": "c0f18036d917bb65",
+      "titulo": "Asesinan a médico veterinario dentro de su establecimiento en El Banco, Magdalena: atacante se habría hecho pasar por cliente y luego le disparó",
+      "categoria": "Economía",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/asesinan-a-medico-veterinario-dentro-de-su-establecimiento-en-el-banco-magdalena-atacante-se-habria-hecho-pasar-por-cliente-y-luego-le-disparo-3598456",
+      "fecha": "2026-11-04T20:17:22+00:00",
+      "imagen": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/11/04/6aeb88117165a.jpeg"
+    },
+    {
+      "id": "1b50ec421b667948",
+      "titulo": "¿Qué escondía? El misterio del camión abandonado que obligó a activar un plan antiterrorista en el suroriente de Cali: su conductor salió corriendo",
+      "categoria": "Cali",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/cali/que-escondia-el-misterio-del-camion-abandonado-que-obligo-a-activar-un-plan-antiterrorista-en-el-suroriente-de-cali-su-conductor-salio-corriendo-3598451",
+      "fecha": "2026-11-04T20:04:59+00:00",
+      "imagen": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2026/11/04/6aeb7c67b42d8.r_d.1160-446-0.jpeg"
+    },
+    {
+      "id": "9b85fef03f1055b3",
+      "titulo": "Los ciberataques siguen afectando a empresas europeas y ahora golpean al banco francés Crédit Mutuel Arkéa",
+      "categoria": "Internacional",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/seguridad/ciberataques-siguen-afectando-a-empresas-europeas-ahora-golpean-al-banco-frances-credit-mutuel-arkea",
+      "fecha": "2026-11-04T20:01:26+00:00",
+      "imagen": "https://i.blogs.es/a373c3/credit-mutuel-arkea/1024_2000.jpeg"
+    },
+    {
+      "id": "70bbd76efec17d39",
+      "titulo": "Menos impuestos para empresas, más cargas para los hogares",
+      "categoria": "Economía",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/red-de-expertos/red-social/menos-impuestos-para-empresas-mas-cargas-para-los-hogares/",
+      "fecha": "2026-11-04T20:00:00+00:00",
+      "imagen": "https://i0.wp.com/www.lasillavacia.com/wp-content/uploads/2026/04/Gonzalo_Caicedo-1.jpg?fit=1024%2C768&quality=80&strip=all&ssl=1"
+    },
+    {
+      "id": "8694af7f092d70bf",
+      "titulo": "Comisiones Económicas Conjuntas aprueban en primer debate adición presupuestal de 2026",
+      "categoria": "Economía",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/comisiones-economicas-conjuntas-aprueban-en-primer-debate-adicion-presupuestal-de-505715",
+      "fecha": "2026-11-04T19:56:04+00:00",
+      "imagen": "https://imagenes.portafolio.co/files/og_thumbnail/uploads/2025/08/19/68a4dfc33c4cd.jpeg"
+    },
+    {
+      "id": "f035052972d0fd00",
+      "titulo": "Trump descarta destituir al secretario de Defensa, Pete Hegseth",
+      "categoria": "Internacional",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/trump-descarta-destituir-al-secretario-de-defensa-pete-hegseth/a-79858940?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-04T19:45:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "4159f55748a2a820",
+      "titulo": "Investigan procedencia de mosquitos infectados que provocaron brote de malaria",
+      "categoria": "Valle del Cauca",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/vida-moderna/salud/brote-de-malaria-salud-origen-mosquitos-04-11-2026/",
+      "fecha": "2026-11-04T19:11:11+00:00",
+      "imagen": "https://90minutos.co/wp-content/uploads/2026/08/donacion-salud-hospital.jpg"
+    },
+    {
+      "id": "23ae1cbc22e8adc4",
+      "titulo": "Policía Nacional: 135 años velando por la seguridad de los colombianos",
+      "categoria": "Valle del Cauca",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/colombia/policia-nacional-cumple-135-anos-de-servicio-en-colombia/",
+      "fecha": "2026-11-04T19:06:40+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "18b8564e1e554dbb",
+      "titulo": "A segundo debate pasó el proyecto de ley del presupuesto de regalías para el bienio 2027-2028",
+      "categoria": "Economía",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/a-segundo-debate-paso-el-proyecto-de-ley-del-presupuesto-de-regalias-para-el-bienio-2027-505710",
+      "fecha": "2026-11-04T19:05:14+00:00",
+      "imagen": "https://imagenes.portafolio.co/files/og_thumbnail/uploads/2026/11/03/6aea3c4f4e72d.jpeg"
+    },
+    {
+      "id": "ca38ff2dc51369c0",
+      "titulo": "Hay físicos empeñados en demostrar que Einstein se equivocó y los neutrinos del Mediterráneo, de momento, no les dan la razón",
+      "categoria": "Internacional",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/espacio/einstein-a-prueba-fondo-mediterraneo-neutrinos-no-encuentran-grietas-teoria-relatividad-momento",
+      "fecha": "2026-11-04T19:01:24+00:00",
+      "imagen": "https://i.blogs.es/877e58/detecor-neutrinos-mar-mediterraneo/1024_2000.jpeg"
+    },
+    {
+      "id": "2ee2e5adfa716204",
+      "titulo": "Las gráficas que explican los resultados de las elecciones intermedias",
+      "categoria": "Internacional",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/las-gráficas-que-explican-los-resultados-de-las-elecciones-intermedias/a-79857790?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-04T18:49:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "e999fffe50eec032",
+      "titulo": "Industria de motocicletas impulsa más de 130.000 empleos en Colombia",
+      "categoria": "Valle del Cauca",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/empresario/industria-de-motocicletas-impulsa-mas-de-130-mil-empleos/",
+      "fecha": "2026-11-04T18:43:22+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "4ddde6d5953c230e",
+      "titulo": "Deuda pública de Colombia podría llegar hasta el 82% del PIB en 2030",
+      "categoria": "Valle del Cauca",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/empresario/ley-de-rescate-economico-anif-proyecta-impacto-en-la-deuda/",
+      "fecha": "2026-11-04T18:38:24+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "f8f6721cd100a072",
+      "titulo": "Autoridades rechazan ataque explosivo contra el peaje de Media Canoa, en Yotoco",
+      "categoria": "Valle del Cauca",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/valle-del-cauca/rechazan-ataque-explosivo-peaje-media-canoa-4-11-2026/",
+      "fecha": "2026-11-04T18:35:42+00:00",
+      "imagen": "https://90minutos.co/90minutos.co/wp-content/uploads/2026/11/Ataque-explosivo-en-Patia.jpeg"
+    },
+    {
+      "id": "daad5812b8bfbecb",
+      "titulo": "El recreo",
+      "categoria": "Valle del Cauca",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/opinion/columnistas/el-recreo/",
+      "fecha": "2026-11-04T18:23:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "7a1760afeb7ee071",
+      "titulo": "Brian Fariñas es la nueva joya de la cantera que se abre paso en el Barcelona",
+      "categoria": "Deportes",
+      "fuente": "La FM Deportes",
+      "url": "https://www.lafm.com.co/deportes/brian-farinas-nueva-joya-cantera-fc-barcelona-416107",
+      "fecha": "2026-11-04T17:58:49+00:00",
+      "imagen": "https://files.lafm.com.co/media/news-images/2026/11/04/195911/brian-farinas-es-la-nueva-joya-de-la-cantera-que-se-abre-paso-en-el-barcelona-1200x675.jpg"
+    },
+    {
+      "id": "c8626be5bbc40458",
+      "titulo": "Emisor lanzó cuarta subasta de compra de dólares por US$399,8 millones",
+      "categoria": "Economía",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/economia/emisor-lanzo-cuarta-subasta-de-compra-de-dolares-por-us-399-8-millones-4517606",
+      "fecha": "2026-11-04T17:55:06+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "a56bd01a669b6870",
+      "titulo": "Reconstrucción por Impuestos: Gobierno proyecta $10 billones para 2027, frente a $200.000 millones este año",
+      "categoria": "Economía",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/infraestructura/reconstruccion-por-impuestos-gobierno-proyecta-10-billones-para-2027-frente-a-200-000-millones-este-ano-505698",
+      "fecha": "2026-11-04T17:35:00+00:00",
+      "imagen": "https://imagenes.portafolio.co/files/og_thumbnail/files/fp/uploads/2026/11/04/6aeb6c2e7787a.r_d.610-515-0.png"
     },
     {
       "id": "de04f47057c5022f",
@@ -1405,328 +1842,22 @@
       "imagen": ""
     },
     {
-      "id": "dc42289a90f56422",
-      "titulo": "Airbus evaluará inversiones a cuatro años en Bogotá para crear una cadena aeronáutica y aeroespacial en Colombia",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/airbus-evaluara-inversiones-a-cuatro-anos-en-bogota-para-crear-una-cadena-aeronautica-y-aeroespacial-en-colombia-505693",
-      "fecha": "2026-11-04T16:10:00+00:00",
-      "imagen": "https://imagenes.portafolio.co/files/og_thumbnail/uploads/2025/12/01/692ded767e383.jpeg"
-    },
-    {
-      "id": "8040e9365b0937f9",
-      "titulo": "En Colombia, el 72 % del crédito a transformación agropecuaria financia compras y solo el 7 % va a inversión",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/finanzas/en-colombia-el-72-del-credito-a-transformacion-agropecuaria-financia-compras-y-solo-el-7-va-a-inversion-505696",
-      "fecha": "2026-11-04T16:09:32+00:00",
-      "imagen": "https://imagenes.portafolio.co/files/og_thumbnail/uploads/2026/08/01/6a6e373e83707.png"
-    },
-    {
-      "id": "c7325f5dde8c377f",
-      "titulo": "El sueño de estudiar en el exterior comienza para 200 jóvenes de Santa Marta que recibieron su primer pasaporte",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/el-sueno-de-estudiar-en-el-exterior-comienza-para-200-jovenes-de-santa-marta-que-recibieron-su-primer-pasaporte-3598393",
-      "fecha": "2026-11-04T16:08:41+00:00",
-      "imagen": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2026/11/04/6aeb54d377dc7.r_d.661-375-0.jpeg"
-    },
-    {
-      "id": "a55045398eb817f1",
-      "titulo": "Shein invierte US$563 millones en Europa ante endurecimiento de normas aduaneras",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/shein-invierte-us-563-millones-en-europa-ante-el-endurecimiento-de-las-normas-aduaneras-4517513",
-      "fecha": "2026-11-04T16:07:16+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "aa08476f52b56f3e",
-      "titulo": "Video | David Ospina anuncia su retiro del fútbol profesional: Esta fue la lesión que lo obligó",
-      "categoria": "Valle del Cauca",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/deportes/video-david-ospina-anuncia-su-retiro-del-futbol-profesional-04-11-2026/",
-      "fecha": "2026-11-04T16:02:09+00:00",
-      "imagen": "https://90minutos.co/90minutos.co/wp-content/uploads/2026/09/futbol-luto-deporte.jpg"
-    },
-    {
-      "id": "64baf5c6bbe7266f",
-      "titulo": "Gobierno priorizará gasoducto Antonio Ricaurte para importar gas desde Venezuela",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/economia/gobierno-priorizara-gasoducto-antonio-ricaurte-para-traer-gas-de-venezuela-4517466",
-      "fecha": "2026-11-04T16:01:27+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "8d8b8d7e4d253dd2",
-      "titulo": "Muy pronto en Lidl este árbol de Navidad artificial con altura de dos metros y un precio rebajado",
-      "categoria": "Internacional",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/seleccion/muy-pronto-lidl-este-arbol-navidad-artificial-altura-dos-metros-precio-rebajado",
-      "fecha": "2026-11-04T16:01:26+00:00",
-      "imagen": "https://i.blogs.es/4f49b3/lidl/1024_2000.jpeg"
-    },
-    {
-      "id": "ed446416108cc493",
-      "titulo": "Revolut pasa de Claude Code o Codex y pone a 2.000 ingenieros a trabajar con GLM 5.3: su factura de IA es ahora diez veces menor",
-      "categoria": "Internacional",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/empresas-y-economia/revolut-pasa-claude-code-codex-pone-a-2-000-ingenieros-a-trabajar-glm-5-3-su-factura-ia-ahora-diez-veces-menor",
-      "fecha": "2026-11-04T16:01:26+00:00",
-      "imagen": "https://i.blogs.es/1e8163/appshunter-io-dq2qu7y5dzm-unsplash/1024_2000.jpeg"
-    },
-    {
-      "id": "96e6acbc03e9c8bc",
-      "titulo": "Las acciones de Tesla caen 5% y SpaceX se desploma 6,9% antes de la apertura",
-      "categoria": "Internacional",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/las-acciones-de-tesla-caen-5-y-spacex-se-desploma-6-9-antes-de-la-apertura-4517464",
-      "fecha": "2026-11-04T15:56:32+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "8879cae84926d7ab",
-      "titulo": "“Llegó a cobrar viejos dolores”: Lafaurie por altercado con el MinAgro",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/en-vivo/llego-a-cobrar-viejos-dolores-lafaurie-por-altercado-con-el-minagro/",
-      "fecha": "2026-11-04T15:56:16+00:00",
-      "imagen": "https://i0.wp.com/www.lasillavacia.com/wp-content/uploads/2026/11/Indalecio_Lafaurie-1.jpg?fit=1024%2C768&quality=80&strip=all&ssl=1"
-    },
-    {
-      "id": "7bfc08855ae86d76",
-      "titulo": "Un policía de 27 años fue asesinado en Medellín tras intervenir en un episodio de sicariato entre grupos delincuenciales organizados",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/medellin/un-policia-de-27-anos-fue-asesinado-en-medellin-tras-intervenir-en-un-episodio-de-sicariato-entre-grupos-delincuenciales-organizados-3598383",
-      "fecha": "2026-11-04T15:56:00+00:00",
-      "imagen": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2026/11/04/6aeb4d73cbbcd.r_d.879-530-0.png"
-    },
-    {
-      "id": "bc372afb430b5251",
-      "titulo": "¿Alcanza para el día a día? Así quedaría la jornada laboral si el salario mínimo sube 8%",
-      "categoria": "Economía",
-      "fuente": "La FM Economía",
-      "url": "https://www.lafm.com.co/economia/alcanza-dia-a-dia-jornada-laboral-salario-minimo-sube-8-416098",
-      "fecha": "2026-11-04T15:55:29+00:00",
-      "imagen": "https://files.lafm.com.co/media/news-images/2026/10/18/001919/billetes-de-100-mil-pesos-colombia-1200x675.jpg"
-    },
-    {
-      "id": "625acb97163e92b4",
-      "titulo": "Campetrol propondrá incluir la exploración e inversión geológica en el Plan de Desarrollo",
-      "categoria": "Economía",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/economia/campetrol-propondra-incluir-la-exploracion-e-inversion-geologica-en-el-plan-de-desarrollo-4517462",
-      "fecha": "2026-11-04T15:52:24+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "3818d4e5d47cb085",
-      "titulo": "¿Qué es la ley de sometimiento y qué beneficios contempla? Esto fue lo aprobado por el Congreso",
-      "categoria": "Valle del Cauca",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/colombia/ley-sometimiento-aprobado-congreso-4-11-2026/",
-      "fecha": "2026-11-04T15:50:19+00:00",
-      "imagen": "https://90minutos.co/wp-content/uploads/2026/07/congreso-de-la-republica.jpg"
-    },
-    {
-      "id": "318b1e64dad78401",
-      "titulo": "Premios Xataka Verisure 2026: estos son los finalistas",
-      "categoria": "Internacional",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/xataka/premios-xataka-verisure-2026-estos-finalistas",
-      "fecha": "2026-11-04T15:47:47+00:00",
-      "imagen": "https://i.blogs.es/da1946/cartel-del-evento-con-finalistas/1024_2000.png"
-    },
-    {
-      "id": "9e9cc8ba04db0612",
-      "titulo": "Tres dispositivos muy rebajados en el 11.11 de AliExpress que todavía siguen disponibles: una tablet, un reloj Garmin y una consola",
-      "categoria": "Internacional",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/seleccion/tres-dispositivos-muy-rebajados-11-11-aliexpress-que-todavia-siguen-disponibles-tablet-reloj-garmin-consola",
-      "fecha": "2026-11-04T15:45:22+00:00",
-      "imagen": "https://i.blogs.es/5b1716/1440_1080/1024_2000.jpeg"
-    },
-    {
-      "id": "c99b7c190800906a",
-      "titulo": "Acción de Metro Bank, de Gilinski, aumentó 17% tras la entrega de resultados",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/finanzas/metro-bank-de-jaime-gilinski-aumento-37-su-cartera-de-credito-objetivo-en-el-tercer-trimestre-4517274",
-      "fecha": "2026-11-04T15:43:38+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "177e6e03946603fa",
-      "titulo": "Exportaciones sumaron US$5.410,7 millones y marcaron su mayor pico desde julio de 2022",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/economia/balance-de-exportaciones-con-corte-a-septiembre-y-en-lo-corrido-del-ano-4517438",
-      "fecha": "2026-11-04T15:38:14+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "ece883f625d0211e",
-      "titulo": "Denuncian ingreso de vehículos al Páramo de Siscunsí en Boyacá: estarían parqueando sobre vegetación nativa y cerca de frailejones",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/denuncian-ingreso-de-vehiculos-al-paramo-de-siscunsi-en-boyaca-estarian-parqueando-sobre-vegetacion-nativa-y-cerca-de-frailejones-3598378",
-      "fecha": "2026-11-04T15:35:05+00:00",
-      "imagen": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/11/04/6aeb4b455f4aa.png"
-    },
-    {
       "id": "8e6a26ee93fdb02b",
       "titulo": "La carta del director de la cárcel de Villahermosa de Cali sobre amenazas de muerte contra él y su familia: 'El próximo comunicado no es con nota'",
       "categoria": "Cali",
-      "fuente": "El Tiempo",
+      "fuente": "El Tiempo Cali",
       "url": "https://www.eltiempo.com/colombia/cali/la-carta-del-director-de-la-carcel-de-villahermosa-de-cali-sobre-amenazas-de-muerte-contra-el-y-su-familia-el-proximo-comunicado-no-es-con-nota-3598336",
       "fecha": "2026-11-04T15:29:21+00:00",
       "imagen": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2026/11/04/6aeb3be0016ff.r_d.804-602-0.jpeg"
     },
     {
       "id": "8acc995064a8d94d",
-      "titulo": "Nike United presenta su última colección de guayos junto a seis figuras del fútbol femenino",
+      "titulo": "Nike United presenta su última colección de guayos junto a figuras del fútbol femenino",
       "categoria": "Deportes",
       "fuente": "La República",
       "url": "https://www.larepublica.co/ocio/nike-united-presenta-su-ultima-coleccion-de-guayos-junto-a-seis-figuras-del-futbol-femenino-4517424",
       "fecha": "2026-11-04T15:15:59+00:00",
       "imagen": ""
-    },
-    {
-      "id": "7e88a51a7a224d96",
-      "titulo": "El efecto tijera en el que se encuentra el sector exportador de café",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/agro/el-efecto-tijera-en-el-que-se-encuentra-el-sector-exportador-de-cafe-505687",
-      "fecha": "2026-11-04T15:12:05+00:00",
-      "imagen": "https://imagenes.portafolio.co/files/og_thumbnail/uploads/2026/11/04/6aeb4aecb9249.jpeg"
-    },
-    {
-      "id": "0b54122d673f1b61",
-      "titulo": "Este móvil Motorola es un chollo en MediaMarkt antes del Black Friday: ahora cuesta menos de 520 euros",
-      "categoria": "Internacional",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/seleccion/este-movil-motorola-chollo-mediamarkt-antes-black-friday-ahora-cuesta-520-euros",
-      "fecha": "2026-11-04T15:01:24+00:00",
-      "imagen": "https://i.blogs.es/e80fa0/motorola-edge-70-max-1-/1024_2000.jpeg"
-    },
-    {
-      "id": "85d1dd4ca2f0cadd",
-      "titulo": "Apple encuentra en los 2 nm una salida a sus problemas de fabricación",
-      "categoria": "Internacional",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/componentes/apple-encuentra-2-nm-salida-a-sus-problemas-fabricacion",
-      "fecha": "2026-11-04T15:01:23+00:00",
-      "imagen": "https://i.blogs.es/6cfa01/tsmc/1024_2000.jpeg"
-    },
-    {
-      "id": "fd1f4dfa0f0004a3",
-      "titulo": "Restaurantes prenden las alarmas: gremio prevé que 6.500 sitios de comida cerrarían en Colombia en 2026",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/mas-de-6-500-restaurantes-cerrarian-en-colombia-en-2026-alerta-acoga-505682",
-      "fecha": "2026-11-04T14:55:28+00:00",
-      "imagen": "https://imagenes.portafolio.co/files/og_thumbnail/uploads/2026/08/12/6a7cd34974e9f.jpeg"
-    },
-    {
-      "id": "9f0e1872368c6ba3",
-      "titulo": "Marco Rubio negocia presencia militar de EE. UU. en Venezuela: ¿qué pasará con Diosdado Cabello?",
-      "categoria": "Internacional",
-      "fuente": "La FM Internacional",
-      "url": "https://www.lafm.com.co/internacional/marco-rubio-negocia-militares-estados-unidos-venezuela-que-pasara-diosdado-cabello-416086",
-      "fecha": "2026-11-04T14:52:22+00:00",
-      "imagen": "https://files.lafm.com.co/media/news-images/2026/11/04/135627/marco-rubio-1200x675.jpg"
-    },
-    {
-      "id": "9fe905b48909ded7",
-      "titulo": "Uruguay lidera las ventas de vehículos eléctricos en América Latina con 36% del mercado",
-      "categoria": "Economía",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/uruguay-lidera-las-ventas-de-vehiculos-electricos-en-america-latina-con-36-del-mercado-4517422",
-      "fecha": "2026-11-04T14:48:09+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "9a57c90b69c2119f",
-      "titulo": "Cartagena Cómo vamos: gracias al mercado laboral informal, la pobreza monetaria en la ciudad bajó 6,5 puntos porcentuales entre el 2024 y el 2025",
-      "categoria": "Economía",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/cartagena-como-vamos-gracias-al-mercado-laboral-informal-la-pobreza-monetaria-en-la-ciudad-bajo-6-5-puntos-porcentuales-entre-el-2024-y-el-3598353",
-      "fecha": "2026-11-04T14:42:29+00:00",
-      "imagen": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2024/06/11/6668dc2b6085f.jpeg"
-    },
-    {
-      "id": "a1dd8c7dee1e7c2f",
-      "titulo": "Grave accidente en la vía Panamericana deja dos muertos y más de 15 heridos en Cauca: un bus de la empresa Flota Magdalena chocó contra una tractomula",
-      "categoria": "Cali",
-      "fuente": "El Tiempo Cali",
-      "url": "https://www.eltiempo.com/colombia/cali/grave-accidente-en-la-via-panamericana-deja-dos-muertos-y-mas-de-15-heridos-en-cauca-un-bus-de-la-empresa-flota-magdalena-choco-contra-una-tractomula-3598324",
-      "fecha": "2026-11-04T14:28:48+00:00",
-      "imagen": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2026/11/04/6aeb327b4d129.r_d.1204-412-0.jpeg"
-    },
-    {
-      "id": "b8253cf184a8ebff",
-      "titulo": "El banco más grande de Paraguay cierra sus puertas por crisis financiera y desata caos",
-      "categoria": "Economía",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/las-cuentas-bancarias-desaparecen-justo-antes-del-amanecer-en-un-impactante-cierre-de-paraguay-4517405",
-      "fecha": "2026-11-04T14:28:19+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "f6cc4e988ed1bb0c",
-      "titulo": "De la Espriella lanza una campaña militar contra grupos armados en la frontera con Venezuela",
-      "categoria": "Valle del Cauca",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/colombia/campana-militar-contra-grupos-armados-frontera-venezuela-4-11-2026/",
-      "fecha": "2026-11-04T14:27:24+00:00",
-      "imagen": "https://90minutos.co/90minutos.co/wp-content/uploads/2026/05/dian-contaduria-declaracion-de-impuestos.jpg"
-    },
-    {
-      "id": "ff0797477ddd5fab",
-      "titulo": "Muere el director italiano de cine erótico Tinto Brass, el \"más censurado\" de su tiempo",
-      "categoria": "Internacional",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/muere-el-director-italiano-de-cine-erótico-tinto-brass-el-más-censurado-de-su-tiempo/a-79855894?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-04T14:26:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "c14cdb870096684d",
-      "titulo": "Video | Millonarios vs. América: Así llegan ambos clubes al 'clásico'",
-      "categoria": "Valle del Cauca",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/deportes/america-de-cali/video-millonarios-vs-america-fpc-04-11-2026/",
-      "fecha": "2026-11-04T14:19:15+00:00",
-      "imagen": "https://www.youtube.com/embed/ZxjMhOYGe2c"
-    },
-    {
-      "id": "805733ca84590f4e",
-      "titulo": "¿Nuevos usos para los espacios debajo de los puentes en Cali? Alcaldía estudia propuesta",
-      "categoria": "Cali",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/cali/espacios-debajo-puentes-cali-nuevos-usos-4-11-2026/",
-      "fecha": "2026-11-04T14:13:16+00:00",
-      "imagen": "https://90minutos.co/wp-content/uploads/2026/11/Espacios-debajo-puentes-Cali-Alcaldia-1.jpg"
-    },
-    {
-      "id": "39c08ea45a699971",
-      "titulo": "Terroristas atacaron con explosivo el peaje de Yotoco, Valle del Cauca, ¿por qué se ensañaron contra estas estructuras?",
-      "categoria": "Valle del Cauca",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/atentado-terrorista-explosivo-peaje-yotoco-valle-del-cauca-JA43163684",
-      "fecha": "2026-11-04T14:05:29+00:00",
-      "imagen": "https://estaticos.elcolombiano.com/binrepository/416x300/0c0/0d0/center/11101/QPFJ/foto-dano-en-peaje_52050617_20261104090326.jpg"
-    },
-    {
-      "id": "df94ddcdbded0048",
-      "titulo": "¿Por qué renunció al proceso de la ANDI, Carlos de Hart?",
-      "categoria": "Economía",
-      "fuente": "La FM Economía",
-      "url": "https://www.lafm.com.co/economia/andi-carlos-de-hart-renuncia-eleccion-presidente-independencia-gremio-gobierno-416087",
-      "fecha": "2026-11-04T13:57:10+00:00",
-      "imagen": "https://files.lafm.com.co/media/news-images/2026/11/04/144712/carlos-hart-1200x675.jpg"
     },
     {
       "id": "99322aeb29ca5914",
@@ -1747,15 +1878,6 @@
       "imagen": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2026/11/04/6aeb1cabcca96.r_d.1129-486-0.jpeg"
     },
     {
-      "id": "285bd77c9c7a61fd",
-      "titulo": "chips personalizados de Amazon crecen fuerte",
-      "categoria": "Valle del Cauca",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/secciones/tecnologia/chips-personalizados-amazon-crecen-fuerte/",
-      "fecha": "2026-11-04T13:00:00+00:00",
-      "imagen": ""
-    },
-    {
       "id": "b19dec2cc0f1fc8f",
       "titulo": "Conozca los barrios sin agua en Cali este miércoles; habrá cortes de 12 horas",
       "categoria": "Cali",
@@ -1774,22 +1896,13 @@
       "imagen": ""
     },
     {
-      "id": "d46a23b83cbdfd15",
-      "titulo": "Nueva ley económica pondría más impuestos a productos de la canasta familiar",
-      "categoria": "Valle del Cauca",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/colombia/nueva-ley-economica-pondria-impuestos-productos-canasta-familiar-4-11-2026/",
-      "fecha": "2026-11-04T12:06:13+00:00",
-      "imagen": "https://90minutos.co/wp-content/uploads/2026/09/Dinero-colombiano.jpg"
-    },
-    {
-      "id": "462c3a375f01074e",
-      "titulo": "¿En qué consiste la nueva ley de rescate económico? Esto dicen expertos",
-      "categoria": "Valle del Cauca",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/colombia/en-que-consiste-la-nueva-ley-de-rescate-economico-4-11-2026/",
-      "fecha": "2026-11-04T12:03:25+00:00",
-      "imagen": "https://90minutos.co/90minutos.co/wp-content/uploads/2026/07/Subsidio-Mi-Casa-Bella.jpg"
+      "id": "76981158f87ccdb1",
+      "titulo": "CONMEBOL alerta por venta ilegal de boletas para la final de la Sudamericana en Barranquilla",
+      "categoria": "Deportes",
+      "fuente": "La FM Deportes",
+      "url": "https://www.lafm.com.co/deportes/conmebol-alerta-venta-ilegal-boletas-final-copa-sudamericana-barranquilla-416078",
+      "fecha": "2026-11-04T12:30:13+00:00",
+      "imagen": "https://files.lafm.com.co/media/news-images/2026/10/28/133941/final-sudamericana-boca-mineiro-precios-tiquetes-vuelo-directo-buenos-aires-barranquilla-valor-entradas-1200x675.jpg"
     },
     {
       "id": "66e59faa82b5e669",
@@ -1810,24 +1923,6 @@
       "imagen": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2026/11/03/6aea09553b23d.r_d.898-984-0.jpeg"
     },
     {
-      "id": "bd99c83829fa66a0",
-      "titulo": "La victoria de Abdul El-Sayed en Míchigan permite al ala progresista de los demócratas soñar con la Casa Blanca",
-      "categoria": "Valle del Cauca",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/us/2026-11-04/la-victoria-de-el-sayed-en-michigan-permite-al-ala-progresista-de-los-democratas-sonar-con-la-casa-blanca.html",
-      "fecha": "2026-11-04T07:43:51+00:00",
-      "imagen": "https://vdmedia.elpais.com/mcv/elpais/multimedia/20261104/1233548_064517_video_1800.mp4"
-    },
-    {
-      "id": "e066102d290e72c0",
-      "titulo": "Del gatillo al soborno: la desesperada maniobra de un presunto sicario que ofreció $ 5 millones a la Policía tras ser acorralado en El Cerrito, Valle",
-      "categoria": "Valle del Cauca",
-      "fuente": "El Tiempo Cali",
-      "url": "https://www.eltiempo.com/colombia/cali/del-gatillo-al-soborno-la-desesperada-maniobra-de-un-presunto-sicario-que-ofrecio-5-millones-a-la-policia-tras-ser-acorralado-en-el-cerrito-valle-3598284",
-      "fecha": "2026-11-04T06:00:42+00:00",
-      "imagen": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/11/04/6aeac94374d02.jpeg"
-    },
-    {
       "id": "87f781566396ab1b",
       "titulo": "General (r) Jorge Vargas aclara que no se postuló a jefatura de DNI en proceso de selección del Gobierno De la Espriella",
       "categoria": "Deportes",
@@ -1835,6 +1930,15 @@
       "url": "https://www.elcolombiano.com/colombia/direccion-inteligencia-proceso-seleccion-general-jorge-vargas-no-se-postulo-LD43154816",
       "fecha": "2026-11-04T03:58:33+00:00",
       "imagen": "https://estaticos.elcolombiano.com/binrepository/450x300/0c0/0d0/center/11101/TQDK/cgeneral-jorge-vargas15_52049964_20261103225354.jpg"
+    },
+    {
+      "id": "ef3d26518131c070",
+      "titulo": "David Ospina se retira del fútbol profesional: así lo anunció",
+      "categoria": "Deportes",
+      "fuente": "La FM Deportes",
+      "url": "https://www.lafm.com.co/deportes/david-ospina-se-retira-del-futbol-profesional-416057",
+      "fecha": "2026-11-04T02:26:26+00:00",
+      "imagen": "https://files.lafm.com.co/media/news-images/2026/11/04/023040/portadas-2026-11-03t213004926-1200x675.jpg"
     },
     {
       "id": "33cfa2c31082f524",
@@ -1891,40 +1995,13 @@
       "imagen": "https://files.lafm.com.co/media/news-images/2026/11/03/214536/portadas-2026-11-03t163758396-1200x675.jpg"
     },
     {
-      "id": "037866e8265d4218",
-      "titulo": "Arturo Reyes en el sonajero del Junior: ¿funcionaría una nueva etapa?",
-      "categoria": "Deportes",
-      "fuente": "La FM Deportes",
-      "url": "https://www.lafm.com.co/deportes/crisis-junior-de-barranquilla-liga-betplay-arturo-reyes-suena-416016",
-      "fecha": "2026-11-03T20:04:45+00:00",
-      "imagen": "https://files.lafm.com.co/media/news-images/2026/11/03/202247/portadas-2026-11-03t152138581-1200x675.jpg"
-    },
-    {
-      "id": "b5c23c65c715e6a5",
-      "titulo": "El futuro del deporte colombiano compite en Dakar: DSPORTS transmitirá los Juegos Olímpicos de la Juventud 2026",
-      "categoria": "Deportes",
-      "fuente": "La FM Deportes",
-      "url": "https://www.lafm.com.co/deportes/el-futuro-del-deporte-colombiano-compite-en-dakar-dsports-transmite-juegos-olimpicos-de-la-juventud-2026-416011",
-      "fecha": "2026-11-03T19:43:24+00:00",
-      "imagen": "https://files.lafm.com.co/media/news-images/2026/11/03/194655/contenidopatrocinadodirectv-1200x675.png"
-    },
-    {
-      "id": "2307037f89983315",
-      "titulo": "Siete vuelos en Europa sufren amenazas de bomba y obligan a activar los dispositivos de seguridad de los aeropuertos",
-      "categoria": "Deportes",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/internacional/2026-11-03/seis-vuelos-en-europa-registran-amenazas-de-bomba-y-obligan-a-activar-los-dispositivos-de-seguridad-de-los-aeropuertos.html",
-      "fecha": "2026-11-03T19:40:00+00:00",
-      "imagen": "https://vdmedia.elpais.com/mcv/elpais/multimedia/20261103/1233307_172021_video_1800.mp4"
-    },
-    {
-      "id": "4fd6e4f3edd7105b",
-      "titulo": "Se ultiman detalles del 'Supermetro' para la final de la Copa Sudamericana: estas son las obras que tiene a contrarreloj el estadio de Barranquilla",
-      "categoria": "Deportes",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/barranquilla/se-ultiman-detalles-del-supermetro-para-la-final-de-la-copa-sudamericana-estas-son-las-obras-que-tiene-a-contrarreloj-el-estadio-de-barranquilla-3598160",
-      "fecha": "2026-11-03T19:30:00+00:00",
-      "imagen": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/11/03/6aea363e51755.jpeg"
+      "id": "ba243506cec334b0",
+      "titulo": "¡Los buscaban en el Caribe y cayeron en Cali! Capturan a dos presuntos cabecillas criminales",
+      "categoria": "Cali",
+      "fuente": "Q'hubo Cali",
+      "url": "https://www.qhubocali.com/judiciales/los-buscaban-en-el-caribe-y-cayeron-en-cali-capturan-a-dos-presuntos-cabecillas-criminales/",
+      "fecha": "2026-11-03T15:17:50+00:00",
+      "imagen": ""
     },
     {
       "id": "55c08ef11341e356",
@@ -1944,7 +2021,7 @@
       "estado": "ok",
       "entradas_rss": 10,
       "titulares_vigentes": 10,
-      "ultima_consulta": "2026-11-04T16:27:16.691649+00:00",
+      "ultima_consulta": "2026-11-04T21:24:03.222918+00:00",
       "error": ""
     },
     {
@@ -1954,7 +2031,7 @@
       "estado": "ok",
       "entradas_rss": 10,
       "titulares_vigentes": 10,
-      "ultima_consulta": "2026-11-04T16:27:16.941945+00:00",
+      "ultima_consulta": "2026-11-04T21:24:03.420977+00:00",
       "error": ""
     },
     {
@@ -1964,7 +2041,7 @@
       "estado": "sin_entradas",
       "entradas_rss": 0,
       "titulares_vigentes": 0,
-      "ultima_consulta": "2026-11-04T16:27:17.010737+00:00",
+      "ultima_consulta": "2026-11-04T21:24:03.475776+00:00",
       "error": "La respuesta no contiene entradas RSS/Atom."
     },
     {
@@ -1974,7 +2051,7 @@
       "estado": "ok",
       "entradas_rss": 10,
       "titulares_vigentes": 10,
-      "ultima_consulta": "2026-11-04T16:27:17.703964+00:00",
+      "ultima_consulta": "2026-11-04T21:24:04.053444+00:00",
       "error": ""
     },
     {
@@ -1984,7 +2061,7 @@
       "estado": "ok",
       "entradas_rss": 10,
       "titulares_vigentes": 10,
-      "ultima_consulta": "2026-11-04T16:27:17.894944+00:00",
+      "ultima_consulta": "2026-11-04T21:24:04.238150+00:00",
       "error": ""
     },
     {
@@ -1994,7 +2071,7 @@
       "estado": "ok",
       "entradas_rss": 60,
       "titulares_vigentes": 40,
-      "ultima_consulta": "2026-11-04T16:27:18.065521+00:00",
+      "ultima_consulta": "2026-11-04T21:24:04.330230+00:00",
       "error": ""
     },
     {
@@ -2004,7 +2081,7 @@
       "estado": "ok",
       "entradas_rss": 12,
       "titulares_vigentes": 12,
-      "ultima_consulta": "2026-11-04T16:27:18.324706+00:00",
+      "ultima_consulta": "2026-11-04T21:24:04.548337+00:00",
       "error": ""
     },
     {
@@ -2013,8 +2090,8 @@
       "zona": "Nacional / internacional",
       "estado": "ok",
       "entradas_rss": 34,
-      "titulares_vigentes": 31,
-      "ultima_consulta": "2026-11-04T16:27:18.582378+00:00",
+      "titulares_vigentes": 30,
+      "ultima_consulta": "2026-11-04T21:24:04.725569+00:00",
       "error": ""
     },
     {
@@ -2024,7 +2101,7 @@
       "estado": "ok",
       "entradas_rss": 24,
       "titulares_vigentes": 24,
-      "ultima_consulta": "2026-11-04T16:27:18.999082+00:00",
+      "ultima_consulta": "2026-11-04T21:24:04.894234+00:00",
       "error": ""
     },
     {
@@ -2034,7 +2111,7 @@
       "estado": "ok",
       "entradas_rss": 26,
       "titulares_vigentes": 26,
-      "ultima_consulta": "2026-11-04T16:27:19.351337+00:00",
+      "ultima_consulta": "2026-11-04T21:24:05.347849+00:00",
       "error": ""
     },
     {
@@ -2044,7 +2121,7 @@
       "estado": "ok",
       "entradas_rss": 117,
       "titulares_vigentes": 40,
-      "ultima_consulta": "2026-11-04T16:27:20.071966+00:00",
+      "ultima_consulta": "2026-11-04T21:24:05.894298+00:00",
       "error": ""
     },
     {
@@ -2054,7 +2131,7 @@
       "estado": "ok",
       "entradas_rss": 11,
       "titulares_vigentes": 11,
-      "ultima_consulta": "2026-11-04T16:27:21.454362+00:00",
+      "ultima_consulta": "2026-11-04T21:24:06.928918+00:00",
       "error": ""
     },
     {
@@ -2064,7 +2141,7 @@
       "estado": "ok",
       "entradas_rss": 20,
       "titulares_vigentes": 20,
-      "ultima_consulta": "2026-11-04T16:27:23.336527+00:00",
+      "ultima_consulta": "2026-11-04T21:24:07.049643+00:00",
       "error": ""
     },
     {
@@ -2074,7 +2151,7 @@
       "estado": "ok",
       "entradas_rss": 20,
       "titulares_vigentes": 20,
-      "ultima_consulta": "2026-11-04T16:27:23.535420+00:00",
+      "ultima_consulta": "2026-11-04T21:24:07.205575+00:00",
       "error": ""
     },
     {
@@ -2084,7 +2161,7 @@
       "estado": "ok",
       "entradas_rss": 20,
       "titulares_vigentes": 20,
-      "ultima_consulta": "2026-11-04T16:27:23.689613+00:00",
+      "ultima_consulta": "2026-11-04T21:24:07.280528+00:00",
       "error": ""
     },
     {
@@ -2094,7 +2171,7 @@
       "estado": "ok",
       "entradas_rss": 20,
       "titulares_vigentes": 20,
-      "ultima_consulta": "2026-11-04T16:27:23.838824+00:00",
+      "ultima_consulta": "2026-11-04T21:24:07.346797+00:00",
       "error": ""
     },
     {
@@ -2103,8 +2180,8 @@
       "zona": "Cali y Valle del Cauca",
       "estado": "ok",
       "entradas_rss": 12,
-      "titulares_vigentes": 8,
-      "ultima_consulta": "2026-11-04T16:27:23.994599+00:00",
+      "titulares_vigentes": 4,
+      "ultima_consulta": "2026-11-04T21:24:07.432163+00:00",
       "error": ""
     },
     {
@@ -2112,9 +2189,9 @@
       "url": "https://www.elcolombiano.com/rss/Colombia.xml",
       "zona": "Antioquia y Colombia",
       "estado": "ok",
-      "entradas_rss": 65,
+      "entradas_rss": 71,
       "titulares_vigentes": 40,
-      "ultima_consulta": "2026-11-04T16:27:25.136776+00:00",
+      "ultima_consulta": "2026-11-04T21:24:09.035947+00:00",
       "error": ""
     },
     {
@@ -2124,7 +2201,7 @@
       "estado": "error",
       "entradas_rss": 0,
       "titulares_vigentes": 0,
-      "ultima_consulta": "2026-11-04T16:27:25.627676+00:00",
+      "ultima_consulta": "2026-11-04T21:24:09.476448+00:00",
       "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     {
@@ -2134,7 +2211,7 @@
       "estado": "ok",
       "entradas_rss": 10,
       "titulares_vigentes": 10,
-      "ultima_consulta": "2026-11-04T16:27:25.821811+00:00",
+      "ultima_consulta": "2026-11-04T21:24:09.640025+00:00",
       "error": ""
     },
     {
@@ -2144,12 +2221,12 @@
       "estado": "ok",
       "entradas_rss": 10,
       "titulares_vigentes": 9,
-      "ultima_consulta": "2026-11-04T16:27:26.106662+00:00",
+      "ultima_consulta": "2026-11-04T21:24:09.951042+00:00",
       "error": ""
     }
   ],
-  "ultima_solicitud_groq": "2026-11-04T16:33:00.152020+00:00",
+  "ultima_solicitud_groq": "2026-11-04T21:28:59.804424+00:00",
   "fecha_solicitudes_groq": "2026-11-04",
-  "solicitudes_groq": 14,
-  "ultima_actualizacion": "2026-11-04T16:33:02.506223+00:00"
+  "solicitudes_groq": 19,
+  "ultima_actualizacion": "2026-11-04T21:29:15.576379+00:00"
 }
