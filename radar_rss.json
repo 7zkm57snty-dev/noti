@@ -1,5 +1,5 @@
 {
-  "ultima_actualizacion": "2026-11-04T19:41:07.364578+00:00",
+  "ultima_actualizacion": "2026-11-04T20:31:12.478372+00:00",
   "titulares_rss": [
     {
       "id": "988cbf8bbfc246cc",
@@ -7,16 +7,43 @@
       "categoria": "Internacional",
       "fuente": "BBC Mundo",
       "url": "https://www.bbc.co.uk/mundo/live/cq9vz4g97xy2t?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-04T19:41:07.364578+00:00",
+      "fecha": "2026-11-04T20:31:12.478372+00:00",
       "imagen": ""
     },
     {
-      "id": "ffbb0bc17e72bd87",
-      "titulo": "Gobierno planea entregar nuevas cárceles entre 2026 y 2028",
+      "id": "6cc0a3b559c7a9b5",
+      "titulo": "EE. UU. habría apoyado con inteligencia y drones un ataque contra el ELN en Venezuela: reportan 23 muertos",
+      "categoria": "Internacional",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/noticias/ee-uu-habria-apoyado-con-inteligencia-y-drones-un-ataque-contra-el-eln-en-venezuela-reportan-23-muertos/",
+      "fecha": "2026-11-04T20:30:02+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "32ab6d532b9264a2",
+      "titulo": "Accidente en el rodaje de película de Batman habría afectado a actor; pausaron grabaciones",
+      "categoria": "Valle del Cauca",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/entretenimiento/accidente-en-el-rodaje-de-pelicula-de-batman-04-11-2026/",
+      "fecha": "2026-11-04T20:26:14+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "7ccdffb7b44e278f",
+      "titulo": "En menos de 48 horas, De la Espriella condena otro atentado en Cauca",
       "categoria": "Colombia",
       "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/en-vivo/gobierno-planea-entregar-nuevas-carceles-entre-2026-y-2028/",
-      "fecha": "2026-11-04T19:40:30+00:00",
+      "url": "https://www.lasillavacia.com/en-vivo/en-menos-de-48-horas-de-la-espriella-condena-otro-atentado-en-cauca/",
+      "fecha": "2026-11-04T20:24:24+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "7657af12b680df23",
+      "titulo": "Nuevos detalles del linchamiento de hombre que intentó entrar a habitación de hotel en Medellín con dos niñas: un sujeto fue imputado por el homicidio",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/medellin/nuevos-detalles-del-linchamiento-de-hombre-que-intento-entrar-a-habitacion-de-hotel-en-medellin-con-dos-ninas-un-sujeto-fue-imputado-por-el-homicidio-3598477",
+      "fecha": "2026-11-04T20:10:06+00:00",
       "imagen": ""
     },
     {
@@ -25,7 +52,151 @@
       "categoria": "Internacional",
       "fuente": "El País Colombia",
       "url": "https://elpais.com/us/2026-11-04/las-midterms-2026-en-vivo.html",
-      "fecha": "2026-11-04T19:33:17+00:00",
+      "fecha": "2026-11-04T20:07:36+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "1b50ec421b667948",
+      "titulo": "¿Qué escondía? El misterio del camión abandonado que obligó a activar un plan antiterrorista en el suroriente de Cali: su conductor salió corriendo",
+      "categoria": "Cali",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/cali/que-escondia-el-misterio-del-camion-abandonado-que-obligo-a-activar-un-plan-antiterrorista-en-el-suroriente-de-cali-su-conductor-salio-corriendo-3598451",
+      "fecha": "2026-11-04T20:04:59+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "a164d66c51c18f12",
+      "titulo": "Mujer que fue atacada con un químico en Medellín por su expareja era víctima de un ciclo de violencia: el agresor fue enviado a la cárcel",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/medellin/mujer-que-fue-atacada-con-un-quimico-en-medellin-por-su-expareja-era-victima-de-un-ciclo-de-violencia-el-agresor-fue-enviado-a-la-carcel-3598420",
+      "fecha": "2026-11-04T20:03:26+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "5b0d59809e05ab04",
+      "titulo": "La Casa Blanca recuerda que Trump \"es todavía presidente\" pese a la derrota en las legislativas",
+      "categoria": "Internacional",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/la-casa-blanca-recuerda-que-trump-es-todavía-presidente-pese-a-la-derrota-en-las-legislativas/live-79845739?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-04T20:02:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "9b85fef03f1055b3",
+      "titulo": "Los ciberataques siguen afectando a empresas europeas y ahora golpean al banco francés Crédit Mutuel Arkéa",
+      "categoria": "Economía",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/seguridad/ciberataques-siguen-afectando-a-empresas-europeas-ahora-golpean-al-banco-frances-credit-mutuel-arkea",
+      "fecha": "2026-11-04T20:01:26+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "447707cb73325f44",
+      "titulo": "Joseph Díaz, el profesor de música barranquillero que hizo historia llevando una escuela pública de la ciudad al podio de los Latin Grammy",
+      "categoria": "Tendencias",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/barranquilla/joseph-diaz-el-profesor-de-musica-barranquillero-que-hizo-historia-llevando-una-escuela-publica-de-la-ciudad-al-podio-de-los-latin-grammy-3598464",
+      "fecha": "2026-11-04T20:00:03+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "9c87ec2dc1f42407",
+      "titulo": "Reforma tributaria: salarios desde $4,2 millones podrían empezar a pagar renta, según análisis de exdirector de la Dian",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/noticias/reforma-tributaria-salarios-desde-42-millones-podrian-empezar-a-pagar-renta-segun-analisis-de-exdirector-de-la-dian/",
+      "fecha": "2026-11-04T20:00:01+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "1d1c31dc0a02cfe1",
+      "titulo": "Menos impuestos para empresas, más cargas para los hogares",
+      "categoria": "Economía",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/red-de-expertos/red-social/menos-impuestos-para-empresas-mas-cargas-para-los-hogares/",
+      "fecha": "2026-11-04T20:00:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "76167f07d1492a50",
+      "titulo": "Consulta previa sobre la Amazonía, que dejó sin efectos gobierno, costó 13 mil millones",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/silla-amazonia/amazonia-en-breve/consulta-previa-sobre-la-amazonia-que-dejo-sin-efectos-gobierno-costo-13-mil-millones/",
+      "fecha": "2026-11-04T19:58:50+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "8694af7f092d70bf",
+      "titulo": "Comisiones Económicas Conjuntas aprueban en primer debate adición presupuestal de 2026",
+      "categoria": "Economía",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/comisiones-economicas-conjuntas-aprueban-en-primer-debate-adicion-presupuestal-de-505715",
+      "fecha": "2026-11-04T19:56:04+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "2257963921510b95",
+      "titulo": "Sin alternativas rápidas, Colombia seguirá dependiendo del gas caro importado",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/silla-nacional/sin-alternativas-rapidas-colombia-seguira-dependiendo-del-gas-caro-importado/",
+      "fecha": "2026-11-04T19:54:17+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "48a2f86cb23f8087",
+      "titulo": "Los republicanos buscan culpables de la debacle electoral sin atreverse a señalar a Trump",
+      "categoria": "Internacional",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/us/2026-11-04/los-republicanos-buscan-culpables-de-la-debacle-electoral-sin-atreverse-a-senalar-a-trump.html",
+      "fecha": "2026-11-04T19:53:02+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "af9715a657d38d5e",
+      "titulo": "Comisiones Económicas aprobaron en primer debate adición al Presupuesto de 2026",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/economia/comisiones-economicas-aprobaron-en-primer-debate-adicion-el-presupuesto-de-2026-4517651",
+      "fecha": "2026-11-04T19:48:34+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "fd90d8a8bc725b20",
+      "titulo": "Niño arrojó un gato por la ventana de un edificio y rescatistas buscan ayuda para salvar su vida",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/nino-arrojo-un-gato-por-la-ventana-de-un-edificio-y-rescatistas-buscan-ayuda-para-salvar-su-vida-3598459",
+      "fecha": "2026-11-04T19:47:26+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "f035052972d0fd00",
+      "titulo": "Trump descarta destituir al secretario de Defensa, Pete Hegseth",
+      "categoria": "Internacional",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/trump-descarta-destituir-al-secretario-de-defensa-pete-hegseth/a-79858940?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-04T19:45:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "3e4aec71c64d187c",
+      "titulo": "Falla total en el radar aéreo de Bogotá provocó retrasos en El Dorado y otros aeropuertos del país",
+      "categoria": "Colombia",
+      "fuente": "La FM Actualidad",
+      "url": "https://www.lafm.com.co/actualidad/aeropuerto-el-dorado-de-bogota-esta-cerrado-416121",
+      "fecha": "2026-11-04T19:40:48+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "ffbb0bc17e72bd87",
+      "titulo": "Gobierno planea entregar cuatro cárceles entre 2026 y 2028",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/en-vivo/gobierno-planea-entregar-nuevas-carceles-entre-2026-y-2028/",
+      "fecha": "2026-11-04T19:40:30+00:00",
       "imagen": ""
     },
     {
@@ -56,15 +227,6 @@
       "imagen": ""
     },
     {
-      "id": "22ec896e6141d796",
-      "titulo": "El dólar en Colombia bajó levemente tras las elecciones en Estados Unidos: así quedó la divisa este 4 de noviembre",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/finanzas/el-dolar-en-colombia-pego-un-salto-asi-cotiza-la-divisa-tras-las-elecciones-de-medio-tiempo-en-estados-unidos-505683",
-      "fecha": "2026-11-04T19:27:41+00:00",
-      "imagen": ""
-    },
-    {
       "id": "3a2864e87d0367b5",
       "titulo": "La cadena chilena Casaideas abrió tienda en Medellín y completó 13 locales",
       "categoria": "Colombia",
@@ -74,12 +236,39 @@
       "imagen": ""
     },
     {
+      "id": "c7417d6630f5b3a7",
+      "titulo": "Perú declara estado de emergencia por lluvias a siete días de la visita del Papa León XIV",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/america/2026-11-04/peru-declara-estado-de-emergencia-por-lluvias-a-siete-dias-de-la-visita-del-papa-leon-xiv.html",
+      "fecha": "2026-11-04T19:18:32+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "961a06b779d7bd85",
+      "titulo": "Milei tendrá que caminar sin muletas tras la derrota de Trump",
+      "categoria": "Internacional",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/argentina/2026-11-04/milei-tendra-que-caminar-sin-muletas-tras-la-derrota-de-trump.html",
+      "fecha": "2026-11-04T19:16:39+00:00",
+      "imagen": ""
+    },
+    {
       "id": "0ed46be01af04365",
       "titulo": "Investigan procedencia de mosquitos infectados que provocaron brote de malaria",
       "categoria": "Valle del Cauca",
       "fuente": "90 Minutos",
       "url": "https://90minutos.co/vida-moderna/salud/brote-de-malaria-salud-origen-mosquitos-04-11-2026/",
       "fecha": "2026-11-04T19:11:11+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "eb6bd0b6387e457c",
+      "titulo": "Policía Nacional: 135 años velando por la seguridad de los colombianos",
+      "categoria": "Colombia",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/colombia/policia-nacional-cumple-135-anos-de-servicio-en-colombia/",
+      "fecha": "2026-11-04T19:06:40+00:00",
       "imagen": ""
     },
     {
@@ -119,30 +308,21 @@
       "imagen": ""
     },
     {
+      "id": "31847f3afdf24e7c",
+      "titulo": "AWS crece 39,3% y acelera su expansión",
+      "categoria": "Colombia",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/secciones/tecnologia/aws-crece-39-3-acelera-expansion/",
+      "fecha": "2026-11-04T19:00:00+00:00",
+      "imagen": ""
+    },
+    {
       "id": "8cd677df6443b746",
       "titulo": "Presupuesto de Regalías cae 11 % para 2027-2028 y pasa su primer debate en el Congreso",
       "categoria": "Colombia",
       "fuente": "La FM Economía",
       "url": "https://www.lafm.com.co/economia/presupuesto-de-regalias-2027-2028-aprobado-en-primer-debate-416113",
       "fecha": "2026-11-04T18:58:21+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "5b0d59809e05ab04",
-      "titulo": "La Casa Blanca recuerda que Trump \"es todavía presidente\" pese a la derrota en las legislativas",
-      "categoria": "Internacional",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/la-casa-blanca-recuerda-que-trump-es-todavía-presidente-pese-a-la-derrota-en-las-legislativas/live-79845739?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-04T18:56:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "1b50ec421b667948",
-      "titulo": "¿Qué escondía? El misterio del camión abandonado que obligó a activar un plan antiterrorista en el suroriente de Cali: su conductor salió corriendo",
-      "categoria": "Cali",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/cali/que-escondia-el-misterio-del-camion-abandonado-que-obligo-a-activar-un-plan-antiterrorista-en-el-suroriente-de-cali-su-conductor-salio-corriendo-3598451",
-      "fecha": "2026-11-04T18:54:36+00:00",
       "imagen": ""
     },
     {
@@ -161,6 +341,15 @@
       "fuente": "DW Español",
       "url": "https://www.dw.com/es/la-estrepitosa-derrota-de-trump-cinco-conclusiones-de-las-elecciones/a-79857969?maca=spa-rss-sp-all-1122-rdf",
       "fecha": "2026-11-04T18:46:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "8baa117d0f3a7a61",
+      "titulo": "Industria de motocicletas impulsa más de 130.000 empleos en Colombia",
+      "categoria": "Economía",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/empresario/industria-de-motocicletas-impulsa-mas-de-130-mil-empleos/",
+      "fecha": "2026-11-04T18:43:22+00:00",
       "imagen": ""
     },
     {
@@ -188,6 +377,15 @@
       "fuente": "El Diario — Pereira",
       "url": "https://www.eldiario.com.co/temas/como-comparar-cuentas-de-ahorros-sin-perderte-en-la-oferta/",
       "fecha": "2026-11-04T18:39:58+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "cdf84493912c86a5",
+      "titulo": "Deuda pública de Colombia podría llegar hasta el 82% del PIB en 2030",
+      "categoria": "Colombia",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/empresario/ley-de-rescate-economico-anif-proyecta-impacto-en-la-deuda/",
+      "fecha": "2026-11-04T18:38:24+00:00",
       "imagen": ""
     },
     {
@@ -247,10 +445,28 @@
     {
       "id": "c228c17d4f8ebacd",
       "titulo": "Explosión en zona de El Patía, Cauca: atentado con una volqueta bomba iba dirigido contra la subestación de la Policía en la vía Panamericana",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
+      "categoria": "Cali",
+      "fuente": "El Tiempo Cali",
       "url": "https://www.eltiempo.com/colombia/cali/explosion-en-zona-de-el-patia-cauca-atentado-iba-dirigido-contra-la-subestacion-de-la-policia-en-el-sur-de-la-region-verifican-si-fue-carro-bomba-3598400",
       "fecha": "2026-11-04T18:23:17+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "6381cbc174ba5cb8",
+      "titulo": "El recreo",
+      "categoria": "Colombia",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/opinion/columnistas/el-recreo/",
+      "fecha": "2026-11-04T18:23:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "86cef64564885476",
+      "titulo": "El papa León XIV recibe a Bob Dylan en el Vaticano",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/cultura/2026-11-04/el-papa-leon-xiv-recibe-a-bob-dylan-en-el-vaticano.html",
+      "fecha": "2026-11-04T18:21:41+00:00",
       "imagen": ""
     },
     {
@@ -269,6 +485,15 @@
       "fuente": "La Silla Vacía",
       "url": "https://www.lasillavacia.com/en-vivo/diario-del-gobierno-de-abelardo-ley-de-sometimiento-a-sancion-presidencial/",
       "fecha": "2026-11-04T18:17:53+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "093fc6f368dce09f",
+      "titulo": "Ancianos y sin huellas",
+      "categoria": "Colombia",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/opinion/columnistas/ancianos-y-sin-huellas/",
+      "fecha": "2026-11-04T18:11:24+00:00",
       "imagen": ""
     },
     {
@@ -299,12 +524,12 @@
       "imagen": ""
     },
     {
-      "id": "a164d66c51c18f12",
-      "titulo": "Mujer que fue atacada con un químico en Medellín por su expareja era víctima de un ciclo de violencia: el agresor fue enviado a la cárcel",
+      "id": "e9750615fe976961",
+      "titulo": "¿Y ahora qué? Demócratas y republicanos empiezan a diseñar sus estrategias tras el vuelco electoral",
       "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/medellin/mujer-que-fue-atacada-con-un-quimico-en-medellin-por-su-expareja-era-victima-de-un-ciclo-de-violencia-el-agresor-fue-enviado-a-la-carcel-3598420",
-      "fecha": "2026-11-04T18:01:17+00:00",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/us/2026-11-04/y-ahora-que-democratas-y-republicanos-empiezan-a-disenar-sus-estrategias-tras-el-vuelco-electoral.html",
+      "fecha": "2026-11-04T18:01:54+00:00",
       "imagen": ""
     },
     {
@@ -314,231 +539,6 @@
       "fuente": "Diario Occidente",
       "url": "https://occidente.co/opinion/editorial/abelardo-de-la-espriella-el-reto-de-la-seguridad-nacional/",
       "fecha": "2026-11-04T17:59:33+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "8e87f8fe6ab14da6",
-      "titulo": "Se registra un nuevo ataque explosivo en la vía Panamericana, en zona rural de El Patía",
-      "categoria": "Valle del Cauca",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/judicial/ataque-explosivo-via-panamericana-patia-4-11-2026/",
-      "fecha": "2026-11-04T17:59:22+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "4e66135f8bef08a2",
-      "titulo": "Quién es Bobby Pulido, la estrella de la música tejana que devolvió a los demócratas un condado de Texas fronterizo con México",
-      "categoria": "Tendencias",
-      "fuente": "BBC Mundo",
-      "url": "https://www.bbc.com/mundo/articles/c6kg7wj3gxk8o?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-04T17:56:20+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "c8626be5bbc40458",
-      "titulo": "Emisor lanzó cuarta subasta de compra de dólares por US$399,8 millones",
-      "categoria": "Economía",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/economia/emisor-lanzo-cuarta-subasta-de-compra-de-dolares-por-us-399-8-millones-4517606",
-      "fecha": "2026-11-04T17:55:06+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "16d564e67d3f404f",
-      "titulo": "La foto: 14 días después, Abelardo posesiona a Ordóñez en MinInterior",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/en-vivo/la-foto-14-dias-despues-abelardo-posesiona-a-ordonez-en-mininterior/",
-      "fecha": "2026-11-04T17:54:39+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "b8d5892695e3f399",
-      "titulo": "Ejércitos en coalición: la única forma de vencer al crimen trasnacional",
-      "categoria": "Colombia",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/opinion/columnistas/ejercitos-en-coalicion-la-unica-forma-de-vencer-al-crimen-trasnacional/",
-      "fecha": "2026-11-04T17:54:36+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "bce4d71f11887f3e",
-      "titulo": "Deuda de Colombia podría llegar al 82% del PIB en 2030 si el ajuste fiscal se concentra en recortar gastos: Anif",
-      "categoria": "Colombia",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/deuda-de-colombia-podria-llegar-al-82-del-pib-en-2030-si-el-ajuste-fiscal-se-concentra-en-recortar-gastos-anif-505707",
-      "fecha": "2026-11-04T17:52:50+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "6e5fc8ecbb7e6276",
-      "titulo": "Legítima narradora epistolar",
-      "categoria": "Colombia",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/opinion/columnistas/legitima-narradora-epistolar/",
-      "fecha": "2026-11-04T17:51:12+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "c91101ddbce6cb9b",
-      "titulo": "Problemas sobre la Troncal de Occidente: la vía sufrió el hundimiento de la banca y tiene bloqueada esta entrada y salida de Sincelejo",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/problemas-sobre-la-troncal-de-occidente-la-via-sufrio-el-hundimiento-de-la-banca-y-tiene-bloqueada-esta-entrada-y-salida-de-sincelejo-3598435",
-      "fecha": "2026-11-04T17:40:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "a56bd01a669b6870",
-      "titulo": "Reconstrucción por Impuestos: Gobierno proyecta $10 billones para 2027, frente a $200.000 millones este año",
-      "categoria": "Colombia",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/infraestructura/reconstruccion-por-impuestos-gobierno-proyecta-10-billones-para-2027-frente-a-200-000-millones-este-ano-505698",
-      "fecha": "2026-11-04T17:35:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "325b13a84d68691b",
-      "titulo": "El programa 'Mujeres Todoterreno' de Sacyr capacita a comunidades que habitan en inmediaciones del Canal del Dique para trabajos en infraestructura",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/el-programa-mujeres-todoterreno-de-sacyr-capacita-a-comunidades-que-habitan-en-inmediaciones-del-canal-del-dique-para-trabajos-en-infraestructura-3598428",
-      "fecha": "2026-11-04T17:34:27+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "d923ebc528d61ab3",
-      "titulo": "Atentado con volqueta bomba en El Patía deja tres personas heridas y graves daños materiales",
-      "categoria": "Colombia",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/regionales/cauca/via-panamericana-atentado-con-volqueta-bomba-en-el-patia/",
-      "fecha": "2026-11-04T17:32:28+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "d5eacc7ba79a4666",
-      "titulo": "Bandas organizadas roban camiones cargados de componentes para centros de datos: ya suman 100 millones de dólares",
-      "categoria": "Economía",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/empresas-y-economia/bandas-organizadas-roban-camiones-cargados-componentes-para-centros-datos-suman-100-millones-dolares",
-      "fecha": "2026-11-04T17:31:22+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "f238be429d75f90e",
-      "titulo": "Demócratas se adueñan del Senado de los EE. UU.",
-      "categoria": "Valle del Cauca",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/efe/democratas-aduenan-senado-ee-uu-4-11-2026/",
-      "fecha": "2026-11-04T17:29:15+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "b7992bbb1a91e769",
-      "titulo": "Viviane Morales fue designada como Consejera Comisionada de Paz del gobierno",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/economia/viviane-morales-fue-designada-como-consejera-comisionada-de-paz-4517578",
-      "fecha": "2026-11-04T17:28:01+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "3fa5d40457467ece",
-      "titulo": "Video, ¿Qué impuestos se deben pagar al recibir una herencia en Colombia?",
-      "categoria": "Colombia",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/tv/nuestro-derecho/impuestos-herencia-en-colombia-04-11-2026/",
-      "fecha": "2026-11-04T17:27:12+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "d809ac9a216bc747",
-      "titulo": "FIP: gobierno hereda deudas con 80 mil familias de sustitución de coca",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/en-vivo/fip-gobierno-hereda-deudas-con-80-mil-familias-de-sustitucion-de-coca/",
-      "fecha": "2026-11-04T17:24:47+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "f40f09845ce3f85b",
-      "titulo": "5 razones que explican la abrumadora derrota del Partido Republicano",
-      "categoria": "Internacional",
-      "fuente": "BBC Mundo",
-      "url": "https://www.bbc.com/mundo/articles/cq5yn4l3pjv0o?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-04T17:20:28+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "f11ff19faf95fa01",
-      "titulo": "Carlos de Hart se baja de candidatura a presidencia de la Andi",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/en-vivo/carlos-de-hart-se-baja-de-candidatura-a-presidencia-de-la-andi/",
-      "fecha": "2026-11-04T17:18:09+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "cdf46f6b9a64df10",
-      "titulo": "Samsung suma a un nuevo integrante a su catálogo de auriculares: así son los Galaxy Buds On orientados a tener un mejor confort",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/seleccion/samsung-suma-a-nuevo-integrante-a-su-catalogo-auriculares-asi-galaxy-buds-on-orientados-a-tener-mejor-confort",
-      "fecha": "2026-11-04T17:15:26+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "35b2e436f2bc79c7",
-      "titulo": "Sudáfrica busca digitalizar el IVA para frenar la evasión y agilizar reembolsos a empresas",
-      "categoria": "Economía",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/sudafrica-busca-digitalizar-el-iva-para-frenar-la-evasion-y-agilizar-reembolsos-a-empresas-4517514",
-      "fecha": "2026-11-04T17:13:20+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "e424e5f1bdc39c30",
-      "titulo": "Conductor huyó y dejó un camión abandonado en Cali: la sospecha de una bomba obligó a cerrar la vía",
-      "categoria": "Cali",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/cali/autopista-simon-bolivar-descartan-explosivos-en-camion/",
-      "fecha": "2026-11-04T17:13:09+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "842694f293db8031",
-      "titulo": "Bruselas exige a Ucrania acelerar las reformas para cerrar las negociaciones de adhesión en 2028",
-      "categoria": "Internacional",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/internacional/2026-11-04/bruselas-exige-a-ucrania-acelerar-las-reformas-para-cerrar-las-negociaciones-de-adhesion-en-2028.html",
-      "fecha": "2026-11-04T17:12:02+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "bc877d40a6ae53be",
-      "titulo": "Envían a la cárcel a un hombre señalado de atacar con un agente químico a su expareja: Fiscalía reveló cómo habría intentado desviar la investigación",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/medellin/envian-a-la-carcel-a-un-hombre-senalado-de-atacar-con-un-agente-quimico-a-su-expareja-fiscalia-revelo-como-habria-intentado-desviar-la-investigacion-3598403",
-      "fecha": "2026-11-04T17:07:35+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "64f408c010024b38",
-      "titulo": "Bancolombia anunció más de $18 billones en cupos de crédito para Pyme y empresas",
-      "categoria": "Economía",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/finanzas/bancolombia-anuncio-mas-de-18-billones-en-cupos-de-credito-para-pyme-y-empresas-del-pais-4517477",
-      "fecha": "2026-11-04T17:06:10+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "6ce86db3ed87751f",
-      "titulo": "Las Pyme que tienen soluciones de pago utilizan 90% más de productos financieros",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/finanzas/las-pyme-que-tienen-soluciones-de-pago-utilizan-90-mas-de-productos-financieros-4517534",
-      "fecha": "2026-11-04T17:04:13+00:00",
       "imagen": ""
     }
   ],
@@ -553,7 +553,7 @@
       "nombre": "El Tiempo Cali",
       "url": "https://www.eltiempo.com/rss/colombia_cali.xml",
       "estado": "correcto",
-      "titulares": 7
+      "titulares": 9
     },
     {
       "nombre": "El Espectador",
