@@ -1,5 +1,5 @@
 {
-  "ultima_actualizacion": "2026-11-04T21:29:48.549558+00:00",
+  "ultima_actualizacion": "2026-11-04T22:28:07.141567+00:00",
   "titulares_rss": [
     {
       "id": "988cbf8bbfc246cc",
@@ -7,7 +7,295 @@
       "categoria": "Internacional",
       "fuente": "BBC Mundo",
       "url": "https://www.bbc.co.uk/mundo/live/cq9vz4g97xy2t?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-04T21:29:48.549558+00:00",
+      "fecha": "2026-11-04T22:28:07.141567+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "5b0d59809e05ab04",
+      "titulo": "La Casa Blanca recuerda que Trump \"es todavía presidente\" pese a la derrota en las legislativas",
+      "categoria": "Internacional",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/la-casa-blanca-recuerda-que-trump-es-todavía-presidente-pese-a-la-derrota-en-las-legislativas/live-79845739?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-04T22:18:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "0d6ae505487e5ff4",
+      "titulo": "Él era Felipe Joaquín Rivera, quien murió por explosivos lanzados desde un vehículo en El Patía, Cauca: 'Atacaron a los civiles en una zona comercial'",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/cali/el-era-felipe-joaquin-rivera-quien-murio-por-explosivos-lanzados-desde-un-vehiculo-en-el-patia-cauca-atacaron-a-los-civiles-en-una-zona-comercial-3598488",
+      "fecha": "2026-11-04T22:14:52+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "676bfae9f501ab73",
+      "titulo": "Petrobras confirmó el inicio de producción de gas del proyecto Sirius se aplazará a 2031",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/economia/petrobras-confirmo-el-inicio-de-produccion-de-gas-del-proyecto-sirius-se-aplazara-a-2031-4517806",
+      "fecha": "2026-11-04T22:12:55+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "0c0bb8f77c4b581d",
+      "titulo": "JEP imputó a nueve exFarc por crímenes contra menores reclutados",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/en-vivo/jep-imputo-a-nueve-exfarc-por-crimenes-contra-menores-reclutados/",
+      "fecha": "2026-11-04T22:10:58+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "205407a51d52b290",
+      "titulo": "Las ‘midterms’ 2026, en vivo | Trump admite que la guerra en Irán influyó en la derrota, pero que “lo haría de nuevo”",
+      "categoria": "Internacional",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/us/2026-11-04/las-midterms-2026-en-vivo.html",
+      "fecha": "2026-11-04T22:10:10+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "3b455f2de7d9027f",
+      "titulo": "¡Peajes en el Eje Cafetero a 700 pesos! Ya empezó a operar el descuento y así funcionará",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/peajes-en-el-eje-cafetero-a-700-pesos-ya-empezo-a-operar-el-descuento-y-asi-funcionara-3598520",
+      "fecha": "2026-11-04T22:09:20+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "562dfdbbbaa21240",
+      "titulo": "Murió Henry Chaverra Robledo, el líder que defendió durante más de dos décadas la pertenencia de Belén de Bajirá al Chocó",
+      "categoria": "Colombia",
+      "fuente": "Chocó 7 días",
+      "url": "https://choco7dias.com/murio-henry-chaverra-robledo-el-lider-que-defendio-durante-mas-de-dos-decadas-la-pertenencia-de-belen-de-bajira-al-choco/",
+      "fecha": "2026-11-04T22:04:57+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "bf1d999d4c4555ff",
+      "titulo": "¡Atención! Buscan a dos menores y un adulto que habrían sido arrastrados por un arroyo en Soledad durante el aguacero de este miércoles",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/barranquilla/atencion-buscan-a-dos-menores-y-un-adulto-que-habrian-sido-arrastrados-por-un-arroyo-en-soledad-durante-el-aguacero-de-este-miercoles-3598480",
+      "fecha": "2026-11-04T22:03:05+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "7becd0fb2862a643",
+      "titulo": "Gobernación de Antioquia le entregó 36 drones de última tecnología al Ejército Nacional y la Policía: se invirtieron más de $7.000 millones",
+      "categoria": "Tecnología",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/medellin/gobernacion-de-antioquia-le-entrego-36-drones-de-ultima-tecnologia-al-ejercito-nacional-y-la-policia-se-invirtieron-mas-de-7-000-millones-3598502",
+      "fecha": "2026-11-04T22:02:56+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "c03f68db7935ed16",
+      "titulo": "Victoria demócrata en Estados Unidos no asusta a los mercados",
+      "categoria": "Economía",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/empresario/elecciones-de-medio-termino-de-estados-unidos-impacto-en-mercados/",
+      "fecha": "2026-11-04T22:02:53+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "1007286711f863b1",
+      "titulo": "Profesores de universidades públicas pagarían más impuestos con la reforma tributaria",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/noticias/profesores-de-universidades-publicas-pagarian-mas-impuestos-con-la-reforma-tributaria/",
+      "fecha": "2026-11-04T22:00:18+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "d4921ce4c9e68ee8",
+      "titulo": "Descenso en Colombia: Jaguares y Cúcuta, al límite",
+      "categoria": "Colombia",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/deportes/descenso-en-colombia-jaguares-y-cucuta-al-limite/",
+      "fecha": "2026-11-04T22:00:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "98869d107d1c1421",
+      "titulo": "James Rodríguez recibió muchas patadas, dice Lucas",
+      "categoria": "Colombia",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/deportes/james-rodriguez-recibio-muchas-patadas-lucas/",
+      "fecha": "2026-11-04T22:00:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "083dccf901599940",
+      "titulo": "Millonarios vs América: duelo clave en El Campín",
+      "categoria": "Colombia",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/deportes/millonarios-vs-america-duelo-clave-en-el-campin/",
+      "fecha": "2026-11-04T22:00:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "4787e506a55115a1",
+      "titulo": "Jaguares cayó ante Pasto y quedó al límite",
+      "categoria": "Colombia",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/deportes/jaguares-cayo-ante-pasto-y-quedo-al-limite/",
+      "fecha": "2026-11-04T22:00:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "d4e2004ac6e69bf7",
+      "titulo": "Cuadrangulares del Torneo BetPlay: así quedaron los grupos",
+      "categoria": "Colombia",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/deportes/cuadrangulares-torneo-betplay-grupos-fecha-2/",
+      "fecha": "2026-11-04T22:00:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "0cb5683312877619",
+      "titulo": "Crece la fila por los avales de Defensores de la Patria",
+      "categoria": "Colombia",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/politica/graffiti/defensores-de-la-patria-fusion-salvacion-nacional-elecciones-2027/",
+      "fecha": "2026-11-04T21:59:42+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "eeb90fdf84c71f81",
+      "titulo": "Cali impulsa una estrategia para el control del caracol gigante africano",
+      "categoria": "Cali",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/vida-moderna/salud/caracol-gigante-africano-cali-salud-04-11-2026/",
+      "fecha": "2026-11-04T21:59:23+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "17aab7e1cb45d252",
+      "titulo": "Aerocivil afirma que se normalizan gradualmente las operaciones aéreas en Bogotá y Rionegro tras novedad técnica en sistemas de radar",
+      "categoria": "Colombia",
+      "fuente": "La FM Actualidad",
+      "url": "https://www.lafm.com.co/actualidad/el-dorado-aerocivil-vuelos-aeropuerto-bogota-rionegro-radar-416144",
+      "fecha": "2026-11-04T21:57:52+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "7657af12b680df23",
+      "titulo": "Nuevos detalles del linchamiento de hombre que intentó entrar a habitación de hotel en Medellín con dos niñas: un sujeto fue imputado por el homicidio",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/medellin/nuevos-detalles-del-linchamiento-de-hombre-que-intento-entrar-a-habitacion-de-hotel-en-medellin-con-dos-ninas-un-sujeto-fue-imputado-por-el-homicidio-3598477",
+      "fecha": "2026-11-04T21:57:01+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "30d3488691198c32",
+      "titulo": "¿Qué es la desregulación emocional y cómo afecta a los adultos?",
+      "categoria": "Valle del Cauca",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/vida-moderna/salud/desregulacion-emocional-en-adultos-salud-04-11-2026/",
+      "fecha": "2026-11-04T21:56:27+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "eeaf5f693779f4fd",
+      "titulo": "Tragedia en Soledad, Atlántico: rescatan a niña arrastrada por el arroyo El Salao; su abuelo y una menor de 3 años siguen desaparecidos",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/barranquilla/tragedia-en-soledad-atlantico-rescatan-a-nina-arrastrada-por-el-arroyo-el-salao-su-abuelo-y-una-menor-de-3-anos-siguen-desaparecidos-3598510",
+      "fecha": "2026-11-04T21:53:08+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "38cab57ec1fd71ea",
+      "titulo": "Hong Kong entregará a las agencias tributarias los datos de los usuarios cripto",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/globoeconomia/hong-kong-entregara-a-las-agencias-tributarias-los-datos-de-los-usuarios-cripto-4517787",
+      "fecha": "2026-11-04T21:51:47+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "98991ed76a779822",
+      "titulo": "Qué pueden hacer ahora los demócratas (y qué no) con el nuevo control del Congreso",
+      "categoria": "Colombia",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/cwn8dm2kx7meo?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-04T21:46:39+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "810b8da4e3a71069",
+      "titulo": "Alejandro Ordóñez asume el Mininterior con una agenda clave para el futuro de la Ley de Rescate Fiscal",
+      "categoria": "Economía",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/gobierno/alejandro-ordonez-asume-el-mininterior-con-una-agenda-clave-para-el-futuro-de-la-ley-de-rescate-fiscal-505722",
+      "fecha": "2026-11-04T21:43:16+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "520be63970931bc6",
+      "titulo": "Canal de Panamá anunciará lista de licitadores preseleccionados para el proyecto de la terminal",
+      "categoria": "Deportes",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/globoeconomia/canal-de-panama-anunciara-lista-de-licitadores-preseleccionados-para-el-proyecto-de-la-terminal-4517776",
+      "fecha": "2026-11-04T21:43:02+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "998ea879ef8fc226",
+      "titulo": "Habitantes de municipios en Caldas, Risaralda y Quindío pagarán solo $700 en algunos peajes: así puede inscribirse para recibir la tarifa diferencial",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/habitantes-de-municipios-en-caldas-risaralda-y-quindio-pagaran-solo-700-en-algunos-peajes-asi-puede-inscribirse-para-recibir-la-tarifa-diferencial-3598493",
+      "fecha": "2026-11-04T21:42:43+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "b47b5dd0a6df5557",
+      "titulo": "'Mi Casa Bella' en Cali: avanza convocatoria para mejoramiento de viviendas",
+      "categoria": "Cali",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/cali/mi-casa-bella-en-cali-mejoramiento-de-viviendas-04-11-2026/",
+      "fecha": "2026-11-04T21:40:40+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "9002ee4ed2233b38",
+      "titulo": "Canadá y China extienden el acuerdo arancelario para impulsar exportaciones canadienses",
+      "categoria": "Internacional",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/globoeconomia/canada-y-china-extienden-el-acuerdo-arancelario-para-impulsar-exportaciones-canadienses-4517769",
+      "fecha": "2026-11-04T21:31:50+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "4055de25ebfa76b4",
+      "titulo": "Fenalco alerta por impacto de los impuestos saludables en las tiendas de barrio y pide cambios a la reforma tributaria",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/noticias/fenalco-alerta-por-impacto-de-los-impuestos-saludables-en-las-tiendas-de-barrio-y-pide-cambios-a-la-reforma-tributaria/",
+      "fecha": "2026-11-04T21:30:11+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "32496ed8c5fd0d0a",
+      "titulo": "Alejandro Ordóñez ya se posesionó oficialmente como ministro del interior",
+      "categoria": "Valle del Cauca",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/colombia/alejandro-ordonez-ministro-del-interior-colombia-04-11-2026/",
+      "fecha": "2026-11-04T21:28:31+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "009b7aaa6680bbbf",
+      "titulo": "Los mayores de 55 años impulsarán casi cuatro de cada diez pesos del consumo en Colombia en 2042",
+      "categoria": "Colombia",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/crecimiento/los-mayores-de-55-anos-impulsaran-casi-cuatro-de-cada-diez-pesos-del-consumo-en-colombia-en-505718",
+      "fecha": "2026-11-04T21:28:05+00:00",
       "imagen": ""
     },
     {
@@ -92,15 +380,6 @@
       "imagen": ""
     },
     {
-      "id": "205407a51d52b290",
-      "titulo": "Las ‘midterms’ 2026, en vivo | Trump admite que la guerra en Irán influyó en la derrota, pero que “lo haría de nuevo”",
-      "categoria": "Internacional",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/us/2026-11-04/las-midterms-2026-en-vivo.html",
-      "fecha": "2026-11-04T21:01:59+00:00",
-      "imagen": ""
-    },
-    {
       "id": "4562f86e2be1159b",
       "titulo": "¡El Arte y la Cultura están listos para brillar por el Medio Ambiente!",
       "categoria": "Colombia",
@@ -124,15 +403,6 @@
       "categoria": "Colombia",
       "fuente": "La Silla Vacía",
       "url": "https://www.lasillavacia.com/red-de-expertos/red-rural/el-iva-a-la-maquinaria-puede-frenar-la-modernizacion-del-campo/",
-      "fecha": "2026-11-04T21:00:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "5b0d59809e05ab04",
-      "titulo": "La Casa Blanca recuerda que Trump \"es todavía presidente\" pese a la derrota en las legislativas",
-      "categoria": "Internacional",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/la-casa-blanca-recuerda-que-trump-es-todavía-presidente-pese-a-la-derrota-en-las-legislativas/live-79845739?maca=spa-rss-sp-all-1122-rdf",
       "fecha": "2026-11-04T21:00:00+00:00",
       "imagen": ""
     },
@@ -161,24 +431,6 @@
       "fuente": "90 Minutos",
       "url": "https://90minutos.co/vida-moderna/cultura/oiga-mire-lea-2026-valle-literatura-invitados-4-11-2026/",
       "fecha": "2026-11-04T20:53:42+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "0d6ae505487e5ff4",
-      "titulo": "Él era Felipe Joaquín Rivera, quien murió por explosivos lanzados desde un vehículo en El Patía, Cauca: 'Atacaron a los civiles en una zona comercial'",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/cali/el-era-felipe-joaquin-rivera-quien-murio-por-explosivos-lanzados-desde-un-vehiculo-en-el-patia-cauca-atacaron-a-los-civiles-en-una-zona-comercial-3598488",
-      "fecha": "2026-11-04T20:53:35+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "998ea879ef8fc226",
-      "titulo": "Habitantes de municipios en Caldas, Risaralda y Quindío pagarán solo $700 en algunos peajes: así puede inscribirse para recibir la tarifa diferencial",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/habitantes-de-municipios-en-caldas-risaralda-y-quindio-pagaran-solo-700-en-algunos-peajes-asi-puede-inscribirse-para-recibir-la-tarifa-diferencial-3598493",
-      "fecha": "2026-11-04T20:52:14+00:00",
       "imagen": ""
     },
     {
@@ -288,258 +540,6 @@
       "url": "https://www.portafolio.co/economia/finanzas/la-adiccion-de-gustavo-petro-a-la-deuda-tiene-al-borde-del-colapso-nuestra-economia-ministro-de-hacienda-505717",
       "fecha": "2026-11-04T20:33:30+00:00",
       "imagen": ""
-    },
-    {
-      "id": "b88ca6a13eaa7eb9",
-      "titulo": "Fuertes lluvias provocan emergencias en Barranquilla y el área metropolitana: edificios inundados, viviendas afectadas y familias en alerta",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/barranquilla/fuertes-lluvias-provocan-emergencias-en-barranquilla-y-el-area-metropolitana-edificios-inundados-viviendas-afectadas-y-familias-en-alerta-3598458",
-      "fecha": "2026-11-04T20:32:02+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "ba9ba3c919be69ef",
-      "titulo": "El impacto de la victoria demócrata en la economía estadounidense",
-      "categoria": "Economía",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/el-impacto-de-la-victoria-demócrata-en-la-economía-estadounidense/a-79858843?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-04T20:32:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "543469d1d4bba497",
-      "titulo": "Comprar electricidad barata y venderla cara: el negocio de las baterías eléctricas tiene un enemigo inesperado",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/energia/comprar-electricidad-barata-venderla-cara-negocio-baterias-tiene-enemigo-inesperado",
-      "fecha": "2026-11-04T20:31:29+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "033b99acb090cc12",
-      "titulo": "¿Y la dignidad? Cielo Rusinque terminó de paseo por EE. UU. tras el show de renunciar a su visa en solidaridad con Petro",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/cielo-rusinque-viaje-estados-unidos-tras-renunciar-visa-en-solidaridad-con-petro-MO43181580",
-      "fecha": "2026-11-04T20:30:31+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "6cc0a3b559c7a9b5",
-      "titulo": "EE. UU. habría apoyado con inteligencia y drones un ataque contra el ELN en Venezuela: reportan 23 muertos",
-      "categoria": "Internacional",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/noticias/ee-uu-habria-apoyado-con-inteligencia-y-drones-un-ataque-contra-el-eln-en-venezuela-reportan-23-muertos/",
-      "fecha": "2026-11-04T20:30:02+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "c68e87050f4f4df6",
-      "titulo": "Video | Niña italiana de 8 años reportada como desaparecida fue encontrada con vida en Bogotá: así lograron identificarla",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/nina-italiana-8-anos-reportada-desaparecida-encontrada-vida-bogota-colombia-IO43180833",
-      "fecha": "2026-11-04T20:27:44+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "32ab6d532b9264a2",
-      "titulo": "Accidente en el rodaje de película de Batman habría afectado a actor; pausaron grabaciones",
-      "categoria": "Valle del Cauca",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/entretenimiento/accidente-en-el-rodaje-de-pelicula-de-batman-04-11-2026/",
-      "fecha": "2026-11-04T20:26:14+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "bf1d999d4c4555ff",
-      "titulo": "¡Atención! Buscan a dos menores y un adulto que habrían sido arrastrados por un arroyo en Soledad durante el aguacero de este miércoles",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/barranquilla/atencion-buscan-a-dos-menores-y-un-adulto-que-habrian-sido-arrastrados-por-un-arroyo-en-soledad-durante-el-aguacero-de-este-miercoles-3598480",
-      "fecha": "2026-11-04T20:26:03+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "7ccdffb7b44e278f",
-      "titulo": "En menos de 48 horas, De la Espriella condena otro atentado en Cauca",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/en-vivo/en-menos-de-48-horas-de-la-espriella-condena-otro-atentado-en-cauca/",
-      "fecha": "2026-11-04T20:24:24+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "4378be3860a2403d",
-      "titulo": "Corte Suprema sienta precedente: salir de un hogar por violencia intrafamiliar no es motivo para perder la sustitución pensional",
-      "categoria": "Colombia",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/area-legal/sustitucion-pensional-fallo-protege-a-victimas-de-violencia/",
-      "fecha": "2026-11-04T20:21:10+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "c0f18036d917bb65",
-      "titulo": "Asesinan a médico veterinario dentro de su establecimiento en El Banco, Magdalena: atacante se habría hecho pasar por cliente y luego le disparó",
-      "categoria": "Economía",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/asesinan-a-medico-veterinario-dentro-de-su-establecimiento-en-el-banco-magdalena-atacante-se-habria-hecho-pasar-por-cliente-y-luego-le-disparo-3598456",
-      "fecha": "2026-11-04T20:17:22+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "f376407bbc88e9d0",
-      "titulo": "El Rey inaugura la XXX Cumbre Iberoamericana alabando que la comunidad de naciones “franquea el acceso a un espacio de mayor libertad y prosperidad”",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/espana/2026-11-04/el-rey-inaugura-la-primera-jornada-de-la-xxx-cumbre-iberoamericana-en-madrid.html",
-      "fecha": "2026-11-04T20:17:15+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "7657af12b680df23",
-      "titulo": "Nuevos detalles del linchamiento de hombre que intentó entrar a habitación de hotel en Medellín con dos niñas: un sujeto fue imputado por el homicidio",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/medellin/nuevos-detalles-del-linchamiento-de-hombre-que-intento-entrar-a-habitacion-de-hotel-en-medellin-con-dos-ninas-un-sujeto-fue-imputado-por-el-homicidio-3598477",
-      "fecha": "2026-11-04T20:10:06+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "1b50ec421b667948",
-      "titulo": "¿Qué escondía? El misterio del camión abandonado que obligó a activar un plan antiterrorista en el suroriente de Cali: su conductor salió corriendo",
-      "categoria": "Cali",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/cali/que-escondia-el-misterio-del-camion-abandonado-que-obligo-a-activar-un-plan-antiterrorista-en-el-suroriente-de-cali-su-conductor-salio-corriendo-3598451",
-      "fecha": "2026-11-04T20:04:59+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "9b85fef03f1055b3",
-      "titulo": "Los ciberataques siguen afectando a empresas europeas y ahora golpean al banco francés Crédit Mutuel Arkéa",
-      "categoria": "Economía",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/seguridad/ciberataques-siguen-afectando-a-empresas-europeas-ahora-golpean-al-banco-frances-credit-mutuel-arkea",
-      "fecha": "2026-11-04T20:01:26+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "447707cb73325f44",
-      "titulo": "Joseph Díaz, el profesor de música barranquillero que hizo historia llevando una escuela pública de la ciudad al podio de los Latin Grammy",
-      "categoria": "Tendencias",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/barranquilla/joseph-diaz-el-profesor-de-musica-barranquillero-que-hizo-historia-llevando-una-escuela-publica-de-la-ciudad-al-podio-de-los-latin-grammy-3598464",
-      "fecha": "2026-11-04T20:00:03+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "9c87ec2dc1f42407",
-      "titulo": "Reforma tributaria: salarios desde $4,2 millones podrían empezar a pagar renta, según análisis de exdirector de la Dian",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/noticias/reforma-tributaria-salarios-desde-42-millones-podrian-empezar-a-pagar-renta-segun-analisis-de-exdirector-de-la-dian/",
-      "fecha": "2026-11-04T20:00:01+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "1d1c31dc0a02cfe1",
-      "titulo": "Menos impuestos para empresas, más cargas para los hogares",
-      "categoria": "Economía",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/red-de-expertos/red-social/menos-impuestos-para-empresas-mas-cargas-para-los-hogares/",
-      "fecha": "2026-11-04T20:00:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "76167f07d1492a50",
-      "titulo": "Consulta previa sobre la Amazonía, que dejó sin efectos gobierno, costó 13 mil millones",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/silla-amazonia/amazonia-en-breve/consulta-previa-sobre-la-amazonia-que-dejo-sin-efectos-gobierno-costo-13-mil-millones/",
-      "fecha": "2026-11-04T19:58:50+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "8694af7f092d70bf",
-      "titulo": "Comisiones Económicas Conjuntas aprueban en primer debate adición presupuestal de 2026",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/comisiones-economicas-conjuntas-aprueban-en-primer-debate-adicion-presupuestal-de-505715",
-      "fecha": "2026-11-04T19:56:04+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "2257963921510b95",
-      "titulo": "Sin alternativas rápidas, Colombia seguirá dependiendo del gas caro importado",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/silla-nacional/sin-alternativas-rapidas-colombia-seguira-dependiendo-del-gas-caro-importado/",
-      "fecha": "2026-11-04T19:54:17+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "48a2f86cb23f8087",
-      "titulo": "Los republicanos buscan culpables de la debacle electoral sin atreverse a señalar a Trump",
-      "categoria": "Internacional",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/us/2026-11-04/los-republicanos-buscan-culpables-de-la-debacle-electoral-sin-atreverse-a-senalar-a-trump.html",
-      "fecha": "2026-11-04T19:53:02+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "af9715a657d38d5e",
-      "titulo": "Comisiones Económicas aprobaron en primer debate adición al Presupuesto de 2026",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/economia/comisiones-economicas-aprobaron-en-primer-debate-adicion-el-presupuesto-de-2026-4517651",
-      "fecha": "2026-11-04T19:48:34+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "fd90d8a8bc725b20",
-      "titulo": "Niño arrojó un gato por la ventana de un edificio y rescatistas buscan ayuda para salvar su vida",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/nino-arrojo-un-gato-por-la-ventana-de-un-edificio-y-rescatistas-buscan-ayuda-para-salvar-su-vida-3598459",
-      "fecha": "2026-11-04T19:47:26+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "f035052972d0fd00",
-      "titulo": "Trump descarta destituir al secretario de Defensa, Pete Hegseth",
-      "categoria": "Internacional",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/trump-descarta-destituir-al-secretario-de-defensa-pete-hegseth/a-79858940?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-04T19:45:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "3e4aec71c64d187c",
-      "titulo": "Falla total en el radar aéreo de Bogotá provocó retrasos en El Dorado y otros aeropuertos del país",
-      "categoria": "Colombia",
-      "fuente": "La FM Actualidad",
-      "url": "https://www.lafm.com.co/actualidad/aeropuerto-el-dorado-de-bogota-esta-cerrado-416121",
-      "fecha": "2026-11-04T19:40:48+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "ffbb0bc17e72bd87",
-      "titulo": "Gobierno planea entregar cuatro cárceles entre 2026 y 2028",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/en-vivo/gobierno-planea-entregar-nuevas-carceles-entre-2026-y-2028/",
-      "fecha": "2026-11-04T19:40:30+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "61232f9f69bfbcd7",
-      "titulo": "Carrera 5K en Cali: este será el recorrido por el barrio Obrero y Ciudad Paraíso este domingo",
-      "categoria": "Cali",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/deportes/carrera-5k-en-cali-barrio-obrero-deporte-04-11-2026/",
-      "fecha": "2026-11-04T19:31:56+00:00",
-      "imagen": ""
     }
   ],
   "estado_fuentes": [
@@ -553,7 +553,7 @@
       "nombre": "El Tiempo Cali",
       "url": "https://www.eltiempo.com/rss/colombia_cali.xml",
       "estado": "correcto",
-      "titulares": 8
+      "titulares": 9
     },
     {
       "nombre": "El Espectador",
