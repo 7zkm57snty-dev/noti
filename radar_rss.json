@@ -1,22 +1,202 @@
 {
-  "ultima_actualizacion": "2026-11-04T17:34:08.218681+00:00",
+  "ultima_actualizacion": "2026-11-04T18:33:08.240514+00:00",
   "titulares_rss": [
     {
       "id": "988cbf8bbfc246cc",
-      "titulo": "\"Trump sigue siendo su presidente\": la Casa Blanca reacciona a la ola de triunfos demócratas en las elecciones de mitad de mandato; sigue aquí los resultados",
+      "titulo": "\"Perdimos por la guerra\", dice JD Vance tras los devastadores resultados para el gobierno de Trump en las elecciones de medio término en EE.UU.",
       "categoria": "Internacional",
       "fuente": "BBC Mundo",
       "url": "https://www.bbc.co.uk/mundo/live/cq9vz4g97xy2t?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-04T17:34:08.218681+00:00",
+      "fecha": "2026-11-04T18:33:08.240514+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "205407a51d52b290",
+      "titulo": "Las ‘midterms’ 2026, en vivo | El vicepresidente J. D. Vance culpa a la guerra en Irán por la estrepitosa derrota republicana",
+      "categoria": "Internacional",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/us/2026-11-04/las-midterms-2026-en-vivo.html",
+      "fecha": "2026-11-04T18:29:23+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "5b0d59809e05ab04",
+      "titulo": "La Casa Blanca recuerda que Trump \"es todavía presidente\" pese a la derrota en las legislativas",
+      "categoria": "Internacional",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/la-casa-blanca-recuerda-que-trump-es-todavía-presidente-pese-a-la-derrota-en-las-legislativas/live-79845739?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-04T18:28:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "27a21627e9b759a3",
+      "titulo": "Detrás de las transferencias de EPM: las razones de fondo por las que Medellín recibirá menos recursos en 2027",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/medellin/detras-de-las-transferencias-de-epm-las-razones-de-fondo-por-las-que-medellin-recibira-menos-recursos-en-3598444",
+      "fecha": "2026-11-04T18:24:16+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "c228c17d4f8ebacd",
+      "titulo": "Explosión en zona de El Patía, Cauca: atentado con una volqueta bomba iba dirigido contra la subestación de la Policía en la vía Panamericana",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/cali/explosion-en-zona-de-el-patia-cauca-atentado-iba-dirigido-contra-la-subestacion-de-la-policia-en-el-sur-de-la-region-verifican-si-fue-carro-bomba-3598400",
+      "fecha": "2026-11-04T18:23:17+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "58fe11765d2ce661",
+      "titulo": "Noviembre se vive en el escenario: descubra las obras que tendrá el Teatro Enrique Buenaventura",
+      "categoria": "Valle del Cauca",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/vida-moderna/cultura/obras-teatro-enrique-buenaventura-cali-4-11-2026/",
+      "fecha": "2026-11-04T18:19:13+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "460d23d1563c6341",
+      "titulo": "Diario del gobierno de Abelardo: ley de sometimiento a sanción presidencial",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/en-vivo/diario-del-gobierno-de-abelardo-ley-de-sometimiento-a-sancion-presidencial/",
+      "fecha": "2026-11-04T18:17:53+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "0a0434cff4f59e88",
+      "titulo": "\"Están siendo los días más difíciles de mi vida\": la desconsolada carta del portero Owono tras el encontronazo que causó la muerte al jugador Jesús de Miguel",
+      "categoria": "Internacional",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/ck4g1l0064q9o?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-04T18:09:45+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "915044be070c2765",
+      "titulo": "El Barrio Obrero se convierte en el epicentro del 21º Festival Mundial de Salsa de Cali; prográmese",
+      "categoria": "Cali",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/vida-moderna/cultura/barrio-obrero-epicentro-festival-mundial-salsa-cali-4-11-2026/",
+      "fecha": "2026-11-04T18:08:24+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "a164d66c51c18f12",
+      "titulo": "Mujer que fue atacada con un químico en Medellín por su expareja era víctima de un ciclo de violencia: el agresor fue enviado a la cárcel",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/medellin/mujer-que-fue-atacada-con-un-quimico-en-medellin-por-su-expareja-era-victima-de-un-ciclo-de-violencia-el-agresor-fue-enviado-a-la-carcel-3598420",
+      "fecha": "2026-11-04T18:01:17+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "8e87f8fe6ab14da6",
+      "titulo": "Se registra un nuevo ataque explosivo en la vía Panamericana, en zona rural de El Patía",
+      "categoria": "Valle del Cauca",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/judicial/ataque-explosivo-via-panamericana-patia-4-11-2026/",
+      "fecha": "2026-11-04T17:59:22+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "4e66135f8bef08a2",
+      "titulo": "Quién es Bobby Pulido, la estrella de la música tejana que devolvió a los demócratas un condado de Texas fronterizo con México",
+      "categoria": "Tendencias",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/c6kg7wj3gxk8o?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-04T17:56:20+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "c8626be5bbc40458",
+      "titulo": "Emisor lanzó cuarta subasta de compra de dólares por US$399,8 millones",
+      "categoria": "Economía",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/economia/emisor-lanzo-cuarta-subasta-de-compra-de-dolares-por-us-399-8-millones-4517606",
+      "fecha": "2026-11-04T17:55:06+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "16d564e67d3f404f",
+      "titulo": "La foto: 14 días después, Abelardo posesiona a Ordóñez en MinInterior",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/en-vivo/la-foto-14-dias-despues-abelardo-posesiona-a-ordonez-en-mininterior/",
+      "fecha": "2026-11-04T17:54:39+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "bce4d71f11887f3e",
+      "titulo": "Deuda de Colombia podría llegar al 82% del PIB en 2030 si el ajuste fiscal se concentra en recortar gastos: Anif",
+      "categoria": "Colombia",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/deuda-de-colombia-podria-llegar-al-82-del-pib-en-2030-si-el-ajuste-fiscal-se-concentra-en-recortar-gastos-anif-505707",
+      "fecha": "2026-11-04T17:52:50+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "c91101ddbce6cb9b",
+      "titulo": "Problemas sobre la Troncal de Occidente: la vía sufrió el hundimiento de la banca y tiene bloqueada esta entrada y salida de Sincelejo",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/problemas-sobre-la-troncal-de-occidente-la-via-sufrio-el-hundimiento-de-la-banca-y-tiene-bloqueada-esta-entrada-y-salida-de-sincelejo-3598435",
+      "fecha": "2026-11-04T17:40:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "a56bd01a669b6870",
+      "titulo": "Reconstrucción por Impuestos: Gobierno proyecta $10 billones para 2027, frente a $200.000 millones este año",
+      "categoria": "Colombia",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/infraestructura/reconstruccion-por-impuestos-gobierno-proyecta-10-billones-para-2027-frente-a-200-000-millones-este-ano-505698",
+      "fecha": "2026-11-04T17:35:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "325b13a84d68691b",
+      "titulo": "El programa 'Mujeres Todoterreno' de Sacyr capacita a comunidades que habitan en inmediaciones del Canal del Dique para trabajos en infraestructura",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/el-programa-mujeres-todoterreno-de-sacyr-capacita-a-comunidades-que-habitan-en-inmediaciones-del-canal-del-dique-para-trabajos-en-infraestructura-3598428",
+      "fecha": "2026-11-04T17:34:27+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "d5eacc7ba79a4666",
+      "titulo": "Bandas organizadas roban camiones cargados de componentes para centros de datos: ya suman 100 millones de dólares",
+      "categoria": "Economía",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/empresas-y-economia/bandas-organizadas-roban-camiones-cargados-componentes-para-centros-datos-suman-100-millones-dolares",
+      "fecha": "2026-11-04T17:31:22+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "f238be429d75f90e",
+      "titulo": "Demócratas se adueñan del Senado de los EE. UU.",
+      "categoria": "Valle del Cauca",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/efe/democratas-aduenan-senado-ee-uu-4-11-2026/",
+      "fecha": "2026-11-04T17:29:15+00:00",
       "imagen": ""
     },
     {
       "id": "b7992bbb1a91e769",
-      "titulo": "Viviane Morales fue designada como Consejera Comisionada de Paz",
+      "titulo": "Viviane Morales fue designada como Consejera Comisionada de Paz del gobierno",
       "categoria": "Colombia",
       "fuente": "La República",
       "url": "https://www.larepublica.co/economia/viviane-morales-fue-designada-como-consejera-comisionada-de-paz-4517578",
       "fecha": "2026-11-04T17:28:01+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "3fa5d40457467ece",
+      "titulo": "Video, ¿Qué impuestos se deben pagar al recibir una herencia en Colombia?",
+      "categoria": "Colombia",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/tv/nuestro-derecho/impuestos-herencia-en-colombia-04-11-2026/",
+      "fecha": "2026-11-04T17:27:12+00:00",
       "imagen": ""
     },
     {
@@ -26,15 +206,6 @@
       "fuente": "La Silla Vacía",
       "url": "https://www.lasillavacia.com/en-vivo/fip-gobierno-hereda-deudas-con-80-mil-familias-de-sustitucion-de-coca/",
       "fecha": "2026-11-04T17:24:47+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "205407a51d52b290",
-      "titulo": "Las ‘midterms’ 2026, en vivo | El vicepresidente J. D. Vance culpa a la guerra en Irán por la estrepitosa derrota republicana",
-      "categoria": "Internacional",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/us/2026-11-04/las-midterms-2026-en-vivo.html",
-      "fecha": "2026-11-04T17:24:09+00:00",
       "imagen": ""
     },
     {
@@ -74,6 +245,15 @@
       "imagen": ""
     },
     {
+      "id": "842694f293db8031",
+      "titulo": "Bruselas exige a Ucrania acelerar las reformas para cerrar las negociaciones de adhesión en 2028",
+      "categoria": "Internacional",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/internacional/2026-11-04/bruselas-exige-a-ucrania-acelerar-las-reformas-para-cerrar-las-negociaciones-de-adhesion-en-2028.html",
+      "fecha": "2026-11-04T17:12:02+00:00",
+      "imagen": ""
+    },
+    {
       "id": "bc877d40a6ae53be",
       "titulo": "Envían a la cárcel a un hombre señalado de atacar con un agente químico a su expareja: Fiscalía reveló cómo habría intentado desviar la investigación",
       "categoria": "Colombia",
@@ -83,30 +263,12 @@
       "imagen": ""
     },
     {
-      "id": "5b0d59809e05ab04",
-      "titulo": "La Casa Blanca recuerda que Trump \"es todavía presidente\" pese a la derrota en las legislativas",
-      "categoria": "Internacional",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/la-casa-blanca-recuerda-que-trump-es-todavía-presidente-pese-a-la-derrota-en-las-legislativas/live-79845739?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-04T17:07:00+00:00",
-      "imagen": ""
-    },
-    {
       "id": "64f408c010024b38",
       "titulo": "Bancolombia anunció más de $18 billones en cupos de crédito para Pyme y empresas",
       "categoria": "Economía",
       "fuente": "La República",
       "url": "https://www.larepublica.co/finanzas/bancolombia-anuncio-mas-de-18-billones-en-cupos-de-credito-para-pyme-y-empresas-del-pais-4517477",
       "fecha": "2026-11-04T17:06:10+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "c228c17d4f8ebacd",
-      "titulo": "Explosión en zona de El Patía, Cauca: atentado con una volqueta bomba iba dirigido contra la subestación de la Policía en zona de la vía Panamericana",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/cali/explosion-en-zona-de-el-patia-cauca-atentado-iba-dirigido-contra-la-subestacion-de-la-policia-en-el-sur-de-la-region-verifican-si-fue-carro-bomba-3598400",
-      "fecha": "2026-11-04T17:05:47+00:00",
       "imagen": ""
     },
     {
@@ -272,6 +434,15 @@
       "imagen": ""
     },
     {
+      "id": "020aeaa2da8c124a",
+      "titulo": "Investigan causas de accidente en la vía Panamericana",
+      "categoria": "Colombia",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/colombia/via-panamericana-accidente-en-rosas-deja-2-muertos-y-12-heridos/",
+      "fecha": "2026-11-04T16:43:13+00:00",
+      "imagen": ""
+    },
+    {
       "id": "8fecd501f2e049ea",
       "titulo": "Feria Universitaria Rural se realizó para acercar la educación superior a niños y jóvenes",
       "categoria": "Valle del Cauca",
@@ -296,6 +467,33 @@
       "fuente": "El Colombiano — Colombia",
       "url": "https://www.elcolombiano.com/colombia/zulma-guzma-habria-envenenado-a-seis-personas-HA43164065",
       "fecha": "2026-11-04T16:36:04+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "c008e37ae3307885",
+      "titulo": "¿Cuánto tendrían que pagar en salud los trabajadores que ganan entre 20 y 25 salarios mínimos con la nueva tributaria?",
+      "categoria": "Economía",
+      "fuente": "La FM Economía",
+      "url": "https://www.lafm.com.co/economia/cuanto-pagaran-salud-trabjadores-20-25-salarios-minimos-nueva-tributaria-416102",
+      "fecha": "2026-11-04T16:35:48+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "ef3d5aee113a67a1",
+      "titulo": "El Comité Electoral de Israel confirma los resultados de los comicios y advierte del “peligro” de cuestionar su veracidad",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/internacional/2026-11-04/el-comite-electoral-de-israel-confirma-los-resultados-de-los-comicios-y-advierte-del-peligro-de-cuestionar-su-veracidad.html",
+      "fecha": "2026-11-04T16:35:27+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "ef4c71531949715d",
+      "titulo": "Ataque con explosivos afectó dos carriles del peaje de Mediacanoa en Yotoco",
+      "categoria": "Colombia",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/regionales/valle-del-cauca/peaje-de-mediacanoa-sufre-ataque-con-explosivos-en-la-via/",
+      "fecha": "2026-11-04T16:31:26+00:00",
       "imagen": ""
     },
     {
@@ -341,204 +539,6 @@
       "fuente": "90 Minutos",
       "url": "https://90minutos.co/vida-moderna/salud/skincare-coreano-tendencia-04-11-2026/",
       "fecha": "2026-11-04T16:27:22+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "703ae323a24f8709",
-      "titulo": "Seguridad aérea: operar un dron cerca del aeropuerto de Cartagena acarrea multas de cerca de $100 millones e imputaciones penales y cárcel",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/seguridad-aerea-operar-un-dron-cerca-del-aeropuerto-de-cartagena-acarrea-multas-de-cerca-de-100-millones-e-imputaciones-penales-con-penas-de-carcel-3598368",
-      "fecha": "2026-11-04T16:18:57+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "c125e7ec83884042",
-      "titulo": "¿Es damnificado del terremoto en Cali? Consulte las jornadas para reclamar el auxilio",
-      "categoria": "Cali",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/cali/damnificado-terremoto-consulte-jornadas-reclamar-auxilio-4-11-2026/",
-      "fecha": "2026-11-04T16:13:03+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "dc42289a90f56422",
-      "titulo": "Airbus evaluará inversiones a cuatro años en Bogotá para crear una cadena aeronáutica y aeroespacial en Colombia",
-      "categoria": "Colombia",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/airbus-evaluara-inversiones-a-cuatro-anos-en-bogota-para-crear-una-cadena-aeronautica-y-aeroespacial-en-colombia-505693",
-      "fecha": "2026-11-04T16:10:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "8040e9365b0937f9",
-      "titulo": "En Colombia, el 72 % del crédito a transformación agropecuaria financia compras y solo el 7 % va a inversión",
-      "categoria": "Colombia",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/finanzas/en-colombia-el-72-del-credito-a-transformacion-agropecuaria-financia-compras-y-solo-el-7-va-a-inversion-505696",
-      "fecha": "2026-11-04T16:09:32+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "c7325f5dde8c377f",
-      "titulo": "El sueño de estudiar en el exterior comienza para 200 jóvenes de Santa Marta que recibieron su primer pasaporte",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/el-sueno-de-estudiar-en-el-exterior-comienza-para-200-jovenes-de-santa-marta-que-recibieron-su-primer-pasaporte-3598393",
-      "fecha": "2026-11-04T16:08:41+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "a55045398eb817f1",
-      "titulo": "Shein invierte US$563 millones en Europa ante endurecimiento de normas aduaneras",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/shein-invierte-us-563-millones-en-europa-ante-el-endurecimiento-de-las-normas-aduaneras-4517513",
-      "fecha": "2026-11-04T16:07:16+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "a74160f642a5f292",
-      "titulo": "Video | David Ospina anuncia su retiro del fútbol profesional: Esta fue la lesión que lo obligó",
-      "categoria": "Deportes",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/deportes/video-david-ospina-anuncia-su-retiro-del-futbol-profesional-04-11-2026/",
-      "fecha": "2026-11-04T16:02:09+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "64baf5c6bbe7266f",
-      "titulo": "Gobierno priorizará gasoducto Antonio Ricaurte para importar gas desde Venezuela",
-      "categoria": "Internacional",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/economia/gobierno-priorizara-gasoducto-antonio-ricaurte-para-traer-gas-de-venezuela-4517466",
-      "fecha": "2026-11-04T16:01:27+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "8d8b8d7e4d253dd2",
-      "titulo": "Muy pronto en Lidl este árbol de Navidad artificial con altura de dos metros y un precio rebajado",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/seleccion/muy-pronto-lidl-este-arbol-navidad-artificial-altura-dos-metros-precio-rebajado",
-      "fecha": "2026-11-04T16:01:26+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "ed446416108cc493",
-      "titulo": "Revolut pasa de Claude Code o Codex y pone a 2.000 ingenieros a trabajar con GLM 5.3: su factura de IA es ahora diez veces menor",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/empresas-y-economia/revolut-pasa-claude-code-codex-pone-a-2-000-ingenieros-a-trabajar-glm-5-3-su-factura-ia-ahora-diez-veces-menor",
-      "fecha": "2026-11-04T16:00:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "7d7ada57ea0c8328",
-      "titulo": "“Rentas”, el colomboturco que denunció “contratitis” de Petro y ahora vigila al Gobierno: “no le vendí el alma a ningún político”",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/rentas-influencer-colomboturco-denuncio-contratacion-gobierno-petro-FD43153996",
-      "fecha": "2026-11-04T15:57:43+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "96e6acbc03e9c8bc",
-      "titulo": "Las acciones de Tesla caen 5% y SpaceX se desploma 6,9% antes de la apertura",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/las-acciones-de-tesla-caen-5-y-spacex-se-desploma-6-9-antes-de-la-apertura-4517464",
-      "fecha": "2026-11-04T15:56:32+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "9ffe3b65a050f33e",
-      "titulo": "“Llegó a cobrar viejos dolores”: Lafaurie por altercado con el MinAgro",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/en-vivo/llego-a-cobrar-viejos-dolores-lafaurie-por-altercado-con-el-minagro/",
-      "fecha": "2026-11-04T15:56:16+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "7bfc08855ae86d76",
-      "titulo": "Un policía de 27 años fue asesinado en Medellín tras intervenir en un episodio de sicariato entre grupos delincuenciales organizados",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/medellin/un-policia-de-27-anos-fue-asesinado-en-medellin-tras-intervenir-en-un-episodio-de-sicariato-entre-grupos-delincuenciales-organizados-3598383",
-      "fecha": "2026-11-04T15:56:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "bc372afb430b5251",
-      "titulo": "¿Alcanza para el día a día? Así quedaría la jornada laboral si el salario mínimo sube 8%",
-      "categoria": "Economía",
-      "fuente": "La FM Economía",
-      "url": "https://www.lafm.com.co/economia/alcanza-dia-a-dia-jornada-laboral-salario-minimo-sube-8-416098",
-      "fecha": "2026-11-04T15:55:29+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "625acb97163e92b4",
-      "titulo": "Campetrol propondrá incluir la exploración e inversión geológica en el PND",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/economia/campetrol-propondra-incluir-la-exploracion-e-inversion-geologica-en-el-plan-de-desarrollo-4517462",
-      "fecha": "2026-11-04T15:52:24+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "39c08ea45a699971",
-      "titulo": "Terroristas atacaron con explosivo el peaje de Yotoco, Valle del Cauca, ¿por qué se ensañaron contra estas estructuras?",
-      "categoria": "Valle del Cauca",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/atentado-terrorista-explosivo-peaje-yotoco-valle-del-cauca-JA43163684",
-      "fecha": "2026-11-04T15:52:20+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "4e1a6488f76add9c",
-      "titulo": "¿Qué es la ley de sometimiento y qué beneficios contempla? Esto fue lo aprobado por el Congreso",
-      "categoria": "Colombia",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/colombia/ley-sometimiento-aprobado-congreso-4-11-2026/",
-      "fecha": "2026-11-04T15:50:19+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "318b1e64dad78401",
-      "titulo": "Premios Xataka Verisure 2026: estos son los finalistas",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/xataka/premios-xataka-verisure-2026-estos-finalistas",
-      "fecha": "2026-11-04T15:47:47+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "9e9cc8ba04db0612",
-      "titulo": "Tres dispositivos muy rebajados en el 11.11 de AliExpress que todavía siguen disponibles: una tablet, un reloj Garmin y una consola",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/seleccion/tres-dispositivos-muy-rebajados-11-11-aliexpress-que-todavia-siguen-disponibles-tablet-reloj-garmin-consola",
-      "fecha": "2026-11-04T15:45:22+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "c99b7c190800906a",
-      "titulo": "Acción de Metro Bank, de Gilinski, aumentó 17% tras la entrega de resultados",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/finanzas/metro-bank-de-jaime-gilinski-aumento-37-su-cartera-de-credito-objetivo-en-el-tercer-trimestre-4517274",
-      "fecha": "2026-11-04T15:43:38+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "5b6ea692fe3603e5",
-      "titulo": "¿Trump como primer ministro en Israel? La inesperada propuesta del presidente estadounidense",
-      "categoria": "Internacional",
-      "fuente": "La FM Internacional",
-      "url": "https://www.lafm.com.co/internacional/trump-primer-ministro-israel-propuestas-mandatario-elecciones-medio-termino-2026-416096",
-      "fecha": "2026-11-04T15:38:55+00:00",
       "imagen": ""
     }
   ],
