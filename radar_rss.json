@@ -1,5 +1,5 @@
 {
-  "ultima_actualizacion": "2026-11-04T08:38:04.745539+00:00",
+  "ultima_actualizacion": "2026-11-04T09:37:14.731956+00:00",
   "titulares_rss": [
     {
       "id": "988cbf8bbfc246cc",
@@ -7,7 +7,61 @@
       "categoria": "Internacional",
       "fuente": "BBC Mundo",
       "url": "https://www.bbc.co.uk/mundo/live/cq9vz4g97xy2t?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-04T08:38:04.745539+00:00",
+      "fecha": "2026-11-04T09:37:14.731956+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "e4e11bd011fdc9a2",
+      "titulo": "Google está financiando el futuro de la IA con el negocio que amenaza con destruir: su buscador clásico",
+      "categoria": "Tecnología",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/servicios/google-esta-financiando-futuro-ia-negocio-que-amenaza-destruir-su-buscador-clasico",
+      "fecha": "2026-11-04T09:31:54+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "b8986577377d960c",
+      "titulo": "Cuatro victorias clave (y dos sorpresas): repaso de los triunfos demócratas en las elecciones",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/us/2026-11-04/cuatro-victorias-clave-y-dos-sorpresas-repaso-a-los-triunfos-democratas-en-las-elecciones.html",
+      "fecha": "2026-11-04T09:30:35+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "c20e19e2d293637e",
+      "titulo": "Catalina Oquendo: “Los colombianos seguimos obsesionados con la idea de ganar la guerra, incluso si es una ficción”",
+      "categoria": "Internacional",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/america-colombia/2026-11-04/catalina-oquendo-los-colombianos-seguimos-obsesionados-con-la-idea-de-ganar-la-guerra-incluso-si-es-una-ficcion.html",
+      "fecha": "2026-11-04T09:30:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "05bd66b6b96dea66",
+      "titulo": "Lo que la comunidad construyó sentencia a sentencia, el ministro de Ambiente de Colombia lo borra decreto a decreto",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/america-colombia/2026-11-04/lo-que-la-comunidad-construyo-sentencia-a-sentencia-el-ministro-de-ambiente-de-colombia-lo-borra-decreto-a-decreto.html",
+      "fecha": "2026-11-04T09:30:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "02d774d1fb1b21e3",
+      "titulo": "No entiendo",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/america-colombia/2026-11-04/no-entiendo.html",
+      "fecha": "2026-11-04T09:30:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "da6a5f7368da1943",
+      "titulo": "El Niño provoca un muerto y más 2.000 afectados en Galápagos",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/america-futura/2026-11-04/el-nino-provoca-un-muerto-y-mas-2000-afectados-en-galapagos.html",
+      "fecha": "2026-11-04T09:30:00+00:00",
       "imagen": ""
     },
     {
@@ -16,7 +70,43 @@
       "categoria": "Internacional",
       "fuente": "El País Colombia",
       "url": "https://elpais.com/us/2026-11-03/las-midterms-2026-en-vivo.html",
-      "fecha": "2026-11-04T08:37:14+00:00",
+      "fecha": "2026-11-04T09:26:31+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "781bec17f7748ca2",
+      "titulo": "\"No lo considero un revés para mí\": la reacción de Trump tras el aplastante triunfo de los demócratas en el Congreso",
+      "categoria": "Internacional",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/ck62y4ql3wggo?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-04T09:23:37+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "44cf92f4b5e2897c",
+      "titulo": "El Corte Inglés da comienzo a su primer adelanto del Black Friday y estas son sus mejores ofertas en tecnología y entretenimiento",
+      "categoria": "Tecnología",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/seleccion/corte-ingles-da-comienzo-a-su-primer-adelanto-black-friday-estas-sus-mejores-ofertas-tecnologia-entretenimiento",
+      "fecha": "2026-11-04T09:15:27+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "d9fa6dd27f4abad2",
+      "titulo": "En pleno boom de turismo extranjero, Tokio se ha encontrado con una industria en auge en sus calles: la prostitución",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/magnet/pleno-boom-turismo-extranjero-tokio-se-ha-encontrado-industria-auge-sus-calles-prostitucion",
+      "fecha": "2026-11-04T09:01:29+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "e850140348ec2f0f",
+      "titulo": "La semana que viene llega a Lidl esta freidora de aire vertical doble ideal (al estilo Ninja), ideal para cocinas pequeñas",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/seleccion/semana-que-viene-llega-a-lidl-esta-freidora-aire-vertical-doble-ideal-al-estilo-ninja-ideal-para-cocinas-pequenas",
+      "fecha": "2026-11-04T09:00:11+00:00",
       "imagen": ""
     },
     {
@@ -25,21 +115,30 @@
       "categoria": "Internacional",
       "fuente": "El País Colombia",
       "url": "https://elpais.com/us/2026-11-03/los-resultados-de-las-midterms-de-2026-en-estados-unidos-en-vivo.html",
-      "fecha": "2026-11-04T08:35:05+00:00",
+      "fecha": "2026-11-04T08:47:52+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "9a635b77dc447a71",
+      "titulo": "“Demostraremos que no hubo violación de topes”: Ricardo Roa sobre campaña Petro 2022",
+      "categoria": "Colombia",
+      "fuente": "La FM Actualidad",
+      "url": "https://www.lafm.com.co/actualidad/ricardo-roa-dice-que-demostrara-su-inocencia-sobre-presunta-violacion-de-topes-416061",
+      "fecha": "2026-11-04T08:34:01+00:00",
       "imagen": ""
     },
     {
       "id": "a130b7e7451cda10",
-      "titulo": "En 1856, un estudiante de 18 años intentó curar la malaria. Le salió un pegote negro que acabó tiñendo Europa de violeta",
-      "categoria": "Colombia",
+      "titulo": "En 1856, un estudiante de 18 años intentó fabricar la solución a uno de los grandes males del mundo. Un desastre que terminó tiñendo Europa de violeta",
+      "categoria": "Internacional",
       "fuente": "Xataka",
       "url": "https://www.xataka.com/magnet/1856-estudiante-18-anos-intento-curar-malaria-le-salio-pegote-negro-que-acabo-tinendo-europa-violeta",
-      "fecha": "2026-11-04T08:31:27+00:00",
+      "fecha": "2026-11-04T08:30:00+00:00",
       "imagen": ""
     },
     {
       "id": "d362caf54cd50253",
-      "titulo": "Quién Gina Hinojosa, la demócrata de ascendencia mexicana que será la primera latina en gobernar la conservadora Texas",
+      "titulo": "Quién es Gina Hinojosa, la demócrata de ascendencia mexicana que será la primera latina en gobernar la conservadora Texas",
       "categoria": "Internacional",
       "fuente": "BBC Mundo",
       "url": "https://www.bbc.com/mundo/articles/cqn06jxe3zexo?at_medium=RSS&at_campaign=rss",
@@ -188,15 +287,6 @@
       "fuente": "BBC Mundo",
       "url": "https://www.bbc.com/mundo/articles/cqe9lej2zpzno?at_medium=RSS&at_campaign=rss",
       "fecha": "2026-11-04T06:28:33+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "b8986577377d960c",
-      "titulo": "Cuatro victorias clave (y dos sorpresas): repaso de los triunfos demócratas en las elecciones",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/us/2026-11-04/cuatro-victorias-clave-y-dos-sorpresas-repaso-a-los-triunfos-democratas-en-las-elecciones.html",
-      "fecha": "2026-11-04T06:14:39+00:00",
       "imagen": ""
     },
     {
@@ -450,96 +540,6 @@
       "url": "https://www.larepublica.co/analisis/german-bahamon-3587238/el-cafe-vale-mas-construyamos-ese-valor-juntos-4516943",
       "fecha": "2026-11-04T05:01:30+00:00",
       "imagen": ""
-    },
-    {
-      "id": "b3581263a891460a",
-      "titulo": "El poder y la decencia",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/analisis/maritza-aristizabal-quintero-2969657/el-poder-y-la-decencia-4516921",
-      "fecha": "2026-11-04T05:01:30+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "6827e06ccd15a2e0",
-      "titulo": "Galenos renueva su carta con sus nuevos platos junto con una apuesta por sabores intensos",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/ocio/galenos-restaurante-renueva-su-carta-con-nuevos-platos-y-una-apuesta-por-sabores-intensos-4516973",
-      "fecha": "2026-11-04T05:01:23+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "918a3757fe6c0417",
-      "titulo": "Zapatero a tus zapatos",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/analisis/maximiliano-rodriguez-fernandez-3175730/zapatero-a-tus-zapatos-4516985",
-      "fecha": "2026-11-04T05:01:22+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "2c5cfd520411dcf0",
-      "titulo": "Los restaurantes de los hoteles de lujo que está destacando el Financial Times y sus precios",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/ocio/los-restaurantes-de-hoteles-de-lujo-que-destaca-financial-times-y-sus-precios-4516980",
-      "fecha": "2026-11-04T05:01:21+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "92f779e2032e68d8",
-      "titulo": "Un país que se come su futuro",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/analisis/simon-gaviria-munoz-401830/un-pais-que-se-come-su-futuro-4516947",
-      "fecha": "2026-11-04T05:01:17+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "7a276d5fd7688e58",
-      "titulo": "Más ajuste y menos impuestos",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/opinion/editorial/mas-ajuste-y-menos-impuestos-4516850",
-      "fecha": "2026-11-04T05:01:16+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "a1f15aeadc48e1da",
-      "titulo": "Con la adquisición de la ecuatoriana La Universal, Nutresa va por US$200 millones",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/empresas/con-la-universal-nutresa-va-por-us-200-millones-4516940",
-      "fecha": "2026-11-04T05:01:14+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "b2a46746e58260fd",
-      "titulo": "¿Rescatar las cuentas cobrándole peaje al empleo formal?",
-      "categoria": "Economía",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/analisis/diego-felipe-valdivieso-rueda-3573827/rescatar-las-cuentas-cobrandole-peaje-al-empleo-formal-4516978",
-      "fecha": "2026-11-04T05:01:13+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "04cca24da2e56a4f",
-      "titulo": "El aprovechamiento de alimentos abre oportunidades económicas",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/responsabilidad-social/el-aprovechamiento-de-alimentos-abre-oportunidades-economicas-para-las-empresas-4516923",
-      "fecha": "2026-11-04T05:01:04+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "d36f7ec040d1b42d",
-      "titulo": "Del carbón a la soberanía: una conversación que Colombia no puede aplazar",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/analisis/carlos-cante-3452977/del-carbon-a-la-soberania-una-conversacion-que-colombia-no-puede-aplazar-4516983",
-      "fecha": "2026-11-04T05:01:04+00:00",
-      "imagen": ""
     }
   ],
   "estado_fuentes": [
@@ -590,7 +590,7 @@
       "nombre": "BBC Mundo",
       "url": "https://feeds.bbci.co.uk/mundo/rss.xml",
       "estado": "correcto",
-      "titulares": 28
+      "titulares": 29
     },
     {
       "nombre": "DW Español",
