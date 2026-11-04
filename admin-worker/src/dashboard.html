@@ -322,8 +322,7 @@ function words(v){return String(v||"").trim().split(/\s+/).filter(Boolean).lengt
 async function load(){if(state.busy)return;state.busy=true;if(!state.data)$("#main").innerHTML='<div class="loading"><div class="spin"></div>Sincronizando noticias…</div>';try{state.data=await api("/api/dashboard");$("#user").textContent=state.data.user||"Administrador";$("#avatar").textContent=String(state.data.user||"CE").slice(0,2).toUpperCase();const n=(state.data.reviews||[]).length;$("#pendingCount").textContent=n;$("#pendingCount").hidden=!n;render()}catch(e){$("#main").innerHTML='<section class="setup"><div class="eyebrow">CONEXIÓN PENDIENTE</div><h2>No se pudo conectar con el repositorio</h2><p>'+esc(e.message)+'</p><button class="btn secondary" id="retry">Volver a intentar</button></section>';$("#retry").addEventListener("click",load)}finally{state.busy=false}}
 function heading(k,t,s,b){return '<div class="heading"><div><div class="eyebrow">'+k+'</div><h1>'+t+'</h1><p class="sub">'+s+'</p></div>'+(b||"")+'</div>'}
 function prCard(p){
- const body=String(p.body||"").slice(0,7000),bodyHtml=esc(body).replace(/\r?
-/g,"<br>");
+ const body=String(p.body||"").slice(0,7000),bodyHtml=esc(body).replace(/\r?\n/g,"<br>");
  const titles=Array.isArray(p.proposedTitles)?p.proposedTitles:[];
  const fileRows=Array.isArray(p.files)?p.files:[];
  const fileHtml=fileRows.length?'<div class="proposal-files"><b>Archivos modificados</b>'+fileRows.map(f=>'<div><span>'+esc(f.filename)+'</span><small>'+esc(f.status)+' · +'+Number(f.additions||0)+' / −'+Number(f.deletions||0)+'</small></div>').join("")+'</div>':'<p class="muted">GitHub no devolvió el detalle de archivos de esta propuesta.</p>';
