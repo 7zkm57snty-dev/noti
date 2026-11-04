@@ -1,31 +1,391 @@
 {
-  "ultima_actualizacion": "2026-11-04T03:59:46.712526+00:00",
+  "ultima_actualizacion": "2026-11-04T05:05:50.099897+00:00",
   "titulares_rss": [
     {
       "id": "988cbf8bbfc246cc",
-      "titulo": "\"¡Yo no aparecía en la boleta!\": Trump reacciona ante una noche que se perfila como histórica para los demócratas en las elecciones de medio término en EE.UU.",
+      "titulo": "Los demócratas logran el control del Senado y la Cámara de Representantes en una “ola azul” triunfal en las elecciones de medio mandato de EE.UU.",
       "categoria": "Internacional",
       "fuente": "BBC Mundo",
       "url": "https://www.bbc.co.uk/mundo/live/cq9vz4g97xy2t?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-04T03:59:46.712526+00:00",
+      "fecha": "2026-11-04T05:05:50.099897+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "81b46aa90e70f946",
+      "titulo": "Nvidia exige a los socios de la nube reducir en cerca de 50% exposición de datos con China",
+      "categoria": "Internacional",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/globoeconomia/nvidia-exige-a-socios-de-la-nube-reducir-50-exposicion-de-datos-con-china-4517026",
+      "fecha": "2026-11-04T05:03:29+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "de03c277b73cea8a",
+      "titulo": "Aranceles, China, IA e Irán, las decisiones en juego en las 'midterm' de Estados Unidos",
+      "categoria": "Internacional",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/globoeconomia/aranceles-china-ia-e-iran-las-decisiones-en-juego-en-las-midterm-de-ee-uu-4517011",
+      "fecha": "2026-11-04T05:03:27+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "f752cb3030997704",
+      "titulo": "“Unilever ha invertido más de US$224 millones en la cadena de valor de Colombia”",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/empresas/entrevista-con-renato-banhara-gerente-de-unilever-para-la-region-andina-4516848",
+      "fecha": "2026-11-04T05:01:59+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "a971fd2ae0d545bb",
+      "titulo": "FNA, Bbva y AV Villas tienen las tasas más bajas en pesos y UVR para crédito de vivienda",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/finanzas/fna-bbva-y-av-villas-tienen-las-tasas-mas-bajas-en-pesos-y-uvr-para-credito-de-vivienda-4517089",
+      "fecha": "2026-11-04T05:01:58+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "e11a594bc1668e0c",
+      "titulo": "El móvil perpetuo fiscal",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/analisis/camilo-guzman-3193497/el-movil-perpetuo-fiscal-4516951",
+      "fecha": "2026-11-04T05:01:57+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "06b61b5ede8ed58a",
+      "titulo": "Secretaría de Desarrollo Económico de Medellín plantea reglas claras para el turismo",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/empresas/entrevista-con-maria-fernanda-galeano-secretaria-de-desarrollo-economico-de-medellin-4517171",
+      "fecha": "2026-11-04T05:01:51+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "b0285f6a8633e311",
+      "titulo": "Los nuevos modelos de Ferrari para 2027",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/caja-fuerte/los-nuevos-modelos-de-ferrari-para-2027-4516987",
+      "fecha": "2026-11-04T05:01:50+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "e307c67eae120dc4",
+      "titulo": "Llegó la cuenta",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/analisis/luis-guillermo-velez-cabrera-402232/llego-la-cuenta-4516935",
+      "fecha": "2026-11-04T05:01:49+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "3d2902d81a001d8c",
+      "titulo": "Así se vivió el encuentro sobre el futuro turístico de Medellín y del sector hotelero",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/ocio/asi-se-vivio-el-encuentro-sobre-el-futuro-turistico-de-medellin-y-los-retos-del-sector-hotelero-4516956",
+      "fecha": "2026-11-04T05:01:48+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "93499c8e3e26f419",
+      "titulo": "Educación básica y opinión informada",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/analisis/ernesto-lucena-barrero-3209042/educacion-basica-y-opinion-informada-4516966",
+      "fecha": "2026-11-04T05:01:46+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "af6b7bb58f684af2",
+      "titulo": "La negociación del salario mínimo para 2027 tiene propuestas de 8% a 38,5%",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/economia/negociacion-del-minimo-para-2027-tiene-propuestas-desde-8-hasta-38-5-4517014",
+      "fecha": "2026-11-04T05:01:43+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "3539d00f85ba3143",
+      "titulo": "WWF alerta que poblaciones de especies silvestres han perdido 73% de su tamaño desde 1970",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/responsabilidad-social/wwf-alerta-que-las-poblaciones-de-especies-silvestres-han-perdido-73-de-su-tamano-desde-1970-4516884",
+      "fecha": "2026-11-04T05:01:41+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "b4b264d9a746d4d3",
+      "titulo": "La agroindustria de la caña de azúcar pesa cerca de 1,9% dentro del PIB del agro del país",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/economia/la-agroindustria-de-la-cana-de-azucar-pesa-1-9-en-el-pib-del-agro-del-pais-4517042",
+      "fecha": "2026-11-04T05:01:39+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "8812ce10dc8e0d00",
+      "titulo": "Las mentiras no llenan los gasoductos",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/analisis/edwin-palma-egea-3515824/las-mentiras-no-llenan-los-gasoductos-4516925",
+      "fecha": "2026-11-04T05:01:38+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "b336f3f6990f2c6e",
+      "titulo": "“El sector fiduciario ha crecido 11,3% en administración de activos en este curso”",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/finanzas/inside-con-german-arce-presidente-de-asofiduciarias-4516843",
+      "fecha": "2026-11-04T05:01:38+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "9d488336c981de70",
+      "titulo": "Bogotá, cuatro años después",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/analisis/julian-moreno-baron-4392191/bogota-cuatro-anos-despues-4516976",
+      "fecha": "2026-11-04T05:01:35+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "7b4e33369288d702",
+      "titulo": "El café vale más: construyamos ese valor juntos",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/analisis/german-bahamon-3587238/el-cafe-vale-mas-construyamos-ese-valor-juntos-4516943",
+      "fecha": "2026-11-04T05:01:30+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "b3581263a891460a",
+      "titulo": "El poder y la decencia",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/analisis/maritza-aristizabal-quintero-2969657/el-poder-y-la-decencia-4516921",
+      "fecha": "2026-11-04T05:01:30+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "6827e06ccd15a2e0",
+      "titulo": "Galenos renueva su carta con sus nuevos platos junto con una apuesta por sabores intensos",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/ocio/galenos-restaurante-renueva-su-carta-con-nuevos-platos-y-una-apuesta-por-sabores-intensos-4516973",
+      "fecha": "2026-11-04T05:01:23+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "918a3757fe6c0417",
+      "titulo": "Zapatero a tus zapatos",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/analisis/maximiliano-rodriguez-fernandez-3175730/zapatero-a-tus-zapatos-4516985",
+      "fecha": "2026-11-04T05:01:22+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "2c5cfd520411dcf0",
+      "titulo": "Los restaurantes de los hoteles de lujo que está destacando el Financial Times y sus precios",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/ocio/los-restaurantes-de-hoteles-de-lujo-que-destaca-financial-times-y-sus-precios-4516980",
+      "fecha": "2026-11-04T05:01:21+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "92f779e2032e68d8",
+      "titulo": "Un país que se come su futuro",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/analisis/simon-gaviria-munoz-401830/un-pais-que-se-come-su-futuro-4516947",
+      "fecha": "2026-11-04T05:01:17+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "7a276d5fd7688e58",
+      "titulo": "Más ajuste y menos impuestos",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/opinion/editorial/mas-ajuste-y-menos-impuestos-4516850",
+      "fecha": "2026-11-04T05:01:16+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "a1f15aeadc48e1da",
+      "titulo": "Con la adquisición de la ecuatoriana La Universal, Nutresa va por US$200 millones",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/empresas/con-la-universal-nutresa-va-por-us-200-millones-4516940",
+      "fecha": "2026-11-04T05:01:14+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "b2a46746e58260fd",
+      "titulo": "¿Rescatar las cuentas cobrándole peaje al empleo formal?",
+      "categoria": "Economía",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/analisis/diego-felipe-valdivieso-rueda-3573827/rescatar-las-cuentas-cobrandole-peaje-al-empleo-formal-4516978",
+      "fecha": "2026-11-04T05:01:13+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "04cca24da2e56a4f",
+      "titulo": "El aprovechamiento de alimentos abre oportunidades económicas",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/responsabilidad-social/el-aprovechamiento-de-alimentos-abre-oportunidades-economicas-para-las-empresas-4516923",
+      "fecha": "2026-11-04T05:01:04+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "d36f7ec040d1b42d",
+      "titulo": "Del carbón a la soberanía: una conversación que Colombia no puede aplazar",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/analisis/carlos-cante-3452977/del-carbon-a-la-soberania-una-conversacion-que-colombia-no-puede-aplazar-4516983",
+      "fecha": "2026-11-04T05:01:04+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "d54a28cfa3254dc3",
+      "titulo": "Con De la Espriella se desvara la mina de Aris en Santurbán",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/silla-nacional/con-de-la-espriella-se-desvara-la-mina-de-aris-en-santurban/",
+      "fecha": "2026-11-04T05:01:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "ae308d2668429c46",
+      "titulo": "Lo hallaron culpable de matar a un joven de 109 puñaladas",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/judicial/lo-hallaron-culpable-de-matar-a-un-joven-de-109-punaladas/",
+      "fecha": "2026-11-04T05:00:58+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "12105c79c58c33f5",
+      "titulo": "¡Halloween dejó 38 capturados y una muerte violenta!",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/judicial/halloween-dejo-38-capturados-y-una-muerte-violenta/",
+      "fecha": "2026-11-04T05:00:53+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "d046f6f3b60d021a",
+      "titulo": "Los peores alcaldes y concejales o viseversa",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/opinion/los-peores-alcaldes-y-concejales-o-viseversa/",
+      "fecha": "2026-11-04T05:00:53+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "29e5c1fc26949c05",
+      "titulo": "Reforma tributaria reduciría en $969.000 mensuales los salarios por $25 millones",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/economia/reforma-tributaria-reduciria-en-969-000-mensuales-los-salarios-de-25-millones-4516846",
+      "fecha": "2026-11-04T05:00:52+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "61b5c9ecf5c74038",
+      "titulo": "Les cayó la Sijín, les desmanteló la “cocina” de tusi",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/judicial/les-cayo-la-sijin-les-desmantelo-la-cocina-de-tusi/",
+      "fecha": "2026-11-04T05:00:44+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "d8bdc93d283744fd",
+      "titulo": "Los atacaron con drones",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/judicial/los-atacaron-con-drones/",
+      "fecha": "2026-11-04T05:00:43+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "9b2a58f84e1b15d7",
+      "titulo": "Aceptó que abusó de cinco menores y mató a un niño",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/judicial/acepto-que-abuso-de-cinco-menores-y-mato-a-un-nino/",
+      "fecha": "2026-11-04T05:00:32+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "f317b22203f7cbe3",
+      "titulo": "Pereira no puede estar por fuera",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/opinion/pereira-no-puede-estar-por-fuera/",
+      "fecha": "2026-11-04T05:00:23+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "a17498e271a6e105",
+      "titulo": "SÍNDROME DEL SISMO FANTASMA",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/opinion/sindrome-del-sismo-fantasma/",
+      "fecha": "2026-11-04T05:00:22+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "340509efdb7dcc7a",
+      "titulo": "EN BRASIL GANÓ UN VIEJO DE NUEVE DEDOS",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/opinion/en-brasil-gano-un-viejo-de-nueve-dedos/",
+      "fecha": "2026-11-04T05:00:13+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "c0116e1fbf3124f9",
+      "titulo": "Curitiva: promesas no cumplidas",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/opinion/curitiva-promesas-no-cumplidas/",
+      "fecha": "2026-11-04T05:00:02+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "0665ac44e34b4d79",
+      "titulo": "Por qué (ahora sí) los demócratas lograron en Texas un triunfo trascendental tras décadas de derrotas",
+      "categoria": "Internacional",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/cr2ke7qdk71eo?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-04T04:58:19+00:00",
       "imagen": ""
     },
     {
       "id": "8a5e3d78f9aa5a3e",
-      "titulo": "Las ‘midterms’ 2026, en vivo | Los demócratas se encaminan a una rotunda victoria para arrebatar poder a Trump",
+      "titulo": "Las ‘midterms’ 2026, en vivo | Vuelco político en Estados Unidos: los demócratas logran el control total del Congreso en un duro castigo a Trump",
       "categoria": "Internacional",
       "fuente": "El País Colombia",
       "url": "https://elpais.com/us/2026-11-03/las-midterms-2026-en-vivo.html",
-      "fecha": "2026-11-04T03:55:18+00:00",
+      "fecha": "2026-11-04T04:54:40+00:00",
       "imagen": ""
     },
     {
-      "id": "4db5d676f9725a57",
-      "titulo": "Elecciones en EE.UU.: los demócratas recuperan la Cámara y apuntan a ganar el Senado en una noche triunfal para los rivales de Trump",
-      "categoria": "Internacional",
-      "fuente": "BBC Mundo",
-      "url": "https://www.bbc.com/mundo/articles/cv62y9278jz0o?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-04T03:54:15+00:00",
+      "id": "891d9b4ca8d1b0b0",
+      "titulo": "La demócrata Gina Hinojosa da la sorpresa en Texas para convertirse en la primera mujer hispana en ser gobernadora",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/us/2026-11-04/la-democrata-gina-hinojosa-da-la-sorpresa-en-texas-para-convertirse-en-la-primera-mujer-hispana-en-ser-gobernadora.html",
+      "fecha": "2026-11-04T04:53:23+00:00",
       "imagen": ""
     },
     {
@@ -34,7 +394,61 @@
       "categoria": "Internacional",
       "fuente": "El País Colombia",
       "url": "https://elpais.com/us/2026-11-03/los-resultados-de-las-midterms-de-2026-en-estados-unidos-en-vivo.html",
-      "fecha": "2026-11-04T03:41:50+00:00",
+      "fecha": "2026-11-04T04:34:16+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "4db5d676f9725a57",
+      "titulo": "Elecciones en EE.UU.: los demócratas recuperan la Cámara y apuntan a ganar el Senado en una noche triunfal para los rivales de Trump",
+      "categoria": "Internacional",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/cv62y9278jz0o?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-04T04:29:54+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "81c614bd081fde4c",
+      "titulo": "\"Terremoto electoral\" en Texas: quién es James Talarico, el primer demócrata que gana un lugar en el Senado de EE.UU. desde 1988",
+      "categoria": "Internacional",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/cwg7xk8ljmdyo?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-04T04:19:23+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "4ac4e2e3f3e986e9",
+      "titulo": "James Talarico pone fin a décadas de hegemonía republicana en Texas con su victoria en el Senado",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/us/2026-11-04/james-talarico-pone-fin-a-decadas-de-hegemonia-republicana-en-texas-con-su-victoria-en-el-senado.html",
+      "fecha": "2026-11-04T04:10:16+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "f66bdf0a42449e3f",
+      "titulo": "“No quería creer que era mi hermana”: el doloroso relato de Angie tras la muerte de Ana María Ramírez en accidente aéreo en EE. UU.",
+      "categoria": "Colombia",
+      "fuente": "La FM Actualidad",
+      "url": "https://www.lafm.com.co/actualidad/no-queria-creer-que-era-mi-hermana-el-doloroso-relato-de-angie-tras-la-muerte-de-ana-maria-ramirez-en-accidente-aereo-en-ee-uu-416058",
+      "fecha": "2026-11-04T04:01:41+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "87f781566396ab1b",
+      "titulo": "General (r) Jorge Vargas aclara que no se postuló a jefatura de DNI en proceso de selección del Gobierno De la Espriella",
+      "categoria": "Deportes",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/direccion-inteligencia-proceso-seleccion-general-jorge-vargas-no-se-postulo-LD43154816",
+      "fecha": "2026-11-04T03:58:33+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "8d75855c890cb8f9",
+      "titulo": "Ricardo Roa rompe silencio y dice que la campaña de Petro no superó los topes electorales, pese a fallo del CNE",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/ricardo-roa-dice-que-campana-petro-no-supero-los-topes-que-dice-fallo-cne-OD43152378",
+      "fecha": "2026-11-04T03:54:14+00:00",
       "imagen": ""
     },
     {
@@ -126,420 +540,6 @@
       "url": "https://www.larepublica.co/globoeconomia/los-futuros-de-las-acciones-estadounidenses-caen-mientras-los-democratas-ganan-impulso-inicial-en-las-elecciones-4517179",
       "fecha": "2026-11-04T01:48:52+00:00",
       "imagen": ""
-    },
-    {
-      "id": "33cfa2c31082f524",
-      "titulo": "Gabriela Huertas se despide de Santa Fe con un tercer lugar en la Copa Libertadores Femenina",
-      "categoria": "Deportes",
-      "fuente": "La FM Deportes",
-      "url": "https://www.lafm.com.co/deportes/santa-fe-femenino-gabriela-huertas-no-renovara-con-el-club-bogotano-416054",
-      "fecha": "2026-11-04T01:48:24+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "33178aa50dbcbdeb",
-      "titulo": "Falleció el segundo patrullero de la Policía herido con la motocicleta-bomba en Huila",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/atentado-terrorista-algeciras-huila-moto-bomba-murio-segundo-policia-patrullero-jaime-garcia-AC43149382",
-      "fecha": "2026-11-04T01:37:52+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "493899b7c01e474c",
-      "titulo": "EE. UU. cuenta los votos en elecciones legislativas decisivas para Trump",
-      "categoria": "Internacional",
-      "fuente": "La FM Internacional",
-      "url": "https://www.lafm.com.co/internacional/elecciones-estados-unidos-conteo-de-votos-decisivas-trump-416052",
-      "fecha": "2026-11-04T01:27:09+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "c3132af7a4547d06",
-      "titulo": "Uribe dice que MinHacienda “le pidió dos hojas de vida” a congresista del Centro Democrático: esto respondió Miguel Gómez",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/uribe-hojas-de-vida-gobierno-centro-democratico-mateo-hidalgo-IH43118725",
-      "fecha": "2026-11-04T01:20:03+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "813b0f2cabe3f4da",
-      "titulo": "Colombia destaca en el podio mundial de los 50 lugares más bellos del planeta en 2026: esta es la lista completa",
-      "categoria": "Deportes",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/colombia-destaca-podio-mundial-50-lugares-mas-bellos-planeta-2026-AD43150257",
-      "fecha": "2026-11-04T01:19:37+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "0c1bc44d46ea3926",
-      "titulo": "En Argentina capturaron a uno de los más buscados en Bogotá por terrorismo",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/capturan-en-argentina-a-colombiano-con-circular-interpol-HD43150520",
-      "fecha": "2026-11-04T01:10:59+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "00f18fa9bda1996f",
-      "titulo": "Así avanza el megaparque en el norte de Medellín que beneficiará con más espacio público a más de un millón de personas",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/medellin/asi-avanza-el-megaparque-en-el-norte-de-medellin-que-beneficiara-con-mas-espacio-publico-a-mas-de-un-millon-de-personas-3598263",
-      "fecha": "2026-11-04T01:08:40+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "701849917707d55f",
-      "titulo": "Estados Unidos lleva su guerra antinarco a suelo venezolano con un ataque con drones contra el ELN",
-      "categoria": "Internacional",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/america/2026-11-04/ee-uu-lleva-su-guerra-antinarco-a-suelo-venezolano-con-un-ataque-con-drones-contra-el-eln.html",
-      "fecha": "2026-11-04T01:06:03+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "959161c0d09abee5",
-      "titulo": "Urnas en EE.UU. comienzan a cerrarse con el control de la Cámara y el Senado en juego",
-      "categoria": "Internacional",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/las-urnas-en-ee-uu-comienzan-a-cerrarse-con-el-control-de-la-camara-de-representantes-y-el-senado-en-juego-4517161",
-      "fecha": "2026-11-04T01:05:06+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "3d374a4df20c9668",
-      "titulo": "De la Espriella resucita la operación militar Esparta que dejó atrás el gobierno Petro, ¿lo hará con las otras para dar resultados?",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/abelardo-resucita-operacion-militar-esparta-que-es-PC43149530",
-      "fecha": "2026-11-04T01:05:02+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "99f34e4be82f385a",
-      "titulo": "Video | Dos caras opuestas sobre la seguridad en Colombia",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/america-colombia/2026-11-04/video-dos-caras-opuestas-sobre-la-seguridad-en-colombia.html",
-      "fecha": "2026-11-04T00:58:22+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "ef00d5dd7850d2e0",
-      "titulo": "Latam Airlines Group reportó ingresos por US$4.567 millones en el tercer trimestre del año",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/empresas/resultados-financieros-y-operacionales-de-latam-airlines-group-en-el-tercer-trimestre-de-2026-4517110",
-      "fecha": "2026-11-04T00:54:15+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "73aa47b46248ca74",
-      "titulo": "Gobierno desmiente proyecto de ley para eliminar el FOMAG y garantiza atención a los docentes",
-      "categoria": "Colombia",
-      "fuente": "La FM Economía",
-      "url": "https://www.lafm.com.co/economia/ministerio-de-educacion-desmiente-eliminacion-del-fomag-416049",
-      "fecha": "2026-11-04T00:50:22+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "f3946a1840fda0e0",
-      "titulo": "La Policía capturó en Medellín a dos hombres que transportaban dos armas y varios cartuchos modificados con plomo en un vehículo particular",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/medellin/la-policia-capturo-en-medellin-a-dos-hombres-que-transportaban-dos-armas-y-varios-cartuchos-modificados-con-plomo-en-un-vehiculo-particular-3598189",
-      "fecha": "2026-11-04T00:43:06+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "483349f14488198d",
-      "titulo": "¡Padres deudores alimentarios convierten el permiso de viaje de sus hijos en un negocio: algunos hasta cobran por firmar!",
-      "categoria": "Colombia",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/area-legal/permiso-de-viaje-para-menores-redam-cuota-alimentaria-colombia-2026/",
-      "fecha": "2026-11-04T00:36:17+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "13ab7436ccd589e8",
-      "titulo": "Colombia llevará sus proyectos a Europa: Madrid será sede de Milagro Week para atraer inversión en 2027",
-      "categoria": "Colombia",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/gobierno/colombia-llevara-sus-proyectos-a-europa-madrid-sera-sede-de-milagro-week-para-atraer-inversion-en-505662",
-      "fecha": "2026-11-04T00:29:07+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "c49dcf885902b367",
-      "titulo": "Carlos de Hart solicitó retirar su nombre de la elección del presidente de la Andi",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/empresas/carlos-andres-de-hart-solicito-que-retiraran-su-nombre-de-la-eleccion-del-presidente-de-la-andi-4517084",
-      "fecha": "2026-11-04T00:25:07+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "a1098decdb5b8177",
-      "titulo": "A un año de las elecciones, la Alcaldía de Cali no tiene favorito",
-      "categoria": "Cali",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/politica/graffiti/alcaldia-de-cali-candidatos-analisis-electoral-2027/",
-      "fecha": "2026-11-04T00:19:54+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "19b6f47070e58d34",
-      "titulo": "Carlos de Hartt renunció a la aspiración de la presidencia de la Andi: los dos nombres que siguen en carrera",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/carlos-de-hart-renuncio-a-la-aspiracion-de-la-presidencia-de-la-andi-505661",
-      "fecha": "2026-11-04T00:14:22+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "db43a9cfbfc6d7a2",
-      "titulo": "COP17 concluyó lejos de metas de biodiversidad y sin plata para alcanzarlas",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/silla-amazonia/amazonia-en-breve/cop17-concluyo-lejos-de-metas-de-biodiversidad-y-sin-plata-para-alcanzarlas/",
-      "fecha": "2026-11-04T00:13:47+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "8e7d3d2250e7ea2d",
-      "titulo": "Dimite el ministro de Transportes de España tras la tragedia ferroviaria",
-      "categoria": "Internacional",
-      "fuente": "La FM Internacional",
-      "url": "https://www.lafm.com.co/internacional/accidente-ferroviario-espana-dimision-ministro-de-transportes-416045",
-      "fecha": "2026-11-04T00:12:08+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "ac3c83e860de70d6",
-      "titulo": "Los ingresos de Geopark cayeron 19% hasta US$116 millones en el tercer trimestre",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/empresas/geopark-tuvo-ingresos-por-us-112-millones-en-el-tercer-trimestre-19-menos-que-el-anterior-4516989",
-      "fecha": "2026-11-04T00:10:33+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "029069635098caa3",
-      "titulo": "El exviceministro Carlos Hart abandona la carrera por la ANDI y advierte que la independencia gremial no es negociable",
-      "categoria": "Economía",
-      "fuente": "La FM Economía",
-      "url": "https://www.lafm.com.co/economia/carlos-hart-renuncia-a-la-carrera-por-la-andi-416044",
-      "fecha": "2026-11-04T00:08:03+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "5c24cab6f2b627b8",
-      "titulo": "Jackson Martínez regresó y dio triunfo al DIM",
-      "categoria": "Colombia",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/deportes/jackson-martinez-regreso-triunfo-dim/",
-      "fecha": "2026-11-04T00:00:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "b5dd5d6cf41da5fa",
-      "titulo": "Bucaramanga y Nacional empatan 1-1 en Liga BetPlay",
-      "categoria": "Deportes",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/deportes/bucaramanga-y-nacional-empatan-1-1-en-liga-betplay/",
-      "fecha": "2026-11-04T00:00:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "5cca1f5d0d3c466e",
-      "titulo": "Independiente Medellín vence 2-1 a Alianza Valledupar",
-      "categoria": "Colombia",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/deportes/independiente-medellin-vence-2-1-a-alianza-valledupar/",
-      "fecha": "2026-11-04T00:00:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "59fd8682c2a8e012",
-      "titulo": "¡¿Mujeres que se gobiernan?!",
-      "categoria": "Colombia",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/opinion/columnistas/mujeres-que-se-gobiernan/",
-      "fecha": "2026-11-03T23:57:01+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "63f4f2790e1a53eb",
-      "titulo": "Milei viaja por octava vez a España en plena pelea con Sánchez",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/argentina/2026-11-03/milei-viaja-por-octava-vez-a-espana-en-plena-pelea-con-sanchez.html",
-      "fecha": "2026-11-03T23:54:36+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "8f9b3ff2dafdf302",
-      "titulo": "Duerma informado con las movidas de este 3 de noviembre de 2026",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/en-vivo/duerma-informado-con-las-movidas-de-este-3-de-noviembre-de-2026/",
-      "fecha": "2026-11-03T23:52:42+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "aaa61f7d6c710c7c",
-      "titulo": "Ministro de Transportes de España dimite tras tragedia ferroviaria",
-      "categoria": "Internacional",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/ministro-de-transportes-de-españa-dimite-tras-tragedia-ferroviaria/a-79848891?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-03T23:51:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "58b619844746231c",
-      "titulo": "Un grupo de jóvenes ataca con palos y piedras a mujeres trans en Buenos Aires",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/argentina/2026-11-03/un-grupo-de-jovenes-ataca-con-palos-y-piedras-a-mujeres-trans-en-buenos-aires.html",
-      "fecha": "2026-11-03T23:49:07+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "a82c9178ed0ea8ee",
-      "titulo": "No basta con ver",
-      "categoria": "Colombia",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/opinion/columnistas/no-basta-con-ver/",
-      "fecha": "2026-11-03T23:45:12+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "fcadcfc3e1e5ac11",
-      "titulo": "\"Era lo más preciado de mi vida, estoy devastado\": papá de colombiana que murió en accidente de jet en EE.UU.",
-      "categoria": "Internacional",
-      "fuente": "La FM Actualidad",
-      "url": "https://www.lafm.com.co/actualidad/padre-colombiana-muere-en-accidente-de-jet-en-estados-unidos-416043",
-      "fecha": "2026-11-03T23:41:55+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "d7de4d81afff150b",
-      "titulo": "Deicy Jiménez no declaró ante la Fiscalía tras renuncia de su abogado",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/en-vivo/deicy-jimenez-no-declaro-ante-la-fiscalia-tras-renuncia-de-su-abogado/",
-      "fecha": "2026-11-03T23:37:18+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "37593bae770dcccf",
-      "titulo": "Demócratas arrebatan a los republicanos el control de la Cámara de Representantes, según proyecciones",
-      "categoria": "Internacional",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/demócratas-arrebatan-a-los-republicanos-el-control-de-la-cámara-de-representantes-según-proyecciones/live-79845739?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-03T23:32:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "4f96336a5e196503",
-      "titulo": "La apuesta de la Cámara de Comercio de Cartagena para llevar innovación y tecnología al tejido empresarial de la ciudad: inicia InnovaLatam 2026",
-      "categoria": "Tecnología",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/la-apuesta-de-la-camara-de-comercio-de-cartagena-para-llevar-innovacion-y-tecnologia-al-tejido-empresarial-de-la-ciudad-inicia-innovalatam-3598240",
-      "fecha": "2026-11-03T23:30:07+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "92af1a6b2abaabbf",
-      "titulo": "Lula arenga al ejército digital que impulsó su triunfo en Brasil para marcar el paso al Tribunal Supremo",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/america/2026-11-03/lula-arenga-al-ejercito-digital-que-impulso-su-triunfo-en-brasil-para-marcar-el-paso-al-tribunal-supremo.html",
-      "fecha": "2026-11-03T23:22:46+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "19a870402315956c",
-      "titulo": "Emcali anunció aliado para modernización del alumbrado público de Cali, se instalarán más de 100 mil luminarias LED",
-      "categoria": "Cali",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/cali/emcali-anuncio-aliado-para-modernizacion-del-alumbrado-publico-de-cali-se-instalaran-mas-de-10-mil-luminarias-led/",
-      "fecha": "2026-11-03T23:22:06+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "2789c6c07da3450d",
-      "titulo": "Estados Unidos explora los límites de su democracia",
-      "categoria": "Internacional",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/us/2026-11-03/estados-unidos-explora-los-limites-de-su-democracia.html",
-      "fecha": "2026-11-03T23:16:31+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "b056fb2f08a74d87",
-      "titulo": "Fenalco propuso cambios en la Ley de Rescate que se empezará a discutir en el Congreso",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/economia/fenalco-propuso-cambios-en-la-ley-de-rescate-que-se-empezara-a-discutir-en-el-congreso-4517012",
-      "fecha": "2026-11-03T23:15:35+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "cc4d9600d970e39b",
-      "titulo": "Tras 10 horas de debate, Senado aprueba la ley de sometimiento pero la Cámara tiene la última palabra",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/gobierno/tras-10-horas-de-debate-senado-aprueba-la-ley-de-sometimiento-pero-la-camara-tiene-la-ultima-palabra-505657",
-      "fecha": "2026-11-03T23:14:21+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "774f887476e96d73",
-      "titulo": "El rifirrafe marcario que enfrenta a Davivienda y a Plata Colombia: la fintech tiene un mes para defender su nombre",
-      "categoria": "Colombia",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/davivienda-se-opone-a-plata-colombia-la-fintech-tiene-30-dias-habiles-para-defender-su-marca-505649",
-      "fecha": "2026-11-03T23:09:41+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "b120a4c020753f94",
-      "titulo": "Gobierno radicó mensaje de urgencia para tramitar la Ley de Rescate Económico",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/economia/gobierno-radico-mensaje-de-urgencia-para-tramitar-la-ley-de-rescate-economico-4517003",
-      "fecha": "2026-11-03T23:08:51+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "09b9c2fcf1eb0571",
-      "titulo": "Una mujer sobrevivió a los dos últimos accidentes de trenes en España: esta es su historia",
-      "categoria": "Internacional",
-      "fuente": "La FM Internacional",
-      "url": "https://www.lafm.com.co/internacional/la-mujer-que-sobrevivio-a-dos-accidentes-de-trenes-en-espana-416038",
-      "fecha": "2026-11-03T23:01:09+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "d1a5fed021e4247e",
-      "titulo": "Senado aprobó la ley de sometimiento del Gobierno, pero falta en la Cámara",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/senado-aprobo-la-ley-de-sometimiento-del-gobierno-pero-falta-en-la-camara-JC43145873",
-      "fecha": "2026-11-03T22:56:18+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "7799067d462b8778",
-      "titulo": "En Comfandi la armonía también se vive a través de la cultura",
-      "categoria": "Cali",
-      "fuente": "Q'hubo Cali",
-      "url": "https://www.qhubocali.com/especiales/en-comfandi-la-armonia-tambien-se-vive-a-traves-de-la-cultura/",
-      "fecha": "2026-11-03T22:55:11+00:00",
-      "imagen": ""
     }
   ],
   "estado_fuentes": [
@@ -560,7 +560,7 @@
       "url": "https://www.elespectador.com/rss/",
       "estado": "error",
       "titulares": 0,
-      "detalle": "403 Client Error: Forbidden for url: https://www.elespectador.com/rss/"
+      "detalle": "El feed no contiene entradas."
     },
     {
       "nombre": "La Silla Vacía",
@@ -590,7 +590,7 @@
       "nombre": "BBC Mundo",
       "url": "https://feeds.bbci.co.uk/mundo/rss.xml",
       "estado": "correcto",
-      "titulares": 27
+      "titulares": 24
     },
     {
       "nombre": "DW Español",
@@ -638,7 +638,7 @@
       "nombre": "La FM Actualidad",
       "url": "https://www.lafm.com.co/rss/actualidad.xml",
       "estado": "correcto",
-      "titulares": 19
+      "titulares": 20
     },
     {
       "nombre": "Q'hubo Cali",
@@ -656,7 +656,7 @@
       "nombre": "El Diario — Pereira",
       "url": "https://www.eldiario.com.co/feed/",
       "estado": "correcto",
-      "titulares": 35
+      "titulares": 34
     },
     {
       "nombre": "Chocó 7 días",
@@ -668,7 +668,7 @@
       "nombre": "La Patria — Caldas",
       "url": "https://www.lapatria.com/rss.xml",
       "estado": "correcto",
-      "titulares": 5
+      "titulares": 4
     }
   ]
 }
