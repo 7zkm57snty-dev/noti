@@ -1,5 +1,5 @@
 {
-  "ultima_actualizacion": "2026-11-04T14:27:35.394962+00:00",
+  "ultima_actualizacion": "2026-11-04T15:33:14.760096+00:00",
   "titulares_rss": [
     {
       "id": "988cbf8bbfc246cc",
@@ -7,7 +7,259 @@
       "categoria": "Internacional",
       "fuente": "BBC Mundo",
       "url": "https://www.bbc.co.uk/mundo/live/cq9vz4g97xy2t?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-04T14:27:35.394962+00:00",
+      "fecha": "2026-11-04T15:33:14.760096+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "cc9b2ba6e206329e",
+      "titulo": "“La falsa paz total llegó a su fin”: De la Espriella celebró la aprobación de la Ley de Sometimiento",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/noticias/la-falsa-paz-total-llego-a-su-fin-de-la-espriella-celebro-la-aprobacion-de-la-ley-de-sometimiento/",
+      "fecha": "2026-11-04T15:29:03+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "205407a51d52b290",
+      "titulo": "Las ‘midterms’ 2026, en vivo | Comienzan los reproches republicanos tras la ola azul que le arrebató el control del Congreso y repudió a Trump",
+      "categoria": "Internacional",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/us/2026-11-04/las-midterms-2026-en-vivo.html",
+      "fecha": "2026-11-04T15:28:44+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "91af90a3f9254186",
+      "titulo": "Las acciones suben y el dólar cae tras victoria demócrata en el Congreso de Estados Unidos",
+      "categoria": "Economía",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/globoeconomia/las-acciones-suben-y-el-dolar-cae-tras-victoria-democrata-en-el-congreso-de-estados-unidos-4517454",
+      "fecha": "2026-11-04T15:27:22+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "7bfc08855ae86d76",
+      "titulo": "Un policía de 27 años fue asesinado en Medellín tras intervenir en un episodio de sicariato entre grupos delincuenciales organizados",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/medellin/un-policia-de-27-anos-fue-asesinado-en-medellin-tras-intervenir-en-un-episodio-de-sicariato-entre-grupos-delincuenciales-organizados-3598383",
+      "fecha": "2026-11-04T15:23:41+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "325b3e9c7be6c800",
+      "titulo": "Déficit comercial de EE. UU. se reduce ligeramente por el repunte de las exportaciones de bienes",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/globoeconomia/deficit-comercial-de-ee-uu-se-reduce-ligeramente-por-el-repunte-de-las-exportaciones-de-bienes-4517444",
+      "fecha": "2026-11-04T15:18:17+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "215b9c4b64093e0c",
+      "titulo": "Revelan video de hombre de 63 años que ataca con cuchillo a joven a la que supuestamente acosaba: la víctima murió y el sujeto fue enviado a la cárcel",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/santander/revelan-video-de-hombre-de-63-anos-que-ataca-con-cuchillo-a-joven-a-la-que-supuestamente-acosaba-la-victima-murio-y-el-sujeto-fue-enviado-a-la-carcel-3598372",
+      "fecha": "2026-11-04T15:17:32+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "8acc995064a8d94d",
+      "titulo": "Nike United presenta su última colección de guayos junto a seis figuras del fútbol femenino",
+      "categoria": "Deportes",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/ocio/nike-united-presenta-su-ultima-coleccion-de-guayos-junto-a-seis-figuras-del-futbol-femenino-4517424",
+      "fecha": "2026-11-04T15:15:59+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "703ae323a24f8709",
+      "titulo": "Seguridad aérea: operar un dron cerca del aeropuerto de Cartagena acarrea multas de cerca de $100 millones e imputaciones penales y cárcel",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/seguridad-aerea-operar-un-dron-cerca-del-aeropuerto-de-cartagena-acarrea-multas-de-cerca-de-100-millones-e-imputaciones-penales-con-penas-de-carcel-3598368",
+      "fecha": "2026-11-04T15:14:22+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "7e88a51a7a224d96",
+      "titulo": "El efecto tijera en el que se encuentra el sector exportador de café",
+      "categoria": "Economía",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/agro/el-efecto-tijera-en-el-que-se-encuentra-el-sector-exportador-de-cafe-505687",
+      "fecha": "2026-11-04T15:12:05+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "0eeac39768f0888e",
+      "titulo": "El triunfo demócrata en las ‘midterms’ deja contra las cuerdas al canciller de Colombia",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/america-colombia/2026-11-04/el-triunfo-democrata-en-las-midterms-deja-contra-las-cuerdas-al-canciller-de-colombia.html",
+      "fecha": "2026-11-04T15:02:21+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "818352ccc006b553",
+      "titulo": "Isabel Allende, premio Planeta 2026: “Cuidado con la extrema derecha y la extrema izquierda, el autoritarismo acentúa los problemas”",
+      "categoria": "Cali",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/cultura/2026-11-04/isabel-allende-premio-planeta-2026-cuidado-con-la-extrema-derecha-y-la-extrema-izquierda-el-autoritarismo-acentua-los-problemas.html",
+      "fecha": "2026-11-04T15:02:10+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "0b54122d673f1b61",
+      "titulo": "Este móvil Motorola es un chollo en MediaMarkt antes del Black Friday: ahora cuesta menos de 520 euros",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/seleccion/este-movil-motorola-chollo-mediamarkt-antes-black-friday-ahora-cuesta-520-euros",
+      "fecha": "2026-11-04T15:01:24+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "85d1dd4ca2f0cadd",
+      "titulo": "Apple encuentra en los 2 nm una salida a sus problemas de fabricación",
+      "categoria": "Tecnología",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/componentes/apple-encuentra-2-nm-salida-a-sus-problemas-fabricacion",
+      "fecha": "2026-11-04T15:01:23+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "59db0f8affd1fbaa",
+      "titulo": "¿Sirve de algo? Esto es lo que queman en las esquinas de Barranquilla para alejar los mosquitos que llegaron con los aguaceros y el calor",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/barranquilla/sirve-de-algo-esto-es-lo-que-queman-en-las-esquinas-de-barranquilla-para-alejar-los-mosquitos-que-llegaron-con-los-aguaceros-y-el-calor-3598330",
+      "fecha": "2026-11-04T15:01:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "fd1f4dfa0f0004a3",
+      "titulo": "Restaurantes prenden las alarmas: gremio prevé que 6.500 sitios de comida cerrarían en Colombia en 2026",
+      "categoria": "Cali",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/mas-de-6-500-restaurantes-cerrarian-en-colombia-en-2026-alerta-acoga-505682",
+      "fecha": "2026-11-04T14:55:28+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "0b12db5aba309e9f",
+      "titulo": "Los asesinatos en Barrancabermeja que prenden las alarmas en trabajadores y contratistas de Ecopetrol: piden seguridad y presencia de las autoridades",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/santander/los-asesinatos-en-barrancabermeja-que-prenden-las-alarmas-en-trabajadores-y-contratistas-de-ecopetrol-piden-seguridad-y-presencia-de-las-autoridades-3598358",
+      "fecha": "2026-11-04T14:52:39+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "9f0e1872368c6ba3",
+      "titulo": "Marco Rubio negocia presencia militar de EE. UU. en Venezuela: ¿qué pasará con Diosdado Cabello?",
+      "categoria": "Internacional",
+      "fuente": "La FM Internacional",
+      "url": "https://www.lafm.com.co/internacional/marco-rubio-negocia-militares-estados-unidos-venezuela-que-pasara-diosdado-cabello-416086",
+      "fecha": "2026-11-04T14:52:22+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "8e6a26ee93fdb02b",
+      "titulo": "La carta del director de la cárcel de Villahermosa de Cali sobre amenazas de muerte contra él y su familia: 'El próximo comunicado no es con nota'",
+      "categoria": "Cali",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/cali/la-carta-del-director-de-la-carcel-de-villahermosa-de-cali-sobre-amenazas-de-muerte-contra-el-y-su-familia-el-proximo-comunicado-no-es-con-nota-3598336",
+      "fecha": "2026-11-04T14:49:29+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "9fe905b48909ded7",
+      "titulo": "Uruguay lidera las ventas de vehículos eléctricos en América Latina con 36% del mercado",
+      "categoria": "Economía",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/globoeconomia/uruguay-lidera-las-ventas-de-vehiculos-electricos-en-america-latina-con-36-del-mercado-4517422",
+      "fecha": "2026-11-04T14:48:09+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "606e37e54b218197",
+      "titulo": "Fondo Milagro: Juvinao habla de supuestos vacíos y que manuales permitirían adiciones sin límites a contratos",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/juvinao-denuncia-vacios-manuales-contratacion-fondo-milagro-PA43160870",
+      "fecha": "2026-11-04T14:43:25+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "9a57c90b69c2119f",
+      "titulo": "Cartagena Cómo vamos: gracias al mercado laboral informal, la pobreza monetaria en la ciudad bajó 6,5 puntos porcentuales entre el 2024 y el 2025",
+      "categoria": "Economía",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/cartagena-como-vamos-gracias-al-mercado-laboral-informal-la-pobreza-monetaria-en-la-ciudad-bajo-6-5-puntos-porcentuales-entre-el-2024-y-el-3598353",
+      "fecha": "2026-11-04T14:42:29+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "0c9d4544fccdee1b",
+      "titulo": "Zulma Guzmán habría envenenado con talio a seis personas y planeado nuevos ataques, según la Fiscalía",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/zulma-guzma-habria-envenenado-a-seis-personas-HA43164065",
+      "fecha": "2026-11-04T14:40:49+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "8cbe863566bc4942",
+      "titulo": "Investigan venta de 33 bienes de Valledupar por $31 millones: una Toyota Prado 2013 habría sido rematada en $2'500.000 millones y equipos oficiales",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/investigan-venta-de-33-bienes-de-valledupar-por-31-millones-una-toyota-prado-2013-habria-sido-rematada-en-2-500-000-millones-y-equipos-oficiales-3598360",
+      "fecha": "2026-11-04T14:37:05+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "7a7c91efde71204b",
+      "titulo": "El espejo de Narciso se ha roto",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/us/2026-11-04/el-espejo-de-narciso-se-ha-roto.html",
+      "fecha": "2026-11-04T14:31:35+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "a1dd8c7dee1e7c2f",
+      "titulo": "Grave accidente en la vía Panamericana deja dos muertos y más de 15 heridos en Cauca: un bus de la empresa Flota Magdalena chocó contra una tractomula",
+      "categoria": "Cali",
+      "fuente": "El Tiempo Cali",
+      "url": "https://www.eltiempo.com/colombia/cali/grave-accidente-en-la-via-panamericana-deja-dos-muertos-y-mas-de-15-heridos-en-cauca-un-bus-de-la-empresa-flota-magdalena-choco-contra-una-tractomula-3598324",
+      "fecha": "2026-11-04T14:28:48+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "b8253cf184a8ebff",
+      "titulo": "Las cuentas bancarias desaparecen justo antes del amanecer en un impactante cierre de Paraguay",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/globoeconomia/las-cuentas-bancarias-desaparecen-justo-antes-del-amanecer-en-un-impactante-cierre-de-paraguay-4517405",
+      "fecha": "2026-11-04T14:28:19+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "8f625927707a4cc2",
+      "titulo": "De la Espriella lanza una campaña militar contra grupos armados en la frontera con Venezuela",
+      "categoria": "Internacional",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/colombia/campana-militar-contra-grupos-armados-frontera-venezuela-4-11-2026/",
+      "fecha": "2026-11-04T14:27:24+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "ff0797477ddd5fab",
+      "titulo": "Muere el director italiano de cine erótico Tinto Brass, el \"más censurado\" de su tiempo",
+      "categoria": "Tendencias",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/muere-el-director-italiano-de-cine-erótico-tinto-brass-el-más-censurado-de-su-tiempo/a-79855894?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-04T14:26:00+00:00",
       "imagen": ""
     },
     {
@@ -38,6 +290,15 @@
       "imagen": ""
     },
     {
+      "id": "e7ae5e00b9e7e7c4",
+      "titulo": "“¡Entonces se va!”: El duro enfrentamiento entre el ministro de Agricultura y Lafaurie, presidente de Fedegán",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/indalecio-dangond-choques-jose-felix-lafaurie-ivan-cepeda-BA43163828",
+      "fecha": "2026-11-04T14:18:45+00:00",
+      "imagen": ""
+    },
+    {
       "id": "079e13f620f6d83a",
       "titulo": "Samsung no espera al Black Friday con el Galaxy S26 Ultra desde 422,55 euros y ofertas en teles, tablets, electrodomésticos y más",
       "categoria": "Colombia",
@@ -56,6 +317,15 @@
       "imagen": ""
     },
     {
+      "id": "2feb73e0198b82f3",
+      "titulo": "Auditoría a Fedegán: Lafaurie dice que Minagricultura busca cobrar “viejos dolores” al gremio",
+      "categoria": "Economía",
+      "fuente": "La FM Economía",
+      "url": "https://www.lafm.com.co/economia/lafaurie-auditoria-fedegan-minagricultura-criticas-claves-pelea-416088",
+      "fecha": "2026-11-04T14:12:43+00:00",
+      "imagen": ""
+    },
+    {
       "id": "73eadb3d5515fd51",
       "titulo": "Tres muertos y dos policías heridos tras persecución de homicidas en Valledupar: se eleva a 105 el registro de muertes violentas en lo corrido de 2026",
       "categoria": "Colombia",
@@ -65,11 +335,38 @@
       "imagen": ""
     },
     {
-      "id": "406f6f437163008d",
+      "id": "8b864593591b3ebb",
+      "titulo": "Gobierno denuncia amenazas contra director del Dapre tras acusaciones de “sexocontratos” a Petro",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/gobierno-denuncia-amenazas-carlos-rios-caso-sexocontratos-petro-PD43158698",
+      "fecha": "2026-11-04T14:08:33+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "39c08ea45a699971",
+      "titulo": "Terroristas atacaron con explosivo el peaje de Yotoco, Valle del Cauca, ¿por qué se ensañaron contra estas estructuras?",
+      "categoria": "Valle del Cauca",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/atentado-terrorista-explosivo-peaje-yotoco-valle-del-cauca-JA43163684",
+      "fecha": "2026-11-04T14:05:29+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "c3c53c40babaf0b7",
+      "titulo": "JEP imputó a exjefes de las Farc por atentado contra Álvaro Uribe en Barranquilla en 2002",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/atentado-alvaro-uribe-barranquilla-2002-jep-imputacion-farc-PD43159215",
+      "fecha": "2026-11-04T14:03:09+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "f4ceec5e8f4f9d52",
       "titulo": "Uribe insiste en que MinHacienda pidió hojas de vida. Congresista lo niega",
       "categoria": "Colombia",
       "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/en-vivo/un-malentendido-congresista-dice-que-minhacienda-no-pidio-hojas-de-vida/",
+      "url": "https://www.lasillavacia.com/en-vivo/uribe-insiste-en-que-minhacienda-pidio-hojas-de-vida-congresista-lo-niega/",
       "fecha": "2026-11-04T14:01:42+00:00",
       "imagen": ""
     },
@@ -92,21 +389,12 @@
       "imagen": ""
     },
     {
-      "id": "205407a51d52b290",
-      "titulo": "Las ‘midterms’ 2026, en vivo | Estados Unidos asimila el impacto de la ola azul que arrebató el Congreso a los republicanos y repudió las políticas de Trump",
-      "categoria": "Internacional",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/us/2026-11-04/las-midterms-2026-en-vivo.html",
-      "fecha": "2026-11-04T14:00:12+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "a1dd8c7dee1e7c2f",
-      "titulo": "Grave accidente en la vía Panamericana deja dos muertos y más de 15 heridos en Cauca: un bus de la empresa Flota Magdalena chocó contra una tractomula",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/cali/grave-accidente-en-la-via-panamericana-deja-dos-muertos-y-mas-de-15-heridos-en-cauca-un-bus-de-la-empresa-flota-magdalena-choco-contra-una-tractomula-3598324",
-      "fecha": "2026-11-04T13:59:45+00:00",
+      "id": "df94ddcdbded0048",
+      "titulo": "¿Por qué renunció al proceso de la ANDI, Carlos de Hart?",
+      "categoria": "Economía",
+      "fuente": "La FM Economía",
+      "url": "https://www.lafm.com.co/economia/andi-carlos-de-hart-renuncia-eleccion-presidente-independencia-gremio-gobierno-416087",
+      "fecha": "2026-11-04T13:57:10+00:00",
       "imagen": ""
     },
     {
@@ -125,15 +413,6 @@
       "fuente": "Portafolio",
       "url": "https://www.portafolio.co/economia/finanzas/precio-del-euro-hoy-4-de-noviembre-en-colombia-asi-cotiza-la-divisa-europea-505684",
       "fecha": "2026-11-04T13:53:28+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "c7dbb2110829ee98",
-      "titulo": "Cartagena tendrá contraflujo en la avenida Santander hasta el 16 de noviembre por montaje de palcos: conozca los desvíos y rutas alternas",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/cartagena-tendra-contraflujo-en-la-avenida-santander-hasta-el-16-de-noviembre-por-montaje-de-palcos-conozca-los-desvios-y-rutas-alternas-3598340",
-      "fecha": "2026-11-04T13:53:19+00:00",
       "imagen": ""
     },
     {
@@ -191,24 +470,6 @@
       "imagen": ""
     },
     {
-      "id": "426bdd1f959f258e",
-      "titulo": "Fuerte accidente en el Anillo Vial de Floridablanca genera caos vehicular: un camión se volcó y mantiene cerrado un corredor",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/santander/fuerte-accidente-en-el-anillo-vial-de-floridablanca-genera-caos-vehicular-un-camion-se-accidento-y-mantiene-cerrado-un-corredor-3598329",
-      "fecha": "2026-11-04T13:39:32+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "7b3b0db96a5374e4",
-      "titulo": "Accidentes eléctricos dejaron 58 muertos en tres departamentos del Caribe en 2025: Atlántico, Bolívar y Cesar figuran entre los más afectados del país",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/accidentes-electricos-dejaron-58-muertos-en-tres-departamentos-del-caribe-en-2025-atlantico-bolivar-y-cesar-figuran-entre-los-mas-afectados-del-pais-3598332",
-      "fecha": "2026-11-04T13:38:58+00:00",
-      "imagen": ""
-    },
-    {
       "id": "be0a2dc6d14b2b14",
       "titulo": "Perú anuncia plan de transporte marítimo para asegurar exportaciones pese a efectos de El Niño",
       "categoria": "Colombia",
@@ -254,15 +515,6 @@
       "imagen": ""
     },
     {
-      "id": "fd1f4dfa0f0004a3",
-      "titulo": "Más de 6.500 restaurantes cerrarían en Colombia en 2026, alerta Acoga",
-      "categoria": "Colombia",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/mas-de-6-500-restaurantes-cerrarian-en-colombia-en-2026-alerta-acoga-505682",
-      "fecha": "2026-11-04T13:27:06+00:00",
-      "imagen": ""
-    },
-    {
       "id": "4999342edfaa8d52",
       "titulo": "Precio del dólar hoy en Colombia: así está la moneda el 4 de noviembre",
       "categoria": "Economía",
@@ -288,258 +540,6 @@
       "url": "https://www.larepublica.co/globoeconomia/venezuela-avanza-en-reforma-de-ley-usada-durante-anos-para-encarcelar-disidentes-4517329",
       "fecha": "2026-11-04T13:25:43+00:00",
       "imagen": ""
-    },
-    {
-      "id": "5587c5e6c1066c6c",
-      "titulo": "Gobierno prioriza gasoducto con Venezuela: operación dependerá de rehabilitación y licencia de EE. UU.",
-      "categoria": "Internacional",
-      "fuente": "La FM Economía",
-      "url": "https://www.lafm.com.co/economia/gobierno-prioriza-gasoducto-antonio-ricaurte-para-importar-gas-de-venezuela-416084",
-      "fecha": "2026-11-04T13:24:54+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "13b7ea1a14ccb4f4",
-      "titulo": "Una de las facciones de la CGT se sentará en la mesa de concertación del mínimo",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/economia/una-de-las-facciones-de-la-cgt-se-sentara-en-la-mesa-de-concertacion-del-salario-minimo-4517294",
-      "fecha": "2026-11-04T13:21:57+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "da020eefba9f15b7",
-      "titulo": "Los gráficos y mapas que muestran la magnitud del histórico triunfo de los demócratas en EE.UU.",
-      "categoria": "Internacional",
-      "fuente": "BBC Mundo",
-      "url": "https://www.bbc.com/mundo/articles/c63dj78e4z40o?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-04T13:21:27+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "aabd713fb1e5c94f",
-      "titulo": "Andrés Manuel López niega los cargos de corrupción antes de su candidatura al Congreso mexicano",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/andres-manuel-lopez-niega-los-cargos-de-corrupcion-antes-de-su-candidatura-al-congreso-mexicano-4517320",
-      "fecha": "2026-11-04T13:21:09+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "1e00e4ad3e66c7ae",
-      "titulo": "Elecciones en Estados Unidos 2026: Así quedó conformado el Senado; Último reporte este 4 de noviembre de 2026",
-      "categoria": "Internacional",
-      "fuente": "La FM Internacional",
-      "url": "https://www.lafm.com.co/internacional/elecciones-estados-unidos-2026-senado-camara-congreso-resultados-ultimo-reporte-4-novbiembre-416064",
-      "fecha": "2026-11-04T13:17:41+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "280eb01581c41c18",
-      "titulo": "León XIV y Kast conversan en el Vaticano sobre paz, declive demográfico y migración",
-      "categoria": "Internacional",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/león-xiv-y-kast-conversan-en-el-vaticano-sobre-paz-declive-demográfico-y-migración/a-79854568?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-04T13:17:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "e3181ace72820d5b",
-      "titulo": "“No solamente debe ser del Ejecutivo”: Fenalco pide recortar burocracia en todas las ramas del Estado",
-      "categoria": "Economía",
-      "fuente": "La FM Economía",
-      "url": "https://www.lafm.com.co/economia/fenalco-impuesto-tendero-cerveza-bebidas-azucaradas-416079",
-      "fecha": "2026-11-04T13:16:17+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "90031986160ade1f",
-      "titulo": "Pronóstico del clima en Cali: ¿Lloverá este miércoles en la ciudad?",
-      "categoria": "Cali",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/vida-moderna/ecologia/pronostico-del-clima-en-cali-cvc-04-11-2026/",
-      "fecha": "2026-11-04T13:14:22+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "359bcddc12482397",
-      "titulo": "Tolima goleó y frenó la mejoría del Pereira",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/deportes/tolima-goleo-y-freno-la-mejoria-del-pereira/",
-      "fecha": "2026-11-04T13:14:18+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "8183f001f10737a3",
-      "titulo": "Nuevo operativo con presencia de Abelardo deja 109 capturados en Cúcuta",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/en-vivo/nuevo-operativo-con-presencia-de-abelardo-deja-109-capturados-en-cucuta/",
-      "fecha": "2026-11-04T13:13:36+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "136f62c303e7f834",
-      "titulo": "Cacao ecuatoriano frente al impacto del Niño, pero el sector apuesta por medidas de mitigación",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/cacao-ecuatoriano-frente-al-impacto-de-el-nino-pero-el-sector-apuesta-por-medidas-de-mitigacion-4517309",
-      "fecha": "2026-11-04T13:12:28+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "7234df90b9cd7f1b",
-      "titulo": "Más de 400 inversionistas en Madrid: el balance del Vicepresidente para la Misión Crecer",
-      "categoria": "Colombia",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/gobierno/mas-de-400-inversionistas-en-madrid-el-balance-del-vicepresidente-para-la-mision-crecer-505680",
-      "fecha": "2026-11-04T13:10:10+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "44a35d1e6fd32c26",
-      "titulo": "Los beneficios tributarios que propone el Gobierno para atraer grandes inversiones y generar empleo en Colombia",
-      "categoria": "Economía",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/noticias/los-beneficios-tributarios-que-propone-el-gobierno-para-atraer-grandes-inversiones-y-generar-empleo-en-colombia/",
-      "fecha": "2026-11-04T13:09:40+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "9a1192c8c5b845fc",
-      "titulo": "Dólar cotiza $5,62 a la baja tras victoria del Partido Demócrata en Estados Unidos",
-      "categoria": "Economía",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/finanzas/precios-del-dolar-y-petroleo-hoy-4-de-noviembre-de-2026-4517240",
-      "fecha": "2026-11-04T13:08:36+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "ee4fa9e32b89dd1c",
-      "titulo": "Este monitor es más televisor que monitor: es inteligente y lo puedes trasladar entre habitaciones",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/seleccion/este-monitor-televisor-que-monitor-inteligente-puedes-trasladar-habitaciones",
-      "fecha": "2026-11-04T13:03:07+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "ea34f7bbaabbaa45",
-      "titulo": "Alerta por dengue en Barranquilla y Atlántico: se reaviva la preocupación por esta enfermedad que encuentra en las lluvias condiciones para propagarse",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/barranquilla/alerta-por-dengue-en-barranquilla-y-atlantico-se-reaviva-la-preocupacion-por-esta-enfermedad-que-encuentra-en-las-lluvias-condiciones-para-propagarse-3598318",
-      "fecha": "2026-11-04T13:02:35+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "72e500e3a5434cb5",
-      "titulo": "La radiografía de delitos en Cali: ¿cómo frenan el homicidio y cómo la ciudad es la que más reduce robos a personas frente a Bogotá y Medellín?",
-      "categoria": "Cali",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/cali/la-radiografia-de-delitos-en-cali-como-frenan-el-homicidio-y-como-la-ciudad-es-la-que-mas-reduce-robos-a-personas-frente-a-bogota-y-medellin-3598297",
-      "fecha": "2026-11-04T13:01:10+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "ac586736eec24a65",
-      "titulo": "Santa Marta: De la Espriella apuesta por el río Magdalena para resolver la crisis de agua y anuncia acciones contra la ‘mafia de carrotanques’ y redes",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/santa-marta-de-la-espriella-apuesta-por-el-rio-magdalena-para-resolver-la-crisis-de-agua-y-anuncia-acciones-contra-la-mafia-de-carrotanques-y-redes-3598320",
-      "fecha": "2026-11-04T13:00:26+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "06c5c7fd83290aa5",
-      "titulo": "En España ya hay tanatorios que permiten a las mascotas despedirse de sus dueños muertos",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/magnet/pueden-experimentar-ansiedad-profunda-sensacion-abandono-espana-hay-tanatorios-que-abren-duelo-a-mascotas",
-      "fecha": "2026-11-04T13:00:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "7b836f67823643dd",
-      "titulo": "Lucciana Granados llevará el talento de Risaralda al Sudamericano",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/deportes/lucciana-granados-llevara-el-talento-de-risaralda-al-sudamericano/",
-      "fecha": "2026-11-04T12:59:02+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "c223fc341aa42c19",
-      "titulo": "Grupo Argos lanza una nueva oferta de readquisición de acciones por $150.000 millones",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/empresas/grupo-argos-lanza-nueva-oferta-de-readquisucion-de-acciones-por-150-000-millones-4517271",
-      "fecha": "2026-11-04T12:58:49+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "603ab7fef3f7ecac",
-      "titulo": "Bancos chinos piden cuota de crédito por US$30.000 millones para financiar compra de acciones",
-      "categoria": "Economía",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/bancos-chinos-piden-cuota-de-credito-por-us-30-000-millones-para-financiar-compra-de-acciones-4517289",
-      "fecha": "2026-11-04T12:58:42+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "715457b67685843d",
-      "titulo": "Cristina Fernández Cubas, ganadora del Cervantes: “En el cuento eres siempre un artista de circo sin red”",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/cultura/2026-11-04/cristina-fernandez-cubas-en-el-cuento-eres-siempre-un-artista-de-circo-sin-red.html",
-      "fecha": "2026-11-04T12:57:35+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "6d2509725a1846a1",
-      "titulo": "Una tragedia que enluta al deporte",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/deportes/una-tragedia-que-enluta-al-deporte/",
-      "fecha": "2026-11-04T12:57:12+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "b7ccd136371b1bd9",
-      "titulo": "¡Insólito! Hombre ponía cucarachas en la comida para no pagar en Ibagué: así fue capturado",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/insolito-hombre-ponia-cucarachas-en-la-comida-para-no-pagar-en-ibague-3598294",
-      "fecha": "2026-11-04T12:56:39+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "bf29c741f41ecc71",
-      "titulo": "Ley de Rescate plantea ahorros de $44,6 billones con recortes a contratistas y nómina",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/economia/ley-de-rescate-plantea-ahorros-de-44-6-billones-con-recortes-a-contratistas-y-nomina-4517259",
-      "fecha": "2026-11-04T12:53:14+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "e19f7dc645edc402",
-      "titulo": "Salario mínimo de 2027: sector de la CGT anuncia su llegada a la mesa de negociación con el Gobierno Nacional",
-      "categoria": "Colombia",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/salario-minimo-de-2027-sector-de-la-cgt-anuncia-su-llegada-a-la-mesa-de-negociacion-con-el-gobierno-nacional-505678",
-      "fecha": "2026-11-04T12:53:01+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "26abfe8924772c05",
-      "titulo": "Conozca los barrios sin agua en Cali este miércoles; habrá cortes de 12 horas",
-      "categoria": "Cali",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/cali/barrios-sin-agua-cali-miercoles-4-11-2026/",
-      "fecha": "2026-11-04T12:52:00+00:00",
-      "imagen": ""
     }
   ],
   "estado_fuentes": [
@@ -553,14 +553,14 @@
       "nombre": "El Tiempo Cali",
       "url": "https://www.eltiempo.com/rss/colombia_cali.xml",
       "estado": "correcto",
-      "titulares": 8
+      "titulares": 9
     },
     {
       "nombre": "El Espectador",
       "url": "https://www.elespectador.com/rss/",
       "estado": "error",
       "titulares": 0,
-      "detalle": "403 Client Error: Forbidden for url: https://www.elespectador.com/rss/"
+      "detalle": "El feed no contiene entradas."
     },
     {
       "nombre": "La Silla Vacía",
@@ -596,7 +596,7 @@
       "nombre": "DW Español",
       "url": "https://rss.dw.com/rdf/rss-sp-all",
       "estado": "correcto",
-      "titulares": 23
+      "titulares": 24
     },
     {
       "nombre": "Xataka",
