@@ -1,5 +1,5 @@
 {
-  "ultima_actualizacion": "2026-11-04T18:33:08.240514+00:00",
+  "ultima_actualizacion": "2026-11-04T19:41:07.364578+00:00",
   "titulares_rss": [
     {
       "id": "988cbf8bbfc246cc",
@@ -7,16 +7,124 @@
       "categoria": "Internacional",
       "fuente": "BBC Mundo",
       "url": "https://www.bbc.co.uk/mundo/live/cq9vz4g97xy2t?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-04T18:33:08.240514+00:00",
+      "fecha": "2026-11-04T19:41:07.364578+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "ffbb0bc17e72bd87",
+      "titulo": "Gobierno planea entregar nuevas cárceles entre 2026 y 2028",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/en-vivo/gobierno-planea-entregar-nuevas-carceles-entre-2026-y-2028/",
+      "fecha": "2026-11-04T19:40:30+00:00",
       "imagen": ""
     },
     {
       "id": "205407a51d52b290",
-      "titulo": "Las ‘midterms’ 2026, en vivo | El vicepresidente J. D. Vance culpa a la guerra en Irán por la estrepitosa derrota republicana",
+      "titulo": "Las ‘midterms’ 2026, en vivo | Trump admite que la guerra en Irán influyó en la derrota, pero que “lo haría de nuevo”",
       "categoria": "Internacional",
       "fuente": "El País Colombia",
       "url": "https://elpais.com/us/2026-11-04/las-midterms-2026-en-vivo.html",
-      "fecha": "2026-11-04T18:29:23+00:00",
+      "fecha": "2026-11-04T19:33:17+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "61232f9f69bfbcd7",
+      "titulo": "Carrera 5K en Cali: este será el recorrido por el barrio Obrero y Ciudad Paraíso este domingo",
+      "categoria": "Cali",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/deportes/carrera-5k-en-cali-barrio-obrero-deporte-04-11-2026/",
+      "fecha": "2026-11-04T19:31:56+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "90613b6a5de5c06d",
+      "titulo": "Demócratas toman el control del Congreso de EE. UU. y propinan un duro golpe político a Donald Trump",
+      "categoria": "Internacional",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/noticias/internacionales/democratas-toman-el-control-del-congreso-de-ee-uu-y-propinan-un-duro-golpe-politico-a-donald-trump/",
+      "fecha": "2026-11-04T19:30:53+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "b88ca6a13eaa7eb9",
+      "titulo": "Fuertes lluvias provocan emergencias en Barranquilla y el área metropolitana: edificios inundados, viviendas afectadas y familias en alerta",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/barranquilla/fuertes-lluvias-provocan-emergencias-en-barranquilla-y-el-area-metropolitana-edificios-inundados-viviendas-afectadas-y-familias-en-alerta-3598458",
+      "fecha": "2026-11-04T19:28:45+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "22ec896e6141d796",
+      "titulo": "El dólar en Colombia bajó levemente tras las elecciones en Estados Unidos: así quedó la divisa este 4 de noviembre",
+      "categoria": "Economía",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/finanzas/el-dolar-en-colombia-pego-un-salto-asi-cotiza-la-divisa-tras-las-elecciones-de-medio-tiempo-en-estados-unidos-505683",
+      "fecha": "2026-11-04T19:27:41+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "3a2864e87d0367b5",
+      "titulo": "La cadena chilena Casaideas abrió tienda en Medellín y completó 13 locales",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/empresas/la-cadena-chilena-casaideas-abrio-tienda-en-medellin-y-completo-13-locales-4517617",
+      "fecha": "2026-11-04T19:19:01+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "0ed46be01af04365",
+      "titulo": "Investigan procedencia de mosquitos infectados que provocaron brote de malaria",
+      "categoria": "Valle del Cauca",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/vida-moderna/salud/brote-de-malaria-salud-origen-mosquitos-04-11-2026/",
+      "fecha": "2026-11-04T19:11:11+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "18b8564e1e554dbb",
+      "titulo": "A segundo debate pasó el proyecto de ley del presupuesto de regalías para el bienio 2027-2028",
+      "categoria": "Economía",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/a-segundo-debate-paso-el-proyecto-de-ley-del-presupuesto-de-regalias-para-el-bienio-2027-505710",
+      "fecha": "2026-11-04T19:05:14+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "ca38ff2dc51369c0",
+      "titulo": "Hay físicos empeñados en demostrar que Einstein se equivocó y los neutrinos del Mediterráneo, de momento, no les dan la razón",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/espacio/einstein-a-prueba-fondo-mediterraneo-neutrinos-no-encuentran-grietas-teoria-relatividad-momento",
+      "fecha": "2026-11-04T19:01:24+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "2a201c5a2c15c71d",
+      "titulo": "“Los latinos se respetan”: así reaccionaron políticos colombianos al triunfo demócrata en Estados Unidos",
+      "categoria": "Internacional",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/noticias/los-latinos-se-respetan-asi-reaccionaron-politicos-colombianos-al-triunfo-democrata-en-estados-unidos/",
+      "fecha": "2026-11-04T19:00:12+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "ea5e88725e5b99a9",
+      "titulo": "Fue aprobado en primer debate el presupuesto de regalías para el bienio 2027-2028",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/economia/fue-aprobado-en-primer-debate-el-presupuesto-de-regalias-para-el-bienio-2027-2028-4517637",
+      "fecha": "2026-11-04T19:00:06+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "8cd677df6443b746",
+      "titulo": "Presupuesto de Regalías cae 11 % para 2027-2028 y pasa su primer debate en el Congreso",
+      "categoria": "Colombia",
+      "fuente": "La FM Economía",
+      "url": "https://www.lafm.com.co/economia/presupuesto-de-regalias-2027-2028-aprobado-en-primer-debate-416113",
+      "fecha": "2026-11-04T18:58:21+00:00",
       "imagen": ""
     },
     {
@@ -25,7 +133,106 @@
       "categoria": "Internacional",
       "fuente": "DW Español",
       "url": "https://www.dw.com/es/la-casa-blanca-recuerda-que-trump-es-todavía-presidente-pese-a-la-derrota-en-las-legislativas/live-79845739?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-04T18:28:00+00:00",
+      "fecha": "2026-11-04T18:56:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "1b50ec421b667948",
+      "titulo": "¿Qué escondía? El misterio del camión abandonado que obligó a activar un plan antiterrorista en el suroriente de Cali: su conductor salió corriendo",
+      "categoria": "Cali",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/cali/que-escondia-el-misterio-del-camion-abandonado-que-obligo-a-activar-un-plan-antiterrorista-en-el-suroriente-de-cali-su-conductor-salio-corriendo-3598451",
+      "fecha": "2026-11-04T18:54:36+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "2ee2e5adfa716204",
+      "titulo": "Las gráficas que explican los resultados de las elecciones intermedias",
+      "categoria": "Internacional",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/las-gráficas-que-explican-los-resultados-de-las-elecciones-intermedias/a-79857790?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-04T18:49:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "b9b25067d235f3f0",
+      "titulo": "La estrepitosa derrota de Trump: cinco conclusiones de las elecciones",
+      "categoria": "Internacional",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/la-estrepitosa-derrota-de-trump-cinco-conclusiones-de-las-elecciones/a-79857969?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-04T18:46:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "a286a0b8e068132d",
+      "titulo": "Talarico, Hinojosa y Pulido: la combinación con la que los demócratas comienzan a pintar Texas de púrpura",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/us/2026-11-04/talarico-hinojosa-y-pulido-la-combinacion-con-la-que-los-democratas-comienzan-a-pintar-texas-de-purpura.html",
+      "fecha": "2026-11-04T18:41:09+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "a03f994fd4e22f8f",
+      "titulo": "Pico y placa en Cali este jueves, 5 de noviembre: Conozca las placas que tienen restricción",
+      "categoria": "Cali",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/cali/pico-placa-cali-jueves-5-noviembre-4-11-2026/",
+      "fecha": "2026-11-04T18:41:01+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "32c2608c65fe450a",
+      "titulo": "Cómo comparar cuentas de ahorros sin perderte en la oferta",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/temas/como-comparar-cuentas-de-ahorros-sin-perderte-en-la-oferta/",
+      "fecha": "2026-11-04T18:39:58+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "cb6c048a14adafdb",
+      "titulo": "Las claves de la victoria histórica de los demócratas en EE.UU. y qué supone para Trump",
+      "categoria": "Internacional",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/watch/cm369lj9g433o?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-04T18:36:58+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "86eeef639dbee776",
+      "titulo": "Autoridades rechazan ataque explosivo contra el peaje de Media Canoa, en Yotoco",
+      "categoria": "Valle del Cauca",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/valle-del-cauca/rechazan-ataque-explosivo-peaje-media-canoa-4-11-2026/",
+      "fecha": "2026-11-04T18:35:42+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "536d153581a64258",
+      "titulo": "Los centros de datos también se presentaban a las elecciones de EEUU y han perdido estrepitosamente",
+      "categoria": "Internacional",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/robotica-e-ia/centros-datos-tambien-se-presentaban-a-elecciones-eeuu-han-perdido-estrepitosamente",
+      "fecha": "2026-11-04T18:31:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "a812a41eb7cac2be",
+      "titulo": "JD Vance reconoce la causa principal de la derrota republicana: \"es obvio para todos\"",
+      "categoria": "Internacional",
+      "fuente": "La FM Internacional",
+      "url": "https://www.lafm.com.co/internacional/jd-vance-vicepresidente-estados-unidos-reconoce-causas-derrota-elecciones-medio-termino-416111",
+      "fecha": "2026-11-04T18:26:25+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "a769e63c668d83bb",
+      "titulo": "Argentina se prepara para vivir una nueva era sin Lionel Messi: ¿quién será el heredero de la '10'?",
+      "categoria": "Deportes",
+      "fuente": "La FM Deportes",
+      "url": "https://www.lafm.com.co/deportes/argentina-sin-messi-nuevo-10-albiceleste-sucesor-seleccion-416110",
+      "fecha": "2026-11-04T18:26:05+00:00",
       "imagen": ""
     },
     {
@@ -83,12 +290,30 @@
       "imagen": ""
     },
     {
+      "id": "f6a5245e982a39d4",
+      "titulo": "Nuevo equilibrio de poder en Estados Unidos: ¿qué cambia para Colombia y el Valle?",
+      "categoria": "Internacional",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/opinion/columnistas/nuevo-equilibrio-de-poder-en-estados-unidos-que-cambia-para-colombia-y-el-valle/",
+      "fecha": "2026-11-04T18:02:48+00:00",
+      "imagen": ""
+    },
+    {
       "id": "a164d66c51c18f12",
       "titulo": "Mujer que fue atacada con un químico en Medellín por su expareja era víctima de un ciclo de violencia: el agresor fue enviado a la cárcel",
       "categoria": "Colombia",
       "fuente": "El Tiempo",
       "url": "https://www.eltiempo.com/colombia/medellin/mujer-que-fue-atacada-con-un-quimico-en-medellin-por-su-expareja-era-victima-de-un-ciclo-de-violencia-el-agresor-fue-enviado-a-la-carcel-3598420",
       "fecha": "2026-11-04T18:01:17+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "94f8152ab6627397",
+      "titulo": "Presidente, el blanco es el terrorismo",
+      "categoria": "Colombia",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/opinion/editorial/abelardo-de-la-espriella-el-reto-de-la-seguridad-nacional/",
+      "fecha": "2026-11-04T17:59:33+00:00",
       "imagen": ""
     },
     {
@@ -128,12 +353,30 @@
       "imagen": ""
     },
     {
+      "id": "b8d5892695e3f399",
+      "titulo": "Ejércitos en coalición: la única forma de vencer al crimen trasnacional",
+      "categoria": "Colombia",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/opinion/columnistas/ejercitos-en-coalicion-la-unica-forma-de-vencer-al-crimen-trasnacional/",
+      "fecha": "2026-11-04T17:54:36+00:00",
+      "imagen": ""
+    },
+    {
       "id": "bce4d71f11887f3e",
       "titulo": "Deuda de Colombia podría llegar al 82% del PIB en 2030 si el ajuste fiscal se concentra en recortar gastos: Anif",
       "categoria": "Colombia",
       "fuente": "Portafolio",
       "url": "https://www.portafolio.co/economia/deuda-de-colombia-podria-llegar-al-82-del-pib-en-2030-si-el-ajuste-fiscal-se-concentra-en-recortar-gastos-anif-505707",
       "fecha": "2026-11-04T17:52:50+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "6e5fc8ecbb7e6276",
+      "titulo": "Legítima narradora epistolar",
+      "categoria": "Colombia",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/opinion/columnistas/legitima-narradora-epistolar/",
+      "fecha": "2026-11-04T17:51:12+00:00",
       "imagen": ""
     },
     {
@@ -161,6 +404,15 @@
       "fuente": "El Tiempo",
       "url": "https://www.eltiempo.com/colombia/otras-ciudades/el-programa-mujeres-todoterreno-de-sacyr-capacita-a-comunidades-que-habitan-en-inmediaciones-del-canal-del-dique-para-trabajos-en-infraestructura-3598428",
       "fecha": "2026-11-04T17:34:27+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "d923ebc528d61ab3",
+      "titulo": "Atentado con volqueta bomba en El Patía deja tres personas heridas y graves daños materiales",
+      "categoria": "Colombia",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/regionales/cauca/via-panamericana-atentado-con-volqueta-bomba-en-el-patia/",
+      "fecha": "2026-11-04T17:32:28+00:00",
       "imagen": ""
     },
     {
@@ -245,6 +497,15 @@
       "imagen": ""
     },
     {
+      "id": "e424e5f1bdc39c30",
+      "titulo": "Conductor huyó y dejó un camión abandonado en Cali: la sospecha de una bomba obligó a cerrar la vía",
+      "categoria": "Cali",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/cali/autopista-simon-bolivar-descartan-explosivos-en-camion/",
+      "fecha": "2026-11-04T17:13:09+00:00",
+      "imagen": ""
+    },
+    {
       "id": "842694f293db8031",
       "titulo": "Bruselas exige a Ucrania acelerar las reformas para cerrar las negociaciones de adhesión en 2028",
       "categoria": "Internacional",
@@ -279,267 +540,6 @@
       "url": "https://www.larepublica.co/finanzas/las-pyme-que-tienen-soluciones-de-pago-utilizan-90-mas-de-productos-financieros-4517534",
       "fecha": "2026-11-04T17:04:13+00:00",
       "imagen": ""
-    },
-    {
-      "id": "1845b37d3e28644a",
-      "titulo": "Vance atribuye la derrota republicana a la guerra contra Irán",
-      "categoria": "Internacional",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/vance-atribuye-la-derrota-republicana-a-la-guerra-contra-irán/a-79857934?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-04T17:03:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "cf37b82e75c9dfb4",
-      "titulo": "De la Espriella posesionó oficialmente a Alejandro Ordoñez como minInterior",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/economia/de-la-espriella-posesiono-oficialmente-a-alejandro-ordonez-como-ministro-del-interior-4517558",
-      "fecha": "2026-11-04T17:02:49+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "ece883f625d0211e",
-      "titulo": "Denuncian ingreso de vehículos al Páramo de Siscunsí en Boyacá: estarían parqueando sobre vegetación nativa y cerca de frailejones",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/denuncian-ingreso-de-vehiculos-al-paramo-de-siscunsi-en-boyaca-estarian-parqueando-sobre-vegetacion-nativa-y-cerca-de-frailejones-3598378",
-      "fecha": "2026-11-04T17:02:34+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "f02cace3fc9d3ab3",
-      "titulo": "Denuncian hallazgo de tornillos y agujas dentro de dulces entregados a niños durante la celebración de Halloween en Itagüí, Antioquia",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/medellin/denuncian-hallazgo-de-tornillos-y-agujas-dentro-de-dulces-entregados-a-ninos-durante-la-celebracion-de-halloween-en-itaguei-antioquia-3598359",
-      "fecha": "2026-11-04T17:02:13+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "e1e4e1621d8481eb",
-      "titulo": "El 60% de los empresarios en Colombia considera que puede mantener su negocio sin incentivos tributarios: estudio",
-      "categoria": "Colombia",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/el-60-de-los-empresarios-en-colombia-considera-que-puede-mantener-su-negocio-sin-incentivos-tributarios-estudio-505702",
-      "fecha": "2026-11-04T17:01:52+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "6a114da2c3b882df",
-      "titulo": "Encuentran un Citroën BX olvidado en un garaje desde hace 38 años: fue de un ingeniero de la RAF que participó en el Thrust 2",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/movilidad/encuentran-citroen-bx-olvidado-garaje-hace-38-anos-fue-ingeniero-real-fuerza-aerea-que-participo-thrust-2",
-      "fecha": "2026-11-04T17:01:24+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "405b53f61a96cd17",
-      "titulo": "Ataque terrorista con explosivos en una volqueta deja al menos tres heridos en el Cauca: una persona habría muerto por el atentado en Patía",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/cali/ataque-terrorista-con-explosivos-en-una-volqueta-deja-al-menos-tres-heridos-en-el-cauca-una-persona-habria-muerto-por-el-atentado-en-patia-3598411",
-      "fecha": "2026-11-04T17:00:23+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "2335469432ffb396",
-      "titulo": "Estudiar afuera sigue moviendo a colombianos: 84.177 salidas hasta septiembre y 40,4% hacia EE. UU. y España",
-      "categoria": "Colombia",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/estudiar-afuera-sigue-moviendo-a-colombianos-84-177-salidas-hasta-septiembre-y-40-4-hacia-ee-uu-y-espana-505697",
-      "fecha": "2026-11-04T17:00:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "0c391e79c2a53382",
-      "titulo": "Peatones, motociclistas y ciclistas: los que más víctimas pusieron por accidentes de tránsito entre 2025 y 2026",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/cifras-peatones-motociclistas-ciclistas-victimas-accidentes-transito-20252026-MB43171915",
-      "fecha": "2026-11-04T16:59:57+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "19c5f2ff24d72ebd",
-      "titulo": "Lo que vendría para Colombia tras la elección de un Congreso demócrata en EE. UU.: “Aumentarían las exigencias”",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/victoria-democrata-congreso-eeuu-consecuencias-para-colombia-KA43164482",
-      "fecha": "2026-11-04T16:58:24+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "69d3f0d466e5197f",
-      "titulo": "Video | Así fue la victoria de un colombiano ante campeón chino; pasó a semis",
-      "categoria": "Colombia",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/deportes/video-asi-fue-la-victoria-emanuel-otalvaro-04-11-2026/",
-      "fecha": "2026-11-04T16:58:10+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "f1bd4d8c521383bd",
-      "titulo": "Seminario Mayor San Pedro Apóstol prepara encuentro solidario para damnificados del terremoto",
-      "categoria": "Valle del Cauca",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/cali/seminario-mayor-san-pedro-apostol-encuentro-damnificados-terremoto-4-11-2026/",
-      "fecha": "2026-11-04T16:55:50+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "02d545fa18330fe8",
-      "titulo": "EE.UU. ayudó con inteligencia a bombardeo al ELN en Apure: NYT",
-      "categoria": "Internacional",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/en-vivo/ee-uu-ayudo-con-inteligencia-a-bombardeo-al-eln-en-apure-nyt/",
-      "fecha": "2026-11-04T16:50:32+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "2c5f50395afe97e0",
-      "titulo": "Movistar Arena cambia oficialmente de nombre a El Corazón de Bogotá-Arena",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/empresas/movistar-arena-cambia-oficialmente-de-nombre-a-el-corazon-de-bogota-arena-4517547",
-      "fecha": "2026-11-04T16:49:31+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "c413989ff296ae19",
-      "titulo": "ANH anunció estrategia para reactivar contratos y acelerar proyectos de petróleo y gas",
-      "categoria": "Economía",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/economia/anh-anuncio-estrategia-para-reactivar-contratos-y-acelerar-proyectos-de-petroleo-y-gas-4517526",
-      "fecha": "2026-11-04T16:47:23+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "e19f652dbce0fdf1",
-      "titulo": "Óscar Puente: \"Analicen la historia de este país los últimos 30 años: si no tienes alta velocidad no eres nadie\"",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/movilidad/oscar-puente-obsesion-espana-alta-velocidad-no-tienes-no-eres-nadie-no-se-te-trata-como-mereces",
-      "fecha": "2026-11-04T16:45:24+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "1f3d0de477836981",
-      "titulo": "La prensa latinoamericana ve el triunfo demócrata en EE. UU. como una \"hecatombe\" electoral que acelera el fin de la era Trump",
-      "categoria": "Internacional",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/la-prensa-latinoamericana-ve-el-triunfo-demócrata-en-ee-uu-como-una-hecatombe-electoral-que-acelera-el-fin-de-la-era-trump/a-79857239?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-04T16:45:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "020aeaa2da8c124a",
-      "titulo": "Investigan causas de accidente en la vía Panamericana",
-      "categoria": "Colombia",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/colombia/via-panamericana-accidente-en-rosas-deja-2-muertos-y-12-heridos/",
-      "fecha": "2026-11-04T16:43:13+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "8fecd501f2e049ea",
-      "titulo": "Feria Universitaria Rural se realizó para acercar la educación superior a niños y jóvenes",
-      "categoria": "Valle del Cauca",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/cali/feria-universitaria-rural-pance-04-11-2026/",
-      "fecha": "2026-11-04T16:38:30+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "366be619ad28d0e8",
-      "titulo": "Atención | Una volqueta con explosivos estalló junto a subestación policial en El Patía, Cauca",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/volqueta-con-explosivos-estallo-junto-a-subestacion-policial-en-el-patia-cauca-LB43171785",
-      "fecha": "2026-11-04T16:37:55+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "0c9d4544fccdee1b",
-      "titulo": "Zulma Guzmán habría envenenado con talio a seis personas y planeado nuevos ataques, según la Fiscalía",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/zulma-guzma-habria-envenenado-a-seis-personas-HA43164065",
-      "fecha": "2026-11-04T16:36:04+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "c008e37ae3307885",
-      "titulo": "¿Cuánto tendrían que pagar en salud los trabajadores que ganan entre 20 y 25 salarios mínimos con la nueva tributaria?",
-      "categoria": "Economía",
-      "fuente": "La FM Economía",
-      "url": "https://www.lafm.com.co/economia/cuanto-pagaran-salud-trabjadores-20-25-salarios-minimos-nueva-tributaria-416102",
-      "fecha": "2026-11-04T16:35:48+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "ef3d5aee113a67a1",
-      "titulo": "El Comité Electoral de Israel confirma los resultados de los comicios y advierte del “peligro” de cuestionar su veracidad",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/internacional/2026-11-04/el-comite-electoral-de-israel-confirma-los-resultados-de-los-comicios-y-advierte-del-peligro-de-cuestionar-su-veracidad.html",
-      "fecha": "2026-11-04T16:35:27+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "ef4c71531949715d",
-      "titulo": "Ataque con explosivos afectó dos carriles del peaje de Mediacanoa en Yotoco",
-      "categoria": "Colombia",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/regionales/valle-del-cauca/peaje-de-mediacanoa-sufre-ataque-con-explosivos-en-la-via/",
-      "fecha": "2026-11-04T16:31:26+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "8aa0b96e8c544ab0",
-      "titulo": "Los glaciares de los Pirineos tienen fecha de caducidad: apuntan a desaparecer por completo en 2034",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/ecologia-y-naturaleza/glaciares-pirineos-tienen-fecha-caducidad-apuntan-a-desaparecer-completo-2034",
-      "fecha": "2026-11-04T16:31:23+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "c1e560a79c3c9a55",
-      "titulo": "Afromasculinidades: pensar otros hombres negros para transformar casa adentro",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/silla-nacional/pacifico/afromasculinidades-pensar-otros-hombres-negros-para-transformar-casa-adentro/",
-      "fecha": "2026-11-04T16:31:09+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "0ea57fe42e4a1489",
-      "titulo": "\"Esto es un desastre\": republicanos indignados culpan a Trump de la estrepitosa derrota en las elecciones de mitad de mandato",
-      "categoria": "Internacional",
-      "fuente": "BBC Mundo",
-      "url": "https://www.bbc.com/mundo/articles/c3dxw0kxkgd2o?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-04T16:31:09+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "b0aaefbc1e2213f7",
-      "titulo": "“Para nosotros siempre será un número uno”: el emotivo mensaje de la Federación Colombiana de Fútbol a David Ospina tras su retiro",
-      "categoria": "Deportes",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/deportes/para-nosotros-siempre-sera-un-numero-uno-el-emotivo-mensaje-de-la-federacion-colombiana-de-futbol-a-david-ospina-tras-su-retiro/",
-      "fecha": "2026-11-04T16:30:52+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "a431c253fcc11fd1",
-      "titulo": "Skincare coreano: una tendencia internacional que transforma las rutinas de cuidado facial",
-      "categoria": "Internacional",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/vida-moderna/salud/skincare-coreano-tendencia-04-11-2026/",
-      "fecha": "2026-11-04T16:27:22+00:00",
-      "imagen": ""
     }
   ],
   "estado_fuentes": [
@@ -553,7 +553,7 @@
       "nombre": "El Tiempo Cali",
       "url": "https://www.eltiempo.com/rss/colombia_cali.xml",
       "estado": "correcto",
-      "titulares": 8
+      "titulares": 7
     },
     {
       "nombre": "El Espectador",
@@ -590,7 +590,7 @@
       "nombre": "BBC Mundo",
       "url": "https://feeds.bbci.co.uk/mundo/rss.xml",
       "estado": "correcto",
-      "titulares": 29
+      "titulares": 30
     },
     {
       "nombre": "DW Español",
@@ -620,7 +620,7 @@
       "nombre": "La FM Deportes",
       "url": "https://www.lafm.com.co/rss/deportes.xml",
       "estado": "correcto",
-      "titulares": 17
+      "titulares": 18
     },
     {
       "nombre": "La FM Economía",
