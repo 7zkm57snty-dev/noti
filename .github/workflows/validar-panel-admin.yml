@@ -69,7 +69,7 @@ jobs:
           assert 'content="#17212b"' in source, "La barra del navegador móvil no usa el color del encabezado."
           assert "tarjeta-cabecera" in source and "tarjeta-titular" in source
           assert "tarjeta-contenido" in source, "Falta el bloque inferior de resumen de las tarjetas."
-          assert "}}\\n.visual-ia" not in source, "Hay un salto de línea literal que puede invalidar el CSS de imágenes."
+          assert "}}\n.visual-ia" not in source, "Hay un salto de línea literal que puede invalidar el CSS de imágenes."
           print("Correcto: miniaturas y titulares comparten una cabecera; resumen y acciones quedan debajo, con reglas adaptativas.")
           PY
           python - <<'PY'
@@ -211,7 +211,7 @@ jobs:
               build.NOTAS = build.SITE / "notas"
               build.IMAGENES_PROCESADAS = {}
               (root / "cookies.js").write_text("// test", encoding="utf-8")
-              (root / "google881f069782e14b80.html").write_text("google-site-verification: google881f069782e14b80.html\\n", encoding="utf-8")
+              (root / "google881f069782e14b80.html").write_text("google-site-verification: google881f069782e14b80.html\n", encoding="utf-8")
 
               parrafo = (
                   "La información disponible permite explicar el hecho, el lugar y su impacto. "
@@ -284,7 +284,7 @@ jobs:
               assert "Qué aporta esta cobertura" in pagina_articulo
               assert "La cobertura explica el efecto local" in pagina_articulo
               assert "Lo más destacado de la semana" in portada
-              assert (build.SITE / "google881f069782e14b80.html").read_text(encoding="utf-8") == "google-site-verification: google881f069782e14b80.html\\n"
+              assert (build.SITE / "google881f069782e14b80.html").read_text(encoding="utf-8") == "google-site-verification: google881f069782e14b80.html\n"
               assert breve["titulo"] in portada
               assert "Fuente de prueba externa" in portada
               assert "otro-medio.example" not in portada
