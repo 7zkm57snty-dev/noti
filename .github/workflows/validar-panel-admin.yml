@@ -69,7 +69,7 @@ jobs:
           assert 'content="#17212b"' in source, "La barra del navegador móvil no usa el color del encabezado."
           assert "tarjeta-cabecera" in source and "tarjeta-titular" in source
           assert "tarjeta-contenido" in source, "Falta el bloque inferior de resumen de las tarjetas."
-          assert "}}\n.visual-ia" not in source, "Hay un salto de línea literal que puede invalidar el CSS de imágenes."
+          assert "}}\\n.visual-ia" not in source, "Hay un salto de línea literal que puede invalidar el CSS de imágenes."
           print("Correcto: miniaturas y titulares comparten una cabecera; resumen y acciones quedan debajo, con reglas adaptativas.")
           PY
           python - <<'PY'
