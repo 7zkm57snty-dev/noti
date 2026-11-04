@@ -415,7 +415,6 @@ function rssRadar(){
  $("#rsscat").addEventListener("change",e=>{state.rssCategory=e.target.value;rssRadar()});
  $("#rsssource").addEventListener("change",e=>{state.rssSource=e.target.value;rssRadar()});
 }
-async 
 function controlCenter(){
  const d=state.data||{},news=d.news||[],reviews=d.reviews||[],feeds=d.feeds||[],feedStatus=d.feedStatus||[],runs=d.automation||[];
  const errors=feedStatus.filter(x=>x.estado==="error"),quiet=feedStatus.filter(x=>x.estado==="sin_entradas");
@@ -452,7 +451,7 @@ function controlCenter(){
  $("#controlRefresh").addEventListener("click",async()=>{await load();if(state.page==="control")toast("Comprobaciones actualizadas.","success")});
  bind();
 }
-function diagnostics(){
+async function diagnostics(){
  const news=state.data.news||[];
  const newsRows=news.map(n=>'<div class="newsrow"><div class="thumb">'+(n.imagen?'<img src="'+esc(n.imagen)+'" alt="" loading="lazy">':ico("news"))+'</div><div><h3>'+esc(n.titulo)+'</h3><span class="muted">'+esc(n.categoria||"Sin categoría")+' · '+date(n.fecha)+' · '+(n.imagen?"Con fotografía":"Sin fotografía")+'</span></div><button class="btn secondary" data-diag-open="'+esc(n.id)+'">Editar noticia</button></div>').join("");
  $("#main").innerHTML=heading("SALUD DEL SISTEMA","Centro de diagnóstico y reparación","El diagnóstico revisa el archivo real de publicaciones. Desde aquí también puedes abrir cualquier noticia completa para corregir titular, resumen, texto, fuentes o fotografías.")+
