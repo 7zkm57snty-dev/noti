@@ -1,5 +1,5 @@
 {
-  "ultima_actualizacion": "2026-11-04T02:34:51.349453+00:00",
+  "ultima_actualizacion": "2026-11-04T02:44:22.918720+00:00",
   "titulares_rss": [
     {
       "id": "988cbf8bbfc246cc",
@@ -7,7 +7,25 @@
       "categoria": "Internacional",
       "fuente": "BBC Mundo",
       "url": "https://www.bbc.co.uk/mundo/live/cq9vz4g97xy2t?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-04T02:34:51.349453+00:00",
+      "fecha": "2026-11-04T02:44:22.918720+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "ce75b3f0aeb4f505",
+      "titulo": "En Chocó la penetración de internet fijo en hogares apenas alcanza el 17,59 %",
+      "categoria": "Tecnología",
+      "fuente": "Chocó 7 días",
+      "url": "https://choco7dias.com/en-choco-la-penetracion-de-internet-fijo-en-hogares-apenas-alcanza-el-1759/",
+      "fecha": "2026-11-04T02:42:07+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "755cdc215311bcf1",
+      "titulo": "Los resultados de las ‘midterms’ de 2026 en Estados Unidos, en vivo",
+      "categoria": "Internacional",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/us/2026-11-03/los-resultados-de-las-midterms-de-2026-en-estados-unidos-en-vivo.html",
+      "fecha": "2026-11-04T02:40:10+00:00",
       "imagen": ""
     },
     {
@@ -16,7 +34,16 @@
       "categoria": "Internacional",
       "fuente": "El País Colombia",
       "url": "https://elpais.com/us/2026-11-03/las-midterms-2026-en-vivo.html",
-      "fecha": "2026-11-04T02:31:02+00:00",
+      "fecha": "2026-11-04T02:39:54+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "738e3530eeeb9412",
+      "titulo": "Las advertencias sin atender de la Defensoría antes de la volqueta bomba en Planadas que dejó 4 muertos",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/las-advertencias-sin-atender-de-la-defensoria-antes-de-la-volqueta-bomba-en-planadas-que-dejo-4-muertos-PD43153682",
+      "fecha": "2026-11-04T02:26:47+00:00",
       "imagen": ""
     },
     {
@@ -38,6 +65,15 @@
       "imagen": ""
     },
     {
+      "id": "068d875fadb87b69",
+      "titulo": "‘Encanto’ regresa a los cines de Colombia: así ayudará a los damnificados del terremoto",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/encanto-regresa-cines-colombia-ayudara-damnificados-terremoto-ED43152475",
+      "fecha": "2026-11-04T02:00:48+00:00",
+      "imagen": ""
+    },
+    {
       "id": "b00d38aad9bb1937",
       "titulo": "Los futuros de las acciones caen mientras los demócratas ganan impulso en elecciones",
       "categoria": "Colombia",
@@ -56,12 +92,12 @@
       "imagen": ""
     },
     {
-      "id": "755cdc215311bcf1",
-      "titulo": "Los resultados de las ‘midterms’ de 2026 en Estados Unidos, en vivo",
-      "categoria": "Internacional",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/us/2026-11-03/los-resultados-de-las-midterms-de-2026-en-estados-unidos-en-vivo.html",
-      "fecha": "2026-11-04T01:31:34+00:00",
+      "id": "33178aa50dbcbdeb",
+      "titulo": "Falleció el segundo patrullero de la Policía herido con la motocicleta-bomba en Huila",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/atentado-terrorista-algeciras-huila-moto-bomba-murio-segundo-policia-patrullero-jaime-garcia-AC43149382",
+      "fecha": "2026-11-04T01:37:52+00:00",
       "imagen": ""
     },
     {
@@ -71,6 +107,15 @@
       "fuente": "La FM Internacional",
       "url": "https://www.lafm.com.co/internacional/elecciones-estados-unidos-conteo-de-votos-decisivas-trump-416052",
       "fecha": "2026-11-04T01:27:09+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "c3132af7a4547d06",
+      "titulo": "Uribe dice que MinHacienda “le pidió dos hojas de vida” a congresista del Centro Democrático: esto respondió Miguel Gómez",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/uribe-hojas-de-vida-gobierno-centro-democratico-mateo-hidalgo-IH43118725",
+      "fecha": "2026-11-04T01:20:03+00:00",
       "imagen": ""
     },
     {
@@ -494,51 +539,6 @@
       "fuente": "El País Colombia",
       "url": "https://elpais.com/america-colombia/2026-11-03/el-expresidente-alvaro-uribe-senala-al-ministro-de-hacienda-de-clientelismo-en-la-antesala-de-la-ley-de-ajuste-fiscal.html",
       "fecha": "2026-11-03T22:53:35+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "7bdc31b2b511a048",
-      "titulo": "Calculadora de la Ley de Rescate: así le pega la tributaria de Abelardo",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/silla-nacional/calculadora-de-la-ley-de-rescate-asi-le-pega-la-tributaria-de-abelardo/",
-      "fecha": "2026-11-03T22:46:12+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "a59f92c5b70f20d1",
-      "titulo": "Luz verde en medio de cuestionamientos: Emcali adjudica el megacontrato que llevará a Cali a tener alumbrado 100 por ciento LED en 18 meses",
-      "categoria": "Cali",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/cali/luz-verde-en-medio-de-cuestionamientos-emcali-adjudica-el-megacontrato-que-llevara-a-cali-a-tener-alumbrado-100-por-ciento-led-en-18-meses-3598238",
-      "fecha": "2026-11-03T22:42:53+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "654ef496768422c3",
-      "titulo": "Pico y placa en Cali este miércoles, 04 de noviembre: restricción de movilidad",
-      "categoria": "Cali",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/cali/pico-y-placa-en-cali-este-miercoles-04-11-2026/",
-      "fecha": "2026-11-03T22:37:55+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "2d8ab50d353e98c7",
-      "titulo": "Fenalco propone pacto de austeridad fiscal para todo el Estado",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/fenalco-propone-pacto-de-austeridad-fiscal-para-todo-el-estado-505650",
-      "fecha": "2026-11-03T22:36:06+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "01b681c6dbb868e4",
-      "titulo": "Así quedarían los cargos clave del MinInterior con la llegada de Ordóñez; ¿aterriza ficha de Carlos Suárez?",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/cargos-clave-mininterior-llega-cercano-carlos-suarez-AF43137502",
-      "fecha": "2026-11-03T22:35:00+00:00",
       "imagen": ""
     }
   ],
