@@ -535,8 +535,12 @@ async function api(request,env,identity) {
   }
   if(method==="POST"&&path==="/api/radar/refresh"){
     if(request.headers.get("origin")!==ORIGIN)return json({error:"Origen no autorizado."},403);
-    await gh("/repos/"+OWNER+"/"+REPO+"/actions/workflows/radar-rss.yml/dispatches",env,"POST",{ref:MAIN});
-    return json({ok:true,message:"Consulta RSS solicitada. El radar se actualizará cuando termine el ciclo de lectura."});
+    try { await gh("/repos/"+OWNER+"/"+REPO+"/actions/workflows/radar-rss.yml/dispatches",env,"POST",{ref:MAIN}); }
+    catch(error) {
+      if(error instanceof AdminError && error.detail && [403,404].includes(error.detail.githubStatus)) throw new AdminError(403,"GitHub no autorizó iniciar el radar RSS. El secreto GITHUB_TOKEN del Worker debe tener Actions: Read and write y acceso al repositorio noti.",{githubStatus:error.detail.githubStatus,requiredPermission:"Actions: Read and write"});
+      throw error;
+    }
+    return json({ok:true,message:"Ejecución manual del radar iniciada. Los titulares se actualizarán cuando termine el recolector."});
   }
   if(method==="POST"&&path==="/api/headlines"){
     if(request.headers.get("origin")!==ORIGIN)return json({error:"Origen no autorizado."},403);
