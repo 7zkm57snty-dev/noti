@@ -131,16 +131,19 @@ def archivo_fotografia_editorial(url):
 
 
 def copiar_fotografia_editorial(archivo, identificador):
-    """Copia el archivo del repositorio al directorio estático que sirve la web."""
+    """Copia la foto con nombre versionado para invalidar la caché del navegador/CDN."""
     carpeta = SITE / "imagenes"
     carpeta.mkdir(parents=True, exist_ok=True)
     extension = archivo.suffix.lower()
-    nombre = f"{identificador}{extension}"
+    # La URL basada solo en el ID permanecía igual al reemplazar una foto:
+    # el navegador podía conservar el archivo anterior aunque Pages ya estuviera actualizado.
+    digest = hashlib.sha256(archivo.read_bytes()).hexdigest()[:12]
+    nombre = f"{identificador}-{digest}{extension}"
     destino = carpeta / nombre
     shutil.copy2(archivo, destino)
     local = f"/imagenes/{nombre}"
     IMAGENES_PROCESADAS[identificador] = local
-    print(f"Fotografía subida desde el panel copiada directamente al sitio: {nombre}")
+    print(f"Fotografía editorial versionada y copiada al sitio: {nombre}")
     return local
 
 
