@@ -5,6 +5,8 @@ on:
     # Independiente de la cola editorial: se actualiza cada 30 minutos.
     - cron: "15,45 * * * *"
   workflow_dispatch:
+  repository_dispatch:
+    types: [cev-radar-refresh]
   push:
     branches: [main]
     paths:
