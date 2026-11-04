@@ -1,5 +1,5 @@
 {
-  "ultima_actualizacion": "2026-11-04T22:28:07.141567+00:00",
+  "ultima_actualizacion": "2026-11-04T23:25:13.705125+00:00",
   "titulares_rss": [
     {
       "id": "988cbf8bbfc246cc",
@@ -7,7 +7,151 @@
       "categoria": "Internacional",
       "fuente": "BBC Mundo",
       "url": "https://www.bbc.co.uk/mundo/live/cq9vz4g97xy2t?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-04T22:28:07.141567+00:00",
+      "fecha": "2026-11-04T23:25:13.705125+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "992c813e17b10f27",
+      "titulo": "Ingenio Providencia cumple 100 años y planea duplicar su generación de energía eléctrica",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/empresas/ingenio-providencia-cumple-100-anos-y-planea-duplicar-su-generacion-de-energia-electrica-4517802",
+      "fecha": "2026-11-04T23:17:06+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "d0a776d701e5c91d",
+      "titulo": "Así era el millonario negocio del oro ilegal del que se lucraban las disidencias en Tolima: destruyeron 12 excavadoras utilizadas en la extracción",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/asi-era-el-millonario-negocio-del-oro-ilegal-del-que-se-lucran-las-disidencias-en-tolima-destruyeron-12-excavadoras-utilizadas-en-la-extraccion-3598530",
+      "fecha": "2026-11-04T23:13:34+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "21779fb3da85cf64",
+      "titulo": "‘IA y expansión nacional para atender mejor a los clientes de Santiago Vélez Corredores de Seguros’",
+      "categoria": "Economía",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/finanzas/ia-y-expansion-nacional-para-atender-mejor-a-los-clientes-de-santiago-velez-corredores-de-seguros-505735",
+      "fecha": "2026-11-04T23:10:29+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "205407a51d52b290",
+      "titulo": "Las ‘midterms’ 2026, en vivo | Trump admite que la guerra en Irán influyó en la derrota, pero que “lo haría de nuevo”",
+      "categoria": "Internacional",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/us/2026-11-04/las-midterms-2026-en-vivo.html",
+      "fecha": "2026-11-04T23:08:37+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "bbf245e15cba9228",
+      "titulo": "La fusión de Minciencias pone en juego la autonomía de la ciencia en Colombia",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/red-de-expertos/red-de-ciencia-e-innovacion/la-fusion-de-minciencias-pone-en-juego-la-autonomia-de-la-ciencia-en-colombia/",
+      "fecha": "2026-11-04T23:06:35+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "36ed021d2302fbe3",
+      "titulo": "Rosario Heins regresa a Barranquilla por sus 50 años de carrera: trae una exposición que recorre la evolución de su mirada entre el Caribe y Francia",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/barranquilla/rosario-heins-regresa-a-barranquilla-por-sus-50-anos-de-carrera-trae-una-exposicion-que-recorre-la-evolucion-de-su-mirada-entre-el-caribe-y-francia-3598504",
+      "fecha": "2026-11-04T23:01:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "0f3186e74b2e784d",
+      "titulo": "Avión privado se salió de la pista al aterrizar en el Aeropuerto Ernesto Cortissoz de Barranquilla: Aerocivil confirmó que fue retirado",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/barranquilla/avion-privado-se-salio-de-la-pista-al-aterrizar-en-el-aeropuerto-ernesto-cortissoz-de-barranquilla-aerocivil-confirmo-que-fue-retirado-3598527",
+      "fecha": "2026-11-04T22:59:48+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "6402ba3d0215ff09",
+      "titulo": "Tencent acaba de lanzar una nueva IA. Lo interesante no es solo lo que sabe hacer, sino lo que ha decidido no enseñarle",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/robotica-e-ia/tencent-acaba-lanzar-nueva-ia-interesante-no-solo-que-sabe-hacer-sino-que-ha-decidido-no-ensenarle",
+      "fecha": "2026-11-04T22:55:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "405b53f61a96cd17",
+      "titulo": "Ataque terrorista con explosivos en una volqueta deja dos mujeres heridas en el Cauca: un hombre de 20 años murió por el atentado en Patía",
+      "categoria": "Cali",
+      "fuente": "El Tiempo Cali",
+      "url": "https://www.eltiempo.com/colombia/cali/ataque-terrorista-con-explosivos-en-una-volqueta-deja-al-menos-tres-heridos-en-el-cauca-una-persona-habria-muerto-por-el-atentado-en-patia-3598411",
+      "fecha": "2026-11-04T22:50:05+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "4f5defc64de3d7fa",
+      "titulo": "Cada mes desaparecen 14 mujeres en Cali: ¿por qué este es un flagelo que no da tregua en la capital del Valle del Cauca?",
+      "categoria": "Cali",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/cali/cada-mes-desaparecen-14-mujeres-en-cali-por-que-este-es-un-flagelo-que-no-da-tregua-en-la-capital-del-valle-del-cauca-3598524",
+      "fecha": "2026-11-04T22:43:58+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "1845b37d3e28644a",
+      "titulo": "Vance atribuye la derrota republicana a la guerra contra Irán",
+      "categoria": "Internacional",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/vance-atribuye-la-derrota-republicana-a-la-guerra-contra-irán/a-79857934?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-04T22:43:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "a73b961f3b0741d0",
+      "titulo": "Zelenski llega a España por sorpresa en el marco de la XXX Cumbre Iberoamericana",
+      "categoria": "Internacional",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/zelenski-llega-a-españa-por-sorpresa-en-el-marco-de-la-xxx-cumbre-iberoamericana/a-79859596?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-04T22:40:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "58502ed0de29008a",
+      "titulo": "Florida, un bastión republicano donde las victorias esta vez no se celebran",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/us/2026-11-04/florida-un-bastion-republicano-donde-las-victorias-esta-vez-no-se-celebran.html",
+      "fecha": "2026-11-04T22:38:59+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "102c35960f32ea30",
+      "titulo": "Emanuel Otálvaro avanzó a semifinales de tenis de mesa en los Juegos Olímpicos de la Juventud",
+      "categoria": "Deportes",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/ocio/emanuel-otalvaro-avanzo-a-semifinales-de-tenis-de-mesa-en-los-juegos-olimpicos-de-la-juventud-4517835",
+      "fecha": "2026-11-04T22:30:06+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "e1e4e1621d8481eb",
+      "titulo": "El 60% de los empresarios en Colombia considera que puede mantener su negocio sin incentivos tributarios",
+      "categoria": "Colombia",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/el-60-de-los-empresarios-en-colombia-considera-que-puede-mantener-su-negocio-sin-incentivos-tributarios-estudio-505702",
+      "fecha": "2026-11-04T22:29:06+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "bce4d71f11887f3e",
+      "titulo": "Deuda de Colombia podría llegar al 82% del PIB en 2030 si el ajuste fiscal se concentra en recortar gastos",
+      "categoria": "Colombia",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/deuda-de-colombia-podria-llegar-al-82-del-pib-en-2030-si-el-ajuste-fiscal-se-concentra-en-recortar-gastos-anif-505707",
+      "fecha": "2026-11-04T22:27:16+00:00",
       "imagen": ""
     },
     {
@@ -47,15 +191,6 @@
       "imagen": ""
     },
     {
-      "id": "205407a51d52b290",
-      "titulo": "Las ‘midterms’ 2026, en vivo | Trump admite que la guerra en Irán influyó en la derrota, pero que “lo haría de nuevo”",
-      "categoria": "Internacional",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/us/2026-11-04/las-midterms-2026-en-vivo.html",
-      "fecha": "2026-11-04T22:10:10+00:00",
-      "imagen": ""
-    },
-    {
       "id": "3b455f2de7d9027f",
       "titulo": "¡Peajes en el Eje Cafetero a 700 pesos! Ya empezó a operar el descuento y así funcionará",
       "categoria": "Colombia",
@@ -74,15 +209,6 @@
       "imagen": ""
     },
     {
-      "id": "bf1d999d4c4555ff",
-      "titulo": "¡Atención! Buscan a dos menores y un adulto que habrían sido arrastrados por un arroyo en Soledad durante el aguacero de este miércoles",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/barranquilla/atencion-buscan-a-dos-menores-y-un-adulto-que-habrian-sido-arrastrados-por-un-arroyo-en-soledad-durante-el-aguacero-de-este-miercoles-3598480",
-      "fecha": "2026-11-04T22:03:05+00:00",
-      "imagen": ""
-    },
-    {
       "id": "7becd0fb2862a643",
       "titulo": "Gobernación de Antioquia le entregó 36 drones de última tecnología al Ejército Nacional y la Policía: se invirtieron más de $7.000 millones",
       "categoria": "Tecnología",
@@ -92,75 +218,12 @@
       "imagen": ""
     },
     {
-      "id": "c03f68db7935ed16",
-      "titulo": "Victoria demócrata en Estados Unidos no asusta a los mercados",
-      "categoria": "Economía",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/empresario/elecciones-de-medio-termino-de-estados-unidos-impacto-en-mercados/",
-      "fecha": "2026-11-04T22:02:53+00:00",
-      "imagen": ""
-    },
-    {
       "id": "1007286711f863b1",
       "titulo": "Profesores de universidades públicas pagarían más impuestos con la reforma tributaria",
       "categoria": "Colombia",
       "fuente": "El Diario — Pereira",
       "url": "https://www.eldiario.com.co/noticias/profesores-de-universidades-publicas-pagarian-mas-impuestos-con-la-reforma-tributaria/",
       "fecha": "2026-11-04T22:00:18+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "d4921ce4c9e68ee8",
-      "titulo": "Descenso en Colombia: Jaguares y Cúcuta, al límite",
-      "categoria": "Colombia",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/deportes/descenso-en-colombia-jaguares-y-cucuta-al-limite/",
-      "fecha": "2026-11-04T22:00:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "98869d107d1c1421",
-      "titulo": "James Rodríguez recibió muchas patadas, dice Lucas",
-      "categoria": "Colombia",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/deportes/james-rodriguez-recibio-muchas-patadas-lucas/",
-      "fecha": "2026-11-04T22:00:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "083dccf901599940",
-      "titulo": "Millonarios vs América: duelo clave en El Campín",
-      "categoria": "Colombia",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/deportes/millonarios-vs-america-duelo-clave-en-el-campin/",
-      "fecha": "2026-11-04T22:00:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "4787e506a55115a1",
-      "titulo": "Jaguares cayó ante Pasto y quedó al límite",
-      "categoria": "Colombia",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/deportes/jaguares-cayo-ante-pasto-y-quedo-al-limite/",
-      "fecha": "2026-11-04T22:00:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "d4e2004ac6e69bf7",
-      "titulo": "Cuadrangulares del Torneo BetPlay: así quedaron los grupos",
-      "categoria": "Colombia",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/deportes/cuadrangulares-torneo-betplay-grupos-fecha-2/",
-      "fecha": "2026-11-04T22:00:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "0cb5683312877619",
-      "titulo": "Crece la fila por los avales de Defensores de la Patria",
-      "categoria": "Colombia",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/politica/graffiti/defensores-de-la-patria-fusion-salvacion-nacional-elecciones-2027/",
-      "fecha": "2026-11-04T21:59:42+00:00",
       "imagen": ""
     },
     {
@@ -179,15 +242,6 @@
       "fuente": "La FM Actualidad",
       "url": "https://www.lafm.com.co/actualidad/el-dorado-aerocivil-vuelos-aeropuerto-bogota-rionegro-radar-416144",
       "fecha": "2026-11-04T21:57:52+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "7657af12b680df23",
-      "titulo": "Nuevos detalles del linchamiento de hombre que intentó entrar a habitación de hotel en Medellín con dos niñas: un sujeto fue imputado por el homicidio",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/medellin/nuevos-detalles-del-linchamiento-de-hombre-que-intento-entrar-a-habitacion-de-hotel-en-medellin-con-dos-ninas-un-sujeto-fue-imputado-por-el-homicidio-3598477",
-      "fecha": "2026-11-04T21:57:01+00:00",
       "imagen": ""
     },
     {
@@ -215,6 +269,15 @@
       "fuente": "La República",
       "url": "https://www.larepublica.co/globoeconomia/hong-kong-entregara-a-las-agencias-tributarias-los-datos-de-los-usuarios-cripto-4517787",
       "fecha": "2026-11-04T21:51:47+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "c50c58bc4df428db",
+      "titulo": "Victoria demócrata en el Congreso de EE.UU.: ¿qué leyes podrá frenar la nueva mayoría en el Capitolio?",
+      "categoria": "Internacional",
+      "fuente": "La FM Internacional",
+      "url": "https://www.lafm.com.co/internacional/victoria-democrata-en-estados-unidos-que-leyes-podrian-frenar-en-el-capitolio-416143",
+      "fecha": "2026-11-04T21:50:22+00:00",
       "imagen": ""
     },
     {
@@ -260,6 +323,15 @@
       "fuente": "90 Minutos",
       "url": "https://90minutos.co/cali/mi-casa-bella-en-cali-mejoramiento-de-viviendas-04-11-2026/",
       "fecha": "2026-11-04T21:40:40+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "e335a76a797f9978",
+      "titulo": "Exploración petrolera en Colombia cayó 60,9% en diez años: Campetrol respalda traer gas de Venezuela",
+      "categoria": "Internacional",
+      "fuente": "La FM Economía",
+      "url": "https://www.lafm.com.co/economia/campetrol-respalda-traer-gas-de-venezuela-por-reduccion-de-la-exploracion-en-colombia-416141",
+      "fecha": "2026-11-04T21:35:29+00:00",
       "imagen": ""
     },
     {
@@ -468,78 +540,6 @@
       "url": "https://www.larepublica.co/ocio/folks-creo-cerca-de-400-planos-de-efectos-visuales-para-pelicula-de-terror-rodada-en-colombia-4517710",
       "fecha": "2026-11-04T20:45:50+00:00",
       "imagen": ""
-    },
-    {
-      "id": "f5a183dc65145cb1",
-      "titulo": "JEP advierte que recortes de presupuesto pueden causar impunidad",
-      "categoria": "Valle del Cauca",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/colombia/jep-advierte-recortes-presupuesto-pueden-causar-impunidad-4-11-2026/",
-      "fecha": "2026-11-04T20:45:08+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "1986ae87cd98ffb3",
-      "titulo": "El giro demócrata del voto latino castiga a Trump en EE.UU.",
-      "categoria": "Internacional",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/el-giro-demócrata-del-voto-latino-castiga-a-trump-en-ee-uu/a-79858970?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-04T20:45:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "b85de7470150b8a9",
-      "titulo": "¿Quiénes son los mejores arqueros en la historia de la Selección Colombia?",
-      "categoria": "Deportes",
-      "fuente": "La FM Deportes",
-      "url": "https://www.lafm.com.co/deportes/retiro-david-ospina-esta-entre-los-mejores-de-la-historia-de-la-seleccion-416133",
-      "fecha": "2026-11-04T20:44:05+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "01a63d38ebc390bc",
-      "titulo": "A 135 años, nuestra historia nos honra y nos compromete",
-      "categoria": "Colombia",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/opinion/columnistas/a-135-anos-nuestra-historia-nos-honra-y-nos-compromete/",
-      "fecha": "2026-11-04T20:41:37+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "a601dabd309eb5f5",
-      "titulo": "La nueva identificación para bicicletas y patinetas eléctricas: a quiénes aplica y a partir de cuándo",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/america-colombia/2026-11-04/la-nueva-identificacion-para-bicicletas-y-patinetas-electricas-a-quienes-aplica-y-a-partir-de-cuando.html",
-      "fecha": "2026-11-04T20:39:26+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "88dfc61d4fc745d7",
-      "titulo": "Nuevas cárceles en Colombia se financiarían con la venta de bienes improductivos del Estado",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/nuevas-carceles-colombia-financiacion-venta-activos-improductivos-nacion-ivan-cancino-AO43185522",
-      "fecha": "2026-11-04T20:38:37+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "4e84f42055ca7191",
-      "titulo": "El choque entre el presidente de la JEP y el ministro de Justicia por nueva Ley de Sometimiento, ¿qué se dijeron?",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/ley-de-sometimiento-diferencias-entre-ivan-cancino-y-presidente-jep-PO43182184",
-      "fecha": "2026-11-04T20:34:54+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "e797477595012a79",
-      "titulo": "'La adicción de Gustavo Petro a la deuda tiene al borde del colapso nuestra economía': Ministro de Hacienda",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/finanzas/la-adiccion-de-gustavo-petro-a-la-deuda-tiene-al-borde-del-colapso-nuestra-economia-ministro-de-hacienda-505717",
-      "fecha": "2026-11-04T20:33:30+00:00",
-      "imagen": ""
     }
   ],
   "estado_fuentes": [
@@ -553,7 +553,7 @@
       "nombre": "El Tiempo Cali",
       "url": "https://www.eltiempo.com/rss/colombia_cali.xml",
       "estado": "correcto",
-      "titulares": 9
+      "titulares": 7
     },
     {
       "nombre": "El Espectador",
