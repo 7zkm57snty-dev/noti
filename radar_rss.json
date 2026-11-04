@@ -1,5 +1,5 @@
 {
-  "ultima_actualizacion": "2026-11-04T02:10:18.399077+00:00",
+  "ultima_actualizacion": "2026-11-04T02:34:51.349453+00:00",
   "titulares_rss": [
     {
       "id": "988cbf8bbfc246cc",
@@ -7,16 +7,34 @@
       "categoria": "Internacional",
       "fuente": "BBC Mundo",
       "url": "https://www.bbc.co.uk/mundo/live/cq9vz4g97xy2t?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-04T02:10:18.399077+00:00",
+      "fecha": "2026-11-04T02:34:51.349453+00:00",
       "imagen": ""
     },
     {
       "id": "8a5e3d78f9aa5a3e",
-      "titulo": "Las ‘midterms’ 2026, en vivo | Los demócratas logran tres escaños clave en el Senado; los republicanos mantienen Florida",
-      "categoria": "Colombia",
+      "titulo": "Las ‘midterms’ 2026, en vivo | Los primeros triunfos demócratas allanan el camino para arrebatar el Senado a Trump",
+      "categoria": "Internacional",
       "fuente": "El País Colombia",
       "url": "https://elpais.com/us/2026-11-03/las-midterms-2026-en-vivo.html",
-      "fecha": "2026-11-04T02:06:54+00:00",
+      "fecha": "2026-11-04T02:31:02+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "ef3d26518131c070",
+      "titulo": "David Ospina se retira del fútbol profesional: así lo anunció",
+      "categoria": "Deportes",
+      "fuente": "La FM Deportes",
+      "url": "https://www.lafm.com.co/deportes/david-ospina-se-retira-del-futbol-profesional-416057",
+      "fecha": "2026-11-04T02:26:26+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "df20a4a98357ee05",
+      "titulo": "'¿Dónde está la plata?': el fuerte choque entre ministro de Agricultura y presidente de Fedegán",
+      "categoria": "Colombia",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/gobierno/donde-esta-la-plata-el-fuerte-choque-entre-ministro-de-agricultura-y-presidente-de-fedegan-505666",
+      "fecha": "2026-11-04T02:21:38+00:00",
       "imagen": ""
     },
     {
@@ -26,6 +44,15 @@
       "fuente": "La República",
       "url": "https://www.larepublica.co/globoeconomia/los-futuros-de-las-acciones-estadounidenses-caen-mientras-los-democratas-ganan-impulso-inicial-en-las-elecciones-4517179",
       "fecha": "2026-11-04T01:48:52+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "33cfa2c31082f524",
+      "titulo": "Gabriela Huertas se despide de Santa Fe con un tercer lugar en la Copa Libertadores Femenina",
+      "categoria": "Deportes",
+      "fuente": "La FM Deportes",
+      "url": "https://www.lafm.com.co/deportes/santa-fe-femenino-gabriela-huertas-no-renovara-con-el-club-bogotano-416054",
+      "fecha": "2026-11-04T01:48:24+00:00",
       "imagen": ""
     },
     {
@@ -513,33 +540,6 @@
       "url": "https://www.elcolombiano.com/colombia/cargos-clave-mininterior-llega-cercano-carlos-suarez-AF43137502",
       "fecha": "2026-11-03T22:35:00+00:00",
       "imagen": ""
-    },
-    {
-      "id": "e305f8fb442e1f1e",
-      "titulo": "Gobierno Petro creó un consulado en Tijuana que nunca abrió y dejó una deuda de arriendo: esta es la historia",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/consulado-colombia-tijuana-gobierno-petro-nunca-abrio-deuda-arriendo-KC43143090",
-      "fecha": "2026-11-03T22:28:39+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "c3132af7a4547d06",
-      "titulo": "“No podemos entregar hojas de vida al Gobierno”: el regaño de Uribe a su bancada",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/uribe-hojas-de-vida-gobierno-centro-democratico-mateo-hidalgo-IH43118725",
-      "fecha": "2026-11-03T22:23:55+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "cca7cdb6d7e84a06",
-      "titulo": "Aprenda a hacer contenidos que le interesen a su audiencia con La Silla",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/en-vivo/aprenda-a-hacer-contenidos-que-le-interesen-a-su-audiencia-con-la-silla/",
-      "fecha": "2026-11-03T22:22:03+00:00",
-      "imagen": ""
     }
   ],
   "estado_fuentes": [
@@ -620,7 +620,7 @@
       "nombre": "La FM Deportes",
       "url": "https://www.lafm.com.co/rss/deportes.xml",
       "estado": "correcto",
-      "titulares": 16
+      "titulares": 18
     },
     {
       "nombre": "La FM Economía",
@@ -655,8 +655,9 @@
     {
       "nombre": "El Diario — Pereira",
       "url": "https://www.eldiario.com.co/feed/",
-      "estado": "correcto",
-      "titulares": 35
+      "estado": "error",
+      "titulares": 0,
+      "detalle": "El feed no contiene entradas."
     },
     {
       "nombre": "Chocó 7 días",
