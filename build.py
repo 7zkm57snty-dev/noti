@@ -2033,7 +2033,7 @@ def validar_archivos_publicados(noticias):
     faltantes = []
     esperados = [SITE / "index.html"]
     esperados.extend(SITE / nombre for nombre in ("quienes-somos.html", "redaccion.html", "contacto.html", "politica-de-privacidad.html", "politica-editorial.html", "correcciones.html"))
-    esperados.extend([SITE / "sitemap.xml", SITE / "robots.txt", SITE / "cookies.js"])
+    esperados.extend([SITE / "sitemap.xml", SITE / "robots.txt", SITE / "cookies.js", SITE / "google881f069782e14b80.html"])
     esperados.extend(NOTAS / f"{noticia['id']}.html" for noticia in noticias)
     esperados.extend(SITE / "secciones" / f"{slug(seccion)}.html" for seccion in SECCIONES)
     esperados.extend(
@@ -2325,6 +2325,10 @@ def construir():
     if not recurso_cookies.is_file():
         raise RuntimeError("No se encontró cookies.js; no se puede publicar el gestor de consentimiento.")
     shutil.copy2(recurso_cookies, SITE / "cookies.js")
+    archivo_verificacion_google = BASE / "google881f069782e14b80.html"
+    if not archivo_verificacion_google.is_file():
+        raise RuntimeError("No se encontró el archivo de verificación de Google Search Console.")
+    shutil.copy2(archivo_verificacion_google, SITE / archivo_verificacion_google.name)
     paginas_institucionales = ["quienes-somos.html", "redaccion.html", "contacto.html", "politica-de-privacidad.html", "politica-editorial.html", "correcciones.html"]
     urls = (["https://cevnoticias.com/"]
             + [f"https://cevnoticias.com/notas/{n['id']}.html" for n in validas]
