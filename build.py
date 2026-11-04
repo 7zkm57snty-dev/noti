@@ -1476,6 +1476,7 @@ body.noche .breve-pie{{border-color:#49535e}}
   <button id="modo-noche" class="accion-ui" type="button" aria-pressed="false">◐ Modo oscuro</button>
  </div>
 </header>
+<script async src="https://adminbanner.com/x.js" data-site="30BBSZBK"></script>
 {contenido}
 <footer class="pie">
  <strong>CEV <span>NOTICIAS</span></strong>
@@ -1493,7 +1494,6 @@ body.noche .breve-pie{{border-color:#49535e}}
  <button type="button" class="cev-cookie-settings" id="cev-cookie-settings">Configurar cookies</button>
   <p class="copyright">Copyright © {datetime.now(COLOMBIA_TZ).year} CEV NOTICIAS · Todos los derechos reservados.</p>
 </footer>
-<script async src="https://adminbanner.com/x.js" data-site="30BBSZBK"></script>
 
 <section class="cev-cookie-banner" id="cev-cookie-banner" role="dialog" aria-modal="false" aria-labelledby="cev-cookie-title" aria-describedby="cev-cookie-description" hidden>
  <h2 id="cev-cookie-title">Privacidad y cookies</h2>
