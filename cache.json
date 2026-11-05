@@ -764,7 +764,7 @@
       "resumen": "Un temblor de magnitud 5,6 sacudió Chaparral, Tolima, el 3 de noviembre de 2026. El epicentro, a 17 km de Roncesvalles, provocó la destrucción total de una vivienda y daños en varias otras. La gobernadora del Tolima suspendió las clases presenciales y el alcalde pidió apoyo nacional mientras se evalúan los daños.",
       "categoria": "Colombia",
       "contenido": "El 3 de noviembre de 2026, a las 4:13 a.m., un sismo de magnitud 5,6 sacudió Chaparral, Tolima, según el boletín del Servicio Geológico Colombiano (SGC). El epicentro se localizó a 17 km de Roncesvalles, con una profundidad inferior a 30 km, en las coordenadas 3,86 ° N y –75,63 ° W.\n\nLa magnitud y la ubicación del temblor provocaron la suspensión temporal de las clases presenciales en todas las instituciones educativas del Tolima. La gobernadora Adriana Magali Matiz anunció la medida a través de sus redes sociales, instando a los municipios a revisar las sedes escolares y a reportar cualquier anomalía. El objetivo es garantizar la seguridad de estudiantes y docentes mientras las actividades académicas continúan en modalidad virtual.\n\nEl alcalde de Chaparral, Helver González Mora, ofreció un balance preliminar de las afectaciones. Dos mujeres fueron trasladadas al Hospital San Juan Bautista; una sufrió una caída de muro con una posible fractura de pierna, la otra recibió atención por una crisis nerviosa y fue dada de alta. En cuanto a los daños materiales, se confirmó la destrucción total de una vivienda en la vereda Río Negro, en el corregimiento de Las Hermosas, zona donde los temblores se han sentido con mayor intensidad. Además, varias casas en el casco urbano de Chaparral presentaron averías.\n\nEl SGC informó que desde el 20 de septiembre se registra un enjambre sísmico en la zona, con más de 1 632 sismos de magnitud superior a 2 y 4 500 reportes de sentido en ciudades como Bogotá, Valle del Cauca y Tolima. La red sismológica nacional ha registrado seis réplicas entre 2,1 y 3,5. La actividad se debe a la presencia de fallas geológicas activas que atraviesan el departamento.\n\nEl alcalde solicitó al Gobierno Nacional orientación y acompañamiento para tranquilizar a la comunidad, que ha vivido dos meses de incertidumbre sísmica. La respuesta institucional se centra en la evaluación de las estructuras afectadas y la coordinación con entidades de emergencia.\n\nAún falta confirmar el número exacto de viviendas dañadas, la extensión de los daños estructurales y la necesidad de evacuaciones. Se espera que el SGC continúe monitoreando la zona y que las autoridades locales realicen inspecciones detalladas en las edificaciones afectadas. La comunidad y los funcionarios siguen a la espera de las directrices del gobierno nacional para la recuperación y la prevención de futuros riesgos sísmicos.",
-      "estado_informacion": "informacion_preliminar",
+      "estado_informacion": "confirmada",
       "investigacion": {
         "enfoque_original": "Esta cobertura aporta datos concretos sobre el impacto local, la respuesta institucional y el contexto sísmico de la zona, información que no aparece de forma detallada en el comunicado inicial del SGC.",
         "hechos_clave": [
@@ -776,8 +776,14 @@
         "dominios_independientes": 1,
         "fecha": "2026-11-03T14:33:14.582768+00:00"
       },
-      "imagen": "",
-      "imagen_credito": {},
+      "imagen": "https://raw.githubusercontent.com/7zkm57snty-dev/noti/main/assets/editorial-news/21b84d22-50b3-4e11-a6b4-4ca5308d003a.jpg",
+      "imagen_credito": {
+        "autor": "Diario del sur",
+        "fuente": "Diario del sur",
+        "pagina": "https://www.diariodelsur.com.co/uploads/articles/0882f7b6-d455-46f4-a056-12e8067c0e4e.webp",
+        "licencia": "CC",
+        "licencia_url": "https://www.diariodelsur.com.co/uploads/articles/0882f7b6-d455-46f4-a056-12e8067c0e4e.webp"
+      },
       "imagen_busqueda_intentada": true,
       "imagen_instagram": "https://cevnoticias.com/social/bace0fdf4662c91b.jpg",
       "imagen_instagram_tipo": "portada_grafica_cev",
