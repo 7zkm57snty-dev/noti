@@ -1,5 +1,5 @@
 {
-  "ultima_actualizacion": "2026-11-05T09:39:05.609855+00:00",
+  "ultima_actualizacion": "2026-11-05T10:41:02.225464+00:00",
   "titulares_rss": [
     {
       "id": "988cbf8bbfc246cc",
@@ -7,7 +7,70 @@
       "categoria": "Internacional",
       "fuente": "BBC Mundo",
       "url": "https://www.bbc.co.uk/mundo/live/cq9vz4g97xy2t?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-05T09:39:05.609855+00:00",
+      "fecha": "2026-11-05T10:41:02.225464+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "0a7c67d66a4e55c5",
+      "titulo": "Once vuelos reciben amenazas de bomba en Europa",
+      "categoria": "Internacional",
+      "fuente": "La FM Internacional",
+      "url": "https://www.lafm.com.co/internacional/once-vuelos-reciben-amenazas-de-bomba-en-europa-416188",
+      "fecha": "2026-11-05T10:31:25+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "d8ba32c0dcc6000b",
+      "titulo": "El telescopio Swift ya es historia: se ha desintegrado sobre Sumatra tras 22 años en órbita",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/espacio/telescopio-swift-historia-se-ha-desintegrado-sumatra-22-anos-orbita",
+      "fecha": "2026-11-05T10:30:31+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "2fca97edd15c063b",
+      "titulo": "Descartan ébola en cuatro pacientes bajo vigilancia en Colombia",
+      "categoria": "Colombia",
+      "fuente": "La FM Actualidad",
+      "url": "https://www.lafm.com.co/actualidad/descartan-ebola-en-cuatro-pacientes-bajo-vigilancia-en-colombia-416187",
+      "fecha": "2026-11-05T10:23:26+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "7a13e7ec52939acf",
+      "titulo": "32 GB de RAM DDR5, RTX 5070 y pantalla OLED: así es este portátil rebajado de MediaMarkt que se adelanta al Black Friday",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/seleccion/32-gb-ram-ddr5-rtx-5070-pantalla-oled-asi-este-portatil-rebajado-mediamarkt-que-se-adelanta-al-black-friday",
+      "fecha": "2026-11-05T10:16:32+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "5ad8f7940574bd63",
+      "titulo": "En 2021, unos científicos tuvieron la idea absurda de enseñar a las vacas a ir al baño. 10 días después no daban crédito a lo que veían",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/ecologia-y-naturaleza/2021-unos-cientificos-tuvieron-idea-absurda-ensenar-a-vacas-a-ir-al-bano-10-dias-despues-no-daban-credito-a-que-veian",
+      "fecha": "2026-11-05T10:00:34+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "da5fd058b48d5722",
+      "titulo": "Ballenas piloto varadas en Nueva Zelanda: voluntarios intentan rescatar a las cuatro que siguen vivas",
+      "categoria": "Internacional",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/ballenas-piloto-varadas-en-nueva-zelanda-voluntarios-intentan-rescatar-a-las-cuatro-que-siguen-vivas/a-79861760?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-05T09:48:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "abc5ebc10477556e",
+      "titulo": "Los mejores chollos en Amazon hoy, 5 de noviembre: descuentos de más del 60%",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/seleccion/mejores-chollos-amazon-hoy-5-noviembre-descuentos-60",
+      "fecha": "2026-11-05T09:45:00+00:00",
       "imagen": ""
     },
     {
@@ -17,6 +80,105 @@
       "fuente": "Xataka",
       "url": "https://www.xataka.com/internet-y-television/hoy-cambia-tdt-como-resintonizar-tu-televisor-para-ver-nuevos-canales-uhd-septima",
       "fecha": "2026-11-05T09:30:34+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "168cb8b8bbea1580",
+      "titulo": "10 billones de pesos en 90 días: la promesa incumplida de De la Espriella para rescatar el sistema de salud",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/america-colombia/2026-11-05/10-billones-de-pesos-en-90-dias-la-promesa-incumplida-de-de-la-espriella-para-rescatar-el-sistema-de-salud.html",
+      "fecha": "2026-11-05T09:30:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "49782daa0bf716fa",
+      "titulo": "Bombardeos, extradiciones y ciudades militarizadas marcan los primeros 90 días de De la Espriella en seguridad",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/america-colombia/2026-11-05/bombardeos-extradiciones-y-ciudades-militarizadas-marcan-los-primeros-90-dias-de-de-la-espriella-en-seguridad.html",
+      "fecha": "2026-11-05T09:30:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "62a28d283203a8b4",
+      "titulo": "Voltaje: el espacio en Bogotá donde el arte encuentra a la inteligencia artificial",
+      "categoria": "Tecnología",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/america-colombia/2026-11-05/voltaje-el-espacio-en-bogota-donde-el-arte-encuentra-a-la-inteligencia-artificial.html",
+      "fecha": "2026-11-05T09:30:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "cf69f47f655f4aa4",
+      "titulo": "¿Impulsar la economía? ¿Investigar la corrupción? ¿Todo junto? El nuevo Congreso demócrata en Estados Unidos decide sus primeros pasos",
+      "categoria": "Economía",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/us/2026-11-05/impulsar-la-economia-investigar-la-corrupcion-todo-junto-el-nuevo-congreso-democrata-en-estados-unidos-decide-sus-primeros-pasos.html",
+      "fecha": "2026-11-05T09:30:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "85fda1280839ba03",
+      "titulo": "Vivir con VIH y luchar por derechos: una nueva generación de activistas en América Latina",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/america-futura/2026-11-05/vivir-con-vih-y-luchar-por-derechos-una-nueva-generacion-de-activistas-en-america-latina.html",
+      "fecha": "2026-11-05T09:30:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "571d4982687c1205",
+      "titulo": "Los latinos castigan a Trump y lideran el giro hacia el Partido Demócrata en las ‘midterms’",
+      "categoria": "Internacional",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/us/2026-11-05/los-latinos-castigan-a-trump-y-lideran-el-giro-hacia-el-partido-democrata-en-las-midterms.html",
+      "fecha": "2026-11-05T09:30:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "b2d83b55780b6276",
+      "titulo": "Hakeem Jeffries, el demócrata prudente rumbo a convertirse en el primer ‘speaker’ negro de la Cámara de Representantes",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/us/2026-11-05/hakeem-jeffries-el-democrata-prudente-rumbo-a-convertirse-en-el-primer-speaker-negro-de-la-camara-de-representantes.html",
+      "fecha": "2026-11-05T09:30:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "0d926269bc8f6a64",
+      "titulo": "La caída del banco Ueno en Paraguay pone contra las cuerdas al Gobierno",
+      "categoria": "Economía",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/america/2026-11-05/la-caida-del-banco-ueno-en-paraguay-pone-contra-las-cuerdas-al-gobierno.html",
+      "fecha": "2026-11-05T09:30:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "babfdebd4743f1f6",
+      "titulo": "Conflictos entre Colombia y Venezuela",
+      "categoria": "Internacional",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/america-colombia/2026-11-05/conflictos-entre-colombia-y-venezuela.html",
+      "fecha": "2026-11-05T09:30:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "8108e25222cce7fd",
+      "titulo": "Casavalle, el barrio vulnerable en la periferia de Montevideo que espera a León XIV",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/argentina/2026-11-05/casavalle-el-barrio-vulnerable-en-la-periferia-de-montevideo-que-espera-a-leon-xiv.html",
+      "fecha": "2026-11-05T09:30:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "bb32761f3e0fd275",
+      "titulo": "Arranca el Hay Festival en Arequipa en clave global tras la victoria demócrata en Estados Unidos y de Lula en Brasil",
+      "categoria": "Internacional",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/america-colombia/2026-11-05/arranca-el-hay-festival-en-arequipa-en-clave-global-tras-la-victoria-democrata-en-estados-unidos-y-de-lula-en-brasil.html",
+      "fecha": "2026-11-05T09:30:00+00:00",
       "imagen": ""
     },
     {
@@ -200,6 +362,15 @@
       "imagen": ""
     },
     {
+      "id": "4a50d3b651398676",
+      "titulo": "¿A quién rescata la Ley de Rescate?",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/analisis/maria-jose-navarro-4211181/a-quien-rescata-la-ley-de-rescate-4517731",
+      "fecha": "2026-11-05T05:05:18+00:00",
+      "imagen": ""
+    },
+    {
       "id": "4bc7dbfe80b049f2",
       "titulo": "Implicaciones para Colombia del Congreso de mayoría demócrata en EE.UU.",
       "categoria": "Internacional",
@@ -344,15 +515,6 @@
       "imagen": ""
     },
     {
-      "id": "4a50d3b651398676",
-      "titulo": "¿A quién rescata la Ley de Rescate?",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/analisis/maria-jose-navarro-4211181/a-quien-rescata-la-ley-de-rescate-4517731",
-      "fecha": "2026-11-05T05:01:18+00:00",
-      "imagen": ""
-    },
-    {
       "id": "7bcf38dbd939da5b",
       "titulo": "La paradoja del directivo sabelotodo",
       "categoria": "Colombia",
@@ -377,168 +539,6 @@
       "fuente": "La República",
       "url": "https://www.larepublica.co/empresas/entrevista-con-manuel-jose-casanueva-presidente-de-la-junta-directiva-de-gtd-colombia-y-fernando-maturana-ceo-de-gtd-colombia-4517681",
       "fecha": "2026-11-05T05:01:15+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "efd18ba0bd095499",
-      "titulo": "“Se estima que la reactivación petrolera demandará alrededor de los US$10.000 millones”",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/economia/entrevista-con-ernesto-forero-presidente-de-la-agencia-nacional-de-hidrocarburos-4517683",
-      "fecha": "2026-11-05T05:01:09+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "6a1edb6d2148d371",
-      "titulo": "GeoPark está proyectando la sumatoria de otros 20.000 barriles diarios con campo Bare",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/empresas/geopark-proyecta-la-sumatoria-de-otros-20-000-barriles-diarios-con-campo-bare-4517912",
-      "fecha": "2026-11-05T05:01:09+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "9a9ac646ef916536",
-      "titulo": "Changan y Deepal inauguran nueva vitrina de vehículos en Bucaramanga",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/ocio/changan-y-deepal-inauguran-nueva-vitrina-de-vehiculos-en-bucaramanga-4517767",
-      "fecha": "2026-11-05T05:01:08+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "289b3d29c4232376",
-      "titulo": "“Prohibir la vivienda turística no resolverá el problema del alto costo de arriendos en ciudades”",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/empresas/prohibir-la-vivienda-turistica-no-resolvera-problema-de-alto-costo-de-arriendos-4517765",
-      "fecha": "2026-11-05T05:01:08+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "c594eb668ba2cdc4",
-      "titulo": "El gas venezolano es crucial",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/opinion/editorial/el-gas-venezolano-es-crucial-4517685",
-      "fecha": "2026-11-05T05:01:02+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "c5d249de425c3760",
-      "titulo": "El nuevo ritmo de la música",
-      "categoria": "Tendencias",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/analisis/leticia-ossa-daza-3435708/el-nuevo-ritmo-de-la-musica-4517799",
-      "fecha": "2026-11-05T05:01:01+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "2016a7ecfc12b05a",
-      "titulo": "Grupo Cibest, Grupo Sura y Banco de Bogotá tendrán los dividendos más atractivos",
-      "categoria": "Economía",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/finanzas/grupo-cibest-grupo-sura-y-banco-de-bogota-tendran-los-dividendos-mas-atractivos-4517874",
-      "fecha": "2026-11-05T05:01:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "7c8b09d52fbfa362",
-      "titulo": "Los 135 años de la Policía Nacional",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/opinion/los-135-anos-de-la-policia-nacional/",
-      "fecha": "2026-11-05T05:00:59+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "8475d4d6ad90c922",
-      "titulo": "Dos tristes tigres.",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/opinion/dos-tristes-tigres/",
-      "fecha": "2026-11-05T05:00:59+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "a06a28a9426023ad",
-      "titulo": "El Caribe y los Llanos Orientales son las regiones con más recursos en bienio 2027-2028",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/economia/caribe-y-llanos-orientales-las-regiones-con-mas-recursos-en-bienio-2027-2028-4517858",
-      "fecha": "2026-11-05T05:00:58+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "6be86c1ab9a3b09b",
-      "titulo": "LA FERIA DEL LIBRO DE PEREIRA",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/opinion/la-feria-del-libro-de-pereira/",
-      "fecha": "2026-11-05T05:00:54+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "29cc656ea5fdb656",
-      "titulo": "Balacera dejó un muerto y un herido en Altagracia",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/judicial/balacera-dejo-un-muerto-y-un-herido-en-altagracia/",
-      "fecha": "2026-11-05T05:00:42+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "f6c274032441828d",
-      "titulo": "EL SHOW DE LAS AYUDAS",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/opinion/el-show-de-las-ayudas/",
-      "fecha": "2026-11-05T05:00:41+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "8f47310245ed65da",
-      "titulo": "La sociedad del espectáculo. Estampas iconográficas",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/opinion/la-sociedad-del-espectaculo-estampas-iconograficas/",
-      "fecha": "2026-11-05T05:00:31+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "ee40c9eb7314da3e",
-      "titulo": "Patrimonio vivo de los colombianos que construye futuro A 135 años, nuestra historia nos honra y nos compromete.",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/opinion/patrimonio-vivo-de-los-colombianos-que-construye-futuro-a-135-anos-nuestra-historia-nos-honra-y-nos-compromete/",
-      "fecha": "2026-11-05T05:00:31+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "21ac7bf4b5eea586",
-      "titulo": "El liderazgo femenino que transforma a los carabineros en Risaralda",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/punto-final/el-liderazgo-femenino-que-transforma-a-los-carabineros-en-risaralda/",
-      "fecha": "2026-11-05T05:00:27+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "5fb96958814357e6",
-      "titulo": "Está es la agenda para el fin de semana en Pereira",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/actualidad/esta-es-la-agenda-para-el-fin-de-semana-en-pereira/",
-      "fecha": "2026-11-05T05:00:23+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "f3c6ae5854894662",
-      "titulo": "Gobierno nacional prioriza el gas venezolano para el abastecimiento local",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/economia/gobierno-nacional-prioriza-el-gas-venezolano-para-el-abastecimiento-local-4517679",
-      "fecha": "2026-11-05T05:00:18+00:00",
       "imagen": ""
     }
   ],
@@ -596,7 +596,7 @@
       "nombre": "DW Español",
       "url": "https://rss.dw.com/rdf/rss-sp-all",
       "estado": "correcto",
-      "titulares": 20
+      "titulares": 21
     },
     {
       "nombre": "Xataka",
