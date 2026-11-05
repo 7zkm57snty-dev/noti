@@ -1,31 +1,256 @@
 {
-  "ultima_actualizacion": "2026-11-05T21:26:02.438291+00:00",
+  "ultima_actualizacion": "2026-11-05T22:27:43.288975+00:00",
   "titulares_rss": [
     {
       "id": "89dc688081c894aa",
-      "titulo": "Crisis en Paraguay: el Congreso decide si acepta la renuncia del presidente Santiago Peña o sigue con el juicio político",
+      "titulo": "Crisis en Paraguay: confusión en el Congreso sobre la renuncia del presidente Santiago Peña",
       "categoria": "Colombia",
       "fuente": "BBC Mundo",
       "url": "https://www.bbc.co.uk/mundo/live/cmgr8vrv5w55t?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-05T21:26:02.438291+00:00",
+      "fecha": "2026-11-05T22:27:43.288975+00:00",
       "imagen": ""
     },
     {
-      "id": "2b14573addbd2251",
-      "titulo": "Juanes celebra su 25 Aniversario",
+      "id": "c3b3aa6af2702709",
+      "titulo": "Chocó, un día como hoy… 5 de noviembre",
       "categoria": "Colombia",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/secciones/tendencias/juanes-lanza-su-album-25-aniversario-con-grandes-exitos/",
-      "fecha": "2026-11-05T21:25:06+00:00",
+      "fuente": "Chocó 7 días",
+      "url": "https://choco7dias.com/choco-un-dia-como-hoy-5-de-noviembre/",
+      "fecha": "2026-11-05T22:24:43+00:00",
       "imagen": ""
     },
     {
-      "id": "10ee2f4cf3cedc29",
-      "titulo": "¿Por qué algunas personas nos parecen irresistibles por su olor?",
+      "id": "92cb1aad186b1be4",
+      "titulo": "El secretario de Defensa, Pete Hegseth, en el punto de mira de los republicanos por su papel en la guerra de Irán",
+      "categoria": "Internacional",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/us/2026-11-05/el-secretario-de-defensa-pete-hegseth-en-el-punto-de-mira-de-republicanos-por-su-papel-en-la-guerra-de-iran.html",
+      "fecha": "2026-11-05T22:15:29+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "8f9a4b722a1dcbc9",
+      "titulo": "Créditos con buenas tasas: la herramienta de la Superfinanciera para comparar",
+      "categoria": "Economía",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/creditos-con-buenas-tasas-la-herramienta-de-la-superfinanciera-para-comparar-505814",
+      "fecha": "2026-11-05T22:15:07+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "ff136ca8f7fea062",
+      "titulo": "La JEP anuncia recorte del 85 % de sus contratos y cambios en su funcionamiento tras reducción de su presupuesto",
+      "categoria": "Economía",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/gobierno/la-jep-anuncia-recorte-del-85-de-sus-contratos-y-cambios-en-su-funcionamiento-tras-reduccion-de-su-presupuesto-505811",
+      "fecha": "2026-11-05T22:12:15+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "ab0cb644ae611253",
+      "titulo": "Videos | ¿Cómo se vive entre explosiones por drones y ráfagas de fusil en la zona rural de Jamundí, Valle?: de labores del campo a la supervivencia",
       "categoria": "Colombia",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/secciones/tendencias/atraccion-sexual-y-olfato-el-poder-del-olor-corporal/",
-      "fecha": "2026-11-05T21:17:25+00:00",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/cali/videos-como-se-vive-entre-explosiones-por-drones-y-rafagas-de-fusil-en-la-zona-rural-de-jamundi-valle-de-labores-del-campo-a-la-supervivencia-3598833",
+      "fecha": "2026-11-05T22:12:13+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "c99554a580f5df64",
+      "titulo": "Video | Conozca a Samai, el perro de Medellín capaz de desenterrar los secretos más oscuros de los abusadores de menores",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/medellin/video-conozca-a-samai-el-perro-de-medellin-capaz-de-desenterrar-los-secretos-mas-oscuros-de-los-abusadores-de-menores-3598844",
+      "fecha": "2026-11-05T22:07:31+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "f7a9bade6c51bab2",
+      "titulo": "Usuarios, gremios y exministro de Minas exigen cambios a resolución de la CREG que estaría afectando a 758.000 familias de la región Caribe",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/barranquilla/usuarios-gremios-y-exministro-de-minas-exigen-cambios-a-resolucion-de-la-creg-que-estaria-afectando-a-758-000-familias-de-la-region-caribe-3598846",
+      "fecha": "2026-11-05T22:05:44+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "684652034fdf8f7c",
+      "titulo": "“Demostraré mi inocencia”: Velasco tras quedar en libertad por caso Ungrd",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/en-vivo/demostrare-mi-inocencia-velasco-tras-quedar-en-libertad-por-caso-ungrd/",
+      "fecha": "2026-11-05T22:01:21+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "e3d2175b9139abe3",
+      "titulo": "El 46% de los colombianos de 51 a 79 años no superó la primaria; el 60% lo hace de forma virtual",
+      "categoria": "Colombia",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/el-46-de-los-colombianos-de-51-a-79-anos-no-supero-la-primaria-el-60-lo-hace-de-forma-virtual-505791",
+      "fecha": "2026-11-05T22:00:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "e15a450f9712e183",
+      "titulo": "Salario mínimo de 2027 en Colombia: así cambiaría el valor de la hora laboral si el aumento llega al 8%",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/noticias/salario-minimo-de-2027-en-colombia-asi-cambiaria-el-valor-de-la-hora-laboral-si-el-aumento-llega-al-8/",
+      "fecha": "2026-11-05T22:00:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "b8a9592aceb4829c",
+      "titulo": "Vicepresidente José Restrepo denunció connivencia del Gobierno Petro con criminales en Cumbre Iberoamericana de jefes de Estado",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/vicepresidente-jose-restrepo-discurso-contra-gobierno-petro-cumbre-iberoamericana-jefes-de-estado-HE43214704",
+      "fecha": "2026-11-05T21:58:38+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "97d0da731425a5c2",
+      "titulo": "“No se podía sostener. Olía putrefacto”: Vanessa de la Torre asegura que no fue por gripa que Petro canceló un evento de $3.700 millones",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/gripa-gustavo-petro-cancelacion-evento-3-700-millones-polemica-JG43233318",
+      "fecha": "2026-11-05T21:58:16+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "e418e5b5afe87421",
+      "titulo": "Rendimiento de los CDT en noviembre de 2026: ¿cuáles bancos pagan más del 12% E.A. en Colombia?",
+      "categoria": "Economía",
+      "fuente": "La FM Economía",
+      "url": "https://www.lafm.com.co/economia/rendimientos-cdt-noviembre-2026-bancos-mayor-interes-416254",
+      "fecha": "2026-11-05T21:55:37+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "4413cc09eb58a9c4",
+      "titulo": "Grupo Banco Mundial dará garantía de $2,8 billones el crédito de la Línea 1 del Metro",
+      "categoria": "Deportes",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/economia/grupo-banco-mundial-dara-garantia-de-2-8-billones-el-credito-de-la-linea-1-del-metro-4518643",
+      "fecha": "2026-11-05T21:55:18+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "5ed6b69eebef8839",
+      "titulo": "¿Qué pasó con los vuelos durante la falla en el aeropuerto El Dorado de Bogotá?",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/que-paso-vuelos-falla-aeropuerto-dorado-bogota-LG43238021",
+      "fecha": "2026-11-05T21:55:03+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "9ab2aa003353e671",
+      "titulo": "Post de prueba",
+      "categoria": "Colombia",
+      "fuente": "Chocó 7 días",
+      "url": "https://choco7dias.com/post-de-prueba/",
+      "fecha": "2026-11-05T21:51:14+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "97d4a540d0223c80",
+      "titulo": "Grupo Nutresa confirmó cierre del proceso para adquirir el negocio de Presto",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/empresas/grupo-nutresa-confirmo-cierre-del-proceso-para-adquirir-el-negocio-de-presto-4518633",
+      "fecha": "2026-11-05T21:49:35+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "3b1aa820ebe51fb7",
+      "titulo": "Prosperidad Social denuncia que el ciclo de marzo de Colombia Mayor nunca se pagó y pide investigar traslado de $770.095 millones",
+      "categoria": "Colombia",
+      "fuente": "La FM Economía",
+      "url": "https://www.lafm.com.co/economia/prosperidad-social-pide-investigar-traslado-de-dinero-416277",
+      "fecha": "2026-11-05T21:44:05+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "45c40cf6189cb676",
+      "titulo": "Tribunal ordenó la libertad del exministro Luis Fernando Velasco por caso UNGRD",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/exministro-luis-fernando-velasco-en-libertad-tribunal-lo-ordeno-AG43230563",
+      "fecha": "2026-11-05T21:43:37+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "9d3a23d197f01374",
+      "titulo": "En la AIC Insurtech Conference se planteó más participación privada ante catástrofes",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/finanzas/en-la-aic-insurtech-conference-se-planteo-mas-participacion-privada-ante-catastrofes-4517620",
+      "fecha": "2026-11-05T21:39:41+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "86357b27e594a4fa",
+      "titulo": "Iván Sánchez sale de la Adres y Marcela Brun entra como nueva directora encargada",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/economia/ivan-sanchez-sale-de-la-adres-y-marcela-brun-entra-como-nueva-directora-encargada-4518636",
+      "fecha": "2026-11-05T21:39:40+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "f68a1e0063592e59",
+      "titulo": "Video | ¿Cómo afecta el uso prolongado de redes sociales nuestra concentración?",
+      "categoria": "Tendencias",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/vida-moderna/redes-sociales-nuestra-concentracion-05-11-2026/",
+      "fecha": "2026-11-05T21:39:03+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "8e9110207fd14e9e",
+      "titulo": "S&P mejoró de estable a positiva la perspectiva de Banco Contactar por mejoras operativas",
+      "categoria": "Economía",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/finanzas/s-p-mejoro-de-estable-a-positiva-la-perspectiva-de-banco-contactar-por-mejoras-operativas-4518296",
+      "fecha": "2026-11-05T21:38:54+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "7850d5ad19fb349f",
+      "titulo": "Preocupación por saqueos en el Edificio Asadega tras el terremoto del 10 de agosto",
+      "categoria": "Valle del Cauca",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/cali/saqueos-en-el-edificio-asadega-terremoto-cali-05-11-2026/",
+      "fecha": "2026-11-05T21:34:58+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "33e90982d3ae61f5",
+      "titulo": "Emanuel Otálvaro hizo historia para Colombia: ganó la medalla de plata en tenis de mesa de los Juegos Olímpicos de la Juventud Dakar 2026",
+      "categoria": "Deportes",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/deportes/emanuel-otalvaro-hizo-historia-para-colombia-gano-la-medalla-de-plata-en-tenis-de-mesa-de-los-juegos-olimpicos-de-la-juventud-dakar-2026/",
+      "fecha": "2026-11-05T21:30:38+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "49b1977ad3384080",
+      "titulo": "Más de 600 mil personas se manifiestan en Francia por mejores salarios",
+      "categoria": "Internacional",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/más-de-600-mil-personas-se-manifiestan-en-francia-por-mejores-salarios/a-79871134?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-05T21:21:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "f7b673be167263a3",
+      "titulo": "Cuenta regresiva para la sequía: Ideam anunció cuándo llegaría el pico de El Niño y bajarán las lluvias en el país",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/ideam-anuncia-cuando-llega-pico-fenomeno-el-nino-bajan-lluvias-colombia-sequia-NG43230058",
+      "fecha": "2026-11-05T21:17:30+00:00",
       "imagen": ""
     },
     {
@@ -65,12 +290,30 @@
       "imagen": ""
     },
     {
-      "id": "196e1ae61b44f1f4",
-      "titulo": "Enamoró al asesino de su hermana para lograr que pagara por el crimen: 'No podía dejar que fuera un homicidio más'",
+      "id": "b0d26f018c413db7",
+      "titulo": "Juez ordenó a fundación de la primera dama rendir cuentas completas sobre donaciones para reconstrucción tras el terremoto",
       "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/enamoro-al-asesino-de-su-hermana-para-lograr-que-pagara-por-el-crimen-3598713",
-      "fecha": "2026-11-05T20:54:42+00:00",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/fundacion-de-la-primera-dama-debe-entregar-detalles-sobre-donaciones-para-atender-el-terremoto-PH43229413",
+      "fecha": "2026-11-05T21:01:15+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "f06f394f1b3229cf",
+      "titulo": "IVA del 19% al café colombiano podría comprometer US$708 millones de los exportadores: gremios advierten impacto en el sector",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/noticias/iva-del-19-al-cafe-colombiano-podria-comprometer-us708-millones-de-los-exportadores-gremios-advierten-impacto-en-el-sector/",
+      "fecha": "2026-11-05T21:00:20+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "f64a96fa31097d39",
+      "titulo": "María Fernanda Mena se subió al podio mundial: Colombia conquistó un nuevo bronce en levantamiento de pesas en China",
+      "categoria": "Deportes",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/deportes/maria-fernanda-mena-se-subio-al-podio-mundial-colombia-conquisto-un-nuevo-bronce-en-levantamiento-de-pesas-en-china/",
+      "fecha": "2026-11-05T20:55:15+00:00",
       "imagen": ""
     },
     {
@@ -119,6 +362,24 @@
       "imagen": ""
     },
     {
+      "id": "e20ae913b3bbf32f",
+      "titulo": "Gobierno propone reducir a la mitad los contratos de prestación de servicios en 2027: así afectaría a los contratistas",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/noticias/gobierno-propone-reducir-a-la-mitad-los-contratos-de-prestacion-de-servicios-en-2027-asi-afectaria-a-los-contratistas/",
+      "fecha": "2026-11-05T20:30:37+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "b7137e3e454fa298",
+      "titulo": "Cayó en Colombia juez mexicano señalado de favorecer a la red de narcotráfico liderada por Ryan Wedding",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/captura-colombia-juez-red-narcotrafico-ryan-wedding-IG43231018",
+      "fecha": "2026-11-05T20:30:14+00:00",
+      "imagen": ""
+    },
+    {
       "id": "5fc4c1d7b6e12c9e",
       "titulo": "El gobernador Gavin Newsom conmuta las 548 penas de muerte en California por cadenas perpetuas",
       "categoria": "Cali",
@@ -155,6 +416,15 @@
       "imagen": ""
     },
     {
+      "id": "e6f7bf14f6cf80c5",
+      "titulo": "Una lista de 77 religiosos acusados de abuso sexual en Perú sacude a la Iglesia antes de la visita de León XIV",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/sociedad/2026-11-05/una-lista-de-77-religiosos-acusados-de-abuso-sexual-en-peru-sacude-a-la-iglesia-antes-de-la-visita-de-leon-xiv.html",
+      "fecha": "2026-11-05T20:23:00+00:00",
+      "imagen": ""
+    },
+    {
       "id": "0cd30ea9fb76a234",
       "titulo": "Familia de Alejandra Castaño clama por su liberación: autoridades ofrecen recompensa",
       "categoria": "Valle del Cauca",
@@ -173,12 +443,12 @@
       "imagen": ""
     },
     {
-      "id": "9b8c6b3fc85080ad",
-      "titulo": "El Tour Colombia regresará a Medellín y Antioquia en 2027",
+      "id": "962afbb330eee1a9",
+      "titulo": "Contraloría adelanta investigaciones con policía judicial en el Sena por presuntas irregularidades durante el gobierno Petro",
       "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/medellin/el-tour-colombia-regresara-a-medellin-y-antioquia-en-3598755",
-      "fecha": "2026-11-05T20:06:29+00:00",
+      "fuente": "La FM Economía",
+      "url": "https://www.lafm.com.co/economia/contraloria-y-sena-investiga-presuntas-irregularidades-sena-durante-gobierno-petro-416264",
+      "fecha": "2026-11-05T20:04:37+00:00",
       "imagen": ""
     },
     {
@@ -209,12 +479,12 @@
       "imagen": ""
     },
     {
-      "id": "45c40cf6189cb676",
-      "titulo": "Tribunal ordenó la libertad del exministro Luis Fernando Velasco por caso UNGRD",
+      "id": "5454c4770615d152",
+      "titulo": "Danilo Rojas asume la presidencia de la JEP en medio de recortes presupuestales y tensiones con el Gobierno",
       "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/exministro-luis-fernando-velasco-en-libertad-tribunal-lo-ordeno-AG43230563",
-      "fecha": "2026-11-05T20:01:47+00:00",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/noticias/danilo-rojas-asume-la-presidencia-de-la-jep-en-medio-de-recortes-presupuestales-y-tensiones-con-el-gobierno/",
+      "fecha": "2026-11-05T20:00:52+00:00",
       "imagen": ""
     },
     {
@@ -263,282 +533,12 @@
       "imagen": ""
     },
     {
-      "id": "2ee80437d9ca1aa7",
-      "titulo": "Exploran apertura de ruta directa entre Cali y Madrid operada por Air Europa",
-      "categoria": "Cali",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/empresas/exploran-apertura-de-ruta-directa-entre-cali-y-madrid-operada-por-air-europa-4518562",
-      "fecha": "2026-11-05T19:48:02+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "f12434a4a37fba4c",
-      "titulo": "Fiscalía imputó al exgerente de campaña Santos por ocultar plata de Odebrecht",
+      "id": "5e5cc9589d4bd34f",
+      "titulo": "Nithya Raman desbanca a Karen Bass y será la primera alcaldesa de origen asiático de Los Ángeles",
       "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/en-vivo/fiscalia-imputo-al-exgerente-de-campana-de-santos-por-ocultar-plata-de-odebrecht/",
-      "fecha": "2026-11-05T19:44:51+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "50030978addcf307",
-      "titulo": "Hundimiento histórico de la bolsa estadounidense: las grandes tecnológicas se dejan a esta hora entre un 9% y un 19%",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/empresas-y-economia/hundimiento-historico-bolsa-estadounidense-grandes-tecnologicas-se-dejan-a-esta-hora-9-19",
-      "fecha": "2026-11-05T19:43:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "909dabda15f57284",
-      "titulo": "Nigeria pasó de ser un país de tránsito a centro de drogas en África",
-      "categoria": "Internacional",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/nigeria-pasó-de-ser-un-país-de-tránsito-a-centro-de-drogas-en-áfrica/a-79869908?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-05T19:32:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "9347f9dec343aa99",
-      "titulo": "Nunca habíamos dedicado tanto tiempo a nuestros hijos y, aun así, nos sentimos malos padres por salir a cenar sin ellos",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/medicina-y-salud/nunca-habiamos-dedicado-tiempo-a-nuestros-hijos-asi-nos-sentimos-malos-padres-salir-a-cenar-ellos",
-      "fecha": "2026-11-05T19:31:06+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "5b3ddf8a467ea677",
-      "titulo": "Davivienda entrega balance tras integrar a 4,2 millones de clientes de DAVIbank: ¿qué ha pasado con sus cuentas?",
-      "categoria": "Economía",
-      "fuente": "La FM Economía",
-      "url": "https://www.lafm.com.co/economia/davivienda-davibank-balance-integracion-clientes-cuentas-seguridad-416251",
-      "fecha": "2026-11-05T19:30:44+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "455ba5ac878fca5a",
-      "titulo": "Paraguay: claves del escándalo bancario que llevó a la renuncia a Peña",
-      "categoria": "Internacional",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/paraguay-claves-del-escándalo-bancario-que-llevó-a-la-renuncia-a-peña/a-79870050?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-05T19:23:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "6ec1f9afc6e2ee6c",
-      "titulo": "Banco de la República advierte incertidumbre fiscal y posible aumento del riesgo país en Colombia",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/gobierno/banco-de-la-republica-advierte-incertidumbre-fiscal-y-posible-aumento-del-riesgo-pais-en-colombia-505797",
-      "fecha": "2026-11-05T19:22:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "764e0d71c22aab80",
-      "titulo": "Día de las Personas Cuidadoras: 42% de las caleñas dedica más de seis horas al cuidado",
-      "categoria": "Valle del Cauca",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/cali/dia-personas-cuidadoras-realidad-cuidado-cali-5-11-2026/",
-      "fecha": "2026-11-05T19:21:44+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "e20c4233cb4f7e4d",
-      "titulo": "Seguros Bolívar es la única aseguradora colombiana en recibir calificación internacional BBB-",
-      "categoria": "Cali",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/finanzas/seguros-bolivar-es-la-unica-aseguradora-colombiana-en-recibir-calificacion-internacional-bbb-505796",
-      "fecha": "2026-11-05T19:20:08+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "7c48cb7a655855bc",
-      "titulo": "¿Qué pasará con el precio de las criptomonedas tras la victoria demócrata en el Congreso de Estados Unidos?",
-      "categoria": "Internacional",
-      "fuente": "La FM Economía",
-      "url": "https://www.lafm.com.co/economia/que-pasara-precio-criptomonedas-victoria-democrata-congreso-estados-unidos-416246",
-      "fecha": "2026-11-05T19:19:07+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "a8cbb5012596c701",
-      "titulo": "Fedesarrollo respalda reforma fiscal del Gobierno, pero pide revisar dos medidas que afectarían a las empresas",
-      "categoria": "Economía",
-      "fuente": "La FM Economía",
-      "url": "https://www.lafm.com.co/economia/fedesarrollo-reforma-fiscal-gobierno-riesgos-empleo-beneficios-tributarios-416249",
-      "fecha": "2026-11-05T19:16:25+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "83b5b37d7ffba43e",
-      "titulo": "Emergencia por aguaceros en Medellín: quebrada La Presidenta en nivel rojo y hay inundaciones",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/medellin/emergencia-por-aguaceros-en-medellin-quebrada-la-presidenta-en-nivel-rojo-y-hay-inundaciones-3598780",
-      "fecha": "2026-11-05T19:16:20+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "ef12194571ec3f5e",
-      "titulo": "MinInterior Ordóñez formaliza novena ETI amazónica",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/en-vivo/mininterior-ordonez-formaliza-novena-eti-amazonica/",
-      "fecha": "2026-11-05T19:14:03+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "ee9c7bdd6a5dd217",
-      "titulo": "Tailandia cambia sus requisitos de ingreso: colombianos tendrán que radicar documento",
-      "categoria": "Colombia",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/vida-moderna/turismo/tailandia-visa-colombianos-turismo-05-11-2026/",
-      "fecha": "2026-11-05T19:11:26+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "69be5613a35b2c65",
-      "titulo": "El Cascanueces regresa a Cali: fecha, hora y lugar para disfrutar del clásico de Navidad",
-      "categoria": "Cali",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/vida-moderna/cultura/cascanueces-regresa-cali-fecha-disfrutar-clasico-navidad-5-11-2026/",
-      "fecha": "2026-11-05T19:08:08+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "e550947b8d69b22b",
-      "titulo": "Oriente de Cali forma jóvenes como agentes multiplicadores en salud sexual y reproductiva",
-      "categoria": "Cali",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/cali/red-de-salud-del-oriente-gradua-a-930-jovenes-lideres-en-cali/",
-      "fecha": "2026-11-05T19:04:39+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "63811f26beedc917",
-      "titulo": "Movilidad en Bogotá: accidentes, tráfico y último reporte este jueves 5 de noviembre de 2026",
-      "categoria": "Colombia",
-      "fuente": "La FM Actualidad",
-      "url": "https://www.lafm.com.co/actualidad/en-vivo-movilidad-bogota-accidentes-trafico-ultimo-reporte-5-noviembre-2026-416242",
-      "fecha": "2026-11-05T19:04:09+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "4d80300b6788d3cb",
-      "titulo": "¿Quién es Santiago Peña y por qué renunció a la presidencia del Paraguay?",
-      "categoria": "Internacional",
-      "fuente": "La FM Internacional",
-      "url": "https://www.lafm.com.co/internacional/santiago-pena-renuncia-presidencia-paraguay-quien-es-416245",
-      "fecha": "2026-11-05T19:03:40+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "3c029a53f26c12b6",
-      "titulo": "El precio de la reforma tributaria lo pagan las mujeres más pobres",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/red-de-expertos/red-de-las-mujeres/el-precio-de-la-reforma-tributaria-lo-pagan-las-mujeres-mas-pobres/",
-      "fecha": "2026-11-05T19:00:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "84a6c04a48e68824",
-      "titulo": "Santander: siempre adelante, ni un paso atrás",
-      "categoria": "Colombia",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/opinion/columnistas/santander-siempre-adelante-ni-un-paso-atras/",
-      "fecha": "2026-11-05T18:58:59+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "0bee7fd94e53e91b",
-      "titulo": "Autogermana confirmó que llevará nueva clase de BMW al Salón del Automóvil",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/empresas/autogermana-confirmo-que-llevara-nueva-clase-de-bmw-al-salon-del-automovil-4518521",
-      "fecha": "2026-11-05T18:52:49+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "7d96558da48c3407",
-      "titulo": "“Silvana Guerrero”, “Jhon Mechas” y los terroristas del Catatumbo, en la mira de la Operación Esparta",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/operacion-esparta-blancos-estrategicos-catatumbo-silvana-guerrero-jhon-mechas-farc-eln-EH43220026",
-      "fecha": "2026-11-05T18:52:21+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "eaf628d3736b5ee2",
-      "titulo": "Hay que aprender de la paliza",
-      "categoria": "Colombia",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/opinion/columnistas/hay-que-aprender-de-la-paliza/",
-      "fecha": "2026-11-05T18:50:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "181fe30161c7f78d",
-      "titulo": "Director del Dapre pidió más tiempo a la Fiscalía para hablar sobre red de 48 mujeres presuntamente instrumentalizadas en el gobierno Petro",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/fiscalia-cita-director-dapre-denuncia-mujeres-gobierno-petro-GE43213027",
-      "fecha": "2026-11-05T18:49:21+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "9ae97f10eb90c590",
-      "titulo": "La MET Gala 2027 anuncia un nuevo tema que busca transformar lo cotidiano en arte",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/ocio/la-met-gala-2027-anuncia-un-nuevo-tema-que-busca-transformar-lo-cotidiano-en-arte-4518534",
-      "fecha": "2026-11-05T18:46:43+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "0542b380ccb8ba33",
-      "titulo": "Atlántico | 'La gente pasa porque le toca': comunidad de Soledad exige soluciones tras muerte de abuelo y desaparición de su nieta en arroyo El Salao",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/barranquilla/atlantico-la-gente-pasa-porque-le-toca-comunidad-de-soledad-exige-soluciones-tras-muerte-de-abuelo-y-desaparicion-de-su-nieta-en-arroyo-el-salao-3598769",
-      "fecha": "2026-11-05T18:45:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "30c159c5afb77c8a",
-      "titulo": "El mercado brasileño es el gran fortín de inversión para Interconexión Eléctrica, ISA",
-      "categoria": "Economía",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/empresas/mercado-brasileno-lidera-los-compromisos-de-inversion-de-interconexion-electrica-isa-4518424",
-      "fecha": "2026-11-05T18:43:21+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "7e334ab92adc22cc",
-      "titulo": "La “agenda privada” de Petro: los siete episodios de su vida que demuestran sus excesos durante la Presidencia",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/cuales-son-escandalos-gustavo-petro-vida-privada-sexocontratos-deicy-jimenez-EE43210307",
-      "fecha": "2026-11-05T18:41:47+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "56c41309ee4dfc44",
-      "titulo": "Diario del gobierno de Abelardo: sigue suspendido el piloto de aspersión",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/en-vivo/diario-del-gobierno-de-abelardo-sigue-suspendido-el-piloto-de-aspersion/",
-      "fecha": "2026-11-05T18:36:48+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "846c7e5bf43e1774",
-      "titulo": "Los grupos armados que buscan expandirse en Santander, y las estrategias que usan las autoridades para atacar las estructuras criminales",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/santander/los-grupos-armados-que-buscan-expandirse-en-santander-y-las-estrategias-que-usan-las-autoridades-para-atacar-las-estructuras-criminales-3598766",
-      "fecha": "2026-11-05T18:33:45+00:00",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/us/2026-11-05/nithya-raman-desbanca-a-karen-bass-y-sera-la-primera-alcaldesa-de-origen-asiatico-de-los-angeles.html",
+      "fecha": "2026-11-05T19:51:00+00:00",
       "imagen": ""
     }
   ],
@@ -655,9 +655,8 @@
     {
       "nombre": "El Diario — Pereira",
       "url": "https://www.eldiario.com.co/feed/",
-      "estado": "error",
-      "titulares": 0,
-      "detalle": "El feed no contiene entradas."
+      "estado": "correcto",
+      "titulares": 35
     },
     {
       "nombre": "Chocó 7 días",
