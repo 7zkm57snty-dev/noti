@@ -1,6 +1,348 @@
 {
-  "ultima_actualizacion": "2026-11-05T16:11:32.082395+00:00",
+  "ultima_actualizacion": "2026-11-05T17:24:24.732407+00:00",
   "titulares_rss": [
+    {
+      "id": "fb5a76e3e5b9ce6a",
+      "titulo": "JEP reduce protección a víctimas, sedes y contratos por Presupuesto",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/en-vivo/jep-reduce-proteccion-a-victimas-sedes-y-contratos-por-presupuesto/",
+      "fecha": "2026-11-05T17:23:38+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "9569861b1bd319da",
+      "titulo": "La autonomía universitaria depende de la libertad científica",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/red-de-expertos/red-social/la-autonomia-universitaria-depende-de-la-libertad-cientifica/",
+      "fecha": "2026-11-05T17:20:34+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "7a1fe63cb99730d1",
+      "titulo": "IVA al café obligaría a los exportadores a adelantar hasta US$708 millones en impuestos",
+      "categoria": "Deportes",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/economia/iva-al-cafe-obligaria-a-los-exportadores-a-adelantar-hasta-us-708-millones-en-impuestos-4518440",
+      "fecha": "2026-11-05T17:17:21+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "5c29a7cacae327ea",
+      "titulo": "Ya es oficial el LG Xboom Blast, un nuevo y potente altavoz portátil con el que tendrás batería para varias fiestas seguidas",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/seleccion/oficial-lg-xboom-blast-nuevo-potente-altavoz-portatil-que-tendras-bateria-para-varias-fiestas-seguidas",
+      "fecha": "2026-11-05T17:17:06+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "219677a3849a70aa",
+      "titulo": "Una nueva oleada de falsas amenazas de bomba afecta al menos a 27 aviones con destino a ciudades europeas",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/internacional/2026-11-05/cinco-aviones-con-destino-a-ciudades-europeas-realizan-aterrizajes-de-emergencia-tras-recibir-amenazas-de-bomba.html",
+      "fecha": "2026-11-05T17:14:36+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "65ae28ba0381c560",
+      "titulo": "Qué es Ueno Bank y qué provocó la crisis por la que Santiago Peña renunció como presidente de Paraguay",
+      "categoria": "Colombia",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/cqx28zrgd0yxo?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-05T17:14:02+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "640147e0ab39c3c5",
+      "titulo": "La OMS alerta sobre la falta de ejercicio entre los adolescentes",
+      "categoria": "Internacional",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/la-oms-alerta-sobre-la-falta-de-ejercicio-entre-los-adolescentes/a-79869667?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-05T17:11:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "47cf5ed6d7c92218",
+      "titulo": "‘Modo Esperanza’: avanza la reconstrucción de colegios afectados por el terremoto en Cali",
+      "categoria": "Cali",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/cali/avanza-reconstruccion-colegios-afectados-terremoto-cali-5-11-2026/",
+      "fecha": "2026-11-05T17:09:35+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "08ed67767b21b4a5",
+      "titulo": "Festival Estéreo Picnic reveló su cartel por días con Travis Scott, Charli XCX y Arcángel",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/ocio/festival-estereo-picnic-revelo-su-cartel-por-dias-con-travis-scott-charli-xcx-y-arcangel-4518402",
+      "fecha": "2026-11-05T17:03:57+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "155762dc2daaba6d",
+      "titulo": "Geopark y Drummond Energy plantean que Colombia está lista para el fracking en 2027",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/economia/geopark-y-drummond-energy-plantean-que-colombia-esta-lista-para-el-fracking-en-2027-4518238",
+      "fecha": "2026-11-05T17:03:11+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "81cf2860bc3d51ec",
+      "titulo": "El problema no es la lista de minerales: es el mapa y el poco conocimiento",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/red-de-expertos/red-verde/el-problema-no-es-la-lista-de-minerales-es-el-mapa-y-el-poco-conocimiento/",
+      "fecha": "2026-11-05T17:02:35+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "2396634f37b2e5bb",
+      "titulo": "Reportan cancelaciones y retrasos en vuelos hacia el aeropuerto El Dorado de Bogotá",
+      "categoria": "Colombia",
+      "fuente": "La FM Actualidad",
+      "url": "https://www.lafm.com.co/actualidad/aeropuerto-el-dorado-retrasos-vuelos-hoy-416232",
+      "fecha": "2026-11-05T17:01:20+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "0aac4c634f31d325",
+      "titulo": "'Zelda Ocarina of Time' es el juego más influyente de la historia y sólo ha necesitado un lavado de cara para volver a ser perfecto",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/videojuegos/zelda-ocarina-of-time-juego-influyente-historia-solo-ha-necesitado-lavado-cara-para-volver-a-ser-perfecto",
+      "fecha": "2026-11-05T17:01:08+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "fe69ece8980a503e",
+      "titulo": "Crece el puente aéreo de Boca Juniors hacia Barranquilla: LATAM suma dos nuevos vuelos desde Buenos Aires para la final de la Copa Sudamericana",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/barranquilla/crece-el-puente-aereo-de-boca-juniors-hacia-barranquilla-latam-suma-dos-nuevos-vuelos-desde-buenos-aires-para-la-final-de-la-copa-sudamericana-3598680",
+      "fecha": "2026-11-05T17:01:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "0af54f3d3198a004",
+      "titulo": "Santiago Peña presenta su renuncia como presidente de Paraguay por la crisis de Ueno Bank",
+      "categoria": "Colombia",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/ckjwe5wy4nxyo?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-05T17:00:47+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "1cdc43a626d4bce6",
+      "titulo": "So pena de retiro, Abelardo prohíbe a interventores hablar con Mario Urán",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/en-vivo/so-pena-de-retiro-abelardo-prohibe-a-interventores-hablar-con-mario-uran/",
+      "fecha": "2026-11-05T17:00:15+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "ed49c83ba1a796bc",
+      "titulo": "El magistrado Danilo Rojas Betancourth asume la presidencia de la JEP",
+      "categoria": "Valle del Cauca",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/colombia/danilo-rojas-betancourth-asume-presidencia-jep-5-11-2026/",
+      "fecha": "2026-11-05T17:00:06+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "d7f56127c47279fd",
+      "titulo": "JEP anuncia trabajo virtual, entrega su sede y elimina esquemas de protección por recortes presupuestales",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/jep-anuncia-trabajo-virtual-entrega-su-sede-y-elimina-esquemas-de-proteccion-por-recortes-presupuestales-NE43215594",
+      "fecha": "2026-11-05T16:56:19+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "e898271cd915bb2f",
+      "titulo": "El Como de Fàbregas hace historia con una goleada récord en la Champions League",
+      "categoria": "Internacional",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/el-como-de-fàbregas-hace-historia-con-una-goleada-récord-en-la-champions-league/a-79869116?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-05T16:53:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "1b20c1f26491ee6b",
+      "titulo": "Nasdaq cae 5% mientras se agudiza venta de acciones de fabricantes de chips",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/globoeconomia/nasdaq-cae-5-mientras-se-agudiza-venta-de-acciones-de-fabricantes-de-chips-4518398",
+      "fecha": "2026-11-05T16:49:33+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "c2c4f12b4993feee",
+      "titulo": "Fuertes combates entre el Ejército y las disidencias de las Farc mantienen confinada a la población en Timba, Cauca",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/cali/fuertes-combates-entre-el-ejercito-y-las-disidencias-de-las-farc-mantienen-confinada-a-la-poblacion-en-timba-cauca-3598723",
+      "fecha": "2026-11-05T16:49:19+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "879b36ffaa81fc11",
+      "titulo": "Satisfacción y escepticismo en Irán tras elecciones en EE. UU.",
+      "categoria": "Internacional",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/satisfacción-y-escepticismo-en-irán-tras-elecciones-en-ee-uu/a-79868489?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-05T16:47:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "37e926099a5a0a5a",
+      "titulo": "Detenido en Colombia un juez mexicano acusado de aceptar un soborno de 2 millones de dólares de la red de Ryan Wedding",
+      "categoria": "Economía",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/us/2026-11-05/detenido-en-colombia-un-juez-mexicano-acusado-de-aceptar-un-soborno-de-2-millones-de-dolares-de-la-red-de-ryan-wedding.html",
+      "fecha": "2026-11-05T16:46:39+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "294143b07f271ed5",
+      "titulo": "Del informe técnico al contenido que circula: aprenda el método de La Silla",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/en-vivo/del-informe-tecnico-al-contenido-que-circula-aprenda-el-metodo-de-la-silla/",
+      "fecha": "2026-11-05T16:44:48+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "b8a9592aceb4829c",
+      "titulo": "Vicepresidente José Restrepo denunció connivencia del Gobierno Petro con criminales en Cumbre Iberoamericana de Jefes de Estado",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/vicepresidente-jose-restrepo-discurso-contra-gobierno-petro-cumbre-iberoamericana-jefes-de-estado-HE43214704",
+      "fecha": "2026-11-05T16:41:27+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "bc9e0da5a78b001f",
+      "titulo": "El futuro del crédito en Colombia con la inteligencia artificial y la analítica de datos",
+      "categoria": "Tecnología",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/finanzas/el-futuro-del-credito-en-colombia-con-la-inteligencia-artificial-y-la-analitica-de-datos-505783",
+      "fecha": "2026-11-05T16:38:14+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "3306f3b26c1021be",
+      "titulo": "En Santander se hizo el único Laboratorio de Aguas, Suelos e Hidrología del nororiente colombiano, ¿para qué sirve y cuál es su funcionalidad?",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/santander/en-santander-se-hizo-el-unico-laboratorio-de-aguas-suelos-e-hidrologia-del-nororiente-colombiano-para-que-sirve-y-cual-es-su-funcionalidad-3598721",
+      "fecha": "2026-11-05T16:36:45+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "75ee9065f3168aa2",
+      "titulo": "Santiago Peña renuncia a la presidencia de Paraguay acorralado por un escándalo financiero",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/america/2026-11-05/santiago-pena-renuncia-a-la-presidencia-de-paraguay-jaqueado-por-un-escandalo-financiero.html",
+      "fecha": "2026-11-05T16:35:51+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "ad307fe1ca2dd41c",
+      "titulo": "Santiago Peña renuncia a la Presidencia de Paraguay en medio de la crisis de Ueno Bank y el avance del juicio político",
+      "categoria": "Internacional",
+      "fuente": "La FM Internacional",
+      "url": "https://www.lafm.com.co/internacional/renuncia-santiago-pena-presidente-paraguay-416231",
+      "fecha": "2026-11-05T16:35:15+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "eb6eec67a1cbfe3e",
+      "titulo": "\"No puede existir interés general si existe rechazo general\": más de 8.000 personas se manifiestan contra la piscina de surf de Cantabria",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/magnet/no-puede-existir-interes-general-existe-rechazo-general-8-000-personas-se-manifiestan-piscina-surf-cantabria",
+      "fecha": "2026-11-05T16:30:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "2b800684d9c4d5ef",
+      "titulo": "Presidente paraguayo renuncia presionado por juicio político tras el colapso de Ueno",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/globoeconomia/presidente-paraguayo-renuncia-presionado-por-juicio-politico-tras-el-colapso-de-ueno-4518418",
+      "fecha": "2026-11-05T16:28:34+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "1894ca0b00a98b84",
+      "titulo": "Liga BetPlay: Partidos y las cuentas de 10 equipos para clasificar a falta de dos fechas",
+      "categoria": "Deportes",
+      "fuente": "La FM Deportes",
+      "url": "https://www.lafm.com.co/deportes/liga-betplay-partidos-cuentas-10-equipos-clasificar-falta-dos-fechas-416219",
+      "fecha": "2026-11-05T16:24:50+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "cf69f47f655f4aa4",
+      "titulo": "¿Impulsar la economía? ¿Investigar la corrupción? ¿Todo junto? El nuevo Congreso demócrata en Estados Unidos decide sus primeros pasos",
+      "categoria": "Economía",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/us/2026-11-05/impulsar-la-economia-investigar-la-corrupcion-todo-junto-el-nuevo-congreso-democrata-en-estados-unidos-decide-sus-primeros-pasos.html",
+      "fecha": "2026-11-05T16:22:45+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "109100e032ee73cf",
+      "titulo": "Elecciones regionales 2027 en Colombia: Fecha en la que se elegirán alcaldes y gobernadores",
+      "categoria": "Colombia",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/colombia/elecciones-regionales-2027-en-colombia-05-11-2026/",
+      "fecha": "2026-11-05T16:21:41+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "d4a3eaa868fd0215",
+      "titulo": "Imágenes de Volare Mare, megaproyecto urbanístico que se cayó por segunda vez; así se iba a ver la isla artificial, estilo Dubái, en Cartagena",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/imagenes-de-volare-mare-megaproyecto-urbanistico-que-se-cayo-por-segunda-vez-asi-se-iba-a-ver-la-isla-artificial-estilo-dubai-en-cartagena-3598698",
+      "fecha": "2026-11-05T16:16:47+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "f02cf8ba147f6784",
+      "titulo": "El precio del euro bajó en Colombia y continúa perdiendo terreno frente al peso: así cotiza la divisa",
+      "categoria": "Colombia",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/finanzas/el-precio-del-euro-bajo-en-colombia-y-continua-perdiendo-terreno-frente-al-peso-asi-cotiza-la-divisa-505779",
+      "fecha": "2026-11-05T16:15:35+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "cec62cdef3db9128",
+      "titulo": "El actor británico Russell Brand, declarado culpable de violación y agresiones sexuales",
+      "categoria": "Internacional",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/el-actor-británico-russell-brand-declarado-culpable-de-violación-y-agresiones-sexuales/a-79868634?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-05T16:15:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "13500433f055efd9",
+      "titulo": "Así se alista Barranquilla para recibir la final de la Copa Sudamericana entre Boca Juniors y Atlético Mineiro en el renovado estadio Metropolitano",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/barranquilla/asi-se-alista-barranquilla-para-recibir-la-final-de-la-copa-sudamericana-entre-boca-juniors-y-atletico-mineiro-en-el-renovado-estadio-metropolitano-3598708",
+      "fecha": "2026-11-05T16:13:34+00:00",
+      "imagen": ""
+    },
     {
       "id": "44f99c08be23f00f",
       "titulo": "El líder paraguayo se enfrenta a una votación de destitución mientras se agrava la crisis bancaria",
@@ -11,12 +353,21 @@
       "imagen": ""
     },
     {
-      "id": "c32d69baaeb5fe61",
-      "titulo": "Jueves negro para la IA: el Nasdaq se hunde más del 5%",
+      "id": "a6027190ad306c1a",
+      "titulo": "Murió Julio Carrizosa Umaña, padre del ambientalismo colombiano e impulsor de 17 parques nacionales",
       "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://cincodias.elpais.com/mercados-financieros/2026-11-05/la-bolsa-y-el-ibex-35.html",
-      "fecha": "2026-11-05T16:08:27+00:00",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/muerte-julio-carrizosa-umana-ambientalista-impulsor-parques-nacionales-DF43209219",
+      "fecha": "2026-11-05T16:06:53+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "33098376890cd660",
+      "titulo": "Ordenan inspección a Secretaría del Senado para reunir información de los contratos de Deicy Jiménez",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/ordenan-inspeccion-secretaria-senado-reunir-informacion-contratos-deicy-jimenez-DE43214171",
+      "fecha": "2026-11-05T16:01:44+00:00",
       "imagen": ""
     },
     {
@@ -38,12 +389,30 @@
       "imagen": ""
     },
     {
+      "id": "5a0aa02812729289",
+      "titulo": "Identifican a las dos víctimas mortales de un ataque sicarial en un hotel del norte de Cali; una joven de 19 años y un hombre de 61 resultaron heridos",
+      "categoria": "Cali",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/cali/identifican-a-las-dos-victimas-mortales-de-un-ataque-sicarial-en-un-hotel-del-norte-de-cali-una-joven-de-19-anos-y-un-hombre-de-61-resultaron-heridos-3598696",
+      "fecha": "2026-11-05T15:58:54+00:00",
+      "imagen": ""
+    },
+    {
       "id": "a707d84623211d61",
       "titulo": "Los factores que explican la pérdida de terreno del talento femenino en la tecnología en Perú",
       "categoria": "Tecnología",
       "fuente": "La República",
       "url": "https://www.larepublica.co/globoeconomia/los-factores-que-explican-la-perdida-de-terreno-del-talento-femenino-en-la-tecnologia-en-peru-4518397",
       "fecha": "2026-11-05T15:56:33+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "f63b3db658a91722",
+      "titulo": "Festival de la Leyenda Vallenata 2027: polémica por decisión de cambiar el diseño del afiche elegido para sus 60 años después de una convocatoria",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/festival-de-la-leyenda-vallenata-2027-polemica-por-decision-de-cambiar-el-diseno-del-afiche-elegido-para-sus-60-anos-despues-de-una-convocatoria-3598706",
+      "fecha": "2026-11-05T15:56:32+00:00",
       "imagen": ""
     },
     {
@@ -56,21 +425,12 @@
       "imagen": ""
     },
     {
-      "id": "5a0aa02812729289",
-      "titulo": "Identifican a las dos víctimas mortales de un ataque sicarial en un hotel del norte de Cali; una joven de 19 años y un hombre de 61 resultaron heridos",
-      "categoria": "Cali",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/cali/identifican-a-las-dos-victimas-mortales-de-un-ataque-sicarial-en-un-hotel-del-norte-de-cali-una-joven-de-19-anos-y-un-hombre-de-61-resultaron-heridos-3598696",
-      "fecha": "2026-11-05T15:51:56+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "d4a3eaa868fd0215",
-      "titulo": "Imágenes de Volare Mare, megaproyecto urbanístico que se cayó por segunda vez; así se iba a ver la isla artificial, estilo Dubái, en Cartagena",
+      "id": "181fe30161c7f78d",
+      "titulo": "Fiscalía citó al director del Dapre tras denuncia sobre 48 mujeres presuntamente instrumentalizadas en el gobierno Petro",
       "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/imagenes-de-volare-mare-megaproyecto-urbanistico-que-se-cayo-por-segunda-vez-asi-se-iba-a-ver-la-isla-artificial-estilo-dubai-en-cartagena-3598698",
-      "fecha": "2026-11-05T15:50:00+00:00",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/fiscalia-cita-director-dapre-denuncia-mujeres-gobierno-petro-GE43213027",
+      "fecha": "2026-11-05T15:50:22+00:00",
       "imagen": ""
     },
     {
@@ -92,15 +452,6 @@
       "imagen": ""
     },
     {
-      "id": "181fe30161c7f78d",
-      "titulo": "Fiscalía citó al director del Dapre tras denuncia sobre 48 mujeres presuntamente instrumentalizadas en el gobierno Petro",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/fiscalia-cita-director-dapre-denuncia-mujeres-gobierno-petro-GE43213027",
-      "fecha": "2026-11-05T15:44:49+00:00",
-      "imagen": ""
-    },
-    {
       "id": "a48fcdcb9e728088",
       "titulo": "El oro retoma la senda alcista y escala hasta los 4.117 dólares en medio de un mercado de alta volatilidad",
       "categoria": "Economía",
@@ -119,30 +470,12 @@
       "imagen": ""
     },
     {
-      "id": "d7f56127c47279fd",
-      "titulo": "JEP anuncia trabajo virtual, entrega su sede y elimina esquemas de protección por recortes presupuestales",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/jep-anuncia-trabajo-virtual-entrega-su-sede-y-elimina-esquemas-de-proteccion-por-recortes-presupuestales-NE43215594",
-      "fecha": "2026-11-05T15:39:14+00:00",
-      "imagen": ""
-    },
-    {
       "id": "ee1e0cd1da72ea96",
       "titulo": "Deuda externa de países en desarrollo tocó récord de US$9,4 billones en 2025",
       "categoria": "Colombia",
       "fuente": "La República",
       "url": "https://www.larepublica.co/globoeconomia/deuda-externa-de-paises-en-desarrollo-toco-record-de-us-9-4-billones-en-2025-4518389",
       "fecha": "2026-11-05T15:39:05+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "f0307cccb056b0e8",
-      "titulo": "El Hospital Alma Máter de Antioquia enfrenta una grave crisis por deudas de más de 455.000 millones de pesos: 522 profesionales han renunciado",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/medellin/el-hospital-alma-mater-de-antioquia-enfrenta-una-grave-crisis-por-deudas-de-mas-de-455-000-millones-de-pesos-522-profesionales-han-renunciado-3598665",
-      "fecha": "2026-11-05T15:38:12+00:00",
       "imagen": ""
     },
     {
@@ -182,15 +515,6 @@
       "imagen": ""
     },
     {
-      "id": "7ab9835c7849d248",
-      "titulo": "'Poncho' Zuleta suspende sus presentaciones musicales tras el accidente de su hijo 'Kbeto' Zuleta: 'Necesito acompañar a mi familia'",
-      "categoria": "Tendencias",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/poncho-zuleta-suspende-sus-presentaciones-musicales-tras-el-accidente-de-su-hijo-kbeto-zuleta-necesito-acompanar-a-mi-familia-3598659",
-      "fecha": "2026-11-05T15:32:15+00:00",
-      "imagen": ""
-    },
-    {
       "id": "a9f8486506435c98",
       "titulo": "La justicia rusa condena a cuatro años de cárcel a la hija del asesinado Borís Nemtsov",
       "categoria": "Colombia",
@@ -215,330 +539,6 @@
       "fuente": "El Diario — Pereira",
       "url": "https://www.eldiario.com.co/noticias/colombia-busca-abrir-mercado-en-emiratos-arabes/",
       "fecha": "2026-11-05T15:28:19+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "c530d11d8a078269",
-      "titulo": "Bolsa mexicana sube por tercera sesión y oscila en torno a sus máximos desde febrero",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/bolsa-mexicana-sube-por-tercera-sesion-y-oscila-en-torno-a-sus-maximos-desde-febrero-4518375",
-      "fecha": "2026-11-05T15:27:10+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "e28b6abd58915901",
-      "titulo": "Reducir de 18 a 7 ministerios: la propuesta de Antioquia para ahorrar $4,5 billones de gasto estatal",
-      "categoria": "Colombia",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/gobierno/reducir-de-18-a-7-ministerios-la-propuesta-de-antioquia-para-ahorrar-4-5-billones-de-gasto-estatal-505772",
-      "fecha": "2026-11-05T15:27:02+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "c91fed067459934b",
-      "titulo": "Víctimas con “poder de veto” y otros cinco cambios que trae la Ley de Sometimiento del Gobierno",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/abelardo-de-la-espriella-asi-es-la-ley-de-sometimiento-aprobada-en-el-congreso-LF43205718",
-      "fecha": "2026-11-05T15:26:46+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "57d29a683646de36",
-      "titulo": "Tabla de posiciones Liga: Así marchan los equipos y clasificados a cuadrangulares",
-      "categoria": "Deportes",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/deportes/tabla-de-posiciones-liga-betplay-05-11-2026/",
-      "fecha": "2026-11-05T15:25:26+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "3dc6513cddf53e0d",
-      "titulo": "Davivienda recibió 4,2 millones de clientes de Davibank, en medio de la integración",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/finanzas/davivienda-ha-recibido-4-2-millones-de-clientes-de-davibank-en-medio-de-la-integracion-4518346",
-      "fecha": "2026-11-05T15:25:23+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "42b183ed89ab535f",
-      "titulo": "Radiografía de las fallas en TransMilenio: 1.442 personas se colaron en cinco minutos, reveló la Personería",
-      "categoria": "Colombia",
-      "fuente": "La FM Actualidad",
-      "url": "https://www.lafm.com.co/actualidad/colados-transmilenio-1442-personas-en-cinco-minutos-fallas-control-sistema-estaciones-portales-inspeccion-personeria-416221",
-      "fecha": "2026-11-05T15:24:37+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "219677a3849a70aa",
-      "titulo": "Una nueva oleada de falsas amenazas de bomba afecta al menos a 27 aviones con destino a ciudades europeas",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/internacional/2026-11-05/cinco-aviones-con-destino-a-ciudades-europeas-realizan-aterrizajes-de-emergencia-tras-recibir-amenazas-de-bomba.html",
-      "fecha": "2026-11-05T15:22:09+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "cffc5c8968ab99fc",
-      "titulo": "Uribismo se reúne al mediodía para discutir la tributaria de Abelardo",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/en-vivo/uribismo-se-reune-al-mediodia-para-discutir-la-tributaria-de-abelardo/",
-      "fecha": "2026-11-05T15:16:22+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "65ae28ba0381c560",
-      "titulo": "4 claves para entender la crisis de Ueno Bank en Paraguay por la que piden un juicio político al presidente Santiago Peña",
-      "categoria": "Colombia",
-      "fuente": "BBC Mundo",
-      "url": "https://www.bbc.com/mundo/articles/cqx28zrgd0yxo?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-05T15:16:13+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "aaf089af58d29719",
-      "titulo": "El actor Ed Westwick llegará a Bogotá para presentar la nueva fragancia de Afnan Perfumes",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/ocio/el-actor-ed-westwick-llegara-a-bogota-para-presentar-la-nueva-fragancia-de-afnan-perfumes-4518359",
-      "fecha": "2026-11-05T15:15:47+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "aacd7b20b2158261",
-      "titulo": "Poncho Zuleta recibe incapacidad médica de 21 días y suspende sus presentaciones para acompañar a su hijo Kbeto tras el accidente",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/barranquilla/poncho-zuleta-recibe-incapacidad-medica-de-21-dias-y-suspende-sus-presentaciones-para-acompanar-a-su-hijo-kbeto-tras-el-accidente-3598675",
-      "fecha": "2026-11-05T15:15:26+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "f75d29a67485c8d6",
-      "titulo": "Lula decidirá sobre medidas fiscales tras sus viajes al extranjero, dice ministro de Hacienda",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/lula-decidira-sobre-medidas-fiscales-tras-sus-viajes-al-extranjero-dice-ministro-de-hacienda-4518361",
-      "fecha": "2026-11-05T15:15:20+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "1c196ff4b4aeb66a",
-      "titulo": "Sin factura electrónica también habría devolución del IVA: MinHacienda explica el mecanismo",
-      "categoria": "Economía",
-      "fuente": "La FM Economía",
-      "url": "https://www.lafm.com.co/economia/efectiva-devolucion-iva-sin-factura-electronica-beneficiarios-pagos-416220",
-      "fecha": "2026-11-05T15:14:26+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "8094e856949d705e",
-      "titulo": "El actor y comediante británico Russell Brand es declarado culpable de violación y agresión sexual",
-      "categoria": "Internacional",
-      "fuente": "BBC Mundo",
-      "url": "https://www.bbc.com/mundo/articles/cm86zx85y5pyo?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-05T15:12:11+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "33098376890cd660",
-      "titulo": "Ordenan inspección a Secretaría del Senado para reunir información de los contratos de Deicy Jiménez",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/ordenan-inspeccion-secretaria-senado-reunir-informacion-contratos-deicy-jimenez-DE43214171",
-      "fecha": "2026-11-05T15:09:18+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "72fee73fd521a996",
-      "titulo": "Hammack, de la Fed, aboga por una trayectoria gradual de alza de tasas para desacelerar la inflación",
-      "categoria": "Economía",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/hammack-de-la-fed-aboga-por-una-trayectoria-gradual-de-alza-de-tasas-para-desacelerar-la-inflacion-4518349",
-      "fecha": "2026-11-05T15:08:32+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "9a50a2e3c62524be",
-      "titulo": "Video | Así fue el empate entre Millonarios y América; noche fría en la capital",
-      "categoria": "Valle del Cauca",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/deportes/america-de-cali/empate-millonarios-y-america-de-cali-05-11-2026/",
-      "fecha": "2026-11-05T15:08:14+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "4055c34e95e4faf6",
-      "titulo": "Colapsó muro de una edificación en proceso de demolición en el barrio Sucre",
-      "categoria": "Valle del Cauca",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/cali/colapso-muro-edificacion-proceso-demolicion-sucre-cali-5-11-2026/",
-      "fecha": "2026-11-05T15:07:44+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "02f48c95e969b023",
-      "titulo": "CAF colocó en la Bolsa de Colombia un bono verde por $51.000 millones a cinco años",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/finanzas/caf-coloco-en-la-bolsa-de-colombia-un-bono-verde-por-51-000-millones-a-cinco-anos-4518340",
-      "fecha": "2026-11-05T15:06:30+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "ede021f2e87e89af",
-      "titulo": "¿Cómo sigue Kbeto Zuleta? Entre oraciones, homenajes y mensajes de apoyo, el vallenato sigue de cerca la recuperación del artista en Barranquilla",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/barranquilla/como-sigue-kbeto-zuleta-entre-oraciones-homenajes-y-mensajes-de-apoyo-el-vallenato-sigue-de-cerca-la-recuperacion-del-artista-en-barranquilla-3598667",
-      "fecha": "2026-11-05T15:05:46+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "973b41714766c2d3",
-      "titulo": "¿Cuándo pagan la prima de diciembre de 2026 y cuánto recibirá quien gana un salario mínimo?",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/empleo/cuando-pagan-la-prima-de-diciembre-de-2026-y-cuanto-recibira-quien-gana-un-salario-minimo-505766",
-      "fecha": "2026-11-05T15:02:41+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "31e0edc5714f148d",
-      "titulo": "Empezó a boxear a los 9 años en Barranquilla y la pandemia lo bajó del ring: el patrullero que enseña a pelear a niños de pueblos del Atlántico",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/barranquilla/empezo-a-boxear-a-los-9-anos-en-barranquilla-y-la-pandemia-lo-bajo-del-ring-el-patrullero-que-ensena-a-pelear-a-ninos-de-pueblos-del-atlantico-3598650",
-      "fecha": "2026-11-05T15:01:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "432465d7ce2aa7c1",
-      "titulo": "El protocolo de Adif cuando se avisa de fallos \"débiles\" en las vías: utilizar trenes con pasajeros para detectarlos",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/movilidad/protocolo-adif-cuando-se-avisa-fallos-debiles-vias-utilizar-trenes-pasajeros-para-detectarlos",
-      "fecha": "2026-11-05T15:00:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "1c2d36adc5a1f01a",
-      "titulo": "El presidente del Tribunal Supremo de Bolivia habría huido a Brasil en medio de investigación por narcotráfico",
-      "categoria": "Colombia",
-      "fuente": "La FM Internacional",
-      "url": "https://www.lafm.com.co/internacional/bolivia-huida-presidente-tribunal-supremo-brasil-investigaciones-narcotrafico-416217",
-      "fecha": "2026-11-05T14:55:49+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "57c12a7b789da806",
-      "titulo": "Cancillería reacciona a supuesto despilfarro del Gobierno Petro con consulado en México: “Nos dejaron el guayabo y la cuenta sin pagar”",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/cancilleria-queja-por-despilfarro-consulado-tijuana-mexico-gobierno-gustavo-petro-GF43209971",
-      "fecha": "2026-11-05T14:52:03+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "c2284a91cbf168eb",
-      "titulo": "Operación Iron 2.0: cerca de 2.000 integrantes de la Policía, el Ejército y la Fiscalía participaron en ofensiva contra estructuras criminales en Cali",
-      "categoria": "Cali",
-      "fuente": "El Tiempo Cali",
-      "url": "https://www.eltiempo.com/colombia/cali/operacion-iron-2-0-cerca-de-2-000-uniformados-de-la-policia-el-ejercito-y-la-fiscalia-participan-en-ofensiva-contra-estructuras-criminales-en-cali-3598614",
-      "fecha": "2026-11-05T14:51:06+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "ed08045fa920238e",
-      "titulo": "Operación IRON 2.0 deja más de 100 capturados y 11 estructuras criminales desarticuladas en Cali",
-      "categoria": "Cali",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/cali/operacion-iron-capturados-cali-5-11-2026/",
-      "fecha": "2026-11-05T14:40:28+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "100708edb5e07a3f",
-      "titulo": "Hospital San Juan de Dios asegura que le llegó la hoja de vida de Deicy Jiménez: “No se avanzó en su nombramiento”",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/hoja-vida-deicy-jimenez-hospital-san-juan-de-dios-KE43210974",
-      "fecha": "2026-11-05T14:37:55+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "92f0a23d2338badb",
-      "titulo": "MacBook Pro M6, análisis: un portátil estupendo que exige responder dos preguntas antes de comprarlo",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/analisis/macbook-pro-m6-analisis-portatil-estupendo-que-exige-responder-dos-preguntas-antes-comprarlo",
-      "fecha": "2026-11-05T14:32:19+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "95c4b57d7aeb8678",
-      "titulo": "Capturan a dos implicados en el crimen de María Camila Potosí en la Operación Iron 2.0, coordinada por el presidente Abelardo De La Espriella en Cali",
-      "categoria": "Cali",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/cali/capturan-a-dos-implicados-en-el-crimen-de-maria-camila-potosi-en-la-operacion-iron-2-0-coordinada-por-el-presidente-abelardo-de-la-espriella-en-cali-3598644",
-      "fecha": "2026-11-05T14:31:39+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "f45cc9f0b02405e0",
-      "titulo": "Adif invirtió 4.700 millones de euros en 2025 pero sólo 437 millones se dedicaron a mantener la alta velocidad",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/movilidad/adif-invirtio-4-700-millones-euros-2025-solo-437-millones-se-dedicaron-a-mantener-alta-velocidad",
-      "fecha": "2026-11-05T14:31:06+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "ed8d71535f01a6ea",
-      "titulo": "BTG Pactual y Cuantum se alían para llevar liquidez al mercado de sentencias",
-      "categoria": "Economía",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/finanzas/btg-pactual-y-cuantum-se-alian-para-dinamizar-liquidez-en-el-mercado-de-sentencias-judiciales-4518233",
-      "fecha": "2026-11-05T14:30:59+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "9588f02521d87102",
-      "titulo": "Alimentos escolares bajo inspección: Contraloría revisa el PAE en las 20 localidades de Bogotá",
-      "categoria": "Cali",
-      "fuente": "La FM Actualidad",
-      "url": "https://www.lafm.com.co/actualidad/plan-alimentacion-escolar-pae-bogota-inspeccion-contraloria-20-localidades-alimentos-estudiantes-colegios-publicos-416214",
-      "fecha": "2026-11-05T14:30:58+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "b123c84dfcd59792",
-      "titulo": "Fedesarrollo respalda la reforma fiscal del Gobierno, pero pide revisar cambios a la nómina y beneficios del Ruge",
-      "categoria": "Colombia",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/fedesarrollo-respalda-la-reforma-fiscal-del-gobierno-pero-pide-revisar-cambios-a-la-nomina-y-beneficios-del-ruge-505763",
-      "fecha": "2026-11-05T14:28:43+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "ba667741dd1080e7",
-      "titulo": "La Policía identifica en la frontera con Marruecos a dos altos cargos de las fuerzas marroquíes el día del asalto masivo",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/espana/2026-11-05/la-policia-identifica-en-la-frontera-con-marruecos-a-dos-altos-cargos-de-las-fuerzas-marroquies-el-dia-del-asalto-masivo.html",
-      "fecha": "2026-11-05T14:20:14+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "bb63dd90dfb90468",
-      "titulo": "Huelga nacional en Francia: 270.000 manifestantes hasta el mediodía",
-      "categoria": "Internacional",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/huelga-nacional-en-francia-270-000-manifestantes-hasta-el-mediodía/a-79865967?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-05T14:18:00+00:00",
       "imagen": ""
     }
   ],
@@ -596,7 +596,7 @@
       "nombre": "DW Español",
       "url": "https://rss.dw.com/rdf/rss-sp-all",
       "estado": "correcto",
-      "titulares": 22
+      "titulares": 23
     },
     {
       "nombre": "Xataka",
