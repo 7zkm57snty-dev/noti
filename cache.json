@@ -664,13 +664,19 @@
         "dominios_independientes": 2,
         "fecha": "2026-11-03T23:00:08.821661+00:00"
       },
-      "imagen": "",
-      "imagen_credito": {},
+      "imagen": "https://raw.githubusercontent.com/7zkm57snty-dev/noti/main/assets/editorial-news/35a56699-7607-4f9a-9fb3-8e5cb4794796.jpg",
+      "imagen_credito": {
+        "autor": "Caracol radio",
+        "fuente": "Caracol Radio",
+        "pagina": "https://caracol.com.co/resizer/v2/IHFKBH2MMZHR3PVXRM2IL2OM7A.jpg?auth=9f94c7353ccadd4cbccb666e44fcb964693f6a944565769022c6837c646a5cde&quality=70&width=770&height=770&smart=true",
+        "licencia": "CC",
+        "licencia_url": "https://caracol.com.co/resizer/v2/IHFKBH2MMZHR3PVXRM2IL2OM7A.jpg?auth=9f94c7353ccadd4cbccb666e44fcb964693f6a944565769022c6837c646a5cde&quality=70&width=770&height=770&smart=true"
+      },
       "imagen_busqueda_intentada": true,
       "imagen_instagram": "https://cevnoticias.com/social/b17c2da1196f0468.jpg",
       "imagen_instagram_tipo": "portada_grafica_cev",
       "descripcion_instagram": "Peaje El Mango en La Sierra: comunidades exigen su reubicación tras dos atentados con explosivos\\n\\nDos ataques con vehículos cargados de explosivos en el peaje El Mango, ubicado en La Depresión, municipio de La Sierra, Cauca, dejaron cinco heridos y daños materiales que superan los 200 millones de pesos. Las comunidades locales, junto con el alcalde, exigen trasladar la infraestructura para proteger a los residentes y recuperar la tranquilidad del corredor vial.\\n\\n📍 Valle del Cauca\\n\\nLee la noticia completa en cevnoticias.com.\\n\\n#CEVNoticias #Actualidad #ValleDelCauca #Colombia",
-      "verificacion": "Varias fuentes independientes",
+      "verificacion": "Fuentes independientes",
       "fecha": "03/11/2026 · 06:00 PM",
       "fuentes": [
         {
