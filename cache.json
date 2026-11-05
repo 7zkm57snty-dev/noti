@@ -785,13 +785,19 @@
         "dominios_independientes": 2,
         "fecha": "2026-11-03T20:23:35.399192+00:00"
       },
-      "imagen": "",
-      "imagen_credito": {},
+      "imagen": "https://raw.githubusercontent.com/7zkm57snty-dev/noti/main/assets/editorial-news/9d563846-77e4-4b1e-9679-8a3c56e02763.jpg",
+      "imagen_credito": {
+        "autor": "Red prensa",
+        "fuente": "Red prensa",
+        "pagina": "https://redprensa.com/sites/default/files/capturan-en-cali-a-jefes-criminales-de-barranquilla_0.jpeg",
+        "licencia": "CC",
+        "licencia_url": "https://redprensa.com/sites/default/files/capturan-en-cali-a-jefes-criminales-de-barranquilla_0.jpeg"
+      },
       "imagen_busqueda_intentada": true,
       "imagen_instagram": "https://cevnoticias.com/social/88a75cca43f0b88d.jpg",
       "imagen_instagram_tipo": "portada_grafica_cev",
       "descripcion_instagram": "Capturan en Cali a los jefes que extorsionaban a Barranquilla\\n\\nLa Policía Metropolitana de Barranquilla logró en Cali la captura de Joel José Llames Vásquez, alias ‘Joel Piraña’, y Eduardo Correa Barros, alias ‘Rulay’, dos cabecillas del Grupo de Delincuencia Común Organizado ‘La Nueva Generación del Freeso’. La operación, parte de la estrategia ‘Barranquilla Sin Tregua al Delito – Blindaje 360’, desmantela la estructura que coordinaba homicidios selectivos y extorsiones contra comerciantes de Barranquilla y municipios vecinos.\\n\\nLee la noticia completa en cevnoticias.com.\\n\\n#CEVNoticias #Actualidad #Cali #ValleDelCauca",
-      "verificacion": "Varias fuentes independientes",
+      "verificacion": "Fuentes independientes",
       "fecha": "03/11/2026 · 03:23 PM",
       "fuentes": [
         {
