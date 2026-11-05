@@ -1,13 +1,166 @@
 {
-  "ultima_actualizacion": "2026-11-05T20:28:17.843588+00:00",
+  "ultima_actualizacion": "2026-11-05T21:26:02.438291+00:00",
   "titulares_rss": [
     {
       "id": "89dc688081c894aa",
-      "titulo": "Crisis en Paraguay: renuncia el presidente Santiago Peña por el escándalo de Ueno Bank",
+      "titulo": "Crisis en Paraguay: el Congreso decide si acepta la renuncia del presidente Santiago Peña o sigue con el juicio político",
       "categoria": "Colombia",
       "fuente": "BBC Mundo",
       "url": "https://www.bbc.co.uk/mundo/live/cmgr8vrv5w55t?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-05T20:28:17.843588+00:00",
+      "fecha": "2026-11-05T21:26:02.438291+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "2b14573addbd2251",
+      "titulo": "Juanes celebra su 25 Aniversario",
+      "categoria": "Colombia",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/secciones/tendencias/juanes-lanza-su-album-25-aniversario-con-grandes-exitos/",
+      "fecha": "2026-11-05T21:25:06+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "10ee2f4cf3cedc29",
+      "titulo": "¿Por qué algunas personas nos parecen irresistibles por su olor?",
+      "categoria": "Colombia",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/secciones/tendencias/atraccion-sexual-y-olfato-el-poder-del-olor-corporal/",
+      "fecha": "2026-11-05T21:17:25+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "45e8ed56d8d6a79a",
+      "titulo": "Tres personas entraron a la casa del director del Dapre, según Presidencia",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/en-vivo/tres-personas-entraron-a-la-casa-del-director-del-dapre-segun-presidencia/",
+      "fecha": "2026-11-05T21:16:54+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "2fc775561b878f5e",
+      "titulo": "Tecnoglass prepara nueva expansión en Estados Unidos: estudia construir una planta en Florida y proyecta ventas por US$1.140 millones",
+      "categoria": "Internacional",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/barranquilla/tecnoglass-prepara-nueva-expansion-en-estados-unidos-estudia-construir-una-planta-en-florida-y-proyecta-ventas-por-us-1-140-millones-3598829",
+      "fecha": "2026-11-05T21:11:46+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "37f847d858f93c21",
+      "titulo": "Bucaramanga sale del top 3 de ciudades con menor desempleo: la desocupación subió al 8,5 %; estos son los lugares más afectados",
+      "categoria": "Economía",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/santander/bucaramanga-sale-del-top-3-de-ciudades-con-menor-desempleo-la-desocupacion-subio-al-8-5-estos-son-los-lugares-mas-afectados-3598828",
+      "fecha": "2026-11-05T21:08:56+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "fef49f3abf8f904b",
+      "titulo": "Trump pierde poder y los países del Golfo se replantean sus alianzas",
+      "categoria": "Internacional",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/trump-pierde-poder-y-los-países-del-golfo-se-replantean-sus-alianzas/a-79871039?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-05T21:05:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "196e1ae61b44f1f4",
+      "titulo": "Enamoró al asesino de su hermana para lograr que pagara por el crimen: 'No podía dejar que fuera un homicidio más'",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/enamoro-al-asesino-de-su-hermana-para-lograr-que-pagara-por-el-crimen-3598713",
+      "fecha": "2026-11-05T20:54:42+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "d7555b65832f6377",
+      "titulo": "Video | ¡Historia! Colombiano alcanza plata en tenis de mesa en Juegos Olímpicos de la juventud",
+      "categoria": "Deportes",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/deportes/emanuel-otalvaro-plata-en-tenis-de-mesa-en-juegos-olimpicos-05-11-2026/",
+      "fecha": "2026-11-05T20:52:14+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "6eb4e3562fbe9e2b",
+      "titulo": "Metro de Bogotá recibe respaldo internacional del Banco Mundial por $2,8 billones para préstamo del BNP Paribas",
+      "categoria": "Deportes",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/infraestructura/metro-de-bogota-recibe-respaldo-internacional-del-banco-mundial-por-2-8-billones-para-prestamo-del-bnp-paribas-505802",
+      "fecha": "2026-11-05T20:52:03+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "90adb1b2bbe10cbb",
+      "titulo": "Desde dos capturados por el crimen de María Camila Potosí hasta un falso árbitro que lideraba una banda: los golpes de la Operación Iron 2.0 en Cali",
+      "categoria": "Cali",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/cali/desde-dos-capturados-por-el-crimen-de-maria-camila-potosi-hasta-un-falso-arbitro-que-lideraba-una-banda-los-golpes-de-la-operacion-iron-2-0-en-cali-3598821",
+      "fecha": "2026-11-05T20:49:35+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "14eed668a7868d89",
+      "titulo": "Gobierno busca US$300 millones para intervenir 12 sistemas radar y centros de control aéreo en 6 ciudades",
+      "categoria": "Colombia",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/gobierno/tras-la-falla-en-bogota-el-gobierno-busca-credito-de-300-millones-de-dolares-para-actualizar-el-control-aereo-505800",
+      "fecha": "2026-11-05T20:43:35+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "f6da1d72c67be3e7",
+      "titulo": "Renault-Sofasa y Red de Ensamble impulsan adopción de prácticas sostenibles",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/empresas/renault-sofasa-y-red-de-ensamble-impulsan-adopcion-de-practicas-sostenibles-4518594",
+      "fecha": "2026-11-05T20:40:28+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "5fc4c1d7b6e12c9e",
+      "titulo": "El gobernador Gavin Newsom conmuta las 548 penas de muerte en California por cadenas perpetuas",
+      "categoria": "Cali",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/cr74pp8wl8xyo?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-05T20:29:18+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "9e2c29595defbad0",
+      "titulo": "La JEP busca demostrar sus resultados mientras enfrenta un futuro presupuestal incierto",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/america-colombia/2026-11-05/la-jep-busca-demostrar-sus-resultados-mientras-enfrenta-un-futuro-presupuestal-incierto.html",
+      "fecha": "2026-11-05T20:27:43+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "7d4316a437952118",
+      "titulo": "¿Colombianos en el exterior podrán acceder a créditos para comprar vivienda en el país?",
+      "categoria": "Colombia",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/vida-moderna/colombianos-en-el-exterior-creditos-para-comprar-vivienda-05-11-2026/",
+      "fecha": "2026-11-05T20:27:19+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "976e8723f1bd920c",
+      "titulo": "Así subiría el precio de la cerveza con la ley de rescate fiscal que propone el Gobierno De La Espriella",
+      "categoria": "Colombia",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/crecimiento/asi-subiria-el-precio-de-la-cerveza-con-la-ley-de-rescate-fiscal-que-propone-el-gobierno-de-la-espriella-505799",
+      "fecha": "2026-11-05T20:26:41+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "0cd30ea9fb76a234",
+      "titulo": "Familia de Alejandra Castaño clama por su liberación: autoridades ofrecen recompensa",
+      "categoria": "Valle del Cauca",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/valle-del-cauca/familia-alejandra-castano-clama-liberacion-5-11-2026/",
+      "fecha": "2026-11-05T20:22:35+00:00",
       "imagen": ""
     },
     {
@@ -17,15 +170,6 @@
       "fuente": "Diario Occidente",
       "url": "https://occidente.co/colombia/abelardo-de-la-espriella-fortalece-la-frontera-con-brasil-y-peru/",
       "fecha": "2026-11-05T20:10:18+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "976e8723f1bd920c",
-      "titulo": "Así subiría el precio de la cerveza con la ley de rescate fiscal que propone el Gobierno De La Espriella",
-      "categoria": "Colombia",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/crecimiento/asi-subiria-el-precio-de-la-cerveza-con-la-ley-de-rescate-fiscal-que-propone-el-gobierno-de-la-espriella-505799",
-      "fecha": "2026-11-05T20:07:53+00:00",
       "imagen": ""
     },
     {
@@ -74,21 +218,39 @@
       "imagen": ""
     },
     {
-      "id": "5454c4770615d152",
-      "titulo": "Danilo Rojas asume la presidencia de la JEP en medio de recortes presupuestales y tensiones con el Gobierno",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/noticias/danilo-rojas-asume-la-presidencia-de-la-jep-en-medio-de-recortes-presupuestales-y-tensiones-con-el-gobierno/",
-      "fecha": "2026-11-05T20:00:52+00:00",
-      "imagen": ""
-    },
-    {
       "id": "617a73ab23b1d437",
       "titulo": "Sony revive los auriculares del Walkman de 1979 con los nuevos MDR-3R y se suma al regreso del audio con cable",
       "categoria": "Colombia",
       "fuente": "Xataka",
       "url": "https://www.xataka.com/audio/sony-revive-auriculares-walkman-1979-nuevos-mdr-3r-se-suma-al-regreso-audio-cable",
       "fecha": "2026-11-05T19:59:09+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "4290294e7003a7c5",
+      "titulo": "Los dos nuevos candidatos a liderar la ONU pinchan en la última votación, que vuelve a liderar Rebeca Grynspan",
+      "categoria": "Internacional",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/internacional/2026-11-05/los-dos-nuevos-candidatos-a-liderar-la-onu-pinchan-en-la-ultima-votacion-que-vuelve-a-liderar-rebeca-grynspan.html",
+      "fecha": "2026-11-05T19:57:31+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "df93cd1212fd49de",
+      "titulo": "El Banco de México reduce la tasa de interés en 25 puntos y la sitúa en 6,25% a pesar de las presiones inflacionarias",
+      "categoria": "Economía",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/mexico/economia/2026-11-05/el-banco-de-mexico-reduce-la-tasa-de-interes-en-25-puntos-y-la-situa-en-625-a-pesar-de-las-presiones-inflacionarias.html",
+      "fecha": "2026-11-05T19:57:05+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "0b5f8845a2db2b53",
+      "titulo": "¿Por qué la Selección Colombia deja escapar jóvenes promesas?",
+      "categoria": "Deportes",
+      "fuente": "La FM Deportes",
+      "url": "https://www.lafm.com.co/deportes/seleccion-colombia-no-convoca-jovenes-promesas-del-exterior-416259",
+      "fecha": "2026-11-05T19:55:57+00:00",
       "imagen": ""
     },
     {
@@ -152,15 +314,6 @@
       "fuente": "La FM Economía",
       "url": "https://www.lafm.com.co/economia/davivienda-davibank-balance-integracion-clientes-cuentas-seguridad-416251",
       "fecha": "2026-11-05T19:30:44+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "02ea8c92ae0e4388",
-      "titulo": "Colombia Mayor y Fondo Milagro recibirían $3,8 billones: ¿qué falta para que lleguen los recursos?",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/noticias/colombia-mayor-y-fondo-milagro-recibirian-38-billones-que-falta-para-que-lleguen-los-recursos/",
-      "fecha": "2026-11-05T19:30:16+00:00",
       "imagen": ""
     },
     {
@@ -281,15 +434,6 @@
       "imagen": ""
     },
     {
-      "id": "07f26b7ce76bf9b9",
-      "titulo": "Reforma tributaria subiría los descuentos de salud: trabajadores de mayores ingresos pagarían hasta el 8 %",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/noticias/reforma-tributaria-subiria-los-descuentos-de-salud-trabajadores-de-mayores-ingresos-pagarian-hasta-el-8/",
-      "fecha": "2026-11-05T19:00:51+00:00",
-      "imagen": ""
-    },
-    {
       "id": "3c029a53f26c12b6",
       "titulo": "El precio de la reforma tributaria lo pagan las mujeres más pobres",
       "categoria": "Colombia",
@@ -396,150 +540,6 @@
       "url": "https://www.eltiempo.com/colombia/santander/los-grupos-armados-que-buscan-expandirse-en-santander-y-las-estrategias-que-usan-las-autoridades-para-atacar-las-estructuras-criminales-3598766",
       "fecha": "2026-11-05T18:33:45+00:00",
       "imagen": ""
-    },
-    {
-      "id": "448df65c977f4c6a",
-      "titulo": "SpaceX no convenció a las operadoras con la telefonía de Starlink, así que Elon Musk se está creando su propia operadora móvil",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/telefono-movil/spacex-no-convencio-a-operadoras-telefonia-starlink-asi-que-elon-musk-se-esta-creando-su-propia-operadora-movil",
-      "fecha": "2026-11-05T18:31:06+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "b48ce612f5a2603d",
-      "titulo": "Cali amaneció con megaoperativo contra el crimen: más de 100 capturados y 11 bandas desarticuladas",
-      "categoria": "Cali",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/operacion-iron-cali-capturas-bandas-desarticuladas-seguridad-DH43223990",
-      "fecha": "2026-11-05T18:28:53+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "7edeb2b4c4983be1",
-      "titulo": "¿Qué significa para Alemania la derrota de Trump en las \"midterms\"?",
-      "categoria": "Internacional",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/¿qué-significa-para-alemania-la-derrota-de-trump-en-las-midterms/a-79869946?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-05T18:27:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "ee1a2f0126774347",
-      "titulo": "Hombre ingenuo que buscó afecto: Rusinque defiende a Petro tras video",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/en-vivo/hombre-ingenuo-que-busco-afecto-rusinque-defiende-a-petro-tras-video/",
-      "fecha": "2026-11-05T18:15:53+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "3c024e6a915a34bf",
-      "titulo": "Tesla y SpaceX pierden 417.000 millones de valor en dos días tras el triunfo demócrata",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://cincodias.elpais.com/mercados-financieros/2026-11-05/el-triunfo-democrata-en-las-midterms-borra-111000-millones-de-valor-en-tesla-y-spacex.html",
-      "fecha": "2026-11-05T18:15:27+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "7c4d44ea49ca81df",
-      "titulo": "Paraguay: renuncia presidente en medio de crisis bancaria",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/en-vivo/paraguay-renuncia-presidente-en-medio-de-crisis-bancaria/",
-      "fecha": "2026-11-05T18:13:10+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "8ff2d24c6746932f",
-      "titulo": "Del microtráfico al control de la canasta familiar: así operaba el engranaje criminal de 'Cachama' que mantenía en vilo al comercio de Tuluá",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/cali/del-microtrafico-al-control-de-la-canasta-familiar-asi-operaba-el-engranaje-criminal-de-cachama-que-mantenia-en-vilo-al-comercio-de-tulua-3598745",
-      "fecha": "2026-11-05T18:05:29+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "b237c18bbaa5e13d",
-      "titulo": "Cepeda se sube a la ola demócrata para poner la lupa sobre De la Espriella en Estados Unidos",
-      "categoria": "Internacional",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/america-colombia/2026-11-05/cepeda-se-sube-a-la-ola-democrata-para-poner-la-lupa-sobre-de-la-espriella-en-estados-unidos.html",
-      "fecha": "2026-11-05T18:02:17+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "f0c60a9b4cc0447a",
-      "titulo": "En 2007, EEUU tuvo la disparatada idea de fabricar cemento quemando montañas de alfombras viejas: el experimento funcionó, hasta que llegó la factura",
-      "categoria": "Internacional",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/energia/2007-eeuu-tuvo-disparatada-idea-fabricar-cemento-quemando-millones-alfombras-viejas-experimento-funciono-que-llego-factura",
-      "fecha": "2026-11-05T18:01:10+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "0b6fed6af2aeb871",
-      "titulo": "Medellín renueva su hoja de ruta: Concejo aprueba el nuevo POT con foco en vivienda y control al turismo",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/medellin/medellin-renueva-su-hoja-de-ruta-concejo-aprueba-el-nuevo-pot-con-foco-en-vivienda-y-control-al-turismo-3598756",
-      "fecha": "2026-11-05T17:57:21+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "1e00e4ad3e66c7ae",
-      "titulo": "Elecciones en Estados Unidos 2026: Así quedó conformado el Senado; Último reporte este 5 de noviembre de 2026",
-      "categoria": "Internacional",
-      "fuente": "La FM Internacional",
-      "url": "https://www.lafm.com.co/internacional/elecciones-estados-unidos-2026-senado-camara-congreso-resultados-ultimo-reporte-4-novbiembre-416064",
-      "fecha": "2026-11-05T17:55:44+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "b89a8d22199bb2f7",
-      "titulo": "Fedesarrollo respalda la Ley de Rescate y hace un llamado al consenso en el Congreso",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/economia/fedesarrollo-respalda-la-ley-de-rescate-y-hace-un-llamado-al-consenso-en-el-congreso-4518464",
-      "fecha": "2026-11-05T17:49:22+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "86cac54e59a021f8",
-      "titulo": "La intermitencia en el empleo formal aumenta la inestabilidad de los ingresos laborales en Colombia: estudio",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/la-intermitencia-en-el-empleo-formal-aumenta-la-inestabilidad-de-los-ingresos-laborales-en-colombia-estudio-505788",
-      "fecha": "2026-11-05T17:49:11+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "39e13a7aa83c5cda",
-      "titulo": "Seguridad: el Cauca no puede seguir esperando",
-      "categoria": "Colombia",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/opinion/editorial/situacion-del-cauca-defensoria-alerta-por-crisis-humanitaria/",
-      "fecha": "2026-11-05T17:43:15+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "9d06f7137888dac7",
-      "titulo": "Santiago Peña renuncia a presidencia de Paraguay tras crisis por el cierre de Ueno Bank",
-      "categoria": "Valle del Cauca",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/efe/santiago-pena-renuncia-presidencia-paraguay-5-11-2026/",
-      "fecha": "2026-11-05T17:41:15+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "65ae28ba0381c560",
-      "titulo": "Qué es Ueno Bank y qué provocó la crisis por la que Santiago Peña renunció como presidente de Paraguay",
-      "categoria": "Colombia",
-      "fuente": "BBC Mundo",
-      "url": "https://www.bbc.com/mundo/articles/cqx28zrgd0yxo?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-05T17:38:18+00:00",
-      "imagen": ""
     }
   ],
   "estado_fuentes": [
@@ -620,7 +620,7 @@
       "nombre": "La FM Deportes",
       "url": "https://www.lafm.com.co/rss/deportes.xml",
       "estado": "correcto",
-      "titulares": 19
+      "titulares": 20
     },
     {
       "nombre": "La FM Economía",
@@ -655,8 +655,9 @@
     {
       "nombre": "El Diario — Pereira",
       "url": "https://www.eldiario.com.co/feed/",
-      "estado": "correcto",
-      "titulares": 35
+      "estado": "error",
+      "titulares": 0,
+      "detalle": "El feed no contiene entradas."
     },
     {
       "nombre": "Chocó 7 días",
