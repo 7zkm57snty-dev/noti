@@ -584,8 +584,14 @@
         "dominios_independientes": 1,
         "fecha": "2026-11-03T22:56:18.895892+00:00"
       },
-      "imagen": "",
-      "imagen_credito": {},
+      "imagen": "https://raw.githubusercontent.com/7zkm57snty-dev/noti/main/assets/editorial-news/0fc8e9f0-7325-41c6-a39c-239d58e30c2d.jpg",
+      "imagen_credito": {
+        "autor": "Revista semana",
+        "fuente": "Revista Semana",
+        "pagina": "https://www.semana.com/resizer/v2/HRSZQEIVKRC5JNVNDADYZC7DTI.jpeg?auth=79dc4ff4d02a12cf4a6c4cc5e8cee7008ee3cafc6799db388b8426a3a2804fdc&smart=true&quality=75&width=1920&fitfill=false",
+        "licencia": "CC",
+        "licencia_url": "https://www.semana.com/resizer/v2/HRSZQEIVKRC5JNVNDADYZC7DTI.jpeg?auth=79dc4ff4d02a12cf4a6c4cc5e8cee7008ee3cafc6799db388b8426a3a2804fdc&smart=true&quality=75&width=1920&fitfill=false"
+      },
       "imagen_busqueda_intentada": true,
       "imagen_instagram": "https://cevnoticias.com/social/a21640cbf64eb910.jpg",
       "imagen_instagram_tipo": "portada_grafica_cev",
