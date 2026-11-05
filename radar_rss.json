@@ -1,5 +1,5 @@
 {
-  "ultima_actualizacion": "2026-11-05T19:36:46.917432+00:00",
+  "ultima_actualizacion": "2026-11-05T20:28:17.843588+00:00",
   "titulares_rss": [
     {
       "id": "89dc688081c894aa",
@@ -7,7 +7,133 @@
       "categoria": "Colombia",
       "fuente": "BBC Mundo",
       "url": "https://www.bbc.co.uk/mundo/live/cmgr8vrv5w55t?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-05T19:36:46.917432+00:00",
+      "fecha": "2026-11-05T20:28:17.843588+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "455ca758b88a71df",
+      "titulo": "Medidas en la frontera por posible fuga de alias “Mordisco” y alias “Calarcá”",
+      "categoria": "Colombia",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/colombia/abelardo-de-la-espriella-fortalece-la-frontera-con-brasil-y-peru/",
+      "fecha": "2026-11-05T20:10:18+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "976e8723f1bd920c",
+      "titulo": "Así subiría el precio de la cerveza con la ley de rescate fiscal que propone el Gobierno De La Espriella",
+      "categoria": "Colombia",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/crecimiento/asi-subiria-el-precio-de-la-cerveza-con-la-ley-de-rescate-fiscal-que-propone-el-gobierno-de-la-espriella-505799",
+      "fecha": "2026-11-05T20:07:53+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "9b8c6b3fc85080ad",
+      "titulo": "El Tour Colombia regresará a Medellín y Antioquia en 2027",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/medellin/el-tour-colombia-regresara-a-medellin-y-antioquia-en-3598755",
+      "fecha": "2026-11-05T20:06:29+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "1226ea7cffcdff1a",
+      "titulo": "Tendencias que marcarán la moda en esta temporada",
+      "categoria": "Valle del Cauca",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/entretenimiento/tendencias-fin-ano-05-11-2026/",
+      "fecha": "2026-11-05T20:03:56+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "0af54f3d3198a004",
+      "titulo": "Santiago Peña renuncia a la presidencia de Paraguay pero la Cámara de Diputados aprueba someterlo a juicio político por el caso Ueno Bank",
+      "categoria": "Internacional",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/ckjwe5wy4nxyo?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-05T20:03:18+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "b3bb636bf99f8bba",
+      "titulo": "¿Qué puede retrasar una obra en Colombia? Los riesgos en los terrenos y los avalúos que deben vigilar las empresas",
+      "categoria": "Economía",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/infraestructura/que-puede-retrasar-una-obra-en-colombia-los-riesgos-en-los-terrenos-y-los-avaluos-que-deben-vigilar-las-empresas-505786",
+      "fecha": "2026-11-05T20:01:54+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "45c40cf6189cb676",
+      "titulo": "Tribunal ordenó la libertad del exministro Luis Fernando Velasco por caso UNGRD",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/exministro-luis-fernando-velasco-en-libertad-tribunal-lo-ordeno-AG43230563",
+      "fecha": "2026-11-05T20:01:47+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "5454c4770615d152",
+      "titulo": "Danilo Rojas asume la presidencia de la JEP en medio de recortes presupuestales y tensiones con el Gobierno",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/noticias/danilo-rojas-asume-la-presidencia-de-la-jep-en-medio-de-recortes-presupuestales-y-tensiones-con-el-gobierno/",
+      "fecha": "2026-11-05T20:00:52+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "617a73ab23b1d437",
+      "titulo": "Sony revive los auriculares del Walkman de 1979 con los nuevos MDR-3R y se suma al regreso del audio con cable",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/audio/sony-revive-auriculares-walkman-1979-nuevos-mdr-3r-se-suma-al-regreso-audio-cable",
+      "fecha": "2026-11-05T19:59:09+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "34b9c48dbfdc16ad",
+      "titulo": "Rubio consideraría dejar el gobierno tras derrota republicana en las 'midterms'",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/globoeconomia/rubio-consideraria-dejar-el-gobierno-tras-derrota-republicana-en-las-midterms-4518576",
+      "fecha": "2026-11-05T19:54:47+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "2ee80437d9ca1aa7",
+      "titulo": "Exploran apertura de ruta directa entre Cali y Madrid operada por Air Europa",
+      "categoria": "Cali",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/empresas/exploran-apertura-de-ruta-directa-entre-cali-y-madrid-operada-por-air-europa-4518562",
+      "fecha": "2026-11-05T19:48:02+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "f12434a4a37fba4c",
+      "titulo": "Fiscalía imputó al exgerente de campaña Santos por ocultar plata de Odebrecht",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/en-vivo/fiscalia-imputo-al-exgerente-de-campana-de-santos-por-ocultar-plata-de-odebrecht/",
+      "fecha": "2026-11-05T19:44:51+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "50030978addcf307",
+      "titulo": "Hundimiento histórico de la bolsa estadounidense: las grandes tecnológicas se dejan a esta hora entre un 9% y un 19%",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/empresas-y-economia/hundimiento-historico-bolsa-estadounidense-grandes-tecnologicas-se-dejan-a-esta-hora-9-19",
+      "fecha": "2026-11-05T19:43:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "909dabda15f57284",
+      "titulo": "Nigeria pasó de ser un país de tránsito a centro de drogas en África",
+      "categoria": "Internacional",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/nigeria-pasó-de-ser-un-país-de-tránsito-a-centro-de-drogas-en-áfrica/a-79869908?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-05T19:32:00+00:00",
       "imagen": ""
     },
     {
@@ -17,6 +143,15 @@
       "fuente": "Xataka",
       "url": "https://www.xataka.com/medicina-y-salud/nunca-habiamos-dedicado-tiempo-a-nuestros-hijos-asi-nos-sentimos-malos-padres-salir-a-cenar-ellos",
       "fecha": "2026-11-05T19:31:06+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "5b3ddf8a467ea677",
+      "titulo": "Davivienda entrega balance tras integrar a 4,2 millones de clientes de DAVIbank: ¿qué ha pasado con sus cuentas?",
+      "categoria": "Economía",
+      "fuente": "La FM Economía",
+      "url": "https://www.lafm.com.co/economia/davivienda-davibank-balance-integracion-clientes-cuentas-seguridad-416251",
+      "fecha": "2026-11-05T19:30:44+00:00",
       "imagen": ""
     },
     {
@@ -119,11 +254,11 @@
       "imagen": ""
     },
     {
-      "id": "1570c4c7dbbfec93",
+      "id": "e550947b8d69b22b",
       "titulo": "Oriente de Cali forma jóvenes como agentes multiplicadores en salud sexual y reproductiva",
       "categoria": "Cali",
       "fuente": "Diario Occidente",
-      "url": "https://occidente.co/cali/oriente-de-cali-forma-jovenes-como-agentes-multiplicadores-en-salud-sexual-y-reproductiva/",
+      "url": "https://occidente.co/cali/red-de-salud-del-oriente-gradua-a-930-jovenes-lideres-en-cali/",
       "fecha": "2026-11-05T19:04:39+00:00",
       "imagen": ""
     },
@@ -134,6 +269,15 @@
       "fuente": "La FM Actualidad",
       "url": "https://www.lafm.com.co/actualidad/en-vivo-movilidad-bogota-accidentes-trafico-ultimo-reporte-5-noviembre-2026-416242",
       "fecha": "2026-11-05T19:04:09+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "4d80300b6788d3cb",
+      "titulo": "¿Quién es Santiago Peña y por qué renunció a la presidencia del Paraguay?",
+      "categoria": "Internacional",
+      "fuente": "La FM Internacional",
+      "url": "https://www.lafm.com.co/internacional/santiago-pena-renuncia-presidencia-paraguay-quien-es-416245",
+      "fecha": "2026-11-05T19:03:40+00:00",
       "imagen": ""
     },
     {
@@ -290,6 +434,15 @@
       "imagen": ""
     },
     {
+      "id": "3c024e6a915a34bf",
+      "titulo": "Tesla y SpaceX pierden 417.000 millones de valor en dos días tras el triunfo demócrata",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://cincodias.elpais.com/mercados-financieros/2026-11-05/el-triunfo-democrata-en-las-midterms-borra-111000-millones-de-valor-en-tesla-y-spacex.html",
+      "fecha": "2026-11-05T18:15:27+00:00",
+      "imagen": ""
+    },
+    {
       "id": "7c4d44ea49ca81df",
       "titulo": "Paraguay: renuncia presidente en medio de crisis bancaria",
       "categoria": "Colombia",
@@ -335,15 +488,6 @@
       "imagen": ""
     },
     {
-      "id": "0af54f3d3198a004",
-      "titulo": "Santiago Peña renuncia a la presidencia de Paraguay pero la Cámara de Diputados aprueba someterlo a juicio político por el caso Ueno Bank",
-      "categoria": "Internacional",
-      "fuente": "BBC Mundo",
-      "url": "https://www.bbc.com/mundo/articles/ckjwe5wy4nxyo?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-05T17:57:00+00:00",
-      "imagen": ""
-    },
-    {
       "id": "1e00e4ad3e66c7ae",
       "titulo": "Elecciones en Estados Unidos 2026: Así quedó conformado el Senado; Último reporte este 5 de noviembre de 2026",
       "categoria": "Internacional",
@@ -371,15 +515,6 @@
       "imagen": ""
     },
     {
-      "id": "9b8c6b3fc85080ad",
-      "titulo": "El Tour Colombia regresará a Medellín y Antioquia en 2027",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/medellin/el-tour-colombia-regresara-a-medellin-y-antioquia-en-3598755",
-      "fecha": "2026-11-05T17:47:50+00:00",
-      "imagen": ""
-    },
-    {
       "id": "39e13a7aa83c5cda",
       "titulo": "Seguridad: el Cauca no puede seguir esperando",
       "categoria": "Colombia",
@@ -404,141 +539,6 @@
       "fuente": "BBC Mundo",
       "url": "https://www.bbc.com/mundo/articles/cqx28zrgd0yxo?at_medium=RSS&at_campaign=rss",
       "fecha": "2026-11-05T17:38:18+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "d7f56127c47279fd",
-      "titulo": "JEP anuncia trabajo virtual, entrega su sede y elimina esquemas de protección por recortes presupuestales",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/jep-anuncia-trabajo-virtual-entrega-su-sede-y-elimina-esquemas-de-proteccion-por-recortes-presupuestales-NE43215594",
-      "fecha": "2026-11-05T17:38:08+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "1b663d19cba62d58",
-      "titulo": "Guaraní paraguayo se devalúa a mínimos de abril tras la renuncia de Santiago Peña",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/guarani-paraguayo-se-devalua-a-maximos-de-abril-tras-la-renuncia-de-pena-4518463",
-      "fecha": "2026-11-05T17:37:15+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "1ffb254fb1da89bd",
-      "titulo": "La periodista cubana Yoani Sánchez, detenida por la policía en La Habana",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/america/2026-11-05/la-periodista-cubana-yoani-sanchez-detenida-por-la-policia-en-la-habana.html",
-      "fecha": "2026-11-05T17:36:02+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "04d0ee4a115c0876",
-      "titulo": "Google desactivará herramientas de IA para estudiantes: ¿Cuándo lo aplicará?",
-      "categoria": "Tecnología",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/vida-moderna/ciencia-y-tecnologia/google-desactivara-herramientas-de-ia-para-estudiantes-05-11-2026/",
-      "fecha": "2026-11-05T17:24:26+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "fb5a76e3e5b9ce6a",
-      "titulo": "JEP reduce protección a víctimas, sedes y contratos por Presupuesto",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/en-vivo/jep-reduce-proteccion-a-victimas-sedes-y-contratos-por-presupuesto/",
-      "fecha": "2026-11-05T17:23:38+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "58af57f7dbbbcd6c",
-      "titulo": "Contraloría alerta por retrasos en 22 proyectos hospitalarios y billonaria cifra sin legalizar en Minsalud",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/contraloria-alerta-retrasos-22-proyectos-hospitalarios-billonaria-cifra-legalizar-minsalud-NE43217921",
-      "fecha": "2026-11-05T17:23:31+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "bfd5b839521aa484",
-      "titulo": "Indignación en Manizales: adulto mayor fue hallado atado de pies y manos en un lote baldío",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/adulto-mayor-atado-pies-manos-manizales-caldas-que-paso-EE43216534",
-      "fecha": "2026-11-05T17:21:29+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "9569861b1bd319da",
-      "titulo": "La autonomía universitaria depende de la libertad científica",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/red-de-expertos/red-social/la-autonomia-universitaria-depende-de-la-libertad-cientifica/",
-      "fecha": "2026-11-05T17:20:34+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "34c78a94a008a6ee",
-      "titulo": "Los pagos por el terremoto no paran: van más de $1,2 billones en indemnizaciones",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/gobierno/los-pagos-por-el-terremoto-no-paran-van-mas-de-1-2-billones-en-indemnizaciones-505765",
-      "fecha": "2026-11-05T17:17:37+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "7a1fe63cb99730d1",
-      "titulo": "IVA al café obligaría a los exportadores a adelantar hasta US$708 millones",
-      "categoria": "Deportes",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/economia/iva-al-cafe-obligaria-a-los-exportadores-a-adelantar-hasta-us-708-millones-en-impuestos-4518440",
-      "fecha": "2026-11-05T17:17:21+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "accee3ac27a958d8",
-      "titulo": "Noveno Festival de la Familia: Cali se activa con el deporte y la integración",
-      "categoria": "Cali",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/vida-moderna/cultura/noveno-festival-familia-cali-deporte-integracion-5-11-2026/",
-      "fecha": "2026-11-05T17:17:07+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "5c29a7cacae327ea",
-      "titulo": "Ya es oficial el LG Xboom Blast, un nuevo y potente altavoz portátil con el que tendrás batería para varias fiestas seguidas",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/seleccion/oficial-lg-xboom-blast-nuevo-potente-altavoz-portatil-que-tendras-bateria-para-varias-fiestas-seguidas",
-      "fecha": "2026-11-05T17:17:06+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "840ad5ec0f1adc4c",
-      "titulo": "¿Y quién es ese tal Cristo Rey?",
-      "categoria": "Colombia",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/opinion/columnistas/y-quien-es-ese-tal-cristo-rey/",
-      "fecha": "2026-11-05T17:16:11+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "196e1ae61b44f1f4",
-      "titulo": "Enamoró al asesino de su hermana para lograr que pagara por el crimen: 'No podía dejar que fuera un homicidio más'",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/enamoro-al-asesino-de-su-hermana-para-lograr-que-pagara-por-el-crimen-3598713",
-      "fecha": "2026-11-05T17:15:14+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "219677a3849a70aa",
-      "titulo": "Una nueva oleada de falsas amenazas de bomba afecta al menos a 27 aviones en Europa",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/internacional/2026-11-05/cinco-aviones-con-destino-a-ciudades-europeas-realizan-aterrizajes-de-emergencia-tras-recibir-amenazas-de-bomba.html",
-      "fecha": "2026-11-05T17:14:36+00:00",
       "imagen": ""
     }
   ],
@@ -620,7 +620,7 @@
       "nombre": "La FM Deportes",
       "url": "https://www.lafm.com.co/rss/deportes.xml",
       "estado": "correcto",
-      "titulares": 20
+      "titulares": 19
     },
     {
       "nombre": "La FM Economía",
@@ -661,9 +661,8 @@
     {
       "nombre": "Chocó 7 días",
       "url": "https://choco7dias.com/feed/",
-      "estado": "error",
-      "titulares": 0,
-      "detalle": "HTTPSConnectionPool(host='choco7dias.com', port=443): Read timed out. (read timeout=12)"
+      "estado": "correcto",
+      "titulares": 10
     },
     {
       "nombre": "La Patria — Caldas",
