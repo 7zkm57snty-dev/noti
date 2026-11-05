@@ -376,7 +376,7 @@
       "resumen": "A un año de las elecciones de 2027, la Alcaldía de Cali no tiene un claro favorito. Más de veinte nombres están en el radar, desde políticos consolidados hasta aspirantes emergentes, y la dinámica electoral se ve influida por la imagen de la administración nacional y municipal, así como por el impacto del terremoto del 10 de agosto. La cobertura analiza los factores que podrían determinar el resultado y destaca la incertidumbre que rodea la carrera mayoral.",
       "categoria": "Cali",
       "contenido": "A un año de las elecciones de 2027, la Alcaldía de Cali no tiene un claro favorito. Según el Diario Occidente, el sonajero de posibles candidatos supera los veinte nombres, entre los que se encuentran políticos consolidados, aspirantes emergentes y figuras que aún no han anunciado su intención de postularse.\n\nEl panorama electoral se asemeja al de la campaña presidencial de 2026, cuando el sonajero presidencial superó los treinta nombres y los primeros puestos en las encuestas no reflejaban los resultados finales. En ese caso, el eventual ganador, Abelardo De la Espriella, estaba por debajo del margen de error cuando la competencia empezaba a tomar forma.\n\nEntre los factores que podrían definir la carrera mayoral se destaca la polarización entre el petrismo y el abelardismo. La imagen de De la Espriella y la de Gustavo Petro, así como la percepción de la administración actual del alcalde Alejandro Eder, influirán en la decisión de los votantes. Si la imagen de De la Espriella se mantiene favorable, los candidatos que se identifiquen con sus ideas podrían beneficiarse; lo contrario, la asociación con su nombre podría convertirse en una desventaja.\n\nEl terremoto del 10 de agosto de 2026, que sacudió la ciudad y dejó daños significativos, es otro elemento clave. La velocidad y eficacia de la reconstrucción, así como la gestión de las necesidades de los damnificados, podrían determinar el clima político. Un proceso de recuperación exitoso generaría optimismo y favorecería a quienes promuevan el continuismo, mientras que la persistencia de problemas estructurales podría impulsar la demanda de cambio.\n\nEn este contexto, los candidatos con recursos limitados o sin una trayectoria consolidada podrían sorprender si logran conectar con las emociones y preocupaciones de los ciudadanos, utilizando las nuevas herramientas de comunicación y la inteligencia artificial para movilizar a los votantes.\n\nHasta la fecha, no se han anunciado oficialmente los candidatos que formarán parte de la contienda. La falta de un favorito claro y la multiplicidad de variables que pueden influir en la elección hacen que la carrera mayoral de Cali siga en desarrollo, y los próximos meses serán cruciales para definir quiénes competirán y cómo se alinearán las fuerzas políticas.\n\nLa cobertura de CEV NOTICIAS se mantiene atenta a los avances en la declaración de candidaturas, la evolución de la reconstrucción post‑terremoto y la dinámica de las alianzas políticas, con el objetivo de ofrecer a los habitantes de Cali información actualizada y contextualizada sobre el futuro de su gobierno municipal.",
-      "estado_informacion": "informacion_preliminar",
+      "estado_informacion": "confirmada",
       "investigacion": {
         "enfoque_original": "Esta cobertura aporta un análisis de los factores que podrían decidir la elección mayoral, contextualiza la situación con el terremoto de agosto y la dinámica política nacional, y destaca la incertidumbre que rodea la carrera, algo que el artículo original menciona pero no profundiza.",
         "hechos_clave": [
@@ -388,8 +388,14 @@
         "dominios_independientes": 1,
         "fecha": "2026-11-04T01:00:03.719233+00:00"
       },
-      "imagen": "",
-      "imagen_credito": {},
+      "imagen": "https://raw.githubusercontent.com/7zkm57snty-dev/noti/main/assets/editorial-news/8a6614a0-0cdf-481c-bf7a-3078e22fb891.jpg",
+      "imagen_credito": {
+        "autor": "360 Radio",
+        "fuente": "360 Radio",
+        "pagina": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMZ-V4CUmgrNuWGymTuRT5whog7-q3UpRRdqisI-LYBaLlBBFopQbUmMwc&s=10",
+        "licencia": "CC",
+        "licencia_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMZ-V4CUmgrNuWGymTuRT5whog7-q3UpRRdqisI-LYBaLlBBFopQbUmMwc&s=10"
+      },
       "imagen_busqueda_intentada": true,
       "imagen_instagram": "https://cevnoticias.com/social/7d6c302cca0969a4.jpg",
       "imagen_instagram_tipo": "portada_grafica_cev",
