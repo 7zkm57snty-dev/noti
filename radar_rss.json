@@ -1,13 +1,220 @@
 {
-  "ultima_actualizacion": "2026-11-05T22:27:43.288975+00:00",
+  "ultima_actualizacion": "2026-11-05T23:26:23.052462+00:00",
   "titulares_rss": [
     {
       "id": "89dc688081c894aa",
-      "titulo": "Crisis en Paraguay: confusión en el Congreso sobre la renuncia del presidente Santiago Peña",
+      "titulo": "Crisis en Paraguay: el presidente Santiago Peña se someterá a juicio político horas después de anunciar su renuncia",
       "categoria": "Colombia",
       "fuente": "BBC Mundo",
       "url": "https://www.bbc.co.uk/mundo/live/cmgr8vrv5w55t?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-05T22:27:43.288975+00:00",
+      "fecha": "2026-11-05T23:26:23.052462+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "fd488eca648c782d",
+      "titulo": "Las autoridades cubanas liberan a la periodista Yoani Sánchez, pero la acusan de “atentar contra el orden constitucional”",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/america/2026-11-05/las-autoridades-cubanas-liberan-a-la-periodista-yoani-sanchez-pero-la-acusan-de-atentar-contra-el-orden-constitucional.html",
+      "fecha": "2026-11-05T23:20:46+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "65b043472825158b",
+      "titulo": "Gobierno impugnó fallo que ordenó reintegrar obras al Museo Nacional",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/en-vivo/gobierno-impugno-fallo-que-ordeno-reintegrar-obras-al-museo-nacional/",
+      "fecha": "2026-11-05T23:10:29+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "8f9a4b722a1dcbc9",
+      "titulo": "¿Busca crédito? La Superfinanciera lanza herramienta que permite comparar tasas de interés entre entidades",
+      "categoria": "Economía",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/creditos-con-buenas-tasas-la-herramienta-de-la-superfinanciera-para-comparar-505814",
+      "fecha": "2026-11-05T23:09:56+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "1f5911e493a4c7fd",
+      "titulo": "Dólar podría moverse entre $3.120 y $3.300 en noviembre",
+      "categoria": "Economía",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/empresario/mercado-cambiario-dolar-proyecta-rango-entre-3120-y-3300/",
+      "fecha": "2026-11-05T23:08:05+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "70e08f92c65ce431",
+      "titulo": "El norte de Barranquilla gana terreno como destino de inversiones inmobiliarias: nuevos proyectos impulsan la oferta de vivienda",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/barranquilla/el-norte-de-barranquilla-gana-terreno-como-destino-de-inversiones-inmobiliarias-nuevos-proyectos-impulsan-la-oferta-de-vivienda-3598858",
+      "fecha": "2026-11-05T23:03:34+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "d78acd9f92bb75da",
+      "titulo": "Cae abatido alias Pincher en Jamundí, cabecilla de disidencias señalado por secuestros y homicidios: 'Advierto, no van a conquistar Cauca ni Valle'",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/cali/cae-abatido-alias-pincher-en-jamundi-era-el-cabecilla-de-disidencias-senalado-por-secuestros-y-homicidios-en-este-municipio-del-sur-del-valle-3598849",
+      "fecha": "2026-11-05T23:02:02+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "d0076bd0dc6d39ab",
+      "titulo": "Jaguares de Córdoba descendió a la Primera B",
+      "categoria": "Colombia",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/deportes/jaguares-de-cordoba-descendio-a-la-primera-b/",
+      "fecha": "2026-11-05T23:00:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "14d35436551dc33e",
+      "titulo": "Cúcuta vence a Santa Fe con gol de Berdugo",
+      "categoria": "Colombia",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/deportes/cucuta-vence-santa-fe-gol-berdugo/",
+      "fecha": "2026-11-05T23:00:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "2f0504f01f41a082",
+      "titulo": "Millonarios y América empatan 0-0 en El Campín",
+      "categoria": "Colombia",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/deportes/millonarios-america-empate-0-0-el-campin/",
+      "fecha": "2026-11-05T23:00:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "f453654764b7628f",
+      "titulo": "La Junta Electoral autoriza el uso de MiDNI para identificarse al votar en las elecciones generales del 29 de noviembre",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/aplicaciones/junta-electoral-autoriza-uso-midni-para-identificarse-al-votar-elecciones-generales-29-noviembre",
+      "fecha": "2026-11-05T22:59:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "73fb7ac64f69d84b",
+      "titulo": "Dian tiene identificados 1.118 proveedores ficticios",
+      "categoria": "Colombia",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/empresario/proveedores-ficticios-la-dian-advierte-sanciones-del-160/",
+      "fecha": "2026-11-05T22:57:04+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "0af54f3d3198a004",
+      "titulo": "El Congreso de Paraguay inicia un juicio político contra Santiago Peña por el caso Ueno Bank pese a su renuncia a la presidencia",
+      "categoria": "Colombia",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/ckjwe5wy4nxyo?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-05T22:50:27+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "6d1620cc7c3a1a48",
+      "titulo": "Deicy Jiménez entregó su celular como prueba en denuncia contra Petro",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/en-vivo/deicy-jimenez-entrego-su-celular-como-prueba-en-denuncia-contra-petro/",
+      "fecha": "2026-11-05T22:48:45+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "06eed47b11771190",
+      "titulo": "Shakira hace historia como compositora: nominada al Songwriters Hall of Fame 2027",
+      "categoria": "Colombia",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/secciones/tendencias/shakira-nominada-al-songwriters-hall-of-fame-2027/",
+      "fecha": "2026-11-05T22:46:10+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "ab0cb644ae611253",
+      "titulo": "Videos | ¿Cómo se vive entre explosiones por drones y ráfagas de fusil en la zona rural de Jamundí, Valle?: de labores del campo a la supervivencia",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/cali/videos-como-se-vive-entre-explosiones-por-drones-y-rafagas-de-fusil-en-la-zona-rural-de-jamundi-valle-de-labores-del-campo-a-la-supervivencia-3598833",
+      "fecha": "2026-11-05T22:44:22+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "c99554a580f5df64",
+      "titulo": "Video | Conozca a Samai, el perro de Medellín capaz de desenterrar los secretos más oscuros de los abusadores de menores",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/medellin/video-conozca-a-samai-el-perro-de-medellin-capaz-de-desenterrar-los-secretos-mas-oscuros-de-los-abusadores-de-menores-3598844",
+      "fecha": "2026-11-05T22:42:51+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "010a7d75db21baad",
+      "titulo": "Bucaramanga permitiría que empresas aprovechen económicamente los parques a cambio de su cuidado: así funcionaría cuando salga el decreto",
+      "categoria": "Economía",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/santander/bucaramanga-permitiria-que-empresas-aprovechen-economicamente-los-parques-a-cambio-de-su-cuidado-asi-funcionaria-cuando-salga-el-decreto-3598851",
+      "fecha": "2026-11-05T22:42:17+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "92cb1aad186b1be4",
+      "titulo": "El secretario de Defensa, Pete Hegseth, en el punto de mira de los republicanos por su papel en la guerra de Irán",
+      "categoria": "Internacional",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/us/2026-11-05/el-secretario-de-defensa-pete-hegseth-en-el-punto-de-mira-de-republicanos-por-su-papel-en-la-guerra-de-iran.html",
+      "fecha": "2026-11-05T22:40:23+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "796fa23080b7babd",
+      "titulo": "Alerta en el Pacífico colombiano por incremento extraordinario del nivel de la marea de Sizigia",
+      "categoria": "Colombia",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/colombia/alerta-en-el-pacifico-colombiano-05-11-2026/",
+      "fecha": "2026-11-05T22:35:20+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "85f8268815c93f1e",
+      "titulo": "Moody's advierte que 40% de saldos depósitos de Ueno no están asegurados",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/globoeconomia/las-advertencias-al-sistema-financiero-de-moody-s-tras-colapso-de-ueno-bank-4518675",
+      "fecha": "2026-11-05T22:33:15+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "b0d26f018c413db7",
+      "titulo": "Juez ordenó a fundación de la primera dama rendir cuentas completas sobre donaciones para reconstrucción tras el terremoto",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/fundacion-de-la-primera-dama-debe-entregar-detalles-sobre-donaciones-para-atender-el-terremoto-PH43229413",
+      "fecha": "2026-11-05T22:29:42+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "5e5b360d5c223810",
+      "titulo": "El Festival Estéreo Picnic 2027 reveló su cartel por días: ¿Cuándo se presentará cada artista?",
+      "categoria": "Economía",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/el-festival-estereo-picnic-2027-revelo-su-cartel-por-dias-cuando-se-presentara-cada-artista-505810",
+      "fecha": "2026-11-05T22:28:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "c4ebdff83c8eabac",
+      "titulo": "Quebró y causó la renuncia del presidente de Paraguay: así fue la crisis que desató el cierre de Ueno Bank",
+      "categoria": "Colombia",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/quebro-y-causo-la-renuncia-del-presidente-de-paraguay-asi-fue-la-crisis-que-desato-el-cierre-de-ueno-bank-505803",
+      "fecha": "2026-11-05T22:25:55+00:00",
       "imagen": ""
     },
     {
@@ -20,21 +227,21 @@
       "imagen": ""
     },
     {
-      "id": "92cb1aad186b1be4",
-      "titulo": "El secretario de Defensa, Pete Hegseth, en el punto de mira de los republicanos por su papel en la guerra de Irán",
-      "categoria": "Internacional",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/us/2026-11-05/el-secretario-de-defensa-pete-hegseth-en-el-punto-de-mira-de-republicanos-por-su-papel-en-la-guerra-de-iran.html",
-      "fecha": "2026-11-05T22:15:29+00:00",
+      "id": "96a4284bb768a283",
+      "titulo": "El papa León XIV inicia gira por Sudamérica tras ser operado de cáncer: conozca los países que visitará y su estado de salud",
+      "categoria": "Colombia",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/internacionales/papa-leon-xiv-gira-sudamerica-uruguay-argentina-peru-2026/",
+      "fecha": "2026-11-05T22:22:34+00:00",
       "imagen": ""
     },
     {
-      "id": "8f9a4b722a1dcbc9",
-      "titulo": "Créditos con buenas tasas: la herramienta de la Superfinanciera para comparar",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/creditos-con-buenas-tasas-la-herramienta-de-la-superfinanciera-para-comparar-505814",
-      "fecha": "2026-11-05T22:15:07+00:00",
+      "id": "5960496bd362fe70",
+      "titulo": "Descartan cuatro casos de ébola en Colombia: confirman malaria en ocho pacientes y una muerte",
+      "categoria": "Colombia",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/colombia/ebola-en-colombia-casos-sospechosos-descartados-ins-2026/",
+      "fecha": "2026-11-05T22:18:16+00:00",
       "imagen": ""
     },
     {
@@ -44,24 +251,6 @@
       "fuente": "Portafolio",
       "url": "https://www.portafolio.co/economia/gobierno/la-jep-anuncia-recorte-del-85-de-sus-contratos-y-cambios-en-su-funcionamiento-tras-reduccion-de-su-presupuesto-505811",
       "fecha": "2026-11-05T22:12:15+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "ab0cb644ae611253",
-      "titulo": "Videos | ¿Cómo se vive entre explosiones por drones y ráfagas de fusil en la zona rural de Jamundí, Valle?: de labores del campo a la supervivencia",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/cali/videos-como-se-vive-entre-explosiones-por-drones-y-rafagas-de-fusil-en-la-zona-rural-de-jamundi-valle-de-labores-del-campo-a-la-supervivencia-3598833",
-      "fecha": "2026-11-05T22:12:13+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "c99554a580f5df64",
-      "titulo": "Video | Conozca a Samai, el perro de Medellín capaz de desenterrar los secretos más oscuros de los abusadores de menores",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/medellin/video-conozca-a-samai-el-perro-de-medellin-capaz-de-desenterrar-los-secretos-mas-oscuros-de-los-abusadores-de-menores-3598844",
-      "fecha": "2026-11-05T22:07:31+00:00",
       "imagen": ""
     },
     {
@@ -80,6 +269,15 @@
       "fuente": "La Silla Vacía",
       "url": "https://www.lasillavacia.com/en-vivo/demostrare-mi-inocencia-velasco-tras-quedar-en-libertad-por-caso-ungrd/",
       "fecha": "2026-11-05T22:01:21+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "447ba0247c1692c9",
+      "titulo": "La colombiana Michu Cure llega a una sátira política en Los Ángeles y prepara una película sobre Ana Mendieta",
+      "categoria": "Colombia",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/secciones/espectaculo/michu-cure-destaca-en-california-con-teatro-y-cine/",
+      "fecha": "2026-11-05T22:01:07+00:00",
       "imagen": ""
     },
     {
@@ -236,6 +434,15 @@
       "imagen": ""
     },
     {
+      "id": "2b14573addbd2251",
+      "titulo": "Juanes celebra su 25 Aniversario",
+      "categoria": "Colombia",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/secciones/tendencias/juanes-lanza-su-album-25-aniversario-con-grandes-exitos/",
+      "fecha": "2026-11-05T21:25:06+00:00",
+      "imagen": ""
+    },
+    {
       "id": "49b1977ad3384080",
       "titulo": "Más de 600 mil personas se manifiestan en Francia por mejores salarios",
       "categoria": "Internacional",
@@ -251,6 +458,15 @@
       "fuente": "El Colombiano — Colombia",
       "url": "https://www.elcolombiano.com/colombia/ideam-anuncia-cuando-llega-pico-fenomeno-el-nino-bajan-lluvias-colombia-sequia-NG43230058",
       "fecha": "2026-11-05T21:17:30+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "10ee2f4cf3cedc29",
+      "titulo": "¿Por qué algunas personas nos parecen irresistibles por su olor?",
+      "categoria": "Colombia",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/secciones/tendencias/atraccion-sexual-y-olfato-el-poder-del-olor-corporal/",
+      "fecha": "2026-11-05T21:17:25+00:00",
       "imagen": ""
     },
     {
@@ -290,15 +506,6 @@
       "imagen": ""
     },
     {
-      "id": "b0d26f018c413db7",
-      "titulo": "Juez ordenó a fundación de la primera dama rendir cuentas completas sobre donaciones para reconstrucción tras el terremoto",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/fundacion-de-la-primera-dama-debe-entregar-detalles-sobre-donaciones-para-atender-el-terremoto-PH43229413",
-      "fecha": "2026-11-05T21:01:15+00:00",
-      "imagen": ""
-    },
-    {
       "id": "f06f394f1b3229cf",
       "titulo": "IVA del 19% al café colombiano podría comprometer US$708 millones de los exportadores: gremios advierten impacto en el sector",
       "categoria": "Colombia",
@@ -333,213 +540,6 @@
       "url": "https://www.portafolio.co/economia/infraestructura/metro-de-bogota-recibe-respaldo-internacional-del-banco-mundial-por-2-8-billones-para-prestamo-del-bnp-paribas-505802",
       "fecha": "2026-11-05T20:52:03+00:00",
       "imagen": ""
-    },
-    {
-      "id": "90adb1b2bbe10cbb",
-      "titulo": "Desde dos capturados por el crimen de María Camila Potosí hasta un falso árbitro que lideraba una banda: los golpes de la Operación Iron 2.0 en Cali",
-      "categoria": "Cali",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/cali/desde-dos-capturados-por-el-crimen-de-maria-camila-potosi-hasta-un-falso-arbitro-que-lideraba-una-banda-los-golpes-de-la-operacion-iron-2-0-en-cali-3598821",
-      "fecha": "2026-11-05T20:49:35+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "14eed668a7868d89",
-      "titulo": "Gobierno busca US$300 millones para intervenir 12 sistemas radar y centros de control aéreo en 6 ciudades",
-      "categoria": "Colombia",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/gobierno/tras-la-falla-en-bogota-el-gobierno-busca-credito-de-300-millones-de-dolares-para-actualizar-el-control-aereo-505800",
-      "fecha": "2026-11-05T20:43:35+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "f6da1d72c67be3e7",
-      "titulo": "Renault-Sofasa y Red de Ensamble impulsan adopción de prácticas sostenibles",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/empresas/renault-sofasa-y-red-de-ensamble-impulsan-adopcion-de-practicas-sostenibles-4518594",
-      "fecha": "2026-11-05T20:40:28+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "e20ae913b3bbf32f",
-      "titulo": "Gobierno propone reducir a la mitad los contratos de prestación de servicios en 2027: así afectaría a los contratistas",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/noticias/gobierno-propone-reducir-a-la-mitad-los-contratos-de-prestacion-de-servicios-en-2027-asi-afectaria-a-los-contratistas/",
-      "fecha": "2026-11-05T20:30:37+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "b7137e3e454fa298",
-      "titulo": "Cayó en Colombia juez mexicano señalado de favorecer a la red de narcotráfico liderada por Ryan Wedding",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/captura-colombia-juez-red-narcotrafico-ryan-wedding-IG43231018",
-      "fecha": "2026-11-05T20:30:14+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "5fc4c1d7b6e12c9e",
-      "titulo": "El gobernador Gavin Newsom conmuta las 548 penas de muerte en California por cadenas perpetuas",
-      "categoria": "Cali",
-      "fuente": "BBC Mundo",
-      "url": "https://www.bbc.com/mundo/articles/cr74pp8wl8xyo?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-05T20:29:18+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "9e2c29595defbad0",
-      "titulo": "La JEP busca demostrar sus resultados mientras enfrenta un futuro presupuestal incierto",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/america-colombia/2026-11-05/la-jep-busca-demostrar-sus-resultados-mientras-enfrenta-un-futuro-presupuestal-incierto.html",
-      "fecha": "2026-11-05T20:27:43+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "7d4316a437952118",
-      "titulo": "¿Colombianos en el exterior podrán acceder a créditos para comprar vivienda en el país?",
-      "categoria": "Colombia",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/vida-moderna/colombianos-en-el-exterior-creditos-para-comprar-vivienda-05-11-2026/",
-      "fecha": "2026-11-05T20:27:19+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "976e8723f1bd920c",
-      "titulo": "Así subiría el precio de la cerveza con la ley de rescate fiscal que propone el Gobierno De La Espriella",
-      "categoria": "Colombia",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/crecimiento/asi-subiria-el-precio-de-la-cerveza-con-la-ley-de-rescate-fiscal-que-propone-el-gobierno-de-la-espriella-505799",
-      "fecha": "2026-11-05T20:26:41+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "e6f7bf14f6cf80c5",
-      "titulo": "Una lista de 77 religiosos acusados de abuso sexual en Perú sacude a la Iglesia antes de la visita de León XIV",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/sociedad/2026-11-05/una-lista-de-77-religiosos-acusados-de-abuso-sexual-en-peru-sacude-a-la-iglesia-antes-de-la-visita-de-leon-xiv.html",
-      "fecha": "2026-11-05T20:23:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "0cd30ea9fb76a234",
-      "titulo": "Familia de Alejandra Castaño clama por su liberación: autoridades ofrecen recompensa",
-      "categoria": "Valle del Cauca",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/valle-del-cauca/familia-alejandra-castano-clama-liberacion-5-11-2026/",
-      "fecha": "2026-11-05T20:22:35+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "455ca758b88a71df",
-      "titulo": "Medidas en la frontera por posible fuga de alias “Mordisco” y alias “Calarcá”",
-      "categoria": "Colombia",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/colombia/abelardo-de-la-espriella-fortalece-la-frontera-con-brasil-y-peru/",
-      "fecha": "2026-11-05T20:10:18+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "962afbb330eee1a9",
-      "titulo": "Contraloría adelanta investigaciones con policía judicial en el Sena por presuntas irregularidades durante el gobierno Petro",
-      "categoria": "Colombia",
-      "fuente": "La FM Economía",
-      "url": "https://www.lafm.com.co/economia/contraloria-y-sena-investiga-presuntas-irregularidades-sena-durante-gobierno-petro-416264",
-      "fecha": "2026-11-05T20:04:37+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "1226ea7cffcdff1a",
-      "titulo": "Tendencias que marcarán la moda en esta temporada",
-      "categoria": "Valle del Cauca",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/entretenimiento/tendencias-fin-ano-05-11-2026/",
-      "fecha": "2026-11-05T20:03:56+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "0af54f3d3198a004",
-      "titulo": "Santiago Peña renuncia a la presidencia de Paraguay pero la Cámara de Diputados aprueba someterlo a juicio político por el caso Ueno Bank",
-      "categoria": "Internacional",
-      "fuente": "BBC Mundo",
-      "url": "https://www.bbc.com/mundo/articles/ckjwe5wy4nxyo?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-05T20:03:18+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "b3bb636bf99f8bba",
-      "titulo": "¿Qué puede retrasar una obra en Colombia? Los riesgos en los terrenos y los avalúos que deben vigilar las empresas",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/infraestructura/que-puede-retrasar-una-obra-en-colombia-los-riesgos-en-los-terrenos-y-los-avaluos-que-deben-vigilar-las-empresas-505786",
-      "fecha": "2026-11-05T20:01:54+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "5454c4770615d152",
-      "titulo": "Danilo Rojas asume la presidencia de la JEP en medio de recortes presupuestales y tensiones con el Gobierno",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/noticias/danilo-rojas-asume-la-presidencia-de-la-jep-en-medio-de-recortes-presupuestales-y-tensiones-con-el-gobierno/",
-      "fecha": "2026-11-05T20:00:52+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "617a73ab23b1d437",
-      "titulo": "Sony revive los auriculares del Walkman de 1979 con los nuevos MDR-3R y se suma al regreso del audio con cable",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/audio/sony-revive-auriculares-walkman-1979-nuevos-mdr-3r-se-suma-al-regreso-audio-cable",
-      "fecha": "2026-11-05T19:59:09+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "4290294e7003a7c5",
-      "titulo": "Los dos nuevos candidatos a liderar la ONU pinchan en la última votación, que vuelve a liderar Rebeca Grynspan",
-      "categoria": "Internacional",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/internacional/2026-11-05/los-dos-nuevos-candidatos-a-liderar-la-onu-pinchan-en-la-ultima-votacion-que-vuelve-a-liderar-rebeca-grynspan.html",
-      "fecha": "2026-11-05T19:57:31+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "df93cd1212fd49de",
-      "titulo": "El Banco de México reduce la tasa de interés en 25 puntos y la sitúa en 6,25% a pesar de las presiones inflacionarias",
-      "categoria": "Economía",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/mexico/economia/2026-11-05/el-banco-de-mexico-reduce-la-tasa-de-interes-en-25-puntos-y-la-situa-en-625-a-pesar-de-las-presiones-inflacionarias.html",
-      "fecha": "2026-11-05T19:57:05+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "0b5f8845a2db2b53",
-      "titulo": "¿Por qué la Selección Colombia deja escapar jóvenes promesas?",
-      "categoria": "Deportes",
-      "fuente": "La FM Deportes",
-      "url": "https://www.lafm.com.co/deportes/seleccion-colombia-no-convoca-jovenes-promesas-del-exterior-416259",
-      "fecha": "2026-11-05T19:55:57+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "34b9c48dbfdc16ad",
-      "titulo": "Rubio consideraría dejar el gobierno tras derrota republicana en las 'midterms'",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/rubio-consideraria-dejar-el-gobierno-tras-derrota-republicana-en-las-midterms-4518576",
-      "fecha": "2026-11-05T19:54:47+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "5e5cc9589d4bd34f",
-      "titulo": "Nithya Raman desbanca a Karen Bass y será la primera alcaldesa de origen asiático de Los Ángeles",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/us/2026-11-05/nithya-raman-desbanca-a-karen-bass-y-sera-la-primera-alcaldesa-de-origen-asiatico-de-los-angeles.html",
-      "fecha": "2026-11-05T19:51:00+00:00",
-      "imagen": ""
     }
   ],
   "estado_fuentes": [
@@ -553,7 +553,7 @@
       "nombre": "El Tiempo Cali",
       "url": "https://www.eltiempo.com/rss/colombia_cali.xml",
       "estado": "correcto",
-      "titulares": 8
+      "titulares": 7
     },
     {
       "nombre": "El Espectador",
