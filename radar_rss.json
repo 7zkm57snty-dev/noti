@@ -1,6 +1,402 @@
 {
-  "ultima_actualizacion": "2026-11-05T15:05:21.117250+00:00",
+  "ultima_actualizacion": "2026-11-05T16:11:32.082395+00:00",
   "titulares_rss": [
+    {
+      "id": "44f99c08be23f00f",
+      "titulo": "El líder paraguayo se enfrenta a una votación de destitución mientras se agrava la crisis bancaria",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/globoeconomia/el-lider-paraguayo-se-enfrenta-a-una-votacion-de-destitucion-mientras-se-agrava-la-crisis-bancaria-4518411",
+      "fecha": "2026-11-05T16:09:33+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "c32d69baaeb5fe61",
+      "titulo": "Jueves negro para la IA: el Nasdaq se hunde más del 5%",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://cincodias.elpais.com/mercados-financieros/2026-11-05/la-bolsa-y-el-ibex-35.html",
+      "fecha": "2026-11-05T16:08:27+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "95881d6b37098b60",
+      "titulo": "Leerles cuentos a los bebés desde que nacen tiene un impacto que va mucho más allá de entretenerlos",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/medicina-y-salud/leerles-cuentos-a-bebes-que-nacen-tiene-impacto-que-va-mucho-alla-entretenerlos",
+      "fecha": "2026-11-05T16:01:07+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "fa3c397f6f0cd415",
+      "titulo": "Los microplásticos de la gran mancha de basura del Pacífico influyen en el cambio de color de esa zona del océano",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/clima-y-medio-ambiente/2026-11-05/los-microplasticos-de-la-gran-mancha-de-basura-del-pacifico-influyen-en-el-cambio-de-color-de-esa-zona-del-oceano.html",
+      "fecha": "2026-11-05T16:00:04+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "a707d84623211d61",
+      "titulo": "Los factores que explican la pérdida de terreno del talento femenino en la tecnología en Perú",
+      "categoria": "Tecnología",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/globoeconomia/los-factores-que-explican-la-perdida-de-terreno-del-talento-femenino-en-la-tecnologia-en-peru-4518397",
+      "fecha": "2026-11-05T15:56:33+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "6dd0a34de7c33f63",
+      "titulo": "Corte Suprema ordena inspección en Senado por contratos de Deicy Jiménez",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/en-vivo/corte-suprema-ordena-inspeccion-en-senado-por-contratos-de-deicy-jimenez/",
+      "fecha": "2026-11-05T15:55:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "5a0aa02812729289",
+      "titulo": "Identifican a las dos víctimas mortales de un ataque sicarial en un hotel del norte de Cali; una joven de 19 años y un hombre de 61 resultaron heridos",
+      "categoria": "Cali",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/cali/identifican-a-las-dos-victimas-mortales-de-un-ataque-sicarial-en-un-hotel-del-norte-de-cali-una-joven-de-19-anos-y-un-hombre-de-61-resultaron-heridos-3598696",
+      "fecha": "2026-11-05T15:51:56+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "d4a3eaa868fd0215",
+      "titulo": "Imágenes de Volare Mare, megaproyecto urbanístico que se cayó por segunda vez; así se iba a ver la isla artificial, estilo Dubái, en Cartagena",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/imagenes-de-volare-mare-megaproyecto-urbanistico-que-se-cayo-por-segunda-vez-asi-se-iba-a-ver-la-isla-artificial-estilo-dubai-en-cartagena-3598698",
+      "fecha": "2026-11-05T15:50:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "efd6d19fa8d87234",
+      "titulo": "Wall Street se desploma: el Nasdaq cae 3,33 % por temor al futuro de la inteligencia artificial",
+      "categoria": "Tecnología",
+      "fuente": "La FM Economía",
+      "url": "https://www.lafm.com.co/economia/wall-street-hoy-caida-acciones-inteligencia-artificial-416227",
+      "fecha": "2026-11-05T15:47:47+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "603a8628443da16c",
+      "titulo": "‘Palacio’, serie de Netflix que invita a no olvidar y a cuestionar qué pasó en el Palacio de Justicia",
+      "categoria": "Valle del Cauca",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/colombia/palacio-serie-netflix-cuestionar-que-paso-palacio-justicia-5-11-2026/",
+      "fecha": "2026-11-05T15:47:40+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "181fe30161c7f78d",
+      "titulo": "Fiscalía citó al director del Dapre tras denuncia sobre 48 mujeres presuntamente instrumentalizadas en el gobierno Petro",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/fiscalia-cita-director-dapre-denuncia-mujeres-gobierno-petro-GE43213027",
+      "fecha": "2026-11-05T15:44:49+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "a48fcdcb9e728088",
+      "titulo": "El oro retoma la senda alcista y escala hasta los 4.117 dólares en medio de un mercado de alta volatilidad",
+      "categoria": "Economía",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/internacional/el-oro-retoma-la-senda-alcista-y-escala-hasta-los-4-117-dolares-en-medio-de-un-mercado-de-alta-volatilidad-505771",
+      "fecha": "2026-11-05T15:40:06+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "4628f594e62460fa",
+      "titulo": "EN VIVO: Presentación del Tour Colombia 2027",
+      "categoria": "Colombia",
+      "fuente": "La FM Deportes",
+      "url": "https://www.lafm.com.co/deportes/en-vivo-presentacion-del-tour-colombia-2027-416224",
+      "fecha": "2026-11-05T15:39:17+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "d7f56127c47279fd",
+      "titulo": "JEP anuncia trabajo virtual, entrega su sede y elimina esquemas de protección por recortes presupuestales",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/jep-anuncia-trabajo-virtual-entrega-su-sede-y-elimina-esquemas-de-proteccion-por-recortes-presupuestales-NE43215594",
+      "fecha": "2026-11-05T15:39:14+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "ee1e0cd1da72ea96",
+      "titulo": "Deuda externa de países en desarrollo tocó récord de US$9,4 billones en 2025",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/globoeconomia/deuda-externa-de-paises-en-desarrollo-toco-record-de-us-9-4-billones-en-2025-4518389",
+      "fecha": "2026-11-05T15:39:05+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "f0307cccb056b0e8",
+      "titulo": "El Hospital Alma Máter de Antioquia enfrenta una grave crisis por deudas de más de 455.000 millones de pesos: 522 profesionales han renunciado",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/medellin/el-hospital-alma-mater-de-antioquia-enfrenta-una-grave-crisis-por-deudas-de-mas-de-455-000-millones-de-pesos-522-profesionales-han-renunciado-3598665",
+      "fecha": "2026-11-05T15:38:12+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "5fb272a28bf7a8cc",
+      "titulo": "Ecopetrol pierde respaldo entre directivos del sector petrolero: percepción favorable cae 32 puntos en un año",
+      "categoria": "Economía",
+      "fuente": "La FM Economía",
+      "url": "https://www.lafm.com.co/economia/ecopetrol-percepcion-favorable-cae-directivos-barometro-petrolero-2026-416225",
+      "fecha": "2026-11-05T15:37:50+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "c24ff6177fedb506",
+      "titulo": "Comisión Primera del Senado aprueba por unanimidad la creación de la Región Entidad Territorial, RET, Caribe",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/comision-primera-del-senado-aprueba-por-unanimidad-la-creacion-de-la-region-entidad-territorial-ret-caribe-3598689",
+      "fecha": "2026-11-05T15:37:07+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "50e52b4dcd7b336b",
+      "titulo": "Inflación en Colombia seguiría subiendo en 2026 y solo volvería a la meta del 3% durante el año 2028: Banrepública",
+      "categoria": "Economía",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/inflacion-en-colombia-seguiria-subiendo-en-2026-y-solo-volveria-a-la-meta-del-3-durante-el-ano-2028-banrepublica-505773",
+      "fecha": "2026-11-05T15:35:07+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "b5aa3525e8c9529b",
+      "titulo": "La IA ya está amenazando los cartuchos de Nintendo",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/componentes/ia-esta-amenazando-cartuchos-nintendo",
+      "fecha": "2026-11-05T15:33:04+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "7ab9835c7849d248",
+      "titulo": "'Poncho' Zuleta suspende sus presentaciones musicales tras el accidente de su hijo 'Kbeto' Zuleta: 'Necesito acompañar a mi familia'",
+      "categoria": "Tendencias",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/poncho-zuleta-suspende-sus-presentaciones-musicales-tras-el-accidente-de-su-hijo-kbeto-zuleta-necesito-acompanar-a-mi-familia-3598659",
+      "fecha": "2026-11-05T15:32:15+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "a9f8486506435c98",
+      "titulo": "La justicia rusa condena a cuatro años de cárcel a la hija del asesinado Borís Nemtsov",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/internacional/2026-11-05/la-justicia-rusa-condena-a-cuatro-anos-de-carcel-a-la-hija-del-asesinado-boris-nemtsov.html",
+      "fecha": "2026-11-05T15:30:35+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "36d011a489576a5e",
+      "titulo": "'Se enfiestaron cuatro años': Cancillería lanza mensaje sobre el consulado fantasma en Tijuana y la deuda que dejó",
+      "categoria": "Economía",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/gobierno/se-enfiestaron-cuatro-anos-cancilleria-lanza-mensaje-sobre-el-consulado-fantasma-en-tijuana-y-la-deuda-que-dejo-505769",
+      "fecha": "2026-11-05T15:30:14+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "9bc3f49d2105d57d",
+      "titulo": "Colombia busca abrir mercado en Emiratos Árabes",
+      "categoria": "Economía",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/noticias/colombia-busca-abrir-mercado-en-emiratos-arabes/",
+      "fecha": "2026-11-05T15:28:19+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "c530d11d8a078269",
+      "titulo": "Bolsa mexicana sube por tercera sesión y oscila en torno a sus máximos desde febrero",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/globoeconomia/bolsa-mexicana-sube-por-tercera-sesion-y-oscila-en-torno-a-sus-maximos-desde-febrero-4518375",
+      "fecha": "2026-11-05T15:27:10+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "e28b6abd58915901",
+      "titulo": "Reducir de 18 a 7 ministerios: la propuesta de Antioquia para ahorrar $4,5 billones de gasto estatal",
+      "categoria": "Colombia",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/gobierno/reducir-de-18-a-7-ministerios-la-propuesta-de-antioquia-para-ahorrar-4-5-billones-de-gasto-estatal-505772",
+      "fecha": "2026-11-05T15:27:02+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "c91fed067459934b",
+      "titulo": "Víctimas con “poder de veto” y otros cinco cambios que trae la Ley de Sometimiento del Gobierno",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/abelardo-de-la-espriella-asi-es-la-ley-de-sometimiento-aprobada-en-el-congreso-LF43205718",
+      "fecha": "2026-11-05T15:26:46+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "57d29a683646de36",
+      "titulo": "Tabla de posiciones Liga: Así marchan los equipos y clasificados a cuadrangulares",
+      "categoria": "Deportes",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/deportes/tabla-de-posiciones-liga-betplay-05-11-2026/",
+      "fecha": "2026-11-05T15:25:26+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "3dc6513cddf53e0d",
+      "titulo": "Davivienda recibió 4,2 millones de clientes de Davibank, en medio de la integración",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/finanzas/davivienda-ha-recibido-4-2-millones-de-clientes-de-davibank-en-medio-de-la-integracion-4518346",
+      "fecha": "2026-11-05T15:25:23+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "42b183ed89ab535f",
+      "titulo": "Radiografía de las fallas en TransMilenio: 1.442 personas se colaron en cinco minutos, reveló la Personería",
+      "categoria": "Colombia",
+      "fuente": "La FM Actualidad",
+      "url": "https://www.lafm.com.co/actualidad/colados-transmilenio-1442-personas-en-cinco-minutos-fallas-control-sistema-estaciones-portales-inspeccion-personeria-416221",
+      "fecha": "2026-11-05T15:24:37+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "219677a3849a70aa",
+      "titulo": "Una nueva oleada de falsas amenazas de bomba afecta al menos a 27 aviones con destino a ciudades europeas",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/internacional/2026-11-05/cinco-aviones-con-destino-a-ciudades-europeas-realizan-aterrizajes-de-emergencia-tras-recibir-amenazas-de-bomba.html",
+      "fecha": "2026-11-05T15:22:09+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "cffc5c8968ab99fc",
+      "titulo": "Uribismo se reúne al mediodía para discutir la tributaria de Abelardo",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/en-vivo/uribismo-se-reune-al-mediodia-para-discutir-la-tributaria-de-abelardo/",
+      "fecha": "2026-11-05T15:16:22+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "65ae28ba0381c560",
+      "titulo": "4 claves para entender la crisis de Ueno Bank en Paraguay por la que piden un juicio político al presidente Santiago Peña",
+      "categoria": "Colombia",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/cqx28zrgd0yxo?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-05T15:16:13+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "aaf089af58d29719",
+      "titulo": "El actor Ed Westwick llegará a Bogotá para presentar la nueva fragancia de Afnan Perfumes",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/ocio/el-actor-ed-westwick-llegara-a-bogota-para-presentar-la-nueva-fragancia-de-afnan-perfumes-4518359",
+      "fecha": "2026-11-05T15:15:47+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "aacd7b20b2158261",
+      "titulo": "Poncho Zuleta recibe incapacidad médica de 21 días y suspende sus presentaciones para acompañar a su hijo Kbeto tras el accidente",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/barranquilla/poncho-zuleta-recibe-incapacidad-medica-de-21-dias-y-suspende-sus-presentaciones-para-acompanar-a-su-hijo-kbeto-tras-el-accidente-3598675",
+      "fecha": "2026-11-05T15:15:26+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "f75d29a67485c8d6",
+      "titulo": "Lula decidirá sobre medidas fiscales tras sus viajes al extranjero, dice ministro de Hacienda",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/globoeconomia/lula-decidira-sobre-medidas-fiscales-tras-sus-viajes-al-extranjero-dice-ministro-de-hacienda-4518361",
+      "fecha": "2026-11-05T15:15:20+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "1c196ff4b4aeb66a",
+      "titulo": "Sin factura electrónica también habría devolución del IVA: MinHacienda explica el mecanismo",
+      "categoria": "Economía",
+      "fuente": "La FM Economía",
+      "url": "https://www.lafm.com.co/economia/efectiva-devolucion-iva-sin-factura-electronica-beneficiarios-pagos-416220",
+      "fecha": "2026-11-05T15:14:26+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "8094e856949d705e",
+      "titulo": "El actor y comediante británico Russell Brand es declarado culpable de violación y agresión sexual",
+      "categoria": "Internacional",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/cm86zx85y5pyo?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-05T15:12:11+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "33098376890cd660",
+      "titulo": "Ordenan inspección a Secretaría del Senado para reunir información de los contratos de Deicy Jiménez",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/ordenan-inspeccion-secretaria-senado-reunir-informacion-contratos-deicy-jimenez-DE43214171",
+      "fecha": "2026-11-05T15:09:18+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "72fee73fd521a996",
+      "titulo": "Hammack, de la Fed, aboga por una trayectoria gradual de alza de tasas para desacelerar la inflación",
+      "categoria": "Economía",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/globoeconomia/hammack-de-la-fed-aboga-por-una-trayectoria-gradual-de-alza-de-tasas-para-desacelerar-la-inflacion-4518349",
+      "fecha": "2026-11-05T15:08:32+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "9a50a2e3c62524be",
+      "titulo": "Video | Así fue el empate entre Millonarios y América; noche fría en la capital",
+      "categoria": "Valle del Cauca",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/deportes/america-de-cali/empate-millonarios-y-america-de-cali-05-11-2026/",
+      "fecha": "2026-11-05T15:08:14+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "4055c34e95e4faf6",
+      "titulo": "Colapsó muro de una edificación en proceso de demolición en el barrio Sucre",
+      "categoria": "Valle del Cauca",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/cali/colapso-muro-edificacion-proceso-demolicion-sucre-cali-5-11-2026/",
+      "fecha": "2026-11-05T15:07:44+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "02f48c95e969b023",
+      "titulo": "CAF colocó en la Bolsa de Colombia un bono verde por $51.000 millones a cinco años",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/finanzas/caf-coloco-en-la-bolsa-de-colombia-un-bono-verde-por-51-000-millones-a-cinco-anos-4518340",
+      "fecha": "2026-11-05T15:06:30+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "ede021f2e87e89af",
+      "titulo": "¿Cómo sigue Kbeto Zuleta? Entre oraciones, homenajes y mensajes de apoyo, el vallenato sigue de cerca la recuperación del artista en Barranquilla",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/barranquilla/como-sigue-kbeto-zuleta-entre-oraciones-homenajes-y-mensajes-de-apoyo-el-vallenato-sigue-de-cerca-la-recuperacion-del-artista-en-barranquilla-3598667",
+      "fecha": "2026-11-05T15:05:46+00:00",
+      "imagen": ""
+    },
     {
       "id": "973b41714766c2d3",
       "titulo": "¿Cuándo pagan la prima de diciembre de 2026 y cuánto recibirá quien gana un salario mínimo?",
@@ -8,6 +404,24 @@
       "fuente": "Portafolio",
       "url": "https://www.portafolio.co/economia/empleo/cuando-pagan-la-prima-de-diciembre-de-2026-y-cuanto-recibira-quien-gana-un-salario-minimo-505766",
       "fecha": "2026-11-05T15:02:41+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "31e0edc5714f148d",
+      "titulo": "Empezó a boxear a los 9 años en Barranquilla y la pandemia lo bajó del ring: el patrullero que enseña a pelear a niños de pueblos del Atlántico",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/barranquilla/empezo-a-boxear-a-los-9-anos-en-barranquilla-y-la-pandemia-lo-bajo-del-ring-el-patrullero-que-ensena-a-pelear-a-ninos-de-pueblos-del-atlantico-3598650",
+      "fecha": "2026-11-05T15:01:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "432465d7ce2aa7c1",
+      "titulo": "El protocolo de Adif cuando se avisa de fallos \"débiles\" en las vías: utilizar trenes con pasajeros para detectarlos",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/movilidad/protocolo-adif-cuando-se-avisa-fallos-debiles-vias-utilizar-trenes-pasajeros-para-detectarlos",
+      "fecha": "2026-11-05T15:00:00+00:00",
       "imagen": ""
     },
     {
@@ -20,6 +434,24 @@
       "imagen": ""
     },
     {
+      "id": "57c12a7b789da806",
+      "titulo": "Cancillería reacciona a supuesto despilfarro del Gobierno Petro con consulado en México: “Nos dejaron el guayabo y la cuenta sin pagar”",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/cancilleria-queja-por-despilfarro-consulado-tijuana-mexico-gobierno-gustavo-petro-GF43209971",
+      "fecha": "2026-11-05T14:52:03+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "c2284a91cbf168eb",
+      "titulo": "Operación Iron 2.0: cerca de 2.000 integrantes de la Policía, el Ejército y la Fiscalía participaron en ofensiva contra estructuras criminales en Cali",
+      "categoria": "Cali",
+      "fuente": "El Tiempo Cali",
+      "url": "https://www.eltiempo.com/colombia/cali/operacion-iron-2-0-cerca-de-2-000-uniformados-de-la-policia-el-ejercito-y-la-fiscalia-participan-en-ofensiva-contra-estructuras-criminales-en-cali-3598614",
+      "fecha": "2026-11-05T14:51:06+00:00",
+      "imagen": ""
+    },
+    {
       "id": "ed08045fa920238e",
       "titulo": "Operación IRON 2.0 deja más de 100 capturados y 11 estructuras criminales desarticuladas en Cali",
       "categoria": "Cali",
@@ -29,21 +461,12 @@
       "imagen": ""
     },
     {
-      "id": "ede021f2e87e89af",
-      "titulo": "¿Cómo sigue Kbeto Zuleta? Entre oraciones, homenajes y mensajes de apoyo, el vallenato sigue de cerca la recuperación del artista en Barranquilla",
+      "id": "100708edb5e07a3f",
+      "titulo": "Hospital San Juan de Dios asegura que le llegó la hoja de vida de Deicy Jiménez: “No se avanzó en su nombramiento”",
       "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/barranquilla/como-sigue-kbeto-zuleta-entre-oraciones-homenajes-y-mensajes-de-apoyo-el-vallenato-sigue-de-cerca-la-recuperacion-del-artista-en-barranquilla-3598667",
-      "fecha": "2026-11-05T14:40:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "f0307cccb056b0e8",
-      "titulo": "El Hospital Alma Mater de Antioquia enfrenta una grave crisis por deudas de mas de 455.000 millones de pesos: 522 profesionales han renunciado",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/medellin/el-hospital-alma-mater-de-antioquia-enfrenta-una-grave-crisis-por-deudas-de-mas-de-455-000-millones-de-pesos-522-profesionales-han-renunciado-3598665",
-      "fecha": "2026-11-05T14:32:49+00:00",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/hoja-vida-deicy-jimenez-hospital-san-juan-de-dios-KE43210974",
+      "fecha": "2026-11-05T14:37:55+00:00",
       "imagen": ""
     },
     {
@@ -53,15 +476,6 @@
       "fuente": "Xataka",
       "url": "https://www.xataka.com/analisis/macbook-pro-m6-analisis-portatil-estupendo-que-exige-responder-dos-preguntas-antes-comprarlo",
       "fecha": "2026-11-05T14:32:19+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "7ab9835c7849d248",
-      "titulo": "'Poncho' Zuleta suspende sus presentaciones musicales tras el accidente de su hijo 'Kbeto' Zuleta: 'Necesito acompañar a mi familia'",
-      "categoria": "Tendencias",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/poncho-zuleta-suspende-sus-presentaciones-musicales-tras-el-accidente-de-su-hijo-kbeto-zuleta-necesito-acompanar-a-mi-familia-3598659",
-      "fecha": "2026-11-05T14:32:11+00:00",
       "imagen": ""
     },
     {
@@ -110,12 +524,12 @@
       "imagen": ""
     },
     {
-      "id": "100708edb5e07a3f",
-      "titulo": "Hospital San Juan de Dios asegura que le llegó la hoja de vida de Deicy Jiménez: “No se avanzó en su nombramiento”",
+      "id": "ba667741dd1080e7",
+      "titulo": "La Policía identifica en la frontera con Marruecos a dos altos cargos de las fuerzas marroquíes el día del asalto masivo",
       "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/hoja-vida-deicy-jimenez-hospital-san-juan-de-dios-KE43210974",
-      "fecha": "2026-11-05T14:25:10+00:00",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/espana/2026-11-05/la-policia-identifica-en-la-frontera-con-marruecos-a-dos-altos-cargos-de-las-fuerzas-marroquies-el-dia-del-asalto-masivo.html",
+      "fecha": "2026-11-05T14:20:14+00:00",
       "imagen": ""
     },
     {
@@ -125,420 +539,6 @@
       "fuente": "DW Español",
       "url": "https://www.dw.com/es/huelga-nacional-en-francia-270-000-manifestantes-hasta-el-mediodía/a-79865967?maca=spa-rss-sp-all-1122-rdf",
       "fecha": "2026-11-05T14:18:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "0a5d99b01e613370",
-      "titulo": "Exasesor de Trump anticipa qué pasará con Colombia tras la dura derrota electoral en el Congreso",
-      "categoria": "Internacional",
-      "fuente": "La FM Actualidad",
-      "url": "https://www.lafm.com.co/actualidad/exasesor-de-trump-anticipa-que-pasara-con-colombia-tras-la-dura-derrota-electoral-en-el-congreso-416208",
-      "fecha": "2026-11-05T14:15:57+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "dd2e4f9b584e7c54",
-      "titulo": "Llega a Action (por 19,99 euros) esta solución 8 en 1 para cargar teléfonos, portátiles y más dispositivos a la vez",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/seleccion/llega-a-action-19-99-euros-esta-solucion-8-1-para-cargar-telefonos-portatiles-dispositivos-a-vez",
-      "fecha": "2026-11-05T14:15:06+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "4f3d3a93d53a985f",
-      "titulo": "Tribunal ordena mantener suspendida la aspersión aérea con glufosinato de amonio en Putumayo",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/tribunal-ordena-mantener-suspendida-aspersion-aerea-glufosinato-amonio-putumayo-por-que-PF43209161",
-      "fecha": "2026-11-05T14:13:10+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "c308275a0951c512",
-      "titulo": "Congreso paraguayo inicia sesión para debatir proceso de juicio político al presidente Peña",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/congreso-paraguayo-inicia-sesion-para-debatir-proceso-de-juicio-politico-al-presidente-pena-4518271",
-      "fecha": "2026-11-05T14:06:05+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "406de234344351ae",
-      "titulo": "Qualcomm busca fuera del móvil lo que le quita la crisis de la memoria: coches, IA y antenas para SpaceX",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/empresas-y-economia/qualcomm-busca-fuera-movil-que-le-quita-crisis-memoria-coches-ia-antenas-para-spacex",
-      "fecha": "2026-11-05T14:00:27+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "712452e3e1bf2368",
-      "titulo": "Tres sillas y un país: lo que nos deja Antonio Navarro",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/red-de-expertos/red-social/tres-sillas-y-un-pais-lo-que-nos-deja-antonio-navarro/",
-      "fecha": "2026-11-05T14:00:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "a7c823ae0baec835",
-      "titulo": "Gobernadora del Tolima denuncia que la minería ilegal entrega hasta el 15 % de sus ganancias a las disidencias",
-      "categoria": "Colombia",
-      "fuente": "La FM Actualidad",
-      "url": "https://www.lafm.com.co/actualidad/gobernadora-tolima-denuncia-mineria-ilegal-entrega-15-ganancias-disidencias-416197",
-      "fecha": "2026-11-05T13:55:50+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "6ad17c6897cad9ab",
-      "titulo": "Tribunal mantiene suspendido el piloto de aspersión aérea en Putumayo",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/en-vivo/tribunal-mantiene-suspendido-el-piloto-de-aspersion-aerea-en-putumayo/",
-      "fecha": "2026-11-05T13:53:15+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "71c99ed8bacf5331",
-      "titulo": "Presidente Santiago Peña se enfrentará a juicio político por escándalo y quiebra del banco más grande de Paraguay",
-      "categoria": "Economía",
-      "fuente": "La FM Internacional",
-      "url": "https://www.lafm.com.co/internacional/banco-ueda-paraguay-juicio-politico-presidente-santiago-pena-416207",
-      "fecha": "2026-11-05T13:52:03+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "dcbe0cb5ed1f51c0",
-      "titulo": "Anthropic sale a bolsa advirtiendo sobre riesgos existenciales de su propia Inteligencia Artificial",
-      "categoria": "Tecnología",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/anthropic-sale-a-bolsa-advirtiendo-sobre-riesgos-existenciales-de-su-propia-inteligencia-artificial-4518228",
-      "fecha": "2026-11-05T13:51:44+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "d7722b58fc63b23a",
-      "titulo": "El crimen de una joven colombiana en Noruega a manos de su futuro esposo: familia clama al Gobierno De La Espriella repatriar el cuerpo",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/el-crimen-de-una-joven-colombiana-en-noruega-a-manos-de-su-futuro-esposo-familia-clama-al-gobierno-de-la-espriella-repatriar-el-cuerpo-3598622",
-      "fecha": "2026-11-05T13:49:43+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "f99e2db7efd80c8a",
-      "titulo": "ConTexto Ganadero, Cálmate Inda",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/analisis/juan-pablo-pineda-4518245/contexto-ganadero-calmate-inda-4518240",
-      "fecha": "2026-11-05T13:49:43+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "c6492d129b6b3b5c",
-      "titulo": "Feid prepara su regreso a los escenarios en 2027 con su nueva gira 'The Green Star Tour'",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/ocio/feid-prepara-su-regreso-a-los-escenarios-en-2027-con-the-green-star-tour-4518239",
-      "fecha": "2026-11-05T13:49:13+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "6990f73926f3d979",
-      "titulo": "Pronóstico del clima en Cali: ¿Lloverá este jueves en la ciudad?",
-      "categoria": "Cali",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/vida-moderna/ecologia/pronostico-del-clima-en-cali-jueves-05-11-2026/",
-      "fecha": "2026-11-05T13:47:46+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "08144b537c479f5b",
-      "titulo": "Apple quiere que Siri IA esté en todas partes. Al mismo tiempo, limita a 200 dólares el gasto de tokens para sus empleados",
-      "categoria": "Tecnología",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/robotica-e-ia/apple-quiere-que-siri-ia-este-todas-partes-al-tiempo-limita-a-200-dolares-gasto-tokens-para-sus-empleados",
-      "fecha": "2026-11-05T13:46:34+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "ead025112b9cbe22",
-      "titulo": "Solo la aprobación completa de la Ley de Rescate devolvería el superávit primario en 2030",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/economia/solo-la-aprobacion-completa-de-la-ley-de-rescate-devolveria-el-superavit-primario-en-2030-4518173",
-      "fecha": "2026-11-05T13:44:29+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "95093d7ef0ecdfef",
-      "titulo": "Francia afronta este jueves una jornada de protestas con sindicatos, estudiantes y chalecos amarillos",
-      "categoria": "Internacional",
-      "fuente": "La FM Internacional",
-      "url": "https://www.lafm.com.co/internacional/jornada-protestas-francia-jueves-5-noviembres-paris-sindicatos-jovenes-416204",
-      "fecha": "2026-11-05T13:41:30+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "72b318696019e257",
-      "titulo": "Envían a prisión a exsecretario de Hacienda de Sabanalarga, Antioquia, acusado de apropiarse de $2.376 millones: habría inflado su propia nómina",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/medellin/envian-a-prision-a-exsecretario-de-hacienda-de-antioquia-acusado-de-apropiarse-de-2-376-millones-habria-inflado-su-propia-nomina-3598636",
-      "fecha": "2026-11-05T13:41:27+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "014d9b7b884a4c72",
-      "titulo": "Banco Agrario lanzó convocatoria para asamblea extraordinaria de accionistas",
-      "categoria": "Economía",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/finanzas/banco-agrario-lanza-convocatoria-para-asamblea-extraordinaria-de-accionistas-4518198",
-      "fecha": "2026-11-05T13:39:36+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "a6027190ad306c1a",
-      "titulo": "Murió Julio Carrizosa Umaña, padre del ambientalismo colombiano e impulsor de 17 parques nacionales",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/muerte-julio-carrizosa-umana-ambientalista-impulsor-parques-nacionales-DF43209219",
-      "fecha": "2026-11-05T13:38:29+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "97ea35e9eb689aba",
-      "titulo": "Precio del dólar hoy en Colombia: así está la moneda el 5 de noviembre",
-      "categoria": "Economía",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/vida-moderna/precio-del-dolar-hoy-colombia-05-11-2026/",
-      "fecha": "2026-11-05T13:35:44+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "34eb99329a4dfbab",
-      "titulo": "Arroyos desbordados, víctimas fatales y una menor desaparecida: el impacto de un aguacero que podría repetirse en Barranquilla y el Atlántico",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/barranquilla/arroyos-desbordados-victimas-fatales-y-una-menor-desaparecida-el-impacto-de-un-aguacero-que-podria-repetirse-en-barranquilla-y-el-atlantico-3598645",
-      "fecha": "2026-11-05T13:35:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "c3baace5b1e42e8d",
-      "titulo": "Producción de cobre de chilena Codelco cerrará este año \"más cerca\" de 1,2 millones de toneladas",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/produccion-de-cobre-de-chilena-codelco-cerrara-este-ano-mas-cerca-de-1-2-millones-de-toneladas-4518211",
-      "fecha": "2026-11-05T13:32:39+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "8ca42622df1bfb00",
-      "titulo": "VENTA CASA",
-      "categoria": "Colombia",
-      "fuente": "La Patria — Caldas",
-      "url": "https://www.lapatria.com/clasificados/venta-casa-99",
-      "fecha": "2026-11-05T13:32:10+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "24682a9ca722c3cd",
-      "titulo": "Hay tres borrascas bailando en el Atlántico y solo puede quedar una: la que decidirá que pasa este fin de semana en España",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/ecologia-y-naturaleza/hay-tres-borrascas-bailando-atlantico-solo-puede-quedar-que-decidira-que-pasa-este-fin-semana-espana",
-      "fecha": "2026-11-05T13:30:35+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "47fe02afdb4e7f9b",
-      "titulo": "venta taxi",
-      "categoria": "Colombia",
-      "fuente": "La Patria — Caldas",
-      "url": "https://www.lapatria.com/clasificados/venta-taxi-0",
-      "fecha": "2026-11-05T13:29:47+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "4f369b0c33b03df9",
-      "titulo": "VENTA PARQUEADERO",
-      "categoria": "Colombia",
-      "fuente": "La Patria — Caldas",
-      "url": "https://www.lapatria.com/clasificados/venta-parqueadero-5",
-      "fecha": "2026-11-05T13:28:09+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "219677a3849a70aa",
-      "titulo": "Una nueva oleada de falsas amenazas de bomba afecta al menos a 20 aviones con destino a ciudades europeas",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/internacional/2026-11-05/cinco-aviones-con-destino-a-ciudades-europeas-realizan-aterrizajes-de-emergencia-tras-recibir-amenazas-de-bomba.html",
-      "fecha": "2026-11-05T13:27:12+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "25ba325b2f79f824",
-      "titulo": "EMPLEO",
-      "categoria": "Economía",
-      "fuente": "La Patria — Caldas",
-      "url": "https://www.lapatria.com/clasificados/empleo-119",
-      "fecha": "2026-11-05T13:22:50+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "270c661098d82068",
-      "titulo": "Amplían por un mes más plan piloto de movilidad en la calle 13: tiempos de ingreso a Bogotá bajaron 53,7 %",
-      "categoria": "Colombia",
-      "fuente": "La FM Actualidad",
-      "url": "https://www.lafm.com.co/actualidad/amplian-un-mes-plan-piloto-ingreso-bogota-calle-13-tiempos-ingreso-bajaron-53-autoridades-transito-avenida-esperanza-mosquera-416202",
-      "fecha": "2026-11-05T13:21:27+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "f948432937381708",
-      "titulo": "Fasecolda reportó $180.000 millones más en pagos por el terremoto de agosto",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/finanzas/el-sector-asegurador-pago-180-000-millones-mas-en-octubre-por-el-sismo-de-agosto-4518154",
-      "fecha": "2026-11-05T13:18:43+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "3438774d2395e89b",
-      "titulo": "Tecnoglass logró ventas de US$310,6 millones en el tercer trimestre, pero utilidad cayó 51,8%",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/empresas/tecnoglass-logro-ventas-de-us-310-6-millones-en-el-tercer-trimestre-pero-su-utilidad-cayo-51-8-4518156",
-      "fecha": "2026-11-05T13:11:05+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "8fd198e9e601ea80",
-      "titulo": "Pereira define cómo retirar edificios en riesgo",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/noticias/risaralda/pereira/pereira-define-como-retirar-edificios-en-riesgo/",
-      "fecha": "2026-11-05T13:07:56+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "7df56910443a043f",
-      "titulo": "El Banco de Inglaterra sube de nuevo los tipos de interés por unanimidad",
-      "categoria": "Economía",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/el-banco-de-inglaterra-sube-de-nuevo-los-tipos-de-interes-por-unanimidad-4518162",
-      "fecha": "2026-11-05T13:07:14+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "92f0bddf4f3c64d2",
-      "titulo": "Dólar cotiza $2,61 a la baja mientras el mercado espera los datos de empleo de Estados Unidos",
-      "categoria": "Economía",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/finanzas/precio-del-dolar-y-petroleo-hoy-5-de-noviembre-4518099",
-      "fecha": "2026-11-05T13:05:30+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "0da04eb9adf6f31b",
-      "titulo": "Fallas en el control aéreo encienden alertas sobre la seguridad de la operación",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/empresas/fallas-en-el-control-aereo-encienden-alertas-sobre-la-seguridad-de-la-operacion-4518093",
-      "fecha": "2026-11-05T13:04:57+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "56a35278d7671fb9",
-      "titulo": "MediaMarkt agota la solución para instalar los 212 GB de 'GTA VI' en Xbox Series sin borrar otros juegos, pero aquí hay otra opción aún mejor",
-      "categoria": "Tendencias",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/seleccion/mediamarkt-agota-solucion-para-instalar-212-gb-gta-vi-xbox-series-borrar-otros-juegos-aqui-hay-otra-opcion-mejor",
-      "fecha": "2026-11-05T13:04:36+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "cb19d365d3bd6761",
-      "titulo": "Colombia se prepara para un fuerte fenómeno de El Niño: estas son las fechas clave",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/noticias/colombia-se-prepara-para-un-fuerte-fenomeno-de-el-nino-estas-son-las-fechas-clave/",
-      "fecha": "2026-11-05T13:03:24+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "05c145a0cace3d2e",
-      "titulo": "Ministerio de Cultura anuncia desembolsos por más de $63.000 millones para el sector cultural",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/ocio/mincultura-anuncia-desembolsos-por-mas-de-63-000-millones-para-el-sector-cultural-4518155",
-      "fecha": "2026-11-05T13:02:28+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "9efb46cfa0e66b3f",
-      "titulo": "7.000 mAh en menos de 8 mm: el Motorola Signature 27 demuestra que fino ya no significa poca batería",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/telefono-movil/motorola-signature-27-caracteristicas-precio-ficha-tecnica",
-      "fecha": "2026-11-05T13:02:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "a2b9ca68ba341739",
-      "titulo": "“No es una prueba”: defensa de Petro sobre video de Deicy Jiménez",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/en-vivo/no-es-una-prueba-defensa-de-petro-sobre-video-de-deicy-jimenez/",
-      "fecha": "2026-11-05T13:01:20+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "9739c0e820e72d52",
-      "titulo": "Anthropic toma medidas drásticas contra los clones de videojuegos de IA hechos con Claude",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/videojuegos/anthropic-toma-medidas-drasticas-clones-videojuegos-ia-hechos-claude-esta-ver-que-sirva-para-algo",
-      "fecha": "2026-11-05T13:00:35+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "213aa6d3b82d5e8e",
-      "titulo": "¿Qué delitos podría enfrentar Petro por presuntos contratos a cambio de favores sexuales?",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/gustavo-petro-delitos-contratos-favores-sexuales-cuales-son-IF43208642",
-      "fecha": "2026-11-05T13:00:08+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "897705ffc9b6f268",
-      "titulo": "Republicanos eligen un chivo expiatorio tras la derrota en las elecciones: Pete Hegseth",
-      "categoria": "Internacional",
-      "fuente": "La FM Internacional",
-      "url": "https://www.lafm.com.co/internacional/pete-hegseth-secretario-guerra-estados-unidos-chivo-expiatorio-partido-republicano-416201",
-      "fecha": "2026-11-05T12:56:21+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "cc5a2389868406f8",
-      "titulo": "¿Hay riesgo de ébola en Colombia? MinSalud entrega balance de pacientes y contactos bajo vigilancia",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/noticias/hay-riesgo-de-ebola-en-colombia-minsalud-entrega-balance-de-pacientes-y-contactos-bajo-vigilancia/",
-      "fecha": "2026-11-05T12:56:19+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "b1ae7aee8c63014b",
-      "titulo": "Junta Directiva de Fedegán respalda a Lafaurie tras enfrentamiento con el ministro de Agricultura",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/gobierno/junta-directiva-de-fedegan-respalda-a-lafaurie-tras-enfrentamiento-con-el-ministro-de-agricultura-505754",
-      "fecha": "2026-11-05T12:52:13+00:00",
       "imagen": ""
     }
   ],
@@ -553,7 +553,7 @@
       "nombre": "El Tiempo Cali",
       "url": "https://www.eltiempo.com/rss/colombia_cali.xml",
       "estado": "correcto",
-      "titulares": 7
+      "titulares": 8
     },
     {
       "nombre": "El Espectador",
@@ -590,7 +590,7 @@
       "nombre": "BBC Mundo",
       "url": "https://feeds.bbci.co.uk/mundo/rss.xml",
       "estado": "correcto",
-      "titulares": 28
+      "titulares": 27
     },
     {
       "nombre": "DW Español",
