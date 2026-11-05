@@ -56,8 +56,14 @@
         "dominios_independientes": 1,
         "fecha": "2026-11-05T12:01:56.591258+00:00"
       },
-      "imagen": "",
-      "imagen_credito": {},
+      "imagen": "https://raw.githubusercontent.com/7zkm57snty-dev/noti/main/assets/editorial-news/9a9926a3-68d9-4114-9296-5b6506eeba6e.webp",
+      "imagen_credito": {
+        "autor": "Alcaldía de cali",
+        "fuente": "Alcaldía de cali",
+        "pagina": "https://www.cali.gov.co/info/caligovco_se/media/pubInt/thumbs/thpubInt_700X400_195262.webp",
+        "licencia": "CC",
+        "licencia_url": "https://www.cali.gov.co/info/caligovco_se/media/pubInt/thumbs/thpubInt_700X400_195262.webp"
+      },
       "imagen_busqueda_intentada": true,
       "imagen_instagram": "https://cevnoticias.com/social/b4e151f83b9eee52.jpg",
       "imagen_instagram_tipo": "portada_grafica_cev",
