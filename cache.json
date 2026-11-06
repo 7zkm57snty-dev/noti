@@ -103,13 +103,19 @@
         "dominios_independientes": 3,
         "fecha": "2026-11-05T14:39:36.720289+00:00"
       },
-      "imagen": "",
-      "imagen_credito": {},
+      "imagen": "https://raw.githubusercontent.com/7zkm57snty-dev/noti/main/assets/editorial-news/6ffcbf32-a707-4568-8dca-e771885df569.jpg",
+      "imagen_credito": {
+        "autor": "Info bae",
+        "fuente": "Info bae",
+        "pagina": "https://cloudfront-us-east-1.images.arcpublishing.com/infobae/LP4EQJZ2R5CS7DWDCUFFQ7AZDU.jpg",
+        "licencia": "CC",
+        "licencia_url": "https://cloudfront-us-east-1.images.arcpublishing.com/infobae/LP4EQJZ2R5CS7DWDCUFFQ7AZDU.jpg"
+      },
       "imagen_busqueda_intentada": true,
       "imagen_instagram": "https://cevnoticias.com/social/f522dbdd2341a559.jpg",
       "imagen_instagram_tipo": "portada_grafica_cev",
       "descripcion_instagram": "Director de Villahermosa denuncia amenazas de muerte y pide intervención de la Personería de Cali\\n\\nEl director de la cárcel Villahermosa, Jesús Alberto Córdoba Campos, ha informado a la Personería de Cali sobre amenazas de muerte dirigidas a él, su familia y al personal penitenciario. La entidad de control activará rutas de protección y solicitará la intervención de la Unidad Nacional de Protección (UNP) tras la modificación del esquema de seguridad del director, que dejó sin vehículo y escoltas a la persona con riesgo extraordinario. El caso se enmarca en una serie de homicidios recientes de funcionarios del Instituto Nacional Penitenciario y Carcelario (Inpec) en la ciudad.\\n\\nLee la noticia completa en cevnoticias.com.\\n\\n#CEVNoticias #Actualidad #Cali #ValleDelCauca",
-      "verificacion": "Varias fuentes independientes",
+      "verificacion": "Fuentes independientes",
       "fecha": "05/11/2026 · 09:39 AM",
       "fuentes": [
         {
@@ -121,11 +127,6 @@
           "nombre": "El Tiempo Cali",
           "titulo": "La carta del director de la cárcel de Villahermosa de Cali sobre amenazas de muerte contra él y su familia: 'El próximo comunicado no es con nota'",
           "url": "https://www.eltiempo.com/colombia/cali/la-carta-del-director-de-la-carcel-de-villahermosa-de-cali-sobre-amenazas-de-muerte-contra-el-y-su-familia-el-proximo-comunicado-no-es-con-nota-3598336"
-        },
-        {
-          "nombre": "El Colombiano — Colombia",
-          "titulo": "Gobierno denuncia amenazas contra director del Dapre tras acusaciones de “sexocontratos” a Petro",
-          "url": "https://www.elcolombiano.com/colombia/gobierno-denuncia-amenazas-carlos-rios-caso-sexocontratos-petro-PD43158698"
         }
       ]
     },
