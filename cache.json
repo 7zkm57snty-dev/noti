@@ -20,13 +20,19 @@
         "dominios_independientes": 2,
         "fecha": "2026-11-06T03:23:47.435684+00:00"
       },
-      "imagen": "",
-      "imagen_credito": {},
+      "imagen": "https://raw.githubusercontent.com/7zkm57snty-dev/noti/main/assets/editorial-news/b70518b4-e2a1-4de5-af48-9063663763eb.jpg",
+      "imagen_credito": {
+        "autor": "Rtve",
+        "fuente": "Rtve",
+        "pagina": "https://img.rtve.es/n/17090953",
+        "licencia": "CC",
+        "licencia_url": "https://img.rtve.es/n/17090953"
+      },
       "imagen_busqueda_intentada": true,
       "imagen_instagram": "https://cevnoticias.com/social/611b553a27528071.jpg",
       "imagen_instagram_tipo": "portada_grafica_cev",
       "descripcion_instagram": "Enfrentamientos entre el Ejército y disidencias de las Farc dejan a la población de Timba en confinamiento\\n\\nEl jueves 5 de noviembre, tropas del Ejército Nacional se enfrentaron a integrantes de la estructura ‘Jaime Martínez’ en el corregimiento de Timba, Buenos Aires, Norte del Cauca. La operación, que contó con más de 250 uniformados, tanquetas y helicópteros, culminó con la muerte de un soldado y la supuesta muerte de un cabecilla de la organización. La población local se vio obligada a permanecer en sus viviendas mientras los combates se desarrollaban.\\n\\nLee la noticia completa en cevnoticias.com.\\n\\n#CEVNoticias #Actualidad #Colombia",
-      "verificacion": "Varias fuentes independientes",
+      "verificacion": "Fuentes independientes",
       "fecha": "05/11/2026 · 10:23 PM",
       "fuentes": [
         {
