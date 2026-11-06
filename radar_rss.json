@@ -1,5 +1,5 @@
 {
-  "ultima_actualizacion": "2026-11-06T07:25:04.587203+00:00",
+  "ultima_actualizacion": "2026-11-06T08:36:39.337552+00:00",
   "titulares_rss": [
     {
       "id": "89dc688081c894aa",
@@ -7,7 +7,61 @@
       "categoria": "Colombia",
       "fuente": "BBC Mundo",
       "url": "https://www.bbc.co.uk/mundo/live/cmgr8vrv5w55t?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-06T07:25:04.587203+00:00",
+      "fecha": "2026-11-06T08:36:39.337552+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "cfbe3a8e8040f160",
+      "titulo": "China ha construido una criatura marina de 40.000 toneladas con alma de portaaviones. Su secreto apunta al mayor dolor de cabeza de EEUU",
+      "categoria": "Internacional",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/magnet/china-ha-construido-criatura-marina-40-000-toneladas-alma-portaaviones-su-secreto-apunta-al-mayor-dolor-cabeza-eeuu",
+      "fecha": "2026-11-06T08:01:07+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "357c1324244adc78",
+      "titulo": "¡Ojo, conductores! Pico y placa en Pereira para este viernes 6 de noviembre: revise si su carro o moto tiene restricción",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/ojo-conductores-pico-y-placa-en-pereira-para-este-viernes-6-de-noviembre-revise-si-su-carro-o-moto-tiene-restriccion-3598768",
+      "fecha": "2026-11-06T07:30:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "04267b106dca95a7",
+      "titulo": "¡Evite multas, conductor! Pico y placa en Bucaramanga para este viernes 6 de noviembre de 2026: estos vehículos no pueden circular",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/santander/evite-multas-conductor-pico-y-placa-en-bucaramanga-para-este-viernes-6-de-noviembre-de-2026-estos-vehiculos-no-pueden-circular-3598767",
+      "fecha": "2026-11-06T07:30:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "8473c0017390223c",
+      "titulo": "¡Pilas, conductor! Pico y placa en Cali para el viernes 6 de noviembre de 2026: placas y horarios de la restricción",
+      "categoria": "Cali",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/cali/pilas-conductor-pico-y-placa-en-cali-para-el-viernes-6-de-noviembre-de-2026-placas-y-horarios-de-la-restriccion-3598765",
+      "fecha": "2026-11-06T07:30:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "a45003c6bc357df2",
+      "titulo": "Pico y placa en Medellín para el viernes 6 de noviembre de 2026: placas que tienen restricción y horarios",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/medellin/pico-y-placa-en-medellin-para-el-viernes-6-de-noviembre-de-2026-placas-que-tienen-restriccion-y-horarios-3598700",
+      "fecha": "2026-11-06T07:30:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "66d1a55a460fc533",
+      "titulo": "El Papa parte hacia Latinoamérica",
+      "categoria": "Internacional",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/el-papa-parte-hacia-latinoamérica/a-79872212?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-06T07:20:00+00:00",
       "imagen": ""
     },
     {
@@ -485,60 +539,6 @@
       "fuente": "El Diario — Pereira",
       "url": "https://www.eldiario.com.co/opinion/cual-es-la-solucion-a-las-chimeneas-andantes/",
       "fecha": "2026-11-06T05:00:22+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "ee5fc373d4c3c89e",
-      "titulo": "Lo hallaron muerto en el baño de la cárcel",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/judicial/lo-hallaron-muerto-en-el-bano-de-la-carcel/",
-      "fecha": "2026-11-06T05:00:16+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "a3eb0b5c4f58616e",
-      "titulo": "La Feria del Libro 2026",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/editorial/la-feria-del-libro-2026/",
-      "fecha": "2026-11-06T05:00:05+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "644405a282567750",
-      "titulo": "Cayeron cinco de ‘La Nueva Generación’ con fusiles y granada",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/judicial/cayeron-cinco-de-la-nueva-generacion-con-fusiles-y-granada/",
-      "fecha": "2026-11-06T05:00:04+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "c99c3b6978f574fd",
-      "titulo": "Ánderson Osorio Aguirre se graduó como abogado y celebra este logro junto a su familia y amigos",
-      "categoria": "Colombia",
-      "fuente": "La Patria — Caldas",
-      "url": "https://www.lapatria.com/galerias/anderson-osorio-aguirre-se-graduo-como-abogado-y-celebra-este-logro-junto-su-familia-y",
-      "fecha": "2026-11-06T05:00:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "4d295da21eec01c5",
-      "titulo": "Cupcakes de Halloween: así despertaron su creatividad los niños en un taller de LA PATRIA",
-      "categoria": "Colombia",
-      "fuente": "La Patria — Caldas",
-      "url": "https://www.lapatria.com/galerias/cupcakes-de-halloween-asi-despertaron-su-creatividad-los-ninos-en-un-taller-de-la-patria",
-      "fecha": "2026-11-06T05:00:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "da1800d13dbad1cf",
-      "titulo": "Flow Caldas: el grupo de la Universidad de Caldas que conquistó el campeonato nacional de danzas urbanas",
-      "categoria": "Colombia",
-      "fuente": "La Patria — Caldas",
-      "url": "https://www.lapatria.com/galerias/flow-caldas-el-grupo-de-la-universidad-de-caldas-que-conquisto-el-campeonato-nacional-de",
-      "fecha": "2026-11-06T05:00:00+00:00",
       "imagen": ""
     }
   ],
