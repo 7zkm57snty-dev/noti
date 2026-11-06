@@ -1,5 +1,5 @@
 {
-  "ultima_actualizacion": "2026-11-06T08:36:39.337552+00:00",
+  "ultima_actualizacion": "2026-11-06T09:37:06.392269+00:00",
   "titulares_rss": [
     {
       "id": "89dc688081c894aa",
@@ -7,7 +7,169 @@
       "categoria": "Colombia",
       "fuente": "BBC Mundo",
       "url": "https://www.bbc.co.uk/mundo/live/cmgr8vrv5w55t?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-06T08:36:39.337552+00:00",
+      "fecha": "2026-11-06T09:37:06.392269+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "c92429965f86d14b",
+      "titulo": "España ha desperdiciado tanta energía renovable este año como la que consumen casi dos millones de hogares",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/energia/espana-ha-desperdiciado-tanta-energia-renovable-este-ano-como-que-consumen-casi-dos-millones-hogares",
+      "fecha": "2026-11-06T09:31:05+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "725bc6e3389524b2",
+      "titulo": "‘Mr. Taxes’, exdirector de la DIAN: “Antes de ponerle IVA al café, pongámosle al petróleo”",
+      "categoria": "Economía",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/america-colombia/2026-11-06/mr-taxes-exdirector-de-la-dian-antes-de-ponerle-iva-al-cafe-pongamosle-al-petroleo.html",
+      "fecha": "2026-11-06T09:30:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "22c9956a9b86021e",
+      "titulo": "De los museos a la ONU: la ofensiva de De la Espriella contra los derechos LGBTI",
+      "categoria": "Internacional",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/america-colombia/2026-11-06/de-los-museos-a-la-onu-la-ofensiva-de-de-la-espriella-contra-los-derechos-lgbti.html",
+      "fecha": "2026-11-06T09:30:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "80d68e03d4745984",
+      "titulo": "‘Palacio’, la miniserie que examina uno de los capítulos más oscuros de la historia de Colombia",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/america-colombia/2026-11-06/palacio-la-miniserie-que-examina-uno-de-los-capitulos-mas-oscuros-de-la-historia-de-colombia.html",
+      "fecha": "2026-11-06T09:30:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "4e75f8dc55a3b5b0",
+      "titulo": "Emiratos Árabes Unidos contrató a mercenarios colombianos para luchar con los paramilitares en Sudán, según un informe de la ONU",
+      "categoria": "Internacional",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/america-colombia/2026-11-06/emiratos-arabes-unidos-contrato-a-mercenarios-colombianos-para-luchar-con-los-paramilitares-en-sudan-segun-un-informe-de-la-onu.html",
+      "fecha": "2026-11-06T09:30:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "7223009d36312404",
+      "titulo": "Un surreal encuentro con el vicepresidente de Colombia",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/america-colombia/2026-11-06/un-surreal-encuentro-con-el-vicepresidente-de-colombia.html",
+      "fecha": "2026-11-06T09:30:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "a754c2033ea04340",
+      "titulo": "Los hombres menores de 30 años lideraron el cambio de partido a favor de los demócratas en las ‘midterms’",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/us/2026-11-06/los-hombres-menores-de-30-anos-lideraron-el-cambio-de-partido-a-favor-de-los-democratas-en-las-midterms.html",
+      "fecha": "2026-11-06T09:30:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "7b40a929e45d77e1",
+      "titulo": "Las nuevas congresistas, gobernadoras y alcaldesas que pintan el mapa de Estados Unidos de azul “como una apisonadora”",
+      "categoria": "Internacional",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/us/2026-11-06/las-nuevas-congresistas-gobernadoras-y-alcaldesas-que-pintan-el-mapa-de-estados-unidos-de-azul-como-una-apisonadora.html",
+      "fecha": "2026-11-06T09:30:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "81460537cddea768",
+      "titulo": "“Ganó la ola azul, ¿qué sigue para los migrantes?”: la lucha por la legalización tras el revés electoral de Trump",
+      "categoria": "Internacional",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/us/2026-11-06/gano-la-ola-azul-que-sigue-para-los-migrantes-la-lucha-por-la-legalizacion-tras-el-reves-electoral-de-trump.html",
+      "fecha": "2026-11-06T09:30:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "d71168809d30ebaf",
+      "titulo": "Los republicanos fracasan en su estrategia de ‘gerrymandering’ en las elecciones de medio mandato",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/us/2026-11-06/los-republicanos-fracasan-en-su-estrategia-de-gerrymandering-en-las-elecciones-de-medio-mandato.html",
+      "fecha": "2026-11-06T09:30:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "5b518fd213a47284",
+      "titulo": "Militantes bolsonaristas ante la huida de Flávio Bolsonaro a Florida: “Hizo lo correcto. Si no, iría preso”",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/america/2026-11-06/militantes-bolsonaristas-ante-la-huida-de-flavio-bolsonaro-a-florida-hizo-lo-correcto-si-no-iria-preso.html",
+      "fecha": "2026-11-06T09:30:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "cf64a76b85b8b698",
+      "titulo": "Los científicos que aprenden a leer el cambio climático en las mariposas de la Amazonía peruana",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/america-futura/2026-11-06/los-cientificos-que-aprenden-a-leer-el-cambio-climatico-en-las-mariposas-de-la-amazonia-peruana.html",
+      "fecha": "2026-11-06T09:30:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "b9bb1c1a668c5310",
+      "titulo": "¿Qué se juega en la COP31? El efecto Ormuz, el espíritu de Santa Marta y la oportunidad de Antalya",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/america-futura/2026-11-06/que-se-juega-en-la-cop31-el-efecto-ormuz-el-espiritu-de-santa-marta-y-la-oportunidad-de-antalya.html",
+      "fecha": "2026-11-06T09:30:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "e99f885653c488d9",
+      "titulo": "32 GB de RAM DDR5, Intel i7 y RTX 5070: así es el PC gaming top que destaca en el Black Friday de PcComponentes",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/seleccion/32-gb-ram-ddr5-intel-i7-rtx-5070-asi-pc-gaming-top-que-destaca-black-friday-pccomponentes",
+      "fecha": "2026-11-06T09:15:05+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "25f96f01ea3e7fe6",
+      "titulo": "Este reloj de Google es un chollo antes del Black Friday: ahora puedes comprarlo por menos de 70 euros",
+      "categoria": "Tecnología",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/seleccion/este-reloj-google-chollo-antes-black-friday-ahora-puedes-comprarlo-70-euros",
+      "fecha": "2026-11-06T09:01:08+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "b017be6a48037d35",
+      "titulo": "Hay una España que paga casas a tocateja y otra que vive pendiente del euríbor. Sus extremos están en Castilla y León y Madrid",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/magnet/hay-espana-que-paga-casas-a-tocateja-otra-que-vive-pendiente-euribor-sus-extremos-estan-castilla-leon-madrid",
+      "fecha": "2026-11-06T09:01:08+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "94ea02b4eb278a02",
+      "titulo": "Han visto por primera vez en España a un ruiseñor calíope, cuando es un ave que es muy rara de ver en Europa",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/ecologia-y-naturaleza/han-visto-primera-vez-espana-a-ruisenor-caliope-cuando-ave-que-muy-rara-ver-europa",
+      "fecha": "2026-11-06T08:45:07+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "8dcc37136769598b",
+      "titulo": "Muere Gonzalo Moratorio, el científico que \"blindó\" a Uruguay del covid-19 y luchaba por pagarse un costoso tratamiento contra el cáncer",
+      "categoria": "Internacional",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/c674ppz944jxo?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-06T08:43:22+00:00",
       "imagen": ""
     },
     {
@@ -80,6 +242,15 @@
       "fuente": "Xataka",
       "url": "https://www.xataka.com/seleccion/lidl-vende-a-50-esta-tele-philips-qled-55-pulgadas-dolby-atmos-hdr10",
       "fecha": "2026-11-06T07:00:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "e420bf97ab793a4a",
+      "titulo": "El Papa regresa por primera vez a América bajo la sombra de Trump",
+      "categoria": "Internacional",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/internacional/2026-11-06/el-papa-regresa-por-primera-vez-a-america-bajo-la-sombra-de-trump.html",
+      "fecha": "2026-11-06T06:43:51+00:00",
       "imagen": ""
     },
     {
@@ -368,177 +539,6 @@
       "fuente": "La República",
       "url": "https://www.larepublica.co/finanzas/desde-2-millones-puede-negociar-sus-deudas-4518661",
       "fecha": "2026-11-06T05:01:30+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "7e44bf6a8f4a1d2e",
-      "titulo": "Los activos de Davivienda crecieron 22% luego de fusionar a Davibank a su operación",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/finanzas/los-activos-de-davivienda-crecieron-22-luego-de-fusionar-a-davibank-a-su-operacion-4518634",
-      "fecha": "2026-11-06T05:01:30+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "831ca8b966fa1e21",
-      "titulo": "El centralismo también vuela",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/analisis/mauricio-gutierrez-dangond-4463267/el-centralismo-tambien-vuela-4518598",
-      "fecha": "2026-11-06T05:01:21+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "ce20d452689f0fab",
-      "titulo": "Así quedan las deducciones aplicables para los afiliados a planes de medicina prepagada",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/especiales/la-ley-de-rescate/asi-quedan-las-deducciones-aplicables-para-los-afiliados-a-medicina-prepagada-4518289",
-      "fecha": "2026-11-06T05:01:17+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "c35368ba0555420e",
-      "titulo": "“El proyecto Sirius no se ha aplazado y queremos lograr adelantar su entrada para 2030”",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/empresas/sirius-no-se-ha-aplazado-y-queremos-adelantar-su-entrada-para-2030-dijo-alcindo-moritz-presidente-de-petrobras-colombia-4518745",
-      "fecha": "2026-11-06T05:01:16+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "16ba4b75b72f5ca9",
-      "titulo": "Vyra IPS celebró 15 años con un nuevo modelo de atención médica integral",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/ocio/vyra-ips-celebro-15-anos-con-un-nuevo-modelo-de-atencion-integral-y-apuesta-por-el-turismo-medico-4518660",
-      "fecha": "2026-11-06T05:01:15+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "269ee8ff551f6024",
-      "titulo": "Un rescate para ganar tiempo",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/economia/un-rescate-para-ganar-tiempo-4518513",
-      "fecha": "2026-11-06T05:01:14+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "46e2f3df1251bd1d",
-      "titulo": "Ajuste con Ley de Rescate Económico sería de 4,73% del Producto Interno Bruto",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/especiales/la-ley-de-rescate/ajuste-fiscal-a-2030-con-el-proyecto-seria-de-4-73-del-pib-4518793",
-      "fecha": "2026-11-06T05:01:11+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "1d887a7c456eb50c",
-      "titulo": "El fenómeno del Niño y la economía",
-      "categoria": "Economía",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/analisis/cesar-ferrari-400526/el-fenomeno-del-nino-y-la-economia-4518613",
-      "fecha": "2026-11-06T05:01:05+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "3219387f15bdbc5b",
-      "titulo": "De 19 millones de mujeres, la mitad participa dentro del mercado laboral nacional",
-      "categoria": "Economía",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/economia/de-19-millones-de-mujeres-50-participa-en-el-mercado-laboral-4518792",
-      "fecha": "2026-11-06T05:01:05+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "61d6e01cd391621e",
-      "titulo": "Jóvenes de Harvard crean detector de conmociones",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/caja-fuerte/jovenes-de-harvard-crean-detector-de-conmociones-4518751",
-      "fecha": "2026-11-06T05:01:03+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "c0cad8412bf10a83",
-      "titulo": "Dos robos en una misma noche cerca del mismo gym",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/judicial/dos-robos-en-una-misma-noche-cerca-del-mismo-gym/",
-      "fecha": "2026-11-06T05:00:59+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "09c27c427bd87b67",
-      "titulo": "¡Hasta siempre, CR7! La 7 será eterna",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/deportes/hasta-siempre-cr7-la-7-sera-eterna/",
-      "fecha": "2026-11-06T05:00:55+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "43063c24d28b6209",
-      "titulo": "Nanopartículas Magnéticas, tan pequeñas y todo lo que hacen.",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/opinion/nanoparticulas-magneticas-tan-pequenas-y-todo-lo-que-hacen/",
-      "fecha": "2026-11-06T05:00:53+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "cc4d7bc51ee818b0",
-      "titulo": "La buscaban por homicidio y cayó en Pereira",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/judicial/la-buscaban-por-homicidio-y-cayo-en-pereira/",
-      "fecha": "2026-11-06T05:00:52+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "0b62e2992935bdbe",
-      "titulo": "88 AÑOS DE “EL REY DEL BOLERO”",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/opinion/88-anos-de-el-rey-del-bolero/",
-      "fecha": "2026-11-06T05:00:45+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "074278c8d564e4db",
-      "titulo": "¡Alexis explotó y exigió respeto!",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/deportes/alexis-exploto-y-exigio-respeto/",
-      "fecha": "2026-11-06T05:00:32+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "28b1d8938d5ea461",
-      "titulo": "UNA NOCHE CUALQUIERA….",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/opinion/una-noche-cualquiera/",
-      "fecha": "2026-11-06T05:00:31+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "c878386ca954b0ca",
-      "titulo": "¿Uso de IA en proyecto municipal de Pereira que entregó vigencias futuras?",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/opinion/uso-de-ia-en-proyecto-municipal-de-pereira-que-entrego-vigencias-futuras/",
-      "fecha": "2026-11-06T05:00:28+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "9f046c2c48180802",
-      "titulo": "Cuál es la solución a las chimeneas andantes",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/opinion/cual-es-la-solucion-a-las-chimeneas-andantes/",
-      "fecha": "2026-11-06T05:00:22+00:00",
       "imagen": ""
     }
   ],
