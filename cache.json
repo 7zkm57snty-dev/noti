@@ -1,6 +1,47 @@
 {
   "noticias": [
     {
+      "id": "611b553a27528071",
+      "autor": "CEV NOTICIAS",
+      "titulo": "Enfrentamientos entre el Ejército y disidencias de las Farc dejan a la población de Timba en confinamiento",
+      "titular_instagram": "Soldado y líder de disidencia caen en Timba",
+      "resumen": "El jueves 5 de noviembre, tropas del Ejército Nacional se enfrentaron a integrantes de la estructura ‘Jaime Martínez’ en el corregimiento de Timba, Buenos Aires, Norte del Cauca. La operación, que contó con más de 250 uniformados, tanquetas y helicópteros, culminó con la muerte de un soldado y la supuesta muerte de un cabecilla de la organización. La población local se vio obligada a permanecer en sus viviendas mientras los combates se desarrollaban.",
+      "categoria": "Colombia",
+      "contenido": "El 5 de noviembre, el corregimiento de Timba, en el municipio de Buenos Aires, Norte del Cauca, se convirtió en escenario de intensos combates entre el Ejército Nacional y disidencias de las Farc, identificadas con la estructura ‘Jaime Martínez’. La operación, iniciada a primera hora de la mañana, contó con la presencia de más de 250 uniformados, tanquetas y dos helicópteros.\n\nSegún las primeras informaciones de las autoridades, los soldados fueron recibidos con disparos de fusil por parte de los integrantes de la estructura, lo que desencadenó una serie de intercambios de fuego que se prolongaron durante la mañana. En el cruce de los hechos, se reportó la muerte de un soldado profesional y la supuesta muerte de un presunto cabecilla de la organización, quien, según las versiones preliminares, sería uno de los jefes de escuadra del Grupo Armado Organizado Residual (GAOR) Jaime Martínez. Estas cifras aún no han sido confirmadas oficialmente.\n\nLa población de Timba, al percibir el riesgo, se refugió en sus viviendas, quedando confinada en sus hogares mientras se escuchaban ráfagas de fusil y se desarrollaban las operaciones militares. Los residentes han expresado su preocupación por la seguridad de sus familias y por la continuidad de los servicios básicos.\n\nEl Ejército, que había recuperado recientemente un furgón robado en Puerto Tejada, continúa su presencia en la zona. El teniente coronel Everth Montaño Rodríguez, comandante del Batallón de Montaña No. 8, aseguró que la fuerza pública mantiene un despliegue permanente en el territorio para neutralizar las capacidades logísticas de los grupos armados ilegales.\n\nTimba se considera estratégica por su ubicación en la frontera entre Cauca y Valle del Cauca, lo que la convierte en un punto clave para las operaciones de seguridad en la región. La presencia de la estructura ‘Jaime Martínez’ en la zona ha generado preocupación entre las autoridades locales y la comunidad.\n\nHasta el momento, la información sobre el número exacto de bajas y la identidad del presunto cabecilla sigue siendo preliminar. Las autoridades están trabajando en la verificación de los hechos y en la obtención de un balance definitivo de la confrontación.\n\nEl próximo paso será la publicación de un comunicado oficial que confirme o ajuste los datos preliminares. Mientras tanto, la población de Timba permanece en alerta y la Fuerza Pública continúa sus operaciones en la zona, con la expectativa de restablecer la normalidad lo antes posible.",
+      "estado_informacion": "en_desarrollo",
+      "investigacion": {
+        "enfoque_original": "Esta cobertura aporta una visión local de los hechos, destacando la reacción inmediata de la población y el contexto estratégico de Timba, zona que limita con el Valle del Cauca y que ha sido escenario de operaciones militares recientes.",
+        "hechos_clave": [
+          "El Ejército desplegó más de 250 uniformados, tanquetas y dos helicópteros en Timba el 5 de noviembre.",
+          "Durante los combates se reportó la muerte de un soldado y la supuesta muerte de un cabecilla de la estructura ‘Jaime Martínez’.",
+          "La población civil del corregimiento se confinó en sus viviendas mientras se escuchaban disparos."
+        ],
+        "fuentes_recuperadas": 2,
+        "dominios_independientes": 2,
+        "fecha": "2026-11-06T03:23:47.435684+00:00"
+      },
+      "imagen": "",
+      "imagen_credito": {},
+      "imagen_busqueda_intentada": true,
+      "imagen_instagram": "https://cevnoticias.com/social/611b553a27528071.jpg",
+      "imagen_instagram_tipo": "portada_grafica_cev",
+      "descripcion_instagram": "Enfrentamientos entre el Ejército y disidencias de las Farc dejan a la población de Timba en confinamiento\\n\\nEl jueves 5 de noviembre, tropas del Ejército Nacional se enfrentaron a integrantes de la estructura ‘Jaime Martínez’ en el corregimiento de Timba, Buenos Aires, Norte del Cauca. La operación, que contó con más de 250 uniformados, tanquetas y helicópteros, culminó con la muerte de un soldado y la supuesta muerte de un cabecilla de la organización. La población local se vio obligada a permanecer en sus viviendas mientras los combates se desarrollaban.\\n\\nLee la noticia completa en cevnoticias.com.\\n\\n#CEVNoticias #Actualidad #Colombia",
+      "verificacion": "Varias fuentes independientes",
+      "fecha": "05/11/2026 · 10:23 PM",
+      "fuentes": [
+        {
+          "nombre": "Diario Occidente",
+          "titulo": "Enfrentamientos entre Ejército y disidencias en Timba",
+          "url": "https://occidente.co/regionales/cauca/combates-en-timba-ejercito-disidencias-farc-cauca-2026/"
+        },
+        {
+          "nombre": "El Tiempo Cali",
+          "titulo": "Fuertes combates entre el Ejército y las disidencias de las Farc mantienen confinada a la población en Timba, Cauca",
+          "url": "https://www.eltiempo.com/colombia/cali/fuertes-combates-entre-el-ejercito-y-las-disidencias-de-las-farc-mantienen-confinada-a-la-poblacion-en-timba-cauca-3598723"
+        }
+      ]
+    },
+    {
       "id": "e6e0bf04711f115c",
       "autor": "CEV NOTICIAS",
       "titulo": "El Cascanueces llega a Cali: Incolballet y la Banda Departamental danzan en el Teatro Jorge Isaacs",
@@ -1750,13 +1791,22 @@
   "periodo_breves_publicado": "edicion-inicial-2026-11-03",
   "titulares_rss": [
     {
-      "id": "bcaaa6995a6380b4",
-      "titulo": "El Cascanueces llega al Teatro Jorge Isaacs de Cali con Incolballet y la Banda Departamental",
-      "categoria": "Cali",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/secciones/tendencias/el-cascanueces-en-cali-teatro-jorge-isaacs-incolballet-2026/",
-      "fecha": "2026-11-06T01:59:26+00:00",
-      "imagen": ""
+      "id": "ce64ecf65b124ce8",
+      "titulo": "Economía colombiana: ¿qué sectores crecen y cuáles se contraen a octubre de 2026?",
+      "categoria": "Economía",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/economia-colombiana-que-sectores-crecen-y-cuales-se-contraen-a-octubre-de-505824",
+      "fecha": "2026-11-06T03:05:01+00:00",
+      "imagen": "https://imagenes.portafolio.co/files/og_thumbnail/uploads/2026/07/02/6a46786aa3456.webp"
+    },
+    {
+      "id": "a3be665abb0ac9a0",
+      "titulo": "De la Espriella impugna la decisión del juez que ordenó restituir las piezas retiradas del Museo Nacional",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/america-colombia/2026-11-06/de-la-espriella-impugna-la-decision-del-juez-que-ordeno-restituir-las-piezas-retiradas-del-museo-nacional.html",
+      "fecha": "2026-11-06T02:44:13+00:00",
+      "imagen": "https://imagenes.elpais.com/resizer/v2/UJAKNTXC6VMUPA65Q5NVQO2YIM.jpg?auth=dfba2819455b2a3a2f1eb2271a98535f2cd805f6ad89f2cf336c572263a4361f"
     },
     {
       "id": "0c9fc37f2aa46274",
@@ -1764,8 +1814,53 @@
       "categoria": "Colombia",
       "fuente": "El Colombiano — Colombia",
       "url": "https://www.elcolombiano.com/colombia/alias-tom-en-libertad-condicional-jefe-oficina-los-chatas-negociador-de-paz-EB43248480",
-      "fecha": "2026-11-06T01:53:28+00:00",
+      "fecha": "2026-11-06T02:37:22+00:00",
       "imagen": "https://estaticos.elcolombiano.com/binrepository/475x300/0c0/0d0/center/11101/MMWR/alias-tom-en-libertad_52059742_20261105204613.jpg"
+    },
+    {
+      "id": "79d0da8ed3f243ce",
+      "titulo": "Por qué el Congreso de Paraguay no aceptó la renuncia de Santiago Peña como presidente y qué supone ahora el juicio político en su contra",
+      "categoria": "Colombia",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/crwyddpl789do?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-06T02:16:10+00:00",
+      "imagen": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/f56a/live/8ff00310-d96d-11f1-9fd0-cdf612d1539f.jpg"
+    },
+    {
+      "id": "55d3357bc5ca1263",
+      "titulo": "Así buscan conectar El Dorado con el Metro y el Regiotram: ¿qué contempla el proyecto?",
+      "categoria": "Economía",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/regiones/asi-buscan-conectar-el-dorado-con-el-metro-y-el-regiotram-que-contempla-el-proyecto-505822",
+      "fecha": "2026-11-06T02:11:35+00:00",
+      "imagen": "https://imagenes.portafolio.co/files/og_thumbnail/files/fp/uploads/2026/09/07/6a9f214453ee4.r_d.592-402-0.webp"
+    },
+    {
+      "id": "1c363cc7976ee690",
+      "titulo": "Petro ordenó mantener contrato de Deicy Jiménez en MinInterior, según este chat con Angie Rodríguez a finales de 2025",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/petro-ordeno-mantener-contrato-de-deicy-jimenez-en-mininterior-segun-este-chat-con-angie-rodriguez-a-finales-de-2025-JA43250081",
+      "fecha": "2026-11-06T02:09:13+00:00",
+      "imagen": "https://estaticos.elcolombiano.com/binrepository/450x300/0c0/0d0/center/11101/HOKO/1-foto_52068430_20261105210914.jpg"
+    },
+    {
+      "id": "83fc110e7eff4f77",
+      "titulo": "Ciberataque en el Pico y Placa Solidario de Bogotá puso en riesgo el dinero y los datos de los usuarios: Secretaría de Movilidad respondió",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/ciberataque-pico-y-placa-solidario-bogota-riesgo-dinero-datos-usuarios-NB43247486",
+      "fecha": "2026-11-06T02:06:47+00:00",
+      "imagen": "https://estaticos.elcolombiano.com/binrepository/450x300/0c0/0d0/center/11101/ACFO/foto-ciberataque-en-el-pico-y-placa_52067688_20261105210033.jpg"
+    },
+    {
+      "id": "17a9f60e67db03d6",
+      "titulo": "Cúcuta Deportivo celebra la permanencia en Liga Betplay: \"El sueño de entrar entre los ocho\"",
+      "categoria": "Deportes",
+      "fuente": "La FM Deportes",
+      "url": "https://www.lafm.com.co/deportes/cucuta-deportivo-celebra-la-permanencia-en-liga-betplay-buscan-los-cuadrangulares-416301",
+      "fecha": "2026-11-06T02:03:09+00:00",
+      "imagen": "https://files.lafm.com.co/media/news-images/2026/11/06/020858/portadas-2026-11-05t210807488-1200x675.jpg"
     },
     {
       "id": "3f059813464c5d16",
@@ -1930,30 +2025,12 @@
       "imagen": ""
     },
     {
-      "id": "29e75d6487cc6116",
-      "titulo": "El descenso de asesinatos, secuestros y extorsiones en el Valle y el plan de la Fuerza Pública en sus 135 años: 'La Policía no tolera la corrupción'",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/cali/el-descenso-de-asesinatos-secuestros-y-extorsiones-en-el-valle-y-el-plan-de-la-fuerza-publica-en-sus-135-anos-la-policia-no-tolera-la-corrupcion-3598874",
-      "fecha": "2026-11-06T00:23:44+00:00",
-      "imagen": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2026/09/06/6a9da09b4441a.r_d.1252-206-0.jpeg"
-    },
-    {
       "id": "de03bd97072e5e42",
       "titulo": "Operación Iron 2.0 en Cali: 101 capturados, 11 bandas desmanteladas y 2,3 toneladas de droga incautadas",
       "categoria": "Cali",
       "fuente": "Diario Occidente",
       "url": "https://occidente.co/cali/operacion-iron-2-0-en-cali-capturas-desarticulacion-bandas-2026/",
       "fecha": "2026-11-06T00:16:21+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "c89f36e58d58380a",
-      "titulo": "Parafiscales que recauda Fedegan a través del FNG han aumentado 66% desde 2020",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/economia/parafiscales-que-recauda-fedegan-a-traves-del-fng-han-aumentado-66-desde-2020-4518830",
-      "fecha": "2026-11-06T00:10:05+00:00",
       "imagen": ""
     },
     {
@@ -1964,24 +2041,6 @@
       "url": "https://www.portafolio.co/economia/gobierno/abelardo-de-la-espriella-dona-su-tercer-sueldo-como-presidente-a-fundaciones-del-amazonas-505817",
       "fecha": "2026-11-06T00:09:57+00:00",
       "imagen": "https://imagenes.portafolio.co/files/og_thumbnail/files/fp/uploads/2026/10/06/6ac5a70311806.r_d.1070-387-0.jpeg"
-    },
-    {
-      "id": "9bff1de2cc08e221",
-      "titulo": "Duerma informado con las movidas de este 5 de noviembre de 2026",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/en-vivo/duerma-informado-con-las-movidas-de-este-5-de-noviembre-de-2026/",
-      "fecha": "2026-11-06T00:08:56+00:00",
-      "imagen": "https://i0.wp.com/www.lasillavacia.com/wp-content/uploads/2025/03/La-Silla-En-Vivo.jpg?fit=1024%2C768&quality=80&strip=all&ssl=1"
-    },
-    {
-      "id": "c64f4ce31bcc7f29",
-      "titulo": "Investigan muerte de bebé de siete meses que habría fallecido mientras dormía en hogar infantil de Medellín: esto se sabe del caso",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/medellin/investigan-muerte-de-bebe-de-siete-meses-que-habria-fallecido-mientras-dormia-en-hogar-infantil-de-medellin-esto-se-sabe-del-caso-3598728",
-      "fecha": "2026-11-05T23:53:43+00:00",
-      "imagen": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2026/09/23/6ab43d2d7659e.r_d.1076-579-0.jpeg"
     },
     {
       "id": "66f30ff8cfa28855",
@@ -2090,24 +2149,6 @@
       "url": "https://www.lafm.com.co/internacional/las-razones-por-las-que-trump-quiere-continuar-el-conflicto-en-iran-416285",
       "fecha": "2026-11-05T22:53:06+00:00",
       "imagen": "https://files.lafm.com.co/media/news-images/2026/11/05/233512/portadas-2026-11-05t183443055-1200x675.jpg"
-    },
-    {
-      "id": "010a7d75db21baad",
-      "titulo": "Bucaramanga permitiría que empresas aprovechen económicamente los parques a cambio de su cuidado: así funcionaría cuando salga el decreto",
-      "categoria": "Economía",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/santander/bucaramanga-permitiria-que-empresas-aprovechen-economicamente-los-parques-a-cambio-de-su-cuidado-asi-funcionaria-cuando-salga-el-decreto-3598851",
-      "fecha": "2026-11-05T22:42:17+00:00",
-      "imagen": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2024/12/17/6761dc4950046.jpeg"
-    },
-    {
-      "id": "5e5b360d5c223810",
-      "titulo": "El Festival Estéreo Picnic 2027 reveló su cartel por días: ¿Cuándo se presentará cada artista?",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/el-festival-estereo-picnic-2027-revelo-su-cartel-por-dias-cuando-se-presentara-cada-artista-505810",
-      "fecha": "2026-11-05T22:28:00+00:00",
-      "imagen": "https://imagenes.portafolio.co/files/og_thumbnail/files/fp/uploads/2026/11/05/6aecf92c211f2.r_d.1000-415-0.png"
     },
     {
       "id": "4413cc09eb58a9c4",
@@ -2290,15 +2331,6 @@
       "imagen": "https://i0.wp.com/www.lasillavacia.com/wp-content/uploads/2026/11/Comisiones-economicas.jpg?fit=1024%2C768&quality=80&strip=all&ssl=1"
     },
     {
-      "id": "7a1760afeb7ee071",
-      "titulo": "Brian Fariñas es la nueva joya de la cantera que se abre paso en el Barcelona",
-      "categoria": "Deportes",
-      "fuente": "La FM Deportes",
-      "url": "https://www.lafm.com.co/deportes/brian-farinas-nueva-joya-cantera-fc-barcelona-416107",
-      "fecha": "2026-11-04T17:58:49+00:00",
-      "imagen": "https://files.lafm.com.co/media/news-images/2026/11/04/195911/brian-farinas-es-la-nueva-joya-de-la-cantera-que-se-abre-paso-en-el-barcelona-1200x675.jpg"
-    },
-    {
       "id": "28d662986c74a0b7",
       "titulo": "Misi presenta un musical que enfrenta a Papá Noel con el desafío de la inteligencia artificial",
       "categoria": "Tecnología",
@@ -2315,6 +2347,15 @@
       "url": "https://www.eltiempo.com/colombia/otras-ciudades/la-apuesta-de-la-camara-de-comercio-de-cartagena-para-llevar-innovacion-y-tecnologia-al-tejido-empresarial-de-la-ciudad-inicia-innovalatam-3598240",
       "fecha": "2026-11-03T23:30:07+00:00",
       "imagen": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2026/10/15/6ad12e6c1a513.r_d.641-462-0.jpeg"
+    },
+    {
+      "id": "ba243506cec334b0",
+      "titulo": "¡Los buscaban en el Caribe y cayeron en Cali! Capturan a dos presuntos cabecillas criminales",
+      "categoria": "Cali",
+      "fuente": "Q'hubo Cali",
+      "url": "https://www.qhubocali.com/judiciales/los-buscaban-en-el-caribe-y-cayeron-en-cali-capturan-a-dos-presuntos-cabecillas-criminales/",
+      "fecha": "2026-11-03T15:17:50+00:00",
+      "imagen": ""
     },
     {
       "id": "55c08ef11341e356",
@@ -2334,7 +2375,7 @@
       "estado": "ok",
       "entradas_rss": 10,
       "titulares_vigentes": 10,
-      "ultima_consulta": "2026-11-06T02:11:19.418950+00:00",
+      "ultima_consulta": "2026-11-06T03:23:24.325945+00:00",
       "error": ""
     },
     {
@@ -2344,7 +2385,7 @@
       "estado": "ok",
       "entradas_rss": 10,
       "titulares_vigentes": 10,
-      "ultima_consulta": "2026-11-06T02:11:19.670833+00:00",
+      "ultima_consulta": "2026-11-06T03:23:24.559560+00:00",
       "error": ""
     },
     {
@@ -2354,7 +2395,7 @@
       "estado": "sin_entradas",
       "entradas_rss": 0,
       "titulares_vigentes": 0,
-      "ultima_consulta": "2026-11-06T02:11:19.760322+00:00",
+      "ultima_consulta": "2026-11-06T03:23:24.676763+00:00",
       "error": "La respuesta no contiene entradas RSS/Atom."
     },
     {
@@ -2364,7 +2405,7 @@
       "estado": "ok",
       "entradas_rss": 10,
       "titulares_vigentes": 10,
-      "ultima_consulta": "2026-11-06T02:11:20.332155+00:00",
+      "ultima_consulta": "2026-11-06T03:23:25.415041+00:00",
       "error": ""
     },
     {
@@ -2374,7 +2415,7 @@
       "estado": "ok",
       "entradas_rss": 10,
       "titulares_vigentes": 10,
-      "ultima_consulta": "2026-11-06T02:11:20.500504+00:00",
+      "ultima_consulta": "2026-11-06T03:23:25.666201+00:00",
       "error": ""
     },
     {
@@ -2384,7 +2425,7 @@
       "estado": "ok",
       "entradas_rss": 60,
       "titulares_vigentes": 40,
-      "ultima_consulta": "2026-11-06T02:11:20.668613+00:00",
+      "ultima_consulta": "2026-11-06T03:23:25.857596+00:00",
       "error": ""
     },
     {
@@ -2394,7 +2435,7 @@
       "estado": "ok",
       "entradas_rss": 12,
       "titulares_vigentes": 12,
-      "ultima_consulta": "2026-11-06T02:11:20.831601+00:00",
+      "ultima_consulta": "2026-11-06T03:23:26.227130+00:00",
       "error": ""
     },
     {
@@ -2404,7 +2445,7 @@
       "estado": "ok",
       "entradas_rss": 34,
       "titulares_vigentes": 31,
-      "ultima_consulta": "2026-11-06T02:11:21.049524+00:00",
+      "ultima_consulta": "2026-11-06T03:23:26.467839+00:00",
       "error": ""
     },
     {
@@ -2414,7 +2455,7 @@
       "estado": "ok",
       "entradas_rss": 17,
       "titulares_vigentes": 17,
-      "ultima_consulta": "2026-11-06T02:11:21.261569+00:00",
+      "ultima_consulta": "2026-11-06T03:23:26.851321+00:00",
       "error": ""
     },
     {
@@ -2424,7 +2465,7 @@
       "estado": "ok",
       "entradas_rss": 26,
       "titulares_vigentes": 26,
-      "ultima_consulta": "2026-11-06T02:11:21.655650+00:00",
+      "ultima_consulta": "2026-11-06T03:23:27.478182+00:00",
       "error": ""
     },
     {
@@ -2432,9 +2473,9 @@
       "url": "https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/section/america-colombia/portada",
       "zona": "Nacional / internacional",
       "estado": "ok",
-      "entradas_rss": 109,
+      "entradas_rss": 108,
       "titulares_vigentes": 40,
-      "ultima_consulta": "2026-11-06T02:11:22.298697+00:00",
+      "ultima_consulta": "2026-11-06T03:23:28.266546+00:00",
       "error": ""
     },
     {
@@ -2444,7 +2485,7 @@
       "estado": "ok",
       "entradas_rss": 11,
       "titulares_vigentes": 11,
-      "ultima_consulta": "2026-11-06T02:11:23.633239+00:00",
+      "ultima_consulta": "2026-11-06T03:23:29.721591+00:00",
       "error": ""
     },
     {
@@ -2454,7 +2495,7 @@
       "estado": "ok",
       "entradas_rss": 20,
       "titulares_vigentes": 20,
-      "ultima_consulta": "2026-11-06T02:11:23.798830+00:00",
+      "ultima_consulta": "2026-11-06T03:23:29.848276+00:00",
       "error": ""
     },
     {
@@ -2464,7 +2505,7 @@
       "estado": "ok",
       "entradas_rss": 20,
       "titulares_vigentes": 20,
-      "ultima_consulta": "2026-11-06T02:11:23.954037+00:00",
+      "ultima_consulta": "2026-11-06T03:23:29.979083+00:00",
       "error": ""
     },
     {
@@ -2474,7 +2515,7 @@
       "estado": "ok",
       "entradas_rss": 20,
       "titulares_vigentes": 20,
-      "ultima_consulta": "2026-11-06T02:11:24.044100+00:00",
+      "ultima_consulta": "2026-11-06T03:23:30.031075+00:00",
       "error": ""
     },
     {
@@ -2484,7 +2525,7 @@
       "estado": "ok",
       "entradas_rss": 20,
       "titulares_vigentes": 20,
-      "ultima_consulta": "2026-11-06T02:11:24.109981+00:00",
+      "ultima_consulta": "2026-11-06T03:23:30.086791+00:00",
       "error": ""
     },
     {
@@ -2494,7 +2535,7 @@
       "estado": "ok",
       "entradas_rss": 12,
       "titulares_vigentes": 4,
-      "ultima_consulta": "2026-11-06T02:11:24.192604+00:00",
+      "ultima_consulta": "2026-11-06T03:23:30.208345+00:00",
       "error": ""
     },
     {
@@ -2502,20 +2543,20 @@
       "url": "https://www.elcolombiano.com/rss/Colombia.xml",
       "zona": "Antioquia y Colombia",
       "estado": "ok",
-      "entradas_rss": 60,
+      "entradas_rss": 61,
       "titulares_vigentes": 40,
-      "ultima_consulta": "2026-11-06T02:11:25.058578+00:00",
+      "ultima_consulta": "2026-11-06T03:23:31.248098+00:00",
       "error": ""
     },
     {
       "nombre": "El Diario — Pereira",
       "url": "https://www.eldiario.com.co/feed/",
       "zona": "Eje Cafetero",
-      "estado": "sin_entradas",
+      "estado": "error",
       "entradas_rss": 0,
       "titulares_vigentes": 0,
-      "ultima_consulta": "2026-11-06T02:11:25.431811+00:00",
-      "error": "La respuesta no contiene entradas RSS/Atom."
+      "ultima_consulta": "2026-11-06T03:23:31.902935+00:00",
+      "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     {
       "nombre": "Chocó 7 días",
@@ -2524,7 +2565,7 @@
       "estado": "ok",
       "entradas_rss": 10,
       "titulares_vigentes": 10,
-      "ultima_consulta": "2026-11-06T02:11:25.564720+00:00",
+      "ultima_consulta": "2026-11-06T03:23:32.137148+00:00",
       "error": ""
     },
     {
@@ -2534,12 +2575,12 @@
       "estado": "ok",
       "entradas_rss": 10,
       "titulares_vigentes": 9,
-      "ultima_consulta": "2026-11-06T02:11:25.809525+00:00",
+      "ultima_consulta": "2026-11-06T03:23:32.697390+00:00",
       "error": ""
     }
   ],
-  "ultima_solicitud_groq": "2026-11-06T02:16:17.632162+00:00",
+  "ultima_solicitud_groq": "2026-11-06T03:28:20.655845+00:00",
   "fecha_solicitudes_groq": "2026-11-05",
-  "solicitudes_groq": 20,
-  "ultima_actualizacion": "2026-11-06T02:16:21.183696+00:00"
+  "solicitudes_groq": 25,
+  "ultima_actualizacion": "2026-11-06T03:28:21.781228+00:00"
 }
