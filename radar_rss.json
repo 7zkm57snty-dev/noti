@@ -1,5 +1,5 @@
 {
-  "ultima_actualizacion": "2026-11-06T09:37:06.392269+00:00",
+  "ultima_actualizacion": "2026-11-06T10:41:48.737632+00:00",
   "titulares_rss": [
     {
       "id": "89dc688081c894aa",
@@ -7,7 +7,52 @@
       "categoria": "Colombia",
       "fuente": "BBC Mundo",
       "url": "https://www.bbc.co.uk/mundo/live/cmgr8vrv5w55t?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-06T09:37:06.392269+00:00",
+      "fecha": "2026-11-06T10:41:48.737632+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "947e695d01e0558a",
+      "titulo": "Amazon está agotando esta casa prefabricada expandible: es solar, autosuficiente y cuesta poco más de 13.000 euros",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/seleccion/amazon-esta-agotando-esta-casa-prefabricada-expandible-solar-autosuficiente-cuesta-poco-13-000-euros",
+      "fecha": "2026-11-06T10:31:07+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "659b68a0f1f395d1",
+      "titulo": "Quién es Santiago Peña, el economista al que el poderoso Horacio Cartes encumbró a la presidencia de Paraguay (y al que ahora dejó caer)",
+      "categoria": "Internacional",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/cwe9le9yyzrzo?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-06T10:28:39+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "95cc39874dd53ad6",
+      "titulo": "El mundo volverá a superar con casi \"total certeza\" este año los 1,5 ºC de calentamiento global",
+      "categoria": "Internacional",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/el-mundo-volverá-a-superar-con-casi-total-certeza-este-año-los-1-5-ºc-de-calentamiento-global/a-79873972?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-06T10:14:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "8bc1017c43ecc01b",
+      "titulo": "En 1963, EEUU lanzó cerca de 500 millones de agujas al espacio para ganar una guerra. 63 años después, algunas siguen girando alrededor de la Tierra",
+      "categoria": "Internacional",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/espacio/1963-eeuu-lanzo-cerca-500-millones-agujas-al-espacio-para-ganar-guerra-63-anos-despues-algunas-siguen-girando-alrededor-tierra",
+      "fecha": "2026-11-06T10:01:08+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "b104d1fd7ffa1d20",
+      "titulo": "Las mejores ofertas de las primeras campañas del Black Friday: Cazando Gangas en tecnología, hoy 6 de noviembre",
+      "categoria": "Tecnología",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/seleccion/mejores-ofertas-primeras-campanas-black-friday-cazando-gangas-tecnologia-hoy-6-noviembre",
+      "fecha": "2026-11-06T09:45:06+00:00",
       "imagen": ""
     },
     {
@@ -371,15 +416,6 @@
       "imagen": ""
     },
     {
-      "id": "6f8baecc8fb21c7a",
-      "titulo": "Ordóñese de la risa",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/analisis/jorge-hernan-pelaez-500047/ordonese-de-la-risa-4518570",
-      "fecha": "2026-11-06T05:01:50+00:00",
-      "imagen": ""
-    },
-    {
       "id": "d24a93de6af51777",
       "titulo": "El costo de la emoción desregulada",
       "categoria": "Colombia",
@@ -425,20 +461,20 @@
       "imagen": ""
     },
     {
-      "id": "8a97d250b405f578",
-      "titulo": "La trampa del 23%",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/analisis/juan-manuel-nieves-r-534481/la-trampa-del-23-4518625",
-      "fecha": "2026-11-06T05:01:40+00:00",
-      "imagen": ""
-    },
-    {
       "id": "3c58ca27acfd9b40",
       "titulo": "Pese a lluvias por encima de lo normal en algunas regiones, embalses están en 78%",
       "categoria": "Colombia",
       "fuente": "La República",
       "url": "https://www.larepublica.co/economia/pese-a-lluvias-por-encima-de-lo-normal-en-algunas-regiones-embalses-estan-en-78-4518821",
+      "fecha": "2026-11-06T05:01:40+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "8a97d250b405f578",
+      "titulo": "La trampa del 23%",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/analisis/juan-manuel-nieves-r-534481/la-trampa-del-23-4518625",
       "fecha": "2026-11-06T05:01:40+00:00",
       "imagen": ""
     },
@@ -488,15 +524,6 @@
       "imagen": ""
     },
     {
-      "id": "84a24301c4ad0158",
-      "titulo": "Aún con la Ley de Rescate, el sistema tributario seguirá rezagado ante la Ocde",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/especiales/la-ley-de-rescate/aun-con-la-ley-de-rescate-el-sistema-tributario-seguira-rezagado-ante-la-ocde-4518890",
-      "fecha": "2026-11-06T05:01:33+00:00",
-      "imagen": ""
-    },
-    {
       "id": "59952e7b31b993c8",
       "titulo": "No sobra la alerta financiera por Ueno",
       "categoria": "Colombia",
@@ -506,39 +533,12 @@
       "imagen": ""
     },
     {
-      "id": "f36ff95ddb76e4d0",
-      "titulo": "Los restaurantes Celele y El Chato lograron un lugar entre los 50 mejores del mundo",
-      "categoria": "Internacional",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/ocio/los-restaurantes-celele-y-el-chato-lograron-un-lugar-entre-los-50-mejores-del-mundo-4518287",
-      "fecha": "2026-11-06T05:01:33+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "0102726b342a9d84",
-      "titulo": "Jugarse la piel en tiempos de inteligencia artificial",
-      "categoria": "Tecnología",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/analisis/santiago-jimenez-londono-4353436/jugarse-la-piel-en-tiempos-de-inteligencia-artificial-4518596",
-      "fecha": "2026-11-06T05:01:32+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "99c2a285cdf902c7",
-      "titulo": "Tecnoglass elevó su proyección de ingresos a US$1.140 millones para el cierre de este año",
+      "id": "84a24301c4ad0158",
+      "titulo": "Aún con la Ley de Rescate, el sistema tributario seguirá rezagado ante la Ocde",
       "categoria": "Colombia",
       "fuente": "La República",
-      "url": "https://www.larepublica.co/empresas/tecnoglass-elevo-su-proyeccion-de-ventas-a-us-1-140-millones-para-2026-4518766",
-      "fecha": "2026-11-06T05:01:31+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "0e02f13faa231643",
-      "titulo": "Bravo y Solvi, entre las empresas que ofrecen negociación de deudas desde $2 millones",
-      "categoria": "Economía",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/finanzas/desde-2-millones-puede-negociar-sus-deudas-4518661",
-      "fecha": "2026-11-06T05:01:30+00:00",
+      "url": "https://www.larepublica.co/especiales/la-ley-de-rescate/aun-con-la-ley-de-rescate-el-sistema-tributario-seguira-rezagado-ante-la-ocde-4518890",
+      "fecha": "2026-11-06T05:01:33+00:00",
       "imagen": ""
     }
   ],
@@ -560,7 +560,7 @@
       "url": "https://www.elespectador.com/rss/",
       "estado": "error",
       "titulares": 0,
-      "detalle": "El feed no contiene entradas."
+      "detalle": "403 Client Error: Forbidden for url: https://www.elespectador.com/rss/"
     },
     {
       "nombre": "La Silla Vacía",
@@ -590,13 +590,13 @@
       "nombre": "BBC Mundo",
       "url": "https://feeds.bbci.co.uk/mundo/rss.xml",
       "estado": "correcto",
-      "titulares": 27
+      "titulares": 26
     },
     {
       "nombre": "DW Español",
       "url": "https://rss.dw.com/rdf/rss-sp-all",
       "estado": "correcto",
-      "titulares": 17
+      "titulares": 18
     },
     {
       "nombre": "Xataka",
