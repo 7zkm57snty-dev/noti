@@ -1,5 +1,5 @@
 {
-  "ultima_actualizacion": "2026-11-06T05:05:12.747921+00:00",
+  "ultima_actualizacion": "2026-11-06T06:06:12.146505+00:00",
   "titulares_rss": [
     {
       "id": "89dc688081c894aa",
@@ -7,7 +7,34 @@
       "categoria": "Colombia",
       "fuente": "BBC Mundo",
       "url": "https://www.bbc.co.uk/mundo/live/cmgr8vrv5w55t?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-06T05:05:12.747921+00:00",
+      "fecha": "2026-11-06T06:06:12.146505+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "e5d27c8731a80ba0",
+      "titulo": "Una empresa contrató a un trabajador, despidió al jefe que lo seleccionó y se olvidó de él: ha estado siete meses cobrando sin trabajar",
+      "categoria": "Deportes",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/empresas-y-economia/empresa-contrato-a-trabajador-despidio-al-jefe-que-selecciono-se-olvido-ha-estado-siete-meses-cobrando-trabajar",
+      "fecha": "2026-11-06T06:01:05+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "9a4d351d9fbb6476",
+      "titulo": "Un Pacto en silencio protege a Petro y desacredita su bandera feminista",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/silla-nacional/un-pacto-en-silencio-protege-a-petro-y-desacredita-su-bandera-feminista/",
+      "fecha": "2026-11-06T06:00:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "f30e8f15231fad0f",
+      "titulo": "Dos amigos fueron asesinados dentro de su casa",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/judicial/dos-amigos-fueron-asesinados-dentro-de-su-casa/",
+      "fecha": "2026-11-06T05:05:43+00:00",
       "imagen": ""
     },
     {
@@ -102,7 +129,7 @@
     },
     {
       "id": "361445aa109c97cc",
-      "titulo": "La IX Cumbre del Petróleo, Gas y Energía reunió en Cartagena a líderes del sector energético de América Latina",
+      "titulo": "La IX Cumbre del Petróleo, Gas y Energía reunió en Cartagena a líderes del sector",
       "categoria": "Economía",
       "fuente": "La República",
       "url": "https://www.larepublica.co/ocio/la-ix-cumbre-del-petroleo-gas-y-energia-reunio-en-cartagena-a-lideres-del-sector-energetico-de-america-latina-4518647",
@@ -282,7 +309,7 @@
     },
     {
       "id": "16ba4b75b72f5ca9",
-      "titulo": "Vyra IPS celebró 15 años con un nuevo modelo de atención integral y apuesta por el turismo médico",
+      "titulo": "Vyra IPS celebró 15 años con un nuevo modelo de atención médica integral",
       "categoria": "Colombia",
       "fuente": "La República",
       "url": "https://www.larepublica.co/ocio/vyra-ips-celebro-15-anos-con-un-nuevo-modelo-de-atencion-integral-y-apuesta-por-el-turismo-medico-4518660",
@@ -443,6 +470,42 @@
       "imagen": ""
     },
     {
+      "id": "c99c3b6978f574fd",
+      "titulo": "Ánderson Osorio Aguirre se graduó como abogado y celebra este logro junto a su familia y amigos",
+      "categoria": "Colombia",
+      "fuente": "La Patria — Caldas",
+      "url": "https://www.lapatria.com/galerias/anderson-osorio-aguirre-se-graduo-como-abogado-y-celebra-este-logro-junto-su-familia-y",
+      "fecha": "2026-11-06T05:00:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "4d295da21eec01c5",
+      "titulo": "Cupcakes de Halloween: así despertaron su creatividad los niños en un taller de LA PATRIA",
+      "categoria": "Colombia",
+      "fuente": "La Patria — Caldas",
+      "url": "https://www.lapatria.com/galerias/cupcakes-de-halloween-asi-despertaron-su-creatividad-los-ninos-en-un-taller-de-la-patria",
+      "fecha": "2026-11-06T05:00:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "da1800d13dbad1cf",
+      "titulo": "Flow Caldas: el grupo de la Universidad de Caldas que conquistó el campeonato nacional de danzas urbanas",
+      "categoria": "Colombia",
+      "fuente": "La Patria — Caldas",
+      "url": "https://www.lapatria.com/galerias/flow-caldas-el-grupo-de-la-universidad-de-caldas-que-conquisto-el-campeonato-nacional-de",
+      "fecha": "2026-11-06T05:00:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "501a77980bdececd",
+      "titulo": "Su amor y sus enseñanzas siguen presentes: el homenaje de la familia Castrillón Grajales",
+      "categoria": "Colombia",
+      "fuente": "La Patria — Caldas",
+      "url": "https://www.lapatria.com/galerias/su-amor-y-sus-ensenanzas-siguen-presentes-el-homenaje-de-la-familia-castrillon-grajales",
+      "fecha": "2026-11-06T05:00:00+00:00",
+      "imagen": ""
+    },
+    {
       "id": "8650b80e1b833750",
       "titulo": "Flávio Bolsonaro reaparece en la mansión de Trump en Mar-a-Lago en una gala de la Conferencia de Acción Política Conservadora",
       "categoria": "Internacional",
@@ -476,69 +539,6 @@
       "fuente": "El Tiempo",
       "url": "https://www.eltiempo.com/colombia/otras-ciudades/padre-de-la-subteniente-del-ejercito-maria-camila-pantoja-hablo-tras-su-secuestro-por-parte-del-eln-autoridades-ofrecen-100-millones-de-recompensa-3598802",
       "fecha": "2026-11-06T03:34:30+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "0528c9ea667dfdae",
-      "titulo": "Chocó: Fundación Imusa anuncia entrega de 22 viviendas para damnificados del terremoto. Inconformidad por la falta de apoyo del gobierno nacional",
-      "categoria": "Colombia",
-      "fuente": "Chocó 7 días",
-      "url": "https://choco7dias.com/choco-fundacion-imusa-anuncia-entrega-de-22-viviendas-para-damnificados-del-terremoto-inconformidad-por-la-falta-de-apoyo-del-gobierno-nacional/",
-      "fecha": "2026-11-06T03:25:23+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "ce64ecf65b124ce8",
-      "titulo": "Economía colombiana: ¿qué sectores crecen y cuáles se contraen a octubre de 2026?",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/economia-colombiana-que-sectores-crecen-y-cuales-se-contraen-a-octubre-de-505824",
-      "fecha": "2026-11-06T03:05:01+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "a3be665abb0ac9a0",
-      "titulo": "De la Espriella impugna la decisión del juez que ordenó restituir las piezas retiradas del Museo Nacional",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/america-colombia/2026-11-06/de-la-espriella-impugna-la-decision-del-juez-que-ordeno-restituir-las-piezas-retiradas-del-museo-nacional.html",
-      "fecha": "2026-11-06T02:44:13+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "0c9fc37f2aa46274",
-      "titulo": "Primicia | Alias Tom, uno de los máximos líderes de “la Oficina” y exnegociador de “paz total”, quedará libre",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/alias-tom-en-libertad-condicional-jefe-oficina-los-chatas-negociador-de-paz-EB43248480",
-      "fecha": "2026-11-06T02:37:22+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "79d0da8ed3f243ce",
-      "titulo": "Por qué el Congreso de Paraguay no aceptó la renuncia de Santiago Peña como presidente y qué supone ahora el juicio político en su contra",
-      "categoria": "Colombia",
-      "fuente": "BBC Mundo",
-      "url": "https://www.bbc.com/mundo/articles/crwyddpl789do?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-06T02:16:10+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "55d3357bc5ca1263",
-      "titulo": "Así buscan conectar El Dorado con el Metro y el Regiotram: ¿qué contempla el proyecto?",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/regiones/asi-buscan-conectar-el-dorado-con-el-metro-y-el-regiotram-que-contempla-el-proyecto-505822",
-      "fecha": "2026-11-06T02:11:35+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "1c363cc7976ee690",
-      "titulo": "Petro ordenó mantener contrato de Deicy Jiménez en MinInterior, según este chat con Angie Rodríguez a finales de 2025",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/petro-ordeno-mantener-contrato-de-deicy-jimenez-en-mininterior-segun-este-chat-con-angie-rodriguez-a-finales-de-2025-JA43250081",
-      "fecha": "2026-11-06T02:09:13+00:00",
       "imagen": ""
     }
   ],
