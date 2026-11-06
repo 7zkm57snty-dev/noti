@@ -1,22 +1,175 @@
 {
-  "ultima_actualizacion": "2026-11-06T22:50:12.084176+00:00",
+  "ultima_actualizacion": "2026-11-06T23:45:27.431411+00:00",
   "titulares_rss": [
     {
       "id": "029434dd47711907",
-      "titulo": "Crisis en Paraguay: el Congreso destituye a Santiago Peña, el segundo presidente expulsado por juicio político",
+      "titulo": "Crisis en Paraguay: detienen a Santiago Peña en su domicilio tras su destitución por el Congreso en juicio político",
       "categoria": "Colombia",
       "fuente": "BBC Mundo",
       "url": "https://www.bbc.co.uk/mundo/live/c54g11vvvemkt?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-06T22:50:12.084176+00:00",
+      "fecha": "2026-11-06T23:45:27.431411+00:00",
       "imagen": ""
     },
     {
-      "id": "1e0e1e830d9ac75e",
-      "titulo": "La visita del Papa León XIV en Uruguay, en vivo | El Papa pide que la IA potencie al trabajador y no lo reduzca a una “pieza prescindible”",
+      "id": "6c1ad699b733778c",
+      "titulo": "Trump nombra a Stephen Miller, el \"arquitecto\" de su dura política migratoria, como nuevo jefe de gabinete de la Casa Blanca",
+      "categoria": "Internacional",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/c90k001drxxko?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-06T23:39:40+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "c7cb9036231bc6eb",
+      "titulo": "Procuraduría requirió a la Alcaldía de Cali por atención en el sismo y esta fue su respuesta: '¿Me censaron y no estoy en el registro?', dijo afectado",
+      "categoria": "Cali",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/cali/procuraduria-requirio-a-la-alcaldia-de-cali-por-atencion-a-damnificados-del-sismo-y-esta-fue-su-respuesta-me-censaron-y-no-estoy-en-el-registro-3599145",
+      "fecha": "2026-11-06T23:36:11+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "261f527ec9c5fc52",
+      "titulo": "Esta es la identidad de los otros dos capturados por el macabro crimen de María Camila Potosí, la mujer que fue asesinada junto a su bebé en Cali",
+      "categoria": "Cali",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/cali/esta-es-la-identidad-de-los-otros-dos-capturados-por-el-macabro-crimen-de-maria-camila-potosi-la-mujer-que-fue-asesinada-junto-a-su-bebe-en-cali-3599140",
+      "fecha": "2026-11-06T23:35:49+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "95ea038e47fe8599",
+      "titulo": "Desde la Amazonía, 100 microempresarios recibieron certificación de Bancamía y la U. Jorge Tadeo Lozano en formación técnica y financiera para el desarrollo de sus negocios",
+      "categoria": "Economía",
+      "fuente": "La FM Economía",
+      "url": "https://www.lafm.com.co/economia/bancamia-universidad-jorge-tadeo-certifican-a-100-emprendedores-de-la-amazonia-416410",
+      "fecha": "2026-11-06T23:31:03+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "5fd55b8ad23ee1cc",
+      "titulo": "Masglo lanza una colección de uñas con texturas inspiradas en el bienestar emocional",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/ocio/masglo-lanza-una-coleccion-de-unas-con-texturas-inspiradas-en-el-bienestar-emocional-4519516",
+      "fecha": "2026-11-06T23:24:51+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "721f0acaa3f7a88c",
+      "titulo": "Impuesto a productos de tiendas afectaría mayormente a hogares de menores ingresos",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/empresas/impuesto-a-las-tiendas-afectaria-con-mas-fuerza-a-los-hogares-de-menores-ingresos-4519496",
+      "fecha": "2026-11-06T23:24:07+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "10fbc4c858e146b0",
+      "titulo": "Darle dientes al Carf y auditar las cuentas: las propuestas para evitar otro descalabro fiscal en Colombia",
+      "categoria": "Colombia",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/finanzas/darle-dientes-al-carf-y-auditar-las-cuentas-las-propuestas-para-evitar-otro-descalabro-fiscal-en-colombia-505889",
+      "fecha": "2026-11-06T23:24:01+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "5c2c230eae37ace9",
+      "titulo": "Esta es la agenda deportiva de la semana por DirecTV y DGO",
+      "categoria": "Deportes",
+      "fuente": "La FM Deportes",
+      "url": "https://www.lafm.com.co/deportes/agenta-deportiva-para-la-semana-por-directv-y-dgo-416409",
+      "fecha": "2026-11-06T23:16:19+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "e0e251e0ec164853",
+      "titulo": "Dólar en Colombia pasó de $3.166 a $3.237 y registró su mayor avance semanal desde finales de septiembre",
+      "categoria": "Economía",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/finanzas/dolar-en-colombia-paso-de-3-166-a-3-237-y-registro-su-mayor-avance-semanal-desde-finales-de-septiembre-505895",
+      "fecha": "2026-11-06T23:11:38+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "5bcd8e534ceed2d9",
+      "titulo": "El Congreso de Paraguay destituye a Santiago Peña y juramenta a Pedro Alliana como nuevo presidente del país",
+      "categoria": "Colombia",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/cwkg55edm8r7o?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-06T23:10:19+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "7e7e1ef396b70315",
+      "titulo": "Leida, una madre inquebrantable que nunca dio a su hija por perdida: dos años de búsqueda hasta encontrar a Arleth Carolina con vida",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/barranquilla/leida-una-madre-inquebrantable-que-nunca-dio-a-su-hija-por-perdida-dos-anos-de-busqueda-hasta-encontrar-a-arleth-carolina-con-vida-3599144",
+      "fecha": "2026-11-06T23:10:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "52fd64e14d93574b",
+      "titulo": "Así fue desaparición de la docente Arleth Carolina Álvarez hace más de dos años y la búsqueda hasta encontrarla en Bogotá: esto se sabe de su hallazgo",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/barranquilla/asi-fue-la-desaparicion-de-la-docente-arleth-carolina-en-2024-y-la-busqueda-de-su-madre-durante-dos-anos-por-el-caribe-hasta-encontrarla-en-bogota-3599118",
+      "fecha": "2026-11-06T23:10:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "06d3287adfc1c26f",
+      "titulo": "Del grano a la industria: Fedecafé apuesta por comprar café en cereza y transformar el negocio cafetero",
+      "categoria": "Economía",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/agro/del-grano-a-la-industria-fedecafe-apuesta-por-comprar-cafe-en-cereza-y-transformar-el-negocio-cafetero-505896",
+      "fecha": "2026-11-06T23:05:25+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "09cb207547dbee0c",
+      "titulo": "Fundación WWB Colombia y A2censo se aliaron para facilitar el acceso al crédito",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/finanzas/fundacion-wwb-colombia-y-a2censo-se-aliaron-para-facilitar-el-acceso-al-credito-4519187",
+      "fecha": "2026-11-06T23:01:02+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "0496de8047b26525",
+      "titulo": "Fiscalía acusó a María Isabel Urrutia, exministra de Petro, por presuntas irregularidades en contrato de $4.950 millones",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/maria-isabel-urrutia-acusacion-irregularidades-contrato-4-950-millones-GN43281373",
+      "fecha": "2026-11-06T22:54:28+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "e70bfc9a12d63347",
+      "titulo": "Quién es Miguel Vázquez, el banquero milenial y atleta en el centro de la crisis de Paraguay",
+      "categoria": "Internacional",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/cwzd6684mgv5o?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-06T22:52:18+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "e7e883d8a20a9087",
+      "titulo": "Barranquilla: el Metropolitano tendrá más de 300 cámaras con IA y antenas 5G para la final de la Copa Sudamericana del 21 de noviembre",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/barranquilla/barranquilla-el-metropolitano-tendra-mas-de-300-camaras-con-ia-y-antenas-5g-para-la-final-de-la-copa-sudamericana-del-21-de-noviembre-3599134",
+      "fecha": "2026-11-06T22:38:50+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "8f4c479da08d3126",
+      "titulo": "El presidente de Paraguay, Santiago Peña, destituido y detenido por presunta corrupción",
       "categoria": "Colombia",
       "fuente": "El País Colombia",
-      "url": "https://elpais.com/america/2026-11-06/la-visita-del-papa-leon-xiv-en-uruguay-en-vivo.html",
-      "fecha": "2026-11-06T22:36:15+00:00",
+      "url": "https://elpais.com/america/2026-11-06/santiago-pena-destituido-por-el-congreso-como-presidente-de-paraguay.html",
+      "fecha": "2026-11-06T22:35:52+00:00",
       "imagen": ""
     },
     {
@@ -74,15 +227,6 @@
       "imagen": ""
     },
     {
-      "id": "5bcd8e534ceed2d9",
-      "titulo": "El Congreso de Paraguay destituye al presidente Santiago Peña en un juicio político por el escándalo de Ueno Bank",
-      "categoria": "Colombia",
-      "fuente": "BBC Mundo",
-      "url": "https://www.bbc.com/mundo/articles/cwkg55edm8r7o?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-06T22:13:03+00:00",
-      "imagen": ""
-    },
-    {
       "id": "61bde7cb966f068b",
       "titulo": "Senado de Paraguay destituye por unanimidad al presidente Santiago Peña tras la quiebra e intervención de Ueno Bank",
       "categoria": "Colombia",
@@ -93,7 +237,7 @@
     },
     {
       "id": "89dcfd7f2d20e880",
-      "titulo": "Santiago Peña fue destituido como presidente de Paraguay por caso Ueno",
+      "titulo": "Santiago Peña fue destituido como presidente de Paraguay por caso Ueno Bank",
       "categoria": "Colombia",
       "fuente": "La República",
       "url": "https://www.larepublica.co/globoeconomia/santiago-pena-fue-destituido-como-presidente-de-paraguay-por-caso-ueno-4519441",
@@ -146,15 +290,6 @@
       "imagen": ""
     },
     {
-      "id": "10fbc4c858e146b0",
-      "titulo": "Darle dientes al Carf y auditar las cuentas: las propuestas para evitar otro descalabro fiscal en Colombia",
-      "categoria": "Colombia",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/finanzas/darle-dientes-al-carf-y-auditar-las-cuentas-las-propuestas-para-evitar-otro-descalabro-fiscal-en-colombia-505889",
-      "fecha": "2026-11-06T22:04:08+00:00",
-      "imagen": ""
-    },
-    {
       "id": "1c24a7368a7e738b",
       "titulo": "Santa Marta amplía los horarios de sus principales playas: conozca hasta qué hora podrá bañarse y permanecer en El Rodadero y otros balnearios",
       "categoria": "Colombia",
@@ -188,15 +323,6 @@
       "fuente": "El Tiempo Cali",
       "url": "https://www.eltiempo.com/colombia/cali/por-fin-cayo-despues-de-dos-anos-y-medio-de-operaciones-en-jamundi-presidente-de-la-espriella-y-gobernadora-del-valle-sobre-muerte-de-pincher-3598862",
       "fecha": "2026-11-06T21:59:33+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "52fd64e14d93574b",
-      "titulo": "Así fue la desaparición de la docente Arleth Carolina en 2024 y la búsqueda de su madre durante dos años por el Caribe hasta encontrarla en Bogotá",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/barranquilla/asi-fue-la-desaparicion-de-la-docente-arleth-carolina-en-2024-y-la-busqueda-de-su-madre-durante-dos-anos-por-el-caribe-hasta-encontrarla-en-bogota-3599118",
-      "fecha": "2026-11-06T21:57:48+00:00",
       "imagen": ""
     },
     {
@@ -263,6 +389,15 @@
       "imagen": ""
     },
     {
+      "id": "46b7abbdd01cf862",
+      "titulo": "Mipymes temen efectos de la ley de rescate fiscal sobre el empleo y la sostenibilidad empresarial",
+      "categoria": "Economía",
+      "fuente": "La FM Economía",
+      "url": "https://www.lafm.com.co/economia/mipymes-temen-efectos-ley-rescate-fiscal-empleo-sostenibilidad-416401",
+      "fecha": "2026-11-06T21:49:03+00:00",
+      "imagen": ""
+    },
+    {
       "id": "83021b81a7c2b660",
       "titulo": "Adición al Presupuesto 2026: la posible asignación para el Fondo Milagro y lo que le correspondería a Air-e",
       "categoria": "Economía",
@@ -291,7 +426,7 @@
     },
     {
       "id": "a2360de88dc91d78",
-      "titulo": "Los videos del CEO de Ueno Bank que desnudan la crisis del banco paraguayo",
+      "titulo": "Los videos del CEO de Ueno que desnudan la crisis que atraviesa el banco paraguayo",
       "categoria": "Economía",
       "fuente": "La República",
       "url": "https://www.larepublica.co/globoeconomia/los-videos-del-ceo-de-ueno-bank-que-desnudan-la-crisis-del-banco-paraguayo-4519385",
@@ -305,15 +440,6 @@
       "fuente": "90 Minutos",
       "url": "https://90minutos.co/cali/barrio-obrero-transformacion-cultural-divide-opiniones-6-11-2026/",
       "fecha": "2026-11-06T21:33:14+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "8557e9a656b5a216",
-      "titulo": "Hallan con vida en Bogotá a Arleth Carolina, la docente barranquillera desaparecida desde 2024: su madre la buscó durante dos años por todo el Caribe",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/barranquilla/hallan-con-vida-en-bogota-a-arleth-carolina-la-docente-barranquillera-desaparecida-desde-2024-su-madre-la-busco-durante-dos-anos-por-todo-el-caribe-3599092",
-      "fecha": "2026-11-06T21:30:15+00:00",
       "imagen": ""
     },
     {
@@ -341,15 +467,6 @@
       "fuente": "El Tiempo",
       "url": "https://www.eltiempo.com/colombia/santander/expulsan-a-13-migrantes-de-bucaramanga-sumaban-mas-de-320-anotaciones-policiales-estas-fueron-las-irregularidades-que-cometieron-3599075",
       "fecha": "2026-11-06T21:24:46+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "6ee5d659721cbc12",
-      "titulo": "Colegios de Cartagena celebran 20 años de talento, arte y cultura escolar con el Festival Jorge García Usta",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/colegios-de-cartagena-celebran-20-anos-de-talento-arte-y-cultura-escolar-con-el-festival-jorge-garcia-usta-3599112",
-      "fecha": "2026-11-06T21:24:36+00:00",
       "imagen": ""
     },
     {
@@ -418,127 +535,10 @@
     {
       "id": "6654adff08333766",
       "titulo": "La operación militar en Timba, Cauca, que dejó abatido a alias Pincher: murió un soldado, hay tres uniformados heridos y dos helicópteros impactados",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
+      "categoria": "Cali",
+      "fuente": "El Tiempo Cali",
       "url": "https://www.eltiempo.com/colombia/cali/la-operacion-militar-en-timba-cauca-que-dejo-abatido-a-alias-pincher-murio-un-soldado-hay-tres-uniformados-heridos-y-dos-helicopteros-impactados-3599108",
       "fecha": "2026-11-06T21:02:56+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "9e743ed0b9280459",
-      "titulo": "¿El magnesio realmente ayuda a dormir? Médico explicó qué dice la ciencia sobre uno de los suplementos más populares",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/noticias/el-magnesio-realmente-ayuda-a-dormir-medico-explico-que-dice-la-ciencia-sobre-uno-de-los-suplementos-mas-populares/",
-      "fecha": "2026-11-06T21:00:15+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "4bf8d6a4ec10b0c2",
-      "titulo": "Ante el escándalo Jiménez – Petro: ¿denuncia o impertinencia informativa?",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/red-de-expertos/red-social/ante-el-escandalo-jimenez-petro-denuncia-o-impertinencia-informativa/",
-      "fecha": "2026-11-06T21:00:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "bbe9215bd4c4018a",
-      "titulo": "Corte Suprema le cierra otra puerta a Santiago Uribe en caso “12 Apóstoles”",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/en-vivo/corte-suprema-le-cierra-otra-puerta-a-santiago-uribe-en-caso-12-apostoles/",
-      "fecha": "2026-11-06T20:54:05+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "f669b423a011646c",
-      "titulo": "Operadora Habitel invierte $1.200 millones en Fogu, su nuevo restaurante en Bogotá",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/ocio/operadora-habitel-invierte-1-200-millones-en-fogu-su-nuevo-restaurante-en-bogota-4519390",
-      "fecha": "2026-11-06T20:53:41+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "cb8b2de27b73b565",
-      "titulo": "Hallazgos fiscales por más de $60.000 millones ponen bajo la lupa al Aeropuerto del Café",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/infraestructura/hallazgos-fiscales-por-mas-de-60-000-millones-ponen-bajo-la-lupa-el-aeropuerto-internacional-del-cafe-505876",
-      "fecha": "2026-11-06T20:50:51+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "879046850cdfc62f",
-      "titulo": "Contraloría investiga posibles irregularidades en el Sena: revisará contratos de los últimos tres años",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/gobierno/contraloria-investiga-posibles-irregularidades-en-el-sena-revisara-contratos-de-los-ultimos-tres-anos-505882",
-      "fecha": "2026-11-06T20:50:25+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "e70bfc9a12d63347",
-      "titulo": "Quién es Miguel Vázquez, el banquero milenial y atleta en el centro de la crisis de Paraguay",
-      "categoria": "Internacional",
-      "fuente": "BBC Mundo",
-      "url": "https://www.bbc.com/mundo/articles/cwzd6684mgv5o?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-06T20:46:25+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "61d02c1d5845bbf6",
-      "titulo": "Tensión y caos vial en el centro de Cali por protestas de vendedores ambulantes tras operativo de recuperación del espacio público",
-      "categoria": "Cali",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/cali/tension-y-caos-vial-en-el-centro-de-cali-por-protestas-de-vendedores-ambulantes-tras-operativo-de-recuperacion-del-espacio-publico-3599102",
-      "fecha": "2026-11-06T20:44:37+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "804d526c058fc5c2",
-      "titulo": "Explosivo libro Las mujeres de Petro habla de grabaciones, fiestas, drogas y chantajes en el gobierno nacional",
-      "categoria": "Colombia",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/colombia/gustavo-petro-libro-revela-grabaciones-y-poder-de-sarabia/",
-      "fecha": "2026-11-06T20:42:34+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "56bc2a04cb1b0046",
-      "titulo": "Estrategia “progresista”",
-      "categoria": "Colombia",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/opinion/columnistas/estrategia-progresista/",
-      "fecha": "2026-11-06T20:34:49+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "4c0435ed80081c25",
-      "titulo": "Pico y placa para este lunes, 9 de noviembre: conozca las placas que tienen restricción",
-      "categoria": "Valle del Cauca",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/cali/pico-placa-lunes-noviembre-6-11-2026/",
-      "fecha": "2026-11-06T20:32:18+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "a6f47bae76097f19",
-      "titulo": "Devolución de saldos a favor ante la Dian: plazos y soportes que debe tener en cuenta",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/devolucion-de-saldos-a-favor-ante-la-dian-plazos-y-soportes-que-debe-tener-en-cuenta-505880",
-      "fecha": "2026-11-06T20:31:59+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "62a0e5afda55823a",
-      "titulo": "India anuncia planes para desarrollar GPU nacionales en 24 meses mientras busca dar salida comercial a sus chips RISC-V",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/robotica-e-ia/india-anuncia-planes-para-desarrollar-gpu-nacionales-24-meses-busca-dar-salida-comercial-a-sus-chips-risc-v",
-      "fecha": "2026-11-06T20:31:05+00:00",
       "imagen": ""
     }
   ],
@@ -553,14 +553,14 @@
       "nombre": "El Tiempo Cali",
       "url": "https://www.eltiempo.com/rss/colombia_cali.xml",
       "estado": "correcto",
-      "titulares": 8
+      "titulares": 9
     },
     {
       "nombre": "El Espectador",
       "url": "https://www.elespectador.com/rss/",
       "estado": "error",
       "titulares": 0,
-      "detalle": "El feed no contiene entradas."
+      "detalle": "403 Client Error: Forbidden for url: https://www.elespectador.com/feed/"
     },
     {
       "nombre": "La Silla Vacía",
@@ -590,7 +590,7 @@
       "nombre": "BBC Mundo",
       "url": "https://feeds.bbci.co.uk/mundo/rss.xml",
       "estado": "correcto",
-      "titulares": 22
+      "titulares": 23
     },
     {
       "nombre": "DW Español",
@@ -620,7 +620,7 @@
       "nombre": "La FM Deportes",
       "url": "https://www.lafm.com.co/rss/deportes.xml",
       "estado": "correcto",
-      "titulares": 17
+      "titulares": 18
     },
     {
       "nombre": "La FM Economía",
@@ -644,7 +644,7 @@
       "nombre": "Q'hubo Cali",
       "url": "https://www.qhubocali.com/feed/",
       "estado": "correcto",
-      "titulares": 3
+      "titulares": 2
     },
     {
       "nombre": "El Colombiano — Colombia",
