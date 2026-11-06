@@ -56,13 +56,19 @@
         "dominios_independientes": 2,
         "fecha": "2026-11-05T14:34:06.720245+00:00"
       },
-      "imagen": "",
-      "imagen_credito": {},
+      "imagen": "https://raw.githubusercontent.com/7zkm57snty-dev/noti/main/assets/editorial-news/211ec915-f14f-4ac5-bb42-e218faafb95c.jpg",
+      "imagen_credito": {
+        "autor": "Nuevo dia",
+        "fuente": "Nuevo dia",
+        "pagina": "https://www.elnuevodia.com.co/sites/default/files/styles/large/public/imagenes/2026/02/NOTA%202%20.jpg.webp?itok=S6jrHI61",
+        "licencia": "CC",
+        "licencia_url": "https://www.elnuevodia.com.co/sites/default/files/styles/large/public/imagenes/2026/02/NOTA%202%20.jpg.webp?itok=S6jrHI61"
+      },
       "imagen_busqueda_intentada": true,
       "imagen_instagram": "https://cevnoticias.com/social/2b5af2af57102f56.jpg",
       "imagen_instagram_tipo": "portada_grafica_cev",
       "descripcion_instagram": "Operativos contra la minería ilegal en Tolima: la gobernadora confirma que hasta el 15 % de las ganancias llegan a disidencias\\n\\nLa gobernadora Adriana Matiz ha anunciado que las operaciones contra la minería ilegal en Ataco y el río Saldaña han destruido cientos de equipos y que, según sus cifras, entre el 10 % y el 15 % de los ingresos mensuales de la actividad ilícita se canalizan a estructuras disidentes de las FARC. Los datos de los dos principales medios locales difieren en montos y número de equipos, pero coinciden en la magnitud del problema y en la necesidad de reforzar la presencia estatal.\\n\\nLee la noticia completa en cevnoticias.com.\\n\\n#CEVNoticias #Actualidad #Colombia",
-      "verificacion": "Varias fuentes independientes",
+      "verificacion": "Fuentes independientes",
       "fecha": "05/11/2026 · 09:34 AM",
       "fuentes": [
         {
