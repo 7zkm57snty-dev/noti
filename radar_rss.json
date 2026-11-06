@@ -1,13 +1,256 @@
 {
-  "ultima_actualizacion": "2026-11-06T11:33:21.827937+00:00",
+  "ultima_actualizacion": "2026-11-06T12:35:45.887368+00:00",
   "titulares_rss": [
+    {
+      "id": "c128ec0b6494d753",
+      "titulo": "El Congreso de Paraguay debate el futuro del presidente Santiago Peña tras la crisis de Ueno Bank. Sigue las últimas noticias",
+      "categoria": "Colombia",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.co.uk/mundo/live/c6d933yv3q8dt?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-06T12:35:45.887368+00:00",
+      "imagen": ""
+    },
     {
       "id": "89dc688081c894aa",
       "titulo": "Crisis en Paraguay: el Congreso emprende un juicio político contra Santiago Peña y deja en suspenso su renuncia como presidente",
       "categoria": "Colombia",
       "fuente": "BBC Mundo",
       "url": "https://www.bbc.co.uk/mundo/live/cmgr8vrv5w55t?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-06T11:33:21.827937+00:00",
+      "fecha": "2026-11-06T12:35:45.887368+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "cb2cdc16e383b5ff",
+      "titulo": "Banco de Gilinski recibe avalancha de solicitudes de cuentas tras caída de Ueno en Paraguay",
+      "categoria": "Economía",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/finanzas/banco-de-gilinski-recibe-avalancha-de-solicitudes-de-cuentas-tras-la-caida-de-ueno-en-paraguay-4518993",
+      "fecha": "2026-11-06T12:34:32+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "f053bb6b592b462b",
+      "titulo": "La radiografía completa de las rentas ilegales en Antioquia: cultivos, minería y extorsión; cifras clave para entender la realidad del departamento",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/medellin/la-radiografia-completa-de-las-rentas-ilegales-en-antioquia-cultivos-mineria-y-extorsion-cifras-clave-para-entender-la-realidad-del-departamento-3598810",
+      "fecha": "2026-11-06T12:24:03+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "34b6dd398cbf57fa",
+      "titulo": "Director de Racing Bulls F1 Alan Permane renueva su contrato hasta la temporada de 2031",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/ocio/director-de-racing-bulls-f1-permane-renueva-su-contrato-hasta-2031-4519032",
+      "fecha": "2026-11-06T12:21:13+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "3a2114c8c95cd957",
+      "titulo": "Conozca los barrios de Cali que se quedarán sin agua este viernes, 6 de octubre",
+      "categoria": "Cali",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/cali/barrios-cali-sin-agua-viernes-6-octubre-6-11-2026/",
+      "fecha": "2026-11-06T12:18:33+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "c060248007a65aa9",
+      "titulo": "Desayune informado con las claves de este 6 de noviembre de 2026",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/en-vivo/desayune-informado-con-las-claves-de-este-6-de-noviembre-de-2026/",
+      "fecha": "2026-11-06T12:15:49+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "174bfba4c6563203",
+      "titulo": "Grave accidente de bus intermunicipal en Medellín dejó 10 personas heridas: vehículo con 19 pasajeros se volcó en avenida Las Palmas; esto se sabe",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/medellin/grave-accidente-de-bus-intermunicipal-en-medellin-dejo-10-personas-heridas-vehiculo-con-19-pasajeros-se-volco-en-avenida-las-palmas-esto-se-sabe-3598923",
+      "fecha": "2026-11-06T12:15:39+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "9dc348fd2f3a8daa",
+      "titulo": "Diligencia de Deicy Jiménez en la Fiscalía por denuncia de “sexocontratos” se extendió por 15 horas y terminó en la madrugada",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/deicy-jimenez-gustavo-petro-fiscalia-sexocontratos-AA43253131",
+      "fecha": "2026-11-06T12:12:49+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "209385a34b14bb27",
+      "titulo": "La inflación anual en Chile se acelera hasta alcanzar su nivel más alto en más de un año",
+      "categoria": "Economía",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/globoeconomia/la-inflacion-anual-en-chile-se-acelera-hasta-alcanzar-su-nivel-mas-alto-en-mas-de-un-ano-4519017",
+      "fecha": "2026-11-06T12:10:15+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "ab58204aad5a956d",
+      "titulo": "Europa señala a TikTok y exige que cambie su diseño",
+      "categoria": "Internacional",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/europa-señala-a-tiktok-y-exige-que-cambie-su-diseño/a-79875544?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-06T12:09:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "56ee944e4222b054",
+      "titulo": "Jóvenes que egresan del ICBF reciben apoyo para construir su proyecto de vida en Cali",
+      "categoria": "Cali",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/cali/jovenes-egresan-icbf-reciben-apoyo-construir-proyecto-cali-6-11-2026/",
+      "fecha": "2026-11-06T12:08:04+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "331dd85bd5ff51c3",
+      "titulo": "Banco de la República mantuvo la tasa en 12,25% con voto dividido: esto es lo que revelan las minutas",
+      "categoria": "Economía",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/banco-de-la-republica-mantiene-la-tasa-en-12-25-con-voto-dividido-505819",
+      "fecha": "2026-11-06T12:07:29+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "6d9c16a2dbd38bc5",
+      "titulo": "La UAO impulsa nuevas iniciativas para reconocer el patrimonio caleño",
+      "categoria": "Valle del Cauca",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/la-uao/uao-impulsa-iniciativas-reconocer-patrimonio-caleno-6-11-2026/",
+      "fecha": "2026-11-06T12:04:15+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "913b65f05d3d486d",
+      "titulo": "¿Por qué la victoria de los demócratas generó un desplome de las acciones de IA en Wall Street?",
+      "categoria": "Internacional",
+      "fuente": "La FM Internacional",
+      "url": "https://www.lafm.com.co/internacional/se-desploman-acciones-ia-wall-street-victoria-partido-democrata-416320",
+      "fecha": "2026-11-06T12:02:18+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "efa6c53d5aedba25",
+      "titulo": "Ya en Action (y rebajada a 5,95 euros) esta lámpara moderna ideal para disfrutar de luz ambiente en cualquier rincón de casa",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/seleccion/action-rebajada-a-5-95-euros-esta-lampara-moderna-ideal-para-disfrutar-luz-ambiente-cualquier-rincon-casa",
+      "fecha": "2026-11-06T12:01:06+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "2247c3d08cb4b879",
+      "titulo": "3 defensas para un líder: Pacto, Petro y Deicy Jiménez",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/podcasts/huevos-revueltos-con-politica/3-defensas-para-un-lider-pacto-petro-y-deicy-jimenez/",
+      "fecha": "2026-11-06T12:00:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "be395d08b35bcd56",
+      "titulo": "Ley de rescate: la comida pagará el costo del ajuste fiscal",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/red-de-expertos/red-rural/ley-de-rescate-la-comida-pagara-el-costo-del-ajuste-fiscal/",
+      "fecha": "2026-11-06T12:00:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "09581ef778683bce",
+      "titulo": "España tiene hoy 25 millones de turistas más que en 2016. El problema es que la infraestructura del país sigue igual",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/magnet/espana-va-camino-cerrar-2026-25-millones-turistas-que-hace-diez-anos-historia-record-cada-vez-insostenible",
+      "fecha": "2026-11-06T12:00:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "40d05268331899a8",
+      "titulo": "Expulsarán de Colombia a más de 80 venezolanos señalados de actividades criminales tras megaoperativos",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/expulsion-80-extranjeros-venezolanos-actividades-criminales-megaoperativos-bogota-medellin-HA43253114",
+      "fecha": "2026-11-06T11:54:18+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "39db5e91fdeedc6e",
+      "titulo": "Coperni, la marca del vestido de Bella Hadid, cierra sus operaciones. ¿No valió su viralidad?",
+      "categoria": "Tendencias",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/ocio/coperni-la-marca-del-vestido-de-bella-hadid-cierra-sus-operaciones-no-valio-de-nada-su-viralidad-4519012",
+      "fecha": "2026-11-06T11:53:34+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "d8149a8fd4c4a3ee",
+      "titulo": "Tesla pondrá fin a la producción del Cybertruck en Texas a partir de mediados de 2027",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/globoeconomia/tesla-pondra-fin-a-la-produccion-del-cybertruck-en-texas-a-partir-de-mediados-de-2027-4519011",
+      "fecha": "2026-11-06T11:50:28+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "786277db200bf834",
+      "titulo": "La DGT tiene tres helicópteros Pegasus completamente parados en Madrid después de pagar 51 millones de euros por ellos",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/movilidad/dgt-tiene-tres-helicopteros-pegasus-completamente-parados-despues-pagar-51-millones-euros",
+      "fecha": "2026-11-06T11:50:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "4c0b5223128aa11c",
+      "titulo": "Oro baja y se encamina a mejor semana en más de dos meses antes de dato empleo EE.UU.",
+      "categoria": "Economía",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/finanzas/precio-del-oro-hoy-6-de-noviembre-de-2026-4519005",
+      "fecha": "2026-11-06T11:45:04+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "28ad7e5f85da0683",
+      "titulo": "Devolución del dinero lidera las más de 440.000 reclamaciones recibidas por la SIC desde 2015",
+      "categoria": "Economía",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/gobierno/devolucion-del-dinero-lidera-las-mas-de-440-000-reclamaciones-recibidas-por-la-sic-desde-505831",
+      "fecha": "2026-11-06T11:38:16+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "fc6d037264ad76ea",
+      "titulo": "Presidente Peña pide 72 horas para armar su defensa previo al juicio político en el que se espera su destitución",
+      "categoria": "Colombia",
+      "fuente": "La FM Internacional",
+      "url": "https://www.lafm.com.co/internacional/santiago-pena-pide-72-horas-organizar-defensa-juicio-politico-paraguay-416312",
+      "fecha": "2026-11-06T11:36:57+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "ff0b28a662f8ac87",
+      "titulo": "El crudo se encamina a fuerte caída semanal tras elecciones medio mandato en EE.UU.",
+      "categoria": "Internacional",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/globoeconomia/el-crudo-se-encamina-a-fuerte-caida-semanal-tras-elecciones-medio-mandato-en-ee-uu-4518972",
+      "fecha": "2026-11-06T11:33:11+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "72ed470f4ba08a94",
+      "titulo": "El reto que supone para el papa León XIV visitar Uruguay, el país menos católico de América Latina",
+      "categoria": "Internacional",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/ck7vpp3y5nypo?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-06T11:32:45+00:00",
       "imagen": ""
     },
     {
@@ -20,12 +263,39 @@
       "imagen": ""
     },
     {
+      "id": "4c995ee52ee6fa54",
+      "titulo": "Las mejores tarifas de fibra y móvil para ver todo el fútbol en la temporada 2026/2027",
+      "categoria": "Deportes",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/internet-y-television/mejores-tarifas-fibra-movil-para-ver-todo-futbol-temporada-2026-2027",
+      "fecha": "2026-11-06T11:31:07+00:00",
+      "imagen": ""
+    },
+    {
       "id": "f401bca9b393f691",
       "titulo": "La devolución del dinero lidera solicitudes en SIC Facilita, que supera 440.000 reclamaciones",
       "categoria": "Colombia",
       "fuente": "La República",
       "url": "https://www.larepublica.co/empresas/la-devolucion-del-dinero-lidera-solicitudes-en-sic-facilita-que-supera-440-000-reclamaciones-4518982",
       "fecha": "2026-11-06T11:30:04+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "6a09e314b1d93bda",
+      "titulo": "Portada 6 de noviembre del 2026",
+      "categoria": "Colombia",
+      "fuente": "La Patria — Caldas",
+      "url": "https://www.lapatria.com/publicacion/portada-6-de-noviembre-del-2026",
+      "fecha": "2026-11-06T11:26:59+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "9952721c341ad49d",
+      "titulo": "El precio del dólar en Colombia cierra la semana con un aumento de casi $50: así cotiza la divisa estadounidense",
+      "categoria": "Economía",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/finanzas/el-precio-del-dolar-en-colombia-cierra-la-semana-con-un-aumento-de-casi-50-asi-cotiza-la-divisa-estadounidense-505830",
+      "fecha": "2026-11-06T11:25:08+00:00",
       "imagen": ""
     },
     {
@@ -38,12 +308,21 @@
       "imagen": ""
     },
     {
+      "id": "38b44775ee46955e",
+      "titulo": "Pereira abrió las puertas a la literatura: Cinco días para encontrarse con los libros",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/cultura/pereira-abrio-las-puertas-a-la-literatura-cinco-dias-para-encontrarse-con-los-libros/",
+      "fecha": "2026-11-06T11:21:28+00:00",
+      "imagen": ""
+    },
+    {
       "id": "4a9af92728528838",
-      "titulo": "El Gobierno interviene por primera vez el mercado del aceite de oliva para evitar que los precios sigan cayendo",
+      "titulo": "España toma una medida inédita en su historia e interviene el mercado del aceite de oliva para frenar el desplome de precios",
       "categoria": "Economía",
       "fuente": "Xataka",
       "url": "https://www.xataka.com/ecologia-y-naturaleza/gobierno-interviene-primera-vez-mercado-aceite-oliva-para-evitar-que-precios-sigan-cayendo",
-      "fecha": "2026-11-06T11:21:33+00:00",
+      "fecha": "2026-11-06T11:21:00+00:00",
       "imagen": ""
     },
     {
@@ -92,20 +371,20 @@
       "imagen": ""
     },
     {
-      "id": "d2b2724bb4f61fd7",
-      "titulo": "Si hace 5 años invertiste 10.000 dólares en Tesla, hoy tendrías 8.400",
-      "categoria": "Economía",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/empresas-y-economia/hace-5-anos-invertiste-10-000-dolares-tesla-hoy-tendrias-8-400",
-      "fecha": "2026-11-06T10:45:06+00:00",
-      "imagen": ""
-    },
-    {
       "id": "c5645502a15e0e20",
       "titulo": "Comienza el juicio contra la organización extremista Königreich Deutschland",
       "categoria": "Internacional",
       "fuente": "DW Español",
       "url": "https://www.dw.com/es/comienza-el-juicio-contra-la-organización-extremista-königreich-deutschland/a-79874423?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-06T10:45:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "d2b2724bb4f61fd7",
+      "titulo": "Si hace cinco años invertiste 10.000 dólares en Tesla, hoy tendrías 8.400",
+      "categoria": "Economía",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/empresas-y-economia/hace-5-anos-invertiste-10-000-dolares-tesla-hoy-tendrias-8-400",
       "fecha": "2026-11-06T10:45:00+00:00",
       "imagen": ""
     },
@@ -261,285 +540,6 @@
       "url": "https://elpais.com/america/2026-11-06/militantes-bolsonaristas-ante-la-huida-de-flavio-bolsonaro-a-florida-hizo-lo-correcto-si-no-iria-preso.html",
       "fecha": "2026-11-06T09:30:00+00:00",
       "imagen": ""
-    },
-    {
-      "id": "cf64a76b85b8b698",
-      "titulo": "Los científicos que aprenden a leer el cambio climático en las mariposas de la Amazonía peruana",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/america-futura/2026-11-06/los-cientificos-que-aprenden-a-leer-el-cambio-climatico-en-las-mariposas-de-la-amazonia-peruana.html",
-      "fecha": "2026-11-06T09:30:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "b9bb1c1a668c5310",
-      "titulo": "¿Qué se juega en la COP31? El efecto Ormuz, el espíritu de Santa Marta y la oportunidad de Antalya",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/america-futura/2026-11-06/que-se-juega-en-la-cop31-el-efecto-ormuz-el-espiritu-de-santa-marta-y-la-oportunidad-de-antalya.html",
-      "fecha": "2026-11-06T09:30:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "e99f885653c488d9",
-      "titulo": "32 GB de RAM DDR5, Intel i7 y RTX 5070: así es el PC gaming top que destaca en el Black Friday de PcComponentes",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/seleccion/32-gb-ram-ddr5-intel-i7-rtx-5070-asi-pc-gaming-top-que-destaca-black-friday-pccomponentes",
-      "fecha": "2026-11-06T09:15:05+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "25f96f01ea3e7fe6",
-      "titulo": "Este reloj de Google es un chollo antes del Black Friday: ahora puedes comprarlo por menos de 70 euros",
-      "categoria": "Tecnología",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/seleccion/este-reloj-google-chollo-antes-black-friday-ahora-puedes-comprarlo-70-euros",
-      "fecha": "2026-11-06T09:01:08+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "b017be6a48037d35",
-      "titulo": "Hay una España que paga casas a tocateja y otra que vive pendiente del euríbor. Sus extremos están en Castilla y León y Madrid",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/magnet/hay-espana-que-paga-casas-a-tocateja-otra-que-vive-pendiente-euribor-sus-extremos-estan-castilla-leon-madrid",
-      "fecha": "2026-11-06T09:01:08+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "94ea02b4eb278a02",
-      "titulo": "Han visto por primera vez en España a un ruiseñor calíope, pese a ser un ave que es muy rara de ver en Europa",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/ecologia-y-naturaleza/han-visto-primera-vez-espana-a-ruisenor-caliope-cuando-ave-que-muy-rara-ver-europa",
-      "fecha": "2026-11-06T08:45:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "8dcc37136769598b",
-      "titulo": "Muere Gonzalo Moratorio, el científico que \"blindó\" a Uruguay del covid-19 y luchaba por pagarse un costoso tratamiento contra el cáncer",
-      "categoria": "Internacional",
-      "fuente": "BBC Mundo",
-      "url": "https://www.bbc.com/mundo/articles/c674ppz944jxo?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-06T08:43:22+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "cfbe3a8e8040f160",
-      "titulo": "China ha construido una criatura marina de 40.000 toneladas con alma de portaaviones. Su secreto apunta al mayor dolor de cabeza de EEUU",
-      "categoria": "Internacional",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/magnet/china-ha-construido-criatura-marina-40-000-toneladas-alma-portaaviones-su-secreto-apunta-al-mayor-dolor-cabeza-eeuu",
-      "fecha": "2026-11-06T08:01:07+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "357c1324244adc78",
-      "titulo": "¡Ojo, conductores! Pico y placa en Pereira para este viernes 6 de noviembre: revise si su carro o moto tiene restricción",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/ojo-conductores-pico-y-placa-en-pereira-para-este-viernes-6-de-noviembre-revise-si-su-carro-o-moto-tiene-restriccion-3598768",
-      "fecha": "2026-11-06T07:30:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "04267b106dca95a7",
-      "titulo": "¡Evite multas, conductor! Pico y placa en Bucaramanga para este viernes 6 de noviembre de 2026: estos vehículos no pueden circular",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/santander/evite-multas-conductor-pico-y-placa-en-bucaramanga-para-este-viernes-6-de-noviembre-de-2026-estos-vehiculos-no-pueden-circular-3598767",
-      "fecha": "2026-11-06T07:30:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "8473c0017390223c",
-      "titulo": "¡Pilas, conductor! Pico y placa en Cali para el viernes 6 de noviembre de 2026: placas y horarios de la restricción",
-      "categoria": "Cali",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/cali/pilas-conductor-pico-y-placa-en-cali-para-el-viernes-6-de-noviembre-de-2026-placas-y-horarios-de-la-restriccion-3598765",
-      "fecha": "2026-11-06T07:30:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "a45003c6bc357df2",
-      "titulo": "Pico y placa en Medellín para el viernes 6 de noviembre de 2026: placas que tienen restricción y horarios",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/medellin/pico-y-placa-en-medellin-para-el-viernes-6-de-noviembre-de-2026-placas-que-tienen-restriccion-y-horarios-3598700",
-      "fecha": "2026-11-06T07:30:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "66d1a55a460fc533",
-      "titulo": "El Papa parte hacia Latinoamérica",
-      "categoria": "Internacional",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/el-papa-parte-hacia-latinoamérica/a-79872212?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-06T07:20:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "bc8ee7191845032a",
-      "titulo": "Lidl vende (con un descuento de más del 50%) esta tele Philips QLED de 55 pulgadas con Dolby Atmos y HDR10+",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/seleccion/lidl-vende-a-50-esta-tele-philips-qled-55-pulgadas-dolby-atmos-hdr10",
-      "fecha": "2026-11-06T07:00:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "e420bf97ab793a4a",
-      "titulo": "El Papa regresa por primera vez a América bajo la sombra de Trump",
-      "categoria": "Internacional",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/internacional/2026-11-06/el-papa-regresa-por-primera-vez-a-america-bajo-la-sombra-de-trump.html",
-      "fecha": "2026-11-06T06:43:51+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "c6e876ea8e08a0a1",
-      "titulo": "Papa León XIV inicia viaje por Latinoamérica para llevar mensaje de unión",
-      "categoria": "Internacional",
-      "fuente": "La FM Internacional",
-      "url": "https://www.lafm.com.co/internacional/asi-sera-la-agenda-del-papa-leon-xiv-en-latioamerica-416303",
-      "fecha": "2026-11-06T06:41:56+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "8f7413a7a9437fb2",
-      "titulo": "Este receptor de bolsillo permite a los soldados ucranianos ver lo que ven los drones rusos en tiempo real",
-      "categoria": "Internacional",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/magnet/este-receptor-bolsillo-permite-a-soldados-ucranianos-ver-que-ven-drones-rusos-tiempo-real",
-      "fecha": "2026-11-06T06:31:06+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "b10269ce53bc7371",
-      "titulo": "Trump atribuye el desplome de las acciones a la victoria demócrata",
-      "categoria": "Internacional",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/trump-atribuye-el-desplome-de-las-acciones-a-la-victoria-demócrata/a-79871846?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-06T06:11:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "e5d27c8731a80ba0",
-      "titulo": "Una empresa contrató a un trabajador, despidió al jefe que lo seleccionó y se olvidó de él: ha estado siete meses cobrando sin trabajar",
-      "categoria": "Deportes",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/empresas-y-economia/empresa-contrato-a-trabajador-despidio-al-jefe-que-selecciono-se-olvido-ha-estado-siete-meses-cobrando-trabajar",
-      "fecha": "2026-11-06T06:01:05+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "9a4d351d9fbb6476",
-      "titulo": "Un Pacto en silencio protege a Petro y desacredita su bandera feminista",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/silla-nacional/un-pacto-en-silencio-protege-a-petro-y-desacredita-su-bandera-feminista/",
-      "fecha": "2026-11-06T06:00:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "1c742040bfb735f9",
-      "titulo": "Deja de cumplir expectativas y empieza a crear valor",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/analisis/sofia-spaggiari-pineda-4453355/deja-de-cumplir-expectativas-y-empieza-a-crear-valor-4518597",
-      "fecha": "2026-11-06T05:05:43+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "0acee91d014b63ec",
-      "titulo": "De 19 millones de mujeres en edad de trabajar, la mitad participan en el mercado laboral",
-      "categoria": "Economía",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/de-19-millones-de-mujeres-en-edad-de-trabajar-50-participan-en-mercado-laboral-4518799",
-      "fecha": "2026-11-06T05:04:19+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "b07dbeadbaec15df",
-      "titulo": "Escándalo de Ueno Bank tumbó al presidente paraguayo, Santiago Peña, y a su gobierno",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/escandalo-de-ueno-bank-tumbo-al-presidente-paraguayo-santiago-pena-4518840",
-      "fecha": "2026-11-06T05:03:36+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "e33339ad0f71c8f1",
-      "titulo": "¿A quién beneficiará el régimen Régimen Único para Generar Estabilidad Empresarial?",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/especiales/la-ley-de-rescate/como-funcionara-el-regimen-unico-para-generar-estabilidad-empresarial-asi-funcionara-4518899",
-      "fecha": "2026-11-06T05:02:07+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "3fc76bc96a51bbf3",
-      "titulo": "Empanadas y gorras, conozca los otros negocios detrás del cantante Jhon Álex Castaño",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/ocio/empanadas-y-gorras-conozca-los-otros-negocios-del-cantante-jhon-alex-castano-4518285",
-      "fecha": "2026-11-06T05:01:58+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "dfdac51f6704bd54",
-      "titulo": "Desde $2 millones puede negociar sus deudas, normalizarlas y organizarse",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/finanzas/desde-2-millones-puede-negociar-sus-deudas-4518646",
-      "fecha": "2026-11-06T05:01:56+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "ac917dc5f9627daa",
-      "titulo": "Costos del entretenimiento, bajo la lupa por el impacto de la reforma tributaria",
-      "categoria": "Tendencias",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/especiales/la-ley-de-rescate/costos-del-entretenimiento-bajo-la-lupa-por-el-impacto-de-la-reforma-tributaria-4518973",
-      "fecha": "2026-11-06T05:01:53+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "d24a93de6af51777",
-      "titulo": "El costo de la emoción desregulada",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/analisis/ernesto-lucena-barrero-3209042/el-costo-de-la-emocion-desregulada-4518629",
-      "fecha": "2026-11-06T05:01:46+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "80ced13e3470c74e",
-      "titulo": "El crecimiento también merece un rescate",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/analisis/juan-fernando-samudio-3439437/el-crecimiento-tambien-merece-un-rescate-4518615",
-      "fecha": "2026-11-06T05:01:44+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "361445aa109c97cc",
-      "titulo": "La IX Cumbre del Petróleo, Gas y Energía reunió en Cartagena a líderes del sector",
-      "categoria": "Economía",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/ocio/la-ix-cumbre-del-petroleo-gas-y-energia-reunio-en-cartagena-a-lideres-del-sector-energetico-de-america-latina-4518647",
-      "fecha": "2026-11-06T05:01:44+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "585e16a30d96f46d",
-      "titulo": "El impuesto al patrimonio partiría de valores líquidos de $5.002 millones de 2027 a 2030",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/especiales/la-ley-de-rescate/el-impuesto-al-patrimonio-partiria-de-valores-liquidos-de-5-002-millones-de-2027-a-2030-4518876",
-      "fecha": "2026-11-06T05:01:43+00:00",
-      "imagen": ""
     }
   ],
   "estado_fuentes": [
@@ -655,9 +655,8 @@
     {
       "nombre": "El Diario — Pereira",
       "url": "https://www.eldiario.com.co/feed/",
-      "estado": "error",
-      "titulares": 0,
-      "detalle": "El feed no contiene entradas."
+      "estado": "correcto",
+      "titulares": 35
     },
     {
       "nombre": "Chocó 7 días",
