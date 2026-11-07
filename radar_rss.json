@@ -1,5 +1,5 @@
 {
-  "ultima_actualizacion": "2026-11-07T11:47:35.496185+00:00",
+  "ultima_actualizacion": "2026-11-07T12:58:25.270525+00:00",
   "titulares_rss": [
     {
       "id": "029434dd47711907",
@@ -7,7 +7,52 @@
       "categoria": "Colombia",
       "fuente": "BBC Mundo",
       "url": "https://www.bbc.co.uk/mundo/live/c54g11vvvemkt?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-07T11:47:35.496185+00:00",
+      "fecha": "2026-11-07T12:58:25.270525+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "69a47f4a29ecc229",
+      "titulo": "\"Cuando hablamos del fin del mundo, todos piensan en meteoritos, virus o un supertsunami, pero pocos imaginan un choque ontológico\"",
+      "categoria": "Internacional",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/cr3wvvlp9vx1o?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-07T12:52:27+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "3798720f93a025d1",
+      "titulo": "Ueno Bank, el banco que se expandió durante la presidencia de Peña en Paraguay y colapsó en un día",
+      "categoria": "Economía",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/watch/cmje5q2gd2pdo?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-07T12:33:51+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "4a4dd38ff06282ca",
+      "titulo": "BYD ha lanzado su superdeportivo más extremo a 503 km/h para conseguir un nuevo récord de velocidad",
+      "categoria": "Deportes",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/movilidad/byd-ha-lanzado-su-superdeportivo-extremo-a-503-km-h-para-conseguir-nuevo-record-velocidad",
+      "fecha": "2026-11-07T12:31:06+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "5950762c99a9491e",
+      "titulo": "Ya es oficial: Elon Musk anuncia el principio del fin del Cybertruck y su nueva gran apuesta para 2027",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/movilidad/oficial-elon-musk-anuncia-principio-fin-cybertruck-su-nueva-gran-apuesta-para-2027",
+      "fecha": "2026-11-07T12:01:06+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "9f09e14e4e090731",
+      "titulo": "Piratas informáticos atacan al ministro de Relaciones Exteriores de Italia",
+      "categoria": "Internacional",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/piratas-informáticos-atacan-al-ministro-de-relaciones-exteriores-de-italia/a-79884576?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-07T11:42:00+00:00",
       "imagen": ""
     },
     {
@@ -228,20 +273,11 @@
     },
     {
       "id": "911ed0971631fb6c",
-      "titulo": "Creíamos que la IA iba a escribir por nosotros, pero donde ChaGPT está creciendo más en España es como buscador",
+      "titulo": "Creíamos que la IA iba a escribir por nosotros, pero donde ChatGPT está creciendo más en España es como buscador",
       "categoria": "Colombia",
       "fuente": "Xataka",
       "url": "https://www.xataka.com/robotica-e-ia/creiamos-que-ia-iba-a-escribir-nosotros-donde-chagpt-esta-creciendo-espana-como-buscador",
-      "fecha": "2026-11-07T09:01:08+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "a1f2db457438e80b",
-      "titulo": "‘Por Amor a Dosquebradas’: arranca una nueva apuesta",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/actualidad/por-amor-a-dosquebradas-arranca-una-nueva-apuesta/",
-      "fecha": "2026-11-07T08:19:08+00:00",
+      "fecha": "2026-11-07T09:00:00+00:00",
       "imagen": ""
     },
     {
@@ -287,51 +323,6 @@
       "fuente": "La República",
       "url": "https://www.larepublica.co/ocio/noche-de-regueton-con-reykon-en-bogota-4519397",
       "fecha": "2026-11-07T05:54:02+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "9d7e3387b5faba82",
-      "titulo": "Lo llevaron en moto y lo mataron a tiros",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/judicial/lo-llevaron-en-moto-y-lo-mataron-a-tiros/",
-      "fecha": "2026-11-07T05:20:38+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "3f7a8a90eee86910",
-      "titulo": "Una puñalada acabó con la vida de un joven minero",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/judicial/una-punalada-acabo-con-la-vida-de-un-joven-minero/",
-      "fecha": "2026-11-07T05:18:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "4bc603996a38e5d6",
-      "titulo": "Lo mataron dentro de su propia tienda",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/judicial/lo-mataron-dentro-de-su-propia-tienda/",
-      "fecha": "2026-11-07T05:12:56+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "2d6ddcd33bb5d65a",
-      "titulo": "A alias ‘Monstro’ lo mataron de 35 tiros",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/judicial/a-alias-monstro-lo-mataron-de-35-tiros/",
-      "fecha": "2026-11-07T05:06:58+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "5483a9ea93419514",
-      "titulo": "PTAR tiene luz verde financiera y apunta a 2031",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/actualidad/ptar-tiene-luz-verde-financiera-y-apunta-a-2031/",
-      "fecha": "2026-11-07T05:05:03+00:00",
       "imagen": ""
     },
     {
@@ -389,20 +380,20 @@
       "imagen": ""
     },
     {
-      "id": "57eac11b62ba8e5c",
-      "titulo": "Contra el crimen",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/analisis/francisco-barbosa-3943941/contra-el-crimen-4519695",
-      "fecha": "2026-11-07T05:01:49+00:00",
-      "imagen": ""
-    },
-    {
       "id": "6ca108aa82074761",
       "titulo": "AgroVenture Capital está buscando capital para ampliar su cultivo de los arándanos",
       "categoria": "Colombia",
       "fuente": "La República",
       "url": "https://www.larepublica.co/empresas/agroventure-capital-busca-capital-para-ampliar-su-cultivo-de-arandanos-4519594",
+      "fecha": "2026-11-07T05:01:49+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "57eac11b62ba8e5c",
+      "titulo": "Contra el crimen",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/analisis/francisco-barbosa-3943941/contra-el-crimen-4519695",
       "fecha": "2026-11-07T05:01:49+00:00",
       "imagen": ""
     },
@@ -540,6 +531,15 @@
       "url": "https://www.larepublica.co/internet-economy/los-agentes-de-ia-ya-se-preparan-para-negociar-bonos-y-transformar-los-mercados-financieros-4519784",
       "fecha": "2026-11-07T05:01:19+00:00",
       "imagen": ""
+    },
+    {
+      "id": "085f66120e40bb4c",
+      "titulo": "Tres excusas para un mesías",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/analisis/jerome-sanabria-3850986/tres-excusas-para-un-mesias-4519658",
+      "fecha": "2026-11-07T05:01:19+00:00",
+      "imagen": ""
     }
   ],
   "estado_fuentes": [
@@ -590,7 +590,7 @@
       "nombre": "BBC Mundo",
       "url": "https://feeds.bbci.co.uk/mundo/rss.xml",
       "estado": "correcto",
-      "titulares": 25
+      "titulares": 27
     },
     {
       "nombre": "DW Español",
@@ -620,7 +620,7 @@
       "nombre": "La FM Deportes",
       "url": "https://www.lafm.com.co/rss/deportes.xml",
       "estado": "correcto",
-      "titulares": 18
+      "titulares": 17
     },
     {
       "nombre": "La FM Economía",
@@ -655,8 +655,9 @@
     {
       "nombre": "El Diario — Pereira",
       "url": "https://www.eldiario.com.co/feed/",
-      "estado": "correcto",
-      "titulares": 35
+      "estado": "error",
+      "titulares": 0,
+      "detalle": "El feed no contiene entradas."
     },
     {
       "nombre": "Chocó 7 días",
