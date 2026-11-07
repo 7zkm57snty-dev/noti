@@ -1,14 +1,23 @@
 {
-  "ultima_actualizacion": "2026-11-07T10:46:43.897149+00:00",
+  "ultima_actualizacion": "2026-11-07T10:50:18.324064+00:00",
   "titulares_rss": [
+    {
+      "id": "029434dd47711907",
+      "titulo": "Crisis en Paraguay: Santiago Peña, en arresto domiciliario tras ser destituido por el Congreso en juicio político",
+      "categoria": "Colombia",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.co.uk/mundo/live/c54g11vvvemkt?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-07T10:50:18.324064+00:00",
+      "imagen": ""
+    },
     {
       "id": "84a8bb0937217501",
       "titulo": "La NASA presenta X-70 Fractal, un nuevo avión experimental que probará maniobras \"nunca antes demostradas\" con piloto a bordo",
-      "categoria": "Internacional",
+      "categoria": "Colombia",
       "fuente": "Xataka",
       "url": "https://www.xataka.com/espacio/nasa-presenta-x-70-fractal-nuevo-avion-experimental-que-probara-maniobras-nunca-antes-demostradas-piloto-a-bordo",
       "fecha": "2026-11-07T10:31:05+00:00",
-      "imagen": "https://i.blogs.es/140e31/caza-estelar-entre-nubes-nocturnas/1024_2000.jpeg"
+      "imagen": ""
     },
     {
       "id": "1719b8aae04c75c7",
@@ -17,7 +26,7 @@
       "fuente": "Xataka",
       "url": "https://www.xataka.com/empresas-y-economia/zaragoza-se-fabrica-cada-cinco-placas-induccion-mundo-he-visitado-fabrica-donde-empezo-todo",
       "fecha": "2026-11-07T10:01:08+00:00",
-      "imagen": "https://i.blogs.es/e4e6cc/portada/1024_2000.jpeg"
+      "imagen": ""
     },
     {
       "id": "22edcea092d74054",
@@ -26,7 +35,7 @@
       "fuente": "El País Colombia",
       "url": "https://elpais.com/internacional/2026-11-07/yusef-yabarin-lider-de-la-principal-lista-arabe-de-israel-al-apoyar-a-eisenkot-hemos-elegido-lo-menos-malo.html",
       "fecha": "2026-11-07T09:56:40+00:00",
-      "imagen": "https://imagenes.elpais.com/resizer/v2/BITI57YILZH5LBSLTJQFEM7BJY.jpeg?auth=6a77c7e65cfb4f6a36ae9f0daf61dad7fe8f332c631511ccfae16bb0a2f20315"
+      "imagen": ""
     },
     {
       "id": "d65773a80c329ab3",
@@ -35,7 +44,7 @@
       "fuente": "BBC Mundo",
       "url": "https://www.bbc.com/mundo/articles/c6reyrrp39qqo?at_medium=RSS&at_campaign=rss",
       "fecha": "2026-11-07T09:36:02+00:00",
-      "imagen": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/57da/live/1d6c20c0-d77f-11f1-a391-ad4d37bef273.jpg"
+      "imagen": ""
     },
     {
       "id": "eaaf9d41c4d67be6",
@@ -44,7 +53,7 @@
       "fuente": "El País Colombia",
       "url": "https://elpais.com/america-colombia/2026-11-07/la-reforma-tributaria-eleva-la-tension-entre-el-centro-democratico-y-el-gobierno.html",
       "fecha": "2026-11-07T09:30:00+00:00",
-      "imagen": "https://imagenes.elpais.com/resizer/v2/D6CENL5D3RDQDC5PKLBYYC467A.jpg?auth=803852c6744322ac7b9b70dad6dcca71754bf82eb4f2a8bf23be52f6620b9357"
+      "imagen": ""
     },
     {
       "id": "4087fab87fd11a0d",
@@ -53,7 +62,7 @@
       "fuente": "El País Colombia",
       "url": "https://elpais.com/america-colombia/2026-11-07/el-triple-apreton-de-la-reforma-tributaria-a-la-incipiente-clase-media-colombiana.html",
       "fecha": "2026-11-07T09:30:00+00:00",
-      "imagen": "https://imagenes.elpais.com/resizer/v2/Z6ULE4EMWRHQJEXXXZB3AJVYBM.jpg?auth=33a90b5b92b81ee1d030413adff2eb994efb44184bab265ee70e9f4f9beaa4ba"
+      "imagen": ""
     },
     {
       "id": "3e58dc80d5e94ae7",
@@ -62,7 +71,7 @@
       "fuente": "El País Colombia",
       "url": "https://elpais.com/america-colombia/2026-11-07/la-tumba-equivocada-el-mesero-que-descanso-30-anos-bajo-el-nombre-del-magistrado.html",
       "fecha": "2026-11-07T09:30:00+00:00",
-      "imagen": "https://imagenes.elpais.com/resizer/v2/VLFYXAVSIJGW3IUX4S2O2C7EX4.jpg?auth=512486dd5b51573b6a7459e343823d1896966da93b35931ffde137bc71e3e454"
+      "imagen": ""
     },
     {
       "id": "f3a183efc8e0d1ce",
@@ -71,7 +80,7 @@
       "fuente": "El País Colombia",
       "url": "https://elpais.com/america/2026-11-07/en-que-creen-los-latinoamericanos-el-catolicismo-retrocede-y-suben-los-que-no-profesan-ninguna-religion.html",
       "fecha": "2026-11-07T09:30:00+00:00",
-      "imagen": "https://imagenes.elpais.com/resizer/v2/7CH4IBLQ6FJVNFCP5GYJ4OGBJQ.jpg?auth=36aed24f7aa9444818152d9312e646b3c47feb7301e06e27badf5c025b2115c7"
+      "imagen": ""
     },
     {
       "id": "ea2b21de1bbfda22",
@@ -80,16 +89,16 @@
       "fuente": "El País Colombia",
       "url": "https://elpais.com/america-futura/2026-11-07/perfume-de-badea-o-crema-solar-de-chontaduro-emerge-la-industria-alrededor-de-las-2500-frutas-colombianas.html",
       "fecha": "2026-11-07T09:30:00+00:00",
-      "imagen": "https://imagenes.elpais.com/resizer/v2/VLR5UJRTLNALVEJTYA6M6VCX2I.jpg?auth=807e200a82de1d829e69f8cb79438f89a67901a7adfd18bc19e20333192177ec"
+      "imagen": ""
     },
     {
       "id": "bb0187da53b8edcf",
       "titulo": "Trump afronta los dos últimos años de mandato como un octogenario desafiante obsesionado con las obras",
-      "categoria": "Colombia",
+      "categoria": "Internacional",
       "fuente": "El País Colombia",
       "url": "https://elpais.com/us/2026-11-07/trump-afronta-los-dos-ultimos-anos-de-mandato-como-un-octogenario-desafiante-obsesionado-con-las-obras.html",
       "fecha": "2026-11-07T09:30:00+00:00",
-      "imagen": "https://imagenes.elpais.com/resizer/v2/T4WAXVK5BNKRVIGAN3SZL6NNR4.jpg?auth=c6685faaf921fe16341215b365858eb794e19ac47deda4128debe222dece4258"
+      "imagen": ""
     },
     {
       "id": "219dd47359899775",
@@ -98,16 +107,16 @@
       "fuente": "El País Colombia",
       "url": "https://elpais.com/us/2026-11-07/la-marea-democrata-abre-la-carrera-por-la-casa-blanca-con-centristas-y-progresistas-reforzados-de-cara-a-2028.html",
       "fecha": "2026-11-07T09:30:00+00:00",
-      "imagen": "https://imagenes.elpais.com/resizer/v2/YH32NJXY55JSBJ6WV3YK3T3B2M.jpg?auth=8cb4e990343a8477165d64ab633dd5b01c53ad4f812067a99adad7b682a208cf"
+      "imagen": ""
     },
     {
       "id": "bcd680ec0afc59c6",
       "titulo": "Florida, de bastión a trinchera de los republicanos en Estados Unidos",
-      "categoria": "Colombia",
+      "categoria": "Internacional",
       "fuente": "El País Colombia",
       "url": "https://elpais.com/us/2026-11-07/florida-de-bastion-a-trinchera-de-los-republicanos-en-estados-unidos.html",
       "fecha": "2026-11-07T09:30:00+00:00",
-      "imagen": "https://imagenes.elpais.com/resizer/v2/4Z36UTVIBRIUTIKNZXMFA2GDTQ.jpg?auth=3683ba1d47c029e06df5f923f0092085d286ce95b5f2fcdd407a9950421b1d3f"
+      "imagen": ""
     },
     {
       "id": "def7245cabab48a6",
@@ -119,22 +128,85 @@
       "imagen": ""
     },
     {
+      "id": "4d34e9e489661aa9",
+      "titulo": "El ascenso de Stephen Miller: de escritor de discursos de Trump a artífice de su plan de deportaciones masivas",
+      "categoria": "Internacional",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/us/2026-11-07/el-ascenso-de-stephen-miller-de-escritor-de-discursos-de-trump-a-artifice-de-su-plan-de-deportaciones-masivas.html",
+      "fecha": "2026-11-07T09:30:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "c270f38cf1d01353",
+      "titulo": "La ruina de PDVSA abre las puertas al capital privado en la nueva era del petróleo venezolano",
+      "categoria": "Economía",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/america/2026-11-07/la-ruina-de-pdvsa-abre-las-puertas-al-capital-privado-en-la-nueva-era-del-petroleo-venezolano.html",
+      "fecha": "2026-11-07T09:30:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "84f2f9773ea4f2d8",
+      "titulo": "Los ‘brókers’ del narco en México, un boyante negocio que avanza de la mano de las redes de lavado chinas",
+      "categoria": "Internacional",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/mexico/2026-11-07/los-brokers-del-narco-en-mexico-un-boyante-negocio-que-avanza-de-la-mano-de-las-redes-de-lavado-chinas.html",
+      "fecha": "2026-11-07T09:30:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "4a1c94238bf91a28",
+      "titulo": "Patricia Vargas, presidenta del Poder Judicial de Costa Rica: “No estoy dispuesta a ceder en nada que afecte la independencia judicial”",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/america/2026-11-07/patricia-vargas-presidenta-del-poder-judicial-de-costa-rica-no-estoy-dispuesta-a-ceder-en-nada-que-afecte-la-independencia-judicial.html",
+      "fecha": "2026-11-07T09:30:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "1aac6dd1bd2cc4cd",
+      "titulo": "¿Por qué las cestas de pronto resultan sexis? Cómo la película ‘Wicker’ desató la pasión por el mimbre",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/us/entretenimiento/2026-11-07/por-que-las-cestas-de-pronto-resultan-sexis-como-la-pelicula-wicker-desato-la-pasion-por-el-mimbre.html",
+      "fecha": "2026-11-07T09:30:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "770d33fd807a25f6",
+      "titulo": "Por qué necesitamos acoger a los migrantes",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/america-colombia/2026-11-07/por-que-necesitamos-acoger-a-los-migrantes.html",
+      "fecha": "2026-11-07T09:30:00+00:00",
+      "imagen": ""
+    },
+    {
       "id": "55a53ac3d60a66a4",
       "titulo": "Ya es Black Friday en PcComponentes: cinco teles en oferta para el salón de marcas Philips, LG y más",
-      "categoria": "Internacional",
+      "categoria": "Colombia",
       "fuente": "Xataka",
       "url": "https://www.xataka.com/seleccion/black-friday-pccomponentes-cinco-teles-rebajadas-para-salon-marcas-philips-lg",
       "fecha": "2026-11-07T09:15:06+00:00",
-      "imagen": "https://i.blogs.es/d36f28/pccomponentes/1024_2000.jpeg"
+      "imagen": ""
     },
     {
       "id": "911ed0971631fb6c",
       "titulo": "Creíamos que la IA iba a escribir por nosotros, pero donde ChaGPT está creciendo más en España es como buscador",
-      "categoria": "Internacional",
+      "categoria": "Colombia",
       "fuente": "Xataka",
       "url": "https://www.xataka.com/robotica-e-ia/creiamos-que-ia-iba-a-escribir-nosotros-donde-chagpt-esta-creciendo-espana-como-buscador",
       "fecha": "2026-11-07T09:01:08+00:00",
-      "imagen": "https://i.blogs.es/beebc9/gemini_generated_image_pljii7pljii7plji/1024_2000.jpeg"
+      "imagen": ""
+    },
+    {
+      "id": "a1f2db457438e80b",
+      "titulo": "‘Por Amor a Dosquebradas’: arranca una nueva apuesta",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/actualidad/por-amor-a-dosquebradas-arranca-una-nueva-apuesta/",
+      "fecha": "2026-11-07T08:19:08+00:00",
+      "imagen": ""
     },
     {
       "id": "c7117507a7526641",
@@ -143,7 +215,7 @@
       "fuente": "Xataka",
       "url": "https://www.xataka.com/espacio/china-acaba-conseguir-algo-extraordinario-su-estacion-espacial-ha-enfriado-atomos-record-historico",
       "fecha": "2026-11-07T08:01:06+00:00",
-      "imagen": "https://i.blogs.es/d7d792/tiangong/1024_2000.jpeg"
+      "imagen": ""
     },
     {
       "id": "5e074aebd2c28726",
@@ -152,7 +224,16 @@
       "fuente": "Xataka",
       "url": "https://www.xataka.com/magnet/cuero-antiguo-mundo-esta-granada-tiene-7-200-anos-conserva-adn-cabra-neolitica",
       "fecha": "2026-11-07T07:00:00+00:00",
-      "imagen": "https://i.blogs.es/88c620/gemini_generated_image_fvlhx2fvlhx2fvlh/1024_2000.jpeg"
+      "imagen": ""
+    },
+    {
+      "id": "ffb39d6e7b7db8d6",
+      "titulo": "Las apps ganan terreno mientras baja el tiempo de navegación en páginas web",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/internet-economy/las-apps-ganan-terreno-mientras-baja-el-tiempo-de-navegacion-en-paginas-web-4519823",
+      "fecha": "2026-11-07T06:51:13+00:00",
+      "imagen": ""
     },
     {
       "id": "c284a256cf0d2173",
@@ -161,7 +242,70 @@
       "fuente": "Xataka",
       "url": "https://www.xataka.com/historia-tecnologica/1864-espana-se-convirtio-primer-pais-mundo-tener-submarino-a-vapor-historia-ictineo-ii",
       "fecha": "2026-11-07T06:31:06+00:00",
-      "imagen": "https://i.blogs.es/335219/submarino-1/1024_2000.jpeg"
+      "imagen": ""
+    },
+    {
+      "id": "bb87799bb305fb91",
+      "titulo": "Noche de reguetón con Reykon en Bogotá",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/ocio/noche-de-regueton-con-reykon-en-bogota-4519397",
+      "fecha": "2026-11-07T05:54:02+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "9d7e3387b5faba82",
+      "titulo": "Lo llevaron en moto y lo mataron a tiros",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/judicial/lo-llevaron-en-moto-y-lo-mataron-a-tiros/",
+      "fecha": "2026-11-07T05:20:38+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "3f7a8a90eee86910",
+      "titulo": "Una puñalada acabó con la vida de un joven minero",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/judicial/una-punalada-acabo-con-la-vida-de-un-joven-minero/",
+      "fecha": "2026-11-07T05:18:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "4bc603996a38e5d6",
+      "titulo": "Lo mataron dentro de su propia tienda",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/judicial/lo-mataron-dentro-de-su-propia-tienda/",
+      "fecha": "2026-11-07T05:12:56+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "2d6ddcd33bb5d65a",
+      "titulo": "A alias ‘Monstro’ lo mataron de 35 tiros",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/judicial/a-alias-monstro-lo-mataron-de-35-tiros/",
+      "fecha": "2026-11-07T05:06:58+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "5483a9ea93419514",
+      "titulo": "PTAR tiene luz verde financiera y apunta a 2031",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/actualidad/ptar-tiene-luz-verde-financiera-y-apunta-a-2031/",
+      "fecha": "2026-11-07T05:05:03+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "1165957655842579",
+      "titulo": "Militarizar no es una estrategia de seguridad",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/red-de-expertos/red-de-la-paz/militarizar-no-es-una-estrategia-de-seguridad/",
+      "fecha": "2026-11-07T05:05:00+00:00",
+      "imagen": ""
     },
     {
       "id": "9a04dee539af0551",
@@ -173,12 +317,57 @@
       "imagen": ""
     },
     {
+      "id": "a6de991cf449be7c",
+      "titulo": "“Vamos a cerrar el año con una producción e3 alrededor de 57.500 hectolitros de cerveza\"",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/empresas/entrevista-con-carolina-echeverry-gerente-de-3-cordilleras-acerca-de-produccion-de-cerveza-artesanal-4518549",
+      "fecha": "2026-11-07T05:02:53+00:00",
+      "imagen": ""
+    },
+    {
       "id": "51e7596cbc2ba89e",
       "titulo": "“Esperamos entre cinco y seis meses empezar la producción de lechona en España”",
-      "categoria": "Internacional",
+      "categoria": "Colombia",
       "fuente": "La República",
       "url": "https://www.larepublica.co/empresas/entrevista-con-fernando-perdomo-fundador-de-mr-lechon-sobre-su-expansion-a-europa-4519597",
       "fecha": "2026-11-07T05:01:57+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "02498e7440803e99",
+      "titulo": "Ley de Rescate tiene seis semanas para pasar sin sesiones extraordinarias",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/economia/ley-de-rescate-tiene-seis-semanas-para-pasar-el-congreso-sin-sesiones-extraordinarias-4519482",
+      "fecha": "2026-11-07T05:01:55+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "370c2d1478325d5f",
+      "titulo": "De las mandalas a la moda, conozca la apuesta de negocio de la autora Andrea Agudelo",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/ocio/de-las-mandalas-a-la-moda-conozca-la-apuesta-de-negocio-de-andrea-agudelo-4519319",
+      "fecha": "2026-11-07T05:01:54+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "57eac11b62ba8e5c",
+      "titulo": "Contra el crimen",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/analisis/francisco-barbosa-3943941/contra-el-crimen-4519695",
+      "fecha": "2026-11-07T05:01:49+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "6ca108aa82074761",
+      "titulo": "AgroVenture Capital está buscando capital para ampliar su cultivo de los arándanos",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/empresas/agroventure-capital-busca-capital-para-ampliar-su-cultivo-de-arandanos-4519594",
+      "fecha": "2026-11-07T05:01:49+00:00",
       "imagen": ""
     },
     {
@@ -191,6 +380,42 @@
       "imagen": ""
     },
     {
+      "id": "1185c5735d84ff04",
+      "titulo": "¡Sin carbón no hay paraíso!",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/analisis/amylkar-d-acosta-m-557896/sin-carbon-no-hay-paraiso-4519667",
+      "fecha": "2026-11-07T05:01:42+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "7e540486f6e8cf02",
+      "titulo": "Lo que la Generación Z europea le advierte a Colombia",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/analisis/p-harold-castilla-devoz-2912463/lo-que-la-generacion-z-europea-le-advierte-a-colombia-4519680",
+      "fecha": "2026-11-07T05:01:38+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "715b1bb0e7d655ca",
+      "titulo": "Be Clá, el movimiento que concientiza para amar y respetar el medio ambiente",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/ocio/be-cla-el-movimiento-que-concientiza-para-amar-y-respetar-el-medio-ambiente-4519631",
+      "fecha": "2026-11-07T05:01:37+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "b7bad6e5a87ac846",
+      "titulo": "“Lanzaremos licitación de entre $12 y $14 billones para actualizar el modelo de aseo”",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/economia/inside-lr-con-armando-ojeda-acosta-director-de-la-uaeps-sobre-el-modelo-de-aseo-en-bogota-4518544",
+      "fecha": "2026-11-07T05:01:35+00:00",
+      "imagen": ""
+    },
+    {
       "id": "2e88a0abb021956b",
       "titulo": "\"Estamos acercando los mercados de capitales hacia las pymes de la región del Pacífico\"",
       "categoria": "Economía",
@@ -200,12 +425,75 @@
       "imagen": ""
     },
     {
+      "id": "ed7b912702ee6b26",
+      "titulo": "La democracia liberal",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/analisis/gustavo-moreno-montalvo-2565659/la-democracia-liberal-4519666",
+      "fecha": "2026-11-07T05:01:31+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "bfa7136281ecbed6",
+      "titulo": "Potencial de automatización del empleo en Colombia",
+      "categoria": "Economía",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/internet-economy/potencial-de-automatizacion-del-empleo-en-colombia-4519377",
+      "fecha": "2026-11-07T05:01:30+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "a8a85283ae65dc81",
+      "titulo": "El “default” va a ser para muchos hogares",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/analisis/silverio-gomez-carmona-534581/el-default-va-a-ser-para-muchos-hogares-4519673",
+      "fecha": "2026-11-07T05:01:28+00:00",
+      "imagen": ""
+    },
+    {
       "id": "eacfd501f4b31cce",
       "titulo": "Perú se prepara para la llegada del papa",
-      "categoria": "Internacional",
+      "categoria": "Colombia",
       "fuente": "La República",
       "url": "https://www.larepublica.co/caja-fuerte/peru-se-prepara-para-la-llegada-del-papa-4519392",
       "fecha": "2026-11-07T05:01:25+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "94ba45f1d3078407",
+      "titulo": "Una buena idea no siempre es un gran negocio",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/analisis/dominica-duque-montoya-3560846/una-buena-idea-no-siempre-es-un-gran-negocio-4519709",
+      "fecha": "2026-11-07T05:01:25+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "ca0013cbeec023d3",
+      "titulo": "No hay tal vida privada",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/analisis/santiago-angel-rodriguez-3548824/no-hay-tal-vida-privada-4519665",
+      "fecha": "2026-11-07T05:01:24+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "3d80dd1af06e58c5",
+      "titulo": "El agro necesita más proyectos, menos peleas",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/opinion/editorial/el-agro-necesita-mas-proyectos-menos-peleas-4518551",
+      "fecha": "2026-11-07T05:01:23+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "d932f7eecc475e92",
+      "titulo": "Así culminó la IX Cumbre de Petróleo, Gas y Energía en Cartagena de Indias",
+      "categoria": "Economía",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/ocio/asi-culmino-la-ix-cumbre-de-petroleo-gas-y-energia-en-cartagena-4519762",
+      "fecha": "2026-11-07T05:01:23+00:00",
       "imagen": ""
     },
     {
@@ -218,6 +506,33 @@
       "imagen": ""
     },
     {
+      "id": "085f66120e40bb4c",
+      "titulo": "Tres excusas para un mesías",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/analisis/jerome-sanabria-3850986/tres-excusas-para-un-mesias-4519658",
+      "fecha": "2026-11-07T05:01:19+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "841bb7f6fb67a1f1",
+      "titulo": "Prepararse también es avanzar",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/analisis/tatiana-arango-m-401859/prepararse-tambien-es-avanzar-4519668",
+      "fecha": "2026-11-07T05:01:14+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "5395a0a5cc86d90c",
+      "titulo": "¿No importa la vida privada?",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/analisis/ricardo-mejia-cano-3318666/no-importa-la-vida-privada-4519706",
+      "fecha": "2026-11-07T05:01:12+00:00",
+      "imagen": ""
+    },
+    {
       "id": "9f22cfe661a10bf2",
       "titulo": "Estas son las compañías que más facturan en el mercado nacional farmacéutico",
       "categoria": "Economía",
@@ -225,578 +540,135 @@
       "url": "https://www.larepublica.co/empresas/estas-son-las-companias-que-mas-facturan-en-el-mercado-nacional-farmaceutico-4518547",
       "fecha": "2026-11-07T05:01:12+00:00",
       "imagen": ""
-    },
-    {
-      "id": "0af4dcc4c77ce804",
-      "titulo": "Implicaciones mercadológicas",
-      "categoria": "Economía",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/analisis/carlos-fernando-villa-gomez-400403/implicaciones-mercadologicas-4519670",
-      "fecha": "2026-11-07T05:01:10+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "62e7159b8aad14f2",
-      "titulo": "Mercado financiero anticipa que la inflación repuntará de 6,29% hasta 6,38% en este octubre",
-      "categoria": "Economía",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/economia/mercado-financiero-anticipa-que-la-inflacion-repuntara-de-6-29-hasta-6-38-en-octubre-4519489",
-      "fecha": "2026-11-07T05:01:02+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "120395eb85479035",
-      "titulo": "Tres escenarios de guerra golpean al comercio marítimo mundial",
-      "categoria": "Deportes",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/internacional/2026-11-07/tres-escenarios-de-guerra-golpean-al-comercio-maritimo-mundial.html",
-      "fecha": "2026-11-07T04:30:01+00:00",
-      "imagen": "https://imagenes.elpais.com/resizer/v2/CXXIBABB7BGIVHG5HZERW5LOXY.JPG?auth=33e9cc87015e3941094a82a20b4d91153ef9cdf73a6c65cea287b58f8d885628"
-    },
-    {
-      "id": "2d518f1015b7f347",
-      "titulo": "La falta de seguridad obliga a la Reina a cancelar el viaje de cooperación a Bolivia",
-      "categoria": "Deportes",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/espana/2026-11-07/la-falta-de-seguridad-obliga-a-la-reina-a-cancelar-el-viaje-de-cooperacion-a-bolivia.html",
-      "fecha": "2026-11-07T04:30:01+00:00",
-      "imagen": "https://imagenes.elpais.com/resizer/v2/RNWQRSZZTZEX5Z2F5PKGO2MOXM.jpg?auth=4fc7322c25ccee147e1bd2a6e22ade6b1a535d48dbb77f86a87d0deec12139d6"
-    },
-    {
-      "id": "57b5d13d977160a9",
-      "titulo": "Karl Deisseroth, Nobel de Medicina: “Los modelos avanzados de inteligencia artificial podrían leer la actividad cerebral de las personas”",
-      "categoria": "Tecnología",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/ciencia/2026-11-07/karl-deisseroth-nobel-de-medicina-los-modelos-avanzados-de-inteligencia-artificial-podrian-leer-la-actividad-cerebral-de-las-personas.html",
-      "fecha": "2026-11-07T04:30:01+00:00",
-      "imagen": "https://imagenes.elpais.com/resizer/v2/FNBTPUO3MBFOHLXRKOT4QZTZFI.jpg?auth=3311ade22111899beeefb6fa18af8f2bb64b5a4a0e5ca267f2fcf31a43447e49"
-    },
-    {
-      "id": "2060be16bb66efd4",
-      "titulo": "Francia, Brasil y la IA: cómo los algoritmos y la especulación amplifican las caídas del mercado",
-      "categoria": "Economía",
-      "fuente": "El País Colombia",
-      "url": "https://cincodias.elpais.com/mercados-financieros/2026-11-07/francia-brasil-y-la-ia-como-los-algoritmos-y-la-especulacion-amplifican-las-caidas-del-mercado.html",
-      "fecha": "2026-11-07T04:30:01+00:00",
-      "imagen": "https://imagenes.elpais.com/resizer/v2/RNG7DGCSNFJOXFKVEOCIOL66DM.jpg?auth=03347e43ebfce7328e7a5e6f985e6358af30e3a19351ce9e977038a300ca0cd2"
-    },
-    {
-      "id": "1016f5084746055a",
-      "titulo": "Mariska de Jong, campeona mundial de tatuajes médicos: “Grabar en la piel un pezón hiperrealista ayuda al paciente a recuperar la autoestima”",
-      "categoria": "Deportes",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/estilo-de-vida/2026-11-07/mariska-de-jong-campeona-mundial-de-tatuajes-medicos-grabar-en-la-piel-un-pezon-hiperrealista-ayuda-al-paciente-a-recuperar-la-autoestima.html",
-      "fecha": "2026-11-07T04:30:00+00:00",
-      "imagen": "https://imagenes.elpais.com/resizer/v2/XUFWU2PGAVEEVAX2NQFEEUBKQE.jpg?auth=bac9de4fa0859a0ac68ad0dae0a933950f73edb99684949478d95fcb4eedee22"
-    },
-    {
-      "id": "a4d9838f45c84f0f",
-      "titulo": "Cali en el circuito de grandes espectáculos de música electrónica: recibirá a la DJ italiana Deborah De Luca",
-      "categoria": "Cali",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/cali/cali-en-el-circuito-de-grandes-espectaculos-de-musica-electronica-recibira-a-la-dj-italiana-deborah-de-luca-3599210",
-      "fecha": "2026-11-07T03:48:30+00:00",
-      "imagen": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/11/06/6aee9d985bdf2.jpeg"
-    },
-    {
-      "id": "d691a07858a18d49",
-      "titulo": "Engañaban a turistas en Cali, los secuestraban y les robaban millones",
-      "categoria": "Cali",
-      "fuente": "Q'hubo Cali",
-      "url": "https://www.qhubocali.com/judiciales/enganaban-a-turistas-en-cali-los-secuestraban-y-les-robaban-millones/",
-      "fecha": "2026-11-07T03:15:43+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "ddddd924f86a2cbd",
-      "titulo": "Voyager 1 alcanzará un día luz de distancia de la Tierra el próximo 18 de noviembre",
-      "categoria": "Valle del Cauca",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/secciones/tendencias/sonda-voyager-1-un-dia-luz-distancia-tierra-nasa-2026/",
-      "fecha": "2026-11-07T02:50:20+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "c170a3dc9004f5f0",
-      "titulo": "Luz verde a $ 40.000 millones para que la Universidad del Valle pueda reconstruir sus áreas afectadas por el terremoto en Cali",
-      "categoria": "Cali",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/cali/luz-verde-a-40-000-millones-para-que-la-universidad-del-valle-pueda-reconstruir-sus-areas-afectadas-por-el-terremoto-en-cali-3599192",
-      "fecha": "2026-11-07T02:41:32+00:00",
-      "imagen": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2023/12/19/6581ad31cbc23.png"
-    },
-    {
-      "id": "a3bcfbd67c1c550b",
-      "titulo": "Tortugas marinas, prioridad en el Pacífico chocoano",
-      "categoria": "Valle del Cauca",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/medio-ambiente/proteccion-de-las-tortugas-marinas-choco-codechoco-minambiente-2026/",
-      "fecha": "2026-11-07T02:39:50+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "d4d387279ad0ddf8",
-      "titulo": "En peligro depredadores marítimos en el Pacífico",
-      "categoria": "Valle del Cauca",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/medio-ambiente/refugios-climaticos-para-tiburones-pacifico-universidad-nacional-2026/",
-      "fecha": "2026-11-07T02:37:11+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "0862c5631a194363",
-      "titulo": "Hallan microplásticos en zonas de pesca más alejadas de Buenaventura",
-      "categoria": "Valle del Cauca",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/medio-ambiente/microplasticos-en-el-fondo-marino-aumentan-temporada-lluvias-buenaventura-2026/",
-      "fecha": "2026-11-07T02:29:25+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "1294a307c977e1e1",
-      "titulo": "¿Por qué algunas personas nos excitan más con la voz que con su apariencia?",
-      "categoria": "Valle del Cauca",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/secciones/tendencias/atraccion-por-la-voz-psicologia-seduccion-audios-2026/",
-      "fecha": "2026-11-07T02:25:24+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "ff17f68589824cf0",
-      "titulo": "Dengue en Colombia: casi 98.000 casos y 65 muertes confirmadas",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/regiones/dengue-en-colombia-casi-98-000-casos-y-65-muertes-confirmadas-505902",
-      "fecha": "2026-11-07T02:23:44+00:00",
-      "imagen": "https://imagenes.portafolio.co/files/og_thumbnail/uploads/2026/03/19/69bc07bd05aa5.png"
-    },
-    {
-      "id": "df79a7cbb225784e",
-      "titulo": "¿Está trabajando para pagar cosas que no disfruta?",
-      "categoria": "Valle del Cauca",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/secciones/tendencias/inflacion-del-estilo-de-vida-finanzas-personales-gasto-ahorro-2026/",
-      "fecha": "2026-11-07T02:12:04+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "5fe3115ead05e14f",
-      "titulo": "¿Qué hay detrás de la polémica desconvocatoria del hijo de Ómar Pérez en la Selección Colombia?",
-      "categoria": "Deportes",
-      "fuente": "La FM Deportes",
-      "url": "https://www.lafm.com.co/deportes/seleccion-colombia-desconvocatoria-franco-perez-hijo-omar-perez-416425",
-      "fecha": "2026-11-07T02:08:52+00:00",
-      "imagen": "https://files.lafm.com.co/media/news-images/2026/11/07/023711/omar-perez-y-su-hijo-mayor-franco-en-la-sede-de-boca-juniors-1200x675.jpg"
-    },
-    {
-      "id": "10b4e4b91a8b406a",
-      "titulo": "¿Por qué el 44 % de los jóvenes no ahorró el último año y más de la mitad tendría dificultades si no recurre a una ayuda familiar en Cali y el país?",
-      "categoria": "Cali",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/cali/por-que-el-44-de-los-jovenes-no-ahorro-dinero-durante-el-ultimo-ano-y-mas-de-la-mitad-tendria-dificultades-ante-una-emergencia-en-cali-y-el-pais-3599175",
-      "fecha": "2026-11-07T01:59:59+00:00",
-      "imagen": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/11/06/6aee80b387ca4.jpeg"
-    },
-    {
-      "id": "62d46ce88f2427a7",
-      "titulo": "Estrategias de ahorro en noviembre: 4 pasos para eliminar deudas pequeñas antes de fin de año",
-      "categoria": "Economía",
-      "fuente": "La FM Economía",
-      "url": "https://www.lafm.com.co/economia/estrategias-de-ahorro-eliminar-deudas-fin-de-ano-416417",
-      "fecha": "2026-11-07T01:17:23+00:00",
-      "imagen": "https://files.lafm.com.co/media/news-images/2026/11/07/011645/deudasfinanzaspersonalesahorro-1200x675.jpg"
-    },
-    {
-      "id": "06afdb99230d06be",
-      "titulo": "Foodbol apuesta por unir la gastronomía, el fútbol y el entretenimiento digital",
-      "categoria": "Deportes",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/ocio/foodbol-apuesta-por-unir-la-gastronomia-el-futbol-y-el-entretenimiento-digital-4519614",
-      "fecha": "2026-11-07T01:07:31+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "108599bec31202cd",
-      "titulo": "Una reforma necesaria, una estrategia equivocada",
-      "categoria": "Valle del Cauca",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/opinion/columnistas/una-reforma-necesaria-una-estrategia-equivocada/",
-      "fecha": "2026-11-07T01:06:11+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "c5ee9e83487716a4",
-      "titulo": "Ellos eran los dos soldados que murieron en operación militar en la que se dio de baja a 'Pincher', cabecilla de disidentes de 'Mordisco' en Jamundí",
-      "categoria": "Valle del Cauca",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/cali/ellos-eran-los-dos-soldados-que-murieron-en-operacion-militar-en-la-que-se-dio-de-baja-a-pincher-cabecilla-de-disidentes-de-mordisco-en-jamundi-3599160",
-      "fecha": "2026-11-07T00:22:49+00:00",
-      "imagen": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2026/11/06/6aee6ae528a64.r_d.645-659-0.jpeg"
-    },
-    {
-      "id": "c7cb9036231bc6eb",
-      "titulo": "Procuraduría requirió a la Alcaldía de Cali por atención en el sismo y esta fue su respuesta: '¿Me censaron y no estoy en el registro?', dijo afectado",
-      "categoria": "Cali",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/cali/procuraduria-requirio-a-la-alcaldia-de-cali-por-atencion-a-damnificados-del-sismo-y-esta-fue-su-respuesta-me-censaron-y-no-estoy-en-el-registro-3599145",
-      "fecha": "2026-11-06T23:52:29+00:00",
-      "imagen": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/08/10/6a7a6dce77337.jpeg"
-    },
-    {
-      "id": "261f527ec9c5fc52",
-      "titulo": "Esta es la identidad de los otros dos capturados por el macabro crimen de María Camila Potosí, la mujer que fue asesinada junto a su bebé en Cali",
-      "categoria": "Cali",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/cali/esta-es-la-identidad-de-los-otros-dos-capturados-por-el-macabro-crimen-de-maria-camila-potosi-la-mujer-que-fue-asesinada-junto-a-su-bebe-en-cali-3599140",
-      "fecha": "2026-11-06T23:35:49+00:00",
-      "imagen": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2026/08/05/6a73c6d817cab.r_d.164-265-0.jpeg"
-    },
-    {
-      "id": "5c2c230eae37ace9",
-      "titulo": "Esta es la agenda deportiva de la semana por DirecTV y DGO",
-      "categoria": "Deportes",
-      "fuente": "La FM Deportes",
-      "url": "https://www.lafm.com.co/deportes/agenta-deportiva-para-la-semana-por-directv-y-dgo-416409",
-      "fecha": "2026-11-06T23:16:19+00:00",
-      "imagen": "https://files.lafm.com.co/media/news-images/2026/11/06/231703/contenidopatrocinadodirectv-1200x675.jpg"
-    },
-    {
-      "id": "e7e883d8a20a9087",
-      "titulo": "Barranquilla: el Metropolitano tendrá más de 300 cámaras con IA y antenas 5G para la final de la Copa Sudamericana del 21 de noviembre",
-      "categoria": "Deportes",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/barranquilla/barranquilla-el-metropolitano-tendra-mas-de-300-camaras-con-ia-y-antenas-5g-para-la-final-de-la-copa-sudamericana-del-21-de-noviembre-3599134",
-      "fecha": "2026-11-06T22:38:50+00:00",
-      "imagen": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/11/06/6aee555307502.jpeg"
-    },
-    {
-      "id": "81fca4f381b0d7e8",
-      "titulo": "Darío Flórez le da la bienvenida a diciembre con una canción para celebrar en familia",
-      "categoria": "Valle del Cauca",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/vida-moderna/dario-florez-diciembre-navidad-06-11-2026/",
-      "fecha": "2026-11-06T22:06:37+00:00",
-      "imagen": "https://90minutos.co/90minutos.co/wp-content/uploads/2026/11/moda-navidena.jpg"
-    },
-    {
-      "id": "87626602ea2ab12e",
-      "titulo": "Clásico América vs. Deportivo Cali: estos son los cierres viales en Cali para este sábado",
-      "categoria": "Cali",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/cali/clasico-america-deportivo-cali-cierres-viales-cali-sabado-6-11-2026/",
-      "fecha": "2026-11-06T22:04:51+00:00",
-      "imagen": "https://90minutos.co/90minutos.co/wp-content/uploads/2026/11/carrera-atletica-‘5K-Ruta-Paraiso-.jpg"
-    },
-    {
-      "id": "a7c2458d549670d1",
-      "titulo": "Fundación Borondo por el Barrio: así movilizan ayudas para familias de comunidades vulnerables",
-      "categoria": "Valle del Cauca",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/cali/fundacion-borondo-ayudas-familias-vulnerables-cali-6-11-2026/",
-      "fecha": "2026-11-06T22:01:44+00:00",
-      "imagen": "https://90minutos.co/wp-content/uploads/2026/11/IMG_3065.jpg"
-    },
-    {
-      "id": "01e91431b91e8468",
-      "titulo": "Tour Colombia RCN Sistecrédito 2027: este sería el recorrido de las seis etapas por Antioquia",
-      "categoria": "Deportes",
-      "fuente": "La FM Deportes",
-      "url": "https://www.lafm.com.co/deportes/tour-colombia-rcn-sistecredito-recorrido-seis-etapas-antioquia-416402",
-      "fecha": "2026-11-06T21:54:04+00:00",
-      "imagen": "https://files.lafm.com.co/media/news-images/2026/11/06/222708/tour-colombia-2-1200x675.jpg"
-    },
-    {
-      "id": "6654adff08333766",
-      "titulo": "La operación militar en Timba, Cauca, que dejó abatido a alias Pincher: murió un soldado, hay tres uniformados heridos y dos helicópteros impactados",
-      "categoria": "Cali",
-      "fuente": "El Tiempo Cali",
-      "url": "https://www.eltiempo.com/colombia/cali/la-operacion-militar-en-timba-cauca-que-dejo-abatido-a-alias-pincher-murio-un-soldado-hay-tres-uniformados-heridos-y-dos-helicopteros-impactados-3599108",
-      "fecha": "2026-11-06T21:02:56+00:00",
-      "imagen": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2026/11/05/6aed02b51fdd8.r_d.377-344-1.jpeg"
-    },
-    {
-      "id": "61d02c1d5845bbf6",
-      "titulo": "Tensión y caos vial en el centro de Cali por protestas de vendedores ambulantes tras operativo de recuperación del espacio público",
-      "categoria": "Cali",
-      "fuente": "El Tiempo Cali",
-      "url": "https://www.eltiempo.com/colombia/cali/tension-y-caos-vial-en-el-centro-de-cali-por-protestas-de-vendedores-ambulantes-tras-operativo-de-recuperacion-del-espacio-publico-3599102",
-      "fecha": "2026-11-06T20:44:37+00:00",
-      "imagen": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/11/06/6aee3988b4fed.jpeg"
-    },
-    {
-      "id": "502b29d4c68c830b",
-      "titulo": "¿Por qué Álvaro Montero no fue convocado a la Selección Colombia? Así es el doble rasero de Néstor Lorenzo",
-      "categoria": "Deportes",
-      "fuente": "La FM Deportes",
-      "url": "https://www.lafm.com.co/deportes/porque-montero-no-fue-convocado-seleccion-colombia-lorenzo-416387",
-      "fecha": "2026-11-06T19:53:00+00:00",
-      "imagen": "https://files.lafm.com.co/media/news-images/2026/11/06/200026/alvaro-montero-portero-de-la-seleccion-colombia-1200x675.jpg"
-    },
-    {
-      "id": "a2ffdc968103721c",
-      "titulo": "“Laura Sarabia clonó el celular de Petro”: Felipe Zuleta revela supuesta copia del teléfono y la exfuncionaria anuncia acciones legales",
-      "categoria": "Tecnología",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/laura-sarabia-clono-celular-petro-felipe-zuleta-revela-supuesta-copia-del-telefono-GC43279429",
-      "fecha": "2026-11-06T19:23:50+00:00",
-      "imagen": "https://estaticos.elcolombiano.com/binrepository/414x300/0c0/0d0/center/11101/WJMP/petro-y-sarabia-colprensa-51609378-2_52073264_20261106141920.webp"
-    },
-    {
-      "id": "af8bb63971e837b2",
-      "titulo": "Alcaldía de Cali incauta 22 máquinas tragamonedas ocultas en una tienda y sanciona a chatarrerías que seguían operando tras su cierre",
-      "categoria": "Cali",
-      "fuente": "El Tiempo Cali",
-      "url": "https://www.eltiempo.com/colombia/cali/alcaldia-de-cali-incauta-22-maquinas-tragamonedas-ocultas-en-una-tienda-y-sanciona-a-chatarrerias-que-seguian-operando-tras-su-cierre-3599019",
-      "fecha": "2026-11-06T17:22:35+00:00",
-      "imagen": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/11/06/6aedfdb1949ca.png"
-    },
-    {
-      "id": "996b40db11d510f6",
-      "titulo": "El Cañón del Chicamocha fue reconocido como Patrimonio Geológico Mundial: así se logró la distinción",
-      "categoria": "Deportes",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/santander/el-canon-del-chicamocha-fue-reconocido-como-patrimonio-geologico-mundial-asi-se-logro-la-distincion-3598984",
-      "fecha": "2026-11-06T16:49:44+00:00",
-      "imagen": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2026/11/06/6aee03d2a047c.r_d.571-574-0.jpeg"
-    },
-    {
-      "id": "f091c447c93a7842",
-      "titulo": "En Córdoba buscan aplicar energía nuclear y biotecnología a la agricultura con asesoría de investigadores brasileros",
-      "categoria": "Tecnología",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/en-cordoba-buscan-aplicar-energia-nuclear-y-biotecnologia-a-la-agricultura-con-asesoria-de-investigadores-brasileros-3598960",
-      "fecha": "2026-11-06T14:26:28+00:00",
-      "imagen": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/05/22/6a10d70d692ca.jpeg"
-    },
-    {
-      "id": "62a28d283203a8b4",
-      "titulo": "Voltaje: el espacio en Bogotá donde el arte encuentra a la inteligencia artificial",
-      "categoria": "Tecnología",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/america-colombia/2026-11-05/voltaje-el-espacio-en-bogota-donde-el-arte-encuentra-a-la-inteligencia-artificial.html",
-      "fecha": "2026-11-05T09:30:00+00:00",
-      "imagen": "https://imagenes.elpais.com/resizer/v2/PXS5HQQKS5HAFD757QJH5OJP24.jpg?auth=3cb375448fa3765a1c323cc63e989c6fd5e65822a5c8c893506fa3f1afbaae6c"
-    },
-    {
-      "id": "28d662986c74a0b7",
-      "titulo": "Misi presenta un musical que enfrenta a Papá Noel con el desafío de la inteligencia artificial",
-      "categoria": "Tecnología",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/ocio/misi-presenta-un-musical-navideno-que-enfrenta-a-papa-noel-con-el-desafio-de-la-ia-4517272",
-      "fecha": "2026-11-04T12:36:38+00:00",
-      "imagen": ""
     }
   ],
   "estado_fuentes": [
     {
       "nombre": "El Tiempo",
       "url": "https://www.eltiempo.com/rss/colombia.xml",
-      "zona": "Nacional / internacional",
-      "estado": "ok",
-      "entradas_rss": 10,
-      "titulares_vigentes": 10,
-      "ultima_consulta": "2026-11-07T10:41:46.504621+00:00",
-      "error": ""
+      "estado": "correcto",
+      "titulares": 10
     },
     {
       "nombre": "El Tiempo Cali",
       "url": "https://www.eltiempo.com/rss/colombia_cali.xml",
-      "zona": "Nacional / internacional",
-      "estado": "ok",
-      "entradas_rss": 10,
-      "titulares_vigentes": 10,
-      "ultima_consulta": "2026-11-07T10:41:46.745487+00:00",
-      "error": ""
+      "estado": "correcto",
+      "titulares": 3
     },
     {
       "nombre": "El Espectador",
       "url": "https://www.elespectador.com/rss/",
-      "zona": "Nacional / internacional",
-      "estado": "sin_entradas",
-      "entradas_rss": 0,
-      "titulares_vigentes": 0,
-      "ultima_consulta": "2026-11-07T10:41:46.858779+00:00",
-      "error": "La respuesta no contiene entradas RSS/Atom."
+      "estado": "error",
+      "titulares": 0,
+      "detalle": "El feed no contiene entradas."
     },
     {
       "nombre": "La Silla Vacía",
       "url": "https://www.lasillavacia.com/feed/",
-      "zona": "Nacional / internacional",
-      "estado": "ok",
-      "entradas_rss": 10,
-      "titulares_vigentes": 10,
-      "ultima_consulta": "2026-11-07T10:41:47.541479+00:00",
-      "error": ""
+      "estado": "correcto",
+      "titulares": 10
     },
     {
       "nombre": "Portafolio",
       "url": "https://www.portafolio.co/rss/economia.xml",
-      "zona": "Nacional / internacional",
-      "estado": "ok",
-      "entradas_rss": 10,
-      "titulares_vigentes": 10,
-      "ultima_consulta": "2026-11-07T10:41:47.749814+00:00",
-      "error": ""
+      "estado": "correcto",
+      "titulares": 10
     },
     {
       "nombre": "La República",
       "url": "https://www.larepublica.co/rss",
-      "zona": "Nacional / internacional",
-      "estado": "ok",
-      "entradas_rss": 60,
-      "titulares_vigentes": 40,
-      "ultima_consulta": "2026-11-07T10:41:47.957647+00:00",
-      "error": ""
+      "estado": "correcto",
+      "titulares": 35
     },
     {
       "nombre": "90 Minutos",
       "url": "https://90minutos.co/feed/",
-      "zona": "Nacional / internacional",
-      "estado": "ok",
-      "entradas_rss": 12,
-      "titulares_vigentes": 12,
-      "ultima_consulta": "2026-11-07T10:41:48.241561+00:00",
-      "error": ""
+      "estado": "correcto",
+      "titulares": 12
     },
     {
       "nombre": "BBC Mundo",
       "url": "https://feeds.bbci.co.uk/mundo/rss.xml",
-      "zona": "Nacional / internacional",
-      "estado": "ok",
-      "entradas_rss": 32,
-      "titulares_vigentes": 29,
-      "ultima_consulta": "2026-11-07T10:41:48.489976+00:00",
-      "error": ""
+      "estado": "correcto",
+      "titulares": 24
     },
     {
       "nombre": "DW Español",
       "url": "https://rss.dw.com/rdf/rss-sp-all",
-      "zona": "Nacional / internacional",
-      "estado": "ok",
-      "entradas_rss": 21,
-      "titulares_vigentes": 21,
-      "ultima_consulta": "2026-11-07T10:41:48.784456+00:00",
-      "error": ""
+      "estado": "correcto",
+      "titulares": 21
     },
     {
       "nombre": "Xataka",
       "url": "https://feeds.weblogssl.com/xataka2",
-      "zona": "Nacional / internacional",
-      "estado": "ok",
-      "entradas_rss": 26,
-      "titulares_vigentes": 26,
-      "ultima_consulta": "2026-11-07T10:41:49.623602+00:00",
-      "error": ""
+      "estado": "correcto",
+      "titulares": 26
     },
     {
       "nombre": "El País Colombia",
       "url": "https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/section/america-colombia/portada",
-      "zona": "Nacional / internacional",
-      "estado": "ok",
-      "entradas_rss": 110,
-      "titulares_vigentes": 40,
-      "ultima_consulta": "2026-11-07T10:41:50.421181+00:00",
-      "error": ""
+      "estado": "correcto",
+      "titulares": 35
     },
     {
       "nombre": "Diario Occidente",
       "url": "https://occidente.co/feed/",
-      "zona": "Nacional / internacional",
-      "estado": "ok",
-      "entradas_rss": 11,
-      "titulares_vigentes": 11,
-      "ultima_consulta": "2026-11-07T10:41:51.660256+00:00",
-      "error": ""
+      "estado": "correcto",
+      "titulares": 11
     },
     {
       "nombre": "La FM Deportes",
       "url": "https://www.lafm.com.co/rss/deportes.xml",
-      "zona": "Nacional / internacional",
-      "estado": "ok",
-      "entradas_rss": 20,
-      "titulares_vigentes": 20,
-      "ultima_consulta": "2026-11-07T10:41:51.833758+00:00",
-      "error": ""
+      "estado": "correcto",
+      "titulares": 18
     },
     {
       "nombre": "La FM Economía",
       "url": "https://www.lafm.com.co/rss/economia.xml",
-      "zona": "Nacional / internacional",
-      "estado": "ok",
-      "entradas_rss": 20,
-      "titulares_vigentes": 20,
-      "ultima_consulta": "2026-11-07T10:41:52.030886+00:00",
-      "error": ""
+      "estado": "correcto",
+      "titulares": 20
     },
     {
       "nombre": "La FM Internacional",
       "url": "https://www.lafm.com.co/rss/internacional.xml",
-      "zona": "Nacional / internacional",
-      "estado": "ok",
-      "entradas_rss": 20,
-      "titulares_vigentes": 20,
-      "ultima_consulta": "2026-11-07T10:41:52.121609+00:00",
-      "error": ""
+      "estado": "correcto",
+      "titulares": 20
     },
     {
       "nombre": "La FM Actualidad",
       "url": "https://www.lafm.com.co/rss/actualidad.xml",
-      "zona": "Nacional / internacional",
-      "estado": "ok",
-      "entradas_rss": 20,
-      "titulares_vigentes": 20,
-      "ultima_consulta": "2026-11-07T10:41:52.273931+00:00",
-      "error": ""
+      "estado": "correcto",
+      "titulares": 20
     },
     {
       "nombre": "Q'hubo Cali",
       "url": "https://www.qhubocali.com/feed/",
-      "zona": "Cali y Valle del Cauca",
-      "estado": "ok",
-      "entradas_rss": 12,
-      "titulares_vigentes": 10,
-      "ultima_consulta": "2026-11-07T10:41:52.406887+00:00",
-      "error": ""
+      "estado": "correcto",
+      "titulares": 6
     },
     {
       "nombre": "El Colombiano — Colombia",
       "url": "https://www.elcolombiano.com/rss/Colombia.xml",
-      "zona": "Antioquia y Colombia",
-      "estado": "ok",
-      "entradas_rss": 57,
-      "titulares_vigentes": 40,
-      "ultima_consulta": "2026-11-07T10:41:53.677547+00:00",
-      "error": ""
+      "estado": "correcto",
+      "titulares": 35
     },
     {
       "nombre": "El Diario — Pereira",
       "url": "https://www.eldiario.com.co/feed/",
-      "zona": "Eje Cafetero",
-      "estado": "error",
-      "entradas_rss": 0,
-      "titulares_vigentes": 0,
-      "ultima_consulta": "2026-11-07T10:41:54.249696+00:00",
-      "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "estado": "correcto",
+      "titulares": 35
     },
     {
       "nombre": "Chocó 7 días",
       "url": "https://choco7dias.com/feed/",
-      "zona": "Pacífico colombiano",
-      "estado": "ok",
-      "entradas_rss": 10,
-      "titulares_vigentes": 10,
-      "ultima_consulta": "2026-11-07T10:41:54.499015+00:00",
-      "error": ""
+      "estado": "correcto",
+      "titulares": 9
     },
     {
       "nombre": "La Patria — Caldas",
       "url": "https://www.lapatria.com/rss.xml",
-      "zona": "Eje Cafetero",
-      "estado": "ok",
-      "entradas_rss": 10,
-      "titulares_vigentes": 9,
-      "ultima_consulta": "2026-11-07T10:41:54.794875+00:00",
-      "error": ""
+      "estado": "correcto",
+      "titulares": 8
     }
   ]
 }
