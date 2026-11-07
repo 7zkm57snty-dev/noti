@@ -1,5 +1,5 @@
 {
-  "ultima_actualizacion": "2026-11-07T19:24:54.204319+00:00",
+  "ultima_actualizacion": "2026-11-07T20:14:35.391166+00:00",
   "titulares_rss": [
     {
       "id": "029434dd47711907",
@@ -7,16 +7,142 @@
       "categoria": "Colombia",
       "fuente": "BBC Mundo",
       "url": "https://www.bbc.co.uk/mundo/live/c54g11vvvemkt?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-07T19:24:54.204319+00:00",
+      "fecha": "2026-11-07T20:14:35.391166+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "7a983141886b539a",
+      "titulo": "Chocó, un día como hoy…7 de noviembre",
+      "categoria": "Colombia",
+      "fuente": "Chocó 7 días",
+      "url": "https://choco7dias.com/choco-un-dia-como-hoy7-de-noviembre/",
+      "fecha": "2026-11-07T20:05:58+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "3be5ea08cb38b2e4",
+      "titulo": "Uribe cuestiona Ley de Rescate Económico y pide mayores recortes al gasto del Gobierno",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/noticias/uribe-cuestiona-ley-de-rescate-economico-y-pide-mayores-recortes-al-gasto-del-gobierno/",
+      "fecha": "2026-11-07T20:00:58+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "a3ff2d7c66345858",
+      "titulo": "Puerto López se endeuda en infraestructura pero toma agua no potable",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/red-de-expertos/red-social/puerto-lopez-se-endeuda-en-infraestructura-pero-toma-agua-no-potable/",
+      "fecha": "2026-11-07T20:00:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "23c7fbbd22940e13",
+      "titulo": "Seis muertos por tiroteo en el centro histórico de Cracovia",
+      "categoria": "Internacional",
+      "fuente": "La FM Internacional",
+      "url": "https://www.lafm.com.co/internacional/ataque-terrorista-en-cracovia-polonia-deja-seis-muertos-416473",
+      "fecha": "2026-11-07T19:53:52+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "a094862e8100c73e",
+      "titulo": "Weil Gotshal anunció su disolución tras 95 años de historia por la salida de socios",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/globoeconomia/la-firma-estadounidense-weil-gotshal-manges-anuncio-su-disolucion-4519863",
+      "fecha": "2026-11-07T19:53:22+00:00",
       "imagen": ""
     },
     {
       "id": "ccd96385028459de",
-      "titulo": "Con drones atacaron un cantón militar en el sur de Bolívar: reportan varios heridos; esto se sabe del atentado terrorista",
+      "titulo": "Con drones atacaron un cantón militar en el sur de Bolívar: reportan tres muertos y 35 heridos; esto se sabe del atentado terrorista",
       "categoria": "Colombia",
       "fuente": "El Tiempo",
       "url": "https://www.eltiempo.com/colombia/otras-ciudades/con-drones-atacaron-un-canton-militar-en-el-sur-de-bolivar-reportan-varios-heridos-esto-se-sabe-del-atentado-terrorista-3599270",
-      "fecha": "2026-11-07T19:05:17+00:00",
+      "fecha": "2026-11-07T19:44:57+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "40f873fbf877ea5b",
+      "titulo": "¿Cuándo se jugará la fecha definitiva de la Liga colombiana?",
+      "categoria": "Deportes",
+      "fuente": "La FM Deportes",
+      "url": "https://www.lafm.com.co/deportes/fecha-liga-definitiva-clasificados-cuadrangulares-416472",
+      "fecha": "2026-11-07T19:44:46+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "e94bc28f806b9e56",
+      "titulo": "EEUU financió una red de sensores en el Pacífico. China ha utilizado sus datos para descubrir una gigantesca estructura invisible bajo el mar",
+      "categoria": "Internacional",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/magnet/eeuu-financio-red-sensores-pacifico-china-ha-utilizado-sus-datos-para-descubrir-gigantesca-estructura-invisible-mar",
+      "fecha": "2026-11-07T19:31:06+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "6d590fbf0a64d568",
+      "titulo": "Abogado de fiscal señalada de estar ebria en audiencia de Caldas explicó qué habría ocurrido",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/noticias/abogado-de-fiscal-senalada-de-estar-ebria-en-audiencia-de-caldas-explico-que-habria-ocurrido/",
+      "fecha": "2026-11-07T19:30:40+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "3d092b912d2731d3",
+      "titulo": "'Si se le ocurre seguir delinquiendo le va a ir muy mal, estamos preparados': Federico Gutiérrez, alcalde de Medellín, sobre liberación de alias Tom",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/medellin/si-se-le-ocurre-seguir-delinquiendo-le-va-a-ir-muy-mal-estamos-preparados-federico-gutierrez-alcalde-de-medellin-sobre-liberacion-de-alias-tom-3599267",
+      "fecha": "2026-11-07T19:30:34+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "2ba9353e29e13ff5",
+      "titulo": "Inicia 'cónclave' en Barranquilla entre congresistas y Gobierno para analizar propuestas de ley de rescate fiscal",
+      "categoria": "Colombia",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/gobierno/inicia-conclave-en-barranquilla-entre-congresistas-y-gobierno-para-analizar-propuestas-de-ley-de-rescate-fiscal-505921",
+      "fecha": "2026-11-07T19:28:58+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "d21842224b9fef50",
+      "titulo": "Nottingham Forest de Muñoz sorprende y golea 3-1 al Manchester City",
+      "categoria": "Deportes",
+      "fuente": "La FM Deportes",
+      "url": "https://www.lafm.com.co/deportes/nottingham-forest-golea-manchester-city-mueve-tabla-de-posiciones-premier-league-416470",
+      "fecha": "2026-11-07T19:26:58+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "124e396486799eb2",
+      "titulo": "Francia: decenas de miles protestan para \"mantener la presión\" sobre el gobierno",
+      "categoria": "Colombia",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/francia-decenas-de-miles-protestan-para-mantener-la-presión-sobre-el-gobierno/a-79888141?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-07T19:19:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "1f9ceb7930ec23a1",
+      "titulo": "La Fiscalía paraguaya pide prisión preventiva para el expresidente destituido Santiago Peña",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/america/2026-11-07/la-fiscalia-paraguaya-pide-prision-preventiva-para-el-expresidente-destituido-santiago-pena.html",
+      "fecha": "2026-11-07T19:18:18+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "1b9752c670560b24",
+      "titulo": "La razón detrás del apagón en el partido entre Millonarios y América por Liga Betplay",
+      "categoria": "Deportes",
+      "fuente": "La FM Deportes",
+      "url": "https://www.lafm.com.co/deportes/apagon-estadio-el-campin-partido-millonarios-vs-america-liga-betplay-416467",
+      "fecha": "2026-11-07T19:01:29+00:00",
       "imagen": ""
     },
     {
@@ -62,15 +188,6 @@
       "fuente": "La Silla Vacía",
       "url": "https://www.lasillavacia.com/en-vivo/uribismo-propone-en-tributaria-menos-iva-y-vender-parte-de-ecopetrol/",
       "fecha": "2026-11-07T18:35:20+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "3d092b912d2731d3",
-      "titulo": "'Si se le ocurre seguir delinquiendo le va a ir muy mal, estamos preparados': Federico Gutiérrez, alcalde de Medellín, sobre liberación de alias Tom",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/medellin/si-se-le-ocurre-seguir-delinquiendo-le-va-a-ir-muy-mal-estamos-preparados-federico-gutierrez-alcalde-de-medellin-sobre-liberacion-de-alias-tom-3599267",
-      "fecha": "2026-11-07T18:34:50+00:00",
       "imagen": ""
     },
     {
@@ -423,123 +540,6 @@
       "url": "https://www.elcolombiano.com/colombia/atentado-explosivos-peaje-la-agustina-via-cali-popayan-seis-ataques-carreteras-colombia-JE43304085",
       "fecha": "2026-11-07T15:27:56+00:00",
       "imagen": ""
-    },
-    {
-      "id": "8cc0ed3bca7435d2",
-      "titulo": "Tottenham vuelve a conocer la derrota ante Leeds: se mueve la tabla de la Premier League",
-      "categoria": "Deportes",
-      "fuente": "La FM Deportes",
-      "url": "https://www.lafm.com.co/deportes/leeds-derrota-tottenham-tabla-de-posiciones-premier-league-416450",
-      "fecha": "2026-11-07T15:23:11+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "9a446672e60e3108",
-      "titulo": "La búsqueda de Zoé llega al río Magdalena: más de 50 rescatistas intentan encontrar a la niña de seis años arrastrada por un arroyo en Soledad",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/barranquilla/la-busqueda-de-zoe-llega-al-rio-magdalena-mas-de-50-rescatistas-intentan-encontrar-a-la-nina-de-seis-anos-arrastrada-por-un-arroyo-en-soledad-3599229",
-      "fecha": "2026-11-07T15:20:22+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "601fd77bdc2af574",
-      "titulo": "Abelardo sale en defensa de Carlos Ríos tras amenazas en su contra",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/en-vivo/abelardo-sale-en-defensa-de-carlos-rios-tras-amenazas-en-su-contra/",
-      "fecha": "2026-11-07T15:13:23+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "c32f670bba8daab5",
-      "titulo": "El enemigo invisible de los embalses catalanes es una medusa china con 400 tentáculos de solo dos centímetros",
-      "categoria": "Internacional",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/ecologia-y-naturaleza/enemigo-invisible-embalses-catalanes-medusa-china-400-tentaculos-solo-2-centimetros",
-      "fecha": "2026-11-07T15:01:07+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "b774e80805c84fa6",
-      "titulo": "Colombia debe adaptar su diplomacia frente a un Capitolio dividido",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/red-de-expertos/red-social/colombia-debe-adaptar-su-diplomacia-frente-a-un-capitolio-dividido/",
-      "fecha": "2026-11-07T15:00:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "dc501ee8087b95d2",
-      "titulo": "Afectados en Paraguay \"van a tener que esperar la liquidación del banco\", un proceso que \"dura entre 20 y 30 años\"",
-      "categoria": "Economía",
-      "fuente": "La FM Internacional",
-      "url": "https://www.lafm.com.co/internacional/crisis-ueno-bank-liquidacion-del-banco-duraria-hasta-30-anos-416447",
-      "fecha": "2026-11-07T14:59:28+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "f336f8c55224b568",
-      "titulo": "Fotografía y música: un tributo a Pereira",
-      "categoria": "Tendencias",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/cultura/fotografia-y-musica-un-tributo-a-pereira/",
-      "fecha": "2026-11-07T14:36:21+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "50d8dbacecb01abc",
-      "titulo": "Si de pequeño tenías el pelo rubio y ahora lo tienes oscuro, hay una explicación detrás",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/medicina-y-salud/pequeno-tenias-pelo-rubio-ahora-tienes-oscuro-hay-explicacion-detras",
-      "fecha": "2026-11-07T14:31:07+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "3ec4429b1cdc54ec",
-      "titulo": "Ordóñez no descarta cambios en reforma tributaria",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/en-vivo/ordonez-no-descarta-cambios-en-reforma-tributaria/",
-      "fecha": "2026-11-07T14:31:04+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "430dc0c11208f1c8",
-      "titulo": "Empresas de Portugal, China y España competirán por la construcción de la Línea 2 del Metro de Bogotá",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/infraestructura/empresas-de-portugal-china-y-espana-competiran-por-la-construccion-de-la-linea-2-del-metro-de-bogota-505908",
-      "fecha": "2026-11-07T14:27:03+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "0305d680622e97e9",
-      "titulo": "Crisis de Ueno Bank en Paraguay: técnico Gustavo Alfaro habría perdido entre 7 y 10 millones de dólares",
-      "categoria": "Economía",
-      "fuente": "La FM Internacional",
-      "url": "https://www.lafm.com.co/internacional/gustavo-alfaro-perderia-hasta-10-millones-dolares-crisis-paraguay-416444",
-      "fecha": "2026-11-07T14:12:08+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "fc52555fbdfa131a",
-      "titulo": "Hombres armados asesinaron a una madre y sus dos hijas dentro de una vivienda en Toro, Valle del Cauca",
-      "categoria": "Valle del Cauca",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/hombres-armados-asesinaron-madre-dos-hijas-vivienda-toro-valle-del-cauca-feminicidio-CE43303375",
-      "fecha": "2026-11-07T14:12:05+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "7f5bac7d58cf3500",
-      "titulo": "“Uruguay es uno de los países con menos católicos”: así fue la llegada del papa León XIV a Montevideo",
-      "categoria": "Internacional",
-      "fuente": "La FM Internacional",
-      "url": "https://www.lafm.com.co/internacional/papa-leon-xiv-visita-uruguay-agenda-papal-mensaje-solidaridad-fe-416441",
-      "fecha": "2026-11-07T14:04:00+00:00",
-      "imagen": ""
     }
   ],
   "estado_fuentes": [
@@ -620,7 +620,7 @@
       "nombre": "La FM Deportes",
       "url": "https://www.lafm.com.co/rss/deportes.xml",
       "estado": "correcto",
-      "titulares": 16
+      "titulares": 19
     },
     {
       "nombre": "La FM Economía",
@@ -662,7 +662,7 @@
       "nombre": "Chocó 7 días",
       "url": "https://choco7dias.com/feed/",
       "estado": "correcto",
-      "titulares": 8
+      "titulares": 9
     },
     {
       "nombre": "La Patria — Caldas",
