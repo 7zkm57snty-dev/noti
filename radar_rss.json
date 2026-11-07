@@ -1,5 +1,5 @@
 {
-  "ultima_actualizacion": "2026-11-07T03:56:42.949888+00:00",
+  "ultima_actualizacion": "2026-11-07T04:58:05.629333+00:00",
   "titulares_rss": [
     {
       "id": "029434dd47711907",
@@ -7,14 +7,41 @@
       "categoria": "Colombia",
       "fuente": "BBC Mundo",
       "url": "https://www.bbc.co.uk/mundo/live/c54g11vvvemkt?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-07T03:56:42.949888+00:00",
+      "fecha": "2026-11-07T04:58:05.629333+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "659b68a0f1f395d1",
+      "titulo": "Quién es Santiago Peña, el economista a quien el poderoso Horacio Cartes encumbró a la presidencia de Paraguay (y al que ahora dejó caer)",
+      "categoria": "Internacional",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/cwe9le9yyzrzo?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-07T04:11:23+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "514b133fdeb42b30",
+      "titulo": "Hoy No Circula sabatino: qué autos pueden circular y cuáles descansan el 24 de octubre",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/mexico/hoy-no-circula-sabatino-que-autos-pueden-circular-cuales-descansan-24-octubre-1",
+      "fecha": "2026-11-07T04:01:06+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "871bbd16a7225219",
+      "titulo": "Tres grupos internacionales competirán por la Línea 2 del Metro de Bogotá",
+      "categoria": "Internacional",
+      "fuente": "La FM Actualidad",
+      "url": "https://www.lafm.com.co/actualidad/tres-grupos-internacionales-competiran-por-la-linea-2-del-metro-de-bogota-416426",
+      "fecha": "2026-11-07T03:59:48+00:00",
       "imagen": ""
     },
     {
       "id": "a4d9838f45c84f0f",
       "titulo": "Cali en el circuito de grandes espectáculos de música electrónica: recibirá a la DJ italiana Deborah De Luca",
       "categoria": "Cali",
-      "fuente": "El Tiempo Cali",
+      "fuente": "El Tiempo",
       "url": "https://www.eltiempo.com/colombia/cali/cali-en-el-circuito-de-grandes-espectaculos-de-musica-electronica-recibira-a-la-dj-italiana-deborah-de-luca-3599210",
       "fecha": "2026-11-07T03:48:30+00:00",
       "imagen": ""
@@ -48,7 +75,7 @@
     },
     {
       "id": "d4796b6af151ded4",
-      "titulo": "Revelan las primeras imágenes de la profesora Arleth Carolina tras ser hallada luego de más de dos años desaparecida: así fue el emotivo reencuentro",
+      "titulo": "Revelan las primeras imágenes de la profesora Arleth Carolina tras ser hallada en Bogotá luego de más de dos años desaparecida: emotivo reencuentro",
       "categoria": "Colombia",
       "fuente": "El Tiempo",
       "url": "https://www.eltiempo.com/colombia/barranquilla/revelan-las-primeras-imagenes-de-la-profesora-arleth-carolina-tras-ser-hallada-luego-de-mas-de-dos-anos-desaparecida-asi-fue-el-emotivo-reencuentro-3599207",
@@ -513,33 +540,6 @@
       "url": "https://www.bbc.com/mundo/articles/cmqjnn8jrqq0o?at_medium=RSS&at_campaign=rss",
       "fecha": "2026-11-06T23:48:43+00:00",
       "imagen": ""
-    },
-    {
-      "id": "b0a11751f06c4120",
-      "titulo": "Congreso de Paraguay destituyó al presidente tras intento de renuncia",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/en-vivo/congreso-de-paraguay-destituyo-al-presidente-tras-intento-de-renuncia/",
-      "fecha": "2026-11-06T23:46:34+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "7e7e1ef396b70315",
-      "titulo": "Así fueron los dos años de búsqueda de Arleth Carolina: su madre nunca perdió la esperanza de encontrarla",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/barranquilla/leida-una-madre-inquebrantable-que-nunca-dio-a-su-hija-por-perdida-dos-anos-de-busqueda-hasta-encontrar-a-arleth-carolina-con-vida-3599144",
-      "fecha": "2026-11-06T23:46:14+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "6c1ad699b733778c",
-      "titulo": "Trump nombra a Stephen Miller, el \"arquitecto\" de su dura política migratoria, como nuevo jefe de gabinete de la Casa Blanca",
-      "categoria": "Internacional",
-      "fuente": "BBC Mundo",
-      "url": "https://www.bbc.com/mundo/articles/c90k001drxxko?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-06T23:39:40+00:00",
-      "imagen": ""
     }
   ],
   "estado_fuentes": [
@@ -553,14 +553,14 @@
       "nombre": "El Tiempo Cali",
       "url": "https://www.eltiempo.com/rss/colombia_cali.xml",
       "estado": "correcto",
-      "titulares": 4
+      "titulares": 3
     },
     {
       "nombre": "El Espectador",
       "url": "https://www.elespectador.com/rss/",
       "estado": "error",
       "titulares": 0,
-      "detalle": "403 Client Error: Forbidden for url: https://www.elespectador.com/rss/"
+      "detalle": "El feed no contiene entradas."
     },
     {
       "nombre": "La Silla Vacía",
