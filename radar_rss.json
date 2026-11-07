@@ -1,5 +1,5 @@
 {
-  "ultima_actualizacion": "2026-11-07T01:07:24.838378+00:00",
+  "ultima_actualizacion": "2026-11-07T02:03:50.184079+00:00",
   "titulares_rss": [
     {
       "id": "029434dd47711907",
@@ -7,7 +7,106 @@
       "categoria": "Colombia",
       "fuente": "BBC Mundo",
       "url": "https://www.bbc.co.uk/mundo/live/c54g11vvvemkt?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-07T01:07:24.838378+00:00",
+      "fecha": "2026-11-07T02:03:50.184079+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "55c957376ca24f23",
+      "titulo": "Bbva Colombia anunció medidas para garantizar el trato equitativo a sus accionistas",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/finanzas/bbva-colombia-anuncio-medidas-para-garantizar-el-trato-equitativo-a-sus-accionistas-4519712",
+      "fecha": "2026-11-07T02:00:08+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "213bd2208b4c3198",
+      "titulo": "Nombran a Gladys Vega vicepresidente de Talento Organizacional en Ecopetrol",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/economia/nombran-a-gladys-vega-vicepresidente-de-talento-organizacional-en-ecopetrol-4519715",
+      "fecha": "2026-11-07T01:59:12+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "4011a533fd96a660",
+      "titulo": "Dos mujeres aceptaron una oferta de trabajo en Bogotá, viajaron desde Medellín y terminaron secuestradas",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/dos-mujeres-aceptaron-oferta-trabajo-bogota-terminaron-secuestradas-CE43302099",
+      "fecha": "2026-11-07T01:58:25+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "10b4e4b91a8b406a",
+      "titulo": "¿Por qué el 44 % de los jóvenes no ahorró el último año y más de la mitad tendría dificultades si no recurre a una ayuda familiar en Cali y el país?",
+      "categoria": "Cali",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/cali/por-que-el-44-de-los-jovenes-no-ahorro-dinero-durante-el-ultimo-ano-y-mas-de-la-mitad-tendria-dificultades-ante-una-emergencia-en-cali-y-el-pais-3599175",
+      "fecha": "2026-11-07T01:53:28+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "3934dca8e8a47e28",
+      "titulo": "Trump nombra a Stephen Miller jefe de gabinete tras la derrota republicana",
+      "categoria": "Internacional",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/globoeconomia/trump-nombra-a-stephen-miller-jefe-de-gabinete-tras-la-derrota-republicana-4519693",
+      "fecha": "2026-11-07T01:36:55+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "fcbe6dd998b00373",
+      "titulo": "Tres meses después del terremoto, damnificados de Risaralda siguen esperando ayudas estatales",
+      "categoria": "Colombia",
+      "fuente": "La FM Actualidad",
+      "url": "https://www.lafm.com.co/actualidad/damnificados-terremoto-risaralda-sin-ayudas-piden-explicaciones-416420",
+      "fecha": "2026-11-07T01:34:34+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "ac37e82c8a75c68f",
+      "titulo": "Fox adquiere Roku por US$22.000 millones en su impulso por el streaming",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/globoeconomia/fox-adquiere-roku-por-us-22-000-millones-en-su-impulso-por-el-streaming-4519681",
+      "fecha": "2026-11-07T01:28:20+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "62d46ce88f2427a7",
+      "titulo": "Estrategias de ahorro en noviembre: 4 pasos para eliminar deudas pequeñas antes de fin de año",
+      "categoria": "Economía",
+      "fuente": "La FM Economía",
+      "url": "https://www.lafm.com.co/economia/estrategias-de-ahorro-eliminar-deudas-fin-de-ano-416417",
+      "fecha": "2026-11-07T01:17:23+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "65fc2df82b776f26",
+      "titulo": "Murió Gustavo Cardona Parra: este es su legado en la historia de Almacenes La 14",
+      "categoria": "Colombia",
+      "fuente": "La FM Actualidad",
+      "url": "https://www.lafm.com.co/actualidad/murio-gustavo-cardona-parra-legado-historia-almacenes-la-14-416422",
+      "fecha": "2026-11-07T01:15:36+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "06afdb99230d06be",
+      "titulo": "Foodbol apuesta por unir la gastronomía, el fútbol y el entretenimiento digital",
+      "categoria": "Deportes",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/ocio/foodbol-apuesta-por-unir-la-gastronomia-el-futbol-y-el-entretenimiento-digital-4519614",
+      "fecha": "2026-11-07T01:07:31+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "2bc510a3ac62e0d7",
+      "titulo": "Arrestan a inmigrante venezolano armado cerca de la Casa Blanca que amenazaba con atentar contra Trump, según las autoridades",
+      "categoria": "Internacional",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/cvlyddxr5kz1o?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-07T01:02:01+00:00",
       "imagen": ""
     },
     {
@@ -20,11 +119,11 @@
       "imagen": ""
     },
     {
-      "id": "39371519fa92337c",
-      "titulo": "Casa Blanca mantiene proyecto de arco de triunfo en Washington tras revés judicial",
+      "id": "2e292b8deb19bc9a",
+      "titulo": "Casa Blanca mantiene proyecto del arco del triunfo en Washington pese a revés judicial",
       "categoria": "Internacional",
       "fuente": "DW Español",
-      "url": "https://www.dw.com/es/casa-blanca-mantiene-proyecto-de-arco-de-triunfo-en-washington-tras-revés-judicial/a-79882868?maca=spa-rss-sp-all-1122-rdf",
+      "url": "https://www.dw.com/es/casa-blanca-mantiene-proyecto-del-arco-del-triunfo-en-washington-pese-a-revés-judicial/a-79882868?maca=spa-rss-sp-all-1122-rdf",
       "fecha": "2026-11-07T00:55:00+00:00",
       "imagen": ""
     },
@@ -65,15 +164,6 @@
       "imagen": ""
     },
     {
-      "id": "1e0e1e830d9ac75e",
-      "titulo": "La visita del papa León XIV en Uruguay, en vivo | El Papa encabeza la oración vespertina en la catedral de Montevideo",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/america/2026-11-06/la-visita-del-papa-leon-xiv-en-uruguay-en-vivo.html",
-      "fecha": "2026-11-07T00:19:56+00:00",
-      "imagen": ""
-    },
-    {
       "id": "9282b834afe88634",
       "titulo": "Duerma informado con las movidas de este 6 de noviembre de 2026",
       "categoria": "Colombia",
@@ -107,6 +197,15 @@
       "fuente": "Diario Occidente",
       "url": "https://occidente.co/secciones/mascotas/enfermedades-mentales-en-los-perros-trastornos-comportamiento-salud-animal-2026/",
       "fecha": "2026-11-07T00:14:07+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "414ea8f22b377297",
+      "titulo": "El Papa llega al país más laico de Sudamérica con un mensaje contra el aborto y la eutanasia",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/america/2026-11-07/el-papa-llega-al-pais-mas-laico-de-sudamerica-con-un-mensaje-contra-el-aborto-y-la-eutanasia.html",
+      "fecha": "2026-11-07T00:10:28+00:00",
       "imagen": ""
     },
     {
@@ -441,105 +540,6 @@
       "url": "https://www.bbc.com/mundo/articles/cwzd6684mgv5o?at_medium=RSS&at_campaign=rss",
       "fecha": "2026-11-06T22:52:18+00:00",
       "imagen": ""
-    },
-    {
-      "id": "e7e883d8a20a9087",
-      "titulo": "Barranquilla: el Metropolitano tendrá más de 300 cámaras con IA y antenas 5G para la final de la Copa Sudamericana del 21 de noviembre",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/barranquilla/barranquilla-el-metropolitano-tendra-mas-de-300-camaras-con-ia-y-antenas-5g-para-la-final-de-la-copa-sudamericana-del-21-de-noviembre-3599134",
-      "fecha": "2026-11-06T22:38:50+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "e38f93ffab47da66",
-      "titulo": "Algunos sistemas Linux permiten entrar sin conocer la contraseña: el fallo llevaba una década escondido",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/seguridad/algunos-sistemas-linux-permiten-entrar-conocer-contrasena-fallo-llevaba-decada-escondido",
-      "fecha": "2026-11-06T22:34:25+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "65ae28ba0381c560",
-      "titulo": "Qué es Ueno Bank y qué provocó la crisis por la que Santiago Peña fue destituido como presidente de Paraguay",
-      "categoria": "Colombia",
-      "fuente": "BBC Mundo",
-      "url": "https://www.bbc.com/mundo/articles/cqx28zrgd0yxo?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-06T22:30:31+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "25a8a4f9f307a575",
-      "titulo": "“Apareció, estoy con ella”: hallan en Bogotá a docente desaparecida hace más de dos años en Barranquilla",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/hallan-bogota-docente-desaparecida-hace-mas-de-dos-anos-barranquilla-MM43292860",
-      "fecha": "2026-11-06T22:28:21+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "fbeaf9f921aa4695",
-      "titulo": "Entre enero y septiembre de 2026, hospitales y clínicas recibieron $61 billones por giro directo: 20 % más que en 2025",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/adres-giro-directo-61-billones-hospitales-clinicas-colombia-2026-PN43284649",
-      "fecha": "2026-11-06T22:22:22+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "616afb8524f78073",
-      "titulo": "Subsidio de vivienda en Bogotá: quiénes aplican a 'Reduce tu Cuota' y cómo postularse",
-      "categoria": "Colombia",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/gobierno/subsidio-de-vivienda-en-bogota-quienes-aplican-a-reduce-tu-cuota-y-como-postularse-505891",
-      "fecha": "2026-11-06T22:20:23+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "61bde7cb966f068b",
-      "titulo": "Senado de Paraguay destituye por unanimidad al presidente Santiago Peña tras la quiebra e intervención de Ueno Bank",
-      "categoria": "Colombia",
-      "fuente": "La FM Internacional",
-      "url": "https://www.lafm.com.co/internacional/senado-paraguay-destituye-presidente-santiago-pena-ueno-bank-416405",
-      "fecha": "2026-11-06T22:13:03+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "89dcfd7f2d20e880",
-      "titulo": "Santiago Peña fue destituido como presidente de Paraguay por caso Ueno Bank",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/santiago-pena-fue-destituido-como-presidente-de-paraguay-por-caso-ueno-4519441",
-      "fecha": "2026-11-06T22:12:05+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "d665883e2b0a12db",
-      "titulo": "¿Cuál es el impacto económico de la organización del Giro de Italia 2027?",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/ocio/cual-es-el-impacto-economico-de-la-organizacion-del-giro-de-italia-2027-4519440",
-      "fecha": "2026-11-06T22:10:08+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "2e29d498722bde4e",
-      "titulo": "De la Espriella pone en marcha deportación de 80 extranjeros a Venezuela",
-      "categoria": "Internacional",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/en-vivo/de-la-espriella-pone-en-marcha-deportacion-de-80-extranjeros-a-venezuela/",
-      "fecha": "2026-11-06T22:08:43+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "718cf866dd3934ad",
-      "titulo": "Darío Flórez le da la bienvenida a diciembre con una canción para celebrar en familia",
-      "categoria": "Valle del Cauca",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/vida-moderna/dario-florez-diciembre-navidad-06-11-2026/",
-      "fecha": "2026-11-06T22:06:37+00:00",
-      "imagen": ""
     }
   ],
   "estado_fuentes": [
@@ -553,7 +553,7 @@
       "nombre": "El Tiempo Cali",
       "url": "https://www.eltiempo.com/rss/colombia_cali.xml",
       "estado": "correcto",
-      "titulares": 6
+      "titulares": 5
     },
     {
       "nombre": "El Espectador",
@@ -620,7 +620,7 @@
       "nombre": "La FM Deportes",
       "url": "https://www.lafm.com.co/rss/deportes.xml",
       "estado": "correcto",
-      "titulares": 18
+      "titulares": 17
     },
     {
       "nombre": "La FM Economía",
