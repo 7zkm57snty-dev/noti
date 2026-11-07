@@ -1,5 +1,5 @@
 {
-  "ultima_actualizacion": "2026-11-07T07:06:37.387731+00:00",
+  "ultima_actualizacion": "2026-11-07T08:08:24.837723+00:00",
   "titulares_rss": [
     {
       "id": "029434dd47711907",
@@ -7,7 +7,16 @@
       "categoria": "Colombia",
       "fuente": "BBC Mundo",
       "url": "https://www.bbc.co.uk/mundo/live/c54g11vvvemkt?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-07T07:06:37.387731+00:00",
+      "fecha": "2026-11-07T08:08:24.837723+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "c7117507a7526641",
+      "titulo": "China acaba de conseguir algo extraordinario en su estación espacial: ha enfriado átomos hasta un récord histórico",
+      "categoria": "Internacional",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/espacio/china-acaba-conseguir-algo-extraordinario-su-estacion-espacial-ha-enfriado-atomos-record-historico",
+      "fecha": "2026-11-07T08:01:06+00:00",
       "imagen": ""
     },
     {
@@ -530,15 +539,6 @@
       "fuente": "BBC Mundo",
       "url": "https://www.bbc.com/mundo/articles/cwe9le9yyzrzo?at_medium=RSS&at_campaign=rss",
       "fecha": "2026-11-07T04:11:23+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "514b133fdeb42b30",
-      "titulo": "Hoy No Circula sabatino: qué autos pueden circular y cuáles descansan el 24 de octubre",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/mexico/hoy-no-circula-sabatino-que-autos-pueden-circular-cuales-descansan-24-octubre-1",
-      "fecha": "2026-11-07T04:01:06+00:00",
       "imagen": ""
     }
   ],
