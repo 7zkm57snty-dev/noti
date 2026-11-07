@@ -1,5 +1,5 @@
 {
-  "ultima_actualizacion": "2026-11-07T10:50:18.324064+00:00",
+  "ultima_actualizacion": "2026-11-07T11:47:35.496185+00:00",
   "titulares_rss": [
     {
       "id": "029434dd47711907",
@@ -7,7 +7,43 @@
       "categoria": "Colombia",
       "fuente": "BBC Mundo",
       "url": "https://www.bbc.co.uk/mundo/live/c54g11vvvemkt?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-07T10:50:18.324064+00:00",
+      "fecha": "2026-11-07T11:47:35.496185+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "3cad871f467e317d",
+      "titulo": "El Ayuntamiento de Salamanca anuncia otra tala de árboles y hay quien sospecha que es \"para mejorar las vistas\" de la Catedral",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/magnet/ayuntamiento-salamanca-anuncia-otra-tala-arboles-hay-quien-sospecha-que-para-mejorar-vistas-catedral",
+      "fecha": "2026-11-07T11:31:06+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "a90e5ea4d25df53b",
+      "titulo": "Irán ejecuta a un hombre por un ataque armado contra una comisaría",
+      "categoria": "Internacional",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/irán-ejecuta-a-un-hombre-por-un-ataque-armado-contra-una-comisaría/a-79884496?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-07T11:25:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "5f93114192a4c14f",
+      "titulo": "En 1986, Países Bajos gastó una fortuna en una barrera de 9 km para detener a su mayor enemigo. El problema es que casi siempre está abierta",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/ingenieria-y-megaconstrucciones/1986-paises-bajos-gasto-fortuna-barrera-9-km-para-detener-a-su-mayor-enemigo-problema-que-casi-siempre-esta-abierta",
+      "fecha": "2026-11-07T11:01:06+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "73c7baf656ae014e",
+      "titulo": "Qué pasó en la isla noruega que quiso abolir el tiempo",
+      "categoria": "Internacional",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/cmx2dxe1513jo?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-07T10:59:54+00:00",
       "imagen": ""
     },
     {
@@ -504,42 +540,6 @@
       "url": "https://www.larepublica.co/internet-economy/los-agentes-de-ia-ya-se-preparan-para-negociar-bonos-y-transformar-los-mercados-financieros-4519784",
       "fecha": "2026-11-07T05:01:19+00:00",
       "imagen": ""
-    },
-    {
-      "id": "085f66120e40bb4c",
-      "titulo": "Tres excusas para un mesías",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/analisis/jerome-sanabria-3850986/tres-excusas-para-un-mesias-4519658",
-      "fecha": "2026-11-07T05:01:19+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "841bb7f6fb67a1f1",
-      "titulo": "Prepararse también es avanzar",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/analisis/tatiana-arango-m-401859/prepararse-tambien-es-avanzar-4519668",
-      "fecha": "2026-11-07T05:01:14+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "5395a0a5cc86d90c",
-      "titulo": "¿No importa la vida privada?",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/analisis/ricardo-mejia-cano-3318666/no-importa-la-vida-privada-4519706",
-      "fecha": "2026-11-07T05:01:12+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "9f22cfe661a10bf2",
-      "titulo": "Estas son las compañías que más facturan en el mercado nacional farmacéutico",
-      "categoria": "Economía",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/empresas/estas-son-las-companias-que-mas-facturan-en-el-mercado-nacional-farmaceutico-4518547",
-      "fecha": "2026-11-07T05:01:12+00:00",
-      "imagen": ""
     }
   ],
   "estado_fuentes": [
@@ -590,7 +590,7 @@
       "nombre": "BBC Mundo",
       "url": "https://feeds.bbci.co.uk/mundo/rss.xml",
       "estado": "correcto",
-      "titulares": 24
+      "titulares": 25
     },
     {
       "nombre": "DW Español",
@@ -661,8 +661,9 @@
     {
       "nombre": "Chocó 7 días",
       "url": "https://choco7dias.com/feed/",
-      "estado": "correcto",
-      "titulares": 9
+      "estado": "error",
+      "titulares": 0,
+      "detalle": "509 Server Error: <none> for url: https://choco7dias.com/feed/"
     },
     {
       "nombre": "La Patria — Caldas",
