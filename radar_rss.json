@@ -1,5 +1,5 @@
 {
-  "ultima_actualizacion": "2026-11-07T14:49:01.409448+00:00",
+  "ultima_actualizacion": "2026-11-07T15:46:20.308403+00:00",
   "titulares_rss": [
     {
       "id": "029434dd47711907",
@@ -7,7 +7,97 @@
       "categoria": "Colombia",
       "fuente": "BBC Mundo",
       "url": "https://www.bbc.co.uk/mundo/live/c54g11vvvemkt?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-07T14:49:01.409448+00:00",
+      "fecha": "2026-11-07T15:46:20.308403+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "aba2dc3fd4e8253e",
+      "titulo": "Foscal | Preocupante crisis de salud en importante clínica de Santander: SOS al presidente Abelardo De La Espriella por deudas de 600 mil millones",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/santander/foscal-preocupante-crisis-de-salud-en-importante-clinica-de-santander-sos-al-presidente-abelardo-de-la-espriella-por-deudas-de-600-mil-millones-3599233",
+      "fecha": "2026-11-07T15:37:04+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "d8b4b6d267e1c16e",
+      "titulo": "PAPEL SALMON NOVIEMBRE 7 -2026",
+      "categoria": "Colombia",
+      "fuente": "La Patria — Caldas",
+      "url": "https://www.lapatria.com/publicacion/papel-salmon-noviembre-7-2026",
+      "fecha": "2026-11-07T15:31:54+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "8b1282151012b966",
+      "titulo": "En 1934, un montón de personas comenzaron a ver duendecillos saltarines tras comer una seta, ahora unos científicos creen que puede ayudar a personas con demencia",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/medicina-y-salud/1934-monton-personas-comenzaron-a-ver-duendecillos-saltarines-comer-seta-ahora-unos-cientificos-creen-que-puede-ayudar-a-personas-demencia",
+      "fecha": "2026-11-07T15:31:06+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "f1c758a1871ec7d2",
+      "titulo": "Una madre y sus dos hijas fueron asesinadas en una casa del municipio de Toro, en el norte del Valle del Cauca: es la masacre número 104 de 2026",
+      "categoria": "Valle del Cauca",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/cali/la-masacre-numero-104-de-2026-se-perpetro-en-el-valle-del-cauca-una-madre-y-sus-dos-hijas-fueron-asesinadas-en-una-casa-del-municipio-de-toro-3599234",
+      "fecha": "2026-11-07T15:31:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "8cc0ed3bca7435d2",
+      "titulo": "Tottenham vuelve a conocer la derrota ante Leeds: se mueve la tabla de la Premier League",
+      "categoria": "Deportes",
+      "fuente": "La FM Deportes",
+      "url": "https://www.lafm.com.co/deportes/leeds-derrota-tottenham-tabla-de-posiciones-premier-league-416450",
+      "fecha": "2026-11-07T15:23:11+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "4f21d23ff3972a18",
+      "titulo": "Nuevo atentado con explosivos contra un peaje en la vía Cali-Popayán: ya son seis ataques en las carreteras del país",
+      "categoria": "Cali",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/atentado-explosivos-peaje-la-agustina-via-cali-popayan-seis-ataques-carreteras-colombia-JE43304085",
+      "fecha": "2026-11-07T15:22:23+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "9a446672e60e3108",
+      "titulo": "La búsqueda de Zoé llega al río Magdalena: más de 50 rescatistas intentan encontrar a la niña de seis años arrastrada por un arroyo en Soledad",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/barranquilla/la-busqueda-de-zoe-llega-al-rio-magdalena-mas-de-50-rescatistas-intentan-encontrar-a-la-nina-de-seis-anos-arrastrada-por-un-arroyo-en-soledad-3599229",
+      "fecha": "2026-11-07T15:20:22+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "601fd77bdc2af574",
+      "titulo": "Abelardo sale en defensa de Carlos Ríos tras amenazas en su contra",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/en-vivo/abelardo-sale-en-defensa-de-carlos-rios-tras-amenazas-en-su-contra/",
+      "fecha": "2026-11-07T15:13:23+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "c32f670bba8daab5",
+      "titulo": "El enemigo invisible de los embalses catalanes es una medusa china con 400 tentáculos de solo dos centímetros",
+      "categoria": "Internacional",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/ecologia-y-naturaleza/enemigo-invisible-embalses-catalanes-medusa-china-400-tentaculos-solo-2-centimetros",
+      "fecha": "2026-11-07T15:01:07+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "b774e80805c84fa6",
+      "titulo": "Colombia debe adaptar su diplomacia frente a un Capitolio dividido",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/red-de-expertos/red-social/colombia-debe-adaptar-su-diplomacia-frente-a-un-capitolio-dividido/",
+      "fecha": "2026-11-07T15:00:00+00:00",
       "imagen": ""
     },
     {
@@ -65,6 +155,15 @@
       "imagen": ""
     },
     {
+      "id": "0305d680622e97e9",
+      "titulo": "Crisis de Ueno Bank en Paraguay: técnico Gustavo Alfaro habría perdido entre 7 y 10 millones de dólares",
+      "categoria": "Economía",
+      "fuente": "La FM Internacional",
+      "url": "https://www.lafm.com.co/internacional/gustavo-alfaro-perderia-hasta-10-millones-dolares-crisis-paraguay-416444",
+      "fecha": "2026-11-07T14:12:08+00:00",
+      "imagen": ""
+    },
+    {
       "id": "fc52555fbdfa131a",
       "titulo": "Hombres armados asesinaron a una madre y sus dos hijas dentro de una vivienda en Toro, Valle del Cauca",
       "categoria": "Valle del Cauca",
@@ -116,6 +215,15 @@
       "fuente": "El Colombiano — Colombia",
       "url": "https://www.elcolombiano.com/colombia/defensora-del-pueblo-habla-del-presidente-abelardo-de-la-espriella-entrevista-HE43303765",
       "fecha": "2026-11-07T13:58:31+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "355a5f2713ecd7d0",
+      "titulo": "Clínica Foscal, en Santander, advierte posible cierre progresivo de servicios por deuda cercana a los $600 mil millones",
+      "categoria": "Colombia",
+      "fuente": "La FM Actualidad",
+      "url": "https://www.lafm.com.co/actualidad/clinica-foscal-en-santander-advierte-posible-cierre-progresivo-de-servicios-por-deuda-cercana-a-los-600-mil-millones-416439",
+      "fecha": "2026-11-07T13:54:49+00:00",
       "imagen": ""
     },
     {
@@ -432,114 +540,6 @@
       "url": "https://elpais.com/us/2026-11-07/la-marea-democrata-abre-la-carrera-por-la-casa-blanca-con-centristas-y-progresistas-reforzados-de-cara-a-2028.html",
       "fecha": "2026-11-07T09:30:00+00:00",
       "imagen": ""
-    },
-    {
-      "id": "bcd680ec0afc59c6",
-      "titulo": "Florida, de bastión a trinchera de los republicanos en Estados Unidos",
-      "categoria": "Internacional",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/us/2026-11-07/florida-de-bastion-a-trinchera-de-los-republicanos-en-estados-unidos.html",
-      "fecha": "2026-11-07T09:30:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "def7245cabab48a6",
-      "titulo": "Más allá de Washington: los demócratas cimentan su reconquista con los parlamentos estatales",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/us/2026-11-07/mas-alla-de-washington-los-democratas-cimentan-su-reconquista-con-los-parlamentos-estatales.html",
-      "fecha": "2026-11-07T09:30:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "4d34e9e489661aa9",
-      "titulo": "El ascenso de Stephen Miller: de escritor de discursos de Trump a artífice de su plan de deportaciones masivas",
-      "categoria": "Internacional",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/us/2026-11-07/el-ascenso-de-stephen-miller-de-escritor-de-discursos-de-trump-a-artifice-de-su-plan-de-deportaciones-masivas.html",
-      "fecha": "2026-11-07T09:30:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "c270f38cf1d01353",
-      "titulo": "La ruina de PDVSA abre las puertas al capital privado en la nueva era del petróleo venezolano",
-      "categoria": "Economía",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/america/2026-11-07/la-ruina-de-pdvsa-abre-las-puertas-al-capital-privado-en-la-nueva-era-del-petroleo-venezolano.html",
-      "fecha": "2026-11-07T09:30:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "84f2f9773ea4f2d8",
-      "titulo": "Los ‘brókers’ del narco en México, un boyante negocio que avanza de la mano de las redes de lavado chinas",
-      "categoria": "Internacional",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/mexico/2026-11-07/los-brokers-del-narco-en-mexico-un-boyante-negocio-que-avanza-de-la-mano-de-las-redes-de-lavado-chinas.html",
-      "fecha": "2026-11-07T09:30:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "4a1c94238bf91a28",
-      "titulo": "Patricia Vargas, presidenta del Poder Judicial de Costa Rica: “No estoy dispuesta a ceder en nada que afecte la independencia judicial”",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/america/2026-11-07/patricia-vargas-presidenta-del-poder-judicial-de-costa-rica-no-estoy-dispuesta-a-ceder-en-nada-que-afecte-la-independencia-judicial.html",
-      "fecha": "2026-11-07T09:30:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "1aac6dd1bd2cc4cd",
-      "titulo": "¿Por qué las cestas de pronto resultan sexis? Cómo la película ‘Wicker’ desató la pasión por el mimbre",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/us/entretenimiento/2026-11-07/por-que-las-cestas-de-pronto-resultan-sexis-como-la-pelicula-wicker-desato-la-pasion-por-el-mimbre.html",
-      "fecha": "2026-11-07T09:30:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "770d33fd807a25f6",
-      "titulo": "Por qué necesitamos acoger a los migrantes",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/america-colombia/2026-11-07/por-que-necesitamos-acoger-a-los-migrantes.html",
-      "fecha": "2026-11-07T09:30:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "55a53ac3d60a66a4",
-      "titulo": "Ya es Black Friday en PcComponentes: cinco teles en oferta para el salón de marcas Philips, LG y más",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/seleccion/black-friday-pccomponentes-cinco-teles-rebajadas-para-salon-marcas-philips-lg",
-      "fecha": "2026-11-07T09:15:06+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "911ed0971631fb6c",
-      "titulo": "Creíamos que la IA iba a escribir por nosotros, pero donde ChatGPT está creciendo más en España es como buscador",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/robotica-e-ia/creiamos-que-ia-iba-a-escribir-nosotros-donde-chagpt-esta-creciendo-espana-como-buscador",
-      "fecha": "2026-11-07T09:00:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "a1f2db457438e80b",
-      "titulo": "‘Por Amor a Dosquebradas’: arranca una nueva apuesta",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/actualidad/por-amor-a-dosquebradas-arranca-una-nueva-apuesta/",
-      "fecha": "2026-11-07T08:19:08+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "c7117507a7526641",
-      "titulo": "China acaba de conseguir algo extraordinario en su estación espacial: ha enfriado átomos hasta un récord histórico",
-      "categoria": "Internacional",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/espacio/china-acaba-conseguir-algo-extraordinario-su-estacion-espacial-ha-enfriado-atomos-record-historico",
-      "fecha": "2026-11-07T08:01:06+00:00",
-      "imagen": ""
     }
   ],
   "estado_fuentes": [
@@ -553,7 +553,7 @@
       "nombre": "El Tiempo Cali",
       "url": "https://www.eltiempo.com/rss/colombia_cali.xml",
       "estado": "correcto",
-      "titulares": 3
+      "titulares": 5
     },
     {
       "nombre": "El Espectador",
@@ -620,7 +620,7 @@
       "nombre": "La FM Deportes",
       "url": "https://www.lafm.com.co/rss/deportes.xml",
       "estado": "correcto",
-      "titulares": 17
+      "titulares": 18
     },
     {
       "nombre": "La FM Economía",
