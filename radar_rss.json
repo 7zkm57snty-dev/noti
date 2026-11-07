@@ -1,5 +1,5 @@
 {
-  "ultima_actualizacion": "2026-11-07T08:57:54.677417+00:00",
+  "ultima_actualizacion": "2026-11-07T09:53:53.913808+00:00",
   "titulares_rss": [
     {
       "id": "029434dd47711907",
@@ -7,16 +7,169 @@
       "categoria": "Colombia",
       "fuente": "BBC Mundo",
       "url": "https://www.bbc.co.uk/mundo/live/c54g11vvvemkt?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-07T08:57:54.677417+00:00",
+      "fecha": "2026-11-07T09:53:53.913808+00:00",
       "imagen": ""
     },
     {
-      "id": "a1f2db457438e80b",
-      "titulo": "‘Por Amor a Dosquebradas’: arranca una nueva apuesta",
+      "id": "d65773a80c329ab3",
+      "titulo": "Espías, informantes y policía secreta: Hungría se enfrenta a su pasado al abrir los archivos de la era comunista",
+      "categoria": "Internacional",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/c6reyrrp39qqo?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-07T09:36:02+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "eaaf9d41c4d67be6",
+      "titulo": "La reforma tributaria eleva la tensión entre el Centro Democrático y el Gobierno",
       "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/actualidad/por-amor-a-dosquebradas-arranca-una-nueva-apuesta/",
-      "fecha": "2026-11-07T08:19:08+00:00",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/america-colombia/2026-11-07/la-reforma-tributaria-eleva-la-tension-entre-el-centro-democratico-y-el-gobierno.html",
+      "fecha": "2026-11-07T09:30:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "4087fab87fd11a0d",
+      "titulo": "El triple apretón de la reforma tributaria a la incipiente clase media colombiana",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/america-colombia/2026-11-07/el-triple-apreton-de-la-reforma-tributaria-a-la-incipiente-clase-media-colombiana.html",
+      "fecha": "2026-11-07T09:30:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "3e58dc80d5e94ae7",
+      "titulo": "La tumba equivocada: el mesero que descansó 30 años bajo el nombre del magistrado",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/america-colombia/2026-11-07/la-tumba-equivocada-el-mesero-que-descanso-30-anos-bajo-el-nombre-del-magistrado.html",
+      "fecha": "2026-11-07T09:30:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "f3a183efc8e0d1ce",
+      "titulo": "¿En qué creen los latinoamericanos? El catolicismo retrocede y suben los que no profesan ninguna religión",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/america/2026-11-07/en-que-creen-los-latinoamericanos-el-catolicismo-retrocede-y-suben-los-que-no-profesan-ninguna-religion.html",
+      "fecha": "2026-11-07T09:30:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "ea2b21de1bbfda22",
+      "titulo": "Perfume de badea o crema solar de chontaduro: emerge la industria alrededor de las 2.500 frutas colombianas",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/america-futura/2026-11-07/perfume-de-badea-o-crema-solar-de-chontaduro-emerge-la-industria-alrededor-de-las-2500-frutas-colombianas.html",
+      "fecha": "2026-11-07T09:30:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "bb0187da53b8edcf",
+      "titulo": "Trump afronta los dos últimos años de mandato como un octogenario desafiante obsesionado con las obras",
+      "categoria": "Internacional",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/us/2026-11-07/trump-afronta-los-dos-ultimos-anos-de-mandato-como-un-octogenario-desafiante-obsesionado-con-las-obras.html",
+      "fecha": "2026-11-07T09:30:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "219dd47359899775",
+      "titulo": "La marea demócrata abre la carrera por la Casa Blanca, con centristas y progresistas reforzados de cara a 2028",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/us/2026-11-07/la-marea-democrata-abre-la-carrera-por-la-casa-blanca-con-centristas-y-progresistas-reforzados-de-cara-a-2028.html",
+      "fecha": "2026-11-07T09:30:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "bcd680ec0afc59c6",
+      "titulo": "Florida, de bastión a trinchera de los republicanos en Estados Unidos",
+      "categoria": "Internacional",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/us/2026-11-07/florida-de-bastion-a-trinchera-de-los-republicanos-en-estados-unidos.html",
+      "fecha": "2026-11-07T09:30:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "def7245cabab48a6",
+      "titulo": "Más allá de Washington: los demócratas cimentan su reconquista con los parlamentos estatales",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/us/2026-11-07/mas-alla-de-washington-los-democratas-cimentan-su-reconquista-con-los-parlamentos-estatales.html",
+      "fecha": "2026-11-07T09:30:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "4d34e9e489661aa9",
+      "titulo": "El ascenso de Stephen Miller: de escritor de discursos de Trump a artífice de su plan de deportaciones masivas",
+      "categoria": "Internacional",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/us/2026-11-07/el-ascenso-de-stephen-miller-de-escritor-de-discursos-de-trump-a-artifice-de-su-plan-de-deportaciones-masivas.html",
+      "fecha": "2026-11-07T09:30:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "c270f38cf1d01353",
+      "titulo": "La ruina de PDVSA abre las puertas al capital privado en la nueva era del petróleo venezolano",
+      "categoria": "Economía",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/america/2026-11-07/la-ruina-de-pdvsa-abre-las-puertas-al-capital-privado-en-la-nueva-era-del-petroleo-venezolano.html",
+      "fecha": "2026-11-07T09:30:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "84f2f9773ea4f2d8",
+      "titulo": "Los ‘brókers’ del narco en México, un boyante negocio que avanza de la mano de las redes de lavado chinas",
+      "categoria": "Internacional",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/mexico/2026-11-07/los-brokers-del-narco-en-mexico-un-boyante-negocio-que-avanza-de-la-mano-de-las-redes-de-lavado-chinas.html",
+      "fecha": "2026-11-07T09:30:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "4a1c94238bf91a28",
+      "titulo": "Patricia Vargas, presidenta del Poder Judicial de Costa Rica: “No estoy dispuesta a ceder en nada que afecte la independencia judicial”",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/america/2026-11-07/patricia-vargas-presidenta-del-poder-judicial-de-costa-rica-no-estoy-dispuesta-a-ceder-en-nada-que-afecte-la-independencia-judicial.html",
+      "fecha": "2026-11-07T09:30:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "1aac6dd1bd2cc4cd",
+      "titulo": "¿Por qué las cestas de pronto resultan sexis? Cómo la película ‘Wicker’ desató la pasión por el mimbre",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/us/entretenimiento/2026-11-07/por-que-las-cestas-de-pronto-resultan-sexis-como-la-pelicula-wicker-desato-la-pasion-por-el-mimbre.html",
+      "fecha": "2026-11-07T09:30:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "770d33fd807a25f6",
+      "titulo": "Por qué necesitamos acoger a los migrantes",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/america-colombia/2026-11-07/por-que-necesitamos-acoger-a-los-migrantes.html",
+      "fecha": "2026-11-07T09:30:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "55a53ac3d60a66a4",
+      "titulo": "Ya es Black Friday en PcComponentes: cinco teles en oferta para el salón de marcas Philips, LG y más",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/seleccion/black-friday-pccomponentes-cinco-teles-rebajadas-para-salon-marcas-philips-lg",
+      "fecha": "2026-11-07T09:15:06+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "911ed0971631fb6c",
+      "titulo": "Creíamos que la IA iba a escribir por nosotros, pero donde ChaGPT está creciendo más en España es como buscador",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/robotica-e-ia/creiamos-que-ia-iba-a-escribir-nosotros-donde-chagpt-esta-creciendo-espana-como-buscador",
+      "fecha": "2026-11-07T09:01:08+00:00",
       "imagen": ""
     },
     {
@@ -30,11 +183,11 @@
     },
     {
       "id": "5e074aebd2c28726",
-      "titulo": "El cuero más antiguo del mundo está en Granada, tiene 7.200 años y conserva el ADN de una cabra neolítica",
+      "titulo": "El cuero más antiguo del mundo llevaba 7.200 años oculto en Granada y tiene el ADN de una cabra neolítica",
       "categoria": "Internacional",
       "fuente": "Xataka",
       "url": "https://www.xataka.com/magnet/cuero-antiguo-mundo-esta-granada-tiene-7-200-anos-conserva-adn-cabra-neolitica",
-      "fecha": "2026-11-07T07:01:05+00:00",
+      "fecha": "2026-11-07T07:00:00+00:00",
       "imagen": ""
     },
     {
@@ -62,51 +215,6 @@
       "fuente": "La República",
       "url": "https://www.larepublica.co/ocio/noche-de-regueton-con-reykon-en-bogota-4519397",
       "fecha": "2026-11-07T05:54:02+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "9d7e3387b5faba82",
-      "titulo": "Lo llevaron en moto y lo mataron a tiros",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/judicial/lo-llevaron-en-moto-y-lo-mataron-a-tiros/",
-      "fecha": "2026-11-07T05:20:38+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "3f7a8a90eee86910",
-      "titulo": "Una puñalada acabó con la vida de un joven minero",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/judicial/una-punalada-acabo-con-la-vida-de-un-joven-minero/",
-      "fecha": "2026-11-07T05:18:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "4bc603996a38e5d6",
-      "titulo": "Lo mataron dentro de su propia tienda",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/judicial/lo-mataron-dentro-de-su-propia-tienda/",
-      "fecha": "2026-11-07T05:12:56+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "2d6ddcd33bb5d65a",
-      "titulo": "A alias ‘Monstro’ lo mataron de 35 tiros",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/judicial/a-alias-monstro-lo-mataron-de-35-tiros/",
-      "fecha": "2026-11-07T05:06:58+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "5483a9ea93419514",
-      "titulo": "PTAR tiene luz verde financiera y apunta a 2031",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/actualidad/ptar-tiene-luz-verde-financiera-y-apunta-a-2031/",
-      "fecha": "2026-11-07T05:05:03+00:00",
       "imagen": ""
     },
     {
@@ -164,20 +272,20 @@
       "imagen": ""
     },
     {
-      "id": "57eac11b62ba8e5c",
-      "titulo": "Contra el crimen",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/analisis/francisco-barbosa-3943941/contra-el-crimen-4519695",
-      "fecha": "2026-11-07T05:01:49+00:00",
-      "imagen": ""
-    },
-    {
       "id": "6ca108aa82074761",
       "titulo": "AgroVenture Capital está buscando capital para ampliar su cultivo de los arándanos",
       "categoria": "Colombia",
       "fuente": "La República",
       "url": "https://www.larepublica.co/empresas/agroventure-capital-busca-capital-para-ampliar-su-cultivo-de-arandanos-4519594",
+      "fecha": "2026-11-07T05:01:49+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "57eac11b62ba8e5c",
+      "titulo": "Contra el crimen",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/analisis/francisco-barbosa-3943941/contra-el-crimen-4519695",
       "fecha": "2026-11-07T05:01:49+00:00",
       "imagen": ""
     },
@@ -335,20 +443,20 @@
       "imagen": ""
     },
     {
-      "id": "5395a0a5cc86d90c",
-      "titulo": "¿No importa la vida privada?",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/analisis/ricardo-mejia-cano-3318666/no-importa-la-vida-privada-4519706",
-      "fecha": "2026-11-07T05:01:12+00:00",
-      "imagen": ""
-    },
-    {
       "id": "9f22cfe661a10bf2",
       "titulo": "Estas son las compañías que más facturan en el mercado nacional farmacéutico",
       "categoria": "Economía",
       "fuente": "La República",
       "url": "https://www.larepublica.co/empresas/estas-son-las-companias-que-mas-facturan-en-el-mercado-nacional-farmaceutico-4518547",
+      "fecha": "2026-11-07T05:01:12+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "5395a0a5cc86d90c",
+      "titulo": "¿No importa la vida privada?",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/analisis/ricardo-mejia-cano-3318666/no-importa-la-vida-privada-4519706",
       "fecha": "2026-11-07T05:01:12+00:00",
       "imagen": ""
     },
@@ -371,146 +479,11 @@
       "imagen": ""
     },
     {
-      "id": "b8831f4abf19798b",
-      "titulo": "Lecturas recomendadas por Las Artes",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/las-artes-2/lecturas-recomendadas-por-las-artes/",
-      "fecha": "2026-11-07T05:00:53+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "84b955bacc059506",
-      "titulo": "Los designios de Dios… y de Trump",
-      "categoria": "Internacional",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/las-artes-2/los-designios-de-dios-y-de-trump/",
-      "fecha": "2026-11-07T05:00:51+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "e28948a4ffeecea3",
-      "titulo": "Cuentos de La Ceiba, de Julián Chica Cardona",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/las-artes-2/cuentos-de-la-ceiba-de-julian-chica-cardona/",
-      "fecha": "2026-11-07T05:00:47+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "81ceee0e0caf90b3",
-      "titulo": "¿Optimismo empresarial?",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/opinion/optimismo-empresarial/",
-      "fecha": "2026-11-07T05:00:46+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "0aed2b53d2f5cf59",
-      "titulo": "Una cifra alentadora",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/editorial/una-cifra-alentadora/",
-      "fecha": "2026-11-07T05:00:45+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "9450237c0a5faa06",
-      "titulo": "Errores para aprender",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/opinion/errores-para-aprender/",
-      "fecha": "2026-11-07T05:00:38+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "4e21446cad53e134",
-      "titulo": "Lo atacaron sin importar que estuviera con su hijo",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/judicial/lo-atacaron-sin-importar-que-estuviera-con-su-hijo/",
-      "fecha": "2026-11-07T05:00:37+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "317b30057baa72e7",
-      "titulo": "Periodismo Sin Conciencia",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/opinion/periodismo-sin-conciencia/",
-      "fecha": "2026-11-07T05:00:29+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "a3f058e169adc715",
-      "titulo": "Emilia Gutiérrez Gómez, una secretaria con la cultura de Pereira al día",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/las-artes-2/emilia-gutierrez-gomez-una-secretaria-con-la-cultura-de-pereira-al-dia/",
-      "fecha": "2026-11-07T05:00:27+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "74418ae8d2b88fe7",
-      "titulo": "Mito, humor y misterio en “Más allá del Paraíso”",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/las-artes-2/mito-humor-y-misterio-en-mas-alla-del-paraiso/",
-      "fecha": "2026-11-07T05:00:26+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "7bfba5b77ec29351",
-      "titulo": "Hambre",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/opinion/hambre-2/",
-      "fecha": "2026-11-07T05:00:22+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "f001713e9c7689ca",
-      "titulo": "Obra de Ramiro Arango",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/las-artes-2/obra-de-ramiro-arango/",
-      "fecha": "2026-11-07T05:00:19+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "c96f0d314c86d7fc",
-      "titulo": "RESCATE FISCAL: SALTO Y MEDIO TRIPLE MORTAL",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/opinion/rescate-fiscal-salto-y-medio-triple-mortal/",
-      "fecha": "2026-11-07T05:00:16+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "7b84d68601c81881",
-      "titulo": "¿Están en mora las aseguradoras?",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/opinion/estan-en-mora-las-aseguradoras/",
-      "fecha": "2026-11-07T05:00:11+00:00",
-      "imagen": ""
-    },
-    {
       "id": "7d65c64a6372c54f",
       "titulo": "Cómo convertir su árbol de Navidad en uno inteligente durante esta temporada",
       "categoria": "Colombia",
       "fuente": "La República",
       "url": "https://www.larepublica.co/internet-economy/asi-puede-convertir-su-arbol-de-navidad-en-uno-inteligente-en-esta-temporada-4519439",
-      "fecha": "2026-11-07T05:00:10+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "0f8eab4b524df789",
-      "titulo": "Silencio ante la corrupción, rabiosos con la solución",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/opinion/silencio-ante-la-corrupcion-rabiosos-con-la-solucion/",
       "fecha": "2026-11-07T05:00:10+00:00",
       "imagen": ""
     },
@@ -533,12 +506,39 @@
       "imagen": ""
     },
     {
+      "id": "ff34a9612ec25be2",
+      "titulo": "Branko Milanovic: “Esta derrota de Trump no tendrá gran impacto en la política hacia Asia o hacia Europa”",
+      "categoria": "Internacional",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/economia/2026-11-07/branko-milanovic-esta-derrota-de-trump-no-tendra-gran-impacto-en-la-politica-hacia-asia-o-hacia-europa.html",
+      "fecha": "2026-11-07T04:45:01+00:00",
+      "imagen": ""
+    },
+    {
       "id": "8a312fce28a3a233",
       "titulo": "Piloto denuncia falta de atención tras accidente en karts de Barranquilla",
       "categoria": "Deportes",
       "fuente": "La FM Deportes",
       "url": "https://www.lafm.com.co/deportes/piloto-denuncia-falta-de-atencion-tras-accidente-en-karts-de-barranquilla-416427",
       "fecha": "2026-11-07T04:42:34+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "fc6e13a491cc3117",
+      "titulo": "Asesinados en Guatemala un diputado y tres oficiales en un ataque armado",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/america/2026-11-07/asesinado-en-guatemala-un-diputado-y-tres-oficiales-en-un-ataque-armado.html",
+      "fecha": "2026-11-07T04:42:30+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "077ab56569ef8f32",
+      "titulo": "Los votantes de EE UU dieron un palo a la IA. La Bolsa tardó en entenderlo",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://cincodias.elpais.com/opinion/2026-11-07/los-votantes-de-ee-uu-dieron-un-palo-a-la-ia-la-bolsa-tardo-en-entenderlo.html",
+      "fecha": "2026-11-07T04:40:00+00:00",
       "imagen": ""
     }
   ],
@@ -560,7 +560,7 @@
       "url": "https://www.elespectador.com/rss/",
       "estado": "error",
       "titulares": 0,
-      "detalle": "El feed no contiene entradas."
+      "detalle": "403 Client Error: Forbidden for url: https://www.elespectador.com/rss/"
     },
     {
       "nombre": "La Silla Vacía",
@@ -655,8 +655,9 @@
     {
       "nombre": "El Diario — Pereira",
       "url": "https://www.eldiario.com.co/feed/",
-      "estado": "correcto",
-      "titulares": 35
+      "estado": "error",
+      "titulares": 0,
+      "detalle": "El feed no contiene entradas."
     },
     {
       "nombre": "Chocó 7 días",
