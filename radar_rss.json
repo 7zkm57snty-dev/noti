@@ -1,5 +1,5 @@
 {
-  "ultima_actualizacion": "2026-11-07T08:08:24.837723+00:00",
+  "ultima_actualizacion": "2026-11-07T08:57:54.677417+00:00",
   "titulares_rss": [
     {
       "id": "029434dd47711907",
@@ -7,7 +7,16 @@
       "categoria": "Colombia",
       "fuente": "BBC Mundo",
       "url": "https://www.bbc.co.uk/mundo/live/c54g11vvvemkt?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-07T08:08:24.837723+00:00",
+      "fecha": "2026-11-07T08:57:54.677417+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "a1f2db457438e80b",
+      "titulo": "‘Por Amor a Dosquebradas’: arranca una nueva apuesta",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/actualidad/por-amor-a-dosquebradas-arranca-una-nueva-apuesta/",
+      "fecha": "2026-11-07T08:19:08+00:00",
       "imagen": ""
     },
     {
@@ -530,15 +539,6 @@
       "fuente": "La FM Deportes",
       "url": "https://www.lafm.com.co/deportes/piloto-denuncia-falta-de-atencion-tras-accidente-en-karts-de-barranquilla-416427",
       "fecha": "2026-11-07T04:42:34+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "659b68a0f1f395d1",
-      "titulo": "Quién es Santiago Peña, el economista a quien el poderoso Horacio Cartes encumbró a la presidencia de Paraguay (y al que ahora dejó caer)",
-      "categoria": "Internacional",
-      "fuente": "BBC Mundo",
-      "url": "https://www.bbc.com/mundo/articles/cwe9le9yyzrzo?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-07T04:11:23+00:00",
       "imagen": ""
     }
   ],
