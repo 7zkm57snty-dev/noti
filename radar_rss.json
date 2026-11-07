@@ -1,13 +1,103 @@
 {
-  "ultima_actualizacion": "2026-11-07T02:56:19.636780+00:00",
+  "ultima_actualizacion": "2026-11-07T03:56:42.949888+00:00",
   "titulares_rss": [
     {
       "id": "029434dd47711907",
-      "titulo": "Crisis en Paraguay: detienen a Santiago Peña en su domicilio tras su destitución por el Congreso en juicio político",
+      "titulo": "Crisis en Paraguay: Santiago Peña, en arresto domiciliario tras ser destituido por el Congreso en juicio político",
       "categoria": "Colombia",
       "fuente": "BBC Mundo",
       "url": "https://www.bbc.co.uk/mundo/live/c54g11vvvemkt?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-07T02:56:19.636780+00:00",
+      "fecha": "2026-11-07T03:56:42.949888+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "a4d9838f45c84f0f",
+      "titulo": "Cali en el circuito de grandes espectáculos de música electrónica: recibirá a la DJ italiana Deborah De Luca",
+      "categoria": "Cali",
+      "fuente": "El Tiempo Cali",
+      "url": "https://www.eltiempo.com/colombia/cali/cali-en-el-circuito-de-grandes-espectaculos-de-musica-electronica-recibira-a-la-dj-italiana-deborah-de-luca-3599210",
+      "fecha": "2026-11-07T03:48:30+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "44bad567179e84c1",
+      "titulo": "De qué se acusa a Santiago Peña, el presidente de Paraguay que fue destituido por el Congreso en juicio político tras la crisis de Ueno Bank",
+      "categoria": "Colombia",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/cxly4497lvg7o?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-07T03:36:27+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "d293ce0722cba2da",
+      "titulo": "¡Terror en el norte del Valle! Mataron a tres mujeres dentro de una vivienda en Toro",
+      "categoria": "Cali",
+      "fuente": "Q'hubo Cali",
+      "url": "https://www.qhubocali.com/judiciales/terror-en-el-norte-del-valle-mataron-a-tres-mujeres-dentro-de-una-vivienda-en-toro/",
+      "fecha": "2026-11-07T03:35:49+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "627c18c28f2c17b4",
+      "titulo": "EE.UU. exige a China que respete el acuerdo comercial bilateral",
+      "categoria": "Internacional",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/ee-uu-exige-a-china-que-respete-el-acuerdo-comercial-bilateral/a-79882938?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-07T03:32:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "d4796b6af151ded4",
+      "titulo": "Revelan las primeras imágenes de la profesora Arleth Carolina tras ser hallada luego de más de dos años desaparecida: así fue el emotivo reencuentro",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/barranquilla/revelan-las-primeras-imagenes-de-la-profesora-arleth-carolina-tras-ser-hallada-luego-de-mas-de-dos-anos-desaparecida-asi-fue-el-emotivo-reencuentro-3599207",
+      "fecha": "2026-11-07T03:28:23+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "1e93a96e7c0f76f7",
+      "titulo": "Engañaban a turistas en Cali, los secuestraban y les robaban millones",
+      "categoria": "Cali",
+      "fuente": "Q'hubo Cali",
+      "url": "https://www.qhubocali.com/judiciales/enganaban-a-turistas-en-cali-los-secuestraban-y-les-robaban-millones/",
+      "fecha": "2026-11-07T03:15:43+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "b3edb48367bdb8b4",
+      "titulo": "Mujer habría vendido a cuatro de sus hijos recién nacidos",
+      "categoria": "Cali",
+      "fuente": "Q'hubo Cali",
+      "url": "https://www.qhubocali.com/mundo/mujer-habria-vendido-a-cuatro-de-sus-hijos-recien-nacidos/",
+      "fecha": "2026-11-07T02:59:58+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "49265eb17b0b5ce8",
+      "titulo": "Falsos guías turísticos en Cali: así engañaban a extranjeros para secuestrarlos y robarles más de $100 millones",
+      "categoria": "Cali",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/cali/falsos-guias-turisticos-en-cali-captura-secuestro-extranjeros-2026/",
+      "fecha": "2026-11-07T02:55:05+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "a253a1ebe3c946e0",
+      "titulo": "Voyager 1 alcanzará un día luz de distancia de la Tierra el próximo 18 de noviembre",
+      "categoria": "Colombia",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/secciones/tendencias/sonda-voyager-1-un-dia-luz-distancia-tierra-nasa-2026/",
+      "fecha": "2026-11-07T02:50:20+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "6fc32a7d6cfc4eeb",
+      "titulo": "Asesinan tres mujeres en una vivienda en Toro",
+      "categoria": "Colombia",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/regionales/valle-del-cauca/masacre-en-toro-recompensa-policia-valle-tres-mujeres-2026/",
+      "fecha": "2026-11-07T02:44:12+00:00",
       "imagen": ""
     },
     {
@@ -20,12 +110,48 @@
       "imagen": ""
     },
     {
+      "id": "381df1309ce1a81d",
+      "titulo": "Tortugas marinas, prioridad en el Pacífico chocoano",
+      "categoria": "Colombia",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/medio-ambiente/proteccion-de-las-tortugas-marinas-choco-codechoco-minambiente-2026/",
+      "fecha": "2026-11-07T02:39:50+00:00",
+      "imagen": ""
+    },
+    {
       "id": "16b35967e6e69cb4",
       "titulo": "¡Más cargos por el crimen de Ana Lucía! Fiscalía señala que el presunto asesino también abusó de la niña",
       "categoria": "Cali",
       "fuente": "Q'hubo Cali",
       "url": "https://www.qhubocali.com/judiciales/mas-cargos-por-el-crimen-de-ana-lucia-fiscalia-senala-que-el-presunto-asesino-tambien-abuso-de-la-nina/",
       "fecha": "2026-11-07T02:39:08+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "76558b9867e426dc",
+      "titulo": "En peligro depredadores marítimos en el Pacífico",
+      "categoria": "Colombia",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/medio-ambiente/refugios-climaticos-para-tiburones-pacifico-universidad-nacional-2026/",
+      "fecha": "2026-11-07T02:37:11+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "9f60ca05be8a9849",
+      "titulo": "Hallan microplásticos en zonas de pesca más alejadas de Buenaventura",
+      "categoria": "Valle del Cauca",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/medio-ambiente/microplasticos-en-el-fondo-marino-aumentan-temporada-lluvias-buenaventura-2026/",
+      "fecha": "2026-11-07T02:29:25+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "6117a36cb0847bc5",
+      "titulo": "¿Por qué algunas personas nos excitan más con la voz que con su apariencia?",
+      "categoria": "Colombia",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/secciones/tendencias/atraccion-por-la-voz-psicologia-seduccion-audios-2026/",
+      "fecha": "2026-11-07T02:25:24+00:00",
       "imagen": ""
     },
     {
@@ -39,11 +165,29 @@
     },
     {
       "id": "ed31c61fe671f73c",
-      "titulo": "Cotelco respaldó el POT en Medellín para regular oferta de vivienda turística",
+      "titulo": "Cotelco respaldó el POT en Medellín para regular oferta de vivienda turística en la urbe",
       "categoria": "Colombia",
       "fuente": "La República",
       "url": "https://www.larepublica.co/empresas/cotelco-respaldo-el-pot-en-medellin-para-regular-oferta-de-vivienda-turistica-4519734",
       "fecha": "2026-11-07T02:18:29+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "c7f925e8a367a613",
+      "titulo": "Alumbrado público y Salvajina: las dos grandes apuestas de Emcali para transformar a Cali",
+      "categoria": "Cali",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/cali/emcali-alumbrado-publico-compra-hidroelectrica-salvajina-2026/",
+      "fecha": "2026-11-07T02:16:21+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "b73f48f253c8f089",
+      "titulo": "¿Está trabajando para pagar cosas que no disfruta?",
+      "categoria": "Colombia",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/secciones/tendencias/inflacion-del-estilo-de-vida-finanzas-personales-gasto-ahorro-2026/",
+      "fecha": "2026-11-07T02:12:04+00:00",
       "imagen": ""
     },
     {
@@ -56,15 +200,6 @@
       "imagen": ""
     },
     {
-      "id": "bd2630a114a1a1dd",
-      "titulo": "¿Falsos policías al acecho? Las dudas e interrogantes que deja una accidentada persecución en el sur de Cali",
-      "categoria": "Cali",
-      "fuente": "El Tiempo Cali",
-      "url": "https://www.eltiempo.com/colombia/cali/falsos-policias-al-acecho-las-dudas-e-interrogantes-que-deja-una-accidentada-persecucion-en-el-sur-de-cali-3598985",
-      "fecha": "2026-11-07T02:10:21+00:00",
-      "imagen": ""
-    },
-    {
       "id": "5fe3115ead05e14f",
       "titulo": "¿Qué hay detrás de la polémica desconvocatoria del hijo de Ómar Pérez en la Selección Colombia?",
       "categoria": "Deportes",
@@ -74,8 +209,17 @@
       "imagen": ""
     },
     {
+      "id": "b03d8e15b8d97079",
+      "titulo": "Preocupación por violencia sexual contra menores en España",
+      "categoria": "Colombia",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/secciones/salud/violencia-sexual-menores-espana-datos/",
+      "fecha": "2026-11-07T02:02:00+00:00",
+      "imagen": ""
+    },
+    {
       "id": "55c957376ca24f23",
-      "titulo": "Bbva Colombia anunció medidas para garantizar el trato equitativo a sus accionistas",
+      "titulo": "Bbva anunció nuevas medidas para garantizar el trato equitativo a sus accionistas",
       "categoria": "Colombia",
       "fuente": "La República",
       "url": "https://www.larepublica.co/finanzas/bbva-colombia-anuncio-medidas-para-garantizar-el-trato-equitativo-a-sus-accionistas-4519712",
@@ -182,15 +326,6 @@
       "imagen": ""
     },
     {
-      "id": "18123dac49c8bebb",
-      "titulo": "Incolballet participó en Valle Inspira 2026 para hablar del futuro cultural y creativo de la región",
-      "categoria": "Colombia",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/regionales/valle-del-cauca/valle-inspira-2026-incolballet-desarrollo-regional-talento-valle/",
-      "fecha": "2026-11-07T00:56:58+00:00",
-      "imagen": ""
-    },
-    {
       "id": "29f9ec85b7777de5",
       "titulo": "El padre de Meghan Markle es arrestado en Florida por posesión de pornografía infantil",
       "categoria": "Colombia",
@@ -206,15 +341,6 @@
       "fuente": "DW Español",
       "url": "https://www.dw.com/es/casa-blanca-mantiene-proyecto-del-arco-del-triunfo-en-washington-pese-a-revés-judicial/a-79882868?maca=spa-rss-sp-all-1122-rdf",
       "fecha": "2026-11-07T00:55:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "8a8ba6d2ae2a37e6",
-      "titulo": "¡Cuidado con lo que descarga! Un archivo por WhatsApp o correo puede abrirles la puerta a los delincuentes",
-      "categoria": "Colombia",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/secciones/tecnologia/estafa-con-archivos-maliciosos-policia-nacional-ciberseguridad-2026/",
-      "fecha": "2026-11-07T00:48:32+00:00",
       "imagen": ""
     },
     {
@@ -278,15 +404,6 @@
       "fuente": "La República",
       "url": "https://www.larepublica.co/globoeconomia/el-bce-pide-a-los-bancos-que-revisen-sus-modelos-de-gobernanza-para-controlar-la-ia-4519584",
       "fecha": "2026-11-07T00:14:30+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "049602e4d97cf638",
-      "titulo": "¿Tu perro está loco? Conoce las enfermedades mentales que puede sufrir y cómo reconocerlas",
-      "categoria": "Colombia",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/secciones/mascotas/enfermedades-mentales-en-los-perros-trastornos-comportamiento-salud-animal-2026/",
-      "fecha": "2026-11-07T00:14:07+00:00",
       "imagen": ""
     },
     {
@@ -354,20 +471,11 @@
     },
     {
       "id": "5bcd8e534ceed2d9",
-      "titulo": "El expresidente de Paraguay Santiago Peña queda bajo arresto domiciliario tras ser destituido por el Congreso por el escándalo de Ueno Bank",
+      "titulo": "El escándalo de Ueno Bank en Paraguay se salda con la detención de Santiago Peña y con Pedro Alliana como nuevo presidente del país",
       "categoria": "Colombia",
       "fuente": "BBC Mundo",
       "url": "https://www.bbc.com/mundo/articles/cwkg55edm8r7o?at_medium=RSS&at_campaign=rss",
       "fecha": "2026-11-06T23:56:32+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "4376fe0ee305ad47",
-      "titulo": "Cierres viales en Cali este domingo 8 de noviembre por carrera 5K Ruta Paraíso: conozca las rutas alternas",
-      "categoria": "Cali",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/cali/cierres-viales-en-cali-domingo-8-noviembre-5k-ruta-paraiso-2026/",
-      "fecha": "2026-11-06T23:56:07+00:00",
       "imagen": ""
     },
     {
@@ -380,30 +488,12 @@
       "imagen": ""
     },
     {
-      "id": "638866110b079afa",
-      "titulo": "Nicky Jam en Cali",
-      "categoria": "Cali",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/secciones/espectaculo/nicky-jam-en-cali-concierto-donara-20-a-damnificados-por-sismo/",
-      "fecha": "2026-11-06T23:53:57+00:00",
-      "imagen": ""
-    },
-    {
       "id": "c7cb9036231bc6eb",
       "titulo": "Procuraduría requirió a la Alcaldía de Cali por atención en el sismo y esta fue su respuesta: '¿Me censaron y no estoy en el registro?', dijo afectado",
       "categoria": "Cali",
       "fuente": "El Tiempo",
       "url": "https://www.eltiempo.com/colombia/cali/procuraduria-requirio-a-la-alcaldia-de-cali-por-atencion-a-damnificados-del-sismo-y-esta-fue-su-respuesta-me-censaron-y-no-estoy-en-el-registro-3599145",
       "fecha": "2026-11-06T23:52:29+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "e822150f22ebe25b",
-      "titulo": "Reapertura de vías en Cali: conozca qué calles habilitarán en el sur y cuáles podrían cerrar en el centro",
-      "categoria": "Cali",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/cali/reapertura-de-vias-en-cali-cambios-centro-plaza-de-toros-2026/",
-      "fecha": "2026-11-06T23:50:46+00:00",
       "imagen": ""
     },
     {
@@ -434,15 +524,6 @@
       "imagen": ""
     },
     {
-      "id": "d112b6bad9759109",
-      "titulo": "Deborah De Luca regresa a Cali con una noche dedicada al techno",
-      "categoria": "Cali",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/secciones/espectaculo/deborah-de-luca-en-cali-fecha-y-detalles-de-su-concierto/",
-      "fecha": "2026-11-06T23:46:30+00:00",
-      "imagen": ""
-    },
-    {
       "id": "7e7e1ef396b70315",
       "titulo": "Así fueron los dos años de búsqueda de Arleth Carolina: su madre nunca perdió la esperanza de encontrarla",
       "categoria": "Colombia",
@@ -458,87 +539,6 @@
       "fuente": "BBC Mundo",
       "url": "https://www.bbc.com/mundo/articles/c90k001drxxko?at_medium=RSS&at_campaign=rss",
       "fecha": "2026-11-06T23:39:40+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "3c2ea991f1ca7829",
-      "titulo": "Premios Cristo Rey abrirán sus puertas al público para ayudar a damnificados del terremoto",
-      "categoria": "Colombia",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/secciones/espectaculo/premios-cristo-rey-gala-en-cali-sera-a-beneficio-por-el-sismo/",
-      "fecha": "2026-11-06T23:39:29+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "261f527ec9c5fc52",
-      "titulo": "Esta es la identidad de los otros dos capturados por el macabro crimen de María Camila Potosí, la mujer que fue asesinada junto a su bebé en Cali",
-      "categoria": "Cali",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/cali/esta-es-la-identidad-de-los-otros-dos-capturados-por-el-macabro-crimen-de-maria-camila-potosi-la-mujer-que-fue-asesinada-junto-a-su-bebe-en-cali-3599140",
-      "fecha": "2026-11-06T23:35:49+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "f97ce6e8c2634f43",
-      "titulo": "Clásico América vs. Deportivo Cali: más de 600 policías, 50 agentes de tránsito y cierres viales; conozca las medidas",
-      "categoria": "Cali",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/cali/clasico-america-vs-deportivo-cali-operativo-seguridad-movilidad-2026/",
-      "fecha": "2026-11-06T23:35:33+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "95ea038e47fe8599",
-      "titulo": "Desde la Amazonía, 100 microempresarios recibieron certificación de Bancamía y la U. Jorge Tadeo Lozano en formación técnica y financiera para el desarrollo de sus negocios",
-      "categoria": "Economía",
-      "fuente": "La FM Economía",
-      "url": "https://www.lafm.com.co/economia/bancamia-universidad-jorge-tadeo-certifican-a-100-emprendedores-de-la-amazonia-416410",
-      "fecha": "2026-11-06T23:31:03+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "2e5c1e4bc917e0b8",
-      "titulo": "La Agencia Nacional de Tierras habilita sedes temporales de atención en 19 ciudades",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/gobierno/la-agencia-nacional-de-tierras-habilita-sedes-temporales-de-atencion-en-19-ciudades-505898",
-      "fecha": "2026-11-06T23:29:42+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "1cb8ed5b0d8ec585",
-      "titulo": "Asumió nueva Secretaria de Salud del Valle",
-      "categoria": "Colombia",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/regionales/valle-del-cauca/secretaria-de-salud-del-valle-paula-bermudez-asume-el-cargo/",
-      "fecha": "2026-11-06T23:29:31+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "5fd55b8ad23ee1cc",
-      "titulo": "Masglo lanza una colección de uñas con texturas inspiradas en el bienestar emocional",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/ocio/masglo-lanza-una-coleccion-de-unas-con-texturas-inspiradas-en-el-bienestar-emocional-4519516",
-      "fecha": "2026-11-06T23:24:51+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "721f0acaa3f7a88c",
-      "titulo": "Impuesto a productos de tiendas afectaría mayormente a hogares de menores ingresos",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/empresas/impuesto-a-las-tiendas-afectaria-con-mas-fuerza-a-los-hogares-de-menores-ingresos-4519496",
-      "fecha": "2026-11-06T23:24:07+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "10fbc4c858e146b0",
-      "titulo": "Darle dientes al Carf y auditar las cuentas: las propuestas para evitar otro descalabro fiscal en Colombia",
-      "categoria": "Colombia",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/finanzas/darle-dientes-al-carf-y-auditar-las-cuentas-las-propuestas-para-evitar-otro-descalabro-fiscal-en-colombia-505889",
-      "fecha": "2026-11-06T23:24:01+00:00",
       "imagen": ""
     }
   ],
@@ -560,7 +560,7 @@
       "url": "https://www.elespectador.com/rss/",
       "estado": "error",
       "titulares": 0,
-      "detalle": "El feed no contiene entradas."
+      "detalle": "403 Client Error: Forbidden for url: https://www.elespectador.com/rss/"
     },
     {
       "nombre": "La Silla Vacía",
@@ -644,7 +644,7 @@
       "nombre": "Q'hubo Cali",
       "url": "https://www.qhubocali.com/feed/",
       "estado": "correcto",
-      "titulares": 3
+      "titulares": 6
     },
     {
       "nombre": "El Colombiano — Colombia",
