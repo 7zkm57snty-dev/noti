@@ -49,7 +49,7 @@
       "resumen": "Tras el terremoto de agosto de 2026, la Procuraduría General de la Nación solicitó a la Alcaldía Distrital de Cali que tome medidas inmediatas para incluir a unas 4.000 familias en el Registro Único de Damnificados y garantizar su acceso a ayudas. La respuesta oficial de la alcaldía indica que ya se están realizando gestiones y que se presentará un nuevo informe. La situación se ejemplifica con el caso de Edgar Hoyos, quien afirma haber sido censado sin reconocimiento como damnificado.",
       "categoria": "Cali",
       "contenido": "El terremoto que sacudió a Cali el 10 de agosto de 2026 dejó a miles de hogares en riesgo. Según la Procuraduría General de la Nación, la Alcaldía Distrital no ha logrado registrar a todas las familias afectadas, lo que impide que reciban subsidios económicos, vivienda temporal y otros apoyos estatales.\n\nEn un requerimiento preventivo, la Procuraduría exigió que la alcaldía adopte medidas inmediatas para garantizar la atención humanitaria integral de los hogares damnificados. La petición se basa en hallazgos de seguimiento del Ministerio Público que revelan que muchas familias siguen pendientes de inclusión en el Registro Único de Damnificados (RUD) o presentan inconsistencias en la clasificación de sus inmuebles.\n\nEl número exacto de afectados ronda las 4.000 familias, según la Procuraduría. Este dato se refiere a personas que, según instrumentos territoriales, están a la espera de ser incorporadas al registro nacional. Al mismo tiempo, se señala que un número similar de solicitudes de actualización sobre la habitabilidad de viviendas no se ha podido tramitar debido a limitaciones operativas de la plataforma de registro.\n\nEl caso de Edgar Jesús Hoyos Castro ilustra la problemática. Desde hace más de cuarenta años vive en el barrio Olímpico y, tras la inspección de la alcaldía, recibió un sticker amarillo que indica una evaluación preliminar. Hoyos sostiene que los daños en su vivienda son graves, pero que no aparece registrado como damnificado. A pesar de haber presentado dos derechos de petición a la alcaldía, la gobernación y la Unidad Nacional para la Gestión del Riesgo de Desastres (UNGRD), no ha recibido respuesta y planea interponer una tutela.\n\nLa Alcaldía, a través del secretario de Gestión del Riesgo de Emergencias y Desastres, Ricardo Peñuela, respondió que ha acompañado a la Procuraduría desde el inicio de la emergencia y que ya se están compartiendo informes. Peñuela aseguró que la administración está trabajando dentro del marco legal y que presentará un nuevo informe a la Procuraduría, la personería y otros estamentos de control.\n\nLa Procuraduría reiteró que las dificultades administrativas o tecnológicas no deben prolongar la vulnerabilidad de los damnificados y que continuará ejerciendo vigilancia preventiva para asegurar la protección de sus derechos fundamentales.\n\nAún falta confirmar la fecha exacta en que se completará la inclusión de las 4.000 familias en el RUD y qué mecanismos se implementarán para evitar retrasos futuros. La Alcaldía ha prometido un informe actualizado, pero no se ha divulgado cuándo se entregará. Mientras tanto, los afectados siguen en espera de la ayuda que les corresponde.\n\nEl caso de Cali refleja la complejidad de la gestión de emergencias en el Valle del Cauca y plantea preguntas sobre la eficiencia de los sistemas de registro y la coordinación entre entidades públicas. La próxima fase será observar si la alcaldía cumple con las exigencias de la Procuraduría y si las familias afectadas reciben la asistencia necesaria en los plazos establecidos.",
-      "estado_informacion": "informacion_preliminar",
+      "estado_informacion": "confirmada",
       "investigacion": {
         "enfoque_original": "Esta cobertura aporta datos concretos sobre la magnitud de la demora en el registro de damnificados en Cali, destaca la cifra de 4.000 familias afectadas y presenta el testimonio de un ciudadano que ilustra las dificultades de acceso a la ayuda estatal, algo que no se menciona en la nota original.",
         "hechos_clave": [
@@ -61,8 +61,14 @@
         "dominios_independientes": 1,
         "fecha": "2026-11-07T23:39:56.184054+00:00"
       },
-      "imagen": "",
-      "imagen_credito": {},
+      "imagen": "https://raw.githubusercontent.com/7zkm57snty-dev/noti/main/assets/editorial-news/85b31500-243f-493e-a669-427531c914c6.webp",
+      "imagen_credito": {
+        "autor": "Razon social",
+        "fuente": "Razon social",
+        "pagina": "https://razonpublica.com/wp-content/uploads/2024/10/Procuraduria-Jorge-Ivan.jpg",
+        "licencia": "CC",
+        "licencia_url": "https://razonpublica.com/wp-content/uploads/2024/10/Procuraduria-Jorge-Ivan.jpg"
+      },
       "imagen_busqueda_intentada": true,
       "imagen_instagram": "https://cevnoticias.com/social/aff0a5a87efe458e.jpg",
       "imagen_instagram_tipo": "portada_grafica_cev",
