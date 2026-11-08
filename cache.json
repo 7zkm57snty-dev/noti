@@ -223,8 +223,14 @@
         "dominios_independientes": 1,
         "fecha": "2026-11-07T20:41:22.723672+00:00"
       },
-      "imagen": "",
-      "imagen_credito": {},
+      "imagen": "https://raw.githubusercontent.com/7zkm57snty-dev/noti/main/assets/editorial-news/fe630f00-3524-4739-aafd-26475f3d9396.jpg",
+      "imagen_credito": {
+        "autor": "CEV",
+        "fuente": "CEV",
+        "pagina": "https://http2.mlstatic.com/D_NQ_NP_761424-MCO115649915484_092026-O.webp",
+        "licencia": "CC",
+        "licencia_url": "https://http2.mlstatic.com/D_NQ_NP_761424-MCO115649915484_092026-O.webp"
+      },
       "imagen_busqueda_intentada": true,
       "imagen_instagram": "https://cevnoticias.com/social/8179fd5c3bd4c6be.jpg",
       "imagen_instagram_tipo": "portada_grafica_cev",
