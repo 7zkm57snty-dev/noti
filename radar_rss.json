@@ -1,5 +1,5 @@
 {
-  "ultima_actualizacion": "2026-11-08T21:44:29.463812+00:00",
+  "ultima_actualizacion": "2026-11-08T22:20:10.372444+00:00",
   "titulares_rss": [
     {
       "id": "029434dd47711907",
@@ -7,7 +7,7 @@
       "categoria": "Colombia",
       "fuente": "BBC Mundo",
       "url": "https://www.bbc.co.uk/mundo/live/c54g11vvvemkt?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-08T21:44:29.463812+00:00",
+      "fecha": "2026-11-08T22:20:10.372444+00:00",
       "imagen": ""
     },
     {
@@ -16,7 +16,43 @@
       "categoria": "Colombia",
       "fuente": "El País Colombia",
       "url": "https://elpais.com/america/2026-11-08/la-visita-de-leon-xiv-en-uruguay-en-vivo.html",
-      "fecha": "2026-11-08T21:39:27+00:00",
+      "fecha": "2026-11-08T22:17:16+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "509ee48dbe59edf1",
+      "titulo": "Barcelona mantiene la punta en LaLiga tras remontarle al Atlético de Madrid",
+      "categoria": "Deportes",
+      "fuente": "La FM Deportes",
+      "url": "https://www.lafm.com.co/deportes/atletico-de-madrid-vs-barcelona-laliga-goles-y-resultado-416538",
+      "fecha": "2026-11-08T22:05:43+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "38788b270d6c024c",
+      "titulo": "León XIV llega a Argentina y lo recibe Milei, cuyo ajuste cuestiona la Iglesia",
+      "categoria": "Internacional",
+      "fuente": "La FM Internacional",
+      "url": "https://www.lafm.com.co/internacional/papa-leon-en-argentina-javier-milei-lo-recibe-416537",
+      "fecha": "2026-11-08T21:57:59+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "5dbe3cb3974008f8",
+      "titulo": "Diez viviendas quedaron reducidas a cenizas por incendio en Montaño, Carmen del Darién",
+      "categoria": "Colombia",
+      "fuente": "Chocó 7 días",
+      "url": "https://choco7dias.com/diez-hogares-quedaron-reducidos-a-cenizas-por-incendio-en-montano-carmen-del-darien/",
+      "fecha": "2026-11-08T21:55:42+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "3bfeb41058f2bfd4",
+      "titulo": "La coalición de Trump quedó hundida: ¿qué harán ahora los republicanos?",
+      "categoria": "Internacional",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/c94g1nmvjygxo?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-08T21:31:48+00:00",
       "imagen": ""
     },
     {
@@ -98,6 +134,15 @@
       "fuente": "Xataka",
       "url": "https://www.xataka.com/ecologia-y-naturaleza/valencia-sabia-2003-lugar-que-se-inundaria-que-humanidad-sigue-viviendo-zonas-catastroficas",
       "fecha": "2026-11-08T20:31:06+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "782b0098f8c6bcbd",
+      "titulo": "Tragedia en la agrupación de Kbeto Zuleta: murió otro músico tras el accidente del bus que cayó al río Ariguaní",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/actualidad/tragedia-en-la-agrupacion-de-kbeto-zuleta-murio-otro-musico-tras-el-accidente-del-bus-que-cayo-al-rio-ariguani/",
+      "fecha": "2026-11-08T20:30:36+00:00",
       "imagen": ""
     },
     {
@@ -191,6 +236,15 @@
       "imagen": ""
     },
     {
+      "id": "6eac41974fdc1c22",
+      "titulo": "¿Está cambiando para siempre la televisión colombiana? Dago García y José Lombana explican por qué los realities están desplazando a las novelas",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/noticias/esta-cambiando-para-siempre-la-television-colombiana-dago-garcia-y-jose-lombana-explican-por-que-los-realities-estan-desplazando-a-las-novelas/",
+      "fecha": "2026-11-08T20:00:42+00:00",
+      "imagen": ""
+    },
+    {
       "id": "f27c21f3a39be51b",
       "titulo": "Rebeldes hutíes reivindican ataque a rascacielos de Aramco en Arabia Saudita",
       "categoria": "Internacional",
@@ -236,6 +290,15 @@
       "imagen": ""
     },
     {
+      "id": "5c3eca65968f7ecc",
+      "titulo": "FLIP exige protección inmediata para periodistas tras amenazas de atentados contra Caracol, RCN y otros medios",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/noticias/flip-exige-proteccion-inmediata-para-periodistas-tras-amenazas-de-atentados-contra-caracol-rcn-y-otros-medios/",
+      "fecha": "2026-11-08T19:30:36+00:00",
+      "imagen": ""
+    },
+    {
       "id": "0a6b8a774ec1228c",
       "titulo": "Hoy en Ikea (por 24,99 euros) la solución 5 en 1 para tener enchufes en las esquinas de las paredes y los rincones desaprovechados de casa",
       "categoria": "Colombia",
@@ -260,6 +323,15 @@
       "fuente": "Xataka",
       "url": "https://www.xataka.com/medicina-y-salud/sabiamos-que-exceso-azucar-era-malo-para-engordar-ahora-tambien-puede-dar-demencia-muchos-anos-te-des-cuenta",
       "fecha": "2026-11-08T19:01:06+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "8e62be44e14c4cc0",
+      "titulo": "La Selección Colombia comenzó concentración en Cali",
+      "categoria": "Cali",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/deportes/la-seleccion-colombia-comenzo-concentracion-en-cali/",
+      "fecha": "2026-11-08T19:00:15+00:00",
       "imagen": ""
     },
     {
@@ -468,78 +540,6 @@
       "url": "https://www.larepublica.co/globoeconomia/anthropic-adquiere-capacidad-de-generacion-de-energia-para-centros-de-datos-de-ia-en-una-operacion-de-us-3-400-millones-4520085",
       "fecha": "2026-11-08T16:31:22+00:00",
       "imagen": ""
-    },
-    {
-      "id": "4cb46b4dfff9a9c5",
-      "titulo": "Resulta que el \"rey\" que llevó a Roma hasta Britania era una mujer: la pista estaba en sus monedas",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/magnet/resulta-que-rey-que-llevo-a-roma-britania-era-mujer-pista-estaba-sus-monedas",
-      "fecha": "2026-11-08T16:31:07+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "df41c2946f72229d",
-      "titulo": "Eisenkot invita al partido de Benjamin Netanyahu a formar una coalición de gobierno",
-      "categoria": "Colombia",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/eisenkot-invita-al-partido-de-benjamin-netanyahu-a-formar-una-coalición-de-gobierno/a-79892606?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-08T16:17:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "149046585d8f2431",
-      "titulo": "Argentina espera al papa León XIV con una deuda pendiente: casi 40 años sin una visita papal",
-      "categoria": "Internacional",
-      "fuente": "La FM Internacional",
-      "url": "https://www.lafm.com.co/internacional/papa-leon-xiv-visitara-argentina-40-anos-despues-sin-visita-papal-416513",
-      "fecha": "2026-11-08T16:13:32+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "30c5391d57905857",
-      "titulo": "El cangrejo azul no tenía depredadores naturales en el mediterráneo, hasta que el pulpo empezó a tener hambre",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/ecologia-y-naturaleza/cangrejo-azul-no-tenia-depredadores-naturales-mediterraneo-que-pulpo-empezo-a-tener-hambre",
-      "fecha": "2026-11-08T16:01:06+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "ce49871c84fecd36",
-      "titulo": "La seguridad como espectáculo mediático debilita al Estado y la justicia",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/red-de-expertos/red-de-la-paz/la-seguridad-como-espectaculo-mediatico-debilita-al-estado-y-la-justicia/",
-      "fecha": "2026-11-08T16:00:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "06f76dc05f922045",
-      "titulo": "Los presuntos responsables del asesinato de un patrullero de 27 años en medio de un tiroteo en el centro de Medellín fueron capturados",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/medellin/los-presuntos-responsables-del-asesinato-de-un-patrullero-de-27-anos-en-medio-de-un-tiroteo-en-el-centro-de-medellin-fueron-capturados-3599372",
-      "fecha": "2026-11-08T15:47:44+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "7e3530884a714f51",
-      "titulo": "Salario mínimo de 2027: comerciantes piden 'recuperar' la fórmula técnica basada en inflación y productividad",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/crecimiento/salario-minimo-de-2027-comerciantes-piden-recuperar-la-formula-tecnica-basada-en-inflacion-y-productividad-505936",
-      "fecha": "2026-11-08T15:43:09+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "76d350e5ee7f8e98",
-      "titulo": "‘Se fueron las dos ruedas y la barra pequeña... pero pa'lante’: drama de un hombre al que le amputaron tres extremidades tras llevar ayudas al Chocó",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/cali/se-fueron-las-dos-ruedas-y-la-barra-pequena-pero-pa-lante-drama-de-un-hombre-al-que-le-amputaron-tres-extremidades-tras-llevar-ayudas-al-choco-3599199",
-      "fecha": "2026-11-08T15:37:45+00:00",
-      "imagen": ""
     }
   ],
   "estado_fuentes": [
@@ -620,13 +620,13 @@
       "nombre": "La FM Deportes",
       "url": "https://www.lafm.com.co/rss/deportes.xml",
       "estado": "correcto",
-      "titulares": 18
+      "titulares": 19
     },
     {
       "nombre": "La FM Economía",
       "url": "https://www.lafm.com.co/rss/economia.xml",
       "estado": "correcto",
-      "titulares": 20
+      "titulares": 19
     },
     {
       "nombre": "La FM Internacional",
@@ -650,14 +650,13 @@
       "nombre": "El Colombiano — Colombia",
       "url": "https://www.elcolombiano.com/rss/Colombia.xml",
       "estado": "correcto",
-      "titulares": 29
+      "titulares": 28
     },
     {
       "nombre": "El Diario — Pereira",
       "url": "https://www.eldiario.com.co/feed/",
-      "estado": "error",
-      "titulares": 0,
-      "detalle": "HTTPSConnectionPool(host='www.eldiario.com.co', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.eldiario.com.co', port=443) at 0x7f55d7e359d0>, 'Connection to www.eldiario.com.co ti"
+      "estado": "correcto",
+      "titulares": 35
     },
     {
       "nombre": "Chocó 7 días",
