@@ -1,5 +1,5 @@
 {
-  "ultima_actualizacion": "2026-11-08T15:44:56.648939+00:00",
+  "ultima_actualizacion": "2026-11-08T16:20:54.929107+00:00",
   "titulares_rss": [
     {
       "id": "029434dd47711907",
@@ -7,16 +7,79 @@
       "categoria": "Colombia",
       "fuente": "BBC Mundo",
       "url": "https://www.bbc.co.uk/mundo/live/c54g11vvvemkt?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-08T15:44:56.648939+00:00",
+      "fecha": "2026-11-08T16:20:54.929107+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "149046585d8f2431",
+      "titulo": "Argentina espera al papa León XIV con una deuda pendiente: casi 40 años sin una visita papal",
+      "categoria": "Internacional",
+      "fuente": "La FM Internacional",
+      "url": "https://www.lafm.com.co/internacional/papa-leon-xiv-visitara-argentina-40-anos-despues-sin-visita-papal-416513",
+      "fecha": "2026-11-08T16:13:32+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "30c5391d57905857",
+      "titulo": "El cangrejo azul no tenía depredadores naturales en el mediterráneo, hasta que el pulpo empezó a tener hambre",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/ecologia-y-naturaleza/cangrejo-azul-no-tenia-depredadores-naturales-mediterraneo-que-pulpo-empezo-a-tener-hambre",
+      "fecha": "2026-11-08T16:01:06+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "ce49871c84fecd36",
+      "titulo": "La seguridad como espectáculo mediático debilita al Estado y la justicia",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/red-de-expertos/red-de-la-paz/la-seguridad-como-espectaculo-mediatico-debilita-al-estado-y-la-justicia/",
+      "fecha": "2026-11-08T16:00:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "06f76dc05f922045",
+      "titulo": "Los presuntos responsables del asesinato de un patrullero de 27 años en medio de un tiroteo en el centro de Medellín fueron capturados",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/medellin/los-presuntos-responsables-del-asesinato-de-un-patrullero-de-27-anos-en-medio-de-un-tiroteo-en-el-centro-de-medellin-fueron-capturados-3599372",
+      "fecha": "2026-11-08T15:47:44+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "7e3530884a714f51",
+      "titulo": "Salario mínimo de 2027: comerciantes piden 'recuperar' la fórmula técnica basada en inflación y productividad",
+      "categoria": "Economía",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/crecimiento/salario-minimo-de-2027-comerciantes-piden-recuperar-la-formula-tecnica-basada-en-inflacion-y-productividad-505936",
+      "fecha": "2026-11-08T15:43:09+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "76d350e5ee7f8e98",
+      "titulo": "‘Se fueron las dos ruedas y la barra pequeña... pero pa'lante’: drama de un hombre al que le amputaron tres extremidades tras llevar ayudas al Chocó",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/cali/se-fueron-las-dos-ruedas-y-la-barra-pequena-pero-pa-lante-drama-de-un-hombre-al-que-le-amputaron-tres-extremidades-tras-llevar-ayudas-al-choco-3599199",
+      "fecha": "2026-11-08T15:37:45+00:00",
       "imagen": ""
     },
     {
       "id": "2498b2c47a9320b5",
-      "titulo": "Dios, poder y política: el mesianismo detrás de los líderes que prometen salvar a sus países",
+      "titulo": "¿Qué tienen en común los líderes radicales? Análisis sobre las nuevas tendencias políticas",
       "categoria": "Internacional",
       "fuente": "La FM Internacional",
       "url": "https://www.lafm.com.co/internacional/mesianismo-politico-por-que-lideres-se-presentan-elegidos-por-dios-416516",
       "fecha": "2026-11-08T15:33:27+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "665c59271c9d2f1d",
+      "titulo": "Revelan preocupante parte médico de algunos militares heridos tras atentado terrorista en Bolívar: varios heridos fueron trasladados a Santander",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/santander/revelan-preocupante-parte-medico-de-algunos-militares-heridos-tras-atentado-terrorista-en-bolivar-varios-heridos-fueron-trasladados-a-santander-3599378",
+      "fecha": "2026-11-08T15:29:39+00:00",
       "imagen": ""
     },
     {
@@ -477,69 +540,6 @@
       "url": "https://elpais.com/america-colombia/2026-11-08/los-senalamientos-contra-el-embajador-de-colombia-en-la-onu-ha-creado-un-ambiente-de-incertidumbre-en-la-mision.html",
       "fecha": "2026-11-08T09:30:00+00:00",
       "imagen": ""
-    },
-    {
-      "id": "b242086a3dfd99bc",
-      "titulo": "La ciudadanía mundial esperaba el terremoto electoral en Estados Unidos",
-      "categoria": "Deportes",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/america-colombia/2026-11-08/la-ciudadania-mundial-esperaba-el-terremoto-electoral-en-estados-unidos.html",
-      "fecha": "2026-11-08T09:30:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "1bcc8b0b66d091b1",
-      "titulo": "Podcast | ¿Se salió de control la Inteligencia Artificial?",
-      "categoria": "Tecnología",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/america-colombia/2026-11-08/podcast-se-salio-de-control-la-inteligencia-artificial.html",
-      "fecha": "2026-11-08T09:30:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "8d2135d9673dccf6",
-      "titulo": "Cinco ofertas para aprovechar los primeros adelantos del Black Friday en MediaMarkt y El Corte Inglés, hoy 8 de noviembre",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/seleccion/cinco-ofertas-para-aprovechar-primeros-adelantos-black-friday-mediamarkt-corte-ingles-hoy-8-noviembre",
-      "fecha": "2026-11-08T09:17:06+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "a3c8ebeedadc7a5e",
-      "titulo": "Ni vino de Asia ni lo trajeron los romanos: el mapa que desvela el verdadero origen del castaño en Europa",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/ecologia-y-naturaleza/vino-asia-trajeron-romanos-mapa-que-desvela-verdadero-origen-castano-europa",
-      "fecha": "2026-11-08T09:01:06+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "eefb78d02d9e8af7",
-      "titulo": "Cuando las hijas dan a luz a sus propias madres: la épica africana de Harmonía Rosales",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/america-futura/2026-11-07/cuando-las-hijas-dan-a-luz-a-sus-propias-madres-la-epica-africana-de-harmonia-rosales.html",
-      "fecha": "2026-11-08T09:00:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "130f51e22cb40019",
-      "titulo": "Zaragoza sale a la calle contra los centros de datos: \"No generan empleo, no pagan impuestos y se quedan con todos los recursos\"",
-      "categoria": "Economía",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/robotica-e-ia/zaragoza-sale-a-calle-centros-datos-no-generan-empleo-no-pagan-impuestos-se-quedan-todos-recursos",
-      "fecha": "2026-11-08T08:31:08+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "ebd4e1786e3996ee",
-      "titulo": "TCL nos ha mostrado dos televisores Mini LED por dentro para enseñarnos algo importante: el nombre no siempre significa lo mismo",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/televisores/tcl-nos-ha-mostrado-dos-televisores-mini-led-dentro-para-ensenarnos-algo-importante-nombre-no-siempre-significa",
-      "fecha": "2026-11-08T08:01:07+00:00",
-      "imagen": ""
     }
   ],
   "estado_fuentes": [
@@ -553,7 +553,7 @@
       "nombre": "El Tiempo Cali",
       "url": "https://www.eltiempo.com/rss/colombia_cali.xml",
       "estado": "correcto",
-      "titulares": 6
+      "titulares": 8
     },
     {
       "nombre": "El Espectador",
@@ -650,7 +650,7 @@
       "nombre": "El Colombiano — Colombia",
       "url": "https://www.elcolombiano.com/rss/Colombia.xml",
       "estado": "correcto",
-      "titulares": 35
+      "titulares": 34
     },
     {
       "nombre": "El Diario — Pereira",
