@@ -193,8 +193,14 @@
         "dominios_independientes": 1,
         "fecha": "2026-11-07T20:40:12.787485+00:00"
       },
-      "imagen": "",
-      "imagen_credito": {},
+      "imagen": "https://raw.githubusercontent.com/7zkm57snty-dev/noti/main/assets/editorial-news/d450389e-42b0-4498-8e1b-725ce998a1e8.jpg",
+      "imagen_credito": {
+        "autor": "El tiempo",
+        "fuente": "El tiempo",
+        "pagina": "https://imagenes2.eltiempo.com/files/image_1200_535/uploads/2023/12/19/6581ad31cbc23.png",
+        "licencia": "CC",
+        "licencia_url": "https://imagenes2.eltiempo.com/files/image_1200_535/uploads/2023/12/19/6581ad31cbc23.png"
+      },
       "imagen_busqueda_intentada": true,
       "imagen_instagram": "https://cevnoticias.com/social/ff5de2d9c71cbc4c.jpg",
       "imagen_instagram_tipo": "portada_grafica_cev",
