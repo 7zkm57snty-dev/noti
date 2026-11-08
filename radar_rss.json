@@ -1,5 +1,5 @@
 {
-  "ultima_actualizacion": "2026-11-08T01:13:51.032933+00:00",
+  "ultima_actualizacion": "2026-11-08T02:14:31.563686+00:00",
   "titulares_rss": [
     {
       "id": "029434dd47711907",
@@ -7,7 +7,43 @@
       "categoria": "Colombia",
       "fuente": "BBC Mundo",
       "url": "https://www.bbc.co.uk/mundo/live/c54g11vvvemkt?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-08T01:13:51.032933+00:00",
+      "fecha": "2026-11-08T02:14:31.563686+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "f098530ed68a3664",
+      "titulo": "Escándalo en la Fiscalía: revelan presunta maniobra para reducir cargos a 11 procesados de la Primera Línea en Bogotá",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/escandalo-en-la-fiscalia-presunta-maniobra-primera-linea-KF43317368",
+      "fecha": "2026-11-08T02:00:30+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "8574cb6010c88039",
+      "titulo": "Tres militares muertos y 8 heridos deja ataque con drones contra cantón militar en el sur de Bolívar",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/militares-ejercito-ataque-drones-sur-de-bolivar-PF43310719",
+      "fecha": "2026-11-08T01:34:04+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "b28677b4174abf6c",
+      "titulo": "La NASA recluta a astronautas que quieran vivir en la próxima base de EE.UU. en la Luna",
+      "categoria": "Internacional",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/la-nasa-recluta-a-astronautas-que-quieran-vivir-en-la-próxima-base-de-ee-uu-en-la-luna/a-79888578?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-08T01:24:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "4a378764ab9d1fde",
+      "titulo": "Un juez de Paraguay ordena prisión preventiva para el expresidente Peña por el caso Ueno Bank",
+      "categoria": "Colombia",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/c64g1nd9qvn0o?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-08T01:15:34+00:00",
       "imagen": ""
     },
     {
@@ -26,6 +62,15 @@
       "fuente": "La República",
       "url": "https://www.larepublica.co/economia/asi-fue-la-primera-reunion-entre-miembros-del-congreso-y-gobierno-sobre-la-tributaria-4519991",
       "fecha": "2026-11-08T01:01:11+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "f6aac5754b516870",
+      "titulo": "La extorsión sigue con el control del turismo en Santa Marta: con amenazas obligan a pagar hasta por alquilar una silla en la playa",
+      "categoria": "Deportes",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/la-extorsion-sigue-con-el-control-del-turismo-en-santa-marta-con-amenazas-obligan-a-pagar-hasta-por-alquilar-una-silla-en-la-playa-3599303",
+      "fecha": "2026-11-08T00:59:10+00:00",
       "imagen": ""
     },
     {
@@ -62,15 +107,6 @@
       "fuente": "La FM Deportes",
       "url": "https://www.lafm.com.co/deportes/rosario-central-burlas-hinchas-celebracion-416486",
       "fecha": "2026-11-08T00:03:55+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "8574cb6010c88039",
-      "titulo": "Cinco militares muertos y 35 heridos deja ataque con drones contra cantón militar en el sur de Bolívar",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/militares-ejercito-ataque-drones-sur-de-bolivar-PF43310719",
-      "fecha": "2026-11-07T23:35:58+00:00",
       "imagen": ""
     },
     {
@@ -116,15 +152,6 @@
       "fuente": "BBC Mundo",
       "url": "https://www.bbc.com/mundo/articles/cqgm00d1krkjo?at_medium=RSS&at_campaign=rss",
       "fecha": "2026-11-07T23:07:45+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "f6aac5754b516870",
-      "titulo": "La extorsión sigue con el control del turismo en Santa Marta: con amenazas obligan a pagar hasta por alquilar una silla en la playa",
-      "categoria": "Deportes",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/la-extorsion-sigue-con-el-control-del-turismo-en-santa-marta-con-amenazas-obligan-a-pagar-hasta-por-alquilar-una-silla-en-la-playa-3599303",
-      "fecha": "2026-11-07T23:05:00+00:00",
       "imagen": ""
     },
     {
@@ -512,33 +539,6 @@
       "fuente": "La FM Internacional",
       "url": "https://www.lafm.com.co/internacional/ataque-terrorista-en-cracovia-polonia-deja-seis-muertos-416473",
       "fecha": "2026-11-07T19:53:52+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "a094862e8100c73e",
-      "titulo": "Weil Gotshal anunció su disolución tras 95 años de historia por la salida de socios",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/la-firma-estadounidense-weil-gotshal-manges-anuncio-su-disolucion-4519863",
-      "fecha": "2026-11-07T19:53:22+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "ccd96385028459de",
-      "titulo": "Con drones atacaron un cantón militar en el sur de Bolívar: reportan tres muertos y 35 heridos; esto se sabe del atentado terrorista",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/con-drones-atacaron-un-canton-militar-en-el-sur-de-bolivar-reportan-varios-heridos-esto-se-sabe-del-atentado-terrorista-3599270",
-      "fecha": "2026-11-07T19:44:57+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "40f873fbf877ea5b",
-      "titulo": "¿Cuándo se jugará la fecha definitiva de la Liga colombiana?",
-      "categoria": "Deportes",
-      "fuente": "La FM Deportes",
-      "url": "https://www.lafm.com.co/deportes/fecha-liga-definitiva-clasificados-cuadrangulares-416472",
-      "fecha": "2026-11-07T19:44:46+00:00",
       "imagen": ""
     }
   ],
