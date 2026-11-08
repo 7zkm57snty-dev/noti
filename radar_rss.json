@@ -1,5 +1,5 @@
 {
-  "ultima_actualizacion": "2026-11-08T09:54:14.440507+00:00",
+  "ultima_actualizacion": "2026-11-08T10:51:01.501543+00:00",
   "titulares_rss": [
     {
       "id": "029434dd47711907",
@@ -7,7 +7,43 @@
       "categoria": "Colombia",
       "fuente": "BBC Mundo",
       "url": "https://www.bbc.co.uk/mundo/live/c54g11vvvemkt?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-08T09:54:14.440507+00:00",
+      "fecha": "2026-11-08T10:51:01.501543+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "ad49d3711580f8f8",
+      "titulo": "El miedo que dejó el terremoto en Pereira y las heridas emocionales que aún buscan sanar: los tres meses tras el fuerte sismo del siglo",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/el-miedo-que-dejo-el-terremoto-en-pereira-y-las-heridas-emocionales-que-aun-buscan-sanar-los-tres-meses-tras-el-fuerte-sismo-del-siglo-3599177",
+      "fecha": "2026-11-08T10:35:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "80ac382b3243f9bd",
+      "titulo": "Un país de Europa acaba de mostrar una de las piezas de artillería más insólitas: un monstruo que dispara proyectiles de 100 kg y huye a 80 km/h",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/magnet/pais-europa-acaba-mostrar-piezas-artilleria-insolitas-monstruo-que-dispara-proyectiles-100-kg-huye-a-80-km-h",
+      "fecha": "2026-11-08T10:31:06+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "a64f2c71cd111144",
+      "titulo": "Qué se sabe del ataque que dejó al menos 6 muertos y decenas de heridos en Polonia",
+      "categoria": "Internacional",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/c6d091e7jzz7o?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-08T10:30:14+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "84af469d6ce53aca",
+      "titulo": "La extraña supervivencia de Pinterest: quién demonios sigue utilizándolo y por qué sigue ganando dinero",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/empresas-y-economia/extrana-supervivencia-pinterest-quien-demonios-sigue-utilizandolo-que-sigue-ganando-dinero",
+      "fecha": "2026-11-08T10:01:07+00:00",
       "imagen": ""
     },
     {
@@ -504,42 +540,6 @@
       "url": "https://www.portafolio.co/economia/gobierno/gobierno-y-congreso-acuerdan-trabajar-en-mesas-tecnicas-sobre-ley-de-rescate-tras-conclave-en-barranquilla-505931",
       "fecha": "2026-11-08T03:34:44+00:00",
       "imagen": ""
-    },
-    {
-      "id": "508604f088a85580",
-      "titulo": "Fuerte sismo sacude centro de Japón y deja 23 heridos",
-      "categoria": "Internacional",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/fuerte-sismo-sacude-centro-de-japón-y-deja-23-heridos/a-79888594?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-08T03:33:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "51e3af9731abe1cc",
-      "titulo": "Ana donó sus órganos al morir en España por eutanasia: ahora un grupo de abogados cristianos quiere prohibir que vuelva a suceder",
-      "categoria": "Internacional",
-      "fuente": "BBC Mundo",
-      "url": "https://www.bbc.com/mundo/articles/cqe9eegxvny2o?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-08T03:28:41+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "dc61aaf1eaeb4296",
-      "titulo": "Caracol Radio alerta sobre posible atentado contra sus instalaciones",
-      "categoria": "Colombia",
-      "fuente": "La FM Actualidad",
-      "url": "https://www.lafm.com.co/actualidad/caracol-radio-denuncia-riesgo-de-posible-atentado-contra-sus-instalaciones-416489",
-      "fecha": "2026-11-08T03:23:50+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "ae7ffee3a9f96f0c",
-      "titulo": "Evacuan edificio de Caracol TV en el norte de Bogotá; otros medios también en alerta por posibles atentados",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/evacuan-edificio-de-caracol-tv-en-el-norte-de-bogota-otros-medios-tambien-en-alerta-por-posibles-atentados-JF43318616",
-      "fecha": "2026-11-08T03:15:54+00:00",
-      "imagen": ""
     }
   ],
   "estado_fuentes": [
@@ -590,7 +590,7 @@
       "nombre": "BBC Mundo",
       "url": "https://feeds.bbci.co.uk/mundo/rss.xml",
       "estado": "correcto",
-      "titulares": 27
+      "titulares": 26
     },
     {
       "nombre": "DW Español",
