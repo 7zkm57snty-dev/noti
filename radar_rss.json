@@ -1,5 +1,5 @@
 {
-  "ultima_actualizacion": "2026-11-08T03:04:48.069793+00:00",
+  "ultima_actualizacion": "2026-11-08T03:58:51.098753+00:00",
   "titulares_rss": [
     {
       "id": "029434dd47711907",
@@ -7,7 +7,79 @@
       "categoria": "Colombia",
       "fuente": "BBC Mundo",
       "url": "https://www.bbc.co.uk/mundo/live/c54g11vvvemkt?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-08T03:04:48.069793+00:00",
+      "fecha": "2026-11-08T03:58:51.098753+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "67543c29b504a751",
+      "titulo": "Bonos empresariales forzosos, la propuesta para financiar al Estado sin subir impuestos",
+      "categoria": "Economía",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/impuestos/bonos-empresariales-forzosos-la-propuesta-para-financiar-al-estado-sin-subir-impuestos-505924",
+      "fecha": "2026-11-08T03:41:55+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "2672e3306820dff1",
+      "titulo": "Gobierno y Congreso acuerdan trabajar en mesas técnicas sobre ley de rescate, tras 'cónclave' en Barranquilla",
+      "categoria": "Colombia",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/gobierno/gobierno-y-congreso-acuerdan-trabajar-en-mesas-tecnicas-sobre-ley-de-rescate-tras-conclave-en-barranquilla-505931",
+      "fecha": "2026-11-08T03:34:44+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "51e3af9731abe1cc",
+      "titulo": "Ana donó sus órganos al morir en España por eutanasia: ahora un grupo de abogados cristianos quiere prohibir que vuelva a suceder",
+      "categoria": "Internacional",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/cqe9eegxvny2o?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-08T03:28:41+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "dc61aaf1eaeb4296",
+      "titulo": "Caracol Radio denuncia posible atentado contra sus instalaciones",
+      "categoria": "Colombia",
+      "fuente": "La FM Actualidad",
+      "url": "https://www.lafm.com.co/actualidad/caracol-radio-denuncia-riesgo-de-posible-atentado-contra-sus-instalaciones-416489",
+      "fecha": "2026-11-08T03:23:50+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "ae7ffee3a9f96f0c",
+      "titulo": "Evacuan edificio de Caracol TV en el norte de Bogotá; otros medios también en alerta por posibles atentados",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/evacuan-edificio-de-caracol-tv-en-el-norte-de-bogota-otros-medios-tambien-en-alerta-por-posibles-atentados-JF43318616",
+      "fecha": "2026-11-08T03:15:54+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "8b58e81a8d788f1f",
+      "titulo": "La reconstrucción de la esperanza y del hogar de Nancy Copete en Chocó: ‘Es muy duro cuando uno no se puede valer por sí mismo’",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/cali/la-reconstruccion-de-la-esperanza-y-del-hogar-de-nancy-copete-en-choco-es-muy-duro-cuando-uno-no-se-puede-valer-por-si-mismo-3599261",
+      "fecha": "2026-11-08T03:15:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "aa3e29598a6cd960",
+      "titulo": "La valentía de una madre para salvar a su hija y su anhelo de volver a levantarse con prótesis tras tres meses del devastador terremoto en Cali",
+      "categoria": "Cali",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/cali/la-valentia-de-una-madre-para-salvar-a-su-hija-y-su-anhelo-de-volver-a-levantarse-con-protesis-tras-tres-meses-del-devastador-terremoto-en-cali-3599275",
+      "fecha": "2026-11-08T03:10:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "c4a41a527308e1ee",
+      "titulo": "Tres meses después del terremoto: la crisis de la salud mental por consultas de casi 60.000 personas y el dolor por 155 vidas desvanecidas en Cali",
+      "categoria": "Cali",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/cali/tres-meses-despues-del-terremoto-la-crisis-de-la-salud-mental-por-consultas-de-casi-60-000-personas-y-el-dolor-por-155-vidas-desvanecidas-en-cali-3599314",
+      "fecha": "2026-11-08T03:01:00+00:00",
       "imagen": ""
     },
     {
@@ -17,15 +89,6 @@
       "fuente": "El Colombiano — Colombia",
       "url": "https://www.elcolombiano.com/colombia/funcionario-activo-dni-hackear-sistema-de-inteligencia-del-estado-LF43318506",
       "fecha": "2026-11-08T02:59:29+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "4f7c548fbdb0f4b5",
-      "titulo": "Evacuan edificio de Caracol TV en el norte de Bogotá; sería por posible amenaza de bomba",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/evacuan-edificio-de-caracol-tv-en-el-norte-de-bogota-seria-por-posible-amenaza-de-bomba-JF43318616",
-      "fecha": "2026-11-08T02:56:06+00:00",
       "imagen": ""
     },
     {
@@ -353,11 +416,11 @@
       "imagen": ""
     },
     {
-      "id": "1a778d14f3ba97fe",
-      "titulo": "Fitch Rating ratificó a Medellín con la máxima calificación nacional AAA(col)",
+      "id": "20a1964138680610",
+      "titulo": "Medellín conservó la máxima calificación de Fitch Ratings por sus resultados fiscales",
       "categoria": "Cali",
       "fuente": "La República",
-      "url": "https://www.larepublica.co/economia/fitch-rating-ratifico-a-medellin-con-la-maxima-calificacion-nacional-aaa-col-4519912",
+      "url": "https://www.larepublica.co/economia/fitch-ratings-ratifico-a-medellin-con-la-maxima-calificacion-nacional-aaa-col-4519912",
       "fecha": "2026-11-07T21:34:36+00:00",
       "imagen": ""
     },
@@ -425,15 +488,6 @@
       "imagen": ""
     },
     {
-      "id": "3d092b912d2731d3",
-      "titulo": "'Si se le ocurre seguir delinquiendo le va a ir muy mal, estamos preparados': Federico Gutiérrez, alcalde de Medellín, sobre liberación de alias Tom",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/medellin/si-se-le-ocurre-seguir-delinquiendo-le-va-a-ir-muy-mal-estamos-preparados-federico-gutierrez-alcalde-de-medellin-sobre-liberacion-de-alias-tom-3599267",
-      "fecha": "2026-11-07T21:15:05+00:00",
-      "imagen": ""
-    },
-    {
       "id": "4884fbc93da231bd",
       "titulo": "Fuertes lluvias obligan a suspender la búsqueda de Zoé, la niña arrastrada por un arroyo en Soledad: la Armada se suma al operativo",
       "categoria": "Deportes",
@@ -486,60 +540,6 @@
       "url": "https://www.lafm.com.co/internacional/crisis-bancaria-paraguay-expresidente-imputado-fiscalia-416477",
       "fecha": "2026-11-07T20:46:15+00:00",
       "imagen": ""
-    },
-    {
-      "id": "05b4eab43c1faff9",
-      "titulo": "Bonos empresariales forzosos, la propuesta del Centro Democrático para financiar al Estado sin subir impuestos",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/impuestos/bonos-empresariales-forzosos-la-propuesta-del-centro-democratico-para-financiar-al-estado-sin-subir-impuestos-505924",
-      "fecha": "2026-11-07T20:33:21+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "01431d5ad3fb8f12",
-      "titulo": "El misterioso motivo por el que los avanzadísimos retretes japoneses no han triunfado en el resto del mundo",
-      "categoria": "Internacional",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/internet-of-things/misterioso-motivo-que-avanzadisimos-retretes-japoneses-no-han-triunfado-resto-mundo",
-      "fecha": "2026-11-07T20:31:07+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "a719d811995ecb46",
-      "titulo": "Colombia fortalece su participación en el Escudo de las Américas tras reunión con Estados Unidos",
-      "categoria": "Internacional",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/noticias/colombia-fortalece-su-participacion-en-el-escudo-de-las-americas-tras-reunion-con-estados-unidos/",
-      "fecha": "2026-11-07T20:30:46+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "910b330aeeacddb0",
-      "titulo": "Recorte del gasto no alcanzaría 30% del ajuste previsto en la Ley de Rescate del Gobierno",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/economia/tributaria-no-cumpliria-ajuste-de-70-en-reduccion-de-gasto-y-30-en-impuestos-4519894",
-      "fecha": "2026-11-07T20:17:24+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "4566d9faa8619861",
-      "titulo": "Centro Democrático propone vender acciones de Ecopetrol, reducir el Estado y descartar impuestos a los alimentos",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/centro-democratico-propone-vender-acciones-de-ecopetrol-reducir-el-estado-FE43309509",
-      "fecha": "2026-11-07T20:11:04+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "7a983141886b539a",
-      "titulo": "Chocó, un día como hoy…7 de noviembre",
-      "categoria": "Colombia",
-      "fuente": "Chocó 7 días",
-      "url": "https://choco7dias.com/choco-un-dia-como-hoy7-de-noviembre/",
-      "fecha": "2026-11-07T20:05:58+00:00",
-      "imagen": ""
     }
   ],
   "estado_fuentes": [
@@ -553,7 +553,7 @@
       "nombre": "El Tiempo Cali",
       "url": "https://www.eltiempo.com/rss/colombia_cali.xml",
       "estado": "correcto",
-      "titulares": 10
+      "titulares": 7
     },
     {
       "nombre": "El Espectador",
@@ -590,7 +590,7 @@
       "nombre": "BBC Mundo",
       "url": "https://feeds.bbci.co.uk/mundo/rss.xml",
       "estado": "correcto",
-      "titulares": 26
+      "titulares": 27
     },
     {
       "nombre": "DW Español",
