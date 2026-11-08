@@ -1,5 +1,5 @@
 {
-  "ultima_actualizacion": "2026-11-08T12:58:41.461450+00:00",
+  "ultima_actualizacion": "2026-11-08T13:56:39.595835+00:00",
   "titulares_rss": [
     {
       "id": "029434dd47711907",
@@ -7,7 +7,97 @@
       "categoria": "Colombia",
       "fuente": "BBC Mundo",
       "url": "https://www.bbc.co.uk/mundo/live/c54g11vvvemkt?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-08T12:58:41.461450+00:00",
+      "fecha": "2026-11-08T13:56:39.595835+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "f7e850ece938adad",
+      "titulo": "¡Colombia presente en el viaje del papa León XIV! Recibió un regalo inspirado en el Museo del Oro y envió un saludo al país",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/noticias/colombia-presente-en-el-viaje-del-papa-leon-xiv-recibio-un-regalo-inspirado-en-el-museo-del-oro-y-envio-un-saludo-al-pais/",
+      "fecha": "2026-11-08T13:56:08+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "a6e5ec5938c6bc99",
+      "titulo": "Caracol evacuó su sede en Bogotá por alerta de posible atentado",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/en-vivo/caracol-evacuo-su-sede-en-bogota-por-alerta-de-posible-atentado/",
+      "fecha": "2026-11-08T13:42:25+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "36cc9899d90b5cc4",
+      "titulo": "Alerta en el Cauca: reportan detonación de artefacto explosivo en la vía que comunica Suárez con Betulia",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/alerta-en-el-cauca-reportan-detonacion-de-artefacto-explosivo-en-la-via-que-comunica-suarez-con-betulia-3599367",
+      "fecha": "2026-11-08T13:41:28+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "c673e4d2d9007de3",
+      "titulo": "El Cacique quedó manco: la creencia de las mujeres que quieren ser madres terminó pasándole factura a Diomedes Díaz",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/el-cacique-quedo-manco-la-creencia-de-las-mujeres-que-quieren-ser-madres-termino-pasandole-factura-a-diomedes-diaz-3599365",
+      "fecha": "2026-11-08T13:34:05+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "d9a970bf200af194",
+      "titulo": "La pobreza y la austeridad marcarán el encuentro entre León XIV y Javier Milei",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/globoeconomia/la-pobreza-y-la-austeridad-marcaran-el-encuentro-entre-leon-xiv-y-javier-milei-4520046",
+      "fecha": "2026-11-08T13:22:04+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "6ded61c31bdb616a",
+      "titulo": "Estas son las identidades de los tres soldados asesinados en el atentado terrorista con drones en Santa Rosa, Bolívar: Ejército se pronunció",
+      "categoria": "Internacional",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/estas-son-las-identidades-de-los-tres-soldados-asesinados-en-el-atentado-terrorista-con-drones-en-santa-rosa-bolivar-ejercito-se-pronuncio-3599362",
+      "fecha": "2026-11-08T13:19:03+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "9bb85be403f88aa6",
+      "titulo": "Mujer que llegó de Miami fue capturada en el aeropuerto de Palmira, Valle del Cauca, señalada de traficar armas desde Estados Unidos a Colombia",
+      "categoria": "Valle del Cauca",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/cali/mujer-que-llego-de-miami-fue-capturada-en-el-aeropuerto-de-palmira-valle-del-cauca-senalada-de-traficar-armas-desde-estados-unidos-a-colombia-3599323",
+      "fecha": "2026-11-08T13:15:46+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "6a40b28942da23e2",
+      "titulo": "\"Hay un relato de que con la postmenopausia todo va a estar mal con tu cuerpo, pero el futuro para las mujeres mayores no es catastrófico, es un futuro de libertad\"",
+      "categoria": "Internacional",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/cm20v7vg5zd1o?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-08T13:13:50+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "7c5afeaaeb675ed1",
+      "titulo": "Polonia califica de ataque \"terrorista\" el tiroteo en Cracovia",
+      "categoria": "Cali",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/polonia-califica-de-ataque-terrorista-el-tiroteo-en-cracovia/a-79890865?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-08T13:05:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "b35d23c3fe43d243",
+      "titulo": "El mando de mi tele tiene botones que no utilizo. Le he pedido a la IA que los cambie por las apps que sí uso",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/robotica-e-ia/mando-mi-tele-tiene-botones-que-no-utilizo-le-he-pedido-a-ia-que-cambie-apps-que-uso",
+      "fecha": "2026-11-08T13:01:14+00:00",
       "imagen": ""
     },
     {
@@ -399,7 +489,7 @@
     },
     {
       "id": "1fa28d7174df854d",
-      "titulo": "Desastres naturales pasan una factura cada vez más alta a las aseguradoras globales",
+      "titulo": "Desastres naturales pasan una factura cada vez más alta a las aseguradoras",
       "categoria": "Colombia",
       "fuente": "La República",
       "url": "https://www.larepublica.co/globoeconomia/desastres-naturales-pasan-una-factura-cada-vez-mas-alta-a-las-aseguradoras-globales-4519964",
@@ -408,7 +498,7 @@
     },
     {
       "id": "c37d51c9dd64f0cf",
-      "titulo": "Así cambiaría el valor de una hora de trabajo con propuestas del mínimo",
+      "titulo": "La hora laboral en 2027 costaría entre $9.000 y $11.500 con propuestas del mínimo",
       "categoria": "Colombia",
       "fuente": "La República",
       "url": "https://www.larepublica.co/economia/la-hora-laboral-en-2027-costaria-entre-9-000-y-11-500-con-propuestas-del-minimo-4519988",
@@ -417,7 +507,7 @@
     },
     {
       "id": "e51d96a50a62fa20",
-      "titulo": "Influencers y políticos, las profesiones en las que menos confía la gente",
+      "titulo": "Influencers y políticos, las profesiones en las que menos confían las personas",
       "categoria": "Tendencias",
       "fuente": "La República",
       "url": "https://www.larepublica.co/alta-gerencia/influencers-y-politicos-las-profesiones-en-las-que-menos-confia-la-gente-4519978",
@@ -450,96 +540,6 @@
       "url": "https://www.lapatria.com/galerias/bifor-2026",
       "fecha": "2026-11-08T05:00:00+00:00",
       "imagen": ""
-    },
-    {
-      "id": "61375baf650af046",
-      "titulo": "Las recetas de los supermercados para evitar los ‘hackeos’: segmentar las redes y cifrar los métodos de acceso",
-      "categoria": "Economía",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/economia/2026-11-08/las-recetas-de-los-supermercados-para-evitar-los-hackeos-segmentar-las-redes-y-cifrar-los-metodos-de-acceso.html",
-      "fecha": "2026-11-08T04:45:01+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "d8d3e2a032ea54ed",
-      "titulo": "Sam Houser, el hombre invisible detrás del imperio de ‘Grand Theft Auto’",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://cincodias.elpais.com/opinion/2026-11-08/sam-houser-el-hombre-invisible-detras-del-imperio-de-grand-theft-auto.html",
-      "fecha": "2026-11-08T04:40:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "649f743666199fd9",
-      "titulo": "Trump cae derrotado en las urnas, pero aún es poderoso (e impredecible) en política exterior",
-      "categoria": "Internacional",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/us/2026-11-08/trump-cae-derrotado-en-las-urnas-pero-aun-es-poderoso-e-impredecible-en-politica-exterior.html",
-      "fecha": "2026-11-08T04:30:01+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "6f87a0d90ae0a392",
-      "titulo": "La política de la crueldad",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/opinion/2026-11-08/la-politica-de-la-crueldad.html",
-      "fecha": "2026-11-08T04:30:01+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "9cb637d8245ece2c",
-      "titulo": "Alberto Núñez Feijóo: “Hacer una coalición de Gobierno con Vox no depende de mí”",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/espana/2026-11-08/alberto-nunez-feijoo-hacer-una-coalicion-de-gobierno-con-vox-no-depende-de-mi.html",
-      "fecha": "2026-11-08T04:30:01+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "6beff499a1538669",
-      "titulo": "Entre la muerte MAGA y la radicalización del trumpismo: los republicanos buscan su sitio tras la debacle electoral",
-      "categoria": "Cali",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/us/2026-11-08/entre-la-muerte-maga-y-la-radicalizacion-del-trumpismo-los-republicanos-buscan-su-sitio-tras-la-debacle-electoral.html",
-      "fecha": "2026-11-08T04:30:01+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "71b2af0de3c0d473",
-      "titulo": "El mundo tras la derrota de Trump",
-      "categoria": "Internacional",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/opinion/2026-11-08/el-mundo-tras-la-derrota-de-trump.html",
-      "fecha": "2026-11-08T04:30:01+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "62cabe622f572fec",
-      "titulo": "Detenidos por las pintas: decenas de menores en comisaría en Italia con el nuevo arresto preventivo en manifestaciones",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/internacional/2026-11-08/detenidos-por-las-pintas-decenas-de-menores-en-comisaria-en-italia-con-el-nuevo-arresto-preventivo-en-manifestaciones.html",
-      "fecha": "2026-11-08T04:30:01+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "f1e2125b584c1ed6",
-      "titulo": "El reto de la maternidad en personas con discapacidad intelectual: “Yo tenía claro que quería ser madre, aunque fuera de uno”",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/sociedad/2026-11-08/el-reto-de-la-maternidad-en-personas-con-discapacidad-intelectual-yo-tenia-claro-que-queria-ser-madre-aunque-fuera-de-uno.html",
-      "fecha": "2026-11-08T04:30:01+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "0f9da02a39d51dea",
-      "titulo": "Las mujeres pierden terreno en la empresa y la política tras décadas de progreso",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/sociedad/2026-11-08/las-mujeres-pierden-terreno-en-la-empresa-y-la-politica-tras-decadas-de-progreso.html",
-      "fecha": "2026-11-08T04:30:01+00:00",
-      "imagen": ""
     }
   ],
   "estado_fuentes": [
@@ -553,7 +553,7 @@
       "nombre": "El Tiempo Cali",
       "url": "https://www.eltiempo.com/rss/colombia_cali.xml",
       "estado": "correcto",
-      "titulares": 6
+      "titulares": 5
     },
     {
       "nombre": "El Espectador",
