@@ -1,5 +1,5 @@
 {
-  "ultima_actualizacion": "2026-11-08T11:47:13.039280+00:00",
+  "ultima_actualizacion": "2026-11-08T12:58:41.461450+00:00",
   "titulares_rss": [
     {
       "id": "029434dd47711907",
@@ -7,7 +7,79 @@
       "categoria": "Colombia",
       "fuente": "BBC Mundo",
       "url": "https://www.bbc.co.uk/mundo/live/c54g11vvvemkt?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-08T11:47:13.039280+00:00",
+      "fecha": "2026-11-08T12:58:41.461450+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "b019491f23a17be0",
+      "titulo": "Del rescate económico, al hundimiento económico",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/red-de-expertos/del-rescate-economico-al-hundimiento-economico/",
+      "fecha": "2026-11-08T12:57:32+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "60a0fed3a02d46ef",
+      "titulo": "La primera pantalla táctil cosida en una manga funciona tras 50 lavados. La pregunta es si la necesitamos, claro",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/investigacion/primera-pantalla-tactil-cosida-manga-funciona-50-lavados-pregunta-necesitamos-claro",
+      "fecha": "2026-11-08T12:31:07+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "5aa62d87b0ace8db",
+      "titulo": "Japón registra sismo de 5,7: hay heridos y daños en varias ciudades",
+      "categoria": "Internacional",
+      "fuente": "La FM Internacional",
+      "url": "https://www.lafm.com.co/internacional/terremoto-japon-sismo-57-balance-heridos-ciudades-afectadas-416498",
+      "fecha": "2026-11-08T12:17:16+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "b43f7b1a93b6a50b",
+      "titulo": "Más de 20 migrantes mueren en naufragio de embarcación en Senegal",
+      "categoria": "Internacional",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/más-de-20-migrantes-mueren-en-naufragio-de-embarcación-en-senegal/a-79890306?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-08T12:11:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "0bfc27d96f2ccb6c",
+      "titulo": "Tras años de envejecimiento, China se enfrenta a una nueva realidad: sus familias ya mantienen a más ancianos que niños",
+      "categoria": "Internacional",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/magnet/anos-envejecimiento-china-se-enfrenta-a-nueva-realidad-sus-familias-mantienen-a-ancianos-que-ninos",
+      "fecha": "2026-11-08T12:01:07+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "8e5e8806f18a2dc9",
+      "titulo": "Lluvias en Cali dejaron más de 20 barrios sin servicio de acueducto y varios árboles caídos: este es el reporte",
+      "categoria": "Cali",
+      "fuente": "La FM Actualidad",
+      "url": "https://www.lafm.com.co/actualidad/lluvias-cali-20-barrios-sin-servicio-acueducto-decenas-arboles-caidos-416495",
+      "fecha": "2026-11-08T11:55:19+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "989f8ec30dd507cb",
+      "titulo": "Hospitales, obras inconclusas y recursos públicos: los cuestionamientos de la gobernadora del Magdalena Margarita Guerra",
+      "categoria": "Internacional",
+      "fuente": "La FM Actualidad",
+      "url": "https://www.lafm.com.co/actualidad/gobernadora-magdalena-margarita-guerra-cuestiona-uso-recursos-publicos-manejo-hospitales-obras-inconclusas-416493",
+      "fecha": "2026-11-08T11:52:18+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "c0fcb5f8dad128eb",
+      "titulo": "La arriesgada misión para extraer de Polonia el cohete v2, el \"arma milagrosa\" de Hitler",
+      "categoria": "Internacional",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/c9dw1q8e4v3o?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-08T11:48:33+00:00",
       "imagen": ""
     },
     {
@@ -62,6 +134,15 @@
       "fuente": "Chocó 7 días",
       "url": "https://choco7dias.com/choco-un-dia-como-hoy-8-de-noviembre/",
       "fecha": "2026-11-08T11:00:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "400f5be1c42d81af",
+      "titulo": "Las águilas gigantes que cazaban niños y moldearon la evolución humana",
+      "categoria": "Internacional",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/cm62yxpxv5kqo?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-08T10:56:09+00:00",
       "imagen": ""
     },
     {
@@ -458,87 +539,6 @@
       "fuente": "El País Colombia",
       "url": "https://elpais.com/sociedad/2026-11-08/las-mujeres-pierden-terreno-en-la-empresa-y-la-politica-tras-decadas-de-progreso.html",
       "fecha": "2026-11-08T04:30:01+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "9406f17373d23b57",
-      "titulo": "George Saunders, escritor: “Contar historias es una necesidad primordial”",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/cultura/2026-11-08/george-saunders-escritor-contar-historias-es-una-necesidad-primordial.html",
-      "fecha": "2026-11-08T04:30:01+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "2fc248347f1fd90f",
-      "titulo": "Obesidad sin filtros: el negocio de decirte que estás enfermo",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/salud-y-bienestar/2026-11-08/obesidad-sin-filtros-el-negocio-de-decirte-que-estas-enfermo.html",
-      "fecha": "2026-11-08T04:30:01+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "5ef6a1889fb9333f",
-      "titulo": "Los demócratas que huyen de lo ‘woke’",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/ideas/2026-11-08/los-democratas-que-huyen-de-lo-woke.html",
-      "fecha": "2026-11-08T04:30:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "55327cb8e29b7a96",
-      "titulo": "Esta victoria no basta: ¿qué deben hacer ahora los demócratas?",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/ideas/2026-11-08/la-victoria-no-basta-que-deben-hacer-ahora-los-democratas.html",
-      "fecha": "2026-11-08T04:30:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "0efb6fce3b57d4fb",
-      "titulo": "El escándalo de pornografía infantil de Thomas Markle, el clavo en el ataúd de una larga caída en desgracia",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/us/entretenimiento/2026-11-08/el-escandalo-de-pornografia-infantil-de-thomas-markle-el-clavo-en-el-ataud-de-una-larga-caida-en-desgracia.html",
-      "fecha": "2026-11-08T04:30:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "c9797bae4e013853",
-      "titulo": "GTA VI: por qué el lanzamiento del siglo cambiará el sector de los videojuegos (y será más difícil prestarlos o revenderlos)",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/economia/negocios/2026-11-08/gta-vi-por-que-el-lanzamiento-del-siglo-cambiara-el-sector-de-los-videojuegos-y-sera-mas-dificil-prestarlos-o-revenderlos.html",
-      "fecha": "2026-11-08T04:30:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "86c052e3132ed070",
-      "titulo": "Eglantina Zingg: “Uso mi privilegio de la belleza y el dinero para empoderar a niñas vulnerables”",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/gente/2026-11-08/eglantina-zingg-uso-mi-privilegio-de-la-belleza-y-el-dinero-para-empoderar-a-ninas-vulnerables.html",
-      "fecha": "2026-11-08T04:30:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "74e25a718a1c7cba",
-      "titulo": "La guerra por la herencia de Brigitte Bardot enfrenta a un marido desheredado y una fundación animalista",
-      "categoria": "Internacional",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/gente/2026-11-08/la-guerra-por-la-herencia-de-brigitte-bardot-enfrenta-a-un-marido-desheredado-y-una-fundacion-animalista.html",
-      "fecha": "2026-11-08T04:30:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "675776f45fa1d9db",
-      "titulo": "De viaje con Kiko Veneno: “Soy pesimista con el mundo, pero mi actitud vital es seguir poniendo rumba”",
-      "categoria": "Internacional",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/eps/2026-11-08/de-viaje-con-kiko-veneno-soy-pesimista-con-el-mundo-pero-mi-actitud-vital-es-seguir-poniendo-rumba.html",
-      "fecha": "2026-11-08T04:30:00+00:00",
       "imagen": ""
     }
   ],
