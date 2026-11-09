@@ -1,5 +1,5 @@
 {
-  "ultima_actualizacion": "2026-11-09T12:39:42.269457+00:00",
+  "ultima_actualizacion": "2026-11-09T13:55:31.771301+00:00",
   "titulares_rss": [
     {
       "id": "029434dd47711907",
@@ -7,7 +7,286 @@
       "categoria": "Colombia",
       "fuente": "BBC Mundo",
       "url": "https://www.bbc.co.uk/mundo/live/c54g11vvvemkt?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-09T12:39:42.269457+00:00",
+      "fecha": "2026-11-09T13:55:31.771301+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "6385a41c12e9f864",
+      "titulo": "Samsung y el Poli lanzan alianza y ofrecen 180 becas para estudiar inteligencia artificial",
+      "categoria": "Tecnología",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/empresas/samsung-y-el-poli-lanzan-alianza-y-ofrecen-180-becas-para-estudiar-inteligencia-artificial-4520534",
+      "fecha": "2026-11-09T13:52:07+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "7c5ae4bef07b2a32",
+      "titulo": "Valle estudia presupuesto de $4,3 billones para 2027; habrá recursos para la reconstrucción",
+      "categoria": "Valle del Cauca",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/valle-del-cauca/valle-estudia-presupuesto-2027-9-11-2026/",
+      "fecha": "2026-11-09T13:48:56+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "37a77177a9e55c59",
+      "titulo": "Un nuevo fármaco experimental para adelgazar se ha visto que también ayuda a aliviar el dolor de las rodillas con artrosis",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/medicina-y-salud/nuevo-farmaco-experimental-para-adelgazar-se-ha-visto-que-tambien-ayuda-a-aliviar-dolor-rodillas-artrosis",
+      "fecha": "2026-11-09T13:47:06+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "f8c090f696b3a596",
+      "titulo": "Presidente paraguayo propone al economista Jorge Schreiner como jefe del Banco Central",
+      "categoria": "Economía",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/globoeconomia/presidente-paraguayo-propone-al-economista-jorge-schreiner-como-nuevo-jefe-del-banco-central-4520523",
+      "fecha": "2026-11-09T13:46:38+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "3a0a18ce85e243c2",
+      "titulo": "El segundo día de León XIV en Argentina, en vivo | El Papa destaca el valor de la dignidad y la integración frente a la “búsqueda del éxito económico o el culto de la apariencia física”",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/america/2026-11-09/el-segundo-dia-de-leon-xiv-en-argentina-en-vivo-el-papa-visita-un-centro-de-discapacitados-en-su-segundo-dia-en-argentina.html",
+      "fecha": "2026-11-09T13:45:44+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "56fe681e49f1d69b",
+      "titulo": "El café del Huila que conquistó Oslo: calidad de exportación y una huella de carbono más baja",
+      "categoria": "Cali",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/agro/el-cafe-del-huila-que-conquisto-oslo-calidad-de-exportacion-y-una-huella-de-carbono-mas-baja-505893",
+      "fecha": "2026-11-09T13:40:01+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "25487e9e6211ac8e",
+      "titulo": "Chocó, un día como hoy… 9 de noviembre",
+      "categoria": "Colombia",
+      "fuente": "Chocó 7 días",
+      "url": "https://choco7dias.com/choco-un-dia-como-hoy-9-de-noviembre/",
+      "fecha": "2026-11-09T13:31:31+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "3b16adb3a59af829",
+      "titulo": "Lula promete responsabilidad fiscal en su primer discurso desde las elecciones",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/globoeconomia/lula-promete-responsabilidad-fiscal-en-su-primer-discurso-desde-las-elecciones-4520508",
+      "fecha": "2026-11-09T13:31:15+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "3c48e0788dbfc0ba",
+      "titulo": "Ucrania está fabricando ataúdes de acero para sus soldados, y están diseñados para mantenerlos vivos en el frente",
+      "categoria": "Internacional",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/magnet/ucrania-esta-fabricando-ataudes-acero-para-sus-soldados-estan-disenados-para-mantenerlos-vivos-frente",
+      "fecha": "2026-11-09T13:31:06+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "f17aaa29df077e0c",
+      "titulo": "Black Friday anticipado en El Corte Inglés: estos auriculares gaming de Sony cuestan ahora 99 euros",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/seleccion/black-friday-anticipado-corte-ingles-estos-auriculares-gaming-sony-cuestan-ahora-99-euros",
+      "fecha": "2026-11-09T13:31:05+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "0ebbfce051827c0b",
+      "titulo": "Veedurías piden esclarecer crisis del Fomag y el manejo de los recursos para la salud de los docentes en Colombia",
+      "categoria": "Colombia",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/gobierno/veedurias-piden-esclarecer-crisis-del-fomag-y-el-manejo-de-los-recursos-para-la-salud-de-los-docentes-en-colombia-505966",
+      "fecha": "2026-11-09T13:30:14+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "4788dc55e82acba4",
+      "titulo": "Precio del dólar hoy en Colombia: Así está la moneda el 9 de noviembre",
+      "categoria": "Economía",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/vida-moderna/precio-del-dolar-hoy-en-colombia-09-11-2026/",
+      "fecha": "2026-11-09T13:30:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "8bf60af8efd0abc0",
+      "titulo": "Pronóstico del clima Cali lunes: ¿qué clima hará este día en la ciudad?",
+      "categoria": "Cali",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/vida-moderna/ecologia/pronostico-del-clima-cali-lunes-09-11-2026/",
+      "fecha": "2026-11-09T13:26:52+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "b88630d7db28b526",
+      "titulo": "Organizaciones de mujeres exigen respuestas por 72 asesinatos en Atlántico y cuestionan la aplicación de medidas de protección",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/barranquilla/organizaciones-de-mujeres-exigen-respuestas-por-72-asesinatos-en-atlantico-y-cuestionan-la-aplicacion-de-medidas-de-proteccion-3599526",
+      "fecha": "2026-11-09T13:26:09+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "6c34b4508246f621",
+      "titulo": "Jefe de chilena Codelco dice producción seguirá cayendo a menos que se asocie con privados",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/globoeconomia/jefe-de-chilena-codelco-dice-produccion-seguira-cayendo-a-menos-que-se-asocie-con-privados-4520499",
+      "fecha": "2026-11-09T13:25:43+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "8c15d2ebb5f3faac",
+      "titulo": "Ley de Rescate: empleados que superen dos salarios mínimos podrían perder $52.526 al mes ¿por qué?",
+      "categoria": "Economía",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/gobierno/ley-de-rescate-empleados-que-superen-dos-salarios-minimos-podrian-perder-52-526-al-mes-505962",
+      "fecha": "2026-11-09T13:22:59+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "62179bfb152e4ba8",
+      "titulo": "\"El progreso de una nación también se mide por la acogida que da a los discapacitados\": por qué es tan simbólica la visita de León XIV al Pequeño Cottolengo Don Orione",
+      "categoria": "Internacional",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/ck240e0n9z8yo?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-09T13:22:21+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "3f63cb46fc9c4aee",
+      "titulo": "La comedia del poder y la tragedia de sus víctimas",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/red-de-expertos/la-comedia-del-poder-y-la-tragedia-de-sus-victimas/",
+      "fecha": "2026-11-09T13:19:58+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "5107760d9aef6b4a",
+      "titulo": "Una casa clandestina y hasta GPS en vehículos de expresidentes: así habría sido el plan de la DNI en la era Petro para intervenir en elecciones",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/una-casa-clandestina-y-hasta-gps-en-vehiculos-de-expresidentes-asi-habria-sido-el-plan-de-la-dni-en-la-era-petro-para-intervenir-en-elecciones-EH43332170",
+      "fecha": "2026-11-09T13:12:49+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "3368e34f9489e432",
+      "titulo": "Jensen Huang, el migrante taiwanés que pasó de lavar platos a fundar Nvidia y hoy enfrenta una investigación por su relación con una presunta espía china",
+      "categoria": "Internacional",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/c03r1red14yo?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-09T13:07:35+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "4ba58b62f5baa5e3",
+      "titulo": "Dólar abrió $7,17 al alza, tras semana de repunte por expectativas de tasas en EE.UU.",
+      "categoria": "Economía",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/finanzas/precios-del-dolar-y-del-petroleo-hoy-9-de-noviembre-de-2026-4520380",
+      "fecha": "2026-11-09T13:07:33+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "92ec2c3ac9c934be",
+      "titulo": "Fedegán acepta auditoría forense al Fondo Nacional del Ganado y exige independencia y rigor en la investigación",
+      "categoria": "Economía",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/agro/fedegan-acepta-auditoria-forense-al-fondo-nacional-del-ganado-y-exige-independencia-y-rigor-en-la-investigacion-505963",
+      "fecha": "2026-11-09T13:06:10+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "c6fabe256d9a5b56",
+      "titulo": "¿Hasta dónde ha llegado la búsqueda de la pequeña Zoé? Seis días después de la tragedia del arroyo El Salao, los rescatistas amplían los recorridos",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/barranquilla/hasta-donde-ha-llegado-la-busqueda-de-la-pequena-zoe-seis-dias-despues-de-la-tragedia-del-arroyo-el-salao-los-rescatistas-amplian-los-recorridos-3599515",
+      "fecha": "2026-11-09T13:02:44+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "15f06231a39008c7",
+      "titulo": "Con El Niño en ascenso, 2026 quedará entre los cuatro años más calientes de la historia",
+      "categoria": "Cali",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/economia/con-el-nino-en-ascenso-2026-quedara-entre-los-cuatro-anos-mas-calientes-de-la-historia-4520425",
+      "fecha": "2026-11-09T13:02:32+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "7050b1b3fca592db",
+      "titulo": "El corazón no solo necesita que duermas entre siete y ocho horas: también importa cuándo te acuestas",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/medicina-y-salud/corazon-no-solo-necesita-que-duermas-siete-ocho-horas-tambien-importa-cuando-te-acuestas",
+      "fecha": "2026-11-09T13:01:08+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "6b83668558962982",
+      "titulo": "Caída de escombros en Hotel La Luna: amplían perímetro de seguridad y anuncian pronta demolición",
+      "categoria": "Valle del Cauca",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/cali/caida-escombros-hotel-luna-anuncian-pronta-demolicion-9-11-2026/",
+      "fecha": "2026-11-09T12:56:18+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "af68b352e1df2483",
+      "titulo": "Polonia busca respuestas tras el mortal tiroteo en Cracovia donde hubo siete muertos, incluido el joven tirador",
+      "categoria": "Internacional",
+      "fuente": "La FM Internacional",
+      "url": "https://www.lafm.com.co/internacional/tiroteo-crcaovia-polonia-joven-24-anios-asesina-seis-personas-416567",
+      "fecha": "2026-11-09T12:51:12+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "98a64d275a6c078c",
+      "titulo": "La gira del papa León XIV por Sudamérica proyecta un impacto de US$500 millones",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/globoeconomia/la-gira-del-papa-leon-xiv-por-sudamerica-proyecta-un-impacto-de-us-500-millones-4520397",
+      "fecha": "2026-11-09T12:45:20+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "823276e6a3e9086a",
+      "titulo": "El Samsung Galaxy S26 Ultra cae de precio antes del Black Friday: así es la oferta con triple descuento que tiene la tienda oficial",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/seleccion/samsung-galaxy-s26-ultra-cae-precio-antes-black-friday-asi-oferta-triple-descuento-que-tiene-tienda-oficial",
+      "fecha": "2026-11-09T12:45:06+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "e441b3844539b7fc",
+      "titulo": "El Supremo rechaza suspender también el derecho al voto de los 189.000 hijos de los nacionalizados por la ‘ley de nietos’",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/espana/elecciones-generales/2026-11-09/el-supremo-rechaza-suspender-tambien-el-derecho-al-voto-de-los-hijos-de-los-nacionalizados-por-la-ley-de-nietos.html",
+      "fecha": "2026-11-09T12:40:10+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "99a7f4366725b489",
+      "titulo": "Rescatado el pianista de un crucero que cayó al mar y pasó nueve horas a la deriva",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/internacional/2026-11-09/rescatado-el-pianista-de-un-crucero-que-cayo-al-mar-y-paso-nueve-horas-a-la-deriva.html",
+      "fecha": "2026-11-09T12:39:07+00:00",
       "imagen": ""
     },
     {
@@ -21,7 +300,7 @@
     },
     {
       "id": "16e72c3f43136102",
-      "titulo": "Netflix ampliará el universo de Stranger Things con una serie ambientada en los años 50",
+      "titulo": "Netflix ampliará el universo de Stranger Things con una serie ambientada en los 50",
       "categoria": "Colombia",
       "fuente": "La República",
       "url": "https://www.larepublica.co/ocio/netflix-ampliara-el-universo-de-stranger-things-con-una-nueva-serie-ambientada-en-los-anos-50-4520428",
@@ -57,7 +336,7 @@
     },
     {
       "id": "6bbbbb177054ba5f",
-      "titulo": "Contraloría ordenó revisión prioritaria de contratos de la DNI por más de $20.783 millones",
+      "titulo": "Contraloría ordenó revisión urgente de contratos de la DNI por más de $20.783 millones",
       "categoria": "Colombia",
       "fuente": "La República",
       "url": "https://www.larepublica.co/economia/contraloria-ordeno-revision-prioritaria-de-contratos-de-la-dni-por-mas-de-20-783-millones-4520417",
@@ -128,33 +407,6 @@
       "imagen": ""
     },
     {
-      "id": "b86902cb65fcd9ef",
-      "titulo": "1.600 deportistas le dicen sí a Pereira y a su recuperación",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/deportes/1-600-deportistas-le-dicen-si-a-pereira-y-a-su-recuperacion/",
-      "fecha": "2026-11-09T12:09:38+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "ee01af05c21f889e",
-      "titulo": "El ‘hacker’ fantasma de Kim Jong-un: Park Jin-hyok y las conexiones exteriores del cibercrimen norcoreano",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/tecnologia/2026-11-09/el-hacker-fantasma-de-kim-jong-un-park-jin-hyok-y-las-conexiones-exteriores-del-cibercrimen-norcoreano.html",
-      "fecha": "2026-11-09T12:07:30+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "e22065ee2ece8abb",
-      "titulo": "Dos medallas, dos historias que llenan de orgullo a Colombia!",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/deportes/dos-medallas-dos-historias-que-llenan-de-orgullo-a-colombia/",
-      "fecha": "2026-11-09T12:07:28+00:00",
-      "imagen": ""
-    },
-    {
       "id": "abb68d19daac328c",
       "titulo": "El Gobierno lleva a TikTok ante la Fiscalía después de que 'Maldita' haya encontrado más de mil vídeos de abuso sexual infantil",
       "categoria": "Colombia",
@@ -191,6 +443,15 @@
       "imagen": ""
     },
     {
+      "id": "7d025d6baeb83e6d",
+      "titulo": "9 de noviembre: Alemania recuerda la caída del Muro y los pogromos de 1938",
+      "categoria": "Internacional",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/9-de-noviembre-alemania-recuerda-la-caída-del-muro-y-los-pogromos-de-1938/a-79899547?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-09T11:57:00+00:00",
+      "imagen": ""
+    },
+    {
       "id": "84fff1d8e8a03ca6",
       "titulo": "Migración Colombia expulsa a 33 extranjeros que acumulaban 152 medidas correctivas en Barranquilla y Cartagena por alterar el orden público",
       "categoria": "Colombia",
@@ -209,15 +470,6 @@
       "imagen": ""
     },
     {
-      "id": "5107760d9aef6b4a",
-      "titulo": "Una casa clandestina y hasta GPS en vehículos de expresidentes: así habría sido el plan de la DNI en la era Petro para intervenir en elecciones",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/una-casa-clandestina-y-hasta-gps-en-vehiculos-de-expresidentes-asi-habria-sido-el-plan-de-la-dni-en-la-era-petro-para-intervenir-en-elecciones-EH43332170",
-      "fecha": "2026-11-09T11:51:41+00:00",
-      "imagen": ""
-    },
-    {
       "id": "2b6c3d37246372e2",
       "titulo": "Papa León XIV en Chiclayo, demanda de viajes crecería 150% y tarifas subirían hasta 200%",
       "categoria": "Colombia",
@@ -228,7 +480,7 @@
     },
     {
       "id": "a443814636992457",
-      "titulo": "Beca Ana Piñeres apuesta por la formación de productores audiovisuales en Colombia",
+      "titulo": "Beca Ana Piñeres apuesta por la formación de nuevos productores audiovisuales",
       "categoria": "Colombia",
       "fuente": "La República",
       "url": "https://www.larepublica.co/ocio/beca-ana-pineres-apuesta-por-la-formacion-de-nuevos-productores-audiovisuales-en-colombia-4520366",
@@ -281,264 +533,12 @@
       "imagen": ""
     },
     {
-      "id": "0bb5add607675166",
-      "titulo": "El crudo cae luego de que Trump apunta a una actitud moderada respecto a Irán",
+      "id": "8e1e5fd1e87dc40e",
+      "titulo": "El crudo cae luego de que Trump apunta a una actitud más moderada respecto a Irán",
       "categoria": "Internacional",
       "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/el-crudo-cae-luego-de-que-trump-apunta-a-una-actitud-moderada-respecto-a-iran-4520335",
+      "url": "https://www.larepublica.co/globoeconomia/el-crudo-cae-luego-de-que-trump-apunta-a-una-actitud-mas-moderada-respecto-a-iran-4520335",
       "fecha": "2026-11-09T11:33:17+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "14db474c2ff8fdfe",
-      "titulo": "La novela que indaga en las nuevas mafias",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/cultura/la-novela-que-indaga-en-las-nuevas-mafias/",
-      "fecha": "2026-11-09T11:32:57+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "b8d0b4bae5058ba4",
-      "titulo": "China prorroga suspensión de medidas de control sobre las tierras raras hasta enero",
-      "categoria": "Internacional",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/china-prorroga-la-suspension-de-medidas-de-control-sobre-las-tierras-raras-hasta-enero-4520345",
-      "fecha": "2026-11-09T11:30:48+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "62179bfb152e4ba8",
-      "titulo": "Qué es el Cottolengo Don Orione y por qué es tan simbólica la visita del papa León XIV durante su viaje a Argentina",
-      "categoria": "Internacional",
-      "fuente": "BBC Mundo",
-      "url": "https://www.bbc.com/mundo/articles/ck240e0n9z8yo?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-09T11:30:01+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "d5b8c7f89d9025a7",
-      "titulo": "Oro sube, mientras que la bajada de los precios del crudo modera los temores inflacionistas",
-      "categoria": "Economía",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/finanzas/oro-sube-mientras-que-la-bajada-de-los-precios-del-crudo-modera-los-temores-inflacionistas-4520336",
-      "fecha": "2026-11-09T11:29:34+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "91bc6dd0874cc0ef",
-      "titulo": "Acción de Nvidia ha caído 4,91% desde el viernes tras relación extramarital de su CEO, Huang",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/una-relacion-extramarital-de-huang-llevo-a-nvidia-a-investigacion-por-espionaje-chino-4520338",
-      "fecha": "2026-11-09T11:17:48+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "26c385b65e668984",
-      "titulo": "Cómo el extraordinario crecimiento de la \"escandalosamente barata\" energía solar ha desafiado todas las proyecciones",
-      "categoria": "Internacional",
-      "fuente": "BBC Mundo",
-      "url": "https://www.bbc.com/mundo/articles/cr4g1ee27w6po?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-09T11:10:31+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "205ceee1f215cfea",
-      "titulo": "¿Quién es el CEO de Nvidia, que está siendo investigado por presunto espionaje de China?",
-      "categoria": "Internacional",
-      "fuente": "La FM Internacional",
-      "url": "https://www.lafm.com.co/internacional/quien-es-el-ceo-de-nvidia-investigado-por-espionaje-china-416554",
-      "fecha": "2026-11-09T11:09:10+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "025ac884c6b81570",
-      "titulo": "Claude Code guardaba tu correo para saber quién eres. Algunas webs acabaron recibiéndolo",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/robotica-e-ia/claude-code-guardaba-tu-correo-para-saber-quien-eres-algunas-webs-acabaron-recibiendolo",
-      "fecha": "2026-11-09T11:01:07+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "53d9548b93f6fd21",
-      "titulo": "¿Te harías una prueba para saber si una enfermedad acortará tu vida? Yo me la hice, y eso me cambió por completo",
-      "categoria": "Internacional",
-      "fuente": "BBC Mundo",
-      "url": "https://www.bbc.com/mundo/articles/cqd0988j9vngo?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-09T10:59:37+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "384f10f9b04be6fd",
-      "titulo": "Un tren de mercancías lleva más de un año descarrilado en Zaragoza: ni Adif ni el operador han retirado los restos",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/movilidad/tren-mercancias-lleva-ano-descarrilado-zaragoza-adif-operador-han-retirado-restos",
-      "fecha": "2026-11-09T10:51:06+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "403c8dd05df24859",
-      "titulo": "AfD, neonazis y Javier Milei: una feria del libro en Alemania se convierte en la gran fiesta de la extrema derecha",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/internacional/2026-11-09/afd-neonazis-y-javier-milei-una-feria-del-libro-en-alemania-se-convierte-en-la-gran-fiesta-de-la-extrema-derecha.html",
-      "fecha": "2026-11-09T10:39:27+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "e4ef57aa30365d1b",
-      "titulo": "En 2015 pensábamos que el calentamiento global era un problema para nuestros nietos. Hasta que los científicos han empezado a medirlo en cadáveres",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/ecologia-y-naturaleza/necesario-declarar-estado-emergencia-sanitaria-mundial-cientificos-testigos-punto-inflexion-calentamiento-global",
-      "fecha": "2026-11-09T10:30:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "e97e05217bc1af25",
-      "titulo": "Si tu tele necesita un extra en calidad y potencia de audio, esta barra de sonido Xiaomi es ideal para acompañarla. Y está de oferta",
-      "categoria": "Cali",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/seleccion/tu-tele-necesita-extra-calidad-potencia-audio-esta-barra-sonido-xiaomi-ideal-para-acompanarla-esta-oferta",
-      "fecha": "2026-11-09T10:15:07+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "3a7b2a456f2fcbf1",
-      "titulo": "Un pueblo de Guadalajara quiere independizarse de Castilla La Mancha y \"anexionarse\" a la Comunidad de Madrid",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/magnet/pueblo-guadalajara-quiere-independizarse-castilla-mancha-anexionarse-a-comunidad-madrid",
-      "fecha": "2026-11-09T10:01:07+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "1758d4d79e25a50f",
-      "titulo": "El Hospital La Fe realiza con éxito un trasplante cardíaco a un hombre de 70 años que contaba con un \"corazón mecánico\"",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/medicina-y-salud/hospital-fe-realiza-exito-trasplante-cardiaco-a-hombre-70-anos-que-contaba-corazon-mecanico",
-      "fecha": "2026-11-09T09:46:58+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "490d3395b80a7ce5",
-      "titulo": "El teclado que me llevaría a cualquier lugar es pequeño, cómodo y funciona incluso con televisores",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/seleccion/teclado-que-me-llevaria-a-cualquier-lugar-pequeno-comodo-funciona-incluso-televisores",
-      "fecha": "2026-11-09T09:45:05+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "d2cc69e6d9def99a",
-      "titulo": "La historia de las gemelas que murieron en la comuna 13 de Medellín: ¿qué se sabe sobre su muerte?",
-      "categoria": "Colombia",
-      "fuente": "La FM Actualidad",
-      "url": "https://www.lafm.com.co/actualidad/investigacion-muerte-de-dos-hermanas-en-medellin-comuna-13-416549",
-      "fecha": "2026-11-09T09:41:24+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "42ae7e71b4e04dbe",
-      "titulo": "NVIDIA solo quiere saber si Jensen Huang filtró secretos. Es la pregunta menos inquietante",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/empresas-y-economia/nvidia-solo-quiere-saber-jensen-huang-filtro-secretos-pregunta-inquietante",
-      "fecha": "2026-11-09T09:33:21+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "a698b052dd4a99df",
-      "titulo": "Carlos Suárez, el hombre que susurra al presidente de Colombia",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/america-colombia/2026-11-09/carlos-suarez-el-hombre-que-susurra-al-presidente-de-colombia.html",
-      "fecha": "2026-11-09T09:30:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "84be1c116558588c",
-      "titulo": "Pozos como estrellas de rock: la apuesta incierta del ‘fracking’ en Colombia",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/america-colombia/2026-11-09/pozos-como-estrellas-del-rock-la-apuesta-incierta-del-fracking-en-colombia.html",
-      "fecha": "2026-11-09T09:30:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "eef7539cd5a05ac5",
-      "titulo": "Los latinos que castigaron con su voto a Trump por sus familiares detenidos por el ICE: “Voté por todos los que no pueden”",
-      "categoria": "Internacional",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/us/2026-11-09/los-latinos-que-castigaron-con-su-voto-a-trump-por-sus-familiares-detenidos-por-el-ice-vote-por-todos-los-que-no-pueden.html",
-      "fecha": "2026-11-09T09:30:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "eb29bb6c1ebf0d18",
-      "titulo": "Las tropas de Bukele en Haití operan sin reglas claras ni fecha de retorno: “Son su propia fuerza”",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/america/2026-11-09/las-tropas-de-bukele-en-haiti-operan-sin-reglas-claras-ni-fecha-de-retorno-son-su-propia-fuerza.html",
-      "fecha": "2026-11-09T09:30:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "896a29e219d1e339",
-      "titulo": "Akima, modelo y víctima de suplantación con IA: “Es violento que un hombre use la tecnología para sexualizar tu cuerpo”",
-      "categoria": "Tecnología",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/mexico/2026-11-09/akima-modelo-y-victima-de-suplantacion-con-ia-es-violento-que-un-hombre-use-la-tecnologia-para-sexualizar-tu-cuerpo.html",
-      "fecha": "2026-11-09T09:30:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "2fbe5665b61cf105",
-      "titulo": "Auge y caída del imperio audiovisual de Reese Witherspoon: de ser comprado por 900 millones a valer menos de 50 y despedir a media plantilla",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/us/entretenimiento/2026-11-09/auge-y-caida-del-imperio-audiovisual-de-reese-witherspoon-de-ser-comprado-por-900-millones-a-valer-menos-de-50-y-despedir-a-media-plantilla.html",
-      "fecha": "2026-11-09T09:30:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "7719c70fbe8f0b35",
-      "titulo": "¿A qué teme Abelardo de la Espriella?",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/america-colombia/2026-11-09/a-que-teme-abelardo-de-la-espriella.html",
-      "fecha": "2026-11-09T09:30:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "15af07cce989e701",
-      "titulo": "Lo que el dinero no puede comprar",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/america-colombia/2026-11-09/lo-que-el-dinero-no-puede-comprar.html",
-      "fecha": "2026-11-09T09:30:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "f620198125547293",
-      "titulo": "El Jambato negro: el sapo que llevó al Estado ecuatoriano a la justicia para exigir sus derechos",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/america-futura/2026-11-09/el-jambato-negro-el-sapo-que-llevo-al-estado-ecuatoriano-a-la-justicia-para-exigir-sus-derechos.html",
-      "fecha": "2026-11-09T09:30:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "adea16df9c3a37ae",
-      "titulo": "El ‘boom’ exportador de la inteligencia artificial y el alza de la inversión dan un nuevo impulso a la economía mexicana",
-      "categoria": "Tecnología",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/mexico/economia/2026-11-09/el-boom-exportador-de-la-inteligencia-artificial-y-el-alza-de-la-inversion-dan-un-nuevo-impulso-a-la-economia-mexicana.html",
-      "fecha": "2026-11-09T09:30:00+00:00",
       "imagen": ""
     }
   ],
@@ -590,13 +590,13 @@
       "nombre": "BBC Mundo",
       "url": "https://feeds.bbci.co.uk/mundo/rss.xml",
       "estado": "correcto",
-      "titulares": 24
+      "titulares": 25
     },
     {
       "nombre": "DW Español",
       "url": "https://rss.dw.com/rdf/rss-sp-all",
       "estado": "correcto",
-      "titulares": 12
+      "titulares": 14
     },
     {
       "nombre": "Xataka",
@@ -626,7 +626,7 @@
       "nombre": "La FM Economía",
       "url": "https://www.lafm.com.co/rss/economia.xml",
       "estado": "correcto",
-      "titulares": 19
+      "titulares": 18
     },
     {
       "nombre": "La FM Internacional",
@@ -644,25 +644,26 @@
       "nombre": "Q'hubo Cali",
       "url": "https://www.qhubocali.com/feed/",
       "estado": "correcto",
-      "titulares": 6
+      "titulares": 4
     },
     {
       "nombre": "El Colombiano — Colombia",
       "url": "https://www.elcolombiano.com/rss/Colombia.xml",
       "estado": "correcto",
-      "titulares": 30
+      "titulares": 29
     },
     {
       "nombre": "El Diario — Pereira",
       "url": "https://www.eldiario.com.co/feed/",
-      "estado": "correcto",
-      "titulares": 35
+      "estado": "error",
+      "titulares": 0,
+      "detalle": "El feed no contiene entradas."
     },
     {
       "nombre": "Chocó 7 días",
       "url": "https://choco7dias.com/feed/",
       "estado": "correcto",
-      "titulares": 9
+      "titulares": 10
     },
     {
       "nombre": "La Patria — Caldas",
