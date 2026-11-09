@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "actualizado": "2026-11-03T22:46:06Z",
+  "actualizado": "2026-11-09T08:37:56Z",
   "categorias": {
     "Cali": [],
     "Valle del Cauca": [
@@ -261,13 +261,45 @@
       {
         "archivo": "assets/biblioteca-fotos/deportes-8.jpg",
         "fuente": "Wikimedia Commons",
+        "autor": "Юлия Новикова/Yulia Novikova/Julia Nowikowa",
+        "pagina": "https://commons.wikimedia.org/wiki/File:Ivica_Vrdoljak_2011_(2).jpg",
+        "licencia": "CC BY-SA 3.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/3.0"
+      },
+      {
+        "archivo": "assets/biblioteca-fotos/deportes-9.jpg",
+        "fuente": "Wikimedia Commons",
+        "autor": "Юлия Новикова/Yulia Novikova/Julia Nowikowa",
+        "pagina": "https://commons.wikimedia.org/wiki/File:I%C3%B1aki_Astiz_Ventura_(2011).jpg",
+        "licencia": "CC BY-SA 3.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/3.0"
+      },
+      {
+        "archivo": "assets/biblioteca-fotos/deportes-10.jpg",
+        "fuente": "Wikimedia Commons",
+        "autor": "Юлия Новикова/Yulia Novikova/Julia Nowikowa",
+        "pagina": "https://commons.wikimedia.org/wiki/File:Jakub_Wawrzyniak_2011_(2).jpg",
+        "licencia": "CC BY-SA 3.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/3.0"
+      },
+      {
+        "archivo": "assets/biblioteca-fotos/deportes-11.jpg",
+        "fuente": "Wikimedia Commons",
+        "autor": "Юлия Новикова/Yulia Novikova/Julia Nowikowa",
+        "pagina": "https://commons.wikimedia.org/wiki/File:Janusz_Gol_2011.jpg",
+        "licencia": "CC BY-SA 3.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/3.0"
+      },
+      {
+        "archivo": "assets/biblioteca-fotos/deportes-12.jpg",
+        "fuente": "Wikimedia Commons",
         "autor": "Jessie Tarbox Beals",
         "pagina": "https://commons.wikimedia.org/wiki/File:1904_Olympic_Marathon_participants,_Len_Tau_(left)_and_Jan_Mashiani_of_the_Tswana_tribe_of_South_Africa.jpg",
         "licencia": "Public domain",
         "licencia_url": ""
       },
       {
-        "archivo": "assets/biblioteca-fotos/deportes-9.jpg",
+        "archivo": "assets/biblioteca-fotos/deportes-13.jpg",
         "fuente": "Wikimedia Commons",
         "autor": "Nathan Lazarnick, New York",
         "pagina": "https://commons.wikimedia.org/wiki/File:1904_Olympics-_Runners_lined_up_at_start_of_Marathon_Race,_receiving_instructions_immediately_prior_to_start.jpg",
@@ -275,42 +307,10 @@
         "licencia_url": ""
       },
       {
-        "archivo": "assets/biblioteca-fotos/deportes-10.jpg",
-        "fuente": "Wikimedia Commons",
-        "autor": "Unknown authorUnknown author",
-        "pagina": "https://commons.wikimedia.org/wiki/File:First_runners_leaving_the_stadium_during_the_1904_Olympic_Marathon_Race._(Mellor_and_Spring_in_front_of_referees%27_automobile).jpg",
-        "licencia": "Public domain",
-        "licencia_url": ""
-      },
-      {
-        "archivo": "assets/biblioteca-fotos/deportes-11.jpg",
-        "fuente": "Wikimedia Commons",
-        "autor": "Jessie Tarbox Beals",
-        "pagina": "https://commons.wikimedia.org/wiki/File:Group_of_runners_in_the_1904_Olympic_Marathon_Race._Felix_Carbajal_de_Soto_of_Cuba_(cropped).jpg",
-        "licencia": "Public domain",
-        "licencia_url": ""
-      },
-      {
-        "archivo": "assets/biblioteca-fotos/deportes-12.jpg",
-        "fuente": "Wikimedia Commons",
-        "autor": "Jessie Tarbox Beals",
-        "pagina": "https://commons.wikimedia.org/wiki/File:Group_of_runners_in_the_1904_Olympic_Marathon_Race._Greek_competitors_and_Felix_Carbajal_de_Soto_of_Cuba_(-3).jpg",
-        "licencia": "Public domain",
-        "licencia_url": ""
-      },
-      {
-        "archivo": "assets/biblioteca-fotos/deportes-13.jpg",
-        "fuente": "Wikimedia Commons",
-        "autor": "U.S. Army",
-        "pagina": "https://commons.wikimedia.org/wiki/File:Robert_Cheseret_wins_2010_Army_Ten-Miler.jpg",
-        "licencia": "CC BY 2.0",
-        "licencia_url": "https://creativecommons.org/licenses/by/2.0"
-      },
-      {
         "archivo": "assets/biblioteca-fotos/deportes-14.jpg",
         "fuente": "Wikimedia Commons",
-        "autor": "Unknown authorUnknown author",
-        "pagina": "https://commons.wikimedia.org/wiki/File:Runners_circling_the_stadium_track_for_the_first_time_during_the_Marathon_Race_in_the_1904_Olympics_during_Louisiana_Purchase_Exposition._-9_Frank_Pierce;_-12_Michael_Spring;_-32_Charilaos_Giannakas;_-20_Thomas_Hicks;_-10_Sam_Mellor.jpg",
+        "autor": "Nathan Lazarnick, New York",
+        "pagina": "https://commons.wikimedia.org/wiki/File:Christos_Zechouritis_at_1904_Olympic_Marathon.jpg",
         "licencia": "Public domain",
         "licencia_url": ""
       }
@@ -401,21 +401,13 @@
       {
         "archivo": "assets/biblioteca-fotos/econom-a-3.jpg",
         "fuente": "Wikimedia Commons",
-        "autor": "(U.S. EPA)",
-        "pagina": "https://commons.wikimedia.org/wiki/File:Confined-animal-feeding-operation.jpg",
-        "licencia": "Public domain",
-        "licencia_url": ""
-      },
-      {
-        "archivo": "assets/biblioteca-fotos/econom-a-4.jpg",
-        "fuente": "Wikimedia Commons",
         "autor": "Cec-clp",
         "pagina": "https://commons.wikimedia.org/wiki/File:Factory-farming.jpg",
         "licencia": "CC0",
         "licencia_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
       },
       {
-        "archivo": "assets/biblioteca-fotos/econom-a-5.jpg",
+        "archivo": "assets/biblioteca-fotos/econom-a-4.jpg",
         "fuente": "Wikimedia Commons",
         "autor": "Oikeutta eläimille",
         "pagina": "https://commons.wikimedia.org/wiki/File:Factory_farmed_chickens_in_Finland.jpg",
@@ -423,7 +415,7 @@
         "licencia_url": "https://creativecommons.org/licenses/by/2.0"
       },
       {
-        "archivo": "assets/biblioteca-fotos/econom-a-6.jpg",
+        "archivo": "assets/biblioteca-fotos/econom-a-5.jpg",
         "fuente": "Wikimedia Commons",
         "autor": "Reem Bar",
         "pagina": "https://commons.wikimedia.org/wiki/File:Factory_farming_of_poultry_for_meat_in_Kfar_Yehoshua,_Israel.jpg",
@@ -431,7 +423,7 @@
         "licencia_url": "https://creativecommons.org/licenses/by-sa/3.0"
       },
       {
-        "archivo": "assets/biblioteca-fotos/econom-a-7.jpg",
+        "archivo": "assets/biblioteca-fotos/econom-a-6.jpg",
         "fuente": "Wikimedia Commons",
         "autor": "Larry Rana",
         "pagina": "https://commons.wikimedia.org/wiki/File:Florida_chicken_house.jpg",
@@ -439,12 +431,20 @@
         "licencia_url": ""
       },
       {
+        "archivo": "assets/biblioteca-fotos/econom-a-7.jpg",
+        "fuente": "Wikimedia Commons",
+        "autor": "Government of the Autonomous Province of Vojvodina",
+        "pagina": "https://commons.wikimedia.org/wiki/File:Industrial_pastry_cake_production.jpg",
+        "licencia": "CC BY-SA 3.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/3.0"
+      },
+      {
         "archivo": "assets/biblioteca-fotos/econom-a-8.jpg",
         "fuente": "Wikimedia Commons",
-        "autor": "Unknown authorUnknown author",
-        "pagina": "https://commons.wikimedia.org/wiki/File:Hog_confinement_barn_interior.jpg",
-        "licencia": "Public domain",
-        "licencia_url": ""
+        "autor": "Shixart1985",
+        "pagina": "https://commons.wikimedia.org/wiki/File:Industrial_production_line_operating_in_a_large_modern_factory.jpg",
+        "licencia": "CC BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0"
       }
     ],
     "Tendencias": [
@@ -483,21 +483,13 @@
       {
         "archivo": "assets/biblioteca-fotos/tendencias-5.jpg",
         "fuente": "Wikimedia Commons",
-        "autor": "Internet Archive Book Images",
-        "pagina": "https://commons.wikimedia.org/wiki/File:General_guide_to_the_exhibition_halls_of_the_American_Museum_of_Natural_History_(1934)_(14595317749).jpg",
-        "licencia": "Public domain",
-        "licencia_url": ""
-      },
-      {
-        "archivo": "assets/biblioteca-fotos/tendencias-6.jpg",
-        "fuente": "Wikimedia Commons",
         "autor": "Henri Rousseau",
         "pagina": "https://commons.wikimedia.org/wiki/File:Henri_Rousseau_-_Le_R%C3%AAve_-_Google_Art_Project.jpg",
         "licencia": "Public domain",
         "licencia_url": ""
       },
       {
-        "archivo": "assets/biblioteca-fotos/tendencias-7.jpg",
+        "archivo": "assets/biblioteca-fotos/tendencias-6.jpg",
         "fuente": "Wikimedia Commons",
         "autor": "Dorothea Lange",
         "pagina": "https://commons.wikimedia.org/wiki/File:Hoe_culture,_Alabama_tenant_farmer_near_Anniston,_8e07305.jpg",
@@ -505,10 +497,18 @@
         "licencia_url": ""
       },
       {
-        "archivo": "assets/biblioteca-fotos/tendencias-8.jpg",
+        "archivo": "assets/biblioteca-fotos/tendencias-7.jpg",
         "fuente": "Wikimedia Commons",
         "autor": "Dorothea Lange",
         "pagina": "https://commons.wikimedia.org/wiki/File:Hoe_culture,_Alabama_tenant_farmer_near_Anniston,_8e07305.tif",
+        "licencia": "Public domain",
+        "licencia_url": ""
+      },
+      {
+        "archivo": "assets/biblioteca-fotos/tendencias-8.jpg",
+        "fuente": "Wikimedia Commons",
+        "autor": "Dorothea Lange",
+        "pagina": "https://commons.wikimedia.org/wiki/File:Hoe_culture_in_the_South,_near_Eutaw,_Alabama,_8b29687.jpg",
         "licencia": "Public domain",
         "licencia_url": ""
       }
@@ -565,16 +565,16 @@
       {
         "archivo": "assets/biblioteca-fotos/humor-y-opini-n-7.jpg",
         "fuente": "Wikimedia Commons",
-        "autor": "Unknown authorUnknown author",
-        "pagina": "https://commons.wikimedia.org/wiki/File:Harvey_Milk_in_front_of_camera_shop_November_1977_(cropped).jpg",
+        "autor": "Horst Faas",
+        "pagina": "https://commons.wikimedia.org/wiki/File:Death_by_the_Cartload.jpg",
         "licencia": "Public domain",
         "licencia_url": ""
       },
       {
         "archivo": "assets/biblioteca-fotos/humor-y-opini-n-8.jpg",
         "fuente": "Wikimedia Commons",
-        "autor": "Paul Shane",
-        "pagina": "https://commons.wikimedia.org/wiki/File:MOVE_members_1978.jpg",
+        "autor": "Unknown authorUnknown author",
+        "pagina": "https://commons.wikimedia.org/wiki/File:Dr_Leonard_Thompson_helps_Nick_Piantanida.jpg",
         "licencia": "Public domain",
         "licencia_url": ""
       }
@@ -583,13 +583,21 @@
       {
         "archivo": "assets/biblioteca-fotos/ciencia-y-espacio-1.jpg",
         "fuente": "Wikimedia Commons",
+        "autor": "NASA",
+        "pagina": "https://commons.wikimedia.org/wiki/File:Apollo_planetarium_projector.jpeg",
+        "licencia": "Public domain",
+        "licencia_url": ""
+      },
+      {
+        "archivo": "assets/biblioteca-fotos/ciencia-y-espacio-2.jpg",
+        "fuente": "Wikimedia Commons",
         "autor": "DESI/Fiske Planetarium/LBL",
         "pagina": "https://commons.wikimedia.org/wiki/File:Fulldome_view_of_the_Night_Sky_Above_the_Mayall_4-meter_Telescope_at_Kitt_Peak_National_Observatory_(ann23010b).jpg",
         "licencia": "CC BY 4.0",
         "licencia_url": "https://creativecommons.org/licenses/by/4.0"
       },
       {
-        "archivo": "assets/biblioteca-fotos/ciencia-y-espacio-2.jpg",
+        "archivo": "assets/biblioteca-fotos/ciencia-y-espacio-3.jpg",
         "fuente": "Wikimedia Commons",
         "autor": "DESI/Fiske Planetarium/LBL",
         "pagina": "https://commons.wikimedia.org/wiki/File:Fulldome_view_of_the_Night_Sky_Above_the_Mayall_4-meter_Telescope_at_Kitt_Peak_National_Observatory_(ann23010b).tiff",
@@ -597,7 +605,7 @@
         "licencia_url": "https://creativecommons.org/licenses/by/4.0"
       },
       {
-        "archivo": "assets/biblioteca-fotos/ciencia-y-espacio-3.jpg",
+        "archivo": "assets/biblioteca-fotos/ciencia-y-espacio-4.jpg",
         "fuente": "Wikimedia Commons",
         "autor": "KPNO/NOIRLab/NSF/AURA/P. Marenfeld",
         "pagina": "https://commons.wikimedia.org/wiki/File:Night_Sky_Over_The_Nicholas_U_Mayall_4-meter_Telescope_(Mayall-Night-Sky4-5184x3456-CC).jpg",
@@ -605,7 +613,7 @@
         "licencia_url": "https://creativecommons.org/licenses/by/4.0"
       },
       {
-        "archivo": "assets/biblioteca-fotos/ciencia-y-espacio-4.jpg",
+        "archivo": "assets/biblioteca-fotos/ciencia-y-espacio-5.jpg",
         "fuente": "Wikimedia Commons",
         "autor": "KPNO/NOIRLab/NSF/AURA/P. Marenfeld",
         "pagina": "https://commons.wikimedia.org/wiki/File:Night_Sky_Over_The_Nicholas_U_Mayall_4-meter_Telescope_(Mayall-Night-Sky4-5184x3456-CC).tiff",
@@ -613,7 +621,7 @@
         "licencia_url": "https://creativecommons.org/licenses/by/4.0"
       },
       {
-        "archivo": "assets/biblioteca-fotos/ciencia-y-espacio-5.jpg",
+        "archivo": "assets/biblioteca-fotos/ciencia-y-espacio-6.jpg",
         "fuente": "Wikimedia Commons",
         "autor": "KPNO/NOIRLab/NSF/AURA/P. Marenfeld",
         "pagina": "https://commons.wikimedia.org/wiki/File:Night_Sky_Over_the_Nicholas_U_Mayall_4-meter_Telescope_(Mayall-Night-Sky1-5184x3456-CC).jpg",
@@ -621,7 +629,7 @@
         "licencia_url": "https://creativecommons.org/licenses/by/4.0"
       },
       {
-        "archivo": "assets/biblioteca-fotos/ciencia-y-espacio-6.jpg",
+        "archivo": "assets/biblioteca-fotos/ciencia-y-espacio-7.jpg",
         "fuente": "Wikimedia Commons",
         "autor": "KPNO/NOIRLab/NSF/AURA/P. Marenfeld",
         "pagina": "https://commons.wikimedia.org/wiki/File:Night_Sky_Over_the_Nicholas_U_Mayall_4-meter_Telescope_(Mayall-Night-Sky1-5184x3456-CC).tiff",
@@ -629,7 +637,7 @@
         "licencia_url": "https://creativecommons.org/licenses/by/4.0"
       },
       {
-        "archivo": "assets/biblioteca-fotos/ciencia-y-espacio-7.jpg",
+        "archivo": "assets/biblioteca-fotos/ciencia-y-espacio-8.jpg",
         "fuente": "Wikimedia Commons",
         "autor": "KPNO/NOIRLab/NSF/AURA/P. Marenfeld",
         "pagina": "https://commons.wikimedia.org/wiki/File:Night_Sky_Over_the_Nicholas_U_Mayall_4-meter_Telescope_(Mayall-Night-Sky2-5184x3456-CC).jpg",
@@ -637,7 +645,7 @@
         "licencia_url": "https://creativecommons.org/licenses/by/4.0"
       },
       {
-        "archivo": "assets/biblioteca-fotos/ciencia-y-espacio-8.jpg",
+        "archivo": "assets/biblioteca-fotos/ciencia-y-espacio-9.jpg",
         "fuente": "Wikimedia Commons",
         "autor": "KPNO/NOIRLab/NSF/AURA/P. Marenfeld",
         "pagina": "https://commons.wikimedia.org/wiki/File:Night_Sky_Over_the_Nicholas_U_Mayall_4-meter_Telescope_(Mayall-Night-Sky2-5184x3456-CC).tiff",
@@ -645,18 +653,10 @@
         "licencia_url": "https://creativecommons.org/licenses/by/4.0"
       },
       {
-        "archivo": "assets/biblioteca-fotos/ciencia-y-espacio-9.jpg",
-        "fuente": "Wikimedia Commons",
-        "autor": "KPNO/NOIRLab/NSF/AURA/P. Marenfeld",
-        "pagina": "https://commons.wikimedia.org/wiki/File:Night_Sky_Over_the_Nicholas_U_Mayall_4-meter_Telescope_(Mayall-Night-Sky3-5184x3456-CC).jpg",
-        "licencia": "CC BY 4.0",
-        "licencia_url": "https://creativecommons.org/licenses/by/4.0"
-      },
-      {
         "archivo": "assets/biblioteca-fotos/ciencia-y-espacio-10.jpg",
         "fuente": "Wikimedia Commons",
         "autor": "KPNO/NOIRLab/NSF/AURA/P. Marenfeld",
-        "pagina": "https://commons.wikimedia.org/wiki/File:Night_Sky_Over_the_Nicholas_U_Mayall_4-meter_Telescope_(Mayall-Night-Sky3-5184x3456-CC).tiff",
+        "pagina": "https://commons.wikimedia.org/wiki/File:Night_Sky_Over_the_Nicholas_U_Mayall_4-meter_Telescope_(Mayall-Night-Sky3-5184x3456-CC).jpg",
         "licencia": "CC BY 4.0",
         "licencia_url": "https://creativecommons.org/licenses/by/4.0"
       }
@@ -747,13 +747,29 @@
       {
         "archivo": "assets/biblioteca-fotos/movilidad-3.jpg",
         "fuente": "Wikimedia Commons",
+        "autor": "Mertens, Joeri",
+        "pagina": "https://commons.wikimedia.org/wiki/File:Asse_Kobbegem,_haag_op_talud_-_266788_-_onroerenderfgoed.jpg",
+        "licencia": "CC BY 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/4.0"
+      },
+      {
+        "archivo": "assets/biblioteca-fotos/movilidad-4.jpg",
+        "fuente": "Wikimedia Commons",
         "autor": "Agnes Monkelbaan",
         "pagina": "https://commons.wikimedia.org/wiki/File:Bergweg_van_Burleun,_naar_Ladinas,_Andiast._(actm)_07.jpg",
         "licencia": "CC BY-SA 4.0",
         "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0"
       },
       {
-        "archivo": "assets/biblioteca-fotos/movilidad-4.jpg",
+        "archivo": "assets/biblioteca-fotos/movilidad-5.jpg",
+        "fuente": "Wikimedia Commons",
+        "autor": "Neurdein A. G.",
+        "pagina": "https://commons.wikimedia.org/wiki/File:Beuvillers_route_d_Orbec.jpg",
+        "licencia": "Public domain",
+        "licencia_url": ""
+      },
+      {
+        "archivo": "assets/biblioteca-fotos/movilidad-6.jpg",
         "fuente": "Wikimedia Commons",
         "autor": "Agnes Monkelbaan",
         "pagina": "https://commons.wikimedia.org/wiki/File:Breil-Brigels_in_Graub%C3%BCnden_15-09-2022._(actm.)_23.jpg",
@@ -761,7 +777,7 @@
         "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0"
       },
       {
-        "archivo": "assets/biblioteca-fotos/movilidad-5.jpg",
+        "archivo": "assets/biblioteca-fotos/movilidad-7.jpg",
         "fuente": "Wikimedia Commons",
         "autor": "Michielverbeek",
         "pagina": "https://commons.wikimedia.org/wiki/File:B%C3%B6nninghardt,_die_evangelische_Pfarrkirche_Dm15_foto6_2016-05-05_14.15.jpg",
@@ -769,26 +785,10 @@
         "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0"
       },
       {
-        "archivo": "assets/biblioteca-fotos/movilidad-6.jpg",
+        "archivo": "assets/biblioteca-fotos/movilidad-8.jpg",
         "fuente": "Wikimedia Commons",
         "autor": "Michielverbeek",
         "pagina": "https://commons.wikimedia.org/wiki/File:B%C3%BCdingen,_das_Schlaghaus_in_straatzicht_positie1_foto2_2016-08-09_17.15.jpg",
-        "licencia": "CC BY-SA 4.0",
-        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0"
-      },
-      {
-        "archivo": "assets/biblioteca-fotos/movilidad-7.jpg",
-        "fuente": "Wikimedia Commons",
-        "autor": "重庆轨交18",
-        "pagina": "https://commons.wikimedia.org/wiki/File:CRT%E9%B2%A4%E9%B1%BC%E6%B1%A0_%E7%AB%99%E5%8E%85%E9%97%B4%E6%8D%A2%E4%B9%98%E9%80%9A%E9%81%93.jpg",
-        "licencia": "CC BY-SA 4.0",
-        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0"
-      },
-      {
-        "archivo": "assets/biblioteca-fotos/movilidad-8.jpg",
-        "fuente": "Wikimedia Commons",
-        "autor": "Christian Ferrer",
-        "pagina": "https://commons.wikimedia.org/wiki/File:Cabri%C3%A8res_et_le_Pic_de_Vissou_01.jpg",
         "licencia": "CC BY-SA 4.0",
         "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0"
       }
@@ -797,13 +797,37 @@
       {
         "archivo": "assets/biblioteca-fotos/salud-p-blica-1.jpg",
         "fuente": "Wikimedia Commons",
+        "autor": "LLHZ2805",
+        "pagina": "https://commons.wikimedia.org/wiki/File:4X-HCA_A.jpg",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      {
+        "archivo": "assets/biblioteca-fotos/salud-p-blica-2.jpg",
+        "fuente": "Wikimedia Commons",
+        "autor": "Lior Carmon (ליאור כרמון)",
+        "pagina": "https://commons.wikimedia.org/wiki/File:4X-HCA_Lior_Crmon_a.jpg",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      {
+        "archivo": "assets/biblioteca-fotos/salud-p-blica-3.jpg",
+        "fuente": "Wikimedia Commons",
+        "autor": "LLHZ2805",
+        "pagina": "https://commons.wikimedia.org/wiki/File:4X-HCA_Micha_b%D6%B9.jpg",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      {
+        "archivo": "assets/biblioteca-fotos/salud-p-blica-4.jpg",
+        "fuente": "Wikimedia Commons",
         "autor": "Srđan Popović",
         "pagina": "https://commons.wikimedia.org/wiki/File:AB-212_YU-HCA_MUP_R_Srbije.jpg",
         "licencia": "CC BY-SA 4.0",
         "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0"
       },
       {
-        "archivo": "assets/biblioteca-fotos/salud-p-blica-2.jpg",
+        "archivo": "assets/biblioteca-fotos/salud-p-blica-5.jpg",
         "fuente": "Wikimedia Commons",
         "autor": "Srđan Popović",
         "pagina": "https://commons.wikimedia.org/wiki/File:AB-212_YU-HCA_MUP_Srbije.jpg",
@@ -811,7 +835,15 @@
         "licencia_url": "https://creativecommons.org/licenses/by-sa/3.0"
       },
       {
-        "archivo": "assets/biblioteca-fotos/salud-p-blica-3.jpg",
+        "archivo": "assets/biblioteca-fotos/salud-p-blica-6.jpg",
+        "fuente": "Wikimedia Commons",
+        "autor": "Srđan Popović",
+        "pagina": "https://commons.wikimedia.org/wiki/File:AB_212_YU-HCA_Dan_MUPa_2020_01.jpg",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      {
+        "archivo": "assets/biblioteca-fotos/salud-p-blica-7.jpg",
         "fuente": "Wikimedia Commons",
         "autor": "Harrison Keely",
         "pagina": "https://commons.wikimedia.org/wiki/File:A_waiting_room_at_a_medical_healthcare_clinic,_doctor%27s_office,_hospital.jpg",
@@ -819,44 +851,12 @@
         "licencia_url": "https://creativecommons.org/licenses/by/4.0"
       },
       {
-        "archivo": "assets/biblioteca-fotos/salud-p-blica-4.jpg",
-        "fuente": "Wikimedia Commons",
-        "autor": "Oscar Flowers",
-        "pagina": "https://commons.wikimedia.org/wiki/File:Doctors_Hospital,_Shirley_Street_-_panoramio.jpg",
-        "licencia": "CC BY-SA 3.0",
-        "licencia_url": "https://creativecommons.org/licenses/by-sa/3.0"
-      },
-      {
-        "archivo": "assets/biblioteca-fotos/salud-p-blica-5.jpg",
-        "fuente": "Wikimedia Commons",
-        "autor": "Philipp Michel Reichold",
-        "pagina": "https://commons.wikimedia.org/wiki/File:HCA_Florida_Largo_Hospital_20230204_150521_(2).jpg",
-        "licencia": "CC BY-SA 4.0",
-        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0"
-      },
-      {
-        "archivo": "assets/biblioteca-fotos/salud-p-blica-6.jpg",
-        "fuente": "Wikimedia Commons",
-        "autor": "Kenneth C. Zirkel",
-        "pagina": "https://commons.wikimedia.org/wiki/File:HCA_Houston_Healthcare_South_Tower.jpg",
-        "licencia": "CC BY 4.0",
-        "licencia_url": "https://creativecommons.org/licenses/by/4.0"
-      },
-      {
-        "archivo": "assets/biblioteca-fotos/salud-p-blica-7.jpg",
-        "fuente": "Wikimedia Commons",
-        "autor": "The Eloquent Peasant",
-        "pagina": "https://commons.wikimedia.org/wiki/File:Helicopter_landing_pad_at_HCA_Florida_Oak_Hill_Hospital_in_Brooksville_01.jpg",
-        "licencia": "CC0",
-        "licencia_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
-      },
-      {
         "archivo": "assets/biblioteca-fotos/salud-p-blica-8.jpg",
         "fuente": "Wikimedia Commons",
-        "autor": "The Eloquent Peasant",
-        "pagina": "https://commons.wikimedia.org/wiki/File:Helicopter_landing_pad_at_HCA_Florida_Oak_Hill_Hospital_in_Brooksville_02.jpg",
-        "licencia": "CC0",
-        "licencia_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+        "autor": "HCA",
+        "pagina": "https://commons.wikimedia.org/wiki/File:Corporate_Office_1972.jpg",
+        "licencia": "CC BY-SA 3.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/3.0"
       }
     ],
     "General": [
@@ -871,24 +871,24 @@
       {
         "archivo": "assets/biblioteca-fotos/general-2.jpg",
         "fuente": "Wikimedia Commons",
-        "autor": "Cogiati",
-        "pagina": "https://commons.wikimedia.org/wiki/File:Cosplayers_at_Comicdom_2012_in_Athens,_Greece_grant_interviews_to_the_MTV_television_channel_02.JPG",
-        "licencia": "CC0",
-        "licencia_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+        "autor": "Km Wilhelm",
+        "pagina": "https://commons.wikimedia.org/wiki/File:A_Child_Plays_While_A_Crowd_Protests_(199548081).jpeg",
+        "licencia": "CC BY 3.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/3.0"
       },
       {
         "archivo": "assets/biblioteca-fotos/general-3.jpg",
         "fuente": "Wikimedia Commons",
-        "autor": "Cogiati",
-        "pagina": "https://commons.wikimedia.org/wiki/File:Cosplayers_at_Comicdom_2012_in_Athens,_Greece_grant_interviews_to_the_MTV_television_channel_06.JPG",
-        "licencia": "CC0",
-        "licencia_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+        "autor": "See-ming Lee 李思明 SML",
+        "pagina": "https://commons.wikimedia.org/wiki/File:Communication_-_Folsom_Street_East_2007_-_New_York_(589076211).jpg",
+        "licencia": "CC BY-SA 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/2.0"
       },
       {
         "archivo": "assets/biblioteca-fotos/general-4.jpg",
         "fuente": "Wikimedia Commons",
         "autor": "Cogiati",
-        "pagina": "https://commons.wikimedia.org/wiki/File:Cosplayers_at_Comicdom_2012_in_Athens,_Greece_grant_interviews_to_the_MTV_television_channel_14.JPG",
+        "pagina": "https://commons.wikimedia.org/wiki/File:Cosplayers_at_Comicdom_2012_in_Athens,_Greece_grant_interviews_to_the_MTV_television_channel_02.JPG",
         "licencia": "CC0",
         "licencia_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
       },
@@ -896,7 +896,7 @@
         "archivo": "assets/biblioteca-fotos/general-5.jpg",
         "fuente": "Wikimedia Commons",
         "autor": "Cogiati",
-        "pagina": "https://commons.wikimedia.org/wiki/File:Cosplayers_at_Comicdom_2012_in_Athens,_Greece_grant_interviews_to_the_MTV_television_channel_15.JPG",
+        "pagina": "https://commons.wikimedia.org/wiki/File:Cosplayers_at_Comicdom_2012_in_Athens,_Greece_grant_interviews_to_the_MTV_television_channel_06.JPG",
         "licencia": "CC0",
         "licencia_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
       },
@@ -904,7 +904,7 @@
         "archivo": "assets/biblioteca-fotos/general-6.jpg",
         "fuente": "Wikimedia Commons",
         "autor": "Cogiati",
-        "pagina": "https://commons.wikimedia.org/wiki/File:Cosplayers_at_Comicdom_2012_in_Athens,_Greece_grant_interviews_to_the_MTV_television_channel_16.JPG",
+        "pagina": "https://commons.wikimedia.org/wiki/File:Cosplayers_at_Comicdom_2012_in_Athens,_Greece_grant_interviews_to_the_MTV_television_channel_14.JPG",
         "licencia": "CC0",
         "licencia_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
       },
@@ -912,7 +912,7 @@
         "archivo": "assets/biblioteca-fotos/general-7.jpg",
         "fuente": "Wikimedia Commons",
         "autor": "Cogiati",
-        "pagina": "https://commons.wikimedia.org/wiki/File:Cosplayers_at_Comicdom_2012_in_Athens,_Greece_grant_interviews_to_the_MTV_television_channel_20.JPG",
+        "pagina": "https://commons.wikimedia.org/wiki/File:Cosplayers_at_Comicdom_2012_in_Athens,_Greece_grant_interviews_to_the_MTV_television_channel_15.JPG",
         "licencia": "CC0",
         "licencia_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
       },
@@ -920,7 +920,7 @@
         "archivo": "assets/biblioteca-fotos/general-8.jpg",
         "fuente": "Wikimedia Commons",
         "autor": "Cogiati",
-        "pagina": "https://commons.wikimedia.org/wiki/File:Cosplayers_at_Comicdom_2012_in_Athens,_Greece_grant_interviews_to_the_MTV_television_channel_26.JPG",
+        "pagina": "https://commons.wikimedia.org/wiki/File:Cosplayers_at_Comicdom_2012_in_Athens,_Greece_grant_interviews_to_the_MTV_television_channel_16.JPG",
         "licencia": "CC0",
         "licencia_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
       }
