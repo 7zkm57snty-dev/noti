@@ -1,6 +1,159 @@
 {
-  "ultima_actualizacion": "2026-11-09T22:26:40.528442+00:00",
+  "ultima_actualizacion": "2026-11-09T23:22:24.758471+00:00",
   "titulares_rss": [
+    {
+      "id": "3fb34f89995d33fb",
+      "titulo": "Angie Rodríguez, a rectificar por acusar a Sarabia de chantaje a Petro",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/en-vivo/angie-rodriguez-a-rectificar-por-acusar-a-sarabia-de-chantaje-a-petro/",
+      "fecha": "2026-11-09T23:21:26+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "43fa4b316bcd7e13",
+      "titulo": "Isabel Zulueta denunció a Abelardo por acuerdo de minerales con EE.UU.",
+      "categoria": "Internacional",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/silla-amazonia/amazonia-en-breve/isabel-zulueta-denuncio-a-abelardo-por-acuerdo-de-minerales-con-ee-uu/",
+      "fecha": "2026-11-09T23:19:50+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "3ed1f85e01f7671f",
+      "titulo": "Inflación en Colombia cerró octubre al alza: subió ligeramente hasta el 6,30% anual, de acuerdo con el Dane",
+      "categoria": "Economía",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/finanzas/inflacion-en-colombia-cerro-octubre-al-alza-subio-ligeramente-hasta-el-6-30-anual-de-acuerdo-con-el-dane-506022",
+      "fecha": "2026-11-09T23:15:27+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "7110333fb7db55e4",
+      "titulo": "El Dane reveló que el IPC correspondiente al décimo mes del año llegó hasta 6,30%",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/economia/el-dane-revelo-que-la-inflacion-en-el-decimo-mes-del-ano-llego-hasta-6-30-4520889",
+      "fecha": "2026-11-09T23:10:38+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "a3b8ccc6525242a9",
+      "titulo": "Juez ordenó a Angie Rodríguez retractarse de varias afirmaciones sin pruebas que hizo contra Laura Sarabia",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/juez-ordena-angie-rodriguez-retractarse-afirmaciones-contra-laura-sarabia-por-que-EC43367928",
+      "fecha": "2026-11-09T23:07:24+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "37180a205eb3736d",
+      "titulo": "Estas son las identidades de tres de las cuatro personas que murieron en el accidente de tránsito dentro de un túnel en la vía Buga-Buenaventura",
+      "categoria": "Valle del Cauca",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/estas-son-las-identidades-de-tres-de-las-cuatro-personas-que-murieron-en-el-accidente-de-transito-dentro-de-un-tunel-en-la-via-buga-buenaventura-3599727",
+      "fecha": "2026-11-09T23:02:05+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "9dbde4d16216bcef",
+      "titulo": "Fiscalía definió fecha de continuación de indagatoria contra Álvaro Uribe por masacres de El Aro y La Granja",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/fiscalia-define-fecha-indagatoria-alvaro-uribe-masacres-el-aro-la-granja-AD43372277",
+      "fecha": "2026-11-09T22:58:47+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "4f179770d591def5",
+      "titulo": "La Fiscalía de Paraguay trata de abrir una bóveda oculta hallada en una propiedad del expresidente Santiago Peña",
+      "categoria": "Colombia",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/c6zxjxyz1ejpo?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-09T22:56:47+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "95345d8da5c737ba",
+      "titulo": "Un congresista republicano inicia el proceso para el \"impeachment\" del secretario de Defensa de EE.UU. por la guerra en Irán",
+      "categoria": "Internacional",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/cm62y2l3eng1o?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-09T22:46:51+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "27d04010e1f644c6",
+      "titulo": "SAE pone la mira en activos digitales y criptomonedas: estos son los retos para la extinción de dominio",
+      "categoria": "Economía",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/gobierno/sae-pone-la-mira-en-activos-digitales-y-criptomonedas-estos-son-los-retos-para-la-extincion-de-dominio-506021",
+      "fecha": "2026-11-09T22:43:06+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "8ca7b3faed6f91ad",
+      "titulo": "# Inflación anual en Colombia sigue al alza y llega al 6,30 % en octubre",
+      "categoria": "Economía",
+      "fuente": "La FM Economía",
+      "url": "https://www.lafm.com.co/economia/inflacion-en-colombia-subio-al-6-30-por-ciento-anual-en-octubre-de-2026-416659",
+      "fecha": "2026-11-09T22:43:01+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "ccf5e10c8db2dd72",
+      "titulo": "Gadi Eisenkot recibe el mandato para formar gobierno en Israel ¿Este seria el fin del sistema de Netanyahu?",
+      "categoria": "Colombia",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/gobierno/gadi-eisenkot-recibe-el-mandato-para-formar-gobierno-en-israel-este-seria-el-fin-del-sistema-de-netanyahu-506015",
+      "fecha": "2026-11-09T22:41:43+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "27efc2eecfcacc36",
+      "titulo": "Revelan videollamada de Deicy Jiménez y Petro con perfil falso: “Te veo rozagante”",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/sexocontratos-grabacion-videollamada-gustavo-petro-deicy-jimenez-perfil-falso-ND43371873",
+      "fecha": "2026-11-09T22:41:26+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "11b906a56d944c98",
+      "titulo": "Fiscalía seguirá investigando a Uribe por masacres en Antioquia y no la Comisión de Acusación; ¿qué implica?",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/corte-constitucional-define-investigacion-uribe-masacres-antioquia-HB43350052",
+      "fecha": "2026-11-09T22:35:40+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "44ac1f2a1d566846",
+      "titulo": "Al menos 16 muertos y 13 heridos en una explosión en una acería en Turquía",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/internacional/2026-11-09/al-menos-16-muertos-y-13-heridos-en-una-explosion-en-una-aceria-en-turquia.html",
+      "fecha": "2026-11-09T22:33:39+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "d9b2293fdc6e2af0",
+      "titulo": "Corrección: Ahora sí, la lista completa de los 132 proyectos de la Milagro Week",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/silla-nacional/correccion-ahora-si-la-lista-completa-de-los-132-proyectos-de-la-milagro-week/",
+      "fecha": "2026-11-09T22:32:56+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "ecd201791578a628",
+      "titulo": "Las Fiestas de Independencia dinamizan el comercio en Cartagena: desde los hoteles y restaurantes hasta la informalidad... todos ganan",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/las-fiestas-de-independencia-dinamizan-el-comercio-en-cartagena-desde-los-hoteles-y-restaurantes-hasta-la-informalidad-todos-ganan-3599726",
+      "fecha": "2026-11-09T22:25:51+00:00",
+      "imagen": ""
+    },
     {
       "id": "3a0a18ce85e243c2",
       "titulo": "El segundo día de León XIV en Argentina, en vivo | El Papa se reúne en Buenos Aires con víctimas de abuso",
@@ -8,6 +161,24 @@
       "fuente": "El País Colombia",
       "url": "https://elpais.com/america/2026-11-09/el-segundo-dia-de-leon-xiv-en-argentina-en-vivo-el-papa-visita-un-centro-de-discapacitados-en-su-segundo-dia-en-argentina.html",
       "fecha": "2026-11-09T22:24:34+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "64dbf08465ea821e",
+      "titulo": "Niño colombiano, promesa del motocross, murió tras accidente en un entrenamiento en EE. UU.: piden ayuda para su repatriación",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/santander/tragedia-en-ee-uu-nino-promesa-de-motocross-murio-tras-accidente-en-un-entrenamiento-le-cayo-un-vehiculo-encima-piden-ayuda-para-su-repatriacion-3599698",
+      "fecha": "2026-11-09T22:21:10+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "359608451ac22552",
+      "titulo": "Video | ‘No te detengas a mitad del camino’: la conmovedora canción con la que Héctor Zuleta acompaña la recuperación de Kbeto en Barranquilla",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/barranquilla/video-no-te-detengas-a-mitad-del-camino-la-conmovedora-cancion-con-la-que-hector-zuleta-acompana-la-recuperacion-de-kbeto-en-barranquilla-3599731",
+      "fecha": "2026-11-09T22:20:00+00:00",
       "imagen": ""
     },
     {
@@ -30,7 +201,7 @@
     },
     {
       "id": "a757df7226f924ac",
-      "titulo": "Resolución 7944 (15 Octubre 2026) Por la cual se inscribe la Fundación Manos que Trabajan con Amor, Sigla Fundamor, Nit. 901018192-3",
+      "titulo": "Resolución 7944 (15 Octubre 2026) Por la cual se inscribe la Fundación Manos que Trabajan con Amor, Sigla Funtramor, Nit. 901018192-3",
       "categoria": "Colombia",
       "fuente": "Chocó 7 días",
       "url": "https://choco7dias.com/resolucion-7944-15-octubre-2026-por-la-cual-se-inscribe-la-fundacion-manos-que-trabajan-con-amor-sigla-fundamor-nit-901018192-3/",
@@ -53,15 +224,6 @@
       "fuente": "La Silla Vacía",
       "url": "https://www.lasillavacia.com/en-vivo/uribismo-cierra-la-puerta-a-una-alianza-electoral-con-petro-para-2027/",
       "fecha": "2026-11-09T22:06:17+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "7ef78cc165ffb165",
-      "titulo": "Carlos Alberto Varela, cada vez más cerca de la Asamblea del Valle",
-      "categoria": "Colombia",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/politica/graffiti/carlos-alberto-varela-libreros-asamblea-del-valle-elecciones-2027/",
-      "fecha": "2026-11-09T22:05:54+00:00",
       "imagen": ""
     },
     {
@@ -201,7 +363,7 @@
     },
     {
       "id": "35d2ce7d223bf5ed",
-      "titulo": "Video | Fuerte choque entre bus y camión tipo niñera en la vía a Buenaventura dejó al menos tres muertos y varios heridos",
+      "titulo": "Video | Fuerte choque entre bus y camión tipo niñera en la vía a Buenaventura dejó 4 muertos y 7 heridos",
       "categoria": "Valle del Cauca",
       "fuente": "El Colombiano — Colombia",
       "url": "https://www.elcolombiano.com/colombia/video-choque-bus-camion-ninera-via-buenaventura-deja-tres-muertos-varios-heridos-EC43364536",
@@ -263,24 +425,6 @@
       "imagen": ""
     },
     {
-      "id": "a3b8ccc6525242a9",
-      "titulo": "Juez ordenó a Angie Rodríguez retractarse de varias afirmaciones que hizo contra Laura Sarabia",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/juez-ordena-angie-rodriguez-retractarse-afirmaciones-contra-laura-sarabia-por-que-EC43367928",
-      "fecha": "2026-11-09T21:12:19+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "64dbf08465ea821e",
-      "titulo": "Niño colombiano y promesa del motocross murió tras accidente en un entrenamiento en EE. UU.: piden ayuda para su repatriación",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/santander/tragedia-en-ee-uu-nino-promesa-de-motocross-murio-tras-accidente-en-un-entrenamiento-le-cayo-un-vehiculo-encima-piden-ayuda-para-su-repatriacion-3599698",
-      "fecha": "2026-11-09T21:10:56+00:00",
-      "imagen": ""
-    },
-    {
       "id": "2e5529df33b3dfd4",
       "titulo": "Ataques con drones y explosivos contra peajes del Cauca: ya son cinco atentados en tres meses",
       "categoria": "Valle del Cauca",
@@ -338,7 +482,7 @@
       "id": "6a06f778e047c27d",
       "titulo": "¿Quién era Felipe Domínguez, una de las víctimas del fatídico accidente entre una buseta, una tractomula y una moto en la vía a Buenaventura?",
       "categoria": "Valle del Cauca",
-      "fuente": "El Tiempo",
+      "fuente": "El Tiempo Cali",
       "url": "https://www.eltiempo.com/colombia/cali/quien-era-felipe-dominguez-una-de-las-victimas-del-fatidico-accidente-de-una-buseta-una-tractomula-y-una-moto-en-la-via-a-buenaventura-3599683",
       "fecha": "2026-11-09T20:53:36+00:00",
       "imagen": ""
@@ -396,150 +540,6 @@
       "url": "https://occidente.co/opinion/columnistas/tres-meses-despues-la-realidad/",
       "fecha": "2026-11-09T20:48:34+00:00",
       "imagen": ""
-    },
-    {
-      "id": "e9003a8d87de5a49",
-      "titulo": "De escombros a recursos: así transforma Cali más de 300.000 toneladas de residuos del terremoto en nuevas vías y mobiliario",
-      "categoria": "Cali",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/cali/de-escombros-a-recursos-asi-transforma-cali-mas-de-300-000-toneladas-de-residuos-del-terremoto-en-nuevas-vias-y-mobiliario-3599699",
-      "fecha": "2026-11-09T20:48:30+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "8251370e63f6dbac",
-      "titulo": "Estos son los 17 departamentos que aparecen en el supuesto plan que hubo para alterar las elecciones de 2026",
-      "categoria": "Colombia",
-      "fuente": "La FM Actualidad",
-      "url": "https://www.lafm.com.co/actualidad/plan-manipular-elecciones-2026-hacker-registraduria-departamentos-ivan-cepeda-abelardo-de-la-espriella-416641",
-      "fecha": "2026-11-09T20:47:09+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "72c44ff2abfdf84d",
-      "titulo": "La empresa eléctrica Itaipú tiene US$182 millones depositados en Ueno Bank",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/la-electrica-itaipu-tiene-us-182-millones-depositados-en-ueno-bank-4520785",
-      "fecha": "2026-11-09T20:45:16+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "9bebf4f68899d523",
-      "titulo": "Tres meses después del terremoto en Cali: así van los trabajos con órdenes de demoler más de 80 edificaciones en la capital del Valle",
-      "categoria": "Cali",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/cali/tres-meses-despues-del-terremoto-en-cali-asi-van-los-trabajos-con-ordenes-de-demoler-mas-de-80-edificaciones-en-la-capital-del-valle-3599693",
-      "fecha": "2026-11-09T20:43:47+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "5a4ee64d346c8c97",
-      "titulo": "SpaceX planea construir centro de datos y una planta de gas de US$24 mil millones en Texas",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/spacex-planea-construir-centro-de-datos-y-una-planta-de-gas-de-us-24-mil-millones-en-texas-4520781",
-      "fecha": "2026-11-09T20:38:15+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "11aec201ab8bc606",
-      "titulo": "Exclusión laboral: los mayores de 50 están atrapados entre la informalidad y la crisis pensional",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/crecimiento/exclusion-laboral-los-mayores-de-50-estan-atrapados-entre-la-informalidad-y-la-crisis-pensional-506003",
-      "fecha": "2026-11-09T20:37:30+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "82cc4faf59080ed7",
-      "titulo": "Los ciberataques a frigoríficos de supermercados europeos dieron la vuelta al mundo. Francia acaba de señalar a un responsable",
-      "categoria": "Economía",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/seguridad/ciberataques-a-frigorificos-supermercados-europeos-dieron-vuelta-al-mundo-francia-acaba-senalar-a-responsable",
-      "fecha": "2026-11-09T20:37:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "da68c9513f063e6f",
-      "titulo": "Seis ambulancias, médicos en el Metropolitano y una red de clínicas: así será el plan de salud para la final de la Sudamericana en Barranquilla",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/barranquilla/seis-ambulancias-medicos-en-el-metropolitano-y-una-red-de-clinicas-asi-sera-el-plan-de-salud-para-la-final-de-la-sudamericana-en-barranquilla-3599701",
-      "fecha": "2026-11-09T20:35:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "4ba2310ed5ad6df7",
-      "titulo": "PepsiCo recortará 1.000 puestos de trabajo en su reestructuración en Norteamérica",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/pepsico-recortara-1-000-puestos-de-trabajo-en-su-reestructuracion-en-norteamerica-4520776",
-      "fecha": "2026-11-09T20:32:42+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "5541f1da210f36e0",
-      "titulo": "Latin Grammy 2026: fecha, hora y dónde verlos en Colombia",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/actualidad/tendencia/latin-grammy-2026-fecha-hora-y-donde-verlos-en-colombia/",
-      "fecha": "2026-11-09T20:30:33+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "f5ec435eea3314c7",
-      "titulo": "Coincidencias y diferencias entre las propuestas de la ley de Rescate del Gobierno y las del Centro Democrático",
-      "categoria": "Colombia",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/gobierno/ajuste-al-iva-a-alimentos-bajo-la-lupa-uribismo-y-petrismo-cuestionan-este-punto-de-la-ley-de-rescate-economico-506005",
-      "fecha": "2026-11-09T20:28:56+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "a28e4328d27a34a7",
-      "titulo": "‘El tiempo pasa y se nos van las ordinarias’: quedan menos de 6 semanas para poder aprobar la reforma tributaria",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/el-tiempo-pasa-y-se-nos-van-las-ordinarias-quedan-menos-de-6-semanas-para-poder-aprobar-la-reforma-tributaria-506008",
-      "fecha": "2026-11-09T20:28:09+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "9e7f25cb1a5f7afd",
-      "titulo": "Un escándalo de espías y seducción en el gigante tecnológico Nvidia compromete a Donald Trump",
-      "categoria": "Internacional",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/us/2026-11-09/un-escandalo-de-espias-y-seduccion-en-el-gigante-tecnologico-nvidia-compromete-a-donald-trump.html",
-      "fecha": "2026-11-09T20:27:14+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "03aecd4298cd7c94",
-      "titulo": "¿Cómo estuvo la seguridad en Cali durante el segundo fin de semana de noviembre?: así fue el balance policial",
-      "categoria": "Cali",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/cali/como-estuvo-la-seguridad-en-cali-durante-el-segundo-fin-de-semana-de-noviembre-asi-fue-el-balance-policial-3599682",
-      "fecha": "2026-11-09T20:21:22+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "737fb2257e3522f0",
-      "titulo": "\"Con nuestros niños no se mete nadie\": presidente De La Espriella tras desmantelamiento de red de abuso infantil",
-      "categoria": "Colombia",
-      "fuente": "La FM Actualidad",
-      "url": "https://www.lafm.com.co/actualidad/desmantelamiento-de-red-de-abuso-infantil-abelardo-se-pronuncia-416644",
-      "fecha": "2026-11-09T20:21:06+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "3cd866782c78c30f",
-      "titulo": "¿Dónde quedó la plata de los Equipos Básicos de Salud? La Contraloría tendría problemas para seguirle el rastro a $4,1 billones",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/contraloria-no-rastrea-41-billones-equipos-basicos-salud-HB43355255",
-      "fecha": "2026-11-09T20:20:24+00:00",
-      "imagen": ""
     }
   ],
   "estado_fuentes": [
@@ -553,7 +553,7 @@
       "nombre": "El Tiempo Cali",
       "url": "https://www.eltiempo.com/rss/colombia_cali.xml",
       "estado": "correcto",
-      "titulares": 5
+      "titulares": 7
     },
     {
       "nombre": "El Espectador",
@@ -620,13 +620,13 @@
       "nombre": "La FM Deportes",
       "url": "https://www.lafm.com.co/rss/deportes.xml",
       "estado": "correcto",
-      "titulares": 17
+      "titulares": 16
     },
     {
       "nombre": "La FM Economía",
       "url": "https://www.lafm.com.co/rss/economia.xml",
       "estado": "correcto",
-      "titulares": 15
+      "titulares": 16
     },
     {
       "nombre": "La FM Internacional",
