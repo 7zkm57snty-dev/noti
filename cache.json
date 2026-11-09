@@ -1,6 +1,119 @@
 {
   "noticias": [
     {
+      "id": "c81e6d7b603fc7dd",
+      "autor": "CEV NOTICIAS",
+      "titulo": "Cali enfrenta crisis de salud mental tras terremoto: 60.000 consultas y 155 fallecidos",
+      "titular_instagram": "Cali: 60.000 consultas de salud mental tras terremoto, 155 vidas perdidas",
+      "resumen": "Tres meses después del terremoto del 10 de agosto, la capital del Valle del Cauca registra 155 fallecidos y 1.516 heridos, pero la cifra más alarmante es la de casi 60.000 personas que han solicitado atención psicológica. El informe de la Alcaldía y la Gobernación revela que la ciudad, ya afectada por la pandemia y el estallido social, se enfrenta a un “trauma acumulado” que exige una respuesta institucional sostenida y la coordinación con otras regiones, como Risaralda, donde familias siguen sin recibir subsidios de arrendamiento.",
+      "categoria": "Cali",
+      "contenido": "El sismo que sacudió Santiago de Cali el 10 de agosto dejó 155 vidas perdidas y 1.516 heridos, cifra que la Alcaldía confirma como definitiva. Más allá de las estructuras derribadas, la ciudad enfrenta una crisis silenciosa: casi 60.000 habitantes han buscado ayuda psicológica, según el último informe de la Alcaldía.\n\nEl número de llamadas a la Línea de Salud Mental 106 se disparó de un promedio mensual de 868 a 4.058 en los días posteriores al terremoto, lo que indica un aumento casi cinco veces en la demanda de apoyo emocional. La respuesta institucional incluyó 1.676 actividades de intervención, entre ellas primeros auxilios psicológicos, talleres de regulación emocional y espacios grupales para el manejo de la ansiedad, alcanzando a 17.623 personas.\n\nEl secretario de Salud Pública de Cali, Germán Escobar, explicó que la ciudad ya presentaba “graves afectaciones en su salud mental” antes del sismo, debido a la pandemia, el estallido social y los atentados terroristas del año anterior. El terremoto, según él, fue el detonante final que colapsó la resistencia anímica de una población ya al límite.\n\nEn el terreno, la respuesta inmediata terminó formalmente cuando la Alcaldía confirmó que no hay personas desaparecidas y que el Puesto de Mando Unificado cerró la lista de víctimas por recuperar. Se rescataron 88 personas atrapadas entre escombros y la red hospitalaria reportó solo cuatro pacientes bajo cuidado médico.\n\nLa crisis psicológica no se limita a Cali. En Risaralda, miles de familias siguen sin acceder a los subsidios de arrendamiento anunciados por el Gobierno Nacional. Aunque 13.000 hogares recibieron el primer giro, otros, aunque registrados en el Registro Único de Damnificados, no han recibido ningún desembolso. Este paralelismo subraya la necesidad de una coordinación interdepartamental para garantizar que la ayuda llegue a quienes la necesitan.\n\nAún quedan interrogantes: la cantidad exacta de personas que han sufrido amputaciones, la cobertura de los subsidios de arrendamiento en Risaralda y la continuidad de las intervenciones psicológicas en Cali. La Gobernación planea un nuevo giro de recursos, pero la fecha de entrega y la distribución de los fondos aún no están claras.\n\nEn síntesis, la reconstrucción de Cali tras el terremoto implica no solo levantar muros, sino también sanar heridas invisibles. La respuesta institucional ha sido amplia, pero la sostenibilidad de los programas de salud mental y la coordinación con otras regiones son factores críticos que determinarán el ritmo de recuperación de la ciudad y del Valle del Cauca en general.",
+      "estado_informacion": "confirmada",
+      "investigacion": {
+        "enfoque_original": "La cobertura aporta una visión integral de la crisis psicológica en Cali, contrastando datos de la Alcaldía con la respuesta de la Gobernación y vinculando la situación con la problemática de ayuda en Risaralda. Se destacan cifras concretas de consultas, intervenciones y la continuidad de la respuesta, ofreciendo un panorama actualizado que no aparece en los comunicados oficiales.",
+        "hechos_clave": [
+          "El terremoto del 10 de agosto dejó 155 fallecidos y 1.516 heridos en Cali.",
+          "Casi 60.000 personas solicitaron atención formal en salud mental, con 4.058 llamadas a la Línea 106.",
+          "La Gobernación ejecutó 1.676 actividades de intervención especializada, beneficiando a 17.623 personas."
+        ],
+        "fuentes_recuperadas": 2,
+        "dominios_independientes": 2,
+        "fecha": "2026-11-08T23:37:04.480228+00:00"
+      },
+      "imagen": "",
+      "imagen_credito": {},
+      "imagen_busqueda_intentada": true,
+      "imagen_instagram": "https://cevnoticias.com/social/c81e6d7b603fc7dd.jpg",
+      "imagen_instagram_tipo": "portada_grafica_cev",
+      "descripcion_instagram": "Cali enfrenta crisis de salud mental tras terremoto: 60.000 consultas y 155 fallecidos\\n\\nTres meses después del terremoto del 10 de agosto, la capital del Valle del Cauca registra 155 fallecidos y 1.516 heridos, pero la cifra más alarmante es la de casi 60.000 personas que han solicitado atención psicológica. El informe de la Alcaldía y la Gobernación revela que la ciudad, ya afectada por la pandemia y el estallido social, se enfrenta a un “trauma acumulado” que exige una respuesta institucional sostenida y la coordinación con otras regiones, como Risaralda, donde familias siguen sin recibir subsidios de arrendamiento.\\n\\nLee la noticia completa en cevnoticias.com.\\n\\n#CEVNoticias #Actualidad #Cali #ValleDelCauca",
+      "verificacion": "Varias fuentes independientes",
+      "fecha": "08/11/2026 · 06:37 PM",
+      "fuentes": [
+        {
+          "nombre": "El Tiempo Cali",
+          "titulo": "Tres meses después del terremoto: la crisis de la salud mental por consultas de casi 60.000 personas y el dolor por 155 vidas desvanecidas en Cali",
+          "url": "https://www.eltiempo.com/colombia/cali/tres-meses-despues-del-terremoto-la-crisis-de-la-salud-mental-por-consultas-de-casi-60-000-personas-y-el-dolor-por-155-vidas-desvanecidas-en-cali-3599314"
+        },
+        {
+          "nombre": "La FM Actualidad",
+          "titulo": "Tres meses después del terremoto, damnificados de Risaralda siguen esperando ayudas estatales",
+          "url": "https://www.lafm.com.co/actualidad/damnificados-terremoto-risaralda-sin-ayudas-piden-explicaciones-416420"
+        }
+      ]
+    },
+    {
+      "id": "6c110237f51d58fb",
+      "autor": "CEV NOTICIAS",
+      "titulo": "Nancy Copete: de la tragedia del terremoto a la reconstrucción de su hogar y su esperanza",
+      "titular_instagram": "Nancy Copete: esperanza y hogar tras el terremoto de Chocó",
+      "resumen": "El terremoto del 10 de agosto dejó a Nancy Copete, una adulta mayor de Chocó, sin ambas piernas. Ahora, con el apoyo de fundaciones, voluntarios de Quibdó y Sabaneta, y la construcción de una nueva vivienda, la mujer busca recuperar su autonomía y su vida cotidiana.",
+      "categoria": "Colombia",
+      "contenido": "El 10 de agosto, un terremoto de magnitud no especificada sacudió el departamento del Chocó, provocando la pérdida de ambas piernas de Nancy Copete, una adulta mayor de más de 60 años. La tragedia ocurrió mientras ella y su esposo, Roberto, estaban en su vivienda en la loma de Bahía Solano. El colapso de la casa dejó a Nancy atrapada y con graves heridas, de las cuales la diabetes complicó la curación.\n\nTras un traslado milagroso a la Clínica Las Vegas de Medellín, los médicos le informaron que se le tendría que amputar ambas piernas. La decisión, tomada por la urgencia de la situación, generó un profundo dolor en la familia, especialmente en su hijo menor, quien expresó su temor a la pérdida de las extremidades.\n\nA pesar de la gravedad de su estado, Nancy mantiene una actitud de esperanza. Según el relato, ella y su familia están trabajando para que le entreguen prótesis. Dos fundaciones, lideradas por las personas Daniela Álvarez y Santo Domingo, están estudiando el diseño de las prótesis que le permitirán caminar de nuevo.\n\nLa reconstrucción de su hogar se ha convertido en un proyecto de solidaridad que trasciende fronteras. En Quibdó, una comunidad de voluntarios, encabezada por la odontóloga Danny Moreno, ha movilizado recursos para construir una vivienda segura y sismorresistente. La obra se lleva a cabo en un terreno que no está en la loma, evitando los riesgos que provocó el terremoto.\n\nEl apoyo no se limita a la zona del Chocó. En el municipio de Sabaneta, en Antioquia, el concejal Ángel Fabricio Henao organizó una recaudación de fondos que recaudó más de 20 millones de pesos en materiales de construcción. La iniciativa contó con la participación de la comunidad local y la presencia del senador Santiago Montoya y el periodista Rafael Poveda, quienes ayudaron a difundir la causa.\n\nEl proceso de reconstrucción incluye la participación de ingenieros Neiler Rentería y Graceliano Lagarejo, quienes diseñan la estructura de la nueva vivienda para que cumpla con los estándares sismorresistentes del territorio. La construcción se lleva a cabo bajo la supervisión de la comunidad y con la participación activa de la familia de Nancy.\n\nPara Nancy, la reconstrucción de su hogar es un símbolo de la esperanza que la mantiene viva. A pesar de la pérdida de sus piernas, ella sigue creyendo en la posibilidad de volver a caminar y de retomar su vida cotidiana. Su esposo, Roberto, se ha convertido en el principal proveedor de los gastos médicos y de la nueva vivienda, utilizando su moto para desplazarse a los lugares de trabajo.\n\nAunque la situación de Nancy sigue siendo delicada, la comunidad ha demostrado que la solidaridad puede superar la distancia y la adversidad. Lo que queda por conocer es el resultado de los estudios de las prótesis y la finalización de la construcción de la nueva vivienda. La familia y los voluntarios esperan que, en los próximos meses, Nancy pueda volver a caminar y a vivir en un hogar seguro y digno.",
+      "estado_informacion": "informacion_preliminar",
+      "investigacion": {
+        "enfoque_original": "Esta cobertura destaca la respuesta solidaria entre regiones del país, la participación de fundaciones y la construcción de una vivienda sismorresistente, elementos que no aparecen de forma detallada en la fuente inicial.",
+        "hechos_clave": [
+          "El terremoto del 10 de agosto dejó a Nancy Copete sin ambas piernas.",
+          "Nancy se encuentra en la Clínica Las Vegas de Medellín recibiendo tratamiento y prótesis.",
+          "Una campaña de voluntarios de Quibdó y Sabaneta construirá una nueva casa para ella."
+        ],
+        "fuentes_recuperadas": 1,
+        "dominios_independientes": 1,
+        "fecha": "2026-11-08T23:38:14.547777+00:00"
+      },
+      "imagen": "",
+      "imagen_credito": {},
+      "imagen_busqueda_intentada": true,
+      "imagen_instagram": "https://cevnoticias.com/social/6c110237f51d58fb.jpg",
+      "imagen_instagram_tipo": "portada_grafica_cev",
+      "descripcion_instagram": "Nancy Copete: de la tragedia del terremoto a la reconstrucción de su hogar y su esperanza\\n\\nEl terremoto del 10 de agosto dejó a Nancy Copete, una adulta mayor de Chocó, sin ambas piernas. Ahora, con el apoyo de fundaciones, voluntarios de Quibdó y Sabaneta, y la construcción de una nueva vivienda, la mujer busca recuperar su autonomía y su vida cotidiana.\\n\\nLee la noticia completa en cevnoticias.com.\\n\\n#CEVNoticias #Actualidad #Colombia",
+      "verificacion": "Una sola fuente",
+      "fecha": "08/11/2026 · 06:38 PM",
+      "fuentes": [
+        {
+          "nombre": "El Tiempo Cali",
+          "titulo": "La reconstrucción de la esperanza y del hogar de Nancy Copete en Chocó: ‘Es muy duro cuando uno no se puede valer por sí mismo’",
+          "url": "https://www.eltiempo.com/colombia/cali/la-reconstruccion-de-la-esperanza-y-del-hogar-de-nancy-copete-en-choco-es-muy-duro-cuando-uno-no-se-puede-valer-por-si-mismo-3599261"
+        }
+      ]
+    },
+    {
+      "id": "9b6278e1f39ca168",
+      "autor": "CEV NOTICIAS",
+      "titulo": "Dron armado con explosivos ataca peaje de Mondomo y bloquea la Panamericana en el Cauca",
+      "titular_instagram": "Dron con explosivos ataca peaje de Mondomo",
+      "resumen": "En la madrugada del sábado 5 de noviembre de 2026, un dron cargado con explosivos impactó el peaje de Mondomo, en el sector de la vía Popayán‑Santander de Quilichao, causando daños estructurales y obligando al cierre de la Panamericana. No se reportaron heridos, pero la vía quedó bloqueada y el tráfico se desvió a rutas alternativas.",
+      "categoria": "Valle del Cauca",
+      "contenido": "En la madrugada del sábado 5 de noviembre de 2026, un dron cargado con explosivos impactó el peaje de Mondomo, ubicado en el sector de la vía Popayán‑Santander de Quilichao, en el departamento del Cauca. El impacto provocó daños estructurales en la infraestructura del peaje y obligó a las autoridades a cerrar la sección de la Panamericana que pasa por la zona, generando un desvío de tráfico que afectó a miles de conductores.\n\nSegún la información publicada por El Tiempo Cali, el ataque no dejó heridos. Los primeros informes de la policía local indican que el dron se lanzó desde una distancia que permitió que la explosión se concentrara en la zona de control del peaje, evitando daños a la población cercana. No se han reportado daños a vehículos ni a la infraestructura vial más allá de la zona del peaje.\n\nHasta la fecha, las autoridades no han emitido un comunicado oficial sobre el incidente. Sin embargo, un tuit de la empresa Nuevo Cauca S.A.S. y la cobertura de El Tiempo sugieren que el dron podría haber sido operado por disidencias de las FARc, una organización que ha sido objeto de vigilancia por parte de las fuerzas de seguridad. Esta afirmación se basa únicamente en la publicación de un tuit y no ha sido corroborada por fuentes gubernamentales.\n\nEl cierre de la Panamericana en Mondomo ha generado un impacto inmediato en la movilidad regional. Los conductores que transitan entre Popayán y la zona de Santander de Quilichao se han visto obligados a tomar rutas alternativas, lo que ha incrementado los tiempos de viaje y la congestión en carreteras secundarias. Las autoridades locales han instalado señalización de desvío y han reforzado la presencia policial en la zona para garantizar la seguridad de los usuarios.\n\nEl uso de drones como medio de ataque no es nuevo en la región. En los últimos años, se han registrado varios incidentes en los que dispositivos aéreos han sido utilizados para lanzar explosivos contra infraestructuras civiles, principalmente en zonas rurales del Valle del Cauca. La presencia de grupos disidentes de las FARc ha sido señalada por las autoridades como una posible causa de estos ataques, aunque cada caso requiere una investigación específica.\n\nActualmente, la Fiscalía y la Policía Nacional están llevando a cabo una investigación para determinar la identidad de los responsables y la cadena logística que permitió la operación del dron. No se han divulgado nombres ni se han identificado a los operadores del vehículo aéreo.\n\nLo que aún falta por conocer incluye la motivación exacta del ataque, la identidad de los responsables y la posibilidad de que se trate de un acto aislado o parte de una campaña más amplia. Las autoridades han prometido mantener informada a la población sobre los avances de la investigación y sobre las medidas de seguridad que se implementarán para prevenir futuros incidentes en la Panamericana y otras vías críticas del Valle del Cauca.",
+      "estado_informacion": "informacion_preliminar",
+      "investigacion": {
+        "enfoque_original": "Esta cobertura aporta una cronología precisa del ataque, confirma la ausencia de víctimas y detalla el impacto inmediato en la infraestructura vial, además de contextualizar el posible vínculo con disidencias de las FARc según declaraciones preliminares de medios locales.",
+        "hechos_clave": [
+          "Un dron con explosivos impactó el peaje de Mondomo en Santander de Quilichao.",
+          "No hubo heridos y se registraron daños estructurales en la instalación.",
+          "La vía Panamericana quedó bloqueada y el tráfico se desvió a rutas alternativas."
+        ],
+        "fuentes_recuperadas": 1,
+        "dominios_independientes": 1,
+        "fecha": "2026-11-08T23:39:25.662902+00:00"
+      },
+      "imagen": "",
+      "imagen_credito": {},
+      "imagen_busqueda_intentada": true,
+      "imagen_instagram": "https://cevnoticias.com/social/9b6278e1f39ca168.jpg",
+      "imagen_instagram_tipo": "portada_grafica_cev",
+      "descripcion_instagram": "Dron armado con explosivos ataca peaje de Mondomo y bloquea la Panamericana en el Cauca\\n\\nEn la madrugada del sábado 5 de noviembre de 2026, un dron cargado con explosivos impactó el peaje de Mondomo, en el sector de la vía Popayán‑Santander de Quilichao, causando daños estructurales y obligando al cierre de la Panamericana. No se reportaron heridos, pero la vía quedó bloqueada y el tráfico se desvió a rutas alternativas.\\n\\n📍 Valle del Cauca\\n\\nLee la noticia completa en cevnoticias.com.\\n\\n#CEVNoticias #Actualidad #ValleDelCauca #Colombia",
+      "verificacion": "Una sola fuente",
+      "fecha": "08/11/2026 · 06:39 PM",
+      "fuentes": [
+        {
+          "nombre": "El Tiempo Cali",
+          "titulo": "Un dron cargado con explosivos protagonizó el atentado en el peaje de Mondomo, Santander de Quilichao, que obligó al cierre de la vía Panamericana",
+          "url": "https://www.eltiempo.com/colombia/otras-ciudades/nuevo-atentado-terrorista-en-el-peaje-de-mondomo-explosivos-sacudieron-la-via-popayan-santander-de-quilichao-3599220"
+        }
+      ]
+    },
+    {
       "id": "04377abdedf40d2c",
       "autor": "CEV NOTICIAS",
       "titulo": "Masacre en Toro: madre y dos hijas asesinadas en su casa, 104ª tragedia del año",
@@ -2327,13 +2440,319 @@
   "periodo_breves_publicado": "edicion-inicial-2026-11-03",
   "titulares_rss": [
     {
-      "id": "ab83f3e20b7efd97",
-      "titulo": "Colombia pierde la guerra contra los drones",
+      "id": "919edf6820a3ba74",
+      "titulo": "Ejército Nacional neutralizó ataque terrorista con dron mediante tecnología antidrones en Tadó, Chocó",
+      "categoria": "Tecnología",
+      "fuente": "Chocó 7 días",
+      "url": "https://choco7dias.com/ejercito-nacional-neutralizo-ataque-terrorista-con-dron-mediante-tecnologia-antidrones-en-tado-choco/",
+      "fecha": "2026-11-08T23:27:28+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "c81ce7e9ba134ab2",
+      "titulo": "La agenda que nunca fue privada",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/opinion/la-agenda-que-nunca-fue-privada/",
+      "fecha": "2026-11-08T23:20:48+00:00",
+      "imagen": "https://i0.wp.com/www.lasillavacia.com/wp-content/uploads/2026/07/Fotografia_Carlos_Cortes_Columnista.jpg?fit=1024%2C768&quality=80&strip=all&ssl=1"
+    },
+    {
+      "id": "524d87164d90597a",
+      "titulo": "Barranquilla tiene sectores con trancones de hasta 14 horas diarias y la primera solución que propone un estudio no son más vías: son los semáforos",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/barranquilla/barranquilla-tiene-sectores-con-trancones-de-hasta-14-horas-diarias-y-la-primera-solucion-que-propone-un-estudio-no-son-mas-vias-son-los-semaforos-3597326",
+      "fecha": "2026-11-08T23:01:00+00:00",
+      "imagen": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/11/08/6af0f9032d96e.jpeg"
+    },
+    {
+      "id": "a713b63b89d101fb",
+      "titulo": "Puerto de US$260 millones divide a magnates estadounidenses en Panamá",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/globoeconomia/puerto-de-us-260-millones-divide-a-magnates-estadounidenses-en-panama-4520233",
+      "fecha": "2026-11-08T22:55:58+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "b6ce972e26bc9d89",
+      "titulo": "La visita de León XIV en Argentina, en vivo | Frente a Milei, el Papa aboga por la necesidad de “escuchar” y por “el cuidado de la palabra”",
       "categoria": "Colombia",
       "fuente": "El País Colombia",
-      "url": "https://elpais.com/america-colombia/2026-11-08/colombia-pierde-la-guerra-contra-los-drones.html",
-      "fecha": "2026-11-08T09:30:00+00:00",
-      "imagen": "https://imagenes.elpais.com/resizer/v2/W25NZCTO5NCPLPRIZG6GCCTEP4.jpg?auth=0a77a5a6a5a525995909ca14204d8a22df923dcd18186c380b06c249bcf6993e"
+      "url": "https://elpais.com/america/2026-11-08/la-visita-de-leon-xiv-en-uruguay-en-vivo.html",
+      "fecha": "2026-11-08T22:48:59+00:00",
+      "imagen": "https://imagenes.elpais.com/resizer/v2/6NSJPPAIMFH2ZJIHGM4UU2FD6M.JPG?auth=694b3ce4c14291e87e628d86f40c065712218b7739af846aa3fbecef484c166a"
+    },
+    {
+      "id": "873a7428e26ac5e2",
+      "titulo": "\"Debo una disculpa a mi familia\": Jensen Huang confiesa su infidelidad mientras Nvidia investiga un posible espionaje chino",
+      "categoria": "Internacional",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/empresas-y-economia/debo-disculpa-a-mi-familia-jensen-huang-confiesa-su-infidelidad-nvidia-investiga-posible-espionaje-chino",
+      "fecha": "2026-11-08T22:46:00+00:00",
+      "imagen": "https://i.blogs.es/508ee6/jensen-huang-gtc-2024_3d4392c1-5608-4de2-b1c8-fb618602fbe5-prv/1024_2000.jpeg"
+    },
+    {
+      "id": "bab2325782d6d7e9",
+      "titulo": "Trump considera “altamente improbable” que se reanude la guerra con Irán",
+      "categoria": "Internacional",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/trump-considera-altamente-improbable-que-se-reanude-la-guerra-con-irán/a-79894761?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-08T22:43:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "ae373acb2c90bc89",
+      "titulo": "Selección Colombia confirma baja para fecha FIFA de noviembre",
+      "categoria": "Deportes",
+      "fuente": "La FM Deportes",
+      "url": "https://www.lafm.com.co/deportes/seleccion-colombia-confirma-baja-para-fecha-fifa-de-noviembre-416539",
+      "fecha": "2026-11-08T22:32:26+00:00",
+      "imagen": "https://files.lafm.com.co/media/news-images/2026/11/08/223801/portadas-60-1200x675.jpg"
+    },
+    {
+      "id": "1e29e04c711f7047",
+      "titulo": "Nvidia abre una investigación sobre la relación de su director ejecutivo con una presunta espía china",
+      "categoria": "Internacional",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/ck20wv99nd81o?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-08T22:20:28+00:00",
+      "imagen": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/4981/live/81f74f50-dbb8-11f1-86cb-c1d83392da32.jpg"
+    },
+    {
+      "id": "64195852965b344a",
+      "titulo": "Las fuertes lluvias inundan miles de precarias tiendas de campaña en Gaza y agravan la crisis humanitaria",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/internacional/2026-11-08/las-fuertes-lluvias-inundan-miles-de-precarias-tiendas-de-campana-en-gaza-y-agravan-la-crisis-humanitaria.html",
+      "fecha": "2026-11-08T22:18:55+00:00",
+      "imagen": "https://vdmedia.elpais.com/mcv/elpais/multimedia/20261108/1235375_160024_video_1800.mp4"
+    },
+    {
+      "id": "509ee48dbe59edf1",
+      "titulo": "Barcelona mantiene la punta en LaLiga tras remontarle al Atlético de Madrid",
+      "categoria": "Deportes",
+      "fuente": "La FM Deportes",
+      "url": "https://www.lafm.com.co/deportes/atletico-de-madrid-vs-barcelona-laliga-goles-y-resultado-416538",
+      "fecha": "2026-11-08T22:05:43+00:00",
+      "imagen": "https://files.lafm.com.co/media/news-images/2026/11/08/221149/portadas-59-1200x675.jpg"
+    },
+    {
+      "id": "38788b270d6c024c",
+      "titulo": "León XIV llega a Argentina y lo recibe Milei, cuyo ajuste cuestiona la Iglesia",
+      "categoria": "Internacional",
+      "fuente": "La FM Internacional",
+      "url": "https://www.lafm.com.co/internacional/papa-leon-en-argentina-javier-milei-lo-recibe-416537",
+      "fecha": "2026-11-08T21:57:59+00:00",
+      "imagen": "https://files.lafm.com.co/media/news-images/2026/11/08/215955/portadas-58-1200x675.jpg"
+    },
+    {
+      "id": "7b2acf7c5f7e1ce9",
+      "titulo": "Diez viviendas quedaron reducidas a cenizas por incendio en Montaño, Carmen del Darién",
+      "categoria": "Colombia",
+      "fuente": "Chocó 7 días",
+      "url": "https://choco7dias.com/diez-hogares-quedaron-reducidos-a-cenizas-por-incendio-en-montano-carmen-del-darien/",
+      "fecha": "2026-11-08T21:55:42+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "3bfeb41058f2bfd4",
+      "titulo": "La coalición de Trump quedó hundida: ¿qué harán ahora los republicanos?",
+      "categoria": "Internacional",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/c94g1nmvjygxo?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-08T21:31:48+00:00",
+      "imagen": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/fa4b/live/74e0bf70-dae8-11f1-93e1-3b657b665bcf.jpg"
+    },
+    {
+      "id": "0c0240b016a6c030",
+      "titulo": "Trump admite que su política de deportaciones fue \"demasiado dura\"",
+      "categoria": "Internacional",
+      "fuente": "La FM Internacional",
+      "url": "https://www.lafm.com.co/internacional/trump-ademite-politica-deportaciones-demasiado-dura-416524",
+      "fecha": "2026-11-08T21:29:51+00:00",
+      "imagen": "https://files.lafm.com.co/media/news-images/2026/09/11/213450/trump-1200x675.jpg"
+    },
+    {
+      "id": "2a35387d75d4936b",
+      "titulo": "Protestas en Quito, Ecuador, contra el gobierno del presidente Daniel Noboa",
+      "categoria": "Internacional",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/globoeconomia/protestas-en-quito-ecuador-contra-el-gobierno-del-presidente-daniel-noboa-4520208",
+      "fecha": "2026-11-08T21:25:15+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "e60f8282b129497f",
+      "titulo": "Alarma en Atlántico por 72 mujeres asesinadas en 2026: el crimen de una madre y su hija de 14 años en Soledad aumenta la preocupación",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/barranquilla/alarma-en-atlantico-por-72-mujeres-asesinadas-en-2026-el-crimen-de-una-madre-y-su-hija-de-14-anos-en-soledad-aumenta-la-preocupacion-3599418",
+      "fecha": "2026-11-08T21:21:14+00:00",
+      "imagen": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/11/08/6af0e185d2900.jpeg"
+    },
+    {
+      "id": "fe9756b2c0cdcdf1",
+      "titulo": "“Es la justicia la encargada de determinar la verdad”: hijas de Petro",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/en-vivo/es-la-justicia-la-encargada-de-determinar-la-verdad-hijas-de-petro/",
+      "fecha": "2026-11-08T21:15:00+00:00",
+      "imagen": "https://i0.wp.com/www.lasillavacia.com/wp-content/uploads/2026/09/sofia_petro_estallido_abelardo.jpg?fit=1024%2C768&quality=80&strip=all&ssl=1"
+    },
+    {
+      "id": "9bb85be403f88aa6",
+      "titulo": "Mujer que llegó de Miami fue capturada en el aeropuerto de Palmira, Valle del Cauca, señalada de traficar armas desde Estados Unidos a Colombia",
+      "categoria": "Valle del Cauca",
+      "fuente": "El Tiempo Cali",
+      "url": "https://www.eltiempo.com/colombia/cali/mujer-que-llego-de-miami-fue-capturada-en-el-aeropuerto-de-palmira-valle-del-cauca-senalada-de-traficar-armas-desde-estados-unidos-a-colombia-3599323",
+      "fecha": "2026-11-08T21:00:39+00:00",
+      "imagen": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2026/11/07/6aefd97648f9e.r_d.958-507-0.png"
+    },
+    {
+      "id": "284a87eb33de7a6a",
+      "titulo": "Norris ganó en Brasil y Mercedes se queda con el título de constructores de F1",
+      "categoria": "Internacional",
+      "fuente": "La FM Deportes",
+      "url": "https://www.lafm.com.co/deportes/norris-victoria-formula-uno-brasil-416534",
+      "fecha": "2026-11-08T20:37:06+00:00",
+      "imagen": "https://files.lafm.com.co/media/news-images/2026/11/08/204155/el-podio-del-gran-premio-de-brasil-de-formula-uno-con-lando-norris-como-ganador-1200x675.jpg"
+    },
+    {
+      "id": "62fd3f1b2476ccda",
+      "titulo": "Desarticularon poderosa banda que duró años secuestrando y robando a transportadores con falsos retenes",
+      "categoria": "Valle del Cauca",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/desarticularon-poderosa-banda-que-secuestraba-y-robaba-a-transportadores-falsos-retenes-HG43325736",
+      "fecha": "2026-11-08T20:33:41+00:00",
+      "imagen": "https://estaticos.elcolombiano.com/binrepository/450x300/0c0/0d0/center/11101/RBNT/articularon-poderosa-banda-que-secue_52084332_20261108153350.jpg"
+    },
+    {
+      "id": "8077ba1b21e6f088",
+      "titulo": "Valencia sabía desde 2003 el lugar en el que se inundaría: por qué la humanidad sigue viviendo en zonas catastróficas",
+      "categoria": "Internacional",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/ecologia-y-naturaleza/valencia-sabia-2003-lugar-que-se-inundaria-que-humanidad-sigue-viviendo-zonas-catastroficas",
+      "fecha": "2026-11-08T20:31:06+00:00",
+      "imagen": "https://i.blogs.es/b5b59f/dana_alfafar_coches-1-/1024_2000.jpeg"
+    },
+    {
+      "id": "9ece87711971ebb8",
+      "titulo": "La inflación anual de Chile alcanza su nivel más alto en más de un año",
+      "categoria": "Internacional",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/globoeconomia/la-inflacion-anual-de-chile-alcanza-su-nivel-mas-alto-en-mas-de-un-ano-4520206",
+      "fecha": "2026-11-08T20:25:09+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "839e9e058572e9bb",
+      "titulo": "Dos rusos pedidos en extradición por EE. UU. fueron capturados en Medellín y Cartagena: son señalados de traficar drogas a través de veleros",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/medellin/dos-rusos-pedidos-en-extradicion-por-ee-uu-fueron-capturados-en-medellin-y-cartagena-son-senalados-de-traficar-drogas-a-traves-de-veleros-3599415",
+      "fecha": "2026-11-08T20:24:05+00:00",
+      "imagen": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/11/08/6af0d912ac89a.png"
+    },
+    {
+      "id": "c1e7fc5da369ea21",
+      "titulo": "La izquierda colombiana ante las acusaciones contra Petro: entre el feminismo y la lealtad",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/america-colombia/2026-11-08/la-izquierda-colombiana-ante-las-acusaciones-contra-petro-entre-el-feminismo-y-la-lealtad.html",
+      "fecha": "2026-11-08T20:22:28+00:00",
+      "imagen": "https://imagenes.elpais.com/resizer/v2/PUCD4RGCFJGQRCLOHJCPRE5WU4.jpg?auth=f722bf4ca836d0b5e21242890440023593ff26d46d3d084deb7bff1671ecfb39"
+    },
+    {
+      "id": "369a1edf61f7c367",
+      "titulo": "Aviación paga los platos rotos de un profundo lío de radares: ¿quién está viendo los aviones?",
+      "categoria": "Economía",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/infraestructura/aviacion-paga-los-platos-rotos-de-un-profundo-lio-de-radares-quien-esta-viendo-los-aviones-505840",
+      "fecha": "2026-11-08T20:10:49+00:00",
+      "imagen": "https://imagenes.portafolio.co/files/og_thumbnail/uploads/2025/12/05/69333dabe1c38.jpeg"
+    },
+    {
+      "id": "52d8504f9dbff5a5",
+      "titulo": "Nueva medalla para Colombia en los Olímpicos de la Juventud en Dakar",
+      "categoria": "Deportes",
+      "fuente": "La FM Deportes",
+      "url": "https://www.lafm.com.co/deportes/medallas-colombiano-juegos-olimpicos-juventud-416532",
+      "fecha": "2026-11-08T20:07:06+00:00",
+      "imagen": "https://files.lafm.com.co/media/news-images/2026/11/08/202035/valery-rubio-logro-medalla-de-bronce-en-los-juegos-olimpicos-de-la-juventud-1200x675.jpg"
+    },
+    {
+      "id": "9cf94121acb23deb",
+      "titulo": "Crisis de Ueno Bank: la millonaria pérdida que golpeó a futbolistas paraguayos",
+      "categoria": "Deportes",
+      "fuente": "La FM Deportes",
+      "url": "https://www.lafm.com.co/deportes/crisis-paraguay-ueno-bank-perdidas-millonarias-futbolistas-paraguayos-federacion-416521",
+      "fecha": "2026-11-08T18:16:11+00:00",
+      "imagen": "https://files.lafm.com.co/media/news-images/2026/11/08/181239/crisis-paraguay-ueno-bank-perdidas-millonarias-futbolistas-paraguayos-federacion-1200x675.jpg"
+    },
+    {
+      "id": "df970bf29a0db471",
+      "titulo": "Inflación anual de octubre continuaría subiendo y se habría ubicado entre 6,35% y 6,41%, proyectan analistas",
+      "categoria": "Economía",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/inflacion-anual-de-octubre-continuaria-subiendo-y-se-habria-ubicado-entre-6-35-y-6-41-dice-analistas-505813",
+      "fecha": "2026-11-08T17:17:57+00:00",
+      "imagen": "https://imagenes.portafolio.co/files/og_thumbnail/uploads/2026/07/06/6a4c2d9cd6a73.webp"
+    },
+    {
+      "id": "9b7cfe19878eab7c",
+      "titulo": "Dólar en casas de cambio hoy 8 de noviembre: precio de compra y venta",
+      "categoria": "Economía",
+      "fuente": "La FM Economía",
+      "url": "https://www.lafm.com.co/economia/dolar-casas-cambio-hoy-8-noviembre-2026-precio-compra-y-venta-416517",
+      "fecha": "2026-11-08T17:12:32+00:00",
+      "imagen": "https://files.lafm.com.co/media/news-images/2026/11/08/163324/dolares-1200x675.jpg"
+    },
+    {
+      "id": "034a667d14aa75a4",
+      "titulo": "Alcaldía de Barranquilla entregó la cuarta fase del mercado El Playón: 205 locales nuevos y una inversión total de más de $41.000 millones en la obra",
+      "categoria": "Economía",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/barranquilla/alcaldia-de-barranquilla-entrego-la-cuarta-fase-del-mercado-el-playon-205-locales-nuevos-y-una-inversion-total-de-mas-de-41-000-millones-en-la-obra-3599383",
+      "fecha": "2026-11-08T16:31:30+00:00",
+      "imagen": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/11/08/6af0a0404a73f.jpeg"
+    },
+    {
+      "id": "7e3530884a714f51",
+      "titulo": "Salario mínimo de 2027: comerciantes piden 'recuperar' la fórmula técnica basada en inflación y productividad",
+      "categoria": "Economía",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/crecimiento/salario-minimo-de-2027-comerciantes-piden-recuperar-la-formula-tecnica-basada-en-inflacion-y-productividad-505936",
+      "fecha": "2026-11-08T15:43:09+00:00",
+      "imagen": "https://imagenes.portafolio.co/files/og_thumbnail/files/fp/uploads/2026/02/13/698f56b544e24.r_d.600-267-0.jpeg"
+    },
+    {
+      "id": "486495880c4a8f35",
+      "titulo": "El Gobierno Nacional y Netflix anuncian unas inversión de US$340 millones en Colombia",
+      "categoria": "Economía",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/empresas/netflix-anuncia-inversion-de-us-340-millones-en-colombia-desde-madrid-4520077",
+      "fecha": "2026-11-08T14:58:40+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "69db877ab848e997",
+      "titulo": "Desayune con esta selección de columnas de opinión",
+      "categoria": "Deportes",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/en-vivo/desayune-con-esta-seleccion-de-columnas-de-opinion-2/",
+      "fecha": "2026-11-08T14:35:00+00:00",
+      "imagen": "https://i0.wp.com/www.lasillavacia.com/wp-content/uploads/2025/03/La-Silla-En-Vivo.jpg?fit=1024%2C768&quality=80&strip=all&ssl=1"
+    },
+    {
+      "id": "8e5e8806f18a2dc9",
+      "titulo": "Lluvias en Cali dejaron más de 20 barrios sin servicio de acueducto y varios árboles caídos: este es el reporte",
+      "categoria": "Cali",
+      "fuente": "La FM Actualidad",
+      "url": "https://www.lafm.com.co/actualidad/lluvias-cali-20-barrios-sin-servicio-acueducto-decenas-arboles-caidos-416495",
+      "fecha": "2026-11-08T11:55:19+00:00",
+      "imagen": "https://files.lafm.com.co/media/news-images/2026/11/08/120459/lluvias-en-cali-1200x675.png"
     },
     {
       "id": "0591ae47bd4ded1f",
@@ -2343,15 +2762,6 @@
       "url": "https://elpais.com/america-colombia/2026-11-08/de-la-espriella-copia-a-milei-rebaja-de-impuestos-para-las-megainversiones-en-la-reforma-tributaria.html",
       "fecha": "2026-11-08T09:30:00+00:00",
       "imagen": "https://imagenes.elpais.com/resizer/v2/VLKNSXDQFNP67M5QRRFBTHSWNI.jpg?auth=6f7c9e292c3352e7b0f54a5c04edb37b090e4eda8b2bb81f347b50415d3df6cd"
-    },
-    {
-      "id": "066d57be16f4d6ad",
-      "titulo": "Los señalamientos contra el embajador de Colombia en la ONU: “Ha creado un ambiente de incertidumbre en la misión”",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/america-colombia/2026-11-08/los-senalamientos-contra-el-embajador-de-colombia-en-la-onu-ha-creado-un-ambiente-de-incertidumbre-en-la-mision.html",
-      "fecha": "2026-11-08T09:30:00+00:00",
-      "imagen": "https://imagenes.elpais.com/resizer/v2/EVKIOSMPIVOX7D42UFXLFKIAFE.jpg?auth=b39d9c90460ce14f9f6b6d165c027128e945055322f19c100b97e5946b7be61d"
     },
     {
       "id": "b242086a3dfd99bc",
@@ -2372,139 +2782,13 @@
       "imagen": ""
     },
     {
-      "id": "8d2135d9673dccf6",
-      "titulo": "Cinco ofertas para aprovechar los primeros adelantos del Black Friday en MediaMarkt y El Corte Inglés, hoy 8 de noviembre",
-      "categoria": "Internacional",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/seleccion/cinco-ofertas-para-aprovechar-primeros-adelantos-black-friday-mediamarkt-corte-ingles-hoy-8-noviembre",
-      "fecha": "2026-11-08T09:17:06+00:00",
-      "imagen": "https://i.blogs.es/c6dfd6/mediamarkt-y-el-corte-ingles/1024_2000.jpeg"
-    },
-    {
-      "id": "a3c8ebeedadc7a5e",
-      "titulo": "Ni vino de Asia ni lo trajeron los romanos: el mapa que desvela el verdadero origen del castaño en Europa",
-      "categoria": "Internacional",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/ecologia-y-naturaleza/vino-asia-trajeron-romanos-mapa-que-desvela-verdadero-origen-castano-europa",
-      "fecha": "2026-11-08T09:01:06+00:00",
-      "imagen": "https://i.blogs.es/8b3f33/castanooo/1024_2000.jpeg"
-    },
-    {
-      "id": "eefb78d02d9e8af7",
-      "titulo": "Cuando las hijas dan a luz a sus propias madres: la épica africana de Harmonía Rosales",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/america-futura/2026-11-07/cuando-las-hijas-dan-a-luz-a-sus-propias-madres-la-epica-africana-de-harmonia-rosales.html",
-      "fecha": "2026-11-08T09:00:00+00:00",
-      "imagen": "https://imagenes.elpais.com/resizer/v2/WZZC524GYNGWBNA7P6GOVCNYPI.jpg?auth=fca74980256158d04f0b3bc9572d995f964f412f02006335b163184944478f39"
-    },
-    {
-      "id": "130f51e22cb40019",
-      "titulo": "Zaragoza sale a la calle contra los centros de datos: \"No generan empleo, no pagan impuestos y se quedan con todos los recursos\"",
-      "categoria": "Internacional",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/robotica-e-ia/zaragoza-sale-a-calle-centros-datos-no-generan-empleo-no-pagan-impuestos-se-quedan-todos-recursos",
-      "fecha": "2026-11-08T08:31:08+00:00",
-      "imagen": "https://i.blogs.es/e4d5d0/zaragoza/1024_2000.jpeg"
-    },
-    {
-      "id": "ebd4e1786e3996ee",
-      "titulo": "TCL nos ha mostrado dos televisores Mini LED por dentro para enseñarnos algo importante: el nombre no siempre significa lo mismo",
-      "categoria": "Internacional",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/televisores/tcl-nos-ha-mostrado-dos-televisores-mini-led-dentro-para-ensenarnos-algo-importante-nombre-no-siempre-significa",
-      "fecha": "2026-11-08T08:01:07+00:00",
-      "imagen": "https://i.blogs.es/6464a7/prueba-tcl-espana-4/1024_2000.jpeg"
-    },
-    {
-      "id": "9437d7511caed7cd",
-      "titulo": "Procurador rechaza amenazas contra Caracol y otros medios",
-      "categoria": "Colombia",
-      "fuente": "La FM Actualidad",
-      "url": "https://www.lafm.com.co/actualidad/procurador-rechaza-amenazas-contra-caracol-y-otros-medios-416491",
-      "fecha": "2026-11-08T07:28:32+00:00",
-      "imagen": "https://files.lafm.com.co/media/news-images/2026/11/08/073452/el-procurador-general-de-la-nacion-gregorio-eljach-pacheco-1200x675.webp"
-    },
-    {
-      "id": "63da0dd2e2200c72",
-      "titulo": "En una isla de California solo quedaban 15 zorros a finales de los noventa: tras expulsar a las águilas reales, hoy son más de 300",
-      "categoria": "Internacional",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/ecologia-y-naturaleza/isla-california-solo-quedaban-15-zorros-a-finales-noventa-expulsar-a-aguilas-reales-hoy-300",
-      "fecha": "2026-11-08T07:01:06+00:00",
-      "imagen": "https://i.blogs.es/6dceb9/zorro/1024_2000.jpeg"
-    },
-    {
-      "id": "a61e8fdf6cf7b27a",
-      "titulo": "Pitidos molestos, ruidos extraños, toda una odisea: cómo conectábamos los primitivos módems a internet",
-      "categoria": "Internacional",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/historia-tecnologica/pitidos-molestos-ruidos-extranos-toda-odisea-como-conectabamos-primitivos-modems-a-internet",
-      "fecha": "2026-11-08T06:31:06+00:00",
-      "imagen": "https://i.blogs.es/cc4a25/modemos-1-/1024_2000.jpeg"
-    },
-    {
-      "id": "4a557869e9a72a8a",
-      "titulo": "Irán reporta incendio de dos buques petroleros en el estrecho de Ormuz",
-      "categoria": "Internacional",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/irán-reporta-incendio-de-dos-buques-petroleros-en-el-estrecho-de-ormuz/a-79888657?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-08T06:19:00+00:00",
-      "imagen": ""
-    },
-    {
       "id": "b5ec19425a3e05ac",
       "titulo": "Video | La lucha de una damnificada por no poder caminar, con duelo por muerte de la mamá en el terremoto y atrapada en ‘papeleo’ para ayudas",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
+      "categoria": "Cali",
+      "fuente": "El Tiempo Cali",
       "url": "https://www.eltiempo.com/colombia/cali/video-la-lucha-de-una-damnificada-por-no-poder-caminar-con-duelo-por-muerte-de-la-mama-en-el-terremoto-y-atrapada-en-papeleo-para-ayudas-3599227",
       "fecha": "2026-11-08T05:15:00+00:00",
       "imagen": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2026/11/07/6aef520476a7c.r_d.761-505-0.jpeg"
-    },
-    {
-      "id": "d1171b2f3b346a52",
-      "titulo": "Noviembre, mes de los milagros corporativos",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/analisis/ramiro-santa-513971/noviembre-mes-de-los-milagros-corporativos-4519880",
-      "fecha": "2026-11-08T05:02:21+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "a7ac7c41c888b8d8",
-      "titulo": "Noruega, Irlanda y Países Bajos, entre los mejores países para jubilarse",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/noruega-irlanda-y-paises-bajos-entre-los-mejores-paises-para-jubilarse-en-2026-4519961",
-      "fecha": "2026-11-08T05:01:38+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "b76cf18609f659e7",
-      "titulo": "Macao supera a Las Vegas entre los destinos de casinos con mayores ingresos en todo el mundo",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/ocio/macao-supera-a-las-vegas-en-destino-de-casinos-con-mayores-ingresos-del-mundo-4519957",
-      "fecha": "2026-11-08T05:01:32+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "118b9ee6b156c394",
-      "titulo": "Los países con mayor proporción de adultos graduados de la universidad",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/irlanda-lidera-en-los-paises-con-mayor-proporcion-de-adultos-graduados-de-la-universidad-4519954",
-      "fecha": "2026-11-08T05:01:20+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "5de59bed8bec10e6",
-      "titulo": "Colombia se consolida entre los mayores exportadores de banano",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/colombia-se-consolida-en-el-podio-global-es-el-tercer-mayor-exportador-4519967",
-      "fecha": "2026-11-08T05:01:16+00:00",
-      "imagen": ""
     },
     {
       "id": "61375baf650af046",
@@ -2528,7 +2812,7 @@
       "id": "c4a41a527308e1ee",
       "titulo": "Tres meses después del terremoto: la crisis de la salud mental por consultas de casi 60.000 personas y el dolor por 155 vidas desvanecidas en Cali",
       "categoria": "Cali",
-      "fuente": "El Tiempo",
+      "fuente": "El Tiempo Cali",
       "url": "https://www.eltiempo.com/colombia/cali/tres-meses-despues-del-terremoto-la-crisis-de-la-salud-mental-por-consultas-de-casi-60-000-personas-y-el-dolor-por-155-vidas-desvanecidas-en-cali-3599314",
       "fecha": "2026-11-08T04:01:00+00:00",
       "imagen": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/11/07/6aefc31e7012e.jpeg"
@@ -2552,49 +2836,22 @@
       "imagen": "https://imagenes.portafolio.co/files/og_thumbnail/uploads/2026/10/23/6adbe7f8b6f03.png"
     },
     {
-      "id": "2672e3306820dff1",
-      "titulo": "Gobierno y Congreso acuerdan trabajar en mesas técnicas sobre ley de rescate, tras 'cónclave' en Barranquilla",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/gobierno/gobierno-y-congreso-acuerdan-trabajar-en-mesas-tecnicas-sobre-ley-de-rescate-tras-conclave-en-barranquilla-505931",
-      "fecha": "2026-11-08T03:34:44+00:00",
-      "imagen": "https://imagenes.portafolio.co/files/og_thumbnail/uploads/2026/11/07/6aef7bbac833e.jpeg"
-    },
-    {
-      "id": "508604f088a85580",
-      "titulo": "Fuerte sismo sacude centro de Japón y deja 23 heridos",
-      "categoria": "Internacional",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/fuerte-sismo-sacude-centro-de-japón-y-deja-23-heridos/a-79888594?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-08T03:33:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "51e3af9731abe1cc",
-      "titulo": "Ana donó sus órganos al morir en España por eutanasia: ahora un grupo de abogados cristianos quiere prohibir que vuelva a suceder",
-      "categoria": "Internacional",
-      "fuente": "BBC Mundo",
-      "url": "https://www.bbc.com/mundo/articles/cqe9eegxvny2o?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-08T03:28:41+00:00",
-      "imagen": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/f28a/live/90020f40-b912-11f1-bb9c-99c71a1a6145.jpg"
+      "id": "8b58e81a8d788f1f",
+      "titulo": "La reconstrucción de la esperanza y del hogar de Nancy Copete en Chocó: ‘Es muy duro cuando uno no se puede valer por sí mismo’",
+      "categoria": "Cali",
+      "fuente": "El Tiempo Cali",
+      "url": "https://www.eltiempo.com/colombia/cali/la-reconstruccion-de-la-esperanza-y-del-hogar-de-nancy-copete-en-choco-es-muy-duro-cuando-uno-no-se-puede-valer-por-si-mismo-3599261",
+      "fecha": "2026-11-08T03:15:00+00:00",
+      "imagen": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/11/07/6aef753e19099.png"
     },
     {
       "id": "aa3e29598a6cd960",
       "titulo": "La valentía de una madre para salvar a su hija y su anhelo de volver a levantarse con prótesis tras tres meses del devastador terremoto en Cali",
       "categoria": "Cali",
-      "fuente": "El Tiempo",
+      "fuente": "El Tiempo Cali",
       "url": "https://www.eltiempo.com/colombia/cali/la-valentia-de-una-madre-para-salvar-a-su-hija-y-su-anhelo-de-volver-a-levantarse-con-protesis-tras-tres-meses-del-devastador-terremoto-en-cali-3599275",
       "fecha": "2026-11-08T03:10:00+00:00",
       "imagen": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/11/07/6aef8a25f07f9.jpeg"
-    },
-    {
-      "id": "a786c3cabd648b73",
-      "titulo": "Suman 33 los muertos en bombardeos sauditas en Yemen, según hutíes",
-      "categoria": "Internacional",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/suman-33-los-muertos-en-bombardeos-sauditas-en-yemen-según-hutíes/a-79888584?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-08T02:39:00+00:00",
-      "imagen": ""
     },
     {
       "id": "f6aac5754b516870",
@@ -2604,51 +2861,6 @@
       "url": "https://www.eltiempo.com/colombia/otras-ciudades/la-extorsion-sigue-con-el-control-del-turismo-en-santa-marta-con-amenazas-obligan-a-pagar-hasta-por-alquilar-una-silla-en-la-playa-3599303",
       "fecha": "2026-11-08T00:59:10+00:00",
       "imagen": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2020/06/12/5ee3ab1e714c9.jpeg"
-    },
-    {
-      "id": "32498a8317616160",
-      "titulo": "Así puede eximir su cuenta de Nequi o Daviplata del 4x1000? Topes actualizados",
-      "categoria": "Economía",
-      "fuente": "La FM Economía",
-      "url": "https://www.lafm.com.co/economia/nequi-daviplata-4x1000-eximir-cuentas-topes-actualizados-416480",
-      "fecha": "2026-11-08T00:20:39+00:00",
-      "imagen": "https://files.lafm.com.co/media/news-images/2026/11/07/223018/nequi-daviplata-1200x675.jpg"
-    },
-    {
-      "id": "119eb11679a5bfd1",
-      "titulo": "Renta Ciudadana y Devolución del IVA: Prosperidad Social confirmó pagos del 13 al 28 de noviembre de 2026",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/gobierno/renta-ciudadana-y-devolucion-del-iva-prosperidad-social-confirmo-pagos-del-13-al-28-de-noviembre-de-505929",
-      "fecha": "2026-11-07T22:53:20+00:00",
-      "imagen": "https://imagenes.portafolio.co/files/og_thumbnail/files/fp/uploads/2026/11/07/6aefaaac3ad94.r_d.827-451-0.jpeg"
-    },
-    {
-      "id": "9b0210a7586d7d1a",
-      "titulo": "Multinacional Río Tinto hará gran inversión en el cobre del río Neguá, Chocó",
-      "categoria": "Economía",
-      "fuente": "Chocó 7 días",
-      "url": "https://choco7dias.com/multinacional-rio-tinto-hara-gran-inversion-en-el-cobre-del-rio-negua-choco/",
-      "fecha": "2026-11-07T22:48:33+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "35c9c32d8d858e70",
-      "titulo": "¿Cómo calcular la prima de diciembre 2026? Fórmula paso a paso y fecha límite de pago",
-      "categoria": "Economía",
-      "fuente": "La FM Economía",
-      "url": "https://www.lafm.com.co/economia/prima-diciembre-2026-calcular-salario-minimo-fecha-milite-pago-416469",
-      "fecha": "2026-11-07T22:15:04+00:00",
-      "imagen": "https://files.lafm.com.co/media/news-images/2026/11/07/192240/calcular-prima-1200x675.jpg"
-    },
-    {
-      "id": "291c85e019ab740c",
-      "titulo": "Centro Democrático cuestiona IVA a alimentos, internet y servicios de salud en la Ley de Rescate Económico",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/crecimiento/centro-democratico-cuestiona-iva-a-alimentos-internet-y-servicios-de-salud-en-la-ley-de-rescate-economico-505927",
-      "fecha": "2026-11-07T21:50:32+00:00",
-      "imagen": "https://imagenes.portafolio.co/files/og_thumbnail/uploads/2024/12/04/67506432c0e25.jpeg"
     },
     {
       "id": "3ec97b9a3ff7afd9",
@@ -2676,24 +2888,6 @@
       "url": "https://www.lafm.com.co/deportes/fecha-liga-definitiva-clasificados-cuadrangulares-416472",
       "fecha": "2026-11-07T19:44:46+00:00",
       "imagen": "https://files.lafm.com.co/media/news-images/2026/11/07/195426/trofeo-y-balon-de-la-liga-betplay-dimayor-1200x675.jpg"
-    },
-    {
-      "id": "d21842224b9fef50",
-      "titulo": "Nottingham Forest de Muñoz sorprende y golea 3-1 al Manchester City",
-      "categoria": "Deportes",
-      "fuente": "La FM Deportes",
-      "url": "https://www.lafm.com.co/deportes/nottingham-forest-golea-manchester-city-mueve-tabla-de-posiciones-premier-league-416470",
-      "fecha": "2026-11-07T19:26:58+00:00",
-      "imagen": "https://files.lafm.com.co/media/news-images/2026/11/07/194439/nottingham-forest-golea-manchester-city-mueve-tabla-de-posiciones-premier-league-1200x675.jpg"
-    },
-    {
-      "id": "1b9752c670560b24",
-      "titulo": "La razón detrás del apagón en el partido entre Millonarios y América por Liga Betplay",
-      "categoria": "Deportes",
-      "fuente": "La FM Deportes",
-      "url": "https://www.lafm.com.co/deportes/apagon-estadio-el-campin-partido-millonarios-vs-america-liga-betplay-416467",
-      "fecha": "2026-11-07T19:01:29+00:00",
-      "imagen": "https://files.lafm.com.co/media/news-images/2026/11/07/193911/portadas-51-1200x675.jpg"
     },
     {
       "id": "66d12986ea53a911",
@@ -2732,15 +2926,6 @@
       "imagen": ""
     },
     {
-      "id": "f1c758a1871ec7d2",
-      "titulo": "Una madre y sus dos hijas fueron asesinadas en una casa del municipio de Toro, en el norte del Valle del Cauca: es la masacre número 104 de 2026",
-      "categoria": "Valle del Cauca",
-      "fuente": "El Tiempo Cali",
-      "url": "https://www.eltiempo.com/colombia/cali/la-masacre-numero-104-de-2026-se-perpetro-en-el-valle-del-cauca-una-madre-y-sus-dos-hijas-fueron-asesinadas-en-una-casa-del-municipio-de-toro-3599234",
-      "fecha": "2026-11-07T15:31:00+00:00",
-      "imagen": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/11/07/6aef3e912af80.png"
-    },
-    {
       "id": "4f21d23ff3972a18",
       "titulo": "Nuevo atentado con explosivos contra un peaje en la vía Cali-Popayán: ya son seis ataques en las carreteras del país",
       "categoria": "Cali",
@@ -2750,24 +2935,6 @@
       "imagen": "https://estaticos.elcolombiano.com/binrepository/450x300/0c0/0d0/center/11101/MQQT/ntado-con-explosivos-contra-un-peaje_52079168_20261107095839.jpg"
     },
     {
-      "id": "8cc0ed3bca7435d2",
-      "titulo": "Tottenham vuelve a conocer la derrota ante Leeds: se mueve la tabla de la Premier League",
-      "categoria": "Deportes",
-      "fuente": "La FM Deportes",
-      "url": "https://www.lafm.com.co/deportes/leeds-derrota-tottenham-tabla-de-posiciones-premier-league-416450",
-      "fecha": "2026-11-07T15:23:11+00:00",
-      "imagen": "https://files.lafm.com.co/media/news-images/2026/11/07/153341/leeds-derrota-tottenham-tabla-de-posiciones-premier-league-1200x675.jpg"
-    },
-    {
-      "id": "120395eb85479035",
-      "titulo": "Tres escenarios de guerra golpean al comercio marítimo mundial",
-      "categoria": "Deportes",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/internacional/2026-11-07/tres-escenarios-de-guerra-golpean-al-comercio-maritimo-mundial.html",
-      "fecha": "2026-11-07T04:30:01+00:00",
-      "imagen": "https://imagenes.elpais.com/resizer/v2/CXXIBABB7BGIVHG5HZERW5LOXY.JPG?auth=33e9cc87015e3941094a82a20b4d91153ef9cdf73a6c65cea287b58f8d885628"
-    },
-    {
       "id": "57b5d13d977160a9",
       "titulo": "Karl Deisseroth, Nobel de Medicina: “Los modelos avanzados de inteligencia artificial podrían leer la actividad cerebral de las personas”",
       "categoria": "Tecnología",
@@ -2775,15 +2942,6 @@
       "url": "https://elpais.com/ciencia/2026-11-07/karl-deisseroth-nobel-de-medicina-los-modelos-avanzados-de-inteligencia-artificial-podrian-leer-la-actividad-cerebral-de-las-personas.html",
       "fecha": "2026-11-07T04:30:01+00:00",
       "imagen": "https://imagenes.elpais.com/resizer/v2/FNBTPUO3MBFOHLXRKOT4QZTZFI.jpg?auth=3311ade22111899beeefb6fa18af8f2bb64b5a4a0e5ca267f2fcf31a43447e49"
-    },
-    {
-      "id": "2d518f1015b7f347",
-      "titulo": "La falta de seguridad obliga a la Reina a cancelar el viaje de cooperación a Bolivia",
-      "categoria": "Deportes",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/espana/2026-11-07/la-falta-de-seguridad-obliga-a-la-reina-a-cancelar-el-viaje-de-cooperacion-a-bolivia.html",
-      "fecha": "2026-11-07T04:30:01+00:00",
-      "imagen": "https://imagenes.elpais.com/resizer/v2/RNWQRSZZTZEX5Z2F5PKGO2MOXM.jpg?auth=4fc7322c25ccee147e1bd2a6e22ade6b1a535d48dbb77f86a87d0deec12139d6"
     },
     {
       "id": "d691a07858a18d49",
@@ -2858,42 +3016,6 @@
       "imagen": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2026/08/05/6a73c6d817cab.r_d.164-265-0.jpeg"
     },
     {
-      "id": "81fca4f381b0d7e8",
-      "titulo": "Darío Flórez le da la bienvenida a diciembre con una canción para celebrar en familia",
-      "categoria": "Valle del Cauca",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/vida-moderna/dario-florez-diciembre-navidad-06-11-2026/",
-      "fecha": "2026-11-06T22:06:37+00:00",
-      "imagen": "https://90minutos.co/90minutos.co/wp-content/uploads/2026/11/moda-navidena.jpg"
-    },
-    {
-      "id": "87626602ea2ab12e",
-      "titulo": "Clásico América vs. Deportivo Cali: estos son los cierres viales en Cali para este sábado",
-      "categoria": "Cali",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/cali/clasico-america-deportivo-cali-cierres-viales-cali-sabado-6-11-2026/",
-      "fecha": "2026-11-06T22:04:51+00:00",
-      "imagen": "https://90minutos.co/90minutos.co/wp-content/uploads/2026/11/carrera-atletica-‘5K-Ruta-Paraiso-.jpg"
-    },
-    {
-      "id": "6654adff08333766",
-      "titulo": "La operación militar en Timba, Cauca, que dejó abatido a alias Pincher: murió un soldado, hay tres uniformados heridos y dos helicópteros impactados",
-      "categoria": "Cali",
-      "fuente": "El Tiempo Cali",
-      "url": "https://www.eltiempo.com/colombia/cali/la-operacion-militar-en-timba-cauca-que-dejo-abatido-a-alias-pincher-murio-un-soldado-hay-tres-uniformados-heridos-y-dos-helicopteros-impactados-3599108",
-      "fecha": "2026-11-06T21:02:56+00:00",
-      "imagen": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2026/11/05/6aed02b51fdd8.r_d.377-344-1.jpeg"
-    },
-    {
-      "id": "61d02c1d5845bbf6",
-      "titulo": "Tensión y caos vial en el centro de Cali por protestas de vendedores ambulantes tras operativo de recuperación del espacio público",
-      "categoria": "Cali",
-      "fuente": "El Tiempo Cali",
-      "url": "https://www.eltiempo.com/colombia/cali/tension-y-caos-vial-en-el-centro-de-cali-por-protestas-de-vendedores-ambulantes-tras-operativo-de-recuperacion-del-espacio-publico-3599102",
-      "fecha": "2026-11-06T20:44:37+00:00",
-      "imagen": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/11/06/6aee3988b4fed.jpeg"
-    },
-    {
       "id": "a2ffdc968103721c",
       "titulo": "“Laura Sarabia clonó el celular de Petro”: Felipe Zuleta revela supuesta copia del teléfono y la exfuncionaria anuncia acciones legales",
       "categoria": "Tecnología",
@@ -2920,7 +3042,7 @@
       "estado": "ok",
       "entradas_rss": 10,
       "titulares_vigentes": 10,
-      "ultima_consulta": "2026-11-08T09:46:43.538327+00:00",
+      "ultima_consulta": "2026-11-08T23:36:52.107253+00:00",
       "error": ""
     },
     {
@@ -2930,7 +3052,7 @@
       "estado": "ok",
       "entradas_rss": 10,
       "titulares_vigentes": 10,
-      "ultima_consulta": "2026-11-08T09:46:43.697863+00:00",
+      "ultima_consulta": "2026-11-08T23:36:52.192970+00:00",
       "error": ""
     },
     {
@@ -2940,7 +3062,7 @@
       "estado": "sin_entradas",
       "entradas_rss": 0,
       "titulares_vigentes": 0,
-      "ultima_consulta": "2026-11-08T09:46:43.750383+00:00",
+      "ultima_consulta": "2026-11-08T23:36:52.223316+00:00",
       "error": "La respuesta no contiene entradas RSS/Atom."
     },
     {
@@ -2950,7 +3072,7 @@
       "estado": "ok",
       "entradas_rss": 10,
       "titulares_vigentes": 10,
-      "ultima_consulta": "2026-11-08T09:46:44.265924+00:00",
+      "ultima_consulta": "2026-11-08T23:36:52.755624+00:00",
       "error": ""
     },
     {
@@ -2960,7 +3082,7 @@
       "estado": "ok",
       "entradas_rss": 10,
       "titulares_vigentes": 10,
-      "ultima_consulta": "2026-11-08T09:46:44.356395+00:00",
+      "ultima_consulta": "2026-11-08T23:36:52.858581+00:00",
       "error": ""
     },
     {
@@ -2970,7 +3092,7 @@
       "estado": "ok",
       "entradas_rss": 60,
       "titulares_vigentes": 40,
-      "ultima_consulta": "2026-11-08T09:46:44.718490+00:00",
+      "ultima_consulta": "2026-11-08T23:36:52.922120+00:00",
       "error": ""
     },
     {
@@ -2980,7 +3102,7 @@
       "estado": "ok",
       "entradas_rss": 12,
       "titulares_vigentes": 12,
-      "ultima_consulta": "2026-11-08T09:46:44.918632+00:00",
+      "ultima_consulta": "2026-11-08T23:36:53.126806+00:00",
       "error": ""
     },
     {
@@ -2988,9 +3110,9 @@
       "url": "https://feeds.bbci.co.uk/mundo/rss.xml",
       "zona": "Nacional / internacional",
       "estado": "ok",
-      "entradas_rss": 35,
-      "titulares_vigentes": 30,
-      "ultima_consulta": "2026-11-08T09:46:45.081124+00:00",
+      "entradas_rss": 34,
+      "titulares_vigentes": 28,
+      "ultima_consulta": "2026-11-08T23:36:53.224181+00:00",
       "error": ""
     },
     {
@@ -2998,9 +3120,9 @@
       "url": "https://rss.dw.com/rdf/rss-sp-all",
       "zona": "Nacional / internacional",
       "estado": "ok",
-      "entradas_rss": 17,
-      "titulares_vigentes": 17,
-      "ultima_consulta": "2026-11-08T09:46:45.339053+00:00",
+      "entradas_rss": 18,
+      "titulares_vigentes": 18,
+      "ultima_consulta": "2026-11-08T23:36:53.419025+00:00",
       "error": ""
     },
     {
@@ -3010,7 +3132,7 @@
       "estado": "ok",
       "entradas_rss": 26,
       "titulares_vigentes": 26,
-      "ultima_consulta": "2026-11-08T09:46:45.846937+00:00",
+      "ultima_consulta": "2026-11-08T23:36:53.652556+00:00",
       "error": ""
     },
     {
@@ -3018,9 +3140,9 @@
       "url": "https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/section/america-colombia/portada",
       "zona": "Nacional / internacional",
       "estado": "ok",
-      "entradas_rss": 107,
+      "entradas_rss": 103,
       "titulares_vigentes": 40,
-      "ultima_consulta": "2026-11-08T09:46:46.397555+00:00",
+      "ultima_consulta": "2026-11-08T23:36:54.311892+00:00",
       "error": ""
     },
     {
@@ -3030,7 +3152,7 @@
       "estado": "ok",
       "entradas_rss": 11,
       "titulares_vigentes": 11,
-      "ultima_consulta": "2026-11-08T09:46:47.317204+00:00",
+      "ultima_consulta": "2026-11-08T23:36:54.534316+00:00",
       "error": ""
     },
     {
@@ -3040,7 +3162,7 @@
       "estado": "ok",
       "entradas_rss": 20,
       "titulares_vigentes": 20,
-      "ultima_consulta": "2026-11-08T09:46:47.424472+00:00",
+      "ultima_consulta": "2026-11-08T23:36:54.626777+00:00",
       "error": ""
     },
     {
@@ -3050,7 +3172,7 @@
       "estado": "ok",
       "entradas_rss": 20,
       "titulares_vigentes": 20,
-      "ultima_consulta": "2026-11-08T09:46:47.622218+00:00",
+      "ultima_consulta": "2026-11-08T23:36:54.743103+00:00",
       "error": ""
     },
     {
@@ -3060,7 +3182,7 @@
       "estado": "ok",
       "entradas_rss": 20,
       "titulares_vigentes": 20,
-      "ultima_consulta": "2026-11-08T09:46:47.705426+00:00",
+      "ultima_consulta": "2026-11-08T23:36:54.784255+00:00",
       "error": ""
     },
     {
@@ -3070,7 +3192,7 @@
       "estado": "ok",
       "entradas_rss": 20,
       "titulares_vigentes": 20,
-      "ultima_consulta": "2026-11-08T09:46:47.820730+00:00",
+      "ultima_consulta": "2026-11-08T23:36:54.835579+00:00",
       "error": ""
     },
     {
@@ -3079,8 +3201,8 @@
       "zona": "Cali y Valle del Cauca",
       "estado": "ok",
       "entradas_rss": 12,
-      "titulares_vigentes": 10,
-      "ultima_consulta": "2026-11-08T09:46:47.891010+00:00",
+      "titulares_vigentes": 6,
+      "ultima_consulta": "2026-11-08T23:36:54.874070+00:00",
       "error": ""
     },
     {
@@ -3088,9 +3210,9 @@
       "url": "https://www.elcolombiano.com/rss/Colombia.xml",
       "zona": "Antioquia y Colombia",
       "estado": "ok",
-      "entradas_rss": 44,
-      "titulares_vigentes": 40,
-      "ultima_consulta": "2026-11-08T09:46:48.772222+00:00",
+      "entradas_rss": 29,
+      "titulares_vigentes": 27,
+      "ultima_consulta": "2026-11-08T23:36:55.554227+00:00",
       "error": ""
     },
     {
@@ -3100,7 +3222,7 @@
       "estado": "error",
       "entradas_rss": 0,
       "titulares_vigentes": 0,
-      "ultima_consulta": "2026-11-08T09:46:49.042707+00:00",
+      "ultima_consulta": "2026-11-08T23:36:55.700772+00:00",
       "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     {
@@ -3110,7 +3232,7 @@
       "estado": "ok",
       "entradas_rss": 10,
       "titulares_vigentes": 10,
-      "ultima_consulta": "2026-11-08T09:46:49.227016+00:00",
+      "ultima_consulta": "2026-11-08T23:36:55.883969+00:00",
       "error": ""
     },
     {
@@ -3120,12 +3242,12 @@
       "estado": "ok",
       "entradas_rss": 10,
       "titulares_vigentes": 9,
-      "ultima_consulta": "2026-11-08T09:46:49.415824+00:00",
+      "ultima_consulta": "2026-11-08T23:36:56.079263+00:00",
       "error": ""
     }
   ],
-  "ultima_solicitud_groq": "2026-11-08T09:51:28.412058+00:00",
+  "ultima_solicitud_groq": "2026-11-08T23:41:39.384131+00:00",
   "fecha_solicitudes_groq": "2026-11-08",
-  "solicitudes_groq": 25,
-  "ultima_actualizacion": "2026-11-08T09:51:30.881410+00:00"
+  "solicitudes_groq": 40,
+  "ultima_actualizacion": "2026-11-08T23:41:40.077187+00:00"
 }
