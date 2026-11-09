@@ -1,5 +1,5 @@
 {
-  "ultima_actualizacion": "2026-11-09T06:22:47.204398+00:00",
+  "ultima_actualizacion": "2026-11-09T08:02:15.703288+00:00",
   "titulares_rss": [
     {
       "id": "029434dd47711907",
@@ -7,7 +7,70 @@
       "categoria": "Colombia",
       "fuente": "BBC Mundo",
       "url": "https://www.bbc.co.uk/mundo/live/c54g11vvvemkt?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-09T06:22:47.204398+00:00",
+      "fecha": "2026-11-09T08:02:15.703288+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "a64f2c71cd111144",
+      "titulo": "Qué se sabe del ataque que dejó al menos 6 muertos y decenas de heridos en Polonia",
+      "categoria": "Internacional",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/c6d091e7jzz7o?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-09T07:44:53+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "a4e303b89fdd7d2b",
+      "titulo": "Muere el autor del atentado de Cracovia sin aclararse el móvil",
+      "categoria": "Internacional",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/muere-el-autor-del-atentado-de-cracovia-sin-aclararse-el-móvil/a-79895882?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-09T07:41:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "d1c825377b99982d",
+      "titulo": "¡Ojo, conductores! Pico y placa en Pereira para el lunes 9 de noviembre de 2026: revise si su carro o moto tiene restricción",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/ojo-conductores-pico-y-placa-en-pereira-para-el-lunes-9-de-noviembre-de-2026-revise-si-su-carro-o-moto-tiene-restriccion-3599100",
+      "fecha": "2026-11-09T07:30:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "ab85775b0f39677f",
+      "titulo": "¡Evite multas, conductor! Pico y placa en Bucaramanga para el lunes 9 de noviembre de 2026: estos vehículos no pueden circular",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/santander/evite-multas-conductor-pico-y-placa-en-bucaramanga-para-el-lunes-9-de-noviembre-de-2026-estos-vehiculos-no-pueden-circular-3599098",
+      "fecha": "2026-11-09T07:30:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "186674f931e70a2f",
+      "titulo": "¡Pilas, conductor! Pico y placa en Cali para el lunes 9 de noviembre de 2026: placas y horarios de la restricción",
+      "categoria": "Cali",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/cali/pilas-conductor-pico-y-placa-en-cali-para-el-lunes-9-de-noviembre-de-2026-placas-y-horarios-de-la-restriccion-3599093",
+      "fecha": "2026-11-09T07:30:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "9200b446d1579c98",
+      "titulo": "Pico y placa en Medellín para el lunes 9 de noviembre de 2026: placas que tienen restricción y horarios",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/medellin/pico-y-placa-en-medellin-para-el-lunes-9-de-noviembre-de-2026-placas-que-tienen-restriccion-y-horarios-3599091",
+      "fecha": "2026-11-09T07:30:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "a5a61352c177bf63",
+      "titulo": "Ha vuelto a Action (sólo hasta mañana) la oferta de la batería externa Philips original con carga rápida y varios puertos",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/seleccion/ha-vuelto-a-action-solo-manana-oferta-bateria-externa-philips-original-carga-rapida-varios-puertos",
+      "fecha": "2026-11-09T06:45:00+00:00",
       "imagen": ""
     },
     {
@@ -200,20 +263,20 @@
       "imagen": ""
     },
     {
-      "id": "0d72384eb10df904",
-      "titulo": "Sector de las edificaciones sostiene cadena de proveedores por $60,7 billones",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/economia/sector-de-las-edificaciones-sostienen-una-cadena-de-proveedores-por-60-7-billones-4519580",
-      "fecha": "2026-11-09T05:01:28+00:00",
-      "imagen": ""
-    },
-    {
       "id": "62e83797bfe6d4ac",
       "titulo": "Incorporación de Brava jalonaría el repunte en las utilidades de Ecopetrol",
       "categoria": "Colombia",
       "fuente": "La República",
       "url": "https://www.larepublica.co/economia/incorporacion-de-brava-jalonaria-el-repunte-en-las-utilidades-de-ecopetrol-4520058",
+      "fecha": "2026-11-09T05:01:28+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "0d72384eb10df904",
+      "titulo": "Sector de las edificaciones sostiene cadena de proveedores por $60,7 billones",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/economia/sector-de-las-edificaciones-sostienen-una-cadena-de-proveedores-por-60-7-billones-4519580",
       "fecha": "2026-11-09T05:01:28+00:00",
       "imagen": ""
     },
@@ -477,69 +540,6 @@
       "url": "https://www.lapatria.com/galerias/lanzamiento-de-libro-en-agora-0",
       "fecha": "2026-11-09T05:00:00+00:00",
       "imagen": ""
-    },
-    {
-      "id": "524d87164d90597a",
-      "titulo": "Barranquilla tiene sectores con trancones de hasta 14 horas diarias y la primera solución que propone un estudio no son más vías: son los semáforos",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/barranquilla/barranquilla-tiene-sectores-con-trancones-de-hasta-14-horas-diarias-y-la-primera-solucion-que-propone-un-estudio-no-son-mas-vias-son-los-semaforos-3597326",
-      "fecha": "2026-11-09T04:22:26+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "c40a591cfc3c74e8",
-      "titulo": "Shakira compartió un mensaje tras aparente quebranto en la salud de su padre, William Mebarak, de 95 años: ‘Difícil semana’",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/barranquilla/shakira-compartio-un-mensaje-tras-aparente-quebranto-en-la-salud-de-su-padre-william-mebarak-de-95-anos-dificil-semana-3599479",
-      "fecha": "2026-11-09T04:12:32+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "dd255aff9f21ef0e",
-      "titulo": "Las imágenes satelitales que muestran importantes obras de construcción cerca de las bases de misiles de Irán",
-      "categoria": "Internacional",
-      "fuente": "BBC Mundo",
-      "url": "https://www.bbc.com/mundo/articles/ck20ww726y14o?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-09T04:11:41+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "304b410eee881858",
-      "titulo": "Nvidia abre una investigación a su consejero delegado sobre su relación con una presunta espía china",
-      "categoria": "Internacional",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/us/2026-11-08/nvidia-abre-una-investigacion-a-su-ceo-sobre-posible-espionaje.html",
-      "fecha": "2026-11-09T02:37:21+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "7397c58a6f2b1652",
-      "titulo": "Presidente Abelardo de la Espriella anuncia despliegue de la Fuerza Pública tras ataque con explosivos en Cauca: '¡No nos van a intimidar!'",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/presidente-abelardo-de-la-espriella-anuncia-despliegue-de-la-fuerza-publica-tras-ataque-con-explosivos-en-cauca-no-nos-van-a-intimidar-3599463",
-      "fecha": "2026-11-09T02:06:49+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "62c692216278aca6",
-      "titulo": "El Papa defiende en Argentina a las víctimas de la motosierra de Milei: “La economía debe estar al servicio de la persona”",
-      "categoria": "Economía",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/argentina/2026-11-09/el-papa-defiende-en-argentina-a-las-victimas-de-la-motosierra-de-milei-la-economia-debe-estar-al-servicio-de-la-persona.html",
-      "fecha": "2026-11-09T02:02:24+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "2ebdfd7d5bdcfb56",
-      "titulo": "El terrorismo no para: atacan con drones un peaje cerca de Cali y desactivan gran carga explosiva en Norte de Santander",
-      "categoria": "Cali",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/ataque-peaje-villa-rica-cauca-y-desactivan-una-gran-carga-explosiva-en-villa-del-rosario-norte-de-santander-MH43331085",
-      "fecha": "2026-11-09T01:59:37+00:00",
-      "imagen": ""
     }
   ],
   "estado_fuentes": [
@@ -553,7 +553,7 @@
       "nombre": "El Tiempo Cali",
       "url": "https://www.eltiempo.com/rss/colombia_cali.xml",
       "estado": "correcto",
-      "titulares": 9
+      "titulares": 8
     },
     {
       "nombre": "El Espectador",
