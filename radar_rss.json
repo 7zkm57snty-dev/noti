@@ -1,5 +1,5 @@
 {
-  "ultima_actualizacion": "2026-11-09T00:17:16.887773+00:00",
+  "ultima_actualizacion": "2026-11-09T01:52:16.226891+00:00",
   "titulares_rss": [
     {
       "id": "029434dd47711907",
@@ -7,7 +7,52 @@
       "categoria": "Colombia",
       "fuente": "BBC Mundo",
       "url": "https://www.bbc.co.uk/mundo/live/c54g11vvvemkt?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-09T00:17:16.887773+00:00",
+      "fecha": "2026-11-09T01:52:16.226891+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "76abb13bfbbf6b93",
+      "titulo": "Dron con explosivos deja 4 heridos en ataque del ELN en Tutunendo, Quibdó",
+      "categoria": "Colombia",
+      "fuente": "Chocó 7 días",
+      "url": "https://choco7dias.com/dron-con-explosivos-deja-4-heridos-en-ataque-del-eln-en-tutunendo-quibdo/",
+      "fecha": "2026-11-09T01:12:37+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "eec05d9808aeca5b",
+      "titulo": "Ataque con explosivos en peaje de Villa Rica, Cauca: cierran la vía Panamericana entre Popayán y Cali",
+      "categoria": "Cali",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/cali/ataque-con-explosivos-en-peaje-de-villa-rica-cauca-cierran-la-via-panamericana-entre-popayan-y-cali-3599448",
+      "fecha": "2026-11-09T00:34:28+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "6464c6cc264c6741",
+      "titulo": "El partido de Mandela, el Congreso Nacional Africano, enfrenta sus peores resultados electorales en Sudáfrica",
+      "categoria": "Colombia",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/el-partido-de-mandela-el-congreso-nacional-africano-enfrenta-sus-peores-resultados-electorales-en-sudáfrica/a-79894787?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-09T00:34:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "b6ce972e26bc9d89",
+      "titulo": "La visita de León XIV en Argentina, en vivo | Frente a Milei, el Papa aboga por la necesidad de “escuchar” y por “el cuidado de la palabra”",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/america/2026-11-08/la-visita-de-leon-xiv-en-uruguay-en-vivo.html",
+      "fecha": "2026-11-09T00:30:25+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "e11f8ed5c7439904",
+      "titulo": "A punta de poemas, estudiantes del Instituto Caro y Cuervo protestaron contra su director, Sergio Esteban Vélez",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/poemas-protesta-estudiantes-del-instituto-caro-y-cuervo-contra-su-director-sergio-esteban-velez-IG43328725",
+      "fecha": "2026-11-09T00:18:26+00:00",
       "imagen": ""
     },
     {
@@ -20,21 +65,21 @@
       "imagen": ""
     },
     {
-      "id": "e11f8ed5c7439904",
-      "titulo": "A punta de poemas, estudiantes del Instituto Caro y Cuervo protestaron contra su director, Sergio Esteban Vélez",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/poemas-protesta-estudiantes-del-instituto-caro-y-cuervo-contra-su-director-sergio-esteban-velez-IG43328725",
-      "fecha": "2026-11-09T00:02:38+00:00",
-      "imagen": ""
-    },
-    {
       "id": "a567dfa96b70c447",
-      "titulo": "El mensaje del papa León XIV frente a Milei a su llegada a Argentina",
-      "categoria": "Internacional",
+      "titulo": "\"La economía debe estar al servicio de las personas y no las personas al servicio de la economía\": el mensaje del papa León XIV frente a Milei a su llegada a Argentina",
+      "categoria": "Economía",
       "fuente": "BBC Mundo",
       "url": "https://www.bbc.com/mundo/articles/cqkg5r5x5l7mo?at_medium=RSS&at_campaign=rss",
       "fecha": "2026-11-08T23:54:35+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "2b1aeaac1b27653d",
+      "titulo": "De mipymes a mercados globales: la apuesta de Colombia con la ONUDI",
+      "categoria": "Economía",
+      "fuente": "La FM Economía",
+      "url": "https://www.lafm.com.co/economia/mipymes-colombianas-buscan-llegar-mercados-internacionales-apoyo-onudi-416540",
+      "fecha": "2026-11-08T23:36:57+00:00",
       "imagen": ""
     },
     {
@@ -71,15 +116,6 @@
       "fuente": "La República",
       "url": "https://www.larepublica.co/globoeconomia/puerto-de-us-260-millones-divide-a-magnates-estadounidenses-en-panama-4520233",
       "fecha": "2026-11-08T22:55:58+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "b6ce972e26bc9d89",
-      "titulo": "La visita de León XIV en Argentina, en vivo | Frente a Milei, el Papa aboga por la necesidad de “escuchar” y por “el cuidado de la palabra”",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/america/2026-11-08/la-visita-de-leon-xiv-en-uruguay-en-vivo.html",
-      "fecha": "2026-11-08T22:48:59+00:00",
       "imagen": ""
     },
     {
@@ -504,42 +540,6 @@
       "url": "https://www.larepublica.co/globoeconomia/mexico-enfrenta-el-envejecimiento-de-su-poblacion-con-servicios-de-cuidados-fragmentados-4520160",
       "fecha": "2026-11-08T18:08:50+00:00",
       "imagen": ""
-    },
-    {
-      "id": "ef9c0b1bf109fc43",
-      "titulo": "Metro de Bogotá supera el 84,6% de ejecución: se completa conexión de puente sobre la NQS",
-      "categoria": "Colombia",
-      "fuente": "La FM Actualidad",
-      "url": "https://www.lafm.com.co/actualidad/metro-de-bogota-construccion-linea-846-culminan-puente-conexion-avenida-nqs-416525",
-      "fecha": "2026-11-08T18:06:42+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "5604c01ee6458e3e",
-      "titulo": "Nadie vio venir el problema del edificio Walkie-Talkie hasta que los coches aparcados enfrente empezaron a derretirse",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/magnet/este-edificio-londres-parecia-normal-que-coches-aparcados-enfrente-empezaron-a-derretirse",
-      "fecha": "2026-11-08T18:01:07+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "0dc6ee7396d2ba06",
-      "titulo": "Jefe de la Nasa sobre carrera espacial con China: \"Están muy cerca\"",
-      "categoria": "Internacional",
-      "fuente": "La FM Internacional",
-      "url": "https://www.lafm.com.co/internacional/jefe-nasa-preocupad-carrera-espacial-china-416523",
-      "fecha": "2026-11-08T18:00:59+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "42d367dc0d6b0a64",
-      "titulo": "Respuestas desde el territorio: el valor comunitario en las fronteras",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/red-de-expertos/red-social/respuestas-desde-el-territorio-el-valor-comunitario-en-las-fronteras/",
-      "fecha": "2026-11-08T18:00:00+00:00",
-      "imagen": ""
     }
   ],
   "estado_fuentes": [
@@ -650,7 +650,7 @@
       "nombre": "El Colombiano — Colombia",
       "url": "https://www.elcolombiano.com/rss/Colombia.xml",
       "estado": "correcto",
-      "titulares": 27
+      "titulares": 25
     },
     {
       "nombre": "El Diario — Pereira",
@@ -662,7 +662,7 @@
       "nombre": "Chocó 7 días",
       "url": "https://choco7dias.com/feed/",
       "estado": "correcto",
-      "titulares": 9
+      "titulares": 10
     },
     {
       "nombre": "La Patria — Caldas",
