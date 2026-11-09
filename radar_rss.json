@@ -1,5 +1,5 @@
 {
-  "ultima_actualizacion": "2026-11-09T01:52:16.226891+00:00",
+  "ultima_actualizacion": "2026-11-09T02:56:11.727129+00:00",
   "titulares_rss": [
     {
       "id": "029434dd47711907",
@@ -7,7 +7,52 @@
       "categoria": "Colombia",
       "fuente": "BBC Mundo",
       "url": "https://www.bbc.co.uk/mundo/live/c54g11vvvemkt?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-09T01:52:16.226891+00:00",
+      "fecha": "2026-11-09T02:56:11.727129+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "304b410eee881858",
+      "titulo": "Nvidia abre una investigación a su consejero delegado sobre su relación con una presunta espía china",
+      "categoria": "Internacional",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/us/2026-11-08/nvidia-abre-una-investigacion-a-su-ceo-sobre-posible-espionaje.html",
+      "fecha": "2026-11-09T02:37:21+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "b6ce972e26bc9d89",
+      "titulo": "Así le hemos contado el primer día del Papa León XIV en Argentina",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/america/2026-11-08/la-visita-de-leon-xiv-en-uruguay-en-vivo.html",
+      "fecha": "2026-11-09T02:10:17+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "7397c58a6f2b1652",
+      "titulo": "Presidente Abelardo de la Espriella anuncia despliegue de la Fuerza Pública tras ataque con explosivos en Cauca: '¡No nos van a intimidar!'",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/presidente-abelardo-de-la-espriella-anuncia-despliegue-de-la-fuerza-publica-tras-ataque-con-explosivos-en-cauca-no-nos-van-a-intimidar-3599463",
+      "fecha": "2026-11-09T02:06:49+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "2ebdfd7d5bdcfb56",
+      "titulo": "El terrorismo no para: atacan con drones un peaje cerca de Cali y desactivan gran carga explosiva en Norte de Santander",
+      "categoria": "Cali",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/ataque-peaje-villa-rica-cauca-y-desactivan-una-gran-carga-explosiva-en-villa-del-rosario-norte-de-santander-MH43331085",
+      "fecha": "2026-11-09T01:59:37+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "2868804c2279faea",
+      "titulo": "Trump admite que su política de deportaciones fue \"demasiado dura\"",
+      "categoria": "Internacional",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/trump-admite-que-su-política-de-deportaciones-fue-demasiado-dura/a-79894805?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-09T01:37:00+00:00",
       "imagen": ""
     },
     {
@@ -35,15 +80,6 @@
       "fuente": "DW Español",
       "url": "https://www.dw.com/es/el-partido-de-mandela-el-congreso-nacional-africano-enfrenta-sus-peores-resultados-electorales-en-sudáfrica/a-79894787?maca=spa-rss-sp-all-1122-rdf",
       "fecha": "2026-11-09T00:34:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "b6ce972e26bc9d89",
-      "titulo": "La visita de León XIV en Argentina, en vivo | Frente a Milei, el Papa aboga por la necesidad de “escuchar” y por “el cuidado de la palabra”",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/america/2026-11-08/la-visita-de-leon-xiv-en-uruguay-en-vivo.html",
-      "fecha": "2026-11-09T00:30:25+00:00",
       "imagen": ""
     },
     {
@@ -164,15 +200,6 @@
       "imagen": ""
     },
     {
-      "id": "304b410eee881858",
-      "titulo": "Nvidia abre una investigación a su consejero delegado sobre su relación con una presunta espía china",
-      "categoria": "Internacional",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/us/2026-11-08/nvidia-abre-una-investigacion-a-su-ceo-sobre-posible-espionaje.html",
-      "fecha": "2026-11-08T22:18:25+00:00",
-      "imagen": ""
-    },
-    {
       "id": "509ee48dbe59edf1",
       "titulo": "Barcelona mantiene la punta en LaLiga tras remontarle al Atlético de Madrid",
       "categoria": "Deportes",
@@ -206,15 +233,6 @@
       "fuente": "BBC Mundo",
       "url": "https://www.bbc.com/mundo/articles/c94g1nmvjygxo?at_medium=RSS&at_campaign=rss",
       "fecha": "2026-11-08T21:31:48+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "0c0240b016a6c030",
-      "titulo": "Trump admite que su política de deportaciones fue \"demasiado dura\"",
-      "categoria": "Internacional",
-      "fuente": "La FM Internacional",
-      "url": "https://www.lafm.com.co/internacional/trump-ademite-politica-deportaciones-demasiado-dura-416524",
-      "fecha": "2026-11-08T21:29:51+00:00",
       "imagen": ""
     },
     {
@@ -522,24 +540,6 @@
       "url": "https://www.lafm.com.co/deportes/crisis-paraguay-ueno-bank-perdidas-millonarias-futbolistas-paraguayos-federacion-416521",
       "fecha": "2026-11-08T18:16:11+00:00",
       "imagen": ""
-    },
-    {
-      "id": "847cda8a019dddc4",
-      "titulo": "Cepeda pide al Pacto no encubrir violencia contra mujeres por lealtad",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/en-vivo/cepeda-pide-al-pacto-no-encubrir-violencia-contra-mujeres-por-lealtad/",
-      "fecha": "2026-11-08T18:12:44+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "cc9fe7aea1e80968",
-      "titulo": "México enfrenta el envejecimiento de su población con servicios de cuidados fragmentados",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/mexico-enfrenta-el-envejecimiento-de-su-poblacion-con-servicios-de-cuidados-fragmentados-4520160",
-      "fecha": "2026-11-08T18:08:50+00:00",
-      "imagen": ""
     }
   ],
   "estado_fuentes": [
@@ -620,7 +620,7 @@
       "nombre": "La FM Deportes",
       "url": "https://www.lafm.com.co/rss/deportes.xml",
       "estado": "correcto",
-      "titulares": 20
+      "titulares": 19
     },
     {
       "nombre": "La FM Economía",
@@ -632,7 +632,7 @@
       "nombre": "La FM Internacional",
       "url": "https://www.lafm.com.co/rss/internacional.xml",
       "estado": "correcto",
-      "titulares": 20
+      "titulares": 19
     },
     {
       "nombre": "La FM Actualidad",
