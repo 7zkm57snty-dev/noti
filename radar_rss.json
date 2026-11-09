@@ -1,5 +1,5 @@
 {
-  "ultima_actualizacion": "2026-11-09T09:21:03.704805+00:00",
+  "ultima_actualizacion": "2026-11-09T10:30:08.501159+00:00",
   "titulares_rss": [
     {
       "id": "029434dd47711907",
@@ -7,16 +7,169 @@
       "categoria": "Colombia",
       "fuente": "BBC Mundo",
       "url": "https://www.bbc.co.uk/mundo/live/c54g11vvvemkt?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-09T09:21:03.704805+00:00",
+      "fecha": "2026-11-09T10:30:08.501159+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "e97e05217bc1af25",
+      "titulo": "Si tu tele necesita un extra en calidad y potencia de audio, esta barra de sonido Xiaomi es ideal para acompañarla. Y está de oferta",
+      "categoria": "Cali",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/seleccion/tu-tele-necesita-extra-calidad-potencia-audio-esta-barra-sonido-xiaomi-ideal-para-acompanarla-esta-oferta",
+      "fecha": "2026-11-09T10:15:07+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "3a7b2a456f2fcbf1",
+      "titulo": "Un pueblo de Guadalajara quiere independizarse de Castilla La Mancha y \"anexionarse\" a la Comunidad de Madrid",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/magnet/pueblo-guadalajara-quiere-independizarse-castilla-mancha-anexionarse-a-comunidad-madrid",
+      "fecha": "2026-11-09T10:01:07+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "1758d4d79e25a50f",
+      "titulo": "El Hospital La Fe realiza con éxito un trasplante cardíaco a un hombre de 70 años que contaba con un \"corazón mecánico\"",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/medicina-y-salud/hospital-fe-realiza-exito-trasplante-cardiaco-a-hombre-70-anos-que-contaba-corazon-mecanico",
+      "fecha": "2026-11-09T09:46:58+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "490d3395b80a7ce5",
+      "titulo": "El teclado que me llevaría a cualquier lugar es pequeño, cómodo y funciona incluso con televisores",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/seleccion/teclado-que-me-llevaria-a-cualquier-lugar-pequeno-comodo-funciona-incluso-televisores",
+      "fecha": "2026-11-09T09:45:05+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "d2cc69e6d9def99a",
+      "titulo": "La historia de las gemelas que murieron en la comuna 13 de Medellín: ¿qué se sabe sobre su muerte?",
+      "categoria": "Colombia",
+      "fuente": "La FM Actualidad",
+      "url": "https://www.lafm.com.co/actualidad/investigacion-muerte-de-dos-hermanas-en-medellin-comuna-13-416549",
+      "fecha": "2026-11-09T09:41:24+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "42ae7e71b4e04dbe",
+      "titulo": "NVIDIA solo quiere saber si Jensen Huang filtró secretos. Es la pregunta menos inquietante",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/empresas-y-economia/nvidia-solo-quiere-saber-jensen-huang-filtro-secretos-pregunta-inquietante",
+      "fecha": "2026-11-09T09:33:21+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "a698b052dd4a99df",
+      "titulo": "Carlos Suárez, el hombre que susurra al presidente de Colombia",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/america-colombia/2026-11-09/carlos-suarez-el-hombre-que-susurra-al-presidente-de-colombia.html",
+      "fecha": "2026-11-09T09:30:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "84be1c116558588c",
+      "titulo": "Pozos como estrellas de rock: la apuesta incierta del ‘fracking’ en Colombia",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/america-colombia/2026-11-09/pozos-como-estrellas-del-rock-la-apuesta-incierta-del-fracking-en-colombia.html",
+      "fecha": "2026-11-09T09:30:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "eef7539cd5a05ac5",
+      "titulo": "Los latinos que castigaron con su voto a Trump por sus familiares detenidos por el ICE: “Voté por todos los que no pueden”",
+      "categoria": "Internacional",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/us/2026-11-09/los-latinos-que-castigaron-con-su-voto-a-trump-por-sus-familiares-detenidos-por-el-ice-vote-por-todos-los-que-no-pueden.html",
+      "fecha": "2026-11-09T09:30:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "eb29bb6c1ebf0d18",
+      "titulo": "Las tropas de Bukele en Haití operan sin reglas claras ni fecha de retorno: “Son su propia fuerza”",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/america/2026-11-09/las-tropas-de-bukele-en-haiti-operan-sin-reglas-claras-ni-fecha-de-retorno-son-su-propia-fuerza.html",
+      "fecha": "2026-11-09T09:30:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "896a29e219d1e339",
+      "titulo": "Akima, modelo y víctima de suplantación con IA: “Es violento que un hombre use la tecnología para sexualizar tu cuerpo”",
+      "categoria": "Tecnología",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/mexico/2026-11-09/akima-modelo-y-victima-de-suplantacion-con-ia-es-violento-que-un-hombre-use-la-tecnologia-para-sexualizar-tu-cuerpo.html",
+      "fecha": "2026-11-09T09:30:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "2fbe5665b61cf105",
+      "titulo": "Auge y caída del imperio audiovisual de Reese Witherspoon: de ser comprado por 900 millones a valer menos de 50 y despedir a media plantilla",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/us/entretenimiento/2026-11-09/auge-y-caida-del-imperio-audiovisual-de-reese-witherspoon-de-ser-comprado-por-900-millones-a-valer-menos-de-50-y-despedir-a-media-plantilla.html",
+      "fecha": "2026-11-09T09:30:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "7719c70fbe8f0b35",
+      "titulo": "¿A qué teme Abelardo de la Espriella?",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/america-colombia/2026-11-09/a-que-teme-abelardo-de-la-espriella.html",
+      "fecha": "2026-11-09T09:30:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "15af07cce989e701",
+      "titulo": "Lo que el dinero no puede comprar",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/america-colombia/2026-11-09/lo-que-el-dinero-no-puede-comprar.html",
+      "fecha": "2026-11-09T09:30:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "f620198125547293",
+      "titulo": "El Jambato negro: el sapo que llevó al Estado ecuatoriano a la justicia para exigir sus derechos",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/america-futura/2026-11-09/el-jambato-negro-el-sapo-que-llevo-al-estado-ecuatoriano-a-la-justicia-para-exigir-sus-derechos.html",
+      "fecha": "2026-11-09T09:30:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "adea16df9c3a37ae",
+      "titulo": "El ‘boom’ exportador de la inteligencia artificial y el alza de la inversión dan un nuevo impulso a la economía mexicana",
+      "categoria": "Tecnología",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/mexico/economia/2026-11-09/el-boom-exportador-de-la-inteligencia-artificial-y-el-alza-de-la-inversion-dan-un-nuevo-impulso-a-la-economia-mexicana.html",
+      "fecha": "2026-11-09T09:30:00+00:00",
       "imagen": ""
     },
     {
       "id": "8166f008934fdea2",
-      "titulo": "Hemos encontrado esta PlayStation 5 más barata justo a tiempo para ‘GTA VI’: la liquida MediaMarkt en su outlet y viene con dos mandos",
+      "titulo": "Hemos encontrado esta PlayStation 5 más barata justo a tiempo para 'GTA VI': la liquida MediaMarkt en su outlet y viene con dos mandos",
       "categoria": "Colombia",
       "fuente": "Xataka",
       "url": "https://www.xataka.com/seleccion/hemos-encontrado-esta-playstation-5-barata-justo-a-tiempo-para-gta-vi-liquida-mediamarkt-su-outlet-viene-dos-mandos",
-      "fecha": "2026-11-09T09:15:06+00:00",
+      "fecha": "2026-11-09T09:15:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "fecef177bd138bb5",
+      "titulo": "Por caso de espionaje: Nvidia abre investigación sobre su CEO, Jensen Huang",
+      "categoria": "Internacional",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/por-caso-de-espionaje-nvidia-abre-investigación-sobre-su-ceo-jensen-huang/a-79896180?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-09T09:09:00+00:00",
       "imagen": ""
     },
     {
@@ -29,12 +182,30 @@
       "imagen": ""
     },
     {
+      "id": "7615018037347382",
+      "titulo": "Lobos con piel de oveja: el libro que revela los presuntos vínculos entre miembros de La Luz del Mundo y el crimen organizado",
+      "categoria": "Internacional",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/us/2026-11-09/lobos-con-piel-de-oveja-el-libro-que-revela-los-presuntos-vinculos-entre-miembros-de-la-luz-del-mundo-y-el-crimen-organizado.html",
+      "fecha": "2026-11-09T09:00:00+00:00",
+      "imagen": ""
+    },
+    {
       "id": "de537e15640b0e37",
       "titulo": "Este cargador plano es perfecto para solucionar el problema de los enchufes colocados tras un mueble o sofá",
       "categoria": "Colombia",
       "fuente": "Xataka",
       "url": "https://www.xataka.com/seleccion/este-cargador-plano-perfecto-para-solucionar-problema-enchufes-colocados-mueble-sofa",
       "fecha": "2026-11-09T08:39:20+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "8f5a8c935406064d",
+      "titulo": "La lucha contra el hambre marca el arranque de la COP31 en Turquía",
+      "categoria": "Internacional",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/la-lucha-contra-el-hambre-marca-el-arranque-de-la-cop31-en-turquía/a-79896095?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-09T08:38:00+00:00",
       "imagen": ""
     },
     {
@@ -299,20 +470,20 @@
       "imagen": ""
     },
     {
-      "id": "0d72384eb10df904",
-      "titulo": "Sector de las edificaciones sostiene cadena de proveedores por $60,7 billones",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/economia/sector-de-las-edificaciones-sostienen-una-cadena-de-proveedores-por-60-7-billones-4519580",
-      "fecha": "2026-11-09T05:01:28+00:00",
-      "imagen": ""
-    },
-    {
       "id": "62e83797bfe6d4ac",
       "titulo": "Incorporación de Brava jalonaría el repunte en las utilidades de Ecopetrol",
       "categoria": "Colombia",
       "fuente": "La República",
       "url": "https://www.larepublica.co/economia/incorporacion-de-brava-jalonaria-el-repunte-en-las-utilidades-de-ecopetrol-4520058",
+      "fecha": "2026-11-09T05:01:28+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "0d72384eb10df904",
+      "titulo": "Sector de las edificaciones sostiene cadena de proveedores por $60,7 billones",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/economia/sector-de-las-edificaciones-sostienen-una-cadena-de-proveedores-por-60-7-billones-4519580",
       "fecha": "2026-11-09T05:01:28+00:00",
       "imagen": ""
     },
@@ -368,177 +539,6 @@
       "fuente": "La República",
       "url": "https://www.larepublica.co/analisis/diego-gomez-3234242/we-the-swing-people-4519761",
       "fecha": "2026-11-09T05:01:22+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "f6b5ec10b86c6674",
-      "titulo": "Más austeridad y mejores impuestos",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/analisis/juan-pablo-lievano-vegalara-2858000/mas-austeridad-y-mejores-impuestos-4520110",
-      "fecha": "2026-11-09T05:01:16+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "f7ed6cba5c3e9e56",
-      "titulo": "El nuevo colonialismo de la IA",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/opinion/editorial/el-nuevo-colonialismo-de-la-ia-4518558",
-      "fecha": "2026-11-09T05:01:13+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "403177cefa6e3cf1",
-      "titulo": "Y mientras tanto… freno a los excesos",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/analisis/maria-claudia-lacouture-402341/y-mientras-tanto-freno-a-los-excesos-4520099",
-      "fecha": "2026-11-09T05:01:12+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "99116981152fed45",
-      "titulo": "Las rentabilidades que puede obtener al invertir la prima de Navidad en FIC, bolsillo o CDT",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/finanzas/las-rentabilidades-que-puede-obtener-al-invertir-la-prima-de-navidad-en-fic-bolsillo-o-cdt-4520184",
-      "fecha": "2026-11-09T05:01:09+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "fefb50cfe1d7889d",
-      "titulo": "El pollo asado está 6,78% más caro que hace un año y llegó a $43.703 en octubre",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/economia/el-pollo-asado-esta-6-78-mas-caro-que-hace-un-ano-y-llego-a-43-703-en-octubre-4519612",
-      "fecha": "2026-11-09T05:01:08+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "dd19f4c4584de600",
-      "titulo": "¿Qué sobra y qué poner en la reforma tributaria presentada por el Gobierno De la Espriella?",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/economia/que-sobra-y-que-poner-en-la-reforma-tributaria-presentada-por-el-gobierno-4520066",
-      "fecha": "2026-11-09T05:01:01+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "c9b116b0fcb71ae6",
-      "titulo": "Pensando en Dios",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/analisis/lewis-acuna-3441162/pensando-en-dios-4519685",
-      "fecha": "2026-11-09T05:00:59+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "ae3f4a379a09afcf",
-      "titulo": "Un balance inicial",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/editorial/un-balance-inicial/",
-      "fecha": "2026-11-09T05:00:55+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "9335533211582a39",
-      "titulo": "¿La inteligencia artificial es la nueva alegoría de la caverna?",
-      "categoria": "Tecnología",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/opinion/la-inteligencia-artificial-es-la-nueva-alegoria-de-la-caverna/",
-      "fecha": "2026-11-09T05:00:50+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "69b479226d6f3505",
-      "titulo": "¡No es locura! ¿Por qué los perros se persiguen la cola?",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/temas/mascotas/no-es-locura-por-que-los-perros-se-persiguen-la-cola/",
-      "fecha": "2026-11-09T05:00:48+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "3d52bb87f571472c",
-      "titulo": "Hallaron a una mujer muerta en el río San Eugenio",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/judicial/hallaron-a-una-mujer-muerta-en-el-rio-san-eugenio/",
-      "fecha": "2026-11-09T05:00:40+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "698db61b97ddc7f9",
-      "titulo": "Cayó de un campero y el mismo vehículo la arrolló",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/judicial/cayo-de-un-campero-y-el-mismo-vehiculo-la-arrollo/",
-      "fecha": "2026-11-09T05:00:35+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "ea30a1c2f91f070a",
-      "titulo": "LA ALDEA DE LA PAZ.",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/opinion/la-aldea-de-la-paz/",
-      "fecha": "2026-11-09T05:00:34+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "a5972cb50f57e905",
-      "titulo": "Iba a trabajar y murió tras chocar con una volqueta",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/judicial/iba-a-trabajar-y-murio-tras-chocar-con-una-volqueta/",
-      "fecha": "2026-11-09T05:00:33+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "ba92e72bfd9aa37c",
-      "titulo": "Sexo y presupuesto",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/opinion/sexo-y-presupuesto/",
-      "fecha": "2026-11-09T05:00:18+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "fe545cdfda67dece",
-      "titulo": "ESCAMPAVÍA.",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/opinion/escampavia-274/",
-      "fecha": "2026-11-09T05:00:18+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "5caaa425051b5a10",
-      "titulo": "¡Retiró una millonada del banco y la robaron!",
-      "categoria": "Economía",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/judicial/retiro-una-millonada-del-banco-y-la-robaron/",
-      "fecha": "2026-11-09T05:00:17+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "782a04b67844f832",
-      "titulo": "¡UNA HERENCIA MALDITA!",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/opinion/una-herencia-maldita/",
-      "fecha": "2026-11-09T05:00:14+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "79b217dcfcc4e3c1",
-      "titulo": "EL UNIVERSO DE LA PALABRA POR RAMIRO TABARES IDARRAGA COLUMNISTA",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/opinion/el-universo-de-la-palabra-por-ramiro-tabares-idarraga-columnista/",
-      "fecha": "2026-11-09T05:00:11+00:00",
       "imagen": ""
     }
   ],
