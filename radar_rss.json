@@ -1,6 +1,33 @@
 {
-  "ultima_actualizacion": "2026-11-10T07:18:55.449913+00:00",
+  "ultima_actualizacion": "2026-11-10T08:37:46.524966+00:00",
   "titulares_rss": [
+    {
+      "id": "4736a892865091a7",
+      "titulo": "Reino Unido presionó todavía más que la Unión Europea para saltar al coche eléctrico y ahora está a punto de dar marcha atrás",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/movilidad/reino-unido-presiono-todavia-que-union-europea-para-saltar-al-coche-electrico-ahora-esta-a-punto-dar-marcha-atras",
+      "fecha": "2026-11-10T08:31:07+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "e7370f231472a92b",
+      "titulo": "Ecopetrol emite bonos por US$2.000 millones y recibe ofertas por más del triple",
+      "categoria": "Economía",
+      "fuente": "La FM Economía",
+      "url": "https://www.lafm.com.co/economia/mas-de-200-inversionistas-respaldaron-emision-de-bonos-de-ecopetrol-416687",
+      "fecha": "2026-11-10T08:15:48+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "3325244f74a6f392",
+      "titulo": "En 1989, EEUU tuvo la brillante idea de asfaltar carreteras con neumáticos viejos. Tres años después, la enterró bajo seis km de asfalto",
+      "categoria": "Internacional",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/movilidad/1989-eeuu-tuvo-brillante-idea-asfaltar-carreteras-neumaticos-viejos-tres-anos-despues-enterro-seis-km-asfalto",
+      "fecha": "2026-11-10T08:01:06+00:00",
+      "imagen": ""
+    },
     {
       "id": "c36daf5a9d4e4eb9",
       "titulo": "Tres hermanos ex ingenieros de SpaceX quieren cruzar el Sistema Solar con una nave que funciona con agua",
@@ -173,20 +200,20 @@
       "imagen": ""
     },
     {
-      "id": "3a1e77df9d92212d",
-      "titulo": "En Medellín se venden hasta 56% de todas las propiedades de lujo del mercado nacional",
-      "categoria": "Economía",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/empresas/en-medellin-se-venden-hasta-56-de-las-propiedades-de-lujo-del-mercado-4520887",
-      "fecha": "2026-11-10T05:01:40+00:00",
-      "imagen": ""
-    },
-    {
       "id": "11f00d6028a8f96c",
       "titulo": "La ley contra la producción, consumo y trabajo nacional",
       "categoria": "Colombia",
       "fuente": "La República",
       "url": "https://www.larepublica.co/analisis/mario-alejandro-valencia-4197734/la-ley-contra-la-produccion-consumo-y-trabajo-nacional-4521030",
+      "fecha": "2026-11-10T05:01:40+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "3a1e77df9d92212d",
+      "titulo": "En Medellín se venden hasta 56% de todas las propiedades de lujo del mercado nacional",
+      "categoria": "Economía",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/empresas/en-medellin-se-venden-hasta-56-de-las-propiedades-de-lujo-del-mercado-4520887",
       "fecha": "2026-11-10T05:01:40+00:00",
       "imagen": ""
     },
@@ -513,33 +540,6 @@
       "url": "https://www.elcolombiano.com/colombia/investigan-extrano-hallazgo-muerte-exalumno-gimnasio-moderno-bogota-tenia-impacto-bala-ID43377395",
       "fecha": "2026-11-10T02:39:29+00:00",
       "imagen": ""
-    },
-    {
-      "id": "e4f9d30336b44592",
-      "titulo": "Emilio Merino: el terremoto golpeó 18 años de sueños, pero no logró derrumbar La Emiliana",
-      "categoria": "Colombia",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/reinventarse-para-seguir/finca-la-emiliana-alcala-valle-reconstruccion-terremoto-turismo-2026/",
-      "fecha": "2026-11-10T02:22:57+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "b2597ba99bb7d245",
-      "titulo": "Aeropuerto Ernesto Cortissoz: Barranquilla recibe autorización para administrar la terminal durante 18 meses",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/regiones/aeropuerto-ernesto-cortissoz-barranquilla-recibe-autorizacion-para-administrar-la-terminal-durante-18-meses-506033",
-      "fecha": "2026-11-10T02:22:50+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "27efc2eecfcacc36",
-      "titulo": "Revelan videollamada de Deicy Jiménez y Petro con perfil falso: “Te veo rozagante”",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/sexocontratos-grabacion-videollamada-gustavo-petro-deicy-jimenez-perfil-falso-ND43371873",
-      "fecha": "2026-11-10T01:52:26+00:00",
-      "imagen": ""
     }
   ],
   "estado_fuentes": [
@@ -560,7 +560,7 @@
       "url": "https://www.elespectador.com/rss/",
       "estado": "error",
       "titulares": 0,
-      "detalle": "El feed no contiene entradas."
+      "detalle": "403 Client Error: Forbidden for url: https://www.elespectador.com/feed/"
     },
     {
       "nombre": "La Silla Vacía",
@@ -626,7 +626,7 @@
       "nombre": "La FM Economía",
       "url": "https://www.lafm.com.co/rss/economia.xml",
       "estado": "correcto",
-      "titulares": 16
+      "titulares": 17
     },
     {
       "nombre": "La FM Internacional",
