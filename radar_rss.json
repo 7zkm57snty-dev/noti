@@ -1,9 +1,234 @@
 {
-  "ultima_actualizacion": "2026-11-10T17:54:00.124590+00:00",
+  "ultima_actualizacion": "2026-11-10T19:02:19.766703+00:00",
   "titulares_rss": [
     {
+      "id": "4c96f937609ed51f",
+      "titulo": "Luz Stella Murgas es la nueva presidenta de la Andi",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/en-vivo/luz-stella-murgas-es-la-nueva-presidenta-de-la-andi/",
+      "fecha": "2026-11-10T19:00:59+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "687f0cc9c600276a",
+      "titulo": "Ley de Rescate Económico de Abelardo de la Espriella comienza su trámite en el Congreso: Barguil y Farelo serán ponentes",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/noticias/ley-de-rescate-economico-de-abelardo-de-la-espriella-comienza-su-tramite-en-el-congreso-barguil-y-farelo-seran-ponentes/",
+      "fecha": "2026-11-10T19:00:34+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "e9881084bd63dbf9",
+      "titulo": "ACS compra Voltan para reforzar sus capacidades industriales y energéticas",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/globoeconomia/acs-compra-voltan-para-reforzar-sus-capacidades-industriales-y-energeticas-4521585",
+      "fecha": "2026-11-10T18:59:17+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "831c6cb01679eeb4",
+      "titulo": "La visita del papa León XIV en Argentina, en vivo | Una multitud se congrega en Córdoba para ver y escuchar al Papa",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/argentina/2026-11-10/la-visita-del-papa-leon-xiv-en-argentina-en-vivo.html",
+      "fecha": "2026-11-10T18:58:58+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "1d722a5892d64dca",
+      "titulo": "Última fecha de la Liga BetPlay 2026-II: estas son las cuentas para llegar a cuadrangulares",
+      "categoria": "Deportes",
+      "fuente": "La FM Deportes",
+      "url": "https://www.lafm.com.co/deportes/liga-betplay-2026-ultima-fecha-cuentas-para-llegar-a-cuadrangulares-416745",
+      "fecha": "2026-11-10T18:54:57+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "61e91b77598c57e8",
+      "titulo": "Andrés Cepeda en Cali 2027: conozca la fecha de inicio de venta de boletería",
+      "categoria": "Cali",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/entretenimiento/andres-cepeda-cali-2027-10-11-2026/",
+      "fecha": "2026-11-10T18:54:14+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "07dda4cf4b39d895",
+      "titulo": "Así reaccionó Juan Camilo Nariño a la elección de Luz Stella Murgas en la Andi: “Cuenta con toda mi disposición para trabajar juntos”",
+      "categoria": "Economía",
+      "fuente": "La FM Economía",
+      "url": "https://www.lafm.com.co/economia/juan-camilo-narino-reaccion-eleccion-luz-stella-murgas-andi-416755",
+      "fecha": "2026-11-10T18:53:40+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "aee5cb2adaec637b",
+      "titulo": "De Naturgas al Gobierno, así reaccionaron a la elección de Luz Stella Murgas como presidenta de la ANDI",
+      "categoria": "Colombia",
+      "fuente": "La FM Economía",
+      "url": "https://www.lafm.com.co/economia/luz-stella-murgas-andi-reacciones-a-su-eleccion-416754",
+      "fecha": "2026-11-10T18:52:48+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "eebfde98d87cf6a1",
+      "titulo": "Camioneros bloquean rutas en Chile en protesta por alza de combustible",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/globoeconomia/camioneros-bloquean-rutas-en-chile-en-protesta-por-alza-de-combustible-4521566",
+      "fecha": "2026-11-10T18:48:45+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "51502432868e957b",
+      "titulo": "El Black Friday de PcComponentes ya ha empezado con descuentos de hasta el 60 % en portátiles, móviles, videojuegos y más",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/seleccion/black-friday-pccomponentes-ha-empezado-descuentos-60-portatiles-moviles-videojuegos",
+      "fecha": "2026-11-10T18:45:50+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "a7d5154dae7db266",
+      "titulo": "El DIRECTV Open reunirá en Colombia a figuras del tenis internacional y DSPORTS transmitirá las finales para Latinoamérica",
+      "categoria": "Deportes",
+      "fuente": "La FM Deportes",
+      "url": "https://www.lafm.com.co/deportes/directv-open-reunira-en-colombia-a-figuras-del-tenis-internacional-416753",
+      "fecha": "2026-11-10T18:42:37+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "7c7a56f969482942",
+      "titulo": "Precios del gas en Europa: el rol Alemania y sus reservas",
+      "categoria": "Internacional",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/precios-del-gas-en-europa-el-rol-alemania-y-sus-reservas/a-79912603?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-10T18:36:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "19dd52b78b8796f4",
+      "titulo": "Dos adultos mayores tienen miedo por el tejado colapsado y aún esperan ayudas en Cali: 'Vivo con el casco puesto por si me caen más pedazos del techo'",
+      "categoria": "Cali",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/cali/la-dura-realidad-de-dos-adultos-mayores-damnificados-por-el-terremoto-en-cali-su-casa-tiene-rotulo-rojo-por-el-colapso-del-techo-y-aun-esperan-ayudas-3599924",
+      "fecha": "2026-11-10T18:35:25+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "e996bf15d3163972",
+      "titulo": "Nvidia pierde más de 400.000 millones de dólares en bolsa tras el escándalo de su CEO",
+      "categoria": "Economía",
+      "fuente": "La FM Internacional",
+      "url": "https://www.lafm.com.co/internacional/nvidia-pierde-mas-400000-millones-dolares-bolsa-escandalo-ceo-416751",
+      "fecha": "2026-11-10T18:34:55+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "be9c37cf7702712a",
+      "titulo": "Elon Musk recibe otra propuesta desde Colombia: La Guajira ofrece a Puerto Bolívar para ser base de SpaceX",
+      "categoria": "Colombia",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/regiones/otro-ofrecimiento-para-spacex-en-colombia-la-guajira-propone-puerto-bolivar-y-se-suma-a-antioquia-con-el-uraba-506064",
+      "fecha": "2026-11-10T18:26:49+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "b087d42b96795efb",
+      "titulo": "Luz Stella Murgas se convierte en la primera mujer en presidir la Andi en más de 80 años",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/empresas/humo-blanco-en-la-andi-luz-stella-murgas-fue-elegida-para-presidir-la-asociacion-4521528",
+      "fecha": "2026-11-10T18:24:15+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "49d27108de212519",
+      "titulo": "¿Remará Australia en contra de los combustibles fósiles en la COP31?",
+      "categoria": "Internacional",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/¿remará-australia-en-contra-de-los-combustibles-fósiles-en-la-cop31/a-79912484?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-10T18:20:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "e1bf024e34694511",
+      "titulo": "Esto es lo que prevé recaudar Anthropic en su debut en Wall Street",
+      "categoria": "Internacional",
+      "fuente": "La FM Internacional",
+      "url": "https://www.lafm.com.co/internacional/esto-preve-recaudar-anthropic-debut-wall-street-416746",
+      "fecha": "2026-11-10T18:19:08+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "3ac7d433e66bfbf9",
+      "titulo": "Abelardo de la Espriella declaró insubsistente a Elizabeth Blandón, directora del Icfes",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/economia/abelardo-de-la-espriella-declaro-insubsistente-a-elizabeth-blandon-directora-del-icfes-4521481",
+      "fecha": "2026-11-10T18:15:25+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "5a8cd27593ff3723",
+      "titulo": "Entre populismo y ajuste fiscal, The Economist analizó los primeros 100 días De la Espriella",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/economia/entre-el-populismo-y-el-ajuste-fiscal-the-economist-analiza-primeros-dias-de-la-espriella-4521490",
+      "fecha": "2026-11-10T18:11:57+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "a8fe7376b734d857",
+      "titulo": "La Defensoría alerta sobre las fallas del Gobierno para atender a los damnificados del terremoto en Colombia",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/america-colombia/2026-11-10/la-defensoria-alerta-sobre-las-fallas-del-gobierno-para-atender-a-los-damnificados-del-terremoto.html",
+      "fecha": "2026-11-10T18:09:55+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "345f4a10a9a4eda4",
+      "titulo": "Diario del gobierno de Abelardo: la tributaria no convence a sus aliados",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/en-vivo/diario-del-gobierno-de-abelardo-la-tributaria-no-convence-a-sus-aliados/",
+      "fecha": "2026-11-10T18:08:19+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "4feb338c3f59472a",
+      "titulo": "“Ahora sí la voy a matar, perra”: escalofriante audio de la agresión del empresario Ricardo Leyva contra su esposa",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/ahora-si-la-voy-a-matar-perra-escalofriante-audio-de-la-agresion-del-empresario-ricardo-leyva-contra-su-esposa-BC43414849",
+      "fecha": "2026-11-10T18:03:46+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "cae6fa18c75f6756",
+      "titulo": "\"Estoy muy preocupado porque no tengo noticias de mi dinero\": los millones de paraguayos afectados por la crisis del Ueno Bank que aún esperan la devolución de sus ahorros",
+      "categoria": "Internacional",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/c977p7pn0m0mo?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-10T18:01:08+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "923a404139865660",
+      "titulo": "La imagen clave del atentado en Rebolo: este es el hombre al que buscan por disparar contra una cajera de una Olímpica en Barranquilla",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/barranquilla/la-imagen-clave-del-atentado-en-rebolo-este-es-el-hombre-al-que-buscan-por-disparar-contra-una-cajera-de-una-olimpica-en-barranquilla-3599942",
+      "fecha": "2026-11-10T18:01:00+00:00",
+      "imagen": ""
+    },
+    {
       "id": "9c3a25494ad963cf",
-      "titulo": "“Les toca callarse”: Tercer Canal denuncia amenazas contra sus periodistas",
+      "titulo": "“Les toca callarse”: Tercer Canal denuncia amenazas contra periodistas",
       "categoria": "Colombia",
       "fuente": "La Silla Vacía",
       "url": "https://www.lasillavacia.com/en-vivo/les-toca-callarse-tercer-canal-denuncia-amenazas-contra-sus-periodistas/",
@@ -17,6 +242,15 @@
       "fuente": "El Colombiano — Colombia",
       "url": "https://www.elcolombiano.com/colombia/debilito-petro-inteligencia-sabotaje-elecciones-espionaje-expresidentes-caos-AM43380642",
       "fecha": "2026-11-10T17:48:13+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "fffa9d3f45633a3b",
+      "titulo": "Imputan a escritor francés Michel Houellebecq por declaraciones sobre los musulmanes",
+      "categoria": "Internacional",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/imputan-a-escritor-francés-michel-houellebecq-por-declaraciones-sobre-los-musulmanes/a-79912678?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-10T17:47:00+00:00",
       "imagen": ""
     },
     {
@@ -92,11 +326,11 @@
       "imagen": ""
     },
     {
-      "id": "75fc062962349da5",
-      "titulo": "Grupo Cibest designa a Diana Giraldo como nueva vicepresidenta de Talento y Cultura",
-      "categoria": "Colombia",
+      "id": "57d0351138dcc934",
+      "titulo": "Bancolombia anunció el retiro de Enrique González Bacci, vicepresidente de Talento",
+      "categoria": "Economía",
       "fuente": "La República",
-      "url": "https://www.larepublica.co/finanzas/grupo-cibest-designa-a-diana-giraldo-como-nueva-vicepresidenta-de-talento-y-cultura-4521443",
+      "url": "https://www.larepublica.co/finanzas/bancolombia-anuncio-el-retiro-de-enrique-gonzalez-bacci-vicepresidente-de-talento-y-cultura-4521443",
       "fecha": "2026-11-10T17:33:45+00:00",
       "imagen": ""
     },
@@ -306,240 +540,6 @@
       "url": "https://www.dw.com/es/conversaciones-entre-rusia-y-ucrania-en-abu-dabi-¿se-producirá-un-avance-decisivo/a-79910461?maca=spa-rss-sp-all-1122-rdf",
       "fecha": "2026-11-10T16:51:00+00:00",
       "imagen": ""
-    },
-    {
-      "id": "fb19538e79c64426",
-      "titulo": "Entre la selva y la sátira: Evelio Rosero reescribe la Conquista en 'Lluvia de frailes en la selva'",
-      "categoria": "Valle del Cauca",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/tv/tiempo-de-leer/evelio-rosero-reescribe-conquista-lluvia-frailes-selva-10-11-2026/",
-      "fecha": "2026-11-10T16:49:35+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "45b674c4f6ce16d0",
-      "titulo": "Del chavismo al judaísmo: ¿Qué conexión tendría Nicolás Maduro con sectores sionistas desde prisión?",
-      "categoria": "Internacional",
-      "fuente": "La FM Internacional",
-      "url": "https://www.lafm.com.co/internacional/nicolas-maduro-prision-judaismo-vinculos-sionismo-carcel-brooklyn-416720",
-      "fecha": "2026-11-10T16:47:43+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "831c6cb01679eeb4",
-      "titulo": "La visita del papa León XIV en Argentina, en vivo | Una multitud se congrega en Córdoba para ver y escuchar al Papa",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/argentina/2026-11-10/la-visita-del-papa-leon-xiv-en-argentina-en-vivo.html",
-      "fecha": "2026-11-10T16:46:28+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "2ff8d736eaaff370",
-      "titulo": "Los primeros 100 días de De la Espriella, según The Economist",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/en-vivo/los-primeros-100-dias-de-de-la-espriella-segun-the-economist/",
-      "fecha": "2026-11-10T16:42:13+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "a533f53e5f330947",
-      "titulo": "Establecen récord Guinness de vuelo humano impulsado por una catapulta",
-      "categoria": "Internacional",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/establecen-récord-guinness-de-vuelo-humano-impulsado-por-una-catapulta/a-79911550?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-10T16:41:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "2978f946028c3f01",
-      "titulo": "Los compromisos y anuncios que hizo el presidente Abelardo De La Espriella para el departamento de Boyacá tras su visita a Tunja",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/los-compromisos-y-anuncios-que-hizo-el-presidente-abelardo-de-la-espriella-para-el-departamento-de-boyaca-tras-su-visita-a-tunja-3599906",
-      "fecha": "2026-11-10T16:40:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "4f5e80285e97a20c",
-      "titulo": "Anthropic ha descubierto lo que mi madre ya sabía: la IA cuida mejor las cosas cuando cree que son suyas",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/robotica-e-ia/anthropic-ha-descubierto-que-mi-madre-sabia-cuidas-mejor-cosas-cuando-crees-que-tuyas-a-su-ia-le-pasa-codigo",
-      "fecha": "2026-11-10T16:31:47+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "a9b0bac3c76f3a86",
-      "titulo": "La incógnita de las bacterias japonesas que viven en ‘La ronda de noche’ de Rembrandt",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/ciencia/2026-11-10/la-incognita-de-las-bacterias-japonesas-que-viven-en-la-ronda-de-noche-de-rembrandt.html",
-      "fecha": "2026-11-10T16:30:02+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "c69f819d90d7b466",
-      "titulo": "Críticas al Pacto por publicación sobre mujeres que salieron de la pobreza durante gobierno Petro, en pleno escándalo de ‘sexocontratos’",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/sexocontratos-petro-pacto-historico-alardea-y-no-rechaza-caso-KN43390903",
-      "fecha": "2026-11-10T16:25:41+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "468b35a1355f7704",
-      "titulo": "Reactivación económica: comerciantes afectados por el terremoto buscan recuperar sus negocios",
-      "categoria": "Valle del Cauca",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/cali/reactivacion-economica-comerciantes-afectados-terremoto-10-11-2026/",
-      "fecha": "2026-11-10T16:24:44+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "019419fe88b29c08",
-      "titulo": "La Dian puede reducir hasta 85% las sanciones tributarias: este es el plazo que le queda para solicitarlo",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/impuestos/la-dian-puede-reducir-hasta-85-las-sanciones-tributarias-este-es-el-plazo-que-le-queda-para-solicitarlo-506068",
-      "fecha": "2026-11-10T16:23:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "2881afdf99b2cda1",
-      "titulo": "Por qué la electrificación es el factor decisivo que necesitamos frente al cambio climático",
-      "categoria": "Internacional",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/por-qué-la-electrificación-es-el-factor-decisivo-que-necesitamos-frente-al-cambio-climático/a-79911079?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-10T16:23:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "1f22a872c50378ee",
-      "titulo": "De residuos a fertilizantes: la apuesta de Fenavi para aprovechar la gallinaza y la pollinaza en Colombia",
-      "categoria": "Colombia",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/agro/de-residuos-a-fertilizantes-la-apuesta-de-fenavi-para-aprovechar-la-gallinaza-y-la-pollinaza-en-colombia-506067",
-      "fecha": "2026-11-10T16:20:47+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "74ca2ecfbde30a41",
-      "titulo": "FMI resaltó estabilidad económica uruguayo pero advirtió \"presiones de gasto\"",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/fmi-resalto-estabilidad-economica-uruguayo-pero-advirtio-presiones-de-gasto-4521390",
-      "fecha": "2026-11-10T16:20:13+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "674b042b1984573c",
-      "titulo": "Renovar tu casa sale más barato gracias al Black Friday de Leroy Merlín y sus descuentos de hasta el 25%",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/seleccion/renovar-tu-casa-sale-barato-gracias-al-black-friday-leroy-merlin-sus-descuentos-25",
-      "fecha": "2026-11-10T16:15:49+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "1cb5837dc8666387",
-      "titulo": "Bucaramanga tendrá un observatorio del delito que operará las 24 horas y contará con inteligencia artificial para detectar crímenes en tiempo real",
-      "categoria": "Tecnología",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/santander/bucaramanga-tendra-un-observatorio-del-delito-que-operara-las-24-horas-y-contara-con-inteligencia-artificial-para-detectar-crimenes-en-tiempo-real-3599893",
-      "fecha": "2026-11-10T16:13:55+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "eff12a05f5393d7b",
-      "titulo": "Chiminangos sigue en riesgo tras el terremoto en Cali: ¿cómo van los arreglos en la zona?",
-      "categoria": "Cali",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/cali/chiminangos-riesgo-terremoto-cali-10-11-2026/",
-      "fecha": "2026-11-10T16:06:30+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "06fa4613121bcc43",
-      "titulo": "Sismo de 5,8 sacudió a la costa de Guatemala y se sintió en Centroamérica",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/sismo-de-5-8-sacudio-a-la-costa-de-guatemala-y-se-sintio-en-centroamerica-4521375",
-      "fecha": "2026-11-10T16:04:19+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "15cfc50173771e3b",
-      "titulo": "José Antonio Luque, cercano a MinComercio, es el nuevo vice de Defensa",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/en-vivo/jose-antonio-luque-cercano-a-mincomercio-es-el-nuevo-vice-de-defensa/",
-      "fecha": "2026-11-10T16:03:04+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "894e6074f8317b69",
-      "titulo": "Mi hermano murió tras rechazar una transfusión por sus creencias; semanas después los Testigos de Jehová eliminaron esa prohibición",
-      "categoria": "Internacional",
-      "fuente": "BBC Mundo",
-      "url": "https://www.bbc.com/mundo/articles/cm9dzdq3p48zo?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-10T16:02:51+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "5534de51b96caf04",
-      "titulo": "Google tuvo el mejor modelo de IA durante trece días. Anthropic se lo quitó y la respuesta ha tardado 24 horas",
-      "categoria": "Tecnología",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/robotica-e-ia/google-tuvo-mejor-modelo-ia-durante-trece-dias-anthropic-se-quito-respuesta-ha-tardado-24-horas",
-      "fecha": "2026-11-10T16:01:49+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "3d52d1c813e7bc62",
-      "titulo": "Feminicidio en Barranquilla: mujer de 43 años fue asesinada por su expareja; el señalado agresor fue capturado después de que intentara autolesionarse",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/barranquilla/feminicidio-en-barranquilla-mujer-de-43-anos-fue-asesinada-por-su-expareja-el-senalado-agresor-fue-capturado-despues-de-que-intentara-autolesionarse-3599896",
-      "fecha": "2026-11-10T16:01:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "848baefb095fc458",
-      "titulo": "Colombia buscaría US$15.000 millones con el FMI, reporta Bloomberg",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/en-vivo/colombia-buscaria-us15-000-millones-con-el-fmi-segun-bloomberg/",
-      "fecha": "2026-11-10T15:59:17+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "fc45356bdbe16f14",
-      "titulo": "Asesor de la campaña presidencial de Paloma Valencia era contratista del Gobierno Petro; la exsenadora pidió investigar",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/paloma-valencia-pidio-investigar-asesor-contratista-gobierno-petro-AN43395621",
-      "fecha": "2026-11-10T15:56:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "be9c37cf7702712a",
-      "titulo": "Otro ofrecimiento para SpaceX en Colombia: La Guajira propone Puerto Bolívar y se suma a Antioquia con el Urabá",
-      "categoria": "Colombia",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/regiones/otro-ofrecimiento-para-spacex-en-colombia-la-guajira-propone-puerto-bolivar-y-se-suma-a-antioquia-con-el-uraba-506064",
-      "fecha": "2026-11-10T15:55:11+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "1d33f3629d4ebec2",
-      "titulo": "Perú inauguró la estatua más grande del mundo dedicada al papa León XIV",
-      "categoria": "Internacional",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/peru-inauguro-la-estatua-mas-grande-del-mundo-dedicada-al-papa-leon-xiv-4521334",
-      "fecha": "2026-11-10T15:53:47+00:00",
-      "imagen": ""
     }
   ],
   "estado_fuentes": [
@@ -553,7 +553,7 @@
       "nombre": "El Tiempo Cali",
       "url": "https://www.eltiempo.com/rss/colombia_cali.xml",
       "estado": "correcto",
-      "titulares": 8
+      "titulares": 7
     },
     {
       "nombre": "El Espectador",
@@ -596,7 +596,7 @@
       "nombre": "DW Español",
       "url": "https://rss.dw.com/rdf/rss-sp-all",
       "estado": "correcto",
-      "titulares": 23
+      "titulares": 25
     },
     {
       "nombre": "Xataka",
@@ -608,7 +608,7 @@
       "nombre": "El País Colombia",
       "url": "https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/section/america-colombia/portada",
       "estado": "correcto",
-      "titulares": 35
+      "titulares": 34
     },
     {
       "nombre": "Diario Occidente",
@@ -620,7 +620,7 @@
       "nombre": "La FM Deportes",
       "url": "https://www.lafm.com.co/rss/deportes.xml",
       "estado": "correcto",
-      "titulares": 18
+      "titulares": 19
     },
     {
       "nombre": "La FM Economía",
