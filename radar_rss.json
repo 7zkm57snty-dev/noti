@@ -1,6 +1,294 @@
 {
-  "ultima_actualizacion": "2026-11-10T11:31:49.450438+00:00",
+  "ultima_actualizacion": "2026-11-10T12:34:07.086750+00:00",
   "titulares_rss": [
+    {
+      "id": "b45ac64749a4a07a",
+      "titulo": "¿Aguantará Jensen Huang como CEO de Nvidia tras el escándalo del espionaje?",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/globoeconomia/aguantara-jensen-huang-como-ceo-de-nvidia-tras-el-escandalo-del-espionaje-4521165",
+      "fecha": "2026-11-10T12:31:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "3c0ed4d2ccbb7454",
+      "titulo": "Desayune informado con las movidas de este 10 de noviembre de 2026",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/en-vivo/desayune-informado-con-las-movidas-de-este-10-de-noviembre-de-2026/",
+      "fecha": "2026-11-10T12:27:03+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "020530567023420f",
+      "titulo": "Muere un policía y otro resulta gravemente herido en una explosión en Oviedo",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/espana/2026-11-10/un-policia-muerto-y-otro-herido-tras-una-explosion-en-oviedo.html",
+      "fecha": "2026-11-10T12:26:12+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "93adcdbb5c26681e",
+      "titulo": "La estrategia en el Congreso para pasar la tributaria",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/podcasts/huevos-revueltos-con-politica/la-estrategia-en-el-congreso-para-pasar-la-tributaria/",
+      "fecha": "2026-11-10T12:21:06+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "b92581cca19dc464",
+      "titulo": "El millonario salario de Carlos Oyola, el hacker de la DNI capturado, con el Fondo Colombia en Paz: ¿cuánto ganaba?",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/carlos-oyola-hacker-capturado-dni-contrato-fondo-colombia-en-paz-LM43382911",
+      "fecha": "2026-11-10T12:20:37+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "36cf90e02ddced3f",
+      "titulo": "A tres meses del terremoto, 776.000 afectados siguen esperando soluciones, según la Defensoría",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/alerta-por-falta-atencion-reconstruccion-terremoto-10-agosto-JM43383486",
+      "fecha": "2026-11-10T12:17:28+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "b828543fe410f12b",
+      "titulo": "La funda para portátiles para fans de Lego: incluye detalles de la marca y protege los dispositivos electrónicos",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/seleccion/funda-para-portatiles-para-fans-lego-incluye-detalles-marca-protege-dispositivos-electronicos",
+      "fecha": "2026-11-10T12:15:49+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "50497085ecffe232",
+      "titulo": "Nvidia pierde 190.000 millones de dólares en Bolsa y sus accionistas llevan a Jensen Huang ante los tribunales",
+      "categoria": "Economía",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/empresas-y-economia/nvidia-pierde-190-000-millones-dolares-bolsa-sus-accionistas-llevan-a-jensen-huang-tribunales",
+      "fecha": "2026-11-10T12:15:48+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "8df4ca5a73d21908",
+      "titulo": "Giro directo: Supersalud pone bajo observación $356.500 millones de recursos solicitados por las EPS",
+      "categoria": "Economía",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/gobierno/giro-directo-supersalud-pone-bajo-observacion-356-500-millones-de-recursos-solicitados-por-las-eps-506039",
+      "fecha": "2026-11-10T12:14:56+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "8e38456cb689ba41",
+      "titulo": "Colombia estaría negociado con FMI un crédito cercano a US$15.000 millones ante necesidades de financiación fiscal",
+      "categoria": "Colombia",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/crecimiento/colombia-negociaria-con-el-fmi-un-credito-cercano-a-us-15-000-millones-ante-sus-necesidades-de-financiacion-fiscal-506037",
+      "fecha": "2026-11-10T12:13:12+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "fcf1654916591ede",
+      "titulo": "Jornada médica y psicosocial gratuita para personas afectadas por el terremoto en Cali",
+      "categoria": "Cali",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/cali/jornada-medica-y-psicosocial-gratuita-afectadas-terremoto-cali-10-11-2026/",
+      "fecha": "2026-11-10T12:10:39+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "831c6cb01679eeb4",
+      "titulo": "La visita del papa León XIV en Argentina, en vivo | Una multitud se congrega en Córdoba para ver y escuchar al Papa",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/argentina/2026-11-10/la-visita-del-papa-leon-xiv-en-argentina-en-vivo.html",
+      "fecha": "2026-11-10T12:10:22+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "8ff4aa0e20060296",
+      "titulo": "La increíble fortuna que le correspondería a la esposa de Jensen Huang de Nvidia si deciden divorciarse",
+      "categoria": "Internacional",
+      "fuente": "La FM Internacional",
+      "url": "https://www.lafm.com.co/internacional/jensen-huang-nvidia-posible-separacion-esposa-infidelidad-presunta-espia-china-416704",
+      "fecha": "2026-11-10T12:10:08+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "91b08907ebd0fa1b",
+      "titulo": "La venta de 8,75% de Ecopetrol tendría un costo de $9,71 billones por su valor en bolsa",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/economia/vender-cerca-de-8-de-ecopetrol-tendria-un-costo-de-9-71-billones-por-su-valoracion-en-bolsa-4521126",
+      "fecha": "2026-11-10T12:08:40+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "7637493613a6061a",
+      "titulo": "Messi vuelve al Fifpro World 11 y Harry Kane queda fuera pese a ganar el Balón de Oro",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/ocio/messi-vuelve-al-fifpro-world-11-y-harry-kane-queda-fuera-pese-a-ganar-el-balon-de-oro-4521122",
+      "fecha": "2026-11-10T12:07:46+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "325ee1fba61ed2bc",
+      "titulo": "Los fiscales italianos investigan a Amazon por la venta de productos chinos",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/globoeconomia/los-fiscales-italianos-investigan-a-amazon-por-la-venta-de-productos-chinos-4521148",
+      "fecha": "2026-11-10T12:05:50+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "4fec85ddd48da8e3",
+      "titulo": "La bebé Isabela y su madre, entre las cuatro víctimas fatales del accidente en la vía a Buenaventura: revelan la hipótesis del siniestro en el túnel 6",
+      "categoria": "Valle del Cauca",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/cali/la-bebe-isabela-y-su-madre-entre-las-cuatro-victimas-fatales-del-accidente-en-la-via-a-buenaventura-revelan-la-hipotesis-del-siniestro-en-el-tunel-3599805",
+      "fecha": "2026-11-10T12:04:24+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "8ca9859074cda0e8",
+      "titulo": "Las emisiones de CO₂ van a bajar en 2026, pero hay un motivo que no tiene nada que ver con las energías renovables",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/ecologia-y-naturaleza/emisiones-co2-van-a-bajar-2026-hay-motivo-que-no-tiene-nada-que-ver-energias-renovables",
+      "fecha": "2026-11-10T12:01:48+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "c52ee6fef0212ed9",
+      "titulo": "Encuentro de parques Eco-industriales en Cali; buscan impulsar la economía circular",
+      "categoria": "Cali",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/cali/encuentro-parques-eco-industriales-10-11-2026/",
+      "fecha": "2026-11-10T11:59:42+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "20b86a8405e85b64",
+      "titulo": "Qué presencia tienen los lefebvrianos en Argentina, el primer país de América Latina en el que se estableció el grupo que desafía a León XIV",
+      "categoria": "Internacional",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/cwp8gg9e0nn7o?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-10T11:58:04+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "a0aa583a81e58f4d",
+      "titulo": "La visita del papa León XIV dispara alquileres de US$3.500 en la Argentina",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/globoeconomia/la-visita-del-papa-leon-xiv-dispara-alquileres-de-us-3-500-en-la-argentina-4521131",
+      "fecha": "2026-11-10T11:57:53+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "8a9e90e85fa51943",
+      "titulo": "La Andi elige hoy al reemplazo de Bruce Mac Master entre Luz Stella Murgas y Juan Camilo Nariño",
+      "categoria": "Economía",
+      "fuente": "La FM Economía",
+      "url": "https://www.lafm.com.co/economia/andi-elige-nuevo-presidente-luz-stella-murgas-juan-camilo-narino-416701",
+      "fecha": "2026-11-10T11:57:16+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "9c721769f2f27c9d",
+      "titulo": "Conozca los barrios que se quedarán sin agua este martes; habrá cortes de 12 horas",
+      "categoria": "Valle del Cauca",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/cali/barrios-sin-agua-martes-10-11-2026/",
+      "fecha": "2026-11-10T11:53:51+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "74d62661418d3e92",
+      "titulo": "Secuelas físicas y mentales, el drama oculto que dejó el terremoto",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/secuelas-fisicas-y-mentales-el-drama-oculto-que-dejo-el-terremoto-3599803",
+      "fecha": "2026-11-10T11:48:16+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "1beb9e13aa397ea8",
+      "titulo": "Este móvil Xiaomi baja de precio antes del Black Friday: tiene una batería enorme, 512 GB de almacenamiento y buena pantalla",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/seleccion/este-movil-xiaomi-baja-precio-antes-black-friday-tiene-bateria-enorme-512-gb-almacenamiento-buena-pantalla",
+      "fecha": "2026-11-10T11:45:49+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "568e8dc015cf525e",
+      "titulo": "La infidelidad de Huang ha destapado la fragilidad de NVIDIA: depende de un hombre sin sucesor y de una isla sin plan B",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/empresas-y-economia/infidelidad-huang-ha-destapado-fragilidad-nvidia-depende-hombre-sucesor-isla-plan-b",
+      "fecha": "2026-11-10T11:45:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "4cb6fa7e02588abc",
+      "titulo": "Impuesto a criptomonedas en Ley de Rescate enfrenta reparos: gremio propone reducirlo al 0 %",
+      "categoria": "Cali",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/gobierno/impuesto-a-criptomonedas-en-ley-de-rescate-enfrenta-reparos-gremio-propone-reducirlo-al-506038",
+      "fecha": "2026-11-10T11:43:50+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "d04019f7a56830e8",
+      "titulo": "La entrevista de Santiago Abascal en 'La Revuelta' rompe récords de audiencia y divide la opinión pública",
+      "categoria": "Internacional",
+      "fuente": "La FM Internacional",
+      "url": "https://www.lafm.com.co/internacional/santiago-abascal-david-broncano-vox-la-revuelta-espana-416699",
+      "fecha": "2026-11-10T11:39:17+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "499eddb25c237005",
+      "titulo": "Quedan 24 horas para prepararnos ante una ciclogénesis explosiva de récord y AEMET ya señala la sierra de Gredos",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/ecologia-y-naturaleza/quedan-24-horas-para-prepararnos-ciclogenesis-explosiva-record-aemet-senala-sierra-gredos",
+      "fecha": "2026-11-10T11:35:12+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "fcd93a01c0a166ba",
+      "titulo": "Amazon no espera al Black Friday para tumbar el precio de la Ninja Crispi: freidora de aire con rebajón histórico en sus ofertas anticipadas",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/seleccion/amazon-no-espera-al-black-friday-para-tumbar-precio-ninja-crispi-freidora-aire-rebajon-historico-sus-ofertas-anticipadas",
+      "fecha": "2026-11-10T11:31:48+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "e035b42fec0aef02",
+      "titulo": "La frontera entre Movistar y O2 es cada vez más difusa. Pero O2 tiene más sentido que nunca para Telefónica",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/servicios/frontera-movistar-o2-cada-vez-difusa-o2-tiene-sentido-que-nunca-para-telefonica",
+      "fecha": "2026-11-10T11:31:48+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "fc69d30af1ddce64",
+      "titulo": "Dólar en Colombia sigue subiendo previo al dato de inflación en EE. UU.: podría romper la barrera de los $3.300",
+      "categoria": "Economía",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/finanzas/dolar-en-colombia-sigue-subiendo-previo-al-dato-de-inflacion-en-ee-uu-podria-romper-la-barrera-de-los-3-506036",
+      "fecha": "2026-11-10T11:29:53+00:00",
+      "imagen": ""
+    },
     {
       "id": "0bf1b3b2d9d5efb0",
       "titulo": "La infidelidad de Jensen Huang con la supuesta espía china Alice Huang: qué sabemos (y qué no) de lo que pudo conseguir",
@@ -12,7 +300,7 @@
     },
     {
       "id": "a76cad249d2b4c20",
-      "titulo": "El crudo cae bajo US$90, Trump resta importancia a posibilidad de escalada con Irán",
+      "titulo": "El brent cayó debajo de US$90, Trump resta importancia a posibilidad de escalada con Irán",
       "categoria": "Internacional",
       "fuente": "La República",
       "url": "https://www.larepublica.co/globoeconomia/el-crudo-cae-bajo-us-90-trump-resta-importancia-a-posibilidad-de-escalada-con-iran-4521115",
@@ -156,7 +444,7 @@
     },
     {
       "id": "7e3ebe065e05dab1",
-      "titulo": "Rusia ha descubierto que el mejor helicóptero de combate es el que no combate: acaba de convertirlos en francotiradores de 500 km contra Ucrania",
+      "titulo": "La guerra de Ucrania está cambiando una regla centenaria de la aviación militar: para atacar, cada vez importa menos acercarse",
       "categoria": "Internacional",
       "fuente": "Xataka",
       "url": "https://www.xataka.com/magnet/rusia-ha-encontrado-como-atacar-ucrania-500-km-utilizar-sus-cazas-convertir-sus-helicopteros-parecido-a-pelicula-rambo",
@@ -252,294 +540,6 @@
       "url": "https://elpais.com/america-futura/2026-11-10/el-nino-nos-llama-una-vez-mas-a-replantear-nuestro-modelo-de-desarrollo.html",
       "fecha": "2026-11-10T09:30:00+00:00",
       "imagen": ""
-    },
-    {
-      "id": "ea9d2c23c8b71cca",
-      "titulo": "COP31: ¡Menos retórica y más acción!",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/america-colombia/2026-11-10/cop31-menos-retorica-y-mas-accion.html",
-      "fecha": "2026-11-10T09:30:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "972ee69b39bf2c27",
-      "titulo": "Cómo puede la victoria demócrata cambiar las reglas para elegir presidente en Estados Unidos",
-      "categoria": "Internacional",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/us/2026-11-10/como-puede-la-victoria-democrata-cambiar-las-reglas-para-elegir-presidente-en-estados-unidos.html",
-      "fecha": "2026-11-10T09:30:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "6ca8d2fb97659100",
-      "titulo": "Pete Hegseth, 22 meses de polémica en el Pentágono",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/us/2026-11-10/pete-hegseth-22-meses-de-polemica-en-el-pentagono.html",
-      "fecha": "2026-11-10T09:30:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "f07cfe289d0d9894",
-      "titulo": "El ICE no frena sus redadas mientras los demócratas preparan su ofensiva contra la agencia migratoria desde el Congreso",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/us/migracion/2026-11-10/el-ice-no-frena-sus-redadas-mientras-los-democratas-preparan-su-ofensiva-contra-la-agencia-migratoria-desde-el-congreso.html",
-      "fecha": "2026-11-10T09:30:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "9c94461bc6f3bc53",
-      "titulo": "Las presiones inflacionarias aquejan una vez más a México con alzas de energéticos, alimentos y transporte aéreo",
-      "categoria": "Economía",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/mexico/economia/2026-11-10/las-presiones-inflacionarias-aquejan-una-vez-mas-a-mexico-con-alzas-de-energeticos-alimentos-y-transporte-aereo.html",
-      "fecha": "2026-11-10T09:30:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "02a825ba72ddc78b",
-      "titulo": "La solución para secar la ropa en pisos pequeños: un tendedero que se transforma en lámpara cuando no lo usas",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/seleccion/solucion-para-secar-ropa-pisos-pequenos-tendedero-que-se-transforma-lampara-cuando-no-usas",
-      "fecha": "2026-11-10T09:15:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "8cdb6043427682ce",
-      "titulo": "Salir al sol cada día es gratis y podría reducir el riesgo de demencia. El problema es que la oficina no te deja",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/medicina-y-salud/salir-al-sol-cada-dia-gratis-podria-reducir-riesgo-demencia-problema-que-oficina-no-te-deja",
-      "fecha": "2026-11-10T09:01:07+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "4c2e2c88b0b98e50",
-      "titulo": "Negociaciones en Abu Dabi para poner fin a la guerra en Ucrania",
-      "categoria": "Internacional",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/negociaciones-en-abu-dabi-para-poner-fin-a-la-guerra-en-ucrania/a-79906447?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-10T08:35:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "4736a892865091a7",
-      "titulo": "Reino Unido presionó todavía más que la Unión Europea para saltar al coche eléctrico y ahora está a punto de dar marcha atrás",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/movilidad/reino-unido-presiono-todavia-que-union-europea-para-saltar-al-coche-electrico-ahora-esta-a-punto-dar-marcha-atras",
-      "fecha": "2026-11-10T08:31:07+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "e7370f231472a92b",
-      "titulo": "Ecopetrol emite bonos por US$2.000 millones y recibe ofertas por más del triple",
-      "categoria": "Economía",
-      "fuente": "La FM Economía",
-      "url": "https://www.lafm.com.co/economia/mas-de-200-inversionistas-respaldaron-emision-de-bonos-de-ecopetrol-416687",
-      "fecha": "2026-11-10T08:15:48+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "3325244f74a6f392",
-      "titulo": "En 1989, EEUU tuvo la brillante idea de asfaltar carreteras con neumáticos viejos. Tres años después, la enterró bajo seis km de asfalto",
-      "categoria": "Internacional",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/movilidad/1989-eeuu-tuvo-brillante-idea-asfaltar-carreteras-neumaticos-viejos-tres-anos-despues-enterro-seis-km-asfalto",
-      "fecha": "2026-11-10T08:00:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "c36daf5a9d4e4eb9",
-      "titulo": "Tres hermanos ex ingenieros de SpaceX quieren cruzar el Sistema Solar con una nave que funciona con agua",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/espacio/tres-hermanos-ex-ingenieros-spacex-quieren-cruzar-sistema-solar-nave-que-funciona-agua",
-      "fecha": "2026-11-10T07:01:06+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "16d9367949e7598b",
-      "titulo": "Solo hoy por 11,99 euros: Lidl rebaja esta lámpara de pie LED elegante y con brazo flexible para leer o decorar",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/seleccion/solo-hoy-11-99-euros-lidl-rebaja-esta-lampara-pie-led-elegante-brazo-flexible-para-leer-decorar",
-      "fecha": "2026-11-10T06:45:06+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "dfedb84cbd55f695",
-      "titulo": "Una startup paga 20 dólares la hora por pasear perros robot",
-      "categoria": "Economía",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/robotica-e-ia/startup-paga-20-dolares-hora-pasear-perros-robot",
-      "fecha": "2026-11-10T06:31:06+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "a8106efd7b28f186",
-      "titulo": "Cinco años de cárcel y más de 1,5 millones de euros por defraudar a la Seguridad Social en la mayor trama hostelera de Córdoba",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/empresas-y-economia/cinco-anos-carcel-1-5-millones-euros-defraudar-a-seguridad-social-mayor-trama-hostelera-cordoba",
-      "fecha": "2026-11-10T06:01:06+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "79f98b6e0c58f6fe",
-      "titulo": "Risaralda espera hechos, no más anuncios",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/actualidad/risaralda-espera-hechos-no-mas-anuncios/",
-      "fecha": "2026-11-10T05:05:14+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "e71d5ccf7f3a9a21",
-      "titulo": "El “Claude” look: ¿todos comenzamos a parecernos?",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/analisis/hernan-david-perez-3094442/el-claude-look-todos-comenzamos-a-parecernos-4520984",
-      "fecha": "2026-11-10T05:05:05+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "8c7dfe88e0b88796",
-      "titulo": "Nvidia borra US$400.000 millones de valor de mercado tras escándalo del CEO Huang",
-      "categoria": "Economía",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/nvidia-borra-us-400-000-millones-de-valor-de-mercado-tras-escandalo-huang-4521013",
-      "fecha": "2026-11-10T05:04:23+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "df8163a40c4c0d37",
-      "titulo": "Así puede ahorrar energía en Navidad y evitar que aumente la factura de luz en diciembre",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/responsabilidad-social/consejos-para-ahorrar-energia-en-navidad-y-evitar-que-aumente-la-factura-de-luz-en-diciembre-4520825",
-      "fecha": "2026-11-10T05:03:57+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "ad0ffc3c2e806fa8",
-      "titulo": "El efecto de la visita del Papa León XIV a Sudamérica será mayor a los US$500 millones",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/el-efecto-de-la-visita-del-papa-leon-xiv-a-sudamerica-sera-de-us-500-millones-4520861",
-      "fecha": "2026-11-10T05:03:55+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "d05f09aa7473cbce",
-      "titulo": "Hace tres meses, todo cambió, testimonio de Adriana González y su vida posterremoto",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/actualidad/hace-tres-meses-todo-cambio-testimonio-de-adriana-gonzalez-y-su-vida-posterremoto/",
-      "fecha": "2026-11-10T05:03:52+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "f2765ffca6a77376",
-      "titulo": "Impuesto al patrimonio, doble tributación",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/noticias/economia/impuesto-al-patrimonio-doble-tributacion/",
-      "fecha": "2026-11-10T05:03:49+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "265e405b0c53745d",
-      "titulo": "La Juntanza Cineclubista de Pereira",
-      "categoria": "Tendencias",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/punto-final/la-juntanza-cineclubista-de-pereira/",
-      "fecha": "2026-11-10T05:03:18+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "b0b20bb21a8df3e7",
-      "titulo": "Una empresa finlandesa apuesta por la madera para reemplazar los empaques plásticos",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/responsabilidad-social/uniki-desarrolla-un-material-de-fibras-de-madera-para-sustituir-los-empaques-plasticos-4520716",
-      "fecha": "2026-11-10T05:03:13+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "4aa9fb09efbd0b87",
-      "titulo": "Impuestos: el cliente",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/analisis/carlos-ronderos-533356/impuestos-el-cliente-4520963",
-      "fecha": "2026-11-10T05:02:19+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "0ac73e16220a7646",
-      "titulo": "“Como próximo proyecto traeremos a Hackett London al Centro Comercial Andino”",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/empresas/como-proximo-proyecto-traeremos-la-marca-hackett-london-4520934",
-      "fecha": "2026-11-10T05:01:53+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "745146cd039279b9",
-      "titulo": "Así están las tasas de interés de las tarjetas de crédito para anticipar compras navideñas",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/finanzas/asi-estan-las-tasas-de-interes-de-las-tarjetas-de-credito-para-anticipar-sus-gastos-navidenos-4520897",
-      "fecha": "2026-11-10T05:01:52+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "5577ff07a0d72403",
-      "titulo": "La paz también se construye con Estado",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/analisis/simon-gaviria-munoz-401830/la-paz-tambien-se-construye-con-estado-4520990",
-      "fecha": "2026-11-10T05:01:52+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "c6c70131f7e784ec",
-      "titulo": "La discusión del salario mínimo para el próximo año se perfila con 6,30% en la inflación anual",
-      "categoria": "Economía",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/economia/discusion-del-salario-minimo-para-el-otro-ano-se-perfila-con-6-30-de-inflacion-4520706",
-      "fecha": "2026-11-10T05:01:47+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "c1dfd78dd44d5274",
-      "titulo": "El boom de la nutrición funcional, oportunidad para la industria de bebidas colombiana",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/empresas/el-boom-de-la-nutricion-funcional-oportunidad-para-la-industria-de-bebidas-colombiana-4520862",
-      "fecha": "2026-11-10T05:01:44+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "f0e30e6cf096561c",
-      "titulo": "Sin los ajustes al diésel para 2026, la deuda del Fepc va a llegar hasta los $14 billones",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/economia/sin-ajustes-al-diesel-en-2026-la-deuda-del-fepc-llegara-hasta-14-billones-4520970",
-      "fecha": "2026-11-10T05:01:43+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "3a1e77df9d92212d",
-      "titulo": "En Medellín se venden hasta 56% de todas las propiedades de lujo del mercado nacional",
-      "categoria": "Economía",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/empresas/en-medellin-se-venden-hasta-56-de-las-propiedades-de-lujo-del-mercado-4520887",
-      "fecha": "2026-11-10T05:01:40+00:00",
-      "imagen": ""
     }
   ],
   "estado_fuentes": [
@@ -590,7 +590,7 @@
       "nombre": "BBC Mundo",
       "url": "https://feeds.bbci.co.uk/mundo/rss.xml",
       "estado": "correcto",
-      "titulares": 25
+      "titulares": 24
     },
     {
       "nombre": "DW Español",
@@ -626,7 +626,7 @@
       "nombre": "La FM Economía",
       "url": "https://www.lafm.com.co/rss/economia.xml",
       "estado": "correcto",
-      "titulares": 17
+      "titulares": 18
     },
     {
       "nombre": "La FM Internacional",
@@ -650,7 +650,7 @@
       "nombre": "El Colombiano — Colombia",
       "url": "https://www.elcolombiano.com/rss/Colombia.xml",
       "estado": "correcto",
-      "titulares": 34
+      "titulares": 35
     },
     {
       "nombre": "El Diario — Pereira",
