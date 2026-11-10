@@ -1,6 +1,384 @@
 {
-  "ultima_actualizacion": "2026-11-10T05:00:24.024035+00:00",
+  "ultima_actualizacion": "2026-11-10T05:59:50.565464+00:00",
   "titulares_rss": [
+    {
+      "id": "79f98b6e0c58f6fe",
+      "titulo": "Risaralda espera hechos, no más anuncios",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/actualidad/risaralda-espera-hechos-no-mas-anuncios/",
+      "fecha": "2026-11-10T05:05:14+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "8c7dfe88e0b88796",
+      "titulo": "Nvidia borra US$400.000 millones de valor de mercado tras escándalo del CEO Huang",
+      "categoria": "Economía",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/globoeconomia/nvidia-borra-us-400-000-millones-de-valor-de-mercado-tras-escandalo-huang-4521013",
+      "fecha": "2026-11-10T05:04:23+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "df8163a40c4c0d37",
+      "titulo": "Así puede ahorrar energía en Navidad y evitar que aumente la factura de luz en diciembre",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/responsabilidad-social/consejos-para-ahorrar-energia-en-navidad-y-evitar-que-aumente-la-factura-de-luz-en-diciembre-4520825",
+      "fecha": "2026-11-10T05:03:57+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "ad0ffc3c2e806fa8",
+      "titulo": "El efecto de la visita del Papa León XIV a Sudamérica será mayor a los US$500 millones",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/globoeconomia/el-efecto-de-la-visita-del-papa-leon-xiv-a-sudamerica-sera-de-us-500-millones-4520861",
+      "fecha": "2026-11-10T05:03:55+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "d05f09aa7473cbce",
+      "titulo": "Hace tres meses, todo cambió, testimonio de Adriana González y su vida posterremoto",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/actualidad/hace-tres-meses-todo-cambio-testimonio-de-adriana-gonzalez-y-su-vida-posterremoto/",
+      "fecha": "2026-11-10T05:03:52+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "f2765ffca6a77376",
+      "titulo": "Impuesto al patrimonio, doble tributación",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/noticias/economia/impuesto-al-patrimonio-doble-tributacion/",
+      "fecha": "2026-11-10T05:03:49+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "265e405b0c53745d",
+      "titulo": "La Juntanza Cineclubista de Pereira",
+      "categoria": "Tendencias",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/punto-final/la-juntanza-cineclubista-de-pereira/",
+      "fecha": "2026-11-10T05:03:18+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "b0b20bb21a8df3e7",
+      "titulo": "Una empresa finlandesa apuesta por la madera para reemplazar los empaques plásticos",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/responsabilidad-social/uniki-desarrolla-un-material-de-fibras-de-madera-para-sustituir-los-empaques-plasticos-4520716",
+      "fecha": "2026-11-10T05:03:13+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "4aa9fb09efbd0b87",
+      "titulo": "Impuestos: el cliente",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/analisis/carlos-ronderos-533356/impuestos-el-cliente-4520963",
+      "fecha": "2026-11-10T05:02:19+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "e71d5ccf7f3a9a21",
+      "titulo": "El “Claude” look: ¿todos comenzamos a parecernos?",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/analisis/hernan-david-perez-3094442/el-claude-look-todos-comenzamos-a-parecernos-4520984",
+      "fecha": "2026-11-10T05:02:05+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "0ac73e16220a7646",
+      "titulo": "“Como próximo proyecto traeremos a Hackett London al Centro Comercial Andino”",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/empresas/como-proximo-proyecto-traeremos-la-marca-hackett-london-4520934",
+      "fecha": "2026-11-10T05:01:53+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "5577ff07a0d72403",
+      "titulo": "La paz también se construye con Estado",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/analisis/simon-gaviria-munoz-401830/la-paz-tambien-se-construye-con-estado-4520990",
+      "fecha": "2026-11-10T05:01:52+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "c6c70131f7e784ec",
+      "titulo": "La discusión del salario mínimo para el próximo año se perfila con 6,30% en la inflación anual",
+      "categoria": "Economía",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/economia/discusion-del-salario-minimo-para-el-otro-ano-se-perfila-con-6-30-de-inflacion-4520706",
+      "fecha": "2026-11-10T05:01:47+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "c1dfd78dd44d5274",
+      "titulo": "El boom de la nutrición funcional, oportunidad para la industria de bebidas colombiana",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/empresas/el-boom-de-la-nutricion-funcional-oportunidad-para-la-industria-de-bebidas-colombiana-4520862",
+      "fecha": "2026-11-10T05:01:44+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "f0e30e6cf096561c",
+      "titulo": "Sin los ajustes al diésel para 2026, la deuda del Fepc va a llegar hasta los $14 billones",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/economia/sin-ajustes-al-diesel-en-2026-la-deuda-del-fepc-llegara-hasta-14-billones-4520970",
+      "fecha": "2026-11-10T05:01:43+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "11f00d6028a8f96c",
+      "titulo": "La ley contra la producción, consumo y trabajo nacional",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/analisis/mario-alejandro-valencia-4197734/la-ley-contra-la-produccion-consumo-y-trabajo-nacional-4521030",
+      "fecha": "2026-11-10T05:01:40+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "3a1e77df9d92212d",
+      "titulo": "En Medellín se venden hasta 56% de todas las propiedades de lujo del mercado nacional",
+      "categoria": "Economía",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/empresas/en-medellin-se-venden-hasta-56-de-las-propiedades-de-lujo-del-mercado-4520887",
+      "fecha": "2026-11-10T05:01:40+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "aa0dff4d23295158",
+      "titulo": "Complementar la Ley de Sometimiento",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/analisis/ernesto-lucena-barrero-3209042/complementar-la-ley-de-sometimiento-4520951",
+      "fecha": "2026-11-10T05:01:37+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "f016bfa9fe2d1556",
+      "titulo": "Las elecciones estadounidenses",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/analisis/luis-fernando-vargas-alzate-536071/las-elecciones-estadounidenses-4520968",
+      "fecha": "2026-11-10T05:01:36+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "1c13d973d70eb23b",
+      "titulo": "AMV celebró sus 20 años con un seminario sobre el mercado de valores",
+      "categoria": "Economía",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/ocio/amv-celebro-sus-20-anos-con-un-seminario-sobre-el-mercado-de-valores-4520941",
+      "fecha": "2026-11-10T05:01:27+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "70bdb31bd58728bb",
+      "titulo": "El legado imborrable de la madrina del río Bogotá",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/analisis/natasha-avendano-3083918/el-legado-imborrable-de-la-madrina-del-rio-bogota-4521009",
+      "fecha": "2026-11-10T05:01:27+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "a1085d0495d776be",
+      "titulo": "Aerolíneas Argentinas tendrá cinco frecuencias semanales hacia Cartagena desde enero",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/empresas/entrevista-con-fabian-lombardo-presidente-y-ceo-de-aerolineas-argentinas-4520713",
+      "fecha": "2026-11-10T05:01:26+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "7394b9b1e6e606b1",
+      "titulo": "Un día cualquiera en crisis fiscal",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/analisis/andres-felipe-londono-3399332/un-dia-cualquiera-en-crisis-fiscal-4521033",
+      "fecha": "2026-11-10T05:01:19+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "9e1562808247b309",
+      "titulo": "Cinco caminos que debe seguir la tributaria",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/opinion/editorial/cinco-caminos-que-debe-seguir-la-tributaria-4520710",
+      "fecha": "2026-11-10T05:01:18+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "4e0e3b3250f38d70",
+      "titulo": "Accionistas de hecho, un vacío",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/analisis/andres-guillen-g-3837549/accionistas-de-hecho-un-vacio-4521002",
+      "fecha": "2026-11-10T05:01:16+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "e7dcc1dcf2aaee18",
+      "titulo": "Grupo Amarey recibió el Premio Iberoamericano de la Calidad en Madrid",
+      "categoria": "Cali",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/ocio/grupo-amarey-recibio-el-premio-iberoamericano-de-la-calidad-en-madrid-4520930",
+      "fecha": "2026-11-10T05:01:15+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "ec85e3fe370cc7f0",
+      "titulo": "El muro de Berlín cayó hace 37 años",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/caja-fuerte/el-muro-de-berlin-cayo-hace-37-anos-4520874",
+      "fecha": "2026-11-10T05:01:12+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "33eca39addc2f87a",
+      "titulo": "Agenda privada",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/analisis/paula-garcia-garcia-3037278/agenda-privada-4520944",
+      "fecha": "2026-11-10T05:01:12+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "6e8bbd9504ebfcd8",
+      "titulo": "\"El Banco de la República lleva obras de arte a Europa, Estados Unidos y América Latina\"",
+      "categoria": "Economía",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/ocio/juliana-restrepo-subgerente-cultural-del-banco-de-la-republica-hablo-sobre-la-agenda-cultural-de-2027-4520703",
+      "fecha": "2026-11-10T05:01:10+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "b9e0622cd1015d89",
+      "titulo": "Digitatón: una experiencia para la expansión de capacidades",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/analisis/diego-hernandez-losada-4054194/digitaton-una-experiencia-para-la-expansion-de-capacidades-4521016",
+      "fecha": "2026-11-10T05:01:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "995349423fb5280c",
+      "titulo": "CIENCIA, PAZ Y DESARROLLO",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/opinion/ciencia-paz-y-desarrollo/",
+      "fecha": "2026-11-10T05:00:38+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "43b39546d4bff155",
+      "titulo": "NO SON OBJETOS, SON VIDAS",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/opinion/no-son-objetos-son-vidas/",
+      "fecha": "2026-11-10T05:00:38+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "d97c5cab5c3da290",
+      "titulo": "A alias “Pastor” lo mataron en la barbería",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/judicial/a-alias-pastor-lo-mataron-en-la-barberia/",
+      "fecha": "2026-11-10T05:00:33+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "f2e1df34933508ef",
+      "titulo": "¡Amedrentaba a la gente con un cuchillo!",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/judicial/amedrentaba-a-la-gente-con-un-cuchillo/",
+      "fecha": "2026-11-10T05:00:31+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "cd4acf0e4cb24b01",
+      "titulo": "Confianza",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/opinion/confianza-2/",
+      "fecha": "2026-11-10T05:00:31+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "69479644bf696c24",
+      "titulo": "Cambiaban objetos robados por droga",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/judicial/cambiaban-objetos-robados-por-droga/",
+      "fecha": "2026-11-10T05:00:21+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "99730c3390d7abe1",
+      "titulo": "Risaralda se levanta, culturalmente",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/opinion/risaralda-se-levanta-culturalmente-2/",
+      "fecha": "2026-11-10T05:00:16+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "98e820e62385e636",
+      "titulo": "A la cárcel alias ‘El Mono’",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/judicial/a-la-carcel-alias-el-mono/",
+      "fecha": "2026-11-10T05:00:15+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "7f5d4b2038a512f5",
+      "titulo": "In-moralidad",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/opinion/in-moralidad/",
+      "fecha": "2026-11-10T05:00:09+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "504430e2ce289992",
+      "titulo": "Un balance inquietante",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/editorial/un-balance-inquietante/",
+      "fecha": "2026-11-10T05:00:07+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "870deee3beda0c4e",
+      "titulo": "El aborto NO es un derecho",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/opinion/el-aborto-no-es-un-derecho/",
+      "fecha": "2026-11-10T05:00:05+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "d22822425617cc6c",
+      "titulo": "75 años de la Cruzada Social: eucaristía en acción de gracias",
+      "categoria": "Colombia",
+      "fuente": "La Patria — Caldas",
+      "url": "https://www.lapatria.com/galerias/75-anos-de-la-cruzada-social-eucaristia-en-accion-de-gracias",
+      "fecha": "2026-11-10T05:00:00+00:00",
+      "imagen": ""
+    },
     {
       "id": "c2611aa250863b7c",
       "titulo": "3,130 veces gracias",
@@ -8,6 +386,15 @@
       "fuente": "La Silla Vacía",
       "url": "https://www.lasillavacia.com/opinion/de-la-direccion/3130-veces-gracias/",
       "fecha": "2026-11-10T04:59:29+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "7caa6525c53c8b1e",
+      "titulo": "Más mano dura del Gobierno ante ataques de criminales",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/seguridad-mano-dura-abelardo-espriella-no-frena-atentados-terroristas-AM43382002",
+      "fecha": "2026-11-10T04:17:19+00:00",
       "imagen": ""
     },
     {
@@ -153,393 +540,6 @@
       "url": "https://www.larepublica.co/economia/colombia-estara-negociando-programa-de-prestamos-por-us-15-000-millones-con-el-fmi-4521038",
       "fecha": "2026-11-10T01:32:09+00:00",
       "imagen": ""
-    },
-    {
-      "id": "0f1bc603f247fbc7",
-      "titulo": "Exxon firma acuerdo preliminar con Venezuela para evaluar oportunidades petroleras",
-      "categoria": "Internacional",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/exxon-firma-acuerdo-preliminar-con-venezuela-para-evaluar-oportunidades-petroleras-4521039",
-      "fecha": "2026-11-10T01:26:28+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "6330f87051a922f4",
-      "titulo": "Por qué la infidelidad del jefe de Nvidia con una supesta espía china tendrá repercusiones en EE.UU. y más allá",
-      "categoria": "Internacional",
-      "fuente": "BBC Mundo",
-      "url": "https://www.bbc.com/mundo/articles/c6p9g97x540jo?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-10T01:15:11+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "63e51befc8ea7b49",
-      "titulo": "Centro Nacional de Memoria Histórica homenajeó a Fanny González Franco, magistrada asesinada en la toma del Palacio de Justicia",
-      "categoria": "Colombia",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/colombia/fanny-gonzalez-franco-palacio-de-justicia-familia-m19-homenaje-2026/",
-      "fecha": "2026-11-10T01:06:19+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "ea43775f4e60a85d",
-      "titulo": "Autoridades afirman que Hidroituango alcanzó la cota 420 en almacenamiento",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/empresas/autoridades-afirman-que-hidroituango-alcanzo-la-cota-420-en-almacenamiento-4520786",
-      "fecha": "2026-11-10T01:02:13+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "5d537d9a3ba7102d",
-      "titulo": "La SIC archivó la investigación contra Ecopetrol y Helistar por los varios contratos aéreos",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/economia/sic-archivo-investigacion-contra-ecopetrol-y-helistar-por-contratos-aereos-4521022",
-      "fecha": "2026-11-10T00:56:49+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "23d6dbcca065ed4e",
-      "titulo": "'Es una maratón que va a durar cuatro años': el alcalde Alejandro Eder presenta el balance de los primeros 90 días tras el terremoto en Cali",
-      "categoria": "Cali",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/cali/es-una-maraton-que-va-a-durar-cuatro-anos-el-alcalde-alejandro-eder-presenta-el-balance-de-los-primeros-90-dias-tras-el-terremoto-en-cali-3599759",
-      "fecha": "2026-11-10T00:47:09+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "6a06f778e047c27d",
-      "titulo": "¿Quién era Felipe Domínguez, una de las víctimas del fatídico accidente entre una buseta, una tractomula y una moto en la vía a Buenaventura?",
-      "categoria": "Valle del Cauca",
-      "fuente": "El Tiempo Cali",
-      "url": "https://www.eltiempo.com/colombia/cali/quien-era-felipe-dominguez-una-de-las-victimas-del-fatidico-accidente-de-una-buseta-una-tractomula-y-una-moto-en-la-via-a-buenaventura-3599683",
-      "fecha": "2026-11-10T00:42:07+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "cd67013e36351112",
-      "titulo": "Patria Day proyectará en Bogotá y Medellín el rumbo de la inversión sectorial en Colombia",
-      "categoria": "Colombia",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/finanzas/patria-day-proyectara-en-bogota-y-medellin-el-rumbo-de-la-inversion-sectorial-en-colombia-506030",
-      "fecha": "2026-11-10T00:37:53+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "9cb35a21e5d51829",
-      "titulo": "Corea del Norte prueba un torpedo de alta velocidad en el mar de Japón",
-      "categoria": "Internacional",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/corea-del-norte-prueba-un-torpedo-de-alta-velocidad-en-el-mar-de-japón/a-79905831?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-10T00:35:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "9b1f2ca925bdd51b",
-      "titulo": "Ojos en el cielo, vida en la tierra: la tecnología dron en la emergencia del 10 de agosto",
-      "categoria": "Tecnología",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/cali/ojos-en-el-cielo-vida-en-la-tierra-la-tecnologia-dron-en-la-emergencia-del-10-de-agosto-3599752",
-      "fecha": "2026-11-10T00:23:08+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "7a26864849ee7412",
-      "titulo": "Duerma informado con las claves de este 9 de noviembre de 2026",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/en-vivo/duerma-informado-con-las-claves-de-este-9-de-noviembre-de-2026/",
-      "fecha": "2026-11-10T00:03:44+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "9c7da0b82082001e",
-      "titulo": "Galán plantea reestructurar el Distrito a un año de dejar la Alcaldía de Bogotá: seis entidades cambiarían",
-      "categoria": "Colombia",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/regiones/galan-plantea-reestructurar-el-distrito-a-un-ano-de-dejar-la-alcaldia-de-bogota-seis-entidades-cambiarian-506024",
-      "fecha": "2026-11-10T00:00:40+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "917f742695f0accb",
-      "titulo": "Llaneros FC venció 2-1 a Alianza Valledupar",
-      "categoria": "Colombia",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/deportes/llaneros-fc-vencio-2-1-a-alianza-valledupar/",
-      "fecha": "2026-11-10T00:00:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "67c5dee04c6505f1",
-      "titulo": "Millonarios no gana en Ibagué ante Tolima",
-      "categoria": "Colombia",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/deportes/millonarios-no-gana-en-ibague-ante-tolima/",
-      "fecha": "2026-11-10T00:00:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "b35581e760f41af8",
-      "titulo": "Salario mínimo 2027: Mintrabajo sentó en la mesa a docentes e investigadores para escuchar propuestas sobre ajuste",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/mintrabajo-lleva-por-primera-vez-a-la-academia-a-la-preparacion-de-la-concertacion-del-salario-minimo-de-506012",
-      "fecha": "2026-11-09T23:58:24+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "7842eee7178bf4a9",
-      "titulo": "Sharon Zúñiga: perdió su camino en la gastronomía y encontró su propósito impulsando a otras mujeres",
-      "categoria": "Colombia",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/reinventarse-para-seguir/sharon-zuniga-crea-muemvi-para-impulsar-a-emprendedoras/",
-      "fecha": "2026-11-09T23:57:48+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "3415adec65aa88e0",
-      "titulo": "La inflación de Colombia se mantiene en 6,3% en octubre, por debajo de lo que esperaba el mercado",
-      "categoria": "Economía",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/america-colombia/2026-11-09/la-inflacion-de-colombia-se-mantiene-en-63-en-octubre-por-debajo-de-lo-que-esperaba-el-mercado.html",
-      "fecha": "2026-11-09T23:57:43+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "9bebf4f68899d523",
-      "titulo": "Tres meses después del terremoto en Cali: así van los trabajos con órdenes de demoler más de 80 edificaciones en la capital del Valle",
-      "categoria": "Cali",
-      "fuente": "El Tiempo Cali",
-      "url": "https://www.eltiempo.com/colombia/cali/tres-meses-despues-del-terremoto-en-cali-asi-van-los-trabajos-con-ordenes-de-demoler-mas-de-80-edificaciones-en-la-capital-del-valle-3599693",
-      "fecha": "2026-11-09T23:54:58+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "3a0a18ce85e243c2",
-      "titulo": "Así le hemos contado el segundo día de León XIV en Argentina",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/america/2026-11-09/el-segundo-dia-de-leon-xiv-en-argentina-en-vivo-el-papa-visita-un-centro-de-discapacitados-en-su-segundo-dia-en-argentina.html",
-      "fecha": "2026-11-09T23:54:08+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "7e968d3f0854e90d",
-      "titulo": "Santurbán: comité denuncia que MinAmbiente delimita el páramo sin ellos",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/en-vivo/santurban-comite-denuncia-que-minambiente-delimita-el-paramo-sin-ellos/",
-      "fecha": "2026-11-09T23:52:49+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "b1d827fe3941160c",
-      "titulo": "El escándalo de espionaje que rodea al CEO de Nvidia acaba de dar otro giro: Trump dice que el FBI ya lo investiga",
-      "categoria": "Internacional",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/empresas-y-economia/escandalo-espionaje-que-rodea-al-ceo-nvidia-acaba-dar-otro-giro-trump-dice-que-fbi-investiga",
-      "fecha": "2026-11-09T23:52:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "84bc3d53b4c2a0b7",
-      "titulo": "LINK para consultar si es beneficiario de Renta Ciudadana en noviembre de 2026",
-      "categoria": "Economía",
-      "fuente": "La FM Economía",
-      "url": "https://www.lafm.com.co/economia/renta-ciudadana-link-consultar-beneficiarios-pago-noviembre-2026-416664",
-      "fecha": "2026-11-09T23:51:42+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "1e8c890fdce80a47",
-      "titulo": "Cuestionan que, mientras hay edificios por demoler, Alcaldía de Cali usa maquinaria para retirar ventas ambulantes",
-      "categoria": "Cali",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/cali/retiro-de-puestos-ambulantes-en-cali-protestas-comerciantes-alcaldia-2026/",
-      "fecha": "2026-11-09T23:50:06+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "27d04010e1f644c6",
-      "titulo": "Bitcoin y otras criptomonedas podrían entrar en procesos de extinción de dominio: estos son los retos de la SAE",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/gobierno/sae-pone-la-mira-en-activos-digitales-y-criptomonedas-estos-son-los-retos-para-la-extincion-de-dominio-506021",
-      "fecha": "2026-11-09T23:44:51+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "cd25f8b69bbb6bd1",
-      "titulo": "Emcali retirará 55 vehículos que llevaban más de 15 años sin usarse en Cali: esto pasará con ellos",
-      "categoria": "Cali",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/cali/emcali-retiro-vehiculos-obsoletos-inversion-parque-automotor-2026/",
-      "fecha": "2026-11-09T23:42:24+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "0a248415996e7ae0",
-      "titulo": "MinTrabajo vincula a la academia e investigadores en la preparación de la negociación del salario mínimo para 2027",
-      "categoria": "Economía",
-      "fuente": "La FM Economía",
-      "url": "https://www.lafm.com.co/economia/ministerio-de-trabajo-escucho-propuestas-de-acedemicos-416658",
-      "fecha": "2026-11-09T23:38:40+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "59c4eea6fe159f13",
-      "titulo": "Van dos atracos a oficinas de Gane en Cali; advierten que gobierno Eder bajaría presupuesto para seguridad en 2027",
-      "categoria": "Cali",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/cali/presupuesto-de-seguridad-en-cali-recorte-denuncia-concejal-roberto-ortiz-2026/",
-      "fecha": "2026-11-09T23:35:57+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "407e4cf323b4863a",
-      "titulo": "Cartagena y San Andrés serán los destinos nacionales preferidos por los viajeros para fin de año",
-      "categoria": "Colombia",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/empresario/agencias-de-viajes-sol-y-playa-lideran-ventas-para-fin-de-ano/",
-      "fecha": "2026-11-09T23:35:12+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "9dbde4d16216bcef",
-      "titulo": "Fiscalía definió fecha de continuación de indagatoria contra Álvaro Uribe por masacres de El Aro y La Granja",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/fiscalia-define-fecha-indagatoria-alvaro-uribe-masacres-el-aro-la-granja-AD43372277",
-      "fecha": "2026-11-09T23:34:06+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "13cae84e4ade5214",
-      "titulo": "MinAmbiente ratifica acuerdos con comunidades de Vetas sobre la delimitación de Santurbán",
-      "categoria": "Colombia",
-      "fuente": "La FM Actualidad",
-      "url": "https://www.lafm.com.co/actualidad/dilimitaciones-santuban-minambiente-ratifica-acuerdos-con-comunidades-vetas-416661",
-      "fecha": "2026-11-09T23:33:09+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "98ad560dfd8ce8a3",
-      "titulo": "Quién es la supuesta espía china que tuvo una relación con el director de Nvidia, el gigante tecnológico de la IA (y otras claves del caso)",
-      "categoria": "Internacional",
-      "fuente": "BBC Mundo",
-      "url": "https://www.bbc.com/mundo/articles/cked3dy4ynjxo?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-09T23:31:27+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "59f9ba560609a818",
-      "titulo": "Seis días después de la tragedia, Soledad pide ayuda al Gobierno Nacional para ampliar la búsqueda de Zoé hasta Bocas de Ceniza y el mar Caribe",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/barranquilla/seis-dias-despues-de-la-tragedia-soledad-pide-ayuda-al-gobierno-nacional-para-ampliar-la-busqueda-de-zoe-hasta-bocas-de-ceniza-y-el-mar-caribe-3599742",
-      "fecha": "2026-11-09T23:30:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "a9c5f08dac1885a9",
-      "titulo": "El euro subió 5,41 % y cerró la jornada en $3.669,69 en Colombia",
-      "categoria": "Colombia",
-      "fuente": "La FM Economía",
-      "url": "https://www.lafm.com.co/economia/euro-subio-cerro-jornada-colombia-416663",
-      "fecha": "2026-11-09T23:28:02+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "ec8fceae825e2a5e",
-      "titulo": "Crece preocupación por edificios en riesgo de colapso en Cali",
-      "categoria": "Cali",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/cali/riesgo-de-colapso-de-edificios-cali-terremoto-hotel-la-luna-2026/",
-      "fecha": "2026-11-09T23:26:48+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "3ed1f85e01f7671f",
-      "titulo": "Inflación en Colombia cerró octubre al alza: subió ligeramente hasta el 6,30% anual, de acuerdo con el Dane",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/finanzas/inflacion-en-colombia-cerro-octubre-al-alza-subio-ligeramente-hasta-el-6-30-anual-de-acuerdo-con-el-dane-506022",
-      "fecha": "2026-11-09T23:23:24+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "739063beab159b38",
-      "titulo": "Estudio establece 8,4% para incremento del salario mínimo de 2027 y advierte riesgos de subirlo más",
-      "categoria": "Colombia",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/empresario/salario-minimo-para-2027-proyectan-alza-tecnica-del-8-4/",
-      "fecha": "2026-11-09T23:23:16+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "3fb34f89995d33fb",
-      "titulo": "Angie Rodríguez, a rectificar por acusar a Sarabia de chantaje a Petro",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/en-vivo/angie-rodriguez-a-rectificar-por-acusar-a-sarabia-de-chantaje-a-petro/",
-      "fecha": "2026-11-09T23:21:26+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "3e379ec0c4e9234d",
-      "titulo": "Isabel Zuleta denunció a Abelardo por acuerdo de minerales con EE.UU.",
-      "categoria": "Internacional",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/en-vivo/isabel-zulueta-denuncio-a-abelardo-por-acuerdo-de-minerales-con-ee-uu/",
-      "fecha": "2026-11-09T23:19:50+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "7110333fb7db55e4",
-      "titulo": "El Dane reveló que el IPC correspondiente al décimo mes del año llegó hasta 6,30%",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/economia/el-dane-revelo-que-la-inflacion-en-el-decimo-mes-del-ano-llego-hasta-6-30-4520889",
-      "fecha": "2026-11-09T23:10:38+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "a3b8ccc6525242a9",
-      "titulo": "Juez ordenó a Angie Rodríguez retractarse de varias afirmaciones sin pruebas que hizo contra Laura Sarabia",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/juez-ordena-angie-rodriguez-retractarse-afirmaciones-contra-laura-sarabia-por-que-EC43367928",
-      "fecha": "2026-11-09T23:07:24+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "37180a205eb3736d",
-      "titulo": "Estas son las identidades de tres de las cuatro personas que murieron en el accidente de tránsito dentro de un túnel en la vía Buga-Buenaventura",
-      "categoria": "Valle del Cauca",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/estas-son-las-identidades-de-tres-de-las-cuatro-personas-que-murieron-en-el-accidente-de-transito-dentro-de-un-tunel-en-la-via-buga-buenaventura-3599727",
-      "fecha": "2026-11-09T23:02:05+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "4f179770d591def5",
-      "titulo": "La Fiscalía de Paraguay trata de abrir una bóveda oculta hallada en una propiedad del expresidente Santiago Peña",
-      "categoria": "Colombia",
-      "fuente": "BBC Mundo",
-      "url": "https://www.bbc.com/mundo/articles/c6zxjxyz1ejpo?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-09T22:56:47+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "95345d8da5c737ba",
-      "titulo": "Un congresista republicano inicia el proceso para el \"impeachment\" del secretario de Defensa de EE.UU. por la guerra en Irán",
-      "categoria": "Internacional",
-      "fuente": "BBC Mundo",
-      "url": "https://www.bbc.com/mundo/articles/cm62y2l3eng1o?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-09T22:46:51+00:00",
-      "imagen": ""
     }
   ],
   "estado_fuentes": [
@@ -560,7 +560,7 @@
       "url": "https://www.elespectador.com/rss/",
       "estado": "error",
       "titulares": 0,
-      "detalle": "El feed no contiene entradas."
+      "detalle": "403 Client Error: Forbidden for url: https://www.elespectador.com/feed/"
     },
     {
       "nombre": "La Silla Vacía",
@@ -650,7 +650,7 @@
       "nombre": "El Colombiano — Colombia",
       "url": "https://www.elcolombiano.com/rss/Colombia.xml",
       "estado": "correcto",
-      "titulares": 32
+      "titulares": 33
     },
     {
       "nombre": "El Diario — Pereira",
@@ -668,7 +668,7 @@
       "nombre": "La Patria — Caldas",
       "url": "https://www.lapatria.com/rss.xml",
       "estado": "correcto",
-      "titulares": 6
+      "titulares": 7
     }
   ]
 }
