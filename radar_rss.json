@@ -1,6 +1,159 @@
 {
-  "ultima_actualizacion": "2026-11-10T21:49:10.669288+00:00",
+  "ultima_actualizacion": "2026-11-10T22:51:19.690912+00:00",
   "titulares_rss": [
+    {
+      "id": "603c37a0bd5d2255",
+      "titulo": "Análisis: Hegseth se enfrenta al \"impeachment\" por la guerra en Irán, pero es Trump quien definirá su destino",
+      "categoria": "Internacional",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/ck8dzdvn6d0mo?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-10T22:40:31+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "8eb4e111a602c4e2",
+      "titulo": "Gremios y políticos reaccionan al nombramiento de Luz Stella Murgas como nueva presidenta de la Andi: “Una mujer con capacidades excepcionales”",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/gremios-politicos-reaccionan-nombramiento-luz-stella-murgas-presidenta-andi-KB43423810",
+      "fecha": "2026-11-10T22:35:59+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "803b446694dbe0b4",
+      "titulo": "¿Ya están todos los convocados de la Selección Colombia en Cali?",
+      "categoria": "Cali",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/deportes/convocados-de-la-seleccion-colombia-en-cali-10-11-2026/",
+      "fecha": "2026-11-10T22:32:39+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "7af55b7d348192c1",
+      "titulo": "Atención | Autoridades investigan atentado con explosivos contra la central hidroeléctrica de Celsia en Amaime, Palmira",
+      "categoria": "Valle del Cauca",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/cali/atencion-autoridades-investigan-explosion-en-la-hidroelectrica-de-amaime-palmira-no-descartan-posible-ataque-con-drones-3600003",
+      "fecha": "2026-11-10T22:28:44+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "6913b08f403555ca",
+      "titulo": "Hermano del presidente del Conservador será embajador en Italia",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/en-vivo/hermano-del-presidente-del-conservador-sera-embajador-en-italia/",
+      "fecha": "2026-11-10T22:24:11+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "50cc4713aea7219a",
+      "titulo": "Superfinanciero pide a fiduciarias ser protagonistas de reconstrucción tras sismo",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/finanzas/superfinanciero-pide-a-fiduciarias-convertirse-en-protagonistas-de-la-reconstruccion-tras-sismo-4521806",
+      "fecha": "2026-11-10T22:19:50+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "4f179770d591def5",
+      "titulo": "La Fiscalía de Paraguay abre la bóveda oculta en una propiedad del expresidente Santiago Peña y la encuentra vacía",
+      "categoria": "Colombia",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/c6zxjxyz1ejpo?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-10T22:15:55+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "8bfe08d8ce80758e",
+      "titulo": "El papa León XIV bendice a la ciudad argentina de Córdoba desde el balcón del Arzobispado",
+      "categoria": "Valle del Cauca",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/mundo/el-papa-leon-xiv-latinoamerica-10-11-2026/",
+      "fecha": "2026-11-10T22:12:01+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "90973aa42912c3a2",
+      "titulo": "Empresa confirma atentado contra hidroeléctrica en zona rural de Palmira",
+      "categoria": "Valle del Cauca",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/judicial/atentado-contra-hidroelectrica-palmira-10-11-2026/",
+      "fecha": "2026-11-10T22:08:50+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "3fcf536ae3e709bd",
+      "titulo": "'Hacemos un censo en un recorrido, pero también dependemos de que nos reporten la necesidad': secretario de Gestión del Riesgo sobre ayudas en Cali",
+      "categoria": "Cali",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/cali/hacemos-un-censo-en-un-recorrido-pero-tambien-dependemos-de-que-nos-reporten-la-necesidad-secretario-de-gestion-del-riesgo-sobre-ayudas-en-cali-3599956",
+      "fecha": "2026-11-10T22:07:12+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "7f0c02fa7a49d0a9",
+      "titulo": "Corte: para declarar o derogar áreas de producción de alimentos, se debe respetar autonomía territorial",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/en-vivo/corte-para-declarar-o-derogar-areas-de-produccion-de-alimentos-se-debe-respetar-autonomia-territorial/",
+      "fecha": "2026-11-10T22:05:43+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "dcfbca2f1c608790",
+      "titulo": "Alias Tom, cabecilla histórico de 'La Oficina' que llegó a ser comparado con Pablo Escobar, ya está en libertad",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/medellin/alias-tom-cabecilla-historico-de-la-oficina-que-llego-a-ser-comparado-con-pablo-escobar-ya-esta-en-libertad-3600004",
+      "fecha": "2026-11-10T22:03:40+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "271531851c478f94",
+      "titulo": "‘Servir es hacer que las cosas pasen’: la reflexión que reunió en Barranquilla a más de 400 mujeres que buscan transformar el liderazgo público",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/barranquilla/servir-es-hacer-que-las-cosas-pasen-la-reflexion-que-reunio-en-barranquilla-a-mas-de-400-mujeres-que-buscan-transformar-el-liderazgo-publico-3600006",
+      "fecha": "2026-11-10T22:01:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "ce13689c10f5e495",
+      "titulo": "otorgado. busca mas infromacion en la web DIAN ofrece descuento del 85 % en sanciones a contribuyentes: el plazo vence el 19 de noviembre",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/noticias/otorgado-busca-mas-infromacion-en-la-web-dian-ofrece-descuento-del-85-en-sanciones-a-contribuyentes-el-plazo-vence-el-19-de-noviembre/",
+      "fecha": "2026-11-10T22:00:08+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "4d4c9bf6d06b05d1",
+      "titulo": "Millonario asalto en Pitalito: roban cerca de $800 millones a mujer cuando iba a consignarlos en un banco",
+      "categoria": "Economía",
+      "fuente": "La FM Actualidad",
+      "url": "https://www.lafm.com.co/actualidad/asalto-millonario-mujer-banco-pitalito-416780",
+      "fecha": "2026-11-10T21:59:53+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "04a689d46f141fc0",
+      "titulo": "Capturan en Cali a tres presuntos integrantes de las disidencias de Iván Mordisco",
+      "categoria": "Cali",
+      "fuente": "La FM Actualidad",
+      "url": "https://www.lafm.com.co/actualidad/capturan-en-cali-tres-presuntos-integrantes-disiidencias-de-ivan-mordisco-416779",
+      "fecha": "2026-11-10T21:56:20+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "ecdadf9408f14db9",
+      "titulo": "Una luz de esperanza para Constanza Bahamón que no puede caminar tras el sismo: la Alcaldía de Cali y SuperGIROS dieron un auxilio por perder su hogar",
+      "categoria": "Cali",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/cali/una-luz-de-esperanza-para-constanza-bahamon-que-no-puede-caminar-tras-el-sismo-la-alcaldia-de-cali-gestiono-entrega-del-dinero-por-perder-su-hogar-3599987",
+      "fecha": "2026-11-10T21:55:56+00:00",
+      "imagen": ""
+    },
     {
       "id": "3a1c4c1b4eacdf7c",
       "titulo": "Documental ‘Bojayá: La verdad desde adentro’",
@@ -8,6 +161,15 @@
       "fuente": "Chocó 7 días",
       "url": "https://choco7dias.com/documental-bojaya-la-verdad-desde-adentro/",
       "fecha": "2026-11-10T21:47:05+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "f5e6722d4ff7f83e",
+      "titulo": "Explosión en polvorería en Caldas, Antioquia, deja dos personas muertas: autoridades investigan las causas de la emergencia",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/medellin/explosion-en-polvoreria-en-caldas-antioquia-deja-dos-personas-muertas-autoridades-investigan-las-causas-de-la-emergencia-3599982",
+      "fecha": "2026-11-10T21:44:08+00:00",
       "imagen": ""
     },
     {
@@ -20,20 +182,11 @@
       "imagen": ""
     },
     {
-      "id": "ecdadf9408f14db9",
-      "titulo": "Una luz de esperanza para Constanza Bahamón que no puede caminar tras el sismo: la Alcaldía de Cali y SuperGIROS dieron un auxilio por perder su hogar",
-      "categoria": "Cali",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/cali/una-luz-de-esperanza-para-constanza-bahamon-que-no-puede-caminar-tras-el-sismo-la-alcaldia-de-cali-gestiono-entrega-del-dinero-por-perder-su-hogar-3599987",
-      "fecha": "2026-11-10T21:40:03+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "9df8db7c5f04025e",
+      "id": "000cf08f96d9cffa",
       "titulo": "Incautan cerca de cuatro toneladas de marihuana en el Cauca",
       "categoria": "Colombia",
       "fuente": "Diario Occidente",
-      "url": "https://occidente.co/colombia/policia-nacional-incauta-cuatro-toneladas-de-marihuana/",
+      "url": "https://occidente.co/regionales/cauca/policia-nacional-incauta-cuatro-toneladas-de-marihuana/",
       "fecha": "2026-11-10T21:39:29+00:00",
       "imagen": ""
     },
@@ -101,6 +254,15 @@
       "imagen": ""
     },
     {
+      "id": "58b5d9de4befd542",
+      "titulo": "Detienen en Reino Unido a un militar de alto rango de EE.UU. bajo sospecha de espiar para Rusia",
+      "categoria": "Internacional",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/cqlyj888nnj9o?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-10T21:23:12+00:00",
+      "imagen": ""
+    },
+    {
       "id": "11dd4c6e7340a384",
       "titulo": "Vía Buga-Buenaventura: arrancan obras en los 21 frentes y ya hay fecha para terminar el corredor",
       "categoria": "Valle del Cauca",
@@ -164,15 +326,6 @@
       "imagen": ""
     },
     {
-      "id": "f5e6722d4ff7f83e",
-      "titulo": "Explosión en polvorería en Caldas, Antioquia, deja dos personas muertas: autoridades investigan las causas de la emergencia",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/medellin/explosion-en-polvoreria-en-caldas-antioquia-deja-dos-personas-muertas-autoridades-investigan-las-causas-de-la-emergencia-3599982",
-      "fecha": "2026-11-10T21:07:45+00:00",
-      "imagen": ""
-    },
-    {
       "id": "248fecd7a4d60b74",
       "titulo": "Gobernación del Valle llama a mantener la solidaridad",
       "categoria": "Colombia",
@@ -188,6 +341,15 @@
       "fuente": "El Colombiano — Colombia",
       "url": "https://www.elcolombiano.com/colombia/implementacion-acuerdo-paz-corte-constitucional-hace-recomendaciones-y-da-indicaciones-IB43422758",
       "fecha": "2026-11-10T21:02:18+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "4a222e51ba364ed9",
+      "titulo": "Dólar en Colombia sigue al alza y cierra en $3.297: estas son las razones detrás de su aumento",
+      "categoria": "Economía",
+      "fuente": "La FM Economía",
+      "url": "https://www.lafm.com.co/economia/dolar-colombia-sigue-alza-cierra-3297-estas-razones-aumento-416772",
+      "fecha": "2026-11-10T21:02:04+00:00",
       "imagen": ""
     },
     {
@@ -242,15 +404,6 @@
       "fuente": "Diario Occidente",
       "url": "https://occidente.co/uncategorized/leonardo-guevara-del-espectaculo-al-exito-del-hotel-9-5/",
       "fecha": "2026-11-10T20:56:42+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "603c37a0bd5d2255",
-      "titulo": "El secretario de Defensa de EE.UU. lucha por su supervivencia política, aunque su destino está en manos de Trump",
-      "categoria": "Internacional",
-      "fuente": "BBC Mundo",
-      "url": "https://www.bbc.com/mundo/articles/ck8dzdvn6d0mo?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-10T20:47:41+00:00",
       "imagen": ""
     },
     {
@@ -387,159 +540,6 @@
       "url": "https://www.lasillavacia.com/en-vivo/abelardo-declara-insubsistente-a-elizabeth-blandon-directora-del-icfes/",
       "fecha": "2026-11-10T20:12:57+00:00",
       "imagen": ""
-    },
-    {
-      "id": "6b6ff1904f5f249b",
-      "titulo": "Pereira recibirá a más de 1.500 deportistas en los XXIV Juegos Intercajas",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/noticias/pereira-recibira-a-mas-de-1-500-deportistas-en-los-xxiv-juegos-intercajas/",
-      "fecha": "2026-11-10T20:11:31+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "a37b3ed88725ab8f",
-      "titulo": "A diez años de la sentencia que declaró al Río Atrato como sujeto de derechos en Colombia",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/red-de-expertos/red-verde/a-diez-anos-de-la-sentencia-que-declaro-al-rio-atrato-como-sujeto-de-derechos-en-colombia/",
-      "fecha": "2026-11-10T20:08:31+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "7e9014c605854b75",
-      "titulo": "Pei alcanza ingresos récord por $631.178 millones en el tercer trimestre de 2026",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/finanzas/pei-alcanza-ingresos-record-por-631-178-millones-en-el-tercer-trimestre-de-2026-4521357",
-      "fecha": "2026-11-10T20:06:37+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "97724e197237c8cc",
-      "titulo": "España llega tarde al DAB+ pero llega: el estándar digital de radio que Europa lleva usando una década empieza su despliegue",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/servicios/espana-llega-tarde-al-dab-llega-estandar-digital-radio-que-europa-lleva-usando-decada-empieza-su-despliegue",
-      "fecha": "2026-11-10T20:01:49+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "fad22d3dc94e1055",
-      "titulo": "El respeto no puede quedarse en palabras",
-      "categoria": "Colombia",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/opinion/columnistas/el-respeto-no-puede-quedarse-en-palabras/",
-      "fecha": "2026-11-10T19:54:36+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "51d8e0033d0d3e68",
-      "titulo": "Carlos Polo presentará en la Feria del Libro de Barranquilla una obra de 12 cuentos sobre la hermandad, la memoria y el duelo",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/barranquilla/carlos-polo-presentara-en-la-feria-del-libro-de-barranquilla-una-obra-de-12-cuentos-sobre-la-hermandad-la-memoria-y-el-duelo-3599957",
-      "fecha": "2026-11-10T19:50:07+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "34f34fdf6390afd8",
-      "titulo": "URF revisará la metodología de la tasa de usura y la segmentación de las tasas de interés",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/finanzas/urf-revisara-la-metodologia-de-la-tasa-de-usura-y-la-segmentacion-de-las-tasas-de-interes-4521515",
-      "fecha": "2026-11-10T19:48:59+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "a8ae663e21a553cf",
-      "titulo": "León XIV abraza a la Argentina más humilde en Córdoba",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/argentina/2026-11-10/leon-xiv-abraza-a-la-argentina-mas-humilde-en-cordoba.html",
-      "fecha": "2026-11-10T19:48:13+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "78ec8e8ff1aa2a31",
-      "titulo": "España exige que TikTok pare operaciones por material de abuso sexual infantil",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/espana-exige-que-tiktok-pare-operaciones-por-material-de-abuso-sexual-infantil-4521651",
-      "fecha": "2026-11-10T19:39:20+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "575ed3958cc69861",
-      "titulo": "Luz Stella Murgas llega a la Andi entre felicitaciones del Gobierno y los gremios: esto dijeron tras su elección",
-      "categoria": "Colombia",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/negocios/empresas/luz-stella-murgas-llega-a-la-andi-entre-felicitaciones-del-gobierno-y-los-gremios-esto-dijeron-tras-su-eleccion-506081",
-      "fecha": "2026-11-10T19:36:20+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "e27efd2b0741098d",
-      "titulo": "Mientras espera un medicamento para tratar un tumor en el cuello, Valentina no puede comer y pasa las noches sin dormir en una clínica de Barranquilla",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/barranquilla/mientras-espera-un-medicamento-para-tratar-un-tumor-en-el-cuello-valentina-no-puede-comer-y-pasa-las-noches-sin-dormir-en-una-clinica-de-barranquilla-3599953",
-      "fecha": "2026-11-10T19:30:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "a8b1b5814f28cf9d",
-      "titulo": "Universidades australianas y ChatGPT en la educación",
-      "categoria": "Colombia",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/secciones/tecnologia/universidades-australianas-chatgpt-educacion/",
-      "fecha": "2026-11-10T19:30:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "0f3bf5c6a3f40a7d",
-      "titulo": "Cinco EPS concentran millonarias deudas con hospitales y clínicas en Colombia",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/noticias/cinco-eps-concentran-millonarias-deudas-con-hospitales-y-clinicas-en-colombia/",
-      "fecha": "2026-11-10T19:30:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "94d35a16127a238b",
-      "titulo": "Pereira se prepara para demolición del icónico edificio Invico en el que piso 12 colapsó tras terremoto del 10 de agosto: fecha y medidas de seguridad",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/pereira-se-prepara-para-demolicion-del-iconico-edificio-invico-en-el-que-piso-12-colapso-tras-terremoto-del-10-de-agosto-fecha-y-medidas-de-seguridad-3599855",
-      "fecha": "2026-11-10T19:27:11+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "4798de8029b9bc00",
-      "titulo": "Nicolás Maduro reporta pérdida de peso y cambio de hábitos en prisión de Estados Unidos",
-      "categoria": "Internacional",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/nicolas-maduro-reporta-perdida-de-peso-y-cambio-de-habitos-en-prision-de-estados-unidos-4521600",
-      "fecha": "2026-11-10T19:26:28+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "7cffe14055dd814e",
-      "titulo": "Cali tras el terremoto: expertos revelan fallas sísmicas y aclaran dudas sobre las edificaciones",
-      "categoria": "Cali",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/cali/cali-tras-terremoto-fallas-sismicas-dudas-edificaciones-10-11-2026/",
-      "fecha": "2026-11-10T19:25:13+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "fd64dd7b62c42ae8",
-      "titulo": "DaviBank reportó que sigue restableciendo su banca virtual tras informes de fallas en la app",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/finanzas/multiples-usuarios-reportan-caida-en-los-servicios-de-davibank-4521568",
-      "fecha": "2026-11-10T19:22:14+00:00",
-      "imagen": ""
     }
   ],
   "estado_fuentes": [
@@ -553,7 +553,7 @@
       "nombre": "El Tiempo Cali",
       "url": "https://www.eltiempo.com/rss/colombia_cali.xml",
       "estado": "correcto",
-      "titulares": 8
+      "titulares": 6
     },
     {
       "nombre": "El Espectador",
@@ -590,7 +590,7 @@
       "nombre": "BBC Mundo",
       "url": "https://feeds.bbci.co.uk/mundo/rss.xml",
       "estado": "correcto",
-      "titulares": 25
+      "titulares": 26
     },
     {
       "nombre": "DW Español",
@@ -662,7 +662,7 @@
       "nombre": "Chocó 7 días",
       "url": "https://choco7dias.com/feed/",
       "estado": "correcto",
-      "titulares": 10
+      "titulares": 9
     },
     {
       "nombre": "La Patria — Caldas",
