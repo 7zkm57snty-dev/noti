@@ -1,6 +1,42 @@
 {
-  "ultima_actualizacion": "2026-11-10T05:59:50.565464+00:00",
+  "ultima_actualizacion": "2026-11-10T07:18:55.449913+00:00",
   "titulares_rss": [
+    {
+      "id": "c36daf5a9d4e4eb9",
+      "titulo": "Tres hermanos ex ingenieros de SpaceX quieren cruzar el Sistema Solar con una nave que funciona con agua",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/espacio/tres-hermanos-ex-ingenieros-spacex-quieren-cruzar-sistema-solar-nave-que-funciona-agua",
+      "fecha": "2026-11-10T07:01:06+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "16d9367949e7598b",
+      "titulo": "Solo hoy por 11,99 euros: Lidl rebaja esta lámpara de pie LED elegante y con brazo flexible para leer o decorar",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/seleccion/solo-hoy-11-99-euros-lidl-rebaja-esta-lampara-pie-led-elegante-brazo-flexible-para-leer-decorar",
+      "fecha": "2026-11-10T06:45:06+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "dfedb84cbd55f695",
+      "titulo": "Una startup paga 20 dólares la hora por pasear perros robot",
+      "categoria": "Economía",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/robotica-e-ia/startup-paga-20-dolares-hora-pasear-perros-robot",
+      "fecha": "2026-11-10T06:31:06+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "a8106efd7b28f186",
+      "titulo": "Cinco años de cárcel y más de 1,5 millones de euros por defraudar a la Seguridad Social en la mayor trama hostelera de Córdoba",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/empresas-y-economia/cinco-anos-carcel-1-5-millones-euros-defraudar-a-seguridad-social-mayor-trama-hostelera-cordoba",
+      "fecha": "2026-11-10T06:01:06+00:00",
+      "imagen": ""
+    },
     {
       "id": "79f98b6e0c58f6fe",
       "titulo": "Risaralda espera hechos, no más anuncios",
@@ -137,20 +173,20 @@
       "imagen": ""
     },
     {
-      "id": "11f00d6028a8f96c",
-      "titulo": "La ley contra la producción, consumo y trabajo nacional",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/analisis/mario-alejandro-valencia-4197734/la-ley-contra-la-produccion-consumo-y-trabajo-nacional-4521030",
-      "fecha": "2026-11-10T05:01:40+00:00",
-      "imagen": ""
-    },
-    {
       "id": "3a1e77df9d92212d",
       "titulo": "En Medellín se venden hasta 56% de todas las propiedades de lujo del mercado nacional",
       "categoria": "Economía",
       "fuente": "La República",
       "url": "https://www.larepublica.co/empresas/en-medellin-se-venden-hasta-56-de-las-propiedades-de-lujo-del-mercado-4520887",
+      "fecha": "2026-11-10T05:01:40+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "11f00d6028a8f96c",
+      "titulo": "La ley contra la producción, consumo y trabajo nacional",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/analisis/mario-alejandro-valencia-4197734/la-ley-contra-la-produccion-consumo-y-trabajo-nacional-4521030",
       "fecha": "2026-11-10T05:01:40+00:00",
       "imagen": ""
     },
@@ -504,42 +540,6 @@
       "url": "https://www.elcolombiano.com/colombia/sexocontratos-grabacion-videollamada-gustavo-petro-deicy-jimenez-perfil-falso-ND43371873",
       "fecha": "2026-11-10T01:52:26+00:00",
       "imagen": ""
-    },
-    {
-      "id": "0c22a9b9543974e8",
-      "titulo": "Ecopetrol vende bonos por valor de US$2.000 millones en su primera emisión en dos años",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/economia/ecopetrol-vende-bonos-por-valor-de-us-2-000-millones-en-su-primera-emision-en-dos-anos-4521045",
-      "fecha": "2026-11-10T01:48:59+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "048ec6bc417806c0",
-      "titulo": "Así es la propuesta de Afidro para financiar el sistema de salud: impuestos saludables y aporte de cajas de compensación",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/propuesta-afidro-financiar-sistema-salud-impuestos-saludables-aporte-cajas-compensacion-NC43364009",
-      "fecha": "2026-11-10T01:48:22+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "50eccb1a92dd55f5",
-      "titulo": "Jefe del Pentágono enfrenta moción de censura en Congreso de EE.UU.",
-      "categoria": "Internacional",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/jefe-del-pentágono-enfrenta-moción-de-censura-en-congreso-de-ee-uu/a-79905871?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-10T01:39:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "f6c2f03b71f86149",
-      "titulo": "Colombia estaría negociando programa de préstamos por US$15.000 millones con el FMI",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/economia/colombia-estara-negociando-programa-de-prestamos-por-us-15-000-millones-con-el-fmi-4521038",
-      "fecha": "2026-11-10T01:32:09+00:00",
-      "imagen": ""
     }
   ],
   "estado_fuentes": [
@@ -560,7 +560,7 @@
       "url": "https://www.elespectador.com/rss/",
       "estado": "error",
       "titulares": 0,
-      "detalle": "403 Client Error: Forbidden for url: https://www.elespectador.com/feed/"
+      "detalle": "El feed no contiene entradas."
     },
     {
       "nombre": "La Silla Vacía",
