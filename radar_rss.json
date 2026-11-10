@@ -1,6 +1,60 @@
 {
-  "ultima_actualizacion": "2026-11-10T02:57:31.106189+00:00",
+  "ultima_actualizacion": "2026-11-10T03:57:48.811671+00:00",
   "titulares_rss": [
+    {
+      "id": "7d1f1ed54126b26e",
+      "titulo": "Chocó, un día como hoy… 10 de noviembre",
+      "categoria": "Colombia",
+      "fuente": "Chocó 7 días",
+      "url": "https://choco7dias.com/choco-un-dia-como-hoy-10-de-noviembre/",
+      "fecha": "2026-11-10T03:45:29+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "04b1955e7110b9a5",
+      "titulo": "Interceptación de llamada entre guerrilleros reveló que usaban mulas para mover explosivos en Antioquia",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/mulas-transporte-explosivos-antioquia-anori-interceptacion-llamada-MM43380480",
+      "fecha": "2026-11-10T03:25:57+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "7c2884cf8764833c",
+      "titulo": "Explosiones sacuden la capital de Arabia Saudita, reportan medios",
+      "categoria": "Internacional",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/explosiones-sacuden-la-capital-de-arabia-saudita-reportan-medios/a-79905935?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-10T03:05:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "f5b1513dd3e05700",
+      "titulo": "Gobierno plantea ahorrar $8 billones en funcionamiento y alista más ajustes en la Ley de Rescate Económico",
+      "categoria": "Colombia",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/gobierno/gobierno-plantea-ahorrar-8-billones-en-funcionamiento-y-alista-mas-ajustes-en-la-ley-de-rescate-economico-506034",
+      "fecha": "2026-11-10T03:03:39+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "526a34a6e910af9f",
+      "titulo": "'Mi único delito ha sido alzar la voz contra los violentos': analista político y líder social de Jamundí denuncia amenazas de muerte",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/cali/mi-unico-delito-ha-sido-alzar-la-voz-contra-los-violentos-analista-politico-y-lider-social-de-jamundi-denuncia-amenazas-de-muerte-3599777",
+      "fecha": "2026-11-10T02:54:39+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "05b1385ca0638174",
+      "titulo": "Revelan hipótesis del choque en el túnel de la vía Buga-Buenaventura que dejó cuatro muertos y siete heridos: se conocen nuevos detalles",
+      "categoria": "Valle del Cauca",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/cali/revelan-hipotesis-del-choque-en-el-tunel-de-la-via-buga-buenaventura-dejo-cuatro-muertos-incluida-una-bebe-de-20-meses-y-siete-heridos-3599768",
+      "fecha": "2026-11-10T02:53:38+00:00",
+      "imagen": ""
+    },
     {
       "id": "40984facc5a2243e",
       "titulo": "Casanare pavimenta por fin la vía a Orocué, tierra que inspiró a José Eustasio Rivera en La vorágine",
@@ -20,21 +74,21 @@
       "imagen": ""
     },
     {
+      "id": "e4f9d30336b44592",
+      "titulo": "Emilio Merino: el terremoto golpeó 18 años de sueños, pero no logró derrumbar La Emiliana",
+      "categoria": "Colombia",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/reinventarse-para-seguir/finca-la-emiliana-alcala-valle-reconstruccion-terremoto-turismo-2026/",
+      "fecha": "2026-11-10T02:22:57+00:00",
+      "imagen": ""
+    },
+    {
       "id": "b2597ba99bb7d245",
       "titulo": "Aeropuerto Ernesto Cortissoz: Barranquilla recibe autorización para administrar la terminal durante 18 meses",
       "categoria": "Economía",
       "fuente": "Portafolio",
       "url": "https://www.portafolio.co/economia/regiones/aeropuerto-ernesto-cortissoz-barranquilla-recibe-autorizacion-para-administrar-la-terminal-durante-18-meses-506033",
       "fecha": "2026-11-10T02:22:50+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "05b1385ca0638174",
-      "titulo": "Revelan hipótesis del choque en el túnel de la vía Buga-Buenaventura: dejó cuatro muertos, incluida una bebé de 20 meses, y siete heridos",
-      "categoria": "Valle del Cauca",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/cali/revelan-hipotesis-del-choque-en-el-tunel-de-la-via-buga-buenaventura-dejo-cuatro-muertos-incluida-una-bebe-de-20-meses-y-siete-heridos-3599768",
-      "fecha": "2026-11-10T02:21:00+00:00",
       "imagen": ""
     },
     {
@@ -98,6 +152,15 @@
       "fuente": "BBC Mundo",
       "url": "https://www.bbc.com/mundo/articles/c6p9g97x540jo?at_medium=RSS&at_campaign=rss",
       "fecha": "2026-11-10T01:15:11+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "63e51befc8ea7b49",
+      "titulo": "Centro Nacional de Memoria Histórica homenajeó a Fanny González Franco, magistrada asesinada en la toma del Palacio de Justicia",
+      "categoria": "Colombia",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/colombia/fanny-gonzalez-franco-palacio-de-justicia-familia-m19-homenaje-2026/",
+      "fecha": "2026-11-10T01:06:19+00:00",
       "imagen": ""
     },
     {
@@ -407,30 +470,12 @@
       "imagen": ""
     },
     {
-      "id": "c03caacb551a7648",
-      "titulo": "Protesta en Chiminangos, afectados por terremoto reclaman ayuda a la Alcaldía de Cali",
-      "categoria": "Cali",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/cali/protesta-chiminangos-danios-terremoto-del-10-de-agosto-cali-2026/",
-      "fecha": "2026-11-09T23:19:54+00:00",
-      "imagen": ""
-    },
-    {
       "id": "3e379ec0c4e9234d",
       "titulo": "Isabel Zuleta denunció a Abelardo por acuerdo de minerales con EE.UU.",
       "categoria": "Internacional",
       "fuente": "La Silla Vacía",
       "url": "https://www.lasillavacia.com/en-vivo/isabel-zulueta-denuncio-a-abelardo-por-acuerdo-de-minerales-con-ee-uu/",
       "fecha": "2026-11-09T23:19:50+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "3dc286d13a35ae78",
-      "titulo": "Kahren Rondón: la colombiana que convirtió sus fracasos en oportunidades para otros",
-      "categoria": "Colombia",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/reinventarse-para-seguir/kahren-rondon-de-dormir-en-el-suelo-a-formar-emprendedores/",
-      "fecha": "2026-11-09T23:11:45+00:00",
       "imagen": ""
     },
     {
@@ -495,51 +540,6 @@
       "url": "https://www.portafolio.co/economia/gobierno/gadi-eisenkot-recibe-el-mandato-para-formar-gobierno-en-israel-este-seria-el-fin-del-sistema-de-netanyahu-506015",
       "fecha": "2026-11-09T22:41:43+00:00",
       "imagen": ""
-    },
-    {
-      "id": "11b906a56d944c98",
-      "titulo": "Fiscalía seguirá investigando a Uribe por masacres en Antioquia y no la Comisión de Acusación; ¿qué implica?",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/corte-constitucional-define-investigacion-uribe-masacres-antioquia-HB43350052",
-      "fecha": "2026-11-09T22:35:40+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "44ac1f2a1d566846",
-      "titulo": "Al menos 16 muertos y 13 heridos en una explosión en una acería en Turquía",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/internacional/2026-11-09/al-menos-16-muertos-y-13-heridos-en-una-explosion-en-una-aceria-en-turquia.html",
-      "fecha": "2026-11-09T22:33:39+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "d9b2293fdc6e2af0",
-      "titulo": "Corrección: Ahora sí, la lista completa de los 132 proyectos de la Milagro Week",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/silla-nacional/correccion-ahora-si-la-lista-completa-de-los-132-proyectos-de-la-milagro-week/",
-      "fecha": "2026-11-09T22:32:56+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "ecd201791578a628",
-      "titulo": "Las Fiestas de Independencia dinamizan el comercio en Cartagena: desde los hoteles y restaurantes hasta la informalidad... todos ganan",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/las-fiestas-de-independencia-dinamizan-el-comercio-en-cartagena-desde-los-hoteles-y-restaurantes-hasta-la-informalidad-todos-ganan-3599726",
-      "fecha": "2026-11-09T22:25:51+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "359608451ac22552",
-      "titulo": "Video | ‘No te detengas a mitad del camino’: la conmovedora canción con la que Héctor Zuleta acompaña la recuperación de Kbeto en Barranquilla",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/barranquilla/video-no-te-detengas-a-mitad-del-camino-la-conmovedora-cancion-con-la-que-hector-zuleta-acompana-la-recuperacion-de-kbeto-en-barranquilla-3599731",
-      "fecha": "2026-11-09T22:20:00+00:00",
-      "imagen": ""
     }
   ],
   "estado_fuentes": [
@@ -553,7 +553,7 @@
       "nombre": "El Tiempo Cali",
       "url": "https://www.eltiempo.com/rss/colombia_cali.xml",
       "estado": "correcto",
-      "titulares": 6
+      "titulares": 5
     },
     {
       "nombre": "El Espectador",
@@ -644,13 +644,13 @@
       "nombre": "Q'hubo Cali",
       "url": "https://www.qhubocali.com/feed/",
       "estado": "correcto",
-      "titulares": 7
+      "titulares": 4
     },
     {
       "nombre": "El Colombiano — Colombia",
       "url": "https://www.elcolombiano.com/rss/Colombia.xml",
       "estado": "correcto",
-      "titulares": 31
+      "titulares": 32
     },
     {
       "nombre": "El Diario — Pereira",
@@ -662,7 +662,7 @@
       "nombre": "Chocó 7 días",
       "url": "https://choco7dias.com/feed/",
       "estado": "correcto",
-      "titulares": 9
+      "titulares": 10
     },
     {
       "nombre": "La Patria — Caldas",
