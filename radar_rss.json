@@ -1,13 +1,139 @@
 {
-  "ultima_actualizacion": "2026-11-10T15:56:37.194803+00:00",
+  "ultima_actualizacion": "2026-11-10T16:59:31.541880+00:00",
   "titulares_rss": [
     {
-      "id": "1d33f3629d4ebec2",
-      "titulo": "Perú inauguró la estatua más grande del mundo dedicada al papa León XIV",
+      "id": "e51a202f42130f8c",
+      "titulo": "El de “Fico” para Medellín: Manuel Villa entra a la batalla de la derecha por la Alcaldía",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/silla-nacional/el-de-fico-para-medellin-manuel-villa-entra-a-la-batalla-de-la-derecha-por-la-alcaldia/",
+      "fecha": "2026-11-10T16:54:01+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "fb19538e79c64426",
+      "titulo": "Entre la selva y la sátira: Evelio Rosero reescribe la Conquista en 'Lluvia de frailes en la selva'",
+      "categoria": "Valle del Cauca",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/tv/tiempo-de-leer/evelio-rosero-reescribe-conquista-lluvia-frailes-selva-10-11-2026/",
+      "fecha": "2026-11-10T16:49:35+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "45b674c4f6ce16d0",
+      "titulo": "Del chavismo al judaísmo: ¿Qué conexión tendría Nicolás Maduro con sectores sionistas desde prisión?",
       "categoria": "Internacional",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/peru-inauguro-la-estatua-mas-grande-del-mundo-dedicada-al-papa-leon-xiv-4521334",
-      "fecha": "2026-11-10T15:53:47+00:00",
+      "fuente": "La FM Internacional",
+      "url": "https://www.lafm.com.co/internacional/nicolas-maduro-prision-judaismo-vinculos-sionismo-carcel-brooklyn-416720",
+      "fecha": "2026-11-10T16:47:43+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "831c6cb01679eeb4",
+      "titulo": "La visita del papa León XIV en Argentina, en vivo | Una multitud se congrega en Córdoba para ver y escuchar al Papa",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/argentina/2026-11-10/la-visita-del-papa-leon-xiv-en-argentina-en-vivo.html",
+      "fecha": "2026-11-10T16:46:28+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "85fa687d5e442bfd",
+      "titulo": "¿Recuerda las hojas de vida y promesas de compraventa Minerva?, empresa que las produce entra en reorganización",
+      "categoria": "Economía",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/empleo/recuerda-las-hojas-de-vida-y-promesas-de-compraventa-minerva-empresa-que-las-produce-entra-en-reorganizacion-506066",
+      "fecha": "2026-11-10T16:43:41+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "2ff8d736eaaff370",
+      "titulo": "Los primeros 100 días de De la Espriella, según The Economist",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/en-vivo/los-primeros-100-dias-de-de-la-espriella-segun-the-economist/",
+      "fecha": "2026-11-10T16:42:13+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "a533f53e5f330947",
+      "titulo": "Establecen récord Guinness de vuelo humano impulsado por una catapulta",
+      "categoria": "Internacional",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/establecen-récord-guinness-de-vuelo-humano-impulsado-por-una-catapulta/a-79911550?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-10T16:41:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "6c2b99d8aed25868",
+      "titulo": "JD Vance ya no vendrá a Colombia: cancelaron visita prevista para el 20 y 21 de noviembre",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/jd-vance-no-viene-colombia-cancelaron-visita-20-21-noviembre-BD43406689",
+      "fecha": "2026-11-10T16:40:53+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "2978f946028c3f01",
+      "titulo": "Los compromisos y anuncios que hizo el presidente Abelardo De La Espriella para el departamento de Boyacá tras su visita a Tunja",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/los-compromisos-y-anuncios-que-hizo-el-presidente-abelardo-de-la-espriella-para-el-departamento-de-boyaca-tras-su-visita-a-tunja-3599906",
+      "fecha": "2026-11-10T16:40:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "4f7860d1ec6de25c",
+      "titulo": "Vendedores ambulantes, los damnificados de Eder",
+      "categoria": "Colombia",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/opinion/editorial/alcaldia-de-cali-genera-debate-por-desalojo-en-el-centro/",
+      "fecha": "2026-11-10T16:36:39+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "893224a9740b3957",
+      "titulo": "Conversaciones entre Rusia y Ucrania en Abu Dabi: ¿se producirá un avance decisivo?",
+      "categoria": "Internacional",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/conversaciones-entre-rusia-y-ucrania-en-abu-dabi-¿se-producirá-un-avance-decisivo/a-79910461?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-10T16:36:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "4f5e80285e97a20c",
+      "titulo": "Anthropic ha descubierto lo que mi madre ya sabía: la IA cuida mejor las cosas cuando cree que son suyas",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/robotica-e-ia/anthropic-ha-descubierto-que-mi-madre-sabia-cuidas-mejor-cosas-cuando-crees-que-tuyas-a-su-ia-le-pasa-codigo",
+      "fecha": "2026-11-10T16:31:47+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "7c77a53e9106b23d",
+      "titulo": "Así debilitó Petro a la Inteligencia del Estado con sabotaje a elecciones, espionaje a expresidentes y caos",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/debilito-petro-inteligencia-sabotaje-elecciones-espionaje-expresidentes-caos-AM43380642",
+      "fecha": "2026-11-10T16:31:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "a9b0bac3c76f3a86",
+      "titulo": "La incógnita de las bacterias japonesas que viven en ‘La ronda de noche’ de Rembrandt",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/ciencia/2026-11-10/la-incognita-de-las-bacterias-japonesas-que-viven-en-la-ronda-de-noche-de-rembrandt.html",
+      "fecha": "2026-11-10T16:30:02+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "f0d0a21f10d394e9",
+      "titulo": "Le pagamos los polvos",
+      "categoria": "Colombia",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/opinion/columnistas/le-pagamos-los-polvos/",
+      "fecha": "2026-11-10T16:29:29+00:00",
       "imagen": ""
     },
     {
@@ -16,7 +142,205 @@
       "categoria": "Colombia",
       "fuente": "El País Colombia",
       "url": "https://elpais.com/espana/2026-11-10/la-audiencia-nacional-da-luz-verde-a-investigar-a-zapatero-por-un-supuesto-trafico-de-influencias-en-bolivia.html",
-      "fecha": "2026-11-10T15:53:04+00:00",
+      "fecha": "2026-11-10T16:29:07+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "c69f819d90d7b466",
+      "titulo": "Críticas al Pacto por publicación sobre mujeres que salieron de la pobreza durante gobierno Petro, en pleno escándalo de ‘sexocontratos’",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/sexocontratos-petro-pacto-historico-alardea-y-no-rechaza-caso-KN43390903",
+      "fecha": "2026-11-10T16:25:41+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "468b35a1355f7704",
+      "titulo": "Reactivación económica: comerciantes afectados por el terremoto buscan recuperar sus negocios",
+      "categoria": "Valle del Cauca",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/cali/reactivacion-economica-comerciantes-afectados-terremoto-10-11-2026/",
+      "fecha": "2026-11-10T16:24:44+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "019419fe88b29c08",
+      "titulo": "La Dian puede reducir hasta 85% las sanciones tributarias: este es el plazo que le queda para solicitarlo",
+      "categoria": "Economía",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/impuestos/la-dian-puede-reducir-hasta-85-las-sanciones-tributarias-este-es-el-plazo-que-le-queda-para-solicitarlo-506068",
+      "fecha": "2026-11-10T16:23:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "2881afdf99b2cda1",
+      "titulo": "Por qué la electrificación es el factor decisivo que necesitamos frente al cambio climático",
+      "categoria": "Internacional",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/por-qué-la-electrificación-es-el-factor-decisivo-que-necesitamos-frente-al-cambio-climático/a-79911079?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-10T16:23:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "1f22a872c50378ee",
+      "titulo": "De residuos a fertilizantes: la apuesta de Fenavi para aprovechar la gallinaza y la pollinaza en Colombia",
+      "categoria": "Colombia",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/agro/de-residuos-a-fertilizantes-la-apuesta-de-fenavi-para-aprovechar-la-gallinaza-y-la-pollinaza-en-colombia-506067",
+      "fecha": "2026-11-10T16:20:47+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "74ca2ecfbde30a41",
+      "titulo": "FMI resaltó estabilidad económica uruguayo pero advirtió \"presiones de gasto\"",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/globoeconomia/fmi-resalto-estabilidad-economica-uruguayo-pero-advirtio-presiones-de-gasto-4521390",
+      "fecha": "2026-11-10T16:20:13+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "674b042b1984573c",
+      "titulo": "Renovar tu casa sale más barato gracias al Black Friday de Leroy Merlín y sus descuentos de hasta el 25%",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/seleccion/renovar-tu-casa-sale-barato-gracias-al-black-friday-leroy-merlin-sus-descuentos-25",
+      "fecha": "2026-11-10T16:15:49+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "1cb5837dc8666387",
+      "titulo": "Bucaramanga tendrá un observatorio del delito que operará las 24 horas y contará con inteligencia artificial para detectar crímenes en tiempo real",
+      "categoria": "Tecnología",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/santander/bucaramanga-tendra-un-observatorio-del-delito-que-operara-las-24-horas-y-contara-con-inteligencia-artificial-para-detectar-crimenes-en-tiempo-real-3599893",
+      "fecha": "2026-11-10T16:13:55+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "eff12a05f5393d7b",
+      "titulo": "Chiminangos sigue en riesgo tras el terremoto en Cali: ¿cómo van los arreglos en la zona?",
+      "categoria": "Cali",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/cali/chiminangos-riesgo-terremoto-cali-10-11-2026/",
+      "fecha": "2026-11-10T16:06:30+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "06fa4613121bcc43",
+      "titulo": "Sismo de 5,8 sacudió a la costa de Guatemala y se sintió en Centroamérica",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/globoeconomia/sismo-de-5-8-sacudio-a-la-costa-de-guatemala-y-se-sintio-en-centroamerica-4521375",
+      "fecha": "2026-11-10T16:04:19+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "15cfc50173771e3b",
+      "titulo": "José Antonio Luque, cercano a MinComercio, es el nuevo vice de Defensa",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/en-vivo/jose-antonio-luque-cercano-a-mincomercio-es-el-nuevo-vice-de-defensa/",
+      "fecha": "2026-11-10T16:03:04+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "894e6074f8317b69",
+      "titulo": "Mi hermano murió tras rechazar una transfusión por sus creencias; semanas después los Testigos de Jehová eliminaron esa prohibición",
+      "categoria": "Internacional",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/cm9dzdq3p48zo?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-10T16:02:51+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "5534de51b96caf04",
+      "titulo": "Google tuvo el mejor modelo de IA durante trece días. Anthropic se lo quitó y la respuesta ha tardado 24 horas",
+      "categoria": "Tecnología",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/robotica-e-ia/google-tuvo-mejor-modelo-ia-durante-trece-dias-anthropic-se-quito-respuesta-ha-tardado-24-horas",
+      "fecha": "2026-11-10T16:01:49+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "3d52d1c813e7bc62",
+      "titulo": "Feminicidio en Barranquilla: mujer de 43 años fue asesinada por su expareja; el señalado agresor fue capturado después de que intentara autolesionarse",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/barranquilla/feminicidio-en-barranquilla-mujer-de-43-anos-fue-asesinada-por-su-expareja-el-senalado-agresor-fue-capturado-despues-de-que-intentara-autolesionarse-3599896",
+      "fecha": "2026-11-10T16:01:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "030d89bf8a734ba8",
+      "titulo": "Once Caldas vs. Atlético Nacional, semifinal de Copa Colombia",
+      "categoria": "Colombia",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/deportes/once-caldas-vs-atletico-nacional-semifinal-copa-colombia/",
+      "fecha": "2026-11-10T16:00:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "2fecb27da35e0bc1",
+      "titulo": "Teófilo Gutiérrez no descarta seguir con Junior",
+      "categoria": "Colombia",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/deportes/teofilo-gutierrez-no-descarta-seguir-con-junior/",
+      "fecha": "2026-11-10T16:00:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "c51d70950fe02f0c",
+      "titulo": "Teófilo Gutiérrez se despidió de Junior con gol",
+      "categoria": "Colombia",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/deportes/teofilo-gutierrez-despedida-junior-gol/",
+      "fecha": "2026-11-10T16:00:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "4f7517dd5f39dbce",
+      "titulo": "Liga BetPlay: tres cupos se definen en la última fecha",
+      "categoria": "Deportes",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/deportes/liga-betplay-tres-cupos-se-definen-en-la-ultima-fecha/",
+      "fecha": "2026-11-10T16:00:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "848baefb095fc458",
+      "titulo": "Colombia buscaría US$15.000 millones con el FMI, reporta Bloomberg",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/en-vivo/colombia-buscaria-us15-000-millones-con-el-fmi-segun-bloomberg/",
+      "fecha": "2026-11-10T15:59:17+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "fc45356bdbe16f14",
+      "titulo": "Asesor de la campaña presidencial de Paloma Valencia era contratista del Gobierno Petro; la exsenadora pidió investigar",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/paloma-valencia-pidio-investigar-asesor-contratista-gobierno-petro-AN43395621",
+      "fecha": "2026-11-10T15:56:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "be9c37cf7702712a",
+      "titulo": "Otro ofrecimiento para SpaceX en Colombia: La Guajira propone Puerto Bolívar y se suma a Antioquia con el Urabá",
+      "categoria": "Colombia",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/regiones/otro-ofrecimiento-para-spacex-en-colombia-la-guajira-propone-puerto-bolivar-y-se-suma-a-antioquia-con-el-uraba-506064",
+      "fecha": "2026-11-10T15:55:11+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "1d33f3629d4ebec2",
+      "titulo": "Perú inauguró la estatua más grande del mundo dedicada al papa León XIV",
+      "categoria": "Internacional",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/globoeconomia/peru-inauguro-la-estatua-mas-grande-del-mundo-dedicada-al-papa-leon-xiv-4521334",
+      "fecha": "2026-11-10T15:53:47+00:00",
       "imagen": ""
     },
     {
@@ -83,12 +407,12 @@
       "imagen": ""
     },
     {
-      "id": "24193a10de4481de",
-      "titulo": "Las 6 entidades que dejarían de funcionar por separado con la reforma administrativa que propone Galán para Bogotá",
-      "categoria": "Colombia",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/regiones/estas-son-las-seis-entidades-que-dejarian-de-funcionar-por-separado-con-la-reforma-que-propone-galan-en-bogota-506053",
-      "fecha": "2026-11-10T15:38:30+00:00",
+      "id": "2549d7381c1f3ca5",
+      "titulo": "Fuerte crítica de The Economist a De la Espriella en sus 100 primeros días de gobierno: \"sigue los pasos de Trump\"",
+      "categoria": "Internacional",
+      "fuente": "La FM Internacional",
+      "url": "https://www.lafm.com.co/internacional/the-economist-critica-100-dias-gobierno-abelardo-de-la-espriella-416728",
+      "fecha": "2026-11-10T15:35:38+00:00",
       "imagen": ""
     },
     {
@@ -216,330 +540,6 @@
       "url": "https://www.eltiempo.com/colombia/cali/la-bebe-isabela-y-su-madre-entre-las-cuatro-victimas-fatales-del-accidente-en-la-via-a-buenaventura-revelan-la-hipotesis-del-siniestro-en-el-tunel-3599805",
       "fecha": "2026-11-10T14:59:58+00:00",
       "imagen": ""
-    },
-    {
-      "id": "831c6cb01679eeb4",
-      "titulo": "La visita del papa León XIV en Argentina, en vivo | Una multitud se congrega en Córdoba para ver y escuchar al Papa",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/argentina/2026-11-10/la-visita-del-papa-leon-xiv-en-argentina-en-vivo.html",
-      "fecha": "2026-11-10T14:59:29+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "35a96b288b899eee",
-      "titulo": "Barranquilla: aeropuerto Ernesto Cortissoz ya cuenta con nuevos equipos biométricos para agilizar el ingreso de viajeros internacionales",
-      "categoria": "Internacional",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/barranquilla/barranquilla-aeropuerto-ernesto-cortissoz-ya-cuenta-con-nuevos-equipos-biometricos-para-agilizar-el-ingreso-de-viajeros-internacionales-3599852",
-      "fecha": "2026-11-10T14:57:27+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "486d2cabe851175e",
-      "titulo": "Capturan a un hombre con un dron y explosivos, metros después de un atentado contra una base militar en Cartago, Valle: el Eln estaría detrás",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/cali/capturan-a-un-hombre-con-un-dron-y-explosivos-metros-despues-de-un-atentado-contra-una-base-militar-en-cartago-valle-el-eln-estaria-detras-3599846",
-      "fecha": "2026-11-10T14:55:54+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "020530567023420f",
-      "titulo": "Muere un policía y otro resulta gravemente herido en una explosión en Oviedo",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/espana/2026-11-10/un-policia-muerto-y-otro-herido-tras-una-explosion-en-oviedo.html",
-      "fecha": "2026-11-10T14:48:14+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "44c060ea26bd4075",
-      "titulo": "GTA VI habilita su descarga anticipada y revela su enorme peso: Prepara tu consola",
-      "categoria": "Valle del Cauca",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/entretenimiento/gta-vi-habilita-predescarga-rockstar-games-10-11-2026/",
-      "fecha": "2026-11-10T14:47:19+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "441a2bbc395fd8da",
-      "titulo": "Hegseth desafía su destitución: \"Esto es sabotaje\"",
-      "categoria": "Internacional",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/hegseth-desafía-su-destitución-esto-es-sabotaje/a-79910709?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-10T14:47:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "daeff7b76f6bc842",
-      "titulo": "Recorte estatal en ley de ajuste económico: senadora calcula ahorro menor al anunciado por el Gobierno",
-      "categoria": "Colombia",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/finanzas/recorte-estatal-en-ley-de-ajuste-economico-senadora-calcula-ahorro-menor-al-anunciado-por-el-gobierno-506058",
-      "fecha": "2026-11-10T14:46:19+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "d7a1410633b839af",
-      "titulo": "Luis Augusto Cuenca asumirá como director de la Superintendencia de Notariado y Registro",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/economia/luis-augusto-cuenca-asumira-como-director-de-la-superintendencia-de-notariado-y-registro-4521290",
-      "fecha": "2026-11-10T14:41:19+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "1ae4d38d3be04dc2",
-      "titulo": "SAE llevará el portafolio inmobiliario de hasta US$80 millones a Milagro Week 2026",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/economia/sae-llevara-el-portafolio-inmobiliario-de-hasta-us-80-millones-a-milagro-week-2026-4521301",
-      "fecha": "2026-11-10T14:40:51+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "bb5299de78ee1865",
-      "titulo": "Pete Hegseth: “El juicio político es una farsa, y va a fracasar”",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/us/2026-11-10/hegseth-el-juicio-politico-es-una-farsa-y-todos-lo-saben.html",
-      "fecha": "2026-11-10T14:39:45+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "4ffcfde949cae929",
-      "titulo": "Liberales también cuestionan la tributaria de Abelardo",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/en-vivo/liberales-tambien-cuestionan-la-tributaria-de-abelardo/",
-      "fecha": "2026-11-10T14:35:26+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "7e649b5740fb16db",
-      "titulo": "Consejo de Estado suspende norma y permite periodo de prueba en contratos de aprendizaje del Sena",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/consejo-estado-permite-periodo-prueba-contratos-aprendizaje-sena-HN43392674",
-      "fecha": "2026-11-10T14:33:39+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "432499f5ffc609df",
-      "titulo": "Anthropic protagoniza una de las mayores apuestas bursátiles de la era de la IA",
-      "categoria": "Internacional",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/anthropic-protagoniza-una-de-las-mayores-apuestas-bursátiles-de-la-era-de-la-ia/a-79910575?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-10T14:33:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "2ffdf113c258a757",
-      "titulo": "'Lo que pasa en la calle': Los hechos judiciales de este martes, 10 de noviembre",
-      "categoria": "Valle del Cauca",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/judicial/noticias-judiciales-martes-10-noviembre-10-11-2026/",
-      "fecha": "2026-11-10T14:32:56+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "f121bfe947f9b7e3",
-      "titulo": "Pulsar “Sí, y no vuelvas a preguntar” en Claude Code parecía inofensivo. Ha acabado filtrando miles de contraseñas en GitHub",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/robotica-e-ia/pulsar-no-vuelvas-a-preguntar-claude-code-parecia-inofensivo-ha-acabado-filtrando-miles-contrasenas-github",
-      "fecha": "2026-11-10T14:31:51+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "231e19187b7034a3",
-      "titulo": "Vincent Kompany regresa al campo de entrenamiento del Bayern Múnich",
-      "categoria": "Internacional",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/vincent-kompany-regresa-al-campo-de-entrenamiento-del-bayern-múnich/a-79910293?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-10T14:28:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "6756b9e9c66bd054",
-      "titulo": "Coomeva fue reconocida en el Encuentro Empresarial Iberoamericano",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/empresas/coomeva-recibio-reconocimiento-en-el-xvi-encuentro-empresarial-iberoamericano-4521287",
-      "fecha": "2026-11-10T14:26:56+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "474d89a8dbe8b031",
-      "titulo": "Anthropic apunta a valoración de US$1,4 billones en una exitosa salida a bolsa",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/anthropic-apunta-a-valoracion-de-us-1-4-billones-en-una-exitosa-salida-a-bolsa-4521289",
-      "fecha": "2026-11-10T14:23:59+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "06efa3fed23718d4",
-      "titulo": "Gobierno De la Espriella eliminó el Consulado Honorario de Colombia en Costa de Marfil",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/economia/gobierno-de-la-espriella-elimino-el-consulado-honorario-de-colombia-en-costa-de-marfil-4521225",
-      "fecha": "2026-11-10T14:22:08+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "71293e047c8f2a2e",
-      "titulo": "El euro subió en Colombia y le gana terreno al peso: así cotiza la moneda europea este 10 de noviembre",
-      "categoria": "Colombia",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/finanzas/el-euro-subio-en-colombia-y-le-gana-terreno-al-peso-asi-cotiza-la-moneda-europea-este-10-de-noviembre-506056",
-      "fecha": "2026-11-10T14:19:44+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "a78744d43f07e4a0",
-      "titulo": "Vicepresidente de EE. UU. cancela su visita a Colombia",
-      "categoria": "Colombia",
-      "fuente": "La FM Internacional",
-      "url": "https://www.lafm.com.co/internacional/vicepresidente-estados-unidos-cancela-visita-a-colombia-416723",
-      "fecha": "2026-11-10T14:19:32+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "e5f708d75a314260",
-      "titulo": "¿Teófilo Gutiérrez se retira del fútbol? este fue el 'guiño' del delantero para el 2027",
-      "categoria": "Deportes",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/deportes/teofilo-gutierrez-delantero-10-11-2026/",
-      "fecha": "2026-11-10T14:19:26+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "8ad66f4ef9095873",
-      "titulo": "Inflación: hogares pobres sufrieron un alza mensual de precios de más del doble que los de ingresos altos",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/finanzas/inflacion-hogares-pobres-sufrieron-un-alza-mensual-de-precios-de-mas-del-doble-que-los-de-ingresos-altos-506054",
-      "fecha": "2026-11-10T14:15:23+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "2cd6fe9f57194d7a",
-      "titulo": "¿Qué ha pasado tres meses después del terremoto en Cali? Este es el balance",
-      "categoria": "Cali",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/cali/tres-meses-despues-terremoto-cali-balance-10-11-2026/",
-      "fecha": "2026-11-10T14:14:17+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "36cf90e02ddced3f",
-      "titulo": "A tres meses del terremoto, 776.000 afectados siguen esperando soluciones, según la Defensoría",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/alerta-por-falta-atencion-reconstruccion-terremoto-10-agosto-JM43383486",
-      "fecha": "2026-11-10T14:12:43+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "5ad18cd940e0fb1a",
-      "titulo": "Flip rechaza orden de inspección de Fiscalía a medio Casa Macondo",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/en-vivo/flip-rechaza-orden-de-inspeccion-de-fiscalia-a-medio-casa-macondo/",
-      "fecha": "2026-11-10T14:05:12+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "ca6cedb5a78cd208",
-      "titulo": "Las acciones y caen mientras el IPC alimenta las apuestas sobre subida de tipos en la Fed",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/inflacion-estados-unidos-fed-tasas-bitcoin-4521270",
-      "fecha": "2026-11-10T14:04:37+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "95345d8da5c737ba",
-      "titulo": "Un congresista republicano inicia el proceso para el \"impeachment\" de Pete Hegseth por la guerra en Irán, mientras el secretario de Defensa de EE.UU. denuncia un \"circo\" político",
-      "categoria": "Internacional",
-      "fuente": "BBC Mundo",
-      "url": "https://www.bbc.com/mundo/articles/cm62y2l3eng1o?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-10T14:03:26+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "b96131297cb562cb",
-      "titulo": "Tres meses después, las alcaldías cargan con la reconstrucción y ponen la mayor parte de la plata, según Transparencia",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/alcaldias-aportan-mas-recursos-reconstruccion-terremoto-colombia-BM43384261",
-      "fecha": "2026-11-10T14:02:03+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "18fb11c8194ddd84",
-      "titulo": "Google ya no quiere un solo chip de IA que haga de todo: lanza dos nuevas TPU especializadas para plantar cara a Nvidia",
-      "categoria": "Tecnología",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/componentes/google-no-quiere-solo-chip-ia-que-haga-todo-lanza-dos-nuevas-tpu-especializadas-para-plantar-cara-a-nvidia",
-      "fecha": "2026-11-10T14:00:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "934ed47c8cd47285",
-      "titulo": "Supersociedades le da plazo de dos meses a Helicol para evitar su liquidación judicial",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/empresas/supersociedades-le-da-plazo-de-dos-meses-a-helicol-para-evitar-su-liquidacion-judicial-4521215",
-      "fecha": "2026-11-10T13:56:34+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "5bb161eb85ca2cc3",
-      "titulo": "Presidencia de la Andi se define hoy entre Luz Stella Murgas y Juan Camilo Nariño",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/empresas/presidencia-de-la-andi-se-define-hoy-entre-luz-stella-murgas-y-juan-camilo-narino-4521186",
-      "fecha": "2026-11-10T13:55:57+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "fa1b8f721fdeba1d",
-      "titulo": "Sobrevivientes al grave accidente en el túnel de Buenaventura narran los momentos de pánico: 'Había muchas personas agonizando'",
-      "categoria": "Valle del Cauca",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/sobrevivientes-al-grave-accidente-en-el-tunel-de-buenaventura-narran-los-momentos-de-panico-habia-muchas-personas-agonizando-3599829",
-      "fecha": "2026-11-10T13:53:53+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "cd6b94535ec5266a",
-      "titulo": "Por qué México recauda tan pocos impuestos (y cómo financia su creciente Estado de bienestar)",
-      "categoria": "Internacional",
-      "fuente": "BBC Mundo",
-      "url": "https://www.bbc.com/mundo/articles/cm4g109r03npo?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-10T13:52:26+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "a431fa241fa2766b",
-      "titulo": "Precio del dólar hoy en Colombia: Así está la moneda el 10 de noviembre",
-      "categoria": "Economía",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/vida-moderna/precio-del-dolar-hoy-en-colombia-10-11-2026/",
-      "fecha": "2026-11-10T13:52:05+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "e4063b8683f25410",
-      "titulo": "Comic Con Medellín 2026 mostrará el impacto económico de la cultura geek y sus comunidades",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/ocio/comic-con-medellin-2026-mostrara-el-impacto-economico-de-la-cultura-geek-4521252",
-      "fecha": "2026-11-10T13:49:49+00:00",
-      "imagen": ""
     }
   ],
   "estado_fuentes": [
@@ -596,7 +596,7 @@
       "nombre": "DW Español",
       "url": "https://rss.dw.com/rdf/rss-sp-all",
       "estado": "correcto",
-      "titulares": 19
+      "titulares": 22
     },
     {
       "nombre": "Xataka",
@@ -620,7 +620,7 @@
       "nombre": "La FM Deportes",
       "url": "https://www.lafm.com.co/rss/deportes.xml",
       "estado": "correcto",
-      "titulares": 16
+      "titulares": 17
     },
     {
       "nombre": "La FM Economía",
