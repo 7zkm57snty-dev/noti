@@ -1,6 +1,105 @@
 {
-  "ultima_actualizacion": "2026-11-10T00:15:34.477387+00:00",
+  "ultima_actualizacion": "2026-11-10T01:45:35.258536+00:00",
   "titulares_rss": [
+    {
+      "id": "50eccb1a92dd55f5",
+      "titulo": "Jefe del Pentágono enfrenta moción de censura en Congreso de EE.UU.",
+      "categoria": "Internacional",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/jefe-del-pentágono-enfrenta-moción-de-censura-en-congreso-de-ee-uu/a-79905871?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-10T01:39:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "f6c2f03b71f86149",
+      "titulo": "Colombia estaría negociando programa de préstamos por US$15.000 millones con el FMI",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/economia/colombia-estara-negociando-programa-de-prestamos-por-us-15-000-millones-con-el-fmi-4521038",
+      "fecha": "2026-11-10T01:32:09+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "0f1bc603f247fbc7",
+      "titulo": "Exxon firma acuerdo preliminar con Venezuela para evaluar oportunidades petroleras",
+      "categoria": "Internacional",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/globoeconomia/exxon-firma-acuerdo-preliminar-con-venezuela-para-evaluar-oportunidades-petroleras-4521039",
+      "fecha": "2026-11-10T01:26:28+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "6330f87051a922f4",
+      "titulo": "Por qué la infidelidad del jefe de Nvidia con una supesta espía china tendrá repercusiones en EE.UU. y más allá",
+      "categoria": "Internacional",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/c6p9g97x540jo?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-10T01:15:11+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "ea43775f4e60a85d",
+      "titulo": "Autoridades afirman que Hidroituango alcanzó la cota 420 en almacenamiento",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/empresas/autoridades-afirman-que-hidroituango-alcanzo-la-cota-420-en-almacenamiento-4520786",
+      "fecha": "2026-11-10T01:02:13+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "5d537d9a3ba7102d",
+      "titulo": "SIC archivó investigación contra Ecopetrol y Helistar por contratos aéreos",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/economia/sic-archivo-investigacion-contra-ecopetrol-y-helistar-por-contratos-aereos-4521022",
+      "fecha": "2026-11-10T00:56:49+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "23d6dbcca065ed4e",
+      "titulo": "'Es una maratón que va a durar cuatro años': el alcalde Alejandro Eder presenta el balance de los primeros 90 días tras el terremoto en Cali",
+      "categoria": "Cali",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/cali/es-una-maraton-que-va-a-durar-cuatro-anos-el-alcalde-alejandro-eder-presenta-el-balance-de-los-primeros-90-dias-tras-el-terremoto-en-cali-3599759",
+      "fecha": "2026-11-10T00:47:09+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "6a06f778e047c27d",
+      "titulo": "¿Quién era Felipe Domínguez, una de las víctimas del fatídico accidente entre una buseta, una tractomula y una moto en la vía a Buenaventura?",
+      "categoria": "Valle del Cauca",
+      "fuente": "El Tiempo Cali",
+      "url": "https://www.eltiempo.com/colombia/cali/quien-era-felipe-dominguez-una-de-las-victimas-del-fatidico-accidente-de-una-buseta-una-tractomula-y-una-moto-en-la-via-a-buenaventura-3599683",
+      "fecha": "2026-11-10T00:42:07+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "cd67013e36351112",
+      "titulo": "Patria Day proyectará en Bogotá y Medellín el rumbo de la inversión sectorial en Colombia",
+      "categoria": "Colombia",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/finanzas/patria-day-proyectara-en-bogota-y-medellin-el-rumbo-de-la-inversion-sectorial-en-colombia-506030",
+      "fecha": "2026-11-10T00:37:53+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "9cb35a21e5d51829",
+      "titulo": "Corea del Norte prueba un torpedo de alta velocidad en el mar de Japón",
+      "categoria": "Internacional",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/corea-del-norte-prueba-un-torpedo-de-alta-velocidad-en-el-mar-de-japón/a-79905831?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-10T00:35:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "9b1f2ca925bdd51b",
+      "titulo": "Ojos en el cielo, vida en la tierra: la tecnología dron en la emergencia del 10 de agosto",
+      "categoria": "Tecnología",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/cali/ojos-en-el-cielo-vida-en-la-tierra-la-tecnologia-dron-en-la-emergencia-del-10-de-agosto-3599752",
+      "fecha": "2026-11-10T00:23:08+00:00",
+      "imagen": ""
+    },
     {
       "id": "7a26864849ee7412",
       "titulo": "Duerma informado con las claves de este 9 de noviembre de 2026",
@@ -84,7 +183,7 @@
     },
     {
       "id": "3a0a18ce85e243c2",
-      "titulo": "El segundo día de León XIV en Argentina, en vivo | El Papa se reúne en Buenos Aires con víctimas de abuso",
+      "titulo": "Así le hemos contado el segundo día de León XIV en Argentina",
       "categoria": "Colombia",
       "fuente": "El País Colombia",
       "url": "https://elpais.com/america/2026-11-09/el-segundo-dia-de-leon-xiv-en-argentina-en-vivo-el-papa-visita-un-centro-de-discapacitados-en-su-segundo-dia-en-argentina.html",
@@ -206,6 +305,15 @@
       "fuente": "El Tiempo",
       "url": "https://www.eltiempo.com/colombia/barranquilla/seis-dias-despues-de-la-tragedia-soledad-pide-ayuda-al-gobierno-nacional-para-ampliar-la-busqueda-de-zoe-hasta-bocas-de-ceniza-y-el-mar-caribe-3599742",
       "fecha": "2026-11-09T23:30:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "a9c5f08dac1885a9",
+      "titulo": "El euro subió 5,41 % y cerró la jornada en $3.669,69 en Colombia",
+      "categoria": "Colombia",
+      "fuente": "La FM Economía",
+      "url": "https://www.lafm.com.co/economia/euro-subio-cerro-jornada-colombia-416663",
+      "fecha": "2026-11-09T23:28:02+00:00",
       "imagen": ""
     },
     {
@@ -432,114 +540,6 @@
       "url": "https://elpais.com/us/2026-11-09/un-congresista-presenta-los-articulos-de-destitucion-contra-el-secretario-de-defensa-pete-hegseth.html",
       "fecha": "2026-11-09T22:09:09+00:00",
       "imagen": ""
-    },
-    {
-      "id": "40dd8ac17e2016f8",
-      "titulo": "Uribismo cierra la puerta a una alianza electoral con Petro para 2027",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/en-vivo/uribismo-cierra-la-puerta-a-una-alianza-electoral-con-petro-para-2027/",
-      "fecha": "2026-11-09T22:06:17+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "bb0f67731da96281",
-      "titulo": "SIC archiva investigación a Ecopetrol y Helistar por contratación de helicópteros: hubo falta de pruebas",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/gobierno/sic-archiva-investigacion-a-ecopetrol-y-helistar-para-contratacion-de-helicopteros-por-falta-de-pruebas-506017",
-      "fecha": "2026-11-09T21:59:35+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "0f375a1c6e53b426",
-      "titulo": "Anthropic acaba de lanzar sus dos modelos de IA más avanzados. Uno tendrá acceso general y el otro estará restringido",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/robotica-e-ia/anthropic-acaba-lanzar-sus-dos-modelos-ia-avanzados-uno-tendra-acceso-general-otro-estara-restringido",
-      "fecha": "2026-11-09T21:57:57+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "8490f7d617d943e3",
-      "titulo": "La investigación contra Álvaro Uribe por las masacres del Aro, la Granja y el asesinato de Jesús María Valle se queda en la Fiscalía",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/america-colombia/2026-11-09/la-investigacion-contra-alvaro-uribe-por-las-masacres-del-aro-la-granja-y-el-asesinato-de-jesus-maria-valle-se-queda-en-la-fiscalia.html",
-      "fecha": "2026-11-09T21:53:45+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "01c349e14f78aa40",
-      "titulo": "Terminó la zozobra: en libertad la joven Valeria Daza tras permanecer secuestrada durante 68 días en el Cauca",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/cali/termino-la-zozobra-en-libertad-la-joven-valeria-daza-tras-permanecer-secuestrada-durante-68-dias-en-el-cauca-3599715",
-      "fecha": "2026-11-09T21:52:27+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "e96dc21cf3a1fb21",
-      "titulo": "Los emprendimientos están de moda en las Fiestas de la Independencia de Cartagena y la identidad se impone en las calles",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/los-emprendimientos-estan-de-moda-en-las-fiestas-de-la-independencia-de-cartagena-y-la-identidad-se-impone-en-las-calles-3599718",
-      "fecha": "2026-11-09T21:51:07+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "90e00bc53e8514d4",
-      "titulo": "Ajuste fiscal y deuda pública centraron la discusión en el primer día del Congreso de Asofiduciarias",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/finanzas/ajuste-fiscal-y-deuda-publica-centraron-la-discusion-en-el-congreso-de-asofiduciarias-4520815",
-      "fecha": "2026-11-09T21:44:08+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "dc2902231ed4b06e",
-      "titulo": "Las bolsas europeas suben gracias al avance de los sectores bancario y tecnológico",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/las-bolsas-europeas-suben-gracias-al-avance-de-los-sectores-bancario-y-tecnologico-4520568",
-      "fecha": "2026-11-09T21:38:43+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "629b6c24c4152f1c",
-      "titulo": "Le ponen la lupa a millonario contrato en una vía en Santander por presuntas irregularidades: se trata del proyecto Duitama–Charalá–San Gil",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/santander/le-ponen-la-lupa-a-millonario-contrato-en-una-via-en-santander-por-presuntas-irregularidades-se-trata-del-proyecto-duitama-charala-san-gil-3599714",
-      "fecha": "2026-11-09T21:37:36+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "e656a1d5f79cdcc0",
-      "titulo": "Condenan a más de 10 años de prisión al actor y comediante británico Russell Brand por delitos sexuales",
-      "categoria": "Internacional",
-      "fuente": "BBC Mundo",
-      "url": "https://www.bbc.com/mundo/articles/cj04045nr506o?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-09T21:35:55+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "3954c1ea91898183",
-      "titulo": "Museo interactivo en un cementerio de Cali: todo lo que debe saber",
-      "categoria": "Cali",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/vida-moderna/turismo/museo-interactivo-cementerio-de-cali-09-11-2026/",
-      "fecha": "2026-11-09T21:31:26+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "1be35648b2a62975",
-      "titulo": "Uribe respondió a propuesta de Petro sobre una posible alianza política",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/noticias/uribe-respondio-a-propuesta-de-petro-sobre-una-posible-alianza-politica/",
-      "fecha": "2026-11-09T21:30:28+00:00",
-      "imagen": ""
     }
   ],
   "estado_fuentes": [
@@ -553,7 +553,7 @@
       "nombre": "El Tiempo Cali",
       "url": "https://www.eltiempo.com/rss/colombia_cali.xml",
       "estado": "correcto",
-      "titulares": 8
+      "titulares": 7
     },
     {
       "nombre": "El Espectador",
@@ -590,7 +590,7 @@
       "nombre": "BBC Mundo",
       "url": "https://feeds.bbci.co.uk/mundo/rss.xml",
       "estado": "correcto",
-      "titulares": 24
+      "titulares": 25
     },
     {
       "nombre": "DW Español",
@@ -650,7 +650,7 @@
       "nombre": "El Colombiano — Colombia",
       "url": "https://www.elcolombiano.com/rss/Colombia.xml",
       "estado": "correcto",
-      "titulares": 32
+      "titulares": 31
     },
     {
       "nombre": "El Diario — Pereira",
