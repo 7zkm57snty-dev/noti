@@ -1,13 +1,31 @@
 {
-  "ultima_actualizacion": "2026-11-10T03:57:48.811671+00:00",
+  "ultima_actualizacion": "2026-11-10T05:00:24.024035+00:00",
   "titulares_rss": [
     {
-      "id": "7d1f1ed54126b26e",
-      "titulo": "Chocó, un día como hoy… 10 de noviembre",
+      "id": "c2611aa250863b7c",
+      "titulo": "3,130 veces gracias",
       "categoria": "Colombia",
-      "fuente": "Chocó 7 días",
-      "url": "https://choco7dias.com/choco-un-dia-como-hoy-10-de-noviembre/",
-      "fecha": "2026-11-10T03:45:29+00:00",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/opinion/de-la-direccion/3130-veces-gracias/",
+      "fecha": "2026-11-10T04:59:29+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "3fcd43038f5a49ff",
+      "titulo": "Australia: aerolínea Qantas despedirá a 850 empleados",
+      "categoria": "Internacional",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/australia-aerolínea-qantas-despedirá-a-850-empleados/a-79906001?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-10T04:16:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "5c9b5952c4e1e489",
+      "titulo": "\"Es insostenible\": El Hierro, la isla de 12.000 habitantes en Canarias a la que han llegado 8.000 migrantes en barca en las últimas 5 semanas",
+      "categoria": "Internacional",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/c5vgjg9dvjgzo?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-10T04:04:55+00:00",
       "imagen": ""
     },
     {
@@ -174,7 +192,7 @@
     },
     {
       "id": "5d537d9a3ba7102d",
-      "titulo": "SIC archivó investigación contra Ecopetrol y Helistar por contratos aéreos",
+      "titulo": "La SIC archivó la investigación contra Ecopetrol y Helistar por los varios contratos aéreos",
       "categoria": "Colombia",
       "fuente": "La República",
       "url": "https://www.larepublica.co/economia/sic-archivo-investigacion-contra-ecopetrol-y-helistar-por-contratos-aereos-4521022",
@@ -522,24 +540,6 @@
       "url": "https://www.bbc.com/mundo/articles/cm62y2l3eng1o?at_medium=RSS&at_campaign=rss",
       "fecha": "2026-11-09T22:46:51+00:00",
       "imagen": ""
-    },
-    {
-      "id": "8ca7b3faed6f91ad",
-      "titulo": "Inflación anual en Colombia sigue al alza y llega al 6,30 % en octubre",
-      "categoria": "Economía",
-      "fuente": "La FM Economía",
-      "url": "https://www.lafm.com.co/economia/inflacion-en-colombia-subio-al-6-30-por-ciento-anual-en-octubre-de-2026-416659",
-      "fecha": "2026-11-09T22:43:01+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "ccf5e10c8db2dd72",
-      "titulo": "Gadi Eisenkot recibe el mandato para formar gobierno en Israel ¿Este seria el fin del sistema de Netanyahu?",
-      "categoria": "Colombia",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/gobierno/gadi-eisenkot-recibe-el-mandato-para-formar-gobierno-en-israel-este-seria-el-fin-del-sistema-de-netanyahu-506015",
-      "fecha": "2026-11-09T22:41:43+00:00",
-      "imagen": ""
     }
   ],
   "estado_fuentes": [
@@ -590,7 +590,7 @@
       "nombre": "BBC Mundo",
       "url": "https://feeds.bbci.co.uk/mundo/rss.xml",
       "estado": "correcto",
-      "titulares": 25
+      "titulares": 24
     },
     {
       "nombre": "DW Español",
@@ -620,7 +620,7 @@
       "nombre": "La FM Deportes",
       "url": "https://www.lafm.com.co/rss/deportes.xml",
       "estado": "correcto",
-      "titulares": 15
+      "titulares": 14
     },
     {
       "nombre": "La FM Economía",
@@ -662,13 +662,13 @@
       "nombre": "Chocó 7 días",
       "url": "https://choco7dias.com/feed/",
       "estado": "correcto",
-      "titulares": 10
+      "titulares": 9
     },
     {
       "nombre": "La Patria — Caldas",
       "url": "https://www.lapatria.com/rss.xml",
       "estado": "correcto",
-      "titulares": 8
+      "titulares": 6
     }
   ]
 }
