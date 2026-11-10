@@ -1,13 +1,247 @@
 {
-  "ultima_actualizacion": "2026-11-10T20:53:50.634775+00:00",
+  "ultima_actualizacion": "2026-11-10T21:49:10.669288+00:00",
   "titulares_rss": [
     {
-      "id": "b925740fb0f4de46",
-      "titulo": "Santos critica a De la Espriella por “pasearse entre cadáveres” con “orgullo” y “firmar bombas”",
+      "id": "3a1c4c1b4eacdf7c",
+      "titulo": "Documental ‘Bojayá: La verdad desde adentro’",
+      "categoria": "Colombia",
+      "fuente": "Chocó 7 días",
+      "url": "https://choco7dias.com/documental-bojaya-la-verdad-desde-adentro/",
+      "fecha": "2026-11-10T21:47:05+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "2596d948f0779ecd",
+      "titulo": "Aseguradoras realizaron un desembolso de $1,43 billones para siniestros por el sismo",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/finanzas/las-aseguradoras-realizaron-un-desembolso-de-1-43-billones-para-siniestros-por-el-sismo-4521577",
+      "fecha": "2026-11-10T21:40:23+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "ecdadf9408f14db9",
+      "titulo": "Una luz de esperanza para Constanza Bahamón que no puede caminar tras el sismo: la Alcaldía de Cali y SuperGIROS dieron un auxilio por perder su hogar",
+      "categoria": "Cali",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/cali/una-luz-de-esperanza-para-constanza-bahamon-que-no-puede-caminar-tras-el-sismo-la-alcaldia-de-cali-gestiono-entrega-del-dinero-por-perder-su-hogar-3599987",
+      "fecha": "2026-11-10T21:40:03+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "9df8db7c5f04025e",
+      "titulo": "Incautan cerca de cuatro toneladas de marihuana en el Cauca",
+      "categoria": "Colombia",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/colombia/policia-nacional-incauta-cuatro-toneladas-de-marihuana/",
+      "fecha": "2026-11-10T21:39:29+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "357c3621f7c0ea6c",
+      "titulo": "California vota en contra de impuesto de 5% a la riqueza de multimillonarios",
+      "categoria": "Cali",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/globoeconomia/california-vota-en-contra-de-impuesto-de-5-a-la-riqueza-de-multimillonarios-4521780",
+      "fecha": "2026-11-10T21:38:06+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "346c57db16e39f2d",
+      "titulo": "Black Friday 2026 en Colombia: qué es y cuándo será",
+      "categoria": "Colombia",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/vida-moderna/black-friday-2026-en-colombia-que-es-y-cuando-sera-10-11-2026/",
+      "fecha": "2026-11-10T21:36:53+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "f3fb8603e117fb88",
+      "titulo": "Investigan muerte de una mujer en Candelaria",
+      "categoria": "Colombia",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/colombia/villagorgona-investigan-homicidio-de-mujer-en-patio-verde/",
+      "fecha": "2026-11-10T21:32:42+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "e548be62d6403556",
+      "titulo": "Tren en Putumayo será el único proyecto para la Amazonía en la Milagro Week",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/silla-amazonia/amazonia-en-breve/tren-en-putumayo-sera-el-unico-proyecto-para-la-amazonia-en-la-milagro-week/",
+      "fecha": "2026-11-10T21:32:19+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "7657b498730f39a3",
+      "titulo": "El Bulevar de Oriente se viste de arte, tejido y bienestar",
+      "categoria": "Colombia",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/cali/bulevar-de-oriente-cielo-tejido-festival-cali-beat-2026/",
+      "fecha": "2026-11-10T21:31:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "4d9ffa2a6b2221ce",
+      "titulo": "Bancolombia plantea un aumento del 8,4 % para el salario mínimo de 2027",
+      "categoria": "Economía",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/noticias/bancolombia-plantea-un-aumento-del-84-para-el-salario-minimo-de-2027/",
+      "fecha": "2026-11-10T21:30:51+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "1f101cff89bacb2b",
+      "titulo": "Por IVA a canasta familiar, a los godos tampoco les gusta la tributaria",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/en-vivo/por-iva-a-canasta-familiar-a-los-godos-tampoco-les-gusta-la-tributaria/",
+      "fecha": "2026-11-10T21:26:49+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "11dd4c6e7340a384",
+      "titulo": "Vía Buga-Buenaventura: arrancan obras en los 21 frentes y ya hay fecha para terminar el corredor",
+      "categoria": "Valle del Cauca",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/infraestructura/via-buga-buenaventura-arrancan-obras-en-los-21-frentes-y-ya-hay-fecha-para-terminar-el-corredor-506089",
+      "fecha": "2026-11-10T21:20:46+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "23713c01ab0a4d24",
+      "titulo": "Narcotráfico, despojo y resistencia: el pulso oculto detrás de la entrega del predio La Antigua, ocupado por familiares de un capo antioqueño",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/medellin/narcotrafico-despojo-y-resistencia-el-pulso-oculto-detras-de-la-entrega-del-predio-la-antigua-ocupado-por-familiares-de-un-capo-antioqueno-3599984",
+      "fecha": "2026-11-10T21:20:11+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "012193e58951be5f",
+      "titulo": "Abelardo De La Espriella felicitó a Luz Stella Murgas en la Andi y pide un sector empresarial fuerte para el país",
+      "categoria": "Economía",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/gobierno/abelardo-de-la-espriella-felicito-a-luz-stella-murgas-en-la-andi-y-pide-un-sector-empresarial-fuerte-para-el-pais-506091",
+      "fecha": "2026-11-10T21:19:27+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "90cc6b9b268dda07",
+      "titulo": "Presidente De La Espriella y vicepresidente Restrepo felicitan a Luz Stella Murgas, nueva presidenta de la ANDI",
+      "categoria": "Colombia",
+      "fuente": "La FM Economía",
+      "url": "https://www.lafm.com.co/economia/presidente-de-la-espriella-vicepresidente-restrepo-felicitan-luz-stella-murgas-andi-416768",
+      "fecha": "2026-11-10T21:15:50+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "ccafb5c5284e4aa9",
+      "titulo": "Tres meses del terremoto… ¿Qué dice Ventana?… Lea",
+      "categoria": "Colombia",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/opinion/ventana/columnas-de-opinion-en-cali-ventana-chiminangos-2-terremoto-2026/",
+      "fecha": "2026-11-10T21:13:27+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "7c9026e89eedfabe",
+      "titulo": "Pico y placa miércoles 11 de noviembre: programe sus rutas",
+      "categoria": "Valle del Cauca",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/cali/pico-y-placa-miercoles-11-noviembre-10-11-2026/",
+      "fecha": "2026-11-10T21:12:04+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "d0e3be535149b103",
+      "titulo": "Así puede acceder a las 20.000 vacantes de la Empleatón Nacional 2026 con elempleo y ACOSET",
+      "categoria": "Economía",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/finanzas/asi-puede-acceder-a-las-20-000-vacantes-de-la-empleaton-nacional-2026-con-elempleo-y-acoset-506088",
+      "fecha": "2026-11-10T21:10:54+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "f5e6722d4ff7f83e",
+      "titulo": "Explosión en polvorería en Caldas, Antioquia, deja dos personas muertas: autoridades investigan las causas de la emergencia",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/medellin/explosion-en-polvoreria-en-caldas-antioquia-deja-dos-personas-muertas-autoridades-investigan-las-causas-de-la-emergencia-3599982",
+      "fecha": "2026-11-10T21:07:45+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "248fecd7a4d60b74",
+      "titulo": "Gobernación del Valle llama a mantener la solidaridad",
+      "categoria": "Colombia",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/regionales/valle-del-cauca/gobernacion-del-valle-del-cauca-pide-donaciones-tras-sismo/",
+      "fecha": "2026-11-10T21:05:08+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "567c5ff2e0de952c",
+      "titulo": "Corte Constitucional fija ruta al Gobierno para fortalecer la implementación del Acuerdo de Paz: ¿de qué se trata?",
       "categoria": "Colombia",
       "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/santos-critica-de-la-espriella-pasearse-cadaveres-orgullo-firmar-bombas-BC43418911",
-      "fecha": "2026-11-10T20:49:03+00:00",
+      "url": "https://www.elcolombiano.com/colombia/implementacion-acuerdo-paz-corte-constitucional-hace-recomendaciones-y-da-indicaciones-IB43422758",
+      "fecha": "2026-11-10T21:02:18+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "893224a9740b3957",
+      "titulo": "Conversaciones entre Rusia y Ucrania en Abu Dabi: ¿se producirá un avance decisivo?",
+      "categoria": "Internacional",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/conversaciones-entre-rusia-y-ucrania-en-abu-dabi-¿se-producirá-un-avance-decisivo/a-79910461?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-10T21:02:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "12e4a5b7a14b531a",
+      "titulo": "Video atribuido a Petro con Deicy Jiménez genera reacciones y memes en redes sociales",
+      "categoria": "Tendencias",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/actualidad/tendencia/video-atribuido-a-petro-con-deicy-jimenez-genera-reacciones-y-memes-en-redes-sociales/",
+      "fecha": "2026-11-10T21:00:09+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "6993de57b596240a",
+      "titulo": "¿“No es un modelo para el mundo”? Medir el Acuerdo de Paz solo por la violencia es un error",
+      "categoria": "Internacional",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/red-de-expertos/red-de-la-paz/no-es-un-modelo-para-el-mundo-medir-el-acuerdo-de-paz-solo-por-la-violencia-es-un-error/",
+      "fecha": "2026-11-10T21:00:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "0ee5a4b950ed42c8",
+      "titulo": "PND plantea llevar el crecimiento económico a 6% y la inversión a 25% del PIB",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/economia/pnd-plantea-llevar-el-crecimiento-economico-a-6-anual-y-la-inversion-a-25-del-pib-4521690",
+      "fecha": "2026-11-10T20:58:07+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "49d27108de212519",
+      "titulo": "¿Remará Australia en contra de los combustibles fósiles en la COP31?",
+      "categoria": "Internacional",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/¿remará-australia-en-contra-de-los-combustibles-fósiles-en-la-cop31/a-79912484?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-10T20:58:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "8a7549de808cc124",
+      "titulo": "Leonardo Guevara: el empresario que convirtió un error de construcción en su mejor negocio",
+      "categoria": "Colombia",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/uncategorized/leonardo-guevara-del-espectaculo-al-exito-del-hotel-9-5/",
+      "fecha": "2026-11-10T20:56:42+00:00",
       "imagen": ""
     },
     {
@@ -29,6 +263,15 @@
       "imagen": ""
     },
     {
+      "id": "c3d306c2893dfe04",
+      "titulo": "¿Qué pasó con el dinero de Ueno Bank en Paraguay y cuánto falta recuperar?",
+      "categoria": "Internacional",
+      "fuente": "La FM Internacional",
+      "url": "https://www.lafm.com.co/internacional/que-paso-dinero-ueno-bank-paraguay-cuanto-falta-recuperar-416769",
+      "fecha": "2026-11-10T20:45:40+00:00",
+      "imagen": ""
+    },
+    {
       "id": "44272cfbe9b70c26",
       "titulo": "Zelenski califica de “constructiva” primera ronda de conversaciones con Rusia",
       "categoria": "Cali",
@@ -44,6 +287,15 @@
       "fuente": "El País Colombia",
       "url": "https://elpais.com/argentina/2026-11-10/la-visita-del-papa-leon-xiv-en-argentina-en-vivo.html",
       "fecha": "2026-11-10T20:43:22+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "e825ad8855e5333c",
+      "titulo": "CNE asignó $38.036 millones a partidos políticos para 2026: cinco organizaciones concentran el 60,1%",
+      "categoria": "Economía",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/gobierno/cne-asigno-38-036-millones-a-partidos-politicos-para-2026-cinco-organizaciones-concentran-el-60-506085",
+      "fecha": "2026-11-10T20:38:45+00:00",
       "imagen": ""
     },
     {
@@ -110,6 +362,15 @@
       "imagen": ""
     },
     {
+      "id": "1b49234b34ef1773",
+      "titulo": "Boom, con amor",
+      "categoria": "Colombia",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/opinion/columnistas/boom-con-amor/",
+      "fecha": "2026-11-10T20:18:15+00:00",
+      "imagen": ""
+    },
+    {
       "id": "943fbbbeb2cad0b3",
       "titulo": "Congreso designó primeros ponentes de la reforma tributaria de De la Espriella",
       "categoria": "Colombia",
@@ -161,6 +422,15 @@
       "fuente": "Xataka",
       "url": "https://www.xataka.com/servicios/espana-llega-tarde-al-dab-llega-estandar-digital-radio-que-europa-lleva-usando-decada-empieza-su-despliegue",
       "fecha": "2026-11-10T20:01:49+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "fad22d3dc94e1055",
+      "titulo": "El respeto no puede quedarse en palabras",
+      "categoria": "Colombia",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/opinion/columnistas/el-respeto-no-puede-quedarse-en-palabras/",
+      "fecha": "2026-11-10T19:54:36+00:00",
       "imagen": ""
     },
     {
@@ -218,6 +488,15 @@
       "imagen": ""
     },
     {
+      "id": "a8b1b5814f28cf9d",
+      "titulo": "Universidades australianas y ChatGPT en la educación",
+      "categoria": "Colombia",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/secciones/tecnologia/universidades-australianas-chatgpt-educacion/",
+      "fecha": "2026-11-10T19:30:00+00:00",
+      "imagen": ""
+    },
+    {
       "id": "0f3bf5c6a3f40a7d",
       "titulo": "Cinco EPS concentran millonarias deudas con hospitales y clínicas en Colombia",
       "categoria": "Colombia",
@@ -261,285 +540,6 @@
       "url": "https://www.larepublica.co/finanzas/multiples-usuarios-reportan-caida-en-los-servicios-de-davibank-4521568",
       "fecha": "2026-11-10T19:22:14+00:00",
       "imagen": ""
-    },
-    {
-      "id": "09153e91358a51d7",
-      "titulo": "Cundinamarca recibió 9 galardones internacionales por innovación en comunicación política",
-      "categoria": "Internacional",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/cundinamarca-recibio-9-galardones-internacionales-por-innovacion-en-comunicacion-politica-3599951",
-      "fecha": "2026-11-10T19:21:58+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "4c04fc1a10968a34",
-      "titulo": "Abelardo se viste de camuflado para recibir a capturados tras bombardeo",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/en-vivo/abelardo-se-viste-de-camuflado-para-recibir-a-capturados-tras-bombardeo/",
-      "fecha": "2026-11-10T19:19:21+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "38b33a990add5f3f",
-      "titulo": "Aplazan la implosión del edificio Invico en Pereira por ajustes técnicos",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/actualidad/aplazan-la-implosion-del-edificio-invico-en-pereira-por-ajustes-tecnicos/",
-      "fecha": "2026-11-10T19:18:15+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "ea2ed0ab96ddb41a",
-      "titulo": "Video | Toros del Valle y la búsqueda del bicampeonato; están en la final",
-      "categoria": "Valle del Cauca",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/deportes/video-toros-del-valle-baloncesto-bicampeonato-10-11-2026/",
-      "fecha": "2026-11-10T19:17:52+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "1b5fb5b433bac79c",
-      "titulo": "Colpensiones recaudó $2,02 billones y garantiza pago a cerca de 1.952.368 pensionados",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/finanzas/colpensiones-recaudo-2-02-billones-y-garantiza-pago-a-cerca-de-1-952-368-pensionados-4521526",
-      "fecha": "2026-11-10T19:17:45+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "b66f46c5adc53131",
-      "titulo": "¿Ryan Castro, J Balvin y DJ Pope comprarían al Medellín? Esto se sabe",
-      "categoria": "Deportes",
-      "fuente": "La FM Deportes",
-      "url": "https://www.lafm.com.co/deportes/liga-betplay-compra-dim-ryan-castro-j-balvin-esto-se-sabe-416759",
-      "fecha": "2026-11-10T19:14:58+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "eccd9d4459944600",
-      "titulo": "Edificio Marisol rinde homenaje a víctimas y rescatistas del terremoto",
-      "categoria": "Valle del Cauca",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/cali/edificio-marisol-rinde-homenaje-victimas-terremoto-10-11-2026/",
-      "fecha": "2026-11-10T19:11:02+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "e828957acf763a8b",
-      "titulo": "Madrid se está convirtiendo en el nuevo Los Ángeles y por el camino se ha quedado con sus atascos permanentes",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/movilidad/madrid-se-esta-convirtiendo-nuevo-angeles-camino-se-ha-quedado-sus-atascos-permanentes",
-      "fecha": "2026-11-10T19:01:49+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "4c96f937609ed51f",
-      "titulo": "Luz Stella Murgas es la nueva presidenta de la Andi",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/en-vivo/luz-stella-murgas-es-la-nueva-presidenta-de-la-andi/",
-      "fecha": "2026-11-10T19:00:59+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "687f0cc9c600276a",
-      "titulo": "Ley de Rescate Económico de Abelardo de la Espriella comienza su trámite en el Congreso: Barguil y Farelo serán ponentes",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/noticias/ley-de-rescate-economico-de-abelardo-de-la-espriella-comienza-su-tramite-en-el-congreso-barguil-y-farelo-seran-ponentes/",
-      "fecha": "2026-11-10T19:00:34+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "e9881084bd63dbf9",
-      "titulo": "ACS compra Voltan para reforzar sus capacidades industriales y energéticas",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/acs-compra-voltan-para-reforzar-sus-capacidades-industriales-y-energeticas-4521585",
-      "fecha": "2026-11-10T18:59:17+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "d072d29e94657f29",
-      "titulo": "Independencia de Cartagena: ¿qué pasó el 11 de noviembre de 1811?",
-      "categoria": "Valle del Cauca",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/vida-moderna/cultura/independencia-de-cartagena-10-11-2026/",
-      "fecha": "2026-11-10T18:59:14+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "1d722a5892d64dca",
-      "titulo": "Última fecha de la Liga BetPlay 2026-II: estas son las cuentas para llegar a cuadrangulares",
-      "categoria": "Deportes",
-      "fuente": "La FM Deportes",
-      "url": "https://www.lafm.com.co/deportes/liga-betplay-2026-ultima-fecha-cuentas-para-llegar-a-cuadrangulares-416745",
-      "fecha": "2026-11-10T18:54:57+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "61e91b77598c57e8",
-      "titulo": "Andrés Cepeda en Cali 2027: conozca la fecha de inicio de venta de boletería",
-      "categoria": "Cali",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/entretenimiento/andres-cepeda-cali-2027-10-11-2026/",
-      "fecha": "2026-11-10T18:54:14+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "07dda4cf4b39d895",
-      "titulo": "Así reaccionó Juan Camilo Nariño a la elección de Luz Stella Murgas en la Andi: “Cuenta con toda mi disposición para trabajar juntos”",
-      "categoria": "Economía",
-      "fuente": "La FM Economía",
-      "url": "https://www.lafm.com.co/economia/juan-camilo-narino-reaccion-eleccion-luz-stella-murgas-andi-416755",
-      "fecha": "2026-11-10T18:53:40+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "aee5cb2adaec637b",
-      "titulo": "De Naturgas al Gobierno, así reaccionaron a la elección de Luz Stella Murgas como presidenta de la ANDI",
-      "categoria": "Colombia",
-      "fuente": "La FM Economía",
-      "url": "https://www.lafm.com.co/economia/luz-stella-murgas-andi-reacciones-a-su-eleccion-416754",
-      "fecha": "2026-11-10T18:52:48+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "eebfde98d87cf6a1",
-      "titulo": "Camioneros bloquean rutas en Chile en protesta por alza de combustible",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/camioneros-bloquean-rutas-en-chile-en-protesta-por-alza-de-combustible-4521566",
-      "fecha": "2026-11-10T18:48:45+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "51502432868e957b",
-      "titulo": "El Black Friday de PcComponentes ya ha empezado con descuentos de hasta el 60 % en portátiles, móviles, videojuegos y más",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/seleccion/black-friday-pccomponentes-ha-empezado-descuentos-60-portatiles-moviles-videojuegos",
-      "fecha": "2026-11-10T18:45:50+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "a7d5154dae7db266",
-      "titulo": "El DIRECTV Open reunirá en Colombia a figuras del tenis internacional y DSPORTS transmitirá las finales para Latinoamérica",
-      "categoria": "Deportes",
-      "fuente": "La FM Deportes",
-      "url": "https://www.lafm.com.co/deportes/directv-open-reunira-en-colombia-a-figuras-del-tenis-internacional-416753",
-      "fecha": "2026-11-10T18:42:37+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "7c7a56f969482942",
-      "titulo": "Precios del gas en Europa: el rol Alemania y sus reservas",
-      "categoria": "Internacional",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/precios-del-gas-en-europa-el-rol-alemania-y-sus-reservas/a-79912603?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-10T18:36:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "19dd52b78b8796f4",
-      "titulo": "Dos adultos mayores tienen miedo por el tejado colapsado y aún esperan ayudas en Cali: 'Vivo con el casco puesto por si me caen más pedazos del techo'",
-      "categoria": "Cali",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/cali/la-dura-realidad-de-dos-adultos-mayores-damnificados-por-el-terremoto-en-cali-su-casa-tiene-rotulo-rojo-por-el-colapso-del-techo-y-aun-esperan-ayudas-3599924",
-      "fecha": "2026-11-10T18:35:25+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "e996bf15d3163972",
-      "titulo": "Nvidia pierde más de 400.000 millones de dólares en bolsa tras el escándalo de su CEO",
-      "categoria": "Economía",
-      "fuente": "La FM Internacional",
-      "url": "https://www.lafm.com.co/internacional/nvidia-pierde-mas-400000-millones-dolares-bolsa-escandalo-ceo-416751",
-      "fecha": "2026-11-10T18:34:55+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "be9c37cf7702712a",
-      "titulo": "Elon Musk recibe otra propuesta desde Colombia: La Guajira ofrece a Puerto Bolívar para ser base de SpaceX",
-      "categoria": "Colombia",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/regiones/otro-ofrecimiento-para-spacex-en-colombia-la-guajira-propone-puerto-bolivar-y-se-suma-a-antioquia-con-el-uraba-506064",
-      "fecha": "2026-11-10T18:26:49+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "755237135adaea66",
-      "titulo": "\"La JEP está en fase de ir entregando resultados\": Danilo Rojas",
-      "categoria": "Colombia",
-      "fuente": "La FM Actualidad",
-      "url": "https://www.lafm.com.co/actualidad/nuevo-presidente-de-la-jep-afirma-que-deben-entregarse-resultados-416747",
-      "fecha": "2026-11-10T18:25:57+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "b087d42b96795efb",
-      "titulo": "Luz Stella Murgas se convierte en la primera mujer en presidir la Andi en más de 80 años",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/empresas/humo-blanco-en-la-andi-luz-stella-murgas-fue-elegida-para-presidir-la-asociacion-4521528",
-      "fecha": "2026-11-10T18:24:15+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "4b25aa8702f2443d",
-      "titulo": "31 militares presos en Venezuela se declaran en huelga de hambre",
-      "categoria": "Internacional",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/america/2026-11-10/31-militares-presos-en-venezuela-se-declaran-en-huelga-de-hambre.html",
-      "fecha": "2026-11-10T18:21:36+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "49d27108de212519",
-      "titulo": "¿Remará Australia en contra de los combustibles fósiles en la COP31?",
-      "categoria": "Internacional",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/¿remará-australia-en-contra-de-los-combustibles-fósiles-en-la-cop31/a-79912484?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-10T18:20:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "e1bf024e34694511",
-      "titulo": "Esto es lo que prevé recaudar Anthropic en su debut en Wall Street",
-      "categoria": "Internacional",
-      "fuente": "La FM Internacional",
-      "url": "https://www.lafm.com.co/internacional/esto-preve-recaudar-anthropic-debut-wall-street-416746",
-      "fecha": "2026-11-10T18:19:08+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "3ac7d433e66bfbf9",
-      "titulo": "Abelardo de la Espriella declaró insubsistente a Elizabeth Blandón, directora del Icfes",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/economia/abelardo-de-la-espriella-declaro-insubsistente-a-elizabeth-blandon-directora-del-icfes-4521481",
-      "fecha": "2026-11-10T18:15:25+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "5a8cd27593ff3723",
-      "titulo": "Entre populismo y ajuste fiscal, The Economist analizó los primeros 100 días De la Espriella",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/economia/entre-el-populismo-y-el-ajuste-fiscal-the-economist-analiza-primeros-dias-de-la-espriella-4521490",
-      "fecha": "2026-11-10T18:11:57+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "a8fe7376b734d857",
-      "titulo": "La Defensoría alerta sobre las fallas del Gobierno para atender a los damnificados del terremoto en Colombia",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/america-colombia/2026-11-10/la-defensoria-alerta-sobre-las-fallas-del-gobierno-para-atender-a-los-damnificados-del-terremoto.html",
-      "fecha": "2026-11-10T18:09:55+00:00",
-      "imagen": ""
     }
   ],
   "estado_fuentes": [
@@ -553,7 +553,7 @@
       "nombre": "El Tiempo Cali",
       "url": "https://www.eltiempo.com/rss/colombia_cali.xml",
       "estado": "correcto",
-      "titulares": 9
+      "titulares": 8
     },
     {
       "nombre": "El Espectador",
@@ -620,7 +620,7 @@
       "nombre": "La FM Deportes",
       "url": "https://www.lafm.com.co/rss/deportes.xml",
       "estado": "correcto",
-      "titulares": 18
+      "titulares": 17
     },
     {
       "nombre": "La FM Economía",
@@ -662,7 +662,7 @@
       "nombre": "Chocó 7 días",
       "url": "https://choco7dias.com/feed/",
       "estado": "correcto",
-      "titulares": 9
+      "titulares": 10
     },
     {
       "nombre": "La Patria — Caldas",
