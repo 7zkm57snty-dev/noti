@@ -1,6 +1,114 @@
 {
-  "ultima_actualizacion": "2026-11-11T09:04:01.667158+00:00",
+  "ultima_actualizacion": "2026-11-11T10:07:02.516045+00:00",
   "titulares_rss": [
+    {
+      "id": "f2ead4426229815a",
+      "titulo": "Sanitas anuncia medidas para normalizar entrega de medicamentos tras intervención de la Supersalud",
+      "categoria": "Colombia",
+      "fuente": "La FM Actualidad",
+      "url": "https://www.lafm.com.co/actualidad/sanitas-responde-ante-requerimiento-de-supersalud-416817",
+      "fecha": "2026-11-11T10:00:13+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "a8c3a91219e719b8",
+      "titulo": "España se paraliza: huelga general por vivienda y salarios",
+      "categoria": "Internacional",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/españa-se-paraliza-huelga-general-por-vivienda-y-salarios/a-79916308?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-11T09:52:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "ddd2006b60cbd270",
+      "titulo": "El Single's Day de MediaMarkt acaba en menos de 24 horas: cinco de sus mejores ofertas en teles, portátiles, móviles y más",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/seleccion/single-s-day-mediamarkt-acaba-24-horas-cinco-sus-mejores-ofertas-teles-portatiles-moviles",
+      "fecha": "2026-11-11T09:45:49+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "4159aa30cc14227e",
+      "titulo": "Nueva tensión: Rusia dice haber capturado a dos espías polacos",
+      "categoria": "Internacional",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/nueva-tensión-rusia-dice-haber-capturado-a-dos-espías-polacos/a-79916062?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-11T09:31:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "2a5aca701133bd09",
+      "titulo": "La nueva presidenta de la ANDI enfrenta el reto de mejorar la relación con el Gobierno sin perder su independencia",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/america-colombia/2026-11-11/la-nueva-presidenta-de-la-andi-enfrenta-el-reto-de-mejorar-la-relacion-con-el-gobierno-sin-perder-su-independencia.html",
+      "fecha": "2026-11-11T09:30:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "0e7b836187f73ded",
+      "titulo": "La lealtad de Cepeda a Petro frena el relevo en el liderazgo de la izquierda colombiana",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/america-colombia/2026-11-11/la-lealtad-de-cepeda-a-petro-frena-el-relevo-en-el-liderazgo-de-la-izquierda-colombiana.html",
+      "fecha": "2026-11-11T09:30:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "725cd5e40b04a04f",
+      "titulo": "A tres meses del terremoto en Colombia, el Fondo Milagro llega al Congreso sin las cuentas claras",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/america-colombia/2026-11-11/a-tres-meses-del-terremoto-en-colombia-el-fondo-milagro-llega-al-congreso-sin-las-cuentas-claras.html",
+      "fecha": "2026-11-11T09:30:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "2f3adffe7c2f6ff0",
+      "titulo": "¿Qué pasaría en 2028 si Estados Unidos volviera a votar como en las ‘midterms’?",
+      "categoria": "Internacional",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/us/2026-11-11/que-pasaria-en-2028-si-estados-unidos-volviera-a-votar-como-en-las-midterms.html",
+      "fecha": "2026-11-11T09:30:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "7c0f1b044e55b1ce",
+      "titulo": "El auge del revisionismo y el negacionismo frente a la toma del Palacio de Justicia",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/america-colombia/2026-11-11/el-auge-del-revisionismo-y-el-negacionismo-frente-a-la-toma-del-palacio-de-justicia.html",
+      "fecha": "2026-11-11T09:30:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "7fd0c6949338e13b",
+      "titulo": "Formarse como restauradores forestales, la alternativa de una comunidad de La Patagonia para combatir incendios",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/america-futura/2026-11-11/formarse-como-restauradores-forestales-la-alternativa-de-una-comunidad-de-la-patagonia-para-combatir-incendios.html",
+      "fecha": "2026-11-11T09:30:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "7e74548bf76a3041",
+      "titulo": "MediaMarkt tiene a precio de outlet esta tele Hisense con pantalla antirreflejos, hasta 165 Hz y Dolby Vision IQ",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/seleccion/mediamarkt-tiene-a-precio-outlet-esta-tele-hisense-pantalla-antirreflejos-165-hz-dolby-vision-iq",
+      "fecha": "2026-11-11T09:15:49+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "171c5f96b952b6fc",
+      "titulo": "La borrasca Charles pone a España en jaque: un río atmosférico, vientos huracanados y riesgo de deslizamientos de tierra",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/ecologia-y-naturaleza/borrasca-charles-pone-a-espana-jaque-rio-atmosferico-vientos-huracanados-riesgo-deslizamientos-tierra",
+      "fecha": "2026-11-11T09:01:49+00:00",
+      "imagen": ""
+    },
     {
       "id": "ced50f80a3c6dda7",
       "titulo": "Ninja tiene una cafetera superautomática 3 en 1 que ahora puedes comprar con más de 200 euros de descuento",
@@ -92,6 +200,15 @@
       "imagen": ""
     },
     {
+      "id": "8d2065265b339faf",
+      "titulo": "La ventaja estratégica de los chips de Nvidia convirtió a su primer ejecutivo en un objetivo de China",
+      "categoria": "Internacional",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/us/2026-11-11/la-ventaja-estrategica-de-los-chips-de-nvidia-convirtio-a-su-primer-ejecutivo-en-un-objetivo-de-china.html",
+      "fecha": "2026-11-11T05:48:59+00:00",
+      "imagen": ""
+    },
+    {
       "id": "efbf00b6295de715",
       "titulo": "Almuerzo de trabajo",
       "categoria": "Colombia",
@@ -111,7 +228,7 @@
     },
     {
       "id": "61407cee46c0c155",
-      "titulo": "Divorcio del CEO de Nvidia, Jensen Huang, sería el más caro de la historia",
+      "titulo": "Divorcio del CEO de Nvidia, Jensen Huang, se convertiría en el más caro de la historia",
       "categoria": "Colombia",
       "fuente": "La República",
       "url": "https://www.larepublica.co/globoeconomia/divorcio-del-ceo-de-nvidia-jensen-huang-seria-el-mas-caro-de-la-historia-4522035",
@@ -120,8 +237,8 @@
     },
     {
       "id": "057d77399da1b798",
-      "titulo": "Brent en mínimos de US$90 por moderación de tono de Trump sobre Irán",
-      "categoria": "Internacional",
+      "titulo": "Petróleo brent está en mínimos de US$90 por moderación de tono de Trump sobre Irán",
+      "categoria": "Economía",
       "fuente": "La República",
       "url": "https://www.larepublica.co/globoeconomia/brent-en-minimos-de-us-90-por-moderacion-de-tono-de-trump-sobre-iran-4521997",
       "fecha": "2026-11-11T05:03:27+00:00",
@@ -173,17 +290,17 @@
       "imagen": ""
     },
     {
-      "id": "eff0289e63f16344",
+      "id": "00e6e4b5d628e518",
       "titulo": "¿Quién pagará tu pensión?",
       "categoria": "Colombia",
       "fuente": "La República",
-      "url": "https://www.larepublica.co/analisis/jorge-ivan-gomez-531636/quien-pagara-tu-pension-4522039",
+      "url": "https://www.larepublica.co/analisis/jorge-ivan-gomez-osorio-3703399/quien-pagara-tu-pension-4522039",
       "fecha": "2026-11-11T05:02:28+00:00",
       "imagen": ""
     },
     {
       "id": "bd1e4e8ac5044817",
-      "titulo": "Expertos sugieren que es posible extender la vida productiva más allá de los 70 años",
+      "titulo": "Expertos dicen que es posible extender la vida laboral más allá de los 70 años",
       "categoria": "Colombia",
       "fuente": "La República",
       "url": "https://www.larepublica.co/alta-gerencia/expertos-sugieren-que-es-posible-extender-la-vida-productiva-mas-alla-de-los-70-anos-4521715",
@@ -192,8 +309,8 @@
     },
     {
       "id": "cbfdffcead384689",
-      "titulo": "Alza del salario mínimo de 12% sumaría 0,8 puntos porcentuales al IPC",
-      "categoria": "Colombia",
+      "titulo": "Alza del salario mínimo de 12% sumaría 0,8 puntos porcentuales a la inflación",
+      "categoria": "Economía",
       "fuente": "La República",
       "url": "https://www.larepublica.co/economia/alza-del-salario-minimo-de-12-sumaria-0-8-p-p-al-ipc-4522081",
       "fecha": "2026-11-11T05:02:00+00:00",
@@ -201,7 +318,7 @@
     },
     {
       "id": "da60bcfa4c7c6558",
-      "titulo": "Los retos que se le avecinan a Luz Stella Murgas en presidencia de la Andi",
+      "titulo": "Estos son los retos que tendrá Luz Stella Murgas como nueva presidente de la Andi",
       "categoria": "Colombia",
       "fuente": "La República",
       "url": "https://www.larepublica.co/empresas/los-retos-que-se-le-avecinan-a-luz-stella-murgas-en-presidencia-de-la-andi-4521345",
@@ -246,8 +363,8 @@
     },
     {
       "id": "e0d455706fbaa2a4",
-      "titulo": "Aifi26 destacó el potencial de Colombia para transformar la banca con inteligencia artificial",
-      "categoria": "Tecnología",
+      "titulo": "Aifi26 destacó el potencial de Colombia para transformar la banca con IA",
+      "categoria": "Colombia",
       "fuente": "La República",
       "url": "https://www.larepublica.co/ocio/aifi26-destaco-el-potencial-de-colombia-para-transformar-la-banca-con-inteligencia-artificial-4521867",
       "fecha": "2026-11-11T05:01:46+00:00",
@@ -272,20 +389,20 @@
       "imagen": ""
     },
     {
-      "id": "14fab911a933549e",
-      "titulo": "Este es el interés máximo que le pueden cobrar las entidades según el tipo de crédito",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/finanzas/este-es-el-interes-maximo-que-le-pueden-cobrar-segun-el-tipo-de-credito-4521973",
-      "fecha": "2026-11-11T05:01:39+00:00",
-      "imagen": ""
-    },
-    {
       "id": "1381a63d96bade07",
       "titulo": "Indignidad",
       "categoria": "Colombia",
       "fuente": "La República",
       "url": "https://www.larepublica.co/analisis/luis-guillermo-velez-cabrera-402232/indignidad-4521811",
+      "fecha": "2026-11-11T05:01:39+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "14fab911a933549e",
+      "titulo": "Este es el interés máximo que le pueden cobrar las entidades según el tipo de crédito",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/finanzas/este-es-el-interes-maximo-que-le-pueden-cobrar-segun-el-tipo-de-credito-4521973",
       "fecha": "2026-11-11T05:01:39+00:00",
       "imagen": ""
     },
@@ -422,123 +539,6 @@
       "fuente": "El Diario — Pereira",
       "url": "https://www.eldiario.com.co/judicial/salio-por-un-carro-y-desaparecio/",
       "fecha": "2026-11-11T05:00:56+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "7bd2af6a2cdcc50a",
-      "titulo": "Taxista intentó matar a un hombre por una deuda",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/judicial/taxista-intento-matar-a-un-hombre-por-una-deuda/",
-      "fecha": "2026-11-11T05:00:54+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "14448ebe95fa02ad",
-      "titulo": "Teófilo Gutiérrez: el último baile de un genio que nunca pasó inadvertido",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/deportes/teofilo-gutierrez-el-ultimo-baile-de-un-genio-que-nunca-paso-inadvertido/",
-      "fecha": "2026-11-11T05:00:50+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "5b1d4102619e35d0",
-      "titulo": "La ciudad de los escombros",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/opinion/la-ciudad-de-los-escombros/",
-      "fecha": "2026-11-11T05:00:43+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "1eacf268d9c6e222",
-      "titulo": "La paz también se construye con Estado",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/opinion/la-paz-tambien-se-construye-con-estado/",
-      "fecha": "2026-11-11T05:00:42+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "35d644e121ef0bb2",
-      "titulo": "Terminaron en la cárcel por vender droga",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/judicial/terminaron-en-la-carcel-por-vender-droga/",
-      "fecha": "2026-11-11T05:00:32+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "5e5782cefe84cb15",
-      "titulo": "TEMOR A DORMIR DESPUÉS DE UN SISMO",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/opinion/temor-a-dormir-despues-de-un-sismo/",
-      "fecha": "2026-11-11T05:00:29+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "1a13df64f1076d69",
-      "titulo": "Exoneración del Predial 2027: Alivio inmediato",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/opinion/exoneracion-del-predial-2027-alivio-inmediato/",
-      "fecha": "2026-11-11T05:00:16+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "72f771bbc5d572a8",
-      "titulo": "Miscelánea",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/opinion/miscelanea-366/",
-      "fecha": "2026-11-11T05:00:15+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "8a8356300f776a7f",
-      "titulo": "Alexis Márquez reveló el drama del Pereira: “Ya no sabemos si vamos a jugar”",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/deportes/alexis-marquez-revelo-el-drama-del-pereira-ya-no-sabemos-si-vamos-a-jugar/",
-      "fecha": "2026-11-11T05:00:14+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "d603aa5aa1a480a6",
-      "titulo": "Orgullo para la educación rural de Manzanares",
-      "categoria": "Colombia",
-      "fuente": "La Patria — Caldas",
-      "url": "https://www.lapatria.com/galerias/orgullo-para-la-educacion-rural-de-manzanares",
-      "fecha": "2026-11-11T05:00:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "fd48c684e44dfbd6",
-      "titulo": "Primera comunión",
-      "categoria": "Colombia",
-      "fuente": "La Patria — Caldas",
-      "url": "https://www.lapatria.com/galerias/primera-comunion-6",
-      "fecha": "2026-11-11T05:00:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "9b6d1dd0456a3c91",
-      "titulo": "Graduación de la V cohorte de Nido",
-      "categoria": "Colombia",
-      "fuente": "La Patria — Caldas",
-      "url": "https://www.lapatria.com/galerias/graduacion-de-la-v-cohorte-de-nido",
-      "fecha": "2026-11-11T05:00:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "d010cede219e3591",
-      "titulo": "3 claves de la primera huelga general en España en 14 años (y la paradoja de que el gobierno la defienda y la oposición la critique)",
-      "categoria": "Colombia",
-      "fuente": "BBC Mundo",
-      "url": "https://www.bbc.com/mundo/articles/cmlyly7jwq24o?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-11T04:58:21+00:00",
       "imagen": ""
     }
   ],
