@@ -1,6 +1,393 @@
 {
-  "ultima_actualizacion": "2026-11-11T12:02:22.051403+00:00",
+  "ultima_actualizacion": "2026-11-11T13:19:11.417976+00:00",
   "titulares_rss": [
+    {
+      "id": "9f5acd408d69466c",
+      "titulo": "CNE definió la financiación de los partidos políticos para el segundo semestre de 2026",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/noticias/cne-definio-la-financiacion-de-los-partidos-politicos-para-el-segundo-semestre-de-2026/",
+      "fecha": "2026-11-11T13:17:18+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "8aaaa50a87c93a86",
+      "titulo": "El Gobierno alemán aprueba la creación de una reserva nacional de gas",
+      "categoria": "Colombia",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/el-gobierno-alemán-aprueba-la-creación-de-una-reserva-nacional-de-gas/a-79919507?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-11T13:14:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "619fc8ed07fa90d8",
+      "titulo": "Presidente Abelardo de la Espriella rechazó atentado contra sede de RCN en Cali y ordenó capturar a los responsables",
+      "categoria": "Cali",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/noticias/presidente-abelardo-de-la-espriella-rechazo-atentado-contra-sede-de-rcn-en-cali-y-ordeno-capturar-a-los-responsables/",
+      "fecha": "2026-11-11T13:10:02+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "a15b7f643b9211c7",
+      "titulo": "Huelga general 11N y actualidad política, en directo | “Los sindicatos hablan “éxito” y de un seguimiento “muy relevante” de la huelga, mientras que las patronales lo ven “bajo”",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/espana/2026-11-11/ultima-hora-de-la-huelga-general-y-la-actualidad-politica-en-directo.html",
+      "fecha": "2026-11-11T13:09:31+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "3eafe41b6bcf10a6",
+      "titulo": "'Lo que pasa en la calle': Los hechos judiciales de este miércoles, 11 de noviembre",
+      "categoria": "Valle del Cauca",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/judicial/noticias-judiciales-miercoles-11-noviembre-11-11-2026/",
+      "fecha": "2026-11-11T13:09:30+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "73eb503d5d2bd7e7",
+      "titulo": "Alcalde Alejandro Eder rechaza atentado con granada contra la sede de RCN en Cali y anuncia recompensa: 'En Cali no nos van a intimidar'",
+      "categoria": "Cali",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/cali/alcalde-alejandro-eder-rechaza-atentado-con-granada-contra-la-sede-de-rcn-en-cali-y-defiende-la-libertad-de-prensa-en-cali-no-nos-van-a-intimidar-3600110",
+      "fecha": "2026-11-11T13:04:05+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "c755afe3da4daa8d",
+      "titulo": "Los buitres mantienen en su interior bacterias propias de cada especie a pesar de que se alimentan de carroña",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/ecologia-y-naturaleza/buitres-mantienen-su-interior-bacterias-propias-cada-especie-a-pesar-que-se-alimentan-carrona",
+      "fecha": "2026-11-11T13:01:50+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "867eb8b714038d76",
+      "titulo": "Ataque con granada contra sede de RCN en Cali no deja heridos",
+      "categoria": "Cali",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/en-vivo/ataque-con-granada-contra-sede-de-rcn-en-cali-no-deja-heridos/",
+      "fecha": "2026-11-11T13:00:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "eb6818b57eb90765",
+      "titulo": "Quién es la exsecretaria de Educación que queda al frente del Icfes tras salida de Elizabeth Blandón",
+      "categoria": "Economía",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/gobierno/quien-es-la-exsecretaria-de-educacion-que-queda-al-frente-del-icfes-tras-salida-de-elizabeth-blandon-506120",
+      "fecha": "2026-11-11T13:00:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "1b6a5ebf9b954c82",
+      "titulo": "Gobierno de De la Espriella busca cambiar los estratos y el cobro de los servicios públicos",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/economia/gobierno-de-de-la-espriella-busca-cambiar-los-estratos-y-el-cobro-de-los-servicios-publicos-4522289",
+      "fecha": "2026-11-11T12:57:27+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "21a3dae030790a24",
+      "titulo": "Jaime Luis Buitrago, alcalde de Uribia, La Guajira, rompió el silencio tras secuestro de su esposa Nancy Gómez: 'Solicito al presidente su apoyo'",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/jaime-luis-buitrago-alcalde-de-uribia-la-guajira-rompio-el-silencio-tras-secuestro-de-su-esposa-nancy-gomez-solicito-al-presidente-su-apoyo-3600120",
+      "fecha": "2026-11-11T12:57:04+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "ab1d41b9b74dc0d2",
+      "titulo": "Ya no son asientos sino camas: Las nuevas cabinas que prepara Singapore Airlines",
+      "categoria": "Internacional",
+      "fuente": "La FM Internacional",
+      "url": "https://www.lafm.com.co/internacional/singapore-airlines-presenta-nueva-cabina-inversion-millonaria-416833",
+      "fecha": "2026-11-11T12:53:01+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "6860c5195eb8b483",
+      "titulo": "Ideam advierte sobre lluvias en varias zonas del país para este miércoles 11 de noviembre",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/economia/ideam-advierte-sobre-lluvias-en-varias-zonas-del-pais-para-este-miercoles-11-de-noviembre-4522340",
+      "fecha": "2026-11-11T12:52:27+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "f5a9391365d83e5e",
+      "titulo": "Lanzaron una granada a sede de RCN en Cali, ¿qué se sabe?",
+      "categoria": "Cali",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/lanzaron-una-granada-a-sede-de-rcn-en-cali-que-se-sabe-EH43442215",
+      "fecha": "2026-11-11T12:51:45+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "7d7c59a10683e447",
+      "titulo": "No fueron los radares: esta es la causa de la falla que afectó el registro y embarque de pasajeros en El Dorado",
+      "categoria": "Economía",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/regiones/no-fueron-los-radares-la-causa-de-la-falla-en-el-dorado-segun-la-aerocivil-506118",
+      "fecha": "2026-11-11T12:49:58+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "53f9da515ee7b693",
+      "titulo": "Conozca los barrios que se quedarán sin agua este miércoles; habrá cortes de 12 horas",
+      "categoria": "Valle del Cauca",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/cali/barrios-sin-agua-miercoles-11-11-2026/",
+      "fecha": "2026-11-11T12:45:42+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "e76f63570b892d08",
+      "titulo": "¿Por qué Colombia podría interesarle a Elon Musk para instalar una base de SpaceX? La Guajira ofrece Puerto Bolívar y se suma a Antioquia",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/por-que-colombia-podria-interesarle-a-elon-musk-para-instalar-una-base-de-spacex-la-guajira-ofrece-puerto-bolivar-y-se-suma-a-antioquia-3600113",
+      "fecha": "2026-11-11T12:45:17+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "1b88875d11633102",
+      "titulo": "Maluma iniciará su gira mundial en Bogotá con cuatro conciertos en febrero de 2027",
+      "categoria": "Deportes",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/ocio/maluma-iniciara-su-gira-mundial-en-bogota-con-cuatro-conciertos-en-febrero-de-2027-4522328",
+      "fecha": "2026-11-11T12:44:53+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "3a405511dfffafc4",
+      "titulo": "Recompensa de hasta $ 20 millones tras el ataque con granada contra RCN en Cali: 'Se salvaguarda el libre ejercicio de informar ante amenazas'",
+      "categoria": "Cali",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/cali/recompensa-de-hasta-20-millones-tras-el-ataque-con-granada-contra-rcn-en-cali-se-salvaguarda-el-libre-ejercicio-de-informar-ante-amenazas-3600100",
+      "fecha": "2026-11-11T12:42:51+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "d5ccf2471e5ac6d0",
+      "titulo": "La inspiradora historia de Zaher, el niño que perdió sus dos piernas en Sudán y recibió el apoyo de su ídolo Vinicius Jr para volver a jugar al fútbol",
+      "categoria": "Deportes",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/c69q8gxvp0pro?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-11T12:41:31+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "528ea4184b829541",
+      "titulo": "Ley de rescate económico: el costo de devolver el IVA y los cinco riesgos de desvío fiscal, según informe",
+      "categoria": "Economía",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/gobierno/ley-de-rescate-economico-el-costo-de-devolver-el-iva-y-los-cinco-riesgos-de-desvio-fiscal-segun-informe-506119",
+      "fecha": "2026-11-11T12:38:56+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "6679f980a5191cbf",
+      "titulo": "Descartan a dos sospechosos que habían sido capturados por el atentado contra las instalaciones de RCN en Cali",
+      "categoria": "Cali",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/cali/dos-sospechosos-por-el-atentado-contra-las-instalaciones-de-rcn-en-cali-habian-sido-capturados-los-descartaron-y-fueron-liberados-3600098",
+      "fecha": "2026-11-11T12:37:33+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "709feb78d76348c9",
+      "titulo": "Nueva presidenta de la Andi fija su posición frente a la Ley de Rescate: “Proteger el bolsillo de los colombianos”",
+      "categoria": "Colombia",
+      "fuente": "La FM Economía",
+      "url": "https://www.lafm.com.co/economia/luz-stella-murgas-andi-ley-de-rescate-bolsillo-colombianos-salario-minimo-plan-de-desarrollo-416831",
+      "fecha": "2026-11-11T12:36:08+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "36446dba46912c07",
+      "titulo": "Ofrecen millonaria recompensa para identificar a los responsables del atentado contra RCN en Cali",
+      "categoria": "Cali",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/cali/ofrecen-recompensa-atentado-rcn-cali-11-11-2026/",
+      "fecha": "2026-11-11T12:34:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "d54f980581a50f5d",
+      "titulo": "Presidente De la Espriella anunció nuevo bombardeo contra grupos narcoterroristas: “No vamos a parar”",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/abelardo-espriella-anuncio-nuevo-bombardeo-grupos-narcoterroristas-NH43442395",
+      "fecha": "2026-11-11T12:32:58+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "2b3561a73d4a8ec2",
+      "titulo": "MediaMarkt dedica sus Ofertas del Día a Apple: un iPad y un iPhone Pro muy rebajados como adelanto del Black Friday",
+      "categoria": "Tecnología",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/seleccion/mediamarkt-dedica-sus-ofertas-dia-a-apple-ipad-iphone-pro-muy-rebajados-como-adelanto-black-friday",
+      "fecha": "2026-11-11T12:31:48+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "a21b84508ed29926",
+      "titulo": "Ya es oficial: el nuevo router Mini 2 de Starlink ahora promete WiFi vía satélite sin estar conectado a la corriente",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/servicios/oficial-nuevo-router-mini-2-starlink-ahora-promete-wifi-via-satelite-estar-conectado-a-corriente",
+      "fecha": "2026-11-11T12:31:48+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "72e46e2eefb35ccb",
+      "titulo": "El alcalde Alejandro Eder rechaza atentado contra RCN en la capital del Valle del Cauca: '¡En Cali no nos van a intimidar!'",
+      "categoria": "Cali",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/cali/el-alcalde-alejandro-eder-rechaza-atentado-contra-rcn-en-la-capital-del-valle-del-cauca-en-cali-no-nos-van-a-intimidar-3600109",
+      "fecha": "2026-11-11T12:30:41+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "ddfdd7608c4c72ab",
+      "titulo": "Desayune informado con las movidas de este 11 de noviembre de 2026",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/en-vivo/desayune-informado-con-las-movidas-de-este-11-de-noviembre-de-2026/",
+      "fecha": "2026-11-11T12:30:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "850245fc77e0ceb2",
+      "titulo": "Los guiños para las regionales: Fico y su heredero en Medellín",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/podcasts/huevos-revueltos-con-politica/los-guinos-para-las-regionales-fico-y-su-heredero-en-medellin/",
+      "fecha": "2026-11-11T12:29:23+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "a1b40f44c4cb5d09",
+      "titulo": "Temperaturas de 41,2 °C en este municipio disparan la demanda de energía y dañan los cultivos",
+      "categoria": "Economía",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/regiones/temperaturas-de-41-2-c-en-este-municipio-disparan-la-demanda-de-energia-y-danan-los-cultivos-506116",
+      "fecha": "2026-11-11T12:26:46+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "ed7b6118681c232e",
+      "titulo": "Luz Stella Murgas plantea una agenda empresarial centrada en diálogo, inversión y empleo",
+      "categoria": "Economía",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/empresas/luz-stella-murgas-plantea-una-agenda-empresarial-centrada-en-dialogo-inversion-y-empleo-4522333",
+      "fecha": "2026-11-11T12:24:54+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "5ddc37524eac3d2c",
+      "titulo": "Pico y placa en Medellín para el miércoles 11 de noviembre de 2026: placas que tienen restricción y horarios",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/medellin/pico-y-placa-en-medellin-para-el-miercoles-11-de-noviembre-de-2026-placas-que-tienen-restriccion-y-horarios-3599686",
+      "fecha": "2026-11-11T12:21:53+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "85e5ca0083f33af6",
+      "titulo": "“¡Rechazo total!”: MinDefensa y presidente ordenan operativos para capturar a responsables del atentado en Cali",
+      "categoria": "Cali",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/gobierno-ordena-operativos-capturar-responsables-atentado-cali-IH43442596",
+      "fecha": "2026-11-11T12:17:17+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "082251af5e028356",
+      "titulo": "Secuestraron a Nancy Gómez, esposa del alcalde de Uribia en La Guajira",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/secuestraron-a-nancy-gomez-esposa-del-alcalde-de-uribia-en-la-guajira-FH43443503",
+      "fecha": "2026-11-11T12:15:30+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "88cda4cfefccdeda",
+      "titulo": "Quién es Wilson \"Lanmò San Jou\" Joseph, el poderoso líder pandillero cuya casa en Haití Bukele dice haber destruido",
+      "categoria": "Internacional",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/cmzx96kk0ly7o?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-11T12:14:39+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "b3a22f6081539d3c",
+      "titulo": "Atentado con granada contra RCN en Cali, últimas noticias y nuevos detalles: video muestra cómo quedaron instalaciones del medio tras detonación",
+      "categoria": "Cali",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/cali/atentado-con-granada-contra-rcn-en-cali-reacciones-ultimas-noticias-recompensa-y-nuevos-detalles-del-ataque-3600108",
+      "fecha": "2026-11-11T12:10:34+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "d4980ff80573e151",
+      "titulo": "Barranquilla no logra asumir la gestión catastral de terrenos en disputa con Puerto Colombia: esto dice el fallo",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/barranquilla/barranquilla-no-logra-asumir-la-gestion-catastral-de-terrenos-en-disputa-con-puerto-colombia-esto-dice-el-fallo-3600099",
+      "fecha": "2026-11-11T12:08:50+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "ac38188c4f7de1bc",
+      "titulo": "La solución con la que llevar Internet a cualquier rincón de casa que hemos encontrado en el Black Friday anticipado de Amazon",
+      "categoria": "Tecnología",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/seleccion/solucion-que-llevar-internet-a-cualquier-rincon-casa-que-hemos-encontrado-black-friday-anticipado-amazon",
+      "fecha": "2026-11-11T12:01:49+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "8df4fbc1e39d6726",
+      "titulo": "Rusia tenía un campo vacío junto a Ucrania. Seis semanas después, los satélites han revelado una fábrica de pesadillas letales",
+      "categoria": "Internacional",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/magnet/rusia-tenia-campo-vacio-a-ucrania-seis-semanas-despues-satelites-han-revelado-fabrica-pesadillas-letales",
+      "fecha": "2026-11-11T12:01:49+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "21ec5c92e4f9e6a9",
+      "titulo": "Evacúan cientos de colegios en Italia por una ola de amenazas de bomba",
+      "categoria": "Internacional",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/evacúan-cientos-de-colegios-en-italia-por-una-ola-de-amenazas-de-bomba/a-79918548?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-11T12:01:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "a11c9ed6455bba59",
+      "titulo": "\"No se arrodillen ante ídolos como el dinero y el placer\": El sentido mensaje de León XIV ante los jóvenes en Palermo",
+      "categoria": "Internacional",
+      "fuente": "La FM Internacional",
+      "url": "https://www.lafm.com.co/internacional/papa-leon-misa-palermo-buenos-aires-argentina-416825",
+      "fecha": "2026-11-11T12:00:46+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "d2e16493ef7b57fc",
+      "titulo": "Atentado explosivo contra instalaciones de RCN en Cali: autoridades rechazan el violento hecho",
+      "categoria": "Cali",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/cali/atentado-explosivo-instalaciones-rcn-cali-11-11-2026/",
+      "fecha": "2026-11-11T12:00:03+00:00",
+      "imagen": ""
+    },
     {
       "id": "3bbde106b304e839",
       "titulo": "Aplazan la implosión de Invico",
@@ -11,17 +398,8 @@
       "imagen": ""
     },
     {
-      "id": "a15b7f643b9211c7",
-      "titulo": "Última hora de la huelga general y la actualidad política, en directo | “Los sindicatos hablan “éxito” y de un seguimiento “muy relevante” de la huelga, mientras que las patronales lo ven “bajo”",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/espana/2026-11-11/ultima-hora-de-la-huelga-general-y-la-actualidad-politica-en-directo.html",
-      "fecha": "2026-11-11T11:58:39+00:00",
-      "imagen": ""
-    },
-    {
       "id": "b7b24df5b64020b7",
-      "titulo": "Jamie Campbell Bower cumple un sueño de infancia al sumarse a la serie de \"El Señor de los Anillos\"",
+      "titulo": "Jamie Campbell Bower cumple un sueño de infancia al sumarse al \"El Señor de los Anillos\"",
       "categoria": "Colombia",
       "fuente": "La República",
       "url": "https://www.larepublica.co/ocio/jamie-campbell-bower-cumple-un-sueno-de-infancia-al-sumarse-a-la-serie-de-el-senor-de-los-anillos-4522323",
@@ -38,30 +416,21 @@
       "imagen": ""
     },
     {
+      "id": "c24bd1a542dd69f2",
+      "titulo": "Visión Davivienda estima que el salario mínimo subirá 8,5% en 2027: llegaría a $1.899.732 sin auxilio de transporte",
+      "categoria": "Economía",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/gobierno/davivienda-estima-que-el-salario-minimo-subira-8-5-en-2027-llegaria-a-1-899-732-sin-auxilio-de-transporte-506115",
+      "fecha": "2026-11-11T11:50:04+00:00",
+      "imagen": ""
+    },
+    {
       "id": "75421e475bb34bab",
       "titulo": "El secretario del Tesoro de EE.UU. se trasladó a una base militar tras amenazas iraníes",
       "categoria": "Internacional",
       "fuente": "La República",
       "url": "https://www.larepublica.co/globoeconomia/el-secretario-del-tesoro-de-ee-uu-se-traslado-a-una-base-militar-tras-amenazas-iranies-4522312",
       "fecha": "2026-11-11T11:48:18+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "85e5ca0083f33af6",
-      "titulo": "“¡Rechazo total!”: MinDefensa y presidente ordenan operativos para capturar a responsables del atentado en Cali",
-      "categoria": "Cali",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/gobierno-ordena-operativos-capturar-responsables-atentado-cali-IH43442596",
-      "fecha": "2026-11-11T11:47:46+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "96cb40f3c36682ff",
-      "titulo": "Así capturaron a dos sospechosos por el atentado contra las instalaciones de RCN en Cali: expertos antiexplosivos buscan más artefactos",
-      "categoria": "Cali",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/cali/asi-capturaron-a-dos-sospechosos-por-el-atentado-contra-las-instalaciones-de-rcn-en-cali-expertos-antiexplosivos-buscan-mas-artefactos-3600098",
-      "fecha": "2026-11-11T11:46:03+00:00",
       "imagen": ""
     },
     {
@@ -77,7 +446,7 @@
       "id": "91307b5cba752a63",
       "titulo": "Reportan ataque con granada frente a instalaciones de RCN en Cali: explosivo habría sido lanzado por personas en moto; esto se sabe",
       "categoria": "Cali",
-      "fuente": "El Tiempo",
+      "fuente": "El Tiempo Cali",
       "url": "https://www.eltiempo.com/colombia/cali/reportan-ataque-con-granada-frente-a-instalaciones-de-rcn-en-cali-explosivo-habria-sido-lanzado-por-personas-en-moto-esto-se-sabe-3600088",
       "fecha": "2026-11-11T11:41:32+00:00",
       "imagen": ""
@@ -89,15 +458,6 @@
       "fuente": "El País Colombia",
       "url": "https://cincodias.elpais.com/economia/2026-11-11/bruselas-plantea-vetar-las-suscripciones-trampa-a-servicios-online-y-otras-practicas-enganosas.html",
       "fecha": "2026-11-11T11:40:31+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "f5a9391365d83e5e",
-      "titulo": "Lanzaron una granada a sede de RCN en Cali, ¿qué se sabe?",
-      "categoria": "Cali",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/lanzaron-una-granada-a-sede-de-rcn-en-cali-que-se-sabe-EH43442215",
-      "fecha": "2026-11-11T11:37:24+00:00",
       "imagen": ""
     },
     {
@@ -113,7 +473,7 @@
       "id": "efee6d540f86debc",
       "titulo": "Dilian Francisca Toro se pronunció tras ataque con granada frente a RCN en Cali: 'Violencia no puede convertirse en herramienta para callar'",
       "categoria": "Cali",
-      "fuente": "El Tiempo",
+      "fuente": "El Tiempo Cali",
       "url": "https://www.eltiempo.com/colombia/cali/gobernadora-dilian-francisca-toro-se-pronuncio-tras-ataque-con-granada-frente-a-instalaciones-de-rcn-en-cali-callar-a-quienes-informan-3600089",
       "fecha": "2026-11-11T11:33:28+00:00",
       "imagen": ""
@@ -129,7 +489,7 @@
     },
     {
       "id": "ee4262f99cff68d6",
-      "titulo": "El petróleo sube tras dos días de caída, con la atención puesta en las perspectivas de una guerra entre Estados Unidos e Irán",
+      "titulo": "El petróleo sube tras dos días de caída, con la atención puesta en las perspectivas de una guerra",
       "categoria": "Economía",
       "fuente": "La República",
       "url": "https://www.larepublica.co/globoeconomia/el-petroleo-sube-tras-dos-dias-de-caida-con-la-atencion-puesta-en-las-perspectivas-de-una-guerra-entre-estados-unidos-e-iran-4522298",
@@ -155,12 +515,21 @@
       "imagen": ""
     },
     {
-      "id": "c24bd1a542dd69f2",
-      "titulo": "Davivienda estima que el salario mínimo subirá 8,5% en 2027: llegaría a $1.899.732 sin auxilio de transporte",
+      "id": "fca12447aa62eb05",
+      "titulo": "Ajuste fiscal, salario mínimo y reforma tributaria: los retos de la nueva presidenta de la ANDI",
       "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/gobierno/davivienda-estima-que-el-salario-minimo-subira-8-5-en-2027-llegaria-a-1-899-732-sin-auxilio-de-transporte-506115",
-      "fecha": "2026-11-11T11:27:49+00:00",
+      "fuente": "La FM Economía",
+      "url": "https://www.lafm.com.co/economia/luz-stella-murgas-presidenta-andi-retos-organizacion-salario-minimo-pnd-dialogos-gobierno-nacional-416821",
+      "fecha": "2026-11-11T11:29:50+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "ffe21b80cb62c820",
+      "titulo": "Los números que dejó el primer golazo de James Rodríguez con Nacional: ¿Cuándo fue su última anotación en Colombia?",
+      "categoria": "Colombia",
+      "fuente": "La FM Deportes",
+      "url": "https://www.lafm.com.co/deportes/james-rodriguez-nacional-golzo-datos-estadisticas-copa-betplay-416820",
+      "fecha": "2026-11-11T11:25:37+00:00",
       "imagen": ""
     },
     {
@@ -170,375 +539,6 @@
       "fuente": "La República",
       "url": "https://www.larepublica.co/globoeconomia/espana-va-a-la-primera-huelga-general-en-14-anos-ante-la-crisis-de-la-vivienda-4522287",
       "fecha": "2026-11-11T11:25:28+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "902a2b38b9e419a6",
-      "titulo": "Falla técnica afecta los sistemas de registro y embarque de pasajeros en El Dorado",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/empresas/falla-tecnica-afecta-los-sistemas-de-registro-y-embarque-de-pasajeros-en-el-dorado-4522293",
-      "fecha": "2026-11-11T11:25:01+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "b9a66d0dbbd24074",
-      "titulo": "El papa terminó su visita a Argentina; ahora irá a Perú y la primera dama representará a Colombia",
-      "categoria": "Colombia",
-      "fuente": "La FM Internacional",
-      "url": "https://www.lafm.com.co/internacional/papa-gira-por-sudamerica-termino-visita-en-argentina-se-dirige-a-peru-416819",
-      "fecha": "2026-11-11T11:22:35+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "c989fac8277ed7b1",
-      "titulo": "Precio del dólar en Colombia continúa subiendo y ya roza los $3.300: así cotiza este 11 de noviembre",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/finanzas/precio-del-dolar-en-colombia-continua-subiendo-y-ya-roza-los-3-300-asi-cotiza-este-11-de-noviembre-506113",
-      "fecha": "2026-11-11T11:20:40+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "e052d209945437b5",
-      "titulo": "AliExpress celebra el 11 del 11 con todos estos chollos en consolas, televisores, móviles y más",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/seleccion/aliexpress-celebra-11-11-todos-estos-chollos-consolas-televisores-moviles",
-      "fecha": "2026-11-11T11:15:48+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "3d3f66334d6237c2",
-      "titulo": "El escándalo de Jensen Huang iba a ser un problema para Jensen Huang. Va a acabar siendo un problema para los chips de NVIDIA",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/empresas-y-economia/escandalo-jensen-huang-iba-a-ser-problema-para-jensen-huang-va-a-acabar-siendo-problema-para-chips-nvidia",
-      "fecha": "2026-11-11T11:01:49+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "36f6e51a00461370",
-      "titulo": "¿Peligro de deslizamiento? Así fue la milimétrica y tensa maniobra de 40 centímetros al día para llenar el embalse de Hidroituango a la cota 420",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/medellin/peligro-de-deslizamiento-asi-fue-la-milimetrica-y-tensa-maniobra-de-40-centimetros-al-dia-para-llenar-el-embalse-de-hidroituango-a-la-cota-3600031",
-      "fecha": "2026-11-11T11:01:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "2d0d684e96866884",
-      "titulo": "Damnificados por el terremoto, tres meses después, siguen pidiendo al Gobierno acelerar ayudas",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/damnificados-terremoto-meses-siguen-pidiendo-gobierno-acelerar-ayudas-AA43437373",
-      "fecha": "2026-11-11T11:00:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "1bfc3fdefd7c556c",
-      "titulo": "Así afecta a los pacientes la deuda de $27 billones del sistema con hospitales y clínicas",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/asi-afecta-pacientes-deuda-27-billones-sistema-hospitales-clinicas-OA43437494",
-      "fecha": "2026-11-11T11:00:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "f9f6f30222422da1",
-      "titulo": "Por fin hay un tratamiento para la demencia de mi hijo de 5 años, pero tiene un costo de US$4 millones",
-      "categoria": "Internacional",
-      "fuente": "BBC Mundo",
-      "url": "https://www.bbc.com/mundo/articles/cxzd6dej1328o?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-11T10:46:15+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "f1d6d8655e13a025",
-      "titulo": "MediaMarkt celebra el Single Day dejado este Google Pixel a menos de 390 euros",
-      "categoria": "Tecnología",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/seleccion/mediamarkt-celebra-single-day-dejado-este-google-pixel-a-390-euros",
-      "fecha": "2026-11-11T10:01:49+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "a1cffe16489c4d06",
-      "titulo": "La tecnología entra en la campaña electoral del 29-N: deepfakes en los juzgados, carteros inventados y un lector QR de 113 euros",
-      "categoria": "Tecnología",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/empresas-y-economia/tecnologia-entra-campana-electoral-29-n-deepfakes-juzgados-carteros-inventados-lector-qr-113-euros",
-      "fecha": "2026-11-11T10:01:49+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "f2ead4426229815a",
-      "titulo": "Sanitas anuncia medidas para normalizar entrega de medicamentos tras intervención de la Supersalud",
-      "categoria": "Colombia",
-      "fuente": "La FM Actualidad",
-      "url": "https://www.lafm.com.co/actualidad/sanitas-responde-ante-requerimiento-de-supersalud-416817",
-      "fecha": "2026-11-11T10:00:13+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "a8c3a91219e719b8",
-      "titulo": "España se paraliza: huelga general por vivienda y salarios",
-      "categoria": "Internacional",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/españa-se-paraliza-huelga-general-por-vivienda-y-salarios/a-79916308?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-11T09:52:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "ddd2006b60cbd270",
-      "titulo": "El Single's Day de MediaMarkt acaba en menos de 24 horas: cinco de sus mejores ofertas en teles, portátiles, móviles y más",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/seleccion/single-s-day-mediamarkt-acaba-24-horas-cinco-sus-mejores-ofertas-teles-portatiles-moviles",
-      "fecha": "2026-11-11T09:45:49+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "4159aa30cc14227e",
-      "titulo": "Nueva tensión: Rusia dice haber capturado a dos espías polacos",
-      "categoria": "Internacional",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/nueva-tensión-rusia-dice-haber-capturado-a-dos-espías-polacos/a-79916062?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-11T09:31:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "2a5aca701133bd09",
-      "titulo": "La nueva presidenta de la ANDI enfrenta el reto de mejorar la relación con el Gobierno sin perder su independencia",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/america-colombia/2026-11-11/la-nueva-presidenta-de-la-andi-enfrenta-el-reto-de-mejorar-la-relacion-con-el-gobierno-sin-perder-su-independencia.html",
-      "fecha": "2026-11-11T09:30:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "0e7b836187f73ded",
-      "titulo": "La lealtad de Cepeda a Petro frena el relevo en el liderazgo de la izquierda colombiana",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/america-colombia/2026-11-11/la-lealtad-de-cepeda-a-petro-frena-el-relevo-en-el-liderazgo-de-la-izquierda-colombiana.html",
-      "fecha": "2026-11-11T09:30:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "725cd5e40b04a04f",
-      "titulo": "A tres meses del terremoto en Colombia, el Fondo Milagro llega al Congreso sin las cuentas claras",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/america-colombia/2026-11-11/a-tres-meses-del-terremoto-en-colombia-el-fondo-milagro-llega-al-congreso-sin-las-cuentas-claras.html",
-      "fecha": "2026-11-11T09:30:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "2f3adffe7c2f6ff0",
-      "titulo": "¿Qué pasaría en 2028 si Estados Unidos volviera a votar como en las ‘midterms’?",
-      "categoria": "Internacional",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/us/2026-11-11/que-pasaria-en-2028-si-estados-unidos-volviera-a-votar-como-en-las-midterms.html",
-      "fecha": "2026-11-11T09:30:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "7c0f1b044e55b1ce",
-      "titulo": "El auge del revisionismo y el negacionismo frente a la toma del Palacio de Justicia",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/america-colombia/2026-11-11/el-auge-del-revisionismo-y-el-negacionismo-frente-a-la-toma-del-palacio-de-justicia.html",
-      "fecha": "2026-11-11T09:30:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "7fd0c6949338e13b",
-      "titulo": "Formarse como restauradores forestales, la alternativa de una comunidad de La Patagonia para combatir incendios",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/america-futura/2026-11-11/formarse-como-restauradores-forestales-la-alternativa-de-una-comunidad-de-la-patagonia-para-combatir-incendios.html",
-      "fecha": "2026-11-11T09:30:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "7e74548bf76a3041",
-      "titulo": "MediaMarkt tiene a precio de outlet esta tele Hisense con pantalla antirreflejos, hasta 165 Hz y Dolby Vision IQ",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/seleccion/mediamarkt-tiene-a-precio-outlet-esta-tele-hisense-pantalla-antirreflejos-165-hz-dolby-vision-iq",
-      "fecha": "2026-11-11T09:15:49+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "171c5f96b952b6fc",
-      "titulo": "La borrasca Charles pone a España en jaque: un río atmosférico, vientos huracanados y riesgo de deslizamientos de tierra",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/ecologia-y-naturaleza/borrasca-charles-pone-a-espana-jaque-rio-atmosferico-vientos-huracanados-riesgo-deslizamientos-tierra",
-      "fecha": "2026-11-11T09:01:49+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "ced50f80a3c6dda7",
-      "titulo": "Ninja tiene una cafetera superautomática 3 en 1 que ahora puedes comprar con más de 200 euros de descuento",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/seleccion/ninja-tiene-cafetera-superautomatica-3-1-que-ahora-puedes-comprar-200-euros-descuento",
-      "fecha": "2026-11-11T08:50:17+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "c50e1b2a081f8f4b",
-      "titulo": "¿Cuánto se nota la huelga? La caída del consumo eléctrico en tiempo real",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/espana/2026-11-11/cuanto-se-nota-la-huelga-la-caida-del-consumo-electrico-en-tiempo-real.html",
-      "fecha": "2026-11-11T08:48:44+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "49e84b59a1d286f1",
-      "titulo": "Chollo en Nintendo Switch 2 antes del Black Friday: aquí, con casi 150 euros de descuento frente a su nuevo PVP",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/seleccion/chollo-nintendo-switch-2-antes-black-friday-aqui-casi-150-euros-descuento-frente-a-su-nuevo-pvp",
-      "fecha": "2026-11-11T08:41:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "cf6ca30b800ca0bd",
-      "titulo": "Niño de cuatro años murió ahogado tras caer accidentalmente a un pozo en construcción en una finca de Amalfi, Antioquia",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/medellin/nino-de-cuatro-anos-murio-ahogado-tras-caer-accidentalmente-a-un-pozo-en-construccion-en-una-finca-de-amalfi-antioquia-3600085",
-      "fecha": "2026-11-11T08:34:53+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "77f804f8c8c2a26b",
-      "titulo": "El Pentágono está a punto de convertir sus bases aéreas en porterías de fútbol gigantes: el objetivo es que sus F-35 sigan enteros",
-      "categoria": "Deportes",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/magnet/pentagono-esta-a-punto-convertir-sus-bases-aereas-porterias-futbol-gigantes-objetivo-que-sus-f-35-sigan-enteros",
-      "fecha": "2026-11-11T08:01:48+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "b4373fdf7c32856c",
-      "titulo": "Cuatro voluntarios salen de un hábitat marciano impreso en 3D tras un año sin ventanas ni llamadas en tiempo real",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/espacio/cuatro-voluntarios-salen-habitat-marciano-impreso-3d-ano-ventanas-llamadas-tiempo-real",
-      "fecha": "2026-11-11T07:01:49+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "d3d795ef60b81708",
-      "titulo": "Hoy en Action (por 16,77 euros): la bomba de aire inalámbrica 3 en 1 de Grundig para llevar siempre en el coche",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/seleccion/hoy-action-16-77-euros-bomba-aire-inalambrica-3-1-grundig-para-llevar-siempre-coche",
-      "fecha": "2026-11-11T06:31:48+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "fd88bdc70915c240",
-      "titulo": "Supersalud impuso medida cautelar a EPS Sanitas por demoras, entregas incompletas de medicamentos y fallas en la atención farmacéutica a sus afiliados",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/supersalud-impuso-medida-cautelar-a-eps-sanitas-por-demoras-entregas-incompletas-de-medicamentos-y-fallas-en-la-atencion-farmaceutica-a-sus-afiliados-3600084",
-      "fecha": "2026-11-11T06:28:50+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "2a7fe3d3c68cb5a0",
-      "titulo": "RD Congo supera barrera de los 11.000 casos de ébola, incluidos 5.387 muertos",
-      "categoria": "Internacional",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/rd-congo-supera-barrera-de-los-11-000-casos-de-ébola-incluidos-5-387-muertos/a-79914424?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-11T06:27:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "8822819923c19525",
-      "titulo": "'El Valle lo reconstruimos juntos': así va la recuperación del departamento a tres meses del terremoto",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/cali/el-valle-lo-reconstruimos-juntos-asi-va-la-recuperacion-del-departamento-a-tres-meses-del-terremoto-3600083",
-      "fecha": "2026-11-11T06:03:43+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "ef7f08bc3d374a66",
-      "titulo": "Los poderosos del gobierno De la Espriella: amigos, expertos y costeños",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/silla-nacional/los-poderosos-del-gobierno-de-la-espriella-amigos-expertos-y-costenos/",
-      "fecha": "2026-11-11T06:00:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "8d2065265b339faf",
-      "titulo": "La ventaja estratégica de los chips de Nvidia convirtió a su primer ejecutivo en un objetivo de China",
-      "categoria": "Internacional",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/us/2026-11-11/la-ventaja-estrategica-de-los-chips-de-nvidia-convirtio-a-su-primer-ejecutivo-en-un-objetivo-de-china.html",
-      "fecha": "2026-11-11T05:48:59+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "efbf00b6295de715",
-      "titulo": "Almuerzo de trabajo",
-      "categoria": "Colombia",
-      "fuente": "La Patria — Caldas",
-      "url": "https://www.lapatria.com/galerias/almuerzo-de-trabajo-0",
-      "fecha": "2026-11-11T05:10:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "e5e143f26683ab0a",
-      "titulo": "Reconstruir Pereira cuesta cada vez más",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/actualidad/reconstruir-pereira-cuesta-cada-vez-mas/",
-      "fecha": "2026-11-11T05:05:20+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "61407cee46c0c155",
-      "titulo": "Divorcio del CEO de Nvidia, Jensen Huang, se convertiría en el más caro de la historia",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/divorcio-del-ceo-de-nvidia-jensen-huang-seria-el-mas-caro-de-la-historia-4522035",
-      "fecha": "2026-11-11T05:04:30+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "057d77399da1b798",
-      "titulo": "Petróleo brent está en mínimos de US$90 por moderación de tono de Trump sobre Irán",
-      "categoria": "Economía",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/brent-en-minimos-de-us-90-por-moderacion-de-tono-de-trump-sobre-iran-4521997",
-      "fecha": "2026-11-11T05:03:27+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "e6a880b1fd522612",
-      "titulo": "Cheque cruzado",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/analisis/felipe-jaramillo-velez-4190102/cheque-cruzado-4522024",
-      "fecha": "2026-11-11T05:02:57+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "c71b0b5354e24170",
-      "titulo": "Dangond vs Lafaurie, ¿quién termina trabajando para la ganadería?",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/analisis/camilo-manrique-dwyer-4397540/dangond-vs-lafaurie-quien-termina-trabajando-para-la-ganaderia-4522060",
-      "fecha": "2026-11-11T05:02:50+00:00",
       "imagen": ""
     }
   ],
@@ -553,7 +553,7 @@
       "nombre": "El Tiempo Cali",
       "url": "https://www.eltiempo.com/rss/colombia_cali.xml",
       "estado": "correcto",
-      "titulares": 6
+      "titulares": 5
     },
     {
       "nombre": "El Espectador",
@@ -596,7 +596,7 @@
       "nombre": "DW Español",
       "url": "https://rss.dw.com/rdf/rss-sp-all",
       "estado": "correcto",
-      "titulares": 25
+      "titulares": 26
     },
     {
       "nombre": "Xataka",
@@ -620,7 +620,7 @@
       "nombre": "La FM Deportes",
       "url": "https://www.lafm.com.co/rss/deportes.xml",
       "estado": "correcto",
-      "titulares": 18
+      "titulares": 19
     },
     {
       "nombre": "La FM Economía",
