@@ -1,6 +1,132 @@
 {
-  "ultima_actualizacion": "2026-11-11T23:05:08.843512+00:00",
+  "ultima_actualizacion": "2026-11-11T23:55:43.366520+00:00",
   "titulares_rss": [
+    {
+      "id": "3c9d50aef0fbf70e",
+      "titulo": "Fondo Milagro: 7 mil millones en contratos. Gerente no fue al Congreso",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/en-vivo/fondo-milagro-7-mil-millones-en-contratos-gerente-no-fue-al-congreso/",
+      "fecha": "2026-11-11T23:51:55+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "4fe4bc4decc4e277",
+      "titulo": "La visita del papa León XIV, en vivo | El papa León XIV inicia en Lima la última etapa de su gira por Sudamérica",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/america/2026-11-11/la-visita-del-papa-leon-xiv-en-vivo.html",
+      "fecha": "2026-11-11T23:44:42+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "2e39158960d03c44",
+      "titulo": "MinAgricultura derogó la última área de producción de alimentos de Petro",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/en-vivo/minagricultura-derogo-la-ultima-area-de-produccion-de-alimentos-de-petro/",
+      "fecha": "2026-11-11T23:42:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "d1e871e5593816ee",
+      "titulo": "El Canciller colombiano pide disculpas por sus insultos a los demócratas en Estados Unidos",
+      "categoria": "Internacional",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/america-colombia/2026-11-11/el-canciller-colombiano-pide-disculpas-por-sus-insultos-pasados-a-los-democratas-en-estados-unidos.html",
+      "fecha": "2026-11-11T23:31:04+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "3857c478b4d9675e",
+      "titulo": "En imágenes: graves disturbios en Barcelona y decenas de detenidos en la primera huelga general en España en 14 años",
+      "categoria": "Internacional",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/ckx28e5lj300o?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-11T23:30:52+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "ec2e38a3166f600a",
+      "titulo": "Asoblockchain pide eliminar impuesto de 5% a criptomonedas de Ley de Financiamiento",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/finanzas/asoblockchain-pide-eliminar-impuesto-de-5-a-criptomonedas-de-ley-de-financiamiento-4522687",
+      "fecha": "2026-11-11T23:28:06+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "f16b7f192e9b35a0",
+      "titulo": "Qué hacer este fin de semana en Barranquilla: la guía definitiva para disfrutar Expodrinks 2026 con música, gastronomía, catas y cultura de bebidas",
+      "categoria": "Tendencias",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/barranquilla/que-hacer-este-fin-de-semana-en-barranquilla-la-guia-definitiva-para-disfrutar-expodrinks-2026-con-musica-gastronomia-catas-y-cultura-de-bebidas-3600345",
+      "fecha": "2026-11-11T23:25:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "70b0c3bf206684b7",
+      "titulo": "Alcalde Federico Gutiérrez advierte a alias Tom tras su salida de prisión: 'Más le vale que se porte bien'",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/medellin/alcalde-federico-gutierrez-advierte-a-alias-tom-tras-su-salida-de-prision-mas-le-vale-que-se-porte-bien-3600333",
+      "fecha": "2026-11-11T23:23:35+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "7c77a53e9106b23d",
+      "titulo": "Así debilitó Petro a la Inteligencia del Estado con sabotaje a elecciones, espionaje a expresidentes y caos",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/debilito-petro-inteligencia-sabotaje-elecciones-espionaje-expresidentes-caos-AM43380642",
+      "fecha": "2026-11-11T23:21:06+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "22980ab4555a37c3",
+      "titulo": "Metro de Medellín habilita pagos con tarjetas débito y crédito: así funcionará el ingreso a las estaciones",
+      "categoria": "Economía",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/regiones/metro-de-medellin-habilita-pagos-con-tarjetas-debito-y-credito-asi-funcionara-el-ingreso-a-las-estaciones-506187",
+      "fecha": "2026-11-11T23:20:54+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "0340b3bf3f699361",
+      "titulo": "Ni milagrosos ni inofensivos: autoridades de salud de Cali advierten sobre la peligrosa moda de usar péptidos y medicamentos para perder peso",
+      "categoria": "Cali",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/cali/ni-milagrosos-ni-inofensivos-autoridades-de-salud-de-cali-advierten-sobre-la-peligrosa-moda-de-usar-peptidos-y-medicamentos-para-perder-peso-3600341",
+      "fecha": "2026-11-11T23:19:48+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "c6fb940481691215",
+      "titulo": "Corte Constitucional avaló emergencia económica por terremoto, pero limitó el gasto del Gobierno",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/corte-constitucional-avalo-emergencia-economica-terremoto-limito-gasto-gobierno-KL43481821",
+      "fecha": "2026-11-11T23:15:02+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "ffbff6394c5a6562",
+      "titulo": "Se presentó proyecto de ley para estabilizar inversiones de gran escala",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/economia/se-presento-proyecto-de-ley-para-estabilizar-inversiones-de-gran-escala-4522918",
+      "fecha": "2026-11-11T23:14:33+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "6dffbd68cd103a67",
+      "titulo": "Nvidia se prepara para despedir a Jensen Huang ante nuevo hallazgo de infidelidad",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/globoeconomia/nvidia-se-prepara-para-despedir-a-huang-por-nuevo-hallazgo-de-infidelidad-4522895",
+      "fecha": "2026-11-11T23:08:05+00:00",
+      "imagen": ""
+    },
     {
       "id": "c84ef1cdab43fe0e",
       "titulo": "Las contradicciones de Petro y el futuro del progresismo",
@@ -11,21 +137,21 @@
       "imagen": ""
     },
     {
-      "id": "df35573b1a57652d",
-      "titulo": "Con restricciones, Corte avaló la emergencia económica de Abelardo",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/con-restricciones-corte-avalo-la-emergencia-economica-de-abelardo/",
-      "fecha": "2026-11-11T22:51:31+00:00",
+      "id": "ebbe5ffc977bd0f8",
+      "titulo": "Jensen Huang habría tenido una relación con una vicepresidenta de Nvidia",
+      "categoria": "Internacional",
+      "fuente": "La FM Internacional",
+      "url": "https://www.lafm.com.co/internacional/jensen-huang-habria-tenido-relacion-vicepresidenta-nvidia-416938",
+      "fecha": "2026-11-11T22:53:05+00:00",
       "imagen": ""
     },
     {
-      "id": "4fe4bc4decc4e277",
-      "titulo": "La visita del papa León XIV, en vivo | El papa León XIV inicia en Lima la última etapa de su gira por Sudamérica",
+      "id": "bf1c37d617130c0a",
+      "titulo": "Con restricciones, Corte avaló la emergencia económica de Abelardo",
       "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/america/2026-11-11/la-visita-del-papa-leon-xiv-en-vivo.html",
-      "fecha": "2026-11-11T22:46:25+00:00",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/en-vivo/con-restricciones-corte-avalo-la-emergencia-economica-de-abelardo/",
+      "fecha": "2026-11-11T22:51:31+00:00",
       "imagen": ""
     },
     {
@@ -44,6 +170,15 @@
       "fuente": "La Silla Vacía",
       "url": "https://www.lasillavacia.com/silla-amazonia/amazonia-en-breve/los-siete-proyectos-de-minerales-criticos-en-la-milagro-week/",
       "fecha": "2026-11-11T22:31:16+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "fae0ed60753311c0",
+      "titulo": "Los dardos entre Santos y Duque en evento por los 10 años del Acuerdo con las Farc: así fue el cara a cara",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/ivan-duque-juan-manuel-santos-acuerdo-paz-jep-defensoria-GE43477405",
+      "fecha": "2026-11-11T22:28:45+00:00",
       "imagen": ""
     },
     {
@@ -121,8 +256,8 @@
     {
       "id": "f99902870e945192",
       "titulo": "ConectaComuna: la plataforma caleña que digitaliza los barrios y lleva a la Institución Educativa Ciudad Córdoba a la final nacional de programación",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
+      "categoria": "Cali",
+      "fuente": "El Tiempo Cali",
       "url": "https://www.eltiempo.com/colombia/cali/conectacomuna-la-plataforma-calena-que-digitaliza-los-barrios-y-lleva-a-la-institucion-educativa-ciudad-cordoba-a-la-final-nacional-de-programacion-3600284",
       "fecha": "2026-11-11T21:50:59+00:00",
       "imagen": ""
@@ -134,6 +269,15 @@
       "fuente": "La Silla Vacía",
       "url": "https://www.lasillavacia.com/silla-nacional/incertidumbre-en-la-salud-por-falta-de-plata-del-gobierno-de-la-espriella/",
       "fecha": "2026-11-11T21:50:55+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "7ca6824046f78fb6",
+      "titulo": "Supersalud impone medida cautelar a Colsubsidio por fallas en entrega de medicamentos a usuarios de EPS Sanitas",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/supersalud-medida-cautelar-colsubsidio-fallas-entrega-medicamentos-usuarios-eps-sanitas-LE43477639",
+      "fecha": "2026-11-11T21:46:24+00:00",
       "imagen": ""
     },
     {
@@ -326,15 +470,6 @@
       "imagen": ""
     },
     {
-      "id": "52c450957829f76c",
-      "titulo": "Miguel Uribe Londoño ya tiene beneplácito para embajada en Reino Unido",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/en-vivo/miguel-uribe-londono-ya-tiene-beneplacito-para-embajada-en-reino-unido/",
-      "fecha": "2026-11-11T21:01:03+00:00",
-      "imagen": ""
-    },
-    {
       "id": "e4109af535aa3d21",
       "titulo": "'Un atentado a la democracia': autoridades aumentan hasta $ 50 millones la recompensa por los responsables del ataque a RCN en Cali",
       "categoria": "Cali",
@@ -404,141 +539,6 @@
       "fuente": "El País Colombia",
       "url": "https://elpais.com/opinion/2026-11-11/mensaje-enviado.html",
       "fecha": "2026-11-11T20:45:48+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "e05ee05058814b74",
-      "titulo": "COP31: ¿habrá esta vez más hechos que palabras en materia de clima?",
-      "categoria": "Internacional",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/cop31-¿habrá-esta-vez-más-hechos-que-palabras-en-materia-de-clima/a-79924239?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-11T20:43:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "d6f567286b17b358",
-      "titulo": "Felipe Márquez Robledo saldrá de la presidencia de Acción Fiduciaria desde el 15 de enero",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/finanzas/felipe-marquez-robledo-saldra-de-la-presidencia-de-accion-fiduciaria-anuncio-el-15-de-enero-4522723",
-      "fecha": "2026-11-11T20:35:24+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "54b7906f3bd65d9d",
-      "titulo": "Tenderos advierten que una cerveza que hoy cuesta $3.500 podría superar los $5.200 con la Ley de Rescate",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/crecimiento/tenderos-advierten-que-una-cerveza-que-hoy-cuesta-3-500-podria-superar-los-5-200-con-la-ley-de-rescate-506167",
-      "fecha": "2026-11-11T20:34:15+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "28f0f08464bc4ff5",
-      "titulo": "141 mujeres han sido asesinadas en el Valle del Cauca durante 2026: ¿Qué hay detrás de estos casos?",
-      "categoria": "Valle del Cauca",
-      "fuente": "La FM Actualidad",
-      "url": "https://www.lafm.com.co/actualidad/141-mujeres-asesinadas-valle-durante-2026-que-hay-detras-casos-416920",
-      "fecha": "2026-11-11T20:31:37+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "cefcbca8a13ab0d6",
-      "titulo": "De ‘Caminos Comunitarios’ a ‘Caminos del Tigre’: la ruta del Gobierno para intervenir 30.000 km de vías regionales",
-      "categoria": "Colombia",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/infraestructura/de-caminos-comunitarios-a-caminos-del-tigre-la-ruta-del-gobierno-para-intervenir-30-000-km-de-vias-regionales-506142",
-      "fecha": "2026-11-11T20:30:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "e5310c6161e97c77",
-      "titulo": "Prima de diciembre 2026: ¿desde qué fecha pueden empezar a pagarla las empresas?",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/prima-de-diciembre-2026-desde-que-fecha-pueden-empezar-a-pagarla-las-empresas-506169",
-      "fecha": "2026-11-11T20:29:01+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "a847014c978a2d70",
-      "titulo": "El desgarrador mensaje que una niña le habría dejado a un joven fallecido en accidente de moto: ‘Te espero en mi próximo cumple’",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/el-desgarrador-mensaje-que-una-nina-le-habria-dejado-a-un-joven-fallecido-en-accidente-de-moto-te-espero-en-mi-proximo-cumple-3600283",
-      "fecha": "2026-11-11T20:23:43+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "e8a77b2fcd82aa88",
-      "titulo": "11 del 11 en un año 1: el poderoso portal energético que anuncia nuevos comienzos",
-      "categoria": "Colombia",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/secciones/esoterico/portal-11-11-la-poderosa-energia-numerologica-del-2026/",
-      "fecha": "2026-11-11T20:03:51+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "6f69930a72a6e7d5",
-      "titulo": "A una semana de la tragedia, la Fiscalía se suma a la búsqueda de la pequeña Zoé: su familia en Soledad mantiene la esperanza de encontrarla",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/barranquilla/a-una-semana-de-la-tragedia-la-fiscalia-se-suma-a-la-busqueda-de-la-pequena-zoe-su-familia-en-soledad-mantiene-la-esperanza-de-encontrarla-3600267",
-      "fecha": "2026-11-11T20:01:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "0ea8f293c01a4756",
-      "titulo": "Tarjetas de crédito: estas son las tasas de interés para financiar las compras de Navidad en Colombia",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/noticias/tarjetas-de-credito-estas-son-las-tasas-de-interes-para-financiar-las-compras-de-navidad-en-colombia/",
-      "fecha": "2026-11-11T20:00:17+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "2d495e77d53f9c62",
-      "titulo": "Nuevo ataque con drones en el peaje de Cachimbal, de Mondomo, Cauca: es el segundo en menos de una semana",
-      "categoria": "Cali",
-      "fuente": "El Tiempo Cali",
-      "url": "https://www.eltiempo.com/colombia/cali/nuevo-ataque-con-drones-en-el-peaje-de-cachimbal-en-cauca-es-el-segundo-en-menos-de-una-semana-3600250",
-      "fecha": "2026-11-11T19:53:45+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "f42af536563f660f",
-      "titulo": "Abelardo activa despliegue para rescatar a esposa del alcalde de Uribia",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/en-vivo/abelardo-activa-despliegue-para-rescatar-a-esposa-del-alcalde-de-uribia/",
-      "fecha": "2026-11-11T19:53:35+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "359611768a3bbbe3",
-      "titulo": "La cifra oculta del acoso sexual en las Fuerzas Armadas alemanas",
-      "categoria": "Internacional",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/la-cifra-oculta-del-acoso-sexual-en-las-fuerzas-armadas-alemanas/a-79922583?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-11T19:52:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "3a7e67f9ffd95aae",
-      "titulo": "Exclusivo | Documento de MinMinas denuncia exceso de cupos para vender combustible con exenciones en frontera durante el gobierno Petro",
-      "categoria": "Colombia",
-      "fuente": "La FM Economía",
-      "url": "https://www.lafm.com.co/economia/minminas-denuncia-exceso-de-cupos-de-combustible-en-frontera-durante-gobierno-petro-416914",
-      "fecha": "2026-11-11T19:50:58+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "2e0396b57f9e16a4",
-      "titulo": "Evelin Trejos remontó ante Japón y clasificó a la final del boxeo en Dakar 2026",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/deportes/evelin-trejos-remonto-ante-japon-y-clasifico-a-la-final-del-boxeo-en-dakar-2026/",
-      "fecha": "2026-11-11T19:50:37+00:00",
       "imagen": ""
     }
   ],
