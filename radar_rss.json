@@ -1,6 +1,24 @@
 {
-  "ultima_actualizacion": "2026-11-11T03:32:00.068853+00:00",
+  "ultima_actualizacion": "2026-11-11T04:38:55.321433+00:00",
   "titulares_rss": [
+    {
+      "id": "a4aa84d265b21e18",
+      "titulo": "Alias Tom, histórico cabecilla de 'La Oficina' comparado en su momento con Pablo Escobar, tendrá un periodo de prueba: esto se sabe",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/medellin/lo-que-debera-cumplir-alias-tom-historico-cabecilla-de-la-oficina-comparado-en-su-momento-con-pablo-escobar-para-conservar-su-libertad-condicional-3600070",
+      "fecha": "2026-11-11T04:25:11+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "fdc1d457d4d30045",
+      "titulo": "James apareció en el cierre y rescató a Nacional en la ida de semifinales de la Copa Betplay",
+      "categoria": "Deportes",
+      "fuente": "La FM Deportes",
+      "url": "https://www.lafm.com.co/deportes/james-aparecio-en-el-cierre-y-rescato-a-nacional-en-la-ida-de-semifinales-de-la-copa-betplay-416802",
+      "fecha": "2026-11-11T03:40:36+00:00",
+      "imagen": ""
+    },
     {
       "id": "6df9c32468268f5b",
       "titulo": "Falla técnica afecta los sistemas de registro y embarque de El Dorado",
@@ -398,6 +416,15 @@
       "imagen": ""
     },
     {
+      "id": "1b9b3c0d0743c589",
+      "titulo": "Dos nuevas donaciones de lámparas solares y kits escolares llegan al Chocó",
+      "categoria": "Colombia",
+      "fuente": "Chocó 7 días",
+      "url": "https://choco7dias.com/dos-nuevas-donaciones-de-lamparas-solares-y-kits-escolares-llegan-al-choco/",
+      "fecha": "2026-11-10T23:35:56+00:00",
+      "imagen": ""
+    },
+    {
       "id": "4b6a71a694a4f4fd",
       "titulo": "Presupuesto de Cali para 2027: concejales alertan por recortes millonarios en programas sociales para niños, mujeres y adultos mayores",
       "categoria": "Cali",
@@ -513,33 +540,6 @@
       "url": "https://www.dw.com/es/aliado-de-trump-es-el-nuevo-líder-de-los-republicanos-en-la-cámara-de-representantes/a-79913634?maca=spa-rss-sp-all-1122-rdf",
       "fecha": "2026-11-10T22:50:00+00:00",
       "imagen": ""
-    },
-    {
-      "id": "a03dd2101578131e",
-      "titulo": "Balance de la gobernación del valle a 3 meses del sismo ¿Dónde va la reconstrucción?",
-      "categoria": "Valle del Cauca",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/valle-del-cauca/balance-de-la-gobernacion-del-valle-del-cauca-terremoto-10-11-2026/",
-      "fecha": "2026-11-10T22:45:38+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "3f6619ea34a503db",
-      "titulo": "Demoliciones en Cali tras el sismo: 21 edificios ya fueron derribados y 13 siguen en intervención",
-      "categoria": "Cali",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/cali/demoliciones-en-cali-balance-sismo-edificaciones-intervenidas-2026/",
-      "fecha": "2026-11-10T22:44:50+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "603c37a0bd5d2255",
-      "titulo": "Análisis: Hegseth se enfrenta al \"impeachment\" por la guerra en Irán, pero es Trump quien definirá su destino",
-      "categoria": "Internacional",
-      "fuente": "BBC Mundo",
-      "url": "https://www.bbc.com/mundo/articles/ck8dzdvn6d0mo?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-10T22:40:31+00:00",
-      "imagen": ""
     }
   ],
   "estado_fuentes": [
@@ -553,7 +553,7 @@
       "nombre": "El Tiempo Cali",
       "url": "https://www.eltiempo.com/rss/colombia_cali.xml",
       "estado": "correcto",
-      "titulares": 6
+      "titulares": 7
     },
     {
       "nombre": "El Espectador",
@@ -620,7 +620,7 @@
       "nombre": "La FM Deportes",
       "url": "https://www.lafm.com.co/rss/deportes.xml",
       "estado": "correcto",
-      "titulares": 17
+      "titulares": 18
     },
     {
       "nombre": "La FM Economía",
@@ -661,9 +661,8 @@
     {
       "nombre": "Chocó 7 días",
       "url": "https://choco7dias.com/feed/",
-      "estado": "error",
-      "titulares": 0,
-      "detalle": "415 Client Error: Unsupported Media Type for url: https://choco7dias.com/feed/"
+      "estado": "correcto",
+      "titulares": 10
     },
     {
       "nombre": "La Patria — Caldas",
