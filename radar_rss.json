@@ -1,6 +1,33 @@
 {
-  "ultima_actualizacion": "2026-11-11T05:39:12.355602+00:00",
+  "ultima_actualizacion": "2026-11-11T06:40:26.166268+00:00",
   "titulares_rss": [
+    {
+      "id": "d3d795ef60b81708",
+      "titulo": "Hoy en Action (por 16,77 euros): la bomba de aire inalámbrica 3 en 1 de Grundig para llevar siempre en el coche",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/seleccion/hoy-action-16-77-euros-bomba-aire-inalambrica-3-1-grundig-para-llevar-siempre-coche",
+      "fecha": "2026-11-11T06:31:48+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "8822819923c19525",
+      "titulo": "'El Valle lo reconstruimos juntos': así va la recuperación del departamento a tres meses del terremoto",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/cali/el-valle-lo-reconstruimos-juntos-asi-va-la-recuperacion-del-departamento-a-tres-meses-del-terremoto-3600083",
+      "fecha": "2026-11-11T06:03:43+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "ef7f08bc3d374a66",
+      "titulo": "Los poderosos del gobierno De la Espriella: amigos, expertos y costeños",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/silla-nacional/los-poderosos-del-gobierno-de-la-espriella-amigos-expertos-y-costenos/",
+      "fecha": "2026-11-11T06:00:00+00:00",
+      "imagen": ""
+    },
     {
       "id": "efbf00b6295de715",
       "titulo": "Almuerzo de trabajo",
@@ -513,33 +540,6 @@
       "url": "https://www.portafolio.co/economia/gobierno/supersalud-pone-contra-las-cuerdas-a-sanitas-ordena-soluciones-inmediatas-por-fallas-en-la-entrega-de-medicamentos-506111",
       "fecha": "2026-11-11T02:50:21+00:00",
       "imagen": ""
-    },
-    {
-      "id": "4729379d88349489",
-      "titulo": "Nueva falla en el aeropuerto El Dorado: OPAIN activa planes de contingencia para atender a los pasajeros",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/infraestructura/nueva-falla-en-el-aeropuerto-el-dorado-opain-activa-planes-de-contingencia-para-atender-a-los-pasajeros-506112",
-      "fecha": "2026-11-11T02:49:53+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "675e9d4036e7fa71",
-      "titulo": "Los detalles desconocidos de la salida de 3 generales del Ejército: ¿se van por bajos resultados contra el crimen?",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/militares-salida-3-generales-ejercito-detalles-ineditos-bajos-resultados-HA43437167",
-      "fecha": "2026-11-11T02:48:52+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "8945ac340f7e7b0e",
-      "titulo": "Registrador Penagos habría denunciado desde marzo el presunto plan para alterar los sistemas informáticos de la Registraduría",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/registrador-penagos-habria-denunciado-marzo-plan-alterar-sistemas-informaticos-registraduria-JA43436492",
-      "fecha": "2026-11-11T02:43:11+00:00",
-      "imagen": ""
     }
   ],
   "estado_fuentes": [
@@ -553,7 +553,7 @@
       "nombre": "El Tiempo Cali",
       "url": "https://www.eltiempo.com/rss/colombia_cali.xml",
       "estado": "correcto",
-      "titulares": 7
+      "titulares": 6
     },
     {
       "nombre": "El Espectador",
