@@ -1,6 +1,15 @@
 {
-  "ultima_actualizacion": "2026-11-11T06:40:26.166268+00:00",
+  "ultima_actualizacion": "2026-11-11T07:56:48.108361+00:00",
   "titulares_rss": [
+    {
+      "id": "b4373fdf7c32856c",
+      "titulo": "Cuatro voluntarios salen de un hábitat marciano impreso en 3D tras un año sin ventanas ni llamadas en tiempo real",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/espacio/cuatro-voluntarios-salen-habitat-marciano-impreso-3d-ano-ventanas-llamadas-tiempo-real",
+      "fecha": "2026-11-11T07:01:49+00:00",
+      "imagen": ""
+    },
     {
       "id": "d3d795ef60b81708",
       "titulo": "Hoy en Action (por 16,77 euros): la bomba de aire inalámbrica 3 en 1 de Grundig para llevar siempre en el coche",
@@ -8,6 +17,24 @@
       "fuente": "Xataka",
       "url": "https://www.xataka.com/seleccion/hoy-action-16-77-euros-bomba-aire-inalambrica-3-1-grundig-para-llevar-siempre-coche",
       "fecha": "2026-11-11T06:31:48+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "fd88bdc70915c240",
+      "titulo": "Supersalud impuso medida cautelar a EPS Sanitas por demoras, entregas incompletas de medicamentos y fallas en la atención farmacéutica a sus afiliados",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/supersalud-impuso-medida-cautelar-a-eps-sanitas-por-demoras-entregas-incompletas-de-medicamentos-y-fallas-en-la-atencion-farmaceutica-a-sus-afiliados-3600084",
+      "fecha": "2026-11-11T06:28:50+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "2a7fe3d3c68cb5a0",
+      "titulo": "RD Congo supera barrera de los 11.000 casos de ébola, incluidos 5.387 muertos",
+      "categoria": "Internacional",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/rd-congo-supera-barrera-de-los-11-000-casos-de-ébola-incluidos-5-387-muertos/a-79914424?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-11T06:27:00+00:00",
       "imagen": ""
     },
     {
@@ -513,33 +540,6 @@
       "url": "https://www.lafm.com.co/economia/plan-de-desarrollo-abelardo-de-la-espriella-estratos-subsidio-servicios-publicos-cambios-416810",
       "fecha": "2026-11-11T03:01:10+00:00",
       "imagen": ""
-    },
-    {
-      "id": "fa51127f23ffa1b5",
-      "titulo": "Aprenda cómo redactar y presentar un derecho de petición ante una EPS o el Estado",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/aprenda-redactar-y-presentar-derecho-peticion-para-acceder-informacion-oficial-BA43436304",
-      "fecha": "2026-11-11T03:00:42+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "5803e2994f114e11",
-      "titulo": "Misterio en represa de Betania: joven desapareció tras una fiesta en una embarcación y su familia recibió versiones contradictorias sobre su muerte",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/misterio-en-represa-de-betania-joven-desaparecio-tras-una-fiesta-en-una-embarcacion-y-su-familia-recibio-versiones-contradictorias-sobre-su-muerte-3600039",
-      "fecha": "2026-11-11T02:52:25+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "beb647b148cd1eb6",
-      "titulo": "Supersalud pone contra las cuerdas a Sanitas: ordena soluciones inmediatas por fallas en la entrega de medicamentos",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/gobierno/supersalud-pone-contra-las-cuerdas-a-sanitas-ordena-soluciones-inmediatas-por-fallas-en-la-entrega-de-medicamentos-506111",
-      "fecha": "2026-11-11T02:50:21+00:00",
-      "imagen": ""
     }
   ],
   "estado_fuentes": [
@@ -553,7 +553,7 @@
       "nombre": "El Tiempo Cali",
       "url": "https://www.eltiempo.com/rss/colombia_cali.xml",
       "estado": "correcto",
-      "titulares": 6
+      "titulares": 7
     },
     {
       "nombre": "El Espectador",
