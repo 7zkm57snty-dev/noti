@@ -1,13 +1,58 @@
 {
-  "ultima_actualizacion": "2026-11-11T22:27:56.164654+00:00",
+  "ultima_actualizacion": "2026-11-11T23:05:08.843512+00:00",
   "titulares_rss": [
     {
+      "id": "c84ef1cdab43fe0e",
+      "titulo": "Las contradicciones de Petro y el futuro del progresismo",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/red-de-expertos/las-contradicciones-de-petro-y-el-futuro-del-progresismo/",
+      "fecha": "2026-11-11T23:03:48+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "df35573b1a57652d",
+      "titulo": "Con restricciones, Corte avaló la emergencia económica de Abelardo",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/con-restricciones-corte-avalo-la-emergencia-economica-de-abelardo/",
+      "fecha": "2026-11-11T22:51:31+00:00",
+      "imagen": ""
+    },
+    {
       "id": "4fe4bc4decc4e277",
-      "titulo": "La visita del papa León XIV, en vivo | El papa León XIV aterriza en Lima",
+      "titulo": "La visita del papa León XIV, en vivo | El papa León XIV inicia en Lima la última etapa de su gira por Sudamérica",
       "categoria": "Colombia",
       "fuente": "El País Colombia",
       "url": "https://elpais.com/america/2026-11-11/la-visita-del-papa-leon-xiv-en-vivo.html",
-      "fecha": "2026-11-11T22:22:34+00:00",
+      "fecha": "2026-11-11T22:46:25+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "b2ffd8f512030cd2",
+      "titulo": "La deuda externa representa 50% del PIB nacional, alcanzó US$254.000 millones en agosto",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/economia/la-deuda-externa-representa-50-del-pib-nacional-alcanzo-us-254-000-millones-en-agosto-4522792",
+      "fecha": "2026-11-11T22:37:52+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "3dc8cb0a40935e85",
+      "titulo": "Los siete proyectos de minerales críticos en la Milagro Week",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/silla-amazonia/amazonia-en-breve/los-siete-proyectos-de-minerales-criticos-en-la-milagro-week/",
+      "fecha": "2026-11-11T22:31:16+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "55b3f2760f0ba32b",
+      "titulo": "Eventual arancel del 83 % a las llantas chinas podría encarecer los pasajes de bus y fletes de carga en Colombia",
+      "categoria": "Internacional",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/impuestos/eventual-arancel-del-83-a-las-llantas-chinas-podria-encarecer-los-pasajes-de-bus-y-fletes-de-carga-en-colombia-506183",
+      "fecha": "2026-11-11T22:18:52+00:00",
       "imagen": ""
     },
     {
@@ -38,6 +83,15 @@
       "imagen": ""
     },
     {
+      "id": "e19f1159511adb3e",
+      "titulo": "¿Va a sacar pasaporte? Advierten sobre páginas web falsas que cobran por citas y roban datos personales",
+      "categoria": "Colombia",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/colombia/paginas-web-falsas-de-pasaportes-alerta-cancilleria-estafas-2026/",
+      "fecha": "2026-11-11T22:01:46+00:00",
+      "imagen": ""
+    },
+    {
       "id": "07149f49485c018c",
       "titulo": "Cerca de 100.000 pasajeros llegarían por tierra a Barranquilla durante la semana de la final entre Boca Juniors y Atlético Mineiro por Sudamericana",
       "categoria": "Colombia",
@@ -53,6 +107,15 @@
       "fuente": "La Silla Vacía",
       "url": "https://www.lasillavacia.com/en-vivo/use-lenguaje-inapropiado-e-irrespetuoso-bula-se-disculpa-con-democratas/",
       "fecha": "2026-11-11T21:55:28+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "7fb956858760cc87",
+      "titulo": "Robo en el sur de Cali terminó en enfrentamiento con la Policía: un sospechoso murió, otro resultó herido y uno fue capturado",
+      "categoria": "Cali",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/cali/intento-de-robo-en-el-sur-de-cali-abatido-capturados-policia-2026/",
+      "fecha": "2026-11-11T21:54:54+00:00",
       "imagen": ""
     },
     {
@@ -206,6 +269,15 @@
       "fuente": "DW Español",
       "url": "https://www.dw.com/es/otan-asegura-que-estados-unidos-europa-y-ucrania-están-completamente-alineados-y-unidos/a-79924342?maca=spa-rss-sp-all-1122-rdf",
       "fecha": "2026-11-11T21:18:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "2e4987cb6c7cd37b",
+      "titulo": "¿Qué es CoreWeave y qué papel tuvo en el repunte que hubo este miércoles en Wall Street?",
+      "categoria": "Internacional",
+      "fuente": "La FM Internacional",
+      "url": "https://www.lafm.com.co/internacional/que-coreweave-que-papel-tuvo-repunte-hubo-miercoles-wall-street-416928",
+      "fecha": "2026-11-11T21:17:58+00:00",
       "imagen": ""
     },
     {
@@ -425,15 +497,6 @@
       "imagen": ""
     },
     {
-      "id": "c64a29b9b6d5b11a",
-      "titulo": "Salario mínimo de 2027: Gobierno prepara sus fichas para la negociación con empresarios y sindicatos",
-      "categoria": "Colombia",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/gobierno/salario-minimo-de-2027-gobierno-prepara-sus-fichas-para-la-negociacion-con-empresarios-y-sindicatos-506164",
-      "fecha": "2026-11-11T19:57:25+00:00",
-      "imagen": ""
-    },
-    {
       "id": "2d495e77d53f9c62",
       "titulo": "Nuevo ataque con drones en el peaje de Cachimbal, de Mondomo, Cauca: es el segundo en menos de una semana",
       "categoria": "Cali",
@@ -476,69 +539,6 @@
       "fuente": "El Diario — Pereira",
       "url": "https://www.eldiario.com.co/deportes/evelin-trejos-remonto-ante-japon-y-clasifico-a-la-final-del-boxeo-en-dakar-2026/",
       "fecha": "2026-11-11T19:50:37+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "8a8ebe8429798c8f",
-      "titulo": "¿Por qué en Cali las fotomultas funcionan y los semáforos no?",
-      "categoria": "Cali",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/opinion/editorial/alcaldia-de-cali-enfrenta-criticas-por-fallas-en-semaforos/",
-      "fecha": "2026-11-11T19:50:24+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "e48f5f915542596f",
-      "titulo": "¿Por qué Tesla dejará de producir el Cybertruck a mediados de 2027?",
-      "categoria": "Internacional",
-      "fuente": "La FM Internacional",
-      "url": "https://www.lafm.com.co/internacional/tesla-dejara-fabricar-cybertruck-elon-musk-apuesta-robotaxis-416913",
-      "fecha": "2026-11-11T19:49:54+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "0d1ca01c3dd5a97e",
-      "titulo": "Secuestran a Nancy Gómez, esposa del alcalde de Uribia, cuando se encontraba en un gimnasio en La Guajira",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/actualidad/secuestran-a-nancy-gomez-esposa-del-alcalde-de-uribia-cuando-se-encontraba-en-un-gimnasio-en-la-guajira/",
-      "fecha": "2026-11-11T19:48:46+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "e18eaf35ced94867",
-      "titulo": "Los peajes dinamitados",
-      "categoria": "Colombia",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/opinion/columnistas/los-peajes-dinamitados/",
-      "fecha": "2026-11-11T19:46:38+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "0c6257d23200d107",
-      "titulo": "Mujer china acusada de espiar al jefe de Nvidia ingresó a Taiwán con pasaporte hongkonés",
-      "categoria": "Internacional",
-      "fuente": "La FM Internacional",
-      "url": "https://www.lafm.com.co/internacional/alice-huang-espia-china-ingreso-taiwan-pasaporte-hong-kong-416909",
-      "fecha": "2026-11-11T19:44:38+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "f3fe75910d6f6a07",
-      "titulo": "La tecnología al servicio del terror",
-      "categoria": "Tecnología",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/opinion/columnistas/la-tecnologia-al-servicio-del-terror/",
-      "fecha": "2026-11-11T19:43:44+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "30c831fc57e97097",
-      "titulo": "“Kilogramos de democracia”",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/america-colombia/2026-11-11/kilogramos-de-democracia.html",
-      "fecha": "2026-11-11T19:39:43+00:00",
       "imagen": ""
     }
   ],
