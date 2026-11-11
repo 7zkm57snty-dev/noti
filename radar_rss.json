@@ -1,6 +1,285 @@
 {
-  "ultima_actualizacion": "2026-11-11T16:37:30.612653+00:00",
+  "ultima_actualizacion": "2026-11-11T17:38:59.378156+00:00",
   "titulares_rss": [
+    {
+      "id": "049e33cd0fa67a36",
+      "titulo": "El oro repunta tras fuerte caída, pero es lastrado por las señales restrictivas de la Fed",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/finanzas/el-oro-repunta-tras-fuerte-caida-pero-es-lastrado-por-las-senales-restrictivas-de-la-fed-4522558",
+      "fecha": "2026-11-11T17:33:53+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "a15b7f643b9211c7",
+      "titulo": "Huelga general 11N y actualidad política, en directo | Miles de personas recorren las calles de numerosas ciudades en las manifestaciones de la huelga general",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/espana/2026-11-11/ultima-hora-de-la-huelga-general-y-la-actualidad-politica-en-directo.html",
+      "fecha": "2026-11-11T17:33:22+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "27e0b0cf05d30dbf",
+      "titulo": "DaviBank reportó que su app y Banca Virtual funcionan con normalidad, tras superar fallas",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/finanzas/davibank-reporto-que-su-app-y-banca-virtual-funcionan-con-normalidad-tras-superar-fallas-4522581",
+      "fecha": "2026-11-11T17:32:47+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "e2ee78b6835a8e92",
+      "titulo": "La salida a bolsa de Anthropic se estaba desinflando. Ahora tiene más demanda institucional que SpaceX",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/empresas-y-economia/salida-a-bolsa-anthropic-se-estaba-desinflando-ahora-tiene-demanda-institucional-que-spacex",
+      "fecha": "2026-11-11T17:31:48+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "2eaf676ab4434d4c",
+      "titulo": "Una Procuraduría preventiva, más ágil, eficaz y cercana a la gente. 1. Eje Prevención",
+      "categoria": "Colombia",
+      "fuente": "Chocó 7 días",
+      "url": "https://choco7dias.com/una-procuraduria-preventiva-mas-agil-eficaz-y-cercana-a-la-gente-1-eje-prevencion/",
+      "fecha": "2026-11-11T17:25:06+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "9b41754599c3c3c3",
+      "titulo": "Regulador investiga a TikTok pero no bloqueará app en España tras solicitud",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/globoeconomia/regulador-investiga-a-tiktok-pero-no-bloqueara-app-en-espana-tras-solicitud-4522596",
+      "fecha": "2026-11-11T17:22:31+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "0af8e4c84d54fb30",
+      "titulo": "Estudio asegura que un cuarto de los alemanes quiere una dictadura de derecha",
+      "categoria": "Internacional",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/estudio-asegura-que-un-cuarto-de-los-alemanes-quiere-una-dictadura-de-derecha/a-79922826?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-11T17:21:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "4c745ae428bead59",
+      "titulo": "Subsidios de vivienda en Felidia y El Saladito: conoce quiénes pueden acceder y los requisitos",
+      "categoria": "Valle del Cauca",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/cali/subsidios-vivienda-felidia-saladito-11-11-2026/",
+      "fecha": "2026-11-11T17:19:28+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "70b275baf659149d",
+      "titulo": "Deuda externa de Colombia llegó a US$254.771 millones en agosto, aunque bajó frente a julio",
+      "categoria": "Colombia",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/crecimiento/deuda-externa-de-colombia-llego-a-us-254-771-millones-en-agosto-aunque-bajo-frente-a-julio-506154",
+      "fecha": "2026-11-11T17:17:17+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "29505669c046017f",
+      "titulo": "Lidl trae a su tienda online la chimenea eléctrica con efectos de llama que tiene varias temperaturas y un diseño muy decorativo",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/seleccion/lidl-trae-a-su-tienda-online-chimenea-electrica-efectos-llama-que-tiene-varias-temperaturas-diseno-muy-decorativo",
+      "fecha": "2026-11-11T17:15:48+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "58eae33c776363f2",
+      "titulo": "El presidente De La Espriella levantará el hospital de Roldanillo, destruido en un 80 %, con más de $ 12.700 millones: la obra se hará en 10 meses",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/cali/el-presidente-de-la-espriella-levantara-el-hospital-de-roldanillo-destruido-en-un-80-con-mas-de-12-700-millones-la-obra-se-hara-en-10-meses-3600217",
+      "fecha": "2026-11-11T17:12:18+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "536b81b9abe18049",
+      "titulo": "EPS e IPS deberán prepararse: Ministerio anunció nuevas reglas para MIPRES en Colombia",
+      "categoria": "Colombia",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/gobierno/eps-e-ips-deberan-prepararse-ministerio-anuncio-nuevas-reglas-para-mipres-en-colombia-506152",
+      "fecha": "2026-11-11T17:11:38+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "ae2df3c91ee943b4",
+      "titulo": "Avistados ejemplares de cigüeña americana en el lago de Texcoco, una especie nunca antes vista en el ecosistema",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/mexico/2026-11-11/avistados-ejemplares-de-ciguena-americana-en-el-lago-de-texcoco-una-especie-nunca-antes-vista-en-el-ecosistema.html",
+      "fecha": "2026-11-11T17:11:02+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "b3a22f6081539d3c",
+      "titulo": "Atentado contra RCN en Cali, últimas noticias y nuevos detalles: la Flip advierte que sede del medio sufrió cuatro ataques con explosivos desde 2025",
+      "categoria": "Cali",
+      "fuente": "El Tiempo Cali",
+      "url": "https://www.eltiempo.com/colombia/cali/atentado-con-granada-contra-rcn-en-cali-reacciones-ultimas-noticias-recompensa-y-nuevos-detalles-del-ataque-3600108",
+      "fecha": "2026-11-11T17:10:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "7f42d74f73e6ca31",
+      "titulo": "La industria alimentaria en Panamá tendrá 36 meses para eliminar el uso de grasas trans",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/globoeconomia/la-industria-alimentaria-en-panama-tendra-36-meses-para-eliminar-el-uso-de-grasas-trans-4522579",
+      "fecha": "2026-11-11T17:06:40+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "4713c89d75ea400d",
+      "titulo": "Gobierno De la Espriella no logró mayor incautación de cocaína en diez años",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/detector-de-mentiras/falso/gobierno-de-la-espriella-no-logro-mayor-incautacion-de-cocaina-en-diez-anos/",
+      "fecha": "2026-11-11T17:03:53+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "2d10a05f94e2c784",
+      "titulo": "Confecoop y Gobierno buscan fortalecer la capacidad productiva de las cooperativas",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/economia/confecoop-y-gobierno-buscan-fortalecer-la-capacidad-productiva-de-las-cooperativas-4522537",
+      "fecha": "2026-11-11T17:03:49+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "f5e77ff72965bc74",
+      "titulo": "Las cámaras de Ring ahora se mueven: Amazon entra en el mundo de los robots domésticos con un dron que vuela por el salón de casa",
+      "categoria": "Internacional",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/robotica-e-ia/camaras-ring-ahora-se-mueven-amazon-entra-mundo-robots-domesticos-dron-que-vuela-salon-casa",
+      "fecha": "2026-11-11T17:01:49+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "983578e80143d44c",
+      "titulo": "Consternación en Barranquilla por la muerte de Gina Ester, la comerciante baleada dentro de su casa en barrio Valle: investigan los móviles del crimen",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/barranquilla/consternacion-en-barranquilla-por-la-muerte-de-gina-ester-la-comerciante-baleada-dentro-de-su-casa-en-barrio-valle-investigan-los-moviles-del-crimen-3600216",
+      "fecha": "2026-11-11T17:01:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "3857c478b4d9675e",
+      "titulo": "En imágenes: decenas de detenidos en la primera huelga general en España en 14 años",
+      "categoria": "Internacional",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/ckx28e5lj300o?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-11T16:59:13+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "48761ada80c875af",
+      "titulo": "Los resultados de Petrobras decepcionan a pesar del impulso favorable de los sectores petrolero y de refinación",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/globoeconomia/los-resultados-de-petrobras-decepcionan-a-pesar-del-impulso-favorable-de-los-sectores-petrolero-y-de-refinacion-4522560",
+      "fecha": "2026-11-11T16:57:02+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "a3740621c7f0f91d",
+      "titulo": "¿Cuánto cuesta recuperar los ríos del sur del Tolima afectados por la minería ilegal de oro? Hay alteración de cauces, deforestación y contaminación",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/cuanto-cuesta-recuperar-los-rios-del-sur-del-tolima-afectados-por-la-mineria-ilegal-de-oro-hay-alteracion-de-cauces-deforestacion-y-contaminacion-3600220",
+      "fecha": "2026-11-11T16:55:49+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "3273658ca3f21387",
+      "titulo": "Retiran estatua de Diomedes Díaz tras vandalismo en Valledupar: perdió un brazo y será sometida a restauración especializada",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/retiran-estatua-de-diomedes-diaz-tras-vandalismo-en-valledupar-perdio-un-brazo-y-sera-sometida-a-restauracion-especializada-3600218",
+      "fecha": "2026-11-11T16:52:09+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "cba120ab249ea8b2",
+      "titulo": "Petro niega haberse visto con Deicy Jiménez durante su Presidencia",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/sexocontratos-petro-niega-verse-con-deicy-jimenez-durante-presidencia-OG43456697",
+      "fecha": "2026-11-11T16:51:57+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "5a350ff4c88fdc3a",
+      "titulo": "Pacto cuestiona la tributaria de Abelardo y vuelve a llamar a paro",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/en-vivo/pacto-cuestiona-la-tributaria-de-abelardo-y-vuelve-a-llamar-a-paro/",
+      "fecha": "2026-11-11T16:49:42+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "1bd355f5a3724e3f",
+      "titulo": "Conozca las 12 librerías para disfrutar entre libros, café, música y espacios llenos de historia",
+      "categoria": "Tendencias",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/ocio/conozca-las-12-librerias-para-disfrutar-entre-libros-cafe-musica-y-espacios-llenos-de-historia-4522490",
+      "fecha": "2026-11-11T16:48:08+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "0145c1ff2b5255c2",
+      "titulo": "“Puede irse con su trasero no ciudadano a su país”: el agente del ICE que mató a un colombiano en Maine tenía un historial de comentarios racistas",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/us/migracion/2026-11-11/puede-irse-con-su-trasero-no-ciudadano-a-su-pais-el-agente-del-ice-que-mato-a-un-colombiano-en-maine-tenia-un-historial-de-comentarios-racistas.html",
+      "fecha": "2026-11-11T16:46:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "b0e258c198f7747a",
+      "titulo": "¿Va a comprar con tarjeta de crédito en el Black Friday? Estos bancos cobran los intereses más bajos en Colombia",
+      "categoria": "Economía",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/va-a-comprar-con-tarjeta-de-credito-en-el-black-friday-estos-bancos-cobran-los-intereses-mas-bajos-en-colombia-506150",
+      "fecha": "2026-11-11T16:45:54+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "d147f8dfb4f65e2b",
+      "titulo": "Doblete de descuentos en el Xiaomi 17T, un gama alta asequible con cámaras Leica y buen rendimiento",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/seleccion/doblete-descuentos-xiaomi-17t-gama-alta-asequible-camaras-leica-buen-rendimiento",
+      "fecha": "2026-11-11T16:45:51+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "3d99196166b3a1b2",
+      "titulo": "Revelan nuevos detalles del secuestro de Nancy Gómez, esposa de alcalde de Uribia, Jaime Luis Buitrago: 'Le escribieron que la próxima iba a ser ella'",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/revelan-nuevos-detalles-del-secuestro-de-nancy-gomez-esposa-de-alcalde-de-uribia-jaime-luis-buitrago-le-escribieron-que-la-proxima-iba-a-ser-ella-3600212",
+      "fecha": "2026-11-11T16:45:24+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "35ed51bc1eb6d2d5",
+      "titulo": "Así fue el primer gol de James con Atlético Nacional: Semifinales de Copa",
+      "categoria": "Valle del Cauca",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/deportes/primer-gol-de-james-con-atletico-nacional-semifinales-de-copa-11-11-2026/",
+      "fecha": "2026-11-11T16:40:46+00:00",
+      "imagen": ""
+    },
     {
       "id": "a2141741402c35d4",
       "titulo": "Ordóñez arremete contra Santos: “Abogado de grupos criminales”",
@@ -8,15 +287,6 @@
       "fuente": "La Silla Vacía",
       "url": "https://www.lasillavacia.com/en-vivo/ordonez-arremete-contra-santos-abogado-de-grupos-criminales/",
       "fecha": "2026-11-11T16:37:21+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "a15b7f643b9211c7",
-      "titulo": "Huelga general 11N y actualidad política, en directo | Más de 40 detenidos en una huelga general que los sindicatos consideran un “éxito” y la patronal desdeña",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/espana/2026-11-11/ultima-hora-de-la-huelga-general-y-la-actualidad-politica-en-directo.html",
-      "fecha": "2026-11-11T16:32:20+00:00",
       "imagen": ""
     },
     {
@@ -125,6 +395,24 @@
       "fuente": "La República",
       "url": "https://www.larepublica.co/economia/gobierno-buscara-inversion-internacional-para-financiar-nuevas-lineas-del-metro-de-bogota-4522498",
       "fecha": "2026-11-11T16:07:33+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "4fe4bc4decc4e277",
+      "titulo": "La visita del papa León XIV, en vivo | El Pontífice concluye su paso por Argentina y viaja a Perú",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/america/2026-11-11/la-visita-del-papa-leon-xiv-en-vivo.html",
+      "fecha": "2026-11-11T16:07:01+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "1e1e76bf6c40138f",
+      "titulo": "Argentina peregrina a Luján para despedir a un Papa que pone en el centro a los marginados",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/argentina/2026-11-11/argentina-peregrina-a-lujan-para-despedir-a-un-papa-que-pone-en-el-centro-a-los-marginados.html",
+      "fecha": "2026-11-11T16:03:35+00:00",
       "imagen": ""
     },
     {
@@ -252,294 +540,6 @@
       "url": "https://www.larepublica.co/economia/minsalud-encontro-posibles-irregularidades-en-8-4-billones-de-contratacion-directa-en-salud-4522414",
       "fecha": "2026-11-11T15:45:11+00:00",
       "imagen": ""
-    },
-    {
-      "id": "35660ac5a84b0da8",
-      "titulo": "Colombia, el país de la OCDE donde más cayó el desempleo en septiembre",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/desempleo-en-colombia-cae-a-9-5-y-registra-la-mayor-baja-entre-los-paises-de-la-ocde-506129",
-      "fecha": "2026-11-11T15:43:23+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "4378addf7d7656c3",
-      "titulo": "Inflación en el Caribe: Cartagena registró la mayor alza mensual del país y Santa Marta lideró el encarecimiento anual, según reporte oficial del DANE",
-      "categoria": "Economía",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/inflacion-en-el-caribe-cartagena-registro-la-mayor-alza-mensual-del-pais-y-santa-marta-lidero-el-encarecimiento-anual-segun-reporte-oficial-del-dane-3600185",
-      "fecha": "2026-11-11T15:41:58+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "4f6dc2ea32581df9",
-      "titulo": "Precio del dólar hoy en Colombia: Así está la moneda el 11 de noviembre",
-      "categoria": "Economía",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/vida-moderna/precio-del-dolar-hoy-en-colombia-11-11-2026/",
-      "fecha": "2026-11-11T15:41:20+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "a0a76b6f05dce657",
-      "titulo": "Nadia Beller, expareja de Cerimedo, viaja a México para recibir asilo tras salir de Bolivia con un salvoconducto",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/mexico/2026-11-11/nadia-beller-expareja-de-cerimedo-viaja-a-mexico-para-recibir-asilo-tras-salir-de-bolivia-con-un-salvoconducto.html",
-      "fecha": "2026-11-11T15:39:50+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "52c1d676111badeb",
-      "titulo": "Por tercera vez, gerente del Fondo Milagro incumple cita con el Congreso para rendir cuentas",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/jaime-andres-uribe-gerente-fondo-milagro-no-asiste-congreso-EG43452327",
-      "fecha": "2026-11-11T15:38:42+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "09093d29c55a6983",
-      "titulo": "Pronóstico del clima Cali miércoles: ¿qué clima hará este día en la ciudad?",
-      "categoria": "Cali",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/vida-moderna/ecologia/pronostico-del-clima-cali-miercoles-11-11-2026/",
-      "fecha": "2026-11-11T15:32:53+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "63b9d630841a24d9",
-      "titulo": "La UE quiere prohibir los patrones oscuros de la web. Lo curioso es que también ha empezado a regular los que todavía no existen",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/legislacion-y-derechos/ue-quiere-prohibir-patrones-oscuros-web-curioso-que-tambien-ha-empezado-a-regular-que-todavia-no-existen",
-      "fecha": "2026-11-11T15:31:48+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "f32ea32c5a1ef8be",
-      "titulo": "Juan Carlos Losada aterriza en Dignidad y Compromiso y suena para 2027",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/en-vivo/juan-carlos-losada-aterriza-en-dignidad-y-compromiso-y-suena-para-2027/",
-      "fecha": "2026-11-11T15:30:39+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "f8aaa89ff2d4ad4e",
-      "titulo": "Corte cita a la directora administrativa del Senado por supuesta intromisión en diligencia por ‘sexocontratos’",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/corte-suprema-cita-astrid-salamanca-intromision-diligencia-sexocontratos-AH43448910",
-      "fecha": "2026-11-11T15:28:05+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "373c71ac7fa3ae0f",
-      "titulo": "Debate del salario mínimo para en México llega con propuestas diferenciadas",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/debate-del-salario-minimo-para-en-mexico-llega-con-propuestas-diferenciadas-4522482",
-      "fecha": "2026-11-11T15:26:26+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "7b9e948ff60dc149",
-      "titulo": "Precio del euro hoy en Colombia: así cotiza la divisa europea este 11 de noviembre",
-      "categoria": "Colombia",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/finanzas/precio-del-euro-hoy-en-colombia-asi-cotiza-la-divisa-europea-este-11-de-noviembre-506133",
-      "fecha": "2026-11-11T15:22:07+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "4affc7919f703a71",
-      "titulo": "Llevó ayudas a damnificados por el terremoto, contrajo malaria y pide ayuda para conseguir una prótesis: 'Seguimos tocando puertas'",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/llevo-ayudas-a-damnificados-por-el-terremoto-contrajo-malaria-y-pide-ayuda-para-conseguir-una-protesis-seguimos-tocando-puertas-3600150",
-      "fecha": "2026-11-11T15:22:06+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "e399324ae29e98c6",
-      "titulo": "Adiós al sobreturismo: ¿cómo lograr que el turismo sea más sustentable e inclusivo?",
-      "categoria": "Internacional",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/adiós-al-sobreturismo-¿cómo-lograr-que-el-turismo-sea-más-sustentable-e-inclusivo/a-79920822?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-11T15:22:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "fe5c61a5f22d3ea9",
-      "titulo": "Cartagena conmemora sus 215 años de Independencia con ofrenda floral y lectura del Acta: Dumek Turbay pidió unidad y más resultados para la ciudad",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/cartagena-conmemoro-sus-215-anos-de-independencia-con-ofrenda-floral-y-lectura-del-acta-dumek-turbay-pidio-unidad-y-mas-resultados-para-la-ciudad-hoy-3600172",
-      "fecha": "2026-11-11T15:20:56+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "55afeb29b6c6c6ff",
-      "titulo": "“Yo tengo un pálpito: el Fondo Milagro no tiene plata”: alcalde de Pereira",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/en-vivo/yo-tengo-un-palpito-el-fondo-milagro-no-tiene-plata-alcalde-de-pereira/",
-      "fecha": "2026-11-11T15:19:29+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "379e111dc32a85d5",
-      "titulo": "En Reino Unido han encontrado el mejor uso posible para los árboles de Navidad: enterrarlos en la playa",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/ecologia-y-naturaleza/reino-unido-han-encontrado-mejor-uso-posible-para-arboles-navidad-enterrarlos-playa",
-      "fecha": "2026-11-11T15:15:47+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "5c72213751c888a8",
-      "titulo": "La marcha atrás con la sanción a la anestesista Miralles: una \"sugerencia\" del MSP tras un pedido de Orsi de revisar la decisión",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/la-marcha-atras-con-la-sancion-a-la-anestesista-miralles-una-sugerencia-del-msp-tras-un-pedido-de-orsi-de-revisar-la-decision-4522474",
-      "fecha": "2026-11-11T15:15:07+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "676f8a3fa43dc921",
-      "titulo": "Denuncian presuntas irregularidades en millonaria compra de tierras por $13.000 millones en Puerto Gaitán, Meta",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/denuncian-irregularidades-compra-tierras-13-000-millones-puerto-gaitan-meta-por-que-GA43434345",
-      "fecha": "2026-11-11T15:13:38+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "4f58d2fee036db37",
-      "titulo": "FILBAC 2026 llega a Barranquilla con más de 120 eventos, invitados internacionales y un homenaje a Álvaro Cepeda Samudio",
-      "categoria": "Internacional",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/barranquilla/filbac-2026-llega-a-barranquilla-con-mas-de-120-eventos-invitados-internacionales-y-un-homenaje-a-alvaro-cepeda-samudio-3600163",
-      "fecha": "2026-11-11T15:11:47+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "f79301e34137fcd2",
-      "titulo": "José Pékerman reveló la verdad de su salida de la Selección Colombia y defendió el proceso de Néstor Lorenzo",
-      "categoria": "Deportes",
-      "fuente": "La FM Deportes",
-      "url": "https://www.lafm.com.co/deportes/jose-pekerman-cuenta-verdad-salida-seleccion-colombia-416865",
-      "fecha": "2026-11-11T15:10:41+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "f97f64b033659fd8",
-      "titulo": "Se disparó el apetito extranjero por la deuda colombiana en octubre",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/en-vivo/se-disparo-el-apetito-extranjero-por-la-deuda-colombiana-en-octubre/",
-      "fecha": "2026-11-11T15:09:14+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "96cbb2ee8e0ca3b8",
-      "titulo": "El trabajo de moda en ingeniería de software ya no es programar: es reunirse con el cliente para asegurarse de que la IA funcione",
-      "categoria": "Tecnología",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/empresas-y-economia/trabajo-moda-ingenieria-software-no-programar-reunirse-cliente-para-asegurarse-que-ia-funcione",
-      "fecha": "2026-11-11T15:01:51+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "03ba7ce02d7d3fea",
-      "titulo": "Cali se pone de puntillas: arranca el Festival Internacional de Ballet con un tributo a las víctimas del devastador terremoto del 10 de agosto",
-      "categoria": "Cali",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/cali/cali-se-pone-de-puntillas-arranca-el-festival-internacional-de-ballet-con-un-tributo-a-las-victimas-del-devastador-terremoto-del-10-de-agosto-3600156",
-      "fecha": "2026-11-11T14:58:25+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "04d66528e48aed8f",
-      "titulo": "\"El capitalismo ya trataba mal a las personas; lo que ha cambiado ahora es que esa lógica se ha adoptado (…) en discursos sobre liderazgo\"",
-      "categoria": "Internacional",
-      "fuente": "BBC Mundo",
-      "url": "https://www.bbc.com/mundo/articles/ck868llen5lgo?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-11T14:54:07+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "05e1da876a56b4be",
-      "titulo": "Hegseth terminará el año en su cargo: Republicanos bloquean intento de juicio político",
-      "categoria": "Internacional",
-      "fuente": "La FM Internacional",
-      "url": "https://www.lafm.com.co/internacional/pete-hegseth-supera-intento-juicio-politico-estados-unidos-416862",
-      "fecha": "2026-11-11T14:52:41+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "a26a7c0386977ef5",
-      "titulo": "El promedio del desempleo de los países de la Ocde fue de 5% en septiembre",
-      "categoria": "Economía",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/el-promedio-del-desempleo-de-los-paises-de-la-ocde-fue-de-5-en-septiembre-4522426",
-      "fecha": "2026-11-11T14:50:23+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "65b7a5fb665ebfb3",
-      "titulo": "Qué ventajas tienen los niños que tienen amigos imaginarios",
-      "categoria": "Internacional",
-      "fuente": "BBC Mundo",
-      "url": "https://www.bbc.com/mundo/articles/c6vg2d59k45ko?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-11T14:50:03+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "9c79d926e995a6a6",
-      "titulo": "90 al día: Las noticias más importantes de la región este miércoles, 11 de noviembre",
-      "categoria": "Valle del Cauca",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/cali/noticias-importantes-miercoles-11-11-2026/",
-      "fecha": "2026-11-11T14:49:34+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "1069292fe0b961e8",
-      "titulo": "¿Cuándo ha pasado el Xiaomi TV Box S 3rd Gen a costar casi el doble? Era la mejor alternativa al Fire TV Stick pero ya no lo es tanto",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/seleccion/cuando-ha-pasado-xiaomi-tv-box-s-3rd-gen-a-costar-casi-doble-era-mejor-alternativa-al-fire-tv-stick-no",
-      "fecha": "2026-11-11T14:45:50+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "b73765516ab561c4",
-      "titulo": "LATAM Cargo triplicará su espacio de bodega en Bogotá con una nueva instalación de 4.312 m² en El Dorado",
-      "categoria": "Colombia",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/infraestructura/latam-cargo-triplicara-su-espacio-de-bodega-en-bogota-con-una-nueva-instalacion-de-4-312-m2-en-el-dorado-506117",
-      "fecha": "2026-11-11T14:45:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "a1c3a7a3fc23fba8",
-      "titulo": "Cinco días de arresto y multa a la mesa directiva del Concejo de Riosucio",
-      "categoria": "Colombia",
-      "fuente": "Chocó 7 días",
-      "url": "https://choco7dias.com/cinco-dias-de-arresto-y-multa-a-la-mesa-directiva-del-concejo-de-riosucio/",
-      "fecha": "2026-11-11T14:41:45+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "704777ba90fc8006",
-      "titulo": "MinAgro no deberá rectificar por llamar “despectivo” al término campesinos",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/en-vivo/minagro-no-debera-rectificar-por-llamar-despectivo-al-termino-campesinos/",
-      "fecha": "2026-11-11T14:41:17+00:00",
-      "imagen": ""
     }
   ],
   "estado_fuentes": [
@@ -596,7 +596,7 @@
       "nombre": "DW Español",
       "url": "https://rss.dw.com/rdf/rss-sp-all",
       "estado": "correcto",
-      "titulares": 29
+      "titulares": 30
     },
     {
       "nombre": "Xataka",
