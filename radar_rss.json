@@ -1,6 +1,87 @@
 {
-  "ultima_actualizacion": "2026-11-12T10:12:03.853339+00:00",
+  "ultima_actualizacion": "2026-11-12T11:15:24.556456+00:00",
   "titulares_rss": [
+    {
+      "id": "f695795de10d554b",
+      "titulo": "Dos muertos y varios heridos por colapso de un edificio en Nueva York",
+      "categoria": "Internacional",
+      "fuente": "La FM Internacional",
+      "url": "https://www.lafm.com.co/internacional/edificio-colapso-nueva-york-estados-unidos-heridos-y-fallecidos-416965",
+      "fecha": "2026-11-12T11:07:14+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "0129203979ba4349",
+      "titulo": "PcComponentes está rebajando (solo hoy) este MacBook Air M5 con 1 TB y casi 200 euros de descuento",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/seleccion/pccomponentes-esta-rebajando-solo-hoy-este-macbook-air-m5-1-tb-casi-200-euros-descuento",
+      "fecha": "2026-11-12T11:01:25+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "ba369708850ed226",
+      "titulo": "Las consolas han cambiado las reglas de los precios, pero PlayStation llevó la filosofía contraria al extremo",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/videojuegos/consolas-han-cambiado-reglas-precios-playstation-llevo-filosofia-contraria-al-extremo",
+      "fecha": "2026-11-12T11:01:24+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "da632f32ab3afb54",
+      "titulo": "¿En qué va el escándalo de Petro por los “sexocontratos”?",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/escandalo-gustavo-petro-sexocontratos-deicy-jimenez-FK43490423",
+      "fecha": "2026-11-12T11:00:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "0e6cf3639d4b060d",
+      "titulo": "Daneidy Barrera, 'Epa Colombia', saldría 'pronto' de la cárcel: su abogada reveló novedad en su caso y afirmó que 'va a estar con su hija en su casa'",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/epa-colombia-saldria-pronto-de-la-carcel-su-abogada-revelo-novedad-en-el-caso-de-la-influencer-y-afirmo-que-va-estar-con-su-hija-en-su-casa-3600387",
+      "fecha": "2026-11-12T10:58:29+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "b512419a3c197d50",
+      "titulo": "Selección de fútbol de EE. UU.: ¿se va Pochettino y llega Guardiola?",
+      "categoria": "Deportes",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/selección-de-fútbol-de-ee-uu-¿se-va-pochettino-y-llega-guardiola/a-79928141?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-12T10:53:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "07f72399a2fcc532",
+      "titulo": "Qué es el ejercicio incidental, la manera de mantenernos en forma y saludables sin intentarlo",
+      "categoria": "Internacional",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/cqj6l2w1je7po?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-12T10:48:37+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "feb6432ee3401d8b",
+      "titulo": "Carrefour se adelanta al Black Friday y liquida este robot aspirador Xiaomi súper potente y con tres horas de autonomía",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/seleccion/carrefour-se-adelanta-al-black-friday-liquida-este-robot-aspirador-xiaomi-super-potente-tres-horas-autonomia",
+      "fecha": "2026-11-12T10:31:23+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "229e438297df1a9a",
+      "titulo": "Un ucraniano construyó el hotel de sus sueños y entonces lo invadió Rusia. A Moscú le acaba de llegar una factura de 5,1 millones de dólares",
+      "categoria": "Economía",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/magnet/ucraniano-construyo-hotel-sus-suenos-entonces-invadio-rusia-a-moscu-le-acaba-llegar-factura-5-1-millones-dolares",
+      "fecha": "2026-11-12T10:31:23+00:00",
+      "imagen": ""
+    },
     {
       "id": "d1b287fb0bbd15d0",
       "titulo": "¡Últimas horas para participar en el sorteo de un calefactor Dreo 714S! Solo para miembros de Xataka Xtra",
@@ -129,7 +210,7 @@
     },
     {
       "id": "d7b04c6fdbc2bf55",
-      "titulo": "En noviembre de 1982, Francia necesitó helicópteros para repartir comida, dinamita para abrir carreteras y miles de velas para poder ver",
+      "titulo": "La noche en que Francia descubrió que para encender una bombilla necesitaba antes un ejército de leñadores armados con motosierras",
       "categoria": "Colombia",
       "fuente": "Xataka",
       "url": "https://www.xataka.com/magnet/1982-francia-tenia-millones-arboles-red-electrica-moderna-fin-semana-precedentes-les-devolvio-a-edad-media",
@@ -459,87 +540,6 @@
       "url": "https://www.larepublica.co/finanzas/grupo-aval-registro-ganancias-por-368-000-millones-durante-el-tercer-trimestre-del-ano-4522871",
       "fecha": "2026-11-12T05:01:18+00:00",
       "imagen": ""
-    },
-    {
-      "id": "da05a496624323a8",
-      "titulo": "Cuatro de seis regiones todavía no alcanzan el objetivo de llenado de los embalses",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/economia/cuatro-de-seis-regiones-aun-no-llegan-a-la-meta-de-llenado-de-los-embalses-4522820",
-      "fecha": "2026-11-12T05:01:14+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "ec20e729be5fd91b",
-      "titulo": "Fiduciaria Bbva lanzará una nueva línea de inversión complementaria para el 2027",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/finanzas/fiduciaria-bbva-lanzara-una-nueva-linea-de-inversion-complementaria-para-el-2027-4522355",
-      "fecha": "2026-11-12T05:01:07+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "3d8421ee11621000",
-      "titulo": "Entre la fiesta y las deudas, guía inteligente para administrar la prima",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/finanzas-personales/entre-la-fiesta-y-las-deudas-guia-inteligente-para-administrar-la-prima-de-diciembre-4522802",
-      "fecha": "2026-11-12T05:01:06+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "e5a1428f9c86e510",
-      "titulo": "La prioridad debe ser la soberanía",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/analisis/jose-david-name-cardozo-507206/la-prioridad-debe-ser-la-soberania-4522884",
-      "fecha": "2026-11-12T05:01:05+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "153db41a6ffe53b3",
-      "titulo": "La inflación de alimentos llegó al nivel más alto en tres años y alcanzó 7,31% en octubre",
-      "categoria": "Economía",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/economia/la-inflacion-de-alimentos-llego-al-nivel-mas-alto-en-tres-anos-y-alcanzo-7-31-4522810",
-      "fecha": "2026-11-12T05:01:03+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "bba5f24c15194c69",
-      "titulo": "El Plan de Desarrollo no es letra muerta",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/opinion/editorial/el-plan-de-desarrollo-no-es-letra-muerta-4522350",
-      "fecha": "2026-11-12T05:01:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "47ce60e52eb01d25",
-      "titulo": "Secuestro agrava crisis de seguridad en La Guajira y hay zozobra por atentados en Cali y otras zonas del país",
-      "categoria": "Cali",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/secuestro-primera-dama-guajira-uribia-terrorismo-cali-casanare-cauca-AK43492174",
-      "fecha": "2026-11-12T05:01:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "2c57b3cf6d69b568",
-      "titulo": "ESTAR DISPONIBLES NO ES ESTAR PRESENTES",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/opinion/estar-disponibles-no-es-estar-presentes/",
-      "fecha": "2026-11-12T05:00:59+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "bf4fb2e614ca1e61",
-      "titulo": "Asesinado a tiros en una carretera",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/judicial/asesinado-a-tiros-en-una-carretera/",
-      "fecha": "2026-11-12T05:00:55+00:00",
-      "imagen": ""
     }
   ],
   "estado_fuentes": [
@@ -590,13 +590,13 @@
       "nombre": "BBC Mundo",
       "url": "https://feeds.bbci.co.uk/mundo/rss.xml",
       "estado": "correcto",
-      "titulares": 31
+      "titulares": 30
     },
     {
       "nombre": "DW Español",
       "url": "https://rss.dw.com/rdf/rss-sp-all",
       "estado": "correcto",
-      "titulares": 26
+      "titulares": 27
     },
     {
       "nombre": "Xataka",
