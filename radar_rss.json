@@ -1,6 +1,375 @@
 {
-  "ultima_actualizacion": "2026-11-12T12:38:28.759841+00:00",
+  "ultima_actualizacion": "2026-11-12T13:55:41.210060+00:00",
   "titulares_rss": [
+    {
+      "id": "f0e637be6897d185",
+      "titulo": "Chiclayo, la tierra que celebra el regreso del papa León XIV, una fiesta seguida desde el Valle y Colombia",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/cali/chiclayo-la-tierra-que-celebra-el-regreso-del-papa-leon-xiv-una-fiesta-seguida-desde-el-valle-y-colombia-3600431",
+      "fecha": "2026-11-12T13:45:06+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "b9bad2285a922a47",
+      "titulo": "Mineros registró una utilidad récord de $768.578 millones en primeros nueve meses de 2026",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/empresas/mineros-registro-una-utilidad-record-de-768-578-millones-en-los-primeros-nueve-meses-de-2026-4523158",
+      "fecha": "2026-11-12T13:43:42+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "742124ee11f1c2e3",
+      "titulo": "Hallan bajo placas de concreto la moto en la que viajaba Zoé: así avanza la búsqueda de la niña arrastrada por un arroyo en Soledad",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/barranquilla/hallan-bajo-placas-de-concreto-la-moto-en-la-que-viajaba-zoe-asi-avanza-la-busqueda-de-la-nina-arrastrada-por-un-arroyo-en-soledad-3600433",
+      "fecha": "2026-11-12T13:42:33+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "b3f010785fce4b8d",
+      "titulo": "Black Friday llegará a Colombia el 27 de noviembre: celulares, televisores, electrodomésticos y ropa entre los productos en oferta",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/actualidad/black-friday-llegara-a-colombia-el-27-de-noviembre-celulares-televisores-electrodomesticos-y-ropa-entre-los-productos-en-oferta/",
+      "fecha": "2026-11-12T13:41:24+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "7b5f163bfd108f12",
+      "titulo": "Fedearroz lanza una alerta por el IVA a los insumos agropecuarios: estos serían los riesgos para el campo",
+      "categoria": "Economía",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/agro/fedearroz-lanza-una-alerta-por-el-iva-a-los-insumos-agropecuarios-estos-serian-los-riesgos-para-el-campo-506213",
+      "fecha": "2026-11-12T13:39:12+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "b63abe6ae3cf83ba",
+      "titulo": "'Lo que pasa en la calle': Los hechos judiciales de este jueves, 12 de noviembre",
+      "categoria": "Valle del Cauca",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/judicial/noticias-judiciales-jueves-12-noviembre-12-11-2026/",
+      "fecha": "2026-11-12T13:38:41+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "cebfdba497dbeb55",
+      "titulo": "\"El papa León XIV es mi padrino de bautizo\": la insólita historia de Mildred Camacho, la joven peruana que es ahijada del Sumo Pontífice",
+      "categoria": "Internacional",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/cqly3jpmvvl9o?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-12T13:37:10+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "8638a7b0396c93fb",
+      "titulo": "El pasado miércoles murió en Medellín Javier ‘El Toro’ Tamayo, histórico delantero del fútbol colombiano que dejó un récord con la Selección Colombia.",
+      "categoria": "Deportes",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/deportes/el-pasado-miercoles-murio-en-medellin-javier-el-toro-tamayo-historico-delantero-del-futbol-colombiano-que-dejo-un-record-con-la-seleccion-colombia/",
+      "fecha": "2026-11-12T13:36:08+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "158cb1eb67384ecb",
+      "titulo": "Por unanimidad, Corte le ordena a Ibáñez rectificar sobre madre de su hijo",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/en-vivo/por-unanimidad-corte-le-ordena-a-ibanez-rectificar-sobre-madre-de-su-hijo/",
+      "fecha": "2026-11-12T13:34:52+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "81543dea0bb738e7",
+      "titulo": "Pronóstico del clima Cali este jueves: ¿qué clima hará este día en la ciudad?",
+      "categoria": "Cali",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/vida-moderna/ecologia/pronostico-del-clima-cali-jueves-12-11-2026/",
+      "fecha": "2026-11-12T13:34:36+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "76c47a0c19a3e24c",
+      "titulo": "Falla eléctrica generó largas filas en el aeropuerto de Rionegro (Antioquia) durante más de cinco horas: así avanza la operación aérea",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/medellin/falla-electrica-genero-largas-filas-en-el-aeropuerto-de-rionegro-antioquia-durante-mas-de-cinco-horas-asi-avanza-la-operacion-aerea-3600434",
+      "fecha": "2026-11-12T13:33:15+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "2a3dd838d571f5de",
+      "titulo": "“Le decían que si quería ser la próxima”: alcalde de Uribia detalló las amenazas que recibió su esposa antes del secuestro",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/secuestro-nancy-yaneth-gomez-esposo-alcalde-uribia-detalles-caso-NK43494449",
+      "fecha": "2026-11-12T13:31:39+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "eb53c3285d8492d8",
+      "titulo": "Blue quiere que dejes el iPhone por un Android con un agente de IA dentro. La gran duda es cómo pagarlo",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/telefono-movil/blue-quiere-que-dejes-iphone-android-agente-ia-dentro-gran-duda-como-pagarlo",
+      "fecha": "2026-11-12T13:31:24+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "de7d669ce4b6401a",
+      "titulo": "Precio del dólar hoy en Colombia: Así está la moneda el 12 de noviembre",
+      "categoria": "Economía",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/vida-moderna/precio-del-dolar-hoy-en-colombia-12-11-2026/",
+      "fecha": "2026-11-12T13:30:14+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "c2d1acb7012a1e4e",
+      "titulo": "Dólar hoy en Colombia: mercado regresa a la normalidad, tras jornada de Next Day por festivo en EE. UU.",
+      "categoria": "Economía",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/finanzas/dolar-hoy-en-colombia-mercado-regresa-a-la-normalidad-tras-jornada-de-next-day-por-festivo-en-ee-uu-506207",
+      "fecha": "2026-11-12T13:27:10+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "83a6aee5fee5d281",
+      "titulo": "\"Me los quitaron porque yo estaba sola\": la mujer que se reencontró con sus hijos 40 años después de que le fueran arrebatados por la dictadura de Pinochet en Chile",
+      "categoria": "Internacional",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/cwr7gr7l9zgvo?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-12T13:26:03+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "9c5d386171bde2b5",
+      "titulo": "Fedearroz respalda ajuste fiscal del Gobierno, pero alerta por IVA que encarecería la producción de alimentos",
+      "categoria": "Colombia",
+      "fuente": "La FM Economía",
+      "url": "https://www.lafm.com.co/economia/fedearroz-alerta-iva-insumos-agropecuarios-ley-rescate-fiscal-416987",
+      "fecha": "2026-11-12T13:23:17+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "b313bb155878fa0a",
+      "titulo": "Santos advierte a De la Espriella que la seguridad no se recupera solo con \"mano dura\"",
+      "categoria": "Valle del Cauca",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/efe/santos-advierte-de-la-espriella-seguridad-no-se-recupera-mano-dura-12-11-2026/",
+      "fecha": "2026-11-12T13:21:54+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "d929475d3013166f",
+      "titulo": "ASODAMAS rechazó el secuestro de Nancy Gómez y pidió su liberación: “Debe regresar a casa, sana y salva”",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/noticias/asodamas-rechazo-el-secuestro-de-nancy-gomez-y-pidio-su-liberacion-debe-regresar-a-casa-sana-y-salva/",
+      "fecha": "2026-11-12T13:16:51+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "f869aabb00df8f07",
+      "titulo": "Este móvil incorpora una batería de nada menos que 25.500 mAh. Su pantalla tiene casi 7 pulgadas y está a la venta con un descuento",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/seleccion/este-movil-incorpora-bateria-nada-que-25-500-mah-su-pantalla-tiene-casi-7-pulgadas-esta-a-venta-descuento",
+      "fecha": "2026-11-12T13:15:26+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "5daaccc747a3aec9",
+      "titulo": "Hospital San José de Popayán, al borde del colapso: tiene insumos para solo 8 días y una deuda de $447.000 millones",
+      "categoria": "Colombia",
+      "fuente": "La FM Actualidad",
+      "url": "https://www.lafm.com.co/actualidad/crisis-economica-hospital-san-jose-de-popayan-deuda-millonaria-416985",
+      "fecha": "2026-11-12T13:14:47+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "ed291c76ed342798",
+      "titulo": "VENTA PARQUEADERO",
+      "categoria": "Colombia",
+      "fuente": "La Patria — Caldas",
+      "url": "https://www.lapatria.com/clasificados/venta-parqueadero-6",
+      "fecha": "2026-11-12T13:14:27+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "f63ccc36862cd919",
+      "titulo": "Bitcoin cae por debajo de US$73.000 por crisis de Nvidia que afecta apetito al riesgo",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/globoeconomia/bitcoin-cae-abajo-de-us-73-000-por-crisis-de-nvidia-que-afecta-apetito-al-riesgo-4523196",
+      "fecha": "2026-11-12T13:14:01+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "9c5498a51484f1bb",
+      "titulo": "Italia mantiene las clases pese a una nueva ola de amenazas de bomba",
+      "categoria": "Internacional",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/italia-mantiene-las-clases-pese-a-una-nueva-ola-de-amenazas-de-bomba/a-79930803?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-12T13:13:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "6365ad0ee533a039",
+      "titulo": "El dólar se cotiza en $3.290,41, $6,66 por debajo de la TRM del día, que se ubicó en $3.297,07",
+      "categoria": "Economía",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/finanzas/precio-del-dolar-y-del-petroleo-hoy-12-de-noviembre-4523172",
+      "fecha": "2026-11-12T13:12:06+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "916878db6933f0ac",
+      "titulo": "Radares apagados y sistemas obsoletos: los hallazgos de la Procuraduría tras fallas en la operación de El Dorado",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/aeropuerto-el-dorado-radares-apagados-sistemas-obsoletos-hallazgos-procuraduria-alerta-aerocivil-EK43493698",
+      "fecha": "2026-11-12T13:10:23+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "da632f32ab3afb54",
+      "titulo": "¿En qué va el escándalo de Petro por los “sexocontratos”?",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/escandalo-gustavo-petro-sexocontratos-deicy-jimenez-FK43490423",
+      "fecha": "2026-11-12T13:09:16+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "0e6cf3639d4b060d",
+      "titulo": "Daneidy Barrera, 'Epa Colombia', saldría 'pronto' de la cárcel: su abogada reveló novedad en su caso y afirmó que 'va a estar con su hija en su casa'",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/epa-colombia-saldria-pronto-de-la-carcel-su-abogada-revelo-novedad-en-el-caso-de-la-influencer-y-afirmo-que-va-estar-con-su-hija-en-su-casa-3600387",
+      "fecha": "2026-11-12T13:07:49+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "ae99a7af98667258",
+      "titulo": "Ejército Nacional incautó 1,7 toneladas de marihuana a las disidencias de las Farc en el norte del Cauca: conductor intentó escapar de retén militar",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/ejercito-nacional-incauto-1-7-toneladas-de-marihuana-a-las-disidencias-de-las-farc-en-el-norte-del-cauca-conductor-intento-escapar-de-reten-militar-3600429",
+      "fecha": "2026-11-12T13:06:36+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "f9030d45b9f1247f",
+      "titulo": "Video | Hombres armados atacaron una camioneta del alcalde de Caloto, Cauca, y secuestraron a uno de sus escoltas: horas después fue liberado",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/cali/hombres-armados-interceptaron-la-camioneta-del-alcalde-de-caloto-uno-de-sus-escoltas-fue-secuestrado-3600405",
+      "fecha": "2026-11-12T13:05:05+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "b4b0fad6ff1ee614",
+      "titulo": "Cementos Argos registró ingresos por $1,35 billones y un Ebitda de $327.000 millones",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/empresas/cementos-argos-registro-ingresos-por-1-35-billones-y-un-ebitda-de-327-000-millones-4523144",
+      "fecha": "2026-11-12T13:04:39+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "fbe97ff1f676bc1f",
+      "titulo": "Solo quedan unos 720 ejemplares de esta ave en el mundo. Un experimento con semen congelado abre una nueva vía para salvarla",
+      "categoria": "Internacional",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/ecologia-y-naturaleza/solo-quedan-unos-720-ejemplares-esta-ave-mundo-experimento-semen-congelado-abre-nueva-via-para-salvarla",
+      "fecha": "2026-11-12T13:01:23+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "181bace5c9b8c5f2",
+      "titulo": "El exintegrante de las Brigadas Rojas italianas detenido en Argentina que escapó por un balcón usando un arnés",
+      "categoria": "Internacional",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/cmly7w7err0yo?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-12T13:00:11+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "b8a158037076306b",
+      "titulo": "El presidente chino invoca al líder revolucionario Sun Yat-sen para reclamar la soberanía sobre Taiwán",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/internacional/2026-11-12/el-presidente-chino-invoca-al-lider-revolucionario-sun-yat-sen-para-reclamar-la-soberania-sobre-taiwan.html",
+      "fecha": "2026-11-12T12:52:44+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "d4b61677e896d231",
+      "titulo": "Anuncian cierres viales en Cali por el partido Colombia vs. Chile; programe su ruta",
+      "categoria": "Cali",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/cali/cierres-viales-cali-partido-colombia-vs-chile-12-11-2026/",
+      "fecha": "2026-11-12T12:52:35+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "121483f1235a37bb",
+      "titulo": "Abelardo De La Espriella encabezó megaoperativo contra bandas criminales en Bucaramanga: sobrevuelos y contundentes allanamientos en la madrugada",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/santander/presidente-de-colombia-encabezo-megaoperativo-contra-bandas-criminales-en-bucaramanga-hubo-sobrevuelos-y-contundentes-allanamientos-en-la-madrugada-3600400",
+      "fecha": "2026-11-12T12:50:54+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "78b626a136c66d65",
+      "titulo": "Este WD de 2 TB es de los pocos SSD NVMe que compraría justo antes del Black Friday 2026",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/seleccion/este-wd-2-tb-pocos-ssd-nvme-que-compraria-justo-antes-black-friday-2026",
+      "fecha": "2026-11-12T12:45:23+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "b0dee2946c655f88",
+      "titulo": "México regresa al corazón de Bogotá con un festival gastronómico en la Plaza de Bolívar",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/ocio/mexico-regresa-al-corazon-de-bogota-con-un-festival-gastronomico-en-la-plaza-de-bolivar-4523155",
+      "fecha": "2026-11-12T12:43:22+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "242c0c6f22bd8039",
+      "titulo": "Nasdaq y S&P 500 caen mientras Nvidia se hunde 6,8% ante la crisis con su CEO",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/globoeconomia/acciones-caen-mientras-nvidia-se-hunde-6-8-ante-la-crisis-con-su-ceo-4523162",
+      "fecha": "2026-11-12T12:43:01+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "8ca485d2724a3292",
+      "titulo": "Más fácil, práctico y letal: guerra con drones en Colombia",
+      "categoria": "Internacional",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/podcasts/huevos-revueltos-con-politica/mas-facil-practico-y-letal-guerra-con-drones-en-colombia/",
+      "fecha": "2026-11-12T12:40:33+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "893fc47951605646",
+      "titulo": "BYD sitúa a España entre los países preseleccionados para su segunda fábrica en Europa",
+      "categoria": "Deportes",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/movilidad/byd-situa-a-espana-paises-preseleccionados-para-su-segunda-fabrica-europa",
+      "fecha": "2026-11-12T12:40:14+00:00",
+      "imagen": ""
+    },
     {
       "id": "9db9cc259bc88aee",
       "titulo": "¿A quién vamos a rescatar?",
@@ -20,12 +389,21 @@
       "imagen": ""
     },
     {
-      "id": "da632f32ab3afb54",
-      "titulo": "¿En qué va el escándalo de Petro por los “sexocontratos”?",
+      "id": "81c973d85a90f378",
+      "titulo": "António Guterres redobla los ataques a los combustibles fósiles en su última cumbre del clima",
       "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/escandalo-gustavo-petro-sexocontratos-deicy-jimenez-FK43490423",
-      "fecha": "2026-11-12T12:31:07+00:00",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/clima-y-medio-ambiente/2026-11-12/antonio-guterres-redobla-los-ataques-a-los-combustibles-fosiles-en-su-ultima-cumbre-del-clima.html",
+      "fecha": "2026-11-12T12:31:51+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "6ace39deb12b99e1",
+      "titulo": "Desayune informado con las movidas de este 12 de noviembre de 2026",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/en-vivo/desayune-informado-con-las-movidas-de-este-12-de-noviembre-de-2026/",
+      "fecha": "2026-11-12T12:30:00+00:00",
       "imagen": ""
     },
     {
@@ -38,21 +416,21 @@
       "imagen": ""
     },
     {
-      "id": "f9030d45b9f1247f",
-      "titulo": "Hombres armados interceptaron la camioneta del alcalde de Caloto, Cauca, y uno de sus escoltas fue secuestrado: lo que se sabe",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/cali/hombres-armados-interceptaron-la-camioneta-del-alcalde-de-caloto-uno-de-sus-escoltas-fue-secuestrado-3600405",
-      "fecha": "2026-11-12T12:25:52+00:00",
-      "imagen": ""
-    },
-    {
       "id": "e00a67973f663995",
       "titulo": "¿Cómo convertir la biodiversidad en oportunidades? La UAO participó en Valle Inspira 2026",
       "categoria": "Valle del Cauca",
       "fuente": "90 Minutos",
       "url": "https://90minutos.co/la-uao/uao-valle-inspira-2026-sostenibilidad-12-11-2026/",
       "fecha": "2026-11-12T12:24:09+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "c81544adc711332c",
+      "titulo": "Angie Rodríguez habla del papel de Jaime Ramírez Cobo en el manejo del celular de Petro y dice que le tenían el teléfono “envenenado”",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/angie-rodriguez-jaime-ramirez-cobo-celular-petro-envenenado-NK43492924",
+      "fecha": "2026-11-12T12:22:17+00:00",
       "imagen": ""
     },
     {
@@ -83,6 +461,15 @@
       "imagen": ""
     },
     {
+      "id": "5a45751e7668ad94",
+      "titulo": "¿Por qué han asesinado 141 mujeres en el Valle del Cauca durante 2026? Esto dicen los analistas",
+      "categoria": "Valle del Cauca",
+      "fuente": "La FM Actualidad",
+      "url": "https://www.lafm.com.co/actualidad/por-que-asesinado-141-mujeres-valle-del-cauca-durante-2026-416975",
+      "fecha": "2026-11-12T12:17:06+00:00",
+      "imagen": ""
+    },
+    {
       "id": "4d1a4c9a56180684",
       "titulo": "Hallan con vida a un joven desaparecido seis días en Australia",
       "categoria": "Internacional",
@@ -92,30 +479,12 @@
       "imagen": ""
     },
     {
-      "id": "f8b901fca9c65a83",
-      "titulo": "Una amenaza de bomba detiene la circulación de trenes en el norte de Francia y provoca retrasos en el Eurotúnel",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/internacional/2026-11-12/una-amenaza-de-bomba-detiene-la-circulacion-de-trenes-en-el-norte-de-francia-y-provoca-retrasos-en-el-eurotunel.html",
-      "fecha": "2026-11-12T12:15:24+00:00",
-      "imagen": ""
-    },
-    {
       "id": "855571d217b13eb2",
       "titulo": "Este teclado mecánico fue galardonado por PcComponentes. Renuncia a su pad numérico, pero no a una buena oferta",
       "categoria": "Colombia",
       "fuente": "Xataka",
       "url": "https://www.xataka.com/seleccion/este-teclado-mecanico-fue-galardonado-pccomponentes-renuncia-a-su-pad-numerico-no-a-buena-oferta",
       "fecha": "2026-11-12T12:15:21+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "121483f1235a37bb",
-      "titulo": "Presidente Abelardo De La Espriella encabezó megaoperativo contra bandas criminales en Bucaramanga: hubo sobrevuelos",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/santander/presidente-de-colombia-encabezo-megaoperativo-contra-bandas-criminales-en-bucaramanga-hubo-sobrevuelos-y-contundentes-allanamientos-en-la-madrugada-3600400",
-      "fecha": "2026-11-12T12:14:06+00:00",
       "imagen": ""
     },
     {
@@ -134,15 +503,6 @@
       "fuente": "Xataka",
       "url": "https://www.xataka.com/legislacion-y-derechos/pulseras-antimaltrato-tenian-problema-tecnico-ahora-fiscalia-europea-investiga-tambien-hay-uno-dinero",
       "fecha": "2026-11-12T12:11:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "c81544adc711332c",
-      "titulo": "Angie Rodríguez habla del papel de Jaime Ramírez Cobo en el manejo del celular de Petro y dice que le tenían el teléfono “envenenado”",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/angie-rodriguez-jaime-ramirez-cobo-celular-petro-envenenado-NK43492924",
-      "fecha": "2026-11-12T12:01:58+00:00",
       "imagen": ""
     },
     {
@@ -180,366 +540,6 @@
       "url": "https://www.xataka.com/legislacion-y-derechos/prohibir-tiktok-espana-mucho-dificil-que-parece-marco-europeo-le-deja-pocas-opciones",
       "fecha": "2026-11-12T11:55:41+00:00",
       "imagen": ""
-    },
-    {
-      "id": "efe3b1f79ab29d63",
-      "titulo": "Nvidia se prepara para destituir a su CEO, Jensen Huang, después de escándalos de infidelidades",
-      "categoria": "Internacional",
-      "fuente": "La FM Internacional",
-      "url": "https://www.lafm.com.co/internacional/nvidia-se-prepara-para-destituir-a-su-ceo-jensen-huang-despues-de-escandalos-de-infidelidades-416970",
-      "fecha": "2026-11-12T11:54:03+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "d53f70fad06afa9d",
-      "titulo": "Refinerías independientes chinas compran crudo brasileño para llegada en 2027",
-      "categoria": "Internacional",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/refinerias-independientes-chinas-compran-crudo-brasileno-para-llegada-en-2027-4523156",
-      "fecha": "2026-11-12T11:53:29+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "d0dbc3766df05c05",
-      "titulo": "Ofrecen $300 millones por la esposa del alcalde de Uribia: despliegan helicópteros y refuerzan búsqueda en La Guajira",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/ofrecen-300-millones-por-la-esposa-del-alcalde-de-uribia-despliegan-helicopteros-y-refuerzan-busqueda-en-la-guajira-3600401",
-      "fecha": "2026-11-12T11:50:33+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "175d84cea9977203",
-      "titulo": "Autonomía para tres días y su mejor precio hasta la fecha: el POCO X8 Pro Max se desploma antes del Black Friday",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/seleccion/autonomia-para-tres-dias-su-mejor-precio-fecha-poco-x8-pro-max-se-desploma-antes-black-friday",
-      "fecha": "2026-11-12T11:45:23+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "e9181929e43cc3d7",
-      "titulo": "El Manchester United destituye a Michael Carrick con el equipo en zona de descenso",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/ocio/el-manchester-united-destituye-a-carrick-con-el-equipo-en-zona-de-descenso-4523134",
-      "fecha": "2026-11-12T11:31:27+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "bffd863141eaa021",
-      "titulo": "\"Regreso a mi patria\": El emotivo mensaje del papa León tras su aterrizaje en Perú",
-      "categoria": "Internacional",
-      "fuente": "La FM Internacional",
-      "url": "https://www.lafm.com.co/internacional/leon-xiv-llega-peru-visita-seis-dias-robert-prevost-416968",
-      "fecha": "2026-11-12T11:30:18+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "e75baaeed97644ac",
-      "titulo": "Derrumbe de un edificio en Brooklyn deja al menos 5 muertos",
-      "categoria": "Internacional",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/derrumbe-de-un-edificio-en-brooklyn-deja-al-menos-5-muertos/a-79928582?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-12T11:30:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "0c5905f18c84e0ac",
-      "titulo": "El desplante de Santiago Abascal a Jordi Wild neutraliza todas sus ganancias tras salir victorioso de ‘La Revuelta’",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/magnet/impresion-general-era-que-abascal-habia-barrido-revuelta-salvo-para-vox-han-cancelado-su-entrevista-jordi-wild",
-      "fecha": "2026-11-12T11:30:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "05612892cd05e06a",
-      "titulo": "Santa Fe modelo 2027: una millonaria inversión para la continuidad de sus figuras tras la llegada del nuevo patrocinador",
-      "categoria": "Deportes",
-      "fuente": "La FM Deportes",
-      "url": "https://www.lafm.com.co/deportes/santa-fe-2027-millonaria-inversion-continuidad-figuras-renovaciones-416967",
-      "fecha": "2026-11-12T11:29:46+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "a1a4b252ca1375be",
-      "titulo": "Manchester United despide a Michael Carrick por el temor de descender en la Premier League",
-      "categoria": "Deportes",
-      "fuente": "La FM Deportes",
-      "url": "https://www.lafm.com.co/deportes/manchester-united-despide-micahel-carrick-premier-league-416966",
-      "fecha": "2026-11-12T11:20:56+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "b4480ab1abeaf622",
-      "titulo": "¿Por qué mi familia blanca nunca me dijo que yo era negra?",
-      "categoria": "Internacional",
-      "fuente": "BBC Mundo",
-      "url": "https://www.bbc.com/mundo/articles/c6x2enpm544zo?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-12T11:19:20+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "a1d6d33bc42fff9f",
-      "titulo": "El primer monitor gaming que rompe la barrera del submilisegundo: LG presenta su bestia de 1.000 Hz nativos para eSports",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/seleccion/primer-monitor-gaming-que-rompe-barrera-submilisegundo-lg-presenta-su-bestia-1-000-hz-nativos-para-esports",
-      "fecha": "2026-11-12T11:15:22+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "bdfbda18b773ffc7",
-      "titulo": "Ofrecen $30 millones por Sonia y Kelly: hallazgo de camioneta en Soledad abre nuevas pistas sobre su desaparición",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/barranquilla/ofrecen-30-millones-por-sonia-y-kelly-hallazgo-de-camioneta-en-soledad-abre-nuevas-pistas-sobre-su-desaparicion-3600390",
-      "fecha": "2026-11-12T11:09:07+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "f695795de10d554b",
-      "titulo": "Colapso de un edificio en Nueva York: se desconoce si aún hay personas bajo los escombros",
-      "categoria": "Internacional",
-      "fuente": "La FM Internacional",
-      "url": "https://www.lafm.com.co/internacional/edificio-colapso-nueva-york-estados-unidos-heridos-y-fallecidos-416965",
-      "fecha": "2026-11-12T11:07:14+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "0129203979ba4349",
-      "titulo": "PcComponentes está rebajando (solo hoy) este MacBook Air M5 con 1 TB y casi 200 euros de descuento",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/seleccion/pccomponentes-esta-rebajando-solo-hoy-este-macbook-air-m5-1-tb-casi-200-euros-descuento",
-      "fecha": "2026-11-12T11:01:25+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "ba369708850ed226",
-      "titulo": "Las consolas han cambiado las reglas de los precios, pero PlayStation llevó la filosofía contraria al extremo",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/videojuegos/consolas-han-cambiado-reglas-precios-playstation-llevo-filosofia-contraria-al-extremo",
-      "fecha": "2026-11-12T11:01:24+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "0e6cf3639d4b060d",
-      "titulo": "Daneidy Barrera, 'Epa Colombia', saldría 'pronto' de la cárcel: su abogada reveló novedad en su caso y afirmó que 'va a estar con su hija en su casa'",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/epa-colombia-saldria-pronto-de-la-carcel-su-abogada-revelo-novedad-en-el-caso-de-la-influencer-y-afirmo-que-va-estar-con-su-hija-en-su-casa-3600387",
-      "fecha": "2026-11-12T10:58:29+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "b512419a3c197d50",
-      "titulo": "Selección de fútbol de EE. UU.: ¿se va Pochettino y llega Guardiola?",
-      "categoria": "Deportes",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/selección-de-fútbol-de-ee-uu-¿se-va-pochettino-y-llega-guardiola/a-79928141?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-12T10:53:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "07f72399a2fcc532",
-      "titulo": "Qué es el ejercicio incidental, la manera de mantenernos en forma y saludables sin intentarlo",
-      "categoria": "Internacional",
-      "fuente": "BBC Mundo",
-      "url": "https://www.bbc.com/mundo/articles/cqj6l2w1je7po?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-12T10:48:37+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "e6d235f0b163d60e",
-      "titulo": "Daddy Yankee, padre del reguetón, es honrado como persona del año por los Grammy Latinos: “El algoritmo no puede dictar el destino de nuestra cultura”",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/us/entretenimiento/2026-11-12/daddy-yankee-padre-del-regueton-es-honrado-como-persona-del-ano-por-los-grammy-latinos-el-algoritmo-no-puede-dictar-el-destino-de-nuestra-cultura.html",
-      "fecha": "2026-11-12T10:44:26+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "feb6432ee3401d8b",
-      "titulo": "Carrefour se adelanta al Black Friday y liquida este robot aspirador Xiaomi súper potente y con tres horas de autonomía",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/seleccion/carrefour-se-adelanta-al-black-friday-liquida-este-robot-aspirador-xiaomi-super-potente-tres-horas-autonomia",
-      "fecha": "2026-11-12T10:31:23+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "229e438297df1a9a",
-      "titulo": "Un ucraniano construyó el hotel de sus sueños y entonces lo invadió Rusia. A Moscú le acaba de llegar una factura de 5,1 millones de dólares",
-      "categoria": "Economía",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/magnet/ucraniano-construyo-hotel-sus-suenos-entonces-invadio-rusia-a-moscu-le-acaba-llegar-factura-5-1-millones-dolares",
-      "fecha": "2026-11-12T10:31:23+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "28eedfb04a29a112",
-      "titulo": "Ariana Grande regresa a los focos y posa por primera vez con su novio, Ricky Álvarez, en una alfombra roja",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/gente/2026-11-12/ariana-grande-regresa-a-los-focos-y-posa-por-primera-vez-con-su-novio-ricky-alvarez-en-una-alfombra-roja.html",
-      "fecha": "2026-11-12T10:17:52+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "d1b287fb0bbd15d0",
-      "titulo": "¡Últimas horas para participar en el sorteo de un calefactor Dreo 714S! Solo para miembros de Xataka Xtra",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/xataka-xtra/ultimas-horas-para-participar-sorteo-calefactor-dreo-714s-solo-para-miembros-xataka-xtra",
-      "fecha": "2026-11-12T10:01:24+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "fa863be8578a4796",
-      "titulo": "Francia se inclina por apoyar al español Hernández de Cos para la presidencia del BCE",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/economia/2026-11-12/francia-se-inclina-por-apoyar-al-espanol-hernandez-de-cos-para-la-presidencia-del-bce.html",
-      "fecha": "2026-11-12T09:56:27+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "f7c1c1e78f000372",
-      "titulo": "Pereira abre sus puertas al Kriya Yoga ancestral",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/actualidad/pereira-abre-sus-puertas-al-kriya-yoga-ancestral/",
-      "fecha": "2026-11-12T09:36:13+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "bee625dc9c79c946",
-      "titulo": "Las mejores ofertas de Amazon dos semanas antes del Black Friday, hoy 12 de noviembre",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/seleccion/mejores-ofertas-amazon-dos-semanas-antes-black-friday-hoy-12-noviembre",
-      "fecha": "2026-11-12T09:31:48+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "64347cab34b9db29",
-      "titulo": "Las amenazas contra los medios colombianos suben de tono",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/america-colombia/2026-11-12/las-amenazas-contra-los-medios-colombianos-suben-de-tono.html",
-      "fecha": "2026-11-12T09:30:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "7c29ff9d59ea799f",
-      "titulo": "Los alcaldes de zonas afectadas por el terremoto y congresistas afines al Gobierno critican la gestión del Fondo Milagro",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/america-colombia/2026-11-12/los-alcaldes-de-zonas-afectadas-por-el-terremoto-y-congresistas-afines-al-gobierno-critican-la-gestion-del-fondo-milagro.html",
-      "fecha": "2026-11-12T09:30:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "e0cacbfd6b678146",
-      "titulo": "Los venezolanos nominados al Latin Grammy que cruzan el país por carretera para evitar al ICE",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/us/migracion/2026-11-12/los-venezolanos-nominados-al-latin-grammy-que-cruzan-el-pais-por-carretera-para-evitar-al-ice.html",
-      "fecha": "2026-11-12T09:30:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "9cf08bf5d13585f5",
-      "titulo": "Y la nave espacial aterrizó, para siempre, en Los Ángeles: el ‘Endeavour’, el primer transbordador en verse en un museo",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/us/2026-11-12/y-la-nave-espacial-aterrizo-para-siempre-en-los-angeles-el-endeavour-el-primer-transbordador-en-verse-en-un-museo.html",
-      "fecha": "2026-11-12T09:30:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "f9ada642fd8704ab",
-      "titulo": "“El populismo económico está muy de moda”: la vieja fórmula de Bernie Sanders que hizo triunfar a los demócratas",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/us/2026-11-12/el-populismo-economico-esta-muy-de-moda-la-vieja-formula-de-bernie-sanders-que-hizo-triunfar-a-los-democratas.html",
-      "fecha": "2026-11-12T09:30:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "ee679a42d2a7a8fd",
-      "titulo": "“El deseo erótico en Bolivia se educa con racismo”: Juan Pablo Vargas Rollano y la pedagogía antirracista en el mundo virtual",
-      "categoria": "Internacional",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/america-futura/2026-11-12/el-deseo-erotico-en-bolivia-se-educa-con-racismo-juan-pablo-vargas-rollano-y-la-pedagogia-antirracista-en-el-mundo-virtual.html",
-      "fecha": "2026-11-12T09:30:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "df16ce9a33f2e675",
-      "titulo": "Invirtamos en los jóvenes para impulsar la transformación rural",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/america-futura/2026-11-12/invirtamos-en-los-jovenes-para-impulsar-la-transformacion-rural.html",
-      "fecha": "2026-11-12T09:30:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "4240e301d952541b",
-      "titulo": "Madrid ya tiene fecha para la apertura del nuevo parque comercial de Aranjuez: 50.000 m2 y un 100% de ocupación",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/magnet/madrid-tiene-fecha-para-apertura-nuevo-parque-comercial-aranjuez-50-000-m2-100-ocupacion",
-      "fecha": "2026-11-12T09:08:24+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "93ce013fe3d324a9",
-      "titulo": "Entre Ryan Castro y los estragos del terremoto: el debate que pone bajo la lupa la estrategia turística en Cali",
-      "categoria": "Cali",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/cali/entre-ryan-castro-y-los-estragos-del-terremoto-el-debate-que-pone-bajo-la-lupa-la-estrategia-turistica-en-cali-3600382",
-      "fecha": "2026-11-12T09:05:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "02c31dc68495ee4c",
-      "titulo": "La solución para disfrutar de iluminación inteligente sin obras ni enchufes extra la tiene Amazon por menos de 7 euros",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/seleccion/solucion-para-disfrutar-iluminacion-inteligente-obras-enchufes-extra-tiene-amazon-7-euros",
-      "fecha": "2026-11-12T09:01:49+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "3f9ce0f9037253ab",
-      "titulo": "Jensen Huang, el rey de los chips de IA, al borde de ser destituido de Nvidia",
-      "categoria": "Internacional",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/jensen-huang-el-rey-de-los-chips-de-ia-al-borde-de-ser-destituido-de-nvidia/a-79926415?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-12T08:38:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "d7b04c6fdbc2bf55",
-      "titulo": "En 1982, Francia tenía millones de árboles y una red eléctrica que era la envidia de Europa. Una tormenta inédita les devolvió a la Edad Media",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/magnet/1982-francia-tenia-millones-arboles-red-electrica-moderna-fin-semana-precedentes-les-devolvio-a-edad-media",
-      "fecha": "2026-11-12T08:30:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "dd2a9209f63635e7",
-      "titulo": "Un bombardeo de Israel mata a seis personas en un hospital de Gaza",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/internacional/2026-11-12/un-bombardeo-israeli-mata-a-seis-personas-en-un-hospital-de-gaza.html",
-      "fecha": "2026-11-12T08:23:26+00:00",
-      "imagen": ""
     }
   ],
   "estado_fuentes": [
@@ -553,7 +553,7 @@
       "nombre": "El Tiempo Cali",
       "url": "https://www.eltiempo.com/rss/colombia_cali.xml",
       "estado": "correcto",
-      "titulares": 7
+      "titulares": 8
     },
     {
       "nombre": "El Espectador",
@@ -590,7 +590,7 @@
       "nombre": "BBC Mundo",
       "url": "https://feeds.bbci.co.uk/mundo/rss.xml",
       "estado": "correcto",
-      "titulares": 30
+      "titulares": 31
     },
     {
       "nombre": "DW Español",
