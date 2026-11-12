@@ -1,6 +1,213 @@
 {
-  "ultima_actualizacion": "2026-11-12T18:00:41.490975+00:00",
+  "ultima_actualizacion": "2026-11-12T19:03:48.419792+00:00",
   "titulares_rss": [
+    {
+      "id": "7f5ea8b1b223b6b6",
+      "titulo": "Perú inauguró una gigantesca estatua de 14 metros en honor al papa León XIV",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/noticias/peru-inauguro-una-gigantesca-estatua-de-14-metros-en-honor-al-papa-leon-xiv/",
+      "fecha": "2026-11-12T19:00:13+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "a32518d6afdcbd8b",
+      "titulo": "COP31: la apuesta minera pone a prueba la coherencia climática de Colombia",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/red-de-expertos/red-verde/cop31-la-apuesta-minera-pone-a-prueba-la-coherencia-climatica-de-colombia/",
+      "fecha": "2026-11-12T19:00:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "94f2ff6c9ac8d0b3",
+      "titulo": "Cámaras de seguridad captaron la camioneta en la que habrían secuestrado a Nancy Gómez, primera dama de Uribia",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/camaras-de-seguridad-captaron-la-camioneta-en-la-que-habrian-secuestrado-a-nancy-gomez-primera-dama-de-uribia-3600556",
+      "fecha": "2026-11-12T18:54:32+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "839a8a0dae9e267c",
+      "titulo": "León XIV congrega a tres millones de peruanos y resalta importancia de la paz",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/globoeconomia/leon-xiv-congrega-a-tres-millones-de-peruanos-y-resalta-importancia-de-la-paz-4523471",
+      "fecha": "2026-11-12T18:53:58+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "f0e637be6897d185",
+      "titulo": "Chiclayo, la tierra que celebra el regreso del papa León XIV, una fiesta seguida desde el Valle y Colombia",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo Cali",
+      "url": "https://www.eltiempo.com/colombia/cali/chiclayo-la-tierra-que-celebra-el-regreso-del-papa-leon-xiv-una-fiesta-seguida-desde-el-valle-y-colombia-3600431",
+      "fecha": "2026-11-12T18:52:05+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "f398d61e89fae8a9",
+      "titulo": "EE.UU. entregó a Venezuela unos USD 12.000 millones por venta de recursos naturales",
+      "categoria": "Internacional",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/ee-uu-entregó-a-venezuela-unos-usd-12-000-millones-por-venta-de-recursos-naturales/a-79935104?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-12T18:50:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "6e72ec1ef8ce895b",
+      "titulo": "Escándalo en Conmebol: Alejandro Domínguez recibió 3,5 millones de dólares del Grupo Vázquez en Paraguay",
+      "categoria": "Economía",
+      "fuente": "La FM Deportes",
+      "url": "https://www.lafm.com.co/deportes/escandalo-conmebol-alejandro-dominguez-grupo-vazquez-paraguay-417030",
+      "fecha": "2026-11-12T18:47:42+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "cebfdba497dbeb55",
+      "titulo": "\"Le pedí al 'joven padre Robert' que fuera el padrino de mi hija en Perú. Treinta años después se convirtió en el papa León XIV\"",
+      "categoria": "Internacional",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/cqly3jpmvvl9o?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-12T18:33:02+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "e1287a742663d1bb",
+      "titulo": "Más allá del debate sobre su éxito, el 11N deja una pregunta: para qué sirve realmente una huelga general en 2026",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/magnet/alla-debate-su-exito-11n-deja-pregunta-realmente-efectivas-huelgas-generales-2026",
+      "fecha": "2026-11-12T18:31:23+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "e7b53f79cb2bd775",
+      "titulo": "Madre denuncia que clínica en Barranquilla ordenaría dar de alta a su hija con tumor en el cuello por demoras en medicamento que necesita",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/barranquilla/madre-denuncia-que-clinica-en-barranquilla-ordenaria-dar-de-alta-a-su-hija-con-tumor-en-el-cuello-por-demoras-en-medicamento-que-necesita-3600551",
+      "fecha": "2026-11-12T18:30:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "40a69d9735a4a7dc",
+      "titulo": "Preocupa a las comunidades el regreso del cólera en la República Democrática del Congo",
+      "categoria": "Internacional",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/preocupa-a-las-comunidades-el-regreso-del-cólera-en-la-república-democrática-del-congo/a-79934803?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-12T18:28:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "070ce19ef0a9e368",
+      "titulo": "¡Ya huele a buñuelos y natilla! Conductor de buseta en Cúcuta se vuelve viral con su decoración de Navidad: se viene diciembre",
+      "categoria": "Tendencias",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/ya-huele-a-bunuelos-y-natilla-conductor-de-buseta-en-cucuta-se-vuelve-viral-con-su-decoracion-de-navidad-se-viene-diciembre-3600549",
+      "fecha": "2026-11-12T18:23:17+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "0249a079c99748b7",
+      "titulo": "Zurich afirma que tormentas en Europa provocaron pérdidas considerables para su negocio",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/finanzas/zurich-afirma-que-tormentas-en-europa-provocaron-perdidas-considerables-para-su-negocio-4523458",
+      "fecha": "2026-11-12T18:23:17+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "ef1f4f29b11afa4a",
+      "titulo": "Néstor Sandoval, primer hispanohablante en presidir la Sociedad Mundial de Cirugía Cardíaca Pediátrica",
+      "categoria": "Deportes",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/empresas/nestor-sandoval-primer-hispanohablante-en-presidir-la-sociedad-mundial-de-cirugia-cardiaca-pediatrica-4523416",
+      "fecha": "2026-11-12T18:22:05+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "e1ed18593d51ac2d",
+      "titulo": "En Video: el momento del rescate con vida de un adolescente en Australia que estuvo 6 días perdido en un bosque",
+      "categoria": "Internacional",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/c60md00vxkj2o?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-12T18:21:28+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "8688fc5bcbedc27d",
+      "titulo": "Los “otros cristianos” que ganaron en Estados Unidos aún no aparecen en Colombia",
+      "categoria": "Internacional",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/red-de-expertos/red-social/los-otros-cristianos-que-ganaron-en-estados-unidos-aun-no-aparecen-en-colombia/",
+      "fecha": "2026-11-12T18:20:42+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "5c81b78de2edded4",
+      "titulo": "El SGC actualizó el mapa de amenaza del volcán Cerro Machín en el Tolima, un recurso para la gestión de riesgos y la protección de las comunidades",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/el-sgc-actualizo-el-mapa-de-amenaza-del-volcan-cerro-machin-en-el-tolima-un-recurso-para-la-gestion-de-riesgos-y-la-proteccion-de-las-comunidades-3600392",
+      "fecha": "2026-11-12T18:20:26+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "4f7431b210e87be9",
+      "titulo": "Diario del gobierno de Abelardo: disculpas, popularidad y emergencia económica",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/en-vivo/diario-del-gobierno-de-abelardo-disculpas-popularidad-y-emergencia-economica/",
+      "fecha": "2026-11-12T18:20:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "613ecee49d8656c1",
+      "titulo": "Con el Bando de la Independencia, un desfile multicolor entre el mar y las murallas, Cartagena conmemora 215 años de libertad",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/con-el-bando-de-la-independencia-un-desfile-multicolor-entre-el-mar-y-las-murallas-cartagena-conmemora-215-anos-de-libertad-3600541",
+      "fecha": "2026-11-12T18:16:45+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "9dfd924d1f3e7f6c",
+      "titulo": "La dimisión de Huang hace que Nvidia se deje 550.000 millones de dólares en valor de bolsa",
+      "categoria": "Economía",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/empresas-y-economia/dimision-huang-hace-que-nvidia-se-deje-550-000-millones-dolares-valor-bolsa",
+      "fecha": "2026-11-12T18:15:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "b142e6ac985299d7",
+      "titulo": "América pierde demanda en el TAS ante Inter y gana contra Santa Fe: esta es la explicación y así queda la tabla de posiciones",
+      "categoria": "Deportes",
+      "fuente": "La FM Deportes",
+      "url": "https://www.lafm.com.co/deportes/america-demanda-tas-inter-santafe-posiciones-liga-betplay-417028",
+      "fecha": "2026-11-12T18:07:05+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "aa786cd646435b74",
+      "titulo": "Verificar el código de Signal era un reto que llevaba años de trabajo de expertos. DeepMind dice que su IA lo ha hecho en un mes",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/seguridad/verificar-codigo-signal-era-reto-que-llevaba-anos-trabajo-expertos-deepmind-dice-que-su-ia-ha-hecho-mes",
+      "fecha": "2026-11-12T18:01:23+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "859500ca006df1ab",
+      "titulo": "Premios Xataka Verisure 2026: todavía puedes conseguir tus entradas (y te adelantamos una novedad)",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/xataka/premios-xataka-verisure-2026-todavia-puedes-conseguir-tus-entradas-te-adelantamos-novedad",
+      "fecha": "2026-11-12T18:01:00+00:00",
+      "imagen": ""
+    },
     {
       "id": "6f31f72f13999b6f",
       "titulo": "Director del DNP confirmó aprobación de las bases del Plan Nacional de Desarrollo",
@@ -11,12 +218,30 @@
       "imagen": ""
     },
     {
+      "id": "28b42be8063daa3c",
+      "titulo": "Pantuflas, té y no más de tres clics: así se prepara América Latina para los turistas chinos",
+      "categoria": "Internacional",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/pantuflas-té-y-no-más-de-tres-clics-así-se-prepara-américa-latina-para-los-turistas-chinos/a-79934708?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-12T17:59:00+00:00",
+      "imagen": ""
+    },
+    {
       "id": "e6cfede58155a711",
       "titulo": "Agente señalado de disparar contra colombiano odiaba a inmigrantes: NYT",
       "categoria": "Colombia",
       "fuente": "La Silla Vacía",
       "url": "https://www.lasillavacia.com/en-vivo/agente-senalado-de-disparar-contra-colombiano-odiaba-a-inmigrantes-nyt/",
       "fecha": "2026-11-12T17:58:43+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "ed02ff616b463770",
+      "titulo": "Tras año y medio de secuestro, hijo de Jesús Pacheco cuenta cómo vivió la espera por su padre",
+      "categoria": "Colombia",
+      "fuente": "La FM Actualidad",
+      "url": "https://www.lafm.com.co/actualidad/liberacion-agentes-cti-hijo-jesus-pacheco-hable-del-secuestro-417026",
+      "fecha": "2026-11-12T17:55:05+00:00",
       "imagen": ""
     },
     {
@@ -44,6 +269,24 @@
       "fuente": "El País Colombia",
       "url": "https://elpais.com/internacional/2026-11-12/choque-en-dublin-entre-el-primer-ministro-portugues-y-el-secretario-general-de-la-otan.html",
       "fecha": "2026-11-12T17:35:24+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "6aecb10d7b6c3f34",
+      "titulo": "Atención: ELN liberó a los dos agentes del CTI que tenía secuestrados desde mayo de 2025",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/eln-libera-dos-secuestrados-cti-arauca-MD43513593",
+      "fecha": "2026-11-12T17:33:58+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "5b9ecc6080e9b0aa",
+      "titulo": "El lío del expresidente de la Corte por acusar a la madre de su hijo de abuso sexual: deberá retractarse",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/ibanez-expresidente-corte-debe-retractarse-denuncias-abuso-sexual-contra-madre-hijo-por-que-CC43502246",
+      "fecha": "2026-11-12T17:33:45+00:00",
       "imagen": ""
     },
     {
@@ -119,6 +362,15 @@
       "imagen": ""
     },
     {
+      "id": "a849df141e074b3d",
+      "titulo": "‘Epa Colombia’ podría salir de la cárcel de Ibagué y regresar a casa con su hija: esto dijo su abogada",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/epa-colombia-carcel-ibague-prision-domiciliaria-hija-abogada-CC43505474",
+      "fecha": "2026-11-12T17:12:36+00:00",
+      "imagen": ""
+    },
+    {
       "id": "fa5b22899cd58402",
       "titulo": "Estados Unidos reconoce avances en lucha contra las drogas durante los primeros 90 días de De la Espriella",
       "categoria": "Internacional",
@@ -152,6 +404,24 @@
       "fuente": "90 Minutos",
       "url": "https://90minutos.co/efe/papa-leon-xiv-llego-peru-12-11-2026/",
       "fecha": "2026-11-12T17:06:02+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "d552b08fd2fee17d",
+      "titulo": "Popularidad de Abelardo no llega al 50% en sus primeros 100 días, según Cifras y Conceptos",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/cae-popularidad-de-abelardo-primeros-100-dias-de-gobierno-GK43497625",
+      "fecha": "2026-11-12T17:04:59+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "fb70eaac7a386e1c",
+      "titulo": "De la Espriella se defiende de las críticas: “Soy un soldado de la patria, por eso me visto de soldado, porque vine a servirle a Colombia”",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/abelardo-espriella-responde-criticas-vestido-militar-catatumbo-AC43504477",
+      "fecha": "2026-11-12T17:04:12+00:00",
       "imagen": ""
     },
     {
@@ -236,6 +506,15 @@
       "imagen": ""
     },
     {
+      "id": "6e2efd082df1c474",
+      "titulo": "Tiroteo cerca de la Casa Blanca deja dos muertos y cuatro heridos",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/actualidad/tiroteo-cerca-de-la-casa-blanca-deja-dos-muertos-y-cuatro-heridos/",
+      "fecha": "2026-11-12T16:52:27+00:00",
+      "imagen": ""
+    },
+    {
       "id": "0c8646664b902544",
       "titulo": "La lucha contra el ELN acerca a los gobiernos de Delcy Rodríguez y De la Espriella",
       "categoria": "Colombia",
@@ -260,285 +539,6 @@
       "fuente": "La República",
       "url": "https://www.larepublica.co/economia/embajadora-de-colombia-se-reunio-con-gregory-meeks-para-recomponer-dialogo-con-democratas-de-ee-uu-4523380",
       "fecha": "2026-11-12T16:50:36+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "cecaab929cf36e7c",
-      "titulo": "Cristian Stapper, nuevo representante económico ante el Consejo Nacional de Planeación: estas son sus propuestas",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/gobierno/cristian-stapper-nuevo-representante-economico-ante-el-consejo-nacional-de-planeacion-estas-son-sus-propuestas-506235",
-      "fecha": "2026-11-12T16:46:46+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "7468832f2fc5cf66",
-      "titulo": "En más de un año no hemos visto un descuento igual en este Apple Watch: hoy, Amazon lo tiene más barato que nunca",
-      "categoria": "Tecnología",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/seleccion/ano-no-hemos-visto-descuento-igual-este-apple-watch-hoy-amazon-tiene-barato-que-nunca",
-      "fecha": "2026-11-12T16:45:23+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "b666824fd7b15916",
-      "titulo": "Conversaciones a tres bandas entre Ucrania, Estados Unidos y Rusia en Abu Dabi: ¿han aportado realmente algo a Kiev?",
-      "categoria": "Internacional",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/conversaciones-a-tres-bandas-entre-ucrania-estados-unidos-y-rusia-en-abu-dabi-¿han-aportado-realmente-algo-a-kiev/a-79933391?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-12T16:45:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "a04986439c222fe5",
-      "titulo": "Fallas en plataformas de la Dian ponen en alerta al comercio exterior: advierten sobrecostos y retrasos",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/fallas-en-plataformas-de-la-dian-ponen-en-alerta-al-comercio-exterior-advierten-sobrecostos-y-retrasos-506241",
-      "fecha": "2026-11-12T16:41:01+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "28603fbf5a96aade",
-      "titulo": "Banco Serfinanza lanza su nueva campaña de cashback en gastos recurrentes del hogar",
-      "categoria": "Economía",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/finanzas/banco-serfinanza-lanza-su-nueva-campana-de-cashback-en-gastos-recurrentes-del-hogar-4523359",
-      "fecha": "2026-11-12T16:37:51+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "031b1296ab40ae0d",
-      "titulo": "Un tiroteo masivo en un gimnasio del centro de Washington deja un muerto y cuatro heridos",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/us/2026-11-12/un-tiroteo-en-el-centro-de-washington-deja-al-menos-cuatro-victimas.html",
-      "fecha": "2026-11-12T16:36:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "11b244d03b77c113",
-      "titulo": "MinInterior anuncia fin de la “feria de los esquemas” en audiencia de la JEP",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/en-vivo/se-acaba-la-feria-de-los-esquemas-mininterior-habla-ante-la-jep/",
-      "fecha": "2026-11-12T16:35:29+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "53e12368ae14a1cf",
-      "titulo": "¿Quién es ‘Lanmò San Jou’, el líder de la pandilla haitiana 400 Mawozo cuya sede fue destruida por El Salvador?",
-      "categoria": "Internacional",
-      "fuente": "La FM Internacional",
-      "url": "https://www.lafm.com.co/internacional/quien-lanmo-san-jou-lider-pandilla-haitiana-4000-mawozo-sede-destruida-el-salvador-417017",
-      "fecha": "2026-11-12T16:34:21+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "6a13d43641eb8688",
-      "titulo": "Metro Bank, de Jaime Gilinski, explora una posible venta e invitó a presentar ofertas",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/finanzas/metro-bank-de-jaime-gilinski-explora-una-posible-venta-e-invito-a-presentar-ofertas-4523364",
-      "fecha": "2026-11-12T16:33:53+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "7c4fe80d786c193e",
-      "titulo": "Vi la NFL en el Bernabéu y llegué a una conclusión: el fútbol americano se ha convertido en un 'videojuego' lleno de datos",
-      "categoria": "Deportes",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/empresas-y-economia/vi-nfl-bernabeu-llegue-a-conclusion-futbol-americano-se-ha-convertido-videojuego-lleno-datos",
-      "fecha": "2026-11-12T16:31:24+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "13846b685422e519",
-      "titulo": "Ministerio de Vivienda y FNA buscan unir esfuerzos para recuperar hogares afectados por el terremoto",
-      "categoria": "Colombia",
-      "fuente": "La FM Actualidad",
-      "url": "https://www.lafm.com.co/actualidad/ministerio-vivienda-fna-recuperar-hogares-afectados-terremoto-417016",
-      "fecha": "2026-11-12T16:31:02+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "b78612e435b31fe0",
-      "titulo": "Corte avala emergencia económica del gobierno y estableció límites para el uso de recursos",
-      "categoria": "Colombia",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/colombia/corte-avala-emergencia-economica-gobierno-12-11-2026/",
-      "fecha": "2026-11-12T16:30:01+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "6a89bad3715696db",
-      "titulo": "Consejo Gremial se reunirá hoy con Ministerio de Hacienda para discutir sobre la Ley de Rescate",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/economia/consejo-gremial-se-reunira-hoy-con-minhacienda-para-discutir-la-ley-de-rescate-4523354",
-      "fecha": "2026-11-12T16:28:08+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "e7b453b0ed8da0cf",
-      "titulo": "Dudas por la gramilla del estadio Pascual Guerrero para el partido Colombia vs. Chile: esto dice la Alcaldía de Cali",
-      "categoria": "Cali",
-      "fuente": "La FM Deportes",
-      "url": "https://www.lafm.com.co/deportes/dudas-gramilla-pascual-guerrero-cali-colombia-chile-amistoso-417015",
-      "fecha": "2026-11-12T16:27:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "e1ed18593d51ac2d",
-      "titulo": "Rescatan con vida a un adolescente en Australia que estuvo 6 días perdido en una zona boscosa",
-      "categoria": "Internacional",
-      "fuente": "BBC Mundo",
-      "url": "https://www.bbc.com/mundo/articles/c60md00vxkj2o?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-12T16:26:53+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "0f822ae62335fac2",
-      "titulo": "Primicia | ¿Proyecto del nuevo El Campín se entregó a Sencia sin verificar su capacidad financiera?",
-      "categoria": "Colombia",
-      "fuente": "La FM Actualidad",
-      "url": "https://www.lafm.com.co/actualidad/nuevo-estadio-el-campin-contratos-idrd-posibles-irregularidades-contratos-capacidad-financiera-financiar-obras-417013",
-      "fecha": "2026-11-12T16:26:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "7b7874ab823422f3",
-      "titulo": "El auge y caída de Jensen Huang, el hombre más importante en la industria de la IA",
-      "categoria": "Internacional",
-      "fuente": "La FM Internacional",
-      "url": "https://www.lafm.com.co/internacional/auge-caida-jensen-huang-ceo-nvidia-renuncia-417012",
-      "fecha": "2026-11-12T16:21:08+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "86146010136fe62a",
-      "titulo": "La integración progresa, pero los planes del Gobierno podrían frenarla",
-      "categoria": "Colombia",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/la-integración-progresa-pero-los-planes-del-gobierno-podrían-frenarla/a-79933070?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-12T16:21:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "b311025852641ae7",
-      "titulo": "Agencias de viajes en Colombia ponen la lupa sobre impuestos y comercialización de tiquetes aéreos",
-      "categoria": "Colombia",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/agencias-de-viajes-en-colombia-ponen-la-lupa-sobre-impuestos-y-comercializacion-de-tiquetes-aereos-506240",
-      "fecha": "2026-11-12T16:20:02+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "aea10de444a5627c",
-      "titulo": "Cecotec reinventa su freidora de aire estrella: la nueva Cecofry&Crunch cocina más rápido ocupando menos sitio en la encimera",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/seleccion/cecotec-reinventa-su-freidora-aire-estrella-nueva-cecofry-crunch-cocina-rapido-ocupando-sitio-encimera",
-      "fecha": "2026-11-12T16:15:26+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "e25a610c1c275d1d",
-      "titulo": "El presidente Abelardo de la Espriella inauguró la carretera que une a San Cristóbal–Calamar–Arroyohondo en Bolívar",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/el-presidente-abelardo-de-la-espriella-inauguro-la-carretera-que-une-a-san-cristobal-calamar-arroyohondo-en-bolivar-3600500",
-      "fecha": "2026-11-12T16:14:45+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "1b7844207ce591eb",
-      "titulo": "En vilo US$10.000 millones para la salida a bolsa de Anthropic por crisis de Nvidia y su CEO",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/en-vilo-us-10-000-millones-para-salida-a-bolsa-de-anthropic-por-crisis-de-nvidia-4523356",
-      "fecha": "2026-11-12T16:13:11+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "a16b85a24bfbea34",
-      "titulo": "Denuncian caso de maltrato animal contra un perrito en Meta: el presunto agresor fue capturado",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/denuncian-caso-de-maltrato-animal-contra-un-perrito-en-meta-el-presunto-agresor-fue-capturado-3600489",
-      "fecha": "2026-11-12T16:11:19+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "c2d1acb7012a1e4e",
-      "titulo": "Precio máximo del dólar en Colombia supera los $3.300 este jueves 12 de noviembre",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/finanzas/dolar-hoy-en-colombia-mercado-regresa-a-la-normalidad-tras-jornada-de-next-day-por-festivo-en-ee-uu-506207",
-      "fecha": "2026-11-12T16:10:46+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "c73a54afbbc906db",
-      "titulo": "Trump sostiene que \"solo Tim Cook de Apple\" puede sustituir a Jensen Huang en Nvidia",
-      "categoria": "Tecnología",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/trump-sostiene-que-solo-tim-cook-de-apple-puede-sustituir-a-jensen-huang-en-nvidia-4523358",
-      "fecha": "2026-11-12T16:10:33+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "bdf499da48ef487a",
-      "titulo": "De Robert Prevost a León XIV: así fue la vida del papa en Perú antes de llegar al Vaticano",
-      "categoria": "Internacional",
-      "fuente": "La FM Internacional",
-      "url": "https://www.lafm.com.co/internacional/de-robert-prevost-a-leon-xiv-asi-era-la-vida-del-papa-en-peru-417010",
-      "fecha": "2026-11-12T16:07:32+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "a97daedb6a1bc97c",
-      "titulo": "Latin Grammy 2026: ¿hora del evento y los más nominados?",
-      "categoria": "Valle del Cauca",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/vida-moderna/latin-grammy-2026-hora-del-evento-12-11-2026/",
-      "fecha": "2026-11-12T16:06:40+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "753cfb9a9f15b9fb",
-      "titulo": "Final de la Sudamericana movería más de $840.000 millones en Barranquilla: comercio y turismo se preparan para recibir a miles de aficionados",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/barranquilla/final-de-la-sudamericana-moveria-mas-de-840-000-millones-en-barranquilla-comercio-y-turismo-se-preparan-para-recibir-a-miles-de-aficionados-3600495",
-      "fecha": "2026-11-12T16:01:01+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "924f064e3fd5add0",
-      "titulo": "Creado el mayor mapa del área cerebral clave en párkinson, alzhéimer, esquizofrenia y autismo",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/ciencia/2026-11-12/creado-el-mayor-mapa-del-area-cerebral-clave-en-parkinson-alzheimer-esquizofrenia-y-autismo.html",
-      "fecha": "2026-11-12T16:00:10+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "5072ae058748dd37",
-      "titulo": "Enfrentar el poder criminal exige precisión, no vaguedades",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/red-de-expertos/red-de-las-mujeres/enfrentar-el-poder-criminal-exige-precision-no-vaguedades/",
-      "fecha": "2026-11-12T16:00:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "fe1d68d5c075226f",
-      "titulo": "Jensen Huang renuncia como director ejecutivo de Nvidia tras conocerse su relación con una supuesta espía china",
-      "categoria": "Internacional",
-      "fuente": "BBC Mundo",
-      "url": "https://www.bbc.com/mundo/articles/cq2d9pg47052o?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-12T15:59:31+00:00",
       "imagen": ""
     }
   ],
@@ -596,7 +596,7 @@
       "nombre": "DW Español",
       "url": "https://rss.dw.com/rdf/rss-sp-all",
       "estado": "correcto",
-      "titulares": 29
+      "titulares": 30
     },
     {
       "nombre": "Xataka",
@@ -655,9 +655,8 @@
     {
       "nombre": "El Diario — Pereira",
       "url": "https://www.eldiario.com.co/feed/",
-      "estado": "error",
-      "titulares": 0,
-      "detalle": "El feed no contiene entradas."
+      "estado": "correcto",
+      "titulares": 35
     },
     {
       "nombre": "Chocó 7 días",
