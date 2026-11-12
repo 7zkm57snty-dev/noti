@@ -1,6 +1,60 @@
 {
-  "ultima_actualizacion": "2026-11-12T02:32:02.017171+00:00",
+  "ultima_actualizacion": "2026-11-12T03:31:41.158996+00:00",
   "titulares_rss": [
+    {
+      "id": "4fe4bc4decc4e277",
+      "titulo": "Así le contamos el primer día de la visita del papa León XIV en Perú",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/america/2026-11-11/la-visita-del-papa-leon-xiv-en-vivo.html",
+      "fecha": "2026-11-12T03:26:49+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "4f8b2017ee48d2a6",
+      "titulo": "Sigue inestabilidad en el Hospital San Francisco de Asís de Quibdó: otro interventor",
+      "categoria": "Colombia",
+      "fuente": "Chocó 7 días",
+      "url": "https://choco7dias.com/sigue-inestabilidad-en-el-hospital-san-francisco-de-asis-de-quibdo-otro-interventor/",
+      "fecha": "2026-11-12T03:06:20+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "23a1b9660384d101",
+      "titulo": "Guerra de pujas por la colección de 61 motos de Ryan Wedding, ‘el rey de la cocaína’",
+      "categoria": "Internacional",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/mexico/2026-11-12/guerra-de-pujas-por-la-coleccion-de-61-motos-de-ryan-wedding-el-rey-de-la-cocaina.html",
+      "fecha": "2026-11-12T03:04:26+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "4c77b61a9a0225bd",
+      "titulo": "Colsubsidio se pronunció tras medida cautelar de la Supersalud por retrasos en la entrega de medicamentos a usuarios de EPS Sanitas",
+      "categoria": "Internacional",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/colsubsidio-se-pronuncio-tras-medida-cautelar-de-la-supersalud-por-retrasos-en-la-entrega-de-medicamentos-a-usuarios-de-eps-sanitas-3600371",
+      "fecha": "2026-11-12T03:01:19+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "4afe4aae80f86c8d",
+      "titulo": "Mataron a un policía en Casanare tras escalada criminal en distintos puntos del país",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/mataron-a-dos-policias-casanare-escalada-terrorista-atentados-hostigamiento-GK43490446",
+      "fecha": "2026-11-12T03:00:25+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "34bda3a02c9a9c6f",
+      "titulo": "Leyner Palacios Asprilla se posesionó como Defensor del Pueblo Regional Chocó",
+      "categoria": "Colombia",
+      "fuente": "Chocó 7 días",
+      "url": "https://choco7dias.com/leyner-palacios-asprilla-se-posesiono-como-defensor-del-pueblo-regional-choco/",
+      "fecha": "2026-11-12T02:32:29+00:00",
+      "imagen": ""
+    },
     {
       "id": "7b86e8d57071d06f",
       "titulo": "¿Cambiarán las multas de tránsito en Colombia? Esto propone un nuevo proyecto",
@@ -8,15 +62,6 @@
       "fuente": "La FM Actualidad",
       "url": "https://www.lafm.com.co/actualidad/multas-transito-colombia-cambios-plan-de-desarrollo-ministerio-de-transporte-416951",
       "fecha": "2026-11-12T02:30:06+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "4fe4bc4decc4e277",
-      "titulo": "La visita del papa León XIV, en vivo | León XIV en Lima: “Las guerras reclaman una diplomacia que respete el derecho internacional”",
-      "categoria": "Internacional",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/america/2026-11-11/la-visita-del-papa-leon-xiv-en-vivo.html",
-      "fecha": "2026-11-12T02:12:39+00:00",
       "imagen": ""
     },
     {
@@ -227,6 +272,15 @@
       "imagen": ""
     },
     {
+      "id": "0db9ca3440c27866",
+      "titulo": "Crean nuevo gremio de electromovilidad ante el crecimiento de eléctricos e híbridos",
+      "categoria": "Cali",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/empresas/crean-nuevo-gremio-de-electromovilidad-ante-el-crecimiento-de-electricos-e-hibridos-4523102",
+      "fecha": "2026-11-11T23:45:57+00:00",
+      "imagen": ""
+    },
+    {
       "id": "2e39158960d03c44",
       "titulo": "MinAgricultura derogó la última área de producción de alimentos de Petro",
       "categoria": "Colombia",
@@ -341,6 +395,15 @@
       "fuente": "La República",
       "url": "https://www.larepublica.co/globoeconomia/nvidia-se-prepara-para-despedir-a-huang-por-nuevo-hallazgo-de-infidelidad-4522895",
       "fecha": "2026-11-11T23:08:05+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "d9324e26ff733787",
+      "titulo": "Ultraprocesados y etiquetado: sistemas que no coinciden",
+      "categoria": "Colombia",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/secciones/salud/ultraprocesados-etiquetado-sistemas-no-coinciden/",
+      "fecha": "2026-11-11T23:08:00+00:00",
       "imagen": ""
     },
     {
@@ -477,69 +540,6 @@
       "url": "https://www.lasillavacia.com/en-vivo/la-silla-amazonia-gano-premio-de-anif-con-historia-sobre-creditos-para-vacas/",
       "fecha": "2026-11-11T22:02:01+00:00",
       "imagen": ""
-    },
-    {
-      "id": "e19f1159511adb3e",
-      "titulo": "¿Va a sacar pasaporte? Advierten sobre páginas web falsas que cobran por citas y roban datos personales",
-      "categoria": "Colombia",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/colombia/paginas-web-falsas-de-pasaportes-alerta-cancilleria-estafas-2026/",
-      "fecha": "2026-11-11T22:01:46+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "07149f49485c018c",
-      "titulo": "Cerca de 100.000 pasajeros llegarían por tierra a Barranquilla durante la semana de la final entre Boca Juniors y Atlético Mineiro por Sudamericana",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/barranquilla/cerca-de-100-000-pasajeros-llegarian-por-tierra-a-barranquilla-durante-la-semana-de-la-final-entre-boca-juniors-y-atletico-mineiro-por-sudamericana-3600324",
-      "fecha": "2026-11-11T22:01:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "ccc11cd7515b1b2b",
-      "titulo": "“Usé lenguaje inapropiado e irrespetuoso”: Bula se disculpa con demócratas",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/en-vivo/use-lenguaje-inapropiado-e-irrespetuoso-bula-se-disculpa-con-democratas/",
-      "fecha": "2026-11-11T21:55:28+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "7fb956858760cc87",
-      "titulo": "Robo en el sur de Cali terminó en enfrentamiento con la Policía: un sospechoso murió, otro resultó herido y uno fue capturado",
-      "categoria": "Cali",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/cali/intento-de-robo-en-el-sur-de-cali-abatido-capturados-policia-2026/",
-      "fecha": "2026-11-11T21:54:54+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "f99902870e945192",
-      "titulo": "ConectaComuna: la plataforma caleña que digitaliza los barrios y lleva a la Institución Educativa Ciudad Córdoba a la final nacional de programación",
-      "categoria": "Cali",
-      "fuente": "El Tiempo Cali",
-      "url": "https://www.eltiempo.com/colombia/cali/conectacomuna-la-plataforma-calena-que-digitaliza-los-barrios-y-lleva-a-la-institucion-educativa-ciudad-cordoba-a-la-final-nacional-de-programacion-3600284",
-      "fecha": "2026-11-11T21:50:59+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "a9c6b1ad3d559df4",
-      "titulo": "Incertidumbre en la salud por falta de plata del gobierno De la Espriella",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/silla-nacional/incertidumbre-en-la-salud-por-falta-de-plata-del-gobierno-de-la-espriella/",
-      "fecha": "2026-11-11T21:50:55+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "7ca6824046f78fb6",
-      "titulo": "Supersalud impone medida cautelar a Colsubsidio por fallas en entrega de medicamentos a usuarios de EPS Sanitas",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/supersalud-medida-cautelar-colsubsidio-fallas-entrega-medicamentos-usuarios-eps-sanitas-LE43477639",
-      "fecha": "2026-11-11T21:46:24+00:00",
-      "imagen": ""
     }
   ],
   "estado_fuentes": [
@@ -553,7 +553,7 @@
       "nombre": "El Tiempo Cali",
       "url": "https://www.eltiempo.com/rss/colombia_cali.xml",
       "estado": "correcto",
-      "titulares": 6
+      "titulares": 7
     },
     {
       "nombre": "El Espectador",
