@@ -1,6 +1,213 @@
 {
-  "ultima_actualizacion": "2026-11-12T19:03:48.419792+00:00",
+  "ultima_actualizacion": "2026-11-12T20:00:40.482887+00:00",
   "titulares_rss": [
+    {
+      "id": "b525d4b05abd8350",
+      "titulo": "Inter Bogotá defendió su reclamo ante el TAS y confirmó que Fabricio Sanguinetti tiene mercado internacional",
+      "categoria": "Economía",
+      "fuente": "La FM Deportes",
+      "url": "https://www.lafm.com.co/deportes/inter-bogota-defendio-su-reclamo-ante-el-tas-y-confirmo-que-fabricio-sanguinetti-tiene-mercado-internacional-417036",
+      "fecha": "2026-11-12T19:49:51+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "f8258440c9dbabe5",
+      "titulo": "Tragedia en Nueva York: ocho muertos tras derrumbe de edificio; hay colombianos entre los afectados",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/noticias/tragedia-en-nueva-york-ocho-muertos-tras-derrumbe-de-edificio-hay-colombianos-entre-los-afectados/",
+      "fecha": "2026-11-12T19:46:50+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "b56b8ec7e2134e93",
+      "titulo": "'Un Paso Más', el programa ortopédico que llega a Cali a dar oportunidades a niñas y niños",
+      "categoria": "Cali",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/cali/un-paso-mas-programa-ortopedico-cali-12-11-2026/",
+      "fecha": "2026-11-12T19:43:29+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "23cc9f064d8bdd8a",
+      "titulo": "Demócratas disculpan a Bula y llaman a preservar apoyo bipartidista",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/en-vivo/democratas-disculpan-a-bula-y-llaman-a-preservar-apoyo-bipartidista/",
+      "fecha": "2026-11-12T19:43:15+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "7c2cad533d39c409",
+      "titulo": "J.P. Morgan Asset Management lanzó 15 ETF activos en el Mercado Global Colombiano",
+      "categoria": "Economía",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/finanzas/j-p-morgan-asset-management-lanzo-15-etf-activos-en-el-mercado-global-colombiano-4523466",
+      "fecha": "2026-11-12T19:40:21+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "afba58a20fe121e7",
+      "titulo": "Caso Yhormar Hurtado: América pierde puntos y se complica en la recta final de Liga",
+      "categoria": "Deportes",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/deportes/america-de-cali/caso-yhormar-hurtado-america-de-cali-12-11-2026/",
+      "fecha": "2026-11-12T19:37:10+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "457069a6fa5ec650",
+      "titulo": "Mineros evalúa operación de menor escala para desarrollar el proyecto de oro en Tolima",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/empresas/mineros-evalua-operacion-de-menor-escala-para-desarrollar-el-proyecto-de-oro-en-tolima-4523349",
+      "fecha": "2026-11-12T19:35:13+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "e152e4f12d632770",
+      "titulo": "La carrera hacia 'GTA VI' se libra antes en consolas que en PC. En la era de la IA eso es un problema",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/videojuegos/carrera-gta-vi-se-libra-antes-consolas-que-pc-era-ia-eso-problema",
+      "fecha": "2026-11-12T19:31:22+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "55df2e2a4b0a774c",
+      "titulo": "Alimento para perros y gatos subiría de precio por reforma tributaria",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/noticias/alimento-para-perros-y-gatos-subiria-de-precio-por-reforma-tributaria/",
+      "fecha": "2026-11-12T19:30:59+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "f872469b9a92c97c",
+      "titulo": "Odinsa reportó unos ingresos por $274.107 millones con corte al tercer trimestre de 2026",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/empresas/resultados-empresariales-odinsa-tercer-trimestre-de-2026-4523488",
+      "fecha": "2026-11-12T19:28:09+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "09287574e70842f9",
+      "titulo": "Roldanillo recupera su magia: avanza la reactivación económica y turística tras terremoto",
+      "categoria": "Valle del Cauca",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/valle-del-cauca/roldanillo-avanza-reactivacion-economica-12-11-2026/",
+      "fecha": "2026-11-12T19:26:40+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "b44c9a695f7c1f65",
+      "titulo": "Se conocen nuevas imágenes de Kairo: Hijo de Karina García y Kris R",
+      "categoria": "Valle del Cauca",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/entretenimiento/nuevas-imagenes-de-kairo-hijo-de-karina-garcia-y-kris-r-12-11-2026/",
+      "fecha": "2026-11-12T19:26:23+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "cebfdba497dbeb55",
+      "titulo": "\"Le pedí al 'joven padre Robert' que fuera el padrino de mi hija en Perú. Treinta años después se convirtió en el papa León XIV\"",
+      "categoria": "Internacional",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/cqly3jpmvvl9o?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-12T19:23:06+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "47304f43e6e622fe",
+      "titulo": "Reportan fallas masivas en Microsoft Outlook: miles de usuarios no pueden ingresar a sus correos",
+      "categoria": "Tecnología",
+      "fuente": "La FM Actualidad",
+      "url": "https://www.lafm.com.co/actualidad/outlook-microsoft-caida-masiva-falla-servicios-12-de-noviembre-417033",
+      "fecha": "2026-11-12T19:22:19+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "841113e466156a7f",
+      "titulo": "23 años después del asesinato de ‘Tito’ Díaz, exalcalde de El Roble (Sucre), las amenazas no cesan y no todos los culpables están detenidos",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/23-anos-despues-del-asesinato-de-tito-diaz-exalcalde-de-el-roble-sucre-las-amenazas-no-cesan-y-no-todos-los-culpables-estan-detenidos-3600570",
+      "fecha": "2026-11-12T19:20:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "56699315533da3a6",
+      "titulo": "Derrumbe en Brooklyn: dos niños y trabajadores inmigrantes de varios países entre las víctimas mortales",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/us/2026-11-12/dos-ninos-entre-las-victimas-del-derrumbe-de-un-edificio-en-brooklyn-mientras-la-lluvia-dificulta-el-rescate.html",
+      "fecha": "2026-11-12T19:18:11+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "7f96a53b39974008",
+      "titulo": "Mejores pulseras de actividad 2026. Cuál comprar y cinco modelos recomendados",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/seleccion/mejores-pulseras-actividad",
+      "fecha": "2026-11-12T19:15:24+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "2797833c356ba53b",
+      "titulo": "¿El polaco Fydriszewki se va del Junior de Barranquilla? Esto se sabe",
+      "categoria": "Deportes",
+      "fuente": "La FM Deportes",
+      "url": "https://www.lafm.com.co/deportes/junior-de-barranquilla-y-el-polaco-llegarian-a-un-acuerdo-de-final-de-contrato-417032",
+      "fecha": "2026-11-12T19:14:40+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "977c9b290853a472",
+      "titulo": "El poder de Jaime Ramírez Cobo en el Gobierno Petro y la historia detrás del celular del expresidente",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/quien-es-jaime-ramirez-cobo-padrino-matrimonio-sarabia-dueno-sim-celular-que-uso-petro-HK43495673",
+      "fecha": "2026-11-12T19:13:46+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "916451023acec2b7",
+      "titulo": "Trump amenaza a México con duplicar aranceles si no detiene las caravanas de migrantes con destino a la frontera",
+      "categoria": "Internacional",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/cj62pglgdwreo?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-12T19:10:59+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "4e7ff983afc8e378",
+      "titulo": "Gabinete en pleno aprueba bases del Plan de Desarrollo",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/en-vivo/gabinete-en-pleno-aprueba-bases-del-plan-de-desarrollo/",
+      "fecha": "2026-11-12T19:04:42+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "e1c0678f12da934d",
+      "titulo": "Ibiza tiene un problema para dar alojamiento a 30.000 trabajadores de temporada. Ahora tiene también un plan para solucionarlo",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/magnet/ibiza-tiene-problema-para-dar-alojamiento-a-30-000-trabajadores-temporales-ahora-tiene-tambien-plan-para-solucionarlo",
+      "fecha": "2026-11-12T19:01:21+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "7e059628f8137541",
+      "titulo": "Las zonas heladas de la Tierra han traspasado los umbrales seguros para la humanidad",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/clima-y-medio-ambiente/2026-11-12/las-zonas-heladas-de-la-tierra-han-traspasado-los-umbrales-seguros-para-la-humanidad.html",
+      "fecha": "2026-11-12T19:00:57+00:00",
+      "imagen": ""
+    },
     {
       "id": "7f5ea8b1b223b6b6",
       "titulo": "Perú inauguró una gigantesca estatua de 14 metros en honor al papa León XIV",
@@ -17,6 +224,24 @@
       "fuente": "La Silla Vacía",
       "url": "https://www.lasillavacia.com/red-de-expertos/red-verde/cop31-la-apuesta-minera-pone-a-prueba-la-coherencia-climatica-de-colombia/",
       "fecha": "2026-11-12T19:00:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "6f818b16cb37de7d",
+      "titulo": "Fallas en plataformas de la DIAN afectan importaciones y exportaciones: Analdex advierte sobrecostos y demoras",
+      "categoria": "Economía",
+      "fuente": "La FM Economía",
+      "url": "https://www.lafm.com.co/economia/fallas-dian-sistemas-aduaneros-sobrecostos-demoras-analdex-417031",
+      "fecha": "2026-11-12T18:58:27+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "2397e379b2a7b430",
+      "titulo": "El nuevo aire que se respira en la relación del Gobierno con el Banco de la República y el sistema financiero",
+      "categoria": "Economía",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/gobierno/el-nuevo-aire-que-se-respira-en-la-relacion-del-gobierno-con-el-banco-de-la-republica-y-el-sistema-financiero-506248",
+      "fecha": "2026-11-12T18:58:18+00:00",
       "imagen": ""
     },
     {
@@ -65,15 +290,6 @@
       "imagen": ""
     },
     {
-      "id": "cebfdba497dbeb55",
-      "titulo": "\"Le pedí al 'joven padre Robert' que fuera el padrino de mi hija en Perú. Treinta años después se convirtió en el papa León XIV\"",
-      "categoria": "Internacional",
-      "fuente": "BBC Mundo",
-      "url": "https://www.bbc.com/mundo/articles/cqly3jpmvvl9o?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-12T18:33:02+00:00",
-      "imagen": ""
-    },
-    {
       "id": "e1287a742663d1bb",
       "titulo": "Más allá del debate sobre su éxito, el 11N deja una pregunta: para qué sirve realmente una huelga general en 2026",
       "categoria": "Colombia",
@@ -101,6 +317,24 @@
       "imagen": ""
     },
     {
+      "id": "6aecb10d7b6c3f34",
+      "titulo": "Atención: ELN liberó a los dos agentes del CTI que tenía secuestrados desde mayo de 2025",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/eln-libera-dos-secuestrados-cti-arauca-MD43513593",
+      "fecha": "2026-11-12T18:26:59+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "d97fd24c7f408d51",
+      "titulo": "¿Está preparando un viaje por carretera? Estas recomendaciones le ayudarán a ahorrar y viajar seguro",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/cuales-son-las-recomendaciones-para-viajar-por-carretera-y-como-ahorrar-durante-el-viaje-GD43510512",
+      "fecha": "2026-11-12T18:24:08+00:00",
+      "imagen": ""
+    },
+    {
       "id": "070ce19ef0a9e368",
       "titulo": "¡Ya huele a buñuelos y natilla! Conductor de buseta en Cúcuta se vuelve viral con su decoración de Navidad: se viene diciembre",
       "categoria": "Tendencias",
@@ -120,7 +354,7 @@
     },
     {
       "id": "ef1f4f29b11afa4a",
-      "titulo": "Néstor Sandoval, primer hispanohablante en presidir la Sociedad Mundial de Cirugía Cardíaca Pediátrica",
+      "titulo": "Néstor Sandoval preside la Sociedad Mundial de Cirugía Cardíaca Pediátrica",
       "categoria": "Deportes",
       "fuente": "La República",
       "url": "https://www.larepublica.co/empresas/nestor-sandoval-primer-hispanohablante-en-presidir-la-sociedad-mundial-de-cirugia-cardiaca-pediatrica-4523416",
@@ -263,21 +497,21 @@
       "imagen": ""
     },
     {
+      "id": "f1a3d4a41f46e927",
+      "titulo": "La historia detrás del broche de 145 diamantes que la reina Camila usó en público",
+      "categoria": "Internacional",
+      "fuente": "La FM Internacional",
+      "url": "https://www.lafm.com.co/internacional/la-historia-del-broche-de-145-diamantes-de-la-reina-camila-417024",
+      "fecha": "2026-11-12T17:38:23+00:00",
+      "imagen": ""
+    },
+    {
       "id": "b851227524da8d5c",
       "titulo": "Choque en Dublín entre el primer ministro portugués y el secretario general de la OTAN",
       "categoria": "Colombia",
       "fuente": "El País Colombia",
       "url": "https://elpais.com/internacional/2026-11-12/choque-en-dublin-entre-el-primer-ministro-portugues-y-el-secretario-general-de-la-otan.html",
       "fecha": "2026-11-12T17:35:24+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "6aecb10d7b6c3f34",
-      "titulo": "Atención: ELN liberó a los dos agentes del CTI que tenía secuestrados desde mayo de 2025",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/eln-libera-dos-secuestrados-cti-arauca-MD43513593",
-      "fecha": "2026-11-12T17:33:58+00:00",
       "imagen": ""
     },
     {
@@ -305,240 +539,6 @@
       "fuente": "Portafolio",
       "url": "https://www.portafolio.co/economia/final-de-la-copa-sudamericana-dejaria-millonaria-cifra-en-barranquilla-hoteles-y-comercio-se-preparan-506245",
       "fecha": "2026-11-12T17:25:59+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "34e8055c834b82b1",
-      "titulo": "Video | Premios Cristo Rey 2026: siga aquí la transmisión en vivo de la alfombra roja",
-      "categoria": "Valle del Cauca",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/entretenimiento/premios-cristo-rey-2026-transmision-alfombra-roja-12-11-2026/",
-      "fecha": "2026-11-12T17:23:37+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "eaccb36f2a9d70a6",
-      "titulo": "Banco Falabella habilita pago con tarjetas y dispositivos móviles en Metro de Medellín",
-      "categoria": "Economía",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/finanzas/banco-falabella-habilita-pago-con-tarjetas-y-dispositivos-moviles-en-metro-de-medellin-4523396",
-      "fecha": "2026-11-12T17:20:13+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "7659b7ab7faff172",
-      "titulo": "'Arena Bonita': el centro de eventos del oriente va en más del 50 % de avance y se espera inaugurar con un megaconcierto en julio de 2026",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/santander/arena-bonita-el-centro-de-eventos-del-oriente-va-en-mas-del-50-de-avance-y-se-espera-inaugurar-con-un-megaconcierto-en-julio-de-3600490",
-      "fecha": "2026-11-12T17:19:36+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "a60cc9d76f95acd9",
-      "titulo": "Se acerca el momento para hacer maratones de pelis Navideñas y este proyector rebajado es ideal para disfrutarlas a lo grande",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/seleccion/se-acerca-momento-para-hacer-maratones-pelis-navidenas-este-proyector-rebajado-ideal-para-disfrutarlas-a-grande",
-      "fecha": "2026-11-12T17:15:22+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "c310f311cf8c24c2",
-      "titulo": "Joven murió golpeado por troncos que cayeron de camión en movimiento: como en la película Destino Final",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/joven-murio-golpeado-por-troncos-que-cayeron-de-camion-en-movimiento-como-en-la-pelicula-destino-final-3600532",
-      "fecha": "2026-11-12T17:15:15+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "34e96a7f023f33aa",
-      "titulo": "Así será el bulevar Figueroa en Cali, en 2027: Concejo aprobó $ 44.906 millones para transformar un canal en un parque lineal para 300.000 personas",
-      "categoria": "Cali",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/cali/asi-sera-el-bulevar-figueroa-en-el-oriente-de-cali-en-2027-concejo-aprobo-44-906-millones-para-transformar-un-canal-en-un-parque-lineal-3600518",
-      "fecha": "2026-11-12T17:15:05+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "a849df141e074b3d",
-      "titulo": "‘Epa Colombia’ podría salir de la cárcel de Ibagué y regresar a casa con su hija: esto dijo su abogada",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/epa-colombia-carcel-ibague-prision-domiciliaria-hija-abogada-CC43505474",
-      "fecha": "2026-11-12T17:12:36+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "fa5b22899cd58402",
-      "titulo": "Estados Unidos reconoce avances en lucha contra las drogas durante los primeros 90 días de De la Espriella",
-      "categoria": "Internacional",
-      "fuente": "La FM Internacional",
-      "url": "https://www.lafm.com.co/internacional/eeuu-reconoce-avances-lucha-antidrogas-colombia-417021",
-      "fecha": "2026-11-12T17:08:20+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "47f1f363b0fd1b10",
-      "titulo": "Emergencia en El Dorado: avión que iba de Ecuador a Curazao se desvió a Bogotá por falla mecánica",
-      "categoria": "Colombia",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/regiones/emergencia-en-el-dorado-avion-que-iba-de-ecuador-a-curazao-se-desvio-a-bogota-por-falla-mecanica-506243",
-      "fecha": "2026-11-12T17:07:22+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "7110aff3f36bac1b",
-      "titulo": "¿Cuándo será el último puente festivo del 2026?",
-      "categoria": "Valle del Cauca",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/vida-moderna/puente-festivo-del-2026-12-11-2026/",
-      "fecha": "2026-11-12T17:06:19+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "3ce8ded5fe56c8d6",
-      "titulo": "El papa León XIV ya llegó a Perú y pide honestidad a las autoridades",
-      "categoria": "Valle del Cauca",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/efe/papa-leon-xiv-llego-peru-12-11-2026/",
-      "fecha": "2026-11-12T17:06:02+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "d552b08fd2fee17d",
-      "titulo": "Popularidad de Abelardo no llega al 50% en sus primeros 100 días, según Cifras y Conceptos",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/cae-popularidad-de-abelardo-primeros-100-dias-de-gobierno-GK43497625",
-      "fecha": "2026-11-12T17:04:59+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "fb70eaac7a386e1c",
-      "titulo": "De la Espriella se defiende de las críticas: “Soy un soldado de la patria, por eso me visto de soldado, porque vine a servirle a Colombia”",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/abelardo-espriella-responde-criticas-vestido-militar-catatumbo-AC43504477",
-      "fecha": "2026-11-12T17:04:12+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "f58b299903e416b1",
-      "titulo": "Ataques israelíes dejan al menos once muertos en distintos puntos de Gaza",
-      "categoria": "Internacional",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/ataques-israelíes-dejan-al-menos-once-muertos-en-distintos-puntos-de-gaza/a-79934531?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-12T17:03:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "6a7227f5ab0cceb8",
-      "titulo": "Lula viaja a Madrid para hacer campaña con Sánchez tras su remontada en Brasil",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/espana/elecciones-generales/2026-11-12/lula-viaja-a-madrid-para-hacer-campana-con-sanchez.html",
-      "fecha": "2026-11-12T17:02:52+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "8a2af2ad780e25ba",
-      "titulo": "Tras 40 días, fracasa en Valencia la segunda negociación por la vivienda y la acampada empieza a desalojarse",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/magnet/40-dias-fracasa-valencia-segunda-negociacion-vivienda-acampada-empieza-a-desalojarse",
-      "fecha": "2026-11-12T17:01:26+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "6db059a9a7fcf5ae",
-      "titulo": "Una niña de 3 años presenció el asesinato de su madre en Soledad: alarmas en el Atlántico que llega a 75 víctimas femeninas de homicidio en 2026",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/barranquilla/una-nina-de-3-anos-presencio-el-asesinato-de-su-madre-en-soledad-alarmas-en-el-atlantico-que-llega-a-75-victimas-femeninas-de-homicidio-en-3600512",
-      "fecha": "2026-11-12T17:01:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "5872629df5e32f3f",
-      "titulo": "León XIV llama a responder a los abusos del clero con “la verdad, la justicia, el perdón y la reparación”",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/america/2026-11-12/leon-xiv-llama-a-responder-a-los-abusos-del-clero-con-la-verdad-la-justicia-el-perdon-y-la-reparacion.html",
-      "fecha": "2026-11-12T17:00:56+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "2539eb967cbbc024",
-      "titulo": "La reforma a la regla fiscal que propone la tributaria puede agravar lo que busca corregir",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/red-de-expertos/red-social/la-reforma-a-la-regla-fiscal-que-propone-la-tributaria-puede-agravar-lo-que-busca-corregir/",
-      "fecha": "2026-11-12T17:00:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "1be0f56866130376",
-      "titulo": "Imágenes | Finaliza la demolición total del edificio Arábico en Cali",
-      "categoria": "Cali",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/cali/demolicion-edificio-arabico-cali-12-11-2026/",
-      "fecha": "2026-11-12T16:57:14+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "97160a77304a6e27",
-      "titulo": "Extraña desaparición de estudiante de la Universidad Nacional en Medellín tras salir hacia El Poblado a reclamar un computador: 'Su familia lo quiere'",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/medellin/extrana-desaparicion-de-estudiante-de-la-universidad-nacional-en-medellin-tras-salir-hacia-el-poblado-a-reclamar-un-computador-su-familia-lo-quiere-3600407",
-      "fecha": "2026-11-12T16:56:55+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "4bae6f43e5cbc5f1",
-      "titulo": "Angie Rodríguez reveló la petición que Gustavo Petro le habría hecho sobre Vanessa Cortés: 'Es mi pareja oficial'",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/gobierno/angie-rodriguez-revelo-la-peticion-que-gustavo-petro-le-habria-hecho-sobre-vanessa-cortes-es-mi-pareja-oficial-506242",
-      "fecha": "2026-11-12T16:54:12+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "6e2efd082df1c474",
-      "titulo": "Tiroteo cerca de la Casa Blanca deja dos muertos y cuatro heridos",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/actualidad/tiroteo-cerca-de-la-casa-blanca-deja-dos-muertos-y-cuatro-heridos/",
-      "fecha": "2026-11-12T16:52:27+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "0c8646664b902544",
-      "titulo": "La lucha contra el ELN acerca a los gobiernos de Delcy Rodríguez y De la Espriella",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/america-colombia/2026-11-12/la-lucha-contra-el-eln-acerca-a-los-gobiernos-de-delcy-rodriguez-y-de-la-espriella.html",
-      "fecha": "2026-11-12T16:51:56+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "95cf8758d7b39e76",
-      "titulo": "Nvidia busca CEO tras la salida de Jensen Huang: estos son los candidatos que suenan para el puesto",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/empresas-y-economia/nvidia-busca-ceo-salida-jensen-huang-estos-candidatos-que-suenan-para-puesto",
-      "fecha": "2026-11-12T16:51:23+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "43daa6eb0f13d380",
-      "titulo": "María Consuelo Araújo se reunió con Gregory Meeks para recomponer el diálogo con demócratas",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/economia/embajadora-de-colombia-se-reunio-con-gregory-meeks-para-recomponer-dialogo-con-democratas-de-ee-uu-4523380",
-      "fecha": "2026-11-12T16:50:36+00:00",
       "imagen": ""
     }
   ],
@@ -590,7 +590,7 @@
       "nombre": "BBC Mundo",
       "url": "https://feeds.bbci.co.uk/mundo/rss.xml",
       "estado": "correcto",
-      "titulares": 29
+      "titulares": 30
     },
     {
       "nombre": "DW Español",
@@ -643,8 +643,8 @@
     {
       "nombre": "Q'hubo Cali",
       "url": "https://www.qhubocali.com/feed/",
-      "estado": "correcto",
-      "titulares": 1
+      "estado": "sin_novedades",
+      "titulares": 0
     },
     {
       "nombre": "El Colombiano — Colombia",
