@@ -1,6 +1,69 @@
 {
-  "ultima_actualizacion": "2026-11-12T03:31:41.158996+00:00",
+  "ultima_actualizacion": "2026-11-12T04:39:03.449706+00:00",
   "titulares_rss": [
+    {
+      "id": "2953def7fc204bea",
+      "titulo": "Sloviansk, la ciudad devastada del frente de batalla que Rusia quiere que Ucrania le entregue",
+      "categoria": "Internacional",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/cqdj1ww3pd4lo?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-12T04:32:43+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "e4109af535aa3d21",
+      "titulo": "'Un atentado a la democracia': autoridades aumentan hasta $ 50 millones la recompensa por los responsables del ataque a RCN en Cali",
+      "categoria": "Cali",
+      "fuente": "El Tiempo Cali",
+      "url": "https://www.eltiempo.com/colombia/cali/un-atentado-a-la-democracia-autoridades-aumentan-hasta-50-millones-la-recompensa-por-los-responsables-del-ataque-a-rcn-en-cali-3600296",
+      "fecha": "2026-11-12T04:20:47+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "ae1d35faaec6d765",
+      "titulo": "Familia de Blanca Pardo pide a Medicina Legal acelerar entrega de pruebas genéticas para esclarecer su muerte en Nariño: 'Ha sido como un viacrucis'",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/familia-de-blanca-pardo-pide-a-medicina-legal-acelerar-entrega-de-pruebas-geneticas-para-esclarecer-su-muerte-en-narino-ha-sido-como-un-viacrucis-3600376",
+      "fecha": "2026-11-12T04:15:20+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "87f74829d20f6129",
+      "titulo": "Chocó: un día como hoy… 11 de noviembre",
+      "categoria": "Colombia",
+      "fuente": "Chocó 7 días",
+      "url": "https://choco7dias.com/choco-un-dia-como-hoy-11-de-noviembre/",
+      "fecha": "2026-11-12T04:10:56+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "5d9aa3ae3c96de55",
+      "titulo": "Por qué hundieron frente a la costa de Florida al mítico SS United States, el que fuera el transatlántico más rápido del mundo",
+      "categoria": "Internacional",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/c5lykgdkdlxlo?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-12T04:08:41+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "a77189b36bc4537c",
+      "titulo": "Presunta espía china del caso Nvidia está en Pekín, según Bloomberg",
+      "categoria": "Internacional",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/presunta-espía-china-del-caso-nvidia-está-en-pekín-según-bloomberg/a-79925330?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-12T03:56:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "a9d99dac3474cdd1",
+      "titulo": "Wang Yi pide a Marco Rubio preservar la estabilidad entre China y EE.UU.",
+      "categoria": "Internacional",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/wang-yi-pide-a-marco-rubio-preservar-la-estabilidad-entre-china-y-ee-uu/a-79925094?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-12T03:33:00+00:00",
+      "imagen": ""
+    },
     {
       "id": "4fe4bc4decc4e277",
       "titulo": "Así le contamos el primer día de la visita del papa León XIV en Perú",
@@ -8,6 +71,15 @@
       "fuente": "El País Colombia",
       "url": "https://elpais.com/america/2026-11-11/la-visita-del-papa-leon-xiv-en-vivo.html",
       "fecha": "2026-11-12T03:26:49+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "39ff5409a93b031e",
+      "titulo": "De Miami a Cali: Más de siete toneladas de solidaridad",
+      "categoria": "Cali",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/colombia/cristhian-mancera-mejia-exaltacion-concejo-de-cali-ayudas-terremoto-2026/",
+      "fecha": "2026-11-12T03:23:52+00:00",
       "imagen": ""
     },
     {
@@ -71,6 +143,15 @@
       "fuente": "DW Español",
       "url": "https://www.dw.com/es/un-ataque-israelí-mata-a-seis-personas-en-un-hospital-del-sur-de-gaza/a-79925101?maca=spa-rss-sp-all-1122-rdf",
       "fecha": "2026-11-12T02:01:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "7aaea3608dcb28c3",
+      "titulo": "Gobierno nacional inicia preparativos para la negociación del salario mínimo",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/economia/gobierno-nacional-inicia-preparativos-para-la-negociacion-del-salario-minimo-4523105",
+      "fecha": "2026-11-12T01:58:41+00:00",
       "imagen": ""
     },
     {
@@ -458,87 +539,6 @@
       "fuente": "Diario Occidente",
       "url": "https://occidente.co/cali/inflacion-en-cali-octubre-alimentos-servicios-publicos-dane-2026/",
       "fecha": "2026-11-11T22:50:59+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "5ba55035b543c328",
-      "titulo": "Advierten por fármacos para adelgazar: puede quedar ciego",
-      "categoria": "Colombia",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/secciones/salud/medicamentos-para-bajar-de-peso-alerta-fda-secretaria-de-salud-cali-2026/",
-      "fecha": "2026-11-11T22:44:27+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "b2ffd8f512030cd2",
-      "titulo": "La deuda externa representa 50% del PIB nacional, alcanzó US$254.000 millones en agosto",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/economia/la-deuda-externa-representa-50-del-pib-nacional-alcanzo-us-254-000-millones-en-agosto-4522792",
-      "fecha": "2026-11-11T22:37:52+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "15f4e159ecf4c5df",
-      "titulo": "¿Habrá un apagón mundial el 17 de noviembre de 2026? Conozca qué pasará con la electricidad y el internet",
-      "categoria": "Deportes",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/internacionales/apagon-mundial-del-17-de-noviembre-desmentido-fema-fake-news-2026/",
-      "fecha": "2026-11-11T22:32:21+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "3dc8cb0a40935e85",
-      "titulo": "Los siete proyectos de minerales críticos en la Milagro Week",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/silla-amazonia/amazonia-en-breve/los-siete-proyectos-de-minerales-criticos-en-la-milagro-week/",
-      "fecha": "2026-11-11T22:31:16+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "fae0ed60753311c0",
-      "titulo": "Los dardos entre Santos y Duque en evento por los 10 años del Acuerdo con las Farc: así fue el cara a cara",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/ivan-duque-juan-manuel-santos-acuerdo-paz-jep-defensoria-GE43477405",
-      "fecha": "2026-11-11T22:28:45+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "55b3f2760f0ba32b",
-      "titulo": "Eventual arancel del 83 % a las llantas chinas podría encarecer los pasajes de bus y fletes de carga en Colombia",
-      "categoria": "Internacional",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/impuestos/eventual-arancel-del-83-a-las-llantas-chinas-podria-encarecer-los-pasajes-de-bus-y-fletes-de-carga-en-colombia-506183",
-      "fecha": "2026-11-11T22:18:52+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "aa805685d2aa1a49",
-      "titulo": "El rey de España, Felipe VI, y mandatarios iberoamericanos presiden un acto en el que Coomeva recibe un reconocimiento a su trayectoria excelente",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/cali/el-rey-de-espana-felipe-vi-y-mandatarios-iberoamericanos-presiden-acto-donde-coomeva-recibe-reconocimiento-a-su-trayectoria-excelente-3600317",
-      "fecha": "2026-11-11T22:09:29+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "296fbfa800efe183",
-      "titulo": "En Medellín la movilidad colapsó y no se hace nada",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/red-de-expertos/en-medellin-la-movilidad-colapso-y-no-se-hace-nada/",
-      "fecha": "2026-11-11T22:07:19+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "9d0aa8e14d3bec61",
-      "titulo": "La Silla Amazonía ganó premio de Anif con historia sobre créditos para vacas",
-      "categoria": "Cali",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/en-vivo/la-silla-amazonia-gano-premio-de-anif-con-historia-sobre-creditos-para-vacas/",
-      "fecha": "2026-11-11T22:02:01+00:00",
       "imagen": ""
     }
   ],
