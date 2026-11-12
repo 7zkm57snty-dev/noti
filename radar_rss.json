@@ -1,6 +1,87 @@
 {
-  "ultima_actualizacion": "2026-11-12T01:22:27.117327+00:00",
+  "ultima_actualizacion": "2026-11-12T02:32:02.017171+00:00",
   "titulares_rss": [
+    {
+      "id": "7b86e8d57071d06f",
+      "titulo": "¿Cambiarán las multas de tránsito en Colombia? Esto propone un nuevo proyecto",
+      "categoria": "Colombia",
+      "fuente": "La FM Actualidad",
+      "url": "https://www.lafm.com.co/actualidad/multas-transito-colombia-cambios-plan-de-desarrollo-ministerio-de-transporte-416951",
+      "fecha": "2026-11-12T02:30:06+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "4fe4bc4decc4e277",
+      "titulo": "La visita del papa León XIV, en vivo | León XIV en Lima: “Las guerras reclaman una diplomacia que respete el derecho internacional”",
+      "categoria": "Internacional",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/america/2026-11-11/la-visita-del-papa-leon-xiv-en-vivo.html",
+      "fecha": "2026-11-12T02:12:39+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "9f4b189b77deaa7e",
+      "titulo": "Un ataque israelí mata a seis personas en un hospital del sur de Gaza",
+      "categoria": "Internacional",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/un-ataque-israelí-mata-a-seis-personas-en-un-hospital-del-sur-de-gaza/a-79925101?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-12T02:01:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "10662a3f8577a332",
+      "titulo": "Latam Cargo triplica su capacidad operativa de bodega en Bogotá con en El Dorado",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/empresas/capacidad-de-latam-cargo-en-el-dorado-4523096",
+      "fecha": "2026-11-12T01:58:38+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "2d52af033b96f424",
+      "titulo": "El chocoano Ronald Cuesta es el nuevo personero municipal de La Celia, Risaralda",
+      "categoria": "Colombia",
+      "fuente": "Chocó 7 días",
+      "url": "https://choco7dias.com/el-chocoano-ronald-cuesta-es-el-nuevo-personero-municipal-de-la-celia-risaralda/",
+      "fecha": "2026-11-12T01:58:30+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "249a1151884b3fb7",
+      "titulo": "Colsubsidio atribuye demoras de medicamentos a acumulaciones antes de su operación",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/empresas/colsubsidio-atribuye-demoras-en-entrega-de-medicamentos-a-acumulaciones-antes-de-su-operacion-4523067",
+      "fecha": "2026-11-12T01:38:14+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "bfca9d286d020642",
+      "titulo": "Con el PND, Gobierno propone cuentas de ahorro para niños similares a las de Trump para nacidos entre 2027 y 2030",
+      "categoria": "Internacional",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/gobierno/con-el-pnd-gobierno-propone-cuentas-de-ahorro-para-ninos-similares-a-las-de-trump-para-nacidos-entre-2027-y-506191",
+      "fecha": "2026-11-12T01:35:05+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "b2251eb1f7f5a74d",
+      "titulo": "Canciller Bula pidió disculpas al Partido Demócrata de Estados Unidos por trinos del pasado: “Fue inapropiado e irrespetuoso”",
+      "categoria": "Internacional",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/canciller-bula-pidio-disculpas-partido-democrata-EL43485643",
+      "fecha": "2026-11-12T01:34:38+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "e1e160241119474f",
+      "titulo": "Gobierno vendería bienes de la SAE para pagar deuda: hay fincas, aviones y Ferraris",
+      "categoria": "Colombia",
+      "fuente": "La FM Economía",
+      "url": "https://www.lafm.com.co/economia/venta-bienes-sae-pago-deuda-publica-ferraris-objetos-lujo-416948",
+      "fecha": "2026-11-12T01:27:12+00:00",
+      "imagen": ""
+    },
     {
       "id": "ea6815ed6d17f62e",
       "titulo": "La utilidad neta de DaviBank crece 23,2% y alcanza $70.000 millones a corte de septiembre",
@@ -35,15 +116,6 @@
       "fuente": "La FM Economía",
       "url": "https://www.lafm.com.co/economia/renta-ciudadana-devolcion-iva-prosperidad-social-pagos-noviembre-416947",
       "fecha": "2026-11-12T01:01:10+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "4fe4bc4decc4e277",
-      "titulo": "La visita del papa León XIV, en vivo | El papa León XIV inicia en Lima la última etapa de su gira por Sudamérica",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/america/2026-11-11/la-visita-del-papa-leon-xiv-en-vivo.html",
-      "fecha": "2026-11-12T00:59:31+00:00",
       "imagen": ""
     },
     {
@@ -92,21 +164,21 @@
       "imagen": ""
     },
     {
+      "id": "40ba28b6067b2b52",
+      "titulo": "Obras en la avenida Roosevelt de Cali generan quejas: comerciantes denuncian dificultades para recibir clientes y conductores reportan trancones",
+      "categoria": "Cali",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/cali/obras-en-la-avenida-roosevelt-cali-quejas-comerciantes-movilidad-2026/",
+      "fecha": "2026-11-12T00:15:53+00:00",
+      "imagen": ""
+    },
+    {
       "id": "d1101de4b67d4b32",
       "titulo": "Duerma informado con las claves de este 11 de noviembre de 2026",
       "categoria": "Colombia",
       "fuente": "La Silla Vacía",
       "url": "https://www.lasillavacia.com/en-vivo/duerma-informado-con-las-claves-de-este-11-de-noviembre-de-2026/",
       "fecha": "2026-11-12T00:11:05+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "670628d8683dbf8d",
-      "titulo": "Canciller Bula pidió disculpas al Partido Demócrata de Estados Unidos por trinos del pasado: “Fue inapropiado e irrespetuoso”",
-      "categoria": "Internacional",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/canciller-bula-pidio-disculpas-partido-democrata-estados-unidos-por-trinos-EL43485643",
-      "fecha": "2026-11-12T00:10:53+00:00",
       "imagen": ""
     },
     {
@@ -125,6 +197,15 @@
       "fuente": "El Colombiano — Colombia",
       "url": "https://www.elcolombiano.com/colombia/corte-suprema-abre-indagacion-previa-sandra-ramirez-marcos-calarca-magnicidio-miguel-uribe-BL43485994",
       "fecha": "2026-11-12T00:05:15+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "96a02e3887cff2aa",
+      "titulo": "¿Trabaja el próximo festivo 16 de noviembre? Así se calcula el pago de dominicales y festivos",
+      "categoria": "Economía",
+      "fuente": "La FM Economía",
+      "url": "https://www.lafm.com.co/economia/trabaja-proximo-festivo-16-noviembre-asi-calcula-pago-dominicales-festivos-416944",
+      "fecha": "2026-11-12T00:01:52+00:00",
       "imagen": ""
     },
     {
@@ -371,15 +452,6 @@
       "imagen": ""
     },
     {
-      "id": "73bdd54a9e6313c7",
-      "titulo": "Atentado contra RCN en Cali: esto se sabe del ataque con explosivos, los sospechosos y la recompensa de $20 millones",
-      "categoria": "Cali",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/cali/atentado-contra-rcn-en-cali-explosivo-recompensa-libertad-de-prensa-2026/",
-      "fecha": "2026-11-11T22:15:01+00:00",
-      "imagen": ""
-    },
-    {
       "id": "aa805685d2aa1a49",
       "titulo": "El rey de España, Felipe VI, y mandatarios iberoamericanos presiden un acto en el que Coomeva recibe un reconocimiento a su trayectoria excelente",
       "categoria": "Colombia",
@@ -467,78 +539,6 @@
       "fuente": "El Colombiano — Colombia",
       "url": "https://www.elcolombiano.com/colombia/supersalud-medida-cautelar-colsubsidio-fallas-entrega-medicamentos-usuarios-eps-sanitas-LE43477639",
       "fecha": "2026-11-11T21:46:24+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "83a02d0cc3adf963",
-      "titulo": "Este es el calendario para conocer los resultados trimestrales de los bancos",
-      "categoria": "Economía",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/finanzas/este-es-el-calendario-para-conocer-los-resultados-trimestrales-de-los-bancos-4522497",
-      "fecha": "2026-11-11T21:45:55+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "b75feb8ade5aad9d",
-      "titulo": "Andrés Puyo sería nuevo presidente del Banco Agrario: este es su recorrido de casi 30 años en la banca",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/finanzas/andres-puyo-seria-nuevo-presidente-del-banco-agrario-este-es-su-recorrido-de-casi-30-anos-en-la-banca-506178",
-      "fecha": "2026-11-11T21:43:53+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "39fef3c3e904f22a",
-      "titulo": "Tres meses después del sismo del 10 de agosto, pagos de aseguradoras por daños aumentaron 13,5%, asegura Fasecolda",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/infraestructura/tres-meses-despues-del-sismo-del-10-de-agosto-pagos-de-aseguradoras-por-danos-aumentaron-13-5-asegura-fasecolda-506173",
-      "fecha": "2026-11-11T21:43:53+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "f701f92468cc3270",
-      "titulo": "Corte Constitucional avaló el Estado de Emergencia Económica decretado por el Gobierno",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/economia/corte-constitucional-avalo-el-estado-de-emergencia-economica-decretado-por-el-gobierno-4522789",
-      "fecha": "2026-11-11T21:42:59+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "8c717d5a517d2d19",
-      "titulo": "Desde personal sin titulo hasta medicamentos vencidos: las fallas que llevaron al cierre de 37 IPS en Atlántico",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/regiones/desde-personal-sin-titulo-hasta-medicamentos-vencidos-las-fallas-que-llevaron-al-cierre-de-37-ips-en-atlantico-506162",
-      "fecha": "2026-11-11T21:42:29+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "b3d5d25f1f5302a9",
-      "titulo": "El suroccidente colombiano contará con un nuevo Centro de Rehabilitación Integral de Alta Tecnología: funcionará en el norte de Cali",
-      "categoria": "Cali",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/cali/el-suroccidente-colombiano-contara-con-un-nuevo-centro-de-rehabilitacion-integral-de-alta-tecnologia-funcionara-en-el-norte-de-cali-3600282",
-      "fecha": "2026-11-11T21:42:08+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "9a4927f75f3c9c2b",
-      "titulo": "Al Valle lo están reconstruyendo; a Cali la siguen diagnosticando",
-      "categoria": "Cali",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/opinion/columnistas/al-valle-lo-estan-reconstruyendo-a-cali-la-siguen-diagnosticando/",
-      "fecha": "2026-11-11T21:41:56+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "3698fd74b1330107",
-      "titulo": "Borrador del Plan de desarrollo prevé recuperar la sostenibilidad fiscal controlando déficit, deuda y gasto público",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/borrador-del-plan-de-desarrollo-preve-recuperar-la-sostenibilidad-fiscal-controlando-deficit-deuda-y-gasto-publico-506180",
-      "fecha": "2026-11-11T21:39:22+00:00",
       "imagen": ""
     }
   ],
@@ -662,7 +662,7 @@
       "nombre": "Chocó 7 días",
       "url": "https://choco7dias.com/feed/",
       "estado": "correcto",
-      "titulares": 9
+      "titulares": 10
     },
     {
       "nombre": "La Patria — Caldas",
