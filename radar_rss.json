@@ -1,13 +1,229 @@
 {
-  "ultima_actualizacion": "2026-11-12T15:02:47.038734+00:00",
+  "ultima_actualizacion": "2026-11-12T16:10:41.476595+00:00",
   "titulares_rss": [
     {
+      "id": "c73a54afbbc906db",
+      "titulo": "Trump sostiene que \"solo Tim Cook de Apple\" puede sustituir a Jensen Huang en Nvidia",
+      "categoria": "Tecnología",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/globoeconomia/trump-sostiene-que-solo-tim-cook-de-apple-puede-sustituir-a-jensen-huang-en-nvidia-4523358",
+      "fecha": "2026-11-12T16:10:33+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "9c13268fb381a78d",
+      "titulo": "La visita de León XIV a perú, en vivo | León XIV llama a responder a los abusos del clero con “la verdad, la justicia, el perdón, la reparación”",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/america/2026-11-12/la-visita-de-leon-xiv-a-peru-en-vivo-el-papa-se-reun-con-los-obispos.html",
+      "fecha": "2026-11-12T16:00:41+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "5072ae058748dd37",
+      "titulo": "Enfrentar el poder criminal exige precisión, no vaguedades",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/red-de-expertos/red-de-las-mujeres/enfrentar-el-poder-criminal-exige-precision-no-vaguedades/",
+      "fecha": "2026-11-12T16:00:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "fe1d68d5c075226f",
+      "titulo": "Jensen Huang renuncia como director ejecutivo de Nvidia tras conocerse su relación con una supuesta espía china",
+      "categoria": "Internacional",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/cq2d9pg47052o?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-12T15:59:31+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "7bb51b599e6a85bd",
+      "titulo": "En gráficos: cómo funcionaba Ueno Bank y las razones detrás del colapso que desató una crisis en Paraguay",
+      "categoria": "Internacional",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/cm4gneqkg3dno?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-12T15:54:39+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "5f0f6e1b32955240",
+      "titulo": "Estos son los miembros de junta de Nvidia que decidieron la salida de Huang",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/globoeconomia/estos-son-los-miembros-de-junta-de-nvidia-que-decidieron-la-salida-de-huang-4523308",
+      "fecha": "2026-11-12T15:53:28+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "487fb1deef182645",
+      "titulo": "El FNA le apunta a movilizar $4,9 billones en su campaña de cesantías 2026-2027",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/finanzas/el-fna-le-apunta-a-movilizar-4-9-billones-en-su-campana-de-cesantias-2026-2027-4523303",
+      "fecha": "2026-11-12T15:46:56+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "0291c23e6e848e80",
+      "titulo": "Lidl recibe la semana que viene esta afeitadora Remington con revestimiento cerámico: llega el 16 de noviembre a 11,99 euros",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/seleccion/lidl-recibe-semana-que-viene-esta-afeitadora-remington-revestimiento-ceramico-llega-16-noviembre-a-11-99-euros",
+      "fecha": "2026-11-12T15:45:22+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "7634b5c562fd1eec",
+      "titulo": "JEP imputa a 11 exmiembros de la Fuerza Pública por 32 masacres y crímenes de lesa humanidad perpetrados entre 1999 y 2001 en Montes de María",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/jep-imputa-a-11-exmiembros-de-la-fuerza-publica-por-32-masacres-y-crimenes-de-lesa-humanidad-perpetrados-entre-1999-y-2001-en-montes-de-maria-3600482",
+      "fecha": "2026-11-12T15:40:20+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "03b944aaac7e7fbf",
+      "titulo": "Franco Colapinto: esto se sabe sobre su posibilidad de llegar a Williams por un 'efecto dominó'",
+      "categoria": "Deportes",
+      "fuente": "La FM Deportes",
+      "url": "https://www.lafm.com.co/deportes/formula-1-franco-colapinto-efecto-domino-escuderia-williams-417005",
+      "fecha": "2026-11-12T15:39:06+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "031b1296ab40ae0d",
+      "titulo": "Un tiroteo masivo en un gimnasio del centro de Washington deja un muerto y cuatro heridos",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/us/2026-11-12/un-tiroteo-en-el-centro-de-washington-deja-al-menos-cuatro-victimas.html",
+      "fecha": "2026-11-12T15:34:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "fe1260521c4b261f",
+      "titulo": "Actualizar el PC gaming en 2026 no es barato, pero el Black Friday de PcComponentes tiene la solución para renovar CPU a buen precio",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/seleccion/actualizar-pc-gaming-2026-no-barato-black-friday-pccomponentes-tiene-solucion-para-renovar-cpu-a-buen-precio",
+      "fecha": "2026-11-12T15:31:23+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "f0e637be6897d185",
+      "titulo": "Chiclayo, la tierra que celebra el regreso del papa León XIV, una fiesta seguida desde el Valle y Colombia",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/cali/chiclayo-la-tierra-que-celebra-el-regreso-del-papa-leon-xiv-una-fiesta-seguida-desde-el-valle-y-colombia-3600431",
+      "fecha": "2026-11-12T15:27:45+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "0a7b4cf5f819dd5f",
+      "titulo": "En Bucaramanga se hizo la expulsión más grande del año de venezolanos por cometer varios delitos: así fue el operativo que se dio en la madrugada",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/santander/en-bucaramanga-se-hizo-la-expulsion-mas-grande-del-ano-de-venezolanos-por-cometer-varios-delitos-asi-fue-el-operativo-que-se-dio-en-la-madrugada-3600470",
+      "fecha": "2026-11-12T15:26:43+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "d28680b0878ce5c1",
+      "titulo": "Gobierno permitirá el transporte de combustibles para plantas térmicas en fines de semana",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/economia/gobierno-permitira-el-transporte-de-combustibles-para-plantas-termicas-en-fines-de-semana-4523321",
+      "fecha": "2026-11-12T15:21:13+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "c6ed31be53b15071",
+      "titulo": "Cámaras captaron el vehículo usado para secuestrar a Nancy Gómez, esposa del alcalde de Uribia",
+      "categoria": "Colombia",
+      "fuente": "La FM Actualidad",
+      "url": "https://www.lafm.com.co/actualidad/camioneta-secuestro-nancy-gomez-uribia-gestora-social-417002",
+      "fecha": "2026-11-12T15:20:37+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "35d5b7edf44863a1",
+      "titulo": "Al menos 1 muerto y 4 heridos en un tiroteo en un gimnasio en Washington DC",
+      "categoria": "Internacional",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/cq8j47lw9nmwo?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-12T15:14:15+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "8d1c7dc689cecb6b",
+      "titulo": "Secretaría de Salud advierte sobre uso de péptidos para bajar de peso y sus posibles efectos adversos",
+      "categoria": "Valle del Cauca",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/cali/secretaria-salud-advierte-peptidos-bajar-peso-efectos-adversos-12-11-2026/",
+      "fecha": "2026-11-12T15:10:40+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "61a6ee9467091d36",
+      "titulo": "Rectificación sobre información publicada acerca del caso Yovanny Bustos Cortés",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/rectificacion-sobre-informacion-publicada-acerca-del-caso-yovanny-bustos-cortes-quien-ya-fue-imputado-por-la-fiscalia-3600472",
+      "fecha": "2026-11-12T15:09:35+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "5a4d5bfceed350ff",
+      "titulo": "Lo capturaron por pagar un pasaje de bus con un billete falso de $100.000 y descubrieron que tenía otras 12 anotaciones judiciales en su contra",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/lo-capturaron-por-pagar-un-pasaje-de-bus-con-un-billete-falso-de-100-000-y-descubrieron-que-tenia-otras-12-anotaciones-judiciales-en-su-contra-3600478",
+      "fecha": "2026-11-12T15:08:03+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "75a5d12c9dcb2594",
+      "titulo": "Se hacían pasar por veedores ciudadanos para exigir $4,5 millones y dejar construir una obra en Barranquilla: tres capturados",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/barranquilla/se-hacian-pasar-por-veedores-ciudadanos-para-exigir-4-5-millones-y-dejar-construir-una-obra-en-barranquilla-tres-capturados-3600473",
+      "fecha": "2026-11-12T15:07:41+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "a9646af28276b825",
+      "titulo": "¿Cómo consultar si es beneficiario de un subsidio de Prosperidad Social en Colombia? Siga estos pasos",
+      "categoria": "Colombia",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/vida-moderna/subsidio-de-prosperidad-social-en-colombia-12-11-2026/",
+      "fecha": "2026-11-12T15:06:43+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "e454058bdb9e3266",
+      "titulo": "Bilbao está fabricando los cimientos de los mayores molinos de viento del mundo: son gigantes de acero de más de 100 metros",
+      "categoria": "Internacional",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/energia/bilbao-esta-fabricando-cimientos-mayores-molinos-viento-mundo-gigantes-acero-100-metros",
+      "fecha": "2026-11-12T15:03:25+00:00",
+      "imagen": ""
+    },
+    {
       "id": "4648976a61c187fc",
-      "titulo": "Venezuela abre la puerta a cooperar en medio de dos secuestros en la frontera",
+      "titulo": "Venezuela ofrece cooperación en medio de dos secuestros en la frontera",
       "categoria": "Internacional",
       "fuente": "La Silla Vacía",
       "url": "https://www.lasillavacia.com/en-vivo/venezuela-abre-la-puerta-a-cooperar-en-medio-de-dos-secuestros-en-la-frontera/",
       "fecha": "2026-11-12T15:02:03+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "95a2992f50104502",
+      "titulo": "México confirma que Nadia Beller, la expareja de Cerimedo, ya está en el país",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/mexico/2026-11-12/mexico-confirma-que-nadia-beller-la-expareja-de-cerimedo-ya-esta-en-el-pais.html",
+      "fecha": "2026-11-12T15:01:26+00:00",
       "imagen": ""
     },
     {
@@ -17,6 +233,15 @@
       "fuente": "El País Colombia",
       "url": "https://elpais.com/internacional/2026-11-12/un-bombardeo-israeli-mata-a-seis-personas-en-un-hospital-de-gaza.html",
       "fecha": "2026-11-12T14:55:54+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "04c93f186aaf571c",
+      "titulo": "Trump amenaza con duplicar los aranceles a México si no endurece la frontera",
+      "categoria": "Internacional",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/us/2026-11-12/trump-amenaza-con-duplicar-los-aranceles-a-mexico-si-no-endurece-la-frontera.html",
+      "fecha": "2026-11-12T14:53:36+00:00",
       "imagen": ""
     },
     {
@@ -74,15 +299,6 @@
       "imagen": ""
     },
     {
-      "id": "031b1296ab40ae0d",
-      "titulo": "Un tiroteo en el centro de Washington deja al menos cuatro víctimas",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/us/2026-11-12/un-tiroteo-en-el-centro-de-washington-deja-al-menos-cuatro-victimas.html",
-      "fecha": "2026-11-12T14:45:00+00:00",
-      "imagen": ""
-    },
-    {
       "id": "318c99f5935cb19b",
       "titulo": "El país sin mar que más se acerca a tener una costa: hizo el negocio del siglo al ceder un tramo de carretera a Ucrania antes de que llegara Rusia",
       "categoria": "Internacional",
@@ -120,7 +336,7 @@
     },
     {
       "id": "899e9b23943a836a",
-      "titulo": "Colette Kress asumirá como CEO interina de Nvidia tras la salida de Jensen Huang",
+      "titulo": "Colette Kress asumirá como CEO interina de Nvidia tras la salida de Huang por escándalos",
       "categoria": "Colombia",
       "fuente": "La República",
       "url": "https://www.larepublica.co/globoeconomia/colette-kress-asumira-como-ceo-interina-de-nvidia-tras-la-salida-de-jensen-huang-4523293",
@@ -209,12 +425,12 @@
       "imagen": ""
     },
     {
-      "id": "fe1d68d5c075226f",
-      "titulo": "Jensen Huang renuncia como director ejecutivo de Nvidia tras el escándalo por sus relaciones extramatrimoniales",
+      "id": "5016a88454a9b03f",
+      "titulo": "¿Quién es Colette Krees, que queda a cargo de Nvidia tras la salida de Jensen Huang?",
       "categoria": "Internacional",
-      "fuente": "BBC Mundo",
-      "url": "https://www.bbc.com/mundo/articles/cq2d9pg47052o?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-12T14:15:42+00:00",
+      "fuente": "La FM Internacional",
+      "url": "https://www.lafm.com.co/internacional/salida-de-jensen-huang-quien-es-colette-kress-reemplazo-416995",
+      "fecha": "2026-11-12T14:21:13+00:00",
       "imagen": ""
     },
     {
@@ -324,222 +540,6 @@
       "url": "https://elpais.com/us/2026-11-12/jensen-huang-dimite-como-consejero-delegado-de-nvidia-tras-destaparse-el-escandalo-sobre-sus-infidelidades-y-el-caso-de-espionaje.html",
       "fecha": "2026-11-12T13:59:47+00:00",
       "imagen": ""
-    },
-    {
-      "id": "e8be2b2c7e965cdf",
-      "titulo": "Inflación de Brasil cerró octubre en 4,63% por presiones de alimentos y bebidas",
-      "categoria": "Economía",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/inflacion-de-brasil-cerro-octubre-en-4-63-por-presiones-de-alimentos-y-bebidas-4523210",
-      "fecha": "2026-11-12T13:59:06+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "9a5e143cd4792726",
-      "titulo": "Ecopetrol presentará resultados del tercer trimestre: mercado prevé utilidades de hasta $5 billones",
-      "categoria": "Economía",
-      "fuente": "La FM Economía",
-      "url": "https://www.lafm.com.co/economia/ecopetrol-resultados-tercer-trimestre-2026-utilidades-produccion-brava-energia-416990",
-      "fecha": "2026-11-12T13:50:26+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "f0e637be6897d185",
-      "titulo": "Chiclayo, la tierra que celebra el regreso del papa León XIV, una fiesta seguida desde el Valle y Colombia",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/cali/chiclayo-la-tierra-que-celebra-el-regreso-del-papa-leon-xiv-una-fiesta-seguida-desde-el-valle-y-colombia-3600431",
-      "fecha": "2026-11-12T13:45:06+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "b9bad2285a922a47",
-      "titulo": "Mineros registró una utilidad récord de $768.578 millones en primeros nueve meses de 2026",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/empresas/mineros-registro-una-utilidad-record-de-768-578-millones-en-los-primeros-nueve-meses-de-2026-4523158",
-      "fecha": "2026-11-12T13:43:42+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "742124ee11f1c2e3",
-      "titulo": "Hallan bajo placas de concreto la moto en la que viajaba Zoé: así avanza la búsqueda de la niña arrastrada por un arroyo en Soledad",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/barranquilla/hallan-bajo-placas-de-concreto-la-moto-en-la-que-viajaba-zoe-asi-avanza-la-busqueda-de-la-nina-arrastrada-por-un-arroyo-en-soledad-3600433",
-      "fecha": "2026-11-12T13:42:33+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "b3f010785fce4b8d",
-      "titulo": "Black Friday llegará a Colombia el 27 de noviembre: celulares, televisores, electrodomésticos y ropa entre los productos en oferta",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/actualidad/black-friday-llegara-a-colombia-el-27-de-noviembre-celulares-televisores-electrodomesticos-y-ropa-entre-los-productos-en-oferta/",
-      "fecha": "2026-11-12T13:41:24+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "7b5f163bfd108f12",
-      "titulo": "Fedearroz lanza una alerta por el IVA a los insumos agropecuarios: estos serían los riesgos para el campo",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/agro/fedearroz-lanza-una-alerta-por-el-iva-a-los-insumos-agropecuarios-estos-serian-los-riesgos-para-el-campo-506213",
-      "fecha": "2026-11-12T13:39:12+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "b63abe6ae3cf83ba",
-      "titulo": "'Lo que pasa en la calle': Los hechos judiciales de este jueves, 12 de noviembre",
-      "categoria": "Valle del Cauca",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/judicial/noticias-judiciales-jueves-12-noviembre-12-11-2026/",
-      "fecha": "2026-11-12T13:38:41+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "cebfdba497dbeb55",
-      "titulo": "\"El papa León XIV es mi padrino de bautizo\": la insólita historia de Mildred Camacho, la joven peruana que es ahijada del Sumo Pontífice",
-      "categoria": "Internacional",
-      "fuente": "BBC Mundo",
-      "url": "https://www.bbc.com/mundo/articles/cqly3jpmvvl9o?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-12T13:37:10+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "8638a7b0396c93fb",
-      "titulo": "El pasado miércoles murió en Medellín Javier ‘El Toro’ Tamayo, histórico delantero del fútbol colombiano que dejó un récord con la Selección Colombia.",
-      "categoria": "Deportes",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/deportes/el-pasado-miercoles-murio-en-medellin-javier-el-toro-tamayo-historico-delantero-del-futbol-colombiano-que-dejo-un-record-con-la-seleccion-colombia/",
-      "fecha": "2026-11-12T13:36:08+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "158cb1eb67384ecb",
-      "titulo": "Por unanimidad, Corte le ordena a Ibáñez rectificar sobre madre de su hijo",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/en-vivo/por-unanimidad-corte-le-ordena-a-ibanez-rectificar-sobre-madre-de-su-hijo/",
-      "fecha": "2026-11-12T13:34:52+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "81543dea0bb738e7",
-      "titulo": "Pronóstico del clima Cali este jueves: ¿qué clima hará este día en la ciudad?",
-      "categoria": "Cali",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/vida-moderna/ecologia/pronostico-del-clima-cali-jueves-12-11-2026/",
-      "fecha": "2026-11-12T13:34:36+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "76c47a0c19a3e24c",
-      "titulo": "Falla eléctrica generó largas filas en el aeropuerto de Rionegro (Antioquia) durante más de cinco horas: así avanza la operación aérea",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/medellin/falla-electrica-genero-largas-filas-en-el-aeropuerto-de-rionegro-antioquia-durante-mas-de-cinco-horas-asi-avanza-la-operacion-aerea-3600434",
-      "fecha": "2026-11-12T13:33:15+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "2a3dd838d571f5de",
-      "titulo": "“Le decían que si quería ser la próxima”: alcalde de Uribia detalló las amenazas que recibió su esposa antes del secuestro",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/secuestro-nancy-yaneth-gomez-esposo-alcalde-uribia-detalles-caso-NK43494449",
-      "fecha": "2026-11-12T13:31:39+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "eb53c3285d8492d8",
-      "titulo": "Blue quiere que dejes el iPhone por un Android con un agente de IA dentro. La gran duda es cómo pagarlo",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/telefono-movil/blue-quiere-que-dejes-iphone-android-agente-ia-dentro-gran-duda-como-pagarlo",
-      "fecha": "2026-11-12T13:31:24+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "de7d669ce4b6401a",
-      "titulo": "Precio del dólar hoy en Colombia: Así está la moneda el 12 de noviembre",
-      "categoria": "Economía",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/vida-moderna/precio-del-dolar-hoy-en-colombia-12-11-2026/",
-      "fecha": "2026-11-12T13:30:14+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "c2d1acb7012a1e4e",
-      "titulo": "Dólar hoy en Colombia: mercado regresa a la normalidad, tras jornada de Next Day por festivo en EE. UU.",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/finanzas/dolar-hoy-en-colombia-mercado-regresa-a-la-normalidad-tras-jornada-de-next-day-por-festivo-en-ee-uu-506207",
-      "fecha": "2026-11-12T13:27:10+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "83a6aee5fee5d281",
-      "titulo": "\"Me los quitaron porque yo estaba sola\": la mujer que se reencontró con sus hijos 40 años después de que le fueran arrebatados por la dictadura de Pinochet en Chile",
-      "categoria": "Internacional",
-      "fuente": "BBC Mundo",
-      "url": "https://www.bbc.com/mundo/articles/cwr7gr7l9zgvo?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-12T13:26:03+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "9c5d386171bde2b5",
-      "titulo": "Fedearroz respalda ajuste fiscal del Gobierno, pero alerta por IVA que encarecería la producción de alimentos",
-      "categoria": "Colombia",
-      "fuente": "La FM Economía",
-      "url": "https://www.lafm.com.co/economia/fedearroz-alerta-iva-insumos-agropecuarios-ley-rescate-fiscal-416987",
-      "fecha": "2026-11-12T13:23:17+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "b313bb155878fa0a",
-      "titulo": "Santos advierte a De la Espriella que la seguridad no se recupera solo con \"mano dura\"",
-      "categoria": "Valle del Cauca",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/efe/santos-advierte-de-la-espriella-seguridad-no-se-recupera-mano-dura-12-11-2026/",
-      "fecha": "2026-11-12T13:21:54+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "0a2d1285adda075d",
-      "titulo": "ARRIENDO LOCAL",
-      "categoria": "Colombia",
-      "fuente": "La Patria — Caldas",
-      "url": "https://www.lapatria.com/clasificados/arriendo-local-15",
-      "fecha": "2026-11-12T13:21:15+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "dce692f60d79f9ec",
-      "titulo": "ARRIENDO CASA",
-      "categoria": "Colombia",
-      "fuente": "La Patria — Caldas",
-      "url": "https://www.lapatria.com/clasificados/arriendo-casa-13",
-      "fecha": "2026-11-12T13:19:02+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "d929475d3013166f",
-      "titulo": "ASODAMAS rechazó el secuestro de Nancy Gómez y pidió su liberación: “Debe regresar a casa, sana y salva”",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/noticias/asodamas-rechazo-el-secuestro-de-nancy-gomez-y-pidio-su-liberacion-debe-regresar-a-casa-sana-y-salva/",
-      "fecha": "2026-11-12T13:16:51+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "f869aabb00df8f07",
-      "titulo": "Este móvil incorpora una batería de nada menos que 25.500 mAh. Su pantalla tiene casi 7 pulgadas y está a la venta con un descuento",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/seleccion/este-movil-incorpora-bateria-nada-que-25-500-mah-su-pantalla-tiene-casi-7-pulgadas-esta-a-venta-descuento",
-      "fecha": "2026-11-12T13:15:26+00:00",
-      "imagen": ""
     }
   ],
   "estado_fuentes": [
@@ -553,7 +553,7 @@
       "nombre": "El Tiempo Cali",
       "url": "https://www.eltiempo.com/rss/colombia_cali.xml",
       "estado": "correcto",
-      "titulares": 7
+      "titulares": 8
     },
     {
       "nombre": "El Espectador",
@@ -655,8 +655,9 @@
     {
       "nombre": "El Diario — Pereira",
       "url": "https://www.eldiario.com.co/feed/",
-      "estado": "correcto",
-      "titulares": 34
+      "estado": "error",
+      "titulares": 0,
+      "detalle": "El feed no contiene entradas."
     },
     {
       "nombre": "Chocó 7 días",
