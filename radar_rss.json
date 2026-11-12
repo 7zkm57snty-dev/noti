@@ -1,9 +1,306 @@
 {
-  "ultima_actualizacion": "2026-11-12T11:15:24.556456+00:00",
+  "ultima_actualizacion": "2026-11-12T12:38:28.759841+00:00",
   "titulares_rss": [
     {
+      "id": "9db9cc259bc88aee",
+      "titulo": "¿A quién vamos a rescatar?",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/red-de-expertos/red-de-derecho-constitucional/a-quien-vamos-a-rescatar/",
+      "fecha": "2026-11-12T12:37:10+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "8be98269fbaaef43",
+      "titulo": "Nuevo operativo de Abelardo de la Espriella contra bandas criminales en Bucaramanga: esto se sabe",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/operativo-abelardo-espriella-contra-bandas-criminales-bucaramanga-noviembre-2026-HK43493260",
+      "fecha": "2026-11-12T12:32:25+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "da632f32ab3afb54",
+      "titulo": "¿En qué va el escándalo de Petro por los “sexocontratos”?",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/escandalo-gustavo-petro-sexocontratos-deicy-jimenez-FK43490423",
+      "fecha": "2026-11-12T12:31:07+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "6a6c48d1eb3dbebd",
+      "titulo": "Falta de personal en el Metro de Bogotá podría generar un gasto de US$10 millones",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/economia/falta-de-personal-en-el-metro-de-bogota-podria-generar-un-gasto-de-us-10-millones-4523174",
+      "fecha": "2026-11-12T12:28:37+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "f9030d45b9f1247f",
+      "titulo": "Hombres armados interceptaron la camioneta del alcalde de Caloto, Cauca, y uno de sus escoltas fue secuestrado: lo que se sabe",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/cali/hombres-armados-interceptaron-la-camioneta-del-alcalde-de-caloto-uno-de-sus-escoltas-fue-secuestrado-3600405",
+      "fecha": "2026-11-12T12:25:52+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "e00a67973f663995",
+      "titulo": "¿Cómo convertir la biodiversidad en oportunidades? La UAO participó en Valle Inspira 2026",
+      "categoria": "Valle del Cauca",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/la-uao/uao-valle-inspira-2026-sostenibilidad-12-11-2026/",
+      "fecha": "2026-11-12T12:24:09+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "46c05b1170e5706d",
+      "titulo": "Brent cede a US$92,3 el barril pese a continuación de tensiones en Medio Oriente",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/globoeconomia/brent-cede-a-us-92-3-el-barril-pese-a-continuacion-de-tensiones-en-medio-oriente-4523135",
+      "fecha": "2026-11-12T12:21:26+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "69b97feae8c66818",
+      "titulo": "Rogelio, el gato que quedó al borde de la muerte tras ser sometido a prácticas de estudiantes de veterinaria: universidad se pronunció",
+      "categoria": "Internacional",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/rogelio-el-gato-que-quedo-al-borde-de-la-muerte-tras-ser-sometido-a-practicas-de-estudiantes-de-veterinaria-universidad-se-pronuncio-3600394",
+      "fecha": "2026-11-12T12:18:36+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "18865e0e408425b4",
+      "titulo": "Rufino Córdoba, representante de las comunidades negras en el Consejo Nacional de Planeación",
+      "categoria": "Colombia",
+      "fuente": "Chocó 7 días",
+      "url": "https://choco7dias.com/rufino-cordoba-representante-de-las-comunidades-negras-en-el-consejo-nacional-de-planeacion/",
+      "fecha": "2026-11-12T12:18:14+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "4d1a4c9a56180684",
+      "titulo": "Hallan con vida a un joven desaparecido seis días en Australia",
+      "categoria": "Internacional",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/hallan-con-vida-a-un-joven-desaparecido-seis-días-en-australia/a-79929497?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-12T12:17:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "f8b901fca9c65a83",
+      "titulo": "Una amenaza de bomba detiene la circulación de trenes en el norte de Francia y provoca retrasos en el Eurotúnel",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/internacional/2026-11-12/una-amenaza-de-bomba-detiene-la-circulacion-de-trenes-en-el-norte-de-francia-y-provoca-retrasos-en-el-eurotunel.html",
+      "fecha": "2026-11-12T12:15:24+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "855571d217b13eb2",
+      "titulo": "Este teclado mecánico fue galardonado por PcComponentes. Renuncia a su pad numérico, pero no a una buena oferta",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/seleccion/este-teclado-mecanico-fue-galardonado-pccomponentes-renuncia-a-su-pad-numerico-no-a-buena-oferta",
+      "fecha": "2026-11-12T12:15:21+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "121483f1235a37bb",
+      "titulo": "Presidente Abelardo De La Espriella encabezó megaoperativo contra bandas criminales en Bucaramanga: hubo sobrevuelos",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/santander/presidente-de-colombia-encabezo-megaoperativo-contra-bandas-criminales-en-bucaramanga-hubo-sobrevuelos-y-contundentes-allanamientos-en-la-madrugada-3600400",
+      "fecha": "2026-11-12T12:14:06+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "61e9ca0ff359f632",
+      "titulo": "Contraloría alerta retrasos del Metro de Bogotá antes de pruebas: faltan 1.500 trabajadores",
+      "categoria": "Colombia",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/regiones/contraloria-alerta-retrasos-del-metro-de-bogota-antes-de-pruebas-faltan-1-500-trabajadores-506203",
+      "fecha": "2026-11-12T12:12:43+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "81328d1b49f2fe72",
+      "titulo": "Las pulseras antimaltrato ya tenían un problema técnico. Ahora la Fiscalía Europea investiga si también hay uno de dinero",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/legislacion-y-derechos/pulseras-antimaltrato-tenian-problema-tecnico-ahora-fiscalia-europea-investiga-tambien-hay-uno-dinero",
+      "fecha": "2026-11-12T12:11:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "c81544adc711332c",
+      "titulo": "Angie Rodríguez habla del papel de Jaime Ramírez Cobo en el manejo del celular de Petro y dice que le tenían el teléfono “envenenado”",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/angie-rodriguez-jaime-ramirez-cobo-celular-petro-envenenado-NK43492924",
+      "fecha": "2026-11-12T12:01:58+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "cc1f063a0aca0102",
+      "titulo": "Conozca los barrios que se quedarán sin agua este jueves; habrá cortes de 12 horas",
+      "categoria": "Valle del Cauca",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/cali/barrios-sin-agua-jueves-12-11-2026/",
+      "fecha": "2026-11-12T12:01:01+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "1cf2b735bb498ef3",
+      "titulo": "Recortar el acompañamiento a excombatientes podría salir más caro",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/red-de-expertos/red-de-la-paz/recortar-el-acompanamiento-a-excombatientes-saldra-mas-caro/",
+      "fecha": "2026-11-12T12:00:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "4675bda5bed42e38",
+      "titulo": "4 claves del escándalo de los supuestos \"sexocontratos\" por el que se investiga al expresidente de Colombia Gustavo Petro",
+      "categoria": "Colombia",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/cr3wg62qwjz9o?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-12T11:59:08+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "3ac428fcab71f618",
+      "titulo": "Prohibir TikTok en España es mucho más difícil de lo que parece: el marco europeo le deja pocas opciones",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/legislacion-y-derechos/prohibir-tiktok-espana-mucho-dificil-que-parece-marco-europeo-le-deja-pocas-opciones",
+      "fecha": "2026-11-12T11:55:41+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "efe3b1f79ab29d63",
+      "titulo": "Nvidia se prepara para destituir a su CEO, Jensen Huang, después de escándalos de infidelidades",
+      "categoria": "Internacional",
+      "fuente": "La FM Internacional",
+      "url": "https://www.lafm.com.co/internacional/nvidia-se-prepara-para-destituir-a-su-ceo-jensen-huang-despues-de-escandalos-de-infidelidades-416970",
+      "fecha": "2026-11-12T11:54:03+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "d53f70fad06afa9d",
+      "titulo": "Refinerías independientes chinas compran crudo brasileño para llegada en 2027",
+      "categoria": "Internacional",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/globoeconomia/refinerias-independientes-chinas-compran-crudo-brasileno-para-llegada-en-2027-4523156",
+      "fecha": "2026-11-12T11:53:29+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "d0dbc3766df05c05",
+      "titulo": "Ofrecen $300 millones por la esposa del alcalde de Uribia: despliegan helicópteros y refuerzan búsqueda en La Guajira",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/ofrecen-300-millones-por-la-esposa-del-alcalde-de-uribia-despliegan-helicopteros-y-refuerzan-busqueda-en-la-guajira-3600401",
+      "fecha": "2026-11-12T11:50:33+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "175d84cea9977203",
+      "titulo": "Autonomía para tres días y su mejor precio hasta la fecha: el POCO X8 Pro Max se desploma antes del Black Friday",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/seleccion/autonomia-para-tres-dias-su-mejor-precio-fecha-poco-x8-pro-max-se-desploma-antes-black-friday",
+      "fecha": "2026-11-12T11:45:23+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "e9181929e43cc3d7",
+      "titulo": "El Manchester United destituye a Michael Carrick con el equipo en zona de descenso",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/ocio/el-manchester-united-destituye-a-carrick-con-el-equipo-en-zona-de-descenso-4523134",
+      "fecha": "2026-11-12T11:31:27+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "bffd863141eaa021",
+      "titulo": "\"Regreso a mi patria\": El emotivo mensaje del papa León tras su aterrizaje en Perú",
+      "categoria": "Internacional",
+      "fuente": "La FM Internacional",
+      "url": "https://www.lafm.com.co/internacional/leon-xiv-llega-peru-visita-seis-dias-robert-prevost-416968",
+      "fecha": "2026-11-12T11:30:18+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "e75baaeed97644ac",
+      "titulo": "Derrumbe de un edificio en Brooklyn deja al menos 5 muertos",
+      "categoria": "Internacional",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/derrumbe-de-un-edificio-en-brooklyn-deja-al-menos-5-muertos/a-79928582?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-12T11:30:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "0c5905f18c84e0ac",
+      "titulo": "El desplante de Santiago Abascal a Jordi Wild neutraliza todas sus ganancias tras salir victorioso de ‘La Revuelta’",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/magnet/impresion-general-era-que-abascal-habia-barrido-revuelta-salvo-para-vox-han-cancelado-su-entrevista-jordi-wild",
+      "fecha": "2026-11-12T11:30:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "05612892cd05e06a",
+      "titulo": "Santa Fe modelo 2027: una millonaria inversión para la continuidad de sus figuras tras la llegada del nuevo patrocinador",
+      "categoria": "Deportes",
+      "fuente": "La FM Deportes",
+      "url": "https://www.lafm.com.co/deportes/santa-fe-2027-millonaria-inversion-continuidad-figuras-renovaciones-416967",
+      "fecha": "2026-11-12T11:29:46+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "a1a4b252ca1375be",
+      "titulo": "Manchester United despide a Michael Carrick por el temor de descender en la Premier League",
+      "categoria": "Deportes",
+      "fuente": "La FM Deportes",
+      "url": "https://www.lafm.com.co/deportes/manchester-united-despide-micahel-carrick-premier-league-416966",
+      "fecha": "2026-11-12T11:20:56+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "b4480ab1abeaf622",
+      "titulo": "¿Por qué mi familia blanca nunca me dijo que yo era negra?",
+      "categoria": "Internacional",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/c6x2enpm544zo?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-12T11:19:20+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "a1d6d33bc42fff9f",
+      "titulo": "El primer monitor gaming que rompe la barrera del submilisegundo: LG presenta su bestia de 1.000 Hz nativos para eSports",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/seleccion/primer-monitor-gaming-que-rompe-barrera-submilisegundo-lg-presenta-su-bestia-1-000-hz-nativos-para-esports",
+      "fecha": "2026-11-12T11:15:22+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "bdfbda18b773ffc7",
+      "titulo": "Ofrecen $30 millones por Sonia y Kelly: hallazgo de camioneta en Soledad abre nuevas pistas sobre su desaparición",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/barranquilla/ofrecen-30-millones-por-sonia-y-kelly-hallazgo-de-camioneta-en-soledad-abre-nuevas-pistas-sobre-su-desaparicion-3600390",
+      "fecha": "2026-11-12T11:09:07+00:00",
+      "imagen": ""
+    },
+    {
       "id": "f695795de10d554b",
-      "titulo": "Dos muertos y varios heridos por colapso de un edificio en Nueva York",
+      "titulo": "Colapso de un edificio en Nueva York: se desconoce si aún hay personas bajo los escombros",
       "categoria": "Internacional",
       "fuente": "La FM Internacional",
       "url": "https://www.lafm.com.co/internacional/edificio-colapso-nueva-york-estados-unidos-heridos-y-fallecidos-416965",
@@ -26,15 +323,6 @@
       "fuente": "Xataka",
       "url": "https://www.xataka.com/videojuegos/consolas-han-cambiado-reglas-precios-playstation-llevo-filosofia-contraria-al-extremo",
       "fecha": "2026-11-12T11:01:24+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "da632f32ab3afb54",
-      "titulo": "¿En qué va el escándalo de Petro por los “sexocontratos”?",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/escandalo-gustavo-petro-sexocontratos-deicy-jimenez-FK43490423",
-      "fecha": "2026-11-12T11:00:00+00:00",
       "imagen": ""
     },
     {
@@ -65,6 +353,15 @@
       "imagen": ""
     },
     {
+      "id": "e6d235f0b163d60e",
+      "titulo": "Daddy Yankee, padre del reguetón, es honrado como persona del año por los Grammy Latinos: “El algoritmo no puede dictar el destino de nuestra cultura”",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/us/entretenimiento/2026-11-12/daddy-yankee-padre-del-regueton-es-honrado-como-persona-del-ano-por-los-grammy-latinos-el-algoritmo-no-puede-dictar-el-destino-de-nuestra-cultura.html",
+      "fecha": "2026-11-12T10:44:26+00:00",
+      "imagen": ""
+    },
+    {
       "id": "feb6432ee3401d8b",
       "titulo": "Carrefour se adelanta al Black Friday y liquida este robot aspirador Xiaomi súper potente y con tres horas de autonomía",
       "categoria": "Colombia",
@@ -83,12 +380,30 @@
       "imagen": ""
     },
     {
+      "id": "28eedfb04a29a112",
+      "titulo": "Ariana Grande regresa a los focos y posa por primera vez con su novio, Ricky Álvarez, en una alfombra roja",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/gente/2026-11-12/ariana-grande-regresa-a-los-focos-y-posa-por-primera-vez-con-su-novio-ricky-alvarez-en-una-alfombra-roja.html",
+      "fecha": "2026-11-12T10:17:52+00:00",
+      "imagen": ""
+    },
+    {
       "id": "d1b287fb0bbd15d0",
       "titulo": "¡Últimas horas para participar en el sorteo de un calefactor Dreo 714S! Solo para miembros de Xataka Xtra",
       "categoria": "Colombia",
       "fuente": "Xataka",
       "url": "https://www.xataka.com/xataka-xtra/ultimas-horas-para-participar-sorteo-calefactor-dreo-714s-solo-para-miembros-xataka-xtra",
       "fecha": "2026-11-12T10:01:24+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "fa863be8578a4796",
+      "titulo": "Francia se inclina por apoyar al español Hernández de Cos para la presidencia del BCE",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/economia/2026-11-12/francia-se-inclina-por-apoyar-al-espanol-hernandez-de-cos-para-la-presidencia-del-bce.html",
+      "fecha": "2026-11-12T09:56:27+00:00",
       "imagen": ""
     },
     {
@@ -210,7 +525,7 @@
     },
     {
       "id": "d7b04c6fdbc2bf55",
-      "titulo": "La noche en que Francia descubrió que para encender una bombilla necesitaba antes un ejército de leñadores armados con motosierras",
+      "titulo": "En 1982, Francia tenía millones de árboles y una red eléctrica que era la envidia de Europa. Una tormenta inédita les devolvió a la Edad Media",
       "categoria": "Colombia",
       "fuente": "Xataka",
       "url": "https://www.xataka.com/magnet/1982-francia-tenia-millones-arboles-red-electrica-moderna-fin-semana-precedentes-les-devolvio-a-edad-media",
@@ -218,327 +533,12 @@
       "imagen": ""
     },
     {
-      "id": "76fdd3a7d9e28ecd",
-      "titulo": "La cúpula de Nvidia se prepara para destituir a Jensen Huang tras descubrirse una segunda infidelidad, según el WSJ",
+      "id": "dd2a9209f63635e7",
+      "titulo": "Un bombardeo de Israel mata a seis personas en un hospital de Gaza",
       "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/empresas-y-economia/cupula-nvidia-se-prepara-para-destituir-a-jensen-huang-descubrirse-segunda-infidelidad-wsj",
-      "fecha": "2026-11-12T07:55:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "00c4ea1a84df8711",
-      "titulo": "¡Ojo, conductor! Pico y placa en Pereira para el jueves 12 de noviembre de 2026: estos carros y motos no pueden circular durante 14 horas",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/ojo-conductor-pico-y-placa-en-pereira-para-el-jueves-12-de-noviembre-de-2026-estos-carros-y-motos-no-pueden-circular-durante-14-horas-3600254",
-      "fecha": "2026-11-12T07:30:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "ae8da89367e05c07",
-      "titulo": "¡Evite multas, conductor! Pico y placa en Bucaramanga para el jueves 12 de noviembre de 2026: estos vehículos no pueden circular",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/santander/evite-multas-conductor-pico-y-placa-en-bucaramanga-para-el-jueves-12-de-noviembre-de-2026-estos-vehiculos-no-pueden-circular-3600252",
-      "fecha": "2026-11-12T07:30:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "b28b5c1937def55a",
-      "titulo": "¡Ojo, conductor! Pico y placa en Cali para el jueves 12 de noviembre de 2026: estas son las placas que no pueden circular y los horarios",
-      "categoria": "Cali",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/cali/ojo-conductor-pico-y-placa-en-cali-para-el-jueves-12-de-noviembre-de-2026-estas-son-las-placas-que-no-pueden-circular-y-los-horarios-3600240",
-      "fecha": "2026-11-12T07:30:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "699532044d9c08e8",
-      "titulo": "Pico y placa en Medellín para el jueves 12 de noviembre de 2026: placas que tienen restricción y horarios",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/medellin/pico-y-placa-en-medellin-para-el-jueves-12-de-noviembre-de-2026-placas-que-tienen-restriccion-y-horarios-3600237",
-      "fecha": "2026-11-12T07:30:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "c2e52991ed97b354",
-      "titulo": "Contraloría alerta por déficit de 1.500 trabajadores en obras del Metro de Bogotá",
-      "categoria": "Colombia",
-      "fuente": "La FM Actualidad",
-      "url": "https://www.lafm.com.co/actualidad/contraloria-alerta-por-falta-de-1500-trabajadores-en-el-metro-de-bogota-416958",
-      "fecha": "2026-11-12T07:13:52+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "9640cbbce268ddd8",
-      "titulo": "El nuevo cubo de basura doble de Lidl es ideal para reciclar en casa y evitar los malos olores en la cocina",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/seleccion/nuevo-cubo-basura-doble-lidl-ideal-para-reciclar-casa-evitar-malos-olores-cocina",
-      "fecha": "2026-11-12T06:15:49+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "ec26dd690799fb89",
-      "titulo": "Milagrómetro: Abelardo no cumplió ninguna de sus promesas de los 90 días",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/silla-nacional/milagrometro-abelardo-no-cumplio-ninguna-de-sus-promesas-de-los-90-dias/",
-      "fecha": "2026-11-12T06:00:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "2cd64a565cf43755",
-      "titulo": "Presidente Abelardo De La Espriella condenó ataque armado que dejó un patrullero muerto en Hato Corozal, Casanare: 'Pagarán por este crimen'",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/presidente-abelardo-de-la-espriella-condeno-ataque-armado-que-dejo-un-patrullero-muerto-en-hato-corozal-casanare-pagaran-por-este-crimen-3600383",
-      "fecha": "2026-11-12T05:56:18+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "a1e4b0dd372c4479",
-      "titulo": "Colsubsidio avanza en plan para agilizar entrega de medicamentos a pacientes de Sanitas",
-      "categoria": "Colombia",
-      "fuente": "La FM Actualidad",
-      "url": "https://www.lafm.com.co/actualidad/asi-es-el-plan-de-colsubsidio-para-normalizar-entrega-de-medicamentos-416957",
-      "fecha": "2026-11-12T05:49:30+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "3cec4cf920c82817",
-      "titulo": "Enviados de EE.UU. viajan a Moscú para mediar entre Rusia y Ucrania",
-      "categoria": "Internacional",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/enviados-de-ee-uu-viajan-a-moscú-para-mediar-entre-rusia-y-ucrania/a-79925578?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-12T05:49:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "00f09212cb5de336",
-      "titulo": "Arriendos y servicios disparan el costo de vida en Pereira",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/actualidad/arriendos-y-servicios-disparan-el-costo-de-vida-en-pereira/",
-      "fecha": "2026-11-12T05:15:03+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "7c42ec655f248950",
-      "titulo": "Ataque armado contra la Policía en zona urbana de Hato Corozal, Casanare, dejó un patrullero muerto y un subintendente herido",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/ataque-armado-contra-la-policia-en-zona-urbana-de-hato-corozal-casanare-dejo-un-patrullero-muerto-y-un-subintendente-herido-3600381",
-      "fecha": "2026-11-12T05:14:55+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "e54295d5732caa09",
-      "titulo": "Una moto arrolló y mató a Nena",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/judicial/una-moto-arrollo-y-mato-a-nena/",
-      "fecha": "2026-11-12T05:11:35+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "d66a09c1780cbd93",
-      "titulo": "El verdadero progreso comienza cuando dejamos de defender nuestros errores",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/analisis/sofia-spaggiari-pineda-4453355/el-verdadero-progreso-comienza-cuando-dejamos-de-defender-nuestros-errores-4522811",
-      "fecha": "2026-11-12T05:06:56+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "00c123b1a0352baa",
-      "titulo": "Murió tras recibir un disparo de escopeta",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/judicial/murio-tras-recibir-un-disparo-de-escopeta/",
-      "fecha": "2026-11-12T05:04:44+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "b73547fc53b8cad4",
-      "titulo": "Colombia fue la sexta economía con mayor tasa desempleo entre los 38 países de la Ocde",
-      "categoria": "Economía",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/colombia-fue-la-sexta-economia-con-la-mayor-tasa-desempleo-del-bloque-ocde-4523003",
-      "fecha": "2026-11-12T05:04:18+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "f74a103d18fa85b0",
-      "titulo": "Déficit de vivienda trae la primera huelga general en España en 14 años",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/deficit-de-vivienda-trae-la-primera-huelga-general-en-espana-en-14-anos-4522953",
-      "fecha": "2026-11-12T05:04:18+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "8c1b1325fa30ff5c",
-      "titulo": "Egoyá, una voz subterránea que Pereira no puede ignorar",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/noticias/risaralda/pereira/egoya-una-voz-subterranea-que-pereira-no-puede-ignorar/",
-      "fecha": "2026-11-12T05:03:37+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "6becdf279da8ceb9",
-      "titulo": "El libro, origen de todos los amores",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/punto-final/el-libro-origen-de-todos-los-amores-2/",
-      "fecha": "2026-11-12T05:03:02+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "ca9a227c43a99492",
-      "titulo": "El costo del mal ejemplo",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/analisis/ernesto-lucena-barrero-3209042/el-costo-del-mal-ejemplo-4522961",
-      "fecha": "2026-11-12T05:02:53+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "cd323ae74bd6daf0",
-      "titulo": "Prenda la motosierra",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/analisis/andres-otero-leongomez-2834704/prenda-la-motosierra-4522919",
-      "fecha": "2026-11-12T05:02:33+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "5f25ae83fdfa8397",
-      "titulo": "Época de ajustes",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/analisis/eduardo-verano-de-la-rosa-500119/epoca-de-ajustes-4522979",
-      "fecha": "2026-11-12T05:02:33+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "6ca5ab34bde26593",
-      "titulo": "Siete de cada 10 gremios aún no cuentan con una mujer en el mayor puesto de liderazgo",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/empresas/siete-de-cada-10-gremios-aun-no-tienen-una-mujer-al-frente-4523017",
-      "fecha": "2026-11-12T05:01:58+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "48ffdde4500e6e99",
-      "titulo": "Infraestructura digital: la batalla que viene",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/analisis/jorge-fernando-negrete-p-3127700/infraestructura-digital-la-batalla-que-viene-4522939",
-      "fecha": "2026-11-12T05:01:54+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "5a7477c8ff4d8a17",
-      "titulo": "Con la Ley de Rescate, el carro eléctrico más vendido del mercado subiría $17 millones",
-      "categoria": "Economía",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/economia/con-la-ley-de-rescate-el-carro-electrico-mas-vendido-del-mercado-subiria-17-millones-4522353",
-      "fecha": "2026-11-12T05:01:47+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "a300afe6d2f765ed",
-      "titulo": "Cuánto cuesta viajar a Curitiba, el destino brasileño que combina gastronomía y cultura",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/ocio/cuanto-cuesta-viajar-a-curitiba-el-destino-brasileno-que-combina-gastronomia-y-cultura-4522833",
-      "fecha": "2026-11-12T05:01:44+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "f7ce2d98b6d5f3f2",
-      "titulo": "“Subir IVA de 5% a 19% a híbridos y eléctricos es exagerado y el efecto puede ser contrario”",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/empresas/entrevista-con-ricardo-salazar-gerente-de-los-coches-sobre-el-efecto-del-aumento-del-iva-para-electricos-e-hibridos-4522347",
-      "fecha": "2026-11-12T05:01:41+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "f195fd0f73e9094d",
-      "titulo": "Veteranos de guerra conquistan la pasarela",
-      "categoria": "Internacional",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/caja-fuerte/veteranos-de-guerra-conquistan-la-pasarela-4522863",
-      "fecha": "2026-11-12T05:01:40+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "8287261a51339f6e",
-      "titulo": "Ueno Bank: una crisis financiera que sacude a Paraguay",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/analisis/anif-3478852/ueno-bank-una-crisis-financiera-que-sacude-a-paraguay-4522927",
-      "fecha": "2026-11-12T05:01:37+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "c97dc92e554b5cac",
-      "titulo": "Osaka celebra 10 años en Bogotá con 130.000 visitas al año y su apuesta por cocina nikkei",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/ocio/osaka-celebra-10-anos-en-bogota-con-130-000-visitas-anuales-y-su-apuesta-por-la-cocina-nikkei-4522869",
-      "fecha": "2026-11-12T05:01:30+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "156555a9b2a328d4",
-      "titulo": "Ley de Rescate",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/analisis/jose-ignacio-lopez-2780651/ley-de-rescate-4522824",
-      "fecha": "2026-11-12T05:01:29+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "a23a7d4f68234096",
-      "titulo": "Qué puede pasar con el dinero de sus cuentas si un banco quiebra en Colombia",
-      "categoria": "Economía",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/finanzas-personales/que-puede-pasar-con-el-dinero-de-sus-cuentas-si-un-banco-quiebra-en-colombia-4522384",
-      "fecha": "2026-11-12T05:01:27+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "7c559ee5706d5a16",
-      "titulo": "Viraje vital",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/analisis/german-bolivar-blanco-2825947/viraje-vital-4522818",
-      "fecha": "2026-11-12T05:01:25+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "aa1f8843da959910",
-      "titulo": "Algo ha cambiado en Estados Unidos",
-      "categoria": "Internacional",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/analisis/rodrigo-botero-montoya-500048/algo-ha-cambiado-en-estados-unidos-4522880",
-      "fecha": "2026-11-12T05:01:18+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "3f89f19b9b9acf65",
-      "titulo": "Grupo Aval registró ganancias por $368.000 millones en el tercer trimestre del año",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/finanzas/grupo-aval-registro-ganancias-por-368-000-millones-durante-el-tercer-trimestre-del-ano-4522871",
-      "fecha": "2026-11-12T05:01:18+00:00",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/internacional/2026-11-12/un-bombardeo-israeli-mata-a-seis-personas-en-un-hospital-de-gaza.html",
+      "fecha": "2026-11-12T08:23:26+00:00",
       "imagen": ""
     }
   ],
@@ -553,7 +553,7 @@
       "nombre": "El Tiempo Cali",
       "url": "https://www.eltiempo.com/rss/colombia_cali.xml",
       "estado": "correcto",
-      "titulares": 8
+      "titulares": 7
     },
     {
       "nombre": "El Espectador",
@@ -596,7 +596,7 @@
       "nombre": "DW Español",
       "url": "https://rss.dw.com/rdf/rss-sp-all",
       "estado": "correcto",
-      "titulares": 27
+      "titulares": 28
     },
     {
       "nombre": "Xataka",
