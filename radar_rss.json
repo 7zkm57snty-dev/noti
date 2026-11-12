@@ -1,13 +1,40 @@
 {
-  "ultima_actualizacion": "2026-11-12T07:59:14.208150+00:00",
+  "ultima_actualizacion": "2026-11-12T09:10:13.592730+00:00",
   "titulares_rss": [
+    {
+      "id": "02c31dc68495ee4c",
+      "titulo": "La solución para disfrutar de iluminación inteligente sin obras ni enchufes extra la tiene Amazon por menos de 7 euros",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/seleccion/solucion-para-disfrutar-iluminacion-inteligente-obras-enchufes-extra-tiene-amazon-7-euros",
+      "fecha": "2026-11-12T09:01:49+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "3f9ce0f9037253ab",
+      "titulo": "Jensen Huang, el rey de los chips de IA, al borde de ser destituido de Nvidia",
+      "categoria": "Internacional",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/jensen-huang-el-rey-de-los-chips-de-ia-al-borde-de-ser-destituido-de-nvidia/a-79926415?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-12T08:38:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "d7b04c6fdbc2bf55",
+      "titulo": "En 1982, Francia tenía millones de árboles y la red eléctrica más moderna. Un fin de semana sin precedentes les devolvió a la Edad Media",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/magnet/1982-francia-tenia-millones-arboles-red-electrica-moderna-fin-semana-precedentes-les-devolvio-a-edad-media",
+      "fecha": "2026-11-12T08:31:49+00:00",
+      "imagen": ""
+    },
     {
       "id": "76fdd3a7d9e28ecd",
       "titulo": "La cúpula de Nvidia se prepara para destituir a Jensen Huang tras descubrirse una segunda infidelidad, según el WSJ",
       "categoria": "Colombia",
       "fuente": "Xataka",
       "url": "https://www.xataka.com/empresas-y-economia/cupula-nvidia-se-prepara-para-destituir-a-jensen-huang-descubrirse-segunda-infidelidad-wsj",
-      "fecha": "2026-11-12T07:55:22+00:00",
+      "fecha": "2026-11-12T07:55:00+00:00",
       "imagen": ""
     },
     {
@@ -137,20 +164,20 @@
       "imagen": ""
     },
     {
-      "id": "f74a103d18fa85b0",
-      "titulo": "Déficit de vivienda trae la primera huelga general en España en 14 años",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/deficit-de-vivienda-trae-la-primera-huelga-general-en-espana-en-14-anos-4522953",
-      "fecha": "2026-11-12T05:04:18+00:00",
-      "imagen": ""
-    },
-    {
       "id": "b73547fc53b8cad4",
       "titulo": "Colombia fue la sexta economía con mayor tasa desempleo entre los 38 países de la Ocde",
       "categoria": "Economía",
       "fuente": "La República",
       "url": "https://www.larepublica.co/globoeconomia/colombia-fue-la-sexta-economia-con-la-mayor-tasa-desempleo-del-bloque-ocde-4523003",
+      "fecha": "2026-11-12T05:04:18+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "f74a103d18fa85b0",
+      "titulo": "Déficit de vivienda trae la primera huelga general en España en 14 años",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/globoeconomia/deficit-de-vivienda-trae-la-primera-huelga-general-en-espana-en-14-anos-4522953",
       "fecha": "2026-11-12T05:04:18+00:00",
       "imagen": ""
     },
@@ -512,33 +539,6 @@
       "fuente": "La Patria — Caldas",
       "url": "https://www.lapatria.com/galerias/lanzamiento-de-la-nueva-emisora-en-manizales",
       "fecha": "2026-11-12T05:00:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "360c6b150ad9e1a6",
-      "titulo": "Familia de Blanca Pardo pide a Medicina Legal acelerar entrega de pruebas genéticas para esclarecer su muerte en Nariño: 'Ha sido como un viacrucis'",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/familia-de-blanca-pardo-pide-a-medicina-legal-acelerar-entrega-de-pruebas-geneticas-para-esclarecer-su-muerte-en-narino-ha-sido-como-un-viacrucis-3600376",
-      "fecha": "2026-11-12T04:47:05+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "2953def7fc204bea",
-      "titulo": "Sloviansk, la ciudad devastada del frente de batalla que Rusia quiere que Ucrania le entregue",
-      "categoria": "Internacional",
-      "fuente": "BBC Mundo",
-      "url": "https://www.bbc.com/mundo/articles/cqdj1ww3pd4lo?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-12T04:32:43+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "e4109af535aa3d21",
-      "titulo": "'Un atentado a la democracia': autoridades aumentan hasta $ 50 millones la recompensa por los responsables del ataque a RCN en Cali",
-      "categoria": "Cali",
-      "fuente": "El Tiempo Cali",
-      "url": "https://www.eltiempo.com/colombia/cali/un-atentado-a-la-democracia-autoridades-aumentan-hasta-50-millones-la-recompensa-por-los-responsables-del-ataque-a-rcn-en-cali-3600296",
-      "fecha": "2026-11-12T04:20:47+00:00",
       "imagen": ""
     }
   ],
