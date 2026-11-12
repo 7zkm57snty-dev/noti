@@ -1,6 +1,213 @@
 {
-  "ultima_actualizacion": "2026-11-12T20:00:40.482887+00:00",
+  "ultima_actualizacion": "2026-11-12T20:57:18.690010+00:00",
   "titulares_rss": [
+    {
+      "id": "f939edd3c9e714f6",
+      "titulo": "Advierten que fallas en plataformas de la Dian causan sobrecostos a empresas",
+      "categoria": "Economía",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/economia/advierten-que-fallas-en-plataformas-de-la-dias-causan-sobrecostos-a-empresas-4523547",
+      "fecha": "2026-11-12T20:54:16+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "e73d200bf1ddb770",
+      "titulo": "¿Cómo se preparó Sarah Isabel Ramos, la 'Mini Whitney Houston'? 'Llevaste en alto el nombre de Buenaventura y del Valle', dijo la gobernadora",
+      "categoria": "Valle del Cauca",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/cali/como-se-preparo-sarah-isabel-ramos-la-mini-whitney-houston-llevaste-en-alto-el-nombre-de-buenaventura-y-del-valle-dijo-la-gobernadora-3600590",
+      "fecha": "2026-11-12T20:52:46+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "94f2ff6c9ac8d0b3",
+      "titulo": "Cámaras de seguridad captaron la camioneta en la que habrían secuestrado a Nancy Gómez, primera dama de Uribia",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/camaras-de-seguridad-captaron-la-camioneta-en-la-que-habrian-secuestrado-a-nancy-gomez-primera-dama-de-uribia-3600556",
+      "fecha": "2026-11-12T20:52:31+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "72d6851cef4aa28a",
+      "titulo": "La situación humanitaria en Gaza empeora con las inundaciones y el frío, en medio del estancamiento político",
+      "categoria": "Internacional",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/la-situación-humanitaria-en-gaza-empeora-con-las-inundaciones-y-el-frío-en-medio-del-estancamiento-político/a-79935270?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-12T20:48:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "73f5758a83c99cad",
+      "titulo": "Miriam González: \"La población inmigrante en España es un activo\"",
+      "categoria": "Internacional",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/miriam-gonzález-la-población-inmigrante-en-españa-es-un-activo/a-79927366?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-12T20:47:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "b666824fd7b15916",
+      "titulo": "Conversaciones a tres bandas entre Ucrania, Estados Unidos y Rusia en Abu Dabi: ¿han aportado realmente algo a Kiev?",
+      "categoria": "Internacional",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/conversaciones-a-tres-bandas-entre-ucrania-estados-unidos-y-rusia-en-abu-dabi-¿han-aportado-realmente-algo-a-kiev/a-79933391?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-12T20:44:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "40a69d9735a4a7dc",
+      "titulo": "Preocupa a las comunidades el regreso del cólera en la República Democrática del Congo",
+      "categoria": "Internacional",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/preocupa-a-las-comunidades-el-regreso-del-cólera-en-la-república-democrática-del-congo/a-79934803?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-12T20:43:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "9792d680e8189112",
+      "titulo": "La integración en Alemania progresa, pero los planes del Gobierno podrían frenarla",
+      "categoria": "Colombia",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/la-integración-en-alemania-progresa-pero-los-planes-del-gobierno-podrían-frenarla/a-79933070?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-12T20:40:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "f536a6d0b74afc39",
+      "titulo": "Caída masiva de Microsoft deja a miles de usuarios sin correo y otros servicios",
+      "categoria": "Tecnología",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/noticias/caida-masiva-de-microsoft-deja-a-miles-de-usuarios-sin-correo-y-otros-servicios/",
+      "fecha": "2026-11-12T20:36:48+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "5ba9aafd07e4c00f",
+      "titulo": "Una falla en Microsoft deja fuera de servicio el correo electrónico de Outlook y otras plataformas",
+      "categoria": "Tecnología",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/cm20v6ed340wo?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-12T20:36:25+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "4622166e00f7c308",
+      "titulo": "Fondo Milagro gasta $765 millones en nómina. Gerente gana $39 millones",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/en-vivo/fondo-milagro-gasta-765-millones-en-nomina-gerente-gana-39-millones/",
+      "fecha": "2026-11-12T20:36:22+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "fcfab10792a3e497",
+      "titulo": "Presupuesto, Plan de Desarrollo, ley de ajuste fiscal dentro de las grandes apuestas de De La Espriella en 100 días",
+      "categoria": "Economía",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/presupuesto-plan-de-desarrollo-ley-de-ajuste-fiscal-dentro-de-las-grandes-apuestas-de-de-la-espriella-en-100-dias-506260",
+      "fecha": "2026-11-12T20:34:55+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "4b0a1123dd1877d3",
+      "titulo": "Convocan paro nacional para el 19 de noviembre contra reforma tributaria",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/noticias/convocan-paro-nacional-para-el-19-de-noviembre-contra-reforma-tributaria/",
+      "fecha": "2026-11-12T20:30:45+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "5de928a6b3c70ef9",
+      "titulo": "Rector de Icesi: si un joven le delega su pensamiento a la IA, 'nunca va a desarrollar criterio propio'",
+      "categoria": "Economía",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/rector-de-icesi-si-un-joven-le-delega-su-pensamiento-a-la-ia-nunca-va-a-desarrollar-criterio-propio-506249",
+      "fecha": "2026-11-12T20:30:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "cae5a2fa3bf226dd",
+      "titulo": "Salario mínimo 2027: economista propone subirlo 8,4% y advierte sobre los riesgos de alzas de dos dígitos",
+      "categoria": "Economía",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/finanzas/salario-minimo-2027-economista-propone-subirlo-8-4-y-advierte-sobre-los-riesgos-de-alzas-de-dos-digitos-506259",
+      "fecha": "2026-11-12T20:27:05+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "98ae1699eeef61ed",
+      "titulo": "Fed establece nuevo calendario de reuniones para 2027 con siete encuentros",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/globoeconomia/fed-establece-nuevo-calendario-de-reuniones-para-2027-con-siete-encuentros-4523537",
+      "fecha": "2026-11-12T20:25:04+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "3c6b78bed051d575",
+      "titulo": "Microsoft confirmó problemas en su servicio de correo electrónico Outlook",
+      "categoria": "Tecnología",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/globoeconomia/microsoft-confirmo-problemas-en-su-servicio-de-correo-electronico-outlook-4523526",
+      "fecha": "2026-11-12T20:16:59+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "71030708a6170488",
+      "titulo": "En medio de la medida contra Sanitas por demoras con medicamentos, Colsubsidio dice que solicitudes aumentaron 26 %",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/colsubsidio-solicitudes-medicamentos-sanitas-MD43519216",
+      "fecha": "2026-11-12T20:07:38+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "44f8d419669304e0",
+      "titulo": "¿Cuáles son las restricciones que debe tener en cuenta para el partido Colombia vs. Chile?",
+      "categoria": "Colombia",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/cali/restricciones-partido-colombia-chile-12-11-2026/",
+      "fecha": "2026-11-12T20:05:16+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "8cd08f341e0e9dd3",
+      "titulo": "Una catedral finlandesa suena cada día con el eco de estallidos de radio de hace miles de millones de años",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/espacio/catedral-finlandesa-suena-cada-dia-eco-estallidos-radio-hace-miles-millones-anos",
+      "fecha": "2026-11-12T20:01:23+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "604788599dd5c614",
+      "titulo": "¿Va a comprar vivienda? Estos son los gastos adicionales que debe tener en cuenta",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/noticias/va-a-comprar-vivienda-estos-son-los-gastos-adicionales-que-debe-tener-en-cuenta/",
+      "fecha": "2026-11-12T20:00:26+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "8a2da800a1302e62",
+      "titulo": "Video | ¿Por qué recordamos más las experiencias negativas que los momentos felices?",
+      "categoria": "Valle del Cauca",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/vida-moderna/video-memoria-selectiva-salud-12-11-2026/",
+      "fecha": "2026-11-12T20:00:05+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "dbb62fbaed8de283",
+      "titulo": "Uribe propone eliminar el 4x1.000 y otros impuestos: estos son los cambios planteados a la ley de ajuste fiscal",
+      "categoria": "Economía",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/gobierno/uribe-propone-eliminar-el-4x1-000-y-otros-impuestos-estos-son-los-cambios-planteados-a-la-ley-de-ajuste-fiscal-506257",
+      "fecha": "2026-11-12T19:55:36+00:00",
+      "imagen": ""
+    },
     {
       "id": "b525d4b05abd8350",
       "titulo": "Inter Bogotá defendió su reclamo ante el TAS y confirmó que Fabricio Sanguinetti tiene mercado internacional",
@@ -35,6 +242,15 @@
       "fuente": "La Silla Vacía",
       "url": "https://www.lasillavacia.com/en-vivo/democratas-disculpan-a-bula-y-llaman-a-preservar-apoyo-bipartidista/",
       "fecha": "2026-11-12T19:43:15+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "0bcf30c115d86ed2",
+      "titulo": "La música impulsa los viajes y despierta el interés de 88% de los colombianos a descubrir destinos",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/ocio/la-musica-impulsa-los-viajes-y-despierta-el-interes-del-88-de-los-colombianos-4523514",
+      "fecha": "2026-11-12T19:40:51+00:00",
       "imagen": ""
     },
     {
@@ -245,15 +461,6 @@
       "imagen": ""
     },
     {
-      "id": "94f2ff6c9ac8d0b3",
-      "titulo": "Cámaras de seguridad captaron la camioneta en la que habrían secuestrado a Nancy Gómez, primera dama de Uribia",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/camaras-de-seguridad-captaron-la-camioneta-en-la-que-habrian-secuestrado-a-nancy-gomez-primera-dama-de-uribia-3600556",
-      "fecha": "2026-11-12T18:54:32+00:00",
-      "imagen": ""
-    },
-    {
       "id": "839a8a0dae9e267c",
       "titulo": "León XIV congrega a tres millones de peruanos y resalta importancia de la paz",
       "categoria": "Colombia",
@@ -269,6 +476,15 @@
       "fuente": "El Tiempo Cali",
       "url": "https://www.eltiempo.com/colombia/cali/chiclayo-la-tierra-que-celebra-el-regreso-del-papa-leon-xiv-una-fiesta-seguida-desde-el-valle-y-colombia-3600431",
       "fecha": "2026-11-12T18:52:05+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "c9593c857810712d",
+      "titulo": "Una caída de Microsoft 365 tumba el correo corporativo a usuarios de todo el mundo",
+      "categoria": "Tecnología",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/tecnologia/2026-11-12/una-caida-de-microsoft-365-tumba-el-correo-corporativo-a-usuarios-de-todo-el-mundo.html",
+      "fecha": "2026-11-12T18:50:16+00:00",
       "imagen": ""
     },
     {
@@ -290,6 +506,15 @@
       "imagen": ""
     },
     {
+      "id": "faffaff97bd6c573",
+      "titulo": "El DHS celebra que batió un récord histórico de deportaciones en el año fiscal 2026 al expulsar a 483.200 personas",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/us/migracion/2026-11-12/el-dhs-celebra-que-batio-un-record-historico-de-deportaciones-en-el-ano-fiscal-2026-al-expulsar-a-483200-personas.html",
+      "fecha": "2026-11-12T18:42:00+00:00",
+      "imagen": ""
+    },
+    {
       "id": "e1287a742663d1bb",
       "titulo": "Más allá del debate sobre su éxito, el 11N deja una pregunta: para qué sirve realmente una huelga general en 2026",
       "categoria": "Colombia",
@@ -308,237 +533,12 @@
       "imagen": ""
     },
     {
-      "id": "40a69d9735a4a7dc",
-      "titulo": "Preocupa a las comunidades el regreso del cólera en la República Democrática del Congo",
-      "categoria": "Internacional",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/preocupa-a-las-comunidades-el-regreso-del-cólera-en-la-república-democrática-del-congo/a-79934803?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-12T18:28:00+00:00",
-      "imagen": ""
-    },
-    {
       "id": "6aecb10d7b6c3f34",
       "titulo": "Atención: ELN liberó a los dos agentes del CTI que tenía secuestrados desde mayo de 2025",
       "categoria": "Colombia",
       "fuente": "El Colombiano — Colombia",
       "url": "https://www.elcolombiano.com/colombia/eln-libera-dos-secuestrados-cti-arauca-MD43513593",
       "fecha": "2026-11-12T18:26:59+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "d97fd24c7f408d51",
-      "titulo": "¿Está preparando un viaje por carretera? Estas recomendaciones le ayudarán a ahorrar y viajar seguro",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/cuales-son-las-recomendaciones-para-viajar-por-carretera-y-como-ahorrar-durante-el-viaje-GD43510512",
-      "fecha": "2026-11-12T18:24:08+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "070ce19ef0a9e368",
-      "titulo": "¡Ya huele a buñuelos y natilla! Conductor de buseta en Cúcuta se vuelve viral con su decoración de Navidad: se viene diciembre",
-      "categoria": "Tendencias",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/ya-huele-a-bunuelos-y-natilla-conductor-de-buseta-en-cucuta-se-vuelve-viral-con-su-decoracion-de-navidad-se-viene-diciembre-3600549",
-      "fecha": "2026-11-12T18:23:17+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "0249a079c99748b7",
-      "titulo": "Zurich afirma que tormentas en Europa provocaron pérdidas considerables para su negocio",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/finanzas/zurich-afirma-que-tormentas-en-europa-provocaron-perdidas-considerables-para-su-negocio-4523458",
-      "fecha": "2026-11-12T18:23:17+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "ef1f4f29b11afa4a",
-      "titulo": "Néstor Sandoval preside la Sociedad Mundial de Cirugía Cardíaca Pediátrica",
-      "categoria": "Deportes",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/empresas/nestor-sandoval-primer-hispanohablante-en-presidir-la-sociedad-mundial-de-cirugia-cardiaca-pediatrica-4523416",
-      "fecha": "2026-11-12T18:22:05+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "e1ed18593d51ac2d",
-      "titulo": "En Video: el momento del rescate con vida de un adolescente en Australia que estuvo 6 días perdido en un bosque",
-      "categoria": "Internacional",
-      "fuente": "BBC Mundo",
-      "url": "https://www.bbc.com/mundo/articles/c60md00vxkj2o?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-12T18:21:28+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "8688fc5bcbedc27d",
-      "titulo": "Los “otros cristianos” que ganaron en Estados Unidos aún no aparecen en Colombia",
-      "categoria": "Internacional",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/red-de-expertos/red-social/los-otros-cristianos-que-ganaron-en-estados-unidos-aun-no-aparecen-en-colombia/",
-      "fecha": "2026-11-12T18:20:42+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "5c81b78de2edded4",
-      "titulo": "El SGC actualizó el mapa de amenaza del volcán Cerro Machín en el Tolima, un recurso para la gestión de riesgos y la protección de las comunidades",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/el-sgc-actualizo-el-mapa-de-amenaza-del-volcan-cerro-machin-en-el-tolima-un-recurso-para-la-gestion-de-riesgos-y-la-proteccion-de-las-comunidades-3600392",
-      "fecha": "2026-11-12T18:20:26+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "4f7431b210e87be9",
-      "titulo": "Diario del gobierno de Abelardo: disculpas, popularidad y emergencia económica",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/en-vivo/diario-del-gobierno-de-abelardo-disculpas-popularidad-y-emergencia-economica/",
-      "fecha": "2026-11-12T18:20:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "613ecee49d8656c1",
-      "titulo": "Con el Bando de la Independencia, un desfile multicolor entre el mar y las murallas, Cartagena conmemora 215 años de libertad",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/con-el-bando-de-la-independencia-un-desfile-multicolor-entre-el-mar-y-las-murallas-cartagena-conmemora-215-anos-de-libertad-3600541",
-      "fecha": "2026-11-12T18:16:45+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "9dfd924d1f3e7f6c",
-      "titulo": "La dimisión de Huang hace que Nvidia se deje 550.000 millones de dólares en valor de bolsa",
-      "categoria": "Economía",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/empresas-y-economia/dimision-huang-hace-que-nvidia-se-deje-550-000-millones-dolares-valor-bolsa",
-      "fecha": "2026-11-12T18:15:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "b142e6ac985299d7",
-      "titulo": "América pierde demanda en el TAS ante Inter y gana contra Santa Fe: esta es la explicación y así queda la tabla de posiciones",
-      "categoria": "Deportes",
-      "fuente": "La FM Deportes",
-      "url": "https://www.lafm.com.co/deportes/america-demanda-tas-inter-santafe-posiciones-liga-betplay-417028",
-      "fecha": "2026-11-12T18:07:05+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "aa786cd646435b74",
-      "titulo": "Verificar el código de Signal era un reto que llevaba años de trabajo de expertos. DeepMind dice que su IA lo ha hecho en un mes",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/seguridad/verificar-codigo-signal-era-reto-que-llevaba-anos-trabajo-expertos-deepmind-dice-que-su-ia-ha-hecho-mes",
-      "fecha": "2026-11-12T18:01:23+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "859500ca006df1ab",
-      "titulo": "Premios Xataka Verisure 2026: todavía puedes conseguir tus entradas (y te adelantamos una novedad)",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/xataka/premios-xataka-verisure-2026-todavia-puedes-conseguir-tus-entradas-te-adelantamos-novedad",
-      "fecha": "2026-11-12T18:01:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "6f31f72f13999b6f",
-      "titulo": "Director del DNP confirmó aprobación de las bases del Plan Nacional de Desarrollo",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/economia/director-del-dnp-confirmo-aprobacion-de-las-bases-del-plan-nacional-de-desarrollo-4523434",
-      "fecha": "2026-11-12T17:59:19+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "28b42be8063daa3c",
-      "titulo": "Pantuflas, té y no más de tres clics: así se prepara América Latina para los turistas chinos",
-      "categoria": "Internacional",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/pantuflas-té-y-no-más-de-tres-clics-así-se-prepara-américa-latina-para-los-turistas-chinos/a-79934708?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-12T17:59:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "e6cfede58155a711",
-      "titulo": "Agente señalado de disparar contra colombiano odiaba a inmigrantes: NYT",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/en-vivo/agente-senalado-de-disparar-contra-colombiano-odiaba-a-inmigrantes-nyt/",
-      "fecha": "2026-11-12T17:58:43+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "ed02ff616b463770",
-      "titulo": "Tras año y medio de secuestro, hijo de Jesús Pacheco cuenta cómo vivió la espera por su padre",
-      "categoria": "Colombia",
-      "fuente": "La FM Actualidad",
-      "url": "https://www.lafm.com.co/actualidad/liberacion-agentes-cti-hijo-jesus-pacheco-hable-del-secuestro-417026",
-      "fecha": "2026-11-12T17:55:05+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "ee12df0cff5ed290",
-      "titulo": "Tributaria: con varios ponentes y por comisiones terceras y cuartas",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/en-vivo/tributaria-con-varios-ponentes-y-por-comisiones-terceras-y-cuartas/",
-      "fecha": "2026-11-12T17:51:44+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "a411fcaa4567124a",
-      "titulo": "El Black Friday de Sihoo deja la Doro C300 Pro V2 a precio mínimo histórico: una silla ergonómica perfecta para casa u oficina",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/seleccion/black-friday-sihoo-deja-doro-c300-pro-v2-a-precio-minimo-historico-silla-ergonomica-perfecta-para-casa-u-oficina",
-      "fecha": "2026-11-12T17:45:22+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "f1a3d4a41f46e927",
-      "titulo": "La historia detrás del broche de 145 diamantes que la reina Camila usó en público",
-      "categoria": "Internacional",
-      "fuente": "La FM Internacional",
-      "url": "https://www.lafm.com.co/internacional/la-historia-del-broche-de-145-diamantes-de-la-reina-camila-417024",
-      "fecha": "2026-11-12T17:38:23+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "b851227524da8d5c",
-      "titulo": "Choque en Dublín entre el primer ministro portugués y el secretario general de la OTAN",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/internacional/2026-11-12/choque-en-dublin-entre-el-primer-ministro-portugues-y-el-secretario-general-de-la-otan.html",
-      "fecha": "2026-11-12T17:35:24+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "5b9ecc6080e9b0aa",
-      "titulo": "El lío del expresidente de la Corte por acusar a la madre de su hijo de abuso sexual: deberá retractarse",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/ibanez-expresidente-corte-debe-retractarse-denuncias-abuso-sexual-contra-madre-hijo-por-que-CC43502246",
-      "fecha": "2026-11-12T17:33:45+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "e6dbd750a5fc3556",
-      "titulo": "En plenos escándalos de Jensen Huang, hay una guerra abierta en el Gobierno de EEUU por seguir vendiendo GPUs a China",
-      "categoria": "Internacional",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/empresas-y-economia/plenos-escandalos-jensen-huang-hay-guerra-abierta-gobierno-eeuu-seguir-vendiendo-gpus-a-china",
-      "fecha": "2026-11-12T17:31:23+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "12b86601a571f6ad",
-      "titulo": "Final de la Copa Sudamericana dejaría millonaria cifra en Barranquilla: hoteles y comercio se preparan",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/final-de-la-copa-sudamericana-dejaria-millonaria-cifra-en-barranquilla-hoteles-y-comercio-se-preparan-506245",
-      "fecha": "2026-11-12T17:25:59+00:00",
       "imagen": ""
     }
   ],
