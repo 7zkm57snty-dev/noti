@@ -1,6 +1,87 @@
 {
-  "ultima_actualizacion": "2026-11-13T02:28:02.453825+00:00",
+  "ultima_actualizacion": "2026-11-13T03:32:22.546375+00:00",
   "titulares_rss": [
+    {
+      "id": "5ba9aafd07e4c00f",
+      "titulo": "Una falla en Microsoft deja fuera de servicio en todo el mundo el correo electrónico de Outlook y otras plataformas",
+      "categoria": "Tecnología",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/cm20v6ed340wo?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-13T03:30:49+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "f2def33c9ce01d71",
+      "titulo": "Todos los ‘looks’ de la alfombra roja de los Latin Grammy 2026",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/smoda/moda/2026-11-12/todos-los-looks-de-la-alfombra-roja-de-los-latin-grammy.html",
+      "fecha": "2026-11-13T03:21:25+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "a47997fc443d213f",
+      "titulo": "Denuncian al viudo por otra muerte con talio",
+      "categoria": "Cali",
+      "fuente": "Q'hubo Cali",
+      "url": "https://www.qhubocali.com/judiciales/denuncian-al-viudo-por-otra-muerte-con-talio/",
+      "fecha": "2026-11-13T03:07:23+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "f0e637be6897d185",
+      "titulo": "Chiclayo, la tierra que celebra el regreso del papa León XIV, una fiesta seguida desde el Valle y Colombia",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo Cali",
+      "url": "https://www.eltiempo.com/colombia/cali/chiclayo-la-tierra-que-celebra-el-regreso-del-papa-leon-xiv-una-fiesta-seguida-desde-el-valle-y-colombia-3600431",
+      "fecha": "2026-11-13T03:01:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "3925af7ce9daba71",
+      "titulo": "¿Hasta cuándo durará El Niño en Colombia? El IDEAM actualizó su pronóstico para 2027",
+      "categoria": "Colombia",
+      "fuente": "La FM Actualidad",
+      "url": "https://www.lafm.com.co/actualidad/fenomeno-el-nino-hasta-mayo-2027-colombia-ideam-417076",
+      "fecha": "2026-11-13T03:00:43+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "9409636d5f07cd91",
+      "titulo": "¡Tragedia en Nueva York! Colombianos estarían entre las víctimas de edificio desplomado",
+      "categoria": "Colombia",
+      "fuente": "Q'hubo Cali",
+      "url": "https://www.qhubocali.com/mundo-curioso/tragedia-en-nueva-york-colombianos-estarian-entre-las-victimas-de-edificio-desplomado/",
+      "fecha": "2026-11-13T02:50:58+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "76bbe1506ce10a9b",
+      "titulo": "Alistan la demolición con explosivos de Los Laureles",
+      "categoria": "Cali",
+      "fuente": "Q'hubo Cali",
+      "url": "https://www.qhubocali.com/asi-paso/alistan-la-demolicion-con-explosivos-de-los-laureles/",
+      "fecha": "2026-11-13T02:34:46+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "f08daa179007901b",
+      "titulo": "Donald Trump ve innecesario un pacto de Estados Unidos con Irán",
+      "categoria": "Internacional",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/donald-trump-ve-innecesario-un-pacto-de-estados-unidos-con-irán/a-79935968?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-13T02:27:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "052968eeda81761e",
+      "titulo": "De la Espriella desautoriza salarios del Fondo Milagro: “He ordenado reversar ese despropósito”",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/de-la-espriella-desautoriza-salarios-fondo-milagro-NB43539141",
+      "fecha": "2026-11-13T02:22:35+00:00",
+      "imagen": ""
+    },
     {
       "id": "ee5ea3b7448bd1e6",
       "titulo": "Grupo Sura registró ingresos por $7,2 billones durante el tercer trimestre del año",
@@ -11,21 +92,12 @@
       "imagen": ""
     },
     {
-      "id": "f2def33c9ce01d71",
-      "titulo": "Todos los ‘looks’ de la alfombra roja de los Latin Grammy 2026",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/smoda/moda/2026-11-12/todos-los-looks-de-la-alfombra-roja-de-los-latin-grammy.html",
-      "fecha": "2026-11-13T02:20:23+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "052968eeda81761e",
-      "titulo": "De la Espriella desautoriza salarios del Fondo Milagro: “He ordenado reversar ese despropósito”",
+      "id": "d067c66a412ef927",
+      "titulo": "Alerta por aumento en muertes por dengue en Atlántico: van 9 fallecidos y 7.671 contagiados activos en 10 municipios",
       "categoria": "Colombia",
       "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/de-la-espriella-desautoriza-salarios-fondo-milagro-NB43539141",
-      "fecha": "2026-11-13T01:59:18+00:00",
+      "url": "https://www.elcolombiano.com/colombia/aumento-muertes-dengue-atlantico-contagiados-BB43539080",
+      "fecha": "2026-11-13T02:16:26+00:00",
       "imagen": ""
     },
     {
@@ -191,15 +263,6 @@
       "imagen": ""
     },
     {
-      "id": "5ba9aafd07e4c00f",
-      "titulo": "Una falla en Microsoft deja fuera de servicio el correo electrónico de Outlook y otras plataformas durante horas",
-      "categoria": "Tecnología",
-      "fuente": "BBC Mundo",
-      "url": "https://www.bbc.com/mundo/articles/cm20v6ed340wo?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-13T00:21:14+00:00",
-      "imagen": ""
-    },
-    {
       "id": "f8d6affa801fd08d",
       "titulo": "Grupo Argos reportó ingresos por $8,62 billones y Ebitda de $2,14 billones",
       "categoria": "Colombia",
@@ -215,6 +278,15 @@
       "fuente": "La Silla Vacía",
       "url": "https://www.lasillavacia.com/detector-de-mentiras/falso/de-la-espriella-no-publico-que-trabajara-con-santiago-pena-en-ueno-bank/",
       "fecha": "2026-11-13T00:16:56+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "15f63f9d802fd913",
+      "titulo": "Mapas funcionales de receptores GPCR para diseñar fármacos",
+      "categoria": "Colombia",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/secciones/salud/mapas-funcionales-receptores-gpcr/",
+      "fecha": "2026-11-13T00:15:00+00:00",
       "imagen": ""
     },
     {
@@ -468,78 +540,6 @@
       "url": "https://www.larepublica.co/empresas/land-rover-trae-nuevo-modelo-de-range-rover-velar-inspirado-en-un-barrio-ingles-4523626",
       "fecha": "2026-11-12T22:49:38+00:00",
       "imagen": ""
-    },
-    {
-      "id": "2bb6593217b105b2",
-      "titulo": "Al otro lado del miedo, un recorrido por la memoria y el conflicto colombiano",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/ocio/al-otro-lado-del-miedo-un-recorrido-por-la-memoria-y-el-conflicto-colombiano-4523639",
-      "fecha": "2026-11-12T22:48:40+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "9dcb9514a1c0c92d",
-      "titulo": "La nueva película que muestra cómo Sylvester Stallone pasó de vivir en la calle a convertirse en estrella de Hollywood gracias a su guion de \"Rocky\"",
-      "categoria": "Internacional",
-      "fuente": "BBC Mundo",
-      "url": "https://www.bbc.com/mundo/articles/cvkg5je34zy5o?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-12T22:43:47+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "f99e5e0f9e01f50a",
-      "titulo": "Ejército halló 104 cilindros de gas en un depósito ilegal en Yumbo",
-      "categoria": "Valle del Cauca",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/regionales/valle-del-cauca/cilindros-de-gas-en-yumbo-ejercito-incauta-104-unidades/",
-      "fecha": "2026-11-12T22:42:47+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "b6a8d7630d637e66",
-      "titulo": "Guardianes del Atrato reciben premio en Noruega",
-      "categoria": "Cali",
-      "fuente": "Chocó 7 días",
-      "url": "https://choco7dias.com/guardianes-del-atrato-reciben-premio-en-noruega/",
-      "fecha": "2026-11-12T22:39:53+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "602acb4e882fb00e",
-      "titulo": "Retiran 944 toneladas de residuos en los ríos de Cali",
-      "categoria": "Cali",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/cali/limpieza-de-rios-y-quebradas-en-cali-dagma-recicladores-residuos-2026/",
-      "fecha": "2026-11-12T22:39:08+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "46450269ef927aed",
-      "titulo": "Davivienda reportó un crecimiento de 37,8% en la utilidad neta hasta septiembre",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/finanzas/davivienda-presento-sus-resultados-financieros-con-corte-a-septiembre-4523572",
-      "fecha": "2026-11-12T22:38:27+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "69916ea405589e88",
-      "titulo": "Represamiento de más de 109.000 contenedores vacíos en Buenaventura pone en alerta el 42 % del comercio exterior del país: Mintransporte en el puerto",
-      "categoria": "Valle del Cauca",
-      "fuente": "El Tiempo Cali",
-      "url": "https://www.eltiempo.com/colombia/cali/represamiento-de-mas-de-109-000-contenedores-vacios-en-buenaventura-pone-en-alerta-el-42-del-comercio-exterior-del-pais-mintransporte-en-el-puerto-3600627",
-      "fecha": "2026-11-12T22:38:05+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "60145c9831b2046d",
-      "titulo": "En más del 8% disminuyen homicidios en el Valle del Cauca",
-      "categoria": "Valle del Cauca",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/regionales/valle-del-cauca/homicidios-en-el-valle-del-cauca-cayeron-un-8-en-octubre/",
-      "fecha": "2026-11-12T22:31:38+00:00",
-      "imagen": ""
     }
   ],
   "estado_fuentes": [
@@ -643,8 +643,8 @@
     {
       "nombre": "Q'hubo Cali",
       "url": "https://www.qhubocali.com/feed/",
-      "estado": "sin_novedades",
-      "titulares": 0
+      "estado": "correcto",
+      "titulares": 3
     },
     {
       "nombre": "El Colombiano — Colombia",
