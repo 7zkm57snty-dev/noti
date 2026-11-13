@@ -1,5 +1,5 @@
 {
-  "ultima_actualizacion": "2026-11-13T18:29:08.482724+00:00",
+  "ultima_actualizacion": "2026-11-13T19:36:45.003793+00:00",
   "titulares_rss": [
     {
       "id": "226616e20d6cb4d5",
@@ -7,7 +7,322 @@
       "categoria": "Internacional",
       "fuente": "BBC Mundo",
       "url": "https://www.bbc.co.uk/mundo/live/c62e8kkl9rlrt?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-13T18:29:08.482724+00:00",
+      "fecha": "2026-11-13T19:36:45.003793+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "7de28e5c4b4ebc91",
+      "titulo": "Renunció Jaime Uribe, gerente del Fondo Milagro, tras polémica por millonarios salarios de funcionarios",
+      "categoria": "Economía",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/gobierno/renuncio-jaime-uribe-gerente-del-fondo-milagro-tras-polemica-por-millonarios-salarios-de-funcionarios-506330",
+      "fecha": "2026-11-13T19:33:21+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "fd94fd8c628f5580",
+      "titulo": "Gobierno pide ahorrar agua y energía ante posible prolongación de El Niño hasta 2027",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/noticias/gobierno-pide-ahorrar-agua-y-energia-ante-posible-prolongacion-de-el-nino-hasta-2027/",
+      "fecha": "2026-11-13T19:30:06+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "695da53a7ef54ff2",
+      "titulo": "El gota a gota, el fraude y los impuestos frenan el crecimiento económico de Colombia, advierte Asobancaria",
+      "categoria": "Colombia",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/empresario/crecimiento-economico-en-colombia-alertas-de-asobancaria/",
+      "fecha": "2026-11-13T19:29:44+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "f0356155565b9284",
+      "titulo": "Agencias de viajes de Colombia buscan mejores condiciones para vender tiquetes y competir en el mercado internacional",
+      "categoria": "Economía",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/empresario/agencias-de-viajes-colombianas-fijan-agenda-global-para-2027/",
+      "fecha": "2026-11-13T19:26:50+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "8ecf1e618619925e",
+      "titulo": "Jaime Uribe dejó la gerencia del Fondo Milagro en medio de revisión salarial",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/noticias/jaime-uribe-dejo-la-gerencia-del-fondo-milagro-en-medio-de-revision-salarial/",
+      "fecha": "2026-11-13T19:24:41+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "46445d79c1f08b78",
+      "titulo": "“Era lo correcto”: De la Espriella sacó a Jaime Uribe del Fondo Milagro",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/en-vivo/era-lo-correcto-de-la-espriella-saco-a-jaime-uribe-del-fondo-milagro/",
+      "fecha": "2026-11-13T19:24:21+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "2008e9370a34641d",
+      "titulo": "Valle del Cauca aumentó sus exportaciones 15,4%",
+      "categoria": "Valle del Cauca",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/empresario/exportaciones-del-valle-del-cauca-crecieron-15-4-en-2025/",
+      "fecha": "2026-11-13T19:17:06+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "06a11831d780fa2e",
+      "titulo": "Delegación de la RAP Caribe y del Atlántico aterrizó en misión oficial en China: este es el itinerario",
+      "categoria": "Internacional",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/delegacion-de-la-rap-caribe-y-del-atlantico-aterrizo-en-mision-oficial-en-china-este-es-el-itinerario-3600897",
+      "fecha": "2026-11-13T19:17:02+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "dbc3ff2846db0c16",
+      "titulo": "Destituyen e inhabilitan por 12 años a exdirector del Banco Inmobiliario de Floridablanca por supuesto acoso laboral",
+      "categoria": "Economía",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/santander/destituyen-e-inhabilitan-por-12-anos-a-exdirector-del-banco-inmobiliario-de-floridablanca-por-supuesto-acoso-laboral-3600874",
+      "fecha": "2026-11-13T19:14:40+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "9be5ee951afb33e3",
+      "titulo": "Abelardo de la Espriella sacrifica al gerente del Fondo Milagro tras las críticas por los altos salarios",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/america-colombia/2026-11-13/jaime-uribe-renuncia-a-la-gerencia-del-fondo-milagro-tras-las-criticas-por-los-altos-salarios-en-la-entidad.html",
+      "fecha": "2026-11-13T19:13:31+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "befdecfdd7856d21",
+      "titulo": "Congreso recibe las bases del Plan Nacional de Desarrollo: estos son los siete ejes del Gobierno",
+      "categoria": "Colombia",
+      "fuente": "La FM Economía",
+      "url": "https://www.lafm.com.co/economia/plan-nacional-de-desarrollo-2026-2030-congreso-fechas-proyectos-417155",
+      "fecha": "2026-11-13T19:10:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "89e7dc8bd70bd311",
+      "titulo": "\"Esta es la ciudad del Papa, del Papa peruano\": la emotiva vuelta a casa de León XIV a Chiclayo en Perú",
+      "categoria": "Internacional",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/cr15e3p8yjeko?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-13T19:09:40+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "6b40fba4b6d62099",
+      "titulo": "Video | Selección Colombia vs. Chile: así llega la 'tricolor' en su regreso a Cali",
+      "categoria": "Cali",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/deportes/video-seleccion-colombia-vs-chile-cali-13-11-2026/",
+      "fecha": "2026-11-13T19:09:27+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "0bff7f8387b35501",
+      "titulo": "Sin muchos cambios DNP presenta bases del Plan de Desarrollo",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/en-vivo/sin-muchos-cambios-sale-texto-final-de-las-bases-del-plan-de-desarrollo/",
+      "fecha": "2026-11-13T19:08:07+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "be7e3aea598b8e3a",
+      "titulo": "Colombia recibe hoy a Chile en Cali: hora, transmisión y novedades de la Tricolor",
+      "categoria": "Cali",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/deportes/colombia-recibe-hoy-a-chile-en-cali-hora-transmision-y-novedades-de-la-tricolor/",
+      "fecha": "2026-11-13T19:07:57+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "1eb6734e067d0d40",
+      "titulo": "Muchos anuncios de GTA VI no muestran armas: no es que el juego se haya moderado, es que Rockstar sabe que muchos jugadores son menores",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/videojuegos/muchos-anuncios-gta-vi-no-muestran-armas-no-que-juego-se-haya-moderado-que-rockstar-sabe-que-muchos-jugadores-menores",
+      "fecha": "2026-11-13T19:01:21+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "38718d0d9b04505a",
+      "titulo": "Quién es ‘El Animal’, el señalado ladrón de prendas de oro que es buscado por herir a una patrullera de policía durante un atraco en Villa Campestre",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/barranquilla/quien-es-el-animal-el-senalado-ladron-de-prendas-de-oro-que-es-buscado-por-herir-a-una-patrullera-de-policia-durante-un-atraco-en-villa-campestre-3600884",
+      "fecha": "2026-11-13T19:00:38+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "6d204192c5905115",
+      "titulo": "Alimentos siguen subiendo en Colombia y alcanzan su mayor inflación desde 2023",
+      "categoria": "Economía",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/noticias/alimentos-siguen-subiendo-en-colombia-y-alcanzan-su-mayor-inflacion-desde-2023/",
+      "fecha": "2026-11-13T19:00:38+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "fa802bf2d6c4d3b3",
+      "titulo": "Jaime Andrés Uribe renunció como gerente del Fondo Milagro tras polémica por salarios",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/economia/jaime-uribe-renuncio-como-gerente-del-fondo-milagro-tras-polemica-por-salarios-4524532",
+      "fecha": "2026-11-13T18:58:43+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "3f0177119217fede",
+      "titulo": "El angustioso rescate de dos tripulantes y once turistas que escaparon del fuego en un yate en aguas de Cartagena",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/el-angustioso-rescate-de-dos-tripulantes-y-once-turistas-que-escaparon-del-fuego-en-un-yate-en-aguas-de-cartagena-3600888",
+      "fecha": "2026-11-13T18:54:36+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "0d85d2b762cfda09",
+      "titulo": "Jensen Huang: presunto espionaje de una de sus amantes y otras relaciones que dejan a Nvidia sin su CEO estrella",
+      "categoria": "Internacional",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/jensen-huang-presunto-espionaje-de-una-de-sus-amantes-y-otras-relaciones-que-dejan-a-nvidia-sin-su-ceo-estrella/a-79943979?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-13T18:54:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "15fd68f46a0a20b8",
+      "titulo": "Ministerio de Hacienda se reunió con el Banco Mundial para hablar de la reforma tributaria",
+      "categoria": "Deportes",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/economia/reunion-entre-el-ministerio-de-hacienda-y-banco-mundial-sobre-la-reforma-tributaria-4524524",
+      "fecha": "2026-11-13T18:51:35+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "41a2453ebbf6197a",
+      "titulo": "Inditex y Banco Mundial crean fondo de descarbonización textil de US$400 millones",
+      "categoria": "Deportes",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/ocio/inditex-y-el-banco-mundial-impulsan-un-fondo-de-us-400-millones-4524522",
+      "fecha": "2026-11-13T18:50:04+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "ae3e1a7c6f36e418",
+      "titulo": "En video: así fue el angustioso momento en que un camión sin control arrolló a varios vehículos y dejó dos muertos en Medellín",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/medellin/en-video-asi-fue-el-angustioso-momento-en-que-un-camion-sin-control-arrollo-a-varios-vehiculos-y-dejo-dos-muertos-en-medellin-3600889",
+      "fecha": "2026-11-13T18:49:35+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "b1e492bbe1ac76fc",
+      "titulo": "Los servicios de Microsoft retoman la normalidad tras una caída global de más de 18 horas",
+      "categoria": "Tecnología",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/tecnologia/2026-11-13/microsoft-no-logra-recuperar-sus-servicios-tras-una-caida-global-de-mas-de-12-horas.html",
+      "fecha": "2026-11-13T18:48:57+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "4c82d5d22e0ec312",
+      "titulo": "¿Cuánto le subiría el arriendo en 2027? Esto tendría que pagar si el IPC llega al 5% o 6%",
+      "categoria": "Economía",
+      "fuente": "La FM Economía",
+      "url": "https://www.lafm.com.co/economia/arriendo-colombia-cuanto-subiria-2027-ipc-5-o-6-417146",
+      "fecha": "2026-11-13T18:48:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "0088f3d7cd80872c",
+      "titulo": "El caso TikTok y la necesidad de una regulación que les obligue el cuidado digital",
+      "categoria": "Colombia",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/secciones/tendencias/explotacion-sexual-en-tiktok-alerta-por-cifras-en-menores/",
+      "fecha": "2026-11-13T18:41:47+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "ba16bd3ee1c63e80",
+      "titulo": "“No hagan un rescate militar”, pide subteniente secuestrada por el ELN",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/en-vivo/no-hagan-un-rescate-militar-pide-subteniente-secuestrada-por-el-eln/",
+      "fecha": "2026-11-13T18:39:55+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "a9821081f6ab8ac6",
+      "titulo": "Presidente De la Espriella fue quien ordenó el desmonte de las obras del Museo Nacional en Bogotá, confirma derecho de petición",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/abelardo-de-la-espriella-habria-ordenado-desmonte-obras-museo-nacional-bogota-CE43568749",
+      "fecha": "2026-11-13T18:37:31+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "1bdc7aa92df2dc2b",
+      "titulo": "Luz verde para el nuevo Atanasio Girardot: Medellín abre licitación para ampliar su estadio a 62.000 espectadores",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/medellin/luz-verde-para-el-nuevo-atanasio-girardot-medellin-abre-licitacion-para-ampliar-su-estadio-a-62-000-espectadores-3600886",
+      "fecha": "2026-11-13T18:37:21+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "66b5348aa63bf49d",
+      "titulo": "El clan dorado de la pedagogía",
+      "categoria": "Colombia",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/cali/libardo-alirio-dorado-50-anos-de-legado-educativo-en-cali/",
+      "fecha": "2026-11-13T18:33:30+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "2433eaad6452a0ab",
+      "titulo": "Huawei estrena nuevos auriculares, y vaya precio: hasta 80 horas de autonomía por menos de 50 euros con su oferta de lanzamiento",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/seleccion/huawei-estrena-nuevos-auriculares-vaya-precio-80-horas-autonomia-50-euros-su-oferta-lanzamiento",
+      "fecha": "2026-11-13T18:31:21+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "6ba21e27ce860fff",
+      "titulo": "Cartagena convierte su fiesta de Independencia en motor económico de más $350.000 millones",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/ocio/cartagena-convierte-su-fiesta-de-independencia-en-motor-economico-de-mas-350-000-millones-4524496",
+      "fecha": "2026-11-13T18:30:10+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "49ca10ef0d8553e4",
+      "titulo": "AfD gana fuerza en Alemania, y sus vínculos con el entorno neonazi plantean interrogantes",
+      "categoria": "Internacional",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/afd-gana-fuerza-en-alemania-y-sus-vínculos-con-el-entorno-neonazi-plantean-interrogantes/a-79944191?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-13T18:29:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "c2c4e33690c32883",
+      "titulo": "Tragedia en Sucre: niño de cuatro años murió en piscina de hotel en Coveñas y niña de dos años sufrió descarga eléctrica en San Onofre",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/tragedia-en-sucre-nino-de-cuatro-anos-murio-en-piscina-de-hotel-en-covenas-y-nina-de-dos-anos-sufrio-descarga-electrica-en-san-onofre-3600882",
+      "fecha": "2026-11-13T18:26:59+00:00",
       "imagen": ""
     },
     {
@@ -21,7 +336,7 @@
     },
     {
       "id": "51825126fa2d8fac",
-      "titulo": "Bitcoin baja de barrera de US$70.000 por caída de demanda ante crisis de tecnológicas",
+      "titulo": "Bitcoin baja de US$70.000 por caída de demanda ante crisis de tecnológicas",
       "categoria": "Colombia",
       "fuente": "La República",
       "url": "https://www.larepublica.co/globoeconomia/bitcoin-baja-barrera-de-us-70-000-con-crisis-tecnologica-reduciendo-demanda-4524445",
@@ -47,15 +362,6 @@
       "imagen": ""
     },
     {
-      "id": "0d85d2b762cfda09",
-      "titulo": "Jensen Huang: presunto espionaje de una de sus amantes y otras relaciones que dejan a Nvidia sin su CEO estrella",
-      "categoria": "Internacional",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/jensen-huang-presunto-espionaje-de-una-de-sus-amantes-y-otras-relaciones-que-dejan-a-nvidia-sin-su-ceo-estrella/a-79943979?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-13T18:07:00+00:00",
-      "imagen": ""
-    },
-    {
       "id": "2483f9c82b9dcab5",
       "titulo": "Polémica por valla que pide libertad de ‘Juancho Kily’, acusado de abuso sexual contra surfista menor de edad en Puerto Colombia",
       "categoria": "Colombia",
@@ -74,6 +380,15 @@
       "imagen": ""
     },
     {
+      "id": "ed7facb47fc7637d",
+      "titulo": "¿Chile es mejor que la selección Colombia?: esto dice la historia",
+      "categoria": "Deportes",
+      "fuente": "La FM Deportes",
+      "url": "https://www.lafm.com.co/deportes/chile-vs-colombia-historial-de-enfrentamientos-417142",
+      "fecha": "2026-11-13T18:04:17+00:00",
+      "imagen": ""
+    },
+    {
       "id": "9972da67df5250a9",
       "titulo": "Cambiar la caldera comunitaria por aerotermia puede salir más barato: los nuevos incentivos y sus condiciones",
       "categoria": "Colombia",
@@ -89,6 +404,33 @@
       "fuente": "DW Español",
       "url": "https://www.dw.com/es/eisenkot-pide-respeto-a-minoría-árabe-de-israel-tras-los-ataques-de-netanyahu/a-79944475?maca=spa-rss-sp-all-1122-rdf",
       "fecha": "2026-11-13T17:59:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "19e6d6266b79ef49",
+      "titulo": "“Esta incertidumbre todos los días fue agotadora y muy dolorosa”: el conmovedor relato del hijo de funcionario de la Fiscalía liberado por el ELN",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/funcionario-fiscalia-liberado-testimonio-hijo-secuestro-eln-NE43564911",
+      "fecha": "2026-11-13T17:54:05+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "c0a25b9bdaaf8e6b",
+      "titulo": "El papa León XIV se reencuentra con su pueblo de Chiclayo",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/america/2026-11-13/el-papa-leon-xiv-se-reencuentra-con-su-pueblo-de-chiclayo.html",
+      "fecha": "2026-11-13T17:52:48+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "e7d41b64e5890e99",
+      "titulo": "“El presidente Petro sabía”: abogado de Jaime Ramírez responde por historia detrás del celular del exmandatario",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/gustavo-petro-sabia-telefono-chuzado-jaime-ramirez-segun-abogado-PE43565479",
+      "fecha": "2026-11-13T17:51:07+00:00",
       "imagen": ""
     },
     {
@@ -146,6 +488,15 @@
       "imagen": ""
     },
     {
+      "id": "764b7462ee2bd571",
+      "titulo": "Inflamación influye en aterosclerosis precoz",
+      "categoria": "Colombia",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/secciones/salud/inflamacion-aterosclerosis-precoz/",
+      "fecha": "2026-11-13T17:37:00+00:00",
+      "imagen": ""
+    },
+    {
       "id": "3cc400b856e2aec2",
       "titulo": "Icdt presentó propuestas en relación con la ampliación de la base gravable del IVA",
       "categoria": "Colombia",
@@ -189,357 +540,6 @@
       "url": "https://www.portafolio.co/economia/regiones/procuraduria-advierte-riesgos-en-nuevo-modelo-tarifario-de-aseo-en-medio-de-protestas-de-recicladores-en-bogota-506325",
       "fecha": "2026-11-13T17:28:58+00:00",
       "imagen": ""
-    },
-    {
-      "id": "7e82c438a7f7fcfd",
-      "titulo": "Caos y tragedia en Medellín: dos personas murieron tras un violento choque provocado por un camión que se habría quedado sin frenos",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/medellin/caos-y-tragedia-en-medellin-dos-personas-murieron-tras-un-violento-choque-provocado-por-un-camion-que-se-habria-quedado-sin-frenos-3600856",
-      "fecha": "2026-11-13T17:21:13+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "f79a4ad4cf872bdb",
-      "titulo": "Habilitan dos carriles de la Séptima entre calles 116 y 119 en Bogotá: así avanza el 'corredor verde'",
-      "categoria": "Colombia",
-      "fuente": "La FM Actualidad",
-      "url": "https://www.lafm.com.co/actualidad/corredor-verde-carrera-septima-bogota-obras-alcalde-galan-habilitan-tramo-cales-116-y-119-norte-417134",
-      "fecha": "2026-11-13T17:18:25+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "9437de5efd52b561",
-      "titulo": "Edicto Guillermo Eliécer Mosquera Valencia",
-      "categoria": "Colombia",
-      "fuente": "Chocó 7 días",
-      "url": "https://choco7dias.com/edicto-guillermo-eliecer-mosquera-valencia/",
-      "fecha": "2026-11-13T17:18:13+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "185ddef5b2a937be",
-      "titulo": "Las secadoras de Whirlpool estrenan Adaptive Dry: así es la función que aprende cómo te gusta la ropa tras cada ciclo",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/seleccion/secadoras-whirlpool-estrenan-adaptive-dry-asi-funcion-que-aprende-como-te-gusta-ropa-cada-ciclo",
-      "fecha": "2026-11-13T17:15:21+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "6130f02f4a34f72b",
-      "titulo": "Grave accidente cerca a Cementerio Universal de Medellín dejó dos muertos y varios heridos: vehículo se habría quedado sin frenos; esto se sabe",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/medellin/grave-accidente-cerca-a-cementerio-universal-de-medellin-dejo-dos-muertos-y-varios-heridos-vehiculo-se-habria-quedado-sin-frenos-esto-se-sabe-3600857",
-      "fecha": "2026-11-13T17:15:02+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "36d2e74beb415257",
-      "titulo": "Atentan contra líder comunal de Sucre, Cauca, y roban vehículo de la Defensoría del Pueblo: fue atacado a disparos en la vía Panamericana",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/cali/atentan-contra-lider-comunal-de-sucre-cauca-y-roban-vehiculo-de-la-defensoria-del-pueblo-fue-atacado-a-disparos-en-la-via-panamericana-3600843",
-      "fecha": "2026-11-13T17:10:26+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "386c4aa89e9fc756",
-      "titulo": "Néstor Lorenzo ilusiona a Jhon Durán: podría volver a la Selección Colombia después de su recordada pelea",
-      "categoria": "Deportes",
-      "fuente": "La FM Deportes",
-      "url": "https://www.lafm.com.co/deportes/nestor-lorenzo-abre-puerta-jhon-duran-seleccion-colombia-417131",
-      "fecha": "2026-11-13T17:08:36+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "e3a76e95bff66daf",
-      "titulo": "A pesar de crecimiento de la utilidad de Ecopetrol, su acción cae en la Bolsa de Colombia",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/finanzas/a-pesar-de-crecimiento-de-la-utilidad-de-ecopetrol-su-accion-cae-en-la-bolsa-de-colombia-4524386",
-      "fecha": "2026-11-13T17:05:07+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "bc791a9a2f7a35cf",
-      "titulo": "Fabio Arjona responde a críticas por no tener pabellón en la COP31",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/silla-amazonia/amazonia-en-breve/fabio-arjona-responde-a-criticas-por-no-tener-pabellon-en-la-cop31/",
-      "fecha": "2026-11-13T17:04:45+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "1ec3f5fd30833f1a",
-      "titulo": "Hallan en Asturias un diente de un tiburón superdepredador gigante de hace 331 millones de años",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/magnet/hallan-asturias-diente-tiburon-superdepredador-gigante-hace-331-millones-anos",
-      "fecha": "2026-11-13T17:01:26+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "21c2a33f4dbb7b60",
-      "titulo": "Atlas Intel: la aprobación de Abelardo se mantiene por debajo del 50%",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/en-vivo/atlas-intel-la-aprobacion-de-abelardo-se-mantiene-por-debajo-del-50/",
-      "fecha": "2026-11-13T17:00:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "bea145900a07eae3",
-      "titulo": "Bogotá tiene cerrado su espacio aéreo por revista de la FAC: ¿hasta qué hora estará la restricción?",
-      "categoria": "Colombia",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/regiones/bogota-tiene-cerrado-su-espacio-aereo-por-revista-de-la-fac-hasta-que-hora-estara-la-restriccion-506322",
-      "fecha": "2026-11-13T16:58:46+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "9e34e89aedcb66d2",
-      "titulo": "Expresidente Santos llama a no \"guardar silencio\" ante la \"normalización\" de la guerra",
-      "categoria": "Internacional",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/colombia/expresidente-santos-llama-guardar-silencio-normalizacion-guerra-13-11-2026/",
-      "fecha": "2026-11-13T16:58:09+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "b2511afa119dafe3",
-      "titulo": "¿Más de US$15 millones será el total de premios que entrega el Nitto ATP Finals?",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/ocio/mas-de-15-millones-de-dolares-sera-el-total-de-premios-que-entrega-el-nitto-atp-finals-4524418",
-      "fecha": "2026-11-13T16:53:28+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "030260313fbb4226",
-      "titulo": "Llaneros se irá de Villavicencio hacia otra sede en 2027: las razones políticas detrás del polémico anuncio",
-      "categoria": "Deportes",
-      "fuente": "La FM Deportes",
-      "url": "https://www.lafm.com.co/deportes/llaneros-deja-villavicencio-guamal-liga-betplay-2027-417126",
-      "fecha": "2026-11-13T16:49:07+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "0485c296582722a8",
-      "titulo": "Ecopetrol prepara el regreso del fracking en Colombia: Magdalena Medio sería la zona elegida",
-      "categoria": "Colombia",
-      "fuente": "La FM Economía",
-      "url": "https://www.lafm.com.co/economia/ecopetrol-fracking-colombia-exploracion-magdalena-medio-417125",
-      "fecha": "2026-11-13T16:47:43+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "4822297c1f486385",
-      "titulo": "El PND debe definir cuánto ingreso garantizará a los hogares más vulnerables",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/red-de-expertos/red-social/el-pnd-debe-definir-cuanto-ingreso-garantizara-a-los-hogares-mas-vulnerables/",
-      "fecha": "2026-11-13T16:47:10+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "b28631689c7905d5",
-      "titulo": "Investigación BBC: las brutales bandas de tráfico de drogas en Francia que reclutan a adolescentes para asesinar",
-      "categoria": "Internacional",
-      "fuente": "BBC Mundo",
-      "url": "https://www.bbc.com/mundo/articles/ckly4yzeg598o?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-13T16:39:29+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "44c5b51f763443ff",
-      "titulo": "Tribunal Administrativo de Santander levantó medidas cautelares que tenían frenado el empréstito por más de $538 mil millones para Bucaramanga",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/santander/tribunal-administrativo-de-santander-levanto-medidas-cautelares-que-tenian-frenado-el-emprestito-por-mas-de-538-mil-millones-para-bucaramanga-3600834",
-      "fecha": "2026-11-13T16:33:23+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "ae932d520234b970",
-      "titulo": "Suramericana tuvo un crecimiento de 7,2% en utilidad neta con corte a septiembre",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/finanzas/suramericana-tuvo-un-crecimiento-de-7-2-en-utilidad-neta-con-corte-a-septiembre-4524326",
-      "fecha": "2026-11-13T16:31:28+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "664840d2e93c7bf5",
-      "titulo": "AMD ha presentado una nueva gama de procesadores que apuntan a dónde más están sufriendo los centros de datos: a los agentes de IA",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/procesadores/amd-ha-presentado-nueva-gama-procesadores-que-apuntan-a-donde-estan-sufriendo-centros-datos-a-agentes-ia",
-      "fecha": "2026-11-13T16:31:21+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "7ab70a6a16644552",
-      "titulo": "\"El viejo mapa político de EE.UU. es historia\": cómo Texas se convierte en el principal campo de batalla de las presidenciales de 2028 tras el \"tsunami azul\"",
-      "categoria": "Internacional",
-      "fuente": "BBC Mundo",
-      "url": "https://www.bbc.com/mundo/articles/ck4gnqw6jnnwo?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-13T16:27:17+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "3ee3b5f9a6878053",
-      "titulo": "Mauricio Pochettino deja Estados Unidos entre lágrimas: \"Entrenar al Manchester United es una gran oportunidad\"",
-      "categoria": "Internacional",
-      "fuente": "La FM Deportes",
-      "url": "https://www.lafm.com.co/deportes/mauricio-pochettino-deja-estados-unidos-nuevo-tecnico-manunited-417122",
-      "fecha": "2026-11-13T16:25:53+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "b1d38f2f4073f7c5",
-      "titulo": "Video | Incendio dejó 25 damnificados en Barranquilla y es investigado tras denuncias sobre un presunto origen provocado: esto es lo que se sabe",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/barranquilla/video-incendio-dejo-25-damnificados-en-barranquilla-y-es-investigado-tras-denuncias-sobre-un-presunto-origen-provocado-esto-es-lo-que-se-sabe-3600831",
-      "fecha": "2026-11-13T16:25:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "b7c166e211ff882a",
-      "titulo": "Ecopetrol negocia comprar gas de Venezuela por 10 años y pedirá operar la parte del gasoducto que está en Colombia",
-      "categoria": "Internacional",
-      "fuente": "La FM Economía",
-      "url": "https://www.lafm.com.co/economia/ecopetrol-negocia-compra-de-gas-de-venezuela-por-10-anos-gasoducto-antonio-ricaurte-417121",
-      "fecha": "2026-11-13T16:19:28+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "9a193126b6d0c333",
-      "titulo": "Pibank contó con un crecimiento de 70% en sus captaciones frente a 2025",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/finanzas/pibank-presento-un-crecimiento-de-70-en-sus-captaciones-frente-a-octubre-de-2025-4524209",
-      "fecha": "2026-11-13T16:16:46+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "6b254791845ee20c",
-      "titulo": "El Black Friday se ha adelantado en MediaMarkt con la TCL 75P8L rebajada y con barra de sonido de regalo",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/seleccion/black-friday-se-ha-adelantado-mediamarkt-tcl-75p8l-rebajada-barra-sonido-regalo",
-      "fecha": "2026-11-13T16:15:23+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "456046251f07cbb8",
-      "titulo": "En septiembre, la industria manufacturera registró un crecimiento de 1,5%",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/economia/en-septiembre-la-industria-manufacturera-registro-un-crecimiento-de-1-5-4524360",
-      "fecha": "2026-11-13T16:15:14+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "4e0d0a77133610d4",
-      "titulo": "La producción industrial tuvo un creciemiento de 1,9% anual en septiembre",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/economia/la-produccion-industrial-tuvo-un-creciemiento-de-1-9-anual-en-septiembre-4524325",
-      "fecha": "2026-11-13T16:15:11+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "2701fe5da998388c",
-      "titulo": "Precio del dólar hoy en Colombia se perfila a cerrar la semana por encima de $3.300",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/finanzas/precio-del-dolar-hoy-en-colombia-se-perfila-a-cerrar-la-semana-por-encima-de-3-506314",
-      "fecha": "2026-11-13T16:12:41+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "9811ec84af019f74",
-      "titulo": "Wall Street cae ante oleada de ventas en tecnológicas y fabricantes de chips",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/wall-street-cae-por-cuenta-de-oleada-de-ventas-en-fabricantes-de-chips-4524354",
-      "fecha": "2026-11-13T16:11:14+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "644fe40a95e89a8d",
-      "titulo": "Definidos los grupos para el Sudamericano sub-20 que se jugará en Medellín: buen sorteo para Colombia",
-      "categoria": "Colombia",
-      "fuente": "La FM Deportes",
-      "url": "https://www.lafm.com.co/deportes/sudamericano-sub20-medellin-estos-son-los-grupos-colombia-417119",
-      "fecha": "2026-11-13T16:02:15+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "ca2effe0c28256be",
-      "titulo": "Donald Trump intentó que Jensen Huang siguiera como CEO: “Nvidia es demasiado grande como para caer”",
-      "categoria": "Internacional",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/empresas-y-economia/donald-trump-intento-que-jensen-huang-siguiera-como-ceo-nvidia-demasiado-grande-como-para-caer",
-      "fecha": "2026-11-13T16:01:22+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "ebb2e53d06cda066",
-      "titulo": "Pereira será sede del foro ‘Salto Adelante’: una apuesta por transformar la educación desde la tecnología y el humanismo",
-      "categoria": "Tecnología",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/sin-categoria/pereira-sera-sede-del-foro-salto-adelante-una-apuesta-por-transformar-la-educacion-desde-la-tecnologia-y-el-humanismo/",
-      "fecha": "2026-11-13T16:00:22+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "3b3c07c8cea3e6c2",
-      "titulo": "Ley de Rescate Económico cambiaría las cuentas de las empresas en 2027: estos serían los impactos",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/ley-de-rescate-economico-cambiaria-las-cuentas-de-las-empresas-en-2027-estos-serian-los-impactos-506313",
-      "fecha": "2026-11-13T15:56:42+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "0a6ddb35edf39047",
-      "titulo": "Cien días de sede alterna: ¿hubo milagro para Barranquilla?",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/red-de-expertos/cien-dias-de-sede-alterna-hubo-milagro-para-barranquilla/",
-      "fecha": "2026-11-13T15:51:47+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "7e4093244545d610",
-      "titulo": "Invima alertó por sobres falsos de Sal de Frutas Lua de un lote que salió del mercado",
-      "categoria": "Economía",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/empresas/invima-alerto-por-sobres-falsos-de-sal-de-frutas-lua-de-un-lote-que-salio-del-mercado-4524333",
-      "fecha": "2026-11-13T15:49:22+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "e313acbb32fbcfd1",
-      "titulo": "Fondo Milagro avanza en la articulación de proyectos para reconstruir el Chocó: esto dijo la gobernadora del departamento",
-      "categoria": "Colombia",
-      "fuente": "La FM Actualidad",
-      "url": "https://www.lafm.com.co/actualidad/gobernadora-choco-fondo-milagro-avanza-articulacion-417118",
-      "fecha": "2026-11-13T15:48:04+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "36ca48940e3d9536",
-      "titulo": "Demasiado vulnerables",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/opinion/2026-11-13/demasiado-vulnerables.html",
-      "fecha": "2026-11-13T15:47:18+00:00",
-      "imagen": ""
     }
   ],
   "estado_fuentes": [
@@ -553,7 +553,7 @@
       "nombre": "El Tiempo Cali",
       "url": "https://www.eltiempo.com/rss/colombia_cali.xml",
       "estado": "correcto",
-      "titulares": 9
+      "titulares": 10
     },
     {
       "nombre": "El Espectador",
@@ -596,7 +596,7 @@
       "nombre": "DW Español",
       "url": "https://rss.dw.com/rdf/rss-sp-all",
       "estado": "correcto",
-      "titulares": 25
+      "titulares": 26
     },
     {
       "nombre": "Xataka",
