@@ -1,13 +1,157 @@
 {
-  "ultima_actualizacion": "2026-11-13T17:33:24.267459+00:00",
+  "ultima_actualizacion": "2026-11-13T18:29:08.482724+00:00",
   "titulares_rss": [
     {
       "id": "226616e20d6cb4d5",
-      "titulo": "\"¡Qué alegría volver a Chiclayo!\": León XIV cierra su masiva misa en la ciudad de Perú que lanzó su carrera hacia el papado",
+      "titulo": "\"¡Qué alegría volver a Chiclayo!\": así fue la masiva misa de León XIV en la ciudad de Perú que lanzó su carrera hacia el papado",
       "categoria": "Internacional",
       "fuente": "BBC Mundo",
       "url": "https://www.bbc.co.uk/mundo/live/c62e8kkl9rlrt?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-13T17:33:24.267459+00:00",
+      "fecha": "2026-11-13T18:29:08.482724+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "e9ac5687d4d554c1",
+      "titulo": "Diario del gobierno de Abelardo: más cercanos de Gutiérrez llegan al gobierno",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/en-vivo/diario-del-gobierno-de-abelardo-mas-cercanos-de-gutierrez-llegan-al-gobierno/",
+      "fecha": "2026-11-13T18:26:24+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "51825126fa2d8fac",
+      "titulo": "Bitcoin baja de barrera de US$70.000 por caída de demanda ante crisis de tecnológicas",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/globoeconomia/bitcoin-baja-barrera-de-us-70-000-con-crisis-tecnologica-reduciendo-demanda-4524445",
+      "fecha": "2026-11-13T18:18:56+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "8e8dc44def727339",
+      "titulo": "Comisión Cuarta de la Cámara nombra siete ponentes para la tributaria",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/en-vivo/tributaria-comision-cuarta-de-la-camara-define-a-sus-siete-ponentes/",
+      "fecha": "2026-11-13T18:09:35+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "c00933869210cb94",
+      "titulo": "Fondo Monetario Internacional respalda a Argentina pese a derrota de Trump",
+      "categoria": "Internacional",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/globoeconomia/fondo-monetario-internacional-respalda-a-argentina-pese-a-derrota-de-trump-4524481",
+      "fecha": "2026-11-13T18:07:41+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "0d85d2b762cfda09",
+      "titulo": "Jensen Huang: presunto espionaje de una de sus amantes y otras relaciones que dejan a Nvidia sin su CEO estrella",
+      "categoria": "Internacional",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/jensen-huang-presunto-espionaje-de-una-de-sus-amantes-y-otras-relaciones-que-dejan-a-nvidia-sin-su-ceo-estrella/a-79943979?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-13T18:07:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "2483f9c82b9dcab5",
+      "titulo": "Polémica por valla que pide libertad de ‘Juancho Kily’, acusado de abuso sexual contra surfista menor de edad en Puerto Colombia",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/barranquilla/polemica-por-valla-que-pide-libertad-de-juancho-kily-acusado-de-abuso-sexual-contra-surfista-menor-de-edad-en-puerto-colombia-3600870",
+      "fecha": "2026-11-13T18:05:16+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "fccc626a001fa5c8",
+      "titulo": "La visita de León XIV a Perú, en vivo | Chiclayo agradece la visita del Papa: “Esta es su querida diócesis”",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/america/2026-11-13/la-visita-de-leon-xiv-a-peru-en-vivo-el-papa-llega-a-chiclayo-su-segunda-casa.html",
+      "fecha": "2026-11-13T18:05:01+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "9972da67df5250a9",
+      "titulo": "Cambiar la caldera comunitaria por aerotermia puede salir más barato: los nuevos incentivos y sus condiciones",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/energia/cambiar-caldera-comunitaria-aerotermia-puede-salir-barato-nuevos-incentivos-sus-condiciones",
+      "fecha": "2026-11-13T18:01:24+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "4156c946040357e3",
+      "titulo": "Eisenkot pide respeto a minoría árabe de Israel tras los ataques de Netanyahu",
+      "categoria": "Internacional",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/eisenkot-pide-respeto-a-minoría-árabe-de-israel-tras-los-ataques-de-netanyahu/a-79944475?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-13T17:59:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "dc6470225b8c58e6",
+      "titulo": "Solo dos viviendas de 7.800 requeridas",
+      "categoria": "Colombia",
+      "fuente": "Chocó 7 días",
+      "url": "https://choco7dias.com/solo-dos-viviendas-de-7-800-requeridas/",
+      "fecha": "2026-11-13T17:50:01+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "f7e9316982998e60",
+      "titulo": "Fiscalía paraguaya suma cargos de asociación criminal a expresidente Peña",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/globoeconomia/fiscalia-paraguaya-suma-cargos-de-asociacion-criminal-a-expresidente-pena-4524468",
+      "fecha": "2026-11-13T17:49:50+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "3b4cfbc82c76430b",
+      "titulo": "Cinco televisores con buena relación calidad-precio para disfrutar de 'GTA VI'",
+      "categoria": "Cali",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/seleccion/cinco-televisores-buena-relacion-calidad-precio-para-disfrutar-gta-vi",
+      "fecha": "2026-11-13T17:45:20+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "d884b4fb7b606a21",
+      "titulo": "Voces de rechazo por el atentado con explosivo al paso de una patrulla cerca de Carabineros en Cali: '¡Basta ya de ataques criminales en la ciudad!'",
+      "categoria": "Cali",
+      "fuente": "El Tiempo Cali",
+      "url": "https://www.eltiempo.com/colombia/cali/voces-de-rechazo-por-el-atentado-con-explosivo-al-paso-de-una-patrulla-cerca-de-carabineros-en-cali-basta-ya-de-ataques-criminales-en-la-ciudad-3600774",
+      "fecha": "2026-11-13T17:41:18+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "b5228c6bc571d6a8",
+      "titulo": "'¡No vamos a permitir que los terroristas sigan sembrando el miedo; en Cali no vamos a ceder ante el terrorismo!', dijo el alcalde Alejandro Eder",
+      "categoria": "Cali",
+      "fuente": "El Tiempo Cali",
+      "url": "https://www.eltiempo.com/colombia/cali/no-vamos-a-permitir-que-los-terroristas-sigan-sembrando-el-miedo-en-cali-no-vamos-a-ceder-ante-el-terrorismo-dijo-el-alcalde-alejandro-eder-3600760",
+      "fecha": "2026-11-13T17:39:58+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "1590974a2c4f3b0e",
+      "titulo": "Hermano de Joaquín Gutiérrez, nombrado vicepresidente de Finagro",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/en-vivo/hermano-de-joaquin-gutierrez-nombrado-vicepresidente-de-finagro/",
+      "fecha": "2026-11-13T17:38:28+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "3cc400b856e2aec2",
+      "titulo": "Icdt presentó propuestas en relación con la ampliación de la base gravable del IVA",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/economia/icdt-presento-propuestas-en-relacion-con-la-ampliacion-de-la-base-gravable-del-iva-4524449",
+      "fecha": "2026-11-13T17:34:35+00:00",
       "imagen": ""
     },
     {
@@ -30,7 +174,7 @@
     },
     {
       "id": "b48195e8eda002ea",
-      "titulo": "Camaçari, la ciudad que se transformó con la mayor fábrica de autos chinos de de América Latina",
+      "titulo": "Camaçari, la ciudad que se transformó con la mayor fábrica de autos chinos de América Latina",
       "categoria": "Internacional",
       "fuente": "BBC Mundo",
       "url": "https://www.bbc.com/mundo/watch/c6eq4nwn4e44o?at_medium=RSS&at_campaign=rss",
@@ -53,15 +197,6 @@
       "fuente": "El Tiempo",
       "url": "https://www.eltiempo.com/colombia/medellin/caos-y-tragedia-en-medellin-dos-personas-murieron-tras-un-violento-choque-provocado-por-un-camion-que-se-habria-quedado-sin-frenos-3600856",
       "fecha": "2026-11-13T17:21:13+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "fccc626a001fa5c8",
-      "titulo": "La visita de León XIV a Perú, en vivo |El Papa se reencuentra con su gente en una multitudinaria misa: “¡Qué alegría volver a Chiclayo!”",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/america/2026-11-13/la-visita-de-leon-xiv-a-peru-en-vivo-el-papa-llega-a-chiclayo-su-segunda-casa.html",
-      "fecha": "2026-11-13T17:20:28+00:00",
       "imagen": ""
     },
     {
@@ -107,6 +242,15 @@
       "fuente": "El Tiempo",
       "url": "https://www.eltiempo.com/colombia/cali/atentan-contra-lider-comunal-de-sucre-cauca-y-roban-vehiculo-de-la-defensoria-del-pueblo-fue-atacado-a-disparos-en-la-via-panamericana-3600843",
       "fecha": "2026-11-13T17:10:26+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "386c4aa89e9fc756",
+      "titulo": "Néstor Lorenzo ilusiona a Jhon Durán: podría volver a la Selección Colombia después de su recordada pelea",
+      "categoria": "Deportes",
+      "fuente": "La FM Deportes",
+      "url": "https://www.lafm.com.co/deportes/nestor-lorenzo-abre-puerta-jhon-duran-seleccion-colombia-417131",
+      "fecha": "2026-11-13T17:08:36+00:00",
       "imagen": ""
     },
     {
@@ -200,15 +344,6 @@
       "imagen": ""
     },
     {
-      "id": "d884b4fb7b606a21",
-      "titulo": "Voces de rechazo por el atentado con explosivo al paso de una patrulla cerca de Carabineros en Cali: '¡Basta ya de ataques criminales en la ciudad!'",
-      "categoria": "Cali",
-      "fuente": "El Tiempo Cali",
-      "url": "https://www.eltiempo.com/colombia/cali/voces-de-rechazo-por-el-atentado-con-explosivo-al-paso-de-una-patrulla-cerca-de-carabineros-en-cali-basta-ya-de-ataques-criminales-en-la-ciudad-3600774",
-      "fecha": "2026-11-13T16:44:47+00:00",
-      "imagen": ""
-    },
-    {
       "id": "b28631689c7905d5",
       "titulo": "Investigación BBC: las brutales bandas de tráfico de drogas en Francia que reclutan a adolescentes para asesinar",
       "categoria": "Internacional",
@@ -269,15 +404,6 @@
       "fuente": "El Tiempo",
       "url": "https://www.eltiempo.com/colombia/barranquilla/video-incendio-dejo-25-damnificados-en-barranquilla-y-es-investigado-tras-denuncias-sobre-un-presunto-origen-provocado-esto-es-lo-que-se-sabe-3600831",
       "fecha": "2026-11-13T16:25:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "0bbe5ad48fd2f4e8",
-      "titulo": "Murió Lucio Chiquito Caicedo a los 110 años, ingeniero que ayudó a fundar EPM y marcó el desarrollo de Antioquia",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/medellin/murio-lucio-chiquito-caicedo-a-los-110-anos-ingeniero-que-ayudo-a-fundar-epm-y-marco-el-desarrollo-de-antioquia-3600799",
-      "fecha": "2026-11-13T16:24:59+00:00",
       "imagen": ""
     },
     {
@@ -413,132 +539,6 @@
       "fuente": "El País Colombia",
       "url": "https://elpais.com/opinion/2026-11-13/demasiado-vulnerables.html",
       "fecha": "2026-11-13T15:47:18+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "05f54d42950b0209",
-      "titulo": "Lucio Chiquito Caicedo",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/obituarios/fallecimiento-de-lucio-chiquito-caicedo-4524136",
-      "fecha": "2026-11-13T15:46:57+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "af1dcb99aefbc4b0",
-      "titulo": "Sin la tele o la consola a mano también puedes seguir jugando a 'GTA VI': estas son las alternativas que ofrece PS5",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/seleccion/tele-consola-a-mano-tambien-puedes-seguir-jugando-a-gta-vi-estas-alternativas-que-ofrece-ps5",
-      "fecha": "2026-11-13T15:45:22+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "6d2ad64ec630edaf",
-      "titulo": "'Lo que pasa en la calle': Los hechos judiciales de este viernes, 13 de noviembre",
-      "categoria": "Valle del Cauca",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/judicial/noticias-judiciales-viernes-13-noviembre-13-11-2026/",
-      "fecha": "2026-11-13T15:44:01+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "6a167493778024ce",
-      "titulo": "El GEB reportó ingresos por $1,7 billones durante el tercer trimestre de 2026",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/empresas/el-geb-reporto-ingresos-por-1-7-billones-durante-el-tercer-trimestre-de-2026-4524178",
-      "fecha": "2026-11-13T15:42:59+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "2fe295776fd7153d",
-      "titulo": "Líderes de la UE debaten en Dublín a quién enviar para las conversaciones de paz entre Ucrania y Rusia",
-      "categoria": "Internacional",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/líderes-de-la-ue-debaten-en-dublín-a-quién-enviar-para-las-conversaciones-de-paz-entre-ucrania-y-rusia/a-79942235?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-13T15:38:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "3d646b6b04b85383",
-      "titulo": "Terremoto de agosto dejó 83.383 adultos mayores damnificados en 112 municipios de 12 departamentos: Minciencia",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/regiones/terremoto-de-agosto-dejo-83-383-adultos-mayores-damnificados-en-112-municipios-de-12-departamentos-minciencia-506312",
-      "fecha": "2026-11-13T15:35:33+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "51912564d21865ee",
-      "titulo": "'Siete Milagros', la nueva propuesta a paneles solares que elevaría hasta 28% el costo de proyectos desde 2028",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/gobierno/siete-milagros-la-nueva-propuesta-a-paneles-solares-que-elevaria-hasta-28-el-costo-de-proyectos-desde-506311",
-      "fecha": "2026-11-13T15:34:08+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "f5810d315bb590cc",
-      "titulo": "Norma Vera denuncia amenaza con una corona fúnebre en su casa",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/en-vivo/norma-vera-denuncia-amenaza-con-una-corona-funebre-en-su-casa/",
-      "fecha": "2026-11-13T15:32:51+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "b3239f14ca8adda4",
-      "titulo": "Si hay un videojuego que pueda romper internet, ese es GTA VI: su precarga está dejando picos de récord en tráfico",
-      "categoria": "Tecnología",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/videojuegos/hay-videojuego-que-pueda-romper-internet-ese-gta-vi-su-precarga-esta-dejando-picos-record-trafico",
-      "fecha": "2026-11-13T15:31:24+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "fe29dcb45f040ae7",
-      "titulo": "¡Atención, conductores! Siguen los cierres intermitentes en la vía 4G Pacífico 1 durante noviembre y diciembre; consulte los horarios exactos",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/medellin/atencion-conductores-siguen-los-cierres-intermitentes-en-la-via-4g-pacifico-1-durante-noviembre-y-diciembre-consulte-los-horarios-exactos-3600811",
-      "fecha": "2026-11-13T15:23:21+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "b29bd8bab0be8ead",
-      "titulo": "J.P. Morgan lanza los primeros ETF activos en Colombia con 15 estrategias globales que cotizarán en la Bolsa",
-      "categoria": "Colombia",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/finanzas/j-p-morgan-lanza-los-primeros-etf-activos-en-colombia-con-15-estrategias-globales-que-cotizaran-en-la-bolsa-506307",
-      "fecha": "2026-11-13T15:19:45+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "90103043115c1827",
-      "titulo": "Caída mundial de Microsoft 365 paraliza parte de la justicia en Bogotá: suspenden términos judiciales",
-      "categoria": "Deportes",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/regiones/caida-mundial-de-microsoft-365-paraliza-parte-de-la-justicia-en-bogota-suspenden-terminos-judiciales-506310",
-      "fecha": "2026-11-13T15:18:15+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "eaec3aa593e50dee",
-      "titulo": "EE.UU. afirma que transfirió a Venezuela más de US$12.000 millones por sus exportaciones petroleras y de otros recursos",
-      "categoria": "Internacional",
-      "fuente": "BBC Mundo",
-      "url": "https://www.bbc.com/mundo/articles/cq1438vzvj1eo?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-13T15:16:21+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "c7739d77e119ec80",
-      "titulo": "Ya en Lidl, por 11,99 euros, el calientamanos portátil para evitar el frío que también funciona como powerbank",
-      "categoria": "Cali",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/seleccion/lidl-11-99-euros-calientamanos-portatil-para-evitar-frio-que-tambien-funciona-como-powerbank",
-      "fecha": "2026-11-13T15:15:20+00:00",
       "imagen": ""
     }
   ],
