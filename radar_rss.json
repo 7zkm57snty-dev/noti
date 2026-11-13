@@ -1,13 +1,229 @@
 {
-  "ultima_actualizacion": "2026-11-13T16:34:07.514309+00:00",
+  "ultima_actualizacion": "2026-11-13T17:33:24.267459+00:00",
   "titulares_rss": [
     {
       "id": "226616e20d6cb4d5",
-      "titulo": "El papa León XIV celebra una masiva misa en Chiclayo, la ciudad de Perú que lanzó su carrera hacia el papado",
+      "titulo": "\"¡Qué alegría volver a Chiclayo!\": León XIV cierra su masiva misa en la ciudad de Perú que lanzó su carrera hacia el papado",
       "categoria": "Internacional",
       "fuente": "BBC Mundo",
       "url": "https://www.bbc.co.uk/mundo/live/c62e8kkl9rlrt?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-13T16:34:07.514309+00:00",
+      "fecha": "2026-11-13T17:33:24.267459+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "2d804744e6a25949",
+      "titulo": "Ecopetrol anuncia reactivación de fracking en Colombia e importación de gas venezolano",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/economia/ecopetrol-anuncia-que-reactivara-fracking-e-importacion-de-gas-venezolano-4524434",
+      "fecha": "2026-11-13T17:32:06+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "026a11a978d17d6b",
+      "titulo": "El Banco Unión reportó utilidades de $3.022 millones al tercer trimestre de 2026",
+      "categoria": "Economía",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/finanzas/el-banco-union-reporto-utilidades-de-3-022-millones-al-tercer-trimestre-de-2026-4524304",
+      "fecha": "2026-11-13T17:31:31+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "b48195e8eda002ea",
+      "titulo": "Camaçari, la ciudad que se transformó con la mayor fábrica de autos chinos de de América Latina",
+      "categoria": "Internacional",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/watch/c6eq4nwn4e44o?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-13T17:29:41+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "8410a663f31afb7e",
+      "titulo": "Procuraduría advierte riesgos en nuevo modelo tarifario de aseo en medio de protestas de recicladores en Bogotá",
+      "categoria": "Colombia",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/regiones/procuraduria-advierte-riesgos-en-nuevo-modelo-tarifario-de-aseo-en-medio-de-protestas-de-recicladores-en-bogota-506325",
+      "fecha": "2026-11-13T17:28:58+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "7e82c438a7f7fcfd",
+      "titulo": "Caos y tragedia en Medellín: dos personas murieron tras un violento choque provocado por un camión que se habría quedado sin frenos",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/medellin/caos-y-tragedia-en-medellin-dos-personas-murieron-tras-un-violento-choque-provocado-por-un-camion-que-se-habria-quedado-sin-frenos-3600856",
+      "fecha": "2026-11-13T17:21:13+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "fccc626a001fa5c8",
+      "titulo": "La visita de León XIV a Perú, en vivo |El Papa se reencuentra con su gente en una multitudinaria misa: “¡Qué alegría volver a Chiclayo!”",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/america/2026-11-13/la-visita-de-leon-xiv-a-peru-en-vivo-el-papa-llega-a-chiclayo-su-segunda-casa.html",
+      "fecha": "2026-11-13T17:20:28+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "f79a4ad4cf872bdb",
+      "titulo": "Habilitan dos carriles de la Séptima entre calles 116 y 119 en Bogotá: así avanza el 'corredor verde'",
+      "categoria": "Colombia",
+      "fuente": "La FM Actualidad",
+      "url": "https://www.lafm.com.co/actualidad/corredor-verde-carrera-septima-bogota-obras-alcalde-galan-habilitan-tramo-cales-116-y-119-norte-417134",
+      "fecha": "2026-11-13T17:18:25+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "9437de5efd52b561",
+      "titulo": "Edicto Guillermo Eliécer Mosquera Valencia",
+      "categoria": "Colombia",
+      "fuente": "Chocó 7 días",
+      "url": "https://choco7dias.com/edicto-guillermo-eliecer-mosquera-valencia/",
+      "fecha": "2026-11-13T17:18:13+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "185ddef5b2a937be",
+      "titulo": "Las secadoras de Whirlpool estrenan Adaptive Dry: así es la función que aprende cómo te gusta la ropa tras cada ciclo",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/seleccion/secadoras-whirlpool-estrenan-adaptive-dry-asi-funcion-que-aprende-como-te-gusta-ropa-cada-ciclo",
+      "fecha": "2026-11-13T17:15:21+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "6130f02f4a34f72b",
+      "titulo": "Grave accidente cerca a Cementerio Universal de Medellín dejó dos muertos y varios heridos: vehículo se habría quedado sin frenos; esto se sabe",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/medellin/grave-accidente-cerca-a-cementerio-universal-de-medellin-dejo-dos-muertos-y-varios-heridos-vehiculo-se-habria-quedado-sin-frenos-esto-se-sabe-3600857",
+      "fecha": "2026-11-13T17:15:02+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "36d2e74beb415257",
+      "titulo": "Atentan contra líder comunal de Sucre, Cauca, y roban vehículo de la Defensoría del Pueblo: fue atacado a disparos en la vía Panamericana",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/cali/atentan-contra-lider-comunal-de-sucre-cauca-y-roban-vehiculo-de-la-defensoria-del-pueblo-fue-atacado-a-disparos-en-la-via-panamericana-3600843",
+      "fecha": "2026-11-13T17:10:26+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "e3a76e95bff66daf",
+      "titulo": "A pesar de crecimiento de la utilidad de Ecopetrol, su acción cae en la Bolsa de Colombia",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/finanzas/a-pesar-de-crecimiento-de-la-utilidad-de-ecopetrol-su-accion-cae-en-la-bolsa-de-colombia-4524386",
+      "fecha": "2026-11-13T17:05:07+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "bc791a9a2f7a35cf",
+      "titulo": "Fabio Arjona responde a críticas por no tener pabellón en la COP31",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/silla-amazonia/amazonia-en-breve/fabio-arjona-responde-a-criticas-por-no-tener-pabellon-en-la-cop31/",
+      "fecha": "2026-11-13T17:04:45+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "1ec3f5fd30833f1a",
+      "titulo": "Hallan en Asturias un diente de un tiburón superdepredador gigante de hace 331 millones de años",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/magnet/hallan-asturias-diente-tiburon-superdepredador-gigante-hace-331-millones-anos",
+      "fecha": "2026-11-13T17:01:26+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "21c2a33f4dbb7b60",
+      "titulo": "Atlas Intel: la aprobación de Abelardo se mantiene por debajo del 50%",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/en-vivo/atlas-intel-la-aprobacion-de-abelardo-se-mantiene-por-debajo-del-50/",
+      "fecha": "2026-11-13T17:00:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "bea145900a07eae3",
+      "titulo": "Bogotá tiene cerrado su espacio aéreo por revista de la FAC: ¿hasta qué hora estará la restricción?",
+      "categoria": "Colombia",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/regiones/bogota-tiene-cerrado-su-espacio-aereo-por-revista-de-la-fac-hasta-que-hora-estara-la-restriccion-506322",
+      "fecha": "2026-11-13T16:58:46+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "9e34e89aedcb66d2",
+      "titulo": "Expresidente Santos llama a no \"guardar silencio\" ante la \"normalización\" de la guerra",
+      "categoria": "Internacional",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/colombia/expresidente-santos-llama-guardar-silencio-normalizacion-guerra-13-11-2026/",
+      "fecha": "2026-11-13T16:58:09+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "b2511afa119dafe3",
+      "titulo": "¿Más de US$15 millones será el total de premios que entrega el Nitto ATP Finals?",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/ocio/mas-de-15-millones-de-dolares-sera-el-total-de-premios-que-entrega-el-nitto-atp-finals-4524418",
+      "fecha": "2026-11-13T16:53:28+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "030260313fbb4226",
+      "titulo": "Llaneros se irá de Villavicencio hacia otra sede en 2027: las razones políticas detrás del polémico anuncio",
+      "categoria": "Deportes",
+      "fuente": "La FM Deportes",
+      "url": "https://www.lafm.com.co/deportes/llaneros-deja-villavicencio-guamal-liga-betplay-2027-417126",
+      "fecha": "2026-11-13T16:49:07+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "0485c296582722a8",
+      "titulo": "Ecopetrol prepara el regreso del fracking en Colombia: Magdalena Medio sería la zona elegida",
+      "categoria": "Colombia",
+      "fuente": "La FM Economía",
+      "url": "https://www.lafm.com.co/economia/ecopetrol-fracking-colombia-exploracion-magdalena-medio-417125",
+      "fecha": "2026-11-13T16:47:43+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "4822297c1f486385",
+      "titulo": "El PND debe definir cuánto ingreso garantizará a los hogares más vulnerables",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/red-de-expertos/red-social/el-pnd-debe-definir-cuanto-ingreso-garantizara-a-los-hogares-mas-vulnerables/",
+      "fecha": "2026-11-13T16:47:10+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "d884b4fb7b606a21",
+      "titulo": "Voces de rechazo por el atentado con explosivo al paso de una patrulla cerca de Carabineros en Cali: '¡Basta ya de ataques criminales en la ciudad!'",
+      "categoria": "Cali",
+      "fuente": "El Tiempo Cali",
+      "url": "https://www.eltiempo.com/colombia/cali/voces-de-rechazo-por-el-atentado-con-explosivo-al-paso-de-una-patrulla-cerca-de-carabineros-en-cali-basta-ya-de-ataques-criminales-en-la-ciudad-3600774",
+      "fecha": "2026-11-13T16:44:47+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "b28631689c7905d5",
+      "titulo": "Investigación BBC: las brutales bandas de tráfico de drogas en Francia que reclutan a adolescentes para asesinar",
+      "categoria": "Internacional",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/ckly4yzeg598o?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-13T16:39:29+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "44c5b51f763443ff",
+      "titulo": "Tribunal Administrativo de Santander levantó medidas cautelares que tenían frenado el empréstito por más de $538 mil millones para Bucaramanga",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/santander/tribunal-administrativo-de-santander-levanto-medidas-cautelares-que-tenian-frenado-el-emprestito-por-mas-de-538-mil-millones-para-bucaramanga-3600834",
+      "fecha": "2026-11-13T16:33:23+00:00",
       "imagen": ""
     },
     {
@@ -29,15 +245,6 @@
       "imagen": ""
     },
     {
-      "id": "b28631689c7905d5",
-      "titulo": "Investigación BBC: las brutales bandas de tráfico de drogas en Francia que reclutan a adolescentes para asesinar",
-      "categoria": "Internacional",
-      "fuente": "BBC Mundo",
-      "url": "https://www.bbc.com/mundo/articles/ckly4yzeg598o?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-13T16:30:44+00:00",
-      "imagen": ""
-    },
-    {
       "id": "7ab70a6a16644552",
       "titulo": "\"El viejo mapa político de EE.UU. es historia\": cómo Texas se convierte en el principal campo de batalla de las presidenciales de 2028 tras el \"tsunami azul\"",
       "categoria": "Internacional",
@@ -47,12 +254,12 @@
       "imagen": ""
     },
     {
-      "id": "fccc626a001fa5c8",
-      "titulo": "La visita de León XIV a Perú, en vivo |El Papa se reencuentra con su gente en una multitudinaria misa: “¡Qué alegría volver a Chiclayo!”",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/america/2026-11-13/la-visita-de-leon-xiv-a-peru-en-vivo-el-papa-llega-a-chiclayo-su-segunda-casa.html",
-      "fecha": "2026-11-13T16:26:46+00:00",
+      "id": "3ee3b5f9a6878053",
+      "titulo": "Mauricio Pochettino deja Estados Unidos entre lágrimas: \"Entrenar al Manchester United es una gran oportunidad\"",
+      "categoria": "Internacional",
+      "fuente": "La FM Deportes",
+      "url": "https://www.lafm.com.co/deportes/mauricio-pochettino-deja-estados-unidos-nuevo-tecnico-manunited-417122",
+      "fecha": "2026-11-13T16:25:53+00:00",
       "imagen": ""
     },
     {
@@ -200,6 +407,15 @@
       "imagen": ""
     },
     {
+      "id": "36ca48940e3d9536",
+      "titulo": "Demasiado vulnerables",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/opinion/2026-11-13/demasiado-vulnerables.html",
+      "fecha": "2026-11-13T15:47:18+00:00",
+      "imagen": ""
+    },
+    {
       "id": "05f54d42950b0209",
       "titulo": "Lucio Chiquito Caicedo",
       "categoria": "Colombia",
@@ -324,222 +540,6 @@
       "url": "https://www.xataka.com/seleccion/lidl-11-99-euros-calientamanos-portatil-para-evitar-frio-que-tambien-funciona-como-powerbank",
       "fecha": "2026-11-13T15:15:20+00:00",
       "imagen": ""
-    },
-    {
-      "id": "850d978b442dc395",
-      "titulo": "Selección Colombia vuelve a Cali después de 27 años: el Pascual Guerrero está listo para una fiesta futbolera",
-      "categoria": "Cali",
-      "fuente": "La FM Deportes",
-      "url": "https://www.lafm.com.co/deportes/seleccion-colombia-futbol-vuelve-a-cali-despues-de-mucho-tiempo-417086",
-      "fecha": "2026-11-13T15:11:51+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "9ada5dcd994363e7",
-      "titulo": "Alcalde Federico Gutiérrez se pronuncia sobre millonario fraude hallado en la Secretaría de Hacienda de Medellín",
-      "categoria": "Internacional",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/medellin/alcalde-federico-gutierrez-se-pronuncia-sobre-millonario-fraude-hallado-en-la-secretaria-de-hacienda-de-medellin-3600804",
-      "fecha": "2026-11-13T15:08:54+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "50027d1ef53924d0",
-      "titulo": "Conmovedor video muestra a comerciante de calzado que regala zapatos a dos niños vendedores ambulantes en Cartagena",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/conmovedor-video-muestra-a-comerciante-de-calzado-que-regala-zapatos-a-dos-ninos-vendedores-ambulantes-en-cartagena-3600805",
-      "fecha": "2026-11-13T15:06:36+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "83446f789b612f7d",
-      "titulo": "Profesionales de treinta y tantos años del sector financiero y tecnológico comienzan a regresar a Venezuela",
-      "categoria": "Internacional",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/profesionales-de-treinta-y-tantos-anos-del-sector-financiero-y-tecnologico-comienzan-a-regresar-a-venezuela-4524308",
-      "fecha": "2026-11-13T15:02:19+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "717150f9ef06b3d8",
-      "titulo": "Pereira se prepara para el segundo Día del Inmobiliario 2026",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/actualidad/pereira-se-prepara-para-el-segundo-dia-del-inmobiliario-2026/",
-      "fecha": "2026-11-13T15:00:08+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "4d8737de22959d8c",
-      "titulo": "iRobot Roomba Max 875 Combo, análisis: si tienes alfombras, este es el robot que te va a alegrar la vida",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/analisis/irobot-roomba-max-875-combo-analisis-caracteristicas-precio-especificaciones",
-      "fecha": "2026-11-13T15:00:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "88c7539f232fad3e",
-      "titulo": "Bruce Springsteen sobre Steven Spielberg: “Arruinó el nadar desnudo en la costa de Jersey”",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/cultura/2026-11-13/bruce-springsteen-sobre-steven-spielberg-arruino-el-nadar-desnudo-en-la-costa-de-jersey.html",
-      "fecha": "2026-11-13T14:52:22+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "25fbacc731620b76",
-      "titulo": "Barranquilla tendrá 3.000 policías durante el puente festivo: reforzarán seguridad en concierto de Chayanne y Festival de la Butifarra",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/barranquilla/barranquilla-tendra-3-000-policias-durante-el-puente-festivo-reforzaran-seguridad-en-concierto-de-chayanne-y-festival-de-la-butifarra-3600775",
-      "fecha": "2026-11-13T14:45:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "d216a7d6f1adfa5a",
-      "titulo": "La empresa gallega Sargadelos cree que Nvidia copió su logotipo de uno de sus diseños: \"En el fondo, nos gusta\"",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/magnet/empresa-gallega-sargadelos-muestra-como-nvidia-pudo-copiar-su-logotipo-uno-sus-disenos-fondo-nos-gusta",
-      "fecha": "2026-11-13T14:45:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "34775e43bed918b9",
-      "titulo": "Tembici le debe $5.260 millones a Bogotá: Distrito abrió tres procesos por presuntos incumplimientos",
-      "categoria": "Colombia",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/gobierno/tembici-le-debe-5-260-millones-a-bogota-distrito-abrio-tres-procesos-por-presuntos-incumplimientos-506305",
-      "fecha": "2026-11-13T14:43:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "9fa11a0272914bc5",
-      "titulo": "Borussia Dortmund termina asociación con el consorcio armamentista Rheinmetall",
-      "categoria": "Internacional",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/borussia-dortmund-termina-asociación-con-el-consorcio-armamentista-rheinmetall/a-79942431?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-13T14:41:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "55284724fd603af3",
-      "titulo": "Flip rechaza que el gobierno asigne pauta según el cubrimiento de medios",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/en-vivo/flip-rechaza-que-el-gobierno-asigne-pauta-segun-el-cubrimiento-de-medios/",
-      "fecha": "2026-11-13T14:40:04+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "68edbbf22d3317d7",
-      "titulo": "3,1 millones de visualizaciones en pocas horas: las entrevistas de Jordi Wild monopolizan el arranque de la campaña",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/magnet/3-1-millon-visualizaciones-unas-horas-entrevistas-jordi-wild-monopolizan-arranque-campana",
-      "fecha": "2026-11-13T14:38:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "7a084dab73a83717",
-      "titulo": "Chevron explica por qué pidió un permiso especial y asegura que la gasolina importada cumplió las normas",
-      "categoria": "Economía",
-      "fuente": "La FM Economía",
-      "url": "https://www.lafm.com.co/economia/chevron-responde-a-minminas-por-importacion-de-gasolina-en-buenaventura-417109",
-      "fecha": "2026-11-13T14:36:47+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "b19ce964217be0b3",
-      "titulo": "La caída de Microsoft revela la vulnerabilidad de la dependencia tecnológica mundial",
-      "categoria": "Deportes",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/mundo/caida-microsoft-revela-vulnerabilidad-dependencia-tecnologica-mundial-13-11-2026/",
-      "fecha": "2026-11-13T14:30:14+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "924a10fc3c605a6c",
-      "titulo": "Pedro Sánchez, en el podcast de Jordi Wild: \"Aquí tienes mi móvil, puedes ver lo que quieras ver\"",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/seguridad/pedro-sanchez-podcast-jordi-wild-aqui-tienes-mi-movil-puedes-ver-que-quieras-ver",
-      "fecha": "2026-11-13T14:25:10+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "ca2f6eace8f0e64f",
-      "titulo": "La desaprobación del gobierno de Orsi baja cinco puntos, pero sigue en 52%",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/la-desaprobacion-del-gobierno-de-orsi-baja-cinco-puntos-pero-sigue-en-52-4524268",
-      "fecha": "2026-11-13T14:19:19+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "b6bef5e77b023b1b",
-      "titulo": "Destapan millonario entramado en la Dian: exportaciones ficticias de aceite y soya habrían movido $425.000 millones",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/gobierno/destapan-millonario-entramado-en-la-dian-exportaciones-ficticias-de-aceite-y-soya-habrian-movido-425-000-millones-506303",
-      "fecha": "2026-11-13T14:18:54+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "ca3a38cc4b623211",
-      "titulo": "Uno de los mejores móviles pequeños de 2026, a mínimo histórico: el Pixel 11 Pro cae por debajo de los 790 euros",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/seleccion/uno-mejores-moviles-pequenos-2026-a-minimo-historico-pixel-11-pro-cae-debajo-790-euros",
-      "fecha": "2026-11-13T14:15:22+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "7692ee0412c7ca20",
-      "titulo": "Más de 60 huesos encontrados en Murcia han permitido reconstruir al lince ibérico más antiguo conocido: vivió hace un millón de años",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/ecologia-y-naturaleza/hallado-murcia-esqueleto-antiguo-lince-iberico-viaje-millon-anos-a-origenes-felino-emblematico",
-      "fecha": "2026-11-13T14:15:22+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "275d456906ca50b0",
-      "titulo": "El antiguo Hotel Augusta se usará para proyecto de 133 viviendas en Bogotá",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/economia/el-antiguo-hotel-augusta-se-usara-para-proyecto-de-133-viviendas-en-bogota-4524245",
-      "fecha": "2026-11-13T14:13:37+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "d884b4fb7b606a21",
-      "titulo": "Voces de rechazo por el atentado con explosivo al paso de una patrulla cerca de Carabineros en Cali: '¡Basta ya de ataques criminales en la ciudad!'",
-      "categoria": "Cali",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/cali/voces-de-rechazo-por-el-atentado-con-explosivo-al-paso-de-una-patrulla-cerca-de-carabineros-en-cali-basta-ya-de-ataques-criminales-en-la-ciudad-3600774",
-      "fecha": "2026-11-13T14:08:05+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "8eb8ca34c4c956d1",
-      "titulo": "La UE busca lugar en negociaciones sobre Ucrania, pero Rusia no asegura su presencia",
-      "categoria": "Internacional",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/la-ue-busca-lugar-en-negociaciones-sobre-ucrania-pero-rusia-no-asegura-su-presencia/a-79941778?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-13T14:08:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "9f712c588ab26891",
-      "titulo": "Los nuevos detalles del megaoperativo en el que fueron capturadas 136 personas de ocho bandas criminales de Bucaramanga dedicadas al narcotráfico",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/santander/los-nuevos-detalles-del-megaoperativo-en-el-que-fueron-capturadas-136-personas-de-ocho-bandas-criminales-de-bucaramanga-dedicadas-al-narcotrafico-3600776",
-      "fecha": "2026-11-13T14:07:31+00:00",
-      "imagen": ""
     }
   ],
   "estado_fuentes": [
@@ -553,7 +553,7 @@
       "nombre": "El Tiempo Cali",
       "url": "https://www.eltiempo.com/rss/colombia_cali.xml",
       "estado": "correcto",
-      "titulares": 8
+      "titulares": 9
     },
     {
       "nombre": "El Espectador",
