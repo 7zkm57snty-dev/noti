@@ -1,5 +1,5 @@
 {
-  "ultima_actualizacion": "2026-11-13T21:30:03.349681+00:00",
+  "ultima_actualizacion": "2026-11-13T22:25:52.791873+00:00",
   "titulares_rss": [
     {
       "id": "226616e20d6cb4d5",
@@ -7,7 +7,196 @@
       "categoria": "Internacional",
       "fuente": "BBC Mundo",
       "url": "https://www.bbc.co.uk/mundo/live/c62e8kkl9rlrt?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-13T21:30:03.349681+00:00",
+      "fecha": "2026-11-13T22:25:52.791873+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "67159553598f6976",
+      "titulo": "Estados Unidos suspende los vuelos en todo el país por “circunstancias extraordinarias y motivos de seguridad”",
+      "categoria": "Internacional",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/us/2026-11-13/la-faa-ordena-una-suspension-nacional-de-los-vuelos-debido-a-circunstancias-extraordinarias-y-motivos-de-seguridad.html",
+      "fecha": "2026-11-13T22:19:44+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "75b42202244770da",
+      "titulo": "Hospitales, colegios y vías: así se distribuyen los $200.000 millones que donó Sarmiento Angulo tras el terremoto",
+      "categoria": "Economía",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/gobierno/hospitales-colegios-y-vias-asi-se-distribuyen-los-200-000-millones-que-dono-sarmiento-angulo-tras-el-terremoto-506341",
+      "fecha": "2026-11-13T22:16:23+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "26c0e425fd89a549",
+      "titulo": "La autoridad de aviación de EE.UU. ordena suspender los despegues de vuelos en todo el país \"por circunstancias extraordinarias\"",
+      "categoria": "Internacional",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/crgqx8jpw3jvo?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-13T22:16:21+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "560cbe226cbf941c",
+      "titulo": "Más de 25.000 vacantes activas tras el tercer día de la Empleatón Nacional 2026",
+      "categoria": "Economía",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/finanzas/mas-de-25-000-vacantes-activas-tras-el-tercer-dia-de-la-empleaton-nacional-506350",
+      "fecha": "2026-11-13T22:11:17+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "5e422e7b5ec13533",
+      "titulo": "Seguimiento a Sanitas y Colsubsidio: Supersalud reveló cuántos medicamentos ya han entregado a los usuarios",
+      "categoria": "Economía",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/gobierno/seguimiento-a-sanitas-y-colsubsidio-supersalud-revelo-cuantos-medicamentos-ya-han-entregado-a-los-usuarios-506347",
+      "fecha": "2026-11-13T22:09:05+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "962c399a8ad90afa",
+      "titulo": "Un crucero con pasajeros a bordo vuelca en Nueva Orleans tras ser chocado por un buque cisterna",
+      "categoria": "Internacional",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/c804wpyd29wro?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-13T22:07:28+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "5739263c7ac71208",
+      "titulo": "Cali no para, conoce la agenda cultural de este fin de semana para la ciudad.",
+      "categoria": "Cali",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/cali/agenda-cultural-de-este-fin-de-semana-cali-13-11-2026/",
+      "fecha": "2026-11-13T22:05:41+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "a189253fa2001179",
+      "titulo": "MinInterior de Ecuador denuncia plan para atentar contra el presidente Noboa: alias 'Loco Ovidio' estaría en Colombia",
+      "categoria": "Colombia",
+      "fuente": "La FM Internacional",
+      "url": "https://www.lafm.com.co/internacional/ecuador-denuncia-plan-contra-noboa-criminal-estaria-en-colombia-417171",
+      "fecha": "2026-11-13T22:01:47+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "67c15034b687c58e",
+      "titulo": "Fondo Milagro, bajo cuestionamientos por millonaria nómina y avances en la reconstrucción",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/actualidad/fondo-milagro-bajo-cuestionamientos-por-millonaria-nomina-y-avances-en-la-reconstruccion/",
+      "fecha": "2026-11-13T22:00:55+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "5ce0afaa6c4e13c8",
+      "titulo": "Diciembre sin deudas: consejos para cuidar sus finanzas y empezar bien el 2027",
+      "categoria": "Valle del Cauca",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/vida-moderna/prepararse-diciembre-economia-13-11-2026/",
+      "fecha": "2026-11-13T21:55:03+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "3098d13679564586",
+      "titulo": "Miles de vuelos afectados en EE.UU. por fallo técnico en centros de control",
+      "categoria": "Internacional",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/miles-de-vuelos-afectados-en-ee-uu-por-fallo-técnico-en-centros-de-control/a-79945299?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-13T21:54:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "c38a71147489d1af",
+      "titulo": "Semana cargada de emociones deportivas por DIRECTV y DGO: programación del 13 al 20 de noviembre",
+      "categoria": "Deportes",
+      "fuente": "La FM Deportes",
+      "url": "https://www.lafm.com.co/deportes/directv-y-dgo-programacion-deportiva-del-13-al-20-de-noviembre-417169",
+      "fecha": "2026-11-13T21:48:59+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "b5d55d07b302a136",
+      "titulo": "De la Espriella y Murgas ratificaron trabajo conjunto entre el Gobierno y la industria",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/empresas/de-la-espriella-y-murgas-se-reunieron-por-primera-vez-y-anunciaron-trabajo-conjunto-4524702",
+      "fecha": "2026-11-13T21:48:53+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "b501888bde0cc1b1",
+      "titulo": "Tercera condena de la JEP es a cinco exmilitares por falsos positivos",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/en-vivo/tercera-condena-de-la-jep-es-a-cinco-exmilitares-por-falsos-positivos/",
+      "fecha": "2026-11-13T21:48:24+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "f679e32357783b55",
+      "titulo": "FAA suspende vuelos en EE.UU. por falla de comunicaciones de control aéreo",
+      "categoria": "Internacional",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/globoeconomia/faa-suspende-vuelos-en-ee-uu-por-falla-de-comunicaciones-de-control-aereo-4524712",
+      "fecha": "2026-11-13T21:47:29+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "0a7148854ec3d82f",
+      "titulo": "El regreso de la guerra en Etiopía deja lecciones para la paz en Colombia",
+      "categoria": "Internacional",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/red-de-expertos/red-de-la-paz/el-regreso-de-la-guerra-en-etiopia-deja-lecciones-para-la-paz-en-colombia/",
+      "fecha": "2026-11-13T21:45:51+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "69eaf03a2e30b8f6",
+      "titulo": "Gobierno presenta la Ley de Rescate al Banco Mundial, reunión clave sobre la situación fiscal de Colombia",
+      "categoria": "Deportes",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/gobierno/gobierno-presenta-la-ley-de-rescate-al-banco-mundial-reunion-clave-sobre-la-situacion-fiscal-de-colombia-506346",
+      "fecha": "2026-11-13T21:42:44+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "bf48a04ca3822e66",
+      "titulo": "Seguidilla de temblores en Tolima: videos muestran evacuaciones de edificios en Ibagué tras los sismos de este viernes 13 de noviembre",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/seguidilla-de-temblores-en-tolima-videos-muestran-evacuaciones-de-edificios-en-ibague-tras-los-sismos-de-este-viernes-13-de-noviembre-3600920",
+      "fecha": "2026-11-13T21:41:43+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "192c4a39b5a5878d",
+      "titulo": "¿Piensa pegarse la 'rodadita' por el Valle del Cauca este puente festivo? Así será su dispositivo de seguridad",
+      "categoria": "Valle del Cauca",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/cali/piensa-pegarse-la-rodadita-por-el-valle-del-cauca-este-puente-festivo-asi-sera-su-dispositivo-de-seguridad-3600943",
+      "fecha": "2026-11-13T21:35:54+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "ff8d75b571308de0",
+      "titulo": "Gobierno le apuesta al ‘capitalismo popular’ en su Plan Nacional de Desarrollo: así busca transformar la economía",
+      "categoria": "Economía",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/noticias/gobierno-le-apuesta-al-capitalismo-popular-en-su-plan-nacional-de-desarrollo-asi-busca-transformar-la-economia/",
+      "fecha": "2026-11-13T21:30:47+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "b9dda05df136f813",
+      "titulo": "Cómo el escándalo sexual del gigante tecnológico Nvidia está salpicando a la Casa Blanca",
+      "categoria": "Internacional",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/cve87dj13r0do?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-13T21:30:10+00:00",
       "imagen": ""
     },
     {
@@ -20,12 +209,21 @@
       "imagen": ""
     },
     {
-      "id": "962c399a8ad90afa",
-      "titulo": "Un crucero con pasajeros a bordo vuelca en Nueva Orleans tras ser chocado por un buque cisterna",
+      "id": "c1d217f11172bce3",
+      "titulo": "Alerta aérea en Estados Unidos: suspenden todos los vuelos en el país \"por razones de seguridad\"",
       "categoria": "Internacional",
-      "fuente": "BBC Mundo",
-      "url": "https://www.bbc.com/mundo/articles/c804wpyd29wro?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-13T21:27:56+00:00",
+      "fuente": "La FM Internacional",
+      "url": "https://www.lafm.com.co/internacional/faa-suspende-aterrizajes-en-ee-uu-por-motivos-de-seguridad-417168",
+      "fecha": "2026-11-13T21:29:25+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "add3081e3ae32379",
+      "titulo": "Cuota de administración 2027: ¿Cuánto podría subir en los conjuntos residenciales?",
+      "categoria": "Valle del Cauca",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/vida-moderna/cuota-de-administracion-2027-13-11-2026/",
+      "fecha": "2026-11-13T21:26:16+00:00",
       "imagen": ""
     },
     {
@@ -48,7 +246,7 @@
     },
     {
       "id": "d2da26dbc5af7ced",
-      "titulo": "Banco de Bogotá obtuvo una utilidad neta de $237.200 millones con corte a septiembre",
+      "titulo": "Banco de Bogotá obtuvo una utilidad neta de $237.200 millones en el tercer trimestre",
       "categoria": "Economía",
       "fuente": "La República",
       "url": "https://www.larepublica.co/finanzas/banco-de-bogota-obtuvo-una-utilidad-neta-de-237-200-millones-con-corte-a-septiembre-4524543",
@@ -146,15 +344,6 @@
       "imagen": ""
     },
     {
-      "id": "bf48a04ca3822e66",
-      "titulo": "Seguidilla de temblores en Tolima: videos muestran evacuaciones de edificios en Ibagué tras los sismos de este viernes 13 de noviembre",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/seguidilla-de-temblores-en-tolima-videos-muestran-evacuaciones-de-edificios-en-ibague-tras-los-sismos-de-este-viernes-13-de-noviembre-3600920",
-      "fecha": "2026-11-13T20:46:27+00:00",
-      "imagen": ""
-    },
-    {
       "id": "0d9976d0fc63cc72",
       "titulo": "Sarah Ramos, la niña de Buenaventura que conquistó a Colombia interpretando a Whitney Houston",
       "categoria": "Valle del Cauca",
@@ -191,20 +380,20 @@
       "imagen": ""
     },
     {
-      "id": "2fe295776fd7153d",
-      "titulo": "Líderes de la UE debaten en Dublín a quién enviar para las conversaciones de paz entre Ucrania y Rusia",
-      "categoria": "Internacional",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/líderes-de-la-ue-debaten-en-dublín-a-quién-enviar-para-las-conversaciones-de-paz-entre-ucrania-y-rusia/a-79942235?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-13T20:36:00+00:00",
-      "imagen": ""
-    },
-    {
       "id": "49ca10ef0d8553e4",
       "titulo": "AfD gana fuerza en Alemania, y sus vínculos con el entorno neonazi plantean interrogantes",
       "categoria": "Internacional",
       "fuente": "DW Español",
       "url": "https://www.dw.com/es/afd-gana-fuerza-en-alemania-y-sus-vínculos-con-el-entorno-neonazi-plantean-interrogantes/a-79944191?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-13T20:36:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "2fe295776fd7153d",
+      "titulo": "Líderes de la UE debaten en Dublín a quién enviar para las conversaciones de paz entre Ucrania y Rusia",
+      "categoria": "Internacional",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/líderes-de-la-ue-debaten-en-dublín-a-quién-enviar-para-las-conversaciones-de-paz-entre-ucrania-y-rusia/a-79942235?maca=spa-rss-sp-all-1122-rdf",
       "fecha": "2026-11-13T20:36:00+00:00",
       "imagen": ""
     },
@@ -281,15 +470,6 @@
       "imagen": ""
     },
     {
-      "id": "8693fb019b8ee702",
-      "titulo": "Reconstrucción de colegios en Valle del Cauca: inversión de $14.420 millones",
-      "categoria": "Valle del Cauca",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/valle-del-cauca/reconstruccion-colegios-valle-cauca-terremoto-13-11-2026/",
-      "fecha": "2026-11-13T20:22:18+00:00",
-      "imagen": ""
-    },
-    {
       "id": "a63c7c80156d0d0f",
       "titulo": "Les quedó grande",
       "categoria": "Colombia",
@@ -314,15 +494,6 @@
       "fuente": "Portafolio",
       "url": "https://www.portafolio.co/economia/finanzas/la-nueva-economia-del-ingreso-extra-venta-directa-mueve-7-5-billones-y-reune-a-2-4-millones-de-colombianos-506338",
       "fecha": "2026-11-13T20:16:44+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "e6ef4a6f30abc4dd",
-      "titulo": "Atentado contra patrulla en Cali: explosión también afectó a congregación religiosa y a un motociclista",
-      "categoria": "Cali",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/cali/atentado-contra-patrulla-cali-explosion-afecto-motociclista-13-11-2026/",
-      "fecha": "2026-11-13T20:11:37+00:00",
       "imagen": ""
     },
     {
@@ -369,177 +540,6 @@
       "url": "https://occidente.co/opinion/columnistas/donde-poner-el-pesebre/",
       "fecha": "2026-11-13T20:05:53+00:00",
       "imagen": ""
-    },
-    {
-      "id": "f37669ebf48e9de3",
-      "titulo": "Un buque choca contra un crucero con 129 personas a bordo en el río Misisipi a la altura de Nueva Orleans",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/us/2026-11-13/un-buque-choca-contra-un-crucero-con-129-personas-a-bordo-en-el-rio-misisipi.html",
-      "fecha": "2026-11-13T20:04:51+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "f1d662500344ebda",
-      "titulo": "El USB del espacio: Europa crea un conector universal para reparar satélites en órbita en lugar de tirarlos",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/espacio/usb-espacio-europa-crea-conector-universal-para-reparar-satelites-orbita-lugar-tirarlos",
-      "fecha": "2026-11-13T20:01:21+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "70b9b224af6a37b1",
-      "titulo": "Barranquilla celebra ser el único destino colombiano dentro de las 100 mejores historias de turismo sostenible del mundo: así entró en este ranking",
-      "categoria": "Internacional",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/barranquilla/barranquilla-celebra-ser-el-unico-destino-colombiano-dentro-de-las-100-mejores-historias-de-turismo-sostenible-del-mundo-asi-entro-en-este-ranking-3600904",
-      "fecha": "2026-11-13T20:01:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "9cb9c9a184276c20",
-      "titulo": "Jensen Huang renunció a Nvidia tras 33 años al frente del gigante de la inteligencia artificial",
-      "categoria": "Tecnología",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/noticias/jensen-huang-renuncio-a-nvidia-tras-33-anos-al-frente-del-gigante-de-la-inteligencia-artificial/",
-      "fecha": "2026-11-13T20:00:33+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "b70eb40611b4ad3c",
-      "titulo": "De la Espriella convirtió la seguridad en un espectáculo personal",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/red-de-expertos/red-de-la-paz/de-la-espriella-convirtio-la-seguridad-en-un-espectaculo-personal/",
-      "fecha": "2026-11-13T20:00:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "e2f2321b6ba215b3",
-      "titulo": "Elecciones Cámara de Comercio",
-      "categoria": "Colombia",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/opinion/columnistas/elecciones-camara-de-comercio/",
-      "fecha": "2026-11-13T19:59:59+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "b6a933d8c2da1882",
-      "titulo": "La JEP condena a cinco exmilitares por los falsos positivos en Dabeiba",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/america-colombia/2026-11-13/la-jep-condena-a-cinco-exmilitares-por-los-falsos-positivos-en-dabeiba.html",
-      "fecha": "2026-11-13T19:59:36+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "5a4dba5891ed4fc2",
-      "titulo": "Cartagena celebra 215 años de independencia y se alista para vivir el fin de semana más largo y alegre del año",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/cartagena-celebra-215-anos-de-independencia-y-se-alista-para-vivir-el-fin-de-semana-mas-largo-y-alegre-del-ano-3600905",
-      "fecha": "2026-11-13T19:57:04+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "dda51c7cf92a356e",
-      "titulo": "Giro en la negociación del salario mínimo 2027: Gobierno reconoce a nuevo líder sindical de la CGT",
-      "categoria": "Colombia",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/gobierno/giro-en-la-negociacion-del-salario-minimo-2027-gobierno-reconoce-a-nuevo-lider-sindical-de-la-cgt-506336",
-      "fecha": "2026-11-13T19:56:41+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "c5006be67943b512",
-      "titulo": "'Estamos listos': así es el blindaje de alta tecnología para garantizar la seguridad en el amistoso entre las selecciones de Colombia y Chile en Cali",
-      "categoria": "Cali",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/cali/estamos-listos-asi-es-el-blindaje-de-alta-tecnologia-para-garantizar-la-seguridad-en-el-amistoso-entre-las-selecciones-de-colombia-y-chile-en-cali-3600903",
-      "fecha": "2026-11-13T19:55:29+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "594e5642681218b0",
-      "titulo": "Anthropic estrenó nueva herramienta para reuniones antes de salir a bolsa",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/anthropic-claude-meetings-bolsa-4524427",
-      "fecha": "2026-11-13T19:53:59+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "d72347ca02054d63",
-      "titulo": "Atención: Renunció gerente del Fondo Milagro, Jaime Uribe, tras polémica por altos salarios",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/renuncia-fondo-milagro-jaime-uribe-gerencia-salarios-KF43570039",
-      "fecha": "2026-11-13T19:53:12+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "678b0f41e296a53d",
-      "titulo": "Ley de Rescate Económico da nuevo paso en la Cámara: designan equipo para el primer debate del proyecto",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/gobierno/ley-de-rescate-economico-da-nuevo-paso-en-la-camara-designan-equipo-para-el-primer-debate-del-proyecto-506335",
-      "fecha": "2026-11-13T19:50:39+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "88128ba2e9e20b2f",
-      "titulo": "Grupo Sura elevó su proyección de utilidades para 2026 a cerca de $2,7 billones",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/finanzas/grupo-sura-informo-que-sura-asset-management-ha-pagado-1-4-billones-en-dividendos-4524344",
-      "fecha": "2026-11-13T19:49:53+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "21d017fe1c1bdda0",
-      "titulo": "Gobierno estrena sección para “desmentir” publicaciones en su contra",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/en-vivo/gobierno-estrena-seccion-para-desmentir-publicaciones-en-su-contra/",
-      "fecha": "2026-11-13T19:48:35+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "89e7dc8bd70bd311",
-      "titulo": "\"Esta es la ciudad del Papa, del Papa peruano\": la emotiva vuelta a casa de León XIV a Chiclayo",
-      "categoria": "Internacional",
-      "fuente": "BBC Mundo",
-      "url": "https://www.bbc.com/mundo/articles/cr15e3p8yjeko?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-13T19:47:03+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "1e6926a8d8e711b3",
-      "titulo": "¿Va a estallar la burbuja de la IA con Anthropic a punto de salir a bolsa?",
-      "categoria": "Internacional",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/¿va-a-estallar-la-burbuja-de-la-ia-con-anthropic-a-punto-de-salir-a-bolsa/a-79944577?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-13T19:46:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "7de28e5c4b4ebc91",
-      "titulo": "Renunció Jaime Uribe, gerente del Fondo Milagro, tras polémica por millonarios salarios de funcionarios",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/gobierno/renuncio-jaime-uribe-gerente-del-fondo-milagro-tras-polemica-por-millonarios-salarios-de-funcionarios-506330",
-      "fecha": "2026-11-13T19:40:39+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "eb8e61c6c4a4474e",
-      "titulo": "La Biblioteca Nacional celebra 250 años con una exposición de su patrimonio histórico",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/ocio/la-biblioteca-nacional-celebra-250-anos-con-una-exposicion-de-su-patrimonio-historico-4524554",
-      "fecha": "2026-11-13T19:39:51+00:00",
-      "imagen": ""
     }
   ],
   "estado_fuentes": [
@@ -553,7 +553,7 @@
       "nombre": "El Tiempo Cali",
       "url": "https://www.eltiempo.com/rss/colombia_cali.xml",
       "estado": "correcto",
-      "titulares": 8
+      "titulares": 7
     },
     {
       "nombre": "El Espectador",
@@ -590,7 +590,7 @@
       "nombre": "BBC Mundo",
       "url": "https://feeds.bbci.co.uk/mundo/rss.xml",
       "estado": "correcto",
-      "titulares": 28
+      "titulares": 29
     },
     {
       "nombre": "DW Español",
