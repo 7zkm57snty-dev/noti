@@ -1,13 +1,283 @@
 {
-  "ultima_actualizacion": "2026-11-13T15:28:24.321008+00:00",
+  "ultima_actualizacion": "2026-11-13T16:34:07.514309+00:00",
   "titulares_rss": [
     {
       "id": "226616e20d6cb4d5",
-      "titulo": "El papa León XIV se prepara para celebrar una masiva misa en Chiclayo, la ciudad de Perú que lanzó su carrera hacia el papado",
+      "titulo": "El papa León XIV celebra una masiva misa en Chiclayo, la ciudad de Perú que lanzó su carrera hacia el papado",
       "categoria": "Internacional",
       "fuente": "BBC Mundo",
       "url": "https://www.bbc.co.uk/mundo/live/c62e8kkl9rlrt?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-13T15:28:24.321008+00:00",
+      "fecha": "2026-11-13T16:34:07.514309+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "ae932d520234b970",
+      "titulo": "Suramericana tuvo un crecimiento de 7,2% en utilidad neta con corte a septiembre",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/finanzas/suramericana-tuvo-un-crecimiento-de-7-2-en-utilidad-neta-con-corte-a-septiembre-4524326",
+      "fecha": "2026-11-13T16:31:28+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "664840d2e93c7bf5",
+      "titulo": "AMD ha presentado una nueva gama de procesadores que apuntan a dónde más están sufriendo los centros de datos: a los agentes de IA",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/procesadores/amd-ha-presentado-nueva-gama-procesadores-que-apuntan-a-donde-estan-sufriendo-centros-datos-a-agentes-ia",
+      "fecha": "2026-11-13T16:31:21+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "b28631689c7905d5",
+      "titulo": "Investigación BBC: las brutales bandas de tráfico de drogas en Francia que reclutan a adolescentes para asesinar",
+      "categoria": "Internacional",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/ckly4yzeg598o?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-13T16:30:44+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "7ab70a6a16644552",
+      "titulo": "\"El viejo mapa político de EE.UU. es historia\": cómo Texas se convierte en el principal campo de batalla de las presidenciales de 2028 tras el \"tsunami azul\"",
+      "categoria": "Internacional",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/ck4gnqw6jnnwo?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-13T16:27:17+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "fccc626a001fa5c8",
+      "titulo": "La visita de León XIV a Perú, en vivo |El Papa se reencuentra con su gente en una multitudinaria misa: “¡Qué alegría volver a Chiclayo!”",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/america/2026-11-13/la-visita-de-leon-xiv-a-peru-en-vivo-el-papa-llega-a-chiclayo-su-segunda-casa.html",
+      "fecha": "2026-11-13T16:26:46+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "b1d38f2f4073f7c5",
+      "titulo": "Video | Incendio dejó 25 damnificados en Barranquilla y es investigado tras denuncias sobre un presunto origen provocado: esto es lo que se sabe",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/barranquilla/video-incendio-dejo-25-damnificados-en-barranquilla-y-es-investigado-tras-denuncias-sobre-un-presunto-origen-provocado-esto-es-lo-que-se-sabe-3600831",
+      "fecha": "2026-11-13T16:25:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "0bbe5ad48fd2f4e8",
+      "titulo": "Murió Lucio Chiquito Caicedo a los 110 años, ingeniero que ayudó a fundar EPM y marcó el desarrollo de Antioquia",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/medellin/murio-lucio-chiquito-caicedo-a-los-110-anos-ingeniero-que-ayudo-a-fundar-epm-y-marco-el-desarrollo-de-antioquia-3600799",
+      "fecha": "2026-11-13T16:24:59+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "b7c166e211ff882a",
+      "titulo": "Ecopetrol negocia comprar gas de Venezuela por 10 años y pedirá operar la parte del gasoducto que está en Colombia",
+      "categoria": "Internacional",
+      "fuente": "La FM Economía",
+      "url": "https://www.lafm.com.co/economia/ecopetrol-negocia-compra-de-gas-de-venezuela-por-10-anos-gasoducto-antonio-ricaurte-417121",
+      "fecha": "2026-11-13T16:19:28+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "9a193126b6d0c333",
+      "titulo": "Pibank contó con un crecimiento de 70% en sus captaciones frente a 2025",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/finanzas/pibank-presento-un-crecimiento-de-70-en-sus-captaciones-frente-a-octubre-de-2025-4524209",
+      "fecha": "2026-11-13T16:16:46+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "6b254791845ee20c",
+      "titulo": "El Black Friday se ha adelantado en MediaMarkt con la TCL 75P8L rebajada y con barra de sonido de regalo",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/seleccion/black-friday-se-ha-adelantado-mediamarkt-tcl-75p8l-rebajada-barra-sonido-regalo",
+      "fecha": "2026-11-13T16:15:23+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "456046251f07cbb8",
+      "titulo": "En septiembre, la industria manufacturera registró un crecimiento de 1,5%",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/economia/en-septiembre-la-industria-manufacturera-registro-un-crecimiento-de-1-5-4524360",
+      "fecha": "2026-11-13T16:15:14+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "4e0d0a77133610d4",
+      "titulo": "La producción industrial tuvo un creciemiento de 1,9% anual en septiembre",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/economia/la-produccion-industrial-tuvo-un-creciemiento-de-1-9-anual-en-septiembre-4524325",
+      "fecha": "2026-11-13T16:15:11+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "2701fe5da998388c",
+      "titulo": "Precio del dólar hoy en Colombia se perfila a cerrar la semana por encima de $3.300",
+      "categoria": "Economía",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/finanzas/precio-del-dolar-hoy-en-colombia-se-perfila-a-cerrar-la-semana-por-encima-de-3-506314",
+      "fecha": "2026-11-13T16:12:41+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "9811ec84af019f74",
+      "titulo": "Wall Street cae ante oleada de ventas en tecnológicas y fabricantes de chips",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/globoeconomia/wall-street-cae-por-cuenta-de-oleada-de-ventas-en-fabricantes-de-chips-4524354",
+      "fecha": "2026-11-13T16:11:14+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "644fe40a95e89a8d",
+      "titulo": "Definidos los grupos para el Sudamericano sub-20 que se jugará en Medellín: buen sorteo para Colombia",
+      "categoria": "Colombia",
+      "fuente": "La FM Deportes",
+      "url": "https://www.lafm.com.co/deportes/sudamericano-sub20-medellin-estos-son-los-grupos-colombia-417119",
+      "fecha": "2026-11-13T16:02:15+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "ca2effe0c28256be",
+      "titulo": "Donald Trump intentó que Jensen Huang siguiera como CEO: “Nvidia es demasiado grande como para caer”",
+      "categoria": "Internacional",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/empresas-y-economia/donald-trump-intento-que-jensen-huang-siguiera-como-ceo-nvidia-demasiado-grande-como-para-caer",
+      "fecha": "2026-11-13T16:01:22+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "ebb2e53d06cda066",
+      "titulo": "Pereira será sede del foro ‘Salto Adelante’: una apuesta por transformar la educación desde la tecnología y el humanismo",
+      "categoria": "Tecnología",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/sin-categoria/pereira-sera-sede-del-foro-salto-adelante-una-apuesta-por-transformar-la-educacion-desde-la-tecnologia-y-el-humanismo/",
+      "fecha": "2026-11-13T16:00:22+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "3b3c07c8cea3e6c2",
+      "titulo": "Ley de Rescate Económico cambiaría las cuentas de las empresas en 2027: estos serían los impactos",
+      "categoria": "Economía",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/ley-de-rescate-economico-cambiaria-las-cuentas-de-las-empresas-en-2027-estos-serian-los-impactos-506313",
+      "fecha": "2026-11-13T15:56:42+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "0a6ddb35edf39047",
+      "titulo": "Cien días de sede alterna: ¿hubo milagro para Barranquilla?",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/red-de-expertos/cien-dias-de-sede-alterna-hubo-milagro-para-barranquilla/",
+      "fecha": "2026-11-13T15:51:47+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "7e4093244545d610",
+      "titulo": "Invima alertó por sobres falsos de Sal de Frutas Lua de un lote que salió del mercado",
+      "categoria": "Economía",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/empresas/invima-alerto-por-sobres-falsos-de-sal-de-frutas-lua-de-un-lote-que-salio-del-mercado-4524333",
+      "fecha": "2026-11-13T15:49:22+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "e313acbb32fbcfd1",
+      "titulo": "Fondo Milagro avanza en la articulación de proyectos para reconstruir el Chocó: esto dijo la gobernadora del departamento",
+      "categoria": "Colombia",
+      "fuente": "La FM Actualidad",
+      "url": "https://www.lafm.com.co/actualidad/gobernadora-choco-fondo-milagro-avanza-articulacion-417118",
+      "fecha": "2026-11-13T15:48:04+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "05f54d42950b0209",
+      "titulo": "Lucio Chiquito Caicedo",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/obituarios/fallecimiento-de-lucio-chiquito-caicedo-4524136",
+      "fecha": "2026-11-13T15:46:57+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "af1dcb99aefbc4b0",
+      "titulo": "Sin la tele o la consola a mano también puedes seguir jugando a 'GTA VI': estas son las alternativas que ofrece PS5",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/seleccion/tele-consola-a-mano-tambien-puedes-seguir-jugando-a-gta-vi-estas-alternativas-que-ofrece-ps5",
+      "fecha": "2026-11-13T15:45:22+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "6d2ad64ec630edaf",
+      "titulo": "'Lo que pasa en la calle': Los hechos judiciales de este viernes, 13 de noviembre",
+      "categoria": "Valle del Cauca",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/judicial/noticias-judiciales-viernes-13-noviembre-13-11-2026/",
+      "fecha": "2026-11-13T15:44:01+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "6a167493778024ce",
+      "titulo": "El GEB reportó ingresos por $1,7 billones durante el tercer trimestre de 2026",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/empresas/el-geb-reporto-ingresos-por-1-7-billones-durante-el-tercer-trimestre-de-2026-4524178",
+      "fecha": "2026-11-13T15:42:59+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "2fe295776fd7153d",
+      "titulo": "Líderes de la UE debaten en Dublín a quién enviar para las conversaciones de paz entre Ucrania y Rusia",
+      "categoria": "Internacional",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/líderes-de-la-ue-debaten-en-dublín-a-quién-enviar-para-las-conversaciones-de-paz-entre-ucrania-y-rusia/a-79942235?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-13T15:38:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "3d646b6b04b85383",
+      "titulo": "Terremoto de agosto dejó 83.383 adultos mayores damnificados en 112 municipios de 12 departamentos: Minciencia",
+      "categoria": "Economía",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/regiones/terremoto-de-agosto-dejo-83-383-adultos-mayores-damnificados-en-112-municipios-de-12-departamentos-minciencia-506312",
+      "fecha": "2026-11-13T15:35:33+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "51912564d21865ee",
+      "titulo": "'Siete Milagros', la nueva propuesta a paneles solares que elevaría hasta 28% el costo de proyectos desde 2028",
+      "categoria": "Economía",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/gobierno/siete-milagros-la-nueva-propuesta-a-paneles-solares-que-elevaria-hasta-28-el-costo-de-proyectos-desde-506311",
+      "fecha": "2026-11-13T15:34:08+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "f5810d315bb590cc",
+      "titulo": "Norma Vera denuncia amenaza con una corona fúnebre en su casa",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/en-vivo/norma-vera-denuncia-amenaza-con-una-corona-funebre-en-su-casa/",
+      "fecha": "2026-11-13T15:32:51+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "b3239f14ca8adda4",
+      "titulo": "Si hay un videojuego que pueda romper internet, ese es GTA VI: su precarga está dejando picos de récord en tráfico",
+      "categoria": "Tecnología",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/videojuegos/hay-videojuego-que-pueda-romper-internet-ese-gta-vi-su-precarga-esta-dejando-picos-record-trafico",
+      "fecha": "2026-11-13T15:31:24+00:00",
       "imagen": ""
     },
     {
@@ -20,21 +290,21 @@
       "imagen": ""
     },
     {
-      "id": "fccc626a001fa5c8",
-      "titulo": "La visita de León XIV a Perú, en vivo |El Papa llega a Chiclayo, su segunda casa",
+      "id": "b29bd8bab0be8ead",
+      "titulo": "J.P. Morgan lanza los primeros ETF activos en Colombia con 15 estrategias globales que cotizarán en la Bolsa",
       "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/america/2026-11-13/la-visita-de-leon-xiv-a-peru-en-vivo-el-papa-llega-a-chiclayo-su-segunda-casa.html",
-      "fecha": "2026-11-13T15:16:25+00:00",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/finanzas/j-p-morgan-lanza-los-primeros-etf-activos-en-colombia-con-15-estrategias-globales-que-cotizaran-en-la-bolsa-506307",
+      "fecha": "2026-11-13T15:19:45+00:00",
       "imagen": ""
     },
     {
-      "id": "0bbe5ad48fd2f4e8",
-      "titulo": "Murió Lucio Chiquito Caicedo a los 110 años, ingeniero que ayudó a fundar EPM y marcó el desarrollo de Antioquia",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/medellin/murio-lucio-chiquito-caicedo-a-los-110-anos-ingeniero-que-ayudo-a-fundar-epm-y-marco-el-desarrollo-de-antioquia-3600799",
-      "fecha": "2026-11-13T15:16:21+00:00",
+      "id": "90103043115c1827",
+      "titulo": "Caída mundial de Microsoft 365 paraliza parte de la justicia en Bogotá: suspenden términos judiciales",
+      "categoria": "Deportes",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/regiones/caida-mundial-de-microsoft-365-paraliza-parte-de-la-justicia-en-bogota-suspenden-terminos-judiciales-506310",
+      "fecha": "2026-11-13T15:18:15+00:00",
       "imagen": ""
     },
     {
@@ -119,20 +389,20 @@
       "imagen": ""
     },
     {
-      "id": "d216a7d6f1adfa5a",
-      "titulo": "La empresa gallega Sargadelos cree que Nvidia copió su logotipo de uno de sus diseños: \"En el fondo, nos gusta\"",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/magnet/empresa-gallega-sargadelos-muestra-como-nvidia-pudo-copiar-su-logotipo-uno-sus-disenos-fondo-nos-gusta",
-      "fecha": "2026-11-13T14:45:22+00:00",
-      "imagen": ""
-    },
-    {
       "id": "25fbacc731620b76",
       "titulo": "Barranquilla tendrá 3.000 policías durante el puente festivo: reforzarán seguridad en concierto de Chayanne y Festival de la Butifarra",
       "categoria": "Colombia",
       "fuente": "El Tiempo",
       "url": "https://www.eltiempo.com/colombia/barranquilla/barranquilla-tendra-3-000-policias-durante-el-puente-festivo-reforzaran-seguridad-en-concierto-de-chayanne-y-festival-de-la-butifarra-3600775",
+      "fecha": "2026-11-13T14:45:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "d216a7d6f1adfa5a",
+      "titulo": "La empresa gallega Sargadelos cree que Nvidia copió su logotipo de uno de sus diseños: \"En el fondo, nos gusta\"",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/magnet/empresa-gallega-sargadelos-muestra-como-nvidia-pudo-copiar-su-logotipo-uno-sus-disenos-fondo-nos-gusta",
       "fecha": "2026-11-13T14:45:00+00:00",
       "imagen": ""
     },
@@ -165,7 +435,7 @@
     },
     {
       "id": "68edbbf22d3317d7",
-      "titulo": "3,1 millones de visualizaciones en unas horas: las entrevistas de Jordi Wild monopolizan el arranque de la campaña",
+      "titulo": "3,1 millones de visualizaciones en pocas horas: las entrevistas de Jordi Wild monopolizan el arranque de la campaña",
       "categoria": "Colombia",
       "fuente": "Xataka",
       "url": "https://www.xataka.com/magnet/3-1-millon-visualizaciones-unas-horas-entrevistas-jordi-wild-monopolizan-arranque-campana",
@@ -179,15 +449,6 @@
       "fuente": "La FM Economía",
       "url": "https://www.lafm.com.co/economia/chevron-responde-a-minminas-por-importacion-de-gasolina-en-buenaventura-417109",
       "fecha": "2026-11-13T14:36:47+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "a2d76840d81d9ba7",
-      "titulo": "Contraloría halla detrimento de $1.410 millones en el Acueducto de Bogotá",
-      "categoria": "Colombia",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/regiones/contraloria-halla-detrimento-de-1-410-millones-en-el-acueducto-de-bogota-506286",
-      "fecha": "2026-11-13T14:33:48+00:00",
       "imagen": ""
     },
     {
@@ -279,267 +540,6 @@
       "url": "https://www.eltiempo.com/colombia/santander/los-nuevos-detalles-del-megaoperativo-en-el-que-fueron-capturadas-136-personas-de-ocho-bandas-criminales-de-bucaramanga-dedicadas-al-narcotrafico-3600776",
       "fecha": "2026-11-13T14:07:31+00:00",
       "imagen": ""
-    },
-    {
-      "id": "301338a490bae52e",
-      "titulo": "Pueblo del norte de Perú espera que el papa León reconozca milagro de hace cuatro siglos",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/pueblo-del-norte-de-peru-espera-que-el-papa-leon-reconozca-milagro-de-hace-cuatro-siglos-4524255",
-      "fecha": "2026-11-13T14:07:29+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "e763db9a256b38f0",
-      "titulo": "90 al día: Las noticias más importantes de la región este viernes, 13 de noviembre",
-      "categoria": "Valle del Cauca",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/cali/noticias-importantes-region-viernes-13-11-2026/",
-      "fecha": "2026-11-13T14:02:32+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "96717540739846ed",
-      "titulo": "Ryanair adelanta a 60 minutos el cierre del equipaje facturado en todos sus aeropuertos",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/movilidad/ryanair-adelanta-a-60-minutos-cierre-equipaje-facturado-todos-sus-aeropuertos",
-      "fecha": "2026-11-13T14:01:22+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "d8c21eb233dfa227",
-      "titulo": "Hitos y retos en 100 días del gobierno de De La Espriella",
-      "categoria": "Colombia",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/gobierno/hitos-y-retos-en-100-dias-del-gobierno-de-de-la-espriella-506291",
-      "fecha": "2026-11-13T13:59:41+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "4256c30d768dca5b",
-      "titulo": "Video | ¡Grupo Niche gana un Latin Grammy 2026! Esta fue la categoría",
-      "categoria": "Valle del Cauca",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/vida-moderna/video-grupo-niche-gana-un-latin-grammy-2026-13-11-2026/",
-      "fecha": "2026-11-13T13:59:06+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "b1ea720e733e28e3",
-      "titulo": "A días de las elecciones, Sánchez enfrenta el desencanto de la izquierda española",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/a-dias-de-las-elecciones-sanchez-enfrenta-el-desencanto-de-la-izquierda-espanola-4524247",
-      "fecha": "2026-11-13T13:58:33+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "4dcb681728fc983f",
-      "titulo": "Los 10 desafíos que ponen a prueba al agro colombiano en los primeros 100 días de Abelardo de la Espriella",
-      "categoria": "Colombia",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/agro/los-10-desafios-que-ponen-a-prueba-al-agro-colombiano-en-los-primeros-100-dias-de-abelardo-de-la-espriella-506231",
-      "fecha": "2026-11-13T13:58:30+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "61cd2a2ba85e1cc7",
-      "titulo": "El activista millonario Chambers, contra EE UU y la Fiscalía española: “No puedo entender por qué estoy en prisión desde julio”",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/espana/2026-11-13/el-activista-millonario-chambers-contra-ee-uu-y-la-fiscalia-espanola-no-puedo-entender-por-que-estoy-en-prision-desde-julio.html",
-      "fecha": "2026-11-13T13:49:06+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "f5f0492c20d9d874",
-      "titulo": "Las razones de Angie Rodríguez para desconfiar de la justicia en Colombia",
-      "categoria": "Colombia",
-      "fuente": "La FM Actualidad",
-      "url": "https://www.lafm.com.co/actualidad/angie-rodriguez-desconfianza-justicia-colombiana-417099",
-      "fecha": "2026-11-13T13:45:28+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "480923434d096938",
-      "titulo": "Vivimos rodeados de luces y ruido, y nuestro cuerpo lo está pagando: así afecta la ciudad a nuestro sueño",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/medicina-y-salud/vivimos-rodeados-luces-ruido-nuestro-cuerpo-esta-pagando-asi-afecta-ciudad-a-nuestro-sueno",
-      "fecha": "2026-11-13T13:45:27+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "e845455f9c3152fb",
-      "titulo": "El jardín botánico enseña a los caleños cómo cultivar para promover la seguridad alimentaria",
-      "categoria": "Valle del Cauca",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/cali/el-jardin-botanico-ensena-a-los-calenos-como-cultivar-para-promover-la-seguridad-alimentaria/",
-      "fecha": "2026-11-13T13:43:05+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "d9ed36fb6603ec8d",
-      "titulo": "El autor del tiroteo en Washington pareció hacerlo por quejas sobre el estado de su apartamento",
-      "categoria": "Internacional",
-      "fuente": "La FM Internacional",
-      "url": "https://www.lafm.com.co/internacional/el-autor-del-tiroteo-en-washington-parecio-hacerlo-por-quejas-sobre-el-estado-de-su-apartamento-417100",
-      "fecha": "2026-11-13T13:40:56+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "c69181b0b52d26f8",
-      "titulo": "VENTA APARTAMENTO",
-      "categoria": "Colombia",
-      "fuente": "La Patria — Caldas",
-      "url": "https://www.lapatria.com/clasificados/venta-apartamento-35",
-      "fecha": "2026-11-13T13:40:06+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "0206e676de640074",
-      "titulo": "ANI pagará $1,27 billones en lugar de $2,6 billones por la Perimetral de Oriente y ahorra cerca de $1,4 billones",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/infraestructura/ani-pagara-1-27-billones-en-lugar-de-2-6-billones-por-la-perimetral-de-oriente-y-ahorra-cerca-de-1-4-billones-506295",
-      "fecha": "2026-11-13T13:40:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "970ac585fa8c5289",
-      "titulo": "El Niño amenaza las reservas de agua del Atlántico: advierten que sus efectos podrían prolongarse hasta mayo de 2027",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/barranquilla/el-nino-amenaza-las-reservas-de-agua-del-atlantico-advierten-que-sus-efectos-podrian-prolongarse-hasta-mayo-de-3600767",
-      "fecha": "2026-11-13T13:38:41+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "1ee3f89550844dc5",
-      "titulo": "venta edificio",
-      "categoria": "Colombia",
-      "fuente": "La Patria — Caldas",
-      "url": "https://www.lapatria.com/clasificados/venta-edificio-0",
-      "fecha": "2026-11-13T13:38:17+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "f60c28dd6da092c4",
-      "titulo": "Alemania hace la \"reforma del siglo\" en sus servicios secretos",
-      "categoria": "Internacional",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/alemania-hace-la-reforma-del-siglo-en-sus-servicios-secretos/a-79941487?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-13T13:36:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "bb82de716847ff9f",
-      "titulo": "VENTA CASA",
-      "categoria": "Colombia",
-      "fuente": "La Patria — Caldas",
-      "url": "https://www.lapatria.com/clasificados/venta-casa-101",
-      "fecha": "2026-11-13T13:35:31+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "c17a59cd4cabf898",
-      "titulo": "¿Va a ingresar a Cali por el kilómetro 18 este festivo? Revise placas y horarios asignados",
-      "categoria": "Cali",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/cali/ingresar-cali-kilometro-18-festivo-revise-placas-horarios-13-11-2026/",
-      "fecha": "2026-11-13T13:34:41+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "392905e0eb72ee7e",
-      "titulo": "Estos son los sectores económicos que más usan la inteligencia artificial en Colombia",
-      "categoria": "Tecnología",
-      "fuente": "La FM Economía",
-      "url": "https://www.lafm.com.co/economia/inteligencia-artificial-colombia-sectores-economicos-mas-usan-417098",
-      "fecha": "2026-11-13T13:32:38+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "0437ea83f9d4f702",
-      "titulo": "La línea Madrid-Barcelona tiene un punto negro de 200 kilómetros lleno de limitaciones de velocidad",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/movilidad/linea-madrid-barcelona-tiene-punto-negro-200-kilometros-lleno-limitaciones-velocidad",
-      "fecha": "2026-11-13T13:31:24+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "b5228c6bc571d6a8",
-      "titulo": "'¡No vamos a permitir que los terroristas sigan sembrando el miedo; en Cali no vamos a ceder ante el terrorismo!', dijo el alcalde Alejandro Eder",
-      "categoria": "Cali",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/cali/no-vamos-a-permitir-que-los-terroristas-sigan-sembrando-el-miedo-en-cali-no-vamos-a-ceder-ante-el-terrorismo-dijo-el-alcalde-alejandro-eder-3600760",
-      "fecha": "2026-11-13T13:29:39+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "162940a5191b7050",
-      "titulo": "La salida de Huang y dudas de EE.UU. arriesgan 3.000 millones en proyectos chinos de IA",
-      "categoria": "Internacional",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/la-salida-de-huang-y-dudas-de-eeuu-arriesgan-3-000-millones-en-proyectos-chinos-de-ia-4524190",
-      "fecha": "2026-11-13T13:27:55+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "4a2d3adbec8b1ce9",
-      "titulo": "Conjuntos residenciales en Colombia podrán aprovechar sus espacios sin uso con este nuevo modelo de negocio",
-      "categoria": "Colombia",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/conjuntos-residenciales-en-colombia-podran-aprovechar-sus-espacios-sin-uso-con-este-nuevo-modelo-de-negocio-506292",
-      "fecha": "2026-11-13T13:26:11+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "3d3fff50cc143190",
-      "titulo": "De la Espriella echa para atrás la nómina millonaria del Fondo Milagro",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/en-vivo/de-la-espriella-echa-para-atras-la-nomina-millonaria-del-fondo-milagro/",
-      "fecha": "2026-11-13T13:25:58+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "088d25119b415277",
-      "titulo": "Gobierno ordena revisar salarios del Fondo Milagro tras cuestionamientos por sus montos",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/noticias/gobierno-ordena-revisar-salarios-del-fondo-milagro-tras-cuestionamientos-por-sus-montos/",
-      "fecha": "2026-11-13T13:22:16+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "519bf72a4f31b36c",
-      "titulo": "Precio del dólar hoy en Colombia: Así está la moneda el 13 de noviembre",
-      "categoria": "Economía",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/vida-moderna/precio-del-dolar-hoy-en-colombia-moneda-13-11-2026/",
-      "fecha": "2026-11-13T13:17:52+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "017309a503b6475d",
-      "titulo": "Colombia es el sexto país con el mayor riesgo de inversión en América Latina",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/colombia-es-el-sexto-pais-con-el-mayor-riesgo-de-inversion-en-america-latina-4524171",
-      "fecha": "2026-11-13T13:15:45+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "2c329b5dd574f129",
-      "titulo": "pCloud ya está de Black Friday: tiene un descuento de más del 60% en todos sus planes de por vida de almacenamiento en la nube",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/seleccion/pcloud-esta-black-friday-tiene-descuento-60-todos-sus-planes-vida-almacenamiento-nube",
-      "fecha": "2026-11-13T13:15:24+00:00",
-      "imagen": ""
     }
   ],
   "estado_fuentes": [
@@ -553,7 +553,7 @@
       "nombre": "El Tiempo Cali",
       "url": "https://www.eltiempo.com/rss/colombia_cali.xml",
       "estado": "correcto",
-      "titulares": 7
+      "titulares": 8
     },
     {
       "nombre": "El Espectador",
@@ -572,7 +572,7 @@
       "nombre": "Portafolio",
       "url": "https://www.portafolio.co/rss/economia.xml",
       "estado": "correcto",
-      "titulares": 9
+      "titulares": 10
     },
     {
       "nombre": "La República",
@@ -590,7 +590,7 @@
       "nombre": "BBC Mundo",
       "url": "https://feeds.bbci.co.uk/mundo/rss.xml",
       "estado": "correcto",
-      "titulares": 28
+      "titulares": 27
     },
     {
       "nombre": "DW Español",
