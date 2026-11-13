@@ -1,13 +1,193 @@
 {
-  "ultima_actualizacion": "2026-11-13T14:34:05.564357+00:00",
+  "ultima_actualizacion": "2026-11-13T15:28:24.321008+00:00",
   "titulares_rss": [
     {
       "id": "226616e20d6cb4d5",
-      "titulo": "\"Bienvenido a casa\": León XIV regresa por primera vez a Chiclayo, la ciudad de Perú que lanzó su carrera hacia el papado",
+      "titulo": "El papa León XIV se prepara para celebrar una masiva misa en Chiclayo, la ciudad de Perú que lanzó su carrera hacia el papado",
       "categoria": "Internacional",
       "fuente": "BBC Mundo",
       "url": "https://www.bbc.co.uk/mundo/live/c62e8kkl9rlrt?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-13T14:34:05.564357+00:00",
+      "fecha": "2026-11-13T15:28:24.321008+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "fe29dcb45f040ae7",
+      "titulo": "¡Atención, conductores! Siguen los cierres intermitentes en la vía 4G Pacífico 1 durante noviembre y diciembre; consulte los horarios exactos",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/medellin/atencion-conductores-siguen-los-cierres-intermitentes-en-la-via-4g-pacifico-1-durante-noviembre-y-diciembre-consulte-los-horarios-exactos-3600811",
+      "fecha": "2026-11-13T15:23:21+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "fccc626a001fa5c8",
+      "titulo": "La visita de León XIV a Perú, en vivo |El Papa llega a Chiclayo, su segunda casa",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/america/2026-11-13/la-visita-de-leon-xiv-a-peru-en-vivo-el-papa-llega-a-chiclayo-su-segunda-casa.html",
+      "fecha": "2026-11-13T15:16:25+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "0bbe5ad48fd2f4e8",
+      "titulo": "Murió Lucio Chiquito Caicedo a los 110 años, ingeniero que ayudó a fundar EPM y marcó el desarrollo de Antioquia",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/medellin/murio-lucio-chiquito-caicedo-a-los-110-anos-ingeniero-que-ayudo-a-fundar-epm-y-marco-el-desarrollo-de-antioquia-3600799",
+      "fecha": "2026-11-13T15:16:21+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "eaec3aa593e50dee",
+      "titulo": "EE.UU. afirma que transfirió a Venezuela más de US$12.000 millones por sus exportaciones petroleras y de otros recursos",
+      "categoria": "Internacional",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/cq1438vzvj1eo?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-13T15:16:21+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "c7739d77e119ec80",
+      "titulo": "Ya en Lidl, por 11,99 euros, el calientamanos portátil para evitar el frío que también funciona como powerbank",
+      "categoria": "Cali",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/seleccion/lidl-11-99-euros-calientamanos-portatil-para-evitar-frio-que-tambien-funciona-como-powerbank",
+      "fecha": "2026-11-13T15:15:20+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "850d978b442dc395",
+      "titulo": "Selección Colombia vuelve a Cali después de 27 años: el Pascual Guerrero está listo para una fiesta futbolera",
+      "categoria": "Cali",
+      "fuente": "La FM Deportes",
+      "url": "https://www.lafm.com.co/deportes/seleccion-colombia-futbol-vuelve-a-cali-despues-de-mucho-tiempo-417086",
+      "fecha": "2026-11-13T15:11:51+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "9ada5dcd994363e7",
+      "titulo": "Alcalde Federico Gutiérrez se pronuncia sobre millonario fraude hallado en la Secretaría de Hacienda de Medellín",
+      "categoria": "Internacional",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/medellin/alcalde-federico-gutierrez-se-pronuncia-sobre-millonario-fraude-hallado-en-la-secretaria-de-hacienda-de-medellin-3600804",
+      "fecha": "2026-11-13T15:08:54+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "50027d1ef53924d0",
+      "titulo": "Conmovedor video muestra a comerciante de calzado que regala zapatos a dos niños vendedores ambulantes en Cartagena",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/conmovedor-video-muestra-a-comerciante-de-calzado-que-regala-zapatos-a-dos-ninos-vendedores-ambulantes-en-cartagena-3600805",
+      "fecha": "2026-11-13T15:06:36+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "83446f789b612f7d",
+      "titulo": "Profesionales de treinta y tantos años del sector financiero y tecnológico comienzan a regresar a Venezuela",
+      "categoria": "Internacional",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/globoeconomia/profesionales-de-treinta-y-tantos-anos-del-sector-financiero-y-tecnologico-comienzan-a-regresar-a-venezuela-4524308",
+      "fecha": "2026-11-13T15:02:19+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "717150f9ef06b3d8",
+      "titulo": "Pereira se prepara para el segundo Día del Inmobiliario 2026",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/actualidad/pereira-se-prepara-para-el-segundo-dia-del-inmobiliario-2026/",
+      "fecha": "2026-11-13T15:00:08+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "4d8737de22959d8c",
+      "titulo": "iRobot Roomba Max 875 Combo, análisis: si tienes alfombras, este es el robot que te va a alegrar la vida",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/analisis/irobot-roomba-max-875-combo-analisis-caracteristicas-precio-especificaciones",
+      "fecha": "2026-11-13T15:00:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "88c7539f232fad3e",
+      "titulo": "Bruce Springsteen sobre Steven Spielberg: “Arruinó el nadar desnudo en la costa de Jersey”",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/cultura/2026-11-13/bruce-springsteen-sobre-steven-spielberg-arruino-el-nadar-desnudo-en-la-costa-de-jersey.html",
+      "fecha": "2026-11-13T14:52:22+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "d216a7d6f1adfa5a",
+      "titulo": "La empresa gallega Sargadelos cree que Nvidia copió su logotipo de uno de sus diseños: \"En el fondo, nos gusta\"",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/magnet/empresa-gallega-sargadelos-muestra-como-nvidia-pudo-copiar-su-logotipo-uno-sus-disenos-fondo-nos-gusta",
+      "fecha": "2026-11-13T14:45:22+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "25fbacc731620b76",
+      "titulo": "Barranquilla tendrá 3.000 policías durante el puente festivo: reforzarán seguridad en concierto de Chayanne y Festival de la Butifarra",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/barranquilla/barranquilla-tendra-3-000-policias-durante-el-puente-festivo-reforzaran-seguridad-en-concierto-de-chayanne-y-festival-de-la-butifarra-3600775",
+      "fecha": "2026-11-13T14:45:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "34775e43bed918b9",
+      "titulo": "Tembici le debe $5.260 millones a Bogotá: Distrito abrió tres procesos por presuntos incumplimientos",
+      "categoria": "Colombia",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/gobierno/tembici-le-debe-5-260-millones-a-bogota-distrito-abrio-tres-procesos-por-presuntos-incumplimientos-506305",
+      "fecha": "2026-11-13T14:43:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "9fa11a0272914bc5",
+      "titulo": "Borussia Dortmund termina asociación con el consorcio armamentista Rheinmetall",
+      "categoria": "Internacional",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/borussia-dortmund-termina-asociación-con-el-consorcio-armamentista-rheinmetall/a-79942431?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-13T14:41:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "55284724fd603af3",
+      "titulo": "Flip rechaza que el gobierno asigne pauta según el cubrimiento de medios",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/en-vivo/flip-rechaza-que-el-gobierno-asigne-pauta-segun-el-cubrimiento-de-medios/",
+      "fecha": "2026-11-13T14:40:04+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "68edbbf22d3317d7",
+      "titulo": "3,1 millones de visualizaciones en unas horas: las entrevistas de Jordi Wild monopolizan el arranque de la campaña",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/magnet/3-1-millon-visualizaciones-unas-horas-entrevistas-jordi-wild-monopolizan-arranque-campana",
+      "fecha": "2026-11-13T14:38:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "7a084dab73a83717",
+      "titulo": "Chevron explica por qué pidió un permiso especial y asegura que la gasolina importada cumplió las normas",
+      "categoria": "Economía",
+      "fuente": "La FM Economía",
+      "url": "https://www.lafm.com.co/economia/chevron-responde-a-minminas-por-importacion-de-gasolina-en-buenaventura-417109",
+      "fecha": "2026-11-13T14:36:47+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "a2d76840d81d9ba7",
+      "titulo": "Contraloría halla detrimento de $1.410 millones en el Acueducto de Bogotá",
+      "categoria": "Colombia",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/regiones/contraloria-halla-detrimento-de-1-410-millones-en-el-acueducto-de-bogota-506286",
+      "fecha": "2026-11-13T14:33:48+00:00",
       "imagen": ""
     },
     {
@@ -200,6 +380,15 @@
       "imagen": ""
     },
     {
+      "id": "d9ed36fb6603ec8d",
+      "titulo": "El autor del tiroteo en Washington pareció hacerlo por quejas sobre el estado de su apartamento",
+      "categoria": "Internacional",
+      "fuente": "La FM Internacional",
+      "url": "https://www.lafm.com.co/internacional/el-autor-del-tiroteo-en-washington-parecio-hacerlo-por-quejas-sobre-el-estado-de-su-apartamento-417100",
+      "fecha": "2026-11-13T13:40:56+00:00",
+      "imagen": ""
+    },
+    {
       "id": "c69181b0b52d26f8",
       "titulo": "VENTA APARTAMENTO",
       "categoria": "Colombia",
@@ -351,195 +540,6 @@
       "url": "https://www.xataka.com/seleccion/pcloud-esta-black-friday-tiene-descuento-60-todos-sus-planes-vida-almacenamiento-nube",
       "fecha": "2026-11-13T13:15:24+00:00",
       "imagen": ""
-    },
-    {
-      "id": "887a3f476f64b95d",
-      "titulo": "Jensen Huang supo bailar las aguas entre EEUU, China y la propia Nvidia. Su sustituto no va a tenerlo nada fácil",
-      "categoria": "Internacional",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/empresas-y-economia/jensen-huang-supo-bailar-aguas-eeuu-china-propia-nvidia-su-sustituto-no-va-a-tenerlo-nada-facil",
-      "fecha": "2026-11-13T13:15:24+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "23e439871ae2b26d",
-      "titulo": "Jorge Jaller, el nuevo embajador de Colombia en Venezuela: estos serán sus principales retos",
-      "categoria": "Internacional",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/noticias/jorge-jaller-el-nuevo-embajador-de-colombia-en-venezuela-estos-seran-sus-principales-retos/",
-      "fecha": "2026-11-13T13:13:56+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "06f9e2985aeeaa79",
-      "titulo": "Pronóstico del clima en Cali hoy viernes 13 de noviembre ¿lloverá?",
-      "categoria": "Cali",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/vida-moderna/ecologia/pronostico-del-clima-en-cali-hoy-viernes-13-11-2026/",
-      "fecha": "2026-11-13T13:08:44+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "304023e7e250e53c",
-      "titulo": "Las pistas detrás de la noche de pánico por un explosivo lanzado al paso de una patrulla de la Policía cerca de la sede de Carabineros en Cali",
-      "categoria": "Cali",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/cali/las-pistas-detras-de-la-noche-de-panico-por-un-explosivo-lanzado-al-paso-de-una-patrulla-de-la-policia-cerca-de-la-sede-de-carabineros-en-cali-3600753",
-      "fecha": "2026-11-13T13:07:04+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "403ebe42295ce699",
-      "titulo": "Colombia brilló en los Latin Grammy: Karol G, Aria Vega, Juanes y Carlos Vives, entre los ganadores",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/noticias/colombia-brillo-en-los-latin-grammy-karol-g-aria-vega-juanes-y-carlos-vives-entre-los-ganadores/",
-      "fecha": "2026-11-13T13:05:06+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "d9c698ad4b80a331",
-      "titulo": "Alerta para los viajeros por cierre del espacio aéreo hasta el medio día de este viernes",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/empresas/alerta-para-viajeros-por-cierre-del-espacio-aereo-hasta-el-medio-dia-del-viernes-4524188",
-      "fecha": "2026-11-13T13:04:42+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "299d7464b9147322",
-      "titulo": "¡Otto Valencia, mejor presentador de televisión en los Premios Cristo Rey 2026!",
-      "categoria": "Valle del Cauca",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/cali/otto-valencia-presentador-television-premios-cristo-rey-13-11-2026/",
-      "fecha": "2026-11-13T13:04:21+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "46c90118a9d2b081",
-      "titulo": "El dólar cotiza $17,15 al alza por la revalorización de los bonos del Tesoro",
-      "categoria": "Economía",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/finanzas/precio-del-dolar-y-petroleo-hoy-13-de-noviembre-4524070",
-      "fecha": "2026-11-13T13:03:51+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "976b320f37feec95",
-      "titulo": "Metro de Bogotá busca más trabajadores: estos son los perfiles que necesita y por qué traerá técnicos chinos",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/metro-bogota-busca-trabajadores-perfiles-tecnicos-chinos-HG43543260",
-      "fecha": "2026-11-13T13:00:38+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "9fda995f3ee145ba",
-      "titulo": "Open House Virtual de Posgrados UAO: conoce la oferta bimestral",
-      "categoria": "Valle del Cauca",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/la-uao/open-house-virtual-uao-posgrados-13-11-2026/",
-      "fecha": "2026-11-13T13:00:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "a42c238a16647e00",
-      "titulo": "El PP está intentando generar su propio “perrosanxe” convirtiendo a Feijóo en Anuel con Anotop At",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/magnet/pp-esta-intentando-generar-su-propio-perrosanxe-convirtiendo-a-feijoo-anuel-anotop-at",
-      "fecha": "2026-11-13T13:00:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "724ba646b4b99e0b",
-      "titulo": "VIDEO | Alerta en Cali por atentado contra patrulla de la Policía en el sector de Siloé: van dos amenazas en 48 horas",
-      "categoria": "Cali",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/alerta-cali-atentado-patrulla-policia-en-siloe-van-dos-amenazas-en-48-horas-BG43541606",
-      "fecha": "2026-11-13T12:57:35+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "58d51d0838a0fd54",
-      "titulo": "Brasil recorta previsiones de cosecha de trigo y eleva estimaciones de importación debido a El Niño",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/brasil-recorta-previsiones-de-cosecha-de-trigo-y-eleva-estimaciones-de-importacion-debido-a-el-nino-4524183",
-      "fecha": "2026-11-13T12:56:31+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "bcc3aa2964b1db87",
-      "titulo": "Paz Total, gas y chavismo: las claves del papel de Petro en el fraude electoral de Maduro, según informe gringo",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/petro-ayudo-a-maduro-a-sostenerse-tras-fraude-electoral-segun-informe-FG43542601",
-      "fecha": "2026-11-13T12:53:11+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "a3fe46d809002761",
-      "titulo": "Peso chileno cae y supera barrera de las 1.000 unidades por dólar",
-      "categoria": "Economía",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/peso-chileno-cae-y-supera-barrera-de-las-1-000-unidades-por-dolar-4524180",
-      "fecha": "2026-11-13T12:52:18+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "496aeb6058c5a8a2",
-      "titulo": "Las compras de vehículos a través de crédito crecieron 44,5%, de acuerdo con DataCrédito",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/finanzas/las-compras-de-vehiculos-a-traves-de-credito-crecieron-44-5-de-acuerdo-con-datacredito-experian-4521403",
-      "fecha": "2026-11-13T12:51:32+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "d8a746e8f40cb31a",
-      "titulo": "Los restos del escritor Miguel Ángel Asturias regresan a Guatemala más de medio siglo después de su muerte",
-      "categoria": "Internacional",
-      "fuente": "BBC Mundo",
-      "url": "https://www.bbc.com/mundo/articles/ck1l04rpm9l5o?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-13T12:51:27+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "b9bfd131b7f1c226",
-      "titulo": "Abelardo De La Espriella frena nómina de $765 millones del Fondo Milagro por altos salarios: 'No los autorizo'",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/gobierno/abelardo-de-la-espriella-frena-nomina-de-765-millones-del-fondo-milagro-por-altos-salarios-no-los-autorizo-506288",
-      "fecha": "2026-11-13T12:51:18+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "4c7be5b4bdbcf247",
-      "titulo": "\"Solo hay dos maneras de vivir la vida...\": una de las frases más bonitas de Einstein tiene un problema gordo, pero a la gente parece darle igual",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/magnet/solo-hay-dos-maneras-vivir-vida-frases-bonitas-einstein-tiene-problema-gordo-a-gente-parece-darle-igual",
-      "fecha": "2026-11-13T12:50:49+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "280cf6b0147ac243",
-      "titulo": "¿Ahora qué sigue para América de Cali y la Liga Betplay tras la resolución de la 'novela' en el TAS?",
-      "categoria": "Cali",
-      "fuente": "La FM Deportes",
-      "url": "https://www.lafm.com.co/deportes/america-de-cali-liga-betplay-que-sigue-tras-resolucion-tas-417094",
-      "fecha": "2026-11-13T12:49:24+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "904548057f3f0cf6",
-      "titulo": "Sena realizará evento con cerca de 1.000 empresarios, el Gobierno y autoridades en Barranquilla para definir prioridades de formación laboral",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/sena-realizara-evento-con-cerca-de-1-000-empresarios-el-gobierno-y-autoridades-en-barranquilla-para-definir-prioridades-de-formacion-laboral-3600750",
-      "fecha": "2026-11-13T12:38:44+00:00",
-      "imagen": ""
     }
   ],
   "estado_fuentes": [
@@ -553,7 +553,7 @@
       "nombre": "El Tiempo Cali",
       "url": "https://www.eltiempo.com/rss/colombia_cali.xml",
       "estado": "correcto",
-      "titulares": 6
+      "titulares": 7
     },
     {
       "nombre": "El Espectador",
@@ -596,7 +596,7 @@
       "nombre": "DW Español",
       "url": "https://rss.dw.com/rdf/rss-sp-all",
       "estado": "correcto",
-      "titulares": 24
+      "titulares": 25
     },
     {
       "nombre": "Xataka",
