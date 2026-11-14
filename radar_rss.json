@@ -1,5 +1,5 @@
 {
-  "ultima_actualizacion": "2026-11-14T15:48:07.400385+00:00",
+  "ultima_actualizacion": "2026-11-14T16:49:35.570913+00:00",
   "titulares_rss": [
     {
       "id": "226616e20d6cb4d5",
@@ -7,7 +7,169 @@
       "categoria": "Internacional",
       "fuente": "BBC Mundo",
       "url": "https://www.bbc.co.uk/mundo/live/c62e8kkl9rlrt?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-14T15:48:07.400385+00:00",
+      "fecha": "2026-11-14T16:49:35.570913+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "38977b89147c7a88",
+      "titulo": "Qué se sabe sobre la suspensión de vuelos en EE.UU. más grande desde el 11S",
+      "categoria": "Internacional",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/c5n4e274kdlro?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-14T16:48:16+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "f9a342138a148ea3",
+      "titulo": "Los detalles de la investigación tras el volcamiento de un bus que deja siete muertos en Huila: este es el estado de los pasajeros",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/los-detalles-de-la-investigacion-tras-el-volcamiento-de-un-bus-que-deja-siete-muertos-en-huila-este-es-el-estado-de-los-pasajeros-3601101",
+      "fecha": "2026-11-14T16:44:42+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "3c427dbfbd605feb",
+      "titulo": "Fondes formaliza $34.000 millones para la prefactibilidad de la Línea 4 del Metro",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/economia/fondes-formaliza-34-000-millones-para-la-prefactibilidad-de-la-linea-4-del-metro-4525218",
+      "fecha": "2026-11-14T16:40:53+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "2227dbad08833647",
+      "titulo": "Fiscalía archiva investigación contra Álvaro Uribe por presunto soborno a testigos: estas son las razones",
+      "categoria": "Economía",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/gobierno/fiscalia-archiva-investigacion-contra-alvaro-uribe-por-presunto-soborno-a-testigos-estas-son-las-razones-506376",
+      "fecha": "2026-11-14T16:35:55+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "87187c13808faf0e",
+      "titulo": "Video | Tras días en UCI, 'Cayo' Manjarrés regresó a casa: así fue el emotivo recibimiento al coordinador de la agrupación de Kbeto Zuleta",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/barranquilla/video-tras-dias-en-uci-cayo-manjarres-regreso-a-casa-asi-fue-el-emotivo-recibimiento-al-coordinador-de-la-agrupacion-de-kbeto-zuleta-3601099",
+      "fecha": "2026-11-14T16:35:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "843ea50ae2fbad08",
+      "titulo": "León XIV coronó a la Virgen Inmaculada de Chiclayo y envió un mensaje frente a la violencia",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/globoeconomia/leon-xiv-corono-a-la-virgen-inmaculada-de-chiclayo-y-envio-un-mensaje-frente-a-la-violencia-4525215",
+      "fecha": "2026-11-14T16:34:32+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "30a4ba9249f61593",
+      "titulo": "Rockstar lleva 29 años satirizando Estados Unidos y tiene un problema con 'GTA VI': la realidad es ya completamente imparodiable",
+      "categoria": "Internacional",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/videojuegos/rockstar-lleva-29-anos-satirizando-estados-unidos-tiene-problema-gta-vi-realidad-completamente-imparodiable",
+      "fecha": "2026-11-14T16:31:21+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "cc21010f74ff9a30",
+      "titulo": "La SIC archivó caso contra Ecopetrol que exponía al grupo a multa de $525.271 millones",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/economia/la-sic-archivo-caso-contra-ecopetrol-que-exponia-al-grupo-a-multa-de-525-271-millones-4525210",
+      "fecha": "2026-11-14T16:29:13+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "eefa08e58e9e9fdc",
+      "titulo": "Italia multó con US$887 millones a Meta por acceso a datos de usuarios de Android",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/globoeconomia/italia-multo-con-us-887-millones-a-meta-por-acceso-a-datos-de-usuarios-de-android-4525212",
+      "fecha": "2026-11-14T16:28:19+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "828dba1eea482c04",
+      "titulo": "Ofrecen hasta $ 20 millones por los responsables del atentado con explosivos contra la estación de Policía de Decepaz, en el oriente de Cali",
+      "categoria": "Cali",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/cali/ofrecen-hasta-20-millones-por-los-responsables-del-atentado-con-explosivos-contra-la-estacion-de-policia-de-decepaz-en-el-oriente-de-cali-3601096",
+      "fecha": "2026-11-14T16:28:18+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "74212aeb5d60ca0c",
+      "titulo": "De adolescente en el Eln a disidente y paramilitar: así se ocultaba 'Primo Gay', quien fingió su muerte y siguió pasos de su mamá y hermana capturadas",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/medellin/de-adolescente-en-el-eln-a-disidente-y-narcoparamilitar-el-prontuario-de-alias-primo-gay-quien-habia-fingido-su-muerte-y-traiciono-a-calarca-3601093",
+      "fecha": "2026-11-14T16:24:12+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "e0b65baea2bc04d0",
+      "titulo": "Premio Werner Holzer de Periodismo para Katja Gloger y Jaafar Abdul Karim, de Deutsche Welle",
+      "categoria": "Cali",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/premio-werner-holzer-de-periodismo-para-katja-gloger-y-jaafar-abdul-karim-de-deutsche-welle/a-79947781?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-14T16:24:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "6133e14457937df3",
+      "titulo": "Fiscalía archiva otro caso contra Uribe por presunto soborno a testigos",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/en-vivo/fiscalia-archiva-otro-caso-contra-uribe-por-presunto-soborno-a-testigos/",
+      "fecha": "2026-11-14T16:20:06+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "2d6224f83ca333fe",
+      "titulo": "Uribe y Restrepo se reúnen en Antioquia en medio del debate por la reforma tributaria",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/economia/uribe-y-congresistas-del-centro-democratico-se-reunen-con-restrepo-para-estudiar-la-tributaria-4525205",
+      "fecha": "2026-11-14T16:15:13+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "da009a5f8ec8710a",
+      "titulo": "Recursos del café ‘no pueden ser cajas menores’: la condición del Gobierno al renovar el Fondo Nacional del Café",
+      "categoria": "Colombia",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/agro/recursos-del-cafe-no-pueden-ser-cajas-menores-la-condicion-del-gobierno-al-renovar-el-fondo-nacional-del-cafe-506373",
+      "fecha": "2026-11-14T16:15:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "9edb2a50ef93f286",
+      "titulo": "Relevos en la CUT, CGT y Andi marcarán la discusión del salario mínimo para 2027",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/economia/nuevos-lideres-sindicales-y-empresariales-estrenaran-la-mesa-del-minimo-para-2027-4525198",
+      "fecha": "2026-11-14T16:01:38+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "93ecb0aef44dab84",
+      "titulo": "En 2013, EEUU guardó en un cajón una de las armas más revolucionarias para la guerra. China lo acaba de construir y le ha quitado hasta el piloto",
+      "categoria": "Internacional",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/magnet/2013-eeuu-guardo-cajon-armas-revolucionarias-para-guerra-china-acaba-construir-le-ha-quitado-piloto",
+      "fecha": "2026-11-14T16:01:23+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "463e322b28011ebf",
+      "titulo": "Las finanzas del contrabando al límite: así se gestó el golpe de $ 1.523 millones que superó todas las cifras de 2025",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/cali/las-finanzas-del-contrabando-al-limite-asi-se-gesto-el-golpe-de-1-523-millones-que-supero-todas-las-cifras-de-3601085",
+      "fecha": "2026-11-14T15:49:39+00:00",
       "imagen": ""
     },
     {
@@ -20,12 +182,48 @@
       "imagen": ""
     },
     {
+      "id": "5b1691eb8ca25a8f",
+      "titulo": "PAPEL SALMON NOVIEMBRE 14 - 2026",
+      "categoria": "Colombia",
+      "fuente": "La Patria — Caldas",
+      "url": "https://www.lapatria.com/publicacion/papel-salmon-noviembre-14-2026",
+      "fecha": "2026-11-14T15:44:35+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "20e48fb287f7f49c",
+      "titulo": "Tragedia minera en Chita, Boyacá: explosión en socavón deja dos mineros muertos y otros dos atrapados",
+      "categoria": "Colombia",
+      "fuente": "La FM Actualidad",
+      "url": "https://www.lafm.com.co/actualidad/tragedia-minera-en-chita-boyaca-deja-dos-muertos-dos-atrapados-417222",
+      "fecha": "2026-11-14T15:40:07+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "efdf7b1b6a47bc47",
+      "titulo": "Conexión directa de la av. 68 a la AutoSur: nuevo ramal del puente de Venecia agiliza los viajes a Bosa y Soacha",
+      "categoria": "Economía",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/infraestructura/conexion-directa-de-la-av-68-a-la-autosur-nuevo-ramal-del-puente-de-venecia-agiliza-los-viajes-a-bosa-y-soacha-506371",
+      "fecha": "2026-11-14T15:40:00+00:00",
+      "imagen": ""
+    },
+    {
       "id": "1574a028047d1435",
       "titulo": "Hacker de la DNI señalado de alterar notas en la UNAD fue enviado a prisión por títulos fraudulentos",
       "categoria": "Colombia",
       "fuente": "La FM Actualidad",
       "url": "https://www.lafm.com.co/actualidad/carcel-para-hacker-dni-417211",
       "fecha": "2026-11-14T15:37:59+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "80561dca00c1109c",
+      "titulo": "El misterio por el asesinato de Ómar Yesid Cabarcas Fontalvo, de empresa contratista de Ecopetrol, en Santander: el 'clan del Golfo' lo habría citado",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/santander/el-misterio-por-el-asesinato-de-omar-yesid-cabarcas-fontalvo-de-empresa-contratista-de-ecopetrol-en-santander-el-clan-del-golfo-lo-habria-citado-3601079",
+      "fecha": "2026-11-14T15:37:47+00:00",
       "imagen": ""
     },
     {
@@ -47,12 +245,12 @@
       "imagen": ""
     },
     {
-      "id": "80561dca00c1109c",
-      "titulo": "El misterio por el asesinato de Ómar Yesid Cabarcas Fontalvo, de empresa contratista de Ecopetrol, en Santander: el 'clan del Golfo' lo habría citado",
+      "id": "d6652dd16db5526c",
+      "titulo": "El traslado al Malecón no va: confirman que la Vía 40 seguirá siendo sede de los grandes desfiles del Carnaval de Barranquilla 2027",
       "categoria": "Colombia",
       "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/santander/el-misterio-por-el-asesinato-de-omar-yesid-cabarcas-fontalvo-de-empresa-contratista-de-ecopetrol-en-santander-el-clan-del-golfo-lo-habria-citado-3601079",
-      "fecha": "2026-11-14T15:26:11+00:00",
+      "url": "https://www.eltiempo.com/colombia/barranquilla/el-traslado-al-malecon-no-va-confirman-que-la-via-40-seguira-siendo-sede-de-los-grandes-desfiles-del-carnaval-de-barranquilla-3601084",
+      "fecha": "2026-11-14T15:30:00+00:00",
       "imagen": ""
     },
     {
@@ -158,7 +356,7 @@
       "id": "1e679c237c4cc5b9",
       "titulo": "Tensión en el oriente de Cali: reportan ataque con explosivos en la estación de Policía de Desepaz que dejó a una persona con aturdimiento",
       "categoria": "Cali",
-      "fuente": "El Tiempo",
+      "fuente": "El Tiempo Cali",
       "url": "https://www.eltiempo.com/colombia/cali/tension-en-el-oriente-de-cali-lanzan-artefacto-explosivo-a-la-estacion-de-policia-de-decepaz-3601062",
       "fecha": "2026-11-14T14:34:09+00:00",
       "imagen": ""
@@ -218,6 +416,15 @@
       "imagen": ""
     },
     {
+      "id": "efba89a940849660",
+      "titulo": "Accidente de bus en Huila deja ocho muertos y cerca de 20 heridos, según reporte preliminar",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/accidente-bus-cootranscaqueta-muertos-heridos-huila-JL43592975",
+      "fecha": "2026-11-14T13:57:26+00:00",
+      "imagen": ""
+    },
+    {
       "id": "827f4112b4ac3f1a",
       "titulo": "Portada 14 de noviembre del 2026",
       "categoria": "Colombia",
@@ -233,24 +440,6 @@
       "fuente": "Portafolio",
       "url": "https://www.portafolio.co/economia/gobierno/cambio-la-mesa-del-salario-minimo-los-nuevos-representantes-que-negociaran-con-de-la-espriella-506364",
       "fecha": "2026-11-14T13:50:02+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "efba89a940849660",
-      "titulo": "Accidente de bus en Huila deja ocho muertos y cerca de 20 heridos, según reporte preliminar",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/accidente-bus-cootranscaqueta-muertos-heridos-huila-JL43592975",
-      "fecha": "2026-11-14T13:44:35+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "9a4a2805d80a4113",
-      "titulo": "Accidente dejó 15 heridos y se verifica número de muertos en Huila: se trata de un bus que había salido de Florencia, Caquetá, con destino a Bogotá",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/accidente-dejo-15-heridos-y-se-verifica-numero-de-muertos-en-huila-se-trata-de-un-bus-que-habia-salido-de-florencia-caqueta-con-destino-a-bogota-3601064",
-      "fecha": "2026-11-14T13:38:00+00:00",
       "imagen": ""
     },
     {
@@ -326,15 +515,6 @@
       "imagen": ""
     },
     {
-      "id": "0c09343b281e8586",
-      "titulo": "Explosión en una mina de carbón en Chita, en el norte de Boyacá, deja al menos dos muertos: '¡Salgan de ahí, retírense de la bocamina!'",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/explosion-en-una-mina-de-carbon-en-chita-boyaca-deja-al-menos-dos-muertos-salgan-de-ahi-retirense-de-la-bocamina-3601061",
-      "fecha": "2026-11-14T13:11:47+00:00",
-      "imagen": ""
-    },
-    {
       "id": "db0c81a4e355ee8a",
       "titulo": "De la Espriella llega a sus primeros 100 días entre avances y desafíos",
       "categoria": "Colombia",
@@ -360,186 +540,6 @@
       "url": "https://www.lasillavacia.com/en-vivo/lo-que-dicen-bases-del-plan-nacional-de-desarrollo-sobre-la-amazonia-y-otras-noticias/",
       "fecha": "2026-11-14T13:00:00+00:00",
       "imagen": ""
-    },
-    {
-      "id": "c0d631b361f56ab1",
-      "titulo": "Alejandro Ordóñez: el teócrata en jefe",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/opinion/alejandro-ordonez-el-teocrata-en-jefe/",
-      "fecha": "2026-11-14T13:00:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "eea1347467d74884",
-      "titulo": "Tragedia en las vías del Huila: accidente deja 7 muertos y más de 20 heridos",
-      "categoria": "Colombia",
-      "fuente": "La FM Actualidad",
-      "url": "https://www.lafm.com.co/actualidad/tragico-accidente-vias-huila-ruta-45-muertos-heridos-417208",
-      "fecha": "2026-11-14T12:56:33+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "0d3860366be92a32",
-      "titulo": "Microsoft restableció sus servicios tras una falla que afectó a más de 70 países",
-      "categoria": "Tecnología",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/microsoft-restablecio-sus-servicios-tras-una-falla-que-afecto-a-mas-de-70-paises-4525135",
-      "fecha": "2026-11-14T12:47:56+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "c879a9444e3b0d18",
-      "titulo": "“Mucha gente tuvo que solucionar por su cuenta sus vuelos”: colombiana cuenta cómo vivieron las cancelaciones en EE. UU.",
-      "categoria": "Colombia",
-      "fuente": "La FM Internacional",
-      "url": "https://www.lafm.com.co/internacional/colombiana-relata-como-vivieron-las-cancelaciones-de-vuelos-en-eeuu-417207",
-      "fecha": "2026-11-14T12:45:10+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "4eceb1e1ca6aa755",
-      "titulo": "La izquierda de Petro: paraíso perdido",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/opinion/la-izquierda-de-petro-paraiso-perdido/",
-      "fecha": "2026-11-14T12:40:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "500abded4be0f142",
-      "titulo": "Microsoft restablece Outlook tras más de 24 horas de fallas: ¿qué provocó la caída del servicio?",
-      "categoria": "Tecnología",
-      "fuente": "La FM Internacional",
-      "url": "https://www.lafm.com.co/internacional/por-que-se-cayo-outlook-durante-mas-de-24-horas-417204",
-      "fecha": "2026-11-14T12:39:42+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "b411a4a96c637125",
-      "titulo": "EE.UU. levantó la suspensión de vuelos, pero los retrasos se extenderían este fin de semana",
-      "categoria": "Internacional",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/estados-unidos-levanto-la-suspension-de-vuelos-pero-los-retrasos-se-extenderian-durante-el-fin-de-semana-4525130",
-      "fecha": "2026-11-14T12:36:49+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "91eea73a514679e9",
-      "titulo": "Van 100, faltan 1.361",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/opinion/van-100-faltan-1-361/",
-      "fecha": "2026-11-14T12:35:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "7c02018cfe634600",
-      "titulo": "Cortes de agua y reparaciones de energía en Cali este sábado 14 de noviembre: conozca los barrios afectados",
-      "categoria": "Cali",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/cali/cortes-de-agua-y-reparaciones-de-energia-en-cali-este-sabado-14-de-noviembre-conozca-los-barrios-afectados-3601059",
-      "fecha": "2026-11-14T12:32:21+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "524827d4f85b4673",
-      "titulo": "España está dejando de beber todos los alcoholes que solía beber excepto uno: el tequila",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/magnet/plena-crisis-alcohol-espana-esta-viviendo-fiebre-tequila-su-segundo-mayor-mercado-internacional",
-      "fecha": "2026-11-14T12:31:22+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "646b840ef1d0bd2a",
-      "titulo": "Escándalos grandes y más grandes",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/opinion/escandalos-grandes-y-mas-grandes/",
-      "fecha": "2026-11-14T12:30:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "f0f987931733c31f",
-      "titulo": "Los momentos de la historia que más alteraron la estatura de los humanos",
-      "categoria": "Internacional",
-      "fuente": "BBC Mundo",
-      "url": "https://www.bbc.com/mundo/articles/cx4g1gnz1jmzo?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-14T12:08:23+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "ab4c35c4d42fcdfe",
-      "titulo": "Madrid supera a Ámsterdam y ya es el cuarto aeropuerto con más pasajeros de Europa",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/movilidad/madrid-ha-superado-a-amsterdam-cuarto-aeropuerto-pasajeros-europa",
-      "fecha": "2026-11-14T12:01:27+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "71fde29bb477c37e",
-      "titulo": "Aparece en un castro gallego una piedra de 2.000 años con un grabado cuyo significado sigue siendo un misterio",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/magnet/aparece-castro-gallego-piedra-2-000-anos-grabado-cuyo-significado-sigue-siendo-misterio",
-      "fecha": "2026-11-14T11:31:23+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "8e71994c3d87be1b",
-      "titulo": "Estados Unidos propuso en Abu Dabi que Ucrania ceda territorio a Rusia a cambio de su adhesión a la OTAN",
-      "categoria": "Internacional",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/estados-unidos-propuso-en-abu-dabi-que-ucrania-ceda-territorio-a-rusia-a-cambio-de-su-adhesión-a-la-otan/a-79947817?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-14T11:06:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "614d681dbb404a10",
-      "titulo": "Para construir la presa más alta del mundo, China ha colocado 27 espejos en una montaña contra el frío extremo",
-      "categoria": "Internacional",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/ingenieria-y-megaconstrucciones/para-construir-presa-alta-mundo-china-ha-colocado-27-espejos-montana-frio-extremo",
-      "fecha": "2026-11-14T11:01:24+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "77b264b0436e84ea",
-      "titulo": "Microsoft recupera Outlook más de 24 horas después: ya sabemos qué provocó la caída de sus servicios",
-      "categoria": "Tecnología",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/aplicaciones/microsoft-recupera-outlook-24-horas-despues-sabemos-que-provoco-caida-sus-servicios",
-      "fecha": "2026-11-14T10:35:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "f8e083e39861f7a0",
-      "titulo": "Una fila gigante de tanques Abrams avanza hasta donde alcanza la vista en EEUU. Su destino no es Ucrania, y lo que llega por mar es todavía más inquietante",
-      "categoria": "Internacional",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/magnet/fila-gigante-tanques-abrams-avanza-donde-alcanza-vista-eeuu-su-destino-no-ucrania-que-llega-mar-todavia-inquietante",
-      "fecha": "2026-11-14T10:31:20+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "177370b689453e24",
-      "titulo": "Temblor hoy en Colombia: reportan sismo en la madrugada de este sábado 14 de noviembre: epicentro, magnitud y profundidad",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/temblor-hoy-en-colombia-reportan-sismo-en-la-madrugada-de-este-sabado-14-de-noviembre-epicentro-magnitud-y-profundidad-3601051",
-      "fecha": "2026-11-14T10:28:22+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "38977b89147c7a88",
-      "titulo": "Qué se sabe sobre la suspensión de vuelos en EE.UU. más grande desde el 11S",
-      "categoria": "Internacional",
-      "fuente": "BBC Mundo",
-      "url": "https://www.bbc.com/mundo/articles/c5n4e274kdlro?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-14T10:10:50+00:00",
-      "imagen": ""
     }
   ],
   "estado_fuentes": [
@@ -553,7 +553,7 @@
       "nombre": "El Tiempo Cali",
       "url": "https://www.eltiempo.com/rss/colombia_cali.xml",
       "estado": "correcto",
-      "titulares": 7
+      "titulares": 8
     },
     {
       "nombre": "El Espectador",
@@ -596,7 +596,7 @@
       "nombre": "DW Español",
       "url": "https://rss.dw.com/rdf/rss-sp-all",
       "estado": "correcto",
-      "titulares": 21
+      "titulares": 22
     },
     {
       "nombre": "Xataka",
