@@ -1,5 +1,5 @@
 {
-  "ultima_actualizacion": "2026-11-14T21:16:58.953620+00:00",
+  "ultima_actualizacion": "2026-11-14T22:16:29.135621+00:00",
   "titulares_rss": [
     {
       "id": "226616e20d6cb4d5",
@@ -7,7 +7,97 @@
       "categoria": "Internacional",
       "fuente": "BBC Mundo",
       "url": "https://www.bbc.co.uk/mundo/live/c62e8kkl9rlrt?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-14T21:16:58.953620+00:00",
+      "fecha": "2026-11-14T22:16:29.135621+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "ecc8e5a4b34a71fe",
+      "titulo": "Edicto 2do. aviso María Librada Córdoba Velásquez",
+      "categoria": "Colombia",
+      "fuente": "Chocó 7 días",
+      "url": "https://choco7dias.com/edicto-2do-aviso-maria-librada-cordoba-velasquez/",
+      "fecha": "2026-11-14T22:03:12+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "1d5cb37827046337",
+      "titulo": "Colapso del sector de la aviación estadounidense se achaca a un router instalado por L3 Harris",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/globoeconomia/colapso-del-sector-de-la-aviacion-estadounidense-se-achaca-a-un-router-instalado-por-l3-harris-4525396",
+      "fecha": "2026-11-14T22:02:19+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "6c8d33b0a18e80f3",
+      "titulo": "Colombia buscará cerrar el año con otra victoria ante Chile",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/deportes/colombia-buscara-cerrar-el-ano-con-otra-victoria-ante-chile/",
+      "fecha": "2026-11-14T22:00:04+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "99edcba78c8c1cbe",
+      "titulo": "Un consejo comunitario en el Pacífico de Nariño se declaró en alerta humanitaria urgente: ‘Nos toca dejar todo botado’",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/cali/un-consejo-comunitario-en-el-pacifico-de-narino-se-declaro-en-alerta-humanitaria-urgente-nos-toca-dejar-todo-botado-3601156",
+      "fecha": "2026-11-14T21:55:14+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "477669e02b08d8cc",
+      "titulo": "Fallas en plataformas de la Dian frenan despachos y elevan costos del comercio exterior",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/economia/fallas-en-plataformas-de-la-dian-frenan-despachos-y-elevan-costos-del-comercio-exterior-4525392",
+      "fecha": "2026-11-14T21:54:21+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "6e3041e93f0daff3",
+      "titulo": "Starship de SpaceX supera con éxito su primer regreso a la tierra en instalaciones de Texas",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/globoeconomia/starship-de-spacex-se-acerca-al-final-de-su-decimoquinto-vuelo-de-prueba-e-intento-de-aterrizaje-de-regreso-4525386",
+      "fecha": "2026-11-14T21:35:09+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "b2b25381d7391ea2",
+      "titulo": "Criptomonedas sin declarar: Gobierno propone impuesto del 5% para ponerse al día con la Dian",
+      "categoria": "Colombia",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/criptomonedas-sin-declarar-gobierno-propone-impuesto-del-5-para-ponerse-al-dia-con-la-dian-506398",
+      "fecha": "2026-11-14T21:32:54+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "3a3f808ebde5ef90",
+      "titulo": "Salario mínimo de 2027: inflación y empleo preocupan a los expertos",
+      "categoria": "Economía",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/noticias/economia/salario-minimo-de-2027-inflacion-y-empleo-preocupan-a-los-expertos/",
+      "fecha": "2026-11-14T21:30:25+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "e26badcd0af256a8",
+      "titulo": "\"Las cortinas se pegaron al techo\": cómo sobreviví al desastre de San Juanico, la explosión que dejó 650 muertos en México en 1984",
+      "categoria": "Internacional",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/c93xe77lg73o?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-14T21:29:57+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "a7456a761d376920",
+      "titulo": "“¿Es porque se dejaron pillar?”: Cepeda y Ordóñez siguen agarrados y ya hablan de denuncias",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/es-porque-se-dejaron-pillar-cepeda-y-ordonez-siguen-agarrados-y-ya-hablan-de-denuncias-GB43606011",
+      "fecha": "2026-11-14T21:17:51+00:00",
       "imagen": ""
     },
     {
@@ -16,7 +106,7 @@
       "categoria": "Colombia",
       "fuente": "El Tiempo",
       "url": "https://www.eltiempo.com/colombia/otras-ciudades/el-presidente-abelardo-de-la-espriella-confirma-rescate-del-odontologo-secuestrado-brandon-fermin-olivares-en-cucuta-hay-tres-capturados-3601145",
-      "fecha": "2026-11-14T21:11:42+00:00",
+      "fecha": "2026-11-14T21:17:05+00:00",
       "imagen": ""
     },
     {
@@ -450,96 +540,6 @@
       "url": "https://www.xataka.com/ecologia-y-naturaleza/cuando-desierto-se-queda-corto-resulta-que-sequia-extrema-amenaza-supervivencia-cactus",
       "fecha": "2026-11-14T18:01:23+00:00",
       "imagen": ""
-    },
-    {
-      "id": "0dc9573b22e54bf4",
-      "titulo": "El PND de De la Espriella mezcla “capitalismo popular” y agenda religiosa",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/red-de-expertos/red-social/el-pnd-de-de-la-espriella-mezcla-capitalismo-popular-y-agenda-religiosa/",
-      "fecha": "2026-11-14T18:00:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "e44a6656e8e605b3",
-      "titulo": "Elon Musk afirma que Nvidia perderá acuerdos \"críticos\" sin Jensen Huang",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/elon-musk-afirma-que-nvidia-perdera-acuerdos-criticos-sin-jensen-huang-4525250",
-      "fecha": "2026-11-14T17:54:50+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "7d382fa6cd0c96f4",
-      "titulo": "“Otra vez me están envenenando”: los audios que dejó Alicia Graham, mamá de una de las niñas que murieron por talio",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/otra-vez-me-estan-envenenando-los-audios-que-dejo-alicia-graham-mama-de-una-de-las-ninas-que-murieron-por-talio-CL43599847",
-      "fecha": "2026-11-14T17:50:47+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "5666b704270240b5",
-      "titulo": "XM advierte que quedan 16 días para llenar los embalses antes del verano con El Niño",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/economia/xm-advierte-que-quedan-16-dias-para-llenar-los-embalses-antes-del-verano-con-el-nino-4525204",
-      "fecha": "2026-11-14T17:41:55+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "2ef1f1637b380287",
-      "titulo": "WhatsApp ya no servirá para consultas médicas en Colombia: así cambia la atención a los pacientes",
-      "categoria": "Colombia",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/gobierno/whatsapp-ya-no-servira-para-consultas-medicas-en-colombia-asi-cambia-la-atencion-a-los-pacientes-506383",
-      "fecha": "2026-11-14T17:35:07+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "789c095e90bc4219",
-      "titulo": "Videos | Ellos eran los cuatro obreros que murieron tras explosión en una mina en Boyacá: dos de los cuerpos están a unos 450 metros de profundidad",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/videos-ellos-eran-los-cuatro-obreros-que-murieron-tras-explosion-en-una-mina-en-boyaca-dos-de-los-cuerpos-estan-a-unos-450-metros-de-profundidad-3601108",
-      "fecha": "2026-11-14T17:32:53+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "a2d04a331f5866f8",
-      "titulo": "Ante el problema de las riadas, en parte de Valencia ya subvencionan hasta 500 euros por instalar barreras en la puerta de tu casa",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/magnet/problema-riadas-parte-valencia-subvencionan-500-euros-instalar-barreras-puerta-tu-casa",
-      "fecha": "2026-11-14T17:31:24+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "000560c2172d014c",
-      "titulo": "Asere, corillo o chuchaqui: las \"sopotocientas\" palabras nuevas que incorporó el Diccionario de la lengua española (y el enorme aporte de América Latina)",
-      "categoria": "Internacional",
-      "fuente": "BBC Mundo",
-      "url": "https://www.bbc.com/mundo/articles/crpdwq559d4qo?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-14T17:30:28+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "5dbff5cb4c03db49",
-      "titulo": "Retrasos en el Metro de Bogotá: esta es la razón, según el alcalde Galán, de por qué enfrenta su etapa más difícil",
-      "categoria": "Colombia",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/infraestructura/retrasos-en-el-metro-de-bogota-esta-es-la-razon-segun-el-alcalde-galan-de-por-que-enfrenta-su-etapa-mas-dificil-506381",
-      "fecha": "2026-11-14T17:30:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "13a7e0089be28f07",
-      "titulo": "🔴EN VIVO | Liga BetPlay 2026-II: hora y dónde ver la fecha que define los clasificados a cuadrangulares",
-      "categoria": "Deportes",
-      "fuente": "La FM Deportes",
-      "url": "https://www.lafm.com.co/deportes/en-vivo-liga-betplay-2026-ii-partidos-horarios-y-donde-ver-la-fecha-decisiva-417221",
-      "fecha": "2026-11-14T17:29:07+00:00",
-      "imagen": ""
     }
   ],
   "estado_fuentes": [
@@ -553,7 +553,7 @@
       "nombre": "El Tiempo Cali",
       "url": "https://www.eltiempo.com/rss/colombia_cali.xml",
       "estado": "correcto",
-      "titulares": 9
+      "titulares": 8
     },
     {
       "nombre": "El Espectador",
