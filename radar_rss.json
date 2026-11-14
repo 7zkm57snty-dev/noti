@@ -1,5 +1,5 @@
 {
-  "ultima_actualizacion": "2026-11-14T12:59:23.197428+00:00",
+  "ultima_actualizacion": "2026-11-14T13:57:35.846814+00:00",
   "titulares_rss": [
     {
       "id": "226616e20d6cb4d5",
@@ -7,7 +7,151 @@
       "categoria": "Internacional",
       "fuente": "BBC Mundo",
       "url": "https://www.bbc.co.uk/mundo/live/c62e8kkl9rlrt?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-14T12:59:23.197428+00:00",
+      "fecha": "2026-11-14T13:57:35.846814+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "9a4a2805d80a4113",
+      "titulo": "Accidente dejó 15 heridos y se verifica número de muertos en Huila: se trata de un bus que había salido de Florencia, Caquetá, con destino a Bogotá",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/accidente-dejo-15-heridos-y-se-verifica-numero-de-muertos-en-huila-se-trata-de-un-bus-que-habia-salido-de-florencia-caqueta-con-destino-a-bogota-3601064",
+      "fecha": "2026-11-14T13:38:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "25f9ca0c57159bea",
+      "titulo": "Icetex dará alivio de hasta el 100 % en intereses a deudores morosos",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/noticias/icetex-dara-alivio-de-hasta-el-100-en-intereses-a-deudores-morosos/",
+      "fecha": "2026-11-14T13:35:22+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "3be51e4f6c1ec761",
+      "titulo": "Italia multa a Meta con 887 millones de dólares por el acceso no autorizado a datos en dispositivos Android",
+      "categoria": "Economía",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/italia-multa-a-meta-con-887-millones-de-dólares-por-el-acceso-no-autorizado-a-datos-en-dispositivos-android/a-79948385?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-14T13:35:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "716e63ba7b6acbb6",
+      "titulo": "Congreso aprobó el presupuesto de 2027 con ahorro de US$132 millones",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/globoeconomia/congreso-aprobo-el-presupuesto-de-2027-con-ahorro-de-us-132-millones-4525150",
+      "fecha": "2026-11-14T13:31:44+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "dd4288f228ebad1a",
+      "titulo": "La energía solar ya produce más electricidad que todas las centrales nucleares del mundo juntas, cuando hace diez años apenas representaba el 1%",
+      "categoria": "Internacional",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/energia/energia-solar-produce-electricidad-que-todas-centrales-nucleares-mundo-juntas-cuando-hace-diez-anos-apenas-representaba-1",
+      "fecha": "2026-11-14T13:31:26+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "15577caada38c97b",
+      "titulo": "Empresarios proponen alternativas para ajustar la reforma tributaria",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/noticias/empresarios-proponen-alternativas-para-ajustar-la-reforma-tributaria/",
+      "fecha": "2026-11-14T13:27:32+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "bc19cf387a2bdd82",
+      "titulo": "Zelensky asegura que EE.UU. propuso a Ucrania ceder el Donbás a Rusia a cambio de ingresar en la OTAN",
+      "categoria": "Internacional",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/cm70244lv8e1o?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-14T13:22:21+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "ed04ef19f6ebc70e",
+      "titulo": "Fiscalía tomó decisión en investigación contra Álvaro Uribe por presunto soborno a testigos",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/noticias/fiscalia-tomo-decision-en-investigacion-contra-alvaro-uribe-por-presunto-soborno-a-testigos/",
+      "fecha": "2026-11-14T13:15:53+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "efba89a940849660",
+      "titulo": "Accidente de bus en Huila deja ocho muertos y cerca de 20 heridos, según reporte preliminar",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/accidente-bus-cootranscaqueta-muertos-heridos-huila-JL43592975",
+      "fecha": "2026-11-14T13:15:27+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "0c09343b281e8586",
+      "titulo": "Explosión en una mina de carbón en Chita, en el norte de Boyacá, deja al menos dos muertos: '¡Salgan de ahí, retírense de la bocamina!'",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/explosion-en-una-mina-de-carbon-en-chita-boyaca-deja-al-menos-dos-muertos-salgan-de-ahi-retirense-de-la-bocamina-3601061",
+      "fecha": "2026-11-14T13:11:47+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "1e679c237c4cc5b9",
+      "titulo": "Tensión en el oriente de Cali: reportan ataque con explosivos en la estación de Policía de Decepaz",
+      "categoria": "Cali",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/cali/tension-en-el-oriente-de-cali-lanzan-artefacto-explosivo-a-la-estacion-de-policia-de-decepaz-3601062",
+      "fecha": "2026-11-14T13:08:48+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "db0c81a4e355ee8a",
+      "titulo": "De la Espriella llega a sus primeros 100 días entre avances y desafíos",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/noticias/de-la-espriella-llega-a-sus-primeros-100-dias-entre-avances-y-desafios/",
+      "fecha": "2026-11-14T13:05:23+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "223741e0d74b40d6",
+      "titulo": "Noruega tiene 3.500 robots con IA armados con láser cazando piojos en sus granjas de salmón",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/ecologia-y-naturaleza/noruega-tiene-3-500-robots-ia-armados-laser-cazando-piojos-sus-granjas-salmon",
+      "fecha": "2026-11-14T13:01:28+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "dee3710b2d997db2",
+      "titulo": "Lo que dice el Plan Nacional de Desarrollo sobre la Amazonía y otras noticias",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/en-vivo/lo-que-dice-el-plan-nacional-de-desarrollo-sobre-la-amazonia-y-otras-noticias/",
+      "fecha": "2026-11-14T13:00:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "c0d631b361f56ab1",
+      "titulo": "Alejandro Ordóñez: el teócrata en jefe",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/opinion/alejandro-ordonez-el-teocrata-en-jefe/",
+      "fecha": "2026-11-14T13:00:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "eea1347467d74884",
+      "titulo": "Tragedia en las vías del Huila: accidente deja 7 muertos y más de 20 heridos",
+      "categoria": "Colombia",
+      "fuente": "La FM Actualidad",
+      "url": "https://www.lafm.com.co/actualidad/tragico-accidente-vias-huila-ruta-45-muertos-heridos-417208",
+      "fecha": "2026-11-14T12:56:33+00:00",
       "imagen": ""
     },
     {
@@ -20,12 +164,12 @@
       "imagen": ""
     },
     {
-      "id": "1e679c237c4cc5b9",
-      "titulo": "Tensión en el oriente de Cali: lanzan artefacto explosivo a la estación de Policía de Decepaz",
-      "categoria": "Cali",
-      "fuente": "El Tiempo Cali",
-      "url": "https://www.eltiempo.com/colombia/cali/tension-en-el-oriente-de-cali-lanzan-artefacto-explosivo-a-la-estacion-de-policia-de-decepaz-3601062",
-      "fecha": "2026-11-14T12:45:01+00:00",
+      "id": "c879a9444e3b0d18",
+      "titulo": "“Mucha gente tuvo que solucionar por su cuenta sus vuelos”: colombiana cuenta cómo vivieron las cancelaciones en EE. UU.",
+      "categoria": "Colombia",
+      "fuente": "La FM Internacional",
+      "url": "https://www.lafm.com.co/internacional/colombiana-relata-como-vivieron-las-cancelaciones-de-vuelos-en-eeuu-417207",
+      "fecha": "2026-11-14T12:45:10+00:00",
       "imagen": ""
     },
     {
@@ -290,6 +434,15 @@
       "imagen": ""
     },
     {
+      "id": "1df5b3e335385362",
+      "titulo": "La propiedad inmobiliaria, explicada en un libro",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/actualidad/la-propiedad-inmobiliaria-explicada-en-un-libro/",
+      "fecha": "2026-11-14T09:12:44+00:00",
+      "imagen": ""
+    },
+    {
       "id": "c94404e4870728a7",
       "titulo": "Sudán del Sur planea celebrar las primeras elecciones de su historia en febrero tras un nuevo retraso",
       "categoria": "Internacional",
@@ -362,183 +515,30 @@
       "imagen": ""
     },
     {
-      "id": "7e9c0fffadacf37e",
-      "titulo": "Encuentro de Luis Díaz y Christian González",
+      "id": "8467f1a407aaffd5",
+      "titulo": "Providencia se une para reconstruirse con un Bingo Navideño",
       "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/caja-fuerte/encuentro-de-luis-diaz-y-christian-gonzalez-4525107",
-      "fecha": "2026-11-14T05:59:47+00:00",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/actualidad/providencia-se-une-para-reconstruirse-con-un-bingo-navideno/",
+      "fecha": "2026-11-14T06:17:22+00:00",
       "imagen": ""
     },
     {
-      "id": "7a6b6f84045b06bb",
-      "titulo": "La amenaza de fumigación revitaliza la organización comunitaria",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/red-de-expertos/red-de-la-paz/la-amenaza-de-fumigacion-revitaliza-la-organizacion-comunitaria/",
-      "fecha": "2026-11-14T05:05:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "260ecb8d6f2c43e7",
-      "titulo": "Fallas en los servicios de Microsoft afectaron a 321 millones de usuarios",
-      "categoria": "Tecnología",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/fallas-en-los-servicios-de-microsoft-afectaron-a-321-millones-de-usuarios-4524217",
-      "fecha": "2026-11-14T05:04:55+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "98641659bcf94f2e",
-      "titulo": "Cómputo a crédito",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/analisis/javier-villamizar-500031/computo-a-credito-4524879",
-      "fecha": "2026-11-14T05:03:59+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "049848208933659e",
-      "titulo": "Masacre de Nova en Israel",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/analisis/francisco-barbosa-3943941/masacre-de-nova-en-israel-4524823",
-      "fecha": "2026-11-14T05:03:56+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "d669850b46e2d367",
-      "titulo": "Bogotá, Medellín y Bucaramanga, ciudades que lideran en competitividad",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/economia/bogota-medellin-y-bucaramanga-lideran-en-competitividad-4524917",
-      "fecha": "2026-11-14T05:02:55+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "8ae463e3da8ad64b",
-      "titulo": "Elecciones de medio término en Estados Unidos: después del tsunami azul, toca gobernar",
+      "id": "c2726a888893dc49",
+      "titulo": "Carlos Andrés Pérez, el campeón de Apía que llevará su talento al mundo",
       "categoria": "Internacional",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/analisis/jose-aristimuno-4320800/elecciones-de-medio-termino-en-estados-unidos-despues-del-tsunami-azul-toca-gobernar-4524839",
-      "fecha": "2026-11-14T05:02:41+00:00",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/deportes/carlos-andres-perez-el-campeon-de-apia-que-llevara-su-talento-al-mundo/",
+      "fecha": "2026-11-14T06:00:00+00:00",
       "imagen": ""
     },
     {
-      "id": "1b3e44bee7ab920d",
-      "titulo": "Deuda para dummies",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/analisis/jerome-sanabria-3850986/deuda-para-dummies-4524856",
-      "fecha": "2026-11-14T05:02:41+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "6813eab7a0c0412c",
-      "titulo": "¿Una nueva era nuclear? Qué oportunidades se abren para Colombia",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/analisis/park-sun-tae-3699318/una-nueva-era-nuclear-que-oportunidades-se-abren-para-colombia-4524835",
-      "fecha": "2026-11-14T05:02:36+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "c11ca5df062bc089",
-      "titulo": "Cinco de los 135 proyectos de la ‘Milagro Week’ buscan traer 50% del monto total esperado",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/economia/cinco-proyectos-de-la-milagro-week-traerian-50-del-monto-total-4524904",
-      "fecha": "2026-11-14T05:02:29+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "a01ecbaeb3bd623f",
-      "titulo": "Así es como Ecopetrol planea la reactivación de sus proyectos de fracking en Colombia",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/economia/ecopetrol-anuncia-que-reactivara-proyectos-de-fracking-en-colombia-4524897",
-      "fecha": "2026-11-14T05:02:21+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "207b28549cf4ee8d",
-      "titulo": "“La reconstrucción de Pereira puede llegar a costar alrededor de $13 billones, según cálculos”",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/economia/entrevista-con-mauricio-salazar-alcalde-de-pereira-sobre-el-fondo-milagro-y-los-fondos-para-la-reconstruccion-4524911",
-      "fecha": "2026-11-14T05:02:21+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "45a13088e1dfae9f",
-      "titulo": "¿Qué pasa con la reconstrucción en Pereira?",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/analisis/santiago-angel-rodriguez-3548824/que-pasa-con-la-reconstruccion-en-pereira-4524830",
-      "fecha": "2026-11-14T05:02:08+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "ba6f895e3a9a57f4",
-      "titulo": "Hacer las reglas",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/analisis/gustavo-moreno-montalvo-2565659/hacer-las-reglas-4524885",
-      "fecha": "2026-11-14T05:02:06+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "e9c16827bfb2e929",
-      "titulo": "Mercadeo y Navidad",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/analisis/carlos-fernando-villa-gomez-400403/mercadeo-y-navidad-4524891",
-      "fecha": "2026-11-14T05:02:05+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "b5120ac60f3adece",
-      "titulo": "¿Qué son los kidfluencers? Los pequeños que se toman la web y las redes sociales",
-      "categoria": "Tendencias",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/internet-economy/que-son-los-kidfluencers-los-pequenos-que-se-toman-la-web-y-las-redes-sociales-4525052",
-      "fecha": "2026-11-14T05:01:57+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "35f7f84c49274dde",
-      "titulo": "Analistas prevén que el precio del dólar llegue a un rango de $3.200 al cierre del año",
-      "categoria": "Economía",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/finanzas/analistas-preven-que-el-precio-del-dolar-llegue-a-un-rango-de-3-200-al-cierre-del-ano-4524748",
-      "fecha": "2026-11-14T05:01:55+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "4f5f1bc3bed47d20",
-      "titulo": "“En Proyecto Kinder hemos vendido cerca de $20.000 millones en nuestro primer año”",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/ocio/felipe-rodriguez-fundador-del-establecimiento-hablo-sobre-la-transformacion-del-negocio-las-ventas-cercanas-a-20-000-millones-durante-su-primer-ano-4523560",
-      "fecha": "2026-11-14T05:01:50+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "a1c63ad34415bfc0",
-      "titulo": "La universidad que piden los estudiantes: antes de decidir, escuchar",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/analisis/p-harold-castilla-devoz-2912463/la-universidad-que-piden-los-estudiantes-antes-de-decidir-escuchar-4524876",
-      "fecha": "2026-11-14T05:01:49+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "9183d1711468db83",
-      "titulo": "Las garantías que tiene un usuario para protegerse en caso de ser una víctima de espionaje",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/internet-economy/garantias-que-tiene-un-usuario-para-protegerse-en-caso-de-ser-una-victima-de-espionaje-4524857",
-      "fecha": "2026-11-14T05:01:48+00:00",
+      "id": "7d765860bf717cd7",
+      "titulo": "El capitán que levantó a Pereira y hoy conmueve al mundo",
+      "categoria": "Internacional",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/deportes/el-capitan-que-levanto-a-pereira-y-hoy-conmueve-al-mundo/",
+      "fecha": "2026-11-14T06:00:00+00:00",
       "imagen": ""
     }
   ],
@@ -553,7 +553,7 @@
       "nombre": "El Tiempo Cali",
       "url": "https://www.eltiempo.com/rss/colombia_cali.xml",
       "estado": "correcto",
-      "titulares": 3
+      "titulares": 5
     },
     {
       "nombre": "El Espectador",
@@ -655,9 +655,8 @@
     {
       "nombre": "El Diario — Pereira",
       "url": "https://www.eldiario.com.co/feed/",
-      "estado": "error",
-      "titulares": 0,
-      "detalle": "El feed no contiene entradas."
+      "estado": "correcto",
+      "titulares": 35
     },
     {
       "nombre": "Chocó 7 días",
