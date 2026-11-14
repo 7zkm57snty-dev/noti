@@ -1,5 +1,5 @@
 {
-  "ultima_actualizacion": "2026-11-14T08:11:33.410822+00:00",
+  "ultima_actualizacion": "2026-11-14T08:59:06.188321+00:00",
   "titulares_rss": [
     {
       "id": "226616e20d6cb4d5",
@@ -7,7 +7,25 @@
       "categoria": "Internacional",
       "fuente": "BBC Mundo",
       "url": "https://www.bbc.co.uk/mundo/live/c62e8kkl9rlrt?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-14T08:11:33.410822+00:00",
+      "fecha": "2026-11-14T08:59:06.188321+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "7ba70341255b413c",
+      "titulo": "Irán informa de tres petroleros incendiados por la explosión de minas marinas en el estrecho de Ormuz y renueva sus advertencias",
+      "categoria": "Internacional",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/irán-informa-de-tres-petroleros-incendiados-por-la-explosión-de-minas-marinas-en-el-estrecho-de-ormuz-y-renueva-sus-advertencias/a-79946984?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-14T08:32:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "28a5dd47ce027e61",
+      "titulo": "EEUU para todos los despegues durante cuatro horas y cancela más de 10.000 vuelos: lo que sabemos (y lo que no) del caos aéreo",
+      "categoria": "Internacional",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/movilidad/eeuu-para-todos-despegues-durante-cuatro-horas-cancela-6-000-vuelos-que-sabemos-que-no-caos-aereo",
+      "fecha": "2026-11-14T08:29:00+00:00",
       "imagen": ""
     },
     {
@@ -522,24 +540,6 @@
       "url": "https://www.eldiario.com.co/opinion/la-ley-de-rescate-economico-nos-plantea-un-reto-que-debemos-asumir-con-responsabilidad/",
       "fecha": "2026-11-14T05:00:07+00:00",
       "imagen": ""
-    },
-    {
-      "id": "16ca9f27a7a56b82",
-      "titulo": "Cuando la luz incomoda a la sombra",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/editorial/cuando-la-luz-incomoda-a-la-sombra/",
-      "fecha": "2026-11-14T05:00:05+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "e930a61347705822",
-      "titulo": "¿Por Qué Nos Enamoramos?",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/opinion/por-que-nos-enamoramos/",
-      "fecha": "2026-11-14T05:00:00+00:00",
-      "imagen": ""
     }
   ],
   "estado_fuentes": [
@@ -596,7 +596,7 @@
       "nombre": "DW Español",
       "url": "https://rss.dw.com/rdf/rss-sp-all",
       "estado": "correcto",
-      "titulares": 19
+      "titulares": 20
     },
     {
       "nombre": "Xataka",
@@ -661,8 +661,9 @@
     {
       "nombre": "Chocó 7 días",
       "url": "https://choco7dias.com/feed/",
-      "estado": "correcto",
-      "titulares": 10
+      "estado": "error",
+      "titulares": 0,
+      "detalle": "415 Client Error: Unsupported Media Type for url: https://choco7dias.com/feed/"
     },
     {
       "nombre": "La Patria — Caldas",
