@@ -1,5 +1,5 @@
 {
-  "ultima_actualizacion": "2026-11-14T17:45:14.130268+00:00",
+  "ultima_actualizacion": "2026-11-14T18:19:31.391311+00:00",
   "titulares_rss": [
     {
       "id": "226616e20d6cb4d5",
@@ -7,7 +7,43 @@
       "categoria": "Internacional",
       "fuente": "BBC Mundo",
       "url": "https://www.bbc.co.uk/mundo/live/c62e8kkl9rlrt?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-14T17:45:14.130268+00:00",
+      "fecha": "2026-11-14T18:19:31.391311+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "69fc259ebfcfc81f",
+      "titulo": "Obras en estación 16 y renovación de redes afectan el cronograma del metro de Bogotá",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/economia/obras-en-estacion-16-y-renovacion-de-redes-afectan-el-cronograma-del-metro-de-bogota-4525273",
+      "fecha": "2026-11-14T18:17:10+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "702fca39143d320e",
+      "titulo": "Cuando el desierto se queda corto: resulta que la sequía extrema amenaza la supervivencia del cactus",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/ecologia-y-naturaleza/cuando-desierto-se-queda-corto-resulta-que-sequia-extrema-amenaza-supervivencia-cactus",
+      "fecha": "2026-11-14T18:01:23+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "0dc9573b22e54bf4",
+      "titulo": "El PND de De la Espriella mezcla “capitalismo popular” y agenda religiosa",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/red-de-expertos/red-social/el-pnd-de-de-la-espriella-mezcla-capitalismo-popular-y-agenda-religiosa/",
+      "fecha": "2026-11-14T18:00:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "e44a6656e8e605b3",
+      "titulo": "Elon Musk afirma que Nvidia perderá acuerdos \"críticos\" sin Jensen Huang",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/globoeconomia/elon-musk-afirma-que-nvidia-perdera-acuerdos-criticos-sin-jensen-huang-4525250",
+      "fecha": "2026-11-14T17:54:50+00:00",
       "imagen": ""
     },
     {
@@ -17,6 +53,33 @@
       "fuente": "La República",
       "url": "https://www.larepublica.co/economia/xm-advierte-que-quedan-16-dias-para-llenar-los-embalses-antes-del-verano-con-el-nino-4525204",
       "fecha": "2026-11-14T17:41:55+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "74212aeb5d60ca0c",
+      "titulo": "De adolescente en el Eln a disidente y paramilitar: así se ocultaba 'Primo Gay', quien fingió su muerte y siguió pasos de su mamá y hermana capturadas",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/medellin/de-adolescente-en-el-eln-a-disidente-y-narcoparamilitar-el-prontuario-de-alias-primo-gay-quien-habia-fingido-su-muerte-y-traiciono-a-calarca-3601093",
+      "fecha": "2026-11-14T17:41:38+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "2ef1f1637b380287",
+      "titulo": "WhatsApp ya no servirá para consultas médicas en Colombia: así cambia la atención a los pacientes",
+      "categoria": "Colombia",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/gobierno/whatsapp-ya-no-servira-para-consultas-medicas-en-colombia-asi-cambia-la-atencion-a-los-pacientes-506383",
+      "fecha": "2026-11-14T17:35:07+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "789c095e90bc4219",
+      "titulo": "Videos | Ellos eran los cuatro obreros que murieron tras explosión en una mina en Boyacá: dos de los cuerpos están a unos 450 metros de profundidad",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/videos-ellos-eran-los-cuatro-obreros-que-murieron-tras-explosion-en-una-mina-en-boyaca-dos-de-los-cuerpos-estan-a-unos-450-metros-de-profundidad-3601108",
+      "fecha": "2026-11-14T17:32:53+00:00",
       "imagen": ""
     },
     {
@@ -38,21 +101,21 @@
       "imagen": ""
     },
     {
+      "id": "5dbff5cb4c03db49",
+      "titulo": "Retrasos en el Metro de Bogotá: esta es la razón, según el alcalde Galán, de por qué enfrenta su etapa más difícil",
+      "categoria": "Colombia",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/infraestructura/retrasos-en-el-metro-de-bogota-esta-es-la-razon-segun-el-alcalde-galan-de-por-que-enfrenta-su-etapa-mas-dificil-506381",
+      "fecha": "2026-11-14T17:30:00+00:00",
+      "imagen": ""
+    },
+    {
       "id": "13a7e0089be28f07",
       "titulo": "🔴EN VIVO | Liga BetPlay 2026-II: hora y dónde ver la fecha que define los clasificados a cuadrangulares",
       "categoria": "Deportes",
       "fuente": "La FM Deportes",
       "url": "https://www.lafm.com.co/deportes/en-vivo-liga-betplay-2026-ii-partidos-horarios-y-donde-ver-la-fecha-decisiva-417221",
       "fecha": "2026-11-14T17:29:07+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "789c095e90bc4219",
-      "titulo": "Videos | Ellos eran los cuatro obreros que murieron tras explosión en una mina en Boyacá: dos de los cuerpos están a unos 450 metros de profundidad",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/videos-ellos-eran-los-cuatro-obreros-que-murieron-tras-explosion-en-una-mina-en-boyaca-dos-de-los-cuerpos-estan-a-unos-450-metros-de-profundidad-3601108",
-      "fecha": "2026-11-14T17:28:56+00:00",
       "imagen": ""
     },
     {
@@ -75,7 +138,7 @@
     },
     {
       "id": "a6c4991f70cbdf17",
-      "titulo": "Venezuela prometió completar las reparaciones del oleoducto en Colombia para marzo.",
+      "titulo": "Venezuela prometió completar las reparaciones del oleoducto en Colombia para marzo",
       "categoria": "Internacional",
       "fuente": "La República",
       "url": "https://www.larepublica.co/globoeconomia/venezuela-prometio-completar-las-reparaciones-del-oleoducto-en-colombia-para-marzo-4525245",
@@ -251,15 +314,6 @@
       "fuente": "El Tiempo",
       "url": "https://www.eltiempo.com/colombia/cali/ofrecen-hasta-20-millones-por-los-responsables-del-atentado-con-explosivos-contra-la-estacion-de-policia-de-decepaz-en-el-oriente-de-cali-3601096",
       "fecha": "2026-11-14T16:28:18+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "74212aeb5d60ca0c",
-      "titulo": "De adolescente en el Eln a disidente y paramilitar: así se ocultaba 'Primo Gay', quien fingió su muerte y siguió pasos de su mamá y hermana capturadas",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/medellin/de-adolescente-en-el-eln-a-disidente-y-narcoparamilitar-el-prontuario-de-alias-primo-gay-quien-habia-fingido-su-muerte-y-traiciono-a-calarca-3601093",
-      "fecha": "2026-11-14T16:24:12+00:00",
       "imagen": ""
     },
     {
@@ -486,60 +540,6 @@
       "url": "https://www.eltiempo.com/colombia/otras-ciudades/gruas-reclamos-y-enfrentamientos-fuerte-pulso-entre-autoridades-y-comerciantes-por-el-espacio-publico-en-santa-marta-3601075",
       "fecha": "2026-11-14T14:35:00+00:00",
       "imagen": ""
-    },
-    {
-      "id": "1e679c237c4cc5b9",
-      "titulo": "Tensión en el oriente de Cali: reportan ataque con explosivos en la estación de Policía de Desepaz que dejó a una persona con aturdimiento",
-      "categoria": "Cali",
-      "fuente": "El Tiempo Cali",
-      "url": "https://www.eltiempo.com/colombia/cali/tension-en-el-oriente-de-cali-lanzan-artefacto-explosivo-a-la-estacion-de-policia-de-decepaz-3601062",
-      "fecha": "2026-11-14T14:34:09+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "fcc8fd316bec83af",
-      "titulo": "De hacer el cabra en YouTube a entrevistar al presidente del Gobierno de España: la evolución de Jordi Wild",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/magnet/hacer-cabra-youtube-a-entrevistar-al-presidente-gobierno-espana-evolucion-jordi-wild",
-      "fecha": "2026-11-14T14:30:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "fbe7e1ef5c81ff54",
-      "titulo": "Chocó: un día como hoy… 14 de noviembre",
-      "categoria": "Colombia",
-      "fuente": "Chocó 7 días",
-      "url": "https://choco7dias.com/choco-un-dia-como-hoy-14-de-noviembre/",
-      "fecha": "2026-11-14T14:22:01+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "74f353adf63b5288",
-      "titulo": "Cien días",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/opinion/cien-dias/",
-      "fecha": "2026-11-14T14:20:37+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "76d737df80cbd1bf",
-      "titulo": "CyberGhost adelanta su Black Friday: una de las mejores VPN sale ahora por 2,19 euros al mes con cuatro meses de regalo",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/seleccion/cyberghost-adelanta-su-black-friday-mejores-vpn-sale-ahora-2-19-euros-al-mes-cuatro-meses-regalo",
-      "fecha": "2026-11-14T14:15:29+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "ac3808f6eeb7f05a",
-      "titulo": "Liam Pearson-Noseworthy, profesor de ciencias del deporte: “Levantar pesas despacio no es siempre lo mejor”",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/medicina-y-salud/liam-pearson-noseworthy-profesor-ciencias-deporte-levantar-pesas-despacio-no-siempre-mejor",
-      "fecha": "2026-11-14T14:01:21+00:00",
-      "imagen": ""
     }
   ],
   "estado_fuentes": [
@@ -590,7 +590,7 @@
       "nombre": "BBC Mundo",
       "url": "https://feeds.bbci.co.uk/mundo/rss.xml",
       "estado": "correcto",
-      "titulares": 28
+      "titulares": 27
     },
     {
       "nombre": "DW Español",
