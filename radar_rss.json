@@ -1,5 +1,5 @@
 {
-  "ultima_actualizacion": "2026-11-14T07:10:30.114947+00:00",
+  "ultima_actualizacion": "2026-11-14T08:11:33.410822+00:00",
   "titulares_rss": [
     {
       "id": "226616e20d6cb4d5",
@@ -7,7 +7,25 @@
       "categoria": "Internacional",
       "fuente": "BBC Mundo",
       "url": "https://www.bbc.co.uk/mundo/live/c62e8kkl9rlrt?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-14T07:10:30.114947+00:00",
+      "fecha": "2026-11-14T08:11:33.410822+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "b6fd56cee68330de",
+      "titulo": "La Casa Blanca confirma la celebración de una cumbre inédita entre Donald Trump, Xi Jinping y Vladimir Putin la semana que viene",
+      "categoria": "Internacional",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/la-casa-blanca-confirma-la-celebración-de-una-cumbre-inédita-entre-donald-trump-xi-jinping-y-vladimir-putin-la-semana-que-viene/a-79946919?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-14T07:50:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "594622d88ae423bd",
+      "titulo": "Alcalde Galán expone desafíos de la etapa final de la Línea 1 del Metro de Bogotá",
+      "categoria": "Colombia",
+      "fuente": "La FM Actualidad",
+      "url": "https://www.lafm.com.co/actualidad/primera-linea-del-metro-registra-retos-en-tramo-final-417194",
+      "fecha": "2026-11-14T07:07:35+00:00",
       "imagen": ""
     },
     {
@@ -26,6 +44,33 @@
       "fuente": "Xataka",
       "url": "https://www.xataka.com/investigacion/cientificos-coinciden-personas-inteligentes-tambien-solitarias-culpa-evolucion",
       "fecha": "2026-11-14T06:31:21+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "8467f1a407aaffd5",
+      "titulo": "Providencia se une para reconstruirse con un Bingo Navideño",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/actualidad/providencia-se-une-para-reconstruirse-con-un-bingo-navideno/",
+      "fecha": "2026-11-14T06:17:22+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "c2726a888893dc49",
+      "titulo": "Carlos Andrés Pérez, el campeón de Apía que llevará su talento al mundo",
+      "categoria": "Internacional",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/deportes/carlos-andres-perez-el-campeon-de-apia-que-llevara-su-talento-al-mundo/",
+      "fecha": "2026-11-14T06:00:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "7d765860bf717cd7",
+      "titulo": "El capitán que levantó a Pereira y hoy conmueve al mundo",
+      "categoria": "Internacional",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/deportes/el-capitan-que-levanto-a-pereira-y-hoy-conmueve-al-mundo/",
+      "fecha": "2026-11-14T06:00:00+00:00",
       "imagen": ""
     },
     {
@@ -119,20 +164,20 @@
       "imagen": ""
     },
     {
-      "id": "207b28549cf4ee8d",
-      "titulo": "“La reconstrucción de Pereira puede llegar a costar alrededor de $13 billones, según cálculos”",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/economia/entrevista-con-mauricio-salazar-alcalde-de-pereira-sobre-el-fondo-milagro-y-los-fondos-para-la-reconstruccion-4524911",
-      "fecha": "2026-11-14T05:02:21+00:00",
-      "imagen": ""
-    },
-    {
       "id": "a01ecbaeb3bd623f",
       "titulo": "Así es como Ecopetrol planea la reactivación de sus proyectos de fracking en Colombia",
       "categoria": "Colombia",
       "fuente": "La República",
       "url": "https://www.larepublica.co/economia/ecopetrol-anuncia-que-reactivara-proyectos-de-fracking-en-colombia-4524897",
+      "fecha": "2026-11-14T05:02:21+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "207b28549cf4ee8d",
+      "titulo": "“La reconstrucción de Pereira puede llegar a costar alrededor de $13 billones, según cálculos”",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/economia/entrevista-con-mauricio-salazar-alcalde-de-pereira-sobre-el-fondo-milagro-y-los-fondos-para-la-reconstruccion-4524911",
       "fecha": "2026-11-14T05:02:21+00:00",
       "imagen": ""
     },
@@ -344,201 +389,156 @@
       "imagen": ""
     },
     {
-      "id": "7dc9a164034de11a",
-      "titulo": "Sexto aniversario luctuoso",
+      "id": "dc5f744eee4394a0",
+      "titulo": "León XIV: las razones del fervor",
       "categoria": "Colombia",
-      "fuente": "La Patria — Caldas",
-      "url": "https://www.lapatria.com/galerias/sexto-aniversario-luctuoso",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/opinion/leon-xiv-las-razones-del-fervor/",
+      "fecha": "2026-11-14T05:00:58+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "8e73fc4e3e4c73be",
+      "titulo": "Hallan un arsenal del Clan del Golfo",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/judicial/hallan-un-arsenal-del-clan-del-golfo/",
+      "fecha": "2026-11-14T05:00:51+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "c36b2aa7502045c1",
+      "titulo": "Un accidente apagó sus sueños",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/judicial/un-accidente-apago-sus-suenos/",
+      "fecha": "2026-11-14T05:00:49+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "9b6a3c456d453029",
+      "titulo": "Profesores heridos tras fuerte choque",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/judicial/profesores-heridos-tras-fuerte-choque/",
+      "fecha": "2026-11-14T05:00:47+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "3442077d228dec79",
+      "titulo": "Los drogaban, les robaban las motos y la plata",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/judicial/los-drogaban-les-robaban-las-motos-y-la-plata/",
+      "fecha": "2026-11-14T05:00:44+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "98ebb5479ecb65a7",
+      "titulo": "Quiso dispararle al atacante de su amigo y mató a una mujer",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/judicial/quiso-dispararle-al-atacante-de-su-amigo-y-mato-a-una-mujer/",
+      "fecha": "2026-11-14T05:00:43+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "9739577b9dec126d",
+      "titulo": "LA SALUD NO PUEDE SEGUIR ESPERANDO",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/opinion/la-salud-no-puede-seguir-esperando/",
+      "fecha": "2026-11-14T05:00:33+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "8c2935035d577080",
+      "titulo": "La JEP: hostil con las víctimas y críticos, y blandos con los victimarios",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/opinion/la-jep-hostil-con-las-victimas-y-criticos-y-blandos-con-los-victimarios/",
+      "fecha": "2026-11-14T05:00:25+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "9019ed4ae12b68ca",
+      "titulo": "¿Qué pretende ocultar la reconstrucción de Pereira?",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/opinion/765094/",
+      "fecha": "2026-11-14T05:00:19+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "9bc74a8f176c830d",
+      "titulo": "¡La hora de COMFAMILIAR!",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/opinion/la-hora-de-comfamiliar/",
+      "fecha": "2026-11-14T05:00:16+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "f00b1e761dae9886",
+      "titulo": "Contra la mermelada",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/editorial/contra-la-mermelada/",
+      "fecha": "2026-11-14T05:00:16+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "afecd48454b5e2f4",
+      "titulo": "Murió tras ataque con machete",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/judicial/murio-tras-ataque-con-machete/",
+      "fecha": "2026-11-14T05:00:11+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "53f19ed498510492",
+      "titulo": "Identificaron a la mujer arrollada por un camión",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/judicial/identificaron-a-la-mujer-arrollada-por-un-camion/",
+      "fecha": "2026-11-14T05:00:09+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "25a8203f8cdf84e6",
+      "titulo": "Dosquebradas se construye con pequeños compromisos",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/opinion/dosquebradas-se-construye-con-pequenos-compromisos/",
+      "fecha": "2026-11-14T05:00:07+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "65390f8fae147ecd",
+      "titulo": "Un rescate que cuide las finanzas y la mesa de los hogares",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/opinion/la-ley-de-rescate-economico-nos-plantea-un-reto-que-debemos-asumir-con-responsabilidad/",
+      "fecha": "2026-11-14T05:00:07+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "16ca9f27a7a56b82",
+      "titulo": "Cuando la luz incomoda a la sombra",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/editorial/cuando-la-luz-incomoda-a-la-sombra/",
+      "fecha": "2026-11-14T05:00:05+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "e930a61347705822",
+      "titulo": "¿Por Qué Nos Enamoramos?",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/opinion/por-que-nos-enamoramos/",
       "fecha": "2026-11-14T05:00:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "937c180ccd7295a0",
-      "titulo": "Reconocimientos en la Asamblea de Caldas",
-      "categoria": "Colombia",
-      "fuente": "La Patria — Caldas",
-      "url": "https://www.lapatria.com/galerias/reconocimientos-en-la-asamblea-de-caldas-1",
-      "fecha": "2026-11-14T05:00:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "26c0e425fd89a549",
-      "titulo": "Autorizan de nuevo el despegue de aviones en EE.UU. tras la falla que obligó a suspender durante horas los vuelos en todo el país",
-      "categoria": "Internacional",
-      "fuente": "BBC Mundo",
-      "url": "https://www.bbc.com/mundo/articles/crgqx8jpw3jvo?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-14T04:45:54+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "393494c62c56dd6a",
-      "titulo": "Homecenter y otras empresas privadas entregaron 22 viviendas a familias afectadas por el terremoto en el Chocó",
-      "categoria": "Economía",
-      "fuente": "Chocó 7 días",
-      "url": "https://choco7dias.com/homecenter-y-otras-empresas-privadas-entregaron-22-viviendas-a-familias-afectadas-por-el-terremoto-en-el-choco/",
-      "fecha": "2026-11-14T04:34:08+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "4a0b91ef245fe7c5",
-      "titulo": "Arte contra la tragedia: la ingeniosa apuesta de Roldanillo para revivir sus fachadas y rescatar el comercio y el turismo",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/cali/arte-contra-la-tragedia-la-ingeniosa-apuesta-de-roldanillo-para-revivir-sus-fachadas-y-rescatar-el-comercio-y-el-turismo-3601038",
-      "fecha": "2026-11-14T04:07:33+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "31a69d5940d64c33",
-      "titulo": "Hoy No Circula sabatino: qué autos pueden circular y cuáles descansan el 14 de noviembre",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/mexico/hoy-no-circula-sabatino-que-autos-pueden-circular-cuales-descansan-14-noviembre",
-      "fecha": "2026-11-14T04:01:20+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "ed60217374cee403",
-      "titulo": "“No importa cuántas veces uno se cae, sino lo que aprende cuando se levanta”",
-      "categoria": "Colombia",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/reinventarse-para-seguir/hugo-andres-lopez-fisco-la-ruta-invisible-emprendimiento-cali/",
-      "fecha": "2026-11-14T04:00:44+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "4ba359c32cd8cde0",
-      "titulo": "Docente de la UTCH participa en encuentro clave de justicia laboral convocado por la OIT y la Corte Suprema",
-      "categoria": "Colombia",
-      "fuente": "Chocó 7 días",
-      "url": "https://choco7dias.com/docente-de-la-utch-participa-en-encuentro-clave-de-justicia-laboral-convocado-por-la-oit-y-la-corte-suprema/",
-      "fecha": "2026-11-14T03:48:55+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "b2239193722583e2",
-      "titulo": "Estados Unidos reanuda el tráfico aéreo después de un parón de más de cuatro horas y 6.000 vuelos cancelados",
-      "categoria": "Internacional",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/us/2026-11-14/estados-unidos-reanuda-el-trafico-aereo-despues-de-un-paron-de-mas-de-cuatro-horas-y-6000-vuelos-cancelados.html",
-      "fecha": "2026-11-14T03:29:07+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "06ec95767fc09ff8",
-      "titulo": "Soacha se abre a nuevas industrias y tendrán tres vías de entrada y salida",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/gobierno/soacha-se-abre-a-nuevas-industrias-y-tendran-tres-vias-de-entrada-y-salida-506362",
-      "fecha": "2026-11-14T03:15:26+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "44e515171033fb45",
-      "titulo": "Un inflexible Putin eleva sus exigencias para alcanzar la paz con Ucrania",
-      "categoria": "Internacional",
-      "fuente": "BBC Mundo",
-      "url": "https://www.bbc.com/mundo/articles/crn80jqyw993o?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-14T03:06:55+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "20ca03b0d5f8fadb",
-      "titulo": "Estados Unidos levanta suspensión de vuelos tras horas de caos aéreo",
-      "categoria": "Internacional",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/estados-unidos-levanta-suspensión-de-vuelos-tras-horas-de-caos-aéreo/a-79946394?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-14T02:49:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "34826d07142df548",
-      "titulo": "Gobierno anuncia millonaria inversión para vías y obras en Córdoba",
-      "categoria": "Colombia",
-      "fuente": "La FM Actualidad",
-      "url": "https://www.lafm.com.co/actualidad/presidente-ordena-iniciar-obras-clave-en-cordoba-417191",
-      "fecha": "2026-11-14T02:42:53+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "40a4075a6d3e57f2",
-      "titulo": "“La moda dejó de ser un adorno para convertirse en una industria que genera empleo”: Guio Di Colombia",
-      "categoria": "Economía",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/reinventarse-para-seguir/moda-en-el-valle-del-cauca-empleos-guio-di-colombia-cali-distrito-moda/",
-      "fecha": "2026-11-14T02:42:04+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "b4c08146542c37f4",
-      "titulo": "Madre teme que expolicía señalado de asesinar a su hijo quede en libertad: fue testigo del crimen",
-      "categoria": "Colombia",
-      "fuente": "La FM Actualidad",
-      "url": "https://www.lafm.com.co/actualidad/expolicia-senalado-asesinar-amigo-gerson-chaparro-podria-quedar-libre-417190",
-      "fecha": "2026-11-14T02:33:39+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "470e07605c038e8d",
-      "titulo": "Akira Detalles para Brillar: cuando reinventarse significa encender una nueva oportunidad",
-      "categoria": "Colombia",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/reinventarse-para-seguir/velas-artesanales-en-palmira-akira-detalles-para-brillar-emprendimiento/",
-      "fecha": "2026-11-14T02:30:38+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "92fe36ec85d5a227",
-      "titulo": "Fundación Sarmiento Angulo destina $50.000 millones para proyectos viales del Chocó tras el sismo del 10 de agosto",
-      "categoria": "Colombia",
-      "fuente": "Chocó 7 días",
-      "url": "https://choco7dias.com/fundacion-sarmiento-angulo-destina-50-000-millones-para-proyectos-viales-del-choco-tras-el-sismo-del-10-de-agosto/",
-      "fecha": "2026-11-14T02:23:35+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "8e1e75d9aef0ff14",
-      "titulo": "El papa León XIV llegó a Chiclayo, la ciudad que fue su casa durante más de ocho años",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/el-papa-leon-xiv-llego-a-chiclayo-la-ciudad-que-fue-su-casa-durante-mas-de-ocho-anos-4524967",
-      "fecha": "2026-11-14T02:18:25+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "f0843926a84f169c",
-      "titulo": "Colombia venció por la mínima a Chile y se llevó el triunfo en el Pascual Guerrero",
-      "categoria": "Colombia",
-      "fuente": "La FM Deportes",
-      "url": "https://www.lafm.com.co/deportes/colombia-vencio-chile-minima-llevo-triunfo-pascual-guerrero-417180",
-      "fecha": "2026-11-14T02:12:35+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "402766b41448cb96",
-      "titulo": "Gobierno abre mesas de diálogo para discutir Ley de Rescate con gremios y congresistas",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/economia/gobierno-abre-mesas-de-dialogo-con-gremios-y-congresistas-para-discutir-la-ley-de-rescate-4524961",
-      "fecha": "2026-11-14T02:11:33+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "c9fb93559a4bf5c7",
-      "titulo": "De la Espriella designa al exministro Luis Felipe Henao como nuevo gerente del Fondo Milagro",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/america-colombia/2026-11-14/de-la-espriella-designa-al-exministro-luis-felipe-henao-como-nuevo-gerente-del-fondo-milagro.html",
-      "fecha": "2026-11-14T02:09:34+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "7bf277892babcea8",
-      "titulo": "El espacio aéreo de EE. UU. está abierto de nuevo",
-      "categoria": "Internacional",
-      "fuente": "La FM Internacional",
-      "url": "https://www.lafm.com.co/internacional/estados-unidos-abrio-su-espacio-aereo-417189",
-      "fecha": "2026-11-14T02:00:37+00:00",
       "imagen": ""
     }
   ],
@@ -655,9 +655,8 @@
     {
       "nombre": "El Diario — Pereira",
       "url": "https://www.eldiario.com.co/feed/",
-      "estado": "error",
-      "titulares": 0,
-      "detalle": "El feed no contiene entradas."
+      "estado": "correcto",
+      "titulares": 35
     },
     {
       "nombre": "Chocó 7 días",
