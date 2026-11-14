@@ -1,5 +1,5 @@
 {
-  "ultima_actualizacion": "2026-11-14T01:46:52.689548+00:00",
+  "ultima_actualizacion": "2026-11-14T02:58:43.579665+00:00",
   "titulares_rss": [
     {
       "id": "226616e20d6cb4d5",
@@ -7,16 +7,142 @@
       "categoria": "Internacional",
       "fuente": "BBC Mundo",
       "url": "https://www.bbc.co.uk/mundo/live/c62e8kkl9rlrt?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-14T01:46:52.689548+00:00",
+      "fecha": "2026-11-14T02:58:43.579665+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "0ef29e1ebe4c0ace",
+      "titulo": "Estados Unidos reanuda despegues de aviones tras fallo que suspendió vuelos",
+      "categoria": "Internacional",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/estados-unidos-reanuda-despegues-de-aviones-tras-fallo-que-suspendió-vuelos/a-79946394?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-14T02:49:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "b5bcb0000e7d4bec",
+      "titulo": "La cancelación de vuelos en Estados Unidos, en vivo | Estados Unidos levanta la suspensión de vuelos tras más de cuatro horas de paro total",
+      "categoria": "Internacional",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/us/2026-11-13/la-suspension-de-vuelos-en-estados-unidos-en-vivo.html",
+      "fecha": "2026-11-14T02:47:51+00:00",
       "imagen": ""
     },
     {
       "id": "26c0e425fd89a549",
-      "titulo": "La autoridad de aviación de EE.UU. ordena suspender los vuelos en todo el país \"por circunstancias extraordinarias\" relacionadas con las comunicaciones",
+      "titulo": "Autorizan de nuevo el despegue de aviones en EE.UU. tras la falla que obligó a suspender durante horas los vuelos en todo el país",
       "categoria": "Internacional",
       "fuente": "BBC Mundo",
       "url": "https://www.bbc.com/mundo/articles/crgqx8jpw3jvo?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-14T01:46:18+00:00",
+      "fecha": "2026-11-14T02:43:14+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "b4c08146542c37f4",
+      "titulo": "Madre teme que expolicía señalado de asesinar a su hijo quede en libertad: fue testigo del crimen",
+      "categoria": "Colombia",
+      "fuente": "La FM Actualidad",
+      "url": "https://www.lafm.com.co/actualidad/expolicia-senalado-asesinar-amigo-gerson-chaparro-podria-quedar-libre-417190",
+      "fecha": "2026-11-14T02:33:39+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "92fe36ec85d5a227",
+      "titulo": "Fundación Sarmiento Angulo destina $50.000 millones para proyectos viales del Chocó tras el sismo del 10 de agosto",
+      "categoria": "Colombia",
+      "fuente": "Chocó 7 días",
+      "url": "https://choco7dias.com/fundacion-sarmiento-angulo-destina-50-000-millones-para-proyectos-viales-del-choco-tras-el-sismo-del-10-de-agosto/",
+      "fecha": "2026-11-14T02:23:35+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "2cd9463961f194dc",
+      "titulo": "Colombia venció a Chile en Cali y comenzó con triunfo la fecha FIFA",
+      "categoria": "Cali",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/noticias/colombia-vencio-a-chile-en-cali-y-comenzo-con-triunfo-la-fecha-fifa/",
+      "fecha": "2026-11-14T02:19:25+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "8e1e75d9aef0ff14",
+      "titulo": "El papa León XIV llegó a Chiclayo, la ciudad que fue su casa durante más de ocho años",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/globoeconomia/el-papa-leon-xiv-llego-a-chiclayo-la-ciudad-que-fue-su-casa-durante-mas-de-ocho-anos-4524967",
+      "fecha": "2026-11-14T02:18:25+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "f0843926a84f169c",
+      "titulo": "Colombia venció por la mínima a Chile y se llevó el triunfo en el Pascual Guerrero",
+      "categoria": "Colombia",
+      "fuente": "La FM Deportes",
+      "url": "https://www.lafm.com.co/deportes/colombia-vencio-chile-minima-llevo-triunfo-pascual-guerrero-417180",
+      "fecha": "2026-11-14T02:12:35+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "402766b41448cb96",
+      "titulo": "Gobierno abre mesas de diálogo con gremios y congresistas para discutir la Ley de Rescate",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/economia/gobierno-abre-mesas-de-dialogo-con-gremios-y-congresistas-para-discutir-la-ley-de-rescate-4524961",
+      "fecha": "2026-11-14T02:11:33+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "c9fb93559a4bf5c7",
+      "titulo": "De la Espriella designa al exministro Luis Felipe Henao como nuevo gerente del Fondo Milagro",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/america-colombia/2026-11-14/de-la-espriella-designa-al-exministro-luis-felipe-henao-como-nuevo-gerente-del-fondo-milagro.html",
+      "fecha": "2026-11-14T02:09:34+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "ae63c22ff92bfecb",
+      "titulo": "Gobierno, con Fondes, cofinanciará 50% de los estudios de la línea 4 del Metro de Bogotá",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/economia/estudios-de-la-linea-4-del-metro-de-bogota-4524952",
+      "fecha": "2026-11-14T02:01:32+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "7bf277892babcea8",
+      "titulo": "El espacio aéreo de EE. UU. está abierto de nuevo",
+      "categoria": "Internacional",
+      "fuente": "La FM Internacional",
+      "url": "https://www.lafm.com.co/internacional/estados-unidos-abrio-su-espacio-aereo-417189",
+      "fecha": "2026-11-14T02:00:37+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "71c188988052b75e",
+      "titulo": "Starship de SpaceX entra en órbita terrestre pero descarta captura del propulsor",
+      "categoria": "Internacional",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/starship-de-spacex-entra-en-órbita-terrestre-pero-descarta-captura-del-propulsor/a-79946216?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-14T01:57:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "02c02aa5ef28f917",
+      "titulo": "Trump se reunirá con Xi y Putin el 19 de noviembre en China para mantener conversaciones",
+      "categoria": "Internacional",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/globoeconomia/trump-se-reunira-con-xi-y-putin-el-19-de-noviembre-en-china-para-mantener-conversaciones-4524946",
+      "fecha": "2026-11-14T01:56:51+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "e13bb5a1d59cb6df",
+      "titulo": "Avianca permitirá a pasajeros con vuelos desde y hacia Estados Unidos cambiar fecha de viaje",
+      "categoria": "Internacional",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/empresas/cambio-de-fechas-de-vuelos-de-avianca-hacia-y-desde-estados-unidos-4524945",
+      "fecha": "2026-11-14T01:53:33+00:00",
       "imagen": ""
     },
     {
@@ -25,7 +151,25 @@
       "categoria": "Colombia",
       "fuente": "El Colombiano — Colombia",
       "url": "https://www.elcolombiano.com/colombia/luis-felipe-henao-nuevo-gerente-fondo-milagro-renuncia-jaime-uribe-PK43589798",
-      "fecha": "2026-11-14T01:39:35+00:00",
+      "fecha": "2026-11-14T01:49:48+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "0d16a05930788b20",
+      "titulo": "Luis Felipe Henao asumirá la gerencia del Fondo Milagro tras salida de Jaime Uribe",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/actualidad/luis-felipe-henao-asumira-la-gerencia-del-fondo-milagro-tras-salida-de-jaime-uribe/",
+      "fecha": "2026-11-14T01:49:16+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "481080338879965f",
+      "titulo": "Luis Felipe Henao, exministro de Vivienda y directivo de Ecopetrol, llega a la gerencia del Fondo Milagro",
+      "categoria": "Economía",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/gobierno/luis-felipe-henao-exministro-de-vivienda-y-directivo-de-ecopetrol-llega-a-la-gerencia-del-fondo-milagro-506360",
+      "fecha": "2026-11-14T01:45:47+00:00",
       "imagen": ""
     },
     {
@@ -48,7 +192,7 @@
     },
     {
       "id": "433db0cb2b2f2278",
-      "titulo": "Presidente De La Espriella designa a Luis Felipe Henao como gerente del Fondo Milagro",
+      "titulo": "De La Espriella designa a Luis Felipe Henao como el nuevo gerente del Fondo Milagro",
       "categoria": "Colombia",
       "fuente": "La República",
       "url": "https://www.larepublica.co/economia/presidente-de-la-espriella-designo-a-luis-felipe-henao-como-gerente-del-fondo-milagro-4524924",
@@ -74,12 +218,21 @@
       "imagen": ""
     },
     {
-      "id": "67159553598f6976",
-      "titulo": "La suspensión de miles de vuelos colapsa los aeropuertos de Estados Unidos",
-      "categoria": "Internacional",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/us/2026-11-13/la-faa-ordena-una-suspension-nacional-de-los-vuelos-debido-a-circunstancias-extraordinarias-y-motivos-de-seguridad.html",
-      "fecha": "2026-11-14T00:50:48+00:00",
+      "id": "0a1506887bc792c0",
+      "titulo": "Adopta un Hogar, programa de Grupo Argos y Nicky Jam, construirá 92 viviendas en Chocó",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/empresas/adopta-un-hogar-programa-de-grupo-argos-y-nicky-jam-construira-92-viviendas-en-choco-4524773",
+      "fecha": "2026-11-14T01:15:24+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "2825c243b090e77f",
+      "titulo": "Honor 600 Elite llega a Colombia con batería de 8.100 mAh y cámara de 108 MP",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/empresas/honor-600-elite-llega-a-colombia-con-bateria-de-8-100-mah-y-camara-de-108-mp-4524845",
+      "fecha": "2026-11-14T01:00:41+00:00",
       "imagen": ""
     },
     {
@@ -386,159 +539,6 @@
       "fuente": "Diario Occidente",
       "url": "https://occidente.co/opinion/columnistas/joaquin-vanin-tello-2/",
       "fecha": "2026-11-13T22:39:02+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "43b7f902a5b0f2f1",
-      "titulo": "Semana no publicó este chat entre Petro y Deicy Jiménez: fue hecho con IA",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/detector-de-mentiras/falso/semana-no-publico-este-chat-entre-petro-y-deicy-jimenez-fue-hecho-con-ia/",
-      "fecha": "2026-11-13T22:37:53+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "92aa96ac1d56df64",
-      "titulo": "Littio lanza 'Plan Remoto' para gestionar ingresos internacionales sin cuotas de suscripción",
-      "categoria": "Internacional",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/finanzas/littio-lanza-plan-remoto-para-gestionar-ingresos-internacionales-sin-cuotas-de-suscripcion-4524519",
-      "fecha": "2026-11-13T22:37:37+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "e739268a6db6d4f0",
-      "titulo": "Día Mundial de la Prematuridad 2026: estos son los cuidados que necesitan los bebés prematuros después de salir del hospital",
-      "categoria": "Deportes",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/internacionales/dia-mundial-de-la-prematuridad-2026-ops-cuidados-bebes-prematuros/",
-      "fecha": "2026-11-13T22:34:22+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "823183b5c8ba302e",
-      "titulo": "Nuestro Bogotá encenderá la Navidad con conciertos y experiencias familiares",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/ocio/nuestro-bogota-encendera-la-navidad-con-conciertos-y-experiencias-familiares-4524746",
-      "fecha": "2026-11-13T22:33:16+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "ab752d03b9026711",
-      "titulo": "100 días + de 100 milagros: el golpe de opinión que prepara el gobierno",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/en-vivo/100-dias-de-100-milagros-el-golpe-de-opinion-que-prepara-el-gobierno/",
-      "fecha": "2026-11-13T22:32:30+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "651e49428e97fdaf",
-      "titulo": "Renault Kwid cambió mucho más de lo que parece",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/comunidad-empresarial/contenido-patrocinado/que-cambio-en-el-nuevo-renault-kwid-mucho-mas-de-lo-que-parece-4524644",
-      "fecha": "2026-11-13T22:30:59+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "c566ce3bd76a7289",
-      "titulo": "¿Es momento de vender, mantener o comprar acciones de Nvidia?",
-      "categoria": "Economía",
-      "fuente": "La FM Economía",
-      "url": "https://www.lafm.com.co/economia/es-momento-vender-mantener-comprar-acciones-nvidia-417174",
-      "fecha": "2026-11-13T22:30:21+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "187590adff5a623e",
-      "titulo": "Dos sentencias responsabilizan a la Nación por desplazamientos de comunidades indígenas en Chocó",
-      "categoria": "Colombia",
-      "fuente": "Chocó 7 días",
-      "url": "https://choco7dias.com/dos-sentencias-responsabilizan-a-la-nacion-por-desplazamientos-de-comunidades-indigenas-en-choco/",
-      "fecha": "2026-11-13T22:29:30+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "ae2fe1a2624ff2ce",
-      "titulo": "Pico y placa en el kilómetro 18 de Cali este lunes festivo 16 de noviembre: conozca los horarios de ingreso según su placa",
-      "categoria": "Cali",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/cali/movilidad-en-el-kilometro-18-horarios-placa-lunes-festivo-cali-2026/",
-      "fecha": "2026-11-13T22:24:53+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "953e279ae25a6e2c",
-      "titulo": "'Cuando las voluntades se unen, tenemos la capacidad de levantarnos': la Fundación Sarmiento Angulo dona $ 87 mil millones para reconstruir el Valle",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/cali/cuando-las-voluntades-se-unen-tenemos-la-capacidad-de-levantarnos-la-fundacion-sarmiento-angulo-dona-87-mil-millones-para-reconstruir-el-valle-3600953",
-      "fecha": "2026-11-13T22:19:15+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "75b42202244770da",
-      "titulo": "Hospitales, colegios y vías: así se distribuyen los $200.000 millones que donó Sarmiento Angulo tras el terremoto",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/gobierno/hospitales-colegios-y-vias-asi-se-distribuyen-los-200-000-millones-que-dono-sarmiento-angulo-tras-el-terremoto-506341",
-      "fecha": "2026-11-13T22:16:23+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "cce3f5030a35ac28",
-      "titulo": "Atentado en Cali: Alejandro Eder señala a las disidencias de las Farc y revela qué habría detrás del ataque a la Policía",
-      "categoria": "Cali",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/cali/atentado-en-cali-patrulla-goes-alejandro-eder-jaime-martinez-2026/",
-      "fecha": "2026-11-13T22:16:07+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "bcc3aa2964b1db87",
-      "titulo": "Petro fue cómplice en el fraude electoral de Maduro, según informe gringo",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/petro-ayudo-a-maduro-a-sostenerse-tras-fraude-electoral-segun-informe-FG43542601",
-      "fecha": "2026-11-13T22:12:45+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "560cbe226cbf941c",
-      "titulo": "Más de 25.000 vacantes activas tras el tercer día de la Empleatón Nacional 2026",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/finanzas/mas-de-25-000-vacantes-activas-tras-el-tercer-dia-de-la-empleaton-nacional-506350",
-      "fecha": "2026-11-13T22:11:17+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "5e422e7b5ec13533",
-      "titulo": "Seguimiento a Sanitas y Colsubsidio: Supersalud reveló cuántos medicamentos ya han entregado a los usuarios",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/gobierno/seguimiento-a-sanitas-y-colsubsidio-supersalud-revelo-cuantos-medicamentos-ya-han-entregado-a-los-usuarios-506347",
-      "fecha": "2026-11-13T22:09:05+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "933cc2f01bffc0ab",
-      "titulo": "La dignidad del cargo: el poder también exige ejemplaridad",
-      "categoria": "Colombia",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/opinion/columnistas/la-dignidad-del-cargo-el-poder-tambien-exige-ejemplaridad/",
-      "fecha": "2026-11-13T22:09:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "5739263c7ac71208",
-      "titulo": "Cali no para, conoce la agenda cultural de este fin de semana para la ciudad.",
-      "categoria": "Cali",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/cali/agenda-cultural-de-este-fin-de-semana-cali-13-11-2026/",
-      "fecha": "2026-11-13T22:05:41+00:00",
       "imagen": ""
     }
   ],
