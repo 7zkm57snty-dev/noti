@@ -1,5 +1,5 @@
 {
-  "ultima_actualizacion": "2026-11-14T02:58:43.579665+00:00",
+  "ultima_actualizacion": "2026-11-14T03:58:55.586634+00:00",
   "titulares_rss": [
     {
       "id": "226616e20d6cb4d5",
@@ -7,7 +7,43 @@
       "categoria": "Internacional",
       "fuente": "BBC Mundo",
       "url": "https://www.bbc.co.uk/mundo/live/c62e8kkl9rlrt?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-14T02:58:43.579665+00:00",
+      "fecha": "2026-11-14T03:58:55.586634+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "4ba359c32cd8cde0",
+      "titulo": "Docente de la UTCH participa en encuentro clave de justicia laboral convocado por la OIT y la Corte Suprema",
+      "categoria": "Colombia",
+      "fuente": "Chocó 7 días",
+      "url": "https://choco7dias.com/docente-de-la-utch-participa-en-encuentro-clave-de-justicia-laboral-convocado-por-la-oit-y-la-corte-suprema/",
+      "fecha": "2026-11-14T03:48:55+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "b2239193722583e2",
+      "titulo": "Estados Unidos reanuda el tráfico aéreo después de un parón de más de cuatro horas y 6.000 vuelos cancelados",
+      "categoria": "Internacional",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/us/2026-11-14/estados-unidos-reanuda-el-trafico-aereo-despues-de-un-paron-de-mas-de-cuatro-horas-y-6000-vuelos-cancelados.html",
+      "fecha": "2026-11-14T03:29:07+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "06ec95767fc09ff8",
+      "titulo": "Soacha se abre a nuevas industrias y tendrán tres vías de entrada y salida",
+      "categoria": "Economía",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/gobierno/soacha-se-abre-a-nuevas-industrias-y-tendran-tres-vias-de-entrada-y-salida-506362",
+      "fecha": "2026-11-14T03:15:26+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "44e515171033fb45",
+      "titulo": "Un inflexible Putin eleva sus exigencias para alcanzar la paz con Ucrania",
+      "categoria": "Internacional",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/crn80jqyw993o?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-14T03:06:55+00:00",
       "imagen": ""
     },
     {
@@ -20,15 +56,6 @@
       "imagen": ""
     },
     {
-      "id": "b5bcb0000e7d4bec",
-      "titulo": "La cancelación de vuelos en Estados Unidos, en vivo | Estados Unidos levanta la suspensión de vuelos tras más de cuatro horas de paro total",
-      "categoria": "Internacional",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/us/2026-11-13/la-suspension-de-vuelos-en-estados-unidos-en-vivo.html",
-      "fecha": "2026-11-14T02:47:51+00:00",
-      "imagen": ""
-    },
-    {
       "id": "26c0e425fd89a549",
       "titulo": "Autorizan de nuevo el despegue de aviones en EE.UU. tras la falla que obligó a suspender durante horas los vuelos en todo el país",
       "categoria": "Internacional",
@@ -38,12 +65,39 @@
       "imagen": ""
     },
     {
+      "id": "34826d07142df548",
+      "titulo": "Gobierno anuncia millonaria inversión para vías y obras en Córdoba",
+      "categoria": "Colombia",
+      "fuente": "La FM Actualidad",
+      "url": "https://www.lafm.com.co/actualidad/presidente-ordena-iniciar-obras-clave-en-cordoba-417191",
+      "fecha": "2026-11-14T02:42:53+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "40a4075a6d3e57f2",
+      "titulo": "“La moda dejó de ser un adorno para convertirse en una industria que genera empleo”: Guio Di Colombia",
+      "categoria": "Economía",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/reinventarse-para-seguir/moda-en-el-valle-del-cauca-empleos-guio-di-colombia-cali-distrito-moda/",
+      "fecha": "2026-11-14T02:42:04+00:00",
+      "imagen": ""
+    },
+    {
       "id": "b4c08146542c37f4",
       "titulo": "Madre teme que expolicía señalado de asesinar a su hijo quede en libertad: fue testigo del crimen",
       "categoria": "Colombia",
       "fuente": "La FM Actualidad",
       "url": "https://www.lafm.com.co/actualidad/expolicia-senalado-asesinar-amigo-gerson-chaparro-podria-quedar-libre-417190",
       "fecha": "2026-11-14T02:33:39+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "470e07605c038e8d",
+      "titulo": "Akira Detalles para Brillar: cuando reinventarse significa encender una nueva oportunidad",
+      "categoria": "Colombia",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/reinventarse-para-seguir/velas-artesanales-en-palmira-akira-detalles-para-brillar-emprendimiento/",
+      "fecha": "2026-11-14T02:30:38+00:00",
       "imagen": ""
     },
     {
@@ -164,12 +218,39 @@
       "imagen": ""
     },
     {
+      "id": "4ef0ae5db108845c",
+      "titulo": "Impulsan protección y manejo responsable de serpientes",
+      "categoria": "Colombia",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/medio-ambiente/conservacion-de-las-serpientes-crc-unicauca-capacitacion-popayan/",
+      "fecha": "2026-11-14T01:46:06+00:00",
+      "imagen": ""
+    },
+    {
       "id": "481080338879965f",
       "titulo": "Luis Felipe Henao, exministro de Vivienda y directivo de Ecopetrol, llega a la gerencia del Fondo Milagro",
       "categoria": "Economía",
       "fuente": "Portafolio",
       "url": "https://www.portafolio.co/economia/gobierno/luis-felipe-henao-exministro-de-vivienda-y-directivo-de-ecopetrol-llega-a-la-gerencia-del-fondo-milagro-506360",
       "fecha": "2026-11-14T01:45:47+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "4b82817315486207",
+      "titulo": "Avianca activó cambios sin penalidad tras suspensión de vuelos en EE. UU. y la Aerocivil alertó demoras masivas",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/avianca-activa-cambios-sin-penalidad-suspension-vuelos-ee-uu-aerocivil-alerta-demoras-EK43588059",
+      "fecha": "2026-11-14T01:42:14+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "5dbcb6977cc16473",
+      "titulo": "Veedores de Cartago visitaron PTAR de río La Vieja",
+      "categoria": "Colombia",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/medio-ambiente/ptar-de-cartago-respaldo-comunitario-visita-buga-cvc-rio-la-vieja/",
+      "fecha": "2026-11-14T01:40:10+00:00",
       "imagen": ""
     },
     {
@@ -200,12 +281,30 @@
       "imagen": ""
     },
     {
+      "id": "0777471a83ae2d12",
+      "titulo": "Gas natural evitó 19,67 millones de toneladas de emisiones de CO₂",
+      "categoria": "Colombia",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/medio-ambiente/gas-natural-en-colombia-reduccion-emisiones-co2-informe-naturgas/",
+      "fecha": "2026-11-14T01:32:25+00:00",
+      "imagen": ""
+    },
+    {
       "id": "3bea7c27fb2af753",
       "titulo": "Aerocivil entrega detalles sobre los vuelos afectados entre Colombia y Estados Unidos: estas rutas operan normal",
       "categoria": "Internacional",
       "fuente": "Portafolio",
       "url": "https://www.portafolio.co/economia/gobierno/aerocivil-entrega-detalles-sobre-los-vuelos-afectados-entre-colombia-y-estados-unidos-estas-rutas-operan-normal-506359",
       "fecha": "2026-11-14T01:22:55+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "f60c01e510beedeb",
+      "titulo": "U2 regresa después de nueve años con ‘Carnaval de Luz’ y anuncia gira mundial para 2027",
+      "categoria": "Deportes",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/secciones/espectaculo/nuevo-album-de-u2-carnaval-de-luz-rosalia-dolly-parton-gira-2027/",
+      "fecha": "2026-11-14T01:17:16+00:00",
       "imagen": ""
     },
     {
@@ -227,12 +326,30 @@
       "imagen": ""
     },
     {
+      "id": "ea7251e0601b8984",
+      "titulo": "Con escenarios deportivos y recreativos, la Gobernación del Valle transforma Cali",
+      "categoria": "Cali",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/cali/escenarios-recreodeportivos-de-cali-gobernacion-valle-recreavalle-obras/",
+      "fecha": "2026-11-14T01:03:14+00:00",
+      "imagen": ""
+    },
+    {
       "id": "2825c243b090e77f",
       "titulo": "Honor 600 Elite llega a Colombia con batería de 8.100 mAh y cámara de 108 MP",
       "categoria": "Colombia",
       "fuente": "La República",
       "url": "https://www.larepublica.co/empresas/honor-600-elite-llega-a-colombia-con-bateria-de-8-100-mah-y-camara-de-108-mp-4524845",
       "fecha": "2026-11-14T01:00:41+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "27ce4c3a6fc541ec",
+      "titulo": "Cali emprende con Valle INN+, un impulso que incluye y abre nuevas oportunidades",
+      "categoria": "Cali",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/cali/fondo-valle-inn-plus-en-cali-caracterizacion-mujeres-emprendedores-2026/",
+      "fecha": "2026-11-14T00:52:42+00:00",
       "imagen": ""
     },
     {
@@ -422,123 +539,6 @@
       "fuente": "Diario Occidente",
       "url": "https://occidente.co/regionales/valle-del-cauca/reconstruccion-de-roldanillo-avanza-con-fachadas-y-comercio/",
       "fecha": "2026-11-13T23:19:26+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "f6b7780eea73447e",
-      "titulo": "Sigue tensión en vía Panamericana tras últimos ataques",
-      "categoria": "Colombia",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/colombia/via-panamericana-popayan-cali-alerta-por-ataques-en-peajes/",
-      "fecha": "2026-11-13T23:13:33+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "8c7e45fee9926062",
-      "titulo": "73% de “aprobación” de Abelardo a 100 días no sale de una encuesta",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/detector-de-mentiras/falso/73-de-aprobacion-de-abelardo-a-100-dias-no-sale-de-una-encuesta/",
-      "fecha": "2026-11-13T23:11:15+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "dfe3a6304a646d23",
-      "titulo": "Esposa de Juan de Bedout había pedido prueba de polígrafo a sus cercanos: sospechaba que la estaban envenenando",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/denuncia-juan-de-bedout-alicia-graham-pidio-prueba-poligrafo-sospecha-envenenando-talio-JF43577619",
-      "fecha": "2026-11-13T23:10:54+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "ca2e2da18edea188",
-      "titulo": "ASOCARS respalda a CVC y advierte sobre riesgos financieros del AMSO",
-      "categoria": "Colombia",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/cali/sobretasa-ambiental-de-cali-alerta-de-asocars-por-la-cvc/",
-      "fecha": "2026-11-13T23:03:27+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "304023e7e250e53c",
-      "titulo": "Las pistas detrás de la noche de pánico por un explosivo lanzado al paso de una patrulla de la Policía cerca de la sede de Carabineros en Cali",
-      "categoria": "Cali",
-      "fuente": "El Tiempo Cali",
-      "url": "https://www.eltiempo.com/colombia/cali/las-pistas-detras-de-la-noche-de-panico-por-un-explosivo-lanzado-al-paso-de-una-patrulla-de-la-policia-cerca-de-la-sede-de-carabineros-en-cali-3600753",
-      "fecha": "2026-11-13T23:00:26+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "c54172b4cbe87023",
-      "titulo": "Ginecólogo, tío de senador conservador, será embajador en Uruguay",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/en-vivo/ginecologo-tio-de-senador-conservador-sera-embajador-en-uruguay/",
-      "fecha": "2026-11-13T22:58:52+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "ff87a225e75b89cb",
-      "titulo": "Bénissez By LuzMa Sandoval: el emprendimiento que nació de un rosario y se convirtió en una nueva ilusión",
-      "categoria": "Colombia",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/reinventarse-para-seguir/emprender-a-los-70-anos-la-historia-de-luz-marina-en-cali/",
-      "fecha": "2026-11-13T22:53:46+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "a4b899e4b6fd3c0e",
-      "titulo": "En este video no abuchean a De la Espriella, sino a “Timochenko” en 2018",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/detector-de-mentiras/falso/en-este-video-no-abuchean-a-de-la-espriella-sino-a-timochenko-en-2018/",
-      "fecha": "2026-11-13T22:51:51+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "eff79c8ea629c0a1",
-      "titulo": "El arte moderno de maquillar el desastre",
-      "categoria": "Colombia",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/secciones/tendencias/positivismo-toxico-nadia-ibarra-salud-mental-duelo-autoayuda/",
-      "fecha": "2026-11-13T22:51:25+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "150857c6c275457d",
-      "titulo": "Qué se sabe sobre la falla global que afectó a Outlook y otros servicios de Microsoft",
-      "categoria": "Tecnología",
-      "fuente": "BBC Mundo",
-      "url": "https://www.bbc.com/mundo/articles/c8dx192g5pn5o?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-13T22:45:45+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "e35db77d0c701cbb",
-      "titulo": "Seis años intentando ser madre y sorpresa triple: la conmovedora historia de unas trillizas nacidas tras un embarazo espontáneo en Barranquilla",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/barranquilla/seis-anos-intentando-ser-madre-y-sorpresa-triple-la-conmovedora-historia-de-unas-trillizas-nacidas-tras-un-embarazo-espontaneo-en-barranquilla-3600967",
-      "fecha": "2026-11-13T22:45:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "536ec2f882cbde15",
-      "titulo": "Grupo Energía Bogotá pedirá aval a accionistas para emitir hasta 450 millones de acciones",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/empresas/grupo-energia-bogota-pedira-aval-a-accionistas-para-emitir-hasta-450-millones-de-acciones-4524747",
-      "fecha": "2026-11-13T22:40:11+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "6c603e054018fa8b",
-      "titulo": "Joaquín Vanin Tello",
-      "categoria": "Colombia",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/opinion/columnistas/joaquin-vanin-tello-2/",
-      "fecha": "2026-11-13T22:39:02+00:00",
       "imagen": ""
     }
   ],
