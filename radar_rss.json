@@ -1,5 +1,5 @@
 {
-  "ultima_actualizacion": "2026-11-14T10:51:14.354132+00:00",
+  "ultima_actualizacion": "2026-11-14T11:48:20.633085+00:00",
   "titulares_rss": [
     {
       "id": "226616e20d6cb4d5",
@@ -7,7 +7,34 @@
       "categoria": "Internacional",
       "fuente": "BBC Mundo",
       "url": "https://www.bbc.co.uk/mundo/live/c62e8kkl9rlrt?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-14T10:51:14.354132+00:00",
+      "fecha": "2026-11-14T11:48:20.633085+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "71fde29bb477c37e",
+      "titulo": "Aparece en un castro gallego una piedra de 2.000 años con un grabado cuyo significado sigue siendo un misterio",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/magnet/aparece-castro-gallego-piedra-2-000-anos-grabado-cuyo-significado-sigue-siendo-misterio",
+      "fecha": "2026-11-14T11:31:23+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "8e71994c3d87be1b",
+      "titulo": "Estados Unidos propuso en Abu Dabi que Ucrania ceda territorio a Rusia a cambio de su adhesión a la OTAN",
+      "categoria": "Internacional",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/estados-unidos-propuso-en-abu-dabi-que-ucrania-ceda-territorio-a-rusia-a-cambio-de-su-adhesión-a-la-otan/a-79947817?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-14T11:06:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "614d681dbb404a10",
+      "titulo": "Para construir la presa más alta del mundo, China ha colocado 27 espejos en una montaña contra el frío extremo",
+      "categoria": "Internacional",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/ingenieria-y-megaconstrucciones/para-construir-presa-alta-mundo-china-ha-colocado-27-espejos-montana-frio-extremo",
+      "fecha": "2026-11-14T11:01:24+00:00",
       "imagen": ""
     },
     {
@@ -16,7 +43,7 @@
       "categoria": "Tecnología",
       "fuente": "Xataka",
       "url": "https://www.xataka.com/aplicaciones/microsoft-recupera-outlook-24-horas-despues-sabemos-que-provoco-caida-sus-servicios",
-      "fecha": "2026-11-14T10:35:32+00:00",
+      "fecha": "2026-11-14T10:35:00+00:00",
       "imagen": ""
     },
     {
@@ -164,6 +191,15 @@
       "imagen": ""
     },
     {
+      "id": "1df5b3e335385362",
+      "titulo": "La propiedad inmobiliaria, explicada en un libro",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/actualidad/la-propiedad-inmobiliaria-explicada-en-un-libro/",
+      "fecha": "2026-11-14T09:12:44+00:00",
+      "imagen": ""
+    },
+    {
       "id": "c94404e4870728a7",
       "titulo": "Sudán del Sur planea celebrar las primeras elecciones de su historia en febrero tras un nuevo retraso",
       "categoria": "Internacional",
@@ -233,6 +269,33 @@
       "fuente": "Xataka",
       "url": "https://www.xataka.com/investigacion/cientificos-coinciden-personas-inteligentes-tambien-solitarias-culpa-evolucion",
       "fecha": "2026-11-14T06:31:21+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "8467f1a407aaffd5",
+      "titulo": "Providencia se une para reconstruirse con un Bingo Navideño",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/actualidad/providencia-se-une-para-reconstruirse-con-un-bingo-navideno/",
+      "fecha": "2026-11-14T06:17:22+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "c2726a888893dc49",
+      "titulo": "Carlos Andrés Pérez, el campeón de Apía que llevará su talento al mundo",
+      "categoria": "Internacional",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/deportes/carlos-andres-perez-el-campeon-de-apia-que-llevara-su-talento-al-mundo/",
+      "fecha": "2026-11-14T06:00:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "7d765860bf717cd7",
+      "titulo": "El capitán que levantó a Pereira y hoy conmueve al mundo",
+      "categoria": "Internacional",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/deportes/el-capitan-que-levanto-a-pereira-y-hoy-conmueve-al-mundo/",
+      "fecha": "2026-11-14T06:00:00+00:00",
       "imagen": ""
     },
     {
@@ -477,69 +540,6 @@
       "url": "https://www.larepublica.co/analisis/santiago-pardo-salguero-3595338/el-iva-y-los-envios-de-bajo-valor-4524873",
       "fecha": "2026-11-14T05:01:26+00:00",
       "imagen": ""
-    },
-    {
-      "id": "490022da33adefe1",
-      "titulo": "Antes de la intensidad, conciencia",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/analisis/tatiana-arango-m-401859/antes-de-la-intensidad-conciencia-4524859",
-      "fecha": "2026-11-14T05:01:20+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "de164fb28cc6fcd5",
-      "titulo": "“En Civitatis ofrecemos experiencias de viaje en más de 4.300 destinos de 160 países”",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/ocio/nicolas-posse-responsable-regional-de-sudamerica-de-civitatis-hablo-sobre-las-preferencias-de-los-viajeros-colombianos-4524785",
-      "fecha": "2026-11-14T05:01:19+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "99feb8525d3924ea",
-      "titulo": "Los colombianos quieren aportar, pero están mamados",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/analisis/silverio-gomez-carmona-534581/los-colombianos-quieren-aportar-pero-estan-mamados-4524843",
-      "fecha": "2026-11-14T05:01:18+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "a590c01fba900bb2",
-      "titulo": "“La demanda puede ascender hasta 2.500 buses eléctricos en Bogotá para 2027 y 2028”",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/empresas/felipe-negret-gerente-general-de-farizon-en-grupo-vardi-hablo-del-crecimiento-de-los-buses-electricos-4524222",
-      "fecha": "2026-11-14T05:01:16+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "506b62882eff679d",
-      "titulo": "“Palacio”, la miniserie que revive la toma del Palacio de Justicia 41 años después de la tragedia",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/ocio/palacio-la-miniserie-que-revive-la-toma-del-palacio-de-justicia-41-anos-despues-de-la-tragedia-4524854",
-      "fecha": "2026-11-14T05:01:13+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "44ee6c6bddb010f9",
-      "titulo": "El actor Ed Westwick presentó en Bogotá la nueva fragancia 9PM Night Out de Afnan",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/ocio/ed-westwick-presento-en-bogota-la-nueva-fragancia-9pm-night-out-de-afnan-4525040",
-      "fecha": "2026-11-14T05:01:05+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "57e359ed03d4cf06",
-      "titulo": "El Deportivo Independiente Medellín se alista para dejar las manos de Raúl Giraldo",
-      "categoria": "Deportes",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/empresas/el-deportivo-independiente-medellin-se-alista-para-dejar-las-manos-de-raul-giraldo-4524978",
-      "fecha": "2026-11-14T05:01:04+00:00",
-      "imagen": ""
     }
   ],
   "estado_fuentes": [
@@ -655,9 +655,8 @@
     {
       "nombre": "El Diario — Pereira",
       "url": "https://www.eldiario.com.co/feed/",
-      "estado": "error",
-      "titulares": 0,
-      "detalle": "El feed no contiene entradas."
+      "estado": "correcto",
+      "titulares": 35
     },
     {
       "nombre": "Chocó 7 días",
