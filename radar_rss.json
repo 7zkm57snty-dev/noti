@@ -1,5 +1,5 @@
 {
-  "ultima_actualizacion": "2026-11-14T08:59:06.188321+00:00",
+  "ultima_actualizacion": "2026-11-14T09:53:50.415202+00:00",
   "titulares_rss": [
     {
       "id": "226616e20d6cb4d5",
@@ -7,7 +7,142 @@
       "categoria": "Internacional",
       "fuente": "BBC Mundo",
       "url": "https://www.bbc.co.uk/mundo/live/c62e8kkl9rlrt?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-14T08:59:06.188321+00:00",
+      "fecha": "2026-11-14T09:53:50.415202+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "f2a8b013a77263b1",
+      "titulo": "Las mejores ofertas previas al Black Friday: desde móviles de gama alta hasta televisores y auriculares",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/seleccion/mejores-ofertas-previas-al-black-friday-moviles-gama-alta-televisores-auriculares",
+      "fecha": "2026-11-14T09:45:27+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "debd86d8a7a70fb2",
+      "titulo": "La República Evangélica de Colombia",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/america-colombia/2026-11-14/la-republica-evangelica-de-colombia.html",
+      "fecha": "2026-11-14T09:30:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "2939d5dcf4a64087",
+      "titulo": "Los negociadores de paz enfurecen al Gobierno al criticar la teatralidad militarista de De la Espriella",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/america-colombia/2026-11-14/los-negociadores-de-paz-enfurecen-al-gobierno-al-criticar-la-teatralidad-militarista-de-de-la-espriella.html",
+      "fecha": "2026-11-14T09:30:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "a62d9d0837254e63",
+      "titulo": "Cien días tristes para un Tigre que viste de verde oliva",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/america-colombia/2026-11-14/cien-dias-tristes-para-un-tigre-que-viste-de-verde-oliva.html",
+      "fecha": "2026-11-14T09:30:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "1567bb803d35237a",
+      "titulo": "Videoanálisis | León XIV vuelve a casa y se reencuentra con los fieles en Chiclayo",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/america/2026-11-14/videoanalisis-leon-xiv-vuelve-a-casa-y-se-reencuentra-con-los-fieles-en-chiclayo.html",
+      "fecha": "2026-11-14T09:30:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "7935bf470f83ada4",
+      "titulo": "Un ecuatoriano lucha por su vida tras el desplome del edificio en Brooklyn: “Está en una situación grave”",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/us/2026-11-14/un-ecuatoriano-lucha-por-su-vida-tras-el-desplome-del-edificio-en-brooklyn-esta-en-una-situacion-grave.html",
+      "fecha": "2026-11-14T09:30:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "b3c86c8a0481ca08",
+      "titulo": "La huida y protección del exfiscal Zuany por Estados Unidos refuerza las críticas de México por violación a su soberanía",
+      "categoria": "Internacional",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/mexico/2026-11-14/la-huida-y-proteccion-del-exfiscal-zuany-por-estados-unidos-refuerza-las-criticas-de-mexico-por-violacion-a-su-soberania.html",
+      "fecha": "2026-11-14T09:30:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "7e9e4a746b4ce37e",
+      "titulo": "Bolivia pide explicaciones a México por conceder asilo político al exvicepresidente Álvaro García Linera",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/america/2026-11-14/bolivia-pide-explicaciones-a-mexico-por-conceder-asilo-politico-al-exvicepresidente-alvaro-garcia-linera.html",
+      "fecha": "2026-11-14T09:30:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "f22d696f0fd42022",
+      "titulo": "Prevenir la corrupción exige mucho más que cumplir requisitos",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/america-colombia/2026-11-14/prevenir-la-corrupcion-exige-mucho-mas-que-cumplir-requisitos.html",
+      "fecha": "2026-11-14T09:30:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "a9eee965cdd4f956",
+      "titulo": "Video | La seguridad de los derechos humanos",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/america-colombia/2026-11-14/video-la-seguridad-de-los-derechos-humanos.html",
+      "fecha": "2026-11-14T09:30:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "5420cd7c120c5a69",
+      "titulo": "Los ette ennaka, el pueblo indígena que lucha por recuperar su lugar en la Sierra Nevada de Colombia",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/america-colombia/2026-11-14/los-ette-ennaka-el-pueblo-indigena-que-lucha-por-recuperar-su-lugar-en-la-sierra-nevada-de-colombia.html",
+      "fecha": "2026-11-14T09:30:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "f324e913a6f79f1b",
+      "titulo": "La caída de Jensen Huang de la cima de Nvidia",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/us/2026-11-14/la-caida-de-jensen-huang-de-la-cima-de-nvidia.html",
+      "fecha": "2026-11-14T09:30:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "1df5b3e335385362",
+      "titulo": "La propiedad inmobiliaria, explicada en un libro",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/actualidad/la-propiedad-inmobiliaria-explicada-en-un-libro/",
+      "fecha": "2026-11-14T09:12:44+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "c94404e4870728a7",
+      "titulo": "Sudán del Sur planea celebrar las primeras elecciones de su historia en febrero tras un nuevo retraso",
+      "categoria": "Internacional",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/sudán-del-sur-planea-celebrar-las-primeras-elecciones-de-su-historia-en-febrero-tras-un-nuevo-retraso/a-79947309?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-14T09:09:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "67cc9a567833b90f",
+      "titulo": "Dónde duerme el turismo en Europa: el mapa que retrata la masificación en la España mediterránea",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/magnet/donde-duerme-turismo-europa-mapa-que-retrata-masificacion-espana-mediterranea",
+      "fecha": "2026-11-14T09:01:23+00:00",
       "imagen": ""
     },
     {
@@ -182,20 +317,20 @@
       "imagen": ""
     },
     {
-      "id": "a01ecbaeb3bd623f",
-      "titulo": "Así es como Ecopetrol planea la reactivación de sus proyectos de fracking en Colombia",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/economia/ecopetrol-anuncia-que-reactivara-proyectos-de-fracking-en-colombia-4524897",
-      "fecha": "2026-11-14T05:02:21+00:00",
-      "imagen": ""
-    },
-    {
       "id": "207b28549cf4ee8d",
       "titulo": "“La reconstrucción de Pereira puede llegar a costar alrededor de $13 billones, según cálculos”",
       "categoria": "Colombia",
       "fuente": "La República",
       "url": "https://www.larepublica.co/economia/entrevista-con-mauricio-salazar-alcalde-de-pereira-sobre-el-fondo-milagro-y-los-fondos-para-la-reconstruccion-4524911",
+      "fecha": "2026-11-14T05:02:21+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "a01ecbaeb3bd623f",
+      "titulo": "Así es como Ecopetrol planea la reactivación de sus proyectos de fracking en Colombia",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/economia/ecopetrol-anuncia-que-reactivara-proyectos-de-fracking-en-colombia-4524897",
       "fecha": "2026-11-14T05:02:21+00:00",
       "imagen": ""
     },
@@ -405,141 +540,6 @@
       "url": "https://www.elcolombiano.com/colombia/fondo-milagro-reconstruccion-terremoto-renuncia-jaime-uribe-nuevo-felipe-henao-LL43591956",
       "fecha": "2026-11-14T05:01:00+00:00",
       "imagen": ""
-    },
-    {
-      "id": "dc5f744eee4394a0",
-      "titulo": "León XIV: las razones del fervor",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/opinion/leon-xiv-las-razones-del-fervor/",
-      "fecha": "2026-11-14T05:00:58+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "8e73fc4e3e4c73be",
-      "titulo": "Hallan un arsenal del Clan del Golfo",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/judicial/hallan-un-arsenal-del-clan-del-golfo/",
-      "fecha": "2026-11-14T05:00:51+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "c36b2aa7502045c1",
-      "titulo": "Un accidente apagó sus sueños",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/judicial/un-accidente-apago-sus-suenos/",
-      "fecha": "2026-11-14T05:00:49+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "9b6a3c456d453029",
-      "titulo": "Profesores heridos tras fuerte choque",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/judicial/profesores-heridos-tras-fuerte-choque/",
-      "fecha": "2026-11-14T05:00:47+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "3442077d228dec79",
-      "titulo": "Los drogaban, les robaban las motos y la plata",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/judicial/los-drogaban-les-robaban-las-motos-y-la-plata/",
-      "fecha": "2026-11-14T05:00:44+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "98ebb5479ecb65a7",
-      "titulo": "Quiso dispararle al atacante de su amigo y mató a una mujer",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/judicial/quiso-dispararle-al-atacante-de-su-amigo-y-mato-a-una-mujer/",
-      "fecha": "2026-11-14T05:00:43+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "9739577b9dec126d",
-      "titulo": "LA SALUD NO PUEDE SEGUIR ESPERANDO",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/opinion/la-salud-no-puede-seguir-esperando/",
-      "fecha": "2026-11-14T05:00:33+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "8c2935035d577080",
-      "titulo": "La JEP: hostil con las víctimas y críticos, y blandos con los victimarios",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/opinion/la-jep-hostil-con-las-victimas-y-criticos-y-blandos-con-los-victimarios/",
-      "fecha": "2026-11-14T05:00:25+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "9019ed4ae12b68ca",
-      "titulo": "¿Qué pretende ocultar la reconstrucción de Pereira?",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/opinion/765094/",
-      "fecha": "2026-11-14T05:00:19+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "9bc74a8f176c830d",
-      "titulo": "¡La hora de COMFAMILIAR!",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/opinion/la-hora-de-comfamiliar/",
-      "fecha": "2026-11-14T05:00:16+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "f00b1e761dae9886",
-      "titulo": "Contra la mermelada",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/editorial/contra-la-mermelada/",
-      "fecha": "2026-11-14T05:00:16+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "afecd48454b5e2f4",
-      "titulo": "Murió tras ataque con machete",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/judicial/murio-tras-ataque-con-machete/",
-      "fecha": "2026-11-14T05:00:11+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "53f19ed498510492",
-      "titulo": "Identificaron a la mujer arrollada por un camión",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/judicial/identificaron-a-la-mujer-arrollada-por-un-camion/",
-      "fecha": "2026-11-14T05:00:09+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "25a8203f8cdf84e6",
-      "titulo": "Dosquebradas se construye con pequeños compromisos",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/opinion/dosquebradas-se-construye-con-pequenos-compromisos/",
-      "fecha": "2026-11-14T05:00:07+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "65390f8fae147ecd",
-      "titulo": "Un rescate que cuide las finanzas y la mesa de los hogares",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/opinion/la-ley-de-rescate-economico-nos-plantea-un-reto-que-debemos-asumir-con-responsabilidad/",
-      "fecha": "2026-11-14T05:00:07+00:00",
-      "imagen": ""
     }
   ],
   "estado_fuentes": [
@@ -661,9 +661,8 @@
     {
       "nombre": "Chocó 7 días",
       "url": "https://choco7dias.com/feed/",
-      "estado": "error",
-      "titulares": 0,
-      "detalle": "415 Client Error: Unsupported Media Type for url: https://choco7dias.com/feed/"
+      "estado": "correcto",
+      "titulares": 10
     },
     {
       "nombre": "La Patria — Caldas",
