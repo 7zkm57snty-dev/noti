@@ -1,5 +1,5 @@
 {
-  "ultima_actualizacion": "2026-11-14T03:58:55.586634+00:00",
+  "ultima_actualizacion": "2026-11-14T04:59:44.120439+00:00",
   "titulares_rss": [
     {
       "id": "226616e20d6cb4d5",
@@ -7,7 +7,43 @@
       "categoria": "Internacional",
       "fuente": "BBC Mundo",
       "url": "https://www.bbc.co.uk/mundo/live/c62e8kkl9rlrt?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-14T03:58:55.586634+00:00",
+      "fecha": "2026-11-14T04:59:44.120439+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "26c0e425fd89a549",
+      "titulo": "Autorizan de nuevo el despegue de aviones en EE.UU. tras la falla que obligó a suspender durante horas los vuelos en todo el país",
+      "categoria": "Internacional",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/crgqx8jpw3jvo?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-14T04:45:54+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "393494c62c56dd6a",
+      "titulo": "Homecenter y otras empresas privadas entregaron 22 viviendas a familias afectadas por el terremoto en el Chocó",
+      "categoria": "Economía",
+      "fuente": "Chocó 7 días",
+      "url": "https://choco7dias.com/homecenter-y-otras-empresas-privadas-entregaron-22-viviendas-a-familias-afectadas-por-el-terremoto-en-el-choco/",
+      "fecha": "2026-11-14T04:34:08+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "4a0b91ef245fe7c5",
+      "titulo": "Arte contra la tragedia: la ingeniosa apuesta de Roldanillo para revivir sus fachadas y rescatar el comercio y el turismo",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/cali/arte-contra-la-tragedia-la-ingeniosa-apuesta-de-roldanillo-para-revivir-sus-fachadas-y-rescatar-el-comercio-y-el-turismo-3601038",
+      "fecha": "2026-11-14T04:07:33+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "31a69d5940d64c33",
+      "titulo": "Hoy No Circula sabatino: qué autos pueden circular y cuáles descansan el 14 de noviembre",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/mexico/hoy-no-circula-sabatino-que-autos-pueden-circular-cuales-descansan-14-noviembre",
+      "fecha": "2026-11-14T04:01:20+00:00",
       "imagen": ""
     },
     {
@@ -47,21 +83,12 @@
       "imagen": ""
     },
     {
-      "id": "0ef29e1ebe4c0ace",
-      "titulo": "Estados Unidos reanuda despegues de aviones tras fallo que suspendió vuelos",
+      "id": "20ca03b0d5f8fadb",
+      "titulo": "Estados Unidos levanta suspensión de vuelos tras horas de caos aéreo",
       "categoria": "Internacional",
       "fuente": "DW Español",
-      "url": "https://www.dw.com/es/estados-unidos-reanuda-despegues-de-aviones-tras-fallo-que-suspendió-vuelos/a-79946394?maca=spa-rss-sp-all-1122-rdf",
+      "url": "https://www.dw.com/es/estados-unidos-levanta-suspensión-de-vuelos-tras-horas-de-caos-aéreo/a-79946394?maca=spa-rss-sp-all-1122-rdf",
       "fecha": "2026-11-14T02:49:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "26c0e425fd89a549",
-      "titulo": "Autorizan de nuevo el despegue de aviones en EE.UU. tras la falla que obligó a suspender durante horas los vuelos en todo el país",
-      "categoria": "Internacional",
-      "fuente": "BBC Mundo",
-      "url": "https://www.bbc.com/mundo/articles/crgqx8jpw3jvo?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-14T02:43:14+00:00",
       "imagen": ""
     },
     {
@@ -513,33 +540,6 @@
       "url": "https://www.eltiempo.com/colombia/cali/la-noche-en-que-el-atentado-contra-patrulla-sembro-el-panico-y-causo-el-desplome-de-parte-del-techo-en-un-convento-en-cali-fue-aterrador-3600978",
       "fecha": "2026-11-13T23:33:59+00:00",
       "imagen": ""
-    },
-    {
-      "id": "614896563620d4b9",
-      "titulo": "Valle INN+ fortalece el emprendimiento en Cali y la economía del Valle del Cauca",
-      "categoria": "Cali",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/cali/valle-inn-en-cali-impulso-a-emprendedores-tras-el-sismo/",
-      "fecha": "2026-11-13T23:27:24+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "d1799ad60ea7bd6d",
-      "titulo": "Gobierno anuncia inversión de $255.000 millones para vía clave de Córdoba: beneficiará a más de 426.000 personas",
-      "categoria": "Colombia",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/infraestructura/gobierno-anuncia-inversion-de-255-000-millones-para-via-clave-de-cordoba-beneficiara-a-mas-de-426-000-personas-506356",
-      "fecha": "2026-11-13T23:22:19+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "93178339c3a20cef",
-      "titulo": "Roldanillo recupera sus colores y memoria arquitectónica",
-      "categoria": "Colombia",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/regionales/valle-del-cauca/reconstruccion-de-roldanillo-avanza-con-fachadas-y-comercio/",
-      "fecha": "2026-11-13T23:19:26+00:00",
-      "imagen": ""
     }
   ],
   "estado_fuentes": [
@@ -553,7 +553,7 @@
       "nombre": "El Tiempo Cali",
       "url": "https://www.eltiempo.com/rss/colombia_cali.xml",
       "estado": "correcto",
-      "titulares": 5
+      "titulares": 4
     },
     {
       "nombre": "El Espectador",
