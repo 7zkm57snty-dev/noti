@@ -1,5 +1,5 @@
 {
-  "ultima_actualizacion": "2026-11-14T22:16:29.135621+00:00",
+  "ultima_actualizacion": "2026-11-14T23:15:42.706976+00:00",
   "titulares_rss": [
     {
       "id": "226616e20d6cb4d5",
@@ -7,7 +7,97 @@
       "categoria": "Internacional",
       "fuente": "BBC Mundo",
       "url": "https://www.bbc.co.uk/mundo/live/c62e8kkl9rlrt?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-14T22:16:29.135621+00:00",
+      "fecha": "2026-11-14T23:15:42.706976+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "dfa0bf3c54072135",
+      "titulo": "La calidad del agua en las playas de Montevideo podrá ser consultada a partir del verano",
+      "categoria": "Cali",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/globoeconomia/la-calidad-del-agua-en-las-playas-de-montevideo-podra-ser-consultada-a-partir-del-verano-4525414",
+      "fecha": "2026-11-14T23:11:56+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "e04b9b1cac85f794",
+      "titulo": "Imagen de Milei se deteriora entre los argentinos mientras el empleo se convierte en preocupación",
+      "categoria": "Economía",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/globoeconomia/la-imagen-de-milei-se-deteriora-entre-los-argentinos-a-medida-que-el-empleo-se-convierte-en-la-principal-preocupacion-4525407",
+      "fecha": "2026-11-14T23:05:16+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "53e13832752a745d",
+      "titulo": "Procafecol reportó ganancias por $6.023 millones e ingresos crecieron 13% a septiembre",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/empresas/procafecol-reporto-ganancias-por-6-023-millones-e-ingresos-crecieron-13-a-septiembre-4525406",
+      "fecha": "2026-11-14T23:00:49+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "494dbfd47fc2fe74",
+      "titulo": "Sorteo de cuadrangulares de la Liga Betplay: así quedaron los grupos con varios clásicos",
+      "categoria": "Deportes",
+      "fuente": "La FM Deportes",
+      "url": "https://www.lafm.com.co/deportes/liga-betplay-cuadrangulares-sorteo-2026-partidos-fechas-417250",
+      "fecha": "2026-11-14T22:55:58+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "b2be19be41813fa2",
+      "titulo": "Microsoft restablece sus servicios tras falla que afectó a millones de usuarios",
+      "categoria": "Tecnología",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/microsoft-restablece-sus-servicios-tras-falla-que-afectó-a-millones-de-usuarios/a-79950318?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-14T22:54:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "45657ea3f8b72fc3",
+      "titulo": "Bahía Solano: crucero internacional con 197 pasajeros y 168 tripulantes visitó el Parque Nacional Natural Utría",
+      "categoria": "Internacional",
+      "fuente": "Chocó 7 días",
+      "url": "https://choco7dias.com/bahia-solano-crucero-internacional-con-197-pasajeros-y-168-tripulantes-visito-el-parque-nacional-natural-utria/",
+      "fecha": "2026-11-14T22:37:27+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "c7047d0e2bf34994",
+      "titulo": "Abelardo gana tutela por el “Viva Cristo Rey”. Deberá rectificar en otra",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/en-vivo/abelardo-gana-tutela-por-el-viva-cristo-rey-debera-rectificar-en-otra/",
+      "fecha": "2026-11-14T22:23:26+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "922a57ee0fa6fb18",
+      "titulo": "EE.UU. registra diez muertes por sarampión y más de 5.400 casos en lo que va de 2026",
+      "categoria": "Internacional",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/ee-uu-registra-diez-muertes-por-sarampión-y-más-de-5-400-casos-en-lo-que-va-de-2026/a-79950308?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-14T22:20:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "99edcba78c8c1cbe",
+      "titulo": "Comunidades de Magüí Payán, Nariño, reviven el miedo al desplazamiento por grupos armados: 'Somos víctimas de masacres y nos toca dejar todo botado'",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/cali/un-consejo-comunitario-en-el-pacifico-de-narino-se-declaro-en-alerta-humanitaria-urgente-nos-toca-dejar-todo-botado-3601156",
+      "fecha": "2026-11-14T22:18:06+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "7e39f35290f9ccfa",
+      "titulo": "Estos son los 8 clasificados a los cuadrangulares de la Liga Betplay: posiciones, resultados y reclasificación",
+      "categoria": "Deportes",
+      "fuente": "La FM Deportes",
+      "url": "https://www.lafm.com.co/deportes/estos-son-los-ocho-clasificados-cuadrangulares-liga-betplay-417248",
+      "fecha": "2026-11-14T22:14:30+00:00",
       "imagen": ""
     },
     {
@@ -26,24 +116,6 @@
       "fuente": "La República",
       "url": "https://www.larepublica.co/globoeconomia/colapso-del-sector-de-la-aviacion-estadounidense-se-achaca-a-un-router-instalado-por-l3-harris-4525396",
       "fecha": "2026-11-14T22:02:19+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "6c8d33b0a18e80f3",
-      "titulo": "Colombia buscará cerrar el año con otra victoria ante Chile",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/deportes/colombia-buscara-cerrar-el-ano-con-otra-victoria-ante-chile/",
-      "fecha": "2026-11-14T22:00:04+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "99edcba78c8c1cbe",
-      "titulo": "Un consejo comunitario en el Pacífico de Nariño se declaró en alerta humanitaria urgente: ‘Nos toca dejar todo botado’",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/cali/un-consejo-comunitario-en-el-pacifico-de-narino-se-declaro-en-alerta-humanitaria-urgente-nos-toca-dejar-todo-botado-3601156",
-      "fecha": "2026-11-14T21:55:14+00:00",
       "imagen": ""
     },
     {
@@ -74,21 +146,21 @@
       "imagen": ""
     },
     {
-      "id": "3a3f808ebde5ef90",
-      "titulo": "Salario mínimo de 2027: inflación y empleo preocupan a los expertos",
-      "categoria": "Economía",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/noticias/economia/salario-minimo-de-2027-inflacion-y-empleo-preocupan-a-los-expertos/",
-      "fecha": "2026-11-14T21:30:25+00:00",
-      "imagen": ""
-    },
-    {
       "id": "e26badcd0af256a8",
       "titulo": "\"Las cortinas se pegaron al techo\": cómo sobreviví al desastre de San Juanico, la explosión que dejó 650 muertos en México en 1984",
       "categoria": "Internacional",
       "fuente": "BBC Mundo",
       "url": "https://www.bbc.com/mundo/articles/c93xe77lg73o?at_medium=RSS&at_campaign=rss",
       "fecha": "2026-11-14T21:29:57+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "a3861b5f8f1fed59",
+      "titulo": "Hungría halla más de 17 millones de euros supuestamente escondidos por un exministro de Víktor Orbán",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/internacional/2026-11-14/hungria-halla-mas-de-17-millones-de-euros-supuestamente-escondidos-por-un-exministro-de-viktor-orban.html",
+      "fecha": "2026-11-14T21:23:44+00:00",
       "imagen": ""
     },
     {
@@ -110,21 +182,21 @@
       "imagen": ""
     },
     {
+      "id": "83cba4b963c6a2e0",
+      "titulo": "Después polémica, la Institución Educativa Alvernia de Medellín seguirá funcionando en su sede actual durante el 2027",
+      "categoria": "Colombia",
+      "fuente": "La FM Actualidad",
+      "url": "https://www.lafm.com.co/actualidad/colegio-alvernia-medellin-aranjuez-alcaldia-sede-417244",
+      "fecha": "2026-11-14T21:13:12+00:00",
+      "imagen": ""
+    },
+    {
       "id": "6500c94060426228",
       "titulo": "¿Por qué noviembre es clave para preparar la Navidad? Esta es la tendencia de los colombianos",
       "categoria": "Colombia",
       "fuente": "Portafolio",
       "url": "https://www.portafolio.co/economia/por-que-noviembre-es-clave-para-preparar-la-navidad-esta-es-la-tendencia-de-los-colombianos-506397",
       "fecha": "2026-11-14T21:07:04+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "b8ad10618aabd122",
-      "titulo": "Luis Felipe Henao promete austeridad al frente del Fondo Milagro",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/sin-categoria/luis-felipe-henao-promete-austeridad-al-frente-del-fondo-milagro/",
-      "fecha": "2026-11-14T21:00:28+00:00",
       "imagen": ""
     },
     {
@@ -170,24 +242,6 @@
       "fuente": "La FM Economía",
       "url": "https://www.lafm.com.co/economia/salario-minimo-2027-incremento-gobierno-abelardo-de-la-espriella-fecha-clave-417241",
       "fecha": "2026-11-14T20:34:24+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "96134477eb85fc8a",
-      "titulo": "Consejo de Estado se pronunció sobre actos religiosos de De la Espriella",
-      "categoria": "Internacional",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/noticias/consejo-de-estado-se-pronuncio-sobre-actos-religiosos-de-de-la-espriella/",
-      "fecha": "2026-11-14T20:30:53+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "fd2879be3b39e3ee",
-      "titulo": "Dólar podría superar los $3.400 en noviembre, según proyecciones",
-      "categoria": "Economía",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/noticias/dolar-podria-superar-los-3-400-en-noviembre-segun-proyecciones/",
-      "fecha": "2026-11-14T20:30:50+00:00",
       "imagen": ""
     },
     {
@@ -251,15 +305,6 @@
       "fuente": "Xataka",
       "url": "https://www.xataka.com/movilidad/schlorwagen-superaerodinamico-peligrosisimo-coche-aleman-que-intento-revolucionar-mundo-1939",
       "fecha": "2026-11-14T20:01:21+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "3a3f0a87aed275da",
-      "titulo": "Aclaran propuesta de De la Espriella sobre controles en frontera con Venezuela",
-      "categoria": "Internacional",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/noticias/aclaran-propuesta-de-de-la-espriella-sobre-controles-en-frontera-con-venezuela/",
-      "fecha": "2026-11-14T20:00:17+00:00",
       "imagen": ""
     },
     {
@@ -332,15 +377,6 @@
       "fuente": "La Silla Vacía",
       "url": "https://www.lasillavacia.com/en-vivo/la-foto-gobierno-y-uribismo-se-reunen-para-discutir-la-tributaria/",
       "fecha": "2026-11-14T19:39:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "d329ba819f01e649",
-      "titulo": "Defensa de Álvaro Uribe se pronunció tras decisión de la Fiscalía",
-      "categoria": "Internacional",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/noticias/defensa-de-alvaro-uribe-se-pronuncio-tras-decision-de-la-fiscalia/",
-      "fecha": "2026-11-14T19:36:39+00:00",
       "imagen": ""
     },
     {
@@ -425,15 +461,6 @@
       "imagen": ""
     },
     {
-      "id": "991d29b833a5fa61",
-      "titulo": "Ecopetrol prepara el regreso del fracking al Magdalena Medio",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/noticias/ecopetrol-prepara-el-regreso-del-fracking-al-magdalena-medio/",
-      "fecha": "2026-11-14T19:00:20+00:00",
-      "imagen": ""
-    },
-    {
       "id": "c6d80e0ab481c4f7",
       "titulo": "Cumplir el Acuerdo no es un favor a un partido ni a una ideología",
       "categoria": "Colombia",
@@ -512,33 +539,6 @@
       "fuente": "La Silla Vacía",
       "url": "https://www.lasillavacia.com/opinion/poner-un-limite-a-la-riqueza-de-los-megamillonarios/",
       "fecha": "2026-11-14T18:21:37+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "69fc259ebfcfc81f",
-      "titulo": "Obras en estación 16 y renovación de redes afectan el cronograma del Metro",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/economia/obras-en-estacion-16-y-renovacion-de-redes-afectan-el-cronograma-del-metro-de-bogota-4525273",
-      "fecha": "2026-11-14T18:17:10+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "38415c728f40a8a1",
-      "titulo": "Gobernador de Antioquia pide a EE. UU. la extradición de alias Primo Gay, implicado en el derribo de un Black Hawk y el asesinato de un periodista",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/medellin/gobernador-de-antioquia-pide-a-ee-uu-la-extradicion-de-alias-primo-gay-implicado-en-el-derribo-de-un-black-hawk-y-el-asesinato-de-un-periodista-3601117",
-      "fecha": "2026-11-14T18:07:05+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "702fca39143d320e",
-      "titulo": "Cuando el desierto se queda corto: resulta que la sequía extrema amenaza la supervivencia del cactus",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/ecologia-y-naturaleza/cuando-desierto-se-queda-corto-resulta-que-sequia-extrema-amenaza-supervivencia-cactus",
-      "fecha": "2026-11-14T18:01:23+00:00",
       "imagen": ""
     }
   ],
@@ -655,8 +655,9 @@
     {
       "nombre": "El Diario — Pereira",
       "url": "https://www.eldiario.com.co/feed/",
-      "estado": "correcto",
-      "titulares": 35
+      "estado": "error",
+      "titulares": 0,
+      "detalle": "El feed no contiene entradas."
     },
     {
       "nombre": "Chocó 7 días",
