@@ -1,5 +1,5 @@
 {
-  "ultima_actualizacion": "2026-11-14T14:51:07.469628+00:00",
+  "ultima_actualizacion": "2026-11-14T15:48:07.400385+00:00",
   "titulares_rss": [
     {
       "id": "226616e20d6cb4d5",
@@ -7,7 +7,115 @@
       "categoria": "Internacional",
       "fuente": "BBC Mundo",
       "url": "https://www.bbc.co.uk/mundo/live/c62e8kkl9rlrt?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-14T14:51:07.469628+00:00",
+      "fecha": "2026-11-14T15:48:07.400385+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "12249773e1c47726",
+      "titulo": "Venezuela tras la salida de Maduro: periodista regresó del exilio y contó qué encontró en el país",
+      "categoria": "Internacional",
+      "fuente": "La FM Internacional",
+      "url": "https://www.lafm.com.co/internacional/como-encontro-venezuela-un-periodista-que-volvio-del-exilio-417214",
+      "fecha": "2026-11-14T15:47:27+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "1574a028047d1435",
+      "titulo": "Hacker de la DNI señalado de alterar notas en la UNAD fue enviado a prisión por títulos fraudulentos",
+      "categoria": "Colombia",
+      "fuente": "La FM Actualidad",
+      "url": "https://www.lafm.com.co/actualidad/carcel-para-hacker-dni-417211",
+      "fecha": "2026-11-14T15:37:59+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "fadff8bf6b9d2bc0",
+      "titulo": "Gobierno y Fedecafe firmaron la renovación de los contratos de administración del FoNC",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/economia/gobierno-y-fedecafe-firmaron-la-renovacion-de-los-contratos-de-administracion-de-recursos-4525188",
+      "fecha": "2026-11-14T15:37:27+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "6e85716270a1757f",
+      "titulo": "Estados Unidos desclasifica nuevos documentos sobre OVNIs y saca a la luz platillos volantes de los años 50",
+      "categoria": "Internacional",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/espacio/estados-unidos-desclasifica-informes-ovnis-cada-pocas-semanas-ultimo-informe-incluye-triangulo-negro-2026-platillos-voladores-anos-50",
+      "fecha": "2026-11-14T15:31:20+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "80561dca00c1109c",
+      "titulo": "El misterio por el asesinato de Ómar Yesid Cabarcas Fontalvo, de empresa contratista de Ecopetrol, en Santander: el 'clan del Golfo' lo habría citado",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/santander/el-misterio-por-el-asesinato-de-omar-yesid-cabarcas-fontalvo-de-empresa-contratista-de-ecopetrol-en-santander-el-clan-del-golfo-lo-habria-citado-3601079",
+      "fecha": "2026-11-14T15:26:11+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "9e82ef56c129a803",
+      "titulo": "Me dijeron que mi bebé había fallecido... 42 años después me envió un correo electrónico",
+      "categoria": "Internacional",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/cmlylypz9xldo?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-14T15:24:42+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "a22942ed383ca1ad",
+      "titulo": "Fondo Milagro: Luis Felipe Henao dice que trabajará gratis tras escándalo por millonarios salarios",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/luis-felipe-henao-asume-gratis-gerencia-fondo-milagro-ML43594901",
+      "fecha": "2026-11-14T15:17:16+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "54d2dd83779b1631",
+      "titulo": "¿Qué sigue para el Fondo Milagro con Luis Felipe Henao como gerente?",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/fondo-milagro-reconstruccion-terremoto-renuncia-jaime-uribe-nuevo-felipe-henao-LL43591956",
+      "fecha": "2026-11-14T15:17:10+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "edc5986ea6db5763",
+      "titulo": "Metro de Bogotá: Línea 4 avanza, pero obras de la Primera Línea tendrán retrasos",
+      "categoria": "Colombia",
+      "fuente": "La FM Actualidad",
+      "url": "https://www.lafm.com.co/actualidad/metro-de-bogota-linea-4-avanza-primera-linea-tendra-retrasos-417220",
+      "fecha": "2026-11-14T15:16:25+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "e23b5552f730d87d",
+      "titulo": "El Fondo Milagro terminó en su propio terremoto: los episodios que llevaron a los cambios en su gerencia",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/fondo-milagro-salarios-polemica-salida-jaime-uribe-luis-felipe-henao-DL43594610",
+      "fecha": "2026-11-14T15:15:36+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "57abfa406dc720be",
+      "titulo": "Creíamos que los gatos sagrados del Antiguo Egipto tenían una vida dorada, pero sus cráneos dicen otra cosa",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/magnet/creiamos-que-gatos-sagrados-antiguo-egipto-tenian-vida-dorada-sus-craneos-dicen-otra-cosa",
+      "fecha": "2026-11-14T15:01:29+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "7188689bef1268f7",
+      "titulo": "Fondo Milagro: quién es Luis Felipe Henao y qué se sabe sobre su continuidad en la junta de Ecopetrol",
+      "categoria": "Economía",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/gobierno/fondo-milagro-quien-es-luis-felipe-henao-y-que-se-sabe-sobre-su-continuidad-en-la-junta-de-ecopetrol-506369",
+      "fecha": "2026-11-14T14:51:30+00:00",
       "imagen": ""
     },
     {
@@ -35,6 +143,15 @@
       "fuente": "DW Español",
       "url": "https://www.dw.com/es/se-cierra-la-coalición-de-gobierno-de-izquierdas-para-mecklemburgo-pomerania-occidental/a-79948513?maca=spa-rss-sp-all-1122-rdf",
       "fecha": "2026-11-14T14:36:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "743decb9470e4ad0",
+      "titulo": "Grúas, reclamos y enfrentamientos: fuerte pulso entre autoridades y comerciantes por el espacio público en Santa Marta",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/gruas-reclamos-y-enfrentamientos-fuerte-pulso-entre-autoridades-y-comerciantes-por-el-espacio-publico-en-santa-marta-3601075",
+      "fecha": "2026-11-14T14:35:00+00:00",
       "imagen": ""
     },
     {
@@ -173,6 +290,15 @@
       "imagen": ""
     },
     {
+      "id": "ac8ad94522cbc11c",
+      "titulo": "Protecciones para adolescentes en Instagram",
+      "categoria": "Colombia",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/secciones/tecnologia/protecciones-adolescentes-instagram/",
+      "fecha": "2026-11-14T13:30:00+00:00",
+      "imagen": ""
+    },
+    {
       "id": "15577caada38c97b",
       "titulo": "Empresarios proponen alternativas para ajustar la reforma tributaria",
       "categoria": "Colombia",
@@ -227,11 +353,11 @@
       "imagen": ""
     },
     {
-      "id": "dee3710b2d997db2",
-      "titulo": "Lo que dice el Plan Nacional de Desarrollo sobre la Amazonía y otras noticias",
+      "id": "2810c5429714f93e",
+      "titulo": "Lo que dicen bases del Plan Nacional de Desarrollo sobre la Amazonía y otras noticias",
       "categoria": "Colombia",
       "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/en-vivo/lo-que-dice-el-plan-nacional-de-desarrollo-sobre-la-amazonia-y-otras-noticias/",
+      "url": "https://www.lasillavacia.com/en-vivo/lo-que-dicen-bases-del-plan-nacional-de-desarrollo-sobre-la-amazonia-y-otras-noticias/",
       "fecha": "2026-11-14T13:00:00+00:00",
       "imagen": ""
     },
@@ -414,132 +540,6 @@
       "url": "https://www.bbc.com/mundo/articles/c5n4e274kdlro?at_medium=RSS&at_campaign=rss",
       "fecha": "2026-11-14T10:10:50+00:00",
       "imagen": ""
-    },
-    {
-      "id": "409d476ff4c29e27",
-      "titulo": "AOC Agon Pro AGP346UCSD, análisis: un monitor ultrapanorámico que me ha hecho olvidarme de mis dos monitores",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/analisis/aoc-agon-pro-agp346ucsd-analisis-caracteristicas-precio-especificaciones",
-      "fecha": "2026-11-14T10:01:24+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "f2a8b013a77263b1",
-      "titulo": "Las mejores ofertas previas al Black Friday: desde móviles de gama alta hasta televisores y auriculares",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/seleccion/mejores-ofertas-previas-al-black-friday-moviles-gama-alta-televisores-auriculares",
-      "fecha": "2026-11-14T09:45:27+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "debd86d8a7a70fb2",
-      "titulo": "La República Evangélica de Colombia",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/america-colombia/2026-11-14/la-republica-evangelica-de-colombia.html",
-      "fecha": "2026-11-14T09:30:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "2939d5dcf4a64087",
-      "titulo": "Los negociadores de paz enfurecen al Gobierno al criticar la teatralidad militarista de De la Espriella",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/america-colombia/2026-11-14/los-negociadores-de-paz-enfurecen-al-gobierno-al-criticar-la-teatralidad-militarista-de-de-la-espriella.html",
-      "fecha": "2026-11-14T09:30:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "a62d9d0837254e63",
-      "titulo": "Cien días tristes para un Tigre que viste de verde oliva",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/america-colombia/2026-11-14/cien-dias-tristes-para-un-tigre-que-viste-de-verde-oliva.html",
-      "fecha": "2026-11-14T09:30:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "1567bb803d35237a",
-      "titulo": "Videoanálisis | León XIV vuelve a casa y se reencuentra con los fieles en Chiclayo",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/america/2026-11-14/videoanalisis-leon-xiv-vuelve-a-casa-y-se-reencuentra-con-los-fieles-en-chiclayo.html",
-      "fecha": "2026-11-14T09:30:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "7935bf470f83ada4",
-      "titulo": "Un ecuatoriano lucha por su vida tras el desplome del edificio en Brooklyn: “Está en una situación grave”",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/us/2026-11-14/un-ecuatoriano-lucha-por-su-vida-tras-el-desplome-del-edificio-en-brooklyn-esta-en-una-situacion-grave.html",
-      "fecha": "2026-11-14T09:30:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "b3c86c8a0481ca08",
-      "titulo": "La huida y protección del exfiscal Zuany por Estados Unidos refuerza las críticas de México por violación a su soberanía",
-      "categoria": "Internacional",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/mexico/2026-11-14/la-huida-y-proteccion-del-exfiscal-zuany-por-estados-unidos-refuerza-las-criticas-de-mexico-por-violacion-a-su-soberania.html",
-      "fecha": "2026-11-14T09:30:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "7e9e4a746b4ce37e",
-      "titulo": "Bolivia pide explicaciones a México por conceder asilo político al exvicepresidente Álvaro García Linera",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/america/2026-11-14/bolivia-pide-explicaciones-a-mexico-por-conceder-asilo-politico-al-exvicepresidente-alvaro-garcia-linera.html",
-      "fecha": "2026-11-14T09:30:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "f22d696f0fd42022",
-      "titulo": "Prevenir la corrupción exige mucho más que cumplir requisitos",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/america-colombia/2026-11-14/prevenir-la-corrupcion-exige-mucho-mas-que-cumplir-requisitos.html",
-      "fecha": "2026-11-14T09:30:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "a9eee965cdd4f956",
-      "titulo": "Video | La seguridad de los derechos humanos",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/america-colombia/2026-11-14/video-la-seguridad-de-los-derechos-humanos.html",
-      "fecha": "2026-11-14T09:30:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "5420cd7c120c5a69",
-      "titulo": "Los ette ennaka, el pueblo indígena que lucha por recuperar su lugar en la Sierra Nevada de Colombia",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/america-colombia/2026-11-14/los-ette-ennaka-el-pueblo-indigena-que-lucha-por-recuperar-su-lugar-en-la-sierra-nevada-de-colombia.html",
-      "fecha": "2026-11-14T09:30:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "f324e913a6f79f1b",
-      "titulo": "La caída de Jensen Huang de la cima de Nvidia",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/us/2026-11-14/la-caida-de-jensen-huang-de-la-cima-de-nvidia.html",
-      "fecha": "2026-11-14T09:30:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "1df5b3e335385362",
-      "titulo": "La propiedad inmobiliaria, explicada en un libro",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/actualidad/la-propiedad-inmobiliaria-explicada-en-un-libro/",
-      "fecha": "2026-11-14T09:12:44+00:00",
-      "imagen": ""
     }
   ],
   "estado_fuentes": [
@@ -553,7 +553,7 @@
       "nombre": "El Tiempo Cali",
       "url": "https://www.eltiempo.com/rss/colombia_cali.xml",
       "estado": "correcto",
-      "titulares": 6
+      "titulares": 7
     },
     {
       "nombre": "El Espectador",
