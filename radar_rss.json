@@ -1,5 +1,5 @@
 {
-  "ultima_actualizacion": "2026-11-14T04:59:44.120439+00:00",
+  "ultima_actualizacion": "2026-11-14T05:56:48.299365+00:00",
   "titulares_rss": [
     {
       "id": "226616e20d6cb4d5",
@@ -7,7 +7,493 @@
       "categoria": "Internacional",
       "fuente": "BBC Mundo",
       "url": "https://www.bbc.co.uk/mundo/live/c62e8kkl9rlrt?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-14T04:59:44.120439+00:00",
+      "fecha": "2026-11-14T05:56:48.299365+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "7a6b6f84045b06bb",
+      "titulo": "La amenaza de fumigación revitaliza la organización comunitaria",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/red-de-expertos/red-de-la-paz/la-amenaza-de-fumigacion-revitaliza-la-organizacion-comunitaria/",
+      "fecha": "2026-11-14T05:05:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "260ecb8d6f2c43e7",
+      "titulo": "Fallas en los servicios de Microsoft afectaron a 321 millones de usuarios",
+      "categoria": "Tecnología",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/globoeconomia/fallas-en-los-servicios-de-microsoft-afectaron-a-321-millones-de-usuarios-4524217",
+      "fecha": "2026-11-14T05:04:55+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "98641659bcf94f2e",
+      "titulo": "Cómputo a crédito",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/analisis/javier-villamizar-500031/computo-a-credito-4524879",
+      "fecha": "2026-11-14T05:03:59+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "049848208933659e",
+      "titulo": "Masacre de Nova en Israel",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/analisis/francisco-barbosa-3943941/masacre-de-nova-en-israel-4524823",
+      "fecha": "2026-11-14T05:03:56+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "d669850b46e2d367",
+      "titulo": "Bogotá, Medellín y Bucaramanga, ciudades que lideran en competitividad",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/economia/bogota-medellin-y-bucaramanga-lideran-en-competitividad-4524917",
+      "fecha": "2026-11-14T05:02:55+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "8ae463e3da8ad64b",
+      "titulo": "Elecciones de medio término en Estados Unidos: después del tsunami azul, toca gobernar",
+      "categoria": "Internacional",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/analisis/jose-aristimuno-4320800/elecciones-de-medio-termino-en-estados-unidos-despues-del-tsunami-azul-toca-gobernar-4524839",
+      "fecha": "2026-11-14T05:02:41+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "1b3e44bee7ab920d",
+      "titulo": "Deuda para dummies",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/analisis/jerome-sanabria-3850986/deuda-para-dummies-4524856",
+      "fecha": "2026-11-14T05:02:41+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "6813eab7a0c0412c",
+      "titulo": "¿Una nueva era nuclear? Qué oportunidades se abren para Colombia",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/analisis/park-sun-tae-3699318/una-nueva-era-nuclear-que-oportunidades-se-abren-para-colombia-4524835",
+      "fecha": "2026-11-14T05:02:36+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "c11ca5df062bc089",
+      "titulo": "Cinco de los 135 proyectos de la ‘Milagro Week’ buscan traer 50% del monto total esperado",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/economia/cinco-proyectos-de-la-milagro-week-traerian-50-del-monto-total-4524904",
+      "fecha": "2026-11-14T05:02:29+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "a01ecbaeb3bd623f",
+      "titulo": "Así es como Ecopetrol planea la reactivación de sus proyectos de fracking en Colombia",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/economia/ecopetrol-anuncia-que-reactivara-proyectos-de-fracking-en-colombia-4524897",
+      "fecha": "2026-11-14T05:02:21+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "207b28549cf4ee8d",
+      "titulo": "“La reconstrucción de Pereira puede llegar a costar alrededor de $13 billones, según cálculos”",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/economia/entrevista-con-mauricio-salazar-alcalde-de-pereira-sobre-el-fondo-milagro-y-los-fondos-para-la-reconstruccion-4524911",
+      "fecha": "2026-11-14T05:02:21+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "45a13088e1dfae9f",
+      "titulo": "¿Qué pasa con la reconstrucción en Pereira?",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/analisis/santiago-angel-rodriguez-3548824/que-pasa-con-la-reconstruccion-en-pereira-4524830",
+      "fecha": "2026-11-14T05:02:08+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "ba6f895e3a9a57f4",
+      "titulo": "Hacer las reglas",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/analisis/gustavo-moreno-montalvo-2565659/hacer-las-reglas-4524885",
+      "fecha": "2026-11-14T05:02:06+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "e9c16827bfb2e929",
+      "titulo": "Mercadeo y Navidad",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/analisis/carlos-fernando-villa-gomez-400403/mercadeo-y-navidad-4524891",
+      "fecha": "2026-11-14T05:02:05+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "b5120ac60f3adece",
+      "titulo": "¿Qué son los kidfluencers? Los pequeños que se toman la web y las redes sociales",
+      "categoria": "Tendencias",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/internet-economy/que-son-los-kidfluencers-los-pequenos-que-se-toman-la-web-y-las-redes-sociales-4525052",
+      "fecha": "2026-11-14T05:01:57+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "35f7f84c49274dde",
+      "titulo": "Analistas prevén que el precio del dólar llegue a un rango de $3.200 al cierre del año",
+      "categoria": "Economía",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/finanzas/analistas-preven-que-el-precio-del-dolar-llegue-a-un-rango-de-3-200-al-cierre-del-ano-4524748",
+      "fecha": "2026-11-14T05:01:55+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "4f5f1bc3bed47d20",
+      "titulo": "“En Proyecto Kinder hemos vendido cerca de $20.000 millones en nuestro primer año”",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/ocio/felipe-rodriguez-fundador-del-establecimiento-hablo-sobre-la-transformacion-del-negocio-las-ventas-cercanas-a-20-000-millones-durante-su-primer-ano-4523560",
+      "fecha": "2026-11-14T05:01:50+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "a1c63ad34415bfc0",
+      "titulo": "La universidad que piden los estudiantes: antes de decidir, escuchar",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/analisis/p-harold-castilla-devoz-2912463/la-universidad-que-piden-los-estudiantes-antes-de-decidir-escuchar-4524876",
+      "fecha": "2026-11-14T05:01:49+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "9183d1711468db83",
+      "titulo": "Las garantías que tiene un usuario para protegerse en caso de ser una víctima de espionaje",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/internet-economy/garantias-que-tiene-un-usuario-para-protegerse-en-caso-de-ser-una-victima-de-espionaje-4524857",
+      "fecha": "2026-11-14T05:01:48+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "efc7ad1eca5183e9",
+      "titulo": "Las cámaras que utilizan grandes influencers alcanzan precios de más de $1,5 millones",
+      "categoria": "Tendencias",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/internet-economy/las-camaras-usadas-por-grandes-influencers-tienen-precios-desde-1-5-millones-4524764",
+      "fecha": "2026-11-14T05:01:48+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "b8fc8577f9f3681b",
+      "titulo": "Muse AI, la nueva inteligencia artificial de Meta Platforms que llegó a Latinoamérica",
+      "categoria": "Tecnología",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/internet-economy/muse-ai-la-inteligencia-artificial-de-meta-platforms-que-llego-a-latinoamerica-4524678",
+      "fecha": "2026-11-14T05:01:46+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "257468d3cfca80a9",
+      "titulo": "Gorillaz regresa a Bogotá con un concierto el 17 de noviembre en el Coliseo MedPlus",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/ocio/gorillaz-llega-a-bogota-el-17-de-noviembre-4525006",
+      "fecha": "2026-11-14T05:01:45+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "a9cf8c61fc02c186",
+      "titulo": "Grupo Sura elevó la proyección de su utilidad de hasta $2,9 billones para el cierre de 2026",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/finanzas/el-grupo-sura-elevo-su-proyeccion-de-utilidad-para-el-cierre-de-2026-4524935",
+      "fecha": "2026-11-14T05:01:43+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "178cda28c93fd1cf",
+      "titulo": "El mundo corporativo bajo acecho digital",
+      "categoria": "Internacional",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/opinion/editorial/el-mundo-corporativo-bajo-acecho-digital-4524220",
+      "fecha": "2026-11-14T05:01:40+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "8489b0dce030b174",
+      "titulo": "“Temu y Shein son una forma maquillada de contrabando mediante pedidos pequeños”",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/empresas/elizabeth-acuna-directora-ejecutiva-de-acovedi-habla-sobre-el-tope-a-envios-internacionales-4523165",
+      "fecha": "2026-11-14T05:01:28+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "4066ecf2a1ffda7a",
+      "titulo": "El IVA y los envíos de bajo valor",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/analisis/santiago-pardo-salguero-3595338/el-iva-y-los-envios-de-bajo-valor-4524873",
+      "fecha": "2026-11-14T05:01:26+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "490022da33adefe1",
+      "titulo": "Antes de la intensidad, conciencia",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/analisis/tatiana-arango-m-401859/antes-de-la-intensidad-conciencia-4524859",
+      "fecha": "2026-11-14T05:01:20+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "de164fb28cc6fcd5",
+      "titulo": "“En Civitatis ofrecemos experiencias de viaje en más de 4.300 destinos de 160 países”",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/ocio/nicolas-posse-responsable-regional-de-sudamerica-de-civitatis-hablo-sobre-las-preferencias-de-los-viajeros-colombianos-4524785",
+      "fecha": "2026-11-14T05:01:19+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "99feb8525d3924ea",
+      "titulo": "Los colombianos quieren aportar, pero están mamados",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/analisis/silverio-gomez-carmona-534581/los-colombianos-quieren-aportar-pero-estan-mamados-4524843",
+      "fecha": "2026-11-14T05:01:18+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "a590c01fba900bb2",
+      "titulo": "“La demanda puede ascender hasta 2.500 buses eléctricos en Bogotá para 2027 y 2028”",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/empresas/felipe-negret-gerente-general-de-farizon-en-grupo-vardi-hablo-del-crecimiento-de-los-buses-electricos-4524222",
+      "fecha": "2026-11-14T05:01:16+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "506b62882eff679d",
+      "titulo": "“Palacio”, la miniserie que revive la toma del Palacio de Justicia 41 años después de la tragedia",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/ocio/palacio-la-miniserie-que-revive-la-toma-del-palacio-de-justicia-41-anos-despues-de-la-tragedia-4524854",
+      "fecha": "2026-11-14T05:01:13+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "44ee6c6bddb010f9",
+      "titulo": "El actor Ed Westwick presentó en Bogotá la nueva fragancia 9PM Night Out de Afnan",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/ocio/ed-westwick-presento-en-bogota-la-nueva-fragancia-9pm-night-out-de-afnan-4525040",
+      "fecha": "2026-11-14T05:01:05+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "57e359ed03d4cf06",
+      "titulo": "El Deportivo Independiente Medellín se alista para dejar las manos de Raúl Giraldo",
+      "categoria": "Deportes",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/empresas/el-deportivo-independiente-medellin-se-alista-para-dejar-las-manos-de-raul-giraldo-4524978",
+      "fecha": "2026-11-14T05:01:04+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "54d2dd83779b1631",
+      "titulo": "¿Qué sigue para el Fondo Milagro con Henao como gerente?",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/fondo-milagro-reconstruccion-terremoto-renuncia-jaime-uribe-nuevo-felipe-henao-LL43591956",
+      "fecha": "2026-11-14T05:01:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "dc5f744eee4394a0",
+      "titulo": "León XIV: las razones del fervor",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/opinion/leon-xiv-las-razones-del-fervor/",
+      "fecha": "2026-11-14T05:00:58+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "8e73fc4e3e4c73be",
+      "titulo": "Hallan un arsenal del Clan del Golfo",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/judicial/hallan-un-arsenal-del-clan-del-golfo/",
+      "fecha": "2026-11-14T05:00:51+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "c36b2aa7502045c1",
+      "titulo": "Un accidente apagó sus sueños",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/judicial/un-accidente-apago-sus-suenos/",
+      "fecha": "2026-11-14T05:00:49+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "9b6a3c456d453029",
+      "titulo": "Profesores heridos tras fuerte choque",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/judicial/profesores-heridos-tras-fuerte-choque/",
+      "fecha": "2026-11-14T05:00:47+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "3442077d228dec79",
+      "titulo": "Los drogaban, les robaban las motos y la plata",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/judicial/los-drogaban-les-robaban-las-motos-y-la-plata/",
+      "fecha": "2026-11-14T05:00:44+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "98ebb5479ecb65a7",
+      "titulo": "Quiso dispararle al atacante de su amigo y mató a una mujer",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/judicial/quiso-dispararle-al-atacante-de-su-amigo-y-mato-a-una-mujer/",
+      "fecha": "2026-11-14T05:00:43+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "9739577b9dec126d",
+      "titulo": "LA SALUD NO PUEDE SEGUIR ESPERANDO",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/opinion/la-salud-no-puede-seguir-esperando/",
+      "fecha": "2026-11-14T05:00:33+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "8c2935035d577080",
+      "titulo": "La JEP: hostil con las víctimas y críticos, y blandos con los victimarios",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/opinion/la-jep-hostil-con-las-victimas-y-criticos-y-blandos-con-los-victimarios/",
+      "fecha": "2026-11-14T05:00:25+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "9019ed4ae12b68ca",
+      "titulo": "¿Qué pretende ocultar la reconstrucción de Pereira?",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/opinion/765094/",
+      "fecha": "2026-11-14T05:00:19+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "9bc74a8f176c830d",
+      "titulo": "¡La hora de COMFAMILIAR!",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/opinion/la-hora-de-comfamiliar/",
+      "fecha": "2026-11-14T05:00:16+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "f00b1e761dae9886",
+      "titulo": "Contra la mermelada",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/editorial/contra-la-mermelada/",
+      "fecha": "2026-11-14T05:00:16+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "afecd48454b5e2f4",
+      "titulo": "Murió tras ataque con machete",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/judicial/murio-tras-ataque-con-machete/",
+      "fecha": "2026-11-14T05:00:11+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "53f19ed498510492",
+      "titulo": "Identificaron a la mujer arrollada por un camión",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/judicial/identificaron-a-la-mujer-arrollada-por-un-camion/",
+      "fecha": "2026-11-14T05:00:09+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "25a8203f8cdf84e6",
+      "titulo": "Dosquebradas se construye con pequeños compromisos",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/opinion/dosquebradas-se-construye-con-pequenos-compromisos/",
+      "fecha": "2026-11-14T05:00:07+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "65390f8fae147ecd",
+      "titulo": "Un rescate que cuide las finanzas y la mesa de los hogares",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/opinion/la-ley-de-rescate-economico-nos-plantea-un-reto-que-debemos-asumir-con-responsabilidad/",
+      "fecha": "2026-11-14T05:00:07+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "16ca9f27a7a56b82",
+      "titulo": "Cuando la luz incomoda a la sombra",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/editorial/cuando-la-luz-incomoda-a-la-sombra/",
+      "fecha": "2026-11-14T05:00:05+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "e930a61347705822",
+      "titulo": "¿Por Qué Nos Enamoramos?",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/opinion/por-que-nos-enamoramos/",
+      "fecha": "2026-11-14T05:00:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "8a534bc7844045a0",
+      "titulo": "Noventa días después: del anuncio a la obra",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/opinion/noventa-dias-despues-del-anuncio-a-la-obra/",
+      "fecha": "2026-11-14T05:00:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "7dc9a164034de11a",
+      "titulo": "Sexto aniversario luctuoso",
+      "categoria": "Colombia",
+      "fuente": "La Patria — Caldas",
+      "url": "https://www.lapatria.com/galerias/sexto-aniversario-luctuoso",
+      "fecha": "2026-11-14T05:00:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "937c180ccd7295a0",
+      "titulo": "Reconocimientos en la Asamblea de Caldas",
+      "categoria": "Colombia",
+      "fuente": "La Patria — Caldas",
+      "url": "https://www.lapatria.com/galerias/reconocimientos-en-la-asamblea-de-caldas-1",
+      "fecha": "2026-11-14T05:00:00+00:00",
       "imagen": ""
     },
     {
@@ -53,492 +539,6 @@
       "fuente": "Chocó 7 días",
       "url": "https://choco7dias.com/docente-de-la-utch-participa-en-encuentro-clave-de-justicia-laboral-convocado-por-la-oit-y-la-corte-suprema/",
       "fecha": "2026-11-14T03:48:55+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "b2239193722583e2",
-      "titulo": "Estados Unidos reanuda el tráfico aéreo después de un parón de más de cuatro horas y 6.000 vuelos cancelados",
-      "categoria": "Internacional",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/us/2026-11-14/estados-unidos-reanuda-el-trafico-aereo-despues-de-un-paron-de-mas-de-cuatro-horas-y-6000-vuelos-cancelados.html",
-      "fecha": "2026-11-14T03:29:07+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "06ec95767fc09ff8",
-      "titulo": "Soacha se abre a nuevas industrias y tendrán tres vías de entrada y salida",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/gobierno/soacha-se-abre-a-nuevas-industrias-y-tendran-tres-vias-de-entrada-y-salida-506362",
-      "fecha": "2026-11-14T03:15:26+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "44e515171033fb45",
-      "titulo": "Un inflexible Putin eleva sus exigencias para alcanzar la paz con Ucrania",
-      "categoria": "Internacional",
-      "fuente": "BBC Mundo",
-      "url": "https://www.bbc.com/mundo/articles/crn80jqyw993o?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-14T03:06:55+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "20ca03b0d5f8fadb",
-      "titulo": "Estados Unidos levanta suspensión de vuelos tras horas de caos aéreo",
-      "categoria": "Internacional",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/estados-unidos-levanta-suspensión-de-vuelos-tras-horas-de-caos-aéreo/a-79946394?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-14T02:49:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "34826d07142df548",
-      "titulo": "Gobierno anuncia millonaria inversión para vías y obras en Córdoba",
-      "categoria": "Colombia",
-      "fuente": "La FM Actualidad",
-      "url": "https://www.lafm.com.co/actualidad/presidente-ordena-iniciar-obras-clave-en-cordoba-417191",
-      "fecha": "2026-11-14T02:42:53+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "40a4075a6d3e57f2",
-      "titulo": "“La moda dejó de ser un adorno para convertirse en una industria que genera empleo”: Guio Di Colombia",
-      "categoria": "Economía",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/reinventarse-para-seguir/moda-en-el-valle-del-cauca-empleos-guio-di-colombia-cali-distrito-moda/",
-      "fecha": "2026-11-14T02:42:04+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "b4c08146542c37f4",
-      "titulo": "Madre teme que expolicía señalado de asesinar a su hijo quede en libertad: fue testigo del crimen",
-      "categoria": "Colombia",
-      "fuente": "La FM Actualidad",
-      "url": "https://www.lafm.com.co/actualidad/expolicia-senalado-asesinar-amigo-gerson-chaparro-podria-quedar-libre-417190",
-      "fecha": "2026-11-14T02:33:39+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "470e07605c038e8d",
-      "titulo": "Akira Detalles para Brillar: cuando reinventarse significa encender una nueva oportunidad",
-      "categoria": "Colombia",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/reinventarse-para-seguir/velas-artesanales-en-palmira-akira-detalles-para-brillar-emprendimiento/",
-      "fecha": "2026-11-14T02:30:38+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "92fe36ec85d5a227",
-      "titulo": "Fundación Sarmiento Angulo destina $50.000 millones para proyectos viales del Chocó tras el sismo del 10 de agosto",
-      "categoria": "Colombia",
-      "fuente": "Chocó 7 días",
-      "url": "https://choco7dias.com/fundacion-sarmiento-angulo-destina-50-000-millones-para-proyectos-viales-del-choco-tras-el-sismo-del-10-de-agosto/",
-      "fecha": "2026-11-14T02:23:35+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "2cd9463961f194dc",
-      "titulo": "Colombia venció a Chile en Cali y comenzó con triunfo la fecha FIFA",
-      "categoria": "Cali",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/noticias/colombia-vencio-a-chile-en-cali-y-comenzo-con-triunfo-la-fecha-fifa/",
-      "fecha": "2026-11-14T02:19:25+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "8e1e75d9aef0ff14",
-      "titulo": "El papa León XIV llegó a Chiclayo, la ciudad que fue su casa durante más de ocho años",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/el-papa-leon-xiv-llego-a-chiclayo-la-ciudad-que-fue-su-casa-durante-mas-de-ocho-anos-4524967",
-      "fecha": "2026-11-14T02:18:25+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "f0843926a84f169c",
-      "titulo": "Colombia venció por la mínima a Chile y se llevó el triunfo en el Pascual Guerrero",
-      "categoria": "Colombia",
-      "fuente": "La FM Deportes",
-      "url": "https://www.lafm.com.co/deportes/colombia-vencio-chile-minima-llevo-triunfo-pascual-guerrero-417180",
-      "fecha": "2026-11-14T02:12:35+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "402766b41448cb96",
-      "titulo": "Gobierno abre mesas de diálogo con gremios y congresistas para discutir la Ley de Rescate",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/economia/gobierno-abre-mesas-de-dialogo-con-gremios-y-congresistas-para-discutir-la-ley-de-rescate-4524961",
-      "fecha": "2026-11-14T02:11:33+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "c9fb93559a4bf5c7",
-      "titulo": "De la Espriella designa al exministro Luis Felipe Henao como nuevo gerente del Fondo Milagro",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/america-colombia/2026-11-14/de-la-espriella-designa-al-exministro-luis-felipe-henao-como-nuevo-gerente-del-fondo-milagro.html",
-      "fecha": "2026-11-14T02:09:34+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "ae63c22ff92bfecb",
-      "titulo": "Gobierno, con Fondes, cofinanciará 50% de los estudios de la línea 4 del Metro de Bogotá",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/economia/estudios-de-la-linea-4-del-metro-de-bogota-4524952",
-      "fecha": "2026-11-14T02:01:32+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "7bf277892babcea8",
-      "titulo": "El espacio aéreo de EE. UU. está abierto de nuevo",
-      "categoria": "Internacional",
-      "fuente": "La FM Internacional",
-      "url": "https://www.lafm.com.co/internacional/estados-unidos-abrio-su-espacio-aereo-417189",
-      "fecha": "2026-11-14T02:00:37+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "71c188988052b75e",
-      "titulo": "Starship de SpaceX entra en órbita terrestre pero descarta captura del propulsor",
-      "categoria": "Internacional",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/starship-de-spacex-entra-en-órbita-terrestre-pero-descarta-captura-del-propulsor/a-79946216?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-14T01:57:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "02c02aa5ef28f917",
-      "titulo": "Trump se reunirá con Xi y Putin el 19 de noviembre en China para mantener conversaciones",
-      "categoria": "Internacional",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/trump-se-reunira-con-xi-y-putin-el-19-de-noviembre-en-china-para-mantener-conversaciones-4524946",
-      "fecha": "2026-11-14T01:56:51+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "e13bb5a1d59cb6df",
-      "titulo": "Avianca permitirá a pasajeros con vuelos desde y hacia Estados Unidos cambiar fecha de viaje",
-      "categoria": "Internacional",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/empresas/cambio-de-fechas-de-vuelos-de-avianca-hacia-y-desde-estados-unidos-4524945",
-      "fecha": "2026-11-14T01:53:33+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "b75ab8fd90e4a530",
-      "titulo": "Luis Felipe Henao, exministro de Vivienda, será el nuevo gerente del Fondo Milagro tras la salida de Jaime Uribe",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/luis-felipe-henao-nuevo-gerente-fondo-milagro-renuncia-jaime-uribe-PK43589798",
-      "fecha": "2026-11-14T01:49:48+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "0d16a05930788b20",
-      "titulo": "Luis Felipe Henao asumirá la gerencia del Fondo Milagro tras salida de Jaime Uribe",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/actualidad/luis-felipe-henao-asumira-la-gerencia-del-fondo-milagro-tras-salida-de-jaime-uribe/",
-      "fecha": "2026-11-14T01:49:16+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "4ef0ae5db108845c",
-      "titulo": "Impulsan protección y manejo responsable de serpientes",
-      "categoria": "Colombia",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/medio-ambiente/conservacion-de-las-serpientes-crc-unicauca-capacitacion-popayan/",
-      "fecha": "2026-11-14T01:46:06+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "481080338879965f",
-      "titulo": "Luis Felipe Henao, exministro de Vivienda y directivo de Ecopetrol, llega a la gerencia del Fondo Milagro",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/gobierno/luis-felipe-henao-exministro-de-vivienda-y-directivo-de-ecopetrol-llega-a-la-gerencia-del-fondo-milagro-506360",
-      "fecha": "2026-11-14T01:45:47+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "4b82817315486207",
-      "titulo": "Avianca activó cambios sin penalidad tras suspensión de vuelos en EE. UU. y la Aerocivil alertó demoras masivas",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/avianca-activa-cambios-sin-penalidad-suspension-vuelos-ee-uu-aerocivil-alerta-demoras-EK43588059",
-      "fecha": "2026-11-14T01:42:14+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "5dbcb6977cc16473",
-      "titulo": "Veedores de Cartago visitaron PTAR de río La Vieja",
-      "categoria": "Colombia",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/medio-ambiente/ptar-de-cartago-respaldo-comunitario-visita-buga-cvc-rio-la-vieja/",
-      "fecha": "2026-11-14T01:40:10+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "670c7e809c49061e",
-      "titulo": "Salario mínimo 2027: este sería el aumento que deberían negociar Gobierno y empresarios",
-      "categoria": "Colombia",
-      "fuente": "La FM Economía",
-      "url": "https://www.lafm.com.co/economia/salario-minimo-2027-negociacion-gobierno-empresarios-18-noviembre-aumento-417183",
-      "fecha": "2026-11-14T01:39:15+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "962c399a8ad90afa",
-      "titulo": "\"Milagro en el Misisipi\": rescatan a todos los pasajeros de un crucero que volcó en Nueva Orleans tras ser embestido por un buque cisterna",
-      "categoria": "Internacional",
-      "fuente": "BBC Mundo",
-      "url": "https://www.bbc.com/mundo/articles/c804wpyd29wro?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-14T01:37:16+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "433db0cb2b2f2278",
-      "titulo": "De La Espriella designa a Luis Felipe Henao como el nuevo gerente del Fondo Milagro",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/economia/presidente-de-la-espriella-designo-a-luis-felipe-henao-como-gerente-del-fondo-milagro-4524924",
-      "fecha": "2026-11-14T01:35:28+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "0777471a83ae2d12",
-      "titulo": "Gas natural evitó 19,67 millones de toneladas de emisiones de CO₂",
-      "categoria": "Colombia",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/medio-ambiente/gas-natural-en-colombia-reduccion-emisiones-co2-informe-naturgas/",
-      "fecha": "2026-11-14T01:32:25+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "3bea7c27fb2af753",
-      "titulo": "Aerocivil entrega detalles sobre los vuelos afectados entre Colombia y Estados Unidos: estas rutas operan normal",
-      "categoria": "Internacional",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/gobierno/aerocivil-entrega-detalles-sobre-los-vuelos-afectados-entre-colombia-y-estados-unidos-estas-rutas-operan-normal-506359",
-      "fecha": "2026-11-14T01:22:55+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "f60c01e510beedeb",
-      "titulo": "U2 regresa después de nueve años con ‘Carnaval de Luz’ y anuncia gira mundial para 2027",
-      "categoria": "Deportes",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/secciones/espectaculo/nuevo-album-de-u2-carnaval-de-luz-rosalia-dolly-parton-gira-2027/",
-      "fecha": "2026-11-14T01:17:16+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "2c77156ce5ce38f0",
-      "titulo": "Aerocivil reporta demoras y reprogramaciones en vuelos entre Colombia y Estados Unidos por restricción de la FAA",
-      "categoria": "Internacional",
-      "fuente": "La FM Actualidad",
-      "url": "https://www.lafm.com.co/actualidad/demoras-vuelos-reprogramaciones-estados-unidos-restricciones-colombia-aerocivil-417187",
-      "fecha": "2026-11-14T01:16:44+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "0a1506887bc792c0",
-      "titulo": "Adopta un Hogar, programa de Grupo Argos y Nicky Jam, construirá 92 viviendas en Chocó",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/empresas/adopta-un-hogar-programa-de-grupo-argos-y-nicky-jam-construira-92-viviendas-en-choco-4524773",
-      "fecha": "2026-11-14T01:15:24+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "ea7251e0601b8984",
-      "titulo": "Con escenarios deportivos y recreativos, la Gobernación del Valle transforma Cali",
-      "categoria": "Cali",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/cali/escenarios-recreodeportivos-de-cali-gobernacion-valle-recreavalle-obras/",
-      "fecha": "2026-11-14T01:03:14+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "2825c243b090e77f",
-      "titulo": "Honor 600 Elite llega a Colombia con batería de 8.100 mAh y cámara de 108 MP",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/empresas/honor-600-elite-llega-a-colombia-con-bateria-de-8-100-mah-y-camara-de-108-mp-4524845",
-      "fecha": "2026-11-14T01:00:41+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "27ce4c3a6fc541ec",
-      "titulo": "Cali emprende con Valle INN+, un impulso que incluye y abre nuevas oportunidades",
-      "categoria": "Cali",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/cali/fondo-valle-inn-plus-en-cali-caracterizacion-mujeres-emprendedores-2026/",
-      "fecha": "2026-11-14T00:52:42+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "e48d548d95d25863",
-      "titulo": "¿Fracasó TransMilenio?",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/red-de-expertos/red-cachaca/fracaso-transmilenio/",
-      "fecha": "2026-11-14T00:44:58+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "fecd810b1b2d70b5",
-      "titulo": "EE.UU. afirma que suspensión de vuelos no se debió a un ataque terrorista sino a un fallo de telecomunicaciones",
-      "categoria": "Internacional",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/ee-uu-afirma-que-suspensión-de-vuelos-no-se-debió-a-un-ataque-terrorista-sino-a-un-fallo-de-telecomunicaciones/a-79946087?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-14T00:31:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "a6b145a09d264127",
-      "titulo": "Buque choca contra crucero y obliga a rescatar pasajeros en el río Misisipi",
-      "categoria": "Deportes",
-      "fuente": "La FM Internacional",
-      "url": "https://www.lafm.com.co/internacional/buque-choca-contra-crucero-obliga-rescatar-pasajeros-rio-misisipi-417181",
-      "fecha": "2026-11-14T00:25:43+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "4a23e0643d4172c4",
-      "titulo": "Destraban Accesos Norte a Bogotá tras seis años de parálisis: construirán 3,4 kilómetros de doble calzada",
-      "categoria": "Colombia",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/infraestructura/destraban-accesos-norte-a-bogota-tras-seis-anos-de-paralisis-construiran-3-4-kilometros-de-doble-calzada-506357",
-      "fecha": "2026-11-14T00:25:03+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "a21119689e6a3a8f",
-      "titulo": "Microsoft lamenta \"profundamente\" problemas causados por caída global",
-      "categoria": "Tecnología",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/microsoft-lamenta-profundamente-problemas-causados-por-caída-global/a-79946074?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-14T00:24:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "7bea774fe38f1fba",
-      "titulo": "Se encontró de frente con un puma y se enamoró de las maravillas naturales que la guerra ocultó en el Meta: la historia del francés Jérémie Soun",
-      "categoria": "Internacional",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/se-encontro-de-frente-con-un-puma-y-se-enamoro-de-las-maravillas-naturales-que-la-guerra-oculto-en-el-meta-la-historia-del-frances-jeremie-soun-3600974",
-      "fecha": "2026-11-14T00:23:20+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "6725a61b25b7da98",
-      "titulo": "¿Quién cuida a quienes cuidan? Análisis sobre el costo del cuidado para miles de mujeres que lo pagan con su tiempo y oportunidades en Cali y el país",
-      "categoria": "Cali",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/cali/quien-cuida-a-quienes-cuidan-analisis-sobre-el-costo-del-cuidado-para-miles-de-mujeres-que-lo-pagan-con-su-tiempo-y-oportunidades-en-cali-y-el-pais-3600994",
-      "fecha": "2026-11-14T00:20:53+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "218277d5697c2d37",
-      "titulo": "Ventas reales del comercio minorista aumentaron 9,7% y el personal ocupado creció 1,2%",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/economia/encuesta-mensual-de-comercio-septiembre-de-2026-4524832",
-      "fecha": "2026-11-14T00:17:44+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "aee2a7f95bac0ba1",
-      "titulo": "Banco Popular tuvo una utilidad neta acumulada de $50.000 hasta septiembre",
-      "categoria": "Economía",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/finanzas/banco-popular-tuvo-una-utilidad-neta-acumulada-de-50-000-hasta-septiembre-4524698",
-      "fecha": "2026-11-14T00:15:13+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "1fe57fc4b9773c63",
-      "titulo": "Línea 4 del Metro de Bogotá recibe millonario impulso: Gobierno nacional confirma cuánto pondrá para el proyecto",
-      "categoria": "Colombia",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/gobierno/linea-4-del-metro-de-bogota-recibe-millonario-impulso-gobierno-nacional-confirma-cuanto-pondra-para-el-proyecto-506358",
-      "fecha": "2026-11-14T00:05:57+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "23d1d80095f9cc09",
-      "titulo": "Los ingresos reales para el alojamiento presentaron una disminución de 9,8% en septiembre",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/economia/encuesta-mensual-de-alojamiento-septiembre-de-2026-4524819",
-      "fecha": "2026-11-14T00:05:09+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "79b1529554ce3547",
-      "titulo": "Rectificación de Angie Rodríguez no prueba ni descarta los “sexocontratos”",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/detector-de-mentiras/enganoso/rectificacion-de-angie-rodriguez-no-prueba-ni-descarta-los-sexocontratos/",
-      "fecha": "2026-11-14T00:02:33+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "09e10334e4bc5801",
-      "titulo": "Aerolíneas que viajan de Colombia a Estados Unidos advierten a usuarios por decisión de FAA",
-      "categoria": "Internacional",
-      "fuente": "La FM Internacional",
-      "url": "https://www.lafm.com.co/internacional/cancelacion-de-vuelos-estados-unidos-viajes-desde-colombia-aerolineas-417182",
-      "fecha": "2026-11-14T00:00:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "5f38bd6bcf554d85",
-      "titulo": "Duerma informado con las claves de este 13 de noviembre de 2026",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/en-vivo/duerma-informado-con-las-claves-de-este-13-de-noviembre-de-2026/",
-      "fecha": "2026-11-13T23:56:05+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "57818ada9510a17b",
-      "titulo": "Lo que dice el Plan Nacional de Desarrollo sobre la Amazonía",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/silla-amazonia/amazonia-en-breve/lo-que-dice-el-plan-nacional-de-desarrollo-sobre-la-amazonia/",
-      "fecha": "2026-11-13T23:55:01+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "fb7eeaf60a0681b3",
-      "titulo": "Petro reconoce que intercedió para que Deicy Jiménez “buscara” trabajo en el Congreso “de acuerdo a sus estudios”",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/petro-reconoce-intercedio-deicy-jimenez-buscara-trabajo-congreso-CK43584420",
-      "fecha": "2026-11-13T23:48:25+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "ac49201d6549f75e",
-      "titulo": "Comisión Tercera de Senado nombra nueve ponentes para la tributaria",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/en-vivo/comision-tercera-de-senado-nombra-nueve-ponentes-para-la-tributaria/",
-      "fecha": "2026-11-13T23:36:17+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "26f7e07582aa5443",
-      "titulo": "La noche en que el atentado contra una patrulla sembró el pánico y causó el desplome de parte del techo en un convento en Cali: ‘Fue aterrador’",
-      "categoria": "Cali",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/cali/la-noche-en-que-el-atentado-contra-patrulla-sembro-el-panico-y-causo-el-desplome-de-parte-del-techo-en-un-convento-en-cali-fue-aterrador-3600978",
-      "fecha": "2026-11-13T23:33:59+00:00",
       "imagen": ""
     }
   ],
@@ -668,7 +668,7 @@
       "nombre": "La Patria — Caldas",
       "url": "https://www.lapatria.com/rss.xml",
       "estado": "correcto",
-      "titulares": 8
+      "titulares": 9
     }
   ]
 }
