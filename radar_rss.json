@@ -1,5 +1,5 @@
 {
-  "ultima_actualizacion": "2026-11-15T16:19:40.669309+00:00",
+  "ultima_actualizacion": "2026-11-15T17:18:15.416641+00:00",
   "titulares_rss": [
     {
       "id": "226616e20d6cb4d5",
@@ -7,16 +7,214 @@
       "categoria": "Internacional",
       "fuente": "BBC Mundo",
       "url": "https://www.bbc.co.uk/mundo/live/c62e8kkl9rlrt?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-15T16:19:40.669309+00:00",
+      "fecha": "2026-11-15T17:18:15.416641+00:00",
       "imagen": ""
     },
     {
       "id": "e46542b5b2ceab19",
-      "titulo": "La visita de León XIV a Perú, en vivo| El Papa se reúne con fieles en un parque arqueológico de Cuzco",
+      "titulo": "La visita de León XIV a Perú, en vivo|El Papa reza el Ángelus ante miles de fieles en al Catedral de Cuzco",
       "categoria": "Colombia",
       "fuente": "El País Colombia",
       "url": "https://elpais.com/america/2026-11-15/la-visita-de-leon-xiv-a-peru-en-vivo.html",
-      "fecha": "2026-11-15T16:15:27+00:00",
+      "fecha": "2026-11-15T17:14:04+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "c1c04ee4da2d68a1",
+      "titulo": "El Centro Democrático podría definir el futuro de la Ley de Rescate, según advierte el economista Jorge Restrepo",
+      "categoria": "Economía",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/finanzas/el-centro-democratico-podria-definir-el-futuro-de-la-ley-de-rescate-segun-advierte-el-economista-jorge-restrepo-506416",
+      "fecha": "2026-11-15T17:08:10+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "be913f563d4717bb",
+      "titulo": "EEUU mira al fondo del agua para montar sus centros de datos y los Grandes Lagos tienen todas las papeletas",
+      "categoria": "Internacional",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/robotica-e-ia/eeuu-mira-al-fondo-agua-para-montar-sus-centros-datos-grandes-lagos-tienen-todas-papeletas",
+      "fecha": "2026-11-15T17:01:24+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "28c1876cdc9fb5b0",
+      "titulo": "Sueños desde Guambía: el trabajo de Diana Jembuel por el periodismo indígena",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/red-de-expertos/red-etnica/suenos-desde-guambia-el-trabajo-de-diana-jembuel-por-el-periodismo-indigena/",
+      "fecha": "2026-11-15T17:00:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "12404951b15f567a",
+      "titulo": "Tras revelación de La Silla, Abelardo saca al presidente de Coljuegos",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/en-vivo/tras-revelacion-de-la-silla-abelardo-saca-al-presidente-de-coljuegos/",
+      "fecha": "2026-11-15T16:59:24+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "51a4f6cb23b848ba",
+      "titulo": "El duro pronunciamiento del alcalde de Neiva tras ataque contra peaje: 'Estas acciones terroristas exigen una respuesta articulada de las autoridades'",
+      "categoria": "Internacional",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/el-duro-pronunciamiento-del-alcalde-de-neiva-tras-ataque-contra-peaje-estas-acciones-terroristas-exigen-una-respuesta-articulada-de-las-autoridades-3601269",
+      "fecha": "2026-11-15T16:55:13+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "ff78b0a993d5f5d0",
+      "titulo": "Qué se sabe del choque de aviones en Miami: avión de carga con destino a Bogotá colisionó con avión de Copa",
+      "categoria": "Colombia",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/que-se-sabe-del-choque-de-aviones-en-miami-avion-de-carga-con-destino-a-bogota-colisiono-con-avion-de-copa-506413",
+      "fecha": "2026-11-15T16:55:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "2ff641d548a8a66f",
+      "titulo": "'Que se le imputen cargos': el clamor del padre del periodista Mateo Pérez tras la captura de alias Primo Gay en Briceño, Antioquia",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/medellin/que-se-le-imputen-cargos-el-clamor-del-padre-del-periodista-mateo-perez-tras-la-captura-de-alias-primo-gay-en-briceno-antioquia-3601273",
+      "fecha": "2026-11-15T16:54:14+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "2582e488e04185b1",
+      "titulo": "Estonia cerrará su frontera con Rusia tras denunciar intento de sabotaje",
+      "categoria": "Internacional",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/estonia-cerrará-su-frontera-con-rusia-tras-denunciar-intento-de-sabotaje/a-79953162?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-15T16:53:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "8e0d9c693079af7f",
+      "titulo": "Castilla Agrícola tuvo pérdidas por $5.464 millones e ingresos cayeron 35,7% a septiembre",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/empresas/castilla-agricola-registro-perdidas-por-5-464-millones-y-sus-ingresos-cayeron-35-7-a-septiembre-4525557",
+      "fecha": "2026-11-15T16:50:38+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "71a229320b3be6df",
+      "titulo": "Los 'milagros' en educación: obras por $337.000 millones, alivio a 235.000 usuarios del Icetex y auditoría al Fomag",
+      "categoria": "Economía",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/gobierno/los-milagros-en-educacion-obras-por-337-000-millones-alivio-a-235-000-usuarios-del-icetex-y-auditoria-al-fomag-506411",
+      "fecha": "2026-11-15T16:50:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "de78bfc96f9f70c6",
+      "titulo": "Alerta por carro abandonado en peaje de la vía Neiva-Campoalegre: la Policía del Huila verifica si está cargado con explosivos",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/alerta-por-vehiculo-abandonado-en-peaje-de-la-via-neiva-campoalegre-la-policia-del-huila-verifica-si-esta-cargado-con-explosivos-3601255",
+      "fecha": "2026-11-15T16:45:36+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "d94de77e03a8d576",
+      "titulo": "De la Espriella pidió la salida de Jaime Vives de Coljuegos tras polémica por su posgrado",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/economia/de-la-espriella-pidio-la-salida-de-vives-de-coljuegos-tras-polemica-por-su-posgrado-4525553",
+      "fecha": "2026-11-15T16:45:30+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "7f12dbfcf0ef4ddf",
+      "titulo": "Baloto Revancha cayó en Medellín: ganador se llevó $5.600 millones y así quedaron los acumulados para el próximo sorteo",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/baloto-revancha-cayo-en-medellin-ganador-se-llevo-5-600-millones-y-asi-quedaron-los-acumulados-para-el-proximo-sorteo-3601264",
+      "fecha": "2026-11-15T16:40:25+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "b0fdd5a072b3f652",
+      "titulo": "Los Lorenzana, Los Huistas y Los Mendoza: qué se sabe de las bandas criminales de Guatemala a las que EE.UU. designó como grupos terroristas extranjeros",
+      "categoria": "Internacional",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/c3rrg98rd8dqo?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-15T16:40:04+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "f510c21d7d4e088d",
+      "titulo": "‘Tiene que irse’: Abelardo De La Espriella exige la salida del presidente de Coljuegos tras polémica por su título",
+      "categoria": "Colombia",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/gobierno/tiene-que-irse-abelardo-exige-la-salida-del-presidente-de-coljuegos-tras-polemica-por-su-titulo-506412",
+      "fecha": "2026-11-15T16:37:51+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "b1fe3e7607cb0501",
+      "titulo": "Marcar, apuntar y huir: el milimétrico engranaje de 'los Cartageneros', la red de fleteo que sembraba el terror en el Valle del Cauca",
+      "categoria": "Valle del Cauca",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/cali/marcar-apuntar-y-huir-el-milimetrico-engranaje-de-los-cartageneros-la-red-de-fleteo-que-sembraba-el-terror-en-el-valle-del-cauca-3601263",
+      "fecha": "2026-11-15T16:34:25+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "2f6e4d2b8c20642e",
+      "titulo": "Los primeros ricos de Europa no heredaron la riqueza: se la ganaron (y tardaron siglos en hacerla hereditaria)",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/magnet/primeros-ricos-europa-no-heredaron-riqueza-se-ganaron-tardaron-siglos-hacerla-hereditaria",
+      "fecha": "2026-11-15T16:31:22+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "bea3cf222f9e169c",
+      "titulo": "El Ministerio de Vivienda y sus 'milagros': $1,8 billones para reconstruir, 5.663 casas mejoradas y obras de agua",
+      "categoria": "Colombia",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/gobierno/el-ministerio-de-vivienda-y-sus-milagros-1-8-billones-para-reconstruir-5-663-casas-mejoradas-y-obras-de-agua-506409",
+      "fecha": "2026-11-15T16:30:51+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "da339d532fe89d7a",
+      "titulo": "El Inei reportó que la economía peruana se desaceleró y creció 2,43% en septiembre",
+      "categoria": "Economía",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/globoeconomia/el-inei-reporto-que-la-economia-peruana-se-desacelero-y-crecio-2-43-en-septiembre-4525529",
+      "fecha": "2026-11-15T16:27:46+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "08f110a93ab4b533",
+      "titulo": "Promigas facturó $5,47 billones a septiembre, pero su utilidad cayó cerca de 23,25%",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/empresas/promigas-facturo-5-47-billones-a-septiembre-pero-su-utilidad-cayo-23-25-4525526",
+      "fecha": "2026-11-15T16:27:43+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "b91b4201cf4e8948",
+      "titulo": "“¡Nadie tiene corona!”: Abelardo ordena la salida del presidente de Coljuegos por polémica con su título exprés",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/de-la-espriella-pide-renuncia-presidente-coljuegos-jaime-vives-ED43625472",
+      "fecha": "2026-11-15T16:15:01+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "f13510d2ed3a064a",
+      "titulo": "“Miserable, asesino, despreciable”: así encaró Abelardo a alias Primo Gay y reveló a qué prisión irá",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/miserable-asesino-despreciable-asi-encaro-abelardo-a-alias-primo-gay-y-revelo-a-que-prision-ira-DD43621301",
+      "fecha": "2026-11-15T16:10:39+00:00",
       "imagen": ""
     },
     {
@@ -65,15 +263,6 @@
       "imagen": ""
     },
     {
-      "id": "de78bfc96f9f70c6",
-      "titulo": "Alerta por carro abandonado en peaje de la vía Neiva-Campoalegre: la Policía del Huila verifica si está cargado con explosivos",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/alerta-por-vehiculo-abandonado-en-peaje-de-la-via-neiva-campoalegre-la-policia-del-huila-verifica-si-esta-cargado-con-explosivos-3601255",
-      "fecha": "2026-11-15T15:52:34+00:00",
-      "imagen": ""
-    },
-    {
       "id": "cf1c9527583dbb71",
       "titulo": "Estos son los ‘milagros’ que reporta el Ministerio de Transporte: Obras, fotomultas, puertos, vías y aeropuertos",
       "categoria": "Colombia",
@@ -98,15 +287,6 @@
       "fuente": "Portafolio",
       "url": "https://www.portafolio.co/economia/como-hacer-el-presupuesto-de-2027-cinco-indicadores-que-debe-revisar-todo-emprendedor-506407",
       "fecha": "2026-11-15T15:43:03+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "891d8f3088117fcd",
-      "titulo": "Explosión en peaje de Neiva: investigan presunto atentado con explosivos en la vía que comunica a la capital del Huila con Bogotá",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/explosion-en-peaje-de-neiva-investigan-presunto-atentado-con-explosivos-en-la-via-que-comunica-a-la-capital-del-huila-con-bogota-3601221",
-      "fecha": "2026-11-15T15:42:51+00:00",
       "imagen": ""
     },
     {
@@ -173,24 +353,6 @@
       "imagen": ""
     },
     {
-      "id": "86b9972a09634b58",
-      "titulo": "Pico y placa regional este lunes festivo: placas pares entran a Bogotá de 12 m. a 4 p. m. e impares hasta 8 p. m.",
-      "categoria": "Colombia",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/pico-y-placa-regional-este-lunes-festivo-placas-pares-entran-a-bogota-de-12-m-a-4-p-m-e-impares-hasta-8-p-m-506403",
-      "fecha": "2026-11-15T15:10:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "f13510d2ed3a064a",
-      "titulo": "“Miserable, asesino, despreciable”: así encaró Abelardo a alias Primo Gay y reveló a qué prisión irá",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/miserable-asesino-despreciable-asi-encaro-abelardo-a-alias-primo-gay-y-revelo-a-que-prision-ira-DD43621301",
-      "fecha": "2026-11-15T15:05:26+00:00",
-      "imagen": ""
-    },
-    {
       "id": "e2952e8d60de82cf",
       "titulo": "De 'GTA V' a 'GTA VI': 13 años, 4.700 empleados y una industria que sigue apartándose del camino de Rockstar",
       "categoria": "Colombia",
@@ -218,6 +380,15 @@
       "imagen": ""
     },
     {
+      "id": "f443353cd785d3dc",
+      "titulo": "Petro respondió a informe que cuestiona su papel en elecciones de Venezuela",
+      "categoria": "Internacional",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/noticias/petro-respondio-a-informe-que-cuestiona-su-papel-en-elecciones-de-venezuela/",
+      "fecha": "2026-11-15T14:50:29+00:00",
+      "imagen": ""
+    },
+    {
       "id": "3673fcbc7a86ca11",
       "titulo": "Terrorismo en pleno puente festivo: atacan con explosivos tres peajes en Huila y Meta",
       "categoria": "Colombia",
@@ -227,21 +398,21 @@
       "imagen": ""
     },
     {
-      "id": "fb5c1ad35e8c22c1",
-      "titulo": "Atentado en Pipiral obliga a desviar el tráfico de la vía Bogotá-Villavicencio por la antigua calzada en bypass",
-      "categoria": "Deportes",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/infraestructura/atentado-en-pipiral-obliga-a-desviar-el-trafico-de-la-via-bogota-villavicencio-por-la-antigua-calzada-en-bypass-506401",
-      "fecha": "2026-11-15T14:40:00+00:00",
-      "imagen": ""
-    },
-    {
       "id": "44955245391f20cd",
       "titulo": "Bitcoin cayó a su nivel más bajo en cuatro meses en medio de una ola de liquidaciones",
       "categoria": "Colombia",
       "fuente": "La República",
       "url": "https://www.larepublica.co/globoeconomia/bitcoin-cayo-a-su-nivel-mas-bajo-en-cuatro-meses-en-medio-de-una-ola-de-liquidaciones-4525509",
       "fecha": "2026-11-15T14:36:33+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "f24c762383ea93ed",
+      "titulo": "Diabetes: controlar el azúcar no basta para proteger el corazón",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/temas/salud/diabetes-controlar-el-azucar-no-basta-para-proteger-el-corazon/",
+      "fecha": "2026-11-15T14:33:47+00:00",
       "imagen": ""
     },
     {
@@ -272,12 +443,30 @@
       "imagen": ""
     },
     {
-      "id": "a5f479a7e50ee6b9",
-      "titulo": "Ocampo cuestiona las cuentas de la Ley de Rescate: recorte de gasto aportaría solo el 25% del ajuste fiscal",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/gobierno/ocampo-cuestiona-las-cuentas-de-la-ley-de-rescate-recorte-de-gasto-aportaria-solo-el-25-del-ajuste-fiscal-506402",
-      "fecha": "2026-11-15T14:26:51+00:00",
+      "id": "aa9e2261058244f3",
+      "titulo": "Trump pide millonaria inversión tras crisis aérea en Estados Unidos",
+      "categoria": "Internacional",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/noticias/internacionales/trump-pide-millonaria-inversion-tras-crisis-aerea-en-estados-unidos/",
+      "fecha": "2026-11-15T14:27:51+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "4cf3c18c9f587ce4",
+      "titulo": "Ejército destruyó laboratorio de coca en Nariño y afectó finanzas ilegales",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/noticias/ejercito-destruyo-laboratorio-de-coca-en-narino-y-afecto-finanzas-ilegales/",
+      "fecha": "2026-11-15T14:18:01+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "a859d2447ae2a5ce",
+      "titulo": "Sector tecnológico ya suma más de 200.000 despidos en medio del auge de la IA",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/temas/tecnologia/sector-tecnologico-ya-suma-mas-de-200-000-despidos-en-medio-del-auge-de-la-ia/",
+      "fecha": "2026-11-15T14:11:37+00:00",
       "imagen": ""
     },
     {
@@ -308,6 +497,15 @@
       "imagen": ""
     },
     {
+      "id": "1ddf0ca5cc3a65e9",
+      "titulo": "Accidente de bus en el Catatumbo dejó 17 heridos, varios de gravedad",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/noticias/accidente-de-bus-en-el-catatumbo-dejo-17-heridos-varios-de-gravedad/",
+      "fecha": "2026-11-15T14:02:36+00:00",
+      "imagen": ""
+    },
+    {
       "id": "296a5b6f97ceddde",
       "titulo": "Tantos años buscando la energía oscura y unos científicos creen que la respuesta ya la había formulado Einstein",
       "categoria": "Colombia",
@@ -335,210 +533,12 @@
       "imagen": ""
     },
     {
-      "id": "bda64ce36ba996f7",
-      "titulo": "Papá del periodista Mateo Pérez rompió el silencio tras captura de alias ‘Primo Gay’ y exigió justicia por su asesinato",
+      "id": "476793889fd7ad1d",
+      "titulo": "Cuadrangulares definidos: dos clásicos animarán la lucha por la estrella",
       "categoria": "Colombia",
-      "fuente": "La FM Actualidad",
-      "url": "https://www.lafm.com.co/actualidad/papa-de-mateo-perez-exige-justicia-tras-captura-de-alias-primo-gay-417273",
-      "fecha": "2026-11-15T13:47:31+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "b7523f020dd2b1ca",
-      "titulo": "¡No sé qué pasa!",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/analisis/luis-guillermo-echeverri-velez-3075852/no-se-que-pasa-4525499",
-      "fecha": "2026-11-15T13:44:52+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "7d648fd593f7bb3e",
-      "titulo": "UNGRD aprueba $7,71 billones para recuperar 778 municipios afectados por el Frente Frío",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/gobierno/ungrd-aprueba-7-71-billones-para-recuperar-778-municipios-afectados-por-el-frente-frio-506399",
-      "fecha": "2026-11-15T13:39:34+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "7d3483f00c75cd89",
-      "titulo": "Papa León XIV en Chiclayo: así fue su visita, llegó en helicóptero y coronó a la Virgen",
-      "categoria": "Internacional",
-      "fuente": "La FM Internacional",
-      "url": "https://www.lafm.com.co/internacional/papa-leon-xiv-chiclayo-visita-helicoptero-sobrevuelo-coronacion-virgen-santa-maria-reflexion-417267",
-      "fecha": "2026-11-15T13:31:24+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "d43d2789a8cf5aa3",
-      "titulo": "Europa ya sabe el precio de llenar sus costas con parques eólicos marinos: menos lluvias",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/energia/europa-sabe-precio-llenar-sus-costas-parques-eolicos-marinos-lluvias",
-      "fecha": "2026-11-15T13:31:23+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "a5e4a2ae249319ea",
-      "titulo": "Muse spaces personalizan la app",
-      "categoria": "Colombia",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/secciones/tecnologia/muse-spaces-personalizan-la-app/",
-      "fecha": "2026-11-15T13:30:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "5eec534fe8b44335",
-      "titulo": "Video | Paseo escolar terminó en un abismo en Norte de Santander y el rescate fue con cadenas humanas: este es el estado de los heridos",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/el-paseo-escolar-que-termino-en-un-abismo-en-norte-de-santander-cuyo-rescate-fue-con-cadenas-humanas-este-es-el-estado-de-los-heridos-3601230",
-      "fecha": "2026-11-15T13:24:41+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "87f20e98d51abb06",
-      "titulo": "Plan de recuperación por el frente frío costará $7,71 billones y cubrirá 778 municipios",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/economia/plan-de-recuperacion-por-el-frente-frio-costara-7-71-billones-y-cubrira-778-municipios-4525495",
-      "fecha": "2026-11-15T13:21:35+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "e930469f15c11341",
-      "titulo": "La mujer que lleva años atrapada en una isla paradisíaca sin poder volver a casa por un problema con su visa",
-      "categoria": "Internacional",
-      "fuente": "BBC Mundo",
-      "url": "https://www.bbc.com/mundo/articles/crn4ed2ljg8no?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-15T13:13:11+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "8a021025fafbea1b",
-      "titulo": "Malcolm Deas, el oráculo de Oxford",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/podcasts/deja-vu/malcolm-deas-el-oraculo-de-oxford/",
-      "fecha": "2026-11-15T13:11:33+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "ce4e80d41c1e0a9f",
-      "titulo": "Cali enciende la economía decembrina: Concejo aprueba extensión del alumbrado navideño hasta enero de 2027 y su llegada a las 22 comunas",
-      "categoria": "Cali",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/cali/cali-enciende-la-economia-decembrina-concejo-aprueba-extension-del-alumbrado-navideno-hasta-enero-de-2027-y-su-llegada-a-las-22-comunas-3601232",
-      "fecha": "2026-11-15T13:01:31+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "18b5727b20aef4f2",
-      "titulo": "\"En Málaga podremos hacer cosas que en Bélgica están totalmente prohibidas\": hablamos con Karel van Gils, director general de imec Spain",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/entrevistas/malaga-podremos-hacer-cosas-que-belgica-estan-totalmente-prohibidas-hablamos-karel-van-gils-director-general-imec-spain",
-      "fecha": "2026-11-15T13:01:23+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "7855ce095f494c69",
-      "titulo": "La ciencia colombiana necesita que Expociencia perdure",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/red-de-expertos/red-de-ciencia-e-innovacion/la-ciencia-colombiana-necesita-que-expociencia-perdure/",
-      "fecha": "2026-11-15T13:00:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "8fa0843b0b509828",
-      "titulo": "De la Espriella llega a sus 100 días con una tributaria como su principal apuesta fiscal",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/economia/de-la-espriella-llega-a-sus-100-dias-con-una-reforma-tributaria-como-principal-apuesta-fiscal-4525484",
-      "fecha": "2026-11-15T12:50:37+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "f69bdc7608a81b17",
-      "titulo": "LG xboom Blast, análisis: es grande y pesa, pero es un altavoz Bluetooth mucho más versátil de lo que dejan caer su diseño y colores",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/analisis/lg-xboom-blast-analisis-caracteristicas-precio-especificaciones",
-      "fecha": "2026-11-15T12:31:23+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "390f82f3c0e25682",
-      "titulo": "Alejandra Urrutia, la directora de orquesta chilena que rompe techos de cristal con una batuta",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/chile/2026-11-15/alejandra-urrutia-la-directora-de-orquesta-chilena-que-rompe-techos-de-cristal-con-una-batuta.html",
-      "fecha": "2026-11-15T12:17:52+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "5ecb3d2ff5ddc595",
-      "titulo": "Heridos en accidente de bus en el Catatumbo reciben atención en Teorama y Ocaña, Norte de Santander",
-      "categoria": "Colombia",
-      "fuente": "La FM Actualidad",
-      "url": "https://www.lafm.com.co/actualidad/catatumbo-accidente-estudiantes-heridos-reciben-atencion-teorama-ocana-417263",
-      "fecha": "2026-11-15T12:08:57+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "9cc7942c81f7b385",
-      "titulo": "Una manifestación del movimiento 'Gen Z regelt' en Berlín se salda con 22 detenidos y tres policías heridos",
-      "categoria": "Internacional",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/una-manifestación-del-movimiento-gen-z-regelt-en-berlín-se-salda-con-22-detenidos-y-tres-policías-heridos/a-79952050?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-15T12:06:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "d7882e582345728d",
-      "titulo": "El efecto bouba/kiki, el extraordinario experimento psicológico que tiene los mismos resultados en casi todas las culturas",
-      "categoria": "Internacional",
-      "fuente": "BBC Mundo",
-      "url": "https://www.bbc.com/mundo/articles/c35yn4xdxz5eo?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-15T12:04:15+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "33e7c46e2f853b38",
-      "titulo": "Madrid ya está saturado, así que el mercado de la vivienda se está disparando ahora en Torrejón, Parla y Alcorcón",
-      "categoria": "Economía",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/magnet/mercado-vivienda-capitales-esta-rato-que-esta-acabando-plan-b-muchas-familias-comprar-periferia",
-      "fecha": "2026-11-15T12:01:22+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "91bd8cded20b376c",
-      "titulo": "La transición justa debe reconocer a los pueblos indígenas como autoridades",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/red-de-expertos/red-verde/la-transicion-justa-debe-reconocer-a-los-pueblos-indigenas-como-autoridades/",
-      "fecha": "2026-11-15T12:00:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "90aaa353052c6b38",
-      "titulo": "En esta aldea asturiana quedan seis habitantes. Dos de ellos son dos mujeres que pasan el día jugando al parchís",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/magnet/esta-aldea-asturiana-quedan-seis-habitantes-dos-ellos-dos-mujeres-que-pasan-dia-jugando-al-parchis",
-      "fecha": "2026-11-15T11:33:22+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "9fc2cf1047404ec7",
-      "titulo": "El Ejército yemení se retira de Bab al Mandeb para reforzar Adén ante el avance de la ofensiva hutí",
-      "categoria": "Internacional",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/el-ejército-yemení-se-retira-de-bab-al-mandeb-para-reforzar-adén-ante-el-avance-de-la-ofensiva-hutí/a-79951870?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-15T11:15:00+00:00",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/deportes/cuadrangulares-definidos-dos-clasicos-animaran-la-lucha-por-la-estrella/",
+      "fecha": "2026-11-15T13:55:40+00:00",
       "imagen": ""
     }
   ],
@@ -632,7 +632,7 @@
       "nombre": "La FM Internacional",
       "url": "https://www.lafm.com.co/rss/internacional.xml",
       "estado": "correcto",
-      "titulares": 20
+      "titulares": 18
     },
     {
       "nombre": "La FM Actualidad",
@@ -655,9 +655,8 @@
     {
       "nombre": "El Diario — Pereira",
       "url": "https://www.eldiario.com.co/feed/",
-      "estado": "error",
-      "titulares": 0,
-      "detalle": "El feed no contiene entradas."
+      "estado": "correcto",
+      "titulares": 35
     },
     {
       "nombre": "Chocó 7 días",
