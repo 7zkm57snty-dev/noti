@@ -1,5 +1,5 @@
 {
-  "ultima_actualizacion": "2026-11-14T23:15:42.706976+00:00",
+  "ultima_actualizacion": "2026-11-15T00:15:21.973859+00:00",
   "titulares_rss": [
     {
       "id": "226616e20d6cb4d5",
@@ -7,7 +7,43 @@
       "categoria": "Internacional",
       "fuente": "BBC Mundo",
       "url": "https://www.bbc.co.uk/mundo/live/c62e8kkl9rlrt?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-14T23:15:42.706976+00:00",
+      "fecha": "2026-11-15T00:15:21.973859+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "198c583c1d95ac06",
+      "titulo": "Daviarena llega al negocio de los grandes eventos con inversión de $320.000 millones",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/empresas/apertura-de-daviarena-4525440",
+      "fecha": "2026-11-14T23:52:30+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "4b8c7182384bf0f2",
+      "titulo": "SpaceX logra por primera vez atrapar la parte superior del cohete Starship en su regreso a la Tierra",
+      "categoria": "Internacional",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/cq4gnx86l5m2o?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-14T23:32:38+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "155c43136d7f1d2c",
+      "titulo": "Antero, el Ave Fénix de la cultura chocoana",
+      "categoria": "Colombia",
+      "fuente": "Chocó 7 días",
+      "url": "https://choco7dias.com/antero-el-ave-fenix-de-la-cultura-chocoana/",
+      "fecha": "2026-11-14T23:28:56+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "43f4dbc930aff0b7",
+      "titulo": "Incendian vivienda de periodista que investiga caso de corrupción en Panamá",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/globoeconomia/incendian-vivienda-de-periodista-que-investiga-corrupcion-en-panama-4525421",
+      "fecha": "2026-11-14T23:20:52+00:00",
       "imagen": ""
     },
     {
@@ -39,7 +75,7 @@
     },
     {
       "id": "494dbfd47fc2fe74",
-      "titulo": "Sorteo de cuadrangulares de la Liga Betplay: así quedaron los grupos con varios clásicos",
+      "titulo": "Así quedaron los cuadrangulares de la Liga Betplay tras el sorteo: varios clásicos y 'partidazos'",
       "categoria": "Deportes",
       "fuente": "La FM Deportes",
       "url": "https://www.lafm.com.co/deportes/liga-betplay-cuadrangulares-sorteo-2026-partidos-fechas-417250",
@@ -119,8 +155,26 @@
       "imagen": ""
     },
     {
+      "id": "6c8d33b0a18e80f3",
+      "titulo": "Colombia buscará cerrar el año con otra victoria ante Chile",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/deportes/colombia-buscara-cerrar-el-ano-con-otra-victoria-ante-chile/",
+      "fecha": "2026-11-14T22:00:04+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "dd5139d5cde6f6ad",
+      "titulo": "Gobierno y Federación de Cafeteros firman prórroga por diez años de administración de fondos del café",
+      "categoria": "Colombia",
+      "fuente": "La FM Economía",
+      "url": "https://www.lafm.com.co/economia/firma-prorroga-acuerdo-federacion-cafeteros-gobierno-nacional-417247",
+      "fecha": "2026-11-14T21:54:36+00:00",
+      "imagen": ""
+    },
+    {
       "id": "477669e02b08d8cc",
-      "titulo": "Fallas en plataformas de la Dian frenan despachos y elevan costos del comercio exterior",
+      "titulo": "Fallas en plataformas de la Dian frenan despachos y elevan costos del comercio",
       "categoria": "Colombia",
       "fuente": "La República",
       "url": "https://www.larepublica.co/economia/fallas-en-plataformas-de-la-dian-frenan-despachos-y-elevan-costos-del-comercio-exterior-4525392",
@@ -143,6 +197,15 @@
       "fuente": "Portafolio",
       "url": "https://www.portafolio.co/economia/criptomonedas-sin-declarar-gobierno-propone-impuesto-del-5-para-ponerse-al-dia-con-la-dian-506398",
       "fecha": "2026-11-14T21:32:54+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "3a3f808ebde5ef90",
+      "titulo": "Salario mínimo de 2027: inflación y empleo preocupan a los expertos",
+      "categoria": "Economía",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/noticias/economia/salario-minimo-de-2027-inflacion-y-empleo-preocupan-a-los-expertos/",
+      "fecha": "2026-11-14T21:30:25+00:00",
       "imagen": ""
     },
     {
@@ -200,6 +263,15 @@
       "imagen": ""
     },
     {
+      "id": "b8ad10618aabd122",
+      "titulo": "Luis Felipe Henao promete austeridad al frente del Fondo Milagro",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/sin-categoria/luis-felipe-henao-promete-austeridad-al-frente-del-fondo-milagro/",
+      "fecha": "2026-11-14T21:00:28+00:00",
+      "imagen": ""
+    },
+    {
       "id": "17b51db28cf25c7e",
       "titulo": "MinEducación lleva a la Contraloría hallazgos del PAE: recursos se repartieron sin metodología técnica desde 2022",
       "categoria": "Economía",
@@ -219,7 +291,7 @@
     },
     {
       "id": "d52f3c8821006a34",
-      "titulo": "BID aprueba US$450 millones para impulsar reformas e inversiones en el sector eléctrico",
+      "titulo": "BID aprueba US$450 millones para impulsar inversiones dentro del sector eléctrico",
       "categoria": "Colombia",
       "fuente": "La República",
       "url": "https://www.larepublica.co/economia/bid-aprueba-us-450-millones-para-impulsar-reformas-e-inversiones-en-el-sector-electrico-4525375",
@@ -245,6 +317,24 @@
       "imagen": ""
     },
     {
+      "id": "96134477eb85fc8a",
+      "titulo": "Consejo de Estado se pronunció sobre actos religiosos de De la Espriella",
+      "categoria": "Internacional",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/noticias/consejo-de-estado-se-pronuncio-sobre-actos-religiosos-de-de-la-espriella/",
+      "fecha": "2026-11-14T20:30:53+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "fd2879be3b39e3ee",
+      "titulo": "Dólar podría superar los $3.400 en noviembre, según proyecciones",
+      "categoria": "Economía",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/noticias/dolar-podria-superar-los-3-400-en-noviembre-segun-proyecciones/",
+      "fecha": "2026-11-14T20:30:50+00:00",
+      "imagen": ""
+    },
+    {
       "id": "37291b9a92edfb6d",
       "titulo": "Madrid y Barcelona mantienen al alza los precios de vivienda en sus áreas metropolitanas",
       "categoria": "Colombia",
@@ -264,7 +354,7 @@
     },
     {
       "id": "91c6f21583118a86",
-      "titulo": "Comisión de Regulación de Agua Potable y Saneamiento Básico expuso marco tarifario de aseo",
+      "titulo": "Comisión de Regulación de Agua Potable y Saneamiento Básico expuso marco tarifario",
       "categoria": "Colombia",
       "fuente": "La República",
       "url": "https://www.larepublica.co/economia/nuevo-marco-tarifario-de-aseo-4525362",
@@ -305,6 +395,15 @@
       "fuente": "Xataka",
       "url": "https://www.xataka.com/movilidad/schlorwagen-superaerodinamico-peligrosisimo-coche-aleman-que-intento-revolucionar-mundo-1939",
       "fecha": "2026-11-14T20:01:21+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "3a3f0a87aed275da",
+      "titulo": "Aclaran propuesta de De la Espriella sobre controles en frontera con Venezuela",
+      "categoria": "Internacional",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/noticias/aclaran-propuesta-de-de-la-espriella-sobre-controles-en-frontera-con-venezuela/",
+      "fecha": "2026-11-14T20:00:17+00:00",
       "imagen": ""
     },
     {
@@ -380,6 +479,15 @@
       "imagen": ""
     },
     {
+      "id": "d329ba819f01e649",
+      "titulo": "Defensa de Álvaro Uribe se pronunció tras decisión de la Fiscalía",
+      "categoria": "Internacional",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/noticias/defensa-de-alvaro-uribe-se-pronuncio-tras-decision-de-la-fiscalia/",
+      "fecha": "2026-11-14T19:36:39+00:00",
+      "imagen": ""
+    },
+    {
       "id": "a05ddb083527f36c",
       "titulo": "Capturan a alias Pata de Palo, segundo cabecilla del Clan del Golfo, ¿quién es?",
       "categoria": "Colombia",
@@ -432,114 +540,6 @@
       "url": "https://www.lasillavacia.com/en-vivo/la-silla-vacia-rechaza-nuevos-senalamientos-de-carlos-suarez-presidente-de-la-junta-de-ecopetrol/",
       "fecha": "2026-11-14T19:06:51+00:00",
       "imagen": ""
-    },
-    {
-      "id": "828dba1eea482c04",
-      "titulo": "Ofrecen hasta $ 20 millones por los responsables del atentado con explosivos contra la estación de Policía de Desepaz, en el oriente de Cali",
-      "categoria": "Cali",
-      "fuente": "El Tiempo Cali",
-      "url": "https://www.eltiempo.com/colombia/cali/ofrecen-hasta-20-millones-por-los-responsables-del-atentado-con-explosivos-contra-la-estacion-de-policia-de-decepaz-en-el-oriente-de-cali-3601096",
-      "fecha": "2026-11-14T19:05:58+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "baf2a111a2698c37",
-      "titulo": "Los mayas decoraron sus ciudades con tanto pigmento rojo que acabaron provocando un colapso ecológico en sus reservas de agua",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/ecologia-y-naturaleza/mayas-decoraron-sus-ciudades-pigmento-rojo-que-acabaron-provocando-colapso-ecologico-sus-reservas-agua",
-      "fecha": "2026-11-14T19:01:20+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "3326d16a5b737144",
-      "titulo": "ANI salva el contrato del Tercer Carril Bogotá-Girardot y evita que el Estado asuma la operación de la vía",
-      "categoria": "Colombia",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/infraestructura/ani-salva-el-contrato-del-tercer-carril-bogota-girardot-y-evita-que-el-estado-asuma-la-operacion-de-la-via-506385",
-      "fecha": "2026-11-14T19:00:53+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "c6d80e0ab481c4f7",
-      "titulo": "Cumplir el Acuerdo no es un favor a un partido ni a una ideología",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/red-de-expertos/red-de-la-paz/cumplir-el-acuerdo-no-es-un-favor-a-un-partido-ni-a-una-ideologia/",
-      "fecha": "2026-11-14T19:00:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "0ef87c468ce01cfa",
-      "titulo": "Choque entre dos buses intermunicipales genera fuerte trancón en la vía Sibaté-Soacha",
-      "categoria": "Colombia",
-      "fuente": "La FM Actualidad",
-      "url": "https://www.lafm.com.co/actualidad/choque-vehiculos-sibate-soacha-cundinamarca-trancon-bogota-417232",
-      "fecha": "2026-11-14T19:00:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "4441e03174eee694",
-      "titulo": "Nuevas protestas en Francia por el costo de la vida y los servicios públicos",
-      "categoria": "Internacional",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/nuevas-protestas-en-francia-por-el-costo-de-la-vida-y-los-servicios-públicos/a-79949791?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-14T18:58:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "a95c0b8fdc9d6a33",
-      "titulo": "Ed Westwick, de Gossip Girl, llegó a Colombia con ‘Afnan’ y destacó su gusto por el café",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/ocio/ed-westwick-de-gossip-girl-llego-a-colombia-con-afnan-y-destaco-su-gusto-por-el-cafe-4525292",
-      "fecha": "2026-11-14T18:51:30+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "a27871b58d383bf1",
-      "titulo": "Industria textil pide extender decreto para mantener arancel de 0% a los hilados",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/economia/extension-del-decreto-para-mantener-arancel-de-0-a-los-hilados-4525287",
-      "fecha": "2026-11-14T18:48:20+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "4b057bd2c87dca2f",
-      "titulo": "La petición del gobernador de Antioquia tras captura de ‘Primo Gay’ en un Briceño desangrado y avances en la investigación por crimen de Mateo Pérez",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/medellin/la-peticion-del-gobernador-de-antioquia-tras-captura-de-primo-gay-en-un-briceno-desangrado-y-avances-en-la-investigacion-por-crimen-de-mateo-perez-3601118",
-      "fecha": "2026-11-14T18:47:48+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "73d81d9b258b332e",
-      "titulo": "Nubank podrá ejercer como banco en Brasil tras recibir aval para comprar el Porto Real",
-      "categoria": "Economía",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/nubank-podra-ejercer-como-banco-en-brasil-tras-recibir-aval-para-comprar-el-porto-real-4525263",
-      "fecha": "2026-11-14T18:29:14+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "c97de703286a9351",
-      "titulo": "Las 34 denuncias por presuntas irregularidades en Ecopetrol que salpican a Ricardo Roa y el entorno de Verónica Alcocer",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/denuncias-auditoria-ecopetrol-ricardo-roa-veronica-alcocer-AL43596666",
-      "fecha": "2026-11-14T18:22:22+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "a24c33c62818dd6c",
-      "titulo": "Poner un límite a la riqueza de los megamillonarios",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/opinion/poner-un-limite-a-la-riqueza-de-los-megamillonarios/",
-      "fecha": "2026-11-14T18:21:37+00:00",
-      "imagen": ""
     }
   ],
   "estado_fuentes": [
@@ -590,13 +590,13 @@
       "nombre": "BBC Mundo",
       "url": "https://feeds.bbci.co.uk/mundo/rss.xml",
       "estado": "correcto",
-      "titulares": 25
+      "titulares": 26
     },
     {
       "nombre": "DW Español",
       "url": "https://rss.dw.com/rdf/rss-sp-all",
       "estado": "correcto",
-      "titulares": 22
+      "titulares": 18
     },
     {
       "nombre": "Xataka",
@@ -655,9 +655,8 @@
     {
       "nombre": "El Diario — Pereira",
       "url": "https://www.eldiario.com.co/feed/",
-      "estado": "error",
-      "titulares": 0,
-      "detalle": "El feed no contiene entradas."
+      "estado": "correcto",
+      "titulares": 35
     },
     {
       "nombre": "Chocó 7 días",
