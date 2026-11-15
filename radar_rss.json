@@ -1,5 +1,5 @@
 {
-  "ultima_actualizacion": "2026-11-15T01:49:55.039776+00:00",
+  "ultima_actualizacion": "2026-11-15T02:56:21.613649+00:00",
   "titulares_rss": [
     {
       "id": "226616e20d6cb4d5",
@@ -7,7 +7,25 @@
       "categoria": "Internacional",
       "fuente": "BBC Mundo",
       "url": "https://www.bbc.co.uk/mundo/live/c62e8kkl9rlrt?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-15T01:49:55.039776+00:00",
+      "fecha": "2026-11-15T02:56:21.613649+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "d55ec7edd02b5175",
+      "titulo": "Juanes inaugura DAVIarena en Sabaneta con concierto a casa llena: el nuevo escenario de Antioquia recibirá a grandes estrellas internacionales",
+      "categoria": "Internacional",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/medellin/juanes-inaugura-daviarena-en-sabaneta-con-concierto-a-casa-llena-el-nuevo-escenario-de-antioquia-recibira-a-grandes-estrellas-internacionales-3601192",
+      "fecha": "2026-11-15T02:32:28+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "391119790b4ea9d9",
+      "titulo": "El ejército de Israel afirma que atacó a un líder militar de Hamás",
+      "categoria": "Internacional",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/el-ejército-de-israel-afirma-que-atacó-a-un-líder-militar-de-hamás/a-79950562?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-15T02:17:00+00:00",
       "imagen": ""
     },
     {
@@ -17,6 +35,15 @@
       "fuente": "La FM Economía",
       "url": "https://www.lafm.com.co/economia/chatgpt-wallet-nueva-herramienta-openia-compras-autonomas-417256",
       "fecha": "2026-11-15T01:26:25+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "273cc19d49a067be",
+      "titulo": "Accidente de bus escolar dejó 16 menores heridos en el Catatumbo",
+      "categoria": "Colombia",
+      "fuente": "La FM Actualidad",
+      "url": "https://www.lafm.com.co/actualidad/san-calixto-accidente-estudiantes-heridos-bus-barranco-417252",
+      "fecha": "2026-11-15T01:00:00+00:00",
       "imagen": ""
     },
     {
@@ -98,15 +125,6 @@
       "fuente": "La República",
       "url": "https://www.larepublica.co/globoeconomia/la-imagen-de-milei-se-deteriora-entre-los-argentinos-a-medida-que-el-empleo-se-convierte-en-la-principal-preocupacion-4525407",
       "fecha": "2026-11-14T23:05:16+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "273cc19d49a067be",
-      "titulo": "16 heridos en accidente de bus que transportaba estudiantes en el Catatumbo",
-      "categoria": "Colombia",
-      "fuente": "La FM Actualidad",
-      "url": "https://www.lafm.com.co/actualidad/san-calixto-accidente-estudiantes-heridos-bus-barranco-417252",
-      "fecha": "2026-11-14T23:03:02+00:00",
       "imagen": ""
     },
     {
@@ -200,6 +218,15 @@
       "imagen": ""
     },
     {
+      "id": "6c8d33b0a18e80f3",
+      "titulo": "Colombia buscará cerrar el año con otra victoria ante Chile",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/deportes/colombia-buscara-cerrar-el-ano-con-otra-victoria-ante-chile/",
+      "fecha": "2026-11-14T22:00:04+00:00",
+      "imagen": ""
+    },
+    {
       "id": "dd5139d5cde6f6ad",
       "titulo": "Gobierno y Federación de Cafeteros firman prórroga por diez años de administración de fondos del café",
       "categoria": "Colombia",
@@ -233,6 +260,15 @@
       "fuente": "Portafolio",
       "url": "https://www.portafolio.co/economia/criptomonedas-sin-declarar-gobierno-propone-impuesto-del-5-para-ponerse-al-dia-con-la-dian-506398",
       "fecha": "2026-11-14T21:32:54+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "3a3f808ebde5ef90",
+      "titulo": "Salario mínimo de 2027: inflación y empleo preocupan a los expertos",
+      "categoria": "Economía",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/noticias/economia/salario-minimo-de-2027-inflacion-y-empleo-preocupan-a-los-expertos/",
+      "fecha": "2026-11-14T21:30:25+00:00",
       "imagen": ""
     },
     {
@@ -290,6 +326,15 @@
       "imagen": ""
     },
     {
+      "id": "b8ad10618aabd122",
+      "titulo": "Luis Felipe Henao promete austeridad al frente del Fondo Milagro",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/sin-categoria/luis-felipe-henao-promete-austeridad-al-frente-del-fondo-milagro/",
+      "fecha": "2026-11-14T21:00:28+00:00",
+      "imagen": ""
+    },
+    {
       "id": "17b51db28cf25c7e",
       "titulo": "MinEducación lleva a la Contraloría hallazgos del PAE: recursos se repartieron sin metodología técnica desde 2022",
       "categoria": "Economía",
@@ -332,6 +377,24 @@
       "fuente": "La FM Economía",
       "url": "https://www.lafm.com.co/economia/salario-minimo-2027-incremento-gobierno-abelardo-de-la-espriella-fecha-clave-417241",
       "fecha": "2026-11-14T20:34:24+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "96134477eb85fc8a",
+      "titulo": "Consejo de Estado se pronunció sobre actos religiosos de De la Espriella",
+      "categoria": "Internacional",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/noticias/consejo-de-estado-se-pronuncio-sobre-actos-religiosos-de-de-la-espriella/",
+      "fecha": "2026-11-14T20:30:53+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "fd2879be3b39e3ee",
+      "titulo": "Dólar podría superar los $3.400 en noviembre, según proyecciones",
+      "categoria": "Economía",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/noticias/dolar-podria-superar-los-3-400-en-noviembre-segun-proyecciones/",
+      "fecha": "2026-11-14T20:30:50+00:00",
       "imagen": ""
     },
     {
@@ -395,6 +458,15 @@
       "fuente": "Xataka",
       "url": "https://www.xataka.com/movilidad/schlorwagen-superaerodinamico-peligrosisimo-coche-aleman-que-intento-revolucionar-mundo-1939",
       "fecha": "2026-11-14T20:01:21+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "3a3f0a87aed275da",
+      "titulo": "Aclaran propuesta de De la Espriella sobre controles en frontera con Venezuela",
+      "categoria": "Internacional",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/noticias/aclaran-propuesta-de-de-la-espriella-sobre-controles-en-frontera-con-venezuela/",
+      "fecha": "2026-11-14T20:00:17+00:00",
       "imagen": ""
     },
     {
@@ -467,78 +539,6 @@
       "fuente": "La Silla Vacía",
       "url": "https://www.lasillavacia.com/en-vivo/la-foto-gobierno-y-uribismo-se-reunen-para-discutir-la-tributaria/",
       "fecha": "2026-11-14T19:39:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "a05ddb083527f36c",
-      "titulo": "Capturan a alias Pata de Palo, segundo cabecilla del Clan del Golfo, ¿quién es?",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/alias-pata-de-palo-capturado-quien-es-clan-golfo-BB43603002",
-      "fecha": "2026-11-14T19:28:56+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "68a6c7c512152e69",
-      "titulo": "Entrega de medicamentos de Sanitas tardaría hasta dos semanas más en normalizarse",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/empresas/entrega-de-medicamentos-de-sanitas-tardaria-hasta-dos-semanas-mas-en-normalizarse-4525307",
-      "fecha": "2026-11-14T19:25:32+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "d6fa2055e7b1c801",
-      "titulo": "Papa León XIV pide una Iglesia más unida y alerta por el abandono de las comunidades rurales en Perú",
-      "categoria": "Internacional",
-      "fuente": "La FM Internacional",
-      "url": "https://www.lafm.com.co/internacional/papa-leon-xiv-visita-peru-oracion-zonas-rurales-iglesia-unida-417234",
-      "fecha": "2026-11-14T19:24:39+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "2e35eb234bee4993",
-      "titulo": "'El Cuidador': el cortometraje del oriente caleño que rompe estereotipos y transforma realidades desde el barrio Mariano Ramos",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/cali/el-cuidador-el-cortometraje-del-oriente-caleno-que-rompe-estereotipos-y-transforma-realidades-desde-el-barrio-mariano-ramos-3601129",
-      "fecha": "2026-11-14T19:11:58+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "2378de5542705880",
-      "titulo": "El ascenso de Miller a la Casa Blanca inquieta a los negociadores comerciales con México",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/el-ascenso-de-miller-a-la-casa-blanca-inquieta-a-los-negociadores-comerciales-con-mexico-4525303",
-      "fecha": "2026-11-14T19:06:55+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "ad72896515b70353",
-      "titulo": "La Silla Vacía rechaza nuevos señalamientos de Carlos Suárez, presidente de la junta de Ecopetrol",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/en-vivo/la-silla-vacia-rechaza-nuevos-senalamientos-de-carlos-suarez-presidente-de-la-junta-de-ecopetrol/",
-      "fecha": "2026-11-14T19:06:51+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "828dba1eea482c04",
-      "titulo": "Ofrecen hasta $ 20 millones por los responsables del atentado con explosivos contra la estación de Policía de Desepaz, en el oriente de Cali",
-      "categoria": "Cali",
-      "fuente": "El Tiempo Cali",
-      "url": "https://www.eltiempo.com/colombia/cali/ofrecen-hasta-20-millones-por-los-responsables-del-atentado-con-explosivos-contra-la-estacion-de-policia-de-decepaz-en-el-oriente-de-cali-3601096",
-      "fecha": "2026-11-14T19:05:58+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "baf2a111a2698c37",
-      "titulo": "Los mayas decoraron sus ciudades con tanto pigmento rojo que acabaron provocando un colapso ecológico en sus reservas de agua",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/ecologia-y-naturaleza/mayas-decoraron-sus-ciudades-pigmento-rojo-que-acabaron-provocando-colapso-ecologico-sus-reservas-agua",
-      "fecha": "2026-11-14T19:01:20+00:00",
       "imagen": ""
     }
   ],
@@ -655,9 +655,8 @@
     {
       "nombre": "El Diario — Pereira",
       "url": "https://www.eldiario.com.co/feed/",
-      "estado": "error",
-      "titulares": 0,
-      "detalle": "El feed no contiene entradas."
+      "estado": "correcto",
+      "titulares": 35
     },
     {
       "nombre": "Chocó 7 días",
