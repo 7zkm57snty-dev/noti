@@ -1,5 +1,5 @@
 {
-  "ultima_actualizacion": "2026-11-15T20:17:37.717999+00:00",
+  "ultima_actualizacion": "2026-11-15T21:18:36.472234+00:00",
   "titulares_rss": [
     {
       "id": "226616e20d6cb4d5",
@@ -7,16 +7,133 @@
       "categoria": "Internacional",
       "fuente": "BBC Mundo",
       "url": "https://www.bbc.co.uk/mundo/live/c62e8kkl9rlrt?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-15T20:17:37.717999+00:00",
+      "fecha": "2026-11-15T21:18:36.472234+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "971b8252146f0d8c",
+      "titulo": "En el penúltimo día de su gira por Sudamérica, el papa León pide frenar la deforestación amazónica",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/globoeconomia/en-el-penultimo-dia-de-su-gira-por-sudamerica-el-papa-leon-pide-frenar-la-deforestacion-amazonica-4525646",
+      "fecha": "2026-11-15T21:01:26+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "fbfcb31f8cc379b1",
+      "titulo": "Jensen Huang buscaría regresar como CEO de Nvidia, según el Financial Times",
+      "categoria": "Internacional",
+      "fuente": "La FM Internacional",
+      "url": "https://www.lafm.com.co/internacional/jensen-huang-ceo-nvidia-inteligencia-artificial-silicon-valley-elon-musk-417304",
+      "fecha": "2026-11-15T20:56:23+00:00",
       "imagen": ""
     },
     {
       "id": "e46542b5b2ceab19",
-      "titulo": "La visita de León XIV a Perú, en vivo| El Papa se reúne con pueblos amazónicos en Pucallpa",
+      "titulo": "La visita de León XIV a Perú, en vivo| El Papa recuerda a los indígenas asesinados: “Su sangre reclama justicia”",
       "categoria": "Colombia",
       "fuente": "El País Colombia",
       "url": "https://elpais.com/america/2026-11-15/la-visita-de-leon-xiv-a-peru-en-vivo.html",
-      "fecha": "2026-11-15T20:12:11+00:00",
+      "fecha": "2026-11-15T20:51:33+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "e1181d05c150f6eb",
+      "titulo": "Sindicato del Inau cuestionó el envío de tres adolescentes al Inisa por la agresión a Ripoll",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/globoeconomia/sindicato-del-inau-cuestiono-el-envio-de-tres-adolescentes-al-inisa-por-la-agresion-a-ripoll-4525640",
+      "fecha": "2026-11-15T20:51:18+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "114676247b535a06",
+      "titulo": "Manifestantes piden a Trump y Xi un tratado para frenar la carrera por la IA: ¿de qué se trata?",
+      "categoria": "Internacional",
+      "fuente": "La FM Internacional",
+      "url": "https://www.lafm.com.co/internacional/donald-trump-xi-jing-ping-manifestantes-protestan-contra-la-carrera-por-la-ia-417295",
+      "fecha": "2026-11-15T20:46:28+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "5082b1930e17ae97",
+      "titulo": "Mayagüez registró pérdidas por $205.790 millones a septiembre y sus ingresos cayeron 10,7%",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/empresas/mayaguez-registro-perdidas-por-205-790-millones-a-septiembre-y-sus-ingresos-cayeron-10-7-4525635",
+      "fecha": "2026-11-15T20:44:50+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "7383c9849a4c1e44",
+      "titulo": "Milagro Week: así será la rueda de inversión de Colombia en Nueva York del 16 al 19 de noviembre",
+      "categoria": "Colombia",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/gobierno/milagro-week-asi-sera-la-rueda-de-inversion-de-colombia-en-nueva-york-del-16-al-19-de-noviembre-506428",
+      "fecha": "2026-11-15T20:40:50+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "b210fb7a9dfe7329",
+      "titulo": "Gestores ven margen para más pérdidas en Brasil tras desplome de acciones y reales",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/globoeconomia/gestores-ven-margen-para-mas-perdidas-en-brasil-tras-desplome-de-acciones-y-reales-4525637",
+      "fecha": "2026-11-15T20:39:33+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "40e4c83dc9f1e603",
+      "titulo": "Petro responde a informe que lo acusa de ayudar a Maduro tras fraude de 2024",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/en-vivo/petro-responde-a-informe-que-lo-acusa-de-ayudar-a-maduro-tras-fraude-de-2024/",
+      "fecha": "2026-11-15T20:31:36+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "b291a843ac163710",
+      "titulo": "Rebeldes hutíes se encuentran a solo 60 kilómetros de la capital provisional de Yemen",
+      "categoria": "Internacional",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/rebeldes-hutíes-se-encuentran-a-solo-60-kilómetros-de-la-capital-provisional-de-yemen/a-79953488?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-15T20:31:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "7d81a4a415890313",
+      "titulo": "Tribunal Constitucional de Perú pide al Senado iniciar elección de seis magistrados para 2027",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/globoeconomia/tribunal-constitucional-de-peru-pide-al-senado-iniciar-eleccion-de-seis-magistrados-para-2027-4525629",
+      "fecha": "2026-11-15T20:28:44+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "840b15f3a56e93d0",
+      "titulo": "El dato de la inflación en Argentina aumentó más de lo esperado en octubre",
+      "categoria": "Economía",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/globoeconomia/la-inflacion-en-argentina-aumento-mas-de-lo-esperado-en-octubre-4525625",
+      "fecha": "2026-11-15T20:22:55+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "285fa4e9a08a6da6",
+      "titulo": "Despiertan los procesos contra Petro en la Comisión de Acusación: después de meses, ya tienen ponentes",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/investigaciones-contra-petrocomision-acusacion-camara-JD43628414",
+      "fecha": "2026-11-15T20:22:16+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "6f99ff141da21ef3",
+      "titulo": "Atentados con explosivos en Colombia EN VIVO: video muestra el momento en que abandonan carro y explota en peaje de Pipiral, vía Bogotá-Villavicencio",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/atentados-con-explosivos-en-colombia-en-vivo-asi-quedaron-los-peajes-en-vias-de-bogota-villavicencio-neiva-y-pipiral-3601276",
+      "fecha": "2026-11-15T20:13:46+00:00",
       "imagen": ""
     },
     {
@@ -174,7 +291,7 @@
     },
     {
       "id": "45bc9ced09d3d3ce",
-      "titulo": "Zelensky pide a EE.UU. y a Elon Musk reestablecer el acceso total de Ucrania a Starlink para frenar los ataques rusos",
+      "titulo": "Zelensky pide a EE.UU. y Elon Musk reestablecer el acceso total de Ucrania a Starlink para frenar los ataques rusos",
       "categoria": "Internacional",
       "fuente": "BBC Mundo",
       "url": "https://www.bbc.com/mundo/articles/cr930qe3pwx3o?at_medium=RSS&at_campaign=rss",
@@ -191,12 +308,12 @@
       "imagen": ""
     },
     {
-      "id": "6f99ff141da21ef3",
-      "titulo": "Atentados con explosivos en Colombia EN VIVO: video muestra el momento en que abandonan carro y explota en peaje de Pipiral, vía Bogotá-Villavicencio",
+      "id": "42eaed5fe6534240",
+      "titulo": "Sergio Ramírez ingresa en la RAE: “Perdí un país, pero nunca he sido extranjero en España”",
       "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/atentados-con-explosivos-en-colombia-en-vivo-asi-quedaron-los-peajes-en-vias-de-bogota-villavicencio-neiva-y-pipiral-3601276",
-      "fecha": "2026-11-15T19:12:55+00:00",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/cultura/2026-11-15/sergio-ramirez-ingresa-en-la-rae-perdi-un-pais-pero-nunca-he-sido-extranjero-en-espana.html",
+      "fecha": "2026-11-15T19:11:01+00:00",
       "imagen": ""
     },
     {
@@ -423,123 +540,6 @@
       "url": "https://www.larepublica.co/empresas/resultados-financieros-de-chevron-al-cierre-del-tercer-trimestre-2026-4525551",
       "fecha": "2026-11-15T17:23:07+00:00",
       "imagen": ""
-    },
-    {
-      "id": "64b1d6c151c39a51",
-      "titulo": "Tras reunirse con el vicepresidente Restrepo, Uribe ve ‘expectativas positivas’ frente a la ley de ajuste fiscal",
-      "categoria": "Colombia",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/gobierno/tras-reunirse-con-el-vicepresidente-restrepo-uribe-ve-expectativas-positivas-frente-a-la-ley-de-ajuste-fiscal-506417",
-      "fecha": "2026-11-15T17:10:16+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "c1c04ee4da2d68a1",
-      "titulo": "El Centro Democrático podría definir el futuro de la Ley de Rescate, según advierte el economista Jorge Restrepo",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/finanzas/el-centro-democratico-podria-definir-el-futuro-de-la-ley-de-rescate-segun-advierte-el-economista-jorge-restrepo-506416",
-      "fecha": "2026-11-15T17:08:10+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "2ff641d548a8a66f",
-      "titulo": "'Que se le imputen cargos': el clamor del padre del periodista Mateo Pérez tras la captura de alias Primo Gay en Briceño, Antioquia",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/medellin/que-se-le-imputen-cargos-el-clamor-del-padre-del-periodista-mateo-perez-tras-la-captura-de-alias-primo-gay-en-briceno-antioquia-3601273",
-      "fecha": "2026-11-15T17:07:52+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "be913f563d4717bb",
-      "titulo": "EEUU mira al fondo del agua para montar sus centros de datos y los Grandes Lagos tienen todas las papeletas",
-      "categoria": "Internacional",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/robotica-e-ia/eeuu-mira-al-fondo-agua-para-montar-sus-centros-datos-grandes-lagos-tienen-todas-papeletas",
-      "fecha": "2026-11-15T17:01:24+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "06715ce3e4c4013c",
-      "titulo": "Suspenden presentación de libro sobre De La Espriella en la Filbac tras interrupción de asistentes en Barranquilla: denuncian acto de intolerancia",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/barranquilla/suspenden-presentacion-de-libro-sobre-de-la-espriella-en-la-filbac-tras-interrupcion-de-asistentes-en-barranquilla-denuncian-acto-de-intolerancia-3601275",
-      "fecha": "2026-11-15T17:01:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "28c1876cdc9fb5b0",
-      "titulo": "Sueños desde Guambía: el trabajo de Diana Jembuel por el periodismo indígena",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/red-de-expertos/red-etnica/suenos-desde-guambia-el-trabajo-de-diana-jembuel-por-el-periodismo-indigena/",
-      "fecha": "2026-11-15T17:00:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "12404951b15f567a",
-      "titulo": "Tras revelación de La Silla, Abelardo saca al presidente de Coljuegos",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/en-vivo/tras-revelacion-de-la-silla-abelardo-saca-al-presidente-de-coljuegos/",
-      "fecha": "2026-11-15T16:59:24+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "ff78b0a993d5f5d0",
-      "titulo": "Qué se sabe del choque de aviones en Miami: avión de carga con destino a Bogotá colisionó con avión de Copa",
-      "categoria": "Colombia",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/que-se-sabe-del-choque-de-aviones-en-miami-avion-de-carga-con-destino-a-bogota-colisiono-con-avion-de-copa-506413",
-      "fecha": "2026-11-15T16:55:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "b91b4201cf4e8948",
-      "titulo": "“¡Nadie tiene corona!”: Abelardo ordena la salida del presidente de Coljuegos por polémica con su título exprés",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/de-la-espriella-pide-renuncia-presidente-coljuegos-jaime-vives-ED43625472",
-      "fecha": "2026-11-15T16:53:15+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "2582e488e04185b1",
-      "titulo": "Estonia cerrará su frontera con Rusia tras denunciar intento de sabotaje",
-      "categoria": "Internacional",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/estonia-cerrará-su-frontera-con-rusia-tras-denunciar-intento-de-sabotaje/a-79953162?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-15T16:53:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "8e0d9c693079af7f",
-      "titulo": "Castilla Agrícola tuvo pérdidas por $5.464 millones e ingresos cayeron 35,7% a septiembre",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/empresas/castilla-agricola-registro-perdidas-por-5-464-millones-y-sus-ingresos-cayeron-35-7-a-septiembre-4525557",
-      "fecha": "2026-11-15T16:50:38+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "71a229320b3be6df",
-      "titulo": "Los 'milagros' en educación: obras por $337.000 millones, alivio a 235.000 usuarios del Icetex y auditoría al Fomag",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/gobierno/los-milagros-en-educacion-obras-por-337-000-millones-alivio-a-235-000-usuarios-del-icetex-y-auditoria-al-fomag-506411",
-      "fecha": "2026-11-15T16:50:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "d94de77e03a8d576",
-      "titulo": "De la Espriella pidió la salida de Jaime Vives de Coljuegos tras polémica por su posgrado",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/economia/de-la-espriella-pidio-la-salida-de-vives-de-coljuegos-tras-polemica-por-su-posgrado-4525553",
-      "fecha": "2026-11-15T16:45:30+00:00",
-      "imagen": ""
     }
   ],
   "estado_fuentes": [
@@ -620,13 +620,13 @@
       "nombre": "La FM Deportes",
       "url": "https://www.lafm.com.co/rss/deportes.xml",
       "estado": "correcto",
-      "titulares": 20
+      "titulares": 19
     },
     {
       "nombre": "La FM Economía",
       "url": "https://www.lafm.com.co/rss/economia.xml",
       "estado": "correcto",
-      "titulares": 20
+      "titulares": 19
     },
     {
       "nombre": "La FM Internacional",
@@ -650,7 +650,7 @@
       "nombre": "El Colombiano — Colombia",
       "url": "https://www.elcolombiano.com/rss/Colombia.xml",
       "estado": "correcto",
-      "titulares": 25
+      "titulares": 23
     },
     {
       "nombre": "El Diario — Pereira",
