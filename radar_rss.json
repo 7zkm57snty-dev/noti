@@ -1,5 +1,5 @@
 {
-  "ultima_actualizacion": "2026-11-15T17:18:15.416641+00:00",
+  "ultima_actualizacion": "2026-11-15T18:15:38.852244+00:00",
   "titulares_rss": [
     {
       "id": "226616e20d6cb4d5",
@@ -7,16 +7,115 @@
       "categoria": "Internacional",
       "fuente": "BBC Mundo",
       "url": "https://www.bbc.co.uk/mundo/live/c62e8kkl9rlrt?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-15T17:18:15.416641+00:00",
+      "fecha": "2026-11-15T18:15:38.852244+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "b5ad0cc9a0659dc8",
+      "titulo": "¿En qué se parecen León XIV y el papa Francisco? Periodista revela las claves de su relación",
+      "categoria": "Internacional",
+      "fuente": "La FM Internacional",
+      "url": "https://www.lafm.com.co/internacional/leon-xiv-y-francisco-periodista-revela-sus-semejanzas-417287",
+      "fecha": "2026-11-15T18:06:46+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "06a8da09503d387d",
+      "titulo": "Llevamos años llamando \"superalimento al arándano, pero ya hemos encontrado un problema en muchos de los estudios que lo alaban",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/medicina-y-salud/arandano-lleva-anos-acumulando-promesas-nuestra-salud-ciencia-empieza-a-separar-que-funciona-que-puro-marketing",
+      "fecha": "2026-11-15T18:01:21+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "5a5bc774e80ce77c",
+      "titulo": "Riopaila Agrícola registró pérdidas por $11.192 millones en acumulado a septiembre",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/empresas/resultados-financieros-de-riopaila-agricola-al-cierre-del-tercer-trimestre-2026-4525580",
+      "fecha": "2026-11-15T17:51:02+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "6f99ff141da21ef3",
+      "titulo": "Atentados con explosivos en Colombia EN VIVO: convocan consejo de seguridad tras ataques a peajes en vías de Bogotá, Villavicencio, Neiva y Pipiral",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/atentados-con-explosivos-en-colombia-en-vivo-asi-quedaron-los-peajes-en-vias-de-bogota-villavicencio-neiva-y-pipiral-3601276",
+      "fecha": "2026-11-15T17:45:51+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "acd942c7da321dc3",
+      "titulo": "Cómo el \"terror rojo\" borró de la historia a Paul Robeson, la \"persona negra más famosa de EE.UU.\"",
+      "categoria": "Internacional",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/cj7d00x7522o?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-15T17:42:06+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "a34347f99f24264a",
+      "titulo": "Grave accidente de tránsito en la vía al mar en Nariño: cinco personas habrían muerto tras el fuerte impacto",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/cali/grave-accidente-de-transito-en-la-via-al-mar-en-narino-cinco-personas-habrian-muerto-tras-el-fuerte-impacto-3601281",
+      "fecha": "2026-11-15T17:40:29+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "f65a0b3fe88248f4",
+      "titulo": "De la Espriella despide al presidente de Coljuegos tras el escándalo por la obtención de un título exprés",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/america-colombia/2026-11-15/de-la-espriella-despide-al-presidente-de-coljuegos-tras-el-escandalo-por-la-obtencion-de-un-titulo-expres.html",
+      "fecha": "2026-11-15T17:39:51+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "9799164cdc00304c",
+      "titulo": "Subastas de la SAE dejaron $1.967 millones más de lo esperado: así fue la venta de 44 inmuebles en tres meses",
+      "categoria": "Economía",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/gobierno/subastas-de-la-sae-dejaron-1-967-millones-mas-de-lo-esperado-asi-fue-la-venta-de-44-inmuebles-en-tres-meses-506414",
+      "fecha": "2026-11-15T17:30:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "a5345ad12383f9fd",
+      "titulo": "Nuevo atentado contra torres de energía en El Pital, Huila, pone en riesgo el suministro en Caquetá y Putumayo",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/nuevo-atentado-contra-torres-de-energia-en-el-pital-huila-pone-en-riesgo-el-suministro-en-caqueta-y-putumayo-3601278",
+      "fecha": "2026-11-15T17:27:56+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "3581cace5a2ccdeb",
+      "titulo": "Chevron registró utilidades por $29.532 millones en el tercer trimestre, repuntaron 46%",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/empresas/resultados-financieros-de-chevron-al-cierre-del-tercer-trimestre-2026-4525551",
+      "fecha": "2026-11-15T17:23:07+00:00",
       "imagen": ""
     },
     {
       "id": "e46542b5b2ceab19",
-      "titulo": "La visita de León XIV a Perú, en vivo|El Papa reza el Ángelus ante miles de fieles en al Catedral de Cuzco",
+      "titulo": "La visita de León XIV a Perú, en vivo|El Papa se despide del Cuzco entre aplausos y emprende viaje hacia Pucallpa, en la selva del Amazonas",
       "categoria": "Colombia",
       "fuente": "El País Colombia",
       "url": "https://elpais.com/america/2026-11-15/la-visita-de-leon-xiv-a-peru-en-vivo.html",
       "fecha": "2026-11-15T17:14:04+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "64b1d6c151c39a51",
+      "titulo": "Tras reunirse con el vicepresidente Restrepo, Uribe ve ‘expectativas positivas’ frente a la ley de ajuste fiscal",
+      "categoria": "Colombia",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/gobierno/tras-reunirse-con-el-vicepresidente-restrepo-uribe-ve-expectativas-positivas-frente-a-la-ley-de-ajuste-fiscal-506417",
+      "fecha": "2026-11-15T17:10:16+00:00",
       "imagen": ""
     },
     {
@@ -29,12 +128,39 @@
       "imagen": ""
     },
     {
+      "id": "2ff641d548a8a66f",
+      "titulo": "'Que se le imputen cargos': el clamor del padre del periodista Mateo Pérez tras la captura de alias Primo Gay en Briceño, Antioquia",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/medellin/que-se-le-imputen-cargos-el-clamor-del-padre-del-periodista-mateo-perez-tras-la-captura-de-alias-primo-gay-en-briceno-antioquia-3601273",
+      "fecha": "2026-11-15T17:07:52+00:00",
+      "imagen": ""
+    },
+    {
       "id": "be913f563d4717bb",
       "titulo": "EEUU mira al fondo del agua para montar sus centros de datos y los Grandes Lagos tienen todas las papeletas",
       "categoria": "Internacional",
       "fuente": "Xataka",
       "url": "https://www.xataka.com/robotica-e-ia/eeuu-mira-al-fondo-agua-para-montar-sus-centros-datos-grandes-lagos-tienen-todas-papeletas",
       "fecha": "2026-11-15T17:01:24+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "51a4f6cb23b848ba",
+      "titulo": "El duro pronunciamiento del alcalde de Neiva tras ataque contra peaje: 'Estas acciones terroristas exigen una respuesta articulada de las autoridades'",
+      "categoria": "Internacional",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/el-duro-pronunciamiento-del-alcalde-de-neiva-tras-ataque-contra-peaje-estas-acciones-terroristas-exigen-una-respuesta-articulada-de-las-autoridades-3601269",
+      "fecha": "2026-11-15T17:01:23+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "06715ce3e4c4013c",
+      "titulo": "Suspenden presentación de libro sobre De La Espriella en la Filbac tras interrupción de asistentes en Barranquilla: denuncian acto de intolerancia",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/barranquilla/suspenden-presentacion-de-libro-sobre-de-la-espriella-en-la-filbac-tras-interrupcion-de-asistentes-en-barranquilla-denuncian-acto-de-intolerancia-3601275",
+      "fecha": "2026-11-15T17:01:00+00:00",
       "imagen": ""
     },
     {
@@ -56,15 +182,6 @@
       "imagen": ""
     },
     {
-      "id": "51a4f6cb23b848ba",
-      "titulo": "El duro pronunciamiento del alcalde de Neiva tras ataque contra peaje: 'Estas acciones terroristas exigen una respuesta articulada de las autoridades'",
-      "categoria": "Internacional",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/el-duro-pronunciamiento-del-alcalde-de-neiva-tras-ataque-contra-peaje-estas-acciones-terroristas-exigen-una-respuesta-articulada-de-las-autoridades-3601269",
-      "fecha": "2026-11-15T16:55:13+00:00",
-      "imagen": ""
-    },
-    {
       "id": "ff78b0a993d5f5d0",
       "titulo": "Qué se sabe del choque de aviones en Miami: avión de carga con destino a Bogotá colisionó con avión de Copa",
       "categoria": "Colombia",
@@ -74,12 +191,12 @@
       "imagen": ""
     },
     {
-      "id": "2ff641d548a8a66f",
-      "titulo": "'Que se le imputen cargos': el clamor del padre del periodista Mateo Pérez tras la captura de alias Primo Gay en Briceño, Antioquia",
+      "id": "b91b4201cf4e8948",
+      "titulo": "“¡Nadie tiene corona!”: Abelardo ordena la salida del presidente de Coljuegos por polémica con su título exprés",
       "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/medellin/que-se-le-imputen-cargos-el-clamor-del-padre-del-periodista-mateo-perez-tras-la-captura-de-alias-primo-gay-en-briceno-antioquia-3601273",
-      "fecha": "2026-11-15T16:54:14+00:00",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/de-la-espriella-pide-renuncia-presidente-coljuegos-jaime-vives-ED43625472",
+      "fecha": "2026-11-15T16:53:15+00:00",
       "imagen": ""
     },
     {
@@ -138,7 +255,7 @@
     },
     {
       "id": "b0fdd5a072b3f652",
-      "titulo": "Los Lorenzana, Los Huistas y Los Mendoza: qué se sabe de las bandas criminales de Guatemala a las que EE.UU. designó como grupos terroristas extranjeros",
+      "titulo": "Cuáles son las 3 bandas criminales de Guatemala que EE.UU. designó como organizaciones terroristas extranjeras",
       "categoria": "Internacional",
       "fuente": "BBC Mundo",
       "url": "https://www.bbc.com/mundo/articles/c3rrg98rd8dqo?at_medium=RSS&at_campaign=rss",
@@ -200,15 +317,6 @@
       "imagen": ""
     },
     {
-      "id": "b91b4201cf4e8948",
-      "titulo": "“¡Nadie tiene corona!”: Abelardo ordena la salida del presidente de Coljuegos por polémica con su título exprés",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/de-la-espriella-pide-renuncia-presidente-coljuegos-jaime-vives-ED43625472",
-      "fecha": "2026-11-15T16:15:01+00:00",
-      "imagen": ""
-    },
-    {
       "id": "f13510d2ed3a064a",
       "titulo": "“Miserable, asesino, despreciable”: así encaró Abelardo a alias Primo Gay y reveló a qué prisión irá",
       "categoria": "Colombia",
@@ -242,15 +350,6 @@
       "fuente": "DW Español",
       "url": "https://www.dw.com/es/¿podría-la-renta-básica-universal-ser-parte-de-la-solución-en-una-economía-revolucionada-por-la-ia/a-79951515?maca=spa-rss-sp-all-1122-rdf",
       "fecha": "2026-11-15T15:57:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "9433c7607ab093cb",
-      "titulo": "Así quedó el peaje de la vía Neiva-Bogotá tras explosión, al parecer, de una moto bomba: se generó alerta en otro punto por carro abandonado",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/asi-quedo-el-peaje-de-la-via-neiva-bogota-tras-explosion-de-moto-bomba-se-genero-alerta-en-otro-punto-por-carro-abandonado-3601236",
-      "fecha": "2026-11-15T15:56:45+00:00",
       "imagen": ""
     },
     {
@@ -299,24 +398,6 @@
       "imagen": ""
     },
     {
-      "id": "bff991fbb9856ee8",
-      "titulo": "Atlántico | Autoridades estudian retirar polémica valla que alega defensa de ‘Juancho Kily’, procesado por presunto abuso sexual de una menor de edad",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/barranquilla/atlantico-autoridades-estudian-retirar-polemica-valla-que-alega-defensa-de-juancho-kily-procesado-por-presunto-abuso-sexual-de-una-menor-de-edad-3601251",
-      "fecha": "2026-11-15T15:30:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "2d9468cb1e1e1577",
-      "titulo": "Acumulado de Revancha de $5.600 millones cayó por primera vez en Medellín",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/acumulado-de-revancha-de-5-600-millones-cayo-por-primera-vez-en-medellin-506406",
-      "fecha": "2026-11-15T15:20:35+00:00",
-      "imagen": ""
-    },
-    {
       "id": "3d4545c4fb829534",
       "titulo": "Un celular empeñado destapó presuntos abusos contra una niña de 6 años en Putumayo",
       "categoria": "Colombia",
@@ -329,7 +410,7 @@
       "id": "d0e8f9e952cb2def",
       "titulo": "El plan que une los atentados en peajes de Huila y Cauca y las explosiones en Cali: autoridades siguen el rastro de quién estaría detrás",
       "categoria": "Cali",
-      "fuente": "El Tiempo",
+      "fuente": "El Tiempo Cali",
       "url": "https://www.eltiempo.com/colombia/cali/la-pista-que-une-los-atentados-en-peajes-de-huila-y-cauca-y-las-explosiones-en-cali-autoridades-siguen-el-rastro-de-quien-estaria-detras-3601242",
       "fecha": "2026-11-15T15:14:12+00:00",
       "imagen": ""
@@ -341,15 +422,6 @@
       "fuente": "BBC Mundo",
       "url": "https://www.bbc.com/mundo/articles/cw5y18j047r4o?at_medium=RSS&at_campaign=rss",
       "fecha": "2026-11-15T15:13:10+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "2d13b78427acf7bd",
-      "titulo": "Los 251 ‘milagros’ de Abelardo de la Espriella: esto es lo que dice el balance oficial de sus primeros 100 días",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/gobierno/los-251-milagros-de-abelardo-de-la-espriella-esto-es-lo-que-dice-el-balance-oficial-de-sus-primeros-100-dias-506405",
-      "fecha": "2026-11-15T15:10:00+00:00",
       "imagen": ""
     },
     {
@@ -468,78 +540,6 @@
       "url": "https://www.eldiario.com.co/temas/tecnologia/sector-tecnologico-ya-suma-mas-de-200-000-despidos-en-medio-del-auge-de-la-ia/",
       "fecha": "2026-11-15T14:11:37+00:00",
       "imagen": ""
-    },
-    {
-      "id": "5f2e1d642be67d70",
-      "titulo": "Dura derrota para Yuberjén Martínez: así perdió el título mundial de la OMB en el último segundo",
-      "categoria": "Deportes",
-      "fuente": "La FM Deportes",
-      "url": "https://www.lafm.com.co/deportes/yuberjen-martinez-derrota-titulo-mundial-boxeo-2026-417276",
-      "fecha": "2026-11-15T14:07:19+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "eb8990ca92322d1c",
-      "titulo": "Comience el domingo 15 de noviembre de 2026 con estas columnas de opinión",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/en-vivo/comience-el-domingo-15-de-noviembre-de-2026-con-estas-columnas-de-opinion/",
-      "fecha": "2026-11-15T14:07:04+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "f8e88be20d3dc622",
-      "titulo": "La Defensoría del Pueblo exige blindar a Briceño ante posibles retaliaciones tras la captura de alias Primo Gay",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/medellin/la-defensoria-del-pueblo-exige-blindar-a-briceno-ante-posibles-retaliaciones-tras-la-captura-de-alias-primo-gay-3601237",
-      "fecha": "2026-11-15T14:02:49+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "1ddf0ca5cc3a65e9",
-      "titulo": "Accidente de bus en el Catatumbo dejó 17 heridos, varios de gravedad",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/noticias/accidente-de-bus-en-el-catatumbo-dejo-17-heridos-varios-de-gravedad/",
-      "fecha": "2026-11-15T14:02:36+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "296a5b6f97ceddde",
-      "titulo": "Tantos años buscando la energía oscura y unos científicos creen que la respuesta ya la había formulado Einstein",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/espacio/anos-buscando-energia-oscura-estos-cientificos-sugieren-que-respuesta-estaba-ecuaciones-einstein-siempre",
-      "fecha": "2026-11-15T14:01:24+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "43f046adaaf88a53",
-      "titulo": "El patrimonio cultural está la deriva en el MinCultura",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/red-de-expertos/red-social/el-patrimonio-cultural-esta-la-deriva-en-el-mincultura/",
-      "fecha": "2026-11-15T14:00:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "babb5526bd6615e8",
-      "titulo": "Así fue la inauguración del DAVIarena con concierto de Juanes: 17.000 asistentes y un reto para Antioquia",
-      "categoria": "Economía",
-      "fuente": "La FM Economía",
-      "url": "https://www.lafm.com.co/economia/inauguracion-daviarena-sabaneta-antioquia-concierto-juanes-17000-asistentes-417275",
-      "fecha": "2026-11-15T13:59:09+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "476793889fd7ad1d",
-      "titulo": "Cuadrangulares definidos: dos clásicos animarán la lucha por la estrella",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/deportes/cuadrangulares-definidos-dos-clasicos-animaran-la-lucha-por-la-estrella/",
-      "fecha": "2026-11-15T13:55:40+00:00",
-      "imagen": ""
     }
   ],
   "estado_fuentes": [
@@ -590,7 +590,7 @@
       "nombre": "BBC Mundo",
       "url": "https://feeds.bbci.co.uk/mundo/rss.xml",
       "estado": "correcto",
-      "titulares": 25
+      "titulares": 26
     },
     {
       "nombre": "DW Español",
@@ -650,7 +650,7 @@
       "nombre": "El Colombiano — Colombia",
       "url": "https://www.elcolombiano.com/rss/Colombia.xml",
       "estado": "correcto",
-      "titulares": 32
+      "titulares": 28
     },
     {
       "nombre": "El Diario — Pereira",
