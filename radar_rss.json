@@ -1,5 +1,5 @@
 {
-  "ultima_actualizacion": "2026-11-15T21:18:36.472234+00:00",
+  "ultima_actualizacion": "2026-11-15T22:17:40.252931+00:00",
   "titulares_rss": [
     {
       "id": "226616e20d6cb4d5",
@@ -7,7 +7,106 @@
       "categoria": "Internacional",
       "fuente": "BBC Mundo",
       "url": "https://www.bbc.co.uk/mundo/live/c62e8kkl9rlrt?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-15T21:18:36.472234+00:00",
+      "fecha": "2026-11-15T22:17:40.252931+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "4335ec92b6054609",
+      "titulo": "101 días",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/red-de-expertos/red-de-la-paz/101-dias/",
+      "fecha": "2026-11-15T22:08:08+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "b031b69d826cf6fa",
+      "titulo": "España-Inglaterra, en directo, la UEFA Nations League en vivo | Inglaterra vence a España y se queda con el liderato del grupo",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/deportes/futbol/2026-11-15/espana-inglaterra-en-directo-la-uefa-nations-league-en-vivo.html",
+      "fecha": "2026-11-15T22:04:57+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "83a005ab1e78de52",
+      "titulo": "Volcamiento en la vía Bucaramanga–Rionegro cierra paso hacia la costa Atlántica; graves accidentes en Norte de Santander y Huila dejan siete muertos",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/santander/volcamiento-en-la-via-bucaramanga-rionegro-cierra-paso-hacia-la-costa-atlantica-graves-accidentes-en-norte-de-santander-y-huila-dejan-siete-muertos-3601310",
+      "fecha": "2026-11-15T21:57:28+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "c9690bfb8ec4a1a1",
+      "titulo": "Cierre de actividades del año de la Fundación Nuevo Amanecer ESAL",
+      "categoria": "Colombia",
+      "fuente": "Chocó 7 días",
+      "url": "https://choco7dias.com/cierre-de-actividades-del-ano-de-la-fundacion-nuevo-amanecer-esal/",
+      "fecha": "2026-11-15T21:54:47+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "bf79767442d43296",
+      "titulo": "España pierde su invicto de 44 partidos tras caer ante Inglaterra en un duelo memorable",
+      "categoria": "Deportes",
+      "fuente": "La FM Deportes",
+      "url": "https://www.lafm.com.co/deportes/espana-pierde-invicto-44-partidos-inglaterra-nations-league-417307",
+      "fecha": "2026-11-15T21:53:40+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "8749af01a96ec2e0",
+      "titulo": "Escritor nicaragüense Sergio Ramírez entra a la RAE y ocupa la silla de Vargas Llosa",
+      "categoria": "Internacional",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/escritor-nicaragüense-sergio-ramírez-entra-a-la-rae-y-ocupa-la-silla-de-vargas-llosa/a-79953698?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-15T21:53:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "16aaa395fd16ba18",
+      "titulo": "Canarias registra récord histórico de migración: más de 1.500 personas llegaron en embarcaciones en un solo día",
+      "categoria": "Internacional",
+      "fuente": "La FM Internacional",
+      "url": "https://www.lafm.com.co/internacional/migracion-espana-islas-canarias-crisis-migratoria-el-hierro-llegada-cayucos-417306",
+      "fecha": "2026-11-15T21:39:39+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "216d8903deaf8ee3",
+      "titulo": "Fundación Nuevo Amanecer ESAL: años de compromiso, tecnología e inclusión para transformar el Chocó",
+      "categoria": "Tecnología",
+      "fuente": "Chocó 7 días",
+      "url": "https://choco7dias.com/fundacion-nuevo-amanecer-esal-anos-de-compromiso-tecnologia-e-inclusion-para-transformar-el-choco/",
+      "fecha": "2026-11-15T21:36:26+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "6d5a528f75c1a8e2",
+      "titulo": "Indepaz: 45 líderes sociales asesinados en primeros 100 días de Abelardo",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/en-vivo/indepaz-45-lideres-sociales-asesinados-en-primeros-100-dias-de-abelardo/",
+      "fecha": "2026-11-15T21:32:51+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "e46542b5b2ceab19",
+      "titulo": "La visita de León XIV a Perú, en vivo| El Papa recuerda a los indígenas asesinados: “Su sangre reclama justicia”",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/america/2026-11-15/la-visita-de-leon-xiv-a-peru-en-vivo.html",
+      "fecha": "2026-11-15T21:27:25+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "e6d095cc006d5988",
+      "titulo": "Juez de Antioquia pide investigar a Abelardo por ‘expresiones despectivas’ contra alias Primo Gay",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/juez-de-antioquia-pide-investigar-a-abelardo-por-expresiones-despectivas-contra-alias-primo-gay-MD43628316",
+      "fecha": "2026-11-15T21:23:54+00:00",
       "imagen": ""
     },
     {
@@ -26,15 +125,6 @@
       "fuente": "La FM Internacional",
       "url": "https://www.lafm.com.co/internacional/jensen-huang-ceo-nvidia-inteligencia-artificial-silicon-valley-elon-musk-417304",
       "fecha": "2026-11-15T20:56:23+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "e46542b5b2ceab19",
-      "titulo": "La visita de León XIV a Perú, en vivo| El Papa recuerda a los indígenas asesinados: “Su sangre reclama justicia”",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/america/2026-11-15/la-visita-de-leon-xiv-a-peru-en-vivo.html",
-      "fecha": "2026-11-15T20:51:33+00:00",
       "imagen": ""
     },
     {
@@ -245,15 +335,6 @@
       "imagen": ""
     },
     {
-      "id": "e6d095cc006d5988",
-      "titulo": "Juez de Antioquia pide investigar a Abelardo por ‘expresiones despectivas’ contra alias Primo Gay",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/juez-de-antioquia-pide-investigar-a-abelardo-por-expresiones-despectivas-contra-alias-primo-gay-MD43628316",
-      "fecha": "2026-11-15T19:38:00+00:00",
-      "imagen": ""
-    },
-    {
       "id": "a7231fa4825e9e13",
       "titulo": "Cien días de De la Espriella: tres proyectos en uno",
       "categoria": "Colombia",
@@ -459,87 +540,6 @@
       "url": "https://www.dw.com/es/marina-francesa-intercepta-sumergible-con-toneladas-de-cocaína-en-el-atlántico/a-79953291?maca=spa-rss-sp-all-1122-rdf",
       "fecha": "2026-11-15T18:10:00+00:00",
       "imagen": ""
-    },
-    {
-      "id": "b5ad0cc9a0659dc8",
-      "titulo": "¿En qué se parecen León XIV y el papa Francisco? Periodista revela las claves de su relación",
-      "categoria": "Internacional",
-      "fuente": "La FM Internacional",
-      "url": "https://www.lafm.com.co/internacional/leon-xiv-y-francisco-periodista-revela-sus-semejanzas-417287",
-      "fecha": "2026-11-15T18:06:46+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "06a8da09503d387d",
-      "titulo": "Llevamos años llamando \"superalimento al arándano, pero ya hemos encontrado un problema en muchos de los estudios que lo alaban",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/medicina-y-salud/arandano-lleva-anos-acumulando-promesas-nuestra-salud-ciencia-empieza-a-separar-que-funciona-que-puro-marketing",
-      "fecha": "2026-11-15T18:01:21+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "c57d3d14b0c2f705",
-      "titulo": "Se conocen nuevos detalles del supuesto plan en la DNI para alterar los resultados y favorecer a Iván Cepeda",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/plan-favorecer-ivan-cepeda-elecciones-presidenciales-PD43626988",
-      "fecha": "2026-11-15T17:59:18+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "5a5bc774e80ce77c",
-      "titulo": "Riopaila Agrícola registró pérdidas por $11.192 millones en acumulado a septiembre",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/empresas/resultados-financieros-de-riopaila-agricola-al-cierre-del-tercer-trimestre-2026-4525580",
-      "fecha": "2026-11-15T17:51:02+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "acd942c7da321dc3",
-      "titulo": "Cómo el \"terror rojo\" borró de la historia a Paul Robeson, la \"persona negra más famosa de EE.UU.\"",
-      "categoria": "Internacional",
-      "fuente": "BBC Mundo",
-      "url": "https://www.bbc.com/mundo/articles/cj7d00x7522o?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-15T17:42:06+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "f65a0b3fe88248f4",
-      "titulo": "De la Espriella despide al presidente de Coljuegos tras el escándalo por la obtención de un título exprés",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/america-colombia/2026-11-15/de-la-espriella-despide-al-presidente-de-coljuegos-tras-el-escandalo-por-la-obtencion-de-un-titulo-expres.html",
-      "fecha": "2026-11-15T17:39:51+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "9799164cdc00304c",
-      "titulo": "Subastas de la SAE dejaron $1.967 millones más de lo esperado: así fue la venta de 44 inmuebles en tres meses",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/gobierno/subastas-de-la-sae-dejaron-1-967-millones-mas-de-lo-esperado-asi-fue-la-venta-de-44-inmuebles-en-tres-meses-506414",
-      "fecha": "2026-11-15T17:30:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "a5345ad12383f9fd",
-      "titulo": "Nuevo atentado contra torres de energía en El Pital, Huila, pone en riesgo el suministro en Caquetá y Putumayo",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/nuevo-atentado-contra-torres-de-energia-en-el-pital-huila-pone-en-riesgo-el-suministro-en-caqueta-y-putumayo-3601278",
-      "fecha": "2026-11-15T17:27:56+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "3581cace5a2ccdeb",
-      "titulo": "Chevron registró utilidades por $29.532 millones en el tercer trimestre, repuntaron 46%",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/empresas/resultados-financieros-de-chevron-al-cierre-del-tercer-trimestre-2026-4525551",
-      "fecha": "2026-11-15T17:23:07+00:00",
-      "imagen": ""
     }
   ],
   "estado_fuentes": [
@@ -553,7 +553,7 @@
       "nombre": "El Tiempo Cali",
       "url": "https://www.eltiempo.com/rss/colombia_cali.xml",
       "estado": "correcto",
-      "titulares": 7
+      "titulares": 8
     },
     {
       "nombre": "El Espectador",
@@ -596,7 +596,7 @@
       "nombre": "DW Español",
       "url": "https://rss.dw.com/rdf/rss-sp-all",
       "estado": "correcto",
-      "titulares": 20
+      "titulares": 21
     },
     {
       "nombre": "Xataka",
@@ -620,13 +620,13 @@
       "nombre": "La FM Deportes",
       "url": "https://www.lafm.com.co/rss/deportes.xml",
       "estado": "correcto",
-      "titulares": 19
+      "titulares": 20
     },
     {
       "nombre": "La FM Economía",
       "url": "https://www.lafm.com.co/rss/economia.xml",
       "estado": "correcto",
-      "titulares": 19
+      "titulares": 17
     },
     {
       "nombre": "La FM Internacional",
