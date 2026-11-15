@@ -1,5 +1,5 @@
 {
-  "ultima_actualizacion": "2026-11-15T07:13:08.741730+00:00",
+  "ultima_actualizacion": "2026-11-15T08:18:20.483728+00:00",
   "titulares_rss": [
     {
       "id": "226616e20d6cb4d5",
@@ -7,7 +7,34 @@
       "categoria": "Internacional",
       "fuente": "BBC Mundo",
       "url": "https://www.bbc.co.uk/mundo/live/c62e8kkl9rlrt?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-15T07:13:08.741730+00:00",
+      "fecha": "2026-11-15T08:18:20.483728+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "891d8f3088117fcd",
+      "titulo": "Explosión en peaje de Neiva: investigan presunto atentado con explosivos en la vía que comunica a la capital del Huila con Bogotá",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/explosion-en-peaje-de-neiva-investigan-presunto-atentado-con-explosivos-en-la-via-que-comunica-a-la-capital-del-huila-con-bogota-3601221",
+      "fecha": "2026-11-15T07:55:59+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "4afe07205cbbcf40",
+      "titulo": "China cierra acuerdos con países vecinos: ¿expande su presencia militar en el sudeste asiático?",
+      "categoria": "Internacional",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/china-cierra-acuerdos-con-países-vecinos-¿expande-su-presencia-militar-en-el-sudeste-asiático/a-79950247?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-15T07:43:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "4bcff59c47b9ced5",
+      "titulo": "Italia multa a Meta con 805 millones de euros por mirar en la galería de 20 millones de móviles",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/privacidad/italia-multa-a-meta-805-millones-euros-mirar-galeria-20-millones-moviles",
+      "fecha": "2026-11-15T07:42:03+00:00",
       "imagen": ""
     },
     {
@@ -452,15 +479,6 @@
       "imagen": ""
     },
     {
-      "id": "6c8d33b0a18e80f3",
-      "titulo": "Colombia buscará cerrar el año con otra victoria ante Chile",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/deportes/colombia-buscara-cerrar-el-ano-con-otra-victoria-ante-chile/",
-      "fecha": "2026-11-14T22:00:04+00:00",
-      "imagen": ""
-    },
-    {
       "id": "dd5139d5cde6f6ad",
       "titulo": "Gobierno y Federación de Cafeteros firman prórroga por diez años de administración de fondos del café",
       "categoria": "Colombia",
@@ -497,15 +515,6 @@
       "imagen": ""
     },
     {
-      "id": "3a3f808ebde5ef90",
-      "titulo": "Salario mínimo de 2027: inflación y empleo preocupan a los expertos",
-      "categoria": "Economía",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/noticias/economia/salario-minimo-de-2027-inflacion-y-empleo-preocupan-a-los-expertos/",
-      "fecha": "2026-11-14T21:30:25+00:00",
-      "imagen": ""
-    },
-    {
       "id": "e26badcd0af256a8",
       "titulo": "\"Las cortinas se pegaron al techo\": cómo sobreviví al desastre de San Juanico, la explosión que dejó 650 muertos en México en 1984",
       "categoria": "Internacional",
@@ -530,15 +539,6 @@
       "fuente": "El Colombiano — Colombia",
       "url": "https://www.elcolombiano.com/colombia/es-porque-se-dejaron-pillar-cepeda-y-ordonez-siguen-agarrados-y-ya-hablan-de-denuncias-GB43606011",
       "fecha": "2026-11-14T21:17:51+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "bf0c1d418d67e460",
-      "titulo": "El presidente Abelardo De La Espriella confirma el rescate del odontólogo secuestrado Brandon Fermín Olivares en Cúcuta: hay tres capturados",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/el-presidente-abelardo-de-la-espriella-confirma-rescate-del-odontologo-secuestrado-brandon-fermin-olivares-en-cucuta-hay-tres-capturados-3601145",
-      "fecha": "2026-11-14T21:17:05+00:00",
       "imagen": ""
     }
   ],
@@ -655,8 +655,9 @@
     {
       "nombre": "El Diario — Pereira",
       "url": "https://www.eldiario.com.co/feed/",
-      "estado": "correcto",
-      "titulares": 35
+      "estado": "error",
+      "titulares": 0,
+      "detalle": "El feed no contiene entradas."
     },
     {
       "nombre": "Chocó 7 días",
