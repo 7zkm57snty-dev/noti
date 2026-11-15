@@ -1,5 +1,5 @@
 {
-  "ultima_actualizacion": "2026-11-15T10:24:35.115660+00:00",
+  "ultima_actualizacion": "2026-11-15T11:20:55.903740+00:00",
   "titulares_rss": [
     {
       "id": "226616e20d6cb4d5",
@@ -7,7 +7,61 @@
       "categoria": "Internacional",
       "fuente": "BBC Mundo",
       "url": "https://www.bbc.co.uk/mundo/live/c62e8kkl9rlrt?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-15T10:24:35.115660+00:00",
+      "fecha": "2026-11-15T11:20:55.903740+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "9fc2cf1047404ec7",
+      "titulo": "El Ejército yemení se retira de Bab al Mandeb para reforzar Adén ante el avance de la ofensiva hutí",
+      "categoria": "Internacional",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/el-ejército-yemení-se-retira-de-bab-al-mandeb-para-reforzar-adén-ante-el-avance-de-la-ofensiva-hutí/a-79951870?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-15T11:15:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "84b3cbe07194481b",
+      "titulo": "Nvidia se está planteando una decisión radical para dejar de depender de Samsung en la producción de memoria",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/componentes/produccion-memoria-siendo-drama-nvidia-planea-dar-salto-para-no-depender-samsung-se-habria-pedido-a-tsmc",
+      "fecha": "2026-11-15T11:01:22+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "94ed041aee82f214",
+      "titulo": "Las cifras clave y los factores detrás de cómo el 2026 apunta a ser el año menos violento de Medellín en su historia moderna",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/medellin/las-cifras-clave-y-los-factores-detras-de-como-el-2026-apunta-a-ser-el-ano-menos-violento-de-medellin-en-su-historia-moderna-3600990",
+      "fecha": "2026-11-15T11:01:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "dad95e54963bc512",
+      "titulo": "Chocó: un día como hoy…15 de noviembre",
+      "categoria": "Colombia",
+      "fuente": "Chocó 7 días",
+      "url": "https://choco7dias.com/choco-un-dia-como-hoy15-de-noviembre/",
+      "fecha": "2026-11-15T11:00:42+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "d6935417a4671061",
+      "titulo": "La conmoción en Panamá tras el ataque con explosivos contra la casa de un periodista",
+      "categoria": "Internacional",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/cj62pl46r351o?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-15T10:40:24+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "3ec27d2e315c3e39",
+      "titulo": "China estrena su avión eléctrico por fin con gente a bordo, pero no revela lo más importante: la batería",
+      "categoria": "Internacional",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/movilidad/china-estrena-su-avion-electrico-pilotos-a-bordo-no-revela-importante-bateria",
+      "fecha": "2026-11-15T10:30:00+00:00",
       "imagen": ""
     },
     {
@@ -485,60 +539,6 @@
       "fuente": "El País Colombia",
       "url": "https://elpais.com/espana/2026-11-15/mensajes-al-bajar-del-cayuco-mama-soy-modou-cogi-un-barco-llegue-a-espana.html",
       "fecha": "2026-11-15T04:30:01+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "9e7fbaf7d4096838",
-      "titulo": "IA, entre el poder y la fragilidad",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/opinion/2026-11-15/ia-entre-el-poder-y-la-fragilidad.html",
-      "fecha": "2026-11-15T04:30:01+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "ae933e8b2d7558c1",
-      "titulo": "David Koppel, el fotógrafo que recibió puñetazos de Mick Jagger o David Bowie: “Los famosos no tienen la profundidad y calidad de antes”",
-      "categoria": "Cali",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/gente/2026-11-15/david-koppel-el-fotografo-que-recibio-punetazos-de-mick-jagger-o-david-bowie-los-famosos-no-tienen-la-profundidad-y-calidad-de-antes.html",
-      "fecha": "2026-11-15T04:30:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "d02c2234b12bb206",
-      "titulo": "Los sanitarios en primera línea del ébola: “Un día los pacientes pueden parecer estar bien y al día siguiente están muertos”",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/planeta-futuro/2026-11-15/los-sanitarios-en-primera-linea-del-ebola-un-dia-los-pacientes-pueden-parecer-estar-bien-y-al-dia-siguiente-estan-muertos.html",
-      "fecha": "2026-11-15T04:30:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "2311c75c305672d9",
-      "titulo": "Osman Ali (Goldman Sachs): “La inversión minorista distorsiona los precios, el mercado es ahora más complejo que nunca y menos eficiente”",
-      "categoria": "Economía",
-      "fuente": "El País Colombia",
-      "url": "https://cincodias.elpais.com/fondos-y-planes/2026-11-15/osman-ali-goldman-sachs-la-inversion-minorista-distorsiona-los-precios-el-mercado-es-ahora-mas-complejo-que-nunca-y-menos-eficiente.html",
-      "fecha": "2026-11-15T04:30:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "ed741d4b5af3856c",
-      "titulo": "Portada 15 de noviembre del 2026",
-      "categoria": "Colombia",
-      "fuente": "La Patria — Caldas",
-      "url": "https://www.lapatria.com/publicacion/portada-15-de-noviembre-del-2026",
-      "fecha": "2026-11-15T04:12:33+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "2d374681f4649a2a",
-      "titulo": "Lujo y whisky: de lo aspiracional a un producto inversor de alto riesgo",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://cincodias.elpais.com/fortunas/2026-11-15/lujo-y-whisky-de-lo-aspiracional-a-un-producto-inversor-de-alto-riesgo.html",
-      "fecha": "2026-11-15T04:05:00+00:00",
       "imagen": ""
     }
   ],
