@@ -1,5 +1,5 @@
 {
-  "ultima_actualizacion": "2026-11-15T02:56:21.613649+00:00",
+  "ultima_actualizacion": "2026-11-15T03:59:15.124482+00:00",
   "titulares_rss": [
     {
       "id": "226616e20d6cb4d5",
@@ -7,7 +7,34 @@
       "categoria": "Internacional",
       "fuente": "BBC Mundo",
       "url": "https://www.bbc.co.uk/mundo/live/c62e8kkl9rlrt?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-15T02:56:21.613649+00:00",
+      "fecha": "2026-11-15T03:59:15.124482+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "5719a19dac7248b8",
+      "titulo": "Procuraduría y Defensoría del Pueblo anuncian articulación para proteger el río Atrato y hacer cumplir sentencias ambientales",
+      "categoria": "Colombia",
+      "fuente": "Chocó 7 días",
+      "url": "https://choco7dias.com/procuraduria-y-defensoria-del-pueblo-anuncian-articulacion-para-proteger-el-rio-atrato-y-hacer-cumplir-sentencias-ambientales/",
+      "fecha": "2026-11-15T03:19:26+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "34780a055c17dfa8",
+      "titulo": "Bus que transportaba a más de 20 estudiantes cayó a un abismo en Norte de Santander: al menos 16 menores resultaron heridos",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/bus-que-transportaba-a-mas-de-20-estudiantes-cayo-a-un-abismo-en-norte-de-santander-al-menos-16-menores-resultaron-heridos-3601199",
+      "fecha": "2026-11-15T03:16:24+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "b1351e3712100515",
+      "titulo": "En las entrañas de Hidroituango: las cifras, los retrasos superados y la apuesta final de la fase 2 para generar el 17 % de la energía nacional",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/medellin/en-las-entranas-de-hidroituango-las-cifras-los-retrasos-superados-y-la-apuesta-final-de-la-fase-2-para-generar-el-17-de-la-energia-nacional-3600980",
+      "fecha": "2026-11-15T03:01:00+00:00",
       "imagen": ""
     },
     {
@@ -512,33 +539,6 @@
       "fuente": "El Tiempo",
       "url": "https://www.eltiempo.com/colombia/barranquilla/barranquilla-murio-gellis-rambao-la-cajera-baleada-dentro-de-una-olimpica-en-rebolo-permanecio-cinco-dias-luchando-por-su-vida-3601136",
       "fecha": "2026-11-14T19:50:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "1bccaca7b0b92b75",
-      "titulo": "Secretario de Transporte de EE. UU. reveló la causa de la suspensión de vuelos en todo el país: No fue por OVNIS",
-      "categoria": "Internacional",
-      "fuente": "La FM Internacional",
-      "url": "https://www.lafm.com.co/internacional/vuelos-en-estados-unidos-falla-tecnica-aerea-aeropuertos-de-estados-unidos-faa-vuelos-cancelados-417236",
-      "fecha": "2026-11-14T19:41:11+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "9270e1edcd7d436d",
-      "titulo": "Jugadores del Pereira amenazaron con no jugar contra América: ¿Qué pasó con el partido de la Liga BetPlay?",
-      "categoria": "Deportes",
-      "fuente": "La FM Deportes",
-      "url": "https://www.lafm.com.co/deportes/deportivo-pereira-se-niega-a-jugar-contra-america-en-la-liga-betplay-417233",
-      "fecha": "2026-11-14T19:40:40+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "a31e2baee1257184",
-      "titulo": "La foto: gobierno y uribismo se reunieron para discutir la tributaria",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/en-vivo/la-foto-gobierno-y-uribismo-se-reunen-para-discutir-la-tributaria/",
-      "fecha": "2026-11-14T19:39:00+00:00",
       "imagen": ""
     }
   ],
