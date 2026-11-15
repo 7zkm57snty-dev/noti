@@ -1,5 +1,5 @@
 {
-  "ultima_actualizacion": "2026-11-15T14:26:41.503085+00:00",
+  "ultima_actualizacion": "2026-11-15T15:21:17.727569+00:00",
   "titulares_rss": [
     {
       "id": "226616e20d6cb4d5",
@@ -7,7 +7,151 @@
       "categoria": "Internacional",
       "fuente": "BBC Mundo",
       "url": "https://www.bbc.co.uk/mundo/live/c62e8kkl9rlrt?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-15T14:26:41.503085+00:00",
+      "fecha": "2026-11-15T15:21:17.727569+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "d0e8f9e952cb2def",
+      "titulo": "El plan que une los atentados en peajes de Huila y Cauca y las explosiones en Cali: autoridades siguen el rastro de quién estaría detrás",
+      "categoria": "Cali",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/cali/la-pista-que-une-los-atentados-en-peajes-de-huila-y-cauca-y-las-explosiones-en-cali-autoridades-siguen-el-rastro-de-quien-estaria-detras-3601242",
+      "fecha": "2026-11-15T15:14:12+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "e46542b5b2ceab19",
+      "titulo": "La visita de León XIV a Perú, en vivo| El Papa se reúne con fieles en un parque arqueológico de Cusco",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/america/2026-11-15/la-visita-de-leon-xiv-a-peru-en-vivo.html",
+      "fecha": "2026-11-15T15:13:42+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "7634e96de91b6104",
+      "titulo": "El legado de Miguel Ángel Asturias, el \"olvidado\" Nobel de Literatura guatemalteco al que los escritores del boom latinoamericano le dieron la espalda",
+      "categoria": "Internacional",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/cw5y18j047r4o?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-15T15:13:10+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "e2952e8d60de82cf",
+      "titulo": "De 'GTA V' a 'GTA VI': 13 años, 4.700 empleados y una industria que sigue apartándose del camino de Rockstar",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/videojuegos/gta-v-a-gta-vi-13-anos-4-700-empleados-industria-que-sigue-apartandose-camino-rockstar",
+      "fecha": "2026-11-15T15:01:31+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "431ba04a29c1ff57",
+      "titulo": "100 días del presidente: Santa Marta paga el costo de una seguridad sin estrategia integral",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/red-de-expertos/red-de-la-paz/100-dias-del-presidente-santa-marta-paga-el-costo-de-una-seguridad-sin-estrategia-integral/",
+      "fecha": "2026-11-15T15:00:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "19201a5641e66c87",
+      "titulo": "En 100 días, gobierno de Abelardo incumplió compromisos con la prensa: Flip",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/en-vivo/en-100-dias-gobierno-de-abelardo-incumplio-compromisos-con-la-prensa-flip/",
+      "fecha": "2026-11-15T14:57:22+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "f443353cd785d3dc",
+      "titulo": "Petro respondió a informe que cuestiona su papel en elecciones de Venezuela",
+      "categoria": "Internacional",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/noticias/petro-respondio-a-informe-que-cuestiona-su-papel-en-elecciones-de-venezuela/",
+      "fecha": "2026-11-15T14:50:29+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "fb5c1ad35e8c22c1",
+      "titulo": "Atentado en Pipiral obliga a desviar el tráfico de la vía Bogotá-Villavicencio por la antigua calzada en bypass",
+      "categoria": "Deportes",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/infraestructura/atentado-en-pipiral-obliga-a-desviar-el-trafico-de-la-via-bogota-villavicencio-por-la-antigua-calzada-en-bypass-506401",
+      "fecha": "2026-11-15T14:40:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "44955245391f20cd",
+      "titulo": "Bitcoin cayó a su nivel más bajo en cuatro meses en medio de una ola de liquidaciones",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/globoeconomia/bitcoin-cayo-a-su-nivel-mas-bajo-en-cuatro-meses-en-medio-de-una-ola-de-liquidaciones-4525509",
+      "fecha": "2026-11-15T14:36:33+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "f24c762383ea93ed",
+      "titulo": "Diabetes: controlar el azúcar no basta para proteger el corazón",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/temas/salud/diabetes-controlar-el-azucar-no-basta-para-proteger-el-corazon/",
+      "fecha": "2026-11-15T14:33:47+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "fcfa32deddb8dce4",
+      "titulo": "Por qué nos entra sueño después de comer: la culpa no es solo de la comida, sino de nuestro reloj biológico",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/medicina-y-salud/que-nos-entra-sueno-despues-comer-culpa-no-solo-comida-sino-nuestro-reloj-biologico",
+      "fecha": "2026-11-15T14:31:25+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "5204800321cdff37",
+      "titulo": "Megaspeed dijo que Alice Huang dejó la compañía en agosto de 2025 y ya no ocupa cargos",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/globoeconomia/megaspeed-afirma-que-alice-huang-dejo-la-empresa-en-agosto-de-2025-4525512",
+      "fecha": "2026-11-15T14:28:55+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "52793a2261775b6d",
+      "titulo": "Un superpetrolero se hunde tras explotarle una mina marina en Ormuz, según informa Irán",
+      "categoria": "Internacional",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/un-superpetrolero-se-hunde-tras-explotarle-una-mina-marina-en-ormuz-según-informa-irán/a-79952681?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-15T14:28:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "aa9e2261058244f3",
+      "titulo": "Trump pide millonaria inversión tras crisis aérea en Estados Unidos",
+      "categoria": "Internacional",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/noticias/internacionales/trump-pide-millonaria-inversion-tras-crisis-aerea-en-estados-unidos/",
+      "fecha": "2026-11-15T14:27:51+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "a5f479a7e50ee6b9",
+      "titulo": "Ocampo cuestiona las cuentas de la Ley de Rescate: recorte de gasto aportaría solo el 25% del ajuste fiscal",
+      "categoria": "Economía",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/gobierno/ocampo-cuestiona-las-cuentas-de-la-ley-de-rescate-recorte-de-gasto-aportaria-solo-el-25-del-ajuste-fiscal-506402",
+      "fecha": "2026-11-15T14:26:51+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "9433c7607ab093cb",
+      "titulo": "Así quedó el peaje de la vía Neiva-Bogotá tras explosión, al parecer, de una moto bomba: se generó alerta en otro punto por carro abandonado",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/asi-quedo-el-peaje-de-la-via-neiva-bogota-tras-explosion-de-moto-bomba-se-genero-alerta-en-otro-punto-por-carro-abandonado-3601236",
+      "fecha": "2026-11-15T14:24:37+00:00",
       "imagen": ""
     },
     {
@@ -29,6 +173,15 @@
       "imagen": ""
     },
     {
+      "id": "5f2e1d642be67d70",
+      "titulo": "Dura derrota para Yuberjén Martínez: así perdió el título mundial de la OMB en el último segundo",
+      "categoria": "Deportes",
+      "fuente": "La FM Deportes",
+      "url": "https://www.lafm.com.co/deportes/yuberjen-martinez-derrota-titulo-mundial-boxeo-2026-417276",
+      "fecha": "2026-11-15T14:07:19+00:00",
+      "imagen": ""
+    },
+    {
       "id": "eb8990ca92322d1c",
       "titulo": "Comience el domingo 15 de noviembre de 2026 con estas columnas de opinión",
       "categoria": "Colombia",
@@ -44,6 +197,15 @@
       "fuente": "El Tiempo",
       "url": "https://www.eltiempo.com/colombia/medellin/la-defensoria-del-pueblo-exige-blindar-a-briceno-ante-posibles-retaliaciones-tras-la-captura-de-alias-primo-gay-3601237",
       "fecha": "2026-11-15T14:02:49+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "f13510d2ed3a064a",
+      "titulo": "“Miserable, asesino, despreciable”: así encaró Abelardo a alias Primo Gay y reveló a qué prisión irá",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/miserable-asesino-despreciable-asi-encaro-abelardo-a-alias-primo-gay-y-revelo-a-que-prision-ira-DD43621301",
+      "fecha": "2026-11-15T14:02:40+00:00",
       "imagen": ""
     },
     {
@@ -89,15 +251,6 @@
       "fuente": "El Diario — Pereira",
       "url": "https://www.eldiario.com.co/deportes/cuadrangulares-definidos-dos-clasicos-animaran-la-lucha-por-la-estrella/",
       "fecha": "2026-11-15T13:55:40+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "9433c7607ab093cb",
-      "titulo": "Así quedó el peaje de la vía Neiva-Bogotá tras explosión, al parecer, de una moto bomba: se generó alerta en otro punto por carro abandonado",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/asi-quedo-el-peaje-de-la-via-neiva-bogota-tras-explosion-de-moto-bomba-se-genero-alerta-en-otro-punto-por-carro-abandonado-3601236",
-      "fecha": "2026-11-15T13:52:50+00:00",
       "imagen": ""
     },
     {
@@ -161,6 +314,15 @@
       "fuente": "Xataka",
       "url": "https://www.xataka.com/energia/europa-sabe-precio-llenar-sus-costas-parques-eolicos-marinos-lluvias",
       "fecha": "2026-11-15T13:31:23+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "a5e4a2ae249319ea",
+      "titulo": "Muse spaces personalizan la app",
+      "categoria": "Colombia",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/secciones/tecnologia/muse-spaces-personalizan-la-app/",
+      "fecha": "2026-11-15T13:30:00+00:00",
       "imagen": ""
     },
     {
@@ -378,168 +540,6 @@
       "url": "https://elpais.com/america-colombia/2026-11-15/cien-dias-de-la-patria-milagro-la-seguridad-vuelve-a-ser-protagonista-pero-con-el-deficit-fiscal-como-amenaza.html",
       "fecha": "2026-11-15T09:30:00+00:00",
       "imagen": ""
-    },
-    {
-      "id": "d926be50f452f3a2",
-      "titulo": "El Gobierno de De la Espriella intenta imponer su propia narrativa sobre la toma del Palacio de Justicia",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/america-colombia/2026-11-15/el-gobierno-de-de-la-espriella-intenta-imponer-su-propia-narrativa-sobre-la-toma-del-palacio-de-justicia.html",
-      "fecha": "2026-11-15T09:30:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "56c5fe7191b920ab",
-      "titulo": "De la Espriella se queda sin luna de miel en las encuestas",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/america-colombia/2026-11-15/de-la-espriella-se-queda-sin-luna-de-miel-en-las-encuestas.html",
-      "fecha": "2026-11-15T09:30:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "d7820368737cbb06",
-      "titulo": "El triunfo demócrata estadounidense exige el cambio en la política de guerra del Gobierno colombiano",
-      "categoria": "Internacional",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/america-colombia/2026-11-15/el-triunfo-democrata-estadounidense-exige-el-cambio-en-la-politica-de-guerra-del-gobierno-colombiano.html",
-      "fecha": "2026-11-15T09:30:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "b95cd0cc5628c133",
-      "titulo": "Videoanálisis | El Milagro que aún no llega",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/america-colombia/2026-11-15/videoanalisis-el-milagro-que-aun-no-llega.html",
-      "fecha": "2026-11-15T09:30:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "b64665e4156f61e6",
-      "titulo": "La ruta del dinero del Ueno Bank lleva de Paraguay a Europa",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/america/2026-11-15/la-ruta-del-dinero-del-ueno-bank-lleva-de-paraguay-a-europa.html",
-      "fecha": "2026-11-15T09:30:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "47b25836222e4607",
-      "titulo": "Cuba al final de Trump",
-      "categoria": "Internacional",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/america/2026-11-15/cuba-al-final-de-trump.html",
-      "fecha": "2026-11-15T09:30:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "4247c8b740d08f9a",
-      "titulo": "Guardianes del río Atrato: un referente internacional en la protección de los derechos de la naturaleza",
-      "categoria": "Internacional",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/america-colombia/2026-11-15/guardianes-del-rio-atrato-un-referente-internacional-en-la-proteccion-de-los-derechos-de-la-naturaleza.html",
-      "fecha": "2026-11-15T09:30:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "ff9d3eb864a0014b",
-      "titulo": "Podcast | ¿Estamos sobrediagnosticando los trastornos mentales?",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/america-colombia/2026-11-15/podcast-estamos-sobrediagnosticando-los-trastornos-mentales.html",
-      "fecha": "2026-11-15T09:30:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "cefe73bdd3fe25a7",
-      "titulo": "El Gobierno de México mira hacia China bajo la vigilancia incómoda de Estados Unidos",
-      "categoria": "Internacional",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/mexico/2026-11-15/el-gobierno-de-mexico-mira-hacia-china-bajo-la-vigilancia-incomoda-de-estados-unidos.html",
-      "fecha": "2026-11-15T09:30:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "aeefa7282cfb0469",
-      "titulo": "Cinco ofertas para aprovechar las ofertas previas al Black Friday de El Corte Inglés y MediaMarkt, hoy 15 de noviembre",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/seleccion/cinco-ofertas-para-aprovechar-ofertas-previas-al-black-friday-corte-ingles-mediamarkt-hoy-15-noviembre",
-      "fecha": "2026-11-15T09:15:25+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "54d7228130029901",
-      "titulo": "España no está llena ni vacía: está concentrada, y este mapa lo demuestra",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/magnet/espana-no-esta-llena-vacia-esta-concentrada-este-mapa-demuestra",
-      "fecha": "2026-11-15T09:01:27+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "a5682f43ab7f5696",
-      "titulo": "Irán reivindica haber atacado con drones a una base militar estadounidense en Baréin",
-      "categoria": "Internacional",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/irán-reivindica-haber-atacado-con-drones-a-una-base-militar-estadounidense-en-baréin/a-79951394?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-15T08:41:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "65c7a64496d82d25",
-      "titulo": "Jordania condena a muerte a los autores del atentado contra una iglesia ortodoxa",
-      "categoria": "Internacional",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/jordania-condena-a-muerte-a-los-autores-del-atentado-contra-una-iglesia-ortodoxa/a-79951383?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-15T08:11:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "891d8f3088117fcd",
-      "titulo": "Explosión en peaje de Neiva: investigan presunto atentado con explosivos en la vía que comunica a la capital del Huila con Bogotá",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/explosion-en-peaje-de-neiva-investigan-presunto-atentado-con-explosivos-en-la-via-que-comunica-a-la-capital-del-huila-con-bogota-3601221",
-      "fecha": "2026-11-15T07:55:59+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "4afe07205cbbcf40",
-      "titulo": "China cierra acuerdos con países vecinos: ¿expande su presencia militar en el sudeste asiático?",
-      "categoria": "Internacional",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/china-cierra-acuerdos-con-países-vecinos-¿expande-su-presencia-militar-en-el-sudeste-asiático/a-79950247?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-15T07:43:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "4bcff59c47b9ced5",
-      "titulo": "Italia pone un multazo a Meta de 805 millones por acceder sin permiso a la galería de 20 millones de móviles",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/privacidad/italia-multa-a-meta-805-millones-euros-mirar-galeria-20-millones-moviles",
-      "fecha": "2026-11-15T07:42:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "a4bb65f6f58d8733",
-      "titulo": "El hielo de la Tierra cruza una línea roja histórica: la ciencia advierte que la criosfera ha superado sus \"umbrales seguros\"",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/ecologia-y-naturaleza/hielo-tierra-cruza-linea-roja-historica-ciencia-advierte-que-criosfera-ha-superado-sus-umbrales-seguros",
-      "fecha": "2026-11-15T07:01:22+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "6ba1963aad8bbd38",
-      "titulo": "Gobierno denuncia presuntas irregularidades en zona de ubicación temporal en Putumayo: advierte falta de legalización de $13.000 millones",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/gobierno-denuncia-presuntas-irregularidades-en-zona-de-ubicacion-temporal-en-putumayo-advierte-falta-de-legalizacion-de-13-000-millones-3601219",
-      "fecha": "2026-11-15T06:20:37+00:00",
-      "imagen": ""
     }
   ],
   "estado_fuentes": [
@@ -553,7 +553,7 @@
       "nombre": "El Tiempo Cali",
       "url": "https://www.eltiempo.com/rss/colombia_cali.xml",
       "estado": "correcto",
-      "titulares": 9
+      "titulares": 8
     },
     {
       "nombre": "El Espectador",
@@ -590,7 +590,7 @@
       "nombre": "BBC Mundo",
       "url": "https://feeds.bbci.co.uk/mundo/rss.xml",
       "estado": "correcto",
-      "titulares": 25
+      "titulares": 26
     },
     {
       "nombre": "DW Español",
