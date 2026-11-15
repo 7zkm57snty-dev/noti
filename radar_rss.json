@@ -1,5 +1,5 @@
 {
-  "ultima_actualizacion": "2026-11-15T22:17:40.252931+00:00",
+  "ultima_actualizacion": "2026-11-15T23:20:15.266184+00:00",
   "titulares_rss": [
     {
       "id": "226616e20d6cb4d5",
@@ -7,7 +7,79 @@
       "categoria": "Internacional",
       "fuente": "BBC Mundo",
       "url": "https://www.bbc.co.uk/mundo/live/c62e8kkl9rlrt?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-15T22:17:40.252931+00:00",
+      "fecha": "2026-11-15T23:20:15.266184+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "6f99ff141da21ef3",
+      "titulo": "Atentados con explosivos en Colombia EN VIVO: ataque contra tres torres de energía en Huila deja sin luz a sectores de dos departamentos",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/atentados-con-explosivos-en-colombia-en-vivo-asi-quedaron-los-peajes-en-vias-de-bogota-villavicencio-neiva-y-pipiral-3601276",
+      "fecha": "2026-11-15T22:59:59+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "aeb543089f152445",
+      "titulo": "Ataques contra tres torres de energía dejan sin servicio a zonas del Huila y Caquetá: se suman a los atentados contra peajes con carros bomba",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/ataques-contra-tres-torres-de-energia-deja-sin-servicio-electrico-a-zonas-del-huila-y-caqueta-se-suman-a-los-atentados-contra-peajes-con-carros-bomba-3601315",
+      "fecha": "2026-11-15T22:52:46+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "e46542b5b2ceab19",
+      "titulo": "La visita de León XIV a Perú, en vivo| El Papa recuerda a los indígenas asesinados: “Su sangre reclama justicia”",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/america/2026-11-15/la-visita-de-leon-xiv-a-peru-en-vivo.html",
+      "fecha": "2026-11-15T22:51:44+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "5fc49095de897d89",
+      "titulo": "\"Después de que me despojaran de la ciudadanía nicaragüense, España fue mi lugar de asilo y decidí bien\": el escritor Sergio Ramírez ingresa a la Real Academia Española",
+      "categoria": "Internacional",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/cmx20d0y7j8jo?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-15T22:45:01+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "40dd4e5f0dfdc121",
+      "titulo": "Los estudios etnológicos atrapados en la desarticulación institucional",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/red-de-expertos/los-estudios-etnologicos-atrapados-en-la-desarticulacion-institucional/",
+      "fecha": "2026-11-15T22:39:59+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "642378ee4703c24d",
+      "titulo": "Estos son los resultados que ha dejado el Gobierno de Abelardo de la Espriella en 100 días",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/economia/estos-son-los-resultados-que-ha-dejado-el-gobierno-de-abelardo-de-la-espriella-en-100-dias-4525649",
+      "fecha": "2026-11-15T22:35:38+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "b031b69d826cf6fa",
+      "titulo": "España-Inglaterra, en directo, la UEFA Nations League en vivo | Oyarzabal: “El equipo no ha dejado de insistir e intentarlo”",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/deportes/futbol/2026-11-15/espana-inglaterra-en-directo-la-uefa-nations-league-en-vivo.html",
+      "fecha": "2026-11-15T22:34:25+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "f9b43d1a02e08124",
+      "titulo": "Cada dos días hay un atentado explosivo contra un peaje: ya van siete en noviembre",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/peaje-peajes-atacados-explosivos-ataques-pipiral-neiva-KC43631469",
+      "fecha": "2026-11-15T22:08:26+00:00",
       "imagen": ""
     },
     {
@@ -17,15 +89,6 @@
       "fuente": "La Silla Vacía",
       "url": "https://www.lasillavacia.com/red-de-expertos/red-de-la-paz/101-dias/",
       "fecha": "2026-11-15T22:08:08+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "b031b69d826cf6fa",
-      "titulo": "España-Inglaterra, en directo, la UEFA Nations League en vivo | Inglaterra vence a España y se queda con el liderato del grupo",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/deportes/futbol/2026-11-15/espana-inglaterra-en-directo-la-uefa-nations-league-en-vivo.html",
-      "fecha": "2026-11-15T22:04:57+00:00",
       "imagen": ""
     },
     {
@@ -83,21 +146,30 @@
       "imagen": ""
     },
     {
+      "id": "d29500cb7b4d778a",
+      "titulo": "Muere el narco Miguel Ángel Félix Gallardo, el Jefe de Jefes, a los 80 años",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/mexico/2026-11-15/muere-el-narco-miguel-angel-felix-gallardo-el-jefe-de-jefes-a-los-80-anos.html",
+      "fecha": "2026-11-15T21:35:13+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "2593beb7308d110b",
+      "titulo": "Buscan a diez adolescentes que escaparon de centro de reclusión del ICBF en Cali",
+      "categoria": "Cali",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/escape-diez-adolescentes-centro-reclusion-icbf-cali-BC43630919",
+      "fecha": "2026-11-15T21:34:04+00:00",
+      "imagen": ""
+    },
+    {
       "id": "6d5a528f75c1a8e2",
       "titulo": "Indepaz: 45 líderes sociales asesinados en primeros 100 días de Abelardo",
       "categoria": "Colombia",
       "fuente": "La Silla Vacía",
       "url": "https://www.lasillavacia.com/en-vivo/indepaz-45-lideres-sociales-asesinados-en-primeros-100-dias-de-abelardo/",
       "fecha": "2026-11-15T21:32:51+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "e46542b5b2ceab19",
-      "titulo": "La visita de León XIV a Perú, en vivo| El Papa recuerda a los indígenas asesinados: “Su sangre reclama justicia”",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/america/2026-11-15/la-visita-de-leon-xiv-a-peru-en-vivo.html",
-      "fecha": "2026-11-15T21:27:25+00:00",
       "imagen": ""
     },
     {
@@ -218,15 +290,6 @@
       "imagen": ""
     },
     {
-      "id": "6f99ff141da21ef3",
-      "titulo": "Atentados con explosivos en Colombia EN VIVO: video muestra el momento en que abandonan carro y explota en peaje de Pipiral, vía Bogotá-Villavicencio",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/atentados-con-explosivos-en-colombia-en-vivo-asi-quedaron-los-peajes-en-vias-de-bogota-villavicencio-neiva-y-pipiral-3601276",
-      "fecha": "2026-11-15T20:13:46+00:00",
-      "imagen": ""
-    },
-    {
       "id": "a34347f99f24264a",
       "titulo": "Grave accidente de tránsito en la vía al mar en Nariño: cinco personas habrían muerto tras el fuerte impacto",
       "categoria": "Colombia",
@@ -305,6 +368,15 @@
       "fuente": "La República",
       "url": "https://www.larepublica.co/economia/comisiones-economicas-citan-a-ponentes-de-la-ley-de-rescate-a-reunion-en-minhacienda-4525611",
       "fecha": "2026-11-15T19:51:59+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "e02d571b9fd2911f",
+      "titulo": "La ruta migratoria a Canarias bate su récord de llegadas en un solo día con más de 1.500 personas",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/espana/2026-11-15/la-ruta-migratoria-a-canarias-bate-su-record-de-llegadas-en-un-solo-dia-con-1500-personas.html",
+      "fecha": "2026-11-15T19:47:39+00:00",
       "imagen": ""
     },
     {
@@ -468,78 +540,6 @@
       "url": "https://www.lafm.com.co/internacional/marina-francesa-interceptacion-nave-tripulantes-cocaina-hundimiento-417294",
       "fecha": "2026-11-15T18:50:12+00:00",
       "imagen": ""
-    },
-    {
-      "id": "03b5464d5b2bca31",
-      "titulo": "Surtigas aumentó 6,1% su utilidad a septiembre y registró ingresos por $1,24 billones",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/empresas/surtigas-aumento-6-1-su-utilidad-a-septiembre-y-registro-ingresos-por-1-24-billones-4525579",
-      "fecha": "2026-11-15T18:47:15+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "1f2d321d4dfffb88",
-      "titulo": "Cambios de última hora en las entradas para la final de Copa Sudamericana: así afecta a los hinchas en Barranquilla",
-      "categoria": "Deportes",
-      "fuente": "La FM Deportes",
-      "url": "https://www.lafm.com.co/deportes/comebol-cambia-condiciones-boleteria-final-copa-sudamericana-417293",
-      "fecha": "2026-11-15T18:40:41+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "c569850f9270ea1a",
-      "titulo": "Grupo EPM aumentó 4% sus ingresos acumulados y alcanzó $30 billones a septiembre",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/empresas/grupo-epm-aumento-4-sus-ingresos-acumulados-y-alcanzo-30-billones-a-septiembre-4525533",
-      "fecha": "2026-11-15T18:34:54+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "4050c3a18d5e113c",
-      "titulo": "Tatooine no es tan descabellado: en un sistema con dos soles a 16 años luz es posible que existan planetas habitables",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/espacio/otros-estudios-habian-encontrado-tatooine-vida-real-solo-este-apunta-a-planeta-masa-terrestre",
-      "fecha": "2026-11-15T18:31:22+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "fe29f6948bbce2bf",
-      "titulo": "A bala interrumpen celebración de la influencer Keisy Díaz en Sucre y dejan gravemente herido a su esposo, el reconocido ganadero Jaime Troncoso",
-      "categoria": "Tendencias",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/a-bala-interrumpen-celebracion-de-la-influencer-keisy-diaz-en-sucre-y-dejan-gravemente-herido-a-su-esposo-el-reconocido-ganadero-jaime-troncoso-3601286",
-      "fecha": "2026-11-15T18:30:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "1e3a76c28c43220f",
-      "titulo": "Bessent afirmó que Nvidia necesita una reestructuración drástica tras salida de Huang",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/bessent-afirmo-que-nvidia-necesita-una-reestructuracion-drastica-tras-salida-de-huang-4525589",
-      "fecha": "2026-11-15T18:26:03+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "d0e8f9e952cb2def",
-      "titulo": "El plan que une los atentados en peajes de Huila y Cauca y las explosiones en Cali: autoridades siguen el rastro de quién estaría detrás",
-      "categoria": "Cali",
-      "fuente": "El Tiempo Cali",
-      "url": "https://www.eltiempo.com/colombia/cali/la-pista-que-une-los-atentados-en-peajes-de-huila-y-cauca-y-las-explosiones-en-cali-autoridades-siguen-el-rastro-de-quien-estaria-detras-3601242",
-      "fecha": "2026-11-15T18:14:37+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "b361e860f68de32b",
-      "titulo": "Marina francesa intercepta sumergible con toneladas de cocaína en el Atlántico",
-      "categoria": "Internacional",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/marina-francesa-intercepta-sumergible-con-toneladas-de-cocaína-en-el-atlántico/a-79953291?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-15T18:10:00+00:00",
-      "imagen": ""
     }
   ],
   "estado_fuentes": [
@@ -650,7 +650,7 @@
       "nombre": "El Colombiano — Colombia",
       "url": "https://www.elcolombiano.com/rss/Colombia.xml",
       "estado": "correcto",
-      "titulares": 23
+      "titulares": 25
     },
     {
       "nombre": "El Diario — Pereira",
