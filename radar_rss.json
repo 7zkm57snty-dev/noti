@@ -1,5 +1,5 @@
 {
-  "ultima_actualizacion": "2026-11-15T23:20:15.266184+00:00",
+  "ultima_actualizacion": "2026-11-16T00:32:25.965783+00:00",
   "titulares_rss": [
     {
       "id": "226616e20d6cb4d5",
@@ -7,7 +7,115 @@
       "categoria": "Internacional",
       "fuente": "BBC Mundo",
       "url": "https://www.bbc.co.uk/mundo/live/c62e8kkl9rlrt?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-15T23:20:15.266184+00:00",
+      "fecha": "2026-11-16T00:32:25.965783+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "05c19b7db203bc05",
+      "titulo": "El director del Banco Central de Paraguay se entrega por escándalo de Ueno Bank",
+      "categoria": "Economía",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/globoeconomia/director-del-banco-central-de-paraguay-se-entrega-por-escandalo-de-ueno-bank-4525674",
+      "fecha": "2026-11-16T00:24:27+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "b15d5e6127e6e414",
+      "titulo": "Murió Miguel Ángel Félix Gallardo, fundador del Cártel de Guadalajara y llamado 'El jefe de jefes'",
+      "categoria": "Internacional",
+      "fuente": "La FM Internacional",
+      "url": "https://www.lafm.com.co/internacional/miguel-angel-felix-gallardo-muerte-cartel-de-guadalajara-jefe-de-jefes-417312",
+      "fecha": "2026-11-16T00:00:03+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "1fc4e69d91310824",
+      "titulo": "Avianca anunció inversión de US$3.000 millones en Colombia en viaje a Milagro Week",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/empresas/avianca-anuncio-inversion-de-us-3-000-millones-en-colombia-en-viaje-a-milagro-week-4525669",
+      "fecha": "2026-11-15T23:52:30+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "da7d5422d0f9e017",
+      "titulo": "Este es el municipio con la cuarta parte de su población damnificada por el terremoto que busca reactivar el turismo con sus Fiestas de la Amistad",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/este-es-el-municipio-con-la-cuarta-parte-de-su-poblacion-damnificada-por-el-terremoto-que-busca-reactivar-el-turismo-con-sus-fiestas-de-la-amistad-3601320",
+      "fecha": "2026-11-15T23:38:45+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "517a78864d4b994b",
+      "titulo": "Mulino convoca a medios y gremios tras atentado contra la vivienda de periodista en Panamá",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/globoeconomia/mulino-convoca-a-medios-y-gremios-tras-atentado-contra-la-vivienda-de-periodista-en-panama-4525667",
+      "fecha": "2026-11-15T23:36:10+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "979399a655ff4b08",
+      "titulo": "Salario mínimo de 2027 tendrá cambios en la mesa de negociación: estos son los nuevos integrantes",
+      "categoria": "Economía",
+      "fuente": "La FM Economía",
+      "url": "https://www.lafm.com.co/economia/salario-minimo-2027-cambios-mesa-de-negociacion-incremento-417310",
+      "fecha": "2026-11-15T23:36:04+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "d3010bce1e5eee56",
+      "titulo": "Sheinbaum se reunirá con Xi Jinping en China para explorar nuevas oportunidades de cooperación",
+      "categoria": "Deportes",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/globoeconomia/sheinbaum-se-reunira-con-xi-jinping-en-china-para-explorar-nuevas-oportunidades-de-cooperacion-4525665",
+      "fecha": "2026-11-15T23:32:51+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "2e3e383b3fb6c1e5",
+      "titulo": "Gases del Caribe registró ingresos por $573.359 millones en el tercer trimestre de 2026",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/empresas/gases-del-caribe-registro-ingresos-por-573-359-millones-en-el-tercer-trimestre-de-2026-4525662",
+      "fecha": "2026-11-15T23:28:28+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "e46542b5b2ceab19",
+      "titulo": "La visita de León XIV a Perú, en vivo| El Papa en la Amazonia: “La violencia contra el pueblo es una violencia contra la tierra”",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/america/2026-11-15/la-visita-de-leon-xiv-a-peru-en-vivo.html",
+      "fecha": "2026-11-15T23:25:38+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "4af429372cc44f90",
+      "titulo": "Bancoomeva reportó ingresos operacionales por $249.195 millones a septiembre",
+      "categoria": "Economía",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/finanzas/bancoomeva-reporto-ingresos-operacionales-por-249-195-millones-a-septiembre-4525576",
+      "fecha": "2026-11-15T23:23:03+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "b031b69d826cf6fa",
+      "titulo": "Así te hemos contado la victoria de Inglaterra sobre España en la Nations League",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/deportes/futbol/2026-11-15/espana-inglaterra-en-directo-la-uefa-nations-league-en-vivo.html",
+      "fecha": "2026-11-15T23:22:31+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "a8ed2361503b68a4",
+      "titulo": "Vicepresidente Restrepo inicia viaje a Nueva York para atraer inversión: Esto se espera",
+      "categoria": "Colombia",
+      "fuente": "La FM Economía",
+      "url": "https://www.lafm.com.co/economia/nueva-york-barranquilla-milagro-week-inversion-colombia-417311",
+      "fecha": "2026-11-15T23:20:17+00:00",
       "imagen": ""
     },
     {
@@ -26,15 +134,6 @@
       "fuente": "El Tiempo",
       "url": "https://www.eltiempo.com/colombia/otras-ciudades/ataques-contra-tres-torres-de-energia-deja-sin-servicio-electrico-a-zonas-del-huila-y-caqueta-se-suman-a-los-atentados-contra-peajes-con-carros-bomba-3601315",
       "fecha": "2026-11-15T22:52:46+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "e46542b5b2ceab19",
-      "titulo": "La visita de León XIV a Perú, en vivo| El Papa recuerda a los indígenas asesinados: “Su sangre reclama justicia”",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/america/2026-11-15/la-visita-de-leon-xiv-a-peru-en-vivo.html",
-      "fecha": "2026-11-15T22:51:44+00:00",
       "imagen": ""
     },
     {
@@ -65,15 +164,6 @@
       "imagen": ""
     },
     {
-      "id": "b031b69d826cf6fa",
-      "titulo": "España-Inglaterra, en directo, la UEFA Nations League en vivo | Oyarzabal: “El equipo no ha dejado de insistir e intentarlo”",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/deportes/futbol/2026-11-15/espana-inglaterra-en-directo-la-uefa-nations-league-en-vivo.html",
-      "fecha": "2026-11-15T22:34:25+00:00",
-      "imagen": ""
-    },
-    {
       "id": "f9b43d1a02e08124",
       "titulo": "Cada dos días hay un atentado explosivo contra un peaje: ya van siete en noviembre",
       "categoria": "Colombia",
@@ -101,15 +191,6 @@
       "imagen": ""
     },
     {
-      "id": "c9690bfb8ec4a1a1",
-      "titulo": "Cierre de actividades del año de la Fundación Nuevo Amanecer ESAL",
-      "categoria": "Colombia",
-      "fuente": "Chocó 7 días",
-      "url": "https://choco7dias.com/cierre-de-actividades-del-ano-de-la-fundacion-nuevo-amanecer-esal/",
-      "fecha": "2026-11-15T21:54:47+00:00",
-      "imagen": ""
-    },
-    {
       "id": "bf79767442d43296",
       "titulo": "España pierde su invicto de 44 partidos tras caer ante Inglaterra en un duelo memorable",
       "categoria": "Deportes",
@@ -134,15 +215,6 @@
       "fuente": "La FM Internacional",
       "url": "https://www.lafm.com.co/internacional/migracion-espana-islas-canarias-crisis-migratoria-el-hierro-llegada-cayucos-417306",
       "fecha": "2026-11-15T21:39:39+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "216d8903deaf8ee3",
-      "titulo": "Fundación Nuevo Amanecer ESAL: años de compromiso, tecnología e inclusión para transformar el Chocó",
-      "categoria": "Tecnología",
-      "fuente": "Chocó 7 días",
-      "url": "https://choco7dias.com/fundacion-nuevo-amanecer-esal-anos-de-compromiso-tecnologia-e-inclusion-para-transformar-el-choco/",
-      "fecha": "2026-11-15T21:36:26+00:00",
       "imagen": ""
     },
     {
@@ -245,6 +317,15 @@
       "imagen": ""
     },
     {
+      "id": "9d33fcad83a79bcf",
+      "titulo": "Estonia cerrará en diciembre su frontera con Rusia tras acusar al Kremlin de un intento de sabotaje",
+      "categoria": "Internacional",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/internacional/2026-11-15/estonia-se-prepara-para-cerrar-en-diciembre-su-frontera-con-rusia-tras-un-presunto-intento-de-sabotaje.html",
+      "fecha": "2026-11-15T20:33:37+00:00",
+      "imagen": ""
+    },
+    {
       "id": "40e4c83dc9f1e603",
       "titulo": "Petro responde a informe que lo acusa de ayudar a Maduro tras fraude de 2024",
       "categoria": "Colombia",
@@ -335,15 +416,6 @@
       "imagen": ""
     },
     {
-      "id": "c66f0c4439f53bd0",
-      "titulo": "Una promesa de amistad se cumplió 48 años después en Valledupar",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/noticias/una-promesa-de-amistad-se-cumplio-48-anos-despues-en-valledupar/",
-      "fecha": "2026-11-15T20:00:31+00:00",
-      "imagen": ""
-    },
-    {
       "id": "85eb4270b8bb0194",
       "titulo": "Gobierno chileno defiende acuerdo con camioneros para frenar alzas de combustibles",
       "categoria": "Colombia",
@@ -425,15 +497,6 @@
       "imagen": ""
     },
     {
-      "id": "12333fa10b338cdd",
-      "titulo": "La FLIP advierte cinco riesgos para la libertad de prensa en el Gobierno",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/noticias/la-flip-advierte-cinco-riesgos-para-la-libertad-de-prensa-en-el-gobierno/",
-      "fecha": "2026-11-15T19:30:51+00:00",
-      "imagen": ""
-    },
-    {
       "id": "25c36d51c3ce3ae2",
       "titulo": "Caos aéreo en Estados Unidos: Gobierno de Trump advierte que las cancelaciones de vuelos podrían continuar",
       "categoria": "Internacional",
@@ -476,69 +539,6 @@
       "fuente": "Xataka",
       "url": "https://www.xataka.com/magnet/antes-ceramica-oriente-proximo-ninos-alli-hacian-manualidades-arcilla-hace-15-000-anos",
       "fecha": "2026-11-15T19:01:21+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "bb8fb8dd1189a8ae",
-      "titulo": "Alerta por posible carro bomba obligó a cerrar otro peaje en Huila",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/actualidad/alerta-por-posible-carro-bomba-obligo-a-cerrar-otro-peaje-en-huila/",
-      "fecha": "2026-11-15T19:00:20+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "574a37ebbf51bbd7",
-      "titulo": "Liga BetPlay 2026-2: ¿Cuáles equipos llegarán a la final, según la IA?",
-      "categoria": "Deportes",
-      "fuente": "La FM Deportes",
-      "url": "https://www.lafm.com.co/deportes/liga-betplay-2026-finalistas-campeon-inteligencia-artificial-417288",
-      "fecha": "2026-11-15T18:58:44+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "74ebc5fa4164c1fa",
-      "titulo": "Inversión del Ministerio de Salud de Ecuador subirá 15% y se concentrará en hospitales",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/inversion-del-ministerio-de-salud-de-ecuador-subira-15-y-se-concentrara-en-hospitales-4525596",
-      "fecha": "2026-11-15T18:55:45+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "7b335e79d5985acc",
-      "titulo": "Más de 1.500 embarcaciones y 12.000 asistentes: el Festival Náutico rompe récords y convirtió la bahía de Cartagena en una gran fiesta",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/mas-de-1-500-embarcaciones-y-12-000-asistentes-el-festival-nautico-rompe-records-y-convirtio-la-bahia-de-cartagena-en-una-gran-fiesta-3601292",
-      "fecha": "2026-11-15T18:55:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "e204b737e79fa2e2",
-      "titulo": "Ruidos de madrugada y láminas rotas: así burlaron la seguridad nueve jóvenes al fugarse del centro de detención Buen Pastor en Cali",
-      "categoria": "Cali",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/cali/ruidos-de-madrugada-y-laminas-rotas-asi-burlaron-la-seguridad-nueve-jovenes-al-fugarse-del-centro-de-detencion-buen-pastor-en-cali-3601291",
-      "fecha": "2026-11-15T18:54:44+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "9232a5a81afa72fc",
-      "titulo": "Colombia Telecomunicaciones reportó ingresos por $4,48 billones a septiembre de 2026",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/empresas/colombia-telecomunicaciones-reporto-ingresos-por-4-48-billones-a-septiembre-de-2026-4525574",
-      "fecha": "2026-11-15T18:52:26+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "a7c2c8e4ae9b65c0",
-      "titulo": "Marina francesa intercepta semisumergible en el Atlántico; recuperaron 146 kilos de cocaína tras hundimiento de la nave",
-      "categoria": "Internacional",
-      "fuente": "La FM Internacional",
-      "url": "https://www.lafm.com.co/internacional/marina-francesa-interceptacion-nave-tripulantes-cocaina-hundimiento-417294",
-      "fecha": "2026-11-15T18:50:12+00:00",
       "imagen": ""
     }
   ],
@@ -596,7 +596,7 @@
       "nombre": "DW Español",
       "url": "https://rss.dw.com/rdf/rss-sp-all",
       "estado": "correcto",
-      "titulares": 21
+      "titulares": 15
     },
     {
       "nombre": "Xataka",
@@ -626,7 +626,7 @@
       "nombre": "La FM Economía",
       "url": "https://www.lafm.com.co/rss/economia.xml",
       "estado": "correcto",
-      "titulares": 17
+      "titulares": 18
     },
     {
       "nombre": "La FM Internacional",
@@ -650,19 +650,21 @@
       "nombre": "El Colombiano — Colombia",
       "url": "https://www.elcolombiano.com/rss/Colombia.xml",
       "estado": "correcto",
-      "titulares": 25
+      "titulares": 24
     },
     {
       "nombre": "El Diario — Pereira",
       "url": "https://www.eldiario.com.co/feed/",
-      "estado": "correcto",
-      "titulares": 35
+      "estado": "error",
+      "titulares": 0,
+      "detalle": "El feed no contiene entradas."
     },
     {
       "nombre": "Chocó 7 días",
       "url": "https://choco7dias.com/feed/",
-      "estado": "correcto",
-      "titulares": 10
+      "estado": "error",
+      "titulares": 0,
+      "detalle": "415 Client Error: Unsupported Media Type for url: https://choco7dias.com/feed/"
     },
     {
       "nombre": "La Patria — Caldas",
