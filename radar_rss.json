@@ -1,6 +1,42 @@
 {
-  "ultima_actualizacion": "2026-11-16T22:55:31.431227+00:00",
+  "ultima_actualizacion": "2026-11-16T23:50:36.081832+00:00",
   "titulares_rss": [
+    {
+      "id": "080b1e20459f065a",
+      "titulo": "Dolor en Boyacá por la muerte de cuatro mineros en una explosión: el municipio de Chita se prepara para despedir a las víctimas",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/dolor-en-boyaca-por-la-muerte-de-cuatro-mineros-en-una-explosion-el-municipio-de-chita-se-prepara-para-despedir-a-las-victimas-3601482",
+      "fecha": "2026-11-16T23:34:39+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "650c5a69aa4b9319",
+      "titulo": "Caída en bancos de Estados Unidos: revelan qué provocó los problemas para acceder a las cuentas",
+      "categoria": "Economía",
+      "fuente": "La FM Internacional",
+      "url": "https://www.lafm.com.co/internacional/bancos-estados-unidos-caida-cuentas-fallas-chase-bank-of-america-wells-fargo-us-bank-417365",
+      "fecha": "2026-11-16T23:12:38+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "9c26767e62a1be07",
+      "titulo": "Terremoto de agosto habría restado hasta 0,8 puntos porcentuales al crecimiento del PIB del tercer trimestre",
+      "categoria": "Economía",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/terremoto-de-agosto-habria-restado-hasta-0-8-puntos-porcentuales-al-crecimiento-del-pib-del-tercer-trimestre-506287",
+      "fecha": "2026-11-16T23:10:45+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "bb3f76f9cb243977",
+      "titulo": "United Airlines sufrió interrupción del sistema, pero ya logró recuperar su operación",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/globoeconomia/fallas-en-sistemas-de-united-airlines-4525949",
+      "fecha": "2026-11-16T22:59:51+00:00",
+      "imagen": ""
+    },
     {
       "id": "91bd3b86c81a3c3d",
       "titulo": "El angustioso llamado de la familia de Lizeth Alejandra Castaño tras 20 días de secuestro en Guacarí: 'Estamos orando y le creemos a Dios'",
@@ -8,6 +44,15 @@
       "fuente": "El Tiempo",
       "url": "https://www.eltiempo.com/colombia/cali/el-angustioso-llamado-de-la-familia-de-lizeth-alejandra-castano-tras-20-dias-de-secuestro-en-guacari-estamos-orando-y-le-creemos-a-dios-3601463",
       "fecha": "2026-11-16T22:39:37+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "9c9d209d864da59c",
+      "titulo": "De la Espriella invita a empresarios internacionales a invertir en Colombia durante Milagro Week en Nueva York",
+      "categoria": "Internacional",
+      "fuente": "La FM Economía",
+      "url": "https://www.lafm.com.co/economia/abelardo-de-la-espriella-milagro-week-inversion-extranjera-empresarios-internacionales-economia-colombiana-417364",
+      "fecha": "2026-11-16T22:37:23+00:00",
       "imagen": ""
     },
     {
@@ -495,51 +540,6 @@
       "url": "https://www.xataka.com/espacio/spacex-ha-hecho-historia-vuelo-14-15-starship-ahora-espera-repetir-hazana-vuelo-16",
       "fecha": "2026-11-16T19:01:21+00:00",
       "imagen": ""
-    },
-    {
-      "id": "91ac483a070f0e2c",
-      "titulo": "Empresas estudian nuevos beneficios para sus trabajadores en 2027",
-      "categoria": "Economía",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/noticias/empresas-estudian-nuevos-beneficios-para-sus-trabajadores-en-2027/",
-      "fecha": "2026-11-16T19:00:30+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "94ee18733ae9f127",
-      "titulo": "La agroindustria transforma la Altillanura, pero no garantiza su desarrollo",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/red-de-expertos/red-rural/la-agroindustria-transforma-la-altillanura-pero-no-garantiza-su-desarrollo/",
-      "fecha": "2026-11-16T19:00:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "66ba5074513c66a3",
-      "titulo": "Gobierno interino de Venezuela enfrenta primer paro de trabajadores que exigen mejores salarios",
-      "categoria": "Internacional",
-      "fuente": "La FM Internacional",
-      "url": "https://www.lafm.com.co/internacional/protestas-venezuela-salarios-venezuela-delcy-rodriguez-paro-nacional-417349",
-      "fecha": "2026-11-16T18:58:55+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "4969f6fa5764542e",
-      "titulo": "\"Traigan a Jensen de vuelta\": la campaña de los millonarios tecnológicos a favor del regreso de Huang a Nvidia (y qué opina Trump)",
-      "categoria": "Internacional",
-      "fuente": "BBC Mundo",
-      "url": "https://www.bbc.com/mundo/articles/cm4gnx691zp5o?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-16T18:57:49+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "acfb8938e1d5c4eb",
-      "titulo": "Ingresos reales de los hogares de la Ocde cayeron 0,1% en el segundo trimestre de 2026",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/ingresos-reales-de-los-hogares-de-la-ocde-cayeron-0-1-en-el-segundo-trimestre-de-2026-4525818",
-      "fecha": "2026-11-16T18:51:52+00:00",
-      "imagen": ""
     }
   ],
   "estado_fuentes": [
@@ -553,7 +553,7 @@
       "nombre": "El Tiempo Cali",
       "url": "https://www.eltiempo.com/rss/colombia_cali.xml",
       "estado": "correcto",
-      "titulares": 7
+      "titulares": 8
     },
     {
       "nombre": "El Espectador",
@@ -626,7 +626,7 @@
       "nombre": "La FM Economía",
       "url": "https://www.lafm.com.co/rss/economia.xml",
       "estado": "correcto",
-      "titulares": 10
+      "titulares": 11
     },
     {
       "nombre": "La FM Internacional",
@@ -650,7 +650,7 @@
       "nombre": "El Colombiano — Colombia",
       "url": "https://www.elcolombiano.com/rss/Colombia.xml",
       "estado": "correcto",
-      "titulares": 22
+      "titulares": 21
     },
     {
       "nombre": "El Diario — Pereira",
