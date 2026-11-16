@@ -1,6 +1,132 @@
 {
-  "ultima_actualizacion": "2026-11-16T19:03:48.991263+00:00",
+  "ultima_actualizacion": "2026-11-16T20:04:10.213446+00:00",
   "titulares_rss": [
+    {
+      "id": "e5799cb20f148bdf",
+      "titulo": "Colombia ya conoce su camino en el Sudamericano Sub-20 de 2027",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/deportes/colombia-ya-conoce-su-camino-en-el-sudamericano-sub-20-de-2027/",
+      "fecha": "2026-11-16T20:00:55+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "91ac42b323dbb1ef",
+      "titulo": "Se reportan fallas para entrar a Chase, JPmorgan, Bank of America, US Bank y Wells Fargo",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/globoeconomia/fallas-en-chase-jpmorgan-bank-of-america-us-bank-y-wells-fargo-4525886",
+      "fecha": "2026-11-16T19:50:41+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "e7ae4c73e462f105",
+      "titulo": "Pacto Histórico mantiene marchas pese a anuncio sobre el IVA",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/noticias/pacto-historico-mantiene-marchas-pese-a-anuncio-sobre-el-iva/",
+      "fecha": "2026-11-16T19:47:13+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "b6ee191fa71e718c",
+      "titulo": "Black Friday: cinco preguntas que debería hacerse antes de comprar",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/black-friday-cinco-preguntas-que-deberia-hacerse-antes-de-comprar-3601451",
+      "fecha": "2026-11-16T19:43:12+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "975f3f65be159a0f",
+      "titulo": "Rusia rechaza la presencia de negociadores europeos en las conversaciones sobre la seguridad de Europa",
+      "categoria": "Internacional",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/internacional/2026-11-16/rusia-rechaza-la-presencia-de-negociadores-europeos-en-las-conversaciones-sobre-la-seguridad-de-europa.html",
+      "fecha": "2026-11-16T19:30:38+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "a88d68758b0b4a10",
+      "titulo": "Qué le falta al Metro de Bogotá para operar en 2028: 4 kilómetros de viaducto y el 15% restante de las obras",
+      "categoria": "Colombia",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/infraestructura/que-le-falta-al-metro-de-bogota-para-operar-en-2028-4-kilometros-de-viaducto-y-el-15-restante-de-las-obras-506464",
+      "fecha": "2026-11-16T19:30:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "6b86437c9f75667e",
+      "titulo": "Dos temblores de magnitud 5,4 y 5,1 sacudieron Perú con siete minutos de diferencia",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/globoeconomia/terremotos-en-peru-16-de-noviembre-de-2026-4525880",
+      "fecha": "2026-11-16T19:22:03+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "2899e2fb76fe7251",
+      "titulo": "Qué tan poderosas son las pandillas a las que se enfrenta Bukele en Haití",
+      "categoria": "Internacional",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/watch/cxj05r723gpjo?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-16T19:14:07+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "bb07ea6eae744794",
+      "titulo": "Policía investigado por presuntamente matar a su amigo de la infancia podría quedar en libertad en Meta: ¿por qué familia de la víctima teme medida?",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/policia-investigado-por-presuntamente-matar-a-su-amigo-de-la-infancia-podria-quedar-en-libertad-en-meta-por-que-familia-de-la-victima-teme-medida-3601427",
+      "fecha": "2026-11-16T19:13:14+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "913cd6e33ee727fc",
+      "titulo": "Un dispensador de píldoras abortivas desafía las leyes de Polonia",
+      "categoria": "Internacional",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/un-dispensador-de-píldoras-abortivas-desafía-las-leyes-de-polonia/a-79963388?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-16T19:13:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "84449a4a4679d128",
+      "titulo": "Así le contamos el último día de la visita del papa León XIV en América",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/america/2026-11-16/la-visita-de-leon-xiv-a-peru-en-vivo.html",
+      "fecha": "2026-11-16T19:06:16+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "43bcdf534004768e",
+      "titulo": "El angustioso rescate de tres personas que quedaron atrapadas en un taxi tras chocar con una camioneta en la vía al mar, en Nariño",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/cali/el-angustioso-rescate-de-tres-personas-que-quedaron-atrapadas-en-un-taxi-tras-chocar-con-una-camioneta-en-la-via-al-mar-en-narino-3601444",
+      "fecha": "2026-11-16T19:03:44+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "4ca458bc5e4ab1c2",
+      "titulo": "Papa León XIV se despide de su amada Perú ante 1,5 millones de fieles tras gira por Sudamérica",
+      "categoria": "Internacional",
+      "fuente": "La FM Internacional",
+      "url": "https://www.lafm.com.co/internacional/papa-leon-xiv-peru-lima-gira-del-argentina-uruguay-417351",
+      "fecha": "2026-11-16T19:03:40+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "08f1d31b34dbab86",
+      "titulo": "Video | Cierre del paso de La Línea entre Cajamarca y Calarcá por trágico accidente de camión en el túnel Ocelotes: el conductor murió en el siniestro",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/tragico-accidente-de-camion-en-el-tunel-ocelotes-mantiene-paralizada-la-via-la-linea-entre-cajamarca-y-calarca-3601439",
+      "fecha": "2026-11-16T19:01:58+00:00",
+      "imagen": ""
+    },
     {
       "id": "193573f65a898754",
       "titulo": "SpaceX ha hecho historia con el vuelo 14 y 15 de Starship: ahora espera repetir la hazaña con el vuelo 16",
@@ -38,15 +164,6 @@
       "imagen": ""
     },
     {
-      "id": "43bcdf534004768e",
-      "titulo": "El angustioso rescate de tres personas que quedaron atrapadas en un taxi tras chocar con una camioneta en la vía al mar, en Nariño",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/cali/el-angustioso-rescate-de-tres-personas-que-quedaron-atrapadas-en-un-taxi-tras-chocar-con-una-camioneta-en-la-via-al-mar-en-narino-3601444",
-      "fecha": "2026-11-16T18:55:08+00:00",
-      "imagen": ""
-    },
-    {
       "id": "acfb8938e1d5c4eb",
       "titulo": "Ingresos reales de los hogares de la Ocde cayeron 0,1% en el segundo trimestre de 2026",
       "categoria": "Colombia",
@@ -56,12 +173,12 @@
       "imagen": ""
     },
     {
-      "id": "08f1d31b34dbab86",
-      "titulo": "Video | Cierre del paso de La Línea entre Cajamarca y Calarcá por trágico accidente de camión en el túnel Ocelotes: el conductor murió en el siniestro",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/tragico-accidente-de-camion-en-el-tunel-ocelotes-mantiene-paralizada-la-via-la-linea-entre-cajamarca-y-calarca-3601439",
-      "fecha": "2026-11-16T18:48:35+00:00",
+      "id": "c6207cf289c47827",
+      "titulo": "Fallas en Chase, Bank of America y Wells Fargo: usuarios reportan problemas en servicios bancarios de Estados Unidos",
+      "categoria": "Internacional",
+      "fuente": "La FM Internacional",
+      "url": "https://www.lafm.com.co/internacional/bancos-de-estados-unidos-chase-bank-of-america-wells-fargo-417348",
+      "fecha": "2026-11-16T18:46:13+00:00",
       "imagen": ""
     },
     {
@@ -143,15 +260,6 @@
       "fuente": "La República",
       "url": "https://www.larepublica.co/globoeconomia/el-papa-leon-recibe-un-golpe-cerca-del-ojo-de-un-rosario-que-le-lanzan-en-peru-4525837",
       "fecha": "2026-11-16T18:08:19+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "68dec40fe467b326",
-      "titulo": "Bloqueada vía Chocó-Risaralda por cilindros y elementos alusivos al ELN, en El Tabor, Tadó",
-      "categoria": "Colombia",
-      "fuente": "Chocó 7 días",
-      "url": "https://choco7dias.com/bloqueada-via-choco-risaralda-por-cilindros-y-elementos-alusivos-al-eln-en-el-tabor-tado/",
-      "fecha": "2026-11-16T18:06:26+00:00",
       "imagen": ""
     },
     {
@@ -272,30 +380,12 @@
       "imagen": ""
     },
     {
-      "id": "84449a4a4679d128",
-      "titulo": "La visita de León XIV a Perú, en vivo |El Papa se despide de Sudamérica: “Mi viaje termina, pero el tiempo de la misión continúa”",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/america/2026-11-16/la-visita-de-leon-xiv-a-peru-en-vivo.html",
-      "fecha": "2026-11-16T17:29:01+00:00",
-      "imagen": ""
-    },
-    {
       "id": "b13fa46ba4e25831",
       "titulo": "Bancóldex y Fontur lanzan línea de crédito Turismo Milagro con $100.000 millones para las mipymes turísticas",
       "categoria": "Economía",
       "fuente": "Portafolio",
       "url": "https://www.portafolio.co/economia/regiones/bancoldex-y-fontur-lanzan-linea-de-credito-turismo-milagro-con-100-000-millones-para-las-mipymes-turisticas-506457",
       "fecha": "2026-11-16T17:27:47+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "ade8e5ff77f17ce1",
-      "titulo": "Requieren al alcalde de Riosucio informar sobre transferencia de Parque a Nuevo Belén de Bajirá",
-      "categoria": "Colombia",
-      "fuente": "Chocó 7 días",
-      "url": "https://choco7dias.com/requieren-al-alcalde-de-riosucio-informar-sobre-transferencia-de-parque-a-nuevo-belen-de-bajira/",
-      "fecha": "2026-11-16T17:27:27+00:00",
       "imagen": ""
     },
     {
@@ -450,96 +540,6 @@
       "url": "https://www.lafm.com.co/deportes/santa-fe-millonarios-partidos-no-se-cruzan-concierto-karolg-liga-betplay-417343",
       "fecha": "2026-11-16T16:37:25+00:00",
       "imagen": ""
-    },
-    {
-      "id": "bbaff8ec2bc5d15b",
-      "titulo": "Video | Gritos y angustia tras choque de cuatro vehículos, entre ellos un bus escalera, en Barichara, Santander: dos mujeres están en el hospital",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/santander/video-gritos-y-angustia-tras-choque-de-cuatro-vehiculos-entre-ellos-un-bus-escalera-en-barichara-santander-dos-mujeres-estan-en-el-hospital-3601419",
-      "fecha": "2026-11-16T16:34:36+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "46a50c43a1e1cea1",
-      "titulo": "520 hectáreas vuelven a manos de víctimas del conflicto: 14 familias recuperan tierras en Magdalena y Atlántico tras años de despojo",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/barranquilla/520-hectareas-vuelven-a-manos-de-victimas-del-conflicto-14-familias-recuperan-tierras-en-magdalena-y-atlantico-tras-anos-de-despojo-3601416",
-      "fecha": "2026-11-16T16:30:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "b92d27157bbfdb16",
-      "titulo": "Un encapuchado sube a un panel de tráfico sobre la A-92, en uno de los accesos a Sevilla, prende fuego a un radar y huye",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/magnet/encapuchado-sube-a-panel-trafico-a-92-uno-accesos-a-sevilla-prende-fuego-a-radar-huye",
-      "fecha": "2026-11-16T16:30:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "56c2a4afc3aefaf8",
-      "titulo": "Inteligencia prende las alarmas por posible ola de ataques coordinados en Cali, Cauca y Huila",
-      "categoria": "Cali",
-      "fuente": "Q'hubo Cali",
-      "url": "https://www.qhubocali.com/judiciales/inteligencia-prende-las-alarmas-por-posible-ola-de-ataques-coordinados-en-cali-cauca-y-huila/",
-      "fecha": "2026-11-16T16:29:21+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "946b19442c9acacb",
-      "titulo": "Denuncian contratos por $45.800 millones con recursos de multas de tránsito: ¿qué irregularidades señalan?",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/denuncian-contratos-por-45-800-millones-con-recursos-de-multas-de-transito-que-irregularidades-senalan-506448",
-      "fecha": "2026-11-16T16:20:18+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "08070cf80c92f0fc",
-      "titulo": "Temblor en Colombia hoy, 16 de noviembre: sismo de magnitud 3,2 sacudió Los Santos, Santander; esta es su profundidad",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/temblor-en-colombia-hoy-16-de-noviembre-sismo-de-magnitud-3-2-sacudio-los-santos-santander-esta-es-su-profundidad-3601415",
-      "fecha": "2026-11-16T16:19:58+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "5cace67effaed6e1",
-      "titulo": "Así operaba una banda criminal que atracaba a turistas en Medellín: sus integrantes se ocultaban entre los arbustos de senderos peatonales",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/medellin/asi-operaba-una-banda-criminal-que-atracaba-a-turistas-en-medellin-sus-integrantes-se-ocultaban-entre-los-arbustos-de-senderos-peatonales-3601414",
-      "fecha": "2026-11-16T16:17:01+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "0dc1c2d1e6a50849",
-      "titulo": "Comprar un PC Gaming o un móvil puede salirte hasta un 60% más barato en el Black Friday de PcComponentes",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/seleccion/comprar-pc-gaming-movil-puede-salirte-60-barato-black-friday-pccomponentes",
-      "fecha": "2026-11-16T16:15:25+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "ffd85a4769ab1483",
-      "titulo": "Anthropic está a punto de convertirse en la acción de IA más importante del mundo",
-      "categoria": "Internacional",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/anthropic-esta-a-punto-de-convertirse-en-la-accion-de-ia-mas-importante-del-mundo-4525749",
-      "fecha": "2026-11-16T16:07:26+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "7a0ac440f03fe2e6",
-      "titulo": "Arranca la Milagro Week en Nueva York con el vicepresidente al frente",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/en-vivo/arranca-la-milagro-week-en-nueva-york-con-el-vicepresidente-al-frente/",
-      "fecha": "2026-11-16T16:06:28+00:00",
-      "imagen": ""
     }
   ],
   "estado_fuentes": [
@@ -553,7 +553,7 @@
       "nombre": "El Tiempo Cali",
       "url": "https://www.eltiempo.com/rss/colombia_cali.xml",
       "estado": "correcto",
-      "titulares": 9
+      "titulares": 8
     },
     {
       "nombre": "El Espectador",
@@ -590,7 +590,7 @@
       "nombre": "BBC Mundo",
       "url": "https://feeds.bbci.co.uk/mundo/rss.xml",
       "estado": "correcto",
-      "titulares": 26
+      "titulares": 25
     },
     {
       "nombre": "DW Español",
@@ -608,7 +608,7 @@
       "nombre": "El País Colombia",
       "url": "https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/section/america-colombia/portada",
       "estado": "correcto",
-      "titulares": 34
+      "titulares": 35
     },
     {
       "nombre": "Diario Occidente",
@@ -626,7 +626,7 @@
       "nombre": "La FM Economía",
       "url": "https://www.lafm.com.co/rss/economia.xml",
       "estado": "correcto",
-      "titulares": 12
+      "titulares": 11
     },
     {
       "nombre": "La FM Internacional",
@@ -650,7 +650,7 @@
       "nombre": "El Colombiano — Colombia",
       "url": "https://www.elcolombiano.com/rss/Colombia.xml",
       "estado": "correcto",
-      "titulares": 25
+      "titulares": 24
     },
     {
       "nombre": "El Diario — Pereira",
@@ -661,8 +661,9 @@
     {
       "nombre": "Chocó 7 días",
       "url": "https://choco7dias.com/feed/",
-      "estado": "correcto",
-      "titulares": 10
+      "estado": "error",
+      "titulares": 0,
+      "detalle": "415 Client Error: Unsupported Media Type for url: https://choco7dias.com/feed/"
     },
     {
       "nombre": "La Patria — Caldas",
