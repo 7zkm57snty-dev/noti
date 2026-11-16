@@ -1,5 +1,5 @@
 {
-  "ultima_actualizacion": "2026-11-16T02:08:23.072246+00:00",
+  "ultima_actualizacion": "2026-11-16T03:04:25.120382+00:00",
   "titulares_rss": [
     {
       "id": "226616e20d6cb4d5",
@@ -7,7 +7,34 @@
       "categoria": "Internacional",
       "fuente": "BBC Mundo",
       "url": "https://www.bbc.co.uk/mundo/live/c62e8kkl9rlrt?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-16T02:08:23.072246+00:00",
+      "fecha": "2026-11-16T03:04:25.120382+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "2fad318c7a540c11",
+      "titulo": "Una Procuraduría preventiva, más ágil, eficaz y cercana a la gente. 2. Eje Intervención",
+      "categoria": "Colombia",
+      "fuente": "Chocó 7 días",
+      "url": "https://choco7dias.com/una-procuraduria-preventiva-mas-agil-eficaz-y-cercana-a-la-gente-2-eje-intervencion/",
+      "fecha": "2026-11-16T02:39:57+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "2aacbcdacec61626",
+      "titulo": "De la Espriella retrocede en la propuesta de aumentar impuestos a la canasta familiar",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/america-colombia/2026-11-16/de-la-espriella-retrocede-en-la-propuesta-de-aumentar-impuestos-a-la-canasta-familiar.html",
+      "fecha": "2026-11-16T02:17:18+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "2e4cfc3aee5e8781",
+      "titulo": "China confirma cumbre trilateral entre Xi, Trump y Putin",
+      "categoria": "Internacional",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/china-confirma-cumbre-trilateral-entre-xi-trump-y-putin/a-79953948?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-16T02:09:00+00:00",
       "imagen": ""
     },
     {
@@ -17,6 +44,24 @@
       "fuente": "El Tiempo",
       "url": "https://www.eltiempo.com/colombia/otras-ciudades/el-presidente-abelardo-de-la-espriella-y-las-regiones-en-100-dias-del-gobierno-estos-son-los-resultados-y-los-desafios-3601333",
       "fecha": "2026-11-16T02:01:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "e035860141eb7ebf",
+      "titulo": "Estados Unidos advierte que retrasos aéreos pueden prolongarse",
+      "categoria": "Internacional",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/estados-unidos-advierte-que-retrasos-aéreos-pueden-prolongarse/a-79953939?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-16T02:01:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "c137f2509c55ef01",
+      "titulo": "“La canasta familiar no pagará IVA”: De la Espriella en su balance de 100 días",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/presidente-abelardo-de-la-espriella-balance-100-dias-CC43636466",
+      "fecha": "2026-11-16T01:56:55+00:00",
       "imagen": ""
     },
     {
@@ -44,15 +89,6 @@
       "fuente": "La República",
       "url": "https://www.larepublica.co/economia/de-la-espriella-descarta-iva-a-la-canasta-familiar-y-estudia-bajar-la-tarifa-general-hasta-17-4525692",
       "fecha": "2026-11-16T01:42:26+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "c137f2509c55ef01",
-      "titulo": "“La canasta familiar no pagará IVA”: De la Espriella en su balance de 100 días",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/presidente-abelardo-de-la-espriella-balance-100-dias-CC43636466",
-      "fecha": "2026-11-16T01:39:16+00:00",
       "imagen": ""
     },
     {
@@ -504,42 +540,6 @@
       "url": "https://www.xataka.com/medicina-y-salud/hay-quien-ronca-todas-noches-no-tiene-apnea-problema-llega-cuando-aparecen-otras-senales",
       "fecha": "2026-11-15T20:01:20+00:00",
       "imagen": ""
-    },
-    {
-      "id": "c66f0c4439f53bd0",
-      "titulo": "Una promesa de amistad se cumplió 48 años después en Valledupar",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/noticias/una-promesa-de-amistad-se-cumplio-48-anos-despues-en-valledupar/",
-      "fecha": "2026-11-15T20:00:31+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "85eb4270b8bb0194",
-      "titulo": "Gobierno chileno defiende acuerdo con camioneros para frenar alzas de combustibles",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/gobierno-chileno-defiende-acuerdo-con-camioneros-para-frenar-alzas-de-combustibles-4525612",
-      "fecha": "2026-11-15T19:53:27+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "7f50e1f305869ff4",
-      "titulo": "Accidente de bus con estudiantes en Norte de Santander deja 17 heridos: este es el balance actualizado",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/regiones/accidente-de-bus-con-estudiantes-en-norte-de-santander-deja-17-heridos-este-es-el-balance-actualizado-506425",
-      "fecha": "2026-11-15T19:52:52+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "4a3c2bc864d934de",
-      "titulo": "Comisiones económicas citan a ponentes de la Ley de Rescate a reunión en Minhacienda",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/economia/comisiones-economicas-citan-a-ponentes-de-la-ley-de-rescate-a-reunion-en-minhacienda-4525611",
-      "fecha": "2026-11-15T19:51:59+00:00",
-      "imagen": ""
     }
   ],
   "estado_fuentes": [
@@ -644,7 +644,7 @@
       "nombre": "Q'hubo Cali",
       "url": "https://www.qhubocali.com/feed/",
       "estado": "correcto",
-      "titulares": 5
+      "titulares": 3
     },
     {
       "nombre": "El Colombiano — Colombia",
