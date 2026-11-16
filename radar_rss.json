@@ -1,6 +1,339 @@
 {
-  "ultima_actualizacion": "2026-11-16T15:14:36.373229+00:00",
+  "ultima_actualizacion": "2026-11-16T16:49:41.565859+00:00",
   "titulares_rss": [
+    {
+      "id": "ab9bd92f2f208e27",
+      "titulo": "​​Mi accesorio favorito para ver pelis no es una barra de sonido, sino este kit de luces en oferta que expande los colores de la tele",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/seleccion/mi-accesorio-favorito-para-ver-pelis-no-barra-sonido-sino-este-kit-luces-oferta-que-expande-colores-tele",
+      "fecha": "2026-11-16T16:45:22+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "3378aa94c4a3f51b",
+      "titulo": "'Me encantó ver la conciencia y el rigor de los proyectos': Luis Carlos Sarmiento destaca la planeación del Valle tras donación de $ 87.000 millones",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/cali/me-encanto-ver-la-conciencia-y-el-rigor-de-los-proyectos-luis-carlos-sarmiento-destaca-la-planeacion-del-valle-tras-donacion-de-87-000-millones-3601423",
+      "fecha": "2026-11-16T16:40:01+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "bbaff8ec2bc5d15b",
+      "titulo": "Video | Gritos y angustia tras choque de cuatro vehículos, entre ellos un bus escalera, en Barichara, Santander: dos mujeres están en el hospital",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/santander/video-gritos-y-angustia-tras-choque-de-cuatro-vehiculos-entre-ellos-un-bus-escalera-en-barichara-santander-dos-mujeres-estan-en-el-hospital-3601419",
+      "fecha": "2026-11-16T16:34:36+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "46a50c43a1e1cea1",
+      "titulo": "520 hectáreas vuelven a manos de víctimas del conflicto: 14 familias recuperan tierras en Magdalena y Atlántico tras años de despojo",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/barranquilla/520-hectareas-vuelven-a-manos-de-victimas-del-conflicto-14-familias-recuperan-tierras-en-magdalena-y-atlantico-tras-anos-de-despojo-3601416",
+      "fecha": "2026-11-16T16:30:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "b92d27157bbfdb16",
+      "titulo": "Un encapuchado sube a un panel de tráfico sobre la A-92, en uno de los accesos a Sevilla, prende fuego a un radar y huye",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/magnet/encapuchado-sube-a-panel-trafico-a-92-uno-accesos-a-sevilla-prende-fuego-a-radar-huye",
+      "fecha": "2026-11-16T16:30:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "56c2a4afc3aefaf8",
+      "titulo": "Inteligencia prende las alarmas por posible ola de ataques coordinados en Cali, Cauca y Huila",
+      "categoria": "Cali",
+      "fuente": "Q'hubo Cali",
+      "url": "https://www.qhubocali.com/judiciales/inteligencia-prende-las-alarmas-por-posible-ola-de-ataques-coordinados-en-cali-cauca-y-huila/",
+      "fecha": "2026-11-16T16:29:21+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "946b19442c9acacb",
+      "titulo": "Denuncian contratos por $45.800 millones con recursos de multas de tránsito: ¿qué irregularidades señalan?",
+      "categoria": "Economía",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/denuncian-contratos-por-45-800-millones-con-recursos-de-multas-de-transito-que-irregularidades-senalan-506448",
+      "fecha": "2026-11-16T16:20:18+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "08070cf80c92f0fc",
+      "titulo": "Temblor en Colombia hoy, 16 de noviembre: sismo de magnitud 3,2 sacudió Los Santos, Santander; esta es su profundidad",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/temblor-en-colombia-hoy-16-de-noviembre-sismo-de-magnitud-3-2-sacudio-los-santos-santander-esta-es-su-profundidad-3601415",
+      "fecha": "2026-11-16T16:19:58+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "5cace67effaed6e1",
+      "titulo": "Así operaba una banda criminal que atracaba a turistas en Medellín: sus integrantes se ocultaban entre los arbustos de senderos peatonales",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/medellin/asi-operaba-una-banda-criminal-que-atracaba-a-turistas-en-medellin-sus-integrantes-se-ocultaban-entre-los-arbustos-de-senderos-peatonales-3601414",
+      "fecha": "2026-11-16T16:17:01+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "0dc1c2d1e6a50849",
+      "titulo": "Comprar un PC Gaming o un móvil puede salirte hasta un 60% más barato en el Black Friday de PcComponentes",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/seleccion/comprar-pc-gaming-movil-puede-salirte-60-barato-black-friday-pccomponentes",
+      "fecha": "2026-11-16T16:15:25+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "ffd85a4769ab1483",
+      "titulo": "Anthropic está a punto de convertirse en la acción de IA más importante del mundo",
+      "categoria": "Internacional",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/globoeconomia/anthropic-esta-a-punto-de-convertirse-en-la-accion-de-ia-mas-importante-del-mundo-4525749",
+      "fecha": "2026-11-16T16:07:26+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "7a0ac440f03fe2e6",
+      "titulo": "Arranca la Milagro Week en Nueva York con el vicepresidente al frente",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/en-vivo/arranca-la-milagro-week-en-nueva-york-con-el-vicepresidente-al-frente/",
+      "fecha": "2026-11-16T16:06:28+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "24dfffd5d12f7151",
+      "titulo": "Llega la primera oferta en la tablet Alexa 12 Pro con Alexa+ y pantalla nanomatte 2.8K",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/seleccion/llega-primera-oferta-tablet-alexa-12-pro-alexa-pantalla-nanomatte-2-8k",
+      "fecha": "2026-11-16T16:01:22+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "7fa5f8cdae96fbdf",
+      "titulo": "Rockstar se está convirtiendo en una “discográfica” porque la música de GTA VI es ya algo tan importante como el propio juego",
+      "categoria": "Tendencias",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/videojuegos/musica-siempre-ha-sido-parte-fundamental-gta-paso-uno-sus-activos-financieros-potentes",
+      "fecha": "2026-11-16T16:01:22+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "84c12a27500ef022",
+      "titulo": "Los grandes centros de datos de EE UU ya consumen tanta energía como todo Chile",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/tecnologia/2026-11-16/los-grandes-centros-de-datos-de-ee-uu-ya-consumen-tanta-energia-como-todo-chile.html",
+      "fecha": "2026-11-16T16:00:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "9adf9cfc3d4ed9c2",
+      "titulo": "¿Quién era Miguel Ángel Félix Gallardo, el Jefe de Jefes, y de qué murió el narcotraficante mexicano?",
+      "categoria": "Internacional",
+      "fuente": "La FM Internacional",
+      "url": "https://www.lafm.com.co/internacional/quien-era-como-murio-miguel-felix-gallardo-jefe-de-jefes-417339",
+      "fecha": "2026-11-16T15:54:37+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "4d327c416d941169",
+      "titulo": "La COP31 pedirá \"acelerar la eliminación\" de los combustibles fósiles",
+      "categoria": "Internacional",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/la-cop31-pedirá-acelerar-la-eliminación-de-los-combustibles-fósiles/a-79960718?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-16T15:49:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "656eb9cea0470d03",
+      "titulo": "Ordenan repetir el juicio a Lindsay Clancy, la mujer acusada de matar a sus 3 hijos en EE.UU.",
+      "categoria": "Internacional",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/cwr7gv9xpzyyo?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-16T15:46:18+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "4b8da14a92fa69c4",
+      "titulo": "Nuevo sorteo exclusivo para suscriptores de Xataka Xtra: así puedes conseguir una impresora 3D Elegoo Centauri Carbon 2 Combo",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/xataka-xtra/nuevo-sorteo-exclusivo-para-suscriptores-xataka-xtra-asi-puedes-conseguir-impresora-3d-elegoo-centauri-carbon-2-combo",
+      "fecha": "2026-11-16T15:45:22+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "cca9c20ba5564250",
+      "titulo": "El actor británico Robert Pattinson será el nuevo James Bond",
+      "categoria": "Internacional",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/c64gn38yj4ygo?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-16T15:44:22+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "d542c602c3b55ae6",
+      "titulo": "En el retorno de la franquicia del 007, Robert Pattinson será el nuevo James Bond",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/ocio/en-el-retorno-de-la-franquicia-del-007-robert-pattinson-sera-el-nuevo-james-bond-4525788",
+      "fecha": "2026-11-16T15:41:55+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "ffc24a3aa9967e38",
+      "titulo": "Denuncian presuntas irregularidades en 7,5 millones de comparendos y Cali lidera la lista",
+      "categoria": "Cali",
+      "fuente": "Q'hubo Cali",
+      "url": "https://www.qhubocali.com/actualidad/denuncian-presuntas-irregularidades-en-75-millones-de-comparendos-y-cali-lidera-la-lista/",
+      "fecha": "2026-11-16T15:41:33+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "11dfc02c7454d83a",
+      "titulo": "Pedro Sánchez y Lula da Silva conversan sobre \"la amenaza ultraderechista\" antes de las elecciones en España",
+      "categoria": "Internacional",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/pedro-sánchez-y-lula-da-silva-conversan-sobre-la-amenaza-ultraderechista-antes-de-las-elecciones-en-españa/a-79961704?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-16T15:33:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "4760a06e4064f543",
+      "titulo": "Rosalía logra nueve nominaciones a los Grammy de 2027",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/us/entretenimiento/2026-11-16/nominaciones-a-los-grammy-2027-rosalia-logra-nueve-nominaciones.html",
+      "fecha": "2026-11-16T15:32:55+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "f6313351fd5319b3",
+      "titulo": "NVIDIA no ha despedido a Jensen Huang. Ha aceptado su dimisión, y esa diferencia puede servir para que vuelva",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/empresas-y-economia/nvidia-no-ha-despedido-a-jensen-huang-ha-aceptado-su-dimision-esa-diferencia-puede-servir-vuelva",
+      "fecha": "2026-11-16T15:31:22+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "c5596f5aeb24578b",
+      "titulo": "Cuesta la mitad que el nuevo modelo: el Galaxy Watch Ultra sigue siendo uno de los mejores relojes con WearOS",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/seleccion/cuesta-mitad-que-nuevo-modelo-galaxy-watch-ultra-sigue-siendo-uno-mejores-relojes-wearos",
+      "fecha": "2026-11-16T15:31:22+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "b585d804f7a75e36",
+      "titulo": "Con nueva sala internacional y vuelos desde febrero, Barranquilla se prepara para conectarse de forma directa con Nueva York",
+      "categoria": "Internacional",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/barranquilla/con-nueva-sala-internacional-y-vuelos-desde-febrero-barranquilla-se-prepara-para-conectarse-de-forma-directa-con-nueva-york-3601406",
+      "fecha": "2026-11-16T15:30:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "070d56f597e85887",
+      "titulo": "Video | Kuny, la heroína de cuatro patas que ayudó a evitar ataque en vía Panamericana; detrás de su misión, el laboratorio veterinario del Ejército",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/video-kuny-la-heroina-de-cuatro-patas-que-ayudo-a-evitar-ataque-en-via-panamericana-detras-de-su-mision-el-laboratorio-veterinario-del-ejercito-3601390",
+      "fecha": "2026-11-16T15:29:18+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "7092db676b3acffe",
+      "titulo": "Wall Street cae a la espera de los resultados de Nvidia y próximo debut bursátil de Anthropic",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/globoeconomia/wall-street-cae-a-la-espera-de-los-resultados-de-nvidia-y-el-proximo-debut-bursatil-de-anthropic-4525742",
+      "fecha": "2026-11-16T15:27:47+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "0cd7943fe7ff3946",
+      "titulo": "IVA, seguridad, reconstrucción y balance de sus primeros 100 días: claves de la última alocución de De La Espriella",
+      "categoria": "Economía",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/gobierno/iva-seguridad-reconstruccion-y-balance-de-sus-primeros-100-dias-claves-de-la-ultima-alocucion-de-de-la-espriella-506445",
+      "fecha": "2026-11-16T15:27:16+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "1e62fc2e7f60d3dd",
+      "titulo": "Cinco países europeos crearán en Ruanda el primer centro de deportación fuera de la UE",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/internacional/2026-11-16/cinco-paises-europeos-crearan-en-ruanda-el-primer-centro-de-deportacion-fuera-de-la-ue.html",
+      "fecha": "2026-11-16T15:23:03+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "a124adff6d8599f8",
+      "titulo": "Robert Pattinson será el nuevo James Bond",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/cultura/cine/2026-11-16/robert-pattinson-sera-el-nuevo-james-bond.html",
+      "fecha": "2026-11-16T15:22:12+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "cfdc161035da3cb5",
+      "titulo": "Tutunendo",
+      "categoria": "Colombia",
+      "fuente": "Chocó 7 días",
+      "url": "https://choco7dias.com/tutunendo/",
+      "fecha": "2026-11-16T15:21:09+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "a4e7c46461f82995",
+      "titulo": "¡América y Cali sueñan en grande! La reclasificación los acerca a torneos internacionales",
+      "categoria": "Cali",
+      "fuente": "Q'hubo Cali",
+      "url": "https://www.qhubocali.com/deportes/america-y-cali-suenan-en-grande-la-reclasificacion-los-acerca-a-torneos-internacionales/",
+      "fecha": "2026-11-16T15:20:51+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "70593577a8d0d265",
+      "titulo": "Trump respalda los llamados para que Huang vuelva como director ejecutivo de Nvidia",
+      "categoria": "Internacional",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/globoeconomia/trump-respalda-los-llamados-para-que-huang-vuelva-como-director-ejecutivo-de-nvidia-4525780",
+      "fecha": "2026-11-16T15:16:50+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "d1de61dda89e521c",
+      "titulo": "El nuevo puente bicipeatonal de Titán Plaza en la avenida Boyacá supera el 87% de obra y abrirá en diciembre",
+      "categoria": "Economía",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/infraestructura/el-nuevo-puente-bicipeatonal-de-titan-plaza-en-la-avenida-boyaca-supera-el-87-de-obra-y-abrira-en-diciembre-506441",
+      "fecha": "2026-11-16T15:15:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "e4b422a12a6f7e21",
+      "titulo": "Análisis de Ricardo Ávila: los accidentados primeros 100 días de la reconstrucción por el terremoto de agosto",
+      "categoria": "Economía",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/regiones/analisis-de-ricado-avila-los-accidentados-primeros-100-dias-de-la-reconstruccion-por-el-terremoto-del-10-de-agosto-506436",
+      "fecha": "2026-11-16T15:13:28+00:00",
+      "imagen": ""
+    },
     {
       "id": "5800c8a2b2346e8d",
       "titulo": "La justicia italiana interviene el banco digital Revolut por sospechas de blanqueo y de operaciones de clanes mafiosos",
@@ -8,6 +341,24 @@
       "fuente": "El País Colombia",
       "url": "https://elpais.com/economia/2026-11-16/la-justicia-italiana-interviene-el-banco-digital-revolut-por-sospechas-de-blanqueo-y-de-operaciones-de-clanes-mafiosos.html",
       "fecha": "2026-11-16T15:07:46+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "40e31158ebae3f0e",
+      "titulo": "Buenaventura le apuesta a la reconstrucción económica y turística tras las huellas del terremoto y la violencia",
+      "categoria": "Valle del Cauca",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/cali/buenaventura-le-apuesta-a-la-reconstruccion-economica-y-turistica-tras-las-huellas-del-terremoto-y-la-violencia-3601396",
+      "fecha": "2026-11-16T15:06:23+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "2ad804becc89c491",
+      "titulo": "No habrá nuevos impuestos a la canasta familiar: las reacciones tras el anuncio presidencial",
+      "categoria": "Economía",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/no-habra-nuevos-impuestos-a-la-canasta-familiar-las-reacciones-tras-el-anuncio-presidencial-506443",
+      "fecha": "2026-11-16T15:04:51+00:00",
       "imagen": ""
     },
     {
@@ -65,6 +416,15 @@
       "imagen": ""
     },
     {
+      "id": "7967041a07618ba5",
+      "titulo": "Polémica por uso de lancha de la Armada para movilizar a la hija de Abelardo y sus amigas: ¿qué respondió el Gobierno?",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/hija-abelardo-lancha-armada-nacional-polemica-GC43639924",
+      "fecha": "2026-11-16T14:55:31+00:00",
+      "imagen": ""
+    },
+    {
       "id": "84a2d240d3b1a8bc",
       "titulo": "Piedras, patrullas atacadas y tres heridos: la noche de caos que dejó la derrota del Quindío en Armenia",
       "categoria": "Deportes",
@@ -74,30 +434,12 @@
       "imagen": ""
     },
     {
-      "id": "4760a06e4064f543",
-      "titulo": "Rosalía logra nueve nominaciones a los Grammy de 2027",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/us/entretenimiento/2026-11-16/nominaciones-a-los-grammy-2027-rosalia-logra-nueve-nominaciones.html",
-      "fecha": "2026-11-16T14:51:48+00:00",
-      "imagen": ""
-    },
-    {
       "id": "7222f8c9da656c0b",
       "titulo": "¿Qué productos de la canasta familiar quedarían sin IVA? Lista completa tras anuncio de De la Espriella",
       "categoria": "Economía",
       "fuente": "La FM Economía",
       "url": "https://www.lafm.com.co/economia/productos-canasta-familiar-quedarian-sin-iva-anuncio-dela-espriella-417330",
       "fecha": "2026-11-16T14:48:17+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "070d56f597e85887",
-      "titulo": "Video | Kuny, la heroína de cuatro patas que ayudó a evitar ataque en vía Panamericana; detrás de su misión, el laboratorio veterinario del Ejército",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/video-kuny-la-heroina-de-cuatro-patas-que-ayudo-a-evitar-ataque-en-via-panamericana-detras-de-su-mision-el-laboratorio-veterinario-del-ejercito-3601390",
-      "fecha": "2026-11-16T14:46:43+00:00",
       "imagen": ""
     },
     {
@@ -116,6 +458,15 @@
       "fuente": "DW Español",
       "url": "https://www.dw.com/es/raye-lidera-con-11-las-nominaciónes-al-grammy-2027-seguida-de-rosalía-con-9/a-79961221?maca=spa-rss-sp-all-1122-rdf",
       "fecha": "2026-11-16T14:43:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "3cd001407304b6f1",
+      "titulo": "La izquierda alemana aplica el cordón sanitario y revalida el Gobierno de Mecklemburgo-Pomerania Occidental",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/internacional/2026-11-16/la-izquierda-alemana-aplica-el-cordon-sanitario-y-revalida-el-gobierno-de-mecklemburgo-pomerania-occidental.html",
+      "fecha": "2026-11-16T14:41:04+00:00",
       "imagen": ""
     },
     {
@@ -146,15 +497,6 @@
       "imagen": ""
     },
     {
-      "id": "1e62fc2e7f60d3dd",
-      "titulo": "Cinco países europeos crearán en Ruanda el primer centro de deportación fuera de la UE",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/internacional/2026-11-16/cinco-paises-europeos-crearan-en-ruanda-el-primer-centro-de-deportacion-fuera-de-la-ue.html",
-      "fecha": "2026-11-16T14:31:02+00:00",
-      "imagen": ""
-    },
-    {
       "id": "157aabcf8a1993d9",
       "titulo": "Inversión, empresas y turismo: los 3 programas 'Milagro' que resumen la agenda económica del Ministerio de Comercio",
       "categoria": "Economía",
@@ -182,15 +524,6 @@
       "imagen": ""
     },
     {
-      "id": "e4b422a12a6f7e21",
-      "titulo": "Análisis de Ricardo Ávila: los accidentados primeros 100 días de la reconstrucción por el terremoto de agosto",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/regiones/analisis-de-ricado-avila-los-accidentados-primeros-100-dias-de-la-reconstruccion-por-el-terremoto-del-10-de-agosto-506436",
-      "fecha": "2026-11-16T14:17:27+00:00",
-      "imagen": ""
-    },
-    {
       "id": "63578e57781bf21f",
       "titulo": "Alphonso Davies sufre nueva lesión y es baja indefinida en el Bayern Múnich",
       "categoria": "Internacional",
@@ -206,339 +539,6 @@
       "fuente": "Q'hubo Cali",
       "url": "https://www.qhubocali.com/asi-paso/pilas-damnificados-por-el-sismo-se-acaba-el-plazo-para-cobrar-1-050-000-en-cali/",
       "fecha": "2026-11-16T14:13:33+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "27e3ea64dd9d1835",
-      "titulo": "¿Cómo cambia la Ley de Rescate Económico sin las propuestas de IVA a la canasta familiar?",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/economia/como-cambia-la-ley-de-rescate-economico-sin-la-propuesta-de-iva-a-los-alimentos-4525730",
-      "fecha": "2026-11-16T14:13:14+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "808e25225bcc15a2",
-      "titulo": "¿Por qué era posible que se cayera el IVA a la canasta familiar en la Ley de Rescate Económico?",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/por-que-era-posible-que-se-cayera-el-iva-a-la-canasta-familiar-en-la-reforma-tributaria-506435",
-      "fecha": "2026-11-16T14:10:43+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "d8fad922d18f25be",
-      "titulo": "Banco Central de Brasil apuesta por función sin conexión para sistema de pagos instantáneos",
-      "categoria": "Economía",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/banco-central-de-brasil-apuesta-por-funcion-sin-conexion-para-su-sistema-de-pagos-instantaneos-4525740",
-      "fecha": "2026-11-16T14:06:35+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "94b7b0f7274ac65e",
-      "titulo": "Hace 2.400 años los poblados del norte de la península se vaciaron en un tiempo récord. Los arqueólogos al fin tienen respuestas",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/magnet/hace-2-400-anos-poblados-norte-peninsula-se-vaciaron-tiempo-record-arqueologos-al-fin-tienen-respuestas",
-      "fecha": "2026-11-16T14:01:23+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "3814fac0e8af8cdf",
-      "titulo": "No son 76 feminicidios, pero tampoco se sabe cuántos podrían serlo: esta es la zona gris que hay detrás de los homicidios de mujeres en Atlántico",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/barranquilla/no-son-76-feminicidios-pero-tampoco-se-sabe-cuantos-podrian-serlo-esta-es-la-zona-gris-que-hay-detras-de-los-homicidios-de-mujeres-en-atlantico-3601391",
-      "fecha": "2026-11-16T14:01:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "f3815bb8e8c1f68e",
-      "titulo": "EE.UU. prevé que el tráfico aéreo vuelva a la normalidad el lunes tras días de alteraciones",
-      "categoria": "Internacional",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/ee-uu-preve-que-el-trafico-aereo-vuelva-a-la-normalidad-el-lunes-tras-dias-de-alteraciones-4525738",
-      "fecha": "2026-11-16T13:56:20+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "ec4f81e7586f1a71",
-      "titulo": "Gilbert Houngbo consigue un segundo período como director general de la OIT",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/houngbo-consigue-un-segundo-periodo-como-director-general-de-la-oit-4525735",
-      "fecha": "2026-11-16T13:53:08+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "433be0e81cfda1d1",
-      "titulo": "Alerta en Colombia: siete ataques contra peajes en noviembre",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/actualidad/alerta-en-colombia-siete-ataques-contra-peajes-en-noviembre/",
-      "fecha": "2026-11-16T13:52:31+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "70a3f14a2d53f2d7",
-      "titulo": "Alias Primo Gay: los detalles del secuestro de dos campesinos que duró 15 días y otros crímenes por los que fue enviado a prisión",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/carcel-primo-gay-cabecilla-disidencias-farc-paso-clan-del-golfo-KC43639366",
-      "fecha": "2026-11-16T13:52:03+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "b41631736ec35e3a",
-      "titulo": "Brent cotiza por debajo de US$96 mientras la mayor oferta contrarresta riesgo geopolítico",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/el-brent-cotiza-por-debajo-de-us-96-mientras-la-mayor-oferta-contrarresta-el-riesgo-geopolitico-4525721",
-      "fecha": "2026-11-16T13:48:31+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "addbcb0f6070acc7",
-      "titulo": "Compras navideñas: qué conviene comprar en noviembre y cómo cuidar la prima",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/noticias/economia/compras-navidenas-que-conviene-comprar-en-noviembre-y-como-cuidar-la-prima/",
-      "fecha": "2026-11-16T13:47:17+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "5fb016a6805195bd",
-      "titulo": "¿Estamos ante una guerra híbrida? Qué hay detrás de los ataques a supermercados, amenazas a aviones y a los bancos de sangre",
-      "categoria": "Economía",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/seguridad/estamos-guerra-hibrida-que-hay-detras-ataques-a-supermercados-amenazas-a-aviones-a-bancos-sangre",
-      "fecha": "2026-11-16T13:45:22+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "65d62b786e2713a0",
-      "titulo": "Plan de choque en salud muestra avances, pero persisten dificultades para los pacientes",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/noticias/plan-de-choque-en-salud-muestra-avances-pero-persisten-dificultades-para-los-pacientes/",
-      "fecha": "2026-11-16T13:40:56+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "312e0b9eaba7031f",
-      "titulo": "Fraude de 'alto voltaje': alertan sobre falsos operarios de Emcali realizando conexiones ilegales en Cali",
-      "categoria": "Cali",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/cali/fraude-de-alto-voltaje-alertan-sobre-falsos-operarios-de-emcali-realizando-conexiones-ilegales-en-cali-3601385",
-      "fecha": "2026-11-16T13:34:37+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "a3a36d01f7415031",
-      "titulo": "Bibliotecas públicas continúan cerradas tres meses después del terremoto",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/noticias/bibliotecas-publicas-continuan-cerradas-tres-meses-despues-del-terremoto/",
-      "fecha": "2026-11-16T13:32:08+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "b9961419c40b34a9",
-      "titulo": "Mi mejor compra de los últimos Black Friday vuelve a estar de oferta: es un gadget ideal si no te gusta el sistema operativo de tu tele",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/seleccion/mi-mejor-compra-ultimos-black-friday-vuelve-a-estar-oferta-gadget-ideal-no-te-gusta-sistema-operativo-tu-tele",
-      "fecha": "2026-11-16T13:31:24+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "6ef574ce757297d5",
-      "titulo": "¿Qué se podría hacer con los $ 5.600 millones que cayeron en Baloto Revancha en Medellín? El premio equivale a más de 200 años de salario mínimo",
-      "categoria": "Cali",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/medellin/que-se-podria-hacer-con-los-5-600-millones-que-cayeron-en-baloto-revancha-en-medellin-el-premio-equivale-a-mas-de-200-anos-de-salario-minimo-3601382",
-      "fecha": "2026-11-16T13:30:04+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "c137f2509c55ef01",
-      "titulo": "“La canasta familiar no pagará IVA”: De la Espriella en su balance de 100 días",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/presidente-abelardo-de-la-espriella-balance-100-dias-CC43636466",
-      "fecha": "2026-11-16T13:29:54+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "324292df40c6527c",
-      "titulo": "Diez años después, el acuerdo de paz aún tiene compromisos pendientes",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/noticias/diez-anos-despues-el-acuerdo-de-paz-aun-tiene-compromisos-pendientes/",
-      "fecha": "2026-11-16T13:23:21+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "d7dbf25e96674eaf",
-      "titulo": "Un día sin Outlook y un fallo en cadena que tumbó a Microsoft. Ya se sabe por qué: un bug que llevaba dormido desde julio",
-      "categoria": "Tecnología",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/aplicaciones/dia-outlook-fallo-cadena-que-tumbo-a-microsoft-se-sabe-que-bug-que-llevaba-dormido-julio",
-      "fecha": "2026-11-16T13:23:15+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "bc6fb52469144d4b",
-      "titulo": "Revolut queda bajo supervisión judicial por un año en Italia por fallas en controles antilavado",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/revolut-queda-bajo-supervision-judicial-durante-un-ano-en-italia-por-fallas-en-sus-controles-antilavado-4525725",
-      "fecha": "2026-11-16T13:20:24+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "07dd942ddbd3bb89",
-      "titulo": "Gobierno descarta nuevos impuestos a la canasta familiar y estudia reducir el IVA",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/noticias/gobierno-descarta-nuevos-impuestos-a-la-canasta-familiar-y-estudia-reducir-el-iva/",
-      "fecha": "2026-11-16T13:16:40+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "4063641b82a7cad9",
-      "titulo": "Video revela el momento en que una chiva turística, al parecer sin frenos, embiste dos vehículos en Barichara, Santander",
-      "categoria": "Colombia",
-      "fuente": "La FM Actualidad",
-      "url": "https://www.lafm.com.co/actualidad/barichara-santander-chiva-turistica-accidente-calle-417322",
-      "fecha": "2026-11-16T13:08:48+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "8c2c4c31eb16dd02",
-      "titulo": "Ejército Nacional neutraliza artefacto explosivo en la vía Panamericana y evita posible atentado en Santander de Quilichao",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/cali/ejercito-nacional-neutraliza-artefacto-explosivo-en-la-via-panamericana-y-evita-posible-atentado-en-santander-de-quilichao-3601380",
-      "fecha": "2026-11-16T13:08:05+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "beb8ad12c5d96921",
-      "titulo": "Mi padre quiere una barra de sonido buena, bonita y barata. Esta es la que le quiero recomendar",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/seleccion/mi-padre-quiere-barra-sonido-buena-bonita-barata-esta-que-le-quiero-recomendar",
-      "fecha": "2026-11-16T13:01:25+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "1c94a6d83ca976fd",
-      "titulo": "A finales de 1986, un buque vació su agua de lastre en los Grandes Lagos. Ahora EEUU ofrece 200.000 dólares a quien solucione la plaga de mejillones que ha provocado",
-      "categoria": "Economía",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/ecologia-y-naturaleza/a-finales-1986-buque-vacio-su-agua-lastre-grandes-lagos-ahora-eeuu-ofrece-200-000-dolares-a-quien-solucione-plaga-mejillones-que-ha-provocado",
-      "fecha": "2026-11-16T13:01:25+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "eb8928912c974ab4",
-      "titulo": "Pisa midió la pobreza y la llamó calidad",
-      "categoria": "Cali",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/red-de-expertos/red-de-la-educacion/pisa-midio-la-pobreza-y-la-llamo-calidad/",
-      "fecha": "2026-11-16T13:00:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "10f9ec6f431541b9",
-      "titulo": "“Candidato para el buque cárcel”: De la Espriella le cantó la tabla a alias Primo Gay, pero juez pidió investigarlo",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/abelardo-de-la-espriella-encaro-alias-primo-gay-seria-primer-recluso-de-buque-carcel-NC43636218",
-      "fecha": "2026-11-16T12:58:25+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "cc06e30a3a78ba7c",
-      "titulo": "Tengo una deformidad física congénita que escondí de mis padres y compañeros de escuela por el dolor emocional que me causaba",
-      "categoria": "Internacional",
-      "fuente": "BBC Mundo",
-      "url": "https://www.bbc.com/mundo/articles/cr15e9qjnxdgo?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-16T12:49:59+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "e5b58eee04d97d1e",
-      "titulo": "Iverco, Carretero y Etesa, los vínculos detrás de los contratos eléctricos de Panamá",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/iverco-carretero-y-etesa-los-vinculos-detras-de-los-contratos-electricos-de-panama-4525703",
-      "fecha": "2026-11-16T12:42:40+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "1aeee1c18b746f74",
-      "titulo": "Eli Lilly acordó comprar Calytrix Bio por US$1.500 millones en apuesta contra cáncer de sangre",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/eli-lilly-acordo-comprar-calytrix-bio-por-us-1-500-millones-en-su-apuesta-contra-el-cancer-de-sangre-4525719",
-      "fecha": "2026-11-16T12:36:39+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "d621afc15caa0de5",
-      "titulo": "Este monitor es también ordenador, incluye ratón y teclado, webcam y además Windows 11",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/seleccion/este-monitor-tambien-ordenador-incluye-raton-teclado-webcam-windows-11",
-      "fecha": "2026-11-16T12:31:21+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "9e414df20a9abdb8",
-      "titulo": "España enfrenta el 17 de noviembre una nueva huelga de maquinistas en el año más caótico del tren español",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/movilidad/espana-enfrenta-17-noviembre-nueva-maquinistas-ano-caotico-tren-espanol",
-      "fecha": "2026-11-16T12:31:20+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "3f8bad27b5a731a5",
-      "titulo": "De la Espriella inaugura sala internacional en el Ernesto Cortissoz: se estrena con conexión Barranquilla - Nueva York",
-      "categoria": "Internacional",
-      "fuente": "La FM Economía",
-      "url": "https://www.lafm.com.co/economia/barranquilla-aeropuerto-ernesto-cortissoz-extendera-conexiones-hacia-nueva-york-417321",
-      "fecha": "2026-11-16T12:29:24+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "e204b737e79fa2e2",
-      "titulo": "Ruidos de madrugada y láminas rotas: así burlaron la seguridad nueve jóvenes al fugarse del centro de detención Buen Pastor en Cali",
-      "categoria": "Cali",
-      "fuente": "El Tiempo Cali",
-      "url": "https://www.eltiempo.com/colombia/cali/ruidos-de-madrugada-y-laminas-rotas-asi-burlaron-la-seguridad-nueve-jovenes-al-fugarse-del-centro-de-detencion-buen-pastor-en-cali-3601291",
-      "fecha": "2026-11-16T12:23:10+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "e6a52a37cffe7a88",
-      "titulo": "'Se utilizaron elementos no permitidos': ICBF revela detalles de la fuga de adolescentes en Cali y activa ruta urgente de recaptura",
-      "categoria": "Cali",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/cali/se-utilizaron-elementos-no-permitidos-icbf-revela-detalles-de-la-fuga-de-adolescentes-en-cali-y-activa-ruta-urgente-de-recaptura-3601379",
-      "fecha": "2026-11-16T12:22:02+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "8b5a809cb530d843",
-      "titulo": "3 poco conocidas disputas limítrofes dentro de países de América Latina (y por qué algunas se han recrudecido)",
-      "categoria": "Internacional",
-      "fuente": "BBC Mundo",
-      "url": "https://www.bbc.com/mundo/articles/cx7vpv49en34o?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-16T12:04:57+00:00",
       "imagen": ""
     }
   ],
@@ -620,13 +620,13 @@
       "nombre": "La FM Deportes",
       "url": "https://www.lafm.com.co/rss/deportes.xml",
       "estado": "correcto",
-      "titulares": 19
+      "titulares": 16
     },
     {
       "nombre": "La FM Economía",
       "url": "https://www.lafm.com.co/rss/economia.xml",
       "estado": "correcto",
-      "titulares": 15
+      "titulares": 13
     },
     {
       "nombre": "La FM Internacional",
@@ -644,7 +644,7 @@
       "nombre": "Q'hubo Cali",
       "url": "https://www.qhubocali.com/feed/",
       "estado": "correcto",
-      "titulares": 1
+      "titulares": 4
     },
     {
       "nombre": "El Colombiano — Colombia",
@@ -655,8 +655,9 @@
     {
       "nombre": "El Diario — Pereira",
       "url": "https://www.eldiario.com.co/feed/",
-      "estado": "correcto",
-      "titulares": 35
+      "estado": "error",
+      "titulares": 0,
+      "detalle": "El feed no contiene entradas."
     },
     {
       "nombre": "Chocó 7 días",
