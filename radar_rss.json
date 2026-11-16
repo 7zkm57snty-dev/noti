@@ -1,5 +1,5 @@
 {
-  "ultima_actualizacion": "2026-11-16T04:23:11.416090+00:00",
+  "ultima_actualizacion": "2026-11-16T05:55:35.905077+00:00",
   "titulares_rss": [
     {
       "id": "226616e20d6cb4d5",
@@ -7,7 +7,178 @@
       "categoria": "Internacional",
       "fuente": "BBC Mundo",
       "url": "https://www.bbc.co.uk/mundo/live/c62e8kkl9rlrt?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-16T04:23:11.416090+00:00",
+      "fecha": "2026-11-16T05:55:35.905077+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "5e0c15847d26ec95",
+      "titulo": "Lo mataron de 16 puñaladas",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/judicial/lo-mataron-de-16-punaladas/",
+      "fecha": "2026-11-16T05:27:51+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "4e99efacbf138eb7",
+      "titulo": "Australia: diputada que perdió sus piernas en ataque sale del hospital",
+      "categoria": "Internacional",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/australia-diputada-que-perdió-sus-piernas-en-ataque-sale-del-hospital/a-79954367?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-16T05:13:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "f2747048809d5f06",
+      "titulo": "Llegó el día a los bancos y operadores de telecomunicaciones para garantizar protección a los consumidores por el delito de falsedad personal",
+      "categoria": "Economía",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/analisis/juan-carlos-betancourth-4008518/llego-el-dia-a-los-bancos-y-operadores-de-telecomunicaciones-para-garantizar-proteccion-a-los-consumidores-por-el-delito-de-falsedad-personal-4525684",
+      "fecha": "2026-11-16T05:01:48+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "84a35357f8b5373e",
+      "titulo": "El gasto que no pasa por el presupuesto",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/analisis/carlos-david-alape-gamez-3820864/el-gasto-que-no-pasa-por-el-presupuesto-4525678",
+      "fecha": "2026-11-16T05:01:28+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "b7a225bf008705ae",
+      "titulo": "Sabíamos que la misión DART cambió la trayectoria de Dimorphos. Lo que no sabíamos es que también cambió su forma",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/espacio/sabiamos-que-mision-dart-cambio-trayectoria-dimorphos-que-no-sabiamos-que-tambien-cambio-su-forma-1",
+      "fecha": "2026-11-16T05:01:25+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "bc65b38385c0fecc",
+      "titulo": "El Santo",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/analisis/german-d-pino-arboleda-3987479/el-santo-4525680",
+      "fecha": "2026-11-16T05:01:20+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "10aa52fc032979a8",
+      "titulo": "Gobernar la IA que no fabricamos",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/analisis/santiago-jimenez-londono-4353436/gobernar-la-ia-que-no-fabricamos-4525688",
+      "fecha": "2026-11-16T05:01:15+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "930c2c9f93f839fb",
+      "titulo": "Un camión la arrolló tras caer de la moto",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/judicial/un-camion-la-arrollo-tras-caer-de-la-moto/",
+      "fecha": "2026-11-16T05:00:48+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "fad1164262e92b32",
+      "titulo": "Habría lanzado una granada en el Batallón",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/judicial/habria-lanzado-una-granada-en-el-batallon/",
+      "fecha": "2026-11-16T05:00:31+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "fdd2abfe003d3109",
+      "titulo": "La responsabilidad, nos obliga",
+      "categoria": "Deportes",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/opinion/la-responsabilidad-nos-obliga/",
+      "fecha": "2026-11-16T05:00:28+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "41df6e453e57952e",
+      "titulo": "Tener mascotas ahora podría salir más caro",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/temas/mascotas/tener-mascotas-ahora-podria-salir-mas-caro/",
+      "fecha": "2026-11-16T05:00:16+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "efc403d1377820a2",
+      "titulo": "Lo bajaron de la moto a bala",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/judicial/lo-bajaron-de-la-moto-a-bala-5/",
+      "fecha": "2026-11-16T05:00:15+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "21d5929e909c05f4",
+      "titulo": "BIEN COMÚN 1",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/opinion/bien-comun-1/",
+      "fecha": "2026-11-16T05:00:14+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "c19125b1d3388fbc",
+      "titulo": "ADIOS A LA LECTURA Y LA ESCRITURA.",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/sin-categoria/adios-a-la-lectura-y-la-escritura/",
+      "fecha": "2026-11-16T05:00:14+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "5f6c42cafb18c0be",
+      "titulo": "Alias ‘Guerrillero’ estaba bien armado",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/judicial/alias-guerrillero-estaba-bien-armado/",
+      "fecha": "2026-11-16T05:00:12+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "c20331fde964bb23",
+      "titulo": "“Palacio”: las víctimas que la historia no puede olvidar",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/opinion/palacio-las-victimas-que-la-historia-no-puede-olvidar/",
+      "fecha": "2026-11-16T05:00:09+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "b80f56c9ce86f4eb",
+      "titulo": "¡PEREIRA Y LA AGUDA CRISIS POST- TERREMOTO!",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/opinion/pereira-y-la-aguda-crisis-post-terremoto/",
+      "fecha": "2026-11-16T05:00:02+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "b8062fdacf02b146",
+      "titulo": "Escampavía. ¿Quién manda aquí?",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/opinion/escampavia-quien-manda-aqui/",
+      "fecha": "2026-11-16T05:00:02+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "5b01a2fccb259121",
+      "titulo": "Celebración de Día de la Policía",
+      "categoria": "Colombia",
+      "fuente": "La Patria — Caldas",
+      "url": "https://www.lapatria.com/galerias/celebracion-de-dia-de-la-policia",
+      "fecha": "2026-11-16T05:00:00+00:00",
       "imagen": ""
     },
     {
@@ -369,177 +540,6 @@
       "url": "https://elpais.com/mexico/2026-11-15/muere-el-narco-miguel-angel-felix-gallardo-el-jefe-de-jefes-a-los-80-anos.html",
       "fecha": "2026-11-15T21:35:13+00:00",
       "imagen": ""
-    },
-    {
-      "id": "2593beb7308d110b",
-      "titulo": "Buscan a diez adolescentes que escaparon de centro de reclusión del ICBF en Cali",
-      "categoria": "Cali",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/escape-diez-adolescentes-centro-reclusion-icbf-cali-BC43630919",
-      "fecha": "2026-11-15T21:34:04+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "6d5a528f75c1a8e2",
-      "titulo": "Indepaz: 45 líderes sociales asesinados en primeros 100 días de Abelardo",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/en-vivo/indepaz-45-lideres-sociales-asesinados-en-primeros-100-dias-de-abelardo/",
-      "fecha": "2026-11-15T21:32:51+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "e6d095cc006d5988",
-      "titulo": "Juez de Antioquia pide investigar a Abelardo por ‘expresiones despectivas’ contra alias Primo Gay",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/juez-de-antioquia-pide-investigar-a-abelardo-por-expresiones-despectivas-contra-alias-primo-gay-MD43628316",
-      "fecha": "2026-11-15T21:23:54+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "971b8252146f0d8c",
-      "titulo": "En el penúltimo día de su gira por Sudamérica, el papa León pide frenar la deforestación amazónica",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/en-el-penultimo-dia-de-su-gira-por-sudamerica-el-papa-leon-pide-frenar-la-deforestacion-amazonica-4525646",
-      "fecha": "2026-11-15T21:01:26+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "fbfcb31f8cc379b1",
-      "titulo": "Jensen Huang buscaría regresar como CEO de Nvidia, según el Financial Times",
-      "categoria": "Internacional",
-      "fuente": "La FM Internacional",
-      "url": "https://www.lafm.com.co/internacional/jensen-huang-ceo-nvidia-inteligencia-artificial-silicon-valley-elon-musk-417304",
-      "fecha": "2026-11-15T20:56:23+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "e1181d05c150f6eb",
-      "titulo": "Sindicato del Inau cuestionó el envío de tres adolescentes al Inisa por la agresión a Ripoll",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/sindicato-del-inau-cuestiono-el-envio-de-tres-adolescentes-al-inisa-por-la-agresion-a-ripoll-4525640",
-      "fecha": "2026-11-15T20:51:18+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "114676247b535a06",
-      "titulo": "Manifestantes piden a Trump y Xi un tratado para frenar la carrera por la IA: ¿de qué se trata?",
-      "categoria": "Internacional",
-      "fuente": "La FM Internacional",
-      "url": "https://www.lafm.com.co/internacional/donald-trump-xi-jing-ping-manifestantes-protestan-contra-la-carrera-por-la-ia-417295",
-      "fecha": "2026-11-15T20:46:28+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "5082b1930e17ae97",
-      "titulo": "Mayagüez registró pérdidas por $205.790 millones a septiembre y sus ingresos cayeron 10,7%",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/empresas/mayaguez-registro-perdidas-por-205-790-millones-a-septiembre-y-sus-ingresos-cayeron-10-7-4525635",
-      "fecha": "2026-11-15T20:44:50+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "7383c9849a4c1e44",
-      "titulo": "Milagro Week: así será la rueda de inversión de Colombia en Nueva York del 16 al 19 de noviembre",
-      "categoria": "Colombia",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/gobierno/milagro-week-asi-sera-la-rueda-de-inversion-de-colombia-en-nueva-york-del-16-al-19-de-noviembre-506428",
-      "fecha": "2026-11-15T20:40:50+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "b210fb7a9dfe7329",
-      "titulo": "Gestores ven margen para más pérdidas en Brasil tras desplome de acciones y reales",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/gestores-ven-margen-para-mas-perdidas-en-brasil-tras-desplome-de-acciones-y-reales-4525637",
-      "fecha": "2026-11-15T20:39:33+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "9d33fcad83a79bcf",
-      "titulo": "Estonia cerrará en diciembre su frontera con Rusia tras acusar al Kremlin de un intento de sabotaje",
-      "categoria": "Internacional",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/internacional/2026-11-15/estonia-se-prepara-para-cerrar-en-diciembre-su-frontera-con-rusia-tras-un-presunto-intento-de-sabotaje.html",
-      "fecha": "2026-11-15T20:33:37+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "40e4c83dc9f1e603",
-      "titulo": "Petro responde a informe que lo acusa de ayudar a Maduro tras fraude de 2024",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/en-vivo/petro-responde-a-informe-que-lo-acusa-de-ayudar-a-maduro-tras-fraude-de-2024/",
-      "fecha": "2026-11-15T20:31:36+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "b291a843ac163710",
-      "titulo": "Rebeldes hutíes se encuentran a solo 60 kilómetros de la capital provisional de Yemen",
-      "categoria": "Internacional",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/rebeldes-hutíes-se-encuentran-a-solo-60-kilómetros-de-la-capital-provisional-de-yemen/a-79953488?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-15T20:31:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "7d81a4a415890313",
-      "titulo": "Tribunal Constitucional de Perú pide al Senado iniciar elección de seis magistrados para 2027",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/tribunal-constitucional-de-peru-pide-al-senado-iniciar-eleccion-de-seis-magistrados-para-2027-4525629",
-      "fecha": "2026-11-15T20:28:44+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "840b15f3a56e93d0",
-      "titulo": "El dato de la inflación en Argentina aumentó más de lo esperado en octubre",
-      "categoria": "Economía",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/la-inflacion-en-argentina-aumento-mas-de-lo-esperado-en-octubre-4525625",
-      "fecha": "2026-11-15T20:22:55+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "285fa4e9a08a6da6",
-      "titulo": "Despiertan los procesos contra Petro en la Comisión de Acusación: después de meses, ya tienen ponentes",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/investigaciones-contra-petrocomision-acusacion-camara-JD43628414",
-      "fecha": "2026-11-15T20:22:16+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "a34347f99f24264a",
-      "titulo": "Grave accidente de tránsito en la vía al mar en Nariño: cinco personas habrían muerto tras el fuerte impacto",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/cali/grave-accidente-de-transito-en-la-via-al-mar-en-narino-cinco-personas-habrian-muerto-tras-el-fuerte-impacto-3601281",
-      "fecha": "2026-11-15T20:04:47+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "e05ae5d07940fc3a",
-      "titulo": "La papa se dispara: precio aumentó 98% y presiona el bolsillo de los hogares colombianos",
-      "categoria": "Colombia",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/la-papa-se-dispara-precio-aumento-98-y-presiona-el-bolsillo-de-los-hogares-colombianos-506427",
-      "fecha": "2026-11-15T20:02:35+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "bc13b52116a2f72c",
-      "titulo": "Pedro Sánchez promete nuevos impuestos a fondos de inversión si gana el 29-N",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/pedro-sanchez-promete-nuevos-impuestos-a-fondos-de-inversion-si-gana-el-29-n-4525617",
-      "fecha": "2026-11-15T20:01:26+00:00",
-      "imagen": ""
     }
   ],
   "estado_fuentes": [
@@ -590,7 +590,7 @@
       "nombre": "BBC Mundo",
       "url": "https://feeds.bbci.co.uk/mundo/rss.xml",
       "estado": "correcto",
-      "titulares": 28
+      "titulares": 27
     },
     {
       "nombre": "DW Español",
