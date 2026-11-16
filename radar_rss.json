@@ -1,5 +1,5 @@
 {
-  "ultima_actualizacion": "2026-11-16T08:55:09.160505+00:00",
+  "ultima_actualizacion": "2026-11-16T10:44:58.032967+00:00",
   "titulares_rss": [
     {
       "id": "226616e20d6cb4d5",
@@ -7,16 +7,178 @@
       "categoria": "Internacional",
       "fuente": "BBC Mundo",
       "url": "https://www.bbc.co.uk/mundo/live/c62e8kkl9rlrt?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-16T08:55:09.160505+00:00",
+      "fecha": "2026-11-16T10:44:58.032967+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "3811ff5407d3043d",
+      "titulo": "No necesitas un iPhone para llevar localizadores: este pack de cuatro Tile Mate sirve para cualquier móvil y arrasa en Amazon",
+      "categoria": "Cali",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/seleccion/no-necesitas-iphone-para-llevar-localizadores-este-pack-cuatro-tile-mate-sirve-para-cualquier-movil-arrasa-amazon",
+      "fecha": "2026-11-16T10:31:22+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "f3761b4d94a5c8e3",
+      "titulo": "La ciencia acaba de confirmar lo que los dueños de gatos sospechaban desde hace años: el maullido no es una protesta, es una orden directa",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/ecologia-y-naturaleza/ciencia-acaba-confirmar-que-duenos-gatos-sospechaban-hace-anos-maullido-no-protesta-orden-directa",
+      "fecha": "2026-11-16T10:31:22+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "b366458aa4e96fee",
+      "titulo": "La I Maratón oficial de Toledo resulta no ser oficial: PSOE habla de 3.500 corredores \"estafados\" y pone a Vox y PP en el centro de la polémica",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/magnet/i-maraton-oficial-toledo-resulta-no-ser-oficial-casi-3-500-corredores-han-sido-estafados-vox-pp-centro-polemica",
+      "fecha": "2026-11-16T10:00:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "c62c18ca2f63df32",
+      "titulo": "Sonido de calidad y una cancelación activa de ruido excelente: los Sony WH-1000XM4 bajan (mucho) de precio en su última versión",
+      "categoria": "Cali",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/seleccion/sonido-calidad-cancelacion-activa-ruido-excelente-sony-wh-1000xm4-bajan-mucho-precio-su-ultima-version",
+      "fecha": "2026-11-16T09:45:22+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "030bb19f599b98f3",
+      "titulo": "Alejandro Ordóñez se estrena en el Ministerio del Interior atacando a la izquierda y al acuerdo de paz",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/america-colombia/2026-11-16/alejandro-ordonez-se-estrena-en-el-ministerio-del-interior-atacando-a-la-izquierda-y-al-acuerdo-de-paz.html",
+      "fecha": "2026-11-16T09:30:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "2b8b633df1b10577",
+      "titulo": "María Victoria Llorente y Juan Carlos Garzón: “El Estado de derecho y la seguridad no son incompatibles”",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/america-colombia/2026-11-16/maria-victoria-llorente-y-juan-carlos-garzon-el-estado-de-derecho-y-la-seguridad-no-son-incompatibles.html",
+      "fecha": "2026-11-16T09:30:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "4d45d296d9eb4c33",
+      "titulo": "El caos entre las cinco fuerzas armadas que operan en Haití eleva el riesgo para la población civil: “Es una orquesta sin director”",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/america/2026-11-16/el-caos-entre-las-cinco-fuerzas-armadas-que-operan-en-haiti-eleva-el-riesgo-para-la-poblacion-civil-es-una-orquesta-sin-director.html",
+      "fecha": "2026-11-16T09:30:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "cec85b31ba5a3099",
+      "titulo": "Un Congreso controlado por los demócratas encara la tarea de reformar la agenda migratoria de Trump",
+      "categoria": "Internacional",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/us/2026-11-16/un-congreso-controlado-por-los-democratas-encara-la-tarea-de-reformar-la-agenda-migratoria-de-trump.html",
+      "fecha": "2026-11-16T09:30:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "f4b89d9597061b15",
+      "titulo": "El Gobierno de Milei busca eliminar las elecciones primarias para llegar con ventaja a las presidenciales de 2027",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/argentina/2026-11-16/el-gobierno-de-milei-busca-eliminar-las-elecciones-primarias-para-llegar-con-ventaja-a-las-presidenciales-de-2027.html",
+      "fecha": "2026-11-16T09:30:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "4cc132f12b297e84",
+      "titulo": "El presidente Daniel Noboa se juega el poder territorial de Ecuador",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/america/2026-11-16/el-presidente-daniel-noboa-se-juega-el-poder-territorial-de-ecuador.html",
+      "fecha": "2026-11-16T09:30:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "196b7c191c0d4a8a",
+      "titulo": "“En este proceso nadie sobra”: la lectura feminista y diversa del paso del Papa por Argentina",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/actualidad/newsletter-americanas/2026-11-16/en-este-proceso-nadie-sobra-la-lectura-feminista-y-diversa-del-paso-del-papa-por-argentina.html",
+      "fecha": "2026-11-16T09:30:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "534f09f975130824",
+      "titulo": "Dos de cada diez vehículos en Costa Rica son eléctricos: la rápida expansión de las matrículas verdes",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/america-futura/2026-11-16/dos-de-cada-diez-vehiculos-en-costa-rica-son-electricos-la-rapida-expansion-de-las-matriculas-verdes.html",
+      "fecha": "2026-11-16T09:30:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "c508cf9d3a5d9dda",
+      "titulo": "La uruguaya Ida Vitale vuelve a sus orígenes con un manuscrito inédito de poemas de juventud",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/argentina/2026-11-16/la-uruguaya-ida-vitale-vuelve-a-sus-origenes-con-un-manuscrito-inedito-de-poemas-de-juventud.html",
+      "fecha": "2026-11-16T09:30:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "aaefab3ee9b3548d",
+      "titulo": "Harvard devuelve a Brasil los cráneos de dos africanos esclavizados que guardó en un museo casi dos siglos",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/america/2026-11-16/harvard-devuelve-a-brasil-los-craneos-de-dos-africanos-esclavizados-que-guardo-en-un-museo-casi-dos-siglos.html",
+      "fecha": "2026-11-16T09:30:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "028b89f6d54d5ab7",
+      "titulo": "Ha-Joon Chang: “México tiene que rediseñar su relación con Estados Unidos o se hundirá con él”",
+      "categoria": "Internacional",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/mexico/economia/2026-11-16/ha-joon-chang-mexico-tiene-que-redisenar-su-relacion-con-estados-unidos-o-se-hundira-con-el.html",
+      "fecha": "2026-11-16T09:30:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "07a0cdd350a6ccbe",
+      "titulo": "El móvil Android, compacto y longevo que me compraría en Black Friday es de Google y ha vuelto a su precio más bajo",
+      "categoria": "Tecnología",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/seleccion/movil-android-compacto-longevo-que-me-compraria-black-friday-google-ha-vuelto-a-su-precio",
+      "fecha": "2026-11-16T09:15:28+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "7ca2920b8a0bf7d8",
+      "titulo": "Ryzen 7 7800X3D, a precio mínimo antes del Black Friday: una CPU brutal para jugar que ahora no llega ni a 290 euros",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/seleccion/ryzen-7-7800x3d-a-precio-minimo-antes-black-friday-cpu-brutal-para-jugar-que-ahora-no-llega-a-290-euros",
+      "fecha": "2026-11-16T09:04:04+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "6ddb65a89c439392",
+      "titulo": "El jefe de la nueva generación de Xbox sobre Project Helix: \"No es un PC que también pueda ejecutar juegos de consola\"",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/videojuegos/jefe-nueva-generacion-xbox-project-helix-no-pc-que-tambien-pueda-ejecutar-juegos-consola",
+      "fecha": "2026-11-16T09:01:25+00:00",
       "imagen": ""
     },
     {
       "id": "29d4bf409182c72f",
-      "titulo": "SpaceX cumple (casi) todo lo prometido con Starship: captura la nave, despliega 26 satélites y falla solo con el propulsor",
+      "titulo": "SpaceX cumple casi todo lo prometido con Starship: captura la nave, despliega 26 satélites y falla solo con el propulsor",
       "categoria": "Colombia",
       "fuente": "Xataka",
       "url": "https://www.xataka.com/espacio/spacex-cumple-casi-todo-prometido-starship-captura-nave-despliega-26-satelites-falla-solo-propulsor",
-      "fecha": "2026-11-16T08:31:21+00:00",
+      "fecha": "2026-11-16T08:30:00+00:00",
       "imagen": ""
     },
     {
@@ -25,7 +187,7 @@
       "categoria": "Colombia",
       "fuente": "Xataka",
       "url": "https://www.xataka.com/ecologia-y-naturaleza/unas-criaturas-30-gramos-han-construido-edificio-bestia-reino-animal-africa-pesa-tonelada-tiene-250-habitaciones",
-      "fecha": "2026-11-16T08:31:21+00:00",
+      "fecha": "2026-11-16T08:30:00+00:00",
       "imagen": ""
     },
     {
@@ -44,6 +206,15 @@
       "fuente": "Xataka",
       "url": "https://www.xataka.com/ecologia-y-naturaleza/nos-han-dicho-que-para-ahuyentar-a-ratas-jardin-hay-que-plantar-tres-plantas-aromaticas-hay-dudas-al-respecto",
       "fecha": "2026-11-16T08:01:21+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "88bd152bff20ebb9",
+      "titulo": "La cumbre del clima abre la batalla por señalar a los combustibles fósiles e impulsar la electrificación",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/clima-y-medio-ambiente/2026-11-16/la-cumbre-del-clima-abre-la-batalla-por-senalar-a-los-combustibles-fosiles-e-impulsar-la-electrificacion.html",
+      "fecha": "2026-11-16T07:56:00+00:00",
       "imagen": ""
     },
     {
@@ -245,300 +416,129 @@
       "imagen": ""
     },
     {
-      "id": "4d5746200b937bb7",
-      "titulo": "Cómo el auge de la ultraderecha en Alemania está afectando a los migrantes latinoamericanos",
+      "id": "37e11e5a2447bb35",
+      "titulo": "La reunión con Putin y Xi, el plato fuerte del viaje de Trump a Asia",
       "categoria": "Internacional",
-      "fuente": "BBC Mundo",
-      "url": "https://www.bbc.com/mundo/articles/c95yn80g6l72o?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-16T04:04:27+00:00",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/internacional/2026-11-16/la-reunion-con-putin-y-xi-el-plato-fuerte-del-viaje-de-trump-a-asia.html",
+      "fecha": "2026-11-16T04:30:01+00:00",
       "imagen": ""
     },
     {
-      "id": "d9476b1f057d8cf3",
-      "titulo": "Hutíes reivindican ataques contra Riad y posiciones saudíes en Yemen",
+      "id": "c60a0eea9b3300f8",
+      "titulo": "Xi Jinping acoge la cumbre de Asia-Pacífico en la cima de su poder en China y con creciente peso global",
       "categoria": "Internacional",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/hutíes-reivindican-ataques-contra-riad-y-posiciones-saudíes-en-yemen/a-79954134?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-16T03:41:00+00:00",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/internacional/2026-11-16/xi-jinping-acoge-la-cumbre-de-asia-pacifico-en-la-cima-de-su-poder-en-china-y-con-creciente-peso-global.html",
+      "fecha": "2026-11-16T04:30:01+00:00",
       "imagen": ""
     },
     {
-      "id": "2fad318c7a540c11",
-      "titulo": "Una Procuraduría preventiva, más ágil, eficaz y cercana a la gente. 2. Eje Intervención",
-      "categoria": "Colombia",
-      "fuente": "Chocó 7 días",
-      "url": "https://choco7dias.com/una-procuraduria-preventiva-mas-agil-eficaz-y-cercana-a-la-gente-2-eje-intervencion/",
-      "fecha": "2026-11-16T02:39:57+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "2aacbcdacec61626",
-      "titulo": "De la Espriella retrocede en la propuesta de aumentar impuestos a la canasta familiar",
+      "id": "743f376c145b1277",
+      "titulo": "La nueva frontera de la ‘Voyager 1’: ¿qué es un día luz?",
       "categoria": "Colombia",
       "fuente": "El País Colombia",
-      "url": "https://elpais.com/america-colombia/2026-11-16/de-la-espriella-retrocede-en-la-propuesta-de-aumentar-impuestos-a-la-canasta-familiar.html",
-      "fecha": "2026-11-16T02:17:18+00:00",
+      "url": "https://elpais.com/ciencia/2026-11-15/la-voyager-1-cruza-una-nueva-frontera-siga-la-trayectoria-de-un-rayo-de-luz-de-la-tierra-hasta-la-sonda.html",
+      "fecha": "2026-11-16T04:30:01+00:00",
       "imagen": ""
     },
     {
-      "id": "2e4cfc3aee5e8781",
-      "titulo": "China confirma cumbre trilateral entre Xi, Trump y Putin",
-      "categoria": "Internacional",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/china-confirma-cumbre-trilateral-entre-xi-trump-y-putin/a-79953948?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-16T02:09:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "a243571990f3a21e",
-      "titulo": "El presidente Abelardo De La Espriella y las regiones en 100 días del Gobierno: estos son los resultados y los desafíos",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/el-presidente-abelardo-de-la-espriella-y-las-regiones-en-100-dias-del-gobierno-estos-son-los-resultados-y-los-desafios-3601333",
-      "fecha": "2026-11-16T02:01:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "e035860141eb7ebf",
-      "titulo": "Estados Unidos advierte que retrasos aéreos pueden prolongarse",
-      "categoria": "Internacional",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/estados-unidos-advierte-que-retrasos-aéreos-pueden-prolongarse/a-79953939?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-16T02:01:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "c137f2509c55ef01",
-      "titulo": "“La canasta familiar no pagará IVA”: De la Espriella en su balance de 100 días",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/presidente-abelardo-de-la-espriella-balance-100-dias-CC43636466",
-      "fecha": "2026-11-16T01:56:55+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "5fb21eb13b33b547",
-      "titulo": "¿Cuáles son los cuatro departamentos con riesgos dentro del nuevo mapa del volcán Cerro Machín?",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/cuales-son-los-cuatro-departamentos-con-riesgos-dentro-del-nuevo-mapa-del-volcan-cerro-machin-3601340",
-      "fecha": "2026-11-16T01:55:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "db96c449d7ebe4c4",
-      "titulo": "De La Espriella promete no gravar la canasta familiar, pero la Ley de Rescate plantea cambios en el IVA",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/gobierno/de-la-espriella-promete-no-gravar-la-canasta-familiar-pero-la-ley-de-rescate-plantea-cambios-en-el-iva-506433",
-      "fecha": "2026-11-16T01:53:35+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "4938aca84726848c",
-      "titulo": "De la Espriella descarta IVA a la canasta familiar y abre la puerta a bajar la tarifa general",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/economia/de-la-espriella-descarta-iva-a-la-canasta-familiar-y-estudia-bajar-la-tarifa-general-hasta-17-4525692",
-      "fecha": "2026-11-16T01:42:26+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "9fd45928a6c31c7b",
-      "titulo": "Alocución de presidente Abelardo De La Espriella, en sus 100 días de Gobierno",
-      "categoria": "Colombia",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/gobierno/alocucion-de-presidente-abelardo-de-la-espriella-en-sus-100-dias-de-gobierno-506431",
-      "fecha": "2026-11-16T01:05:20+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "4407bf042a3b0b6e",
-      "titulo": "El Papa arremete contra el daño a la Amazonia y a sus indígenas por “lógicas de mercado y explotación”",
-      "categoria": "Economía",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/america/2026-11-16/el-papa-arremete-contra-el-dano-a-la-amazonia-y-a-sus-indigenas-por-logicas-de-mercado-y-explotacion.html",
-      "fecha": "2026-11-16T00:54:39+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "5fbffffe100fc693",
-      "titulo": "‘El enjambre sísmico de Chaparral es único a nivel mundial’: la advertencia del Servicio Geológico Colombiano",
-      "categoria": "Deportes",
-      "fuente": "La FM Actualidad",
-      "url": "https://www.lafm.com.co/actualidad/enjambre-sismico-chaparral-unico-mundo-servicio-geologico-colombiano-416770",
-      "fecha": "2026-11-16T00:39:01+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "05c19b7db203bc05",
-      "titulo": "El director del Banco Central de Paraguay se entrega por escándalo de Ueno Bank",
-      "categoria": "Economía",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/director-del-banco-central-de-paraguay-se-entrega-por-escandalo-de-ueno-bank-4525674",
-      "fecha": "2026-11-16T00:24:27+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "6a7e3ad7c417f071",
-      "titulo": "Descubrieron 2,5 millones de dosis de cocaína encaletadas en un contenedor de café",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/cocaina-cafe-tonelada-cartagena-incautaron-policia-FC43635312",
-      "fecha": "2026-11-16T00:23:16+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "83a005ab1e78de52",
-      "titulo": "Volcamiento en la vía Bucaramanga–Rionegro cierra paso hacia la costa Atlántica; graves accidentes en Norte de Santander y Huila dejan siete muertos",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/santander/volcamiento-en-la-via-bucaramanga-rionegro-cierra-paso-hacia-la-costa-atlantica-graves-accidentes-en-norte-de-santander-y-huila-dejan-siete-muertos-3601310",
-      "fecha": "2026-11-16T00:12:19+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "b15d5e6127e6e414",
-      "titulo": "Murió Miguel Ángel Félix Gallardo, fundador del Cártel de Guadalajara y llamado 'El jefe de jefes'",
-      "categoria": "Internacional",
-      "fuente": "La FM Internacional",
-      "url": "https://www.lafm.com.co/internacional/miguel-angel-felix-gallardo-muerte-cartel-de-guadalajara-jefe-de-jefes-417312",
-      "fecha": "2026-11-16T00:00:03+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "1fc4e69d91310824",
-      "titulo": "Avianca anunció inversión de US$3.000 millones en Colombia en viaje a Milagro Week",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/empresas/avianca-anuncio-inversion-de-us-3-000-millones-en-colombia-en-viaje-a-milagro-week-4525669",
-      "fecha": "2026-11-15T23:52:30+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "da7d5422d0f9e017",
-      "titulo": "Este es el municipio con la cuarta parte de su población damnificada por el terremoto que busca reactivar el turismo con sus Fiestas de la Amistad",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/este-es-el-municipio-con-la-cuarta-parte-de-su-poblacion-damnificada-por-el-terremoto-que-busca-reactivar-el-turismo-con-sus-fiestas-de-la-amistad-3601320",
-      "fecha": "2026-11-15T23:38:45+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "517a78864d4b994b",
-      "titulo": "Mulino convoca a medios y gremios tras atentado contra la vivienda de periodista en Panamá",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/mulino-convoca-a-medios-y-gremios-tras-atentado-contra-la-vivienda-de-periodista-en-panama-4525667",
-      "fecha": "2026-11-15T23:36:10+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "979399a655ff4b08",
-      "titulo": "Salario mínimo de 2027 tendrá cambios en la mesa de negociación: estos son los nuevos integrantes",
-      "categoria": "Economía",
-      "fuente": "La FM Economía",
-      "url": "https://www.lafm.com.co/economia/salario-minimo-2027-cambios-mesa-de-negociacion-incremento-417310",
-      "fecha": "2026-11-15T23:36:04+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "d3010bce1e5eee56",
-      "titulo": "Sheinbaum se reunirá con Xi Jinping en China para explorar nuevas oportunidades de cooperación",
-      "categoria": "Deportes",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/sheinbaum-se-reunira-con-xi-jinping-en-china-para-explorar-nuevas-oportunidades-de-cooperacion-4525665",
-      "fecha": "2026-11-15T23:32:51+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "2e3e383b3fb6c1e5",
-      "titulo": "Gases del Caribe registró ingresos por $573.359 millones en el tercer trimestre de 2026",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/empresas/gases-del-caribe-registro-ingresos-por-573-359-millones-en-el-tercer-trimestre-de-2026-4525662",
-      "fecha": "2026-11-15T23:28:28+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "4af429372cc44f90",
-      "titulo": "Bancoomeva reportó ingresos operacionales por $249.195 millones a septiembre",
-      "categoria": "Economía",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/finanzas/bancoomeva-reporto-ingresos-operacionales-por-249-195-millones-a-septiembre-4525576",
-      "fecha": "2026-11-15T23:23:03+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "b031b69d826cf6fa",
-      "titulo": "Así te hemos contado la victoria de Inglaterra sobre España en la Nations League",
+      "id": "08438e762de9f19e",
+      "titulo": "Entrando en la casa de la lengua",
       "categoria": "Colombia",
       "fuente": "El País Colombia",
-      "url": "https://elpais.com/deportes/futbol/2026-11-15/espana-inglaterra-en-directo-la-uefa-nations-league-en-vivo.html",
-      "fecha": "2026-11-15T23:22:31+00:00",
+      "url": "https://elpais.com/opinion/2026-11-16/entrando-en-la-casa-de-la-lengua.html",
+      "fecha": "2026-11-16T04:30:01+00:00",
       "imagen": ""
     },
     {
-      "id": "a8ed2361503b68a4",
-      "titulo": "Vicepresidente Restrepo inicia viaje a Nueva York para atraer inversión: Esto se espera",
+      "id": "c03ba394dedf659f",
+      "titulo": "El tabú de criticar a Israel marca la política alemana mientras crece el apoyo de la sociedad a Palestina",
       "categoria": "Colombia",
-      "fuente": "La FM Economía",
-      "url": "https://www.lafm.com.co/economia/nueva-york-barranquilla-milagro-week-inversion-colombia-417311",
-      "fecha": "2026-11-15T23:20:17+00:00",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/internacional/2026-11-16/el-tabu-de-criticar-a-israel-marca-la-politica-alemana-mientras-crece-el-apoyo-de-la-sociedad-a-palestina.html",
+      "fecha": "2026-11-16T04:30:01+00:00",
       "imagen": ""
     },
     {
-      "id": "6f99ff141da21ef3",
-      "titulo": "Atentados con explosivos en Colombia EN VIVO: ataque contra tres torres de energía en Huila deja sin luz a sectores de dos departamentos",
+      "id": "4b39e8d0c1ee8e03",
+      "titulo": "Simulacros, huellas, planos y zapatillas: siete expediciones a Montserrat para aclarar la muerte de Isak Andic",
       "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/atentados-con-explosivos-en-colombia-en-vivo-asi-quedaron-los-peajes-en-vias-de-bogota-villavicencio-neiva-y-pipiral-3601276",
-      "fecha": "2026-11-15T22:59:59+00:00",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/espana/catalunya/2026-11-16/simulacros-huellas-planos-y-bambas-las-siete-expediciones-a-la-montana-de-montserrat-que-no-aclararon-la-muerte-de-isak-andic.html",
+      "fecha": "2026-11-16T04:30:01+00:00",
       "imagen": ""
     },
     {
-      "id": "aeb543089f152445",
-      "titulo": "Ataques contra tres torres de energía dejan sin servicio a zonas del Huila y Caquetá: se suman a los atentados contra peajes con carros bomba",
+      "id": "9959d4f1d2f868c9",
+      "titulo": "Urgencia climática, sin líderes de peso",
       "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/ataques-contra-tres-torres-de-energia-deja-sin-servicio-electrico-a-zonas-del-huila-y-caqueta-se-suman-a-los-atentados-contra-peajes-con-carros-bomba-3601315",
-      "fecha": "2026-11-15T22:52:46+00:00",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/opinion/2026-11-16/urgencia-climatica-sin-lideres-de-peso.html",
+      "fecha": "2026-11-16T04:30:01+00:00",
       "imagen": ""
     },
     {
-      "id": "5fc49095de897d89",
-      "titulo": "\"Después de que me despojaran de la ciudadanía nicaragüense, España fue mi lugar de asilo y decidí bien\": el escritor Sergio Ramírez ingresa a la Real Academia Española",
-      "categoria": "Internacional",
-      "fuente": "BBC Mundo",
-      "url": "https://www.bbc.com/mundo/articles/cmx20d0y7j8jo?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-15T22:45:01+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "40dd4e5f0dfdc121",
-      "titulo": "Los estudios etnológicos atrapados en la desarticulación institucional",
+      "id": "bfee8e5e9dc71942",
+      "titulo": "El ‘Jensengate’ no es una historia de espías",
       "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/red-de-expertos/los-estudios-etnologicos-atrapados-en-la-desarticulacion-institucional/",
-      "fecha": "2026-11-15T22:39:59+00:00",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/opinion/2026-11-16/el-jensengate-no-es-una-historia-de-espias.html",
+      "fecha": "2026-11-16T04:30:01+00:00",
       "imagen": ""
     },
     {
-      "id": "642378ee4703c24d",
-      "titulo": "Estos son los resultados que ha dejado el Gobierno de Abelardo de la Espriella en 100 días",
+      "id": "5b53b902085988b6",
+      "titulo": "El futuro de la democracia israelí depende de los partidos árabes",
       "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/economia/estos-son-los-resultados-que-ha-dejado-el-gobierno-de-abelardo-de-la-espriella-en-100-dias-4525649",
-      "fecha": "2026-11-15T22:35:38+00:00",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/opinion/2026-11-16/el-futuro-de-la-democracia-israeli-depende-de-los-partidos-arabes.html",
+      "fecha": "2026-11-16T04:30:01+00:00",
       "imagen": ""
     },
     {
-      "id": "f9b43d1a02e08124",
-      "titulo": "Cada dos días hay un atentado explosivo contra un peaje: ya van siete en noviembre",
+      "id": "5412fc89e5fcd165",
+      "titulo": "Flavita Banana: voto negativo",
       "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/peaje-peajes-atacados-explosivos-ataques-pipiral-neiva-KC43631469",
-      "fecha": "2026-11-15T22:08:26+00:00",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/opinion/2026-11-16/flavita-banana-voto-negativo.html",
+      "fecha": "2026-11-16T04:30:01+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "f0561e1079e2ba47",
+      "titulo": "Despierta democracia",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/opinion/2026-11-16/despierta-democracia.html",
+      "fecha": "2026-11-16T04:30:01+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "2fcba8deb3c08d46",
+      "titulo": "Los lectores abordan el ‘caso Nvidia’ y los desafíos de la IA: errores humanos",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/opinion/2026-11-16/los-lectores-abordan-el-caso-nvidia-y-los-desafios-de-la-ia-errores-humanos.html",
+      "fecha": "2026-11-16T04:30:01+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "3a80c205170d16ed",
+      "titulo": "David Summers: “Yo voto poco. Y cuando lo hago sé que me van a decepcionar”",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/espana/elecciones-generales/2026-11-16/david-summers-yo-voto-poco-y-cuando-lo-hago-se-que-me-van-a-decepcionar.html",
+      "fecha": "2026-11-16T04:30:01+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "44797c7f01c84f01",
+      "titulo": "El Planeta de Isabel Allende: el prestigio que necesitaba el premio",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/babelia/2026-11-16/el-planeta-de-isabel-allende-el-prestigio-que-necesitaba-el-premio.html",
+      "fecha": "2026-11-16T04:30:00+00:00",
       "imagen": ""
     }
   ],
@@ -650,7 +650,7 @@
       "nombre": "El Colombiano — Colombia",
       "url": "https://www.elcolombiano.com/rss/Colombia.xml",
       "estado": "correcto",
-      "titulares": 23
+      "titulares": 25
     },
     {
       "nombre": "El Diario — Pereira",
