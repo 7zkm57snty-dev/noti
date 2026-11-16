@@ -1,5 +1,5 @@
 {
-  "ultima_actualizacion": "2026-11-16T03:04:25.120382+00:00",
+  "ultima_actualizacion": "2026-11-16T04:23:11.416090+00:00",
   "titulares_rss": [
     {
       "id": "226616e20d6cb4d5",
@@ -7,7 +7,25 @@
       "categoria": "Internacional",
       "fuente": "BBC Mundo",
       "url": "https://www.bbc.co.uk/mundo/live/c62e8kkl9rlrt?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-16T03:04:25.120382+00:00",
+      "fecha": "2026-11-16T04:23:11.416090+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "4d5746200b937bb7",
+      "titulo": "Cómo el auge de la ultraderecha en Alemania está afectando a los migrantes latinoamericanos",
+      "categoria": "Internacional",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/c95yn80g6l72o?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-16T04:04:27+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "d9476b1f057d8cf3",
+      "titulo": "Hutíes reivindican ataques contra Riad y posiciones saudíes en Yemen",
+      "categoria": "Internacional",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/hutíes-reivindican-ataques-contra-riad-y-posiciones-saudíes-en-yemen/a-79954134?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-16T03:41:00+00:00",
       "imagen": ""
     },
     {
@@ -522,24 +540,6 @@
       "url": "https://www.larepublica.co/globoeconomia/pedro-sanchez-promete-nuevos-impuestos-a-fondos-de-inversion-si-gana-el-29-n-4525617",
       "fecha": "2026-11-15T20:01:26+00:00",
       "imagen": ""
-    },
-    {
-      "id": "aa4886c96c436b31",
-      "titulo": "\"Cualquier parecido con la realidad es pura coincidencia\": el disclaimer del cine que nos ganamos por culpa de Rasputín",
-      "categoria": "Tendencias",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/cine-y-tv/cualquier-parecido-realidad-pura-coincidencia-disclaimer-cine-que-nos-ganamos-culpa-rasputin",
-      "fecha": "2026-11-15T20:01:20+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "a83061c5affdb966",
-      "titulo": "Hay quien ronca todas las noches y no tiene apnea. El problema llega cuando aparecen otras señales",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/medicina-y-salud/hay-quien-ronca-todas-noches-no-tiene-apnea-problema-llega-cuando-aparecen-otras-senales",
-      "fecha": "2026-11-15T20:01:20+00:00",
-      "imagen": ""
     }
   ],
   "estado_fuentes": [
@@ -590,7 +590,7 @@
       "nombre": "BBC Mundo",
       "url": "https://feeds.bbci.co.uk/mundo/rss.xml",
       "estado": "correcto",
-      "titulares": 27
+      "titulares": 28
     },
     {
       "nombre": "DW Español",
@@ -643,8 +643,8 @@
     {
       "nombre": "Q'hubo Cali",
       "url": "https://www.qhubocali.com/feed/",
-      "estado": "correcto",
-      "titulares": 3
+      "estado": "sin_novedades",
+      "titulares": 0
     },
     {
       "nombre": "El Colombiano — Colombia",
