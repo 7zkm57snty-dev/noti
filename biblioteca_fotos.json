@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "actualizado": "2026-11-09T08:37:56Z",
+  "actualizado": "2026-11-16T09:52:47Z",
   "categorias": {
     "Cali": [],
     "Valle del Cauca": [
@@ -309,8 +309,8 @@
       {
         "archivo": "assets/biblioteca-fotos/deportes-14.jpg",
         "fuente": "Wikimedia Commons",
-        "autor": "Nathan Lazarnick, New York",
-        "pagina": "https://commons.wikimedia.org/wiki/File:Christos_Zechouritis_at_1904_Olympic_Marathon.jpg",
+        "autor": "Unknown authorUnknown author",
+        "pagina": "https://commons.wikimedia.org/wiki/File:First_runners_leaving_the_stadium_during_the_1904_Olympic_Marathon_Race._(Mellor_and_Spring_in_front_of_referees%27_automobile).jpg",
         "licencia": "Public domain",
         "licencia_url": ""
       }
@@ -319,13 +319,21 @@
       {
         "archivo": "assets/biblioteca-fotos/tecnolog-a-1.jpg",
         "fuente": "Wikimedia Commons",
+        "autor": "Jacek Halicki",
+        "pagina": "https://commons.wikimedia.org/wiki/File:2023_P%C5%82yta_g%C5%82%C3%B3wna_Asus_ROG_STRIX_Z690-A_GAMING_WIFI.jpg",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      {
+        "archivo": "assets/biblioteca-fotos/tecnolog-a-2.jpg",
+        "fuente": "Wikimedia Commons",
         "autor": "Raimond Spekking",
         "pagina": "https://commons.wikimedia.org/wiki/File:Amazon_Echo_Dot_(RS03QR)_-_motherboard-0557.jpg",
         "licencia": "CC BY-SA 4.0",
         "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0"
       },
       {
-        "archivo": "assets/biblioteca-fotos/tecnolog-a-2.jpg",
+        "archivo": "assets/biblioteca-fotos/tecnolog-a-3.jpg",
         "fuente": "Wikimedia Commons",
         "autor": "Podstawko",
         "pagina": "https://commons.wikimedia.org/wiki/File:Amiga_3000T_motherboard_without_annotations.jpg",
@@ -333,7 +341,7 @@
         "licencia_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
       },
       {
-        "archivo": "assets/biblioteca-fotos/tecnolog-a-3.jpg",
+        "archivo": "assets/biblioteca-fotos/tecnolog-a-4.jpg",
         "fuente": "Wikimedia Commons",
         "autor": "Podstawko",
         "pagina": "https://commons.wikimedia.org/wiki/File:Amiga_4000T_motherboard,_revision_4,_back_side.jpg",
@@ -341,7 +349,7 @@
         "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0"
       },
       {
-        "archivo": "assets/biblioteca-fotos/tecnolog-a-4.jpg",
+        "archivo": "assets/biblioteca-fotos/tecnolog-a-5.jpg",
         "fuente": "Wikimedia Commons",
         "autor": "Podstawko",
         "pagina": "https://commons.wikimedia.org/wiki/File:Amiga_4000T_motherboard,_revision_4,_front_side.jpg",
@@ -349,7 +357,7 @@
         "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0"
       },
       {
-        "archivo": "assets/biblioteca-fotos/tecnolog-a-5.jpg",
+        "archivo": "assets/biblioteca-fotos/tecnolog-a-6.jpg",
         "fuente": "Wikimedia Commons",
         "autor": "Evan-Amos",
         "pagina": "https://commons.wikimedia.org/wiki/File:Atari-800-Motherboard-Flat-Top.jpg",
@@ -357,7 +365,7 @@
         "licencia_url": ""
       },
       {
-        "archivo": "assets/biblioteca-fotos/tecnolog-a-6.jpg",
+        "archivo": "assets/biblioteca-fotos/tecnolog-a-7.jpg",
         "fuente": "Wikimedia Commons",
         "autor": "ComputerUserUser",
         "pagina": "https://commons.wikimedia.org/wiki/File:Caviar_2340_Hard_Drive_Circuit_Board_Side_1.jpg",
@@ -365,18 +373,10 @@
         "licencia_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
       },
       {
-        "archivo": "assets/biblioteca-fotos/tecnolog-a-7.jpg",
+        "archivo": "assets/biblioteca-fotos/tecnolog-a-8.jpg",
         "fuente": "Wikimedia Commons",
         "autor": "ComputerUserUser",
         "pagina": "https://commons.wikimedia.org/wiki/File:Caviar_2340_Hard_Drive_Circuit_Board_Side_2.jpg",
-        "licencia": "CC0",
-        "licencia_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
-      },
-      {
-        "archivo": "assets/biblioteca-fotos/tecnolog-a-8.jpg",
-        "fuente": "Wikimedia Commons",
-        "autor": "Kurt Kaiser",
-        "pagina": "https://commons.wikimedia.org/wiki/File:Computer_motherboard_11.jpg",
         "licencia": "CC0",
         "licencia_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
       }
@@ -483,16 +483,16 @@
       {
         "archivo": "assets/biblioteca-fotos/tendencias-5.jpg",
         "fuente": "Wikimedia Commons",
-        "autor": "Henri Rousseau",
-        "pagina": "https://commons.wikimedia.org/wiki/File:Henri_Rousseau_-_Le_R%C3%AAve_-_Google_Art_Project.jpg",
+        "autor": "Internet Archive Book Images",
+        "pagina": "https://commons.wikimedia.org/wiki/File:General_guide_to_the_exhibition_halls_of_the_American_Museum_of_Natural_History_(1934)_(14595317749).jpg",
         "licencia": "Public domain",
         "licencia_url": ""
       },
       {
         "archivo": "assets/biblioteca-fotos/tendencias-6.jpg",
         "fuente": "Wikimedia Commons",
-        "autor": "Dorothea Lange",
-        "pagina": "https://commons.wikimedia.org/wiki/File:Hoe_culture,_Alabama_tenant_farmer_near_Anniston,_8e07305.jpg",
+        "autor": "Henri Rousseau",
+        "pagina": "https://commons.wikimedia.org/wiki/File:Henri_Rousseau_-_Le_R%C3%AAve_-_Google_Art_Project.jpg",
         "licencia": "Public domain",
         "licencia_url": ""
       },
@@ -500,7 +500,7 @@
         "archivo": "assets/biblioteca-fotos/tendencias-7.jpg",
         "fuente": "Wikimedia Commons",
         "autor": "Dorothea Lange",
-        "pagina": "https://commons.wikimedia.org/wiki/File:Hoe_culture,_Alabama_tenant_farmer_near_Anniston,_8e07305.tif",
+        "pagina": "https://commons.wikimedia.org/wiki/File:Hoe_culture,_Alabama_tenant_farmer_near_Anniston,_8e07305.jpg",
         "licencia": "Public domain",
         "licencia_url": ""
       },
@@ -508,7 +508,7 @@
         "archivo": "assets/biblioteca-fotos/tendencias-8.jpg",
         "fuente": "Wikimedia Commons",
         "autor": "Dorothea Lange",
-        "pagina": "https://commons.wikimedia.org/wiki/File:Hoe_culture_in_the_South,_near_Eutaw,_Alabama,_8b29687.jpg",
+        "pagina": "https://commons.wikimedia.org/wiki/File:Hoe_culture,_Alabama_tenant_farmer_near_Anniston,_8e07305.tif",
         "licencia": "Public domain",
         "licencia_url": ""
       }
@@ -755,21 +755,13 @@
       {
         "archivo": "assets/biblioteca-fotos/movilidad-4.jpg",
         "fuente": "Wikimedia Commons",
-        "autor": "Agnes Monkelbaan",
-        "pagina": "https://commons.wikimedia.org/wiki/File:Bergweg_van_Burleun,_naar_Ladinas,_Andiast._(actm)_07.jpg",
-        "licencia": "CC BY-SA 4.0",
-        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0"
-      },
-      {
-        "archivo": "assets/biblioteca-fotos/movilidad-5.jpg",
-        "fuente": "Wikimedia Commons",
         "autor": "Neurdein A. G.",
         "pagina": "https://commons.wikimedia.org/wiki/File:Beuvillers_route_d_Orbec.jpg",
         "licencia": "Public domain",
         "licencia_url": ""
       },
       {
-        "archivo": "assets/biblioteca-fotos/movilidad-6.jpg",
+        "archivo": "assets/biblioteca-fotos/movilidad-5.jpg",
         "fuente": "Wikimedia Commons",
         "autor": "Agnes Monkelbaan",
         "pagina": "https://commons.wikimedia.org/wiki/File:Breil-Brigels_in_Graub%C3%BCnden_15-09-2022._(actm.)_23.jpg",
@@ -777,7 +769,7 @@
         "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0"
       },
       {
-        "archivo": "assets/biblioteca-fotos/movilidad-7.jpg",
+        "archivo": "assets/biblioteca-fotos/movilidad-6.jpg",
         "fuente": "Wikimedia Commons",
         "autor": "Michielverbeek",
         "pagina": "https://commons.wikimedia.org/wiki/File:B%C3%B6nninghardt,_die_evangelische_Pfarrkirche_Dm15_foto6_2016-05-05_14.15.jpg",
@@ -785,10 +777,18 @@
         "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0"
       },
       {
-        "archivo": "assets/biblioteca-fotos/movilidad-8.jpg",
+        "archivo": "assets/biblioteca-fotos/movilidad-7.jpg",
         "fuente": "Wikimedia Commons",
         "autor": "Michielverbeek",
         "pagina": "https://commons.wikimedia.org/wiki/File:B%C3%BCdingen,_das_Schlaghaus_in_straatzicht_positie1_foto2_2016-08-09_17.15.jpg",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      {
+        "archivo": "assets/biblioteca-fotos/movilidad-8.jpg",
+        "fuente": "Wikimedia Commons",
+        "autor": "重庆轨交18",
+        "pagina": "https://commons.wikimedia.org/wiki/File:CRT%E9%B2%A4%E9%B1%BC%E6%B1%A0_%E7%AB%99%E5%8E%85%E9%97%B4%E6%8D%A2%E4%B9%98%E9%80%9A%E9%81%93.jpg",
         "licencia": "CC BY-SA 4.0",
         "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0"
       }
@@ -837,24 +837,24 @@
       {
         "archivo": "assets/biblioteca-fotos/salud-p-blica-6.jpg",
         "fuente": "Wikimedia Commons",
-        "autor": "Srđan Popović",
-        "pagina": "https://commons.wikimedia.org/wiki/File:AB_212_YU-HCA_Dan_MUPa_2020_01.jpg",
-        "licencia": "CC BY-SA 4.0",
-        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0"
-      },
-      {
-        "archivo": "assets/biblioteca-fotos/salud-p-blica-7.jpg",
-        "fuente": "Wikimedia Commons",
         "autor": "Harrison Keely",
         "pagina": "https://commons.wikimedia.org/wiki/File:A_waiting_room_at_a_medical_healthcare_clinic,_doctor%27s_office,_hospital.jpg",
         "licencia": "CC BY 4.0",
         "licencia_url": "https://creativecommons.org/licenses/by/4.0"
       },
       {
-        "archivo": "assets/biblioteca-fotos/salud-p-blica-8.jpg",
+        "archivo": "assets/biblioteca-fotos/salud-p-blica-7.jpg",
         "fuente": "Wikimedia Commons",
         "autor": "HCA",
         "pagina": "https://commons.wikimedia.org/wiki/File:Corporate_Office_1972.jpg",
+        "licencia": "CC BY-SA 3.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/3.0"
+      },
+      {
+        "archivo": "assets/biblioteca-fotos/salud-p-blica-8.jpg",
+        "fuente": "Wikimedia Commons",
+        "autor": "Oscar Flowers",
+        "pagina": "https://commons.wikimedia.org/wiki/File:Doctors_Hospital,_Shirley_Street_-_panoramio.jpg",
         "licencia": "CC BY-SA 3.0",
         "licencia_url": "https://creativecommons.org/licenses/by-sa/3.0"
       }
