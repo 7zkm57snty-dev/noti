@@ -1,6 +1,240 @@
 {
-  "ultima_actualizacion": "2026-11-17T17:12:52.028852+00:00",
+  "ultima_actualizacion": "2026-11-17T18:10:50.655131+00:00",
   "titulares_rss": [
+    {
+      "id": "c3a9ab015d5e2965",
+      "titulo": "Oviedo advirtió que las apuestas están restando capacidad de ahorro en los hogares",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/economia/oviedo-advirtio-que-las-apuestas-estan-restando-capacidad-de-ahorro-en-los-hogares-4526484",
+      "fecha": "2026-11-17T18:06:59+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "0e7f646f337f13af",
+      "titulo": "Director del Sena denunció que están presionando a aprendices para llenar marchas contra el gobierno",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/denuncian-presiones-para-llenar-marchas-con-aprendices-del-sena-PG43677080",
+      "fecha": "2026-11-17T18:04:51+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "a5093fbd98195cac",
+      "titulo": "La Rosa suspende operaciones en Dosquebradas",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/noticias/la-rosa-suspende-operaciones-en-dosquebradas/",
+      "fecha": "2026-11-17T18:04:01+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "82666ff60b821411",
+      "titulo": "Estados Unidos enfrenta nueva falla tecnológica: ahora afecta la red interna de la NSA",
+      "categoria": "Internacional",
+      "fuente": "La FM Internacional",
+      "url": "https://www.lafm.com.co/internacional/estados-unidos-nueva-falla-tecnologicadanos-red-interna-nsa-417429",
+      "fecha": "2026-11-17T18:03:45+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "8000fcca294ca7fc",
+      "titulo": "La ciencia quiere jubilar el IMC como medida de la obesidad. Pero sustituirlo por una cinta métrica tampoco es tan sencillo",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/medicina-y-salud/ciencia-quiere-jubilar-imc-como-medida-obesidad-sustituirlo-cinta-metrica-tampoco-sencillo",
+      "fecha": "2026-11-17T18:01:22+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "28467772df87399f",
+      "titulo": "¿Quién paga la próxima sequía? Una conversación con William Hogan",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/red-de-expertos/red-social/quien-paga-la-proxima-sequia-una-conversacion-con-william-hogan/",
+      "fecha": "2026-11-17T18:00:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "6a74ff428093bae5",
+      "titulo": "Agencia de Seguridad de EE.UU. tiene las comunicaciones internas caídas",
+      "categoria": "Internacional",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/globoeconomia/agencia-de-seguridad-de-ee-uu-tiene-las-comunicaciones-internas-caidas-4526470",
+      "fecha": "2026-11-17T17:59:56+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "d84e7ec2c6fb6325",
+      "titulo": "Habló patrullera de la Policía víctima de ataque racista en Cali: dio detalles sobre el hecho y agradeció el respaldo de las autoridades",
+      "categoria": "Cali",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/cali/hablo-patrullera-de-la-policia-victima-de-ataque-racista-en-cali-dio-detalles-sobre-el-hecho-y-agradecio-el-respaldo-de-las-autoridades-3601718",
+      "fecha": "2026-11-17T17:59:25+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "472f6a8ca878ebf2",
+      "titulo": "Creg amplía medidas regulatorias para el suministro de energía ante la llegada de El Niño",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/economia/creg-amplia-medidas-regulatorias-para-el-suministro-de-energia-ante-la-llegada-de-el-nino-4526398",
+      "fecha": "2026-11-17T17:57:46+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "be7c661d3d575319",
+      "titulo": "PIB cae 0,8% frente al trimestre anterior y crece 0,5% anual",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/en-vivo/pib-cae-08-frente-al-trimestre-anterior-y-crece-05-anual/",
+      "fecha": "2026-11-17T17:47:33+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "6e3c6a929c1cd34e",
+      "titulo": "Jensen Huang rompe su silencio tras el escándalo y dice que está dispuesto a regresar de consejero delegado a Nvidia",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/us/economia/2026-11-17/jensen-huang-dice-que-esta-dispuesto-a-regresar-como-consejero-delegado-de-nvidia.html",
+      "fecha": "2026-11-17T17:42:46+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "6e07d5fb8bba65d3",
+      "titulo": "“Disminuir la incertidumbre”: la apuesta de Henao para el Fondo Milagro",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/en-vivo/disminuir-la-incertidumbre-la-apuesta-de-henao-para-el-fondo-milagro/",
+      "fecha": "2026-11-17T17:40:42+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "ed6c94d27d1b85f1",
+      "titulo": "¡Macabro hallazgo en el Jarillón! Encontraron a un hombre muerto en zona boscosa de Alfonso López",
+      "categoria": "Cali",
+      "fuente": "Q'hubo Cali",
+      "url": "https://www.qhubocali.com/judiciales/macabro-hallazgo-en-el-jarillon-encontraron-a-un-hombre-muerto-en-zona-boscosa-de-alfonso-lopez/",
+      "fecha": "2026-11-17T17:40:16+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "6c24d0f1a8b91b7a",
+      "titulo": "Los funcionarios públicos protestan para reclamar mayores salarios en una Francia en crisis",
+      "categoria": "Internacional",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/los-funcionarios-públicos-protestan-para-reclamar-mayores-salarios-en-una-francia-en-crisis/a-79974558?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-17T17:37:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "0dd0707f2b101d49",
+      "titulo": "CDT en Colombia para la segunda quincena de noviembre: Cinco bancos que pagan intereses por encima del 12%",
+      "categoria": "Economía",
+      "fuente": "La FM Economía",
+      "url": "https://www.lafm.com.co/economia/cdt-colombia-segunda-quincena-noviembre-rentabilidad-mas-12-por-ciento-417427",
+      "fecha": "2026-11-17T17:34:48+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "5efe8166f7be5ecb",
+      "titulo": "Disney superó previsiones trimestrales gracias al impulso de Marvel en streaming",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/ocio/disney-supero-previsiones-trimestrales-gracias-al-impulso-de-marvel-en-streaming-4526433",
+      "fecha": "2026-11-17T17:32:54+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "f1d91f767bc03fd6",
+      "titulo": "Lo de Pattinson como Bond no es casual, porque todas las películas las protagonizan los mismos: Zendaya, Holland, Hathaway, Pugh...",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/cine-y-tv/pattinson-como-bond-no-casual-porque-todas-peliculas-protagonizan-mismos-zendaya-holland-hathaway-pugh",
+      "fecha": "2026-11-17T17:31:21+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "d291148c9f6e2283",
+      "titulo": "“El que no dé chicle, no sirve y se va”: De la Espriella responde a cambios en su gobierno",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/abelardo-responde-tras-salida-funcionarios-el-que-no-de-chicle-no-sirve-HG43674157",
+      "fecha": "2026-11-17T17:31:14+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "8ac9f17b85212662",
+      "titulo": "Estas son las partes que componen la \"mesa tripartita\" que definirá el aumento al mínimo",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/economia/estas-son-las-partes-que-componen-la-mesa-tripartita-que-definira-el-aumento-al-minimo-4526375",
+      "fecha": "2026-11-17T17:27:55+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "adeafc72953712fa",
+      "titulo": "Con visto bueno del FMI termina su visita de consulta en Colombia",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/en-vivo/con-visto-bueno-del-fmi-termina-su-visita-de-consulta-en-colombia/",
+      "fecha": "2026-11-17T17:26:13+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "4bab61ef5a0d943a",
+      "titulo": "Imágenes | La programación de los primeras dos fechas de cuadrangulares de Liga",
+      "categoria": "Deportes",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/deportes/america-de-cali/fechas-cuadrangulares-liga-17-11-2026/",
+      "fecha": "2026-11-17T17:25:18+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "10b1846005e607ed",
+      "titulo": "Latam ve espacio para traer más aviones a Colombia y pide mejorar el uso de los slots",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/empresas/latam-ve-espacio-para-traer-mas-aviones-a-colombia-y-pide-mejorar-el-uso-de-los-slots-4526410",
+      "fecha": "2026-11-17T17:22:52+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "3d5d338a66368e20",
+      "titulo": "El gran hito del Voyager: cuánto es un día luz, la distancia más lejana a la que llega un objeto creado por el ser humano",
+      "categoria": "Internacional",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/cmgrewv5zxqro?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-17T17:21:46+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "96f4d72cd6a4741f",
+      "titulo": "Cartagena despide a Luis Miguel Piterson, joven promesa del fútbol colombiano que las balas apagaron la noche del domingo",
+      "categoria": "Deportes",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/cartagena-despide-a-luis-miguel-piterson-promesa-del-futbol-colombiano-que-las-balas-apagaron-3601685",
+      "fecha": "2026-11-17T17:18:44+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "77298531d498db25",
+      "titulo": "Resultados del PIB: la economía colombiana crece por el lado del gasto, no tanto en la producción nacional",
+      "categoria": "Economía",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/finanzas/resultados-del-pib-la-economia-colombiana-crece-por-el-lado-del-gasto-no-tanto-en-la-produccion-nacional-506512",
+      "fecha": "2026-11-17T17:15:54+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "e4105233fd795e9b",
+      "titulo": "Ya son oficiales: Xiaomi presenta sus nuevos auriculares con formato clip y llegan junto con un estuche tipo joyero",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/seleccion/oficiales-xiaomi-presenta-sus-nuevos-auriculares-formato-clip-llegan-estuche-tipo-joyero",
+      "fecha": "2026-11-17T17:15:22+00:00",
+      "imagen": ""
+    },
     {
       "id": "b29d16d2a55aaf6a",
       "titulo": "Tener empleo formal no garantiza estabilidad financiera: estas son las dificultades de los trabajadores",
@@ -8,6 +242,15 @@
       "fuente": "Portafolio",
       "url": "https://www.portafolio.co/economia/tener-empleo-formal-no-garantiza-estabilidad-financiera-estas-son-las-dificultades-de-los-trabajadores-506513",
       "fecha": "2026-11-17T17:12:16+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "5310cc3761a378fe",
+      "titulo": "Cayó “Primo Gay”, pero el Gobierno tiene pendiente estos tres criminales en la lista de los más buscados",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/objetivos-alto-valor-colombia-mordisco-calarca-chiquito-malo-CH43668831",
+      "fecha": "2026-11-17T17:09:30+00:00",
       "imagen": ""
     },
     {
@@ -116,6 +359,15 @@
       "fuente": "BBC Mundo",
       "url": "https://www.bbc.com/mundo/articles/c5zjrdmvj240o?at_medium=RSS&at_campaign=rss",
       "fecha": "2026-11-17T16:48:47+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "2fdf5a55568ccd3e",
+      "titulo": "“Nuestro presidente derrotó a un gobierno corrupto”: cuestionan el uso de cuentas oficiales para criticar a la oposición",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/gobierno-petro-uso-politico-cuentas-oficiales-redes-sociales-DH43665723",
+      "fecha": "2026-11-17T16:46:53+00:00",
       "imagen": ""
     },
     {
@@ -228,7 +480,7 @@
     },
     {
       "id": "d42fc79b9acdce92",
-      "titulo": "Alemania presupuestará 20 millones de euros para enviar a 40 migrantes al centro de deportación europeo en Ruanda",
+      "titulo": "Alemania presupuestará 20 millones de euros para enviar a 40 migrantes al centro de deportación en Ruanda",
       "categoria": "Colombia",
       "fuente": "El País Colombia",
       "url": "https://elpais.com/internacional/2026-11-17/alemania-presupuestara-20-millones-de-euros-para-enviar-a-40-migrantes-al-centro-de-deportacion-europeo-en-ruanda.html",
@@ -288,258 +540,6 @@
       "url": "https://www.xataka.com/seleccion/xiaomi-smart-band-11-oficial-pantalla-2-000-nits-21-dias-bateria-versiones-nfc-para-pagar-muneca",
       "fecha": "2026-11-17T16:15:25+00:00",
       "imagen": ""
-    },
-    {
-      "id": "20135881fec79636",
-      "titulo": "Multinacional alemana abre convocatoria para cerca de 200 empleos en Colombia: así puede aplicar",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/empleo/multinacional-alemana-abre-convocatoria-para-cerca-de-200-empleos-en-colombia-asi-puede-aplicar-506500",
-      "fecha": "2026-11-17T16:13:59+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "6d31951b62ac90eb",
-      "titulo": "Dos rutas del MÍO tendrán desvíos por obras en la vía",
-      "categoria": "Cali",
-      "fuente": "Q'hubo Cali",
-      "url": "https://www.qhubocali.com/asi-paso/dos-rutas-del-mio-tendran-desvios-por-obras-en-la-via/",
-      "fecha": "2026-11-17T16:12:16+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "6e3c6a929c1cd34e",
-      "titulo": "Jensen Huang rompe su silencio tras el escándalo y dice que está dispuesto a regresar de consejero delegado a Nvidia",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/us/economia/2026-11-17/jensen-huang-dice-que-esta-dispuesto-a-regresar-como-consejero-delegado-de-nvidia.html",
-      "fecha": "2026-11-17T16:12:06+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "8cda918f84f8608c",
-      "titulo": "“Madrúgale a diciembre”: la apuesta de Mibanco para anticiparse a la temporada de fin de año",
-      "categoria": "Economía",
-      "fuente": "La FM Economía",
-      "url": "https://www.lafm.com.co/economia/madrugale-a-diciembre-la-apuesta-de-mibanco-para-anticiparse-a-la-temporada-de-fin-de-ano-417423",
-      "fecha": "2026-11-17T16:07:45+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "70de2581f67cd53d",
-      "titulo": "La economía creció 1,44% anual en septiembre y registró un repunte mensual de 2,82%",
-      "categoria": "Economía",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/economia/la-economia-crecio-1-44-anual-en-septiembre-y-registro-un-repunte-mensual-de-2-82-4526342",
-      "fecha": "2026-11-17T16:05:40+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "4a26d8fa886d594d",
-      "titulo": "Decoración de Navidad gigante se cayó al interior de un local de un centro comercial en Bucaramanga: ‘Partió la mesa’",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/decoracion-de-navidad-gigante-se-cayo-al-interior-de-un-local-de-un-centro-comercial-en-bucaramanga-partio-la-mesa-3601662",
-      "fecha": "2026-11-17T16:05:11+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "05b9407f4381021a",
-      "titulo": "China recibe a los líderes mundiales en Shenzhen, \"la ciudad de los sueños\": esto es lo que no verán",
-      "categoria": "Deportes",
-      "fuente": "BBC Mundo",
-      "url": "https://www.bbc.com/mundo/articles/cqevrg8yr429o?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-17T16:05:06+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "8d55a4197daac785",
-      "titulo": "La economía colombiana creció 0,5 % en el tercer trimestre, por debajo de lo previsto",
-      "categoria": "Economía",
-      "fuente": "La FM Economía",
-      "url": "https://www.lafm.com.co/economia/pib-de-colombia-crecio-0-5-por-ciento-en-el-tercer-trimestre-de-2026-417422",
-      "fecha": "2026-11-17T16:03:59+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "7d5f66a4af4d2cdd",
-      "titulo": "‘Hay que revisar lo que se enseña’: De la Espriella pide actualizar los programas del Sena",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/gobierno/hay-que-revisar-lo-que-se-ensena-de-la-espriella-pide-actualizar-los-programas-del-sena-506507",
-      "fecha": "2026-11-17T16:01:34+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "390e36e6a26d5ef5",
-      "titulo": "Premios Xataka Verisure 2026: sigue hoy nuestra gala y pregala en directo con Ana Brito, muchos sorteos y más sorpresas",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/xataka/premios-xataka-verisure-2026-sigue-hoy-nuestra-gala-pregala-directo-ana-brito-muchos-sorteos-sorpresas",
-      "fecha": "2026-11-17T16:01:21+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "3754c5f01b147e66",
-      "titulo": "Un ataque de Ucrania \"sin precedentes\" destruye parcialmente el emblemático puente de Putin en Crimea",
-      "categoria": "Internacional",
-      "fuente": "BBC Mundo",
-      "url": "https://www.bbc.com/mundo/articles/cje39lr0v1w7o?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-17T16:00:58+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "24a91f5851422718",
-      "titulo": "Video | América recibe a Inter en semifinales de Copa, un juego vital para el título",
-      "categoria": "Valle del Cauca",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/deportes/america-de-cali/video-america-de-cali-copa-recibe-a-inter-en-semifinales-17-11-2026/",
-      "fecha": "2026-11-17T15:58:27+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "6418738c50c748d8",
-      "titulo": "Cómo EE. UU. puede ayudar a Colombia a crecer su economía al 6% y qué sectores pueden impulsarlo",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/gobierno/mas-de-us-6-000-millones-llegarian-a-colombia-desde-estados-unidos-que-sectores-recibirian-el-capital-506498",
-      "fecha": "2026-11-17T15:56:50+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "0354b4373e047005",
-      "titulo": "Vivienda sin cuota inicial: estos serían los requisitos para acceder al subsidio de 30 salarios mínimos",
-      "categoria": "Economía",
-      "fuente": "La FM Economía",
-      "url": "https://www.lafm.com.co/economia/subsidio-de-vivienda-sin-cuota-inicial-30-salarios-minimos-requisitos-beneficios-417413",
-      "fecha": "2026-11-17T15:55:59+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "4df59c118d3052a6",
-      "titulo": "El ataque contra el puente de Crimea muestra la necesidad de negociar para terminar la guerra, dice Johann Wadephul",
-      "categoria": "Internacional",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/el-ataque-contra-el-puente-de-crimea-muestra-la-necesidad-de-negociar-para-terminar-la-guerra-dice-johann-wadephul/a-79973250?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-17T15:55:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "6c27518b08d46026",
-      "titulo": "El Niño pone en alerta al sector eléctrico: autoridades refuerzan medidas ante mínimos históricos de embalses",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/gobierno/el-nino-pone-en-alerta-al-sector-electrico-autoridades-refuerzan-medidas-ante-minimos-historicos-de-embalses-506505",
-      "fecha": "2026-11-17T15:51:07+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "4068e2e5d5136be6",
-      "titulo": "Postobón invirtió $374 millones en 17 proyectos de asociaciones de productores de fruta",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/empresas/postobon-invirtio-374-millones-en-17-proyectos-de-asociaciones-de-agricultores-4526332",
-      "fecha": "2026-11-17T15:50:06+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "31c338dc4e23e7ee",
-      "titulo": "Barranquilla se pone a punto para la final de la Sudamericana: aumentan controles en hoteles y refuerzan vigilancia contra la explotación sexual",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/barranquilla/barranquilla-se-pone-a-punto-para-la-final-de-la-sudamericana-aumentan-controles-en-hoteles-y-refuerzan-vigilancia-contra-la-explotacion-sexual-3601661",
-      "fecha": "2026-11-17T15:50:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "3eda5023fad2b5d9",
-      "titulo": "Estados Unidos confirma que continúa su investigación a Megaspeed, la empresa en el centro del escándalo de Nvidia",
-      "categoria": "Internacional",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/us/economia/2026-11-17/estados-unidos-confirma-que-continua-su-investigacion-a-megaspeed-la-empresa-en-el-centro-del-escandalo-de-nvidia.html",
-      "fecha": "2026-11-17T15:48:17+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "7406c4c943afea3a",
-      "titulo": "Naufragio en la Alta Guajira deja un niño de tres años muerto y seis personas desaparecidas",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/naufragio-en-la-alta-guajira-deja-un-nino-de-tres-anos-muerto-y-seis-personas-desaparecidas-3601646",
-      "fecha": "2026-11-17T15:46:27+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "1d9207daba989c27",
-      "titulo": "FMI advierte de \"graves consecuencias\" sin un ajuste fiscal en el corto plazo",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/economia/fmi-aprueba-la-ley-de-rescate-y-advierte-de-graves-consecuencias-sin-un-ajuste-fiscal-4526320",
-      "fecha": "2026-11-17T15:45:27+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "3affcf4a15807b6f",
-      "titulo": "La foto: Restrepo se reunió con el demócrata Gregory Meeks",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/en-vivo/la-foto-restrepo-se-reunio-con-el-congresista-democrata-gregory-meeks/",
-      "fecha": "2026-11-17T15:43:50+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "b9b8a24e18483f06",
-      "titulo": "Trámite de pasaporte en el Valle: estos son los 3 errores que debe evitar al asistir a su cita",
-      "categoria": "Valle del Cauca",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/cali/tramite-pasaporte-valle-errores-debe-evitar-asistir-cita-17-11-2026/",
-      "fecha": "2026-11-17T15:39:41+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "f3bcd27a0c975ce5",
-      "titulo": "Jensen Huang acepta testificar ante el Congreso el 1 de diciembre tras su salida de Nvidia",
-      "categoria": "Colombia",
-      "fuente": "La FM Internacional",
-      "url": "https://www.lafm.com.co/internacional/jensen-huang-exceo-nvidia-acepta-testificar-capitolio-417415",
-      "fecha": "2026-11-17T15:36:49+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "15c107c9100a2819",
-      "titulo": "El periodista Ramón Lobo ya tiene una placa conmemorativa en su casa de Madrid",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/espana/madrid/2026-11-17/el-periodista-ramon-lobo-ya-tiene-una-placa-conmemorativa-en-su-casa-de-madrid.html",
-      "fecha": "2026-11-17T15:34:48+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "79bcf7af62ced9d8",
-      "titulo": "El Viagra podría ralentizar los efectos del Alzheimer, según nuevo ensayo clínico",
-      "categoria": "Internacional",
-      "fuente": "La FM Internacional",
-      "url": "https://www.lafm.com.co/internacional/viagra-alzheimer-ensayo-clinico-ralentizacion-perdida-memoria-417414",
-      "fecha": "2026-11-17T15:33:40+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "0a181a749c1d14c1",
-      "titulo": "¿Qué provocó el incendio en el Gran San? Esto respondió su gerente",
-      "categoria": "Colombia",
-      "fuente": "La FM Actualidad",
-      "url": "https://www.lafm.com.co/actualidad/causas-incendio-gran-san-esto-respondio-su-gerente-417409",
-      "fecha": "2026-11-17T15:32:47+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "a1ca1adf2678fac4",
-      "titulo": "Nvidia es el Super Glue de la industria de la IA. Sin Huang al frente, temen que sea pegamento de barra",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/empresas-y-economia/nvidia-super-glue-industria-ia-huang-al-frente-temen-que-sea-pegamento-barra",
-      "fecha": "2026-11-17T15:31:21+00:00",
-      "imagen": ""
     }
   ],
   "estado_fuentes": [
@@ -590,7 +590,7 @@
       "nombre": "BBC Mundo",
       "url": "https://feeds.bbci.co.uk/mundo/rss.xml",
       "estado": "correcto",
-      "titulares": 23
+      "titulares": 24
     },
     {
       "nombre": "DW Español",
@@ -620,13 +620,13 @@
       "nombre": "La FM Deportes",
       "url": "https://www.lafm.com.co/rss/deportes.xml",
       "estado": "correcto",
-      "titulares": 17
+      "titulares": 16
     },
     {
       "nombre": "La FM Economía",
       "url": "https://www.lafm.com.co/rss/economia.xml",
       "estado": "correcto",
-      "titulares": 18
+      "titulares": 20
     },
     {
       "nombre": "La FM Internacional",
@@ -644,13 +644,13 @@
       "nombre": "Q'hubo Cali",
       "url": "https://www.qhubocali.com/feed/",
       "estado": "correcto",
-      "titulares": 8
+      "titulares": 9
     },
     {
       "nombre": "El Colombiano — Colombia",
       "url": "https://www.elcolombiano.com/rss/Colombia.xml",
       "estado": "correcto",
-      "titulares": 30
+      "titulares": 34
     },
     {
       "nombre": "El Diario — Pereira",
