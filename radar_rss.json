@@ -1,6 +1,51 @@
 {
-  "ultima_actualizacion": "2026-11-17T05:39:58.858674+00:00",
+  "ultima_actualizacion": "2026-11-17T06:43:05.482714+00:00",
   "titulares_rss": [
+    {
+      "id": "1228a961c825c3fa",
+      "titulo": "Milagro Week arranca en Nueva York con anuncios de inversiones por US$25.900 millones",
+      "categoria": "Economía",
+      "fuente": "La FM Economía",
+      "url": "https://www.lafm.com.co/economia/colombia-avance-milagro-week-estados-unidos-417373",
+      "fecha": "2026-11-17T06:29:12+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "3f08e672f957dc74",
+      "titulo": "En Oviedo han montado un cowork en mitad de la naturaleza y no faltan ni ayudas ni wifi de alta velocidad",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/magnet/oviedo-han-montado-cowork-mitad-naturaleza-no-faltan-ayudas-wifi-alta-velocidad",
+      "fecha": "2026-11-17T06:01:23+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "a9637805f6c3b80a",
+      "titulo": "Las tribulaciones del Pacto Histórico en medio del escándalo de Petro",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/silla-nacional/las-tribulaciones-del-pacto-historico-en-medio-del-escandalo-de-petro/",
+      "fecha": "2026-11-17T06:00:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "2146744b89c6f150",
+      "titulo": "Cierran paso por dos puentes claves en Kiev tras nuevo ataque ruso",
+      "categoria": "Internacional",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/cierran-paso-por-dos-puentes-claves-en-kiev-tras-nuevo-ataque-ruso/a-79964881?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-17T06:00:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "21c33175fbccf191",
+      "titulo": "Hay billones para invertir, pero no para reconstruir Risaralda",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/actualidad/hay-billones-para-invertir-pero-no-para-reconstruir-risaralda/",
+      "fecha": "2026-11-17T05:42:43+00:00",
+      "imagen": ""
+    },
     {
       "id": "d9bc270f23c478fa",
       "titulo": "El chollo del día en Lidl, hoy 17 de noviembre, es esta solución sin obras para usar los enchufes desaprovechados tras el sofá o los muebles",
@@ -407,6 +452,24 @@
       "imagen": ""
     },
     {
+      "id": "93876d55a73d415e",
+      "titulo": "Populismo, arma mortal",
+      "categoria": "Colombia",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/opinion/columnistas/populismo-arma-mortal/",
+      "fecha": "2026-11-17T05:00:15+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "7fce1f8794297d48",
+      "titulo": "Posesión de Danilo Fernández como nuevo concejal de Manizales",
+      "categoria": "Colombia",
+      "fuente": "La Patria — Caldas",
+      "url": "https://www.lapatria.com/galerias/posesion-de-danilo-fernandez-como-nuevo-concejal-de-manizales",
+      "fecha": "2026-11-17T05:00:00+00:00",
+      "imagen": ""
+    },
+    {
       "id": "70bcebf6cb0a6348",
       "titulo": "Indepaz denuncia muerte de líder juvenil en Cauca durante un presunto procedimiento de la Fuerza Pública: van 135 líderes sociales asesinados en 2026",
       "categoria": "Colombia",
@@ -476,69 +539,6 @@
       "fuente": "La FM Economía",
       "url": "https://www.lafm.com.co/economia/abelardo-de-la-espriella-milagro-week-inversion-extranjera-empresarios-internacionales-economia-colombiana-417364",
       "fecha": "2026-11-17T01:19:57+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "169b7bad7f6301a8",
-      "titulo": "DNI de Petro habría intentado obtener censo electoral antes de la primera vuelta",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/rene-guarin-informacion-carta-dni-informacion-campana-registraduria-LE43652944",
-      "fecha": "2026-11-17T01:13:18+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "4578c31c474658bc",
-      "titulo": "Rusia y Ucrania intercambian ataques nocturnos con drones",
-      "categoria": "Internacional",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/rusia-y-ucrania-intercambian-ataques-nocturnos-con-drones/a-79964444?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-17T01:12:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "01d16d5a1733d0b2",
-      "titulo": "Golpe al narcotráfico en la costa Pacífica de Nariño: así fue como el Ejército destruyó siete laboratorios de coca en menos de 48 horas",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/cali/golpe-al-narcotrafico-en-la-costa-pacifica-de-narino-asi-fue-como-el-ejercito-destruyo-siete-laboratorios-de-coca-en-menos-de-48-horas-3601499",
-      "fecha": "2026-11-17T01:04:16+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "d44b69c1c0d77af2",
-      "titulo": "EE.UU. anuncia arresto de capo guatemalteco y ofrece recompensa por otro",
-      "categoria": "Internacional",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/ee-uu-anuncia-arresto-de-capo-guatemalteco-y-ofrece-recompensa-por-otro/a-79964435?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-17T00:59:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "c5579d71a4a23361",
-      "titulo": "“No toleramos el racismo”: Policía repudió insultos contra una joven auxiliar en Cali",
-      "categoria": "Cali",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/racismo-policia-auxiliar-video-cali-denuncia-GE43652657",
-      "fecha": "2026-11-17T00:45:31+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "080b1e20459f065a",
-      "titulo": "Dolor en Boyacá por la muerte de cuatro mineros en una explosión: el municipio de Chita se prepara para despedir a las víctimas",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/dolor-en-boyaca-por-la-muerte-de-cuatro-mineros-en-una-explosion-el-municipio-de-chita-se-prepara-para-despedir-a-las-victimas-3601482",
-      "fecha": "2026-11-17T00:26:46+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "63cc64a8fdd69726",
-      "titulo": "Desayuno, almuerzo y comida a 2.200 pesos en la Universidad del Tolima: iniciativa para garantizar alimentación a los estudiantes",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/desayuno-almuerzo-y-comida-a-2-200-pesos-en-la-universidad-del-tolima-iniciativa-para-garantizar-alimentos-a-los-estudiantes-3601488",
-      "fecha": "2026-11-17T00:26:17+00:00",
       "imagen": ""
     }
   ],
@@ -614,7 +614,7 @@
       "nombre": "Diario Occidente",
       "url": "https://occidente.co/feed/",
       "estado": "correcto",
-      "titulares": 3
+      "titulares": 4
     },
     {
       "nombre": "La FM Deportes",
@@ -626,7 +626,7 @@
       "nombre": "La FM Economía",
       "url": "https://www.lafm.com.co/rss/economia.xml",
       "estado": "correcto",
-      "titulares": 10
+      "titulares": 11
     },
     {
       "nombre": "La FM Internacional",
@@ -667,9 +667,8 @@
     {
       "nombre": "La Patria — Caldas",
       "url": "https://www.lapatria.com/rss.xml",
-      "estado": "error",
-      "titulares": 0,
-      "detalle": "HTTPSConnectionPool(host='www.lapatria.com', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.lapatria.com', port=443) at 0x73aade3fb410>, 'Connection to www.lapatria.com timed out"
+      "estado": "correcto",
+      "titulares": 8
     }
   ]
 }
