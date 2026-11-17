@@ -1,6 +1,51 @@
 {
-  "ultima_actualizacion": "2026-11-17T07:59:57.377507+00:00",
+  "ultima_actualizacion": "2026-11-17T09:12:08.136959+00:00",
   "titulares_rss": [
+    {
+      "id": "9b1a2aff4879c4b6",
+      "titulo": "En 1919, Nueva York levantó dos pirámides con 12.000 cascos alemanes. Alguien tenía que pagar la factura de la Primera Guerra Mundial",
+      "categoria": "Deportes",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/magnet/1919-nueva-york-levanto-dos-piramides-12-000-cascos-alemanes-alguien-tenia-que-pagar-factura-primera-guerra-mundial",
+      "fecha": "2026-11-17T09:01:28+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "890ed905137c039f",
+      "titulo": "La huelga de maquinistas colapsa Madrid y Barcelona con los servicios mínimos en el aire",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/movilidad/huelga-maquinistas-colapsa-madrid-barcelona-servicios-minimos-aire",
+      "fecha": "2026-11-17T08:34:28+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "4d3961c896861cc2",
+      "titulo": "Cuatro clásicos y un remake: así es el pack de The Legend of Zelda que trae una Game & Watch y el nuevo 'Ocarina of Time'",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/seleccion/cuatro-clasicos-remake-asi-pack-the-legend-of-zelda-que-trae-game-watch-nuevo-ocarina-of-time",
+      "fecha": "2026-11-17T08:33:54+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "bfb315fd661774c1",
+      "titulo": "Google tiene una idea para que programar con IA gaste menos: que el modelo caro solo piense y el barato haga el trabajo",
+      "categoria": "Tecnología",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/robotica-e-ia/google-tiene-idea-programar-ia-gaste-que-modelo-caro-solo-piense-barato-haga-trabajo",
+      "fecha": "2026-11-17T08:01:25+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "9bde005fd7891e70",
+      "titulo": "Amazon tiene a precio de liquidación (499 euros) esta tele de 75 pulgadas compatible con Alexa+ y HDR10+",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/seleccion/amazon-tiene-a-precio-liquidacion-499-euros-esta-tele-75-pulgadas-compatible-alexa-hdr10",
+      "fecha": "2026-11-17T07:59:44+00:00",
+      "imagen": ""
+    },
     {
       "id": "f1fccc153f1b862e",
       "titulo": "Mindefensa rechaza insultos racistas contra auxiliar de Policía en Cali: uniformada recibirá acompañamiento psicológico y jurídico",
@@ -65,12 +110,30 @@
       "imagen": ""
     },
     {
+      "id": "21c33175fbccf191",
+      "titulo": "Hay billones para invertir, pero no para reconstruir Risaralda",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/actualidad/hay-billones-para-invertir-pero-no-para-reconstruir-risaralda/",
+      "fecha": "2026-11-17T05:42:43+00:00",
+      "imagen": ""
+    },
+    {
       "id": "d9bc270f23c478fa",
       "titulo": "El chollo del día, hoy 17 de noviembre, en Lidl es esta solución sin obras para usar los enchufes desaprovechados tras los muebles o el sofá",
       "categoria": "Colombia",
       "fuente": "Xataka",
       "url": "https://www.xataka.com/seleccion/chollo-dia-lidl-hoy-17-noviembre-esta-solucion-obras-para-usar-enchufes-desaprovechados-sofa-muebles",
       "fecha": "2026-11-17T05:15:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "95460f7183510396",
+      "titulo": "Sicarios le dieron directo a la cabeza",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/judicial/sicarios-le-dieron-directo-a-la-cabeza/",
+      "fecha": "2026-11-17T05:11:53+00:00",
       "imagen": ""
     },
     {
@@ -98,6 +161,24 @@
       "fuente": "La República",
       "url": "https://www.larepublica.co/globoeconomia/colombia-es-el-quinto-pais-en-la-region-con-mas-confianza-en-el-gobierno-4525163",
       "fecha": "2026-11-17T05:04:06+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "878270fda8ad6821",
+      "titulo": "«No se fije en gastos, compadre»",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/punto-final/no-se-fije-en-gastos-compadre/",
+      "fecha": "2026-11-17T05:03:57+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "d15797680a281f32",
+      "titulo": "Dosquebradas le apuesta al turismo y al comercio como estrategias de reactivación económica",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/noticias/economia/dosquebradas-le-apuesta-al-turismo-y-al-comercio-como-estrategias-de-reactivacion-economica/",
+      "fecha": "2026-11-17T05:03:09+00:00",
       "imagen": ""
     },
     {
@@ -380,12 +461,66 @@
       "imagen": ""
     },
     {
+      "id": "c4821ab61669ac0b",
+      "titulo": "El choque contra un poste le costó la vida a Manuela",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/judicial/el-choque-contra-un-poste-le-costo-la-vida-a-manuela/",
+      "fecha": "2026-11-17T05:00:51+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "dddb84c93bf14a1a",
+      "titulo": "Murió al caer en un edificio en construcción",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/judicial/murio-al-caer-en-un-edificio-en-construccion/",
+      "fecha": "2026-11-17T05:00:49+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "e0e2f686f08d0b27",
+      "titulo": "Un cumpleaños terminó en tragedia",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/judicial/un-cumpleanos-termino-en-tragedia/",
+      "fecha": "2026-11-17T05:00:43+00:00",
+      "imagen": ""
+    },
+    {
       "id": "060504d5f7e603d6",
       "titulo": "Latam Pass logra extender su programa de millas más allá de los tiquetes aéreos",
       "categoria": "Colombia",
       "fuente": "La República",
       "url": "https://www.larepublica.co/consumo/latam-pass-lleva-su-programa-de-millas-mas-alla-de-los-tiquetes-aereos-4524243",
       "fecha": "2026-11-17T05:00:39+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "9784e866487c01d3",
+      "titulo": "Su hermano lo encontró muerto",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/judicial/su-hermano-lo-encontro-muerto-3/",
+      "fecha": "2026-11-17T05:00:35+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "88695a51e13afb46",
+      "titulo": "Colombia gana presencia en España y una plataforma busca orientar a quienes quieren migrar",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/temas/colombia-gana-presencia-en-espana-y-una-plataforma-busca-orientar-a-quienes-quieren-migrar/",
+      "fecha": "2026-11-17T05:00:35+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "512c90b7669b64c6",
+      "titulo": "La mataron a puñaladas en el parque",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/judicial/la-mataron-a-punaladas-en-el-parque/",
+      "fecha": "2026-11-17T05:00:26+00:00",
       "imagen": ""
     },
     {
@@ -404,141 +539,6 @@
       "fuente": "La Patria — Caldas",
       "url": "https://www.lapatria.com/galerias/posesion-de-danilo-fernandez-como-nuevo-concejal-de-manizales",
       "fecha": "2026-11-17T05:00:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "70bcebf6cb0a6348",
-      "titulo": "Indepaz denuncia muerte de líder juvenil en Cauca durante un presunto procedimiento de la Fuerza Pública: van 135 líderes sociales asesinados en 2026",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/indepaz-denuncia-muerte-de-lider-juvenil-en-cauca-durante-un-presunto-procedimiento-de-la-fuerza-publica-van-135-lideres-sociales-asesinados-en-3601481",
-      "fecha": "2026-11-17T03:17:30+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "c52862bf24b6ff38",
-      "titulo": "Salsa, vallenato y el latido popular: así vibró Palmira en una noche histórica de inclusión y música sin fronteras",
-      "categoria": "Valle del Cauca",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/cali/salsa-vallenato-y-el-latido-popular-asi-vibro-palmira-en-una-noche-historica-de-inclusion-y-musica-sin-fronteras-3601517",
-      "fecha": "2026-11-17T03:03:53+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "15b3872899ea7ea4",
-      "titulo": "Japón denuncia que dos aviones rusos violaron su espacio aéreo y protesta ante Moscú",
-      "categoria": "Internacional",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/japón-denuncia-que-dos-aviones-rusos-violaron-su-espacio-aéreo-y-protesta-ante-moscú/a-79964544?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-17T02:53:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "234824b6c000e931",
-      "titulo": "Cómo lo megamillonarios en Rusia se preparan para un futuro sin Putin",
-      "categoria": "Internacional",
-      "fuente": "BBC Mundo",
-      "url": "https://www.bbc.com/mundo/articles/c91430j35n5ro?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-17T02:46:30+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "38ffef0338984ce2",
-      "titulo": "Sobre liderazgo, autoridad, uniformes y seguridad",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/red-de-expertos/sobre-liderazgo-autoridad-uniformes-y-seguridad/",
-      "fecha": "2026-11-17T02:42:37+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "3ab78ca97d77063b",
-      "titulo": "De sayayin del Bronx a candidato a edil: la historia de Andrés Gutiérrez",
-      "categoria": "Colombia",
-      "fuente": "La FM Actualidad",
-      "url": "https://www.lafm.com.co/actualidad/sayayin-bronx-candidato-edil-andres-gutierrez-417369",
-      "fecha": "2026-11-17T02:05:29+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "bf5fee9fcebeb612",
-      "titulo": "Ornella, la mujer que vende almuerzos a mil pesos en la Cartagena más pobre",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/ornella-la-mujer-que-vende-almuerzos-a-mil-pesos-en-la-cartagena-mas-pobre-3601496",
-      "fecha": "2026-11-17T02:01:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "9c9d209d864da59c",
-      "titulo": "De la Espriella invita a empresarios internacionales a invertir en Colombia durante Milagro Week en Nueva York",
-      "categoria": "Internacional",
-      "fuente": "La FM Economía",
-      "url": "https://www.lafm.com.co/economia/abelardo-de-la-espriella-milagro-week-inversion-extranjera-empresarios-internacionales-economia-colombiana-417364",
-      "fecha": "2026-11-17T01:19:57+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "169b7bad7f6301a8",
-      "titulo": "DNI de Petro habría intentado obtener censo electoral antes de la primera vuelta",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/rene-guarin-informacion-carta-dni-informacion-campana-registraduria-LE43652944",
-      "fecha": "2026-11-17T01:13:18+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "4578c31c474658bc",
-      "titulo": "Rusia y Ucrania intercambian ataques nocturnos con drones",
-      "categoria": "Internacional",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/rusia-y-ucrania-intercambian-ataques-nocturnos-con-drones/a-79964444?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-17T01:12:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "01d16d5a1733d0b2",
-      "titulo": "Golpe al narcotráfico en la costa Pacífica de Nariño: así fue como el Ejército destruyó siete laboratorios de coca en menos de 48 horas",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/cali/golpe-al-narcotrafico-en-la-costa-pacifica-de-narino-asi-fue-como-el-ejercito-destruyo-siete-laboratorios-de-coca-en-menos-de-48-horas-3601499",
-      "fecha": "2026-11-17T01:04:16+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "d44b69c1c0d77af2",
-      "titulo": "EE.UU. anuncia arresto de capo guatemalteco y ofrece recompensa por otro",
-      "categoria": "Internacional",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/ee-uu-anuncia-arresto-de-capo-guatemalteco-y-ofrece-recompensa-por-otro/a-79964435?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-17T00:59:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "c5579d71a4a23361",
-      "titulo": "“No toleramos el racismo”: Policía repudió insultos contra una joven auxiliar en Cali",
-      "categoria": "Cali",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/racismo-policia-auxiliar-video-cali-denuncia-GE43652657",
-      "fecha": "2026-11-17T00:45:31+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "080b1e20459f065a",
-      "titulo": "Dolor en Boyacá por la muerte de cuatro mineros en una explosión: el municipio de Chita se prepara para despedir a las víctimas",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/dolor-en-boyaca-por-la-muerte-de-cuatro-mineros-en-una-explosion-el-municipio-de-chita-se-prepara-para-despedir-a-las-victimas-3601482",
-      "fecha": "2026-11-17T00:26:46+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "63cc64a8fdd69726",
-      "titulo": "Desayuno, almuerzo y comida a 2.200 pesos en la Universidad del Tolima: iniciativa para garantizar alimentación a los estudiantes",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/desayuno-almuerzo-y-comida-a-2-200-pesos-en-la-universidad-del-tolima-iniciativa-para-garantizar-alimentos-a-los-estudiantes-3601488",
-      "fecha": "2026-11-17T00:26:17+00:00",
       "imagen": ""
     }
   ],
@@ -655,9 +655,8 @@
     {
       "nombre": "El Diario — Pereira",
       "url": "https://www.eldiario.com.co/feed/",
-      "estado": "error",
-      "titulares": 0,
-      "detalle": "El feed no contiene entradas."
+      "estado": "correcto",
+      "titulares": 35
     },
     {
       "nombre": "Chocó 7 días",
