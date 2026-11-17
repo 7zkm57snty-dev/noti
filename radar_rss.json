@@ -1,6 +1,24 @@
 {
-  "ultima_actualizacion": "2026-11-17T01:20:59.961871+00:00",
+  "ultima_actualizacion": "2026-11-17T02:35:29.308544+00:00",
   "titulares_rss": [
+    {
+      "id": "3ab78ca97d77063b",
+      "titulo": "De sayayin del Bronx a candidato a edil: la historia de Andrés Gutiérrez",
+      "categoria": "Colombia",
+      "fuente": "La FM Actualidad",
+      "url": "https://www.lafm.com.co/actualidad/sayayin-bronx-candidato-edil-andres-gutierrez-417369",
+      "fecha": "2026-11-17T02:05:29+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "bf5fee9fcebeb612",
+      "titulo": "Ornella, la mujer que vende almuerzos a mil pesos en la Cartagena más pobre",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/ornella-la-mujer-que-vende-almuerzos-a-mil-pesos-en-la-cartagena-mas-pobre-3601496",
+      "fecha": "2026-11-17T02:01:00+00:00",
+      "imagen": ""
+    },
     {
       "id": "9c9d209d864da59c",
       "titulo": "De la Espriella invita a empresarios internacionales a invertir en Colombia durante Milagro Week en Nueva York",
@@ -8,6 +26,24 @@
       "fuente": "La FM Economía",
       "url": "https://www.lafm.com.co/economia/abelardo-de-la-espriella-milagro-week-inversion-extranjera-empresarios-internacionales-economia-colombiana-417364",
       "fecha": "2026-11-17T01:19:57+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "169b7bad7f6301a8",
+      "titulo": "DNI de Petro habría intentado obtener censo electoral antes de la primera vuelta",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/rene-guarin-informacion-carta-dni-informacion-campana-registraduria-LE43652944",
+      "fecha": "2026-11-17T01:13:18+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "4578c31c474658bc",
+      "titulo": "Rusia y Ucrania intercambian ataques nocturnos con drones",
+      "categoria": "Internacional",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/rusia-y-ucrania-intercambian-ataques-nocturnos-con-drones/a-79964444?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-17T01:12:00+00:00",
       "imagen": ""
     },
     {
@@ -35,15 +71,6 @@
       "fuente": "El Colombiano — Colombia",
       "url": "https://www.elcolombiano.com/colombia/racismo-policia-auxiliar-video-cali-denuncia-GE43652657",
       "fecha": "2026-11-17T00:45:31+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "cc243909d459c420",
-      "titulo": "Ataque en San Martín de Loba, Norte de Santander, con explosivos lanzados desde drones: '¡Corran!', decían habitantes de Sardinata en video",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/ataque-en-san-martin-de-loba-norte-de-santander-con-explosivos-lanzados-desde-drones-habitantes-de-sardinata-tuvieron-que-confinarse-en-sus-casas-3601434",
-      "fecha": "2026-11-17T00:41:30+00:00",
       "imagen": ""
     },
     {
@@ -164,6 +191,15 @@
       "imagen": ""
     },
     {
+      "id": "7dc1290d177a3f14",
+      "titulo": "Estos son los alimentos que se salvarían del IVA en Colombia",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/noticias/estos-son-los-alimentos-que-se-salvarian-del-iva-en-colombia/",
+      "fecha": "2026-11-16T22:00:15+00:00",
+      "imagen": ""
+    },
+    {
       "id": "e184a83824e2eab3",
       "titulo": "México aprovecha auge de la IA en EU, pero enfrenta rezagos para convertirlo en productividad",
       "categoria": "Colombia",
@@ -224,6 +260,15 @@
       "fuente": "La República",
       "url": "https://www.larepublica.co/globoeconomia/el-presidente-trump-dice-que-podria-reunirse-con-kim-jong-un-durante-cumbre-apec-4525914",
       "fecha": "2026-11-16T21:30:52+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "09ffba148d7a928f",
+      "titulo": "Google Maps ahora organiza viajes completos con inteligencia artificial",
+      "categoria": "Tecnología",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/temas/tecnologia/google-maps-ahora-organiza-viajes-completos-con-inteligencia-artificial/",
+      "fecha": "2026-11-16T21:30:46+00:00",
       "imagen": ""
     },
     {
@@ -353,6 +398,15 @@
       "imagen": ""
     },
     {
+      "id": "c02f0408c39f878a",
+      "titulo": "Gobierno intensifica búsqueda de dos mujeres secuestradas en La Guajira y Arauca",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/noticias/gobierno-intensifica-busqueda-de-dos-mujeres-secuestradas-en-la-guajira-y-arauca/",
+      "fecha": "2026-11-16T20:30:30+00:00",
+      "imagen": ""
+    },
+    {
       "id": "08d2720642ff0b97",
       "titulo": "Juez pidió a la Cámara investigar a Abelardo por trato a capturados",
       "categoria": "Colombia",
@@ -434,6 +488,15 @@
       "imagen": ""
     },
     {
+      "id": "e5799cb20f148bdf",
+      "titulo": "Colombia ya conoce su camino en el Sudamericano Sub-20 de 2027",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/deportes/colombia-ya-conoce-su-camino-en-el-sudamericano-sub-20-de-2027/",
+      "fecha": "2026-11-16T20:00:55+00:00",
+      "imagen": ""
+    },
+    {
       "id": "e2dfc1d8c7c205e2",
       "titulo": "Una variante genética heredada de los neandertales reduce el volumen del cerebro y el riesgo de esquizofrenia en humanos actuales",
       "categoria": "Colombia",
@@ -470,75 +533,12 @@
       "imagen": ""
     },
     {
-      "id": "b6ee191fa71e718c",
-      "titulo": "Black Friday: cinco preguntas que debería hacerse antes de comprar",
+      "id": "e7ae4c73e462f105",
+      "titulo": "Pacto Histórico mantiene marchas pese a anuncio sobre el IVA",
       "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/black-friday-cinco-preguntas-que-deberia-hacerse-antes-de-comprar-3601451",
-      "fecha": "2026-11-16T19:43:12+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "975f3f65be159a0f",
-      "titulo": "Rusia rechaza la presencia de negociadores europeos en las conversaciones sobre la seguridad de Europa",
-      "categoria": "Internacional",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/internacional/2026-11-16/rusia-rechaza-la-presencia-de-negociadores-europeos-en-las-conversaciones-sobre-la-seguridad-de-europa.html",
-      "fecha": "2026-11-16T19:30:38+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "a88d68758b0b4a10",
-      "titulo": "Qué le falta al Metro de Bogotá para operar en 2028: 4 kilómetros de viaducto y el 15% restante de las obras",
-      "categoria": "Colombia",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/infraestructura/que-le-falta-al-metro-de-bogota-para-operar-en-2028-4-kilometros-de-viaducto-y-el-15-restante-de-las-obras-506464",
-      "fecha": "2026-11-16T19:30:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "6b86437c9f75667e",
-      "titulo": "Dos temblores de magnitud 5,4 y 5,1 sacudieron Perú con siete minutos de diferencia",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/terremotos-en-peru-16-de-noviembre-de-2026-4525880",
-      "fecha": "2026-11-16T19:22:03+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "2899e2fb76fe7251",
-      "titulo": "Qué tan poderosas son las pandillas a las que se enfrenta Bukele en Haití",
-      "categoria": "Internacional",
-      "fuente": "BBC Mundo",
-      "url": "https://www.bbc.com/mundo/watch/cxj05r723gpjo?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-16T19:14:07+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "bb07ea6eae744794",
-      "titulo": "Policía investigado por presuntamente matar a su amigo de la infancia podría quedar en libertad en Meta: ¿por qué familia de la víctima teme medida?",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/policia-investigado-por-presuntamente-matar-a-su-amigo-de-la-infancia-podria-quedar-en-libertad-en-meta-por-que-familia-de-la-victima-teme-medida-3601427",
-      "fecha": "2026-11-16T19:13:14+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "913cd6e33ee727fc",
-      "titulo": "Un dispensador de píldoras abortivas desafía las leyes de Polonia",
-      "categoria": "Internacional",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/un-dispensador-de-píldoras-abortivas-desafía-las-leyes-de-polonia/a-79963388?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-16T19:13:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "43bcdf534004768e",
-      "titulo": "El angustioso rescate de tres personas que quedaron atrapadas en un taxi tras chocar con una camioneta en la vía al mar, en Nariño",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/cali/el-angustioso-rescate-de-tres-personas-que-quedaron-atrapadas-en-un-taxi-tras-chocar-con-una-camioneta-en-la-via-al-mar-en-narino-3601444",
-      "fecha": "2026-11-16T19:03:44+00:00",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/noticias/pacto-historico-mantiene-marchas-pese-a-anuncio-sobre-el-iva/",
+      "fecha": "2026-11-16T19:47:13+00:00",
       "imagen": ""
     }
   ],
@@ -553,7 +553,7 @@
       "nombre": "El Tiempo Cali",
       "url": "https://www.eltiempo.com/rss/colombia_cali.xml",
       "estado": "correcto",
-      "titulares": 8
+      "titulares": 7
     },
     {
       "nombre": "El Espectador",
@@ -614,19 +614,19 @@
       "nombre": "Diario Occidente",
       "url": "https://occidente.co/feed/",
       "estado": "correcto",
-      "titulares": 9
+      "titulares": 5
     },
     {
       "nombre": "La FM Deportes",
       "url": "https://www.lafm.com.co/rss/deportes.xml",
       "estado": "correcto",
-      "titulares": 17
+      "titulares": 16
     },
     {
       "nombre": "La FM Economía",
       "url": "https://www.lafm.com.co/rss/economia.xml",
       "estado": "correcto",
-      "titulares": 11
+      "titulares": 10
     },
     {
       "nombre": "La FM Internacional",
@@ -650,14 +650,13 @@
       "nombre": "El Colombiano — Colombia",
       "url": "https://www.elcolombiano.com/rss/Colombia.xml",
       "estado": "correcto",
-      "titulares": 21
+      "titulares": 22
     },
     {
       "nombre": "El Diario — Pereira",
       "url": "https://www.eldiario.com.co/feed/",
-      "estado": "error",
-      "titulares": 0,
-      "detalle": "El feed no contiene entradas."
+      "estado": "correcto",
+      "titulares": 35
     },
     {
       "nombre": "Chocó 7 días",
