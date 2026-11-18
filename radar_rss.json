@@ -1,6 +1,267 @@
 {
-  "ultima_actualizacion": "2026-11-18T22:33:54.964360+00:00",
+  "ultima_actualizacion": "2026-11-18T23:31:39.117979+00:00",
   "titulares_rss": [
+    {
+      "id": "92806d4477eda246",
+      "titulo": "Binance lanza 'Pay Later', la primera línea de pago diferido respaldada por cripto",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/finanzas/binance-lanza-pay-later-la-primera-linea-de-pago-diferido-respaldada-por-cripto-4527686",
+      "fecha": "2026-11-18T23:29:54+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "41ee4dd645e063e7",
+      "titulo": "Emcali alcanza el 70 % de digitalización de sus trámites: ¿qué cambios prepara para atender a los usuarios?",
+      "categoria": "Cali",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/cali/modernizacion-tecnologica-de-emcali-obsolescencia-ciberseguridad-tramites/",
+      "fecha": "2026-11-18T23:27:17+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "75884c8cfec0e1f2",
+      "titulo": "Colombia busca US$500 millones para impulsar la palma de aceite y nuevos proyectos agrícolas",
+      "categoria": "Colombia",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/empresario/inversion-para-el-campo-colombiano-buscan-us500-millones/",
+      "fecha": "2026-11-18T23:25:57+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "93f4d12725518281",
+      "titulo": "Brasil apunta a una cosecha récord de soja mientras el dólar impulsa los precios",
+      "categoria": "Economía",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/globoeconomia/brasil-apunta-a-una-cosecha-record-de-soja-mientras-el-dolar-impulsa-los-precios-4527859",
+      "fecha": "2026-11-18T23:20:55+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "e238d557e864bd79",
+      "titulo": "Neutralizan explosivo en Santander de Quilichao",
+      "categoria": "Colombia",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/uncategorized/explosivo-en-la-via-panamericana-en-cauca-fue-destruido/",
+      "fecha": "2026-11-18T23:19:04+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "eaeece0b4e5a5b66",
+      "titulo": "Hegseth alardea de la captura de Maduro en la primera visita a Venezuela de un secretario de Defensa de EE.UU. en décadas",
+      "categoria": "Internacional",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/cw30gd28rjn9o?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-18T23:11:04+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "607a7f7eb203bcaa",
+      "titulo": "Salario mínimo de 2027 en Colombia: estas son las fechas de negociación y el plazo para llegar a un acuerdo",
+      "categoria": "Colombia",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/colombia/salario-minimo-de-2027-en-colombia-cronograma-negociacion-fechas/",
+      "fecha": "2026-11-18T23:10:40+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "7e1e09cb10864ae5",
+      "titulo": "Chollazo en Nintendo Switch 2 antes del Black Friday 2026: aquí, de oferta (que se agotará rápido) con varios descuentos disponibles",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/seleccion/chollazo-nintendo-switch-2-antes-black-friday-2026-aqui-oferta-que-se-agotara-rapido-varios-descuentos-disponibles",
+      "fecha": "2026-11-18T23:10:30+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "ac446b2b011cb345",
+      "titulo": "Grupo Éxito proyecta inversiones de hasta US$1.200 millones para los próximos cuatro años",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/empresas/grupo-exito-proyecta-inversiones-de-hasta-us-1-200-millones-para-los-proximos-cuatro-anos-4527773",
+      "fecha": "2026-11-18T23:08:42+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "64f45e3b6150557c",
+      "titulo": "Este es el proyecto de autogeneración solar con baterías de almacenamiento más grande de Colombia y se construirá en el Valle del Cauca",
+      "categoria": "Valle del Cauca",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/cali/este-es-el-proyecto-de-autogeneracion-solar-con-baterias-de-almacenamiento-mas-grande-de-colombia-y-se-construira-en-el-valle-del-cauca-3602132",
+      "fecha": "2026-11-18T23:06:20+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "d4d16b4727cad4b6",
+      "titulo": "Pete Hegseth llegó a Colombia para fortalecer la cooperación en seguridad",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/economia/pete-hegseth-llego-a-colombia-para-fortalecer-la-cooperacion-en-seguridad-4527799",
+      "fecha": "2026-11-18T23:05:59+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "41c73250f4dd807d",
+      "titulo": "Cali registra 284 muertes por siniestros viales en 2026, mientras Colombia reporta un aumento del 19,3 %",
+      "categoria": "Cali",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/cali/siniestros-viales-en-cali-284-muertos-2026-cifras-colombia/",
+      "fecha": "2026-11-18T23:02:31+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "0324027606413a39",
+      "titulo": "Cámara de Comercio de Bogotá dará asesoría a los afectados en Gran San",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/empresas/camara-de-comercio-de-bogota-dara-asesoria-a-los-afectados-en-gran-san-4527810",
+      "fecha": "2026-11-18T23:00:59+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "99e351885877d447",
+      "titulo": "La SAE busca convertir inmuebles bajo su administración en proyectos hoteleros con inversión privada en el Caribe",
+      "categoria": "Economía",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/gobierno/la-sae-busca-convertir-inmuebles-bajo-su-administracion-en-proyectos-hoteleros-con-inversion-privada-en-el-caribe-506572",
+      "fecha": "2026-11-18T23:00:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "4267f97e8ad34a61",
+      "titulo": "Ya es Black Friday en Amazon: estas son las mejores ofertas en Kindle, teléfonos, tablets, ordenadores y más",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/seleccion/black-friday-amazon-estas-mejores-ofertas-kindle-telefonos-tablets-ordenadores",
+      "fecha": "2026-11-18T23:00:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "94118dcccc6ff158",
+      "titulo": "Santander es el tercer departamento con más casos de leptospirosis, una enfermedad transmitida por la orina de roedores infectados",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/santander/santander-es-el-tercer-departamento-con-mas-casos-de-leptospirosis-una-enfermedad-transmitida-por-la-orina-de-roedores-infectados-3602176",
+      "fecha": "2026-11-18T22:58:29+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "57ce733e701fb74f",
+      "titulo": "DSPORTS transmitirá la final de la CONMEBOL Sudamericana 2026 entre Boca Juniors y Atlético Mineiro desde Barranquilla",
+      "categoria": "Deportes",
+      "fuente": "La FM Deportes",
+      "url": "https://www.lafm.com.co/deportes/dsports-transmitira-final-conmebol-sudamericana-2026-boca-juniors-atletico-mineiro-417600",
+      "fecha": "2026-11-18T22:56:33+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "1a499f8e0e5127c8",
+      "titulo": "Aliansalud EPS podrá cambiar de accionista tras autorización de la Supersalud",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/empresas/aliansalud-eps-podra-cambiar-de-accionista-tras-autorizacion-de-la-supersalud-4527805",
+      "fecha": "2026-11-18T22:55:08+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "39d2ec5c215c56df",
+      "titulo": "Ejército frustró presunto atentado contra peaje en Nariño",
+      "categoria": "Colombia",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/colombia/atentado-frustrado-en-el-peaje-el-contadero-deja-un-muerto/",
+      "fecha": "2026-11-18T22:53:49+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "3acbbbd844513e9f",
+      "titulo": "Van cinco ataques con drones en dos meses en el Cauca: un militar se recupera de las últimas explosiones y hallan 32 explosivos en El Tambo",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/cali/van-cinco-ataques-con-drones-en-dos-meses-en-el-cauca-un-militar-se-recupera-de-las-ultimas-explosiones-y-hallan-32-explosivos-en-el-tambo-3602171",
+      "fecha": "2026-11-18T22:52:01+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "3fc59d00c53d935d",
+      "titulo": "¿Sería posible una ruta directa Medellín–París? Francia recibe hasta 258.000 colombianos al año",
+      "categoria": "Colombia",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/seria-posible-una-ruta-directa-medellin-paris-francia-recibe-hasta-258-000-colombianos-al-ano-506618",
+      "fecha": "2026-11-18T22:50:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "9d3a127d9fc0e7aa",
+      "titulo": "Abelardo rechaza plan de Washington para realizar operaciones conjuntas",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/en-vivo/abelardo-rechaza-la-propuesta-de-washington-para-operaciones-conjuntas/",
+      "fecha": "2026-11-18T22:48:27+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "9a99115667d509c3",
+      "titulo": "La Supersalud autorizó cambio en la composición accionaria de la EPS Aliansalud",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/empresas/la-supersalud-autorizo-cambio-en-la-composicion-accionaria-de-aliansalud-4527777",
+      "fecha": "2026-11-18T22:39:33+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "08a02fb28ec64b4b",
+      "titulo": "Policía evitó posible atentado terrorista en el Huila tras encontrar vehículo con 180 kilos de explosivos en zona rural del departamento",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/policia-evito-posible-atentado-terrorista-en-el-huila-tras-encontrar-vehiculo-con-180-kilos-de-explosivos-en-zona-rural-del-departamento-3602169",
+      "fecha": "2026-11-18T22:38:31+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "28647a59818ce827",
+      "titulo": "Anuncian bonos de $190 millones para 155 familias afectadas por el terremoto y convocatoria de vivienda de $50 millones",
+      "categoria": "Colombia",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/cali/bonos-de-vivienda-para-damnificados-en-cali-190-y-50-millones-sismo/",
+      "fecha": "2026-11-18T22:33:32+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "a2b6542d67c9429b",
+      "titulo": "El secretario de Defensa de EE. UU., Pete Hegseth, llegó a Colombia",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/secretario-defensa-ee-uu-pete-hegseth-llego-colombia-KF43759245",
+      "fecha": "2026-11-18T22:32:52+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "e6aacae3167b6745",
+      "titulo": "Otra buena noticia para Kbeto Zuleta y su agrupación: fue dado de alta Nando Badillo, uno de los sobrevivientes más golpeados por la tragedia",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/barranquilla/otra-buena-noticia-para-kbeto-zuleta-y-su-agrupacion-fue-dado-de-alta-nando-badillo-uno-de-los-sobrevivientes-mas-golpeados-por-la-tragedia-3602168",
+      "fecha": "2026-11-18T22:30:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "4888c670dd4681cb",
+      "titulo": "Alcalde de Uribia pide reforzar operativos para rescatar a su esposa, secuestrada hace una semana en La Guajira: 'Presidente, cada minuto cuenta'",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/alcalde-de-uribia-pide-reforzar-operativos-para-rescatar-a-su-esposa-secuestrada-hace-una-semana-en-la-guajira-presidente-cada-minuto-cuenta-3602145",
+      "fecha": "2026-11-18T22:27:52+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "2d0fa8b10fe77855",
+      "titulo": "Familias ingresaron a la fuerza al edificio Bachué en Cali para recuperar sus pertenencias tras el terremoto",
+      "categoria": "Cali",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/cali/edificio-bachue-en-cali-damnificados-ingresan-pertenencias-riesgo/",
+      "fecha": "2026-11-18T22:26:16+00:00",
+      "imagen": ""
+    },
     {
       "id": "325303c5c8620668",
       "titulo": "Lucía Caminos, la primera protagonista femenina de GTA en los 30 años de historia del videojuego",
@@ -17,6 +278,15 @@
       "fuente": "El Tiempo",
       "url": "https://www.eltiempo.com/colombia/medellin/alerta-en-medellin-fuerte-tormenta-electrica-con-granizo-pone-en-nivel-rojo-dos-quebradas-y-paraliza-el-metrocable-3602158",
       "fecha": "2026-11-18T22:06:13+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "b0dc6cf30c6f21e8",
+      "titulo": "La elección de la mesa directiva destapó las divisiones en el Concejo de Cali",
+      "categoria": "Cali",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/politica/graffiti/mesa-directiva-del-concejo-de-cali-2027-james-agudelo-division/",
+      "fecha": "2026-11-18T21:59:38+00:00",
       "imagen": ""
     },
     {
@@ -38,12 +308,12 @@
       "imagen": ""
     },
     {
-      "id": "64f45e3b6150557c",
-      "titulo": "Este es el proyecto de autogeneración solar con baterías de almacenamiento más grande de Colombia y se construirá en el Valle del Cauca",
-      "categoria": "Valle del Cauca",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/cali/este-es-el-proyecto-de-autogeneracion-solar-con-baterias-de-almacenamiento-mas-grande-de-colombia-y-se-construira-en-el-valle-del-cauca-3602132",
-      "fecha": "2026-11-18T21:48:05+00:00",
+      "id": "178d5587a8874110",
+      "titulo": "Chocó busca fortalecer la pesca artesanal con alianza institucional",
+      "categoria": "Colombia",
+      "fuente": "Chocó 7 días",
+      "url": "https://choco7dias.com/choco-busca-fortalecer-la-pesca-artesanal-con-alianza-institucional/",
+      "fecha": "2026-11-18T21:50:49+00:00",
       "imagen": ""
     },
     {
@@ -83,21 +353,21 @@
       "imagen": ""
     },
     {
-      "id": "8b6af1579d7e9139",
-      "titulo": "Mujer fue golpeada frente a su hija de 7 años por un cliente tras caso de intolerancia en Duitama, Boyacá: Policía confirmó la captura del agresor",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/mujer-fue-golpeada-frente-a-su-hija-de-7-anos-por-un-cliente-tras-caso-de-intolerancia-en-duitama-boyaca-policia-confirmo-la-captura-del-agresor-3602063",
-      "fecha": "2026-11-18T21:36:12+00:00",
-      "imagen": ""
-    },
-    {
       "id": "15af03259b4dde0c",
       "titulo": "Así fue la Milagro Week: show, ministros y una meta de inversión superada",
       "categoria": "Colombia",
       "fuente": "La Silla Vacía",
       "url": "https://www.lasillavacia.com/silla-nacional/asi-fue-la-milagro-week-show-ministros-y-una-meta-inversion-superada/",
       "fecha": "2026-11-18T21:34:34+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "17cae2aeb429388c",
+      "titulo": "Comité técnico de las Fuerzas Militares recomendó aplazar compra de sistemas antidrones",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/noticias/comite-tecnico-de-las-fuerzas-militares-recomendo-aplazar-compra-de-sistemas-antidrones/",
+      "fecha": "2026-11-18T21:30:22+00:00",
       "imagen": ""
     },
     {
@@ -137,15 +407,6 @@
       "imagen": ""
     },
     {
-      "id": "b2549fe8c49bb384",
-      "titulo": "Fuerte respuesta del alcalde de Barrancabermeja a De La Espriella por supuestas irregularidades: 'Usted anda con una pistola y yo con un lápiz'",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/santander/fuerte-respuesta-del-alcalde-de-barrancabermeja-a-de-la-espriella-por-supuestas-irregularidades-usted-anda-con-una-pistola-y-yo-con-un-lapiz-3602096",
-      "fecha": "2026-11-18T21:18:13+00:00",
-      "imagen": ""
-    },
-    {
       "id": "f80c7c6fd98a5f4d",
       "titulo": "Gobierno da marcha atrás al IVA para medicina prepagada y anuncia recorte de $23,7 billones en el gasto público",
       "categoria": "Colombia",
@@ -161,15 +422,6 @@
       "fuente": "Portafolio",
       "url": "https://www.portafolio.co/economia/gobierno/gobierno-nacional-apuesta-por-reglas-estables-y-tramites-mas-rapidos-lo-que-propone-el-vicepresidente-506595",
       "fecha": "2026-11-18T21:16:30+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "0dede049e43f52c2",
-      "titulo": "Arrancó el plan para controlar la población de hipopótamos en Colombia: aplicarán eutanasia a 10 ejemplares en Antioquia",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/arranco-el-plan-para-controlar-la-poblacion-de-hipopotamos-en-colombia-aplicaran-eutanasia-a-10-ejemplares-en-antioquia-3602086",
-      "fecha": "2026-11-18T21:14:47+00:00",
       "imagen": ""
     },
     {
@@ -245,6 +497,15 @@
       "imagen": ""
     },
     {
+      "id": "1457f0ffa011d2e4",
+      "titulo": "Definen fechas para negociar el aumento del salario mínimo de 2027",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/noticias/definen-fechas-para-negociar-el-aumento-del-salario-minimo-de-2027/",
+      "fecha": "2026-11-18T21:00:20+00:00",
+      "imagen": ""
+    },
+    {
       "id": "e868b87dda799153",
       "titulo": "Cierre la llave: Galán advierte que Bogotá podría enfrentar racionamiento de agua y energía por El Niño",
       "categoria": "Colombia",
@@ -279,267 +540,6 @@
       "url": "https://www.dw.com/es/trump-xi-y-putin-en-busca-de-una-solución-para-irán-y-ucrania/a-79983531?maca=spa-rss-sp-all-1122-rdf",
       "fecha": "2026-11-18T20:57:00+00:00",
       "imagen": ""
-    },
-    {
-      "id": "92cf7135ba89d69a",
-      "titulo": "¿Renunciaría Ucrania al Donbás a cambio de ingresar en la OTAN?",
-      "categoria": "Internacional",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/¿renunciaría-ucrania-al-donbás-a-cambio-de-ingresar-en-la-otan/a-79984054?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-18T20:56:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "556a457bc1020300",
-      "titulo": "Violencia sexual a menores: de la confianza a la extorsión en línea",
-      "categoria": "Internacional",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/violencia-sexual-a-menores-de-la-confianza-a-la-extorsión-en-línea/a-79986100?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-18T20:49:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "9af2b9919ff2a2dd",
-      "titulo": "¿Perdió su vivienda tras el terremoto? Conozca cómo acceder a los 140 subsidios habitacionales",
-      "categoria": "Valle del Cauca",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/cali/perdio-vivienda-tras-el-terremoto-subsidios-habitacionales-18-11-2026/",
-      "fecha": "2026-11-18T20:46:47+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "c3f386cea9461ef0",
-      "titulo": "Video | Emergencia en el Occidente antioqueño: enorme deslizamiento de tierra cierra el ingreso a Buriticá",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/medellin/video-emergencia-en-el-occidente-antioqueno-enorme-deslizamiento-de-tierra-cierra-el-ingreso-a-buritica-3602123",
-      "fecha": "2026-11-18T20:43:59+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "3ef8cb7eaeda1a0a",
-      "titulo": "Así son los blindados militares que compró el Magdalena para combatir a grupos armados: gobernadora supervisó pruebas en Emiratos Árabes",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/asi-son-los-blindados-militares-que-compro-el-magdalena-para-combatir-a-grupos-armados-gobernadora-superviso-pruebas-en-emiratos-arabes-3602124",
-      "fecha": "2026-11-18T20:42:50+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "5d70e147ae95826e",
-      "titulo": "Bogotanos perciben una mejora en sus finanzas: 44,4 % de hogares reporta mejor situación económica",
-      "categoria": "Colombia",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/regiones/bogotanos-perciben-una-mejora-en-sus-finanzas-44-4-de-hogares-reporta-mejor-situacion-economica-506606",
-      "fecha": "2026-11-18T20:41:23+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "34b72fba56063fde",
-      "titulo": "Prima de Navidad para docentes en Colombia 2026: fecha de pago y cómo calcularla",
-      "categoria": "Colombia",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/vida-moderna/prima-de-navidad-para-docentes-en-colombia-2026-18-11-2026/",
-      "fecha": "2026-11-18T20:40:41+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "4af7e1ec6ed08ce8",
-      "titulo": "Video | Investigan el asesinato de un influencer en una riña en Cartagena: lo atacaron varias mujeres y su padre se pronunció",
-      "categoria": "Internacional",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/influencer-alex-perez-video-investigan-asesinato-rina-cartagena-mujeres-ataque-PE43747019",
-      "fecha": "2026-11-18T20:39:53+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "00c9bfd99e213dfc",
-      "titulo": "Ban100 supera $1,24 billones en titularizaciones para financiar créditos a pensionados",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/finanzas/ban100-supera-1-24-billones-en-titularizaciones-para-financiar-creditos-a-pensionados-4527689",
-      "fecha": "2026-11-18T20:38:12+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "cdb6e6d37f4789a4",
-      "titulo": "AV Villas habilita pagos con Bre-B en estaciones de servicio y anuncia nuevas opciones para transporte y créditos",
-      "categoria": "Economía",
-      "fuente": "La FM Economía",
-      "url": "https://www.lafm.com.co/economia/av-villas-pagos-bre-b-estaciones-servicio-metro-medellin-creditos-417596",
-      "fecha": "2026-11-18T20:36:15+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "aa05bf0ae93acfba",
-      "titulo": "Alemania alerta del deterioro de la libertad religiosa en el mundo",
-      "categoria": "Internacional",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/alemania-alerta-del-deterioro-de-la-libertad-religiosa-en-el-mundo/a-79986129?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-18T20:35:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "6fa695a6ccd377f9",
-      "titulo": "Sacrificio de 10 hipopótamos en Colombia: Cornare y MinAmbiente alistan primera fase de intervención",
-      "categoria": "Colombia",
-      "fuente": "La FM Actualidad",
-      "url": "https://www.lafm.com.co/actualidad/hiopotamos-cornare-corpoboyaca-corantioquia-sacrificio-417595",
-      "fecha": "2026-11-18T20:34:42+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "ff6d1046740316f8",
-      "titulo": "Cali frente al espejo del racismo: dos agresiones virales, una destitución y el debate sobre una 'sociedad enferma'",
-      "categoria": "Cali",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/cali/cali-frente-al-espejo-del-racismo-dos-agresiones-virales-una-destitucion-y-el-debate-sobre-una-sociedad-enferma-3602116",
-      "fecha": "2026-11-18T20:31:36+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "08e4820601678f03",
-      "titulo": "¿Sabía que un videojuego podría costarle US$1.000 millones a la economía de EE.UU.?",
-      "categoria": "Economía",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/ocio/sabia-que-un-videojuego-podria-costarle-us-1-000-millones-a-la-economia-de-ee-uu-4527647",
-      "fecha": "2026-11-18T20:23:09+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "612be69b875428f3",
-      "titulo": "MinCultura apelará suspensión de Daza en la Biblioteca Nacional",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/en-vivo/mincultura-apelara-suspension-de-daza-en-la-biblioteca-nacional/",
-      "fecha": "2026-11-18T20:22:24+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "2908633e7ddfac55",
-      "titulo": "Foro 'Paremos Ya': entender las violencias de género y saber identificarlas en los espacios",
-      "categoria": "Valle del Cauca",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/cali/foro-paremos-ya-violencias-genero-18-11-2026/",
-      "fecha": "2026-11-18T20:20:43+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "732ecae85df04ea0",
-      "titulo": "Estos son los “tiros al arco” que tendrá que atajar Jorge Gutiérrez como interventor de Nueva EPS",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/jorge-gutierrez-nuevo-agente-interventor-retos-nueva-eps-retos-LE43747826",
-      "fecha": "2026-11-18T20:18:56+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "33c9adfbb35bff28",
-      "titulo": "Arkitect, marca de Éxito, llega a El Salvador y avanza en su expansión internacional",
-      "categoria": "Internacional",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/empresas/arkitect-marca-de-exito-llega-a-el-salvador-y-avanza-en-su-expansion-internacional-4527679",
-      "fecha": "2026-11-18T20:15:01+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "4fad3973bb814e37",
-      "titulo": "Un tribunal suspende el nombramiento de la directora de la Biblioteca Nacional por su falta de experiencia",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/america-colombia/2026-11-18/un-tribunal-suspende-el-nombramiento-de-la-directora-de-la-biblioteca-nacional-por-su-falta-de-experiencia.html",
-      "fecha": "2026-11-18T20:12:24+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "f1572f4b81557ef7",
-      "titulo": "La historia del naufragio que dejó a una familia a la deriva en La Guajira: “No han podido encontrar ningún rastro”",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/naufragio-la-guajira-familia-asi-avanza-busqueda-OD43734390",
-      "fecha": "2026-11-18T20:10:18+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "9c3f394c75417cd9",
-      "titulo": "Banco Av Villas prevé $30.000 millones de utilidades para final de año, tras pérdidas en 2025",
-      "categoria": "Economía",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/finanzas/banco-av-villas-preve-30-000-millones-de-utilidades-para-final-de-ano-tras-perdidas-en-2025-4527440",
-      "fecha": "2026-11-18T20:03:20+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "718b55cc2b23ba73",
-      "titulo": "¿Qué riesgos tiene EE. UU. si la información de la NSA es expuesta?",
-      "categoria": "Internacional",
-      "fuente": "La FM Internacional",
-      "url": "https://www.lafm.com.co/internacional/riesgos-estados-unidos-informacion-nsa-expuesta-417589",
-      "fecha": "2026-11-18T20:01:28+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "e5bb982331845ba7",
-      "titulo": "El Hierro ha recibido en dos semanas casi tantas personas como habitantes tiene. El Gobierno responde con 5 millones y un marco",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/magnet/hierro-ha-recibido-dos-semanas-casi-tantas-personas-como-habitantes-tiene-gobierno-responde-5-millones-marco",
-      "fecha": "2026-11-18T20:01:17+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "51c6b080bd870bb1",
-      "titulo": "Antes de cobrar más, revisemos quiénes pagan menos",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/red-de-expertos/red-social/antes-de-cobrar-mas-revisemos-quienes-pagan-menos/",
-      "fecha": "2026-11-18T20:00:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "8ea172e0462537fd",
-      "titulo": "Gobernación del Valle del Cauca habilita descuentos de hasta el 100 % en intereses y sanciones del impuesto automotor",
-      "categoria": "Valle del Cauca",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/cali/gobernacion-del-valle-del-cauca-habilita-descuentos-de-hasta-el-100-en-intereses-y-sanciones-del-impuesto-automotor-3602093",
-      "fecha": "2026-11-18T19:56:06+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "a4b20f13c29978fc",
-      "titulo": "Residentes del edificio Bachué ingresaron pese al riesgo estructural para recuperar pertenencias",
-      "categoria": "Valle del Cauca",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/cali/residentes-edificio-bachue-ingresaron-riesgo-18-11-2026/",
-      "fecha": "2026-11-18T19:52:33+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "4db9d087d144682a",
-      "titulo": "Unas imágenes excepcionales de un contacto con indígenas aislados subrayan las amenazas a la Amazonia en Brasil",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/internacional/2026-11-18/unas-imagenes-ineditas-en-30-anos-de-un-contacto-con-indigenas-aislados-subrayan-las-amenazas-a-la-amazonia-en-brasil.html",
-      "fecha": "2026-11-18T19:50:50+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "701e91a57e9a8979",
-      "titulo": "Tutela en salud en Colombia: cómo reclamar medicamentos, tratamientos y procedimientos",
-      "categoria": "Colombia",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/vida-moderna/salud/tutela-en-salud-en-colombia-reclamar-medicamentos-18-11-2026/",
-      "fecha": "2026-11-18T19:43:31+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "93cc05ef2bd1241a",
-      "titulo": "Este es Nate Morris, el exitoso empresario que sería el próximo embajador de EE. UU. en Colombia",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/quien-es-nate-morris-embajador-ee-uu-colombia-PE43741691",
-      "fecha": "2026-11-18T19:40:46+00:00",
-      "imagen": ""
     }
   ],
   "estado_fuentes": [
@@ -553,7 +553,7 @@
       "nombre": "El Tiempo Cali",
       "url": "https://www.eltiempo.com/rss/colombia_cali.xml",
       "estado": "correcto",
-      "titulares": 7
+      "titulares": 8
     },
     {
       "nombre": "El Espectador",
@@ -590,7 +590,7 @@
       "nombre": "BBC Mundo",
       "url": "https://feeds.bbci.co.uk/mundo/rss.xml",
       "estado": "correcto",
-      "titulares": 29
+      "titulares": 30
     },
     {
       "nombre": "DW Español",
@@ -655,16 +655,14 @@
     {
       "nombre": "El Diario — Pereira",
       "url": "https://www.eldiario.com.co/feed/",
-      "estado": "error",
-      "titulares": 0,
-      "detalle": "El feed no contiene entradas."
+      "estado": "correcto",
+      "titulares": 35
     },
     {
       "nombre": "Chocó 7 días",
       "url": "https://choco7dias.com/feed/",
-      "estado": "error",
-      "titulares": 0,
-      "detalle": "415 Client Error: Unsupported Media Type for url: https://choco7dias.com/feed/"
+      "estado": "correcto",
+      "titulares": 10
     },
     {
       "nombre": "La Patria — Caldas",
