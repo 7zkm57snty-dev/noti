@@ -1,13 +1,301 @@
 {
-  "ultima_actualizacion": "2026-11-18T12:38:53.939319+00:00",
+  "ultima_actualizacion": "2026-11-18T13:55:41.656721+00:00",
   "titulares_rss": [
     {
-      "id": "8e879ca6332b0872",
-      "titulo": "\"Los empresarios hacemos de policías malos\": presidente de Fenalco pide aumento del salario mínimo 2027 de un solo dígito",
+      "id": "841ad0cd91c5a3a3",
+      "titulo": "Pensionados en Colombia recibirán un pago extra en noviembre: lista de beneficiarios y cuánto dinero recibirán",
       "categoria": "Colombia",
+      "fuente": "La FM Economía",
+      "url": "https://www.lafm.com.co/economia/prima-pensionados-noviembre-2026-pago-extra-colpensiones-fondo-privados-417526",
+      "fecha": "2026-11-18T13:52:33+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "49030135ee6e1b2d",
+      "titulo": "Comercio moderó su crecimiento en octubre y apuesta por los Black Days para cerrar el año",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/empresas/resultados-de-la-bitacora-economica-de-fenalco-para-octubre-4527224",
+      "fecha": "2026-11-18T13:46:25+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "5a423868185b4afb",
+      "titulo": "El lunes, 23 de noviembre, llegará a Lidl la solución para secar la ropa en casa sin tener una secadora",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/seleccion/lunes-23-noviembre-llegara-a-lidl-solucion-para-secar-ropa-casa-tener-secadora",
+      "fecha": "2026-11-18T13:45:20+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "8a31e6511de30647",
+      "titulo": "Comida para mascotas tampoco tendrá aumento del IVA por orden de presidente De La Espriella",
+      "categoria": "Colombia",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/gobierno/se-salvaron-los-animales-comida-para-mascotas-tampoco-tendra-aumento-del-iva-por-orden-de-de-la-espriella-506558",
+      "fecha": "2026-11-18T13:44:34+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "e703b4320d147de1",
+      "titulo": "La CREG emitió un nuevo paquete de medidas sobre el sistema eléctrico y de gas ante un inminente y crítico fenómeno de El Niño",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/la-creg-emitio-un-nuevo-paquete-de-medidas-sobre-el-sistema-electrico-y-de-gas-ante-un-inminente-y-critico-fenomeno-de-el-nino-3601951",
+      "fecha": "2026-11-18T13:35:52+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "94676ce1b2416568",
+      "titulo": "Felipe, la Escafandra y los límites del ejecutivo.",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/red-de-expertos/red-de-derecho-constitucional/felipe-la-escafandra-y-los-limites-del-ejecutivo/",
+      "fecha": "2026-11-18T13:33:30+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "be7a5b62e2e4b6c6",
+      "titulo": "Drogas, sangre y destierro: el macabro modelo de tres niveles de la banda ‘los Nkd’ para sembrar el terror en Candelaria, Valle del Cauca",
+      "categoria": "Valle del Cauca",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/cali/drogas-sangre-y-destierro-el-macabro-modelo-de-tres-niveles-de-la-banda-los-nkd-para-sembrar-el-terror-en-candelaria-valle-del-cauca-3601956",
+      "fecha": "2026-11-18T13:33:23+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "1af6a31ddc82717a",
+      "titulo": "\"El incremento del mínimo no debería superar la suma de inflación más productividad\"",
+      "categoria": "Economía",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/economia/el-incremento-del-minimo-no-deberia-superar-la-suma-de-inflacion-mas-productividad-4527204",
+      "fecha": "2026-11-18T13:33:05+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "204dea9a775dd56b",
+      "titulo": "Precio del dólar hoy en Colombia: Así está la moneda el 18 de noviembre",
+      "categoria": "Economía",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/vida-moderna/precio-del-dolar-hoy-en-colombia-18-11-2026/",
+      "fecha": "2026-11-18T13:32:39+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "665cd528a6a4bb9f",
+      "titulo": "La JEP imputa crímenes de guerra a antiguos mandos militares",
+      "categoria": "Internacional",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/efe/jep-imputa-crimenes-guerra-antiguos-mandos-militares-18-11-2026/",
+      "fecha": "2026-11-18T13:31:33+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "456e96f385b9d8d1",
+      "titulo": "Supersalud nombró a Jorge Enrique Gutiérrez Sampedro como interventor de Nueva EPS, ¿de quién se trata?",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/nueva-eps-nuevo-interventor-jorge-gutierrez-sampedro-quien-es-LB43719750",
+      "fecha": "2026-11-18T13:28:13+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "21d57d08a6e37c4a",
+      "titulo": "Pronóstico del clima en Cali hoy miércoles 18 de noviembre, ¿lloverá?",
+      "categoria": "Cali",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/vida-moderna/ecologia/pronostico-del-clima-en-cali-hoy-miercoles-18-11-2026/",
+      "fecha": "2026-11-18T13:25:26+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "678e62f4e7127d9c",
+      "titulo": "Pete Hegseth, Secretario de Guerra de Estados Unidos, llegará a Colombia este miércoles con avión C-130 para la Fuerza Pública",
+      "categoria": "Internacional",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/pete-hegseth-visita-colombia-avion-c-130-fuerza-publica-NB43718498",
+      "fecha": "2026-11-18T13:22:14+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "c7f71b973c347c56",
+      "titulo": "Trump, Xi y Putin se encuentran en China antes de histórica cumbre",
+      "categoria": "Internacional",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/noticias/internacionales/trump-xi-y-putin-se-encuentran-en-china-antes-de-historica-cumbre/",
+      "fecha": "2026-11-18T13:21:24+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "4cb4b0b49dc01b81",
+      "titulo": "Detienen en Nicaragua a dos médicos de Daniel Ortega por presunta filtración de información sobre su salud",
+      "categoria": "Internacional",
+      "fuente": "La FM Internacional",
+      "url": "https://www.lafm.com.co/internacional/detienen-nicaragua-dos-medicos-daniel-ortega-presunta-filtracion-informacion-sobre-salud-417528",
+      "fecha": "2026-11-18T13:20:04+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "7417ae468d436a9b",
+      "titulo": "El raro encuentro con indígenas aislados en Brasil que genera preocupación",
+      "categoria": "Internacional",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/cmglry191y9xo?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-18T13:19:32+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "cd484f37f889919d",
+      "titulo": "Filtración al Deutsche Bank revela vínculos con Epstein y negocios en Rusia",
+      "categoria": "Internacional",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/globoeconomia/filtracion-al-deutsche-bank-revela-vinculos-con-epstein-y-negocios-en-rusia-4527134",
+      "fecha": "2026-11-18T13:18:25+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "7be0ac3bcea71b81",
+      "titulo": "Patria Investments realizará una inversión aproximada de US$2.600 millones en salud",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/empresas/patria-investments-realizara-una-inversion-de-us-2-600-millones-en-el-sector-de-la-salud-4527150",
+      "fecha": "2026-11-18T13:16:17+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "6a25a9b9f67021f7",
+      "titulo": "Proponen cinco años sin impuesto predial para damnificados del terremoto",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/noticias/proponen-cinco-anos-sin-impuesto-predial-para-damnificados-del-terremoto/",
+      "fecha": "2026-11-18T13:15:33+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "04406d2cf80e103a",
+      "titulo": "El Xiaomi Watch S5 llega en formato pequeño: así es el nuevo reloj con Google Wallet y hasta 14 días de autonomía",
+      "categoria": "Tecnología",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/seleccion/xiaomi-watch-s5-llega-formato-pequeno-asi-nuevo-reloj-google-wallet-14-dias-autonomia",
+      "fecha": "2026-11-18T13:15:18+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "f694d4f3b49a5549",
+      "titulo": "Más cambios a la tributaria: no subirá el IVA en comida de mascotas",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/en-vivo/mas-cambios-a-la-tributaria-no-subira-el-iva-en-comida-de-mascotas/",
+      "fecha": "2026-11-18T13:12:33+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "af28f4aa17917e9e",
+      "titulo": "Estados Unidos admite errores “sustanciales” en la traducción de la documentación para reclamar al millonario propalestino Chambers",
+      "categoria": "Internacional",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/espana/2026-11-18/estados-unidos-admite-errores-sustanciales-en-la-traduccion-de-la-documentacion-para-reclamar-al-millonario-propalestino-chambers.html",
+      "fecha": "2026-11-18T13:12:32+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "5433620adc38e0b6",
+      "titulo": "Gobierno firma acuerdo con Meta para combatir el reclutamiento de menores por redes: estos son los alcances",
+      "categoria": "Colombia",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/gobierno/gobierno-firma-acuerdo-con-meta-para-combatir-el-reclutamiento-de-menores-por-redes-estos-son-los-alcances-506562",
+      "fecha": "2026-11-18T13:06:34+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "a670c810e71dcc5f",
+      "titulo": "El dólar abrió la jornada $11,15 al alza, mientras se espera nueva subida de tasas de la FED",
+      "categoria": "Economía",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/finanzas/precio-del-dolar-y-petroleo-hoy-18-de-noviembre-4527136",
+      "fecha": "2026-11-18T13:05:38+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "8327c1dcf6af69a4",
+      "titulo": "Visa amplía su programa para habilitar compras y pagos realizados por la IA",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/finanzas/visa-amplia-su-programa-para-habilitar-compras-y-pagos-realizados-por-inteligencia-artificial-4527114",
+      "fecha": "2026-11-18T13:04:51+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "af624fc59c5d1f27",
+      "titulo": "Este pueblo madrileño ha encontrado la fórmula para dar prioridad a sus vecinos en vivienda pública: exige llevar 10 años empadronado",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/magnet/este-pueblo-madrileno-ha-encontrado-formula-para-dar-prioridad-a-sus-vecinos-vivienda-publica-exige-llevar-10-anos-empadronado",
+      "fecha": "2026-11-18T13:03:17+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "fbbfe5961bad029d",
+      "titulo": "Reforma tributaria plantea nuevos cobros para quienes ganen más de $7 millones",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/noticias/reforma-tributaria-plantea-nuevos-cobros-para-quienes-ganen-mas-de-7-millones/",
+      "fecha": "2026-11-18T13:02:12+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "1c59096d265183a4",
+      "titulo": "Corte Constitucional establece cambios en las encuestas electorales de Colombia",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/noticias/corte-constitucional-establece-cambios-en-las-encuestas-electorales-de-colombia/",
+      "fecha": "2026-11-18T12:55:06+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "dd087b5d46e5decb",
+      "titulo": "Supersalud nombra a Jorge Enrique Gutiérrez Sampedro como nuevo interventor de Nueva EPS",
+      "categoria": "Colombia",
+      "fuente": "La FM Actualidad",
+      "url": "https://www.lafm.com.co/actualidad/supersalud-nueva-eps-interventor-salud-crisis-medicamentros-nuevo-funcionario-417520",
+      "fecha": "2026-11-18T12:50:20+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "e42107097b004817",
+      "titulo": "El Descuartizador de Manrique, el expediente real que inaugura el final de temporada de Revelaciones del Bajo Mundo",
+      "categoria": "Internacional",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/revelaciones-del-bajo-mundo-podcast-el-descuartizador-de-manrique-KB43716491",
+      "fecha": "2026-11-18T12:42:13+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "8e879ca6332b0872",
+      "titulo": "\"Mantener el poder adquisitivo no implica tomar medidas populistas\": Fenalco pide aumento del salario mínimo 2027 de un solo dígito",
+      "categoria": "Economía",
       "fuente": "La FM Economía",
       "url": "https://www.lafm.com.co/economia/salario-minimo-2027-fenalco-aumento-un-solo-digito-empresarios-policias-malos-417519",
       "fecha": "2026-11-18T12:38:11+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "205570cf9dce3b9f",
+      "titulo": "Tres personas heridas dejó incendio estructural en el barrio Primitivo Crespo de Cali",
+      "categoria": "Cali",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/cali/personas-heridas-incendio-barrio-primitivo-crespo-cali-18-11-2026/",
+      "fecha": "2026-11-18T12:36:48+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "7bafdcbeb731deb4",
+      "titulo": "Trump y Putin se saludan tras ser recibidos por Xi Jinping a su llegada a China para participar en la cumbre del APEC",
+      "categoria": "Internacional",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/internacional/2026-11-18/xi-jinping-y-putin-reivindican-su-firme-relacion-poco-antes-de-la-llegada-de-trump-a-la-cumbre-de-la-apec-en-china.html",
+      "fecha": "2026-11-18T12:35:12+00:00",
       "imagen": ""
     },
     {
@@ -17,6 +305,15 @@
       "fuente": "Xataka",
       "url": "https://www.xataka.com/videojuegos/gta-vi-juego-grande-historia-pregunta-tambien-sera-buena-base-estan-venir",
       "fecha": "2026-11-18T12:35:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "4df41e1be925749f",
+      "titulo": "Pese a goleada, Alemania sale del Top 10 de selecciones de fútbol",
+      "categoria": "Deportes",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/pese-a-goleada-alemania-sale-del-top-10-de-selecciones-de-fútbol/a-79981114?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-18T12:34:00+00:00",
       "imagen": ""
     },
     {
@@ -75,7 +372,7 @@
     },
     {
       "id": "dcc245b387d35bd8",
-      "titulo": "Se proyectan inversiones por más de US$6.000 millones en minería, infraestructura y salud",
+      "titulo": "Se proyectan inversiones por más de US$6.000 millones en minería e infraestructura",
       "categoria": "Colombia",
       "fuente": "La República",
       "url": "https://www.larepublica.co/economia/se-proyectan-inversiones-por-mas-de-us-6-000-millones-en-mineria-infraestructura-y-salud-4527112",
@@ -243,303 +540,6 @@
       "url": "https://www.larepublica.co/empresas/mineros-evalua-un-portafolio-de-nuevas-inversiones-por-cerca-de-us-600-millones-4527117",
       "fecha": "2026-11-18T11:48:44+00:00",
       "imagen": ""
-    },
-    {
-      "id": "d0a647f5699b2fb3",
-      "titulo": "Oro cae por debajo de los US$3.800 mientras la FED da señales de subida en las tasas",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/finanzas/precio-del-oro-hoy-18-de-noviembre-4527115",
-      "fecha": "2026-11-18T11:37:35+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "602eee1534b3c76b",
-      "titulo": "HBO Max ya avisa a quienes comparten cuenta en España: o pagas el “miembro adicional” o te quedas sin servicio",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/streaming/hbo-max-avisa-a-quienes-comparten-cuenta-espana-pagas-miembro-adicional-te-quedas-servicio",
-      "fecha": "2026-11-18T11:36:14+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "95ee3ea55c6364c9",
-      "titulo": "Jensen Huang rompe su silencio tras dimitir: “Sería un honor volver como CEO de NVIDIA”",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/empresas-y-economia/jensen-huang-rompe-su-silencio-dimitir-seria-honor-volver-como-ceo-nvidia",
-      "fecha": "2026-11-18T11:35:57+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "7ae798d5cc660a71",
-      "titulo": "Estufas, termos e incluso paneles decorativos: el Black Friday de BAUHAUS tiene prácticamente de todo para mejorar tu casa",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/seleccion/estufas-termos-e-incluso-paneles-decorativos-black-friday-bauhaus-tiene-practicamente-todo-para-mejorar-tu-casa",
-      "fecha": "2026-11-18T11:35:17+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "8a31e6511de30647",
-      "titulo": "Se salvaron los animales: comida para mascotas tampoco tendrá aumento del IVA por orden de De La Espriella",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/gobierno/se-salvaron-los-animales-comida-para-mascotas-tampoco-tendra-aumento-del-iva-por-orden-de-de-la-espriella-506558",
-      "fecha": "2026-11-18T11:31:25+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "7eeb84fd66bb9710",
-      "titulo": "La rectificación de Franganillo por su agresiva entrevista con Sánchez evidencia que esta es la campaña más tensa vista en televisión",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/magnet/rectificacion-franganillo-su-tensa-entrevista-sanchez-evidencia-que-esta-campana-tensa-vista-television",
-      "fecha": "2026-11-18T11:30:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "5dff5b4a28e88862",
-      "titulo": "Encuentran una falla crítica en Java, el tercer lenguaje de programación más utilizado en el mundo del que dependen el 90% de las grandes compañías",
-      "categoria": "Internacional",
-      "fuente": "BBC Mundo",
-      "url": "https://www.bbc.com/mundo/articles/cwvg2enzxdm9o?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-18T11:28:37+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "2300c1c10f696a68",
-      "titulo": "El disco de oro con mensajes para los extraterrestres que transporta la sonda Voyager 1 (y cómo podrán descifrarlo)",
-      "categoria": "Internacional",
-      "fuente": "BBC Mundo",
-      "url": "https://www.bbc.com/mundo/articles/ck1l0v4yy6p0o?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-18T11:27:58+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "3d5d338a66368e20",
-      "titulo": "El gran hito del Voyager, el objeto fabricado por la humanidad que más lejos llega en el espacio al viajar un día luz",
-      "categoria": "Internacional",
-      "fuente": "BBC Mundo",
-      "url": "https://www.bbc.com/mundo/articles/cmgrewv5zxqro?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-18T11:24:51+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "fea5eeb847047708",
-      "titulo": "Economía colombiana entraría en estanflación y crecería apenas 1,5% en 2027, según Banco de Bogotá",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/gobierno/economia-colombiana-entraria-en-estanflacion-y-creceria-apenas-1-5-en-2027-segun-banco-de-bogota-506557",
-      "fecha": "2026-11-18T11:20:26+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "dbe6ffda09f0f95a",
-      "titulo": "Portada 18 de noviembre del 2026",
-      "categoria": "Colombia",
-      "fuente": "La Patria — Caldas",
-      "url": "https://www.lapatria.com/publicacion/portada-18-de-noviembre-del-2026",
-      "fecha": "2026-11-18T11:16:19+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "a61360bb328daae7",
-      "titulo": "A precio de outlet el monitor portátil de MSI que puedes llevarte (casi) a donde quieras",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/seleccion/a-precio-outlet-monitor-portatil-msi-que-puedes-llevarte-casi-a-donde-quieras",
-      "fecha": "2026-11-18T11:01:20+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "0a85d8461b08fe08",
-      "titulo": "El disparatado precio de la memoria de almacenamiento y la IA está reviviendo una tecnología de hace 50 años: la cinta magnética",
-      "categoria": "Tecnología",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/componentes/disparatado-precio-memoria-almacenamiento-ia-esta-reviviendo-tecnologia-hace-50-anos-cinta-magnetica",
-      "fecha": "2026-11-18T11:01:20+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "778e9cf3c339812f",
-      "titulo": "El nuevo gerente del Fondo Milagro promete cambio de rumbo con “nómina muy bajita”",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/gerente-fondo-milagro-promete-cambio-rumbo-nomina-bajita-EB43714154",
-      "fecha": "2026-11-18T11:00:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "8948bae80bac995e",
-      "titulo": "Chocó: un día como hoy… 18 de noviembre",
-      "categoria": "Colombia",
-      "fuente": "Chocó 7 días",
-      "url": "https://choco7dias.com/choco-un-dia-como-hoy-18-de-noviembre-5/",
-      "fecha": "2026-11-18T11:00:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "b6bd6d18681763ee",
-      "titulo": "Crítica de ‘GTA VI’: Bienvenidos al mayor parque de atracciones digital jamás creado",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/cultura/2026-11-18/critica-de-gta-vi-bienvenidos-al-mayor-parque-de-atracciones-digital-jamas-creado.html",
-      "fecha": "2026-11-18T10:59:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "0e5b65502dd74354",
-      "titulo": "El test genético que descubrió el covid-19 y que ahora salva vidas al detectar casi todas las infecciones",
-      "categoria": "Internacional",
-      "fuente": "BBC Mundo",
-      "url": "https://www.bbc.com/mundo/articles/c6ly5nwjx2llo?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-18T10:38:26+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "f4879a85769c79b7",
-      "titulo": "El nuevo Kindle Paperwhite Signature Edition (2026) ha bajado de precio, aunque hay un 'pero': tienes que llevártelo acompañado",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/seleccion/nuevo-kindle-paperwhite-signature-edition-2026-ha-bajado-precio-hay-tienes-que-llevartelo-acompanado",
-      "fecha": "2026-11-18T10:31:17+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "b705cf7122fc8c8b",
-      "titulo": "Trinidad y Tobago despenaliza las relaciones gais por orden de un tribunal del Reino Unido",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/sociedad/lgtb/2026-11-18/trinidad-y-tobago-despenaliza-las-relaciones-gais-por-orden-de-un-tribunal-del-reino-unido.html",
-      "fecha": "2026-11-18T10:30:50+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "1ab13416dfe96fdb",
-      "titulo": "La humanidad cruza una nueva frontera: la ‘Voyager 1’ ya está a un día luz de la Tierra",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/ciencia/2026-11-18/la-voyager-1-ya-esta-a-un-dia-luz-asi-se-mantiene-vivo-el-contacto-interestelar-de-la-humanidad.html",
-      "fecha": "2026-11-18T10:16:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "e7b9cdd52bcc56e3",
-      "titulo": "Xi abraza a Trump en Shenzhen, antes de cumbre con Putin en la APEC",
-      "categoria": "Internacional",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/xi-abraza-a-trump-en-shenzhen-antes-de-cumbre-con-putin-en-la-apec/a-79978076?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-18T10:07:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "7c371fb0ef9e2eff",
-      "titulo": "Action vende (por menos de 15 euros) este árbol de Navidad LED ideal para terrazas, balcones o jardines",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/seleccion/action-vende-15-euros-este-arbol-navidad-led-ideal-para-terrazas-balcones-jardines",
-      "fecha": "2026-11-18T10:01:25+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "66e77d3bdc5f1530",
-      "titulo": "La Ley lo permite y los expertos lo confirman: tus vecinos deben adelantar la factura de luz de tu coche eléctrico en algunos casos",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/movilidad/ley-permite-expertos-confirman-tus-vecinos-deben-adelantar-factura-luz-tu-coche-electrico-algunos-casos",
-      "fecha": "2026-11-18T10:01:24+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "8487a30118203562",
-      "titulo": "El Hospital 12 de Octubre lidera una nueva forma de combatir el cáncer de páncreas con un virus común",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/medicina-y-salud/hospital-12-octubre-lidera-nueva-forma-combatir-cancer-pancreas-virus-comun",
-      "fecha": "2026-11-18T09:45:16+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "79adb16a494277cd",
-      "titulo": "\"Firmes como una roca\": los lazos entre China y Rusia según Xi y Putin",
-      "categoria": "Internacional",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/firmes-como-una-roca-los-lazos-entre-china-y-rusia-según-xi-y-putin/a-79977080?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-18T09:40:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "e8a34cb511f750e9",
-      "titulo": "En Vigo, a un testador le pagaban por jugar a las tragaperras. Acabó con ludopatía y llevando a su empresa a los tribunales",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/magnet/vigo-testador-maquinas-tragaperras-se-vuelve-adicto-al-juego-demanda-a-su-empresa-accidente-laboral",
-      "fecha": "2026-11-18T09:30:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "079c43bb8d515207",
-      "titulo": "La justicia comienza a cuestionar el estilo teatral de De la Espriella contra los capturados",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/america-colombia/2026-11-18/la-justicia-comienza-a-cuestionar-el-estilo-teatral-de-de-la-espriella-contra-los-capturados.html",
-      "fecha": "2026-11-18T09:30:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "0190ee142f90c52c",
-      "titulo": "El Gobierno de De la Espriella negocia el salario mínimo de 2027 a la sombra del último incremento de 23% que hizo Petro",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/america-colombia/2026-11-18/el-gobierno-de-de-la-espriella-negocia-el-salario-minimo-de-2027-a-la-sombra-del-ultimo-incremento-de-23-que-hizo-petro.html",
-      "fecha": "2026-11-18T09:30:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "ac2f77a315019dce",
-      "titulo": "“¡Viva Cristo Rey!”, el grito de De la Espriella que remite a La Violencia, el franquismo y la Guerra Cristera",
-      "categoria": "Internacional",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/america-colombia/2026-11-16/viva-cristo-rey-el-grito-de-de-la-espriella-que-remite-a-la-violencia-el-franquismo-y-la-guerra-cristera.html",
-      "fecha": "2026-11-18T09:30:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "2892b36a83b55529",
-      "titulo": "Los migrantes han generado superávit fiscal en Estados Unidos por los últimos 124 años",
-      "categoria": "Internacional",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/us/migracion/2026-11-18/los-migrantes-han-generado-superavit-fiscal-en-estados-unidos-por-los-ultimos-124-anos.html",
-      "fecha": "2026-11-18T09:30:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "3974bdfcf77d50f1",
-      "titulo": "A una semana del derrumbe en Brooklyn, una pregunta une a víctimas e investigadores: “¿Qué pasó exactamente allí?”",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/us/2026-11-18/a-una-semana-del-derrumbe-en-brooklyn-una-pregunta-une-a-victimas-e-investigadores-que-paso-exactamente-alli.html",
-      "fecha": "2026-11-18T09:30:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "56588ebe137590a6",
-      "titulo": "Del poder corrupto a la corrupción del poder",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/america-colombia/2026-11-18/del-poder-corrupto-a-la-corrupcion-del-poder.html",
-      "fecha": "2026-11-18T09:30:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "3e0dce54ad7ef366",
-      "titulo": "Inmundo digital",
-      "categoria": "Internacional",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/america-colombia/2026-11-18/inmundo-digital.html",
-      "fecha": "2026-11-18T09:30:00+00:00",
-      "imagen": ""
     }
   ],
   "estado_fuentes": [
@@ -553,7 +553,7 @@
       "nombre": "El Tiempo Cali",
       "url": "https://www.eltiempo.com/rss/colombia_cali.xml",
       "estado": "correcto",
-      "titulares": 6
+      "titulares": 5
     },
     {
       "nombre": "El Espectador",
@@ -590,13 +590,13 @@
       "nombre": "BBC Mundo",
       "url": "https://feeds.bbci.co.uk/mundo/rss.xml",
       "estado": "correcto",
-      "titulares": 29
+      "titulares": 28
     },
     {
       "nombre": "DW Español",
       "url": "https://rss.dw.com/rdf/rss-sp-all",
       "estado": "correcto",
-      "titulares": 22
+      "titulares": 23
     },
     {
       "nombre": "Xataka",
