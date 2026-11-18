@@ -1,22 +1,103 @@
 {
-  "ultima_actualizacion": "2026-11-18T21:35:01.395157+00:00",
+  "ultima_actualizacion": "2026-11-18T22:33:54.964360+00:00",
   "titulares_rss": [
     {
+      "id": "325303c5c8620668",
+      "titulo": "Lucía Caminos, la primera protagonista femenina de GTA en los 30 años de historia del videojuego",
+      "categoria": "Internacional",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/cqevre781d3vo?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-18T22:12:35+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "2e03ef1c84d58e72",
+      "titulo": "¡Alerta en Medellín! Fuerte tormenta eléctrica con granizo pone en nivel rojo dos quebradas y paraliza el Metrocable",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/medellin/alerta-en-medellin-fuerte-tormenta-electrica-con-granizo-pone-en-nivel-rojo-dos-quebradas-y-paraliza-el-metrocable-3602158",
+      "fecha": "2026-11-18T22:06:13+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "418c755322be1dc3",
+      "titulo": "¿Debe el impuesto vehicular? Así puede aprovechar el 100% de descuento en el Valle",
+      "categoria": "Valle del Cauca",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/vida-moderna/debe-el-impuesto-vehicular-valle-del-cauca-18-11-2026/",
+      "fecha": "2026-11-18T21:57:31+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "cd414f646dc6db1d",
+      "titulo": "MinSalud denuncia “retención ilegal” de dos miembros de una brigada médica, ¿quién los tiene?",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/minsalud-denuncia-retencion-dos-miembros-brigada-medica-grupo-armado-DF43752441",
+      "fecha": "2026-11-18T21:52:49+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "64f45e3b6150557c",
+      "titulo": "Este es el proyecto de autogeneración solar con baterías de almacenamiento más grande de Colombia y se construirá en el Valle del Cauca",
+      "categoria": "Valle del Cauca",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/cali/este-es-el-proyecto-de-autogeneracion-solar-con-baterias-de-almacenamiento-mas-grande-de-colombia-y-se-construira-en-el-valle-del-cauca-3602132",
+      "fecha": "2026-11-18T21:48:05+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "03d57f10906e1264",
+      "titulo": "Presunto terrorista murió cuando se le estalló la bomba que iba a poner en un peaje de Nariño",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/hombre-murio-explosion-bomba-peaje-narino-artefacto-explosivo-GE43746761",
+      "fecha": "2026-11-18T21:48:04+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "b07d026987daba5d",
+      "titulo": "Infarto en mujeres: síntomas y señales de alerta que no se deben ignorar",
+      "categoria": "Valle del Cauca",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/vida-moderna/salud/infarto-en-mujeres-sintomas-y-senales-18-11-2026/",
+      "fecha": "2026-11-18T21:38:58+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "57f55fc050d5b36b",
+      "titulo": "El Consejo de Estado ratifica a Yadira Morales en el cargo como contralora de Cartagena",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/el-consejo-de-estado-ratifica-a-yadira-morales-en-el-cargo-como-contralora-de-cartagena-3602146",
+      "fecha": "2026-11-18T21:38:56+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "01d04c6e8bc05fd3",
+      "titulo": "Paro nacional en Cali: ruta y desvíos",
+      "categoria": "Cali",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/cali/marchas-del-19-de-noviembre-en-cali-rutas-horarios-desvios-movilidad/",
+      "fecha": "2026-11-18T21:37:10+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "8b6af1579d7e9139",
+      "titulo": "Mujer fue golpeada frente a su hija de 7 años por un cliente tras caso de intolerancia en Duitama, Boyacá: Policía confirmó la captura del agresor",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/mujer-fue-golpeada-frente-a-su-hija-de-7-anos-por-un-cliente-tras-caso-de-intolerancia-en-duitama-boyaca-policia-confirmo-la-captura-del-agresor-3602063",
+      "fecha": "2026-11-18T21:36:12+00:00",
+      "imagen": ""
+    },
+    {
       "id": "15af03259b4dde0c",
-      "titulo": "Así fue la Milagro Week: show, ministros y una meta inversión superada",
+      "titulo": "Así fue la Milagro Week: show, ministros y una meta de inversión superada",
       "categoria": "Colombia",
       "fuente": "La Silla Vacía",
       "url": "https://www.lasillavacia.com/silla-nacional/asi-fue-la-milagro-week-show-ministros-y-una-meta-inversion-superada/",
       "fecha": "2026-11-18T21:34:34+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "17cae2aeb429388c",
-      "titulo": "Comité técnico de las Fuerzas Militares recomendó aplazar compra de sistemas antidrones",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/noticias/comite-tecnico-de-las-fuerzas-militares-recomendo-aplazar-compra-de-sistemas-antidrones/",
-      "fecha": "2026-11-18T21:30:22+00:00",
       "imagen": ""
     },
     {
@@ -53,15 +134,6 @@
       "fuente": "La Silla Vacía",
       "url": "https://www.lasillavacia.com/silla-amazonia/amazonia-en-breve/la-histeria-ambiental-no-puede-dirigir-la-agenda-minambiente-en-cop30/",
       "fecha": "2026-11-18T21:20:14+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "64f45e3b6150557c",
-      "titulo": "Este es el proyecto de autogeneración solar con baterías de almacenamiento más grande de Colombia y se construirá en el Valle del Cauca",
-      "categoria": "Valle del Cauca",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/cali/este-es-el-proyecto-de-autogeneracion-solar-con-baterias-de-almacenamiento-mas-grande-de-colombia-y-se-construira-en-el-valle-del-cauca-3602132",
-      "fecha": "2026-11-18T21:19:33+00:00",
       "imagen": ""
     },
     {
@@ -119,12 +191,39 @@
       "imagen": ""
     },
     {
+      "id": "6d14a762232c9cc4",
+      "titulo": "Alcalde de Barrancabermeja le dijo a De la Espriella que le va a “demostrar” dónde están $119 mil millones tras denuncia por corrupción",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/alcalde-barrancabermeja-mostrara-pruebas-119-mil-millones-denuncia-de-la-espriella-corrupcion-AF43751472",
+      "fecha": "2026-11-18T21:11:11+00:00",
+      "imagen": ""
+    },
+    {
       "id": "02ad5e916b8dc27c",
       "titulo": "Impuesto al carbono podría superar los $212.000 por tonelada de carbón en 2029, advierte Fenalcarbón",
       "categoria": "Economía",
       "fuente": "Portafolio",
       "url": "https://www.portafolio.co/economia/impuestos/impuesto-al-carbono-podria-superar-los-212-000-por-tonelada-de-carbon-en-2029-advierte-fenalcarbon-506610",
       "fecha": "2026-11-18T21:10:39+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "415171e50bd09250",
+      "titulo": "Las Eliminatorias Sudamericanas ahora entregarían un título: así sería la nueva Liga de Naciones Conmebol",
+      "categoria": "Deportes",
+      "fuente": "La FM Deportes",
+      "url": "https://www.lafm.com.co/deportes/eliminatorias-sudamericanas-2030-nations-league-titulo-417602",
+      "fecha": "2026-11-18T21:10:24+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "d599be3bdeb83039",
+      "titulo": "ONU se metió en rifirrafe entre Ana Cristina Restrepo y Jerome Sanabria, ¿qué dijo?",
+      "categoria": "Internacional",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/onu-pide-proteger-ana-cristina-restrepo-tras-ataques-redes-polemica-jerome-sanabria-DF43752144",
+      "fecha": "2026-11-18T21:08:25+00:00",
       "imagen": ""
     },
     {
@@ -146,12 +245,12 @@
       "imagen": ""
     },
     {
-      "id": "1457f0ffa011d2e4",
-      "titulo": "Definen fechas para negociar el aumento del salario mínimo de 2027",
+      "id": "e868b87dda799153",
+      "titulo": "Cierre la llave: Galán advierte que Bogotá podría enfrentar racionamiento de agua y energía por El Niño",
       "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/noticias/definen-fechas-para-negociar-el-aumento-del-salario-minimo-de-2027/",
-      "fecha": "2026-11-18T21:00:20+00:00",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/bogota-podria-enfrentar-racionamiento-agua-energia-por-que-BE43749778",
+      "fecha": "2026-11-18T21:00:04+00:00",
       "imagen": ""
     },
     {
@@ -299,15 +398,6 @@
       "imagen": ""
     },
     {
-      "id": "c7f77255f5e93119",
-      "titulo": "Antioquia aplicará eutanasia a 10 hipopótamos por riesgo para las comunidades",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/noticias/antioquia-aplicara-eutanasia-a-10-hipopotamos-por-riesgo-para-las-comunidades/",
-      "fecha": "2026-11-18T20:30:27+00:00",
-      "imagen": ""
-    },
-    {
       "id": "08e4820601678f03",
       "titulo": "¿Sabía que un videojuego podría costarle US$1.000 millones a la economía de EE.UU.?",
       "categoria": "Economía",
@@ -323,15 +413,6 @@
       "fuente": "La Silla Vacía",
       "url": "https://www.lasillavacia.com/en-vivo/mincultura-apelara-suspension-de-daza-en-la-biblioteca-nacional/",
       "fecha": "2026-11-18T20:22:24+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "6f89118379844daa",
-      "titulo": "¿Se viene un nuevo capítulo para el Pereira?",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/noticias/risaralda/pereira/se-viene-un-nuevo-capitulo-para-el-pereira/",
-      "fecha": "2026-11-18T20:20:51+00:00",
       "imagen": ""
     },
     {
@@ -389,11 +470,11 @@
       "imagen": ""
     },
     {
-      "id": "dae557f282d7b0ca",
+      "id": "718b55cc2b23ba73",
       "titulo": "¿Qué riesgos tiene EE. UU. si la información de la NSA es expuesta?",
-      "categoria": "Colombia",
-      "fuente": "La FM Actualidad",
-      "url": "https://www.lafm.com.co/actualidad/riesgos-estados-unidos-informacion-nsa-expuesta-417589",
+      "categoria": "Internacional",
+      "fuente": "La FM Internacional",
+      "url": "https://www.lafm.com.co/internacional/riesgos-estados-unidos-informacion-nsa-expuesta-417589",
       "fecha": "2026-11-18T20:01:28+00:00",
       "imagen": ""
     },
@@ -404,15 +485,6 @@
       "fuente": "Xataka",
       "url": "https://www.xataka.com/magnet/hierro-ha-recibido-dos-semanas-casi-tantas-personas-como-habitantes-tiene-gobierno-responde-5-millones-marco",
       "fecha": "2026-11-18T20:01:17+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "85a7d694ff178d31",
-      "titulo": "Gobierno ajusta reforma tributaria y descarta nuevos aumentos del IVA",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/actualidad/gobierno-ajusta-reforma-tributaria-y-descarta-nuevos-aumentos-del-iva/",
-      "fecha": "2026-11-18T20:00:56+00:00",
       "imagen": ""
     },
     {
@@ -468,78 +540,6 @@
       "url": "https://www.elcolombiano.com/colombia/quien-es-nate-morris-embajador-ee-uu-colombia-PE43741691",
       "fecha": "2026-11-18T19:40:46+00:00",
       "imagen": ""
-    },
-    {
-      "id": "c011e48110ba3519",
-      "titulo": "Jorge Gutiérrez será interventor de Nueva EPS. Se va la ficha de “Joaco”",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/en-vivo/jorge-gutierrez-sera-interventor-de-nueva-eps-se-va-la-ficha-de-joaco/",
-      "fecha": "2026-11-18T19:37:35+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "90858a40d2e2ca4f",
-      "titulo": "Rockstar lanza \"GTA VI\" y desata una fiebre global entre los jugadores",
-      "categoria": "Internacional",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/rockstar-lanza-gta-vi-y-desata-una-fiebre-global-entre-los-jugadores/a-79986047?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-18T19:34:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "76857908fac0d189",
-      "titulo": "Ataques informáticos, IA o actualizaciones pendientes: qué hay detrás de la ola de problemas tecnológicos de los últimos días",
-      "categoria": "Internacional",
-      "fuente": "BBC Mundo",
-      "url": "https://www.bbc.com/mundo/articles/cq98x39klx03o?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-18T19:31:04+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "3f48fe8ab6dcc497",
-      "titulo": "De la Espriella recibió el Premio Jerusalén por su respaldo a Israel",
-      "categoria": "Cali",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/noticias/de-la-espriella-recibio-el-premio-jerusalen-por-su-respaldo-a-israel/",
-      "fecha": "2026-11-18T19:30:39+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "136c02147a75a553",
-      "titulo": "La reinvención de Yuli Tobar: convertir la memoria en joyas y las raíces en oportunidades",
-      "categoria": "Colombia",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/reinventarse-para-seguir/bloem-jewelry-y-filigrana-colombiana-llegan-de-cali-a-miami/",
-      "fecha": "2026-11-18T19:19:32+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "5fc0fc7e97e9f997",
-      "titulo": "Sorpresa en el FPC: Blessd y 'Dímelo Jara' son los nuevos dueños del Deportivo Pereira",
-      "categoria": "Deportes",
-      "fuente": "La FM Deportes",
-      "url": "https://www.lafm.com.co/deportes/blessd-dimelo-jara-compran-deportivo-pereira-417582",
-      "fecha": "2026-11-18T19:19:01+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "fbf59ed7b3166747",
-      "titulo": "¿Qué es la estanflación y qué tan cerca estaría la economía colombiana?",
-      "categoria": "Economía",
-      "fuente": "La FM Economía",
-      "url": "https://www.lafm.com.co/economia/que-es-estanflacion-que-cerca-estaria-economia-colombiana-417579",
-      "fecha": "2026-11-18T19:12:12+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "1cbb8bde24a90758",
-      "titulo": "Las electrolineras",
-      "categoria": "Colombia",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/opinion/columnistas/las-electrolineras/",
-      "fecha": "2026-11-18T19:11:03+00:00",
-      "imagen": ""
     }
   ],
   "estado_fuentes": [
@@ -553,7 +553,7 @@
       "nombre": "El Tiempo Cali",
       "url": "https://www.eltiempo.com/rss/colombia_cali.xml",
       "estado": "correcto",
-      "titulares": 6
+      "titulares": 7
     },
     {
       "nombre": "El Espectador",
@@ -655,14 +655,16 @@
     {
       "nombre": "El Diario — Pereira",
       "url": "https://www.eldiario.com.co/feed/",
-      "estado": "correcto",
-      "titulares": 35
+      "estado": "error",
+      "titulares": 0,
+      "detalle": "El feed no contiene entradas."
     },
     {
       "nombre": "Chocó 7 días",
       "url": "https://choco7dias.com/feed/",
-      "estado": "correcto",
-      "titulares": 10
+      "estado": "error",
+      "titulares": 0,
+      "detalle": "415 Client Error: Unsupported Media Type for url: https://choco7dias.com/feed/"
     },
     {
       "nombre": "La Patria — Caldas",
