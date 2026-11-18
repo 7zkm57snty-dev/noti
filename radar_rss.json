@@ -1,9 +1,270 @@
 {
-  "ultima_actualizacion": "2026-11-18T13:55:41.656721+00:00",
+  "ultima_actualizacion": "2026-11-18T15:06:27.393707+00:00",
   "titulares_rss": [
     {
+      "id": "f5e2024869df20e1",
+      "titulo": "El IVA que no iba",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/red-de-expertos/red-social/el-iva-que-no-iba/",
+      "fecha": "2026-11-18T15:00:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "2ba5635fa79983e4",
+      "titulo": "'El crimen no duerme, nosotros tampoco': así se desarrolló la 'Operación Patriot' para asfixiar a cinco bandas criminales en el Valle del Cauca",
+      "categoria": "Valle del Cauca",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/cali/el-crimen-no-duerme-nosotros-tampoco-asi-se-desarrollo-la-operacion-patriot-para-asfixiar-a-cinco-bandas-criminales-en-el-valle-del-cauca-3601976",
+      "fecha": "2026-11-18T14:56:13+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "39a727e4088c2745",
+      "titulo": "Cámara de Representantes aprueba nominación de Nate Morris como embajador de EE.UU. en Colombia",
+      "categoria": "Internacional",
+      "fuente": "La FM Internacional",
+      "url": "https://www.lafm.com.co/internacional/nate-morris-supera-primera-votacion-confirmacion-embajador-eeuu-colombia-417543",
+      "fecha": "2026-11-18T14:48:56+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "f88b810a3a023e4b",
+      "titulo": "Gobierno De la Espriella alista cambios ministeriales para incluir representantes afrodescendientes",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/economia/gobierno-de-la-espriella-alista-cambios-ministeriales-para-incluir-representantes-afrodescendientes-4527353",
+      "fecha": "2026-11-18T14:46:51+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "bfd2cdce0f109d99",
+      "titulo": "De La Espriella Lawyers anuncia acciones legales contra María Fernanda Carrascal en medio de lío con la Dian",
+      "categoria": "Economía",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/gobierno/de-la-espriella-lawyers-anuncia-acciones-legales-contra-maria-fernanda-carrascal-en-medio-de-lio-con-la-dian-506569",
+      "fecha": "2026-11-18T14:43:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "a598c3cfe5f7206a",
+      "titulo": "Crisis inminente en el Hospital Alma Máter de Medellín: deudas millonarias, sin insumos y pacientes en riesgo extremo",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/medellin/crisis-inminente-en-el-hospital-alma-mater-de-medellin-deudas-millonarias-sin-insumos-y-pacientes-en-riesgo-extremo-3601971",
+      "fecha": "2026-11-18T14:40:36+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "a1e121db925ab022",
+      "titulo": "Fenómeno de El Niño en América Latina: estos son los riesgos que advierte la ciencia",
+      "categoria": "Internacional",
+      "fuente": "La FM Internacional",
+      "url": "https://www.lafm.com.co/internacional/fenomeno-el-nino-america-latina-sequias-energia-cosechas-preparacion-417525",
+      "fecha": "2026-11-18T14:37:36+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "3eb6c2502e70c7eb",
+      "titulo": "Sheinbaum y Trump se acercan a acuerdos comerciales en conversaciones en China",
+      "categoria": "Deportes",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/globoeconomia/sheinbaum-y-trump-se-acercan-a-acuerdos-comerciales-en-dialogos-en-china-4527322",
+      "fecha": "2026-11-18T14:37:15+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "3bd2571ba941b417",
+      "titulo": "Un crédito récord a Airbus pone a prueba la tregua comercial UE-EE.UU.",
+      "categoria": "Internacional",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/un-crédito-récord-a-airbus-pone-a-prueba-la-tregua-comercial-ue-ee-uu/a-79975233?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-18T14:36:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "851cdabf634e7df7",
+      "titulo": "Colombia atrae inversiones por US$2.800 millones para impulsar proyectos de salud, infraestructura y energía",
+      "categoria": "Colombia",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/gobierno/colombia-atrae-inversiones-por-us-2-800-millones-para-impulsar-proyectos-de-salud-infraestructura-y-energia-506570",
+      "fecha": "2026-11-18T14:35:51+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "5334f4291e8a2e66",
+      "titulo": "Contraloría advierte que faltan 1.500 trabajadores en el Metro de Bogotá y se traerán de China por US$ 10 millones",
+      "categoria": "Internacional",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/infraestructura/contraloria-advierte-que-faltan-1-500-trabajadores-en-el-metro-de-bogota-y-se-traeran-de-china-por-us-10-millones-506568",
+      "fecha": "2026-11-18T14:35:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "49bdad8a6280b6af",
+      "titulo": "FDN aporta $248.360 millones para modernizar el corredor férreo La Dorada, Chiriguaná",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/economia/fdn-aporta-248-360-millones-para-modernizar-el-corredor-ferreo-la-dorada-chiriguana-4527193",
+      "fecha": "2026-11-18T14:31:49+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "cdf06e510de1b2a6",
+      "titulo": "La tele QD-Mini LED de Xiaomi se adelanta al Black Friday con un nuevo precio mínimo histórico",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/seleccion/tele-qd-mini-led-xiaomi-se-adelanta-al-black-friday-nuevo-precio-minimo-historico",
+      "fecha": "2026-11-18T14:31:14+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "ea2e6a783a7be345",
+      "titulo": "Fenalco pide un incremento de un dígito para el salario mínimo del próximo año",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/economia/fenalco-pide-un-incremento-de-un-digito-para-el-salario-minimo-del-proximo-ano-4527310",
+      "fecha": "2026-11-18T14:30:28+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "e2eff3d54088ed03",
+      "titulo": "Lesión Gustavo Puerta: Esto es lo que se conoce y lo que sucederá con el volante",
+      "categoria": "Valle del Cauca",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/deportes/lesion-gustavo-puerta-seleccion-colombia-18-11-2026/",
+      "fecha": "2026-11-18T14:27:29+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "c284458414c12093",
+      "titulo": "Miles se manifiestan en Haití en agradecimiento a El Salvador por combatir pandillas",
+      "categoria": "Internacional",
+      "fuente": "La FM Internacional",
+      "url": "https://www.lafm.com.co/internacional/manifestaciones-puerto-principe-haiti-agradecimiento-soldados-el-salvador-nayib-bukele-417538",
+      "fecha": "2026-11-18T14:21:36+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "3cfbb62d113f6704",
+      "titulo": "\"Es mucho más divertido ser el malo\": la idea que inspiró a un pequeño estudio escocés a crear el exitoso videojuego GTA hace casi 30 años",
+      "categoria": "Internacional",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/cw772rdlzdkzo?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-18T14:19:20+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "c6da55f2812059f9",
+      "titulo": "El euro baja frente al peso colombiano: así abrió el mercado este 18 de noviembre",
+      "categoria": "Economía",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/finanzas/el-euro-baja-frente-al-peso-colombiano-asi-abrio-el-mercado-este-18-de-noviembre-506567",
+      "fecha": "2026-11-18T14:18:45+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "321cc14eae083a06",
+      "titulo": "90 al día: Las noticias más importantes de la región este miércoles, 18 de noviembre",
+      "categoria": "Valle del Cauca",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/cali/noticias-importantes-region-miercoles-18-noviembre-18-11-2026/",
+      "fecha": "2026-11-18T14:10:58+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "c8b3af14bfefb7cc",
+      "titulo": "¿En qué gastará Medellín los 1,83 billones de las acciones de EPM en Tigo UNE? Revelan la hoja de ruta que promete revolucionar la ciudad",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/medellin/en-que-gastara-medellin-los-1-83-billones-de-las-acciones-de-epm-en-tigo-une-revelan-la-hoja-de-ruta-que-promete-revolucionar-la-ciudad-3601964",
+      "fecha": "2026-11-18T14:09:30+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "28b485d113a1f0dd",
+      "titulo": "Con propuestas de hasta dos dígitos, arranca negociación del mínimo",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/en-vivo/con-propuestas-de-hasta-dos-digitos-arranca-negociacion-del-minimo/",
+      "fecha": "2026-11-18T14:01:56+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "9f8e2fa891093270",
+      "titulo": "Ya es oficial: el servicio universal de internet será diez veces más rápido en 2027 y beneficiará a mucha más gente",
+      "categoria": "Tecnología",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/servicios/oficial-servicio-universal-internet-sera-diez-veces-rapido-2027-beneficiara-a-mucha-gente",
+      "fecha": "2026-11-18T14:01:20+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "9e2f91f79034afde",
+      "titulo": "Video | Así fue la clasificación de América para la final de Copa; pasaron sobre la hora",
+      "categoria": "Valle del Cauca",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/deportes/america-de-cali/clasificacion-de-america-para-la-final-de-copa-18-11-2026/",
+      "fecha": "2026-11-18T14:00:41+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "69adefecd1965b6b",
+      "titulo": "VENTA TEMPERADERO",
+      "categoria": "Colombia",
+      "fuente": "La Patria — Caldas",
+      "url": "https://www.lapatria.com/clasificados/venta-temperadero-2",
+      "fecha": "2026-11-18T13:58:45+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "c08a6bbb4b5b7e13",
+      "titulo": "Soros y otras grandes fortunas redujeron apuestas por Nvidia antes de la salida de Huang",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/globoeconomia/soros-y-otras-fortunas-redujeron-apuestas-por-nvidia-antes-de-salida-de-huang-4527266",
+      "fecha": "2026-11-18T13:58:32+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "a4f92fa308ebb34b",
+      "titulo": "VENTA PARQUEADERO",
+      "categoria": "Colombia",
+      "fuente": "La Patria — Caldas",
+      "url": "https://www.lapatria.com/clasificados/venta-parqueadero-7",
+      "fecha": "2026-11-18T13:56:39+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "fb7bb2c65eae477e",
+      "titulo": "Tras renuncia de Solano, Jorge Enrique Gutiérrez asumirá como interventor de Nueva EPS",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/empresas/tras-renuncia-de-solano-jorge-enrique-gutierrez-asumira-como-interventor-de-nueva-eps-4527229",
+      "fecha": "2026-11-18T13:56:07+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "e80e6032437e7be1",
+      "titulo": "Hay Festival 2027 reunirá a más de 180 invitados de 26 países en cuatro ciudades",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/ocio/hay-festival-2027-reunira-a-mas-de-180-invitados-de-26-paises-en-cuatro-ciudades-4527176",
+      "fecha": "2026-11-18T13:56:04+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "67cebe41f6c092ad",
+      "titulo": "EMPLEO",
+      "categoria": "Economía",
+      "fuente": "La Patria — Caldas",
+      "url": "https://www.lapatria.com/clasificados/empleo-124",
+      "fecha": "2026-11-18T13:55:50+00:00",
+      "imagen": ""
+    },
+    {
       "id": "841ad0cd91c5a3a3",
-      "titulo": "Pensionados en Colombia recibirán un pago extra en noviembre: lista de beneficiarios y cuánto dinero recibirán",
+      "titulo": "Pensionados en Colombia recibirán un pago extra en noviembre: lista de beneficiados y cuánto dinero les llegará",
       "categoria": "Colombia",
       "fuente": "La FM Economía",
       "url": "https://www.lafm.com.co/economia/prima-pensionados-noviembre-2026-pago-extra-colpensiones-fondo-privados-417526",
@@ -11,8 +272,17 @@
       "imagen": ""
     },
     {
+      "id": "dfe2c0813380c9d8",
+      "titulo": "Trump, Xi y Putin estrechan manos en Shenzhen y podrían tener una reunión a puerta cerrada",
+      "categoria": "Internacional",
+      "fuente": "La FM Internacional",
+      "url": "https://www.lafm.com.co/internacional/donald-trump-xi-jinping-vladimir-putin-rusia-estados-unidos-china-reunion-417534",
+      "fecha": "2026-11-18T13:48:57+00:00",
+      "imagen": ""
+    },
+    {
       "id": "49030135ee6e1b2d",
-      "titulo": "Comercio moderó su crecimiento en octubre y apuesta por los Black Days para cerrar el año",
+      "titulo": "Comercio creció más moderado en octubre y apuesta por los Black Days para cerrar el año",
       "categoria": "Colombia",
       "fuente": "La República",
       "url": "https://www.larepublica.co/empresas/resultados-de-la-bitacora-economica-de-fenalco-para-octubre-4527224",
@@ -35,6 +305,15 @@
       "fuente": "Portafolio",
       "url": "https://www.portafolio.co/economia/gobierno/se-salvaron-los-animales-comida-para-mascotas-tampoco-tendra-aumento-del-iva-por-orden-de-de-la-espriella-506558",
       "fecha": "2026-11-18T13:44:34+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "920a776fbb257975",
+      "titulo": "‘Hay que averiguar en la Fiscalía qué está pasando’: Procurador exige respuestas por 78 mujeres asesinadas en el Atlántico en lo que va de 2026",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/barranquilla/hay-que-averiguar-en-la-fiscalia-que-esta-pasando-procurador-exige-respuestas-por-78-mujeres-asesinadas-en-el-atlantico-en-lo-que-va-de-3601938",
+      "fecha": "2026-11-18T13:36:56+00:00",
       "imagen": ""
     },
     {
@@ -138,7 +417,7 @@
     },
     {
       "id": "7417ae468d436a9b",
-      "titulo": "El raro encuentro con indígenas aislados en Brasil que genera preocupación",
+      "titulo": "El raro encuentro con los indígenas aislados awá en Brasil que genera preocupación",
       "categoria": "Internacional",
       "fuente": "BBC Mundo",
       "url": "https://www.bbc.com/mundo/articles/cmglry191y9xo?at_medium=RSS&at_campaign=rss",
@@ -210,7 +489,7 @@
     },
     {
       "id": "a670c810e71dcc5f",
-      "titulo": "El dólar abrió la jornada $11,15 al alza, mientras se espera nueva subida de tasas de la FED",
+      "titulo": "El dólar se cotiza más de $7 al alza, mientras estiman nueva subida de tasas de la FED",
       "categoria": "Economía",
       "fuente": "La República",
       "url": "https://www.larepublica.co/finanzas/precio-del-dolar-y-petroleo-hoy-18-de-noviembre-4527136",
@@ -254,291 +533,12 @@
       "imagen": ""
     },
     {
-      "id": "dd087b5d46e5decb",
-      "titulo": "Supersalud nombra a Jorge Enrique Gutiérrez Sampedro como nuevo interventor de Nueva EPS",
-      "categoria": "Colombia",
-      "fuente": "La FM Actualidad",
-      "url": "https://www.lafm.com.co/actualidad/supersalud-nueva-eps-interventor-salud-crisis-medicamentros-nuevo-funcionario-417520",
-      "fecha": "2026-11-18T12:50:20+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "e42107097b004817",
-      "titulo": "El Descuartizador de Manrique, el expediente real que inaugura el final de temporada de Revelaciones del Bajo Mundo",
-      "categoria": "Internacional",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/revelaciones-del-bajo-mundo-podcast-el-descuartizador-de-manrique-KB43716491",
-      "fecha": "2026-11-18T12:42:13+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "8e879ca6332b0872",
-      "titulo": "\"Mantener el poder adquisitivo no implica tomar medidas populistas\": Fenalco pide aumento del salario mínimo 2027 de un solo dígito",
-      "categoria": "Economía",
-      "fuente": "La FM Economía",
-      "url": "https://www.lafm.com.co/economia/salario-minimo-2027-fenalco-aumento-un-solo-digito-empresarios-policias-malos-417519",
-      "fecha": "2026-11-18T12:38:11+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "205570cf9dce3b9f",
-      "titulo": "Tres personas heridas dejó incendio estructural en el barrio Primitivo Crespo de Cali",
-      "categoria": "Cali",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/cali/personas-heridas-incendio-barrio-primitivo-crespo-cali-18-11-2026/",
-      "fecha": "2026-11-18T12:36:48+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "7bafdcbeb731deb4",
-      "titulo": "Trump y Putin se saludan tras ser recibidos por Xi Jinping a su llegada a China para participar en la cumbre del APEC",
-      "categoria": "Internacional",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/internacional/2026-11-18/xi-jinping-y-putin-reivindican-su-firme-relacion-poco-antes-de-la-llegada-de-trump-a-la-cumbre-de-la-apec-en-china.html",
-      "fecha": "2026-11-18T12:35:12+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "288167ed5c2246ab",
-      "titulo": "'GTA VI' es el juego más grande de la historia. La pregunta es si también será una buena base para los que están por venir",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/videojuegos/gta-vi-juego-grande-historia-pregunta-tambien-sera-buena-base-estan-venir",
-      "fecha": "2026-11-18T12:35:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "4df41e1be925749f",
-      "titulo": "Pese a goleada, Alemania sale del Top 10 de selecciones de fútbol",
+      "id": "2c11703cd89b3d85",
+      "titulo": "Once Caldas y América, así les ha ido históricamente en las finales de Copa BetPlay",
       "categoria": "Deportes",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/pese-a-goleada-alemania-sale-del-top-10-de-selecciones-de-fútbol/a-79981114?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-18T12:34:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "621d2fc2667e8d86",
-      "titulo": "'No se quedará en un pronunciamiento': el Gobierno Nacional activa tres acciones clave por ataque racista a una auxiliar de la Policía en Cali",
-      "categoria": "Cali",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/cali/no-se-quedara-en-un-pronunciamiento-el-gobierno-nacional-activa-tres-acciones-clave-por-ataque-racista-a-una-auxiliar-de-la-policia-en-cali-3601922",
-      "fecha": "2026-11-18T12:33:15+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "1e2d9d5948fa6448",
-      "titulo": "Cae de precio la tarjeta microSD Express de Samsung con 512 GB para Nintendo Switch 2",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/seleccion/cae-precio-tarjeta-microsd-express-samsung-512-gb-para-nintendo-switch-2",
-      "fecha": "2026-11-18T12:31:15+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "bae95d86421e2351",
-      "titulo": "MinHacienda estudia cobrar IVA a alquileres turísticos y crear sobretasa en la Ley de Rescate",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/economia/minhacienda-estudia-cobrar-iva-a-alquileres-turisticos-y-crear-sobretasa-en-la-ley-de-rescate-4527157",
-      "fecha": "2026-11-18T12:30:03+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "eb6dd215b7f307f4",
-      "titulo": "América de Cali y Once Caldas disputarán la final de la Copa BetPlay en diciembre",
-      "categoria": "Cali",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/ocio/america-de-cali-y-once-caldas-disputaran-la-final-de-la-copa-betplay-en-diciembre-4527158",
-      "fecha": "2026-11-18T12:28:47+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "14e7f79e9d236c36",
-      "titulo": "Investigué el asesinato de mi padre y desafío la versión oficial de un episodio clave de la historia de Perú",
-      "categoria": "Internacional",
-      "fuente": "BBC Mundo",
-      "url": "https://www.bbc.com/mundo/articles/cmwyz0wj4xjeo?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-18T12:24:23+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "32e24848fe1a78de",
-      "titulo": "Desayune informado con las claves de este 18 de noviembre de 2026",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/en-vivo/desayune-informado-con-las-claves-de-este-18-de-noviembre-de-2026/",
-      "fecha": "2026-11-18T12:22:16+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "dcc245b387d35bd8",
-      "titulo": "Se proyectan inversiones por más de US$6.000 millones en minería e infraestructura",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/economia/se-proyectan-inversiones-por-mas-de-us-6-000-millones-en-mineria-infraestructura-y-salud-4527112",
-      "fecha": "2026-11-18T12:21:10+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "c20ed78d956887b4",
-      "titulo": "Irán amenaza con respuesta a EE. UU. \"sin límites geográficos\" y lanza drones contra Kuwait y Baréin",
-      "categoria": "Internacional",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/irán-amenaza-con-respuesta-a-ee-uu-sin-límites-geográficos-y-lanza-drones-contra-kuwait-y-baréin/a-79977095?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-18T12:21:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "fdd8539821ac293f",
-      "titulo": "Multinacional mexicana Italika llegará a Barranquilla con planta ensambladora de motocicletas y cerca de 1.000 empleos",
-      "categoria": "Economía",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/barranquilla/multinacional-mexicana-italika-llegara-a-barranquilla-con-planta-ensambladora-de-motocicletas-y-cerca-de-1-000-empleos-3601919",
-      "fecha": "2026-11-18T12:17:25+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "f63ab784393e2f56",
-      "titulo": "Tres barrios de Cali que se quedarán sin agua este miércoles, 18 de noviembre",
-      "categoria": "Cali",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/cali/barrios-cali-sin-agua-miercoles-18-noviembre-18-11-2026/",
-      "fecha": "2026-11-18T12:05:40+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "e7d14b8873aa5137",
-      "titulo": "“Subíos a mi carro cislunar”: la Fuerza Espacial estadounidense busca aliados para vigilar el espacio entre la Tierra y la Luna",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/espacio/subios-a-mi-carro-cislunar-fuerza-espacial-estadounidense-busca-aliados-para-vigilar-espacio-tierra-luna",
-      "fecha": "2026-11-18T12:01:23+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "c960e12e3dbc4662",
-      "titulo": "Amazon liquida esta casa prefabricada: cocina, baño y dormitorio por 6.250 euros",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/seleccion/amazon-liquida-esta-casa-prefabricada-cocina-bano-dormitorio-6-250-euros",
-      "fecha": "2026-11-18T12:01:22+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "f1c304eff80e7356",
-      "titulo": "Haciendo mercado con una tributaria en discusión",
-      "categoria": "Economía",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/podcasts/huevos-revueltos-con-politica/haciendo-mercado-con-una-tributaria-en-discusion/",
-      "fecha": "2026-11-18T12:00:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "a2c10d2fcd0218c3",
-      "titulo": "Alumbrado navideño 2026: conozca las novedades que tendrá Cali este año",
-      "categoria": "Cali",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/cali/alumbrado-navideno-2026-cali-18-11-2026/",
-      "fecha": "2026-11-18T11:59:33+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "39ca30856c75debb",
-      "titulo": "Alcaldía de Bogotá entregará hasta $10 millones a locales por incendio ocurrido en el Gran San",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/empresas/alcaldia-de-bogota-entregara-hasta-10-millones-a-locales-por-incendio-del-gran-san-4527109",
-      "fecha": "2026-11-18T11:59:12+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "3ca09e55887b440f",
-      "titulo": "Xi, Trump y Putin se saludan y posan para \"foto de familia\" antes de su cumbre trilateral",
-      "categoria": "Internacional",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/xi-trump-y-putin-se-saludan-y-posan-para-foto-de-familia-antes-de-su-cumbre-trilateral/a-79980832?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-18T11:59:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "fa694af9f1941ab3",
-      "titulo": "Tres heridos dejó incendio que consumió el segundo piso de una casa en Cali",
-      "categoria": "Cali",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/incendio-casa-barrio-primitivo-crespo-heridos-emergencia-cali-FB43717222",
-      "fecha": "2026-11-18T11:58:37+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "eb8384f9199bf132",
-      "titulo": "Video | El ministro de Defensa, Jorge Mora, lloró al conocer a otra familia víctima de alias Primo Gay: eran policías",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/ministro-de-defensa-jorge-mora-llora-victimas-alias-primo-gay-policias-HB43717033",
-      "fecha": "2026-11-18T11:57:07+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "3b75a2c05be8e172",
-      "titulo": "Italia aprueba una ley que abre la posibilidad de considerar antisemitismo las críticas a Israel",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/internacional/2026-11-18/italia-aprueba-una-ley-que-abre-la-posibilidad-de-considerar-antisemitismo-las-criticas-a-israel.html",
-      "fecha": "2026-11-18T11:57:06+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "23e8b364c50742ba",
-      "titulo": "Más de 60 hospitales europeos se unen en una campaña para concienciar del uso prudente de antibióticos",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/medicina-y-salud/60-hospitales-europeos-se-unen-campana-para-concienciar-uso-prudente-antibioticos",
-      "fecha": "2026-11-18T11:55:36+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "95afd2de6722060b",
-      "titulo": "¿Qué significa que la sonda Voyager 1 haya alcanzado una distancia de un día luz de la Tierra?",
-      "categoria": "Internacional",
-      "fuente": "La FM Internacional",
-      "url": "https://www.lafm.com.co/internacional/que-significa-sonda-voyager-1-alcanzado-distancia-un-dia-luz-tierra-417512",
-      "fecha": "2026-11-18T11:55:11+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "bcce71206784aa1b",
-      "titulo": "Documentos filtrados del Deutsche Bank revelan transacciones alarmantes en Colombia relacionadas con modelos webcam",
-      "categoria": "Colombia",
-      "fuente": "La FM Internacional",
-      "url": "https://www.lafm.com.co/internacional/deutsche-bank-transacciones-colombia-modelos-webcam-417511",
-      "fecha": "2026-11-18T11:50:34+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "53ec4c657c7c1973",
-      "titulo": "No podíamos pagar una casa para nuestra familia, así que compramos una con desconocidos",
-      "categoria": "Internacional",
-      "fuente": "BBC Mundo",
-      "url": "https://www.bbc.com/mundo/articles/cmzx95xnwdd6o?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-18T11:50:32+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "1debd9f1847b928d",
-      "titulo": "Dólar en Colombia frena su racha alcista y cae este miércoles 18 de noviembre: este es su precio oficial",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/finanzas/dolar-en-colombia-frena-su-racha-alcista-y-cae-este-miercoles-18-de-noviembre-este-es-su-precio-oficial-506559",
-      "fecha": "2026-11-18T11:49:50+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "a9d5a2abbb2a5252",
-      "titulo": "Mineros evalúa un portafolio de nuevas inversiones por un valor cercano a US$600 millones",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/empresas/mineros-evalua-un-portafolio-de-nuevas-inversiones-por-cerca-de-us-600-millones-4527117",
-      "fecha": "2026-11-18T11:48:44+00:00",
+      "fuente": "La FM Deportes",
+      "url": "https://www.lafm.com.co/deportes/once-caldas-america-asi-ha-ido-historicamente-finales-copa-betplay-417521",
+      "fecha": "2026-11-18T12:52:29+00:00",
       "imagen": ""
     }
   ],
@@ -553,7 +553,7 @@
       "nombre": "El Tiempo Cali",
       "url": "https://www.eltiempo.com/rss/colombia_cali.xml",
       "estado": "correcto",
-      "titulares": 5
+      "titulares": 6
     },
     {
       "nombre": "El Espectador",
@@ -590,13 +590,13 @@
       "nombre": "BBC Mundo",
       "url": "https://feeds.bbci.co.uk/mundo/rss.xml",
       "estado": "correcto",
-      "titulares": 28
+      "titulares": 29
     },
     {
       "nombre": "DW Español",
       "url": "https://rss.dw.com/rdf/rss-sp-all",
       "estado": "correcto",
-      "titulares": 23
+      "titulares": 24
     },
     {
       "nombre": "Xataka",
@@ -668,7 +668,7 @@
       "nombre": "La Patria — Caldas",
       "url": "https://www.lapatria.com/rss.xml",
       "estado": "correcto",
-      "titulares": 9
+      "titulares": 7
     }
   ]
 }
