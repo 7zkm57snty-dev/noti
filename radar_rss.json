@@ -1,6 +1,123 @@
 {
-  "ultima_actualizacion": "2026-11-18T10:39:56.040060+00:00",
+  "ultima_actualizacion": "2026-11-18T11:37:10.103953+00:00",
   "titulares_rss": [
+    {
+      "id": "8a31e6511de30647",
+      "titulo": "Se salvaron los animales: comida para mascotas tampoco tendrá aumento del IVA por orden de De La Espriella",
+      "categoria": "Economía",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/gobierno/se-salvaron-los-animales-comida-para-mascotas-tampoco-tendra-aumento-del-iva-por-orden-de-de-la-espriella-506558",
+      "fecha": "2026-11-18T11:31:25+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "7eeb84fd66bb9710",
+      "titulo": "La rectificación de Franganillo por su tensa entrevista con Sánchez evidencia que esta es la campaña más tensa vista en televisión",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/magnet/rectificacion-franganillo-su-tensa-entrevista-sanchez-evidencia-que-esta-campana-tensa-vista-television",
+      "fecha": "2026-11-18T11:31:18+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "5dff5b4a28e88862",
+      "titulo": "Encuentran una falla crítica en Java, el tercer lenguaje de programación más utilizado en el mundo del que dependen el 90% de las grandes compañías",
+      "categoria": "Internacional",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/cwvg2enzxdm9o?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-18T11:28:37+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "2300c1c10f696a68",
+      "titulo": "El disco de oro con mensajes para los extraterrestres que transporta la sonda Voyager 1 (y cómo podrán descifrarlo)",
+      "categoria": "Internacional",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/ck1l0v4yy6p0o?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-18T11:27:58+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "3d5d338a66368e20",
+      "titulo": "El gran hito del Voyager, el objeto fabricado por la humanidad que más lejos llega en el espacio al viajar un día luz",
+      "categoria": "Internacional",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/cmgrewv5zxqro?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-18T11:24:51+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "fea5eeb847047708",
+      "titulo": "Economía colombiana entraría en estanflación y crecería apenas 1,5% en 2027, según Banco de Bogotá",
+      "categoria": "Economía",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/gobierno/economia-colombiana-entraria-en-estanflacion-y-creceria-apenas-1-5-en-2027-segun-banco-de-bogota-506557",
+      "fecha": "2026-11-18T11:20:26+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "dbe6ffda09f0f95a",
+      "titulo": "Portada 18 de noviembre del 2026",
+      "categoria": "Colombia",
+      "fuente": "La Patria — Caldas",
+      "url": "https://www.lapatria.com/publicacion/portada-18-de-noviembre-del-2026",
+      "fecha": "2026-11-18T11:16:19+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "a61360bb328daae7",
+      "titulo": "A precio de outlet el monitor portátil de MSI que puedes llevarte (casi) a donde quieras",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/seleccion/a-precio-outlet-monitor-portatil-msi-que-puedes-llevarte-casi-a-donde-quieras",
+      "fecha": "2026-11-18T11:01:20+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "0a85d8461b08fe08",
+      "titulo": "El disparatado precio de la memoria de almacenamiento y la IA está reviviendo una tecnología de hace 50 años: la cinta magnética",
+      "categoria": "Tecnología",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/componentes/disparatado-precio-memoria-almacenamiento-ia-esta-reviviendo-tecnologia-hace-50-anos-cinta-magnetica",
+      "fecha": "2026-11-18T11:01:20+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "778e9cf3c339812f",
+      "titulo": "El nuevo gerente del Fondo Milagro promete cambio de rumbo con “nómina muy bajita”",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/gerente-fondo-milagro-promete-cambio-rumbo-nomina-bajita-EB43714154",
+      "fecha": "2026-11-18T11:00:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "8948bae80bac995e",
+      "titulo": "Chocó: un día como hoy… 18 de noviembre",
+      "categoria": "Colombia",
+      "fuente": "Chocó 7 días",
+      "url": "https://choco7dias.com/choco-un-dia-como-hoy-18-de-noviembre-5/",
+      "fecha": "2026-11-18T11:00:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "b6bd6d18681763ee",
+      "titulo": "Crítica de ‘GTA VI’: Bienvenidos al mayor parque de atracciones digital jamás creado",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/cultura/2026-11-18/critica-de-gta-vi-bienvenidos-al-mayor-parque-de-atracciones-digital-jamas-creado.html",
+      "fecha": "2026-11-18T10:59:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "0e5b65502dd74354",
+      "titulo": "El test genético que descubrió el covid-19 y que ahora salva vidas al detectar casi todas las infecciones",
+      "categoria": "Internacional",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/c6ly5nwjx2llo?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-18T10:38:26+00:00",
+      "imagen": ""
+    },
     {
       "id": "f4879a85769c79b7",
       "titulo": "El nuevo Kindle Paperwhite Signature Edition (2026) ha bajado de precio, aunque hay un 'pero': tienes que llevártelo acompañado",
@@ -8,6 +125,15 @@
       "fuente": "Xataka",
       "url": "https://www.xataka.com/seleccion/nuevo-kindle-paperwhite-signature-edition-2026-ha-bajado-precio-hay-tienes-que-llevartelo-acompanado",
       "fecha": "2026-11-18T10:31:17+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "b705cf7122fc8c8b",
+      "titulo": "Trinidad y Tobago despenaliza las relaciones gais por orden de un tribunal del Reino Unido",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/sociedad/lgtb/2026-11-18/trinidad-y-tobago-despenaliza-las-relaciones-gais-por-orden-de-un-tribunal-del-reino-unido.html",
+      "fecha": "2026-11-18T10:30:50+00:00",
       "imagen": ""
     },
     {
@@ -152,6 +278,15 @@
       "fuente": "DW Español",
       "url": "https://www.dw.com/es/mary-peltola-hace-historia-como-la-primera-indígena-de-alaska-que-llega-al-senado-de-estados-unidos/a-79976994?maca=spa-rss-sp-all-1122-rdf",
       "fecha": "2026-11-18T09:22:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "88dca5a549b8eaeb",
+      "titulo": "El bloque de Eisenkot propina un revés a Netanyahu al hacerse con la presidencia del Parlamento israelí",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/internacional/2026-11-18/el-bloque-de-eisenkot-propina-un-reves-a-netanyahu-al-hacerse-con-la-presidencia-del-parlamento-israeli.html",
+      "fecha": "2026-11-18T09:07:25+00:00",
       "imagen": ""
     },
     {
@@ -405,141 +540,6 @@
       "url": "https://www.larepublica.co/finanzas/los-pequenos-empresarios-se-pueden-asegurar-ante-incendios-desde-2-000-diarios-4526868",
       "fecha": "2026-11-18T05:01:51+00:00",
       "imagen": ""
-    },
-    {
-      "id": "d03232073dd76834",
-      "titulo": "Encuentro Scola reunió a expertos para analizar retos del futuro laboral",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/ocio/encuentro-scola-reunio-a-expertos-para-analizar-retos-del-futuro-laboral-4526541",
-      "fecha": "2026-11-18T05:01:49+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "bdda37be8ab55911",
-      "titulo": "Plata anunció que elevará su compromiso de inyección de capital a US$400 millones",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/finanzas/plata-anuncio-que-elevara-a-us-400-millones-su-compromiso-de-inyeccion-de-capital-4526871",
-      "fecha": "2026-11-18T05:01:45+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "44ca7cffc88da3c9",
-      "titulo": "El peso colombiano es la segunda moneda más devaluada en el mes después del real brasileño",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/finanzas/peso-colombiano-es-la-segunda-moneda-mas-devaluada-en-el-mes-4526891",
-      "fecha": "2026-11-18T05:01:45+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "b6fea63cddf8f163",
-      "titulo": "Lo bueno, lo malo y lo feo",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/analisis/luis-guillermo-velez-cabrera-402232/lo-bueno-lo-malo-y-lo-feo-4526652",
-      "fecha": "2026-11-18T05:01:42+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "5fa36c89796f0508",
-      "titulo": "“Se han invertido US$3.500 millones en energías renovables en los últimos tres años”",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/empresas/inside-lr-con-alexandra-hernandez-presidenta-de-ser-colombia-sobre-inversion-en-renovables-4526679",
-      "fecha": "2026-11-18T05:01:39+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "4857b21d469a5d04",
-      "titulo": "La Ley de Rescate Económico plantea hacer un ajuste fiscal de 4,74% del PIB en 2030",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/economia/ley-de-rescate-economico-plantea-ajuste-fiscal-de-4-74-del-pib-en-2030-4526885",
-      "fecha": "2026-11-18T05:01:35+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "2400661402c6c167",
-      "titulo": "No se llega a un monto de salario mínimo concertado desde diciembre de 2022",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/economia/no-se-llega-a-un-monto-de-salario-minimo-concertado-desde-diciembre-de-2022-4526855",
-      "fecha": "2026-11-18T05:01:33+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "665177ebc58546f7",
-      "titulo": "Un pacto de confianza en tiempos difíciles",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/analisis/german-bahamon-3587238/un-pacto-de-confianza-en-tiempos-dificiles-4526677",
-      "fecha": "2026-11-18T05:01:30+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "cf01fc16367b527c",
-      "titulo": "Washington cambió",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/analisis/simon-gaviria-munoz-401830/washington-cambio-4526691",
-      "fecha": "2026-11-18T05:01:25+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "47f56a126c410422",
-      "titulo": "Fallas informáticas en el año",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/caja-fuerte/fallas-informaticas-en-el-ano-4527022",
-      "fecha": "2026-11-18T05:01:24+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "f13b0fb88e5fd6e1",
-      "titulo": "Un partido y un frente amplio para volver a gobernar",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/analisis/edwin-palma-egea-3515824/un-partido-y-un-frente-amplio-para-volver-a-gobernar-4526667",
-      "fecha": "2026-11-18T05:01:23+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "c642a593f83abed3",
-      "titulo": "Los bancos alcanzaron más de $12,8 billones en utilidades con corte al tercer trimestre del año",
-      "categoria": "Economía",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/finanzas/los-bancos-alcanzaron-mas-de-12-8-billones-en-materia-utilidades-con-corte-a-septiembre-4526832",
-      "fecha": "2026-11-18T05:01:17+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "b842a2f7f0d0f876",
-      "titulo": "El nirvana de la ambición",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/analisis/leticia-ossa-daza-3435708/el-nirvana-de-la-ambicion-4527025",
-      "fecha": "2026-11-18T05:01:11+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "61c9bfbd2f5744da",
-      "titulo": "El rescate fiscal no basta para salvar el contrato social",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/analisis/fredy-vargas-lama-3186620/el-rescate-fiscal-no-basta-para-salvar-el-contrato-social-4527032",
-      "fecha": "2026-11-18T05:01:10+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "e536429b5aaf1ddf",
-      "titulo": "Asdepaso proyecta construcción de un club hípico integral con inversión de $40.000 millones",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/ocio/invertiremos-40-000-millones-en-un-club-hipico-4526665",
-      "fecha": "2026-11-18T05:01:10+00:00",
-      "imagen": ""
     }
   ],
   "estado_fuentes": [
@@ -590,7 +590,7 @@
       "nombre": "BBC Mundo",
       "url": "https://feeds.bbci.co.uk/mundo/rss.xml",
       "estado": "correcto",
-      "titulares": 29
+      "titulares": 30
     },
     {
       "nombre": "DW Español",
@@ -668,7 +668,7 @@
       "nombre": "La Patria — Caldas",
       "url": "https://www.lapatria.com/rss.xml",
       "estado": "correcto",
-      "titulares": 8
+      "titulares": 9
     }
   ]
 }
