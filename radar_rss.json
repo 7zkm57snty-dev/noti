@@ -1,6 +1,60 @@
 {
-  "ultima_actualizacion": "2026-11-18T05:10:20.666585+00:00",
+  "ultima_actualizacion": "2026-11-18T06:14:56.404667+00:00",
   "titulares_rss": [
+    {
+      "id": "f9b3f5ec4a0ba880",
+      "titulo": "\"13 enganches ilegales cada día\": en Málaga han robado 33 millones de kWh de electricidad en diez meses y las plantaciones de marihuana tienen mucho que ver",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/magnet/13-enganches-ilegales-cada-dia-malaga-han-robado-33-millones-kwh-electricidad-diez-meses-plantaciones-marihuana-tienen-mucho-que-ver",
+      "fecha": "2026-11-18T06:01:24+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "890e10c6593f6bbf",
+      "titulo": "La semana que viene llega a Lidl (y rebajada por Black Friday) la solución para no volver a tener fríos los pies en invierno",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/seleccion/semana-que-viene-llega-a-lidl-rebajada-black-friday-solucion-para-no-volver-a-tener-frios-pies-invierno",
+      "fecha": "2026-11-18T05:45:23+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "695621ed24b9321b",
+      "titulo": "Milagro Week: minería, aeropuertos y salud lideran nuevos anuncios de inversión",
+      "categoria": "Economía",
+      "fuente": "La FM Economía",
+      "url": "https://www.lafm.com.co/economia/colombia-suma-millonarias-inversiones-estados-unidos-417505",
+      "fecha": "2026-11-18T05:40:29+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "e42107097b004817",
+      "titulo": "El Descuartizador de Manrique, el expediente real que inaugura el final de temporada de Revelaciones del Bajo Mundo",
+      "categoria": "Internacional",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/revelaciones-del-bajo-mundo-podcast-el-descuartizador-de-manrique-KB43716491",
+      "fecha": "2026-11-18T05:29:42+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "5e9e9c6115e002be",
+      "titulo": "¿Va a cambiar de celular en Black Friday? Así puede reciclar sus dispositivos viejos",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/responsabilidad-social/va-a-cambiar-de-celular-en-black-friday-asi-puede-reciclar-sus-dispositivos-viejos-4526334",
+      "fecha": "2026-11-18T05:24:48+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "37f2d73609beefa9",
+      "titulo": "Cartas para Abelardo desde los territorios",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/silla-nacional/cartas-para-abelardo-desde-los-territorios/",
+      "fecha": "2026-11-18T05:19:58+00:00",
+      "imagen": ""
+    },
     {
       "id": "bed4b245a11287f2",
       "titulo": "Dosquebradas pierde a La Rosa",
@@ -210,7 +264,7 @@
     },
     {
       "id": "c642a593f83abed3",
-      "titulo": "Los bancos alcanzaron más de $12,8 billones en utilidades con corte a septiembre",
+      "titulo": "Los bancos alcanzaron más de $12,8 billones en utilidades con corte al tercer trimestre del año",
       "categoria": "Economía",
       "fuente": "La República",
       "url": "https://www.larepublica.co/finanzas/los-bancos-alcanzaron-mas-de-12-8-billones-en-materia-utilidades-con-corte-a-septiembre-4526832",
@@ -380,12 +434,39 @@
       "imagen": ""
     },
     {
-      "id": "e42107097b004817",
-      "titulo": "El Descuartizador de Manrique, el expediente real que inaugura el final de temporada de Revelaciones del Bajo Mundo",
-      "categoria": "Internacional",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/revelaciones-del-bajo-mundo-podcast-el-descuartizador-de-manrique-KB43716491",
-      "fecha": "2026-11-18T04:59:53+00:00",
+      "id": "8724bbe011c01eb0",
+      "titulo": "Manzanareño Joseph Bonarge Solano se graduó como subteniente de la Policía en Bogotá",
+      "categoria": "Colombia",
+      "fuente": "La Patria — Caldas",
+      "url": "https://www.lapatria.com/galerias/manzanareno-joseph-bonarge-solano-se-graduo-como-subteniente-de-la-policia-en-bogota",
+      "fecha": "2026-11-18T05:00:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "ecadaf0cc7b574cc",
+      "titulo": "Voluntariado Vicentino celebró en Chinchiná la Noche de Gala por los Abuelos",
+      "categoria": "Colombia",
+      "fuente": "La Patria — Caldas",
+      "url": "https://www.lapatria.com/galerias/voluntariado-vicentino-celebro-en-chinchina-la-noche-de-gala-por-los-abuelos",
+      "fecha": "2026-11-18T05:00:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "cb8811f2b9c007ac",
+      "titulo": "El encuentro que reunió a egresados del Semenor tras 45 años: anécdotas, memoria y conexión con el exterior",
+      "categoria": "Colombia",
+      "fuente": "La Patria — Caldas",
+      "url": "https://www.lapatria.com/galerias/el-encuentro-que-reunio-egresados-del-semenor-tras-45-anos-anecdotas-memoria-y-conexion",
+      "fecha": "2026-11-18T05:00:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "e2dadc3a01a7d998",
+      "titulo": "Magistrada de la JEP recibió la Medalla Honor al Mérito de Pensilvania durante las Fiestas del Hacha",
+      "categoria": "Colombia",
+      "fuente": "La Patria — Caldas",
+      "url": "https://www.lapatria.com/galerias/magistrada-de-la-jep-recibio-la-medalla-honor-al-merito-de-pensilvania-durante-las-fiestas",
+      "fecha": "2026-11-18T05:00:00+00:00",
       "imagen": ""
     },
     {
@@ -458,87 +539,6 @@
       "fuente": "El Tiempo Cali",
       "url": "https://www.eltiempo.com/colombia/cali/un-verdadero-maestro-luto-en-el-periodismo-colombiano-por-el-fallecimiento-de-luis-canon-3601649",
       "fecha": "2026-11-18T02:58:31+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "0ad2b250c3b69969",
-      "titulo": "Thanksgiving 2026: ¿por qué se celebra el Día de Acción de Gracias en Estados Unidos?",
-      "categoria": "Internacional",
-      "fuente": "La FM Internacional",
-      "url": "https://www.lafm.com.co/internacional/accion-gracias-2026-estados-unidos-fecha-origen-celebracion-417502",
-      "fecha": "2026-11-18T02:38:42+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "3ae05925d64fce55",
-      "titulo": "Juez concedió libertad a militares sospechosos de falsificar reportes para cobrar viáticos de batallón en Cúcuta",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/corrupcion-ejercito-siete-militares-implicados-falsificacion-documentos-viaticos-batallon-cucuta-BB43714137",
-      "fecha": "2026-11-18T02:33:38+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "2554aa96ecf0d1bf",
-      "titulo": "Federico Gutiérrez defiende a EPM y prende las alarmas por Afinia: “fue la peor decisión en la historia de la empresa”",
-      "categoria": "Colombia",
-      "fuente": "La FM Actualidad",
-      "url": "https://www.lafm.com.co/actualidad/afinia-epm-federico-gutierrez-medellin-energia-perdidas-economia-417493",
-      "fecha": "2026-11-18T02:27:32+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "9f49627a1d3e9ec0",
-      "titulo": "Edicto 1er. aviso Emerzon Mena Ledezma",
-      "categoria": "Colombia",
-      "fuente": "Chocó 7 días",
-      "url": "https://choco7dias.com/edicto-1er-aviso-emerzon-mena-ledezma/",
-      "fecha": "2026-11-18T02:12:42+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "e5b6dd7554da2f16",
-      "titulo": "Pete Hegseth llegará a Colombia: ¿Qué temas de seguridad se discutirán con Estados Unidos?",
-      "categoria": "Internacional",
-      "fuente": "La FM Internacional",
-      "url": "https://www.lafm.com.co/internacional/secretario-de-guerra-pete-hegseth-llega-a-colombia-agenda-con-mindefensa-417487",
-      "fecha": "2026-11-18T02:03:21+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "fefd9a7490149bbb",
-      "titulo": "Andi advierte rezago de la inversión y pide impulsar el crecimiento económico de Colombia",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/economia/andi-advierte-rezago-de-la-inversion-y-pide-impulsar-el-crecimiento-economico-4527054",
-      "fecha": "2026-11-18T02:01:32+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "33bbba0a12f6609d",
-      "titulo": "¿Sabía que usted puede creer que está divorciada y todavía estar casada? El síndrome de las viudas de marido vivo",
-      "categoria": "Colombia",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/area-legal/divorcio-unilateral-en-colombia-ley-2442-viudas-marido-vivo/",
-      "fecha": "2026-11-18T02:01:08+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "f494d6d4ebb18122",
-      "titulo": "“A veces siento que hay más presidente que Gobierno”: Iván Duque sobre De la Espriella",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/siento-hay-mas-presidente-que-gobierno-ivan-duque-abelardo-de-la-espriella-KB43710039",
-      "fecha": "2026-11-18T02:00:19+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "19a974da154b437c",
-      "titulo": "Ana Cristina Restrepo recibió el Premio Alberto Aguirre a la Independencia Periodística",
-      "categoria": "Cali",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/ana-cristina-restrepo-premio-alberto-aguirre-independencia-periodistica-IB43710877",
-      "fecha": "2026-11-18T01:56:03+00:00",
       "imagen": ""
     }
   ],
@@ -668,7 +668,7 @@
       "nombre": "La Patria — Caldas",
       "url": "https://www.lapatria.com/rss.xml",
       "estado": "correcto",
-      "titulares": 4
+      "titulares": 8
     }
   ]
 }
