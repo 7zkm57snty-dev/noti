@@ -1,6 +1,240 @@
 {
-  "ultima_actualizacion": "2026-11-18T17:16:47.987365+00:00",
+  "ultima_actualizacion": "2026-11-18T18:30:00.928578+00:00",
   "titulares_rss": [
+    {
+      "id": "14bcb0dff4734e44",
+      "titulo": "Xi Jinping y Putin critican barreras comerciales antes de encuentro con Trump",
+      "categoria": "Internacional",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/globoeconomia/xi-jinping-y-putin-critican-barreras-comerciales-antes-de-encuentro-con-trump-4527555",
+      "fecha": "2026-11-18T18:27:58+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "4a6e4f158ff48223",
+      "titulo": "Congreso acuerda retirar el IVA a la medicina prepagada de la reforma tributaria",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/economia/congreso-acuerda-retirar-el-iva-a-la-medicina-prepagada-de-la-reforma-tributaria-4527307",
+      "fecha": "2026-11-18T18:26:27+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "4b0272fe801f446a",
+      "titulo": "Transferport y Grupo Ortiz cerraron financiación por US$630 millones en corredor férreo",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/empresas/transferport-y-grupo-ortiz-cerraron-financiacion-por-us-630-millones-en-corredor-ferreo-4527452",
+      "fecha": "2026-11-18T18:25:20+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "ec31054ea01e14a6",
+      "titulo": "Ley de Rescate Fiscal cambia de rumbo: estos son los impuestos que el Gobierno decidió mantener y modificar",
+      "categoria": "Colombia",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/ley-de-rescate-fiscal-cambia-de-rumbo-estos-son-los-impuestos-que-el-gobierno-decidio-mantener-y-modificar-506599",
+      "fecha": "2026-11-18T18:17:04+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "be3723404872eaab",
+      "titulo": "Sucroal construirá una granja solar para abastecer 40% de su consumo energético",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/empresas/sucroal-construira-una-granja-solar-para-abastecer-40-de-su-consumo-energetico-4527547",
+      "fecha": "2026-11-18T18:16:01+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "92cf7135ba89d69a",
+      "titulo": "¿Renunciaría Ucrania al Donbás a cambio de ingresar en la OTAN?",
+      "categoria": "Internacional",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/¿renunciaría-ucrania-al-donbás-a-cambio-de-ingresar-en-la-otan/a-79984054?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-18T18:16:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "ebb1be347b7341fb",
+      "titulo": "Esta imagen de Deicy Jiménez y Petro en un carro fue creada con IA",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/detector-de-mentiras/falso/esta-imagen-de-deicy-jimenez-y-petro-en-un-carro-fue-creada-con-ia/",
+      "fecha": "2026-11-18T18:14:13+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "dcaf296f4dd17f7f",
+      "titulo": "La Ley de Rescate Económico proyecta un ajuste fiscal en torno a 4,7% del PIB en 2030",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/economia/la-ley-de-rescate-economico-busca-un-ajuste-fiscal-de-4-7-del-pib-para-2030-4527534",
+      "fecha": "2026-11-18T18:06:01+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "4eb830ca5a74e82c",
+      "titulo": "El Gobierno da el último paso para aprobar una inversión récord en la red eléctrica hasta 2030",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/energia/gobierno-da-ultimo-paso-para-aprobar-inversion-record-red-electrica-2030",
+      "fecha": "2026-11-18T18:01:13+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "544b2744c9b29895",
+      "titulo": "Diario del gobierno de Abelardo: suspensión en la Biblioteca Nacional",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/en-vivo/diario-del-gobierno-de-abelardo-suspension-en-la-biblioteca-nacional/",
+      "fecha": "2026-11-18T18:00:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "ae8db86ab55686f1",
+      "titulo": "Casi 28.000 mujeres ganaron tierras pero pocas son titulares",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/red-de-expertos/red-de-las-mujeres/casi-28-000-mujeres-ganaron-tierras-pero-pocas-son-titulares/",
+      "fecha": "2026-11-18T18:00:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "76a50eab551a1fb7",
+      "titulo": "Ejército frustra atentado contra el peaje El Contadero en Nariño; presunto atacante murió al activarse el explosivo",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/cali/ejercito-frustra-atentado-contra-el-peaje-el-contadero-en-narino-presunto-atacante-murio-al-activarse-el-explosivo-3602077",
+      "fecha": "2026-11-18T17:59:45+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "f06706adb675d8a7",
+      "titulo": "De La Espriella denuncia en la Fiscalía presunto entramado de contratos con regalías de Barrancabermeja",
+      "categoria": "Internacional",
+      "fuente": "La FM Internacional",
+      "url": "https://www.lafm.com.co/internacional/abelardo-de-la-espriella-acude-fiscalia-denuncia-entramado-corrupcion-417571",
+      "fecha": "2026-11-18T17:50:23+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "eef7fea5d4a410fd",
+      "titulo": "Policía abrió investigación tras video de presunto montaje de pruebas durante allanamiento en una vivienda del departamento del Huila",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/policia-abrio-investigacion-tras-video-de-presunto-montaje-de-pruebas-durante-allanamiento-en-una-vivienda-del-departamento-del-huila-3602074",
+      "fecha": "2026-11-18T17:49:32+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "11dfdb486a5a59b1",
+      "titulo": "El Corte Inglés ya ha empezado su Black Friday anticipado con ofertas en teles, auriculares, robots aspiradores y más",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/seleccion/corte-ingles-ha-empezado-su-black-friday-anticipado-ofertas-teles-auriculares-robots-aspiradores",
+      "fecha": "2026-11-18T17:45:16+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "3af4c6ba6343e9b7",
+      "titulo": "Andrea Petro no dijo que su papá “puede tener cualquier mujer sin pagar”",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/detector-de-mentiras/falso/andrea-petro-no-dijo-que-su-papa-puede-tener-cualquier-mujer-sin-pagar/",
+      "fecha": "2026-11-18T17:44:21+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "35cad16e1f3381ee",
+      "titulo": "Prima de diciembre 2026: ¿Hasta que día se puede pagar la prima y cómo hacer el cálculo?",
+      "categoria": "Economía",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/empleo/prima-de-diciembre-2026-hasta-que-dia-se-puede-pagar-la-prima-y-como-hacer-el-calculo-506582",
+      "fecha": "2026-11-18T17:42:58+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "c83c2f15d441878d",
+      "titulo": "De las sabanas de Córdoba a China: empresarios de Montería concretan negocios por $800 millones tras misión comercial a la patria del dragón",
+      "categoria": "Internacional",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/de-las-sabanas-de-cordoba-a-china-empresarios-de-monteria-concretan-negocios-por-800-millones-tras-mision-comercial-a-la-patria-del-dragon-3602015",
+      "fecha": "2026-11-18T17:37:20+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "977777b8243c9a39",
+      "titulo": "Quiénes son los 7 fundadores de Anthropic que están a punto de convertirse en multimillonarios",
+      "categoria": "Internacional",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/cm98x39221yro?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-18T17:33:57+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "21b04ebaee9c55af",
+      "titulo": "MinHacienda define ajustes a la Ley de Rescate Económico, renta empresarial seguirá en 35%",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/economia/minhacienda-define-ajustes-a-la-ley-de-rescate-economico-renta-empresarial-seguira-en-35-4527532",
+      "fecha": "2026-11-18T17:33:32+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "0f29f27ddc8b4ff4",
+      "titulo": "Operación contra la minería ilegal deja 29 dragas destruidas en Amazonas",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/silla-amazonia/amazonia-en-breve/operacion-contra-la-mineria-ilegal-deja-29-dragas-destruidas-en-amazonas/",
+      "fecha": "2026-11-18T17:29:06+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "49bc2c8e5c5253e1",
+      "titulo": "Abelardo va a la Fiscalía a denunciar presunta corrupción en Barranca",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/en-vivo/abelardo-va-a-la-fiscalia-a-denunciar-presunta-corrupcion-en-barranca/",
+      "fecha": "2026-11-18T17:27:45+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "553d182d67a2462e",
+      "titulo": "Alcaldía de Cali entrega 705 radios de última tecnología a la Policía Metropolitana",
+      "categoria": "Cali",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/cali/entregan-705-radios-tecnologia-policia-metropolitana-18-11-2026/",
+      "fecha": "2026-11-18T17:21:34+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "ea92bcac8f4978ac",
+      "titulo": "Cali se une al Día Mundial de las Víctimas de Siniestros Viales: el 73,9% involucra motocicletas",
+      "categoria": "Cali",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/cali/cali-dia-mundial-victimas-siniestros-viales-18-11-2026/",
+      "fecha": "2026-11-18T17:15:38+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "342e806cd8ee9bca",
+      "titulo": "Lidl tiene hoy (y muy rebajada) esta cafetera De’Longhi con molinillo integrado y muy fácil de limpiar en su Black Friday",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/seleccion/lidl-tiene-hoy-muy-rebajada-esta-cafetera-longhi-molinillo-integrado-muy-facil-limpiar-su-black-friday",
+      "fecha": "2026-11-18T17:15:17+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "925ffb1c01c2f226",
+      "titulo": "El escudo antidrones de Petro, de $6,3 billones, no pasó las pruebas técnicas de las FF. MM.: bitácora del fallido proyecto",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/escudo-antidrones-gobierno-petro-no-paso-evaluacion-tecnica-fuerzas-militares-CC43726163",
+      "fecha": "2026-11-18T17:13:21+00:00",
+      "imagen": ""
+    },
     {
       "id": "d41c6886ca4dd22c",
       "titulo": "Westcol no fue capturado ni está vinculado con la muerte de un streamer",
@@ -20,12 +254,57 @@
       "imagen": ""
     },
     {
+      "id": "b85a80cbad6e95b9",
+      "titulo": "De la Espriella denunció en la Fiscalía presunta corrupción en contratos por $119.000 millones en Barrancabermeja, ¿a quiénes salpica?",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/de-la-espriella-fiscalia-denuncia-publica-FD43732667",
+      "fecha": "2026-11-18T17:07:26+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "85350b7a3e0443a8",
+      "titulo": "Contraloría imputa fiscalmente a la Casa Ecológica de los Animales por $37.500 millones, obra que sigue sin terminar en Bogotá",
+      "categoria": "Colombia",
+      "fuente": "La FM Actualidad",
+      "url": "https://www.lafm.com.co/actualidad/contraloria-determino-halazgo-fiscal-construccion-casa-animales-funza-417565",
+      "fecha": "2026-11-18T17:06:58+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "dca68b62ef1e294e",
+      "titulo": "Denuncian ante la Fiscalía presuntas irregularidades en 7,5 millones de fotomultas en Colombia y contratos del SIMIT por $45.821 millones",
+      "categoria": "Colombia",
+      "fuente": "La FM Actualidad",
+      "url": "https://www.lafm.com.co/actualidad/denuncia-fiscalia-presuntas-irregularidades-en-75-millones-fotomultas-colombia-contratos-simit-417563",
+      "fecha": "2026-11-18T17:05:47+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "39ca1ad30eb9b65d",
+      "titulo": "Salario mínimo de 2027: Gobierno fija fechas y pone el 15 de diciembre como primer plazo para lograr un acuerdo",
+      "categoria": "Colombia",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/salario-minimo-de-2027-gobierno-fija-fechas-y-pone-el-15-de-diciembre-como-primer-plazo-para-lograr-un-acuerdo-506592",
+      "fecha": "2026-11-18T17:04:38+00:00",
+      "imagen": ""
+    },
+    {
       "id": "8c0cb9bc0015fc10",
       "titulo": "Miles de personas buscan incapacitarse para esta fecha: ¿qué sucede?",
       "categoria": "Valle del Cauca",
       "fuente": "90 Minutos",
       "url": "https://90minutos.co/vida-moderna/ciencia-y-tecnologia/incapacidad-gta-fenomeno-mundial-trabajo-18-11-2026/",
       "fecha": "2026-11-18T17:03:38+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "7ecec7a2edb93ea7",
+      "titulo": "Jaime Alberto Cabal, presidente de Fenalco, planteó reformar el mecanismo de concertación del salario mínimo",
+      "categoria": "Colombia",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/gobierno/jaime-alberto-cabal-presidente-de-fenalco-planteo-reformar-el-mecanismo-de-concertacion-del-salario-minimo-506585",
+      "fecha": "2026-11-18T17:03:33+00:00",
       "imagen": ""
     },
     {
@@ -47,6 +326,15 @@
       "imagen": ""
     },
     {
+      "id": "83c1b97b00ca62b9",
+      "titulo": "Así será la millonaria transformación del aeropuerto de Rionegro: tendrá una segunda terminal de 28 puentes de abordaje y pista ampliada",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/medellin/asi-sera-la-millonaria-transformacion-del-aeropuerto-de-rionegro-tendra-una-segunda-terminal-de-28-puentes-de-abordaje-y-pista-ampliada-3602046",
+      "fecha": "2026-11-18T16:59:49+00:00",
+      "imagen": ""
+    },
+    {
       "id": "074bad6f56ea7fc5",
       "titulo": "Tribunal suspende a Julia Daza, directora de la Biblioteca Nacional",
       "categoria": "Colombia",
@@ -57,7 +345,7 @@
     },
     {
       "id": "567106441546b81a",
-      "titulo": "El demócrata Hakeem Jeffries está a un paso de convertirse en el primer presidente negro de la Cámara de EE.UU.",
+      "titulo": "El demócrata Hakeem Jeffries está a un paso de convertirse en el primer presidente afroamericano de la Cámara de EE.UU.",
       "categoria": "Internacional",
       "fuente": "La FM Internacional",
       "url": "https://www.lafm.com.co/internacional/hakeem-jeffries-sera-nuevo-presidente-camara-representantes-eeuu-417562",
@@ -227,15 +515,6 @@
       "imagen": ""
     },
     {
-      "id": "e91fd00be9a7728d",
-      "titulo": "Aprueban alivios tributarios para contribuyentes en Dosquebradas",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/noticias/aprueban-alivios-tributarios-para-contribuyentes-en-dosquebradas/",
-      "fecha": "2026-11-18T16:25:55+00:00",
-      "imagen": ""
-    },
-    {
       "id": "5514f5d8b355ef91",
       "titulo": "Salario mínimo 2027 en Colombia: estas son las fechas clave para negociar el aumento",
       "categoria": "Colombia",
@@ -254,291 +533,12 @@
       "imagen": ""
     },
     {
-      "id": "329a5ca6f2358ffe",
-      "titulo": "Escudo y drones: los temas de Hegseth en Colombia",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/en-vivo/escudo-y-drones-los-temas-de-hegseth-en-colombia/",
-      "fecha": "2026-11-18T16:23:40+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "7ecec7a2edb93ea7",
-      "titulo": "Jaime Alberto Cabal, presidente de Fenalco, planteó reformar el mecanismo de concertación del salario mínimo",
-      "categoria": "Colombia",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/gobierno/jaime-alberto-cabal-presidente-de-fenalco-planteo-reformar-el-mecanismo-de-concertacion-del-salario-minimo-506585",
-      "fecha": "2026-11-18T16:22:11+00:00",
-      "imagen": ""
-    },
-    {
       "id": "245e070a740143e1",
       "titulo": "Banco Popular pasó de 14 a 4 tarjetas de crédito y así los clientes pueden elegir según sus intereses",
       "categoria": "Economía",
       "fuente": "Portafolio",
       "url": "https://www.portafolio.co/economia/finanzas/banco-popular-paso-de-14-a-4-tarjetas-de-credito-y-asi-los-clientes-pueden-elegir-segun-sus-intereses-506588",
       "fecha": "2026-11-18T16:21:34+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "b85a80cbad6e95b9",
-      "titulo": "De la Espriella llegó a la Fiscalía para presentar una denuncia pública: ¿contra quién y por qué?",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/de-la-espriella-fiscalia-denuncia-publica-FD43732667",
-      "fecha": "2026-11-18T16:17:39+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "e50d74d21c4bc085",
-      "titulo": "Consejo de Estado suspende decreto que modificaba el deslizamiento del mínimo",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/finanzas/consejo-de-estado-suspende-decreto-que-modificaba-la-cobertura-del-deslizamiento-del-salario-minimo-4527475",
-      "fecha": "2026-11-18T16:16:04+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "9a8c435295a1524a",
-      "titulo": "Carlos Andrés Ortega salió del hospital tras contraer malaria luego de llevar ayudas a los damnificados del terremoto en el Chocó",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/carlos-andres-ortega-recibio-el-alta-medica-tras-contraer-malaria-mientras-ayudaba-a-damnificados-del-choco-3602002",
-      "fecha": "2026-11-18T16:11:45+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "81b1ce195a5f961b",
-      "titulo": "Trump, Xi y Putin: en busca de una solución para Irán y Ucrania",
-      "categoria": "Internacional",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/trump-xi-y-putin-en-busca-de-una-solución-para-irán-y-ucrania/a-79983531?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-18T16:09:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "55daa8244a7995b3",
-      "titulo": "Salario mínimo 2027: lanzan nueva propuesta para que suba máximo 7% y llegue a $1.873.468 sin auxilio de transporte",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/centro-javeriano-propone-que-el-salario-minimo-de-2027-suba-maximo-7-y-llegue-a-1-873-468-sin-auxilio-506579",
-      "fecha": "2026-11-18T16:08:38+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "7e62745d0e2a29bc",
-      "titulo": "Consejo de Estado frena cambio que trasladó parte del riesgo de las rentas vitalicias a las aseguradoras",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/consejo-de-estado-frena-cambio-que-traslado-parte-del-riesgo-de-las-rentas-vitalicias-a-las-aseguradoras-506587",
-      "fecha": "2026-11-18T16:07:35+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "a7a5518b44c58279",
-      "titulo": "PIB trimestral de Chile sorprendió con contracción de 1,1% a septiembre",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/pib-trimestral-de-chile-sorprendio-con-contraccion-de-1-1-a-septiembre-4527395",
-      "fecha": "2026-11-18T16:01:23+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "a8a41c31aff2538f",
-      "titulo": "La NASA va a estrenar el telescopio Roman por todo lo alto y te ofrece que adoptes uno de los píxeles de sus primeras imágenes",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/espacio/nasa-va-a-estrenar-telescopio-roman-todo-alto-te-ofrece-que-adoptes-uno-pixeles-sus-primeras-imagenes-gratis",
-      "fecha": "2026-11-18T16:00:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "3e837eaa3777ba6d",
-      "titulo": "¿Jeffrey Epstein fue asesinado? Medico forense analiza la causa oficial de su muerte",
-      "categoria": "Internacional",
-      "fuente": "La FM Internacional",
-      "url": "https://www.lafm.com.co/internacional/caso-jeffery-epstein-presunto-homicidio-estrangulamiento-medico-forense-explica-417555",
-      "fecha": "2026-11-18T15:59:18+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "a155c80591874bb0",
-      "titulo": "La prima de diciembre 2026 en Colombia: fecha límite para recibirla y a quiénes beneficia el pago de fin de año",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/america-colombia/2026-11-18/la-prima-de-diciembre-2026-en-colombia-fecha-limite-para-recibirla-y-a-quienes-beneficia-el-pago-de-fin-de-ano.html",
-      "fecha": "2026-11-18T15:56:45+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "5bf2b21510768d00",
-      "titulo": "Advierten de nueva vulnerabilidad global: esta vez es Java",
-      "categoria": "Internacional",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/advierten-de-nueva-vulnerabilidad-global-esta-vez-es-java/a-79983803?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-18T15:56:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "ff0a44fc20a8ce21",
-      "titulo": "Colombiana será representante del público en acuerdo sobre derechos ambientales",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/silla-amazonia/amazonia-en-breve/colombiana-sera-representante-del-publico-en-acuerdo-sobre-derechos-ambientales/",
-      "fecha": "2026-11-18T15:55:59+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "66f24b142e0ebc3e",
-      "titulo": "GTA 6: Requisitos de almacenamiento y consolas compatibles para descarga",
-      "categoria": "Valle del Cauca",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/entretenimiento/gta-6-requisitos-de-almacenamiento-descarga-18-11-2026/",
-      "fecha": "2026-11-18T15:51:24+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "9f7c9a4b5bf217f8",
-      "titulo": "Movilidad en Bogotá: accidentes, tráfico y último reporte este miércoles 18 de noviembre de 2026",
-      "categoria": "Colombia",
-      "fuente": "La FM Actualidad",
-      "url": "https://www.lafm.com.co/actualidad/movilidad-bogota-hoy-18-noviembre-trafico-accidentes-reportes-417554",
-      "fecha": "2026-11-18T15:48:26+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "861167a4b45b5f84",
-      "titulo": "Brent cede de barrera de US$93 el barril ante mayores inventarios en EE.UU.",
-      "categoria": "Internacional",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/brent-cede-de-barrera-de-us-93-el-barril-ante-mayores-inventarios-en-ee-uu-4527313",
-      "fecha": "2026-11-18T15:42:30+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "7bea72c11c61d125",
-      "titulo": "Nate Morris se perfila como embajador de Estados Unidos en Colombia",
-      "categoria": "Internacional",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/nate-morris-se-perfila-como-embajador-de-estados-unidos-en-colombia-4527377",
-      "fecha": "2026-11-18T15:40:59+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "5c5d8a4bf44845c1",
-      "titulo": "¿Descuento real o estrategia de venta? Cómo reconocer una oferta que sí vale la pena",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/descuento-real-o-estrategia-de-venta-como-reconocer-una-oferta-que-si-vale-la-pena-3602020",
-      "fecha": "2026-11-18T15:39:43+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "178d4321a0a3f6da",
-      "titulo": "Teresita Gómez lidera la segunda “Una noche por el Chocó” en Medellín para reconstruir la sede de Jóvenes Creadores del Chocó en Quibdó",
-      "categoria": "Colombia",
-      "fuente": "Chocó 7 días",
-      "url": "https://choco7dias.com/teresita-gomez-lidera-la-segunda-una-noche-por-el-choco-en-medellin-para-reconstruir-la-sede-de-jovenes-creadores-del-choco-en-quibdo/",
-      "fecha": "2026-11-18T15:39:18+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "3e496387243e89de",
-      "titulo": "JEP imputó a 18 policías y militares retirados por crímenes sexuales: dos abusaron de mujeres en operativo contra guerrilleros",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/jep-imputa-18-militares-y-policias-retirados-crimenes-sexuales-gallera-detalles-GC43723243",
-      "fecha": "2026-11-18T15:37:14+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "68140c39814ab453",
-      "titulo": "Abelardo se reúne con magnate mexicano en plena negociación con Claro",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/en-vivo/abelardo-se-reune-con-magnate-mexicano-en-plena-negociacion-con-claro/",
-      "fecha": "2026-11-18T15:37:05+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "14438671aef6f2fb",
-      "titulo": "Dólar en Colombia podría subir hasta $3.400 o bajar a $3.250 esta semana: las dos señales definirían su precio",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/finanzas/dolar-en-colombia-podria-subir-hasta-3-400-o-bajar-a-3-250-esta-semana-las-dos-senales-definirian-su-precio-506578",
-      "fecha": "2026-11-18T15:32:17+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "09dc111bce110f85",
-      "titulo": "'GTA VI' es monumental y ya hay quien dice que es el mejor juego de la historia. Un juego de 1998 acaba de levantar la ceja",
-      "categoria": "Internacional",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/videojuegos/gta-vi-monumental-hay-quien-dice-que-mejor-juego-historia-juego-1998-acaba-levantar-ceja",
-      "fecha": "2026-11-18T15:31:14+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "c7469a9fe7a8161e",
-      "titulo": "¿Cuándo se podrá descargar el GTA VI en Colombia? Hora oficial en el país",
-      "categoria": "Colombia",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/vida-moderna/ciencia-y-tecnologia/descargar-el-gta-6-en-colombia-18-11-2026/",
-      "fecha": "2026-11-18T15:27:17+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "171d0f723568a049",
-      "titulo": "Las importaciones en septiembre crecieron 33,7%, con un valor de US$8.192 millones",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/economia/las-importaciones-en-septiembre-crecieron-33-7-con-un-valor-de-us-8-192-millones-4527397",
-      "fecha": "2026-11-18T15:21:27+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "d398f5fac3e78c3c",
-      "titulo": "Atención: Alias Primo Gay es trasladado a la cárcel La Picota, en Bogotá",
-      "categoria": "Colombia",
-      "fuente": "La FM Actualidad",
-      "url": "https://www.lafm.com.co/actualidad/atencion-alias-primo-gay-es-trasladado-a-la-carcel-la-picota-en-bogota-417547",
-      "fecha": "2026-11-18T15:20:34+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "11c6b04fb82c4aaf",
-      "titulo": "Joven caucana llevará las voces de las mujeres del Pacífico a la COP31",
-      "categoria": "Valle del Cauca",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/tv/carga-positiva/joven-caucana-llevara-voces-mujeres-pacifico-cop31-18-11-2026/",
-      "fecha": "2026-11-18T15:19:43+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "a546d6eb86676a98",
-      "titulo": "Grupo Argos readquirirá 7,6 millones de acciones por $149.200 millones",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/finanzas/grupo-argos-avanza-en-ace-1-0-y-readquirira-7-6-millones-de-acciones-por-149-200-millones-4527398",
-      "fecha": "2026-11-18T15:19:32+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "43e97de38521b15e",
-      "titulo": "Las edades de Robert Pattinson: el estilo, los peinados y las parejas del nuevo Bond en 27 imágenes",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/icon/2026-11-18/las-edades-de-robert-pattinson-el-estilo-los-peinados-y-las-parejas-del-nuevo-bond-en-27-imagenes.html",
-      "fecha": "2026-11-18T15:11:26+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "2c019d96d28cc9da",
-      "titulo": "Repudio en Santander por presunto feminicidio: mujer que había denunciado violencia por parte de su pareja apareció muerta por asfixia",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/santander/repudio-en-santander-por-presunto-feminicidio-mujer-que-habia-denunciado-violencia-por-parte-de-su-pareja-aparecio-muerta-por-asfixia-3601988",
-      "fecha": "2026-11-18T15:09:19+00:00",
       "imagen": ""
     }
   ],
@@ -655,14 +655,16 @@
     {
       "nombre": "El Diario — Pereira",
       "url": "https://www.eldiario.com.co/feed/",
-      "estado": "correcto",
-      "titulares": 35
+      "estado": "error",
+      "titulares": 0,
+      "detalle": "El feed no contiene entradas."
     },
     {
       "nombre": "Chocó 7 días",
       "url": "https://choco7dias.com/feed/",
-      "estado": "correcto",
-      "titulares": 10
+      "estado": "error",
+      "titulares": 0,
+      "detalle": "415 Client Error: Unsupported Media Type for url: https://choco7dias.com/feed/"
     },
     {
       "nombre": "La Patria — Caldas",
