@@ -1,6 +1,24 @@
 {
-  "ultima_actualizacion": "2026-11-18T07:38:05.721020+00:00",
+  "ultima_actualizacion": "2026-11-18T08:42:34.383428+00:00",
   "titulares_rss": [
+    {
+      "id": "312b6596e9dab7d7",
+      "titulo": "En 2021, un almirante lanzó una predicción sobre China que hizo temblar a EEUU. Estamos a punto de averiguar si tenía razón: \"espero estar equivocado\"",
+      "categoria": "Internacional",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/magnet/2021-almirante-lanzo-prediccion-china-que-hizo-temblar-a-eeuu-estamos-a-punto-averiguar-tenia-razon-espero-estar-equivocado",
+      "fecha": "2026-11-18T08:01:25+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "1a40cf804e212943",
+      "titulo": "OIM Colombia asistió a cuatro sobrevivientes de trata de personas en Camboya y entregó recomendaciones para evitar caer en falsas ofertas laborales",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/oim-colombia-asistio-a-cuatro-sobrevivientes-de-trata-de-personas-en-camboya-y-entrego-recomendaciones-para-evitar-caer-en-falsas-ofertas-laborales-3601891",
+      "fecha": "2026-11-18T07:59:12+00:00",
+      "imagen": ""
+    },
     {
       "id": "63a9c0f5f20f1494",
       "titulo": "Esta Ninja de cristal doble es ahora un chollo en el Black Friday anticipado de Amazon hoy, 18 de noviembre",
@@ -522,24 +540,6 @@
       "url": "https://www.dw.com/es/xi-fustiga-proteccionismo-y-defiende-apertura-comercial-y-estabilidad-durante-cumbre-de-apec/a-79976175?maca=spa-rss-sp-all-1122-rdf",
       "fecha": "2026-11-18T04:13:00+00:00",
       "imagen": ""
-    },
-    {
-      "id": "92f748f247e7db97",
-      "titulo": "“El buque-cárcel va”: Iván Cancino habla de avances en este proyecto y en el de las megacárceles",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/buque-carcel-megacarceles-gobierno-espriella-avances-ivan-cancino-ministro-justicia-GB43715355",
-      "fecha": "2026-11-18T04:08:14+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "537389e2a88edc3a",
-      "titulo": "China y EE.UU. se acusan mutuamente en México por reponsabilidad en crisis de fentanilo",
-      "categoria": "Internacional",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/china-y-ee-uu-se-acusan-mutuamente-en-méxico-por-reponsabilidad-en-crisis-de-fentanilo/a-79976099?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-18T04:05:00+00:00",
-      "imagen": ""
     }
   ],
   "estado_fuentes": [
@@ -553,7 +553,7 @@
       "nombre": "El Tiempo Cali",
       "url": "https://www.eltiempo.com/rss/colombia_cali.xml",
       "estado": "correcto",
-      "titulares": 8
+      "titulares": 7
     },
     {
       "nombre": "El Espectador",
