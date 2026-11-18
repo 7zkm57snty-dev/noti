@@ -1,5 +1,5 @@
 {
-  "ultima_actualizacion": "2026-11-18T00:33:18.779468+00:00",
+  "ultima_actualizacion": "2026-11-18T01:58:43.848342+00:00",
   "titulares_rss": [
     {
       "id": "909683af132fe97a",
@@ -7,12 +7,174 @@
       "categoria": "Colombia",
       "fuente": "Diario Occidente",
       "url": "https://occidente.co/?p=444720",
-      "fecha": "2026-11-18T00:33:18.779468+00:00",
+      "fecha": "2026-11-18T01:58:43.848342+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "2ed2cbc65fbdab37",
+      "titulo": "Time presentó una selección de 100 libros que marcaron la literatura en 2026",
+      "categoria": "Deportes",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/ocio/time-presento-una-seleccion-de-100-libros-que-marcaron-la-literatura-en-2026-4526820",
+      "fecha": "2026-11-18T01:50:27+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "68ebaab481038f95",
+      "titulo": "Industria Estra pasó de ganancias a pérdidas por $1.331 millones en nueve meses de 2026",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/empresas/industria-estra-paso-de-ganancias-a-perdidas-por-1-331-millones-en-nueve-meses-de-2026-4526518",
+      "fecha": "2026-11-18T01:48:31+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "5f8113a5bbd5c866",
+      "titulo": "El cacique brasileño Raoni Metuktire recibe alta médica tras cinco días hospitalizado",
+      "categoria": "Internacional",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/el-cacique-brasileño-raoni-metuktire-recibe-alta-médica-tras-cinco-días-hospitalizado/a-79975904?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-18T01:46:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "82096c91410c1fe4",
+      "titulo": "Campo Capital y Climate Asset Management invertirán US$50 millones en proyecto agroforestal",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/empresas/campo-capital-y-climate-asset-management-invertiran-us-50-millones-en-proyecto-agroforestal-4526937",
+      "fecha": "2026-11-18T01:39:16+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "3819037dbe0e3183",
+      "titulo": "Parex Resources alista US$2.500 millones para explorar y desarrollar pozos de petróleo",
+      "categoria": "Economía",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/empresas/parex-resources-alista-us-2-500-millones-para-explorar-y-desarrollar-pozos-de-petroleo-4526987",
+      "fecha": "2026-11-18T01:33:20+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "6f5e7c48faa47807",
+      "titulo": "De la Espriella reveló a ‘D.I.O.S.’ la nueva estrategia para “depurar” el SENA tras acusar al gobierno Petro de “robárselo y politizarlo”",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/abelardo-de-la-espriella-revela-dios-estrategia-depurar-sena-robada-gobierno-petro-KA43708516",
+      "fecha": "2026-11-18T01:23:50+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "fb5b736be092aba6",
+      "titulo": "Todas las miradas de la Fuerza Públicas están en “Macho Viejo”, el posible sucesor criminal de “Primo Gay”",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/alias-macho-viejo-presunto-sucesor-primo-gay-dicidencias-farc-en-antioquia-HA43704883",
+      "fecha": "2026-11-18T01:16:44+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "ec8d9c0e41ec11d9",
+      "titulo": "Asur proyecta invertir hasta US$1.500 millones para modernizar cinco aeropuertos",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/empresas/asur-proyecta-invertir-hasta-us-1-500-millones-para-modernizar-cinco-aeropuertos-4526974",
+      "fecha": "2026-11-18T01:15:57+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "82c3ffee26aadc19",
+      "titulo": "Banco de Bogotá advierte desaceleración del PIB colombiano y riesgo de estanflación",
+      "categoria": "Economía",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/economia/banco-de-bogota-advierte-desaceleracion-del-pib-colombiano-y-riesgo-de-estanflacion-4526948",
+      "fecha": "2026-11-18T01:11:21+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "7149354347fcabb4",
+      "titulo": "¿Qué viene a hacer el secretario de Guerra de Estados Unidos a Colombia?",
+      "categoria": "Internacional",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/que-viene-a-hacer-el-secretario-de-guerra-de-estados-unidos-a-colombia-FA43707471",
+      "fecha": "2026-11-18T01:03:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "7af96b6aeaa14d94",
+      "titulo": "La Selección Colombia mejora su imagen, pero cierra el año con un amargo empate en Chile",
+      "categoria": "Deportes",
+      "fuente": "La FM Deportes",
+      "url": "https://www.lafm.com.co/deportes/chile-colombia-amistoso-empate-amargo-fecha-fifa-417492",
+      "fecha": "2026-11-18T00:59:07+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "c8c6a98554255f82",
+      "titulo": "Cómo fue el sofisticado ataque con el que Ucrania destruyó parte del preciado puente de Crimea de Putin (y qué consecuencias tendrá)",
+      "categoria": "Internacional",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/c6y498pd1q54o?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-18T00:55:45+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "04849c5bebc2766e",
+      "titulo": "Video | El Gobierno colombiano busca el sueño americano",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/america-colombia/2026-11-18/video-el-gobierno-colombiano-busca-el-sueno-americano.html",
+      "fecha": "2026-11-18T00:48:18+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "f6d513a0650c808e",
+      "titulo": "Así es el plan de austeridad para recortar 70 % en gastos de comisiones en el MinEducación",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/plan-austeridad-recortar-70-gastos-comisiones-mineducacion-KA43704943",
+      "fecha": "2026-11-18T00:46:23+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "9aab909c01ff7eb8",
+      "titulo": "Sobretasa de renta e IVA a los alquileres turísticos: las alternativas que estudia Hacienda en la Ley de Rescate",
+      "categoria": "Economía",
+      "fuente": "La FM Economía",
+      "url": "https://www.lafm.com.co/economia/ley-de-rescate-economico-hacienda-evalua-sobretasa-de-renta-e-iva-a-alquileres-turisticos-417490",
+      "fecha": "2026-11-18T00:41:26+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "b78f9f87c850283a",
+      "titulo": "¿Quién lo tiene más grande?",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/red-de-expertos/quien-lo-tiene-mas-grande/",
+      "fecha": "2026-11-18T00:38:59+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "401d49d087ffcda8",
+      "titulo": "El Atlántico ya superó en diez meses todos los homicidios de 2025: 1.055 casos hasta octubre",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/homicidios-cifra-atlantico-aumento-octubre-2026-PG43672973",
+      "fecha": "2026-11-18T00:38:41+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "d53d55b827686808",
+      "titulo": "Gobierno de Donald Trump pide USD 50.100 millones para renovar infraestructura aérea",
+      "categoria": "Internacional",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/gobierno-de-donald-trump-pide-usd-50-100-millones-para-renovar-infraestructura-aérea/a-79975693?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-18T00:33:00+00:00",
       "imagen": ""
     },
     {
       "id": "ea5482ca2e2d8eff",
-      "titulo": "Tigo invertirá $8,5 billones en Colombia durante los próximos cuatro años para ampliar su cobertura",
+      "titulo": "Tigo invertirá $8,5 billones los próximos cuatro años para ampliar su cobertura",
       "categoria": "Colombia",
       "fuente": "La República",
       "url": "https://www.larepublica.co/empresas/tigo-invertira-8-5-billones-en-colombia-durante-los-proximos-cuatro-anos-para-ampliar-su-cobertura-4526782",
@@ -21,7 +183,7 @@
     },
     {
       "id": "52037d0af591473d",
-      "titulo": "Preferencial de Davivienda y Grupo Argos, las acciones más valorizadas de la jornada",
+      "titulo": "Preferencial de Davivienda y Grupo Argos, son las acciones más valorizadas",
       "categoria": "Colombia",
       "fuente": "La República",
       "url": "https://www.larepublica.co/finanzas/preferencial-de-davivienda-y-grupo-argos-las-acciones-mas-valorizadas-de-la-jornada-4526803",
@@ -44,6 +206,15 @@
       "fuente": "La República",
       "url": "https://www.larepublica.co/empresas/addi-anuncio-una-inversion-de-us-2-000-millones-durante-el-segundo-dia-de-la-milagro-week-4526841",
       "fecha": "2026-11-18T00:25:21+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "793b5e94c363672a",
+      "titulo": "Presidente De La Espriella anunció que llegará a Barranquilla ensambladora Italika",
+      "categoria": "Colombia",
+      "fuente": "La FM Economía",
+      "url": "https://www.lafm.com.co/economia/presidente-espriella-anuncio-llegara-barranquilla-417486",
+      "fecha": "2026-11-18T00:13:39+00:00",
       "imagen": ""
     },
     {
@@ -98,6 +269,15 @@
       "fuente": "Diario Occidente",
       "url": "https://occidente.co/deportes/copa-betplay-define-finalistas-martes/",
       "fecha": "2026-11-18T00:00:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "209ba205247ba4a3",
+      "titulo": "Petro nombró como notaria a la hermana del congresista que contrató a Gabriela Muñoz",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/gustavo-petro-nombra-persona-cercana-gabriela-munoz-DA43703374",
+      "fecha": "2026-11-17T23:57:21+00:00",
       "imagen": ""
     },
     {
@@ -191,6 +371,15 @@
       "imagen": ""
     },
     {
+      "id": "cee0ae634d4fd94d",
+      "titulo": "Embajada de EE. UU. en Colombia lanza alerta por marchas del 19 de noviembre: estas son las recomendaciones",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/embajada-ee-uu-colombia-alerta-marchas-19-noviembre-recomendaciones-EA43702644",
+      "fecha": "2026-11-17T23:30:20+00:00",
+      "imagen": ""
+    },
+    {
       "id": "073804b4a9dcaf06",
       "titulo": "Milagro Week: Colombia anuncia más de US$1.500 millones para modernizar seis aeropuertos del país",
       "categoria": "Colombia",
@@ -237,11 +426,20 @@
     },
     {
       "id": "22a807bc0349562e",
-      "titulo": "Italika llegará a Barranquilla para ensamblar motos y generar cerca de 1.000 empleos",
+      "titulo": "Italika llegará a Barranquilla a generar cerca de 1.000 empleos en ensamble de motos",
       "categoria": "Economía",
       "fuente": "La República",
       "url": "https://www.larepublica.co/empresas/italika-llegara-a-barranquilla-para-ensamblar-motos-y-generar-cerca-de-1-000-empleos-4526797",
       "fecha": "2026-11-17T23:01:56+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "95c3b782982ce8f4",
+      "titulo": "El médico, el personaje y el teatro Santiago Londoño",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/punto-final/el-medico-el-personaje-y-el-teatro-santiago-londono/",
+      "fecha": "2026-11-17T23:00:39+00:00",
       "imagen": ""
     },
     {
@@ -299,6 +497,15 @@
       "imagen": ""
     },
     {
+      "id": "f631661528208724",
+      "titulo": "Denuncian a contratista por presunta falsedad en proceso del museo de Bojayá",
+      "categoria": "Colombia",
+      "fuente": "Chocó 7 días",
+      "url": "https://choco7dias.com/denuncian-a-contratista-por-presunta-falsedad-en-proceso-del-museo-de-bojaya/",
+      "fecha": "2026-11-17T22:34:57+00:00",
+      "imagen": ""
+    },
+    {
       "id": "7ae01637a2372ee8",
       "titulo": "Resultados de Nvidia tras salida de Huang sorprenden con alza de 105% en utilidades",
       "categoria": "Colombia",
@@ -317,228 +524,21 @@
       "imagen": ""
     },
     {
+      "id": "8a231c213196490e",
+      "titulo": "Sindicato petrolero rechaza venta de Ecopetrol y pide revisar reforma tributaria",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/noticias/sindicato-petrolero-rechaza-venta-de-ecopetrol-y-pide-revisar-reforma-tributaria/",
+      "fecha": "2026-11-17T22:30:39+00:00",
+      "imagen": ""
+    },
+    {
       "id": "b37825f93fe69d56",
       "titulo": "Estas clínicas privadas deben más de $16.000 millones en luz: Air-e asegura que debe seguir prestando el servicio pese a su grave situación financiera",
       "categoria": "Colombia",
       "fuente": "El Tiempo",
       "url": "https://www.eltiempo.com/colombia/barranquilla/estas-clinicas-privadas-deben-mas-de-16-000-millones-en-luz-air-e-asegura-que-debe-seguir-prestando-el-servicio-pese-a-su-grave-situacion-financiera-3601794",
       "fecha": "2026-11-17T22:30:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "4912eea65cfc3cfb",
-      "titulo": "'De Coco': La moda que transforma la memoria y el orgullo del Pacífico colombiano",
-      "categoria": "Colombia",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/tv/emprendedores-90/de-coco-moda-pacifico-colombiano-17-11-2026/",
-      "fecha": "2026-11-17T22:29:36+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "5b126b88ca968d92",
-      "titulo": "Asesinan esposos dentro de su vivienda en zona rural de Florida, Valle",
-      "categoria": "Colombia",
-      "fuente": "La FM Actualidad",
-      "url": "https://www.lafm.com.co/actualidad/asesinan-esposo-en-su-vivienda-zona-rural-florida-valle-417471",
-      "fecha": "2026-11-17T22:27:17+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "9bca736dcad54bba",
-      "titulo": "Luis Suárez ataca a los hinchas colombianos y es obligado a retractarse: \"Dicen que somos unos paquetes...\"",
-      "categoria": "Deportes",
-      "fuente": "La FM Deportes",
-      "url": "https://www.lafm.com.co/deportes/luis-suarez-palabras-hinchas-disculpas-seleccion-colombia-417470",
-      "fecha": "2026-11-17T22:26:24+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "26074cf5d0459b02",
-      "titulo": "¿Cobro excesivo? Al “Flaco” Solorzano le cobraron $45.000 por una carrera de “10 minutos” en El Dorado",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/flaco-solorzano-denuncia-cobro-excesivo-taxi-el-dorado-bogota-BI43692021",
-      "fecha": "2026-11-17T22:26:02+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "874bfea16025c573",
-      "titulo": "Licencia de conducción después de los 60 años: cada cuánto debe renovarse y requisitos",
-      "categoria": "Valle del Cauca",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/vida-moderna/licencia-de-conduccion-despues-de-los-60-anos-17-11-2026/",
-      "fecha": "2026-11-17T22:25:33+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "18cb1b60a11b9efd",
-      "titulo": "Cómo los directores del premiado documental \"Naza\" convencieron a soldados israelíes para que hablaran sobre el uso de IA para seleccionar objetivos en Gaza",
-      "categoria": "Deportes",
-      "fuente": "BBC Mundo",
-      "url": "https://www.bbc.com/mundo/articles/c8r4g6xr75vyo?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-17T22:24:17+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "da310fef23dab687",
-      "titulo": "La Fiscalía imputa cargos a Hollman Morris por acto sexual violento contra una periodista",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/america-colombia/2026-11-17/la-fiscalia-imputa-cargos-a-hollman-morris-por-acto-sexual-violento-contra-una-periodista.html",
-      "fecha": "2026-11-17T22:22:40+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "6e3828a16ca69991",
-      "titulo": "La justicia ordena al canciller Omar Bula proteger la biblioteca que trasladó para recuperar una capilla",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/america-colombia/2026-11-17/la-justicia-ordena-al-canciller-omar-bula-proteger-la-biblioteca-que-traslado-para-recuperar-una-capilla.html",
-      "fecha": "2026-11-17T22:15:21+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "0cdb30f669107468",
-      "titulo": "¿Quién es el agresor de la patrullera en Cali? Esto se sabe de su identificación y las medidas en su contra",
-      "categoria": "Cali",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/agresion-patrullera-cali-identifican-agresor-cuales-medidas-se-tomaran-BI43695316",
-      "fecha": "2026-11-17T22:13:56+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "679951162d68f6b4",
-      "titulo": "Don Omar en Colombia 2027: fechas, precios de entradas y preventa de su gira de despedida",
-      "categoria": "Colombia",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/entretenimiento/don-omar-en-colombia-2027-fechas-precios-de-entradas-17-11-2026/",
-      "fecha": "2026-11-17T22:05:22+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "dce6b1778ef3539e",
-      "titulo": "Consejo de Estado ordenó a Gustavo Petro retirar publicaciones sobre supuesto fraude electoral",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/consejo-de-estado-ordeno-gustavo-petro-retirar-fraude-electoral-DI43697040",
-      "fecha": "2026-11-17T22:04:36+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "d272458187454257",
-      "titulo": "Los 90 productos tecnológicos del año: estos son los ganadores de los Premios Xataka Verisure 2026",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/xataka/90-productos-tecnologicos-ano-estos-ganadores-premios-xataka-verisure-2026",
-      "fecha": "2026-11-17T22:04:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "3ce84ed6cd4cb37a",
-      "titulo": "Fenalco se suma al llamado y recuperación de el Gran San y sus comerciantes",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/finanzas/fenalco-se-suma-al-llamado-y-recuperacion-de-el-gran-san-y-sus-comerciantes-506536",
-      "fecha": "2026-11-17T21:59:22+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "5662a0de6660e7ea",
-      "titulo": "El Consejo de Estado ordena a Petro eliminar sus acusaciones de fraude contra el registrador",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/america-colombia/2026-11-17/el-consejo-de-estado-ordena-a-petro-rectificar-sus-acusaciones-de-fraude-contra-el-registrador.html",
-      "fecha": "2026-11-17T21:58:56+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "7d7714832920ad61",
-      "titulo": "Colfondos llega a sus 35 años con $76,2 billones en activos administrados",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/finanzas/colfondos-llega-a-sus-35-anos-con-76-2-billones-en-activos-administrados-4526512",
-      "fecha": "2026-11-17T21:50:57+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "b18d56aff00b2b97",
-      "titulo": "Entre el 25 y el 26 de noviembre comenzarían las mesas de concertación para el salario mínimo",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/entre-el-25-y-el-26-de-noviembre-comenzarian-las-mesas-de-concertacion-para-el-salario-minimo-506541",
-      "fecha": "2026-11-17T21:50:04+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "0ef38805aebe8b5c",
-      "titulo": "Natalia Abello Vives fue designada como presidenta de Grupo Bicentenario",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/economia/natalia-abello-vives-fue-designada-como-presidenta-de-grupo-bicentenario-4526713",
-      "fecha": "2026-11-17T21:43:11+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "3d92c74bfb7ea4d7",
-      "titulo": "Estos son los cinco bancos que financian con $2,01 billones la APP del tren de carga La Dorada-Chiriguaná",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/infraestructura/estos-son-los-cinco-bancos-que-financian-con-2-01-billones-la-app-del-tren-de-carga-la-dorada-chiriguana-506538",
-      "fecha": "2026-11-17T21:35:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "802a2590626da62e",
-      "titulo": "¿Quién puede vivir así? En el cañón del Micay, Cauca, a diario encuentran tres explosivos de disidencias de Farc",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/explosivos-bombas-3-incautados-cada-dia-en-canon-del-micay-cauca-conflicto-terrorismo-farc-MJ43684338",
-      "fecha": "2026-11-17T21:30:49+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "e56d568df1f1a2e1",
-      "titulo": "En la Panamericana secuestraron, golpearon y robaron a dos escoltas de la UNP",
-      "categoria": "Cali",
-      "fuente": "Q'hubo Cali",
-      "url": "https://www.qhubocali.com/judiciales/en-la-panamericana-secuestraron-golpearon-y-robaron-a-dos-escoltas-de-la-unp/",
-      "fecha": "2026-11-17T21:28:54+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "f3085bf7c5362853",
-      "titulo": "¿Atornillados de Petro? Auditoría revela presuntas irregularidades en 23 nombramientos días antes del cambio de gobierno",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/auditoria-23-nombramientos-irregulares-prosperidad-social-gobierno-petro-HJ43689952",
-      "fecha": "2026-11-17T21:28:47+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "b2604c54f35c6427",
-      "titulo": "El drama de los afectados del edificio Bernavento: 8 años después de la implosión, 48 familias siguen sin ver un peso de su indemnización",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/medellin/el-drama-de-los-afectados-del-edificio-bernavento-8-anos-despues-de-la-implosion-48-familias-siguen-sin-ver-un-peso-de-su-indemnizacion-3601612",
-      "fecha": "2026-11-17T21:25:31+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "d810b1c00cf595c9",
-      "titulo": "Así se diseña un estadio: un ingeniero que trabajó en el Bernabéu explica cómo será el nuevo El Campín en Bogotá",
-      "categoria": "Colombia",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/infraestructura/asi-se-disena-un-estadio-un-ingeniero-que-trabajo-en-el-bernabeu-explica-como-sera-el-nuevo-el-campin-en-bogota-506518",
-      "fecha": "2026-11-17T21:25:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "9726293d66cad703",
-      "titulo": "China, México y Estados Unidos: el delicado equilibrio de Sheinbaum en la APEC",
-      "categoria": "Deportes",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/china-méxico-y-estados-unidos-el-delicado-equilibrio-de-sheinbaum-en-la-apec/a-79973976?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-17T21:25:00+00:00",
       "imagen": ""
     }
   ],
@@ -590,7 +590,7 @@
       "nombre": "BBC Mundo",
       "url": "https://feeds.bbci.co.uk/mundo/rss.xml",
       "estado": "correcto",
-      "titulares": 27
+      "titulares": 28
     },
     {
       "nombre": "DW Español",
@@ -620,7 +620,7 @@
       "nombre": "La FM Deportes",
       "url": "https://www.lafm.com.co/rss/deportes.xml",
       "estado": "correcto",
-      "titulares": 18
+      "titulares": 19
     },
     {
       "nombre": "La FM Economía",
@@ -655,16 +655,14 @@
     {
       "nombre": "El Diario — Pereira",
       "url": "https://www.eldiario.com.co/feed/",
-      "estado": "error",
-      "titulares": 0,
-      "detalle": "El feed no contiene entradas."
+      "estado": "correcto",
+      "titulares": 35
     },
     {
       "nombre": "Chocó 7 días",
       "url": "https://choco7dias.com/feed/",
-      "estado": "error",
-      "titulares": 0,
-      "detalle": "415 Client Error: Unsupported Media Type for url: https://choco7dias.com/feed/"
+      "estado": "correcto",
+      "titulares": 10
     },
     {
       "nombre": "La Patria — Caldas",
