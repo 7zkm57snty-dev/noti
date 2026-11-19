@@ -1,13 +1,175 @@
 {
-  "ultima_actualizacion": "2026-11-19T22:57:05.534603+00:00",
+  "ultima_actualizacion": "2026-11-19T23:53:06.644595+00:00",
   "titulares_rss": [
     {
-      "id": "9392e591618d3be8",
-      "titulo": "Debate electoral 29-N, en directo | Feijóo pide el voto porque sabe “gestionar” y Sánchez apela a “la fuerza de la gente” en el minuto final del cara a cara",
+      "id": "4e63403911b5f3b5",
+      "titulo": "Coltefinanciera y Captec proyectan llegar a 700.000 usuarios con alianza de pagos",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/finanzas/coltefinanciera-y-captec-proyectan-llegar-a-700-000-usuarios-con-alianza-de-pagos-4528914",
+      "fecha": "2026-11-19T23:49:19+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "9162134e0418440f",
+      "titulo": "Aliadas confirmó que Ignacio Gaitán será el reemplazo de María Claudia Lacouture",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/economia/aliadas-confirmo-que-ignacio-gaitan-sera-el-reemplazo-de-maria-claudia-lacouture-4528878",
+      "fecha": "2026-11-19T23:45:06+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "1566368ebf1d6d15",
+      "titulo": "Sánchez intenta recuperar votantes moderados con un inesperado tono suave",
       "categoria": "Colombia",
       "fuente": "El País Colombia",
-      "url": "https://elpais.com/espana/elecciones-generales/2026-11-19/debate-electoral-entre-pedro-sanchez-y-alberto-nunez-feijoo-en-directo.html",
-      "fecha": "2026-11-19T22:54:56+00:00",
+      "url": "https://elpais.com/espana/elecciones-generales/2026-11-19/sanchez-intenta-recuperar-votantes-moderados-con-un-inesperado-tono-suave.html",
+      "fecha": "2026-11-19T23:40:36+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "0c39ba6d4c279a05",
+      "titulo": "Deco confiesa que Barcelona se arrepiente de no fichar a Luis Díaz: así se frustró el negocio",
+      "categoria": "Deportes",
+      "fuente": "La FM Deportes",
+      "url": "https://www.lafm.com.co/deportes/barcelona-arrepentimiento-fichaje-fallido-luis-diaz-417731",
+      "fecha": "2026-11-19T23:37:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "b4c724f28c5f3357",
+      "titulo": "Familiares de mujer asesinada por su expareja claman por la recaptura del victimario en Armenia: esta fue la historia",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/familiares-de-mujer-asesinada-por-su-expareja-claman-por-la-recaptura-del-victimario-en-armenia-esta-fue-la-historia-3602547",
+      "fecha": "2026-11-19T23:35:04+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "6bb2189d1cc5f5f8",
+      "titulo": "Disturbios en la Universidad de Antioquia empañan el cierre de las marchas en Medellín: reportan explosiones y hay presencia del Esmad",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/medellin/disturbios-en-la-universidad-de-antioquia-empanan-el-cierre-de-las-marchas-en-medellin-reportan-explosiones-y-hay-presencia-del-esmad-3602545",
+      "fecha": "2026-11-19T23:33:01+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "382b3929d67bca53",
+      "titulo": "Gobernadora del Valle habló por teléfono con Lizeth Alejandra tras su liberación luego de 23 días secuestrada: compartió video de la conversación",
+      "categoria": "Cali",
+      "fuente": "El Tiempo Cali",
+      "url": "https://www.eltiempo.com/colombia/cali/gobernadora-del-valle-hablo-por-telefono-con-lizeth-alejandra-tras-su-liberacion-luego-de-23-dias-secuestrada-compartio-video-de-la-conversacion-3602431",
+      "fecha": "2026-11-19T23:29:20+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "f652053c95d80d16",
+      "titulo": "Apple está trabajando en un agente de IA para el control de dispositivos, aplicaciones, navegación y programación",
+      "categoria": "Tecnología",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/globoeconomia/apple-esta-trabajando-en-un-agente-de-ia-para-el-control-de-dispositivos-aplicaciones-navegacion-y-programacion-4528880",
+      "fecha": "2026-11-19T23:28:13+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "7875785c84709404",
+      "titulo": "Concejo de Bucaramanga avala vigencias futuras por más de $544.000 millones para proyectos estratégicos de ciudad",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/santander/concejo-de-bucaramanga-avala-vigencias-futuras-por-mas-de-544-000-millones-para-proyectos-estrategicos-de-ciudad-3602530",
+      "fecha": "2026-11-19T23:24:34+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "3dfd9916e6eaa161",
+      "titulo": "'Es un crimen gravísimo que debe castigarse con todo el rigor de la ley': presidente De La Espriella sobre el reclutamiento de niños en Colombia",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/cali/es-un-crimen-gravisimo-que-debe-castigarse-con-todo-el-rigor-de-la-ley-presidente-de-la-espriella-sobre-el-reclutamiento-de-ninos-en-colombia-3602541",
+      "fecha": "2026-11-19T23:16:08+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "f5788b2ba0f62470",
+      "titulo": "El 95% de quienes tienen un producto financiero en Colombia utiliza más de una entidad financiera",
+      "categoria": "Colombia",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/finanzas/el-95-de-quienes-tienen-un-producto-financiero-en-colombia-utiliza-mas-de-una-entidad-financiera-506726",
+      "fecha": "2026-11-19T23:13:06+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "19178a8ae53b0b94",
+      "titulo": "Fuertes disturbios entre encapuchados y policías en inmediaciones de la Universidad del Cauca en Popayán durante movilizaciones",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/cali/fuertes-disturbios-entre-encapuchados-y-policias-en-inmediaciones-de-la-universidad-del-cauca-en-popayan-durante-movilizaciones-3602528",
+      "fecha": "2026-11-19T23:02:49+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "328d03063ba39f7a",
+      "titulo": "Radicar reclamación por el terremoto del 10 de agosto y recibir el pago de indemnización demora 4 días",
+      "categoria": "Economía",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/regiones/radicar-reclamacion-por-el-terremoto-del-10-de-agosto-y-recibir-el-pago-de-indemnizacion-demora-4-dias-506724",
+      "fecha": "2026-11-19T23:02:39+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "a8f2ca22105f87d7",
+      "titulo": "Cali vs Millonarios, DIM vs Santa Fe y Bucaramanga vs América: horarios, árbitros y canales para ver la Fecha 1 de cuadrangulares",
+      "categoria": "Cali",
+      "fuente": "La FM Deportes",
+      "url": "https://www.lafm.com.co/deportes/cuadrangulares-liga-betplay-2026-horarios-y-arbitraje-confirmado-417726",
+      "fecha": "2026-11-19T23:01:40+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "1de0d7cb906ddb3f",
+      "titulo": "Paro: los reclamos se multiplican y el Pacto se toma las tarimas",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/en-vivo/paro-los-reclamos-se-multiplican-y-el-pacto-se-toma-las-tarimas/",
+      "fecha": "2026-11-19T23:00:54+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "50ee1e7586ae8f82",
+      "titulo": "Decana de la Unal rechaza ingreso de la Fuerza Pública al campus",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/en-vivo/decana-de-la-unal-rechaza-ingreso-de-la-fuerza-publica-al-campus/",
+      "fecha": "2026-11-19T22:58:54+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "ff08e50a362b260f",
+      "titulo": "La hipopótamo Fiona muere tras tragarse el gorro de un visitante en el zoológico de Cincinnati",
+      "categoria": "Internacional",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/c64gn0rw8447o?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-19T22:58:28+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "20c1c31f01f0f3c8",
+      "titulo": "Caso Luz Verónica Estrada: ¿Qué delitos podría enfrentar por falsificar títulos académicos? Abogado penalista responde",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/caso-luz-veronica-estrada-delitos-podria-enfrentar-falsificar-titulos-academicos-abogado-penalista-responde-DO43812100",
+      "fecha": "2026-11-19T22:56:26+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "ba6abd95264c8a42",
+      "titulo": "Primicia | Luis Eduardo Llinás fue el que pidió a Verónica Estrada presentar oferta para firmar contrato con DIAN en 2025",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/luis-eduardo-llinas-pidio-oferta-veronica-estrada-contrato-dian-78-millones-KO43811319",
+      "fecha": "2026-11-19T22:52:33+00:00",
       "imagen": ""
     },
     {
@@ -17,6 +179,15 @@
       "fuente": "BBC Mundo",
       "url": "https://www.bbc.com/mundo/articles/c617k978p47ro?at_medium=RSS&at_campaign=rss",
       "fecha": "2026-11-19T22:49:43+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "de9e3a339d098a98",
+      "titulo": "¿También fue envenenada? Examen toxicológico confirmó presencia de talio en Alicia Graham",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/examen-toxicologico-talio-alicia-graham-madre-ninas-envenenadas-FO43815176",
+      "fecha": "2026-11-19T22:49:21+00:00",
       "imagen": ""
     },
     {
@@ -35,6 +206,24 @@
       "fuente": "La Silla Vacía",
       "url": "https://www.lasillavacia.com/silla-amazonia/amazonia-en-breve/hidroelectricas-de-colombia-dependen-de-la-selva-amazonica-el-clip/",
       "fecha": "2026-11-19T22:45:15+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "a284102c17643060",
+      "titulo": "Sánchez y Feijóo no se miran porque no pueden ni verse",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/espana/elecciones-generales/2026-11-19/sanchez-y-feijoo-ni-se-miran-porque-no-pueden-ni-verse.html",
+      "fecha": "2026-11-19T22:40:34+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "158bed5066e71ca9",
+      "titulo": "El rastro del título de Verónica Estrada en la U. Nacional: secretario general relata cómo detectaron las inconsistencias",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/universidad-nacional-detecto-inconsistencias-titulo-veronica-estrada-fiscalia-PO43813639",
+      "fecha": "2026-11-19T22:37:04+00:00",
       "imagen": ""
     },
     {
@@ -65,15 +254,6 @@
       "imagen": ""
     },
     {
-      "id": "9f575223246a3e8d",
-      "titulo": "Claro ya recibe pagos inmediatos por Bre-B con nueva solución de Banco de Bogotá",
-      "categoria": "Economía",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/finanzas/claro-ya-recibe-pagos-inmediatos-por-bre-b-con-nueva-solucion-de-banco-de-bogota-4528767",
-      "fecha": "2026-11-19T22:21:15+00:00",
-      "imagen": ""
-    },
-    {
       "id": "fa0d59bbd6d50571",
       "titulo": "Canacol pidió que se valide la terminación de contratos para concretar su venta",
       "categoria": "Colombia",
@@ -92,12 +272,30 @@
       "imagen": ""
     },
     {
+      "id": "e03a0133868924a5",
+      "titulo": "Mentiras y medias verdades del debate cara a cara entre Pedro Sánchez y Alberto Núñez Feijóo",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/espana/elecciones-generales/2026-11-19/mentiras-y-medias-verdades-del-debate-cara-a-cara-entre-pedro-sanchez-y-alberto-nunez-feijoo.html",
+      "fecha": "2026-11-19T22:17:20+00:00",
+      "imagen": ""
+    },
+    {
       "id": "9417d18190495353",
       "titulo": "Trump, Putin y Xi Jinping \"coinciden en que una guerra nuclear no se puede ganar\"",
       "categoria": "Internacional",
       "fuente": "La República",
       "url": "https://www.larepublica.co/globoeconomia/trump-putin-xi-jinping-coinciden-en-que-una-guerra-nuclear-no-se-puede-ganar-4528759",
       "fecha": "2026-11-19T22:13:15+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "78ef5ff7f7f0f8cd",
+      "titulo": "Feijóo recrimina a Sánchez los muertos en Urda y Adamuz y él se disculpa: “Es un dolor que llevaré conmigo”",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/espana/elecciones-generales/2026-11-19/feijoo-recrimina-a-sanchez-los-muertos-en-urda-y-adamuz-y-el-se-disculpa-es-un-dolor-que-llevare-conmigo.html",
+      "fecha": "2026-11-19T22:11:51+00:00",
       "imagen": ""
     },
     {
@@ -342,204 +540,6 @@
       "url": "https://90minutos.co/cali/comunidad-parroquia-nuestra-senora-coromoto-invita-kermes-solidaria-reconstruccion-19-11-2026/",
       "fecha": "2026-11-19T21:28:07+00:00",
       "imagen": ""
-    },
-    {
-      "id": "73fbdaf52c4af63d",
-      "titulo": "FINAGRO y PNUD buscan transformar el crédito agropecuario de sostenibilidad",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/finanzas/finagro-y-pnud-buscan-transformar-el-credito-agropecuario-de-sostenibilidad-4528716",
-      "fecha": "2026-11-19T21:26:11+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "62885075d21955ad",
-      "titulo": "El mínimo podría subir más que lo que indica la fórmula legal",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/red-de-expertos/red-social/el-minimo-podria-subir-mas-que-lo-que-indica-la-formula-legal/",
-      "fecha": "2026-11-19T21:24:20+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "303a7e0411d83ddb",
-      "titulo": "Nació con una malformación en su mano y a los 15 años diseñó su propia prótesis en 3D: esta es la historia de José Plata",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/barranquilla/nacio-con-una-malformacion-en-su-mano-y-a-los-15-anos-diseno-su-propia-protesis-en-3d-esta-es-la-historia-de-jose-plata-3602491",
-      "fecha": "2026-11-19T21:23:17+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "ce6a41ebb4bfadc5",
-      "titulo": "Gobierno destraba recursos para la justicia: adicionará $1,5 billones al presupuesto de 2027",
-      "categoria": "Colombia",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/gobierno/gobierno-destraba-recursos-para-la-justicia-adicionara-1-5-billones-al-presupuesto-de-506716",
-      "fecha": "2026-11-19T21:21:01+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "6b182527b3f79d29",
-      "titulo": "Sobrevivió a 13 disparos y perdió la vista, pero la herida más profunda estaba en su propia familia",
-      "categoria": "Colombia",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/reinventarse-para-seguir/mil-vidas-en-una-sola-mujer-libro-de-liliana-miranda/",
-      "fecha": "2026-11-19T21:20:40+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "8ae6beef5f8d1c4c",
-      "titulo": "El amor también emprende: dos médicos que decidieron construir su futuro atendiendo pacientes",
-      "categoria": "Colombia",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/reinventarse-para-seguir/consultorio-medico-cam-en-bogota-emprendimiento-de-jovenes/",
-      "fecha": "2026-11-19T21:02:11+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "f355b46cfd646176",
-      "titulo": "\"Sin nuestro territorio, la vida será muy difícil\": quiénes son los awá, el grupo de indígenas aislados de Brasil que hizo un contacto inusual con otra comunidad",
-      "categoria": "Internacional",
-      "fuente": "BBC Mundo",
-      "url": "https://www.bbc.com/mundo/articles/c6wy9d7ee1zwo?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-19T21:02:09+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "a9757ab0cfcfbae8",
-      "titulo": "Gustavo Puerta envía mensaje de esperanza tras su lesión con Colombia",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/deportes/gustavo-puerta-envia-mensaje-de-esperanza-tras-su-lesion-con-colombia/",
-      "fecha": "2026-11-19T21:00:18+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "905624acd47ac10a",
-      "titulo": "Deportivo Pasto confirma salida de 22 jugadores",
-      "categoria": "Deportes",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/deportes/deportivo-pasto-salida-22-jugadores/",
-      "fecha": "2026-11-19T21:00:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "317c21fc55574c6f",
-      "titulo": "Blessd cerca de comprar al Deportivo Pereira",
-      "categoria": "Deportes",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/deportes/blessd-cerca-de-comprar-deportivo-pereira/",
-      "fecha": "2026-11-19T21:00:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "4ada84df47163265",
-      "titulo": "Copa BetPlay 2026: fechas de la final entre Once Caldas y América",
-      "categoria": "Colombia",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/deportes/copa-betplay-2026-fechas-final-once-caldas-america/",
-      "fecha": "2026-11-19T21:00:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "2fab322b4e91d027",
-      "titulo": "AWS Emulator escrito por agentes IA",
-      "categoria": "Colombia",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/secciones/tecnologia/aws-emulator-agentes-ia/",
-      "fecha": "2026-11-19T21:00:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "1f76d102aa8f5a91",
-      "titulo": "De la Espriella anuncia la captura de 26 presuntos integrantes del Clan del Golfo en el Caribe",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/de-la-espriella-anuncia-captura-26-presuntos-integrantes-clan-golfo-caribe-GP43807818",
-      "fecha": "2026-11-19T20:58:50+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "7a30a2a32914c046",
-      "titulo": "Guerra contra Irán ha costado más de 48.000 millones de dólares a Estados Unidos",
-      "categoria": "Economía",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/guerra-contra-irán-ha-costado-más-de-48-000-millones-de-dólares-a-estados-unidos/a-79997859?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-19T20:54:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "b0b8d8478f5ff272",
-      "titulo": "Ya son 7.961 las víctimas de falsos positivos reconocidas por la JEP",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/en-vivo/ya-son-7-961-las-victimas-de-falsos-positivos-reconocidas-por-la-jep/",
-      "fecha": "2026-11-19T20:50:14+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "a6ababd67526dc36",
-      "titulo": "Metro de Bogotá ratifica la necesidad de mano de obra extranjera: 1.500 técnicos chinos están en proceso de contratación",
-      "categoria": "Colombia",
-      "fuente": "La FM Actualidad",
-      "url": "https://www.lafm.com.co/actualidad/se-necesita-de-mano-de-obra-extranjera-para-construccion-de-l1m-417710",
-      "fecha": "2026-11-19T20:42:32+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "9c50790a85185d26",
-      "titulo": "'Todo está normal en Cali y se desbloqueó la vía Panamericana': el mensaje del presidente Abelardo De La Espriella desde la capital del Valle en video",
-      "categoria": "Cali",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/cali/todo-esta-absolutamente-normal-el-mensaje-del-presidente-abelardo-de-la-espriella-desde-las-calles-de-cali-en-video-3602452",
-      "fecha": "2026-11-19T20:41:30+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "997ae84da03f57d5",
-      "titulo": "'Todos se parecen, todos son perfectos': hojas de vida hechas con IA saturan a las empresas, advierte IE University",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/todos-se-parecen-todos-son-perfectos-hojas-de-vida-hechas-con-ia-saturan-a-las-empresas-advierte-ie-university-506691",
-      "fecha": "2026-11-19T20:35:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "4c26df299246225a",
-      "titulo": "“Estoy al frente de todo”, presidente De la Espriella visita a Cali en medio de paro nacional",
-      "categoria": "Cali",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/colombia/abelardo-de-la-espriella-colombia-presidencia-19-11-2026/",
-      "fecha": "2026-11-19T20:34:54+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "f0e51a5872bc14ed",
-      "titulo": "Anthropic: por qué el mayor debut bursátil de la historia pone a prueba \"la burbuja\" de la IA y la posibilidad de que estalle",
-      "categoria": "Internacional",
-      "fuente": "BBC Mundo",
-      "url": "https://www.bbc.com/mundo/articles/cqm2ln990v10o?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-19T20:34:12+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "a80ba91e933d378f",
-      "titulo": "D1, Éxito e Ísimo estudian llegar a Venezuela en 2027",
-      "categoria": "Internacional",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/noticias/d1-exito-e-isimo-estudian-llegar-a-venezuela-en-2027/",
-      "fecha": "2026-11-19T20:30:03+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "ee89764a33814bc0",
-      "titulo": "Así avanzan las marchas de la oposición: Policía levanta bloqueos en varias ciudades",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/marchas-hoy-colombia-19-noviembre-bloqueos-bogota-transmilenio-CJ43790233",
-      "fecha": "2026-11-19T20:26:18+00:00",
-      "imagen": ""
     }
   ],
   "estado_fuentes": [
@@ -662,9 +662,8 @@
     {
       "nombre": "Chocó 7 días",
       "url": "https://choco7dias.com/feed/",
-      "estado": "error",
-      "titulares": 0,
-      "detalle": "415 Client Error: Unsupported Media Type for url: https://choco7dias.com/feed/"
+      "estado": "correcto",
+      "titulares": 10
     },
     {
       "nombre": "La Patria — Caldas",
