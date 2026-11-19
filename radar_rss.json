@@ -1,6 +1,177 @@
 {
-  "ultima_actualizacion": "2026-11-19T19:45:33.570685+00:00",
+  "ultima_actualizacion": "2026-11-19T21:00:29.532004+00:00",
   "titulares_rss": [
+    {
+      "id": "9392e591618d3be8",
+      "titulo": "Debate electoral 29-N, en directo | Arranca el cara a cara entre Pedro Sánchez y Núñez Feijóo: 90 minutos, cinco bloques y un minuto final para pedir el voto",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/espana/elecciones-generales/2026-11-19/debate-electoral-entre-pedro-sanchez-y-alberto-nunez-feijoo-en-directo.html",
+      "fecha": "2026-11-19T20:59:05+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "b0b8d8478f5ff272",
+      "titulo": "Ya son 7.961 las víctimas de falsos positivos reconocidas por la JEP",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/en-vivo/ya-son-7-961-las-victimas-de-falsos-positivos-reconocidas-por-la-jep/",
+      "fecha": "2026-11-19T20:50:14+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "9c50790a85185d26",
+      "titulo": "'Todo está normal en Cali y se desbloqueó la vía Panamericana': el mensaje del presidente Abelardo De La Espriella desde la capital del Valle en video",
+      "categoria": "Cali",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/cali/todo-esta-absolutamente-normal-el-mensaje-del-presidente-abelardo-de-la-espriella-desde-las-calles-de-cali-en-video-3602452",
+      "fecha": "2026-11-19T20:41:30+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "97841ef243f41dde",
+      "titulo": "Condenan a 33 años de prisión a Juan José Guerrero por el feminicidio de Valentina Vanegas en Antioquia: tenía antecedentes de violencia intrafamiliar",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/medellin/condenan-a-33-anos-de-prision-a-juan-jose-guerrero-por-el-feminicidio-de-valentina-vanegas-en-antioquia-tenia-antecedentes-de-violencia-intrafamiliar-3602120",
+      "fecha": "2026-11-19T20:36:52+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "997ae84da03f57d5",
+      "titulo": "'Todos se parecen, todos son perfectos': hojas de vida hechas con IA saturan a las empresas, advierte IE University",
+      "categoria": "Economía",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/todos-se-parecen-todos-son-perfectos-hojas-de-vida-hechas-con-ia-saturan-a-las-empresas-advierte-ie-university-506691",
+      "fecha": "2026-11-19T20:35:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "4c26df299246225a",
+      "titulo": "“Estoy al frente de todo”, presidente De la Espriella visita a Cali en medio de paro nacional",
+      "categoria": "Cali",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/colombia/abelardo-de-la-espriella-colombia-presidencia-19-11-2026/",
+      "fecha": "2026-11-19T20:34:54+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "f0e51a5872bc14ed",
+      "titulo": "Anthropic: por qué el mayor debut bursátil de la historia pone a prueba \"la burbuja\" de la IA y la posibilidad de que estalle",
+      "categoria": "Internacional",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/cqm2ln990v10o?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-19T20:34:12+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "a80ba91e933d378f",
+      "titulo": "D1, Éxito e Ísimo estudian llegar a Venezuela en 2027",
+      "categoria": "Internacional",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/noticias/d1-exito-e-isimo-estudian-llegar-a-venezuela-en-2027/",
+      "fecha": "2026-11-19T20:30:03+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "fdd69595e40a24f5",
+      "titulo": "Así será la aplicación de eutanasia química a los primeros 10 hipopótamos seleccionados en Antioquia por el riesgo que representan para las personas",
+      "categoria": "Deportes",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/asi-sera-la-aplicacion-de-eutanasia-quimica-a-los-10-primeros-hipopotamos-elegidos-en-antioquia-por-alto-riesgo-de-la-vida-de-las-personas-3602426",
+      "fecha": "2026-11-19T20:22:35+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "7b661b22110bace7",
+      "titulo": "Radiografía del transporte aéreo en Colombia: Rionegro operó en el 2025 casi 30% por encima de su capacidad",
+      "categoria": "Colombia",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/infraestructura/radiografia-del-transporte-aereo-en-colombia-rionegro-opero-en-el-2025-casi-30-por-encima-de-su-capacidad-506683",
+      "fecha": "2026-11-19T20:20:43+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "7827bb1249429377",
+      "titulo": "Corte Suprema y Gobierno buscan recursos adicionales para evitar la salida de más de 2.500 funcionarios judiciales en 2027",
+      "categoria": "Colombia",
+      "fuente": "La FM Actualidad",
+      "url": "https://www.lafm.com.co/actualidad/corte-suprema-de-justicia-gobierno-nacional-recursos-funcionarios-417707",
+      "fecha": "2026-11-19T20:14:19+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "10203a7664b04789",
+      "titulo": "Fondo Milagro busca alianzas con RedPRO y Fundación Santo Domingo para la reconstrucción tras el terremoto",
+      "categoria": "Economía",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/gobierno/fondo-milagro-busca-alianzas-con-redpro-y-fundacion-santo-domingo-para-la-reconstruccion-tras-el-terremoto-506708",
+      "fecha": "2026-11-19T20:11:32+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "0cdb9e0818162b1c",
+      "titulo": "Sector de hidrocarburos cayó 2,7 % y completó nueve trimestres de retroceso en la extracción de petróleo y gas",
+      "categoria": "Economía",
+      "fuente": "La FM Economía",
+      "url": "https://www.lafm.com.co/economia/sector-hidrocarburos-colombia-cae-campetrol-importaciones-gas-417704",
+      "fecha": "2026-11-19T20:04:15+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "ac2b002ae40baeff",
+      "titulo": "Gustavo Petro llega a Cali en medio de las marchas del paro nacional",
+      "categoria": "Cali",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/cali/gustavo-petro-cali-medio-marchas-paro-nacional-19-11-2026/",
+      "fecha": "2026-11-19T20:04:10+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "75999905e532c76d",
+      "titulo": "Tragedia en Nueva York: niño colombiano murió días después de compartir con sus compañeros de colegio",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/noticias/tragedia-en-nueva-york-nino-colombiano-murio-dias-despues-de-compartir-con-sus-companeros-de-colegio/",
+      "fecha": "2026-11-19T20:00:18+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "875a6f5631eeb6f8",
+      "titulo": "La oposición colombiana no logra multiplicar en las calles el rechazo a la reforma tributaria del Gobierno",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/america-colombia/2026-11-19/la-oposicion-colombiana-no-logra-multiplicar-en-las-calles-el-rechazo-a-la-reforma-tributaria-del-gobierno.html",
+      "fecha": "2026-11-19T19:58:08+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "0f03553a5b555c5c",
+      "titulo": "Arrancó la eutanasia de hipopótamos en Colombia: hay 10 animales en la mira por poner en riesgo vidas",
+      "categoria": "Colombia",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/regiones/arranco-la-eutanasia-de-hipopotamos-en-colombia-hay-10-animales-en-la-mira-por-poner-en-riesgo-vidas-506706",
+      "fecha": "2026-11-19T19:54:34+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "3194390ce4299be5",
+      "titulo": "Sistemas Mesh, repetidores o routers WiFi 7: todos estos dispositivos de TP-Link están de Black Friday con hasta un 40 % de descuento",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/seleccion/sistemas-mesh-repetidores-routers-wifi-7-todos-estos-dispositivos-tp-link-estan-black-friday-40-descuento",
+      "fecha": "2026-11-19T19:46:25+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "382b3929d67bca53",
+      "titulo": "Gobernadora del Valle habló por teléfono con Lizeth Alejandra tras su liberación luego de 23 días secuestrada: compartió video de la conversación",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/cali/gobernadora-del-valle-hablo-por-telefono-con-lizeth-alejandra-tras-su-liberacion-luego-de-23-dias-secuestrada-compartio-video-de-la-conversacion-3602431",
+      "fecha": "2026-11-19T19:45:48+00:00",
+      "imagen": ""
+    },
     {
       "id": "221762c6555c454d",
       "titulo": "Jueces de Bogotá se sumaron a las protestas por falta de recursos y sobrecarga laboral",
@@ -17,6 +188,15 @@
       "fuente": "Xataka",
       "url": "https://www.xataka.com/empresas-y-economia/nvidia-se-enfrenta-a-nueva-amenaza-destitucion-jensen-huang-perdida-sus-mejores-ingenieros",
       "fecha": "2026-11-19T19:30:28+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "53b0c41b7bfd2cbb",
+      "titulo": "Tres muertos, dos ataques y una misma pregunta: autoridades buscan establecer si crímenes en Olímpicas de Barranquilla están relacionados",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/barranquilla/tres-muertos-dos-ataques-y-una-misma-pregunta-autoridades-buscan-establecer-si-crimenes-en-olimpicas-de-barranquilla-estan-relacionados-3602456",
+      "fecha": "2026-11-19T19:30:00+00:00",
       "imagen": ""
     },
     {
@@ -44,15 +224,6 @@
       "fuente": "Portafolio",
       "url": "https://www.portafolio.co/economia/gobierno/ant-destinara-12-000-millones-para-campesinos-afectados-por-los-incendios-en-tolima-asi-pueden-acceder-506700",
       "fecha": "2026-11-19T19:27:19+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "9c50790a85185d26",
-      "titulo": "'Todo está normal en Cali y se desbloqueó la vía Panamericana': el mensaje del presidente Abelardo De La Espriella desde la capital del Valle en video",
-      "categoria": "Cali",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/cali/todo-esta-absolutamente-normal-el-mensaje-del-presidente-abelardo-de-la-espriella-desde-las-calles-de-cali-en-video-3602452",
-      "fecha": "2026-11-19T19:25:10+00:00",
       "imagen": ""
     },
     {
@@ -155,11 +326,11 @@
       "imagen": ""
     },
     {
-      "id": "7784897e1473d0be",
-      "titulo": "La foto de Shenzhen: Xi junta a Trump y Putin en cita histórica",
+      "id": "5650087d5af53f87",
+      "titulo": "La foto de Shenzhen: Xi junta a Trump y Putin en una cita histórica",
       "categoria": "Internacional",
       "fuente": "DW Español",
-      "url": "https://www.dw.com/es/la-foto-de-shenzhen-xi-junta-a-trump-y-putin-en-cita-histórica/a-79997135?maca=spa-rss-sp-all-1122-rdf",
+      "url": "https://www.dw.com/es/la-foto-de-shenzhen-xi-junta-a-trump-y-putin-en-una-cita-histórica/a-79997135?maca=spa-rss-sp-all-1122-rdf",
       "fecha": "2026-11-19T19:09:00+00:00",
       "imagen": ""
     },
@@ -210,7 +381,7 @@
     },
     {
       "id": "7a2ff68f26614f67",
-      "titulo": "\"La cúspide de la salud humana\": quiénes son los \"superdefecadores\" y cómo puede la ciencia dar con las heces perfectas",
+      "titulo": "\"La cúspide de la salud humana\": quiénes son los \"superdefecadores\" y cómo la ciencia los usa para dar con las heces perfectas",
       "categoria": "Internacional",
       "fuente": "BBC Mundo",
       "url": "https://www.bbc.com/mundo/articles/c6n4em0gj88mo?at_medium=RSS&at_campaign=rss",
@@ -242,6 +413,15 @@
       "fuente": "Portafolio",
       "url": "https://www.portafolio.co/economia/colombia-alista-un-piloto-de-deuda-publica-tokenizada-que-busca-agilizar-la-emision-compraventa-y-pago-de-bonos-506695",
       "fecha": "2026-11-19T19:00:18+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "75c2a112b156344e",
+      "titulo": "La encuesta antes del debate: ligera ventaja del PP y muy clara del bloque derechista",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/espana/elecciones-generales/2026-11-19/la-encuesta-antes-del-debate-ligera-ventaja-del-pp-y-muy-clara-del-bloque-derechista.html",
+      "fecha": "2026-11-19T19:00:02+00:00",
       "imagen": ""
     },
     {
@@ -360,186 +540,6 @@
       "url": "https://www.larepublica.co/empresas/audi-presento-en-colombia-el-nuevo-rs-5-hibrido-enchufable-desde-599-900-millones-4528399",
       "fecha": "2026-11-19T18:35:19+00:00",
       "imagen": ""
-    },
-    {
-      "id": "2494226bbec8172c",
-      "titulo": "U. Nacional presentó denuncia en Fiscalía por documento que acreditaba a Verónica Estrada como egresada: dicen que nunca lo expidieron",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/universidad-nacional-denuncia-fiscalia-documento-veronica-estrada-2025-JP43800494",
-      "fecha": "2026-11-19T18:34:04+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "0c2f5147c2ac3aaa",
-      "titulo": "Es uno de los mejores SSD NVMe y hacía mucho que no lo veíamos a este precio: el Samsung 990 Pro se apunta al Black Friday de Amazon",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/seleccion/uno-mejores-ssd-nvme-mucho-que-no-veiamos-a-este-precio-samsung-990-pro-se-apunta-al-black-friday-amazon",
-      "fecha": "2026-11-19T18:30:27+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "377b27b8484d5c47",
-      "titulo": "Waymo ha retirado sus robotaxis de todas las autopistas de Estados Unidos tras el veto de sus vehículos en California",
-      "categoria": "Cali",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/movilidad/waymo-ha-retirado-todos-sus-robotaxis-todas-autopistas-estados-unidos-veto-sus-vehiculos-california",
-      "fecha": "2026-11-19T18:30:27+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "554f400c237f68c1",
-      "titulo": "Reino Unido expulsa al agregado de defensa de Birmania tras el fallo de la Corte Internacional de Justicia por genocidio",
-      "categoria": "Internacional",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/reino-unido-expulsa-al-agregado-de-defensa-de-birmania-tras-el-fallo-de-la-corte-internacional-de-justicia-por-genocidio/a-79997177?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-19T18:30:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "0a0b39f029d2da3c",
-      "titulo": "“Fui asaltado en mi buena fe”: exdirector de la DIAN de Petro se lava las manos por contrato de $78 millones a congresista con títulos falsos",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/luis-eduardo-llinas-contrato-78-millones-veronica-estrada-EJ43791005",
-      "fecha": "2026-11-19T18:26:49+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "265502b038b06089",
-      "titulo": "Las tarjetas de débito Visa de dale! entran al sistema de pagos del Metro de Medellín",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/finanzas/las-tarjetas-de-debito-de-dale-entran-al-sistema-de-pagos-del-metro-de-medellin-4528562",
-      "fecha": "2026-11-19T18:25:40+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "97841ef243f41dde",
-      "titulo": "Condenan a 33 años de prisión a Juan José Guerrero por el feminicidio de Valentina Vanegas en Antioquia: tenía antecedentes de violencia intrafamiliar",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/medellin/condenan-a-33-anos-de-prision-a-juan-jose-guerrero-por-el-feminicidio-de-valentina-vanegas-en-antioquia-tenia-antecedentes-de-violencia-intrafamiliar-3602120",
-      "fecha": "2026-11-19T18:24:56+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "0f9418eb454b2776",
-      "titulo": "Liberaron a Lizeth Alejandra, la joven de 19 años que fue secuestrada en una panadería de Guacarí, Valle",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/liberan-joven-secuestrada-panaderia-de-guacari-valle-del-cauca-NJ43798173",
-      "fecha": "2026-11-19T18:20:16+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "fdd69595e40a24f5",
-      "titulo": "Así será la aplicación de eutanasia química a los 10 primeros hipopótamos elegidos en Antioquia por alto riesgo de la vida de las personas",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/asi-sera-la-aplicacion-de-eutanasia-quimica-a-los-10-primeros-hipopotamos-elegidos-en-antioquia-por-alto-riesgo-de-la-vida-de-las-personas-3602426",
-      "fecha": "2026-11-19T18:12:45+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "382b3929d67bca53",
-      "titulo": "Gobernadora del Valle habló por teléfono con Lizeth Alejandra tras su liberación luego de 23 días secuestrada: compartió video de la conversación",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/cali/gobernadora-del-valle-hablo-por-telefono-con-lizeth-alejandra-tras-su-liberacion-luego-de-23-dias-secuestrada-compartio-video-de-la-conversacion-3602431",
-      "fecha": "2026-11-19T18:11:24+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "d9976edcc839cd75",
-      "titulo": "Mamdani firma ley que prohíbe carruajes tirados por caballos en Central Park poniendo fin a una tradición milenaria",
-      "categoria": "Internacional",
-      "fuente": "La FM Internacional",
-      "url": "https://www.lafm.com.co/internacional/zohran-mamdani-firma-prohibicion-carruajes-caballos-nueva-york-417696",
-      "fecha": "2026-11-19T18:09:17+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "5f4c2850c18d150b",
-      "titulo": "Cuadrangulares Liga Betplay: probables resultados de la primera fecha, según la IA",
-      "categoria": "Deportes",
-      "fuente": "La FM Deportes",
-      "url": "https://www.lafm.com.co/deportes/liga-betplay-segun-ia-resultados-primera-fecha-417695",
-      "fecha": "2026-11-19T18:02:20+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "ee89764a33814bc0",
-      "titulo": "Así avanzan las marchas de la oposición: en Bogotá dispersan a manifestantes cerca de la Javeriana",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/marchas-hoy-colombia-19-noviembre-bloqueos-bogota-transmilenio-CJ43790233",
-      "fecha": "2026-11-19T18:01:28+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "77124e70633cc9aa",
-      "titulo": "Por qué Chile enfrenta una crisis económica en medio de las políticas de austeridad de Kast",
-      "categoria": "Internacional",
-      "fuente": "BBC Mundo",
-      "url": "https://www.bbc.com/mundo/watch/cm5y192jyee5o?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-19T18:00:39+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "2d472c43a2c629d1",
-      "titulo": "JEP imputó al general (r) Mario Montoya y otros 9 generales más por caso de 2.077 víctimas de “falsos positivos”",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/jep-imputa-general-r-mario-montoya-otros-9-generales-2-077-victimas-falsos-positivos-FJ43797640",
-      "fecha": "2026-11-19T18:00:38+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "ddcfa64531b40cae",
-      "titulo": "La revancha de Barranquilla: el deporte como poder",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/red-de-expertos/red-social/la-revancha-de-barranquilla-el-deporte-como-poder/",
-      "fecha": "2026-11-19T18:00:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "83e3c3e0ead48645",
-      "titulo": "Diario del gobierno de Abelardo: la segunda marcha de la oposición",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/en-vivo/diario-del-gobierno-de-abelardo-la-segunda-marcha-de-la-oposicion/",
-      "fecha": "2026-11-19T18:00:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "b9d204c1facbcb60",
-      "titulo": "Agricultura cayó 6,7% y restó 0,8 puntos al PIB: el campo completa 4 trimestres en terreno negativo, según Anif",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/agricultura-cayo-6-7-y-resto-0-8-puntos-al-pib-el-campo-completa-4-trimestres-en-terreno-negativo-segun-anif-506693",
-      "fecha": "2026-11-19T17:59:10+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "ff03e31da899914b",
-      "titulo": "¿Verónica Estrada ni siquiera es bachiller? Acta de grado pone en duda su diploma en colegio de Antioquia",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/veronica-estrada-acta-grado-diploma-bachiller-antioquia-CJ43791074",
-      "fecha": "2026-11-19T17:49:21+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "307e6de40b739f0b",
-      "titulo": "El Sistema de Trazabilidad de Minerales de la ANM será obligatorio desde noviembre",
-      "categoria": "Deportes",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/economia/asi-funcionara-el-sistema-de-trazabilidad-de-minerales-de-la-agencia-nacional-de-mineria-4528539",
-      "fecha": "2026-11-19T17:47:27+00:00",
-      "imagen": ""
     }
   ],
   "estado_fuentes": [
@@ -553,7 +553,7 @@
       "nombre": "El Tiempo Cali",
       "url": "https://www.eltiempo.com/rss/colombia_cali.xml",
       "estado": "correcto",
-      "titulares": 5
+      "titulares": 6
     },
     {
       "nombre": "El Espectador",
