@@ -1,6 +1,60 @@
 {
-  "ultima_actualizacion": "2026-11-19T05:15:40.260915+00:00",
+  "ultima_actualizacion": "2026-11-19T06:39:48.897123+00:00",
   "titulares_rss": [
+    {
+      "id": "b110c10fd1fb4bc5",
+      "titulo": "El robot de cocina compacto de Lidl regresa por el Black Friday: ahora cuesta menos de 150 euros y es ideal para cocinas pequeñas",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/seleccion/robot-cocina-compacto-lidl-regresa-black-friday-ahora-cuesta-150-euros-ideal-para-cocinas-pequenas",
+      "fecha": "2026-11-19T06:15:18+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "309792cd1309d1fe",
+      "titulo": "Casi 50.000 evacuados en al estado de Odisha por la llegada del potente ciclón Akvan en India programada para el viernes",
+      "categoria": "Internacional",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/casi-50-000-evacuados-en-al-estado-de-odisha-por-la-llegada-del-potente-ciclón-akvan-en-india-programada-para-el-viernes/a-79987150?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-19T06:15:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "64aeb4117d8782f7",
+      "titulo": "Vivimos rodeados de sustancias que pueden alterar nuestras hormonas y la ciencia cada vez tiene más pruebas de sus efectos",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/medicina-y-salud/vivimos-rodeados-sustancias-que-pueden-alterar-nuestras-hormonas-ciencia-cada-vez-tiene-pruebas-sus-efectos",
+      "fecha": "2026-11-19T06:01:12+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "8e337d4fe7e0e7a0",
+      "titulo": "Un espacio para construir proyectos de vida: Cali pone en marcha su Centro de Atención para Personas con Discapacidad y sus familias",
+      "categoria": "Cali",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/cali/un-espacio-para-construir-proyectos-de-vida-cali-pone-en-marcha-su-centro-de-atencion-para-personas-con-discapacidad-y-sus-familias-3602247",
+      "fecha": "2026-11-19T05:54:18+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "48939ee95b469c05",
+      "titulo": "La crisis en Medio Oriente amenaza la seguridad energética mundial, advierte la AIE",
+      "categoria": "Deportes",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/la-crisis-en-medio-oriente-amenaza-la-seguridad-energética-mundial-advierte-la-aie/a-79986931?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-19T05:43:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "4004c70ec508f5c8",
+      "titulo": "Atesa de Occidente refuerza su operación en Pereira",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/actualidad/atesa-de-occidente-refuerza-su-operacion-en-pereira/",
+      "fecha": "2026-11-19T05:17:12+00:00",
+      "imagen": ""
+    },
     {
       "id": "32a33609a8ed9023",
       "titulo": "Terminó en la cárcel La Badea",
@@ -47,20 +101,20 @@
       "imagen": ""
     },
     {
-      "id": "db0f727982c0efdf",
-      "titulo": "\"Banco Popular prevé utilidades cercanas a los $70.000 millones para el cierre de 2026\"",
-      "categoria": "Economía",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/finanzas/entrevista-a-luis-fernando-gomez-presidente-e-de-banco-popular-4527833",
-      "fecha": "2026-11-19T05:01:54+00:00",
-      "imagen": ""
-    },
-    {
       "id": "cec2f9ab626492be",
       "titulo": "A oír a quienes producen y expanden la economía",
       "categoria": "Economía",
       "fuente": "La República",
       "url": "https://www.larepublica.co/analisis/carlos-meisel-vergara-4514340/a-oir-a-quienes-producen-y-expanden-la-economia-4527772",
+      "fecha": "2026-11-19T05:01:54+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "db0f727982c0efdf",
+      "titulo": "\"Banco Popular prevé utilidades cercanas a los $70.000 millones para el cierre de 2026\"",
+      "categoria": "Economía",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/finanzas/entrevista-a-luis-fernando-gomez-presidente-e-de-banco-popular-4527833",
       "fecha": "2026-11-19T05:01:54+00:00",
       "imagen": ""
     },
@@ -74,20 +128,20 @@
       "imagen": ""
     },
     {
-      "id": "ae67038c9750fe07",
-      "titulo": "“Tenemos, en el corto plazo, el proyecto de entrar nuevamente a Venezuela”",
-      "categoria": "Internacional",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/empresas/tenemos-en-el-corto-plazo-el-proyecto-de-entrar-nuevamente-a-venezuela-4527185",
-      "fecha": "2026-11-19T05:01:52+00:00",
-      "imagen": ""
-    },
-    {
       "id": "5de46019aaa069b9",
       "titulo": "Rockstar convirtió a Grand Theft Auto en un negocio de US$14.000 millones",
       "categoria": "Colombia",
       "fuente": "La República",
       "url": "https://www.larepublica.co/ocio/rockstar-games-convirtio-a-gta-en-un-negocio-de-us-14-000-millones-4527742",
+      "fecha": "2026-11-19T05:01:52+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "ae67038c9750fe07",
+      "titulo": "“Tenemos, en el corto plazo, el proyecto de entrar nuevamente a Venezuela”",
+      "categoria": "Internacional",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/empresas/tenemos-en-el-corto-plazo-el-proyecto-de-entrar-nuevamente-a-venezuela-4527185",
       "fecha": "2026-11-19T05:01:52+00:00",
       "imagen": ""
     },
@@ -263,15 +317,6 @@
       "imagen": ""
     },
     {
-      "id": "1404d963b94a036e",
-      "titulo": "Terpel busca potenciar su pilar energético con el desarrollo de nuevos proyectos fotovoltaicos",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/empresas/terpel-potencia-su-pilar-de-energia-con-el-desarrollo-de-proyectos-fotovoltaicos-4527906",
-      "fecha": "2026-11-19T05:01:04+00:00",
-      "imagen": ""
-    },
-    {
       "id": "187094960345ad3e",
       "titulo": "De Jiangsu al Atlántico",
       "categoria": "Colombia",
@@ -281,12 +326,12 @@
       "imagen": ""
     },
     {
-      "id": "404187ef9232a3af",
-      "titulo": "Los embalses se están enfrentando al noviembre más seco desde el inicio del milenio",
+      "id": "1404d963b94a036e",
+      "titulo": "Terpel busca potenciar su pilar energético con el desarrollo de nuevos proyectos fotovoltaicos",
       "categoria": "Colombia",
       "fuente": "La República",
-      "url": "https://www.larepublica.co/economia/los-embalses-se-estan-enfrentando-al-noviembre-mas-seco-desde-el-inicio-del-milenio-4527808",
-      "fecha": "2026-11-19T05:01:01+00:00",
+      "url": "https://www.larepublica.co/empresas/terpel-potencia-su-pilar-de-energia-con-el-desarrollo-de-proyectos-fotovoltaicos-4527906",
+      "fecha": "2026-11-19T05:01:04+00:00",
       "imagen": ""
     },
     {
@@ -295,6 +340,15 @@
       "categoria": "Colombia",
       "fuente": "La República",
       "url": "https://www.larepublica.co/economia/como-se-puede-cubrir-el-recaudo-que-se-esperaba-del-iva-a-la-canasta-familiar-4527792",
+      "fecha": "2026-11-19T05:01:01+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "404187ef9232a3af",
+      "titulo": "Los embalses se están enfrentando al noviembre más seco desde el inicio del milenio",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/economia/los-embalses-se-estan-enfrentando-al-noviembre-mas-seco-desde-el-inicio-del-milenio-4527808",
       "fecha": "2026-11-19T05:01:01+00:00",
       "imagen": ""
     },
@@ -434,6 +488,15 @@
       "imagen": ""
     },
     {
+      "id": "3601051bcdeb0307",
+      "titulo": "Cátedra de Historia Regional explora la huella del bandolerismo en el Caldas de La Violencia",
+      "categoria": "Colombia",
+      "fuente": "La Patria — Caldas",
+      "url": "https://www.lapatria.com/galerias/catedra-de-historia-regional-explora-la-huella-del-bandolerismo-en-el-caldas-de-la",
+      "fecha": "2026-11-19T05:00:00+00:00",
+      "imagen": ""
+    },
+    {
       "id": "0d2b59678973ee52",
       "titulo": "Jan Martínez Ahrens: “Los periódicos de calidad debemos reafirmarnos en nuestra misión”",
       "categoria": "Cali",
@@ -477,69 +540,6 @@
       "url": "https://www.lafm.com.co/economia/millonaria-cifra-inversion-colombia-417632",
       "fecha": "2026-11-19T04:02:00+00:00",
       "imagen": ""
-    },
-    {
-      "id": "08a02fb28ec64b4b",
-      "titulo": "Policía evitó un atentado terrorista en el Huila tras encontrar un vehículo con 180 kilos de explosivos en zona rural del departamento",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/policia-evito-posible-atentado-terrorista-en-el-huila-tras-encontrar-vehiculo-con-180-kilos-de-explosivos-en-zona-rural-del-departamento-3602169",
-      "fecha": "2026-11-19T03:55:06+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "334f3623ff3e1cb5",
-      "titulo": "Arranca en Shenzhen el plenario de la cumbre de líderes de la APEC",
-      "categoria": "Internacional",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/arranca-en-shenzhen-el-plenario-de-la-cumbre-de-líderes-de-la-apec/a-79986880?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-19T03:46:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "b1e1dd761611b2ca",
-      "titulo": "Colombia será sede en 2027 de la primera reunión del Escudo de las Américas, la alianza de 19 países contra el narcotráfico impulsada por Donald Trump",
-      "categoria": "Internacional",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/medellin/medellin-sera-sede-en-2027-de-la-primera-reunion-del-escudo-de-las-americas-la-alianza-de-19-paises-contra-el-narcotrafico-impulsada-por-donald-trump-3602234",
-      "fecha": "2026-11-19T03:39:05+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "081e68ddc2ec8a1c",
-      "titulo": "De la Espriella niega haber rechazado operaciones conjuntas con EE. UU. por falta de apoyo en Congreso",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/operaciones-militares-estados-unidos-en-colombia-espriella-niega-que-haya-rechazado-LG43766904",
-      "fecha": "2026-11-19T03:28:38+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "bd054f3e7f7d1ed2",
-      "titulo": "Gobierno De La Espriella niega haber frenado operaciones militares de EE. UU. en Colombia",
-      "categoria": "Colombia",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/gobierno/gobierno-de-la-espriella-niega-haber-frenado-operaciones-militares-de-ee-uu-en-colombia-506623",
-      "fecha": "2026-11-19T02:55:45+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "dc4a560a18fcc070",
-      "titulo": "Trump pide al Supremo bloquear fallo que restituye protección migratoria a cientos de miles de venezolanos",
-      "categoria": "Internacional",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/trump-pide-al-supremo-bloquear-fallo-que-restituye-protección-migratoria-a-cientos-de-miles-de-venezolanos/a-79986699?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-19T02:47:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "0731432d8cb33069",
-      "titulo": "Santa Fe, contra las cuerdas en el 'caso Fagúndez': los mexicanos rechazan segunda oferta",
-      "categoria": "Deportes",
-      "fuente": "La FM Deportes",
-      "url": "https://www.lafm.com.co/deportes/santa-fe-segunda-oferta-rechazada-franco-fagundez-417630",
-      "fecha": "2026-11-19T02:46:27+00:00",
-      "imagen": ""
     }
   ],
   "estado_fuentes": [
@@ -553,7 +553,7 @@
       "nombre": "El Tiempo Cali",
       "url": "https://www.eltiempo.com/rss/colombia_cali.xml",
       "estado": "correcto",
-      "titulares": 6
+      "titulares": 5
     },
     {
       "nombre": "El Espectador",
