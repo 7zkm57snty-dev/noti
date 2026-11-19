@@ -1,13 +1,40 @@
 {
-  "ultima_actualizacion": "2026-11-19T02:59:16.781017+00:00",
+  "ultima_actualizacion": "2026-11-19T04:06:10.780061+00:00",
   "titulares_rss": [
+    {
+      "id": "334f3623ff3e1cb5",
+      "titulo": "Arranca en Shenzhen el plenario de la cumbre de líderes de la APEC",
+      "categoria": "Internacional",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/arranca-en-shenzhen-el-plenario-de-la-cumbre-de-líderes-de-la-apec/a-79986880?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-19T03:46:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "b1e1dd761611b2ca",
+      "titulo": "Colombia será sede en 2027 de la primera reunión del Escudo de las Américas, la alianza de 19 países contra el narcotráfico impulsada por Donald Trump",
+      "categoria": "Internacional",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/medellin/medellin-sera-sede-en-2027-de-la-primera-reunion-del-escudo-de-las-americas-la-alianza-de-19-paises-contra-el-narcotrafico-impulsada-por-donald-trump-3602234",
+      "fecha": "2026-11-19T03:39:05+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "081e68ddc2ec8a1c",
+      "titulo": "De la Espriella niega haber rechazado operaciones conjuntas con EE. UU. por falta de apoyo en Congreso",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/operaciones-militares-estados-unidos-en-colombia-espriella-niega-que-haya-rechazado-LG43766904",
+      "fecha": "2026-11-19T03:28:38+00:00",
+      "imagen": ""
+    },
     {
       "id": "bd054f3e7f7d1ed2",
       "titulo": "Gobierno De La Espriella niega haber frenado operaciones militares de EE. UU. en Colombia",
       "categoria": "Colombia",
       "fuente": "Portafolio",
       "url": "https://www.portafolio.co/economia/gobierno/gobierno-de-la-espriella-niega-haber-frenado-operaciones-militares-de-ee-uu-en-colombia-506623",
-      "fecha": "2026-11-19T02:48:06+00:00",
+      "fecha": "2026-11-19T02:55:45+00:00",
       "imagen": ""
     },
     {
@@ -35,6 +62,15 @@
       "fuente": "La República",
       "url": "https://www.larepublica.co/finanzas/enka-terpel-y-bogota-las-acciones-mas-valorizadas-del-mercado-4527744",
       "fecha": "2026-11-19T02:44:39+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "495bf450ec1eddcc",
+      "titulo": "Colombia vuelve a tener seis aviones Hércules C-130 tras donación de Estados Unidos",
+      "categoria": "Internacional",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/avion-hercules-c130-colombia-estados-unidos-fuerza-aerea-donacion-fac-1019-BH43770166",
+      "fecha": "2026-11-19T02:37:05+00:00",
       "imagen": ""
     },
     {
@@ -89,15 +125,6 @@
       "fuente": "Diario Occidente",
       "url": "https://occidente.co/opinion/columnistas/el-racismo-tambien-lleva-uniforme-la-dignidad-de-una-auxiliar-de-policia-no-se-negocia/",
       "fecha": "2026-11-19T02:17:29+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "081e68ddc2ec8a1c",
-      "titulo": "Gobierno de Colombia niega haber rechazado operaciones conjuntas con EE. UU. por falta de apoyo en Congreso",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/operaciones-militares-estados-unidos-en-colombia-espriella-niega-que-haya-rechazado-LG43766904",
-      "fecha": "2026-11-19T02:07:02+00:00",
       "imagen": ""
     },
     {
@@ -513,33 +540,6 @@
       "url": "https://www.eltiempo.com/colombia/cali/este-es-el-proyecto-de-autogeneracion-solar-con-baterias-de-almacenamiento-mas-grande-de-colombia-y-se-construira-en-el-valle-del-cauca-3602132",
       "fecha": "2026-11-18T23:06:20+00:00",
       "imagen": ""
-    },
-    {
-      "id": "d4d16b4727cad4b6",
-      "titulo": "Pete Hegseth llegó a Colombia para fortalecer la cooperación bilateral en defensa y seguridad",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/economia/pete-hegseth-llego-a-colombia-para-fortalecer-la-cooperacion-en-seguridad-4527799",
-      "fecha": "2026-11-18T23:05:59+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "0324027606413a39",
-      "titulo": "Cámara de Comercio de Bogotá dará asesoría a los afectados en Gran San",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/empresas/camara-de-comercio-de-bogota-dara-asesoria-a-los-afectados-en-gran-san-4527810",
-      "fecha": "2026-11-18T23:00:59+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "99e351885877d447",
-      "titulo": "La SAE busca convertir inmuebles bajo su administración en proyectos hoteleros con inversión privada en el Caribe",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/gobierno/la-sae-busca-convertir-inmuebles-bajo-su-administracion-en-proyectos-hoteleros-con-inversion-privada-en-el-caribe-506572",
-      "fecha": "2026-11-18T23:00:00+00:00",
-      "imagen": ""
     }
   ],
   "estado_fuentes": [
@@ -590,7 +590,7 @@
       "nombre": "BBC Mundo",
       "url": "https://feeds.bbci.co.uk/mundo/rss.xml",
       "estado": "correcto",
-      "titulares": 30
+      "titulares": 29
     },
     {
       "nombre": "DW Español",
@@ -655,8 +655,9 @@
     {
       "nombre": "El Diario — Pereira",
       "url": "https://www.eldiario.com.co/feed/",
-      "estado": "correcto",
-      "titulares": 35
+      "estado": "error",
+      "titulares": 0,
+      "detalle": "El feed no contiene entradas."
     },
     {
       "nombre": "Chocó 7 días",
