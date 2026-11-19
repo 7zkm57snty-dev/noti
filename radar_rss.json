@@ -1,22 +1,373 @@
 {
-  "ultima_actualizacion": "2026-11-19T18:36:18.920443+00:00",
+  "ultima_actualizacion": "2026-11-19T19:45:33.570685+00:00",
   "titulares_rss": [
     {
-      "id": "4ccee40b991d7b06",
-      "titulo": "KGM exhibe su pick-up eléctrica Musso EV 4x4 en el Salón del Automóvil de Bogotá",
+      "id": "221762c6555c454d",
+      "titulo": "Jueces de Bogotá se sumaron a las protestas por falta de recursos y sobrecarga laboral",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/noticias/jueces-de-bogota-se-sumaron-a-las-protestas-por-falta-de-recursos-y-sobrecarga-laboral/",
+      "fecha": "2026-11-19T19:34:20+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "bbd183f92ce2ca2f",
+      "titulo": "Nvidia se enfrenta a una nueva amenaza tras la destitución de Jensen Huang: la pérdida de sus mejores ingenieros",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/empresas-y-economia/nvidia-se-enfrenta-a-nueva-amenaza-destitucion-jensen-huang-perdida-sus-mejores-ingenieros",
+      "fecha": "2026-11-19T19:30:28+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "e67027dc9eae4bd7",
+      "titulo": "Lula fuerza intervención del Banco Central en mercado de divisas por devaluación",
+      "categoria": "Economía",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/globoeconomia/lula-fuerza-intervencion-del-banco-central-en-mercado-de-divisas-por-devaluacion-4528563",
+      "fecha": "2026-11-19T19:28:31+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "ed41170d5e32fa63",
+      "titulo": "Auto admite Acción de Grupo",
+      "categoria": "Colombia",
+      "fuente": "Chocó 7 días",
+      "url": "https://choco7dias.com/auto-admite-accion-de-grupo/",
+      "fecha": "2026-11-19T19:27:42+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "5f16d9cc331ca35c",
+      "titulo": "ANT destinará $12.000 millones para campesinos afectados por los incendios en Tolima: así pueden acceder",
+      "categoria": "Economía",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/gobierno/ant-destinara-12-000-millones-para-campesinos-afectados-por-los-incendios-en-tolima-asi-pueden-acceder-506700",
+      "fecha": "2026-11-19T19:27:19+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "9c50790a85185d26",
+      "titulo": "'Todo está normal en Cali y se desbloqueó la vía Panamericana': el mensaje del presidente Abelardo De La Espriella desde la capital del Valle en video",
+      "categoria": "Cali",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/cali/todo-esta-absolutamente-normal-el-mensaje-del-presidente-abelardo-de-la-espriella-desde-las-calles-de-cali-en-video-3602452",
+      "fecha": "2026-11-19T19:25:10+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "3fa0f4a3804b847e",
+      "titulo": "Marchas 19N: Petro y De la Espriella coinciden en Cali",
+      "categoria": "Cali",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/en-vivo/la-jornada-de-marchas-reune-a-petro-y-de-la-espriella-en-cali/",
+      "fecha": "2026-11-19T19:24:50+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "fc45e2bd830b17b5",
+      "titulo": "Tres proyectos para la Amazonía lograron inversión en la Milagro Week",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/silla-amazonia/amazonia-en-breve/tres-proyectos-para-la-amazonia-lograron-inversion-en-la-milagro-week/",
+      "fecha": "2026-11-19T19:24:48+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "952aaf11d3375e91",
+      "titulo": "Desde Cartagena, el sector minorista de combustibles reclama un margen mínimo garantizado: inició el Congreso 'Estaciones de Servicio Somos Uno 2026'",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/desde-cartagena-el-sector-minorista-de-combustibles-reclama-un-margen-minimo-garantizado-inicio-el-congreso-estaciones-de-servicio-somos-uno-3602451",
+      "fecha": "2026-11-19T19:23:55+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "3a7e82aa1aa500a1",
+      "titulo": "Congresistas piden que representante Verónica Estrada renuncie: “No puede seguir esta guachafita”",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/congresistas-piden-renuncia-veronica-estrada-titulo-falso-BP43802892",
+      "fecha": "2026-11-19T19:21:01+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "df40706cefc9d12b",
+      "titulo": "Jornada de protestas transcurrió con normalidad en Pereira y Dosquebradas",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/noticias/jornada-de-protestas-transcurrio-con-normalidad-en-pereira-y-dosquebradas/",
+      "fecha": "2026-11-19T19:17:48+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "88b6e49c80d4c8e5",
+      "titulo": "Carlos Oyola, señalado hacker de la DNI, fue trasladado a La Picota por orden de De La Espriella",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/carlos-oyola-senalado-hacker-de-la-dni-fue-trasladado-a-la-picota-por-orden-de-de-la-espriella-OJ43798723",
+      "fecha": "2026-11-19T19:17:07+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "dce106fe7d78843f",
+      "titulo": "Detienen a exalcalde de Tetipac por extorsión; lo vinculan con los Michoacana",
       "categoria": "Colombia",
       "fuente": "La República",
-      "url": "https://www.larepublica.co/empresas/kgm-exhibe-su-pick-up-electrica-musso-ev-4x4-en-el-salon-del-automovil-de-bogota-4528493",
+      "url": "https://www.larepublica.co/globoeconomia/detienen-a-exalcalde-de-tetipac-por-extorsion-lo-vinculan-con-los-michoacana-4528615",
+      "fecha": "2026-11-19T19:16:07+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "82244a8f5c4ebfa8",
+      "titulo": "Universidad Nacional ratifica que no halló registro de título de ingeniera de congresista del Pacto Histórico",
+      "categoria": "Economía",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/gobierno/universidad-nacional-ratifica-que-no-hallo-registro-de-titulo-de-ingeniera-de-congresista-del-pacto-historico-506698",
+      "fecha": "2026-11-19T19:15:15+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "adae5372897d29e7",
+      "titulo": "\"Irregularidades en título de Luz Verónica Estrada habían sido denunciadas en 2025”: Universidad Nacional",
+      "categoria": "Colombia",
+      "fuente": "La FM Actualidad",
+      "url": "https://www.lafm.com.co/actualidad/universidad-nacional-confirma-no-existe-titulo-profesional-congresista-luz-veronica-estrada-417702",
+      "fecha": "2026-11-19T19:15:03+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "e8a07e8d402af6b2",
+      "titulo": "Una hora sin internet puede costarle US$336.000 a su empresa",
+      "categoria": "Tecnología",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/una-hora-sin-internet-puede-costarle-us-336-000-a-su-empresa-506699",
+      "fecha": "2026-11-19T19:13:36+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "da9bb2a989dd7bf6",
+      "titulo": "Tras jugar a 'GTA VI', tengo claro que Rockstar ha hecho el 'GTA' que quería: un 'Red Dead Redemption 2' con coches",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/videojuegos/jugar-a-gta-vi-tengo-claro-que-rockstar-ha-hecho-gta-que-queria-red-dead-redemption-2-coches",
+      "fecha": "2026-11-19T19:12:12+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "7784897e1473d0be",
+      "titulo": "La foto de Shenzhen: Xi junta a Trump y Putin en cita histórica",
+      "categoria": "Internacional",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/la-foto-de-shenzhen-xi-junta-a-trump-y-putin-en-cita-histórica/a-79997135?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-19T19:09:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "a8d4788ef26bc7a1",
+      "titulo": "De la Espriella advierte que no va a aceptar ningún acto violento en el paro nacional",
+      "categoria": "Valle del Cauca",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/colombia/de-la-espriella-advierte-no-va-aceptar-acto-violento-paro-nacional-19-11-2026/",
+      "fecha": "2026-11-19T19:07:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "d134eb710bb55cfd",
+      "titulo": "🔴 EN VIVO | Movilidad en Bogotá este jueves 19 de noviembre de 2026: vías cerradas, marchas y última hora",
+      "categoria": "Colombia",
+      "fuente": "La FM Actualidad",
+      "url": "https://www.lafm.com.co/actualidad/en-vivo-movilidad-en-bogota-jueves-19-de-noviembre-2026-cierres-viales-desvios-414430",
+      "fecha": "2026-11-19T19:05:40+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "6eb18052d1510fbf",
+      "titulo": "De tocar con instrumentos prestados a ganar premios nacionales: Escuela de Música Desepaz para niños y jóvenes vulnerables de Cali hoy busca recursos",
+      "categoria": "Cali",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/cali/de-tocar-con-instrumentos-prestados-a-ganar-premios-nacionales-escuela-de-musica-desepaz-para-ninos-y-jovenes-vulnerables-de-cali-hoy-busca-recursos-3602437",
+      "fecha": "2026-11-19T19:04:33+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "a449a990ccc702af",
+      "titulo": "Del secuestro en una panadería de Guacarí al reencuentro en Buga: el Valle del Cauca celebra la liberación de Lizeth Alejandra Castaño",
+      "categoria": "Valle del Cauca",
+      "fuente": "El Tiempo Cali",
+      "url": "https://www.eltiempo.com/colombia/cali/atencion-reportan-la-liberacion-de-lizeth-alejandra-castano-quien-habia-sido-secuestrada-en-una-panaderia-de-guacari-3602379",
+      "fecha": "2026-11-19T19:03:09+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "568e25a1a9c40620",
+      "titulo": "Marcha en Bogotá: jueces protestan contra recorte presupuestal",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/en-vivo/marcha-en-bogota-jueces-protestan-contra-recorte-presupuestal/",
+      "fecha": "2026-11-19T19:03:03+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "7a2ff68f26614f67",
+      "titulo": "\"La cúspide de la salud humana\": quiénes son los \"superdefecadores\" y cómo puede la ciencia dar con las heces perfectas",
+      "categoria": "Internacional",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/c6n4em0gj88mo?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-19T19:00:58+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "c8a9cfd2ceabd22d",
+      "titulo": "David González se planta ante los directivos de América por la falta de pagos: \"Ya estuvo bueno...\"",
+      "categoria": "Deportes",
+      "fuente": "La FM Deportes",
+      "url": "https://www.lafm.com.co/deportes/america-crisis-economica-david-gonzalez-habla-tulio-gomez-417701",
+      "fecha": "2026-11-19T19:00:47+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "c3b9b0760ad44d19",
+      "titulo": "Unos científicos de la Universidad de Pensilvania quieren usar mantas de emergencia para construir edificaciones lunares",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/espacio/mantas-emergencia-tienen-aplicacion-inesperada-luna-estos-cientificos-quieren-construir-edificios-ellas",
+      "fecha": "2026-11-19T19:00:26+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "fd168a4314778294",
+      "titulo": "Colombia alista un piloto de deuda pública tokenizada que busca agilizar la emisión, compraventa y pago de bonos",
+      "categoria": "Colombia",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/colombia-alista-un-piloto-de-deuda-publica-tokenizada-que-busca-agilizar-la-emision-compraventa-y-pago-de-bonos-506695",
+      "fecha": "2026-11-19T19:00:18+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "53486dee9c1a34a0",
+      "titulo": "El último video que publicó Camilo Martínez, manager de Jhon Onofre, antes de ser asesinado en Villavicencio",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/el-ultimo-video-que-publico-camilo-martinez-manager-de-jhon-onofre-antes-de-ser-asesinado-en-villavicencio-3602446",
+      "fecha": "2026-11-19T18:50:02+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "7e774960236096ba",
+      "titulo": "Panorama de una mortalidad que no cede: siete de cada diez siniestros fatales en Cali involucran una motocicleta",
+      "categoria": "Cali",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/cali/panorama-de-una-mortalidad-que-no-cede-siete-de-cada-diez-siniestros-fatales-en-cali-involucran-una-motocicleta-3602442",
+      "fecha": "2026-11-19T18:49:08+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "b468272b6e251179",
+      "titulo": "Volkswagen anuncia oficialmente el regreso del deportivo Golf GTI en 2027",
+      "categoria": "Deportes",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/empresas/volkswagen-anuncia-oficialmente-el-regreso-del-deportivo-golf-gti-en-2027-4528500",
+      "fecha": "2026-11-19T18:47:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "14bb046f4c51bc52",
+      "titulo": "Con las ofertas del Black Friday de FRITZ! nunca podrás volver a decir que el Wi-Fi de tu casa va mal",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/seleccion/ofertas-black-friday-fritz-nunca-podras-volver-a-decir-que-wi-fi-tu-casa-va-mal",
+      "fecha": "2026-11-19T18:46:24+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "c0c818a0be4b8a83",
+      "titulo": "No supo decir “irresponsabilidad” y ahora U. Nacional confirmó que es falso el título de congresista petrista que corrigió el canciller",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/veronica-estrada-pacto-historico-titulo-falso-canciller-GH43773324",
+      "fecha": "2026-11-19T18:45:19+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "52020f92f7401934",
+      "titulo": "\"Alguien que corrige cuando las cosas no salen bien, creo que se merece el mejor de los apoyos\"",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/globoeconomia/alguien-que-corrige-cuando-las-cosas-no-salen-bien-creo-que-se-merece-el-mejor-de-los-apoyos-4528610",
+      "fecha": "2026-11-19T18:45:06+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "3d550253ce76795a",
+      "titulo": "Procuraduría abrió investigación disciplinaria contra congresista Verónica Estrada por títulos falsos",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/veronica-estrada-pacto-historico-investigacion-procuraduria-JJ43798991",
+      "fecha": "2026-11-19T18:44:57+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "81fe1cec9bc3b15b",
+      "titulo": "UniCredit llega a acuerdo con Alemania para adquisición de Commerzbank",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/globoeconomia/unicredit-llega-a-acuerdo-con-alemania-para-adquisicion-de-commerzbank-4528602",
+      "fecha": "2026-11-19T18:43:42+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "3a3ccb37c4e88bd5",
+      "titulo": "Argentina e Italia firman carta de intención para compra de hasta tres fragatas de Fincatiere",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/globoeconomia/argentina-e-italia-firman-carta-de-intencion-para-compra-de-hasta-tres-fragatas-de-fincatiere-4528605",
+      "fecha": "2026-11-19T18:40:58+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "27fc476721a30292",
+      "titulo": "\"Nunca he usado Ozempic. Nunca me he sometido a ninguna cirugía facial\": la actriz Florence Pugh critica las especulaciones sobre su cuerpo",
+      "categoria": "Internacional",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/crd61505g31po?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-19T18:40:35+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "897ac2d9179a4f43",
+      "titulo": "Así fue el segundo encuentro internacional de turismo de salud en Cali",
+      "categoria": "Cali",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/vida-moderna/turismo/segundo-encuentro-internacional-turismo-salud-cali-19-11-2026/",
+      "fecha": "2026-11-19T18:37:28+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "b6e4fee4a5cb1be1",
+      "titulo": "KGM exhibió su pick-up eléctrica Musso EV 4x4 en el Salón del Automóvil de Bogotá",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/empresas/kgm-exhibio-su-pick-up-electrica-musso-ev-4x4-en-el-salon-del-automovil-de-bogota-4528493",
       "fecha": "2026-11-19T18:35:48+00:00",
       "imagen": ""
     },
     {
-      "id": "e700f12a667f0fc0",
+      "id": "6835eb5d2b1656b0",
       "titulo": "Audi presentó en Colombia el nuevo RS 5 híbrido enchufable desde $599.900 millones",
       "categoria": "Colombia",
       "fuente": "La República",
-      "url": "https://www.larepublica.co/finanzas/audi-presento-en-colombia-el-nuevo-rs-5-hibrido-enchufable-desde-599-900-millones-4528399",
+      "url": "https://www.larepublica.co/empresas/audi-presento-en-colombia-el-nuevo-rs-5-hibrido-enchufable-desde-599-900-millones-4528399",
       "fecha": "2026-11-19T18:35:19+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "2494226bbec8172c",
+      "titulo": "U. Nacional presentó denuncia en Fiscalía por documento que acreditaba a Verónica Estrada como egresada: dicen que nunca lo expidieron",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/universidad-nacional-denuncia-fiscalia-documento-veronica-estrada-2025-JP43800494",
+      "fecha": "2026-11-19T18:34:04+00:00",
       "imagen": ""
     },
     {
@@ -47,12 +398,12 @@
       "imagen": ""
     },
     {
-      "id": "a0871ea024b8f09e",
-      "titulo": "Investigan elementos sospechosos en Jamundí y Yumbo",
-      "categoria": "Valle del Cauca",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/regionales/valle-del-cauca/cilindro-sospechoso-en-jamundi-obliga-a-cerrar-via-a-carcel/",
-      "fecha": "2026-11-19T18:27:01+00:00",
+      "id": "0a0b39f029d2da3c",
+      "titulo": "“Fui asaltado en mi buena fe”: exdirector de la DIAN de Petro se lava las manos por contrato de $78 millones a congresista con títulos falsos",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/luis-eduardo-llinas-contrato-78-millones-veronica-estrada-EJ43791005",
+      "fecha": "2026-11-19T18:26:49+00:00",
       "imagen": ""
     },
     {
@@ -74,30 +425,12 @@
       "imagen": ""
     },
     {
-      "id": "6eb18052d1510fbf",
-      "titulo": "De tocar con instrumentos prestados a ganar premios nacionales: Escuela de Música Desepaz para niños y jóvenes vulnerables de Cali hoy busca recursos",
-      "categoria": "Cali",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/cali/de-tocar-con-instrumentos-prestados-a-ganar-premios-nacionales-escuela-de-musica-desepaz-para-ninos-y-jovenes-vulnerables-de-cali-hoy-busca-recursos-3602437",
-      "fecha": "2026-11-19T18:24:35+00:00",
-      "imagen": ""
-    },
-    {
       "id": "0f9418eb454b2776",
       "titulo": "Liberaron a Lizeth Alejandra, la joven de 19 años que fue secuestrada en una panadería de Guacarí, Valle",
       "categoria": "Colombia",
       "fuente": "El Colombiano — Colombia",
       "url": "https://www.elcolombiano.com/colombia/liberan-joven-secuestrada-panaderia-de-guacari-valle-del-cauca-NJ43798173",
       "fecha": "2026-11-19T18:20:16+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "661e672485618c21",
-      "titulo": "Desbloquean la vía Panamericana en Cajibío tras intervención de la UNADI",
-      "categoria": "Colombia",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/regionales/cauca/bloqueo-en-la-via-panamericana-en-cauca-fue-levantado/",
-      "fecha": "2026-11-19T18:18:09+00:00",
       "imagen": ""
     },
     {
@@ -128,12 +461,12 @@
       "imagen": ""
     },
     {
-      "id": "3d550253ce76795a",
-      "titulo": "Procuraduría abrió investigación disciplinaria contra congresista Verónica Estrada por títulos falsos",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/veronica-estrada-pacto-historico-investigacion-procuraduria-JJ43798991",
-      "fecha": "2026-11-19T18:06:20+00:00",
+      "id": "5f4c2850c18d150b",
+      "titulo": "Cuadrangulares Liga Betplay: probables resultados de la primera fecha, según la IA",
+      "categoria": "Deportes",
+      "fuente": "La FM Deportes",
+      "url": "https://www.lafm.com.co/deportes/liga-betplay-segun-ia-resultados-primera-fecha-417695",
+      "fecha": "2026-11-19T18:02:20+00:00",
       "imagen": ""
     },
     {
@@ -191,33 +524,6 @@
       "imagen": ""
     },
     {
-      "id": "8e0c75919fd4d113",
-      "titulo": "El agro se desploma 6,7 % y el consumo de los hogares se desacelera",
-      "categoria": "Colombia",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/empresario/pib-de-colombia-en-el-tercer-trimestre-de-2026-crecio-05/",
-      "fecha": "2026-11-19T17:59:07+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "06bb61704a5d0b5b",
-      "titulo": "Producción de azúcar crece 9,6 %",
-      "categoria": "Colombia",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/empresario/industria-azucarera-colombiana-en-2026-produce-mas-gana-menos/",
-      "fecha": "2026-11-19T17:52:07+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "7b6d9583e07a5594",
-      "titulo": "Aprendices del Sena en Barranquilla tendrán transporte público gratuito: beneficio comenzará a operar desde el próximo 1.º de enero de 2027",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/barranquilla/aprendices-del-sena-en-barranquilla-tendran-transporte-publico-gratuito-desde-2027-quienes-podran-acceder-a-este-beneficio-3602269",
-      "fecha": "2026-11-19T17:51:06+00:00",
-      "imagen": ""
-    },
-    {
       "id": "ff03e31da899914b",
       "titulo": "¿Verónica Estrada ni siquiera es bachiller? Acta de grado pone en duda su diploma en colegio de Antioquia",
       "categoria": "Colombia",
@@ -227,318 +533,12 @@
       "imagen": ""
     },
     {
-      "id": "88b6e49c80d4c8e5",
-      "titulo": "Carlos Oyola, señalado hacker de la DNI, fue trasladado a La Picota por orden de De La Espriella",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/carlos-oyola-senalado-hacker-de-la-dni-fue-trasladado-a-la-picota-por-orden-de-de-la-espriella-OJ43798723",
-      "fecha": "2026-11-19T17:48:20+00:00",
-      "imagen": ""
-    },
-    {
       "id": "307e6de40b739f0b",
       "titulo": "El Sistema de Trazabilidad de Minerales de la ANM será obligatorio desde noviembre",
       "categoria": "Deportes",
       "fuente": "La República",
       "url": "https://www.larepublica.co/economia/asi-funcionara-el-sistema-de-trazabilidad-de-minerales-de-la-agencia-nacional-de-mineria-4528539",
       "fecha": "2026-11-19T17:47:27+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "dd23670dd7bf33ed",
-      "titulo": "Llegan a España los primeros miniPCs con Nvidia RTX Spark: si quieres comprarlos, prepara la cartera",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/seleccion/llegan-a-espana-primeros-minipcs-nvidia-rtx-spark-quieres-comprarlos-prepara-cartera",
-      "fecha": "2026-11-19T17:45:17+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "c745afef2c49ccd7",
-      "titulo": "Final de la Copa Sudamericana en Barranquilla: así funcionará Transmetro y estas son las rutas especiales para llegar y salir del Metropolitano",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/barranquilla/final-de-la-copa-sudamericana-en-barranquilla-asi-funcionara-transmetro-y-estas-son-las-rutas-especiales-para-llegar-y-salir-del-metropolitano-3602427",
-      "fecha": "2026-11-19T17:45:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "e884776f47e5ec27",
-      "titulo": "“Fui asaltado en mi buena fe”: ex-Dian por contrato de Verónica Estrada",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/en-vivo/fui-asaltado-en-mi-buena-fe-ex-dian-por-contrato-de-veronica-estrada/",
-      "fecha": "2026-11-19T17:43:54+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "44a020776ff052fe",
-      "titulo": "Cartagena convierte la moda en una historia por capítulos",
-      "categoria": "Colombia",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/secciones/tendencias/premios-al-talento-y-la-moda-colombiana-2026-los-ganadores/",
-      "fecha": "2026-11-19T17:42:34+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "765161b4f05a2ef3",
-      "titulo": "El sombrío pasado de la pintura de Van Gogh subastada por un récord de US$190 millones (y qué tienen que ver Argentina y los nazis con la obra)",
-      "categoria": "Internacional",
-      "fuente": "BBC Mundo",
-      "url": "https://www.bbc.com/mundo/articles/cm3wg162e36wo?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-19T17:38:13+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "e12417161552d115",
-      "titulo": "Estos son las cinco lecciones que dejó a Colombia el evento del banco paraguayo Ueno",
-      "categoria": "Economía",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/finanzas/estos-son-las-cinco-lecciones-que-dejo-a-colombia-el-evento-del-banco-paraguayo-ueno-4528497",
-      "fecha": "2026-11-19T17:38:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "ed7cddf5492bd9b9",
-      "titulo": "Corte obliga a McDonald’s y Home a dar información ambiental sobre su carne",
-      "categoria": "Deportes",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/silla-amazonia/amazonia-en-breve/corte-obliga-a-mcdonalds-y-home-a-dar-informacion-ambiental-sobre-su-carne/",
-      "fecha": "2026-11-19T17:35:44+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "492caeb71e0a48fd",
-      "titulo": "Las acciones caen mientras disminuyen las apuestas por la IA antes del debut de Anthropic",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/finanzas/las-acciones-caen-mientras-disminuyen-las-apuestas-por-la-ia-antes-del-debut-de-anthropic-4528477",
-      "fecha": "2026-11-19T17:35:15+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "0cac094c6d24d08b",
-      "titulo": "Video | Botellón de agua pintado del ELN generó pánico y alerta en la vía Yumbo-Cali por al parecer contener explosivos",
-      "categoria": "Cali",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/video-botellon-agua-pintado-eln-panico-alerta-via-yumbo-cali-explosivo-MJ43793834",
-      "fecha": "2026-11-19T17:31:50+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "e00635d229c3baa4",
-      "titulo": "Feria de Cali 2026: consulte las convocatorias abiertas para bailadores y orquestas locales",
-      "categoria": "Cali",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/cali/feria-de-cali-2026-consulte-convocatorias-bailadores-orquestas-locales-19-11-2026/",
-      "fecha": "2026-11-19T17:30:18+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "a07a1817fd073fab",
-      "titulo": "Video | Disidentes del frente 'Jaime Martínez' bloquean Timba, Jamundí; dejan sin energía al corregimiento del Valle e impiden movilidad indígena",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/cali/disidentes-del-frente-jaime-martinez-bloquearon-zona-de-timba-jamundi-dejan-sin-energia-al-corregimiento-del-valle-e-impiden-movilidad-indigena-3602397",
-      "fecha": "2026-11-19T17:27:49+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "134c616857b06be8",
-      "titulo": "Reforma a aportes de salud, SENA e ICBF elevaría costos de nómina y podría frenar nuevas contrataciones: Goan Group",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/reforma-a-aportes-de-salud-sena-e-icbf-elevaria-costos-de-nomina-y-podria-frenar-nuevas-contrataciones-goan-group-506690",
-      "fecha": "2026-11-19T17:27:20+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "89a2df9a6bcd45a1",
-      "titulo": "La gran paradoja de Trump: aislar a Irán sin China ni Rusia",
-      "categoria": "Internacional",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/la-gran-paradoja-de-trump-aislar-a-irán-sin-china-ni-rusia/a-79995601?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-19T17:26:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "d134eb710bb55cfd",
-      "titulo": "🔴 EN VIVO | Movilidad en Bogotá este jueves 19 de noviembre de 2026: vías cerradas, marchas y última hora",
-      "categoria": "Colombia",
-      "fuente": "La FM Actualidad",
-      "url": "https://www.lafm.com.co/actualidad/en-vivo-movilidad-en-bogota-jueves-19-de-noviembre-2026-cierres-viales-desvios-414430",
-      "fecha": "2026-11-19T17:22:19+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "b1e61a8198ff5fcb",
-      "titulo": "Feria de vivienda para damnificados en Cali: requisitos para acceder a subsidios de $50 millones",
-      "categoria": "Cali",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/cali/feria-vivienda-damnificados-cali-requisitos-acceder-subsidios-19-11-2026/",
-      "fecha": "2026-11-19T17:21:06+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "aaab9f8c38882481",
-      "titulo": "Tensión por bloqueo en la vía Panamericana: autoridades intervinieron ante acción de encapuchados y habilitaron el paso",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/cali/tension-por-bloqueo-en-la-via-panamericana-autoridades-intervinieron-ante-accion-de-encapuchados-y-habilitaron-el-paso-3602388",
-      "fecha": "2026-11-19T17:20:35+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "f1b0a30044d152a8",
-      "titulo": "Anthropic supera US$2 billones en valor de mercado con acción cotizando a US$111,5",
-      "categoria": "Economía",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/anthropic-supera-us-2-billones-en-valor-de-mercado-en-su-debut-en-nasdaq-4528509",
-      "fecha": "2026-11-19T17:20:13+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "a01cb1d04c8891c6",
-      "titulo": "¿Cómo preparar el bolsillo para los gastos de diciembre?",
-      "categoria": "Colombia",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/secciones/tendencias/preparar-el-bolsillo-para-navidad-guia-para-evitar-deudas/",
-      "fecha": "2026-11-19T17:16:28+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "1600998bf3c28f7f",
-      "titulo": "Ladrilleros advierten que el impuesto al carbono de la Ley de Rescate subiría emisiones al empujar la informalidad",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/ladrilleros-advierten-que-el-impuesto-al-carbono-de-la-ley-de-rescate-subiria-emisiones-al-empujar-la-informalidad-506686",
-      "fecha": "2026-11-19T17:15:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "e3e9d916f99a9335",
-      "titulo": "¿Otro Yalta?",
-      "categoria": "Colombia",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/opinion/columnistas/otro-yalta/",
-      "fecha": "2026-11-19T17:03:43+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "2ae7670fd63eef64",
-      "titulo": "Los ordenadores de Apple también bajan de precio en durante el Black Friday: el Mac mini M6 ya está de oferta",
-      "categoria": "Tecnología",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/seleccion/ordenadores-apple-tambien-bajan-precio-durante-black-friday-mac-mini-m6-esta-oferta",
-      "fecha": "2026-11-19T17:01:16+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "ada0de6e771917a7",
-      "titulo": "Madrid tiene una carretera abandonada desde hace 20 años y ha dado el primer paso para terminarla",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/movilidad/madrid-tiene-carretera-abandonada-hace-20-anos-ha-dado-primer-paso-para-terminarla",
-      "fecha": "2026-11-19T17:01:16+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "c8af4d45475219ce",
-      "titulo": "Ingeniería en inteligencia artificial, diseño finanzas y alimentos: estas son las 12 nuevas carreras que llegan a la oferta de la IUB en Barranquilla",
-      "categoria": "Tecnología",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/barranquilla/ingenieria-en-inteligencia-artificial-diseno-finanzas-y-alimentos-estas-son-las-12-nuevas-carreras-que-llegan-a-la-oferta-de-la-iub-en-barranquilla-3602404",
-      "fecha": "2026-11-19T17:01:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "ef7d59352fe68156",
-      "titulo": "Perú y Tailandia suscribieron tratado de libre comercio durante cumbre Apec",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/peru-y-tailandia-suscribieron-tratado-de-libre-comercio-durante-cumbre-apec-4528495",
-      "fecha": "2026-11-19T17:00:37+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "750f6609307554c8",
-      "titulo": "Mano dura contra el crimen, dentro de la ley",
-      "categoria": "Colombia",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/opinion/editorial/papel-de-abelardo-de-la-espriella-en-operativos-abre-debate/",
-      "fecha": "2026-11-19T16:59:16+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "364b724c98da7e16",
-      "titulo": "Video / El homenaje de los hinchas de Boca Juniors a Cartagena: Centro Histórico y Bocagrande, epicentros del banderazo xeneize",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/video-el-homenaje-de-los-hinchas-de-boca-juniors-a-cartagena-centro-historico-y-bocagrande-epicentros-del-banderazo-xeneize-3602396",
-      "fecha": "2026-11-19T16:56:22+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "dd49c26be193740d",
-      "titulo": "Marchas en Cali hoy, 19 de noviembre: así avanza la jornada de protesta",
-      "categoria": "Cali",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/cali/marchas-cali-19-noviembre-avanza-jornada-protesta-19-11-2026/",
-      "fecha": "2026-11-19T16:53:51+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "de1009bd1995fb7b",
-      "titulo": "Consejo de Ingeniería había negado matrícula profesional a Verónica Estrada y hasta la denunció en Fiscalía",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/consejo-ingenieria-denuncia-veronica-estrada-diploma-falso-KI43788174",
-      "fecha": "2026-11-19T16:52:04+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "2ddfb31e4bb5a704",
-      "titulo": "Paro: Abelardo pidió “salir con tranquilidad” y advirtió si hay bloqueos",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/en-vivo/paro-abelardo-pidio-salir-con-tranquilidad-y-advirtio-si-hay-bloqueos/",
-      "fecha": "2026-11-19T16:51:02+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "a449a990ccc702af",
-      "titulo": "Atención | Reportan la liberación de Lizeth Alejandra Castaño, quien había sido secuestrada en una panadería de Guacarí",
-      "categoria": "Cali",
-      "fuente": "El Tiempo Cali",
-      "url": "https://www.eltiempo.com/colombia/cali/atencion-reportan-la-liberacion-de-lizeth-alejandra-castano-quien-habia-sido-secuestrada-en-una-panaderia-de-guacari-3602379",
-      "fecha": "2026-11-19T16:49:53+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "30207a14d8454826",
-      "titulo": "OLED, QLED o Mini LED: da igual qué TV quieras, PcComponentes la tiene de oferta en su Black Friday",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/seleccion/oled-qled-mini-led-da-igual-que-tv-quieras-pccomponentes-tiene-oferta-su-black-friday",
-      "fecha": "2026-11-19T16:45:16+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "60514c04cd0e01d7",
-      "titulo": "¿Escuchar audios en x2 puede cambiar nuestros hábitos de atención?",
-      "categoria": "Valle del Cauca",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/vida-moderna/escuchar-audios-en-x2-atencion-18-11-2026/",
-      "fecha": "2026-11-19T16:43:56+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "72b5891a788f3218",
-      "titulo": "Marcha en Bogotá: tributaria, la principal queja en la manifestación",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/en-vivo/marcha-en-bogota-tributaria-la-principal-queja-en-la-manifestacion/",
-      "fecha": "2026-11-19T16:43:26+00:00",
       "imagen": ""
     }
   ],
@@ -553,7 +553,7 @@
       "nombre": "El Tiempo Cali",
       "url": "https://www.eltiempo.com/rss/colombia_cali.xml",
       "estado": "correcto",
-      "titulares": 7
+      "titulares": 5
     },
     {
       "nombre": "El Espectador",
@@ -590,7 +590,7 @@
       "nombre": "BBC Mundo",
       "url": "https://feeds.bbci.co.uk/mundo/rss.xml",
       "estado": "correcto",
-      "titulares": 28
+      "titulares": 29
     },
     {
       "nombre": "DW Español",
@@ -643,8 +643,9 @@
     {
       "nombre": "Q'hubo Cali",
       "url": "https://www.qhubocali.com/feed/",
-      "estado": "correcto",
-      "titulares": 7
+      "estado": "error",
+      "titulares": 0,
+      "detalle": "503 Server Error: Service Temporarily Unavailable for url: https://www.qhubocali.com/feed/"
     },
     {
       "nombre": "El Colombiano — Colombia",
