@@ -1,13 +1,193 @@
 {
-  "ultima_actualizacion": "2026-11-19T21:58:18.201520+00:00",
+  "ultima_actualizacion": "2026-11-19T22:57:05.534603+00:00",
   "titulares_rss": [
     {
       "id": "9392e591618d3be8",
-      "titulo": "Debate electoral 29-N, en directo | Sánchez avisa del “riesgo de involución” en los servicios públicos y Feijóo le replica con los fallos de seguridad ferroviaria",
+      "titulo": "Debate electoral 29-N, en directo | Feijóo pide el voto porque sabe “gestionar” y Sánchez apela a “la fuerza de la gente” en el minuto final del cara a cara",
       "categoria": "Colombia",
       "fuente": "El País Colombia",
       "url": "https://elpais.com/espana/elecciones-generales/2026-11-19/debate-electoral-entre-pedro-sanchez-y-alberto-nunez-feijoo-en-directo.html",
-      "fecha": "2026-11-19T21:57:22+00:00",
+      "fecha": "2026-11-19T22:54:56+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "e5cb600dc19c4ff5",
+      "titulo": "\"Se están quedando encerradas en sus casas sin un futuro\": el drama de las personas con discapacidad afectadas por las políticas de Milei en Argentina",
+      "categoria": "Internacional",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/c617k978p47ro?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-19T22:49:43+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "2a5e2031de662dbc",
+      "titulo": "Con tarimazo y una plaza casi llena: así terminó la marcha del 19N en Bogotá",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/en-vivo/con-tarimazo-y-una-plaza-casi-llena-asi-termino-la-marcha-del-19n-en-bogota/",
+      "fecha": "2026-11-19T22:46:01+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "d07b5723eaab4b33",
+      "titulo": "Hidroeléctricas de Colombia dependen de la selva amazónica: El Clip",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/silla-amazonia/amazonia-en-breve/hidroelectricas-de-colombia-dependen-de-la-selva-amazonica-el-clip/",
+      "fecha": "2026-11-19T22:45:15+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "48d95920e6e313e5",
+      "titulo": "Deportivo Cali recibe a Millonarios en la apertura de cuadrangulares: Así llegan ambos clubes",
+      "categoria": "Cali",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/deportes/deportivo-cali/deportivo-cali-recibe-a-millonarios-cuadrangulares-19-11-2026/",
+      "fecha": "2026-11-19T22:33:24+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "9bd1e5ad5de6f196",
+      "titulo": "Aumento del salario mínimo 2027: centrales obreras anticipan una posible cifra para negociar",
+      "categoria": "Economía",
+      "fuente": "La FM Economía",
+      "url": "https://www.lafm.com.co/economia/salario-discucion-mintrabajo-sindicatos-y-empleadores-puja-negociacion-417718",
+      "fecha": "2026-11-19T22:30:26+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "98fe29d00cfd3cc3",
+      "titulo": "\"He cometido errores\", admite Pedro Sánchez en apertura de cara a cara electoral en España",
+      "categoria": "Internacional",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/he-cometido-errores-admite-pedro-sánchez-en-apertura-de-cara-a-cara-electoral-en-españa/a-79998239?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-19T22:23:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "9f575223246a3e8d",
+      "titulo": "Claro ya recibe pagos inmediatos por Bre-B con nueva solución de Banco de Bogotá",
+      "categoria": "Economía",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/finanzas/claro-ya-recibe-pagos-inmediatos-por-bre-b-con-nueva-solucion-de-banco-de-bogota-4528767",
+      "fecha": "2026-11-19T22:21:15+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "fa0d59bbd6d50571",
+      "titulo": "Canacol pidió que se valide la terminación de contratos para concretar su venta",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/economia/canacol-pidio-que-se-valide-la-terminacion-de-contratos-para-concretar-su-venta-4528754",
+      "fecha": "2026-11-19T22:21:03+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "662d67fe866d6d72",
+      "titulo": "Pico y placa viernes 20 de noviembre: Programe sus rutas",
+      "categoria": "Valle del Cauca",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/cali/pico-y-placa-viernes-20-de-noviembre-programe-sus-rutas-19-11-2026/",
+      "fecha": "2026-11-19T22:20:04+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "9417d18190495353",
+      "titulo": "Trump, Putin y Xi Jinping \"coinciden en que una guerra nuclear no se puede ganar\"",
+      "categoria": "Internacional",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/globoeconomia/trump-putin-xi-jinping-coinciden-en-que-una-guerra-nuclear-no-se-puede-ganar-4528759",
+      "fecha": "2026-11-19T22:13:15+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "7aae0a9fa7e0e0db",
+      "titulo": "Estos son los dos rivales de Infantino para la presidencia de la FIFA: ¿Quién es el favorito según las federaciones?",
+      "categoria": "Deportes",
+      "fuente": "La FM Deportes",
+      "url": "https://www.lafm.com.co/deportes/tres-candidatos-presidencia-fifa-2027-elecciones-futbol-infantino-417721",
+      "fecha": "2026-11-19T22:11:07+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "c4b6996beb42dedb",
+      "titulo": "Obras de Botero, Obregón y Omar Rayo se exhiben en la Biblioteca Departamental de Cali",
+      "categoria": "Cali",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/secciones/tendencias/arteca-internacional-en-cali-botero-obregon-rayo-biblioteca-departamental/",
+      "fecha": "2026-11-19T22:09:15+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "76f9ede1cf62db96",
+      "titulo": "Colombia abrirá rondas mineras permanentes: MinMinas",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/silla-amazonia/amazonia-en-breve/colombia-abrira-rondas-mineras-permanentes-minminas/",
+      "fecha": "2026-11-19T22:05:13+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "cad65de1c962c41a",
+      "titulo": "Me declaro ateo del D.I.O.S. de Abelardo de la Espriella",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/red-de-expertos/red-social/me-declaro-ateo-del-d-i-o-s-de-abelardo-de-la-espriella/",
+      "fecha": "2026-11-19T22:04:46+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "f79010e39c625146",
+      "titulo": "El presidente De La Espriella cumple promesa a niña de 4 años y le entrega vivienda a su familia: su padre es el bombero damnificado por el terremoto",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/cali/el-presidente-de-la-espriella-cumple-promesa-a-nina-de-4-anos-y-le-entrega-vivienda-a-su-familia-su-padre-es-el-bombero-damnificado-por-el-terremoto-3602486",
+      "fecha": "2026-11-19T22:02:26+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "907c6ba919b1c47d",
+      "titulo": "GTA VI despierta gran interés en Colombia",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/noticias/gta-vi-despierta-gran-interes-en-colombia/",
+      "fecha": "2026-11-19T22:00:55+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "379fe3b517f08af0",
+      "titulo": "Cuadrangulares Liga BetPlay: así llegan los ocho clasificados",
+      "categoria": "Deportes",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/deportes/cuadrangulares-liga-betplay-asi-llegan-los-ocho-clasificados/",
+      "fecha": "2026-11-19T22:00:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "b0db4be0cd5e73c7",
+      "titulo": "Los más 'vigas' de la industria del culturismo y el fitness colombiano medirán sus fuerzas en la Copa Tauros 2026 en Cali",
+      "categoria": "Cali",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/cali/los-mas-vigas-de-la-industria-del-culturismo-y-el-fitness-colombiano-mediran-sus-fuerzas-en-la-copa-tauros-2026-en-cali-3602494",
+      "fecha": "2026-11-19T21:57:03+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "6f3d8a6547427b2d",
+      "titulo": "Inversión fija se desaceleró en Colombia: creció 2,1% anual, frente al 7,1% registrado en el segundo trimestre",
+      "categoria": "Colombia",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/inversion-fija-se-desacelero-en-colombia-crecio-2-1-anual-frente-al-7-1-registrado-en-el-segundo-trimestre-506720",
+      "fecha": "2026-11-19T21:53:10+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "8b7c174d7af2e099",
+      "titulo": "Alivios tributarios en impuesto automotor en el Valle",
+      "categoria": "Colombia",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/regionales/valle-del-cauca/descuento-en-impuesto-vehicular-en-el-valle-sera-hasta-100/",
+      "fecha": "2026-11-19T21:51:06+00:00",
       "imagen": ""
     },
     {
@@ -20,12 +200,12 @@
       "imagen": ""
     },
     {
-      "id": "f79010e39c625146",
-      "titulo": "El presidente De La Espriella cumple promesa a niña de 4 años y le entrega vivienda a su familia: su padre es el bombero damnificado por el terremoto",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/cali/el-presidente-de-la-espriella-cumple-promesa-a-nina-de-4-anos-y-le-entrega-vivienda-a-su-familia-su-padre-es-el-bombero-damnificado-por-el-terremoto-3602486",
-      "fecha": "2026-11-19T21:43:52+00:00",
+      "id": "847fed41a2685eae",
+      "titulo": "Presidente De la Espriella patrulló las calles de Cali durante la jornada de protesta",
+      "categoria": "Cali",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/cali/paro-nacional-en-cali-3500-manifestantes-de-la-espriella-petro/",
+      "fecha": "2026-11-19T21:46:28+00:00",
       "imagen": ""
     },
     {
@@ -146,6 +326,15 @@
       "imagen": ""
     },
     {
+      "id": "2302a7b3aaeab264",
+      "titulo": "¿Y a quién representan los concejales de Cali?",
+      "categoria": "Cali",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/opinion/columnistas/y-a-quien-representan-los-concejales-de-cali/",
+      "fecha": "2026-11-19T21:30:11+00:00",
+      "imagen": ""
+    },
+    {
       "id": "ed887c6c3770d1f3",
       "titulo": "Comunidad de parroquia Nuestra Señora de Coromoto invita a kermés solidaria por su reconstrucción",
       "categoria": "Valle del Cauca",
@@ -191,6 +380,15 @@
       "imagen": ""
     },
     {
+      "id": "6b182527b3f79d29",
+      "titulo": "Sobrevivió a 13 disparos y perdió la vista, pero la herida más profunda estaba en su propia familia",
+      "categoria": "Colombia",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/reinventarse-para-seguir/mil-vidas-en-una-sola-mujer-libro-de-liliana-miranda/",
+      "fecha": "2026-11-19T21:20:40+00:00",
+      "imagen": ""
+    },
+    {
       "id": "8ae6beef5f8d1c4c",
       "titulo": "El amor también emprende: dos médicos que decidieron construir su futuro atendiendo pacientes",
       "categoria": "Colombia",
@@ -218,11 +416,11 @@
       "imagen": ""
     },
     {
-      "id": "2fab322b4e91d027",
-      "titulo": "AWS Emulator escrito por agentes IA",
-      "categoria": "Colombia",
+      "id": "905624acd47ac10a",
+      "titulo": "Deportivo Pasto confirma salida de 22 jugadores",
+      "categoria": "Deportes",
       "fuente": "Diario Occidente",
-      "url": "https://occidente.co/secciones/tecnologia/aws-emulator-agentes-ia/",
+      "url": "https://occidente.co/deportes/deportivo-pasto-salida-22-jugadores/",
       "fecha": "2026-11-19T21:00:00+00:00",
       "imagen": ""
     },
@@ -245,11 +443,11 @@
       "imagen": ""
     },
     {
-      "id": "905624acd47ac10a",
-      "titulo": "Deportivo Pasto confirma salida de 22 jugadores",
-      "categoria": "Deportes",
+      "id": "2fab322b4e91d027",
+      "titulo": "AWS Emulator escrito por agentes IA",
+      "categoria": "Colombia",
       "fuente": "Diario Occidente",
-      "url": "https://occidente.co/deportes/deportivo-pasto-salida-22-jugadores/",
+      "url": "https://occidente.co/secciones/tecnologia/aws-emulator-agentes-ia/",
       "fecha": "2026-11-19T21:00:00+00:00",
       "imagen": ""
     },
@@ -299,15 +497,6 @@
       "imagen": ""
     },
     {
-      "id": "97841ef243f41dde",
-      "titulo": "Condenan a 33 años de prisión a Juan José Guerrero por el feminicidio de Valentina Vanegas en Antioquia: tenía antecedentes de violencia intrafamiliar",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/medellin/condenan-a-33-anos-de-prision-a-juan-jose-guerrero-por-el-feminicidio-de-valentina-vanegas-en-antioquia-tenia-antecedentes-de-violencia-intrafamiliar-3602120",
-      "fecha": "2026-11-19T20:36:52+00:00",
-      "imagen": ""
-    },
-    {
       "id": "997ae84da03f57d5",
       "titulo": "'Todos se parecen, todos son perfectos': hojas de vida hechas con IA saturan a las empresas, advierte IE University",
       "categoria": "Economía",
@@ -351,195 +540,6 @@
       "url": "https://www.elcolombiano.com/colombia/marchas-hoy-colombia-19-noviembre-bloqueos-bogota-transmilenio-CJ43790233",
       "fecha": "2026-11-19T20:26:18+00:00",
       "imagen": ""
-    },
-    {
-      "id": "7b661b22110bace7",
-      "titulo": "Radiografía del transporte aéreo en Colombia: Rionegro operó en el 2025 casi 30% por encima de su capacidad",
-      "categoria": "Colombia",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/infraestructura/radiografia-del-transporte-aereo-en-colombia-rionegro-opero-en-el-2025-casi-30-por-encima-de-su-capacidad-506683",
-      "fecha": "2026-11-19T20:20:43+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "7827bb1249429377",
-      "titulo": "Corte Suprema y Gobierno buscan recursos adicionales para evitar la salida de más de 2.500 funcionarios judiciales en 2027",
-      "categoria": "Colombia",
-      "fuente": "La FM Actualidad",
-      "url": "https://www.lafm.com.co/actualidad/corte-suprema-de-justicia-gobierno-nacional-recursos-funcionarios-417707",
-      "fecha": "2026-11-19T20:14:19+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "10203a7664b04789",
-      "titulo": "Fondo Milagro busca alianzas con RedPRO y Fundación Santo Domingo para la reconstrucción tras el terremoto",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/gobierno/fondo-milagro-busca-alianzas-con-redpro-y-fundacion-santo-domingo-para-la-reconstruccion-tras-el-terremoto-506708",
-      "fecha": "2026-11-19T20:11:32+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "ff03e31da899914b",
-      "titulo": "¿Verónica Estrada ni siquiera es bachiller? Acta de grado pone en duda su diploma en colegio de Antioquia",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/veronica-estrada-acta-grado-diploma-bachiller-antioquia-CJ43791074",
-      "fecha": "2026-11-19T20:09:54+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "c0c818a0be4b8a83",
-      "titulo": "No supo decir “irresponsabilidad” y ahora U. Nacional confirmó que es falso el título de congresista petrista que corrigió el canciller",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/veronica-estrada-pacto-historico-titulo-falso-canciller-GH43773324",
-      "fecha": "2026-11-19T20:09:13+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "0cdb9e0818162b1c",
-      "titulo": "Sector de hidrocarburos cayó 2,7 % y completó nueve trimestres de retroceso en la extracción de petróleo y gas",
-      "categoria": "Economía",
-      "fuente": "La FM Economía",
-      "url": "https://www.lafm.com.co/economia/sector-hidrocarburos-colombia-cae-campetrol-importaciones-gas-417704",
-      "fecha": "2026-11-19T20:04:15+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "ac2b002ae40baeff",
-      "titulo": "Gustavo Petro llega a Cali en medio de las marchas del paro nacional",
-      "categoria": "Cali",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/cali/gustavo-petro-cali-medio-marchas-paro-nacional-19-11-2026/",
-      "fecha": "2026-11-19T20:04:10+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "75999905e532c76d",
-      "titulo": "Tragedia en Nueva York: niño colombiano murió días después de compartir con sus compañeros de colegio",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/noticias/tragedia-en-nueva-york-nino-colombiano-murio-dias-despues-de-compartir-con-sus-companeros-de-colegio/",
-      "fecha": "2026-11-19T20:00:18+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "875a6f5631eeb6f8",
-      "titulo": "La oposición colombiana no logra multiplicar en las calles el rechazo a la reforma tributaria del Gobierno",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/america-colombia/2026-11-19/la-oposicion-colombiana-no-logra-multiplicar-en-las-calles-el-rechazo-a-la-reforma-tributaria-del-gobierno.html",
-      "fecha": "2026-11-19T19:58:08+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "0f03553a5b555c5c",
-      "titulo": "Arrancó la eutanasia de hipopótamos en Colombia: hay 10 animales en la mira por poner en riesgo vidas",
-      "categoria": "Colombia",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/regiones/arranco-la-eutanasia-de-hipopotamos-en-colombia-hay-10-animales-en-la-mira-por-poner-en-riesgo-vidas-506706",
-      "fecha": "2026-11-19T19:54:34+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "477c06e6539b1725",
-      "titulo": "Sacó más de 4 en Cálculo y Metalurgia Extractiva, pero no supo definir el manganeso: publican supuestas calificaciones de Verónica Estrada",
-      "categoria": "Cali",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/diploma-falso-luz-veronica-estrada-congresista-universidad-nacional-cuales-fueron-las-notas-que-saco-DI43784430",
-      "fecha": "2026-11-19T19:51:40+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "3194390ce4299be5",
-      "titulo": "Sistemas Mesh, repetidores o routers WiFi 7: todos estos dispositivos de TP-Link están de Black Friday con hasta un 40 % de descuento",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/seleccion/sistemas-mesh-repetidores-routers-wifi-7-todos-estos-dispositivos-tp-link-estan-black-friday-40-descuento",
-      "fecha": "2026-11-19T19:46:25+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "382b3929d67bca53",
-      "titulo": "Gobernadora del Valle habló por teléfono con Lizeth Alejandra tras su liberación luego de 23 días secuestrada: compartió video de la conversación",
-      "categoria": "Cali",
-      "fuente": "El Tiempo Cali",
-      "url": "https://www.eltiempo.com/colombia/cali/gobernadora-del-valle-hablo-por-telefono-con-lizeth-alejandra-tras-su-liberacion-luego-de-23-dias-secuestrada-compartio-video-de-la-conversacion-3602431",
-      "fecha": "2026-11-19T19:45:48+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "3a7e82aa1aa500a1",
-      "titulo": "Congresistas piden que representante Verónica Estrada renuncie: “No puede seguir esta guachafita”",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/congresistas-piden-renuncia-veronica-estrada-titulo-falso-BP43802892",
-      "fecha": "2026-11-19T19:36:56+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "221762c6555c454d",
-      "titulo": "Jueces de Bogotá se sumaron a las protestas por falta de recursos y sobrecarga laboral",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/noticias/jueces-de-bogota-se-sumaron-a-las-protestas-por-falta-de-recursos-y-sobrecarga-laboral/",
-      "fecha": "2026-11-19T19:34:20+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "bbd183f92ce2ca2f",
-      "titulo": "Nvidia se enfrenta a una nueva amenaza tras la destitución de Jensen Huang: la pérdida de sus mejores ingenieros",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/empresas-y-economia/nvidia-se-enfrenta-a-nueva-amenaza-destitucion-jensen-huang-perdida-sus-mejores-ingenieros",
-      "fecha": "2026-11-19T19:30:28+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "53b0c41b7bfd2cbb",
-      "titulo": "Tres muertos, dos ataques y una misma pregunta: autoridades buscan establecer si crímenes en Olímpicas de Barranquilla están relacionados",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/barranquilla/tres-muertos-dos-ataques-y-una-misma-pregunta-autoridades-buscan-establecer-si-crimenes-en-olimpicas-de-barranquilla-estan-relacionados-3602456",
-      "fecha": "2026-11-19T19:30:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "e67027dc9eae4bd7",
-      "titulo": "Lula fuerza intervención del Banco Central en mercado de divisas por devaluación",
-      "categoria": "Economía",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/lula-fuerza-intervencion-del-banco-central-en-mercado-de-divisas-por-devaluacion-4528563",
-      "fecha": "2026-11-19T19:28:31+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "ed41170d5e32fa63",
-      "titulo": "Auto admite Acción de Grupo",
-      "categoria": "Colombia",
-      "fuente": "Chocó 7 días",
-      "url": "https://choco7dias.com/auto-admite-accion-de-grupo/",
-      "fecha": "2026-11-19T19:27:42+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "5f16d9cc331ca35c",
-      "titulo": "ANT destinará $12.000 millones para campesinos afectados por los incendios en Tolima: así pueden acceder",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/gobierno/ant-destinara-12-000-millones-para-campesinos-afectados-por-los-incendios-en-tolima-asi-pueden-acceder-506700",
-      "fecha": "2026-11-19T19:27:19+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "3fa0f4a3804b847e",
-      "titulo": "Marchas 19N: Petro y De la Espriella coinciden en Cali",
-      "categoria": "Cali",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/en-vivo/la-jornada-de-marchas-reune-a-petro-y-de-la-espriella-en-cali/",
-      "fecha": "2026-11-19T19:24:50+00:00",
-      "imagen": ""
     }
   ],
   "estado_fuentes": [
@@ -553,7 +553,7 @@
       "nombre": "El Tiempo Cali",
       "url": "https://www.eltiempo.com/rss/colombia_cali.xml",
       "estado": "correcto",
-      "titulares": 7
+      "titulares": 6
     },
     {
       "nombre": "El Espectador",
@@ -662,8 +662,9 @@
     {
       "nombre": "Chocó 7 días",
       "url": "https://choco7dias.com/feed/",
-      "estado": "correcto",
-      "titulares": 10
+      "estado": "error",
+      "titulares": 0,
+      "detalle": "415 Client Error: Unsupported Media Type for url: https://choco7dias.com/feed/"
     },
     {
       "nombre": "La Patria — Caldas",
