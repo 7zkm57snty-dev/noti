@@ -1,6 +1,168 @@
 {
-  "ultima_actualizacion": "2026-11-20T19:10:05.061051+00:00",
+  "ultima_actualizacion": "2026-11-20T20:09:08.842699+00:00",
   "titulares_rss": [
+    {
+      "id": "0c620f5cf100c52e",
+      "titulo": "Presencia de tropas de EE. UU. en Colombia requiere aval del Senado",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/noticias/presencia-de-tropas-de-ee-uu-en-colombia-requiere-aval-del-senado/",
+      "fecha": "2026-11-20T20:07:54+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "4fb0620aae7aacb0",
+      "titulo": "Fiscalía imputará a Nelson Linares, gerente de la campaña de Carolina Corcho",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/en-vivo/fiscalia-imputara-a-nelson-linares-gerente-de-la-campana-de-carolina-corcho/",
+      "fecha": "2026-11-20T20:07:01+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "91367737ce4fda05",
+      "titulo": "Ampliación de la autopista Norte en Bogotá: esta es la fecha que Galán anunció para terminar las obras",
+      "categoria": "Colombia",
+      "fuente": "La FM Actualidad",
+      "url": "https://www.lafm.com.co/actualidad/ampliacion-norte-de-bogota-fecha-de-terminacion-galan-confirma-417832",
+      "fecha": "2026-11-20T20:04:47+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "bf6c9e8ec5e2b77f",
+      "titulo": "Video muestra una mujer en oficina de Brasil, no una EPS colombiana",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/detector-de-mentiras/falso/video-muestra-una-mujer-en-oficina-de-brasil-no-una-eps-colombiana/",
+      "fecha": "2026-11-20T20:02:01+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "fce35c87a9e46fd7",
+      "titulo": "Colombia entra en un período de estanflación",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/red-de-expertos/red-social/colombia-entra-en-un-periodo-de-estanflacion/",
+      "fecha": "2026-11-20T20:00:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "38d46ccd9db34e0c",
+      "titulo": "Black Friday de vivienda en Bogotá: habrá feria con subsidios, créditos y descuentos este fin de semana",
+      "categoria": "Colombia",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/infraestructura/black-friday-de-vivienda-en-bogota-habra-feria-con-subsidios-creditos-y-descuentos-este-fin-de-semana-506784",
+      "fecha": "2026-11-20T19:48:50+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "f11a4bcd9fa8ce0a",
+      "titulo": "De la Espriella se reunió con delegados en las juntas directivas de las cámaras de comercio",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/economia/de-la-espriella-se-reunio-con-delegados-en-las-juntas-directivas-de-las-camaras-de-comercio-4529496",
+      "fecha": "2026-11-20T19:47:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "37f8d44a0de4b52a",
+      "titulo": "Vuelve el bloqueo a la vía Panamericana, en el Cauca: atacan con artefactos incendiarios un campamento de un concesionario vial en Cajibío",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/cali/vuelve-el-bloqueo-a-la-via-panamericana-en-el-norte-del-cauca-atacan-con-artefactos-incendiarios-un-campamento-de-un-concesionario-vial-en-cajibio-3602806",
+      "fecha": "2026-11-20T19:38:39+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "f0e27877a9cd18cd",
+      "titulo": "Cundinamarca salió a buscar capital extranjero para RegioTram del Norte, el tren que conectaría Bogotá y la Sabana",
+      "categoria": "Colombia",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/infraestructura/cundinamarca-busca-en-la-milagro-week-inversionistas-para-el-regiotram-del-norte-un-tren-de-17-4-billones-506739",
+      "fecha": "2026-11-20T19:36:47+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "b1cc63f9c3db7d29",
+      "titulo": "Freidora de aire y olla multifunción: este electrodoméstico 10 en 1 de Ninja es perfecto para cocinas pequeñas y un chollo hoy",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/seleccion/freidora-aire-olla-multifuncion-este-electrodomestico-10-1-ninja-perfecto-para-cocinas-pequenas-chollo-hoy",
+      "fecha": "2026-11-20T19:30:22+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "7b819e2b5bfb1db7",
+      "titulo": "Anthropic arrasa en su entrada en bolsa y marca un hito para la IA",
+      "categoria": "Internacional",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/anthropic-arrasa-en-su-entrada-en-bolsa-y-marca-un-hito-para-la-ia/a-80006786?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-20T19:28:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "0ec060962e45d1f6",
+      "titulo": "Final de la Copa Sudamericana entre Boca Juniors y Atlético Mineiro incrementa la venta de camisetas en Barranquilla un 70 %",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/barranquilla/final-de-la-copa-sudamericana-entre-boca-juniors-y-atletico-mineiro-incrementa-la-venta-de-camisetas-en-barranquilla-un-3602685",
+      "fecha": "2026-11-20T19:22:21+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "77dec59b36c1de3d",
+      "titulo": "Seguros Mundial recibe sello ambiental por sus iniciativas de sostenibilidad",
+      "categoria": "Deportes",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/finanzas/seguros-mundial-recibe-sello-ambiental-por-sus-iniciativas-de-sostenibilidad-4529470",
+      "fecha": "2026-11-20T19:19:28+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "27b98c5c63d1fc1a",
+      "titulo": "Ocde alerta por el deterioro fiscal y la debilidad de la inversión en Colombia",
+      "categoria": "Colombia",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/ocde-alerta-por-el-deterioro-fiscal-y-la-debilidad-de-la-inversion-en-colombia-506771",
+      "fecha": "2026-11-20T19:16:59+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "ba2c136d655d944e",
+      "titulo": "Dimayor y 16 clubes se libran de multas por más de $8.000 millones: SIC archivó investigación",
+      "categoria": "Economía",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/dimayor-y-16-clubes-se-libran-de-multas-por-mas-de-8-000-millones-sic-archivo-investigacion-506781",
+      "fecha": "2026-11-20T19:16:13+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "2cc8a9f01e40b3d9",
+      "titulo": "Hinchas de Boca y Mineiro, la sensación de las calles en Barranquilla: el Gran Malecón concentra la previa de la final sudamericana",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/barranquilla/hinchas-de-boca-y-mineiro-la-sensacion-de-las-calles-en-barranquilla-el-gran-malecon-concentra-la-previa-de-la-final-sudamericana-3602804",
+      "fecha": "2026-11-20T19:15:28+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "e45c184a3733f349",
+      "titulo": "Bre-B recibe dos reconocimientos en los Best Branding Awards Colombia 2026",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/finanzas/bre-b-recibe-dos-reconocimientos-en-los-best-branding-awards-colombia-2026-4529480",
+      "fecha": "2026-11-20T19:15:27+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "804a7ad287a23b17",
+      "titulo": "Dinamarca expulsa a un diplomático ruso tras intento de asesinato de un ucraniano en territorio danés",
+      "categoria": "Internacional",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/dinamarca-expulsa-a-un-diplomático-ruso-tras-intento-de-asesinato-de-un-ucraniano-en-territorio-danés/a-80006798?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-20T19:06:00+00:00",
+      "imagen": ""
+    },
     {
       "id": "546ddb6d22c340f8",
       "titulo": "A 10 días de iniciar la temporada seca, los embalses están en 76,87% de su capacidad",
@@ -12,7 +174,7 @@
     },
     {
       "id": "4debc9a28a988176",
-      "titulo": "El precio del gas importado se dispara más de 125% en nueve meses y supera los US$31/mbtu",
+      "titulo": "El precio del gas importado se disparó más de 125% en nueve meses y supera los US$31/mbtu",
       "categoria": "Colombia",
       "fuente": "La República",
       "url": "https://www.larepublica.co/economia/el-precio-del-gas-importado-se-dispara-mas-de-125-en-nueve-meses-y-supera-los-us-31-mbtu-4529316",
@@ -152,15 +314,6 @@
       "fuente": "El Diario — Pereira",
       "url": "https://www.eldiario.com.co/punto-final/beca-libro-a-libro/",
       "fecha": "2026-11-20T18:30:10+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "f0e27877a9cd18cd",
-      "titulo": "Cundinamarca busca en la Milagro Week inversionistas para el RegioTram del Norte, un tren de $17,4 billones",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/infraestructura/cundinamarca-busca-en-la-milagro-week-inversionistas-para-el-regiotram-del-norte-un-tren-de-17-4-billones-506739",
-      "fecha": "2026-11-20T18:30:00+00:00",
       "imagen": ""
     },
     {
@@ -387,159 +540,6 @@
       "url": "https://www.eldiario.com.co/noticias/colfondos-cumple-35-anos-y-destaca-la-importancia-del-ahorro-pensional/",
       "fecha": "2026-11-20T17:19:22+00:00",
       "imagen": ""
-    },
-    {
-      "id": "d6f28417b230d2bd",
-      "titulo": "The Beatles estrenan nuevo video de 'In My Life' que rinde homenaje a Liverpool",
-      "categoria": "Internacional",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/the-beatles-estrenan-nuevo-video-de-in-my-life-que-rinde-homenaje-a-liverpool/a-80005996?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-20T17:18:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "1ecbd4cfe2556f98",
-      "titulo": "Barranquilla sería sede de una final de Copa Libertadores: esta es la propuesta y sus rivales",
-      "categoria": "Deportes",
-      "fuente": "La FM Deportes",
-      "url": "https://www.lafm.com.co/deportes/barranquilla-seria-sede-final-copa-libertadores-2028-417811",
-      "fecha": "2026-11-20T17:15:31+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "e997bc6c44a9e272",
-      "titulo": "Las bolsas mundiales caen por dudas sobre el auge de la inteligencia artificial",
-      "categoria": "Deportes",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/finanzas/las-bolsas-mundiales-caen-por-dudas-sobre-el-auge-de-la-inteligencia-artificial-4529334",
-      "fecha": "2026-11-20T17:14:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "7bf4e85411e0c32d",
-      "titulo": "En veremos, el Carnaval de Negros y Blancos en Pasto tras el paro declarado por más de un centenar de artistas que no han recibido los recursos",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/cali/en-veremos-el-carnaval-de-negros-y-blancos-en-pasto-tras-el-paro-declarado-por-mas-de-un-centenar-de-artistas-que-no-han-recibido-los-recursos-3602757",
-      "fecha": "2026-11-20T17:08:53+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "e71e2116a2291341",
-      "titulo": "¡Alias ‘El Zorro’ movía las fichas de la droga en Cordillera!",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/judicial/alias-el-zorro-movia-las-fichas-de-la-droga-en-cordillera/",
-      "fecha": "2026-11-20T17:06:22+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "878cb67333b666bc",
-      "titulo": "¿Hemos perdido la oportunidad de frenar el cambio climático?",
-      "categoria": "Internacional",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/¿hemos-perdido-la-oportunidad-de-frenar-el-cambio-climático/a-80005084?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-20T17:05:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "517fef40c6202a6e",
-      "titulo": "Tributaria: Ocde pide quitar exenciones del IVA y bajar renta de empresas",
-      "categoria": "Economía",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/en-vivo/tributaria-ocde-pide-quitar-exenciones-del-iva-y-bajar-renta-de-empresas/",
-      "fecha": "2026-11-20T17:00:09+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "2a057e6a6ba17488",
-      "titulo": "Desfinanciar las cajas de compensación no es la solución para la crisis de salud",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/red-de-expertos/red-social/desfinanciar-las-cajas-de-compensacion-no-es-la-solucion-para-la-crisis-de-salud/",
-      "fecha": "2026-11-20T17:00:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "66394677efe86423",
-      "titulo": "La vuelta al mundo en 1,5 kilómetros: así será el viaje luminoso que Medellín tiene preparado con sus alumbrados navideños",
-      "categoria": "Internacional",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/medellin/la-vuelta-al-mundo-en-1-5-kilometros-asi-sera-el-viaje-luminoso-que-medellin-tiene-preparado-con-sus-alumbrados-navidenos-3602746",
-      "fecha": "2026-11-20T16:58:14+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "b5c43aad1121e3b7",
-      "titulo": "Rafael Nieto anunció denuncia penal contra Petro por discurso en Cali, donde hizo “invitación a derrocar al Gobierno”",
-      "categoria": "Cali",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/rafael-nieto-denuncia-penal-petro-discurso-cali-derrocar-gobierno-GL43846330",
-      "fecha": "2026-11-20T16:50:13+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "ca517f3f3fd97ee1",
-      "titulo": "La periodista de EL PAÍS Isabel Valdés gana la primera edición del premio Soledad Gallego que concede Igualdad",
-      "categoria": "Cali",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/sociedad/2026-11-20/la-periodista-de-el-pais-isabel-valdes-gana-la-primera-edicion-del-premio-soledad-gallego-que-concede-igualdad.html",
-      "fecha": "2026-11-20T16:49:36+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "27b98c5c63d1fc1a",
-      "titulo": "OCDE alerta por el deterioro fiscal y la debilidad de la inversión en Colombia",
-      "categoria": "Colombia",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/ocde-alerta-por-el-deterioro-fiscal-y-la-debilidad-de-la-inversion-en-colombia-506771",
-      "fecha": "2026-11-20T16:49:07+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "855420bf379ed623",
-      "titulo": "Freidoras de aire, aspiradoras de mano o secadores: el Black Friday de SharkNinja tiene todo lo que necesites",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/seleccion/freidoras-aire-aspiradoras-mano-secadores-black-friday-sharkninja-tiene-todo-que-necesites",
-      "fecha": "2026-11-20T16:46:21+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "d0c1c48e3fa7ae21",
-      "titulo": "Capturan a conductor de motocicleta en Ciénaga de Oro, Córdoba, por presunta alteración de los sistemas de identificación del vehículo",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/capturan-a-conductor-de-motocicleta-en-cienaga-de-oro-cordoba-por-presunta-alteracion-de-los-sistemas-de-identificacion-del-vehiculo-3602691",
-      "fecha": "2026-11-20T16:46:20+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "4faff0c4b5f4d29b",
-      "titulo": "Alcalde Eder: solicite la asistencia militar",
-      "categoria": "Colombia",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/opinion/columnistas/alcalde-eder-solicite-la-asistencia-militar/",
-      "fecha": "2026-11-20T16:46:13+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "e1a154744fe93950",
-      "titulo": "Bancamía habilita créditos para reconstruir microempresas",
-      "categoria": "Economía",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/finanzas/bancamia-habilita-creditos-para-reconstruir-microempresas-afectadas-por-el-sismo-4529349",
-      "fecha": "2026-11-20T16:45:35+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "92efd2a90cd58382",
-      "titulo": "¿Habrá racionamiento de energía en Bogotá? Galán advierte que hay riesgo y pide ahorrar electricidad",
-      "categoria": "Colombia",
-      "fuente": "La FM Actualidad",
-      "url": "https://www.lafm.com.co/actualidad/racionamiento-energia-bogota-colombia-nivel-embalses-fenomeno-el-nino-ahorro-desconectar-aparatos-417806",
-      "fecha": "2026-11-20T16:45:18+00:00",
-      "imagen": ""
     }
   ],
   "estado_fuentes": [
@@ -596,7 +596,7 @@
       "nombre": "DW Español",
       "url": "https://rss.dw.com/rdf/rss-sp-all",
       "estado": "correcto",
-      "titulares": 24
+      "titulares": 25
     },
     {
       "nombre": "Xataka",
