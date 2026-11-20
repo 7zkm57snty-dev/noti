@@ -1,6 +1,105 @@
 {
-  "ultima_actualizacion": "2026-11-20T22:55:53.207070+00:00",
+  "ultima_actualizacion": "2026-11-20T23:56:11.584624+00:00",
   "titulares_rss": [
+    {
+      "id": "d8d151be8f31bb98",
+      "titulo": "El PND heredó el discurso del ABC, pero no su plata",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/red-de-expertos/red-verde/el-pnd-heredo-el-discurso-del-abc-pero-no-su-plata/",
+      "fecha": "2026-11-20T23:40:54+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "8914a8533bd69d1e",
+      "titulo": "Calor extremo pone en riesgo árboles amazónicos",
+      "categoria": "Colombia",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/medio-ambiente/arboles-de-la-amazonia-al-limite-por-calor-extremo/",
+      "fecha": "2026-11-20T23:39:31+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "4422e22a7969d15d",
+      "titulo": "La polémica defensa de Gustavo Petro del alcalde de Barrancabermeja al que el presidente De La Espriella señala de corrupción con regalías",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/santander/gustavo-petro-expresidente-de-colombia-salio-en-defensa-del-alcalde-de-barrancabermeja-tras-denuncia-y-polemica-con-abelardo-de-la-espriella-3602833",
+      "fecha": "2026-11-20T23:29:31+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "63f2834e268ef6d1",
+      "titulo": "Avenida Roosevelt se interviene por fases para cuidar la movilidad y el comercio del sector",
+      "categoria": "Colombia",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/cali/alameda-avenida-roosevelt-fases-de-obra-desvios-viales-cali/",
+      "fecha": "2026-11-20T23:23:49+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "570ab3760faf574f",
+      "titulo": "Universidad sueca denuncia intento de injerencia en investigación de compañía minera en Putumayo",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/silla-amazonia/amazonia-en-breve/universidad-sueca-denuncia-intento-de-injerencia-en-investigacion-de-compania-minera-en-putumayo/",
+      "fecha": "2026-11-20T23:23:44+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "0c58353a2a042413",
+      "titulo": "Corredor La Dorada–Chiriguaná logra financiación por $2,01 billones",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/finanzas/corredor-la-dorada-chiriguana-logra-financiacion-por-2-01-billones-4529612",
+      "fecha": "2026-11-20T23:17:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "09d340b9fff23787",
+      "titulo": "La bolsa de Wall Street cae con fuerza en medio del desplome de las acciones de las tecnológicas y registra su peor semana desde la pandemia",
+      "categoria": "Internacional",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/cm8791vvwelno?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-20T23:15:44+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "96205f2a88a8a8a2",
+      "titulo": "Pasajera fue capturada por agredir a una trabajadora de Avianca durante el abordaje de un vuelo Cartagena-Cali: revelan la razón del conflicto",
+      "categoria": "Cali",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/pasajera-fue-capturada-por-agredir-a-una-trabajadora-de-avianca-durante-el-abordaje-de-un-vuelo-cartagena-cali-revelan-la-razon-del-conflicto-3602869",
+      "fecha": "2026-11-20T23:11:39+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "60e63daf4b082b82",
+      "titulo": "Videos | Reanudan partido entre Independiente Medellín y Santa Fe tras suspensión por tormenta eléctrica en la capital antioqueña",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/deportes/futbol-colombiano/videos-suspenden-partido-de-independiente-medellin-y-santa-fe-por-tormenta-electrica-en-la-capital-antioquena-3602865",
+      "fecha": "2026-11-20T23:10:24+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "7d9d091263b9c96c",
+      "titulo": "Fingió estudiar en universidades por casi 10 años en Bogotá y Cali: ¿quién es ‘Blue’, capturada por terrorismo y cuestionada por De La Espriella?",
+      "categoria": "Cali",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/cali/fingio-estudiar-en-universidades-clave-por-10-anos-en-bogota-y-cali-quien-es-blue-capturada-por-terrorismo-y-cuestionada-por-de-la-espriella-3602861",
+      "fecha": "2026-11-20T22:59:26+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "77f186c1988a49b6",
+      "titulo": "Adopción de gatos en Cali: 20 sobrevivientes del terremoto buscan hogar este 21 y 22 de noviembre, conozca cómo adoptar",
+      "categoria": "Cali",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/cali/jornada-de-adopcion-de-gatos-en-cali-20-felinos-rescatados-sismo/",
+      "fecha": "2026-11-20T22:48:17+00:00",
+      "imagen": ""
+    },
     {
       "id": "969bb79a1749ec82",
       "titulo": "Un misil ruso impacta en Polonia mientras los aliados de Ucrania realizan ejercicios militares",
@@ -8,6 +107,24 @@
       "fuente": "BBC Mundo",
       "url": "https://www.bbc.com/mundo/articles/cmkgkd79q9e6o?at_medium=RSS&at_campaign=rss",
       "fecha": "2026-11-20T22:46:07+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "4b8d09a9f6aa07ca",
+      "titulo": "Comunicar es gobernar",
+      "categoria": "Colombia",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/opinion/columnistas/comunicar-es-gobernar/",
+      "fecha": "2026-11-20T22:43:07+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "72b002ae583052e1",
+      "titulo": "Emcali moderniza sus servicios para transformar el futuro de Cali",
+      "categoria": "Cali",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/reinventarse-para-seguir/transformacion-de-emcali-alumbrado-led-salvajina-tecnologia/",
+      "fecha": "2026-11-20T22:40:07+00:00",
       "imagen": ""
     },
     {
@@ -29,21 +146,12 @@
       "imagen": ""
     },
     {
-      "id": "60e63daf4b082b82",
-      "titulo": "Videos | Suspenden partido de Independiente Medellín y Santa Fe por tormenta eléctrica en la capital antioqueña: reportan fuertes lluvias",
+      "id": "4a3f30994b441227",
+      "titulo": "Volver a sentirse segura",
       "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/deportes/futbol-colombiano/videos-suspenden-partido-de-independiente-medellin-y-santa-fe-por-tormenta-electrica-en-la-capital-antioquena-3602865",
-      "fecha": "2026-11-20T22:31:51+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "7d9d091263b9c96c",
-      "titulo": "Fingió estudiar en universidades clave por 10 años en Bogotá y Cali: ¿cómo operaba ‘Blue’, capturada por terrorismo y cuestionada por De La Espriella?",
-      "categoria": "Cali",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/cali/fingio-estudiar-en-universidades-clave-por-10-anos-en-bogota-y-cali-quien-es-blue-capturada-por-terrorismo-y-cuestionada-por-de-la-espriella-3602861",
-      "fecha": "2026-11-20T22:31:15+00:00",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/opinion/columnistas/volver-a-sentirse-segura/",
+      "fecha": "2026-11-20T22:30:41+00:00",
       "imagen": ""
     },
     {
@@ -56,12 +164,30 @@
       "imagen": ""
     },
     {
+      "id": "8ed40116bf69b438",
+      "titulo": "Con apoyo de empresa privada recuperan acueductos rurales en el Valle",
+      "categoria": "Colombia",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/regionales/valle-del-cauca/acueductos-rurales-en-el-valle-recuperaran-10-tras-sismo/",
+      "fecha": "2026-11-20T22:28:59+00:00",
+      "imagen": ""
+    },
+    {
       "id": "d7b7f2583ff94f65",
       "titulo": "Procuraduría inhabilitó a Julián Caicedo, pareja de Ricardo Roa",
       "categoria": "Colombia",
       "fuente": "La Silla Vacía",
       "url": "https://www.lasillavacia.com/en-vivo/procuraduria-inhabilito-a-julian-caicedo-pareja-de-ricardo-roa/",
       "fecha": "2026-11-20T22:27:19+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "cf5798265b404c72",
+      "titulo": "Confirman entrenamiento de integrantes del ELN, disidencias de las Farc y el Clan del Golfo en Ucrania",
+      "categoria": "Internacional",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/colombia/grupos-armados-colombianos-en-ucrania-entrenan-drones/",
+      "fecha": "2026-11-20T22:19:52+00:00",
       "imagen": ""
     },
     {
@@ -119,6 +245,15 @@
       "imagen": ""
     },
     {
+      "id": "585f6e0b1406d7ae",
+      "titulo": "Caso Blessd tendrá nueva audiencia en febrero",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/noticias/caso-blessd-tendra-nueva-audiencia-en-febrero/",
+      "fecha": "2026-11-20T22:00:27+00:00",
+      "imagen": ""
+    },
+    {
       "id": "e812f86fc68b2727",
       "titulo": "Gases de Occidente: de llevar gas a los hogares a impulsar la transformación energética de Cali",
       "categoria": "Cali",
@@ -152,24 +287,6 @@
       "fuente": "El Tiempo",
       "url": "https://www.eltiempo.com/colombia/cali/de-patrullar-las-selvas-del-caqueta-a-cantar-en-la-feria-de-cali-la-historia-del-soldado-de-aguablanca-que-encontro-su-voz-en-el-ejercito-nacional-3602858",
       "fecha": "2026-11-20T21:55:29+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "bb32c74fadad1dee",
-      "titulo": "¿El Tigre morderá a Uribe en el 2027?",
-      "categoria": "Colombia",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/politica/graffiti/dilema-del-centro-democratico-frente-al-gobierno-y-2027/",
-      "fecha": "2026-11-20T21:54:28+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "f6769a167a9ecb01",
-      "titulo": "El bienestar integral de los trabajadores, motor de la productividad",
-      "categoria": "Colombia",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/reinventarse-para-seguir/sostenibilidad-empresarial-del-valle-del-cauca-bienestar-comfandi/",
-      "fecha": "2026-11-20T21:51:44+00:00",
       "imagen": ""
     },
     {
@@ -218,15 +335,6 @@
       "imagen": ""
     },
     {
-      "id": "04db353438ef6c00",
-      "titulo": "“El desafío de Cali no es volver a crecer como antes, sino cambiar su trayectoria económica”",
-      "categoria": "Cali",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/reinventarse-para-seguir/economia-de-cali-hacia-2038-agenda-productiva-camara-de-comercio/",
-      "fecha": "2026-11-20T21:41:51+00:00",
-      "imagen": ""
-    },
-    {
       "id": "4e178cce6755c1e6",
       "titulo": "Imágenes de Petro entrando a casas con Deicy Jiménez son montajes con IA",
       "categoria": "Colombia",
@@ -236,21 +344,12 @@
       "imagen": ""
     },
     {
-      "id": "0600e52680c3bcb2",
-      "titulo": "“No necesitamos un líder mesiánico para transformar a Cali”",
-      "categoria": "Cali",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/reinventarse-para-seguir/reinvencion-de-cali-recuperar-confianza-participacion-ciudadana-uav/",
-      "fecha": "2026-11-20T21:29:32+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "a39fbfd6ffb98c71",
-      "titulo": "Lo que cuesta reinventarse para seguir",
-      "categoria": "Colombia",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/reinventarse-para-seguir/empresarios-del-valle-del-cauca-lecciones-de-resiliencia/",
-      "fecha": "2026-11-20T21:28:44+00:00",
+      "id": "bad3d80573dadafc",
+      "titulo": "Estados Unidos respalda plan de fumigación aérea en Colombia",
+      "categoria": "Internacional",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/noticias/estados-unidos-respalda-plan-de-fumigacion-aerea-en-colombia/",
+      "fecha": "2026-11-20T21:30:43+00:00",
       "imagen": ""
     },
     {
@@ -326,30 +425,12 @@
       "imagen": ""
     },
     {
-      "id": "5b08f7e4f009657a",
-      "titulo": "La portada que escribieron los empresarios en los 65 años del Diario Occidente",
-      "categoria": "Colombia",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/reinventarse-para-seguir/empresarios-colombianos-portada-colectiva-65-anos-diario-occidente/",
-      "fecha": "2026-11-20T21:13:39+00:00",
-      "imagen": ""
-    },
-    {
       "id": "e8a349aa1575fb91",
       "titulo": "Parque Nacional Natural Puracé descubre una nueva especie de rana; conoce a la Niceforonia Tempestuosa",
       "categoria": "Valle del Cauca",
       "fuente": "90 Minutos",
       "url": "https://90minutos.co/vida-moderna/ecologia/descubren-nueva-especie-rana-colombia-20-11-2026/",
       "fecha": "2026-11-20T21:13:11+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "312d1470b10fb741",
-      "titulo": "De la máquina de escribir a la inteligencia artificial",
-      "categoria": "Tecnología",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/reinventarse-para-seguir/65-anos-del-diario-occidente-reinvencion-e-ia/",
-      "fecha": "2026-11-20T21:08:39+00:00",
       "imagen": ""
     },
     {
@@ -368,6 +449,15 @@
       "fuente": "90 Minutos",
       "url": "https://90minutos.co/cali/100-dias-terremoto-cali-26-edificaciones-demolidas-20-11-2026/",
       "fecha": "2026-11-20T21:06:36+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "2d904323b0d93b55",
+      "titulo": "Declaraciones de Petro generan respuesta de De la Espriella",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/noticias/declaraciones-de-petro-generan-respuesta-de-de-la-espriella/",
+      "fecha": "2026-11-20T21:00:55+00:00",
       "imagen": ""
     },
     {
@@ -450,96 +540,6 @@
       "url": "https://www.lasillavacia.com/silla-nacional/de-la-espriella-redobla-su-apuesta-populista-y-se-probara-en-la-calle/",
       "fecha": "2026-11-20T20:37:07+00:00",
       "imagen": ""
-    },
-    {
-      "id": "3d1e615bc076cc86",
-      "titulo": "Otra vez, imagen que vincula a Sheinbaum con el M-19 fue hecha con IA",
-      "categoria": "Deportes",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/detector-de-mentiras/falso/otra-vez-imagen-que-vincula-a-sheinbaum-con-el-m-19-fue-hecha-con-ia/",
-      "fecha": "2026-11-20T20:34:50+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "4422e22a7969d15d",
-      "titulo": "Gustavo Petro, expresidente de Colombia, salió en defensa del alcalde de Barrancabermeja tras denuncia y polémica con Abelardo De La Espriella",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/santander/gustavo-petro-expresidente-de-colombia-salio-en-defensa-del-alcalde-de-barrancabermeja-tras-denuncia-y-polemica-con-abelardo-de-la-espriella-3602833",
-      "fecha": "2026-11-20T20:34:47+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "0922d1813c7c5796",
-      "titulo": "La final de la Sudamericana se mira por DIRECTV y DGO",
-      "categoria": "Deportes",
-      "fuente": "La FM Deportes",
-      "url": "https://www.lafm.com.co/deportes/final-sudamericana-partido-mineiro-boca-juniors-por-directv-dgo-417839",
-      "fecha": "2026-11-20T20:33:17+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "62c9f008a5aad1c8",
-      "titulo": "Se registran lluvias en Cali este viernes: reportan caída de árboles",
-      "categoria": "Cali",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/cali/registran-lluvias-cali-viernes-20-11-2026/",
-      "fecha": "2026-11-20T20:32:25+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "3cf98b9b35830548",
-      "titulo": "Presidencia deberá entregar lista de invitados a posesión de Abelardo",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/en-vivo/presidencia-debera-entregar-lista-de-invitados-a-posesion-de-abelardo/",
-      "fecha": "2026-11-20T20:30:11+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "6c5cc9e2698fc7dd",
-      "titulo": "Supersociedades aplazó hasta marzo de 2027 la elección de la Junta Directiva de la CCB",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/empresas/supersociedades-aplazo-hasta-marzo-de-2027-la-eleccion-de-la-junta-directiva-de-la-ccb-4529536",
-      "fecha": "2026-11-20T20:25:08+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "e60ecaaac23479da",
-      "titulo": "Video | Contando las horas para la final de la Sudamericana: así quedó el 'Súpermetro' de Barranquilla tras casi un año de transformación",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/barranquilla/video-contando-las-horas-para-la-final-de-la-sudamericana-asi-quedo-el-supermetro-de-barranquilla-tras-casi-un-ano-de-transformacion-3602834",
-      "fecha": "2026-11-20T20:25:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "2c9bd649b7704148",
-      "titulo": "De la Espriella exige mayores resultados a sus ministros en una carta con tono de advertencia",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/america-colombia/2026-11-20/de-la-espriella-exige-mayores-resultados-a-sus-ministros-en-una-carta-con-tono-de-advertencia.html",
-      "fecha": "2026-11-20T20:24:02+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "45a3165210d934ca",
-      "titulo": "La generación Z en Alemania alza la voz: ¿por qué están tan enfadados?",
-      "categoria": "Internacional",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/la-generación-z-en-alemania-alza-la-voz-¿por-qué-están-tan-enfadados/a-80006583?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-20T20:21:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "1b0b422205f762f4",
-      "titulo": "De La Espriella inaugura la ampliación de la Autopista Norte para aliviar el trancón: pasará de 6 a 12 carriles",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/infraestructura/de-la-espriella-inaugura-la-ampliacion-de-la-autopista-norte-para-aliviar-el-trancon-pasara-de-6-a-12-carriles-506785",
-      "fecha": "2026-11-20T20:20:10+00:00",
-      "imagen": ""
     }
   ],
   "estado_fuentes": [
@@ -614,7 +614,7 @@
       "nombre": "Diario Occidente",
       "url": "https://occidente.co/feed/",
       "estado": "correcto",
-      "titulares": 10
+      "titulares": 11
     },
     {
       "nombre": "La FM Deportes",
@@ -656,9 +656,8 @@
     {
       "nombre": "El Diario — Pereira",
       "url": "https://www.eldiario.com.co/feed/",
-      "estado": "error",
-      "titulares": 0,
-      "detalle": "El feed no contiene entradas."
+      "estado": "correcto",
+      "titulares": 35
     },
     {
       "nombre": "Chocó 7 días",
