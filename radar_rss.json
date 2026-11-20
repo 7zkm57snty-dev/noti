@@ -1,6 +1,213 @@
 {
-  "ultima_actualizacion": "2026-11-20T16:05:05.646407+00:00",
+  "ultima_actualizacion": "2026-11-20T17:06:27.740581+00:00",
   "titulares_rss": [
+    {
+      "id": "e71e2116a2291341",
+      "titulo": "¡Alias ‘El Zorro’ movía las fichas de la droga en Cordillera!",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/judicial/alias-el-zorro-movia-las-fichas-de-la-droga-en-cordillera/",
+      "fecha": "2026-11-20T17:06:22+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "517fef40c6202a6e",
+      "titulo": "Tributaria: Ocde pide quitar exenciones del IVA y bajar renta de empresas",
+      "categoria": "Economía",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/en-vivo/tributaria-ocde-pide-quitar-exenciones-del-iva-y-bajar-renta-de-empresas/",
+      "fecha": "2026-11-20T17:00:09+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "2a057e6a6ba17488",
+      "titulo": "Desfinanciar las cajas de compensación no es la solución para la crisis de salud",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/red-de-expertos/red-social/desfinanciar-las-cajas-de-compensacion-no-es-la-solucion-para-la-crisis-de-salud/",
+      "fecha": "2026-11-20T17:00:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "ca517f3f3fd97ee1",
+      "titulo": "La periodista de EL PAÍS Isabel Valdés gana la primera edición del premio Soledad Gallego que concede Igualdad",
+      "categoria": "Cali",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/sociedad/2026-11-20/la-periodista-de-el-pais-isabel-valdes-gana-la-primera-edicion-del-premio-soledad-gallego-que-concede-igualdad.html",
+      "fecha": "2026-11-20T16:49:36+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "27b98c5c63d1fc1a",
+      "titulo": "OCDE alerta por el deterioro fiscal y la debilidad de la inversión en Colombia",
+      "categoria": "Colombia",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/ocde-alerta-por-el-deterioro-fiscal-y-la-debilidad-de-la-inversion-en-colombia-506771",
+      "fecha": "2026-11-20T16:49:07+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "855420bf379ed623",
+      "titulo": "Freidoras de aire, aspiradoras de mano o secadores: el Black Friday de SharkNinja tiene todo lo que necesites",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/seleccion/freidoras-aire-aspiradoras-mano-secadores-black-friday-sharkninja-tiene-todo-que-necesites",
+      "fecha": "2026-11-20T16:46:21+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "d0c1c48e3fa7ae21",
+      "titulo": "Capturan a conductor de motocicleta en Ciénaga de Oro, Córdoba, por presunta alteración de los sistemas de identificación del vehículo",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/capturan-a-conductor-de-motocicleta-en-cienaga-de-oro-cordoba-por-presunta-alteracion-de-los-sistemas-de-identificacion-del-vehiculo-3602691",
+      "fecha": "2026-11-20T16:46:20+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "e1a154744fe93950",
+      "titulo": "Bancamía habilita créditos para reconstruir microempresas afectadas por el sismo",
+      "categoria": "Economía",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/finanzas/bancamia-habilita-creditos-para-reconstruir-microempresas-afectadas-por-el-sismo-4529349",
+      "fecha": "2026-11-20T16:45:35+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "77618e033be8f76f",
+      "titulo": "Hernández de Cos roza la presidencia del BCE tras conocerse los candidatos de Francia y Alemania a la dirección",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/economia/2026-11-20/hernandez-de-cos-roza-la-presidencia-del-bce-tras-conocerse-los-candidatos-de-francia-y-alemania-a-la-direccion.html",
+      "fecha": "2026-11-20T16:42:05+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "b5862db2f664c452",
+      "titulo": "De La Espriella llamó la atención y fijó condiciones a sus ministros: impuestos, pauta oficial y viajes al exterior",
+      "categoria": "Economía",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/gobierno/de-la-espriella-llamo-la-atencion-y-fijo-condiciones-a-sus-ministros-impuestos-pauta-oficial-y-viajes-al-exterior-506767",
+      "fecha": "2026-11-20T16:40:28+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "7adffef3b4bb6aa3",
+      "titulo": "Billeteras transforman el mercado de remesas y ganan terreno los dólares digitales",
+      "categoria": "Economía",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/finanzas/billeteras-transforman-el-mercado-de-remesas-y-ganan-terreno-los-dolares-digitales-4529326",
+      "fecha": "2026-11-20T16:39:25+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "e587497e98eaac5e",
+      "titulo": "Rusia lanza uno de los \"mayores ataques\" contra Ucrania desde el inicio de la invasión",
+      "categoria": "Internacional",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/rusia-lanza-uno-de-los-mayores-ataques-contra-ucrania-desde-el-inicio-de-la-invasión/a-80005745?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-20T16:38:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "6363fbd683acb676",
+      "titulo": "De la Espriella y Petro suben el tono de su confrontación",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/america-colombia/2026-11-20/de-la-espriella-y-petro-suben-el-tono-de-su-confrontacion.html",
+      "fecha": "2026-11-20T16:36:11+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "364bbe5f3c429b34",
+      "titulo": "Por fin llegó a Barranquilla el hincha de Boca que viajó en moto desde Buenos Aires: esto gastó en tiempo, kilómetros y dinero",
+      "categoria": "Deportes",
+      "fuente": "La FM Deportes",
+      "url": "https://www.lafm.com.co/deportes/hincha-boca-viaje-moto-llego-barranquilla-tiempo-kilometros-417804",
+      "fecha": "2026-11-20T16:34:27+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "7f88f7a5859b69a3",
+      "titulo": "OCDE prevé que el déficit de Colombia siga en 7,2 % del PIB en 2027 y pide extender el ajuste fiscal",
+      "categoria": "Colombia",
+      "fuente": "La FM Economía",
+      "url": "https://www.lafm.com.co/economia/ocde-preve-deficit-de-7-2-por-ciento-del-pib-en-colombia-hasta-2027-417803",
+      "fecha": "2026-11-20T16:34:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "f9554fb6ce9fb433",
+      "titulo": "Barranquilla | Dos semanas sin Sonia y Kelly: familias piden intervención del Gobierno Nacional mientras persiste el misterio sobre su paradero",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/barranquilla/barranquilla-dos-semanas-sin-sonia-y-kelly-familias-piden-intervencion-del-gobierno-nacional-mientras-persiste-el-misterio-sobre-su-paradero-3602740",
+      "fecha": "2026-11-20T16:30:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "8db389433e8f5eec",
+      "titulo": "Por segunda vez, Abelardo se pasó de tiempo en alocución, dice la CRC",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/en-vivo/por-segunda-vez-abelardo-se-paso-de-tiempo-en-alocucion-dice-la-crc/",
+      "fecha": "2026-11-20T16:25:35+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "89e911d546c95440",
+      "titulo": "Cuidado con las ofertas del Black Friday: así puede descubrir si un descuento es falso",
+      "categoria": "Economía",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/cuidado-con-las-ofertas-del-black-friday-asi-puede-descubrir-si-un-descuento-es-falso-506768",
+      "fecha": "2026-11-20T16:25:31+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "5694e1868ce2f3dd",
+      "titulo": "Fiscalía imputará a exgerente de campaña de Carolina Corcho en consulta del Pacto por irregularidades en reposición de votos",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/fiscalia-imputacion-exgerente-campana-carolina-corcho-consulta-pacto-por-irregularidades-reposicion-votos-DL43842188",
+      "fecha": "2026-11-20T16:20:35+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "cf69e4802a2f06a6",
+      "titulo": "PS Portal tiene hoy descuento y es una alternativa para seguir jugando a 'GTA VI' si tu tele está ocupada. O incluso si estás fuera de casa",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/seleccion/ps-portal-tiene-hoy-descuento-alternativa-para-seguir-jugando-a-gta-vi-tu-tele-esta-ocupada-incluso-estas-fuera-casa",
+      "fecha": "2026-11-20T16:16:27+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "207ef732ffd9d375",
+      "titulo": "María Carolina Hoyos recordó las cinco muertes violentas de su familia: “Mi mamá y Miguel están juntos en el cielo”",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/maria-carolina-hoyos-historias-miguel-uribe-muerte-mama-familiares-EL43842017",
+      "fecha": "2026-11-20T16:11:57+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "4865b4a625017d95",
+      "titulo": "La IA se toma las compras de Navidad en Colombia: el 53% planea usarla para elegir sus regalos",
+      "categoria": "Colombia",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/la-ia-se-toma-las-compras-de-navidad-en-colombia-el-53-planea-usarla-para-elegir-sus-regalos-506766",
+      "fecha": "2026-11-20T16:10:14+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "185b2af062676061",
+      "titulo": "El Reino Unido y la UE cierran un acuerdo post-Brexit tras superar el escollo de la movilidad juvenil",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/internacional/2026-11-20/el-reino-unido-y-la-ue-se-disponen-a-cerrar-un-acuerdo-limitado-de-movilidad-juvenil-que-supere-el-bloqueo-del-brexit.html",
+      "fecha": "2026-11-20T16:09:19+00:00",
+      "imagen": ""
+    },
     {
       "id": "be650ddc3d82546d",
       "titulo": "El Día del Psicólogo exige más autocrítica y menos homenajes",
@@ -8,6 +215,15 @@
       "fuente": "La Silla Vacía",
       "url": "https://www.lasillavacia.com/red-de-expertos/red-social/el-dia-del-psicologo-exige-mas-autocritica-y-menos-homenajes/",
       "fecha": "2026-11-20T16:04:55+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "c76df8ea858605a3",
+      "titulo": "Navidad en modo esperanza: Cali ilumina el dolor del 10 de agosto con un homenaje que llega a las 22 comunas y los 15 corregimientos",
+      "categoria": "Cali",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/cali/navidad-en-modo-esperanza-cali-ilumina-el-dolor-del-10-de-agosto-con-un-homenaje-que-llega-a-las-22-comunas-y-los-15-corregimientos-3602729",
+      "fecha": "2026-11-20T16:04:50+00:00",
       "imagen": ""
     },
     {
@@ -26,6 +242,15 @@
       "fuente": "Xataka",
       "url": "https://www.xataka.com/magnet/dinamarca-celebro-a-mujer-112-anos-ser-su-ciudadana-longeva-luego-descubrio-su-pasado-nazi",
       "fecha": "2026-11-20T16:00:27+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "76cb1b1ac7e959e7",
+      "titulo": "Influencer matemático Julioprofe no ha vuelto a las redes por amenazas contra él y su familia: ya hay denuncia",
+      "categoria": "Tendencias",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/julioprofe-denuncia-amenazas-contra-su-familia-BM43837732",
+      "fecha": "2026-11-20T15:59:57+00:00",
       "imagen": ""
     },
     {
@@ -56,6 +281,24 @@
       "imagen": ""
     },
     {
+      "id": "a3853674973dd50e",
+      "titulo": "Escándalo por beneficios a adultos mayores en Bogotá: Contraloría advierte detrimento de $8.397 millones",
+      "categoria": "Colombia",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/regiones/escandalo-por-beneficios-a-adultos-mayores-en-bogota-contraloria-advierte-detrimento-de-8-397-millones-506763",
+      "fecha": "2026-11-20T15:50:40+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "495c042f20d62906",
+      "titulo": "Galán cuestiona gestión de gobiernos anteriores en retrasos de ampliación de la Autopista Norte: empezaron las obras",
+      "categoria": "Colombia",
+      "fuente": "La FM Actualidad",
+      "url": "https://www.lafm.com.co/actualidad/ampliacion-autopista-norte-alcalde-carlos-fernanado-galan-cuestiona-retrasos-proyecto-gustavo-petro-claudia-lopez-417797",
+      "fecha": "2026-11-20T15:48:14+00:00",
+      "imagen": ""
+    },
+    {
       "id": "4a93712b3df6b250",
       "titulo": "Cundinamarca le apuesta a sus humedales: con una inversión de $8.000 millones busca recuperar los ecosistemas",
       "categoria": "Economía",
@@ -74,15 +317,6 @@
       "imagen": ""
     },
     {
-      "id": "74cf8a0c976a1eb3",
-      "titulo": "Anthropic corrige con fuerza en su segunda jornada en Bolsa en pleno castigo a las empresas de IA",
-      "categoria": "Economía",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/economia/2026-11-20/la-segunda-jornada-en-bolsa-de-anthropic.html",
-      "fecha": "2026-11-20T15:46:28+00:00",
-      "imagen": ""
-    },
-    {
       "id": "8ba300a73d244cf0",
       "titulo": "Un iPad Air con chip M1 y 5G por poco más de 400 euros: la alternativa inteligente de Back Market frente a comprar uno nuevo",
       "categoria": "Colombia",
@@ -92,21 +326,21 @@
       "imagen": ""
     },
     {
-      "id": "185b2af062676061",
-      "titulo": "El Reino Unido y la UE cierran un acuerdo post-Brexit tras superar el escollo de la movilidad juvenil",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/internacional/2026-11-20/el-reino-unido-y-la-ue-se-disponen-a-cerrar-un-acuerdo-limitado-de-movilidad-juvenil-que-supere-el-bloqueo-del-brexit.html",
-      "fecha": "2026-11-20T15:45:56+00:00",
-      "imagen": ""
-    },
-    {
       "id": "00f806b147777839",
       "titulo": "Así será el alumbrado navideño en Cali este 2026: costo, zonas iluminadas e impacto económico",
       "categoria": "Cali",
       "fuente": "90 Minutos",
       "url": "https://90minutos.co/cali/alumbrado-navideno-cali-2026-20-11-2026/",
       "fecha": "2026-11-20T15:41:51+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "2830930069730fc0",
+      "titulo": "Dolor en Boyacá por muerte de tres mineros tras explosión en mina de carbón<b> </b>",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/tres-mineros-muertos-explosion-mina-carbon-boyaca-causas-OM43836877",
+      "fecha": "2026-11-20T15:37:34+00:00",
       "imagen": ""
     },
     {
@@ -137,21 +371,21 @@
       "imagen": ""
     },
     {
+      "id": "ed30e22ef147f3cf",
+      "titulo": "La FLIP pide al Mininterior retirar trino contra Daniel Coronell y dice que se trata de una “intimidación” desde una cuenta oficial",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/flip-pide-alejandro-ordonez-borrar-trino-contra-daniel-coronell-por-que-IM43836781",
+      "fecha": "2026-11-20T15:30:44+00:00",
+      "imagen": ""
+    },
+    {
       "id": "aa0e7b895bb75d32",
       "titulo": "Retiran libro de la persona más longeva de Dinamarca por pasado nazi",
       "categoria": "Internacional",
       "fuente": "DW Español",
       "url": "https://www.dw.com/es/retiran-libro-de-la-persona-más-longeva-de-dinamarca-por-pasado-nazi/a-80005170?maca=spa-rss-sp-all-1122-rdf",
       "fecha": "2026-11-20T15:28:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "ca517f3f3fd97ee1",
-      "titulo": "La periodista de EL PAÍS Isabel Valdés gana la primera edición del premio Soledad Gallego que concede Igualdad",
-      "categoria": "Cali",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/sociedad/2026-11-20/la-periodista-de-el-pais-isabel-valdes-gana-la-primera-edicion-del-premio-soledad-gallego-que-concede-igualdad.html",
-      "fecha": "2026-11-20T15:27:45+00:00",
       "imagen": ""
     },
     {
@@ -182,12 +416,30 @@
       "imagen": ""
     },
     {
+      "id": "562fbcea8ed97afe",
+      "titulo": "Fiscalía citó dos veces a Verónica Estrada, denunciada por título falso, pero la congresista no fue; ¿por qué?",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/veronica-estrada-fiscalia-cito-dos-veces-por-investigacion-titulo-falso-y-no-asistio-NM43836597",
+      "fecha": "2026-11-20T15:14:52+00:00",
+      "imagen": ""
+    },
+    {
       "id": "bf504a662636bf86",
       "titulo": "Flip: Ordóñez usa canales del MinInterior para “intimidar a la prensa”",
       "categoria": "Colombia",
       "fuente": "La Silla Vacía",
       "url": "https://www.lasillavacia.com/en-vivo/flip-ordonez-usa-canales-del-mininterior-para-intimidar-a-la-prensa/",
       "fecha": "2026-11-20T15:13:48+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "fe0a72d1cf1bf759",
+      "titulo": "Verónica Alcocer responde a Eva Ferrer por polémica de contratos del proyecto de cocinas: “Tergiversó ante la Procuraduría”",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/veronica-alcocer-responde-eva-ferrer-polemica-contratos-proyecto-cocinas-FM43836289",
+      "fecha": "2026-11-20T15:12:01+00:00",
       "imagen": ""
     },
     {
@@ -263,6 +515,15 @@
       "imagen": ""
     },
     {
+      "id": "96f858019185c552",
+      "titulo": "Primera dama anunció entrega de viviendas en Chocó tras reunión con gobernadora Carolina Córdoba: “Pronto estaremos allí”",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/gobierno-abelardo-primera-dama-ana-lucia-pineda-gobernadora-choco-entrega-viviendas-EM43834918",
+      "fecha": "2026-11-20T15:01:01+00:00",
+      "imagen": ""
+    },
+    {
       "id": "10ea94186807c771",
       "titulo": "En video | Banda de atracadores le disparó a quemarropa a una víctima para robarla en Medellín: cayeron cuatro implicados",
       "categoria": "Colombia",
@@ -278,267 +539,6 @@
       "fuente": "La República",
       "url": "https://www.larepublica.co/economia/explosion-en-mina-de-carbon-el-arenal-en-sativasur-boyaca-dejo-tres-trabajadores-muertos-4529267",
       "fecha": "2026-11-20T15:00:05+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "a830bc2bfc6ab14e",
-      "titulo": "Nacer y crecer en un mundo en crisis: una infancia amenazada por los conflictos, la crisis climática y la falta de fondos",
-      "categoria": "Internacional",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/planeta-futuro/2026-11-20/nacer-y-crecer-en-un-mundo-en-crisis-una-infancia-amenazada-por-los-conflictos-la-crisis-climatica-y-la-falta-de-fondos.html",
-      "fecha": "2026-11-20T15:00:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "d0b27ac98d0d5c01",
-      "titulo": "Dominicano denuncia que viajó a Colombia para conocer a mujer con la que tenía relación virtual y ella presuntamente le robó más de $47.000.000",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/dominicano-denuncia-que-viajo-a-colombia-para-conocer-a-mujer-con-la-que-tenia-relacion-virtual-y-ella-presuntamente-le-robo-mas-de-47-000-3602707",
-      "fecha": "2026-11-20T14:59:38+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "dd722bc7331e6572",
-      "titulo": "El Supremo mantiene suspendido el voto a 163.000 nacionalizados por la ‘ley de nietos’ aunque ahora vivan en España",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/espana/elecciones-generales/2026-11-20/el-supremo-mantiene-suspendido-el-voto-a-163000-nacionalizados-por-la-ley-de-nietos-aunque-ahora-vivan-en-espana.html",
-      "fecha": "2026-11-20T14:51:27+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "a3e6c6d7957ff76b",
-      "titulo": "Taller: Cómo investigar la contratación pública",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/cursos/taller-como-investigar-la-contratacion-publica/",
-      "fecha": "2026-11-20T14:47:59+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "911dad9494943934",
-      "titulo": "El Galaxy S26 Ultra cae de precio una semana antes del Black Friday: es uno de los mejores móviles Android de 2026",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/seleccion/galaxy-s26-ultra-cae-precio-semana-antes-black-friday-uno-mejores-moviles-android-2026",
-      "fecha": "2026-11-20T14:46:20+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "60b8240b7505792c",
-      "titulo": "Fiscalía descarta por ahora una imputación contra Zulma Guzmán: este es el motivo",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/por-que-fiscalia-descarta-imputacion-contra-zulma-guzman-caso-talio-CM43833537",
-      "fecha": "2026-11-20T14:45:40+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "9ce2fa14afe016ce",
-      "titulo": "Gobernación de Antioquia entregó 6,26 kilómetros de vía entre San Vicente Ferrer y El Peñol: anunció mejoras de vivienda",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/medellin/gobernacion-de-antioquia-entrego-6-26-kilometros-de-via-entre-san-vicente-ferrer-y-el-penol-anuncio-mejoras-de-vivienda-3602694",
-      "fecha": "2026-11-20T14:35:53+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "0b03a5a4aa049b96",
-      "titulo": "¿Existe la histeria ambiental? Un mensaje para el ministro de Ambiente, Fabio Arjona",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/red-de-expertos/existe-la-histeria-ambiental-un-mensaje-para-el-ministro-de-ambiente-fabio-arjona/",
-      "fecha": "2026-11-20T14:31:20+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "e2451f1881492656",
-      "titulo": "Barranquilla se alista para una maratón de fotografía por las calles del Centro Histórico: seis rutas para descubrir la ciudad",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/barranquilla/barranquilla-se-alista-para-una-maraton-de-fotografia-por-las-calles-del-centro-historico-seis-rutas-para-descubrir-la-ciudad-3602543",
-      "fecha": "2026-11-20T14:30:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "3b1aab3d21462566",
-      "titulo": "Potros, Schalke y Unión Berlín: el lado oscuro de la Bundesliga",
-      "categoria": "Deportes",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/potros-schalke-y-unión-berlín-el-lado-oscuro-de-la-bundesliga/a-80001685?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-20T14:29:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "fe0a72d1cf1bf759",
-      "titulo": "Verónica Alcocer responde a Eva Ferrer por polémica de contratos del proyecto de cocinas: “Tergiversó ante la Procuraduría”",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/veronica-alcocer-responde-eva-ferrer-polemica-contratos-proyecto-cocinas-FM43836289",
-      "fecha": "2026-11-20T14:28:43+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "fb1da383555f298c",
-      "titulo": "De la Espriella pide resultados a sus ministros y advierte sobre las elecciones de 2027 y 2030",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/economia/de-la-espriella-pide-resultados-a-sus-ministros-y-advierte-sobre-las-elecciones-de-2027-y-2030-4529235",
-      "fecha": "2026-11-20T14:24:35+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "2ae34f3d970c5862",
-      "titulo": "Protestas y huelgas en Europa contra el costo de vida y la militarización",
-      "categoria": "Internacional",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/protestas-y-huelgas-en-europa-contra-el-costo-de-vida-y-la-militarización/a-80003501?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-20T14:24:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "20df9bd8faef1ad7",
-      "titulo": "Bitcoin se aproxima a mínimos de julio de US$61.000 ante la fortaleza del dólar",
-      "categoria": "Economía",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/bitcoin-se-acerca-a-minimos-de-julio-de-us-61-000-ante-fortaleza-del-dolar-4529232",
-      "fecha": "2026-11-20T14:15:41+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "b7a73eb431c9abe7",
-      "titulo": "Mejores chollos del Black Friday de Amazon hoy, 20 de noviembre: seis productos con descuentos de hasta un 65%",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/seleccion/mejores-chollos-black-friday-amazon-hoy-20-noviembre-seis-productos-descuentos-65",
-      "fecha": "2026-11-20T14:15:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "3d3955ff90f5114b",
-      "titulo": "Llegada de León XIV a Perú dejó derrama económico de US$198 millones",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/llegada-de-leon-xiv-a-peru-dejo-derrama-economico-de-us-198-millones-4529241",
-      "fecha": "2026-11-20T14:14:43+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "03b95f5112945de6",
-      "titulo": "Toques de queda, 'manuales de conducta' y extorsión: el drama en seis pueblos del Oriente antioqueño por la guerra entre grupos armados ilegales",
-      "categoria": "Internacional",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/medellin/toques-de-queda-manuales-de-conducta-y-extorsion-el-drama-en-seis-pueblos-del-oriente-antioqueno-por-la-guerra-entre-grupos-armados-ilegales-3602674",
-      "fecha": "2026-11-20T14:13:50+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "b8f3f6e842b60f9c",
-      "titulo": "Pacto pidió a Verónica Estrada renunciar a su curul por títulos falsos",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/en-vivo/pacto-pidio-a-veronica-estrada-renunciar-a-su-curul-por-titulos-falsos/",
-      "fecha": "2026-11-20T14:11:18+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "f2d71f5b3689327d",
-      "titulo": "Atentaron contra dos comercios en Barrancabermeja: se presume que se habría dado por extorsión y autoridades buscan a los responsables",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/santander/atentaron-contra-dos-comercios-en-barrancabermeja-se-presume-que-se-habria-dado-por-extorsion-y-autoridades-buscan-a-los-responsables-3602676",
-      "fecha": "2026-11-20T14:11:03+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "bd945b81b1e968b3",
-      "titulo": "Black Friday y Navidad ponen en riesgo el ahorro de los colombianos: el 88 % reconoce este mal hábito",
-      "categoria": "Colombia",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/finanzas/black-friday-y-navidad-ponen-en-riesgo-el-ahorro-de-los-colombianos-el-88-reconoce-este-habito-506750",
-      "fecha": "2026-11-20T14:09:26+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "9c5e1a6783ed1999",
-      "titulo": "Deicy Jiménez le responde a Petro y dice que no se retractará de su denuncia: “no permitiré que me silencien”",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/deicy-jimenez-le-responde-a-petro-y-dice-que-no-se-retractara-de-su-denuncia-no-permitire-que-me-silencien-DM43832265",
-      "fecha": "2026-11-20T14:07:52+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "349a518e97564232",
-      "titulo": "Crece riesgo de racionamiento de energía en Bogotá: la demanda estaría a punto de superar la oferta",
-      "categoria": "Colombia",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/regiones/crece-riesgo-de-racionamiento-de-energia-en-bogota-la-demanda-estaria-a-punto-de-superar-la-oferta-506755",
-      "fecha": "2026-11-20T14:03:17+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "18c6831133ae7b0c",
-      "titulo": "Moscú desmiente al yerno de Trump: “Cualquier pseudomembresía de Ucrania en la OTAN es inaceptable para Rusia”",
-      "categoria": "Internacional",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/internacional/2026-11-20/moscu-desmiente-al-yerno-de-trump-cualquier-pseudomembresia-de-ucrania-en-la-otan-es-inaceptable-para-rusia.html",
-      "fecha": "2026-11-20T14:02:05+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "4e58ae24a5b6f0c4",
-      "titulo": "Atentado en CAI del oeste de Cali: ¿reorganización de milicias urbanas o tácticas guerrilleras en manos de bandas locales?",
-      "categoria": "Cali",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/cali/atentado-en-cai-del-oeste-de-cali-reorganizacion-de-milicias-urbanas-o-tacticas-guerrilleras-en-manos-de-bandas-locales-3602671",
-      "fecha": "2026-11-20T13:56:04+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "b109cfad912ff38b",
-      "titulo": "Zulu y GouPayments lanzan red de pagos empresariales por hasta $250 millones",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/finanzas/zulu-y-goupayments-lanzan-red-de-pagos-empresariales-por-hasta-250-millones-4529184",
-      "fecha": "2026-11-20T13:54:28+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "b91ac48dba77dc55",
-      "titulo": "Metro Bank de Jaime Gilinski despertó el interés de dos posibles compradores",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/finanzas/metro-bank-de-jaime-gilinski-desperto-el-interes-de-dos-posibles-compradores-4529218",
-      "fecha": "2026-11-20T13:53:20+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "d7c8abaeee99f994",
-      "titulo": "Malasia retira el comunicado en el que anunciaba el traslado de 10.000 rohinyás a Turquía",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/internacional/2026-11-20/turquia-acogera-a-10000-rohinyas-reubicados-desde-malasia.html",
-      "fecha": "2026-11-20T13:53:15+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "ff4109cda2865bfd",
-      "titulo": "De la Espriella envió carta a ministro pidiéndole que “corrija inmediatamente” y “mostrar resultados”: ¿viene remezón?",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/carta-abelardo-fabio-arjona-ministro-ambiente-que-dice-GM43832325",
-      "fecha": "2026-11-20T13:52:31+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "dd9e0f1aa9970d49",
-      "titulo": "Proyecto permitiría que menores desde los 14 años participen en cuadrillas taurinas",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/ocio/proyecto-de-decreto-permitiria-que-menores-desde-los-14-anos-participen-en-cuadrillas-taurinas-4529153",
-      "fecha": "2026-11-20T13:47:28+00:00",
       "imagen": ""
     }
   ],
@@ -608,7 +608,7 @@
       "nombre": "El País Colombia",
       "url": "https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/section/america-colombia/portada",
       "estado": "correcto",
-      "titulares": 35
+      "titulares": 34
     },
     {
       "nombre": "Diario Occidente",
