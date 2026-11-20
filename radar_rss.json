@@ -1,6 +1,213 @@
 {
-  "ultima_actualizacion": "2026-11-20T18:05:20.973534+00:00",
+  "ultima_actualizacion": "2026-11-20T19:10:05.061051+00:00",
   "titulares_rss": [
+    {
+      "id": "546ddb6d22c340f8",
+      "titulo": "A 10 días de iniciar la temporada seca, los embalses están en 76,87% de su capacidad",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/economia/a-10-dias-de-iniciar-la-temporada-seca-los-embalses-estan-en-76-87-de-su-capacidad-4529345",
+      "fecha": "2026-11-20T19:04:29+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "4debc9a28a988176",
+      "titulo": "El precio del gas importado se dispara más de 125% en nueve meses y supera los US$31/mbtu",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/economia/el-precio-del-gas-importado-se-dispara-mas-de-125-en-nueve-meses-y-supera-los-us-31-mbtu-4529316",
+      "fecha": "2026-11-20T19:02:59+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "f9a1b99958ee5f83",
+      "titulo": "Belén de Umbría celebra sus Fiestas de la Paisanidad",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/noticias/belen-de-umbria-celebra-sus-fiestas-de-la-paisanidad/",
+      "fecha": "2026-11-20T19:00:03+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "da833a5ef81e48b2",
+      "titulo": "Bancolombia presenta fallas en plataformas digitales: esto se sabe",
+      "categoria": "Economía",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/bancolombia-informa-fallas-plataformas-digitales-queja-usuarios-KK43853584",
+      "fecha": "2026-11-20T18:59:44+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "47f8d62fc407e8c5",
+      "titulo": "Colombia: una reforma fiscal que desata el descontento",
+      "categoria": "Colombia",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/colombia-una-reforma-fiscal-que-desata-el-descontento/a-80006080?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-20T18:59:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "7ad845ad9de81428",
+      "titulo": "Cali destina 293.081 millones de pesos tras el terremoto: anuncia alivios a damnificados en el pago del predial y reporta 26 edificaciones demolidas",
+      "categoria": "Cali",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/cali/cali-destina-293-081-millones-de-pesos-tras-el-terremoto-anuncia-alivios-a-damnificados-en-el-pago-del-predial-y-reporta-26-edificaciones-demolidas-3602797",
+      "fecha": "2026-11-20T18:54:30+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "48b648817c695b55",
+      "titulo": "Las iniciativas del sector privado y público para la reconstrucción del Valle tras el sismo",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/empresas/las-iniciativas-del-sector-privado-y-publico-para-la-reconstruccion-del-valle-tras-el-sismo-4529398",
+      "fecha": "2026-11-20T18:52:29+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "ccfe97c25b8093ad",
+      "titulo": "Sebastián Montoya cambia de equipo en la Fórmula 2: esta será su nueva escudería en 2027",
+      "categoria": "Deportes",
+      "fuente": "La FM Deportes",
+      "url": "https://www.lafm.com.co/deportes/sebastian-montoya-cambia-equipo-formula-2-2027-417824",
+      "fecha": "2026-11-20T18:51:40+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "6be1aa04be508c2a",
+      "titulo": "Ungrd invirtió más de $920 millones en la entrega de 137 equipos tecnológicos para Ideam",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/economia/ungrd-invirtio-mas-de-920-millones-en-la-entrega-de-137-equipos-tecnologicos-para-al-ideam-4529422",
+      "fecha": "2026-11-20T18:50:26+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "377e2a6e4e4a36b1",
+      "titulo": "En qué consiste y a quién beneficia el acuerdo de \"reinicio\" de las relaciones entre Reino Unido y la Unión Europea tras el Brexit",
+      "categoria": "Internacional",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/cvp86lp2rd24o?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-20T18:48:26+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "151f9eca5c403639",
+      "titulo": "Sale Adriana Guillén de Asocajas tras presión del gobierno",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/en-vivo/sale-adriana-guillen-de-asocajas-tras-presion-del-gobierno/",
+      "fecha": "2026-11-20T18:46:30+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "afac253b26b2273d",
+      "titulo": "Solo durante este fin de semana: Dyson tira el precio de varios de sus dispositivos estrella",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/seleccion/solo-durante-este-fin-semana-dyson-tira-precio-varios-sus-dispositivos-estrella",
+      "fecha": "2026-11-20T18:46:21+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "12a41d4a8215c9b4",
+      "titulo": "Bogotá activa plan de ahorro de energía por El Niño: estas son las medidas que se adoptarán",
+      "categoria": "Colombia",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/regiones/bogota-activa-plan-de-ahorro-de-energia-por-el-nino-estas-son-las-medidas-que-se-adoptaran-506778",
+      "fecha": "2026-11-20T18:43:07+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "56b3044998ebfb09",
+      "titulo": "DSPORTS transmite la Copa Mundial Sub-17 de la FIFA: fechas, rivales y dónde ver los partidos de Colombia",
+      "categoria": "Deportes",
+      "fuente": "La FM Deportes",
+      "url": "https://www.lafm.com.co/deportes/dsports-transmite-copa-mundial-sub17-fifa-partidos-de-colombia-417822",
+      "fecha": "2026-11-20T18:43:04+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "be2194bad600b861",
+      "titulo": "José Arturo Medina, juez en Arauca que recibió críticas en redes por su apariencia física, respondió a comentarios: 'Que reconozcan mi trabajo'",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/jose-arturo-medina-juez-en-arauca-que-recibio-criticas-en-redes-por-su-apariencia-fisica-respondio-a-comentarios-que-reconozcan-mi-trabajo-3602783",
+      "fecha": "2026-11-20T18:37:20+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "3c61b2d2fc8759af",
+      "titulo": "Jornada de adopción de gatos en Cali: ¡conoce a tu nuevo compañero de vida!",
+      "categoria": "Cali",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/cali/jornada-adopcion-gatos-cali-20-11-2026/",
+      "fecha": "2026-11-20T18:35:38+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "f25ad5d184c4cb41",
+      "titulo": "BECA LIBRO A LIBRO",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/punto-final/beca-libro-a-libro/",
+      "fecha": "2026-11-20T18:30:10+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "f0e27877a9cd18cd",
+      "titulo": "Cundinamarca busca en la Milagro Week inversionistas para el RegioTram del Norte, un tren de $17,4 billones",
+      "categoria": "Economía",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/infraestructura/cundinamarca-busca-en-la-milagro-week-inversionistas-para-el-regiotram-del-norte-un-tren-de-17-4-billones-506739",
+      "fecha": "2026-11-20T18:30:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "1a3b46af34184c14",
+      "titulo": "Expertos advierten una desaceleración económica; alertan sobre efectos en el comercio",
+      "categoria": "Valle del Cauca",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/colombia/expertos-advierten-desaceleracion-economica-20-11-2026/",
+      "fecha": "2026-11-20T18:22:34+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "cdd6b291ce9959ae",
+      "titulo": "Asesinan a un operador turístico de El Rodadero: se reavivan temores en el gremio, presionado y extorsionado por grupos armados en Santa Marta",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/asesinan-a-un-operador-turistico-de-el-rodadero-se-reavivan-temores-en-el-gremio-presionado-y-extorsionado-por-grupos-armados-en-santa-marta-3602793",
+      "fecha": "2026-11-20T18:20:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "dd722bc7331e6572",
+      "titulo": "El Supremo mantiene suspendido el voto a 163.000 nacionalizados por la ‘ley de nietos’ aunque ahora vivan en España",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/espana/elecciones-generales/2026-11-20/el-supremo-mantiene-suspendido-el-voto-a-163000-nacionalizados-por-la-ley-de-nietos-aunque-ahora-vivan-en-espana.html",
+      "fecha": "2026-11-20T18:08:50+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "a8775baf3ba9b2aa",
+      "titulo": "El ataque al puente de Crimea y sus consecuencias",
+      "categoria": "Internacional",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/el-ataque-al-puente-de-crimea-y-sus-consecuencias/a-80006181?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-20T18:07:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "0650bd19e23dc166",
+      "titulo": "Video | Abandonaron restos humanos y panfletos con amenazas al Inpec frente a la Cárcel Modelo de Barranquilla: “Esto es solo una advertencia”",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/video-restos-humanos-panfletos-amenazas-frente-inpec-carcel-modelo-barranquilla-BL43846887",
+      "fecha": "2026-11-20T18:06:49+00:00",
+      "imagen": ""
+    },
     {
       "id": "a1efd60c20d73796",
       "titulo": "Diario del gobierno de Abelardo: el presidente vs. Petro tras las marchas",
@@ -30,7 +237,7 @@
     },
     {
       "id": "39793627fee9eb24",
-      "titulo": "Peso colombiano, la emergente más devaluada en la jornada con una caída de 1,96%",
+      "titulo": "El peso colombiano es la moneda emergente más devaluada en la jornada",
       "categoria": "Colombia",
       "fuente": "La República",
       "url": "https://www.larepublica.co/finanzas/peso-colombiano-la-emergente-mas-devaluada-durante-la-jornada-con-una-caida-de-1-96-4529393",
@@ -39,7 +246,7 @@
     },
     {
       "id": "e738e0a1c75d55d4",
-      "titulo": "Davivienda y Proparco movilizan $400.000 millones para financiar proyectos sostenibles",
+      "titulo": "Davivienda y Proparco movilizan $400.000 millones para proyectos sostenibles",
       "categoria": "Colombia",
       "fuente": "La República",
       "url": "https://www.larepublica.co/finanzas/davivienda-y-proparco-movilizan-400-000-millones-para-financiar-proyectos-sostenibles-4529385",
@@ -318,7 +525,7 @@
     },
     {
       "id": "e1a154744fe93950",
-      "titulo": "Bancamía habilita créditos para reconstruir microempresas afectadas por el sismo",
+      "titulo": "Bancamía habilita créditos para reconstruir microempresas",
       "categoria": "Economía",
       "fuente": "La República",
       "url": "https://www.larepublica.co/finanzas/bancamia-habilita-creditos-para-reconstruir-microempresas-afectadas-por-el-sismo-4529349",
@@ -332,213 +539,6 @@
       "fuente": "La FM Actualidad",
       "url": "https://www.lafm.com.co/actualidad/racionamiento-energia-bogota-colombia-nivel-embalses-fenomeno-el-nino-ahorro-desconectar-aparatos-417806",
       "fecha": "2026-11-20T16:45:18+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "77618e033be8f76f",
-      "titulo": "El acuerdo francoalemán para la dirección del BCE coloca a Hernández de Cos a un paso de la presidencia",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/economia/2026-11-20/hernandez-de-cos-roza-la-presidencia-del-bce-tras-conocerse-los-candidatos-de-francia-y-alemania-a-la-direccion.html",
-      "fecha": "2026-11-20T16:42:05+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "b5862db2f664c452",
-      "titulo": "De La Espriella llamó la atención y fijó condiciones a sus ministros: impuestos, pauta oficial y viajes al exterior",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/gobierno/de-la-espriella-llamo-la-atencion-y-fijo-condiciones-a-sus-ministros-impuestos-pauta-oficial-y-viajes-al-exterior-506767",
-      "fecha": "2026-11-20T16:40:28+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "7adffef3b4bb6aa3",
-      "titulo": "Billeteras transforman el mercado de remesas y ganan terreno los dólares digitales",
-      "categoria": "Economía",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/finanzas/billeteras-transforman-el-mercado-de-remesas-y-ganan-terreno-los-dolares-digitales-4529326",
-      "fecha": "2026-11-20T16:39:25+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "e587497e98eaac5e",
-      "titulo": "Rusia lanza uno de los \"mayores ataques\" contra Ucrania desde el inicio de la invasión",
-      "categoria": "Internacional",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/rusia-lanza-uno-de-los-mayores-ataques-contra-ucrania-desde-el-inicio-de-la-invasión/a-80005745?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-20T16:38:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "6363fbd683acb676",
-      "titulo": "De la Espriella y Petro suben el tono de su confrontación",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/america-colombia/2026-11-20/de-la-espriella-y-petro-suben-el-tono-de-su-confrontacion.html",
-      "fecha": "2026-11-20T16:36:11+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "364bbe5f3c429b34",
-      "titulo": "Por fin llegó a Barranquilla el hincha de Boca que viajó en moto desde Buenos Aires: esto gastó en tiempo, kilómetros y dinero",
-      "categoria": "Deportes",
-      "fuente": "La FM Deportes",
-      "url": "https://www.lafm.com.co/deportes/hincha-boca-viaje-moto-llego-barranquilla-tiempo-kilometros-417804",
-      "fecha": "2026-11-20T16:34:27+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "7f88f7a5859b69a3",
-      "titulo": "OCDE prevé que el déficit de Colombia siga en 7,2 % del PIB en 2027 y pide extender el ajuste fiscal",
-      "categoria": "Colombia",
-      "fuente": "La FM Economía",
-      "url": "https://www.lafm.com.co/economia/ocde-preve-deficit-de-7-2-por-ciento-del-pib-en-colombia-hasta-2027-417803",
-      "fecha": "2026-11-20T16:34:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "c7123d9e108d7a9d",
-      "titulo": "Cali, Oiga, mire y lea",
-      "categoria": "Cali",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/opinion/columnistas/cali-oiga-mire-y-lea/",
-      "fecha": "2026-11-20T16:31:28+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "f9554fb6ce9fb433",
-      "titulo": "Barranquilla | Dos semanas sin Sonia y Kelly: familias piden intervención del Gobierno Nacional mientras persiste el misterio sobre su paradero",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/barranquilla/barranquilla-dos-semanas-sin-sonia-y-kelly-familias-piden-intervencion-del-gobierno-nacional-mientras-persiste-el-misterio-sobre-su-paradero-3602740",
-      "fecha": "2026-11-20T16:30:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "8db389433e8f5eec",
-      "titulo": "Por segunda vez, Abelardo se pasó de tiempo en alocución, dice la CRC",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/en-vivo/por-segunda-vez-abelardo-se-paso-de-tiempo-en-alocucion-dice-la-crc/",
-      "fecha": "2026-11-20T16:25:35+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "89e911d546c95440",
-      "titulo": "Cuidado con las ofertas del Black Friday: así puede descubrir si un descuento es falso",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/cuidado-con-las-ofertas-del-black-friday-asi-puede-descubrir-si-un-descuento-es-falso-506768",
-      "fecha": "2026-11-20T16:25:31+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "6e7d0740bae6b834",
-      "titulo": "Una ciudad inteligente es la que facilita la vida diaria",
-      "categoria": "Colombia",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/opinion/columnistas/una-ciudad-inteligente-es-la-que-facilita-la-vida-diaria/",
-      "fecha": "2026-11-20T16:17:12+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "cf69e4802a2f06a6",
-      "titulo": "PS Portal tiene hoy descuento y es una alternativa para seguir jugando a 'GTA VI' si tu tele está ocupada. O incluso si estás fuera de casa",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/seleccion/ps-portal-tiene-hoy-descuento-alternativa-para-seguir-jugando-a-gta-vi-tu-tele-esta-ocupada-incluso-estas-fuera-casa",
-      "fecha": "2026-11-20T16:16:27+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "207ef732ffd9d375",
-      "titulo": "María Carolina Hoyos recordó las cinco muertes violentas de su familia: “Mi mamá y Miguel están juntos en el cielo”",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/maria-carolina-hoyos-historias-miguel-uribe-muerte-mama-familiares-EL43842017",
-      "fecha": "2026-11-20T16:11:57+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "4865b4a625017d95",
-      "titulo": "La IA se toma las compras de Navidad en Colombia: el 53% planea usarla para elegir sus regalos",
-      "categoria": "Colombia",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/la-ia-se-toma-las-compras-de-navidad-en-colombia-el-53-planea-usarla-para-elegir-sus-regalos-506766",
-      "fecha": "2026-11-20T16:10:14+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "185b2af062676061",
-      "titulo": "El Reino Unido y la UE cierran un acuerdo post-Brexit tras superar el escollo de la movilidad juvenil",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/internacional/2026-11-20/el-reino-unido-y-la-ue-se-disponen-a-cerrar-un-acuerdo-limitado-de-movilidad-juvenil-que-supere-el-bloqueo-del-brexit.html",
-      "fecha": "2026-11-20T16:09:19+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "be650ddc3d82546d",
-      "titulo": "El Día del Psicólogo exige más autocrítica y menos homenajes",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/red-de-expertos/red-social/el-dia-del-psicologo-exige-mas-autocritica-y-menos-homenajes/",
-      "fecha": "2026-11-20T16:04:55+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "c76df8ea858605a3",
-      "titulo": "Navidad en modo esperanza: Cali ilumina el dolor del 10 de agosto con un homenaje que llega a las 22 comunas y los 15 corregimientos",
-      "categoria": "Cali",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/cali/navidad-en-modo-esperanza-cali-ilumina-el-dolor-del-10-de-agosto-con-un-homenaje-que-llega-a-las-22-comunas-y-los-15-corregimientos-3602729",
-      "fecha": "2026-11-20T16:04:50+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "6b4dd89aa2898e5a",
-      "titulo": "Tener cuenta bancaria no garantiza acceso al crédito para los colombianos",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/finanzas/tener-cuenta-bancaria-no-garantiza-acceso-al-credito-para-los-colombianos-4529239",
-      "fecha": "2026-11-20T16:01:37+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "e6ca390a6aa0c9d9",
-      "titulo": "Dinamarca celebró a una mujer de 112 años por ser su ciudadana más longeva. Luego descubrió su pasado nazi",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/magnet/dinamarca-celebro-a-mujer-112-anos-ser-su-ciudadana-longeva-luego-descubrio-su-pasado-nazi",
-      "fecha": "2026-11-20T16:00:27+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "76cb1b1ac7e959e7",
-      "titulo": "Influencer matemático Julioprofe no ha vuelto a las redes por amenazas contra él y su familia: ya hay denuncia",
-      "categoria": "Tendencias",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/julioprofe-denuncia-amenazas-contra-su-familia-BM43837732",
-      "fecha": "2026-11-20T15:59:57+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "1ede2dc393205b63",
-      "titulo": "Un estudio con más de 7.000 personas apunta a que la hora a la que comes importa más de lo que pensábamos",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/medicina-y-salud/estudio-7-000-personas-apunta-a-que-hora-a-que-comes-importa-que-pensabamos",
-      "fecha": "2026-11-20T15:56:43+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "ebcea9b393b514ba",
-      "titulo": "Acción de Anthropic borra repunte de salida a bolsa y toca mínimos de US$87",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/accion-de-anthropic-borra-repunte-de-salida-a-bolsa-y-toca-minimos-de-us-87-4529317",
-      "fecha": "2026-11-20T15:55:11+00:00",
       "imagen": ""
     }
   ],
@@ -590,7 +590,7 @@
       "nombre": "BBC Mundo",
       "url": "https://feeds.bbci.co.uk/mundo/rss.xml",
       "estado": "correcto",
-      "titulares": 32
+      "titulares": 33
     },
     {
       "nombre": "DW Español",
