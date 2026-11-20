@@ -1,6 +1,204 @@
 {
-  "ultima_actualizacion": "2026-11-20T20:09:08.842699+00:00",
+  "ultima_actualizacion": "2026-11-20T20:58:43.567592+00:00",
   "titulares_rss": [
+    {
+      "id": "3384ad2a786452f6",
+      "titulo": "Rappi devolverá 2% de las compras de usuarios Pro Black para gastar en viajes",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/empresas/rappi-devolvera-2-de-las-compras-de-usuarios-pro-black-para-gastar-en-viajes-4529358",
+      "fecha": "2026-11-20T20:54:20+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "188381650f10c044",
+      "titulo": "Cayó alias ‘Plan B’ en Barranquilla: la pista de una motocicleta que lo vincularía con los restos humanos dejados frente a la cárcel Modelo",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/barranquilla/cayo-alias-plan-b-en-barranquilla-la-pista-de-una-motocicleta-que-lo-vincularia-con-los-restos-humanos-dejados-frente-a-la-carcel-modelo-3602841",
+      "fecha": "2026-11-20T20:51:02+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "7b6c40bef826e582",
+      "titulo": "Alan Rentería Asprilla, director de Codechocó para culminar el período institucional 2024-2027",
+      "categoria": "Colombia",
+      "fuente": "Chocó 7 días",
+      "url": "https://choco7dias.com/alan-renteria-asprilla-director-de-codechoco-para-culminar-el-periodo-institucional-2024-2027/",
+      "fecha": "2026-11-20T20:48:28+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "880908a8bedb5b71",
+      "titulo": "Conmebol ratifica su \"firme apoyo\" a la reelección de Infantino en la FIFA",
+      "categoria": "Internacional",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/conmebol-ratifica-su-firme-apoyo-a-la-reelección-de-infantino-en-la-fifa/a-80007323?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-20T20:44:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "dbe6b7dfda6dae3e",
+      "titulo": "Bancolombia proyectó un crecimiento de 2,4% para la economía colombiana en 2027",
+      "categoria": "Economía",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/economia/bancolombia-proyecta-un-crecimiento-de-2-4-para-la-economia-colombiana-en-2027-4529539",
+      "fecha": "2026-11-20T20:41:05+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "3bb1918298a2ba97",
+      "titulo": "Rectificación sobre la cuenta “Muy enojado soy” en la nota “La red abelardista cercana a Carlos Suárez que ataca a La Silla”",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/en-vivo/rectificacion-sobre-la-cuenta-muy-enojado-soy-en-la-nota-la-red-abelardista-cercana-a-carlos-suarez-que-ataca-a-la-silla/",
+      "fecha": "2026-11-20T20:40:22+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "941741dc7a5873d2",
+      "titulo": "De la Espriella redobla su apuesta populista y se probará en la calle",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/silla-nacional/de-la-espriella-redobla-su-apuesta-populista-y-se-probara-en-la-calle/",
+      "fecha": "2026-11-20T20:37:07+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "3d1e615bc076cc86",
+      "titulo": "Otra vez, imagen que vincula a Sheinbaum con el M-19 fue hecha con IA",
+      "categoria": "Deportes",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/detector-de-mentiras/falso/otra-vez-imagen-que-vincula-a-sheinbaum-con-el-m-19-fue-hecha-con-ia/",
+      "fecha": "2026-11-20T20:34:50+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "4422e22a7969d15d",
+      "titulo": "Gustavo Petro, expresidente de Colombia, salió en defensa del alcalde de Barrancabermeja tras denuncia y polémica con Abelardo De La Espriella",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/santander/gustavo-petro-expresidente-de-colombia-salio-en-defensa-del-alcalde-de-barrancabermeja-tras-denuncia-y-polemica-con-abelardo-de-la-espriella-3602833",
+      "fecha": "2026-11-20T20:34:47+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "0922d1813c7c5796",
+      "titulo": "La final de la Sudamericana se mira por DIRECTV y DGO",
+      "categoria": "Deportes",
+      "fuente": "La FM Deportes",
+      "url": "https://www.lafm.com.co/deportes/final-sudamericana-partido-mineiro-boca-juniors-por-directv-dgo-417839",
+      "fecha": "2026-11-20T20:33:17+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "62c9f008a5aad1c8",
+      "titulo": "Se registran lluvias en Cali este viernes: reportan caída de árboles",
+      "categoria": "Cali",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/cali/registran-lluvias-cali-viernes-20-11-2026/",
+      "fecha": "2026-11-20T20:32:25+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "9f16128d7038f705",
+      "titulo": "WhatsApp prepara estados exclusivos para amigos cercanos",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/noticias/whatsapp-prepara-estados-exclusivos-para-amigos-cercanos/",
+      "fecha": "2026-11-20T20:30:13+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "3cf98b9b35830548",
+      "titulo": "Presidencia deberá entregar lista de invitados a posesión de Abelardo",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/en-vivo/presidencia-debera-entregar-lista-de-invitados-a-posesion-de-abelardo/",
+      "fecha": "2026-11-20T20:30:11+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "6c5cc9e2698fc7dd",
+      "titulo": "Supersociedades aplazó hasta marzo de 2027 la elección de la Junta Directiva de la CCB",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/empresas/supersociedades-aplazo-hasta-marzo-de-2027-la-eleccion-de-la-junta-directiva-de-la-ccb-4529536",
+      "fecha": "2026-11-20T20:25:08+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "e60ecaaac23479da",
+      "titulo": "Video | Contando las horas para la final de la Sudamericana: así quedó el 'Súpermetro' de Barranquilla tras casi un año de transformación",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/barranquilla/video-contando-las-horas-para-la-final-de-la-sudamericana-asi-quedo-el-supermetro-de-barranquilla-tras-casi-un-ano-de-transformacion-3602834",
+      "fecha": "2026-11-20T20:25:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "2c9bd649b7704148",
+      "titulo": "De la Espriella exige mayores resultados a sus ministros en una carta con tono de advertencia",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/america-colombia/2026-11-20/de-la-espriella-exige-mayores-resultados-a-sus-ministros-en-una-carta-con-tono-de-advertencia.html",
+      "fecha": "2026-11-20T20:24:02+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "45a3165210d934ca",
+      "titulo": "La generación Z en Alemania alza la voz: ¿por qué están tan enfadados?",
+      "categoria": "Internacional",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/la-generación-z-en-alemania-alza-la-voz-¿por-qué-están-tan-enfadados/a-80006583?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-20T20:21:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "1b0b422205f762f4",
+      "titulo": "De La Espriella inaugura la ampliación de la Autopista Norte para aliviar el trancón: pasará de 6 a 12 carriles",
+      "categoria": "Economía",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/infraestructura/de-la-espriella-inaugura-la-ampliacion-de-la-autopista-norte-para-aliviar-el-trancon-pasara-de-6-a-12-carriles-506785",
+      "fecha": "2026-11-20T20:20:10+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "672b36330d8907a7",
+      "titulo": "La Ministra de Cultura declara insubsistente a la directora de la Biblioteca Nacional tras fallo",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/ocio/ministra-de-cultura-declara-insubsistente-a-directora-de-la-biblioteca-nacional-tras-fallo-judicial-4529538",
+      "fecha": "2026-11-20T20:19:30+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "b4eccebbf9263809",
+      "titulo": "UBPD continúa recuperación de cuerpos en el cementerio de Siloé: ya son 54 los hallados",
+      "categoria": "Valle del Cauca",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/cali/ubpd-recuperacion-cuerpos-cementerio-siloe-20-11-2026/",
+      "fecha": "2026-11-20T20:18:49+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "3d7c8586424984a7",
+      "titulo": "De cuna de las Farc a sala de redacción: así cuentan la paz los niños 'reporteritos' de La Julia, Meta",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/de-cuna-de-las-farc-a-sala-de-redaccion-asi-cuentan-la-paz-los-ninos-reporteritos-de-la-julia-meta-3602820",
+      "fecha": "2026-11-20T20:18:15+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "d84469f864624d0e",
+      "titulo": "Bancolombia presenta fallas en sus plataformas digitales: usuarios reportan problemas",
+      "categoria": "Economía",
+      "fuente": "La FM Economía",
+      "url": "https://www.lafm.com.co/economia/bancolombia-tiene-fallas-en-plataformas-digitales-usuarios-reportan-417833",
+      "fecha": "2026-11-20T20:10:43+00:00",
+      "imagen": ""
+    },
     {
       "id": "0c620f5cf100c52e",
       "titulo": "Presencia de tropas de EE. UU. en Colombia requiere aval del Senado",
@@ -29,6 +227,15 @@
       "imagen": ""
     },
     {
+      "id": "83f10aed5a7425d3",
+      "titulo": "El código de conducta del mar de China naufraga ante los intereses de Pekín",
+      "categoria": "Internacional",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/el-código-de-conducta-del-mar-de-china-naufraga-ante-los-intereses-de-pekín/a-80006779?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-20T20:04:00+00:00",
+      "imagen": ""
+    },
+    {
       "id": "bf6c9e8ec5e2b77f",
       "titulo": "Video muestra una mujer en oficina de Brasil, no una EPS colombiana",
       "categoria": "Colombia",
@@ -47,6 +254,15 @@
       "imagen": ""
     },
     {
+      "id": "237d5eb7f72cb98a",
+      "titulo": "La OCDE pide a Colombia un ajuste fiscal creíble, más productividad y una mayor edad de pensión",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/america-colombia/2026-11-20/la-ocde-pide-a-colombia-un-ajuste-fiscal-creible-mas-productividad-y-una-mayor-edad-de-pension.html",
+      "fecha": "2026-11-20T19:51:19+00:00",
+      "imagen": ""
+    },
+    {
       "id": "38d46ccd9db34e0c",
       "titulo": "Black Friday de vivienda en Bogotá: habrá feria con subsidios, créditos y descuentos este fin de semana",
       "categoria": "Colombia",
@@ -57,7 +273,7 @@
     },
     {
       "id": "f11a4bcd9fa8ce0a",
-      "titulo": "De la Espriella se reunió con delegados en las juntas directivas de las cámaras de comercio",
+      "titulo": "De la Espriella se reunió con las las juntas directivas de las cámaras de comercio",
       "categoria": "Colombia",
       "fuente": "La República",
       "url": "https://www.larepublica.co/economia/de-la-espriella-se-reunio-con-delegados-en-las-juntas-directivas-de-las-camaras-de-comercio-4529496",
@@ -165,7 +381,7 @@
     },
     {
       "id": "546ddb6d22c340f8",
-      "titulo": "A 10 días de iniciar la temporada seca, los embalses están en 76,87% de su capacidad",
+      "titulo": "A 10 días de iniciar diciembre, los embalses aún están en 76,87% de su capacidad",
       "categoria": "Colombia",
       "fuente": "La República",
       "url": "https://www.larepublica.co/economia/a-10-dias-de-iniciar-la-temporada-seca-los-embalses-estan-en-76-87-de-su-capacidad-4529345",
@@ -174,7 +390,7 @@
     },
     {
       "id": "4debc9a28a988176",
-      "titulo": "El precio del gas importado se disparó más de 125% en nueve meses y supera los US$31/mbtu",
+      "titulo": "El precio del gas importado en el país se disparó más de 125% en nueve meses",
       "categoria": "Colombia",
       "fuente": "La República",
       "url": "https://www.larepublica.co/economia/el-precio-del-gas-importado-se-dispara-mas-de-125-en-nueve-meses-y-supera-los-us-31-mbtu-4529316",
@@ -324,222 +540,6 @@
       "url": "https://90minutos.co/colombia/expertos-advierten-desaceleracion-economica-20-11-2026/",
       "fecha": "2026-11-20T18:22:34+00:00",
       "imagen": ""
-    },
-    {
-      "id": "cdd6b291ce9959ae",
-      "titulo": "Asesinan a un operador turístico de El Rodadero: se reavivan temores en el gremio, presionado y extorsionado por grupos armados en Santa Marta",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/asesinan-a-un-operador-turistico-de-el-rodadero-se-reavivan-temores-en-el-gremio-presionado-y-extorsionado-por-grupos-armados-en-santa-marta-3602793",
-      "fecha": "2026-11-20T18:20:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "dd722bc7331e6572",
-      "titulo": "El Supremo mantiene suspendido el voto a 163.000 nacionalizados por la ‘ley de nietos’ aunque ahora vivan en España",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/espana/elecciones-generales/2026-11-20/el-supremo-mantiene-suspendido-el-voto-a-163000-nacionalizados-por-la-ley-de-nietos-aunque-ahora-vivan-en-espana.html",
-      "fecha": "2026-11-20T18:08:50+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "a8775baf3ba9b2aa",
-      "titulo": "El ataque al puente de Crimea y sus consecuencias",
-      "categoria": "Internacional",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/el-ataque-al-puente-de-crimea-y-sus-consecuencias/a-80006181?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-20T18:07:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "0650bd19e23dc166",
-      "titulo": "Video | Abandonaron restos humanos y panfletos con amenazas al Inpec frente a la Cárcel Modelo de Barranquilla: “Esto es solo una advertencia”",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/video-restos-humanos-panfletos-amenazas-frente-inpec-carcel-modelo-barranquilla-BL43846887",
-      "fecha": "2026-11-20T18:06:49+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "a1efd60c20d73796",
-      "titulo": "Diario del gobierno de Abelardo: el presidente vs. Petro tras las marchas",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/en-vivo/diario-del-gobierno-de-abelardo-el-presidente-vs-petro-tras-las-marchas/",
-      "fecha": "2026-11-20T18:01:34+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "574c9ec42463fa9c",
-      "titulo": "El chollo del Black Friday de Lidl (por menos de 20 euros): una máquina de palomitas ideal para las tardes de peli, sofá y manta",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/seleccion/chollo-black-friday-lidl-20-euros-maquina-palomitas-ideal-para-tardes-peli-sofa-manta",
-      "fecha": "2026-11-20T18:00:24+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "422fb55836e24c5d",
-      "titulo": "Llevamos años mirando si los suelos de caucho de los parques son tóxicos. La ciencia apunta a otro problema más inmediato: el calor",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/investigacion/llevamos-anos-mirando-suelos-caucho-parques-toxicos-ciencia-apunta-a-otro-problema-inmediato-calor",
-      "fecha": "2026-11-20T18:00:24+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "39793627fee9eb24",
-      "titulo": "El peso colombiano es la moneda emergente más devaluada en la jornada",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/finanzas/peso-colombiano-la-emergente-mas-devaluada-durante-la-jornada-con-una-caida-de-1-96-4529393",
-      "fecha": "2026-11-20T17:52:28+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "e738e0a1c75d55d4",
-      "titulo": "Davivienda y Proparco movilizan $400.000 millones para proyectos sostenibles",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/finanzas/davivienda-y-proparco-movilizan-400-000-millones-para-financiar-proyectos-sostenibles-4529385",
-      "fecha": "2026-11-20T17:50:30+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "3737d59c371239de",
-      "titulo": "Explosión en inmediaciones del CAI del Jardín Botánico dejó daños materiales; no hubo lesionados",
-      "categoria": "Valle del Cauca",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/cali/explosion-cai-jardin-botanico-20-11-2026/",
-      "fecha": "2026-11-20T17:50:23+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "7dc5c4e41f65d731",
-      "titulo": "Fiscalía imputará a exgerente de campaña de Carolina Corcho en consulta del Pacto por irregularidades en reposición de votos",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/fiscalia-imputacion-exgerente-campana-carolina-corcho-DL43842188",
-      "fecha": "2026-11-20T17:49:57+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "9fc6f426d52004d4",
-      "titulo": "Representante de Juanfer Quintero responde versiones sobre su regreso a River Plate",
-      "categoria": "Deportes",
-      "fuente": "La FM Deportes",
-      "url": "https://www.lafm.com.co/deportes/juanfer-quintero-medellin-rumores-regreso-river-plate-417815",
-      "fecha": "2026-11-20T17:48:40+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "038d57e55e8f368a",
-      "titulo": "Si buscas un portátil con buena pantalla, ligero y buen rendimiento, ASUS lo ha puesto en bandeja en su Black Friday",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/seleccion/buscas-portatil-buena-pantalla-ligero-buen-rendimiento-asus-ha-puesto-bandeja-su-black-friday",
-      "fecha": "2026-11-20T17:46:21+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "73888527f1190317",
-      "titulo": "Personería de Popayán no halló elementos prohibidos en procedimientos policiales tras disturbios cerca de la Universidad del Cauca",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/cali/personeria-de-popayan-no-hallo-elementos-prohibidos-en-procedimientos-policiales-tras-disturbios-cerca-de-la-universidad-del-cauca-3602771",
-      "fecha": "2026-11-20T17:44:04+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "ea2ab33b8045996a",
-      "titulo": "Medellín: “Fico” nombra a policía activo como secretario de Seguridad",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/en-vivo/medellin-fico-nombra-a-policia-activo-como-secretario-de-seguridad/",
-      "fecha": "2026-11-20T17:41:04+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "756ae310daeaf871",
-      "titulo": "Más de 1.000 tenderos piden eliminar los impuestos saludables y advierten efectos sobre 500.000 tiendas de barrio",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/mas-de-1-000-tenderos-piden-eliminar-los-impuestos-saludables-y-advierten-efectos-sobre-500-000-tiendas-de-barrio-506776",
-      "fecha": "2026-11-20T17:36:09+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "1d88cdbcc461e65c",
-      "titulo": "Activista Francisco Vera gana premio por defensa del medioambiente",
-      "categoria": "Cali",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/silla-amazonia/amazonia-en-breve/activista-francisco-vera-gana-premio-por-defensa-del-medioambiente/",
-      "fecha": "2026-11-20T17:34:45+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "9d85b980d8622ece",
-      "titulo": "Julio Profe denunció presunto acoso contra su hija mayor y pidió protección a las autoridades",
-      "categoria": "Valle del Cauca",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/cali/julio-profe-denuncio-presunto-acoso-contra-hija-20-11-22026/",
-      "fecha": "2026-11-20T17:34:19+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "fb32a0ef55b28b82",
-      "titulo": "Edicto Julia Nieves Quejada Quejada",
-      "categoria": "Colombia",
-      "fuente": "Chocó 7 días",
-      "url": "https://choco7dias.com/edicto-julia-nieves-quejada-quejada/",
-      "fecha": "2026-11-20T17:32:57+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "35ef642fb0f63420",
-      "titulo": "Dólar en Colombia tocó los $3.500 tras tres días de alzas: ¿seguirá subiendo?",
-      "categoria": "Economía",
-      "fuente": "La FM Economía",
-      "url": "https://www.lafm.com.co/economia/dolar-en-colombia-toca-los-3500-pesos-tras-tres-dias-de-alzas-417814",
-      "fecha": "2026-11-20T17:30:34+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "7b70ea97998e7afc",
-      "titulo": "Caen 12 de ‘Los Pepes’ y ‘Los Costeños’ : entre los capturados figuran sicarios y distribuidores de droga del suroccidente de Barranquilla",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/barranquilla/caen-12-de-los-pepes-y-los-costenos-entre-los-capturados-figuran-sicarios-y-distribuidores-de-droga-del-suroccidente-de-barranquilla-3602766",
-      "fecha": "2026-11-20T17:30:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "03597becf0294550",
-      "titulo": "La familia de un alpinista desaparecido en el monte Fuji ofrece US$75.000 de recompensa entre advertencias de las autoridades",
-      "categoria": "Internacional",
-      "fuente": "BBC Mundo",
-      "url": "https://www.bbc.com/mundo/articles/c3vg21zd7yx7o?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-20T17:28:17+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "7bb3d6aece61320c",
-      "titulo": "Los gritos de un reo durante su ejecución en Texas reavivan el debate sobre la pena de muerte en EE.UU.",
-      "categoria": "Internacional",
-      "fuente": "BBC Mundo",
-      "url": "https://www.bbc.com/mundo/articles/cq3dg820rre0o?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-20T17:20:55+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "db711400a113d642",
-      "titulo": "Colfondos cumple 35 años y destaca la importancia del ahorro pensional",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/noticias/colfondos-cumple-35-anos-y-destaca-la-importancia-del-ahorro-pensional/",
-      "fecha": "2026-11-20T17:19:22+00:00",
-      "imagen": ""
     }
   ],
   "estado_fuentes": [
@@ -553,7 +553,7 @@
       "nombre": "El Tiempo Cali",
       "url": "https://www.eltiempo.com/rss/colombia_cali.xml",
       "estado": "correcto",
-      "titulares": 6
+      "titulares": 8
     },
     {
       "nombre": "El Espectador",
@@ -596,7 +596,7 @@
       "nombre": "DW Español",
       "url": "https://rss.dw.com/rdf/rss-sp-all",
       "estado": "correcto",
-      "titulares": 25
+      "titulares": 26
     },
     {
       "nombre": "Xataka",
