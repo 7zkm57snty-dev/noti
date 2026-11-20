@@ -1,6 +1,177 @@
 {
-  "ultima_actualizacion": "2026-11-20T21:56:30.143007+00:00",
+  "ultima_actualizacion": "2026-11-20T22:55:53.207070+00:00",
   "titulares_rss": [
+    {
+      "id": "969bb79a1749ec82",
+      "titulo": "Un misil ruso impacta en Polonia mientras los aliados de Ucrania realizan ejercicios militares",
+      "categoria": "Internacional",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/cmkgkd79q9e6o?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-20T22:46:07+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "7ad845ad9de81428",
+      "titulo": "Cali destina 293.081 millones de pesos tras el terremoto: anuncia alivios a damnificados en el pago del predial y reporta 26 edificaciones demolidas",
+      "categoria": "Cali",
+      "fuente": "El Tiempo Cali",
+      "url": "https://www.eltiempo.com/colombia/cali/cali-destina-293-081-millones-de-pesos-tras-el-terremoto-anuncia-alivios-a-damnificados-en-el-pago-del-predial-y-reporta-26-edificaciones-demolidas-3602797",
+      "fecha": "2026-11-20T22:38:10+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "308f686c45d77d12",
+      "titulo": "Grupo Argos anunció venta de más de 35 millones de acciones ordinarias de Cementos Argos",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/finanzas/grupo-argos-vendio-mas-de-35-millones-de-acciones-ordinarias-de-cementos-argos-4529626",
+      "fecha": "2026-11-20T22:36:36+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "60e63daf4b082b82",
+      "titulo": "Videos | Suspenden partido de Independiente Medellín y Santa Fe por tormenta eléctrica en la capital antioqueña: reportan fuertes lluvias",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/deportes/futbol-colombiano/videos-suspenden-partido-de-independiente-medellin-y-santa-fe-por-tormenta-electrica-en-la-capital-antioquena-3602865",
+      "fecha": "2026-11-20T22:31:51+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "7d9d091263b9c96c",
+      "titulo": "Fingió estudiar en universidades clave por 10 años en Bogotá y Cali: ¿cómo operaba ‘Blue’, capturada por terrorismo y cuestionada por De La Espriella?",
+      "categoria": "Cali",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/cali/fingio-estudiar-en-universidades-clave-por-10-anos-en-bogota-y-cali-quien-es-blue-capturada-por-terrorismo-y-cuestionada-por-de-la-espriella-3602861",
+      "fecha": "2026-11-20T22:31:15+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "6533bf6254db94c3",
+      "titulo": "Contundente golpe al Clan del Golfo que quiere tomar el poder en Santander: seis presuntos integrantes fueron capturados en Puerto Wilches",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/santander/contundente-golpe-al-clan-del-golfo-que-quiere-tomar-el-poder-en-santander-seis-presuntos-integrantes-fueron-capturados-en-puerto-wilches-3602845",
+      "fecha": "2026-11-20T22:30:08+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "d7b7f2583ff94f65",
+      "titulo": "Procuraduría inhabilitó a Julián Caicedo, pareja de Ricardo Roa",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/en-vivo/procuraduria-inhabilito-a-julian-caicedo-pareja-de-ricardo-roa/",
+      "fecha": "2026-11-20T22:27:19+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "6482ca229f15b85c",
+      "titulo": "'Don Luis', el comerciante que hizo viral tras las elecciones, llevará productos de más de 36 familias campesinas",
+      "categoria": "Tendencias",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/gobierno/de-caqueta-a-todo-el-pais-don-luis-llevara-productos-de-mas-de-36-familias-campesinas-a-mercado-libre-506800",
+      "fecha": "2026-11-20T22:19:41+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "8d8cb8b7be671ea3",
+      "titulo": "Una tormenta eléctrica suspende Medellín vs Santa Fe y aprieta los horarios de los cuadrangulares",
+      "categoria": "Deportes",
+      "fuente": "La FM Deportes",
+      "url": "https://www.lafm.com.co/deportes/tormenta-electrica-medellin-santa-fe-liga-betplay-417855",
+      "fecha": "2026-11-20T22:18:44+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "9d63e88c00b0dffc",
+      "titulo": "Grupo Éxito abre su primer outlet en Bogotá con una inversión de $900 millones",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/empresas/grupo-exito-abre-su-primer-outlet-en-bogota-con-una-inversion-de-900-millones-4529383",
+      "fecha": "2026-11-20T22:16:44+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "6ff98cf5d1b0e620",
+      "titulo": "La ministra de Cultura declara insubsistente a la directora de la Biblioteca Nacional tras ser suspendida por su falta de experiencia",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/america-colombia/2026-11-20/la-ministra-de-cultura-declara-insubsistente-a-la-directora-de-la-biblioteca-nacional-tras-ser-suspendida-por-su-falta-de-experiencia.html",
+      "fecha": "2026-11-20T22:14:21+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "0a8fc78e659aba45",
+      "titulo": "Jornada de protestas generó afectaciones en varios corredores del suroccidente colombiano",
+      "categoria": "Colombia",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/regionales/cauca/bloqueos-en-el-cauca-y-valle-balance-vial-este-viernes/",
+      "fecha": "2026-11-20T22:10:33+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "8ed273dc361ae23e",
+      "titulo": "Las empresas nacen, crecen, maduran y mueren o se reinventan: la reflexión de Félix Liévano sobre el futuro de los negocios",
+      "categoria": "Economía",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/reinventarse-para-seguir/reinvencion-empresarial-relevo-fundadores-empresas-familiares-felix-lievano/",
+      "fecha": "2026-11-20T22:10:08+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "e812f86fc68b2727",
+      "titulo": "Gases de Occidente: de llevar gas a los hogares a impulsar la transformación energética de Cali",
+      "categoria": "Cali",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/reinventarse-para-seguir/gases-de-occidente-innovacion-transicion-energetica-cali/",
+      "fecha": "2026-11-20T22:00:11+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "76506b9c67a2cbd5",
+      "titulo": "Plan de Ordenamiento de Mocoa quedó en veremos",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/silla-amazonia/amazonia-en-breve/plan-de-ordenamiento-de-mocoa-quedo-en-veremos/",
+      "fecha": "2026-11-20T22:00:10+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "ce36db405fad48c4",
+      "titulo": "¿Por qué soñamos? Las emociones y recuerdos que pueden aparecer mientras dormimos",
+      "categoria": "Valle del Cauca",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/vida-moderna/que-son-los-suenos-mente-dormir-20-11-2026/",
+      "fecha": "2026-11-20T21:59:16+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "f95951ebbdffbe2c",
+      "titulo": "De patrullar las selvas del Caquetá a cantar en la Feria de Cali: la historia del soldado de Aguablanca que encontró su voz en el Ejército Nacional",
+      "categoria": "Cali",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/cali/de-patrullar-las-selvas-del-caqueta-a-cantar-en-la-feria-de-cali-la-historia-del-soldado-de-aguablanca-que-encontro-su-voz-en-el-ejercito-nacional-3602858",
+      "fecha": "2026-11-20T21:55:29+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "bb32c74fadad1dee",
+      "titulo": "¿El Tigre morderá a Uribe en el 2027?",
+      "categoria": "Colombia",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/politica/graffiti/dilema-del-centro-democratico-frente-al-gobierno-y-2027/",
+      "fecha": "2026-11-20T21:54:28+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "f6769a167a9ecb01",
+      "titulo": "El bienestar integral de los trabajadores, motor de la productividad",
+      "categoria": "Colombia",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/reinventarse-para-seguir/sostenibilidad-empresarial-del-valle-del-cauca-bienestar-comfandi/",
+      "fecha": "2026-11-20T21:51:44+00:00",
+      "imagen": ""
+    },
     {
       "id": "71e4a8c4091139a2",
       "titulo": "Salud mental infantil: así ayuda la Ludoteca móvil Guarida de Ilusiones",
@@ -29,11 +200,11 @@
       "imagen": ""
     },
     {
-      "id": "c98b58530dae6ab0",
-      "titulo": "Comunidades indígenas denuncian falta de garantías para hacer consulta previa del PND",
+      "id": "7271387207b7564f",
+      "titulo": "Pueblos indígenas denuncian falta de garantías para hacer consulta previa del PND",
       "categoria": "Colombia",
       "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/silla-amazonia/amazonia-en-breve/comunidades-indigenas-denuncian-falta-de-garantias-para-hacer-consulta-previa-del-pnd/",
+      "url": "https://www.lasillavacia.com/en-vivo/comunidades-indigenas-denuncian-falta-de-garantias-para-hacer-consulta-previa-del-pnd/",
       "fecha": "2026-11-20T21:44:33+00:00",
       "imagen": ""
     },
@@ -47,6 +218,15 @@
       "imagen": ""
     },
     {
+      "id": "04db353438ef6c00",
+      "titulo": "“El desafío de Cali no es volver a crecer como antes, sino cambiar su trayectoria económica”",
+      "categoria": "Cali",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/reinventarse-para-seguir/economia-de-cali-hacia-2038-agenda-productiva-camara-de-comercio/",
+      "fecha": "2026-11-20T21:41:51+00:00",
+      "imagen": ""
+    },
+    {
       "id": "4e178cce6755c1e6",
       "titulo": "Imágenes de Petro entrando a casas con Deicy Jiménez son montajes con IA",
       "categoria": "Colombia",
@@ -56,12 +236,21 @@
       "imagen": ""
     },
     {
-      "id": "bad3d80573dadafc",
-      "titulo": "Estados Unidos respalda plan de fumigación aérea en Colombia",
-      "categoria": "Internacional",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/noticias/estados-unidos-respalda-plan-de-fumigacion-aerea-en-colombia/",
-      "fecha": "2026-11-20T21:30:43+00:00",
+      "id": "0600e52680c3bcb2",
+      "titulo": "“No necesitamos un líder mesiánico para transformar a Cali”",
+      "categoria": "Cali",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/reinventarse-para-seguir/reinvencion-de-cali-recuperar-confianza-participacion-ciudadana-uav/",
+      "fecha": "2026-11-20T21:29:32+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "a39fbfd6ffb98c71",
+      "titulo": "Lo que cuesta reinventarse para seguir",
+      "categoria": "Colombia",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/reinventarse-para-seguir/empresarios-del-valle-del-cauca-lecciones-de-resiliencia/",
+      "fecha": "2026-11-20T21:28:44+00:00",
       "imagen": ""
     },
     {
@@ -89,6 +278,15 @@
       "fuente": "Portafolio",
       "url": "https://www.portafolio.co/economia/finanzas/volumen-de-operaciones-de-cfi-financial-group-se-duplica-y-marca-un-record-de-us-3-45-billones-506796",
       "fecha": "2026-11-20T21:24:08+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "0753d7968d3010e7",
+      "titulo": "Tour Colombia RCN Sistecrédito 2027 confirma nuevo equipo internacional con Santiago Buitrago entre sus figuras",
+      "categoria": "Internacional",
+      "fuente": "La FM Deportes",
+      "url": "https://www.lafm.com.co/deportes/tour-colombia-confirma-nsn-cycling-santiago-buitrago-417848",
+      "fecha": "2026-11-20T21:21:59+00:00",
       "imagen": ""
     },
     {
@@ -128,6 +326,15 @@
       "imagen": ""
     },
     {
+      "id": "5b08f7e4f009657a",
+      "titulo": "La portada que escribieron los empresarios en los 65 años del Diario Occidente",
+      "categoria": "Colombia",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/reinventarse-para-seguir/empresarios-colombianos-portada-colectiva-65-anos-diario-occidente/",
+      "fecha": "2026-11-20T21:13:39+00:00",
+      "imagen": ""
+    },
+    {
       "id": "e8a349aa1575fb91",
       "titulo": "Parque Nacional Natural Puracé descubre una nueva especie de rana; conoce a la Niceforonia Tempestuosa",
       "categoria": "Valle del Cauca",
@@ -137,21 +344,30 @@
       "imagen": ""
     },
     {
+      "id": "312d1470b10fb741",
+      "titulo": "De la máquina de escribir a la inteligencia artificial",
+      "categoria": "Tecnología",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/reinventarse-para-seguir/65-anos-del-diario-occidente-reinvencion-e-ia/",
+      "fecha": "2026-11-20T21:08:39+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "74cf8a0c976a1eb3",
+      "titulo": "El desplome de la IA lleva al Nasdaq a su peor semana en año y medio con Anthropic hundiéndose un 8,5%",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/economia/2026-11-20/la-segunda-jornada-en-bolsa-de-anthropic.html",
+      "fecha": "2026-11-20T21:06:58+00:00",
+      "imagen": ""
+    },
+    {
       "id": "4724495173519e9d",
       "titulo": "A 100 días del terremoto en Cali: 26 edificaciones han sido demolidas",
       "categoria": "Cali",
       "fuente": "90 Minutos",
       "url": "https://90minutos.co/cali/100-dias-terremoto-cali-26-edificaciones-demolidas-20-11-2026/",
       "fecha": "2026-11-20T21:06:36+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "2d904323b0d93b55",
-      "titulo": "Declaraciones de Petro generan respuesta de De la Espriella",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/noticias/declaraciones-de-petro-generan-respuesta-de-de-la-espriella/",
-      "fecha": "2026-11-20T21:00:55+00:00",
       "imagen": ""
     },
     {
@@ -170,6 +386,15 @@
       "fuente": "La República",
       "url": "https://www.larepublica.co/empresas/rappi-devolvera-2-de-las-compras-de-usuarios-pro-black-para-gastar-en-viajes-4529358",
       "fecha": "2026-11-20T20:54:20+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "7e0512835c84b4df",
+      "titulo": "El ICE detiene a una estudiante china de Princeton al volver de un congreso de neurociencia",
+      "categoria": "Internacional",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/us/migracion/2026-11-20/ice-detiene-a-una-estudiante-china-de-princeton-al-volver-de-un-congreso-de-neurociencia.html",
+      "fecha": "2026-11-20T20:52:24+00:00",
       "imagen": ""
     },
     {
@@ -263,15 +488,6 @@
       "imagen": ""
     },
     {
-      "id": "9f16128d7038f705",
-      "titulo": "WhatsApp prepara estados exclusivos para amigos cercanos",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/noticias/whatsapp-prepara-estados-exclusivos-para-amigos-cercanos/",
-      "fecha": "2026-11-20T20:30:13+00:00",
-      "imagen": ""
-    },
-    {
       "id": "3cf98b9b35830548",
       "titulo": "Presidencia deberá entregar lista de invitados a posesión de Abelardo",
       "categoria": "Colombia",
@@ -324,222 +540,6 @@
       "url": "https://www.portafolio.co/economia/infraestructura/de-la-espriella-inaugura-la-ampliacion-de-la-autopista-norte-para-aliviar-el-trancon-pasara-de-6-a-12-carriles-506785",
       "fecha": "2026-11-20T20:20:10+00:00",
       "imagen": ""
-    },
-    {
-      "id": "672b36330d8907a7",
-      "titulo": "La Ministra de Cultura declara insubsistente a la directora de la Biblioteca Nacional tras fallo",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/ocio/ministra-de-cultura-declara-insubsistente-a-directora-de-la-biblioteca-nacional-tras-fallo-judicial-4529538",
-      "fecha": "2026-11-20T20:19:30+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "b4eccebbf9263809",
-      "titulo": "UBPD continúa recuperación de cuerpos en el cementerio de Siloé: ya son 54 los hallados",
-      "categoria": "Valle del Cauca",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/cali/ubpd-recuperacion-cuerpos-cementerio-siloe-20-11-2026/",
-      "fecha": "2026-11-20T20:18:49+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "3d7c8586424984a7",
-      "titulo": "De cuna de las Farc a sala de redacción: así cuentan la paz los niños 'reporteritos' de La Julia, Meta",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/de-cuna-de-las-farc-a-sala-de-redaccion-asi-cuentan-la-paz-los-ninos-reporteritos-de-la-julia-meta-3602820",
-      "fecha": "2026-11-20T20:18:15+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "d84469f864624d0e",
-      "titulo": "Bancolombia presenta fallas en sus plataformas digitales: usuarios reportan problemas",
-      "categoria": "Economía",
-      "fuente": "La FM Economía",
-      "url": "https://www.lafm.com.co/economia/bancolombia-tiene-fallas-en-plataformas-digitales-usuarios-reportan-417833",
-      "fecha": "2026-11-20T20:10:43+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "0c620f5cf100c52e",
-      "titulo": "Presencia de tropas de EE. UU. en Colombia requiere aval del Senado",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/noticias/presencia-de-tropas-de-ee-uu-en-colombia-requiere-aval-del-senado/",
-      "fecha": "2026-11-20T20:07:54+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "4fb0620aae7aacb0",
-      "titulo": "Fiscalía imputará a Nelson Linares, gerente de la campaña de Carolina Corcho",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/en-vivo/fiscalia-imputara-a-nelson-linares-gerente-de-la-campana-de-carolina-corcho/",
-      "fecha": "2026-11-20T20:07:01+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "91367737ce4fda05",
-      "titulo": "Ampliación de la autopista Norte en Bogotá: esta es la fecha que Galán anunció para terminar las obras",
-      "categoria": "Colombia",
-      "fuente": "La FM Actualidad",
-      "url": "https://www.lafm.com.co/actualidad/ampliacion-norte-de-bogota-fecha-de-terminacion-galan-confirma-417832",
-      "fecha": "2026-11-20T20:04:47+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "83f10aed5a7425d3",
-      "titulo": "El código de conducta del mar de China naufraga ante los intereses de Pekín",
-      "categoria": "Internacional",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/el-código-de-conducta-del-mar-de-china-naufraga-ante-los-intereses-de-pekín/a-80006779?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-20T20:04:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "bf6c9e8ec5e2b77f",
-      "titulo": "Video muestra una mujer en oficina de Brasil, no una EPS colombiana",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/detector-de-mentiras/falso/video-muestra-una-mujer-en-oficina-de-brasil-no-una-eps-colombiana/",
-      "fecha": "2026-11-20T20:02:01+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "fce35c87a9e46fd7",
-      "titulo": "Colombia entra en un período de estanflación",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/red-de-expertos/red-social/colombia-entra-en-un-periodo-de-estanflacion/",
-      "fecha": "2026-11-20T20:00:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "bf0c12eebe38c8dc",
-      "titulo": "\"Cumplí mi palabra\": presidente entregó vivienda a niña que perdió su casa en el terremoto de Cali",
-      "categoria": "Cali",
-      "fuente": "La FM Actualidad",
-      "url": "https://www.lafm.com.co/actualidad/presidente-entrego-vivienda-a-nina-que-perdio-su-casa-en-terremoto-de-cali-417834",
-      "fecha": "2026-11-20T19:57:15+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "237d5eb7f72cb98a",
-      "titulo": "La OCDE pide a Colombia un ajuste fiscal creíble, más productividad y una mayor edad de pensión",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/america-colombia/2026-11-20/la-ocde-pide-a-colombia-un-ajuste-fiscal-creible-mas-productividad-y-una-mayor-edad-de-pension.html",
-      "fecha": "2026-11-20T19:51:19+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "38d46ccd9db34e0c",
-      "titulo": "Black Friday de vivienda en Bogotá: habrá feria con subsidios, créditos y descuentos este fin de semana",
-      "categoria": "Colombia",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/infraestructura/black-friday-de-vivienda-en-bogota-habra-feria-con-subsidios-creditos-y-descuentos-este-fin-de-semana-506784",
-      "fecha": "2026-11-20T19:48:50+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "f11a4bcd9fa8ce0a",
-      "titulo": "De la Espriella se reunió con las las juntas directivas de las cámaras de comercio",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/economia/de-la-espriella-se-reunio-con-delegados-en-las-juntas-directivas-de-las-camaras-de-comercio-4529496",
-      "fecha": "2026-11-20T19:47:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "37f8d44a0de4b52a",
-      "titulo": "Vuelve el bloqueo a la vía Panamericana, en el Cauca: atacan con artefactos incendiarios un campamento de un concesionario vial en Cajibío",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/cali/vuelve-el-bloqueo-a-la-via-panamericana-en-el-norte-del-cauca-atacan-con-artefactos-incendiarios-un-campamento-de-un-concesionario-vial-en-cajibio-3602806",
-      "fecha": "2026-11-20T19:38:39+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "f0e27877a9cd18cd",
-      "titulo": "Cundinamarca salió a buscar capital extranjero para RegioTram del Norte, el tren que conectaría Bogotá y la Sabana",
-      "categoria": "Colombia",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/infraestructura/cundinamarca-busca-en-la-milagro-week-inversionistas-para-el-regiotram-del-norte-un-tren-de-17-4-billones-506739",
-      "fecha": "2026-11-20T19:36:47+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "b1cc63f9c3db7d29",
-      "titulo": "Freidora de aire y olla multifunción: este electrodoméstico 10 en 1 de Ninja es perfecto para cocinas pequeñas y un chollo hoy",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/seleccion/freidora-aire-olla-multifuncion-este-electrodomestico-10-1-ninja-perfecto-para-cocinas-pequenas-chollo-hoy",
-      "fecha": "2026-11-20T19:30:22+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "7b819e2b5bfb1db7",
-      "titulo": "Anthropic arrasa en su entrada en bolsa y marca un hito para la IA",
-      "categoria": "Internacional",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/anthropic-arrasa-en-su-entrada-en-bolsa-y-marca-un-hito-para-la-ia/a-80006786?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-20T19:28:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "0ec060962e45d1f6",
-      "titulo": "Final de la Copa Sudamericana entre Boca Juniors y Atlético Mineiro incrementa la venta de camisetas en Barranquilla un 70 %",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/barranquilla/final-de-la-copa-sudamericana-entre-boca-juniors-y-atletico-mineiro-incrementa-la-venta-de-camisetas-en-barranquilla-un-3602685",
-      "fecha": "2026-11-20T19:22:21+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "77dec59b36c1de3d",
-      "titulo": "Seguros Mundial recibe sello ambiental por sus iniciativas de sostenibilidad",
-      "categoria": "Deportes",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/finanzas/seguros-mundial-recibe-sello-ambiental-por-sus-iniciativas-de-sostenibilidad-4529470",
-      "fecha": "2026-11-20T19:19:28+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "27b98c5c63d1fc1a",
-      "titulo": "Ocde alerta por el deterioro fiscal y la debilidad de la inversión en Colombia",
-      "categoria": "Colombia",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/ocde-alerta-por-el-deterioro-fiscal-y-la-debilidad-de-la-inversion-en-colombia-506771",
-      "fecha": "2026-11-20T19:16:59+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "ba2c136d655d944e",
-      "titulo": "Dimayor y 16 clubes se libran de multas por más de $8.000 millones: SIC archivó investigación",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/dimayor-y-16-clubes-se-libran-de-multas-por-mas-de-8-000-millones-sic-archivo-investigacion-506781",
-      "fecha": "2026-11-20T19:16:13+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "2cc8a9f01e40b3d9",
-      "titulo": "Hinchas de Boca y Mineiro, la sensación de las calles en Barranquilla: el Gran Malecón concentra la previa de la final sudamericana",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/barranquilla/hinchas-de-boca-y-mineiro-la-sensacion-de-las-calles-en-barranquilla-el-gran-malecon-concentra-la-previa-de-la-final-sudamericana-3602804",
-      "fecha": "2026-11-20T19:15:28+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "e45c184a3733f349",
-      "titulo": "Bre-B recibe dos reconocimientos en los Best Branding Awards Colombia 2026",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/finanzas/bre-b-recibe-dos-reconocimientos-en-los-best-branding-awards-colombia-2026-4529480",
-      "fecha": "2026-11-20T19:15:27+00:00",
-      "imagen": ""
     }
   ],
   "estado_fuentes": [
@@ -553,7 +553,7 @@
       "nombre": "El Tiempo Cali",
       "url": "https://www.eltiempo.com/rss/colombia_cali.xml",
       "estado": "correcto",
-      "titulares": 8
+      "titulares": 7
     },
     {
       "nombre": "El Espectador",
@@ -590,7 +590,7 @@
       "nombre": "BBC Mundo",
       "url": "https://feeds.bbci.co.uk/mundo/rss.xml",
       "estado": "correcto",
-      "titulares": 33
+      "titulares": 32
     },
     {
       "nombre": "DW Español",
@@ -614,7 +614,7 @@
       "nombre": "Diario Occidente",
       "url": "https://occidente.co/feed/",
       "estado": "correcto",
-      "titulares": 11
+      "titulares": 10
     },
     {
       "nombre": "La FM Deportes",
@@ -656,8 +656,9 @@
     {
       "nombre": "El Diario — Pereira",
       "url": "https://www.eldiario.com.co/feed/",
-      "estado": "correcto",
-      "titulares": 35
+      "estado": "error",
+      "titulares": 0,
+      "detalle": "El feed no contiene entradas."
     },
     {
       "nombre": "Chocó 7 días",
