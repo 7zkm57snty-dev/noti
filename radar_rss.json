@@ -1,6 +1,33 @@
 {
-  "ultima_actualizacion": "2026-11-20T05:42:59.345853+00:00",
+  "ultima_actualizacion": "2026-11-20T06:42:41.174204+00:00",
   "titulares_rss": [
+    {
+      "id": "fa1288c971764d1c",
+      "titulo": "Cambios que propone el Congreso a Ley de Rescate la trasquilan casi a la mitad",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/silla-nacional/cambios-que-propone-el-congreso-a-ley-de-rescate-la-trasquilan-casi-a-la-mitad/",
+      "fecha": "2026-11-20T06:01:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "49800c4347f9fabe",
+      "titulo": "Fiscalía y Junta piden tres años y medio de cárcel para los dos presuntos autores de daños en Pintia, en Valladolid",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/magnet/fiscalia-junta-piden-tres-anos-medio-carcel-para-dos-presuntos-autores-danos-pintia-valladolid",
+      "fecha": "2026-11-20T06:00:23+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "a06029a65497279b",
+      "titulo": "La pelea por el carrito del Black Friday entre plataformas internacionales y grandes cadenas",
+      "categoria": "Internacional",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/consumo/la-pelea-por-el-carrito-del-black-friday-4529096",
+      "fecha": "2026-11-20T05:42:41+00:00",
+      "imagen": ""
+    },
     {
       "id": "aa8f907d411cf746",
       "titulo": "Una campeona mundial en Pereira",
@@ -101,6 +128,15 @@
       "imagen": ""
     },
     {
+      "id": "ad53735e5fea0d70",
+      "titulo": "Los tres poderosos del mundo hablan de paz",
+      "categoria": "Internacional",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/caja-fuerte/los-tres-poderosos-del-mundo-hablan-de-paz-4528703",
+      "fecha": "2026-11-20T05:01:56+00:00",
+      "imagen": ""
+    },
+    {
       "id": "314347e67bef36ec",
       "titulo": "Las empresas de Colombia están pagando el impuesto de renta más alto de América Latina",
       "categoria": "Economía",
@@ -115,15 +151,6 @@
       "categoria": "Colombia",
       "fuente": "La República",
       "url": "https://www.larepublica.co/analisis/felipe-jaramillo-velez-4190102/peligrosa-dependencia-4528984",
-      "fecha": "2026-11-20T05:01:56+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "ad53735e5fea0d70",
-      "titulo": "Los tres poderosos del mundo hablan de paz",
-      "categoria": "Internacional",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/caja-fuerte/los-tres-poderosos-del-mundo-hablan-de-paz-4528703",
       "fecha": "2026-11-20T05:01:56+00:00",
       "imagen": ""
     },
@@ -245,20 +272,20 @@
       "imagen": ""
     },
     {
-      "id": "315a7e30ecbbcc10",
-      "titulo": "Nuevas marcas y la batalla por el nuevo lujo automotor",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/especiales/automotores/nuevas-marcas-y-la-batalla-por-el-nuevo-lujo-automotor-4529039",
-      "fecha": "2026-11-20T05:01:26+00:00",
-      "imagen": ""
-    },
-    {
       "id": "75879c0fbe06bfc0",
       "titulo": "Los cables necesitan más que ingeniería",
       "categoria": "Colombia",
       "fuente": "La República",
       "url": "https://www.larepublica.co/analisis/alejandro-zambrano-3931030/los-cables-necesitan-mas-que-ingenieria-4528897",
+      "fecha": "2026-11-20T05:01:26+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "315a7e30ecbbcc10",
+      "titulo": "Nuevas marcas y la batalla por el nuevo lujo automotor",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/especiales/automotores/nuevas-marcas-y-la-batalla-por-el-nuevo-lujo-automotor-4529039",
       "fecha": "2026-11-20T05:01:26+00:00",
       "imagen": ""
     },
@@ -281,20 +308,20 @@
       "imagen": ""
     },
     {
-      "id": "00dac6d8f99ca83a",
-      "titulo": "La MLS aprende a convertir el fútbol en un negocio de activos",
-      "categoria": "Deportes",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/analisis/santiago-gutierrez-caceres-4070983/la-mls-aprende-a-convertir-el-futbol-en-un-negocio-de-activos-4528989",
-      "fecha": "2026-11-20T05:01:23+00:00",
-      "imagen": ""
-    },
-    {
       "id": "444efde1fdea564c",
       "titulo": "El agente IA que ya pide silla en la sala de juntas",
       "categoria": "Colombia",
       "fuente": "La República",
       "url": "https://www.larepublica.co/analisis/sonia-perdomo-andrade-3009454/el-agente-ia-que-ya-pide-silla-en-la-sala-de-juntas-4529049",
+      "fecha": "2026-11-20T05:01:23+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "00dac6d8f99ca83a",
+      "titulo": "La MLS aprende a convertir el fútbol en un negocio de activos",
+      "categoria": "Deportes",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/analisis/santiago-gutierrez-caceres-4070983/la-mls-aprende-a-convertir-el-futbol-en-un-negocio-de-activos-4528989",
       "fecha": "2026-11-20T05:01:23+00:00",
       "imagen": ""
     },
@@ -350,15 +377,6 @@
       "fuente": "La República",
       "url": "https://www.larepublica.co/consumo/fechas-para-aprovechar-las-promociones-de-las-aerolineas-4528517",
       "fecha": "2026-11-20T05:01:12+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "ebeeb90e7a34832d",
-      "titulo": "La economía milagro",
-      "categoria": "Economía",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/analisis/julian-moreno-baron-4392191/la-economia-milagro-4528902",
-      "fecha": "2026-11-20T05:01:11+00:00",
       "imagen": ""
     },
     {
@@ -521,24 +539,6 @@
       "fuente": "Chocó 7 días",
       "url": "https://choco7dias.com/del-choco-al-guaviare-la-trayectoria-de-un-sargento-que-encontro-su-vocacion-en-el-servicio/",
       "fecha": "2026-11-20T04:03:48+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "0ecfa0904a1a14f5",
-      "titulo": "Chocó pasó del primer lugar nacional en gestión de regalías a finales de 2025 a un desempeño deficiente en 2026",
-      "categoria": "Colombia",
-      "fuente": "Chocó 7 días",
-      "url": "https://choco7dias.com/choco-paso-del-primer-lugar-nacional-en-gestion-de-regalias-a-finales-de-2025-a-un-desempeno-deficiente-en-2026/",
-      "fecha": "2026-11-20T03:54:55+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "defe14a0a776497a",
-      "titulo": "“Había gente de la DNI el día que mataron a Miguel”: María Tarazona",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/magnicidio-miguel-uribe-funcionarios-dni-grabacion-escena-del-crimen-denuncia-maria-tarazona-LN43825538",
-      "fecha": "2026-11-20T03:08:15+00:00",
       "imagen": ""
     }
   ],
