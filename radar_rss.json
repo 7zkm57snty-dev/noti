@@ -1,6 +1,222 @@
 {
-  "ultima_actualizacion": "2026-11-20T17:06:27.740581+00:00",
+  "ultima_actualizacion": "2026-11-20T18:05:20.973534+00:00",
   "titulares_rss": [
+    {
+      "id": "a1efd60c20d73796",
+      "titulo": "Diario del gobierno de Abelardo: el presidente vs. Petro tras las marchas",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/en-vivo/diario-del-gobierno-de-abelardo-el-presidente-vs-petro-tras-las-marchas/",
+      "fecha": "2026-11-20T18:01:34+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "574c9ec42463fa9c",
+      "titulo": "El chollo del Black Friday de Lidl (por menos de 20 euros): una máquina de palomitas ideal para las tardes de peli, sofá y manta",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/seleccion/chollo-black-friday-lidl-20-euros-maquina-palomitas-ideal-para-tardes-peli-sofa-manta",
+      "fecha": "2026-11-20T18:00:24+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "422fb55836e24c5d",
+      "titulo": "Llevamos años mirando si los suelos de caucho de los parques son tóxicos. La ciencia apunta a otro problema más inmediato: el calor",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/investigacion/llevamos-anos-mirando-suelos-caucho-parques-toxicos-ciencia-apunta-a-otro-problema-inmediato-calor",
+      "fecha": "2026-11-20T18:00:24+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "39793627fee9eb24",
+      "titulo": "Peso colombiano, la emergente más devaluada en la jornada con una caída de 1,96%",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/finanzas/peso-colombiano-la-emergente-mas-devaluada-durante-la-jornada-con-una-caida-de-1-96-4529393",
+      "fecha": "2026-11-20T17:52:28+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "e738e0a1c75d55d4",
+      "titulo": "Davivienda y Proparco movilizan $400.000 millones para financiar proyectos sostenibles",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/finanzas/davivienda-y-proparco-movilizan-400-000-millones-para-financiar-proyectos-sostenibles-4529385",
+      "fecha": "2026-11-20T17:50:30+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "3737d59c371239de",
+      "titulo": "Explosión en inmediaciones del CAI del Jardín Botánico dejó daños materiales; no hubo lesionados",
+      "categoria": "Valle del Cauca",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/cali/explosion-cai-jardin-botanico-20-11-2026/",
+      "fecha": "2026-11-20T17:50:23+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "7dc5c4e41f65d731",
+      "titulo": "Fiscalía imputará a exgerente de campaña de Carolina Corcho en consulta del Pacto por irregularidades en reposición de votos",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/fiscalia-imputacion-exgerente-campana-carolina-corcho-DL43842188",
+      "fecha": "2026-11-20T17:49:57+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "9fc6f426d52004d4",
+      "titulo": "Representante de Juanfer Quintero responde versiones sobre su regreso a River Plate",
+      "categoria": "Deportes",
+      "fuente": "La FM Deportes",
+      "url": "https://www.lafm.com.co/deportes/juanfer-quintero-medellin-rumores-regreso-river-plate-417815",
+      "fecha": "2026-11-20T17:48:40+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "038d57e55e8f368a",
+      "titulo": "Si buscas un portátil con buena pantalla, ligero y buen rendimiento, ASUS lo ha puesto en bandeja en su Black Friday",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/seleccion/buscas-portatil-buena-pantalla-ligero-buen-rendimiento-asus-ha-puesto-bandeja-su-black-friday",
+      "fecha": "2026-11-20T17:46:21+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "73888527f1190317",
+      "titulo": "Personería de Popayán no halló elementos prohibidos en procedimientos policiales tras disturbios cerca de la Universidad del Cauca",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/cali/personeria-de-popayan-no-hallo-elementos-prohibidos-en-procedimientos-policiales-tras-disturbios-cerca-de-la-universidad-del-cauca-3602771",
+      "fecha": "2026-11-20T17:44:04+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "ea2ab33b8045996a",
+      "titulo": "Medellín: “Fico” nombra a policía activo como secretario de Seguridad",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/en-vivo/medellin-fico-nombra-a-policia-activo-como-secretario-de-seguridad/",
+      "fecha": "2026-11-20T17:41:04+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "756ae310daeaf871",
+      "titulo": "Más de 1.000 tenderos piden eliminar los impuestos saludables y advierten efectos sobre 500.000 tiendas de barrio",
+      "categoria": "Economía",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/mas-de-1-000-tenderos-piden-eliminar-los-impuestos-saludables-y-advierten-efectos-sobre-500-000-tiendas-de-barrio-506776",
+      "fecha": "2026-11-20T17:36:09+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "1d88cdbcc461e65c",
+      "titulo": "Activista Francisco Vera gana premio por defensa del medioambiente",
+      "categoria": "Cali",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/silla-amazonia/amazonia-en-breve/activista-francisco-vera-gana-premio-por-defensa-del-medioambiente/",
+      "fecha": "2026-11-20T17:34:45+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "9d85b980d8622ece",
+      "titulo": "Julio Profe denunció presunto acoso contra su hija mayor y pidió protección a las autoridades",
+      "categoria": "Valle del Cauca",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/cali/julio-profe-denuncio-presunto-acoso-contra-hija-20-11-22026/",
+      "fecha": "2026-11-20T17:34:19+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "fb32a0ef55b28b82",
+      "titulo": "Edicto Julia Nieves Quejada Quejada",
+      "categoria": "Colombia",
+      "fuente": "Chocó 7 días",
+      "url": "https://choco7dias.com/edicto-julia-nieves-quejada-quejada/",
+      "fecha": "2026-11-20T17:32:57+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "35ef642fb0f63420",
+      "titulo": "Dólar en Colombia tocó los $3.500 tras tres días de alzas: ¿seguirá subiendo?",
+      "categoria": "Economía",
+      "fuente": "La FM Economía",
+      "url": "https://www.lafm.com.co/economia/dolar-en-colombia-toca-los-3500-pesos-tras-tres-dias-de-alzas-417814",
+      "fecha": "2026-11-20T17:30:34+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "7b70ea97998e7afc",
+      "titulo": "Caen 12 de ‘Los Pepes’ y ‘Los Costeños’ : entre los capturados figuran sicarios y distribuidores de droga del suroccidente de Barranquilla",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/barranquilla/caen-12-de-los-pepes-y-los-costenos-entre-los-capturados-figuran-sicarios-y-distribuidores-de-droga-del-suroccidente-de-barranquilla-3602766",
+      "fecha": "2026-11-20T17:30:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "03597becf0294550",
+      "titulo": "La familia de un alpinista desaparecido en el monte Fuji ofrece US$75.000 de recompensa entre advertencias de las autoridades",
+      "categoria": "Internacional",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/c3vg21zd7yx7o?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-20T17:28:17+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "7bb3d6aece61320c",
+      "titulo": "Los gritos de un reo durante su ejecución en Texas reavivan el debate sobre la pena de muerte en EE.UU.",
+      "categoria": "Internacional",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/cq3dg820rre0o?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-20T17:20:55+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "db711400a113d642",
+      "titulo": "Colfondos cumple 35 años y destaca la importancia del ahorro pensional",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/noticias/colfondos-cumple-35-anos-y-destaca-la-importancia-del-ahorro-pensional/",
+      "fecha": "2026-11-20T17:19:22+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "d6f28417b230d2bd",
+      "titulo": "The Beatles estrenan nuevo video de 'In My Life' que rinde homenaje a Liverpool",
+      "categoria": "Internacional",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/the-beatles-estrenan-nuevo-video-de-in-my-life-que-rinde-homenaje-a-liverpool/a-80005996?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-20T17:18:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "1ecbd4cfe2556f98",
+      "titulo": "Barranquilla sería sede de una final de Copa Libertadores: esta es la propuesta y sus rivales",
+      "categoria": "Deportes",
+      "fuente": "La FM Deportes",
+      "url": "https://www.lafm.com.co/deportes/barranquilla-seria-sede-final-copa-libertadores-2028-417811",
+      "fecha": "2026-11-20T17:15:31+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "e997bc6c44a9e272",
+      "titulo": "Las bolsas mundiales caen por dudas sobre el auge de la inteligencia artificial",
+      "categoria": "Deportes",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/finanzas/las-bolsas-mundiales-caen-por-dudas-sobre-el-auge-de-la-inteligencia-artificial-4529334",
+      "fecha": "2026-11-20T17:14:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "7bf4e85411e0c32d",
+      "titulo": "En veremos, el Carnaval de Negros y Blancos en Pasto tras el paro declarado por más de un centenar de artistas que no han recibido los recursos",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/cali/en-veremos-el-carnaval-de-negros-y-blancos-en-pasto-tras-el-paro-declarado-por-mas-de-un-centenar-de-artistas-que-no-han-recibido-los-recursos-3602757",
+      "fecha": "2026-11-20T17:08:53+00:00",
+      "imagen": ""
+    },
     {
       "id": "e71e2116a2291341",
       "titulo": "¡Alias ‘El Zorro’ movía las fichas de la droga en Cordillera!",
@@ -8,6 +224,15 @@
       "fuente": "El Diario — Pereira",
       "url": "https://www.eldiario.com.co/judicial/alias-el-zorro-movia-las-fichas-de-la-droga-en-cordillera/",
       "fecha": "2026-11-20T17:06:22+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "878cb67333b666bc",
+      "titulo": "¿Hemos perdido la oportunidad de frenar el cambio climático?",
+      "categoria": "Internacional",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/¿hemos-perdido-la-oportunidad-de-frenar-el-cambio-climático/a-80005084?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-20T17:05:00+00:00",
       "imagen": ""
     },
     {
@@ -26,6 +251,24 @@
       "fuente": "La Silla Vacía",
       "url": "https://www.lasillavacia.com/red-de-expertos/red-social/desfinanciar-las-cajas-de-compensacion-no-es-la-solucion-para-la-crisis-de-salud/",
       "fecha": "2026-11-20T17:00:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "66394677efe86423",
+      "titulo": "La vuelta al mundo en 1,5 kilómetros: así será el viaje luminoso que Medellín tiene preparado con sus alumbrados navideños",
+      "categoria": "Internacional",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/medellin/la-vuelta-al-mundo-en-1-5-kilometros-asi-sera-el-viaje-luminoso-que-medellin-tiene-preparado-con-sus-alumbrados-navidenos-3602746",
+      "fecha": "2026-11-20T16:58:14+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "b5c43aad1121e3b7",
+      "titulo": "Rafael Nieto anunció denuncia penal contra Petro por discurso en Cali, donde hizo “invitación a derrocar al Gobierno”",
+      "categoria": "Cali",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/rafael-nieto-denuncia-penal-petro-discurso-cali-derrocar-gobierno-GL43846330",
+      "fecha": "2026-11-20T16:50:13+00:00",
       "imagen": ""
     },
     {
@@ -65,6 +308,15 @@
       "imagen": ""
     },
     {
+      "id": "4faff0c4b5f4d29b",
+      "titulo": "Alcalde Eder: solicite la asistencia militar",
+      "categoria": "Colombia",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/opinion/columnistas/alcalde-eder-solicite-la-asistencia-militar/",
+      "fecha": "2026-11-20T16:46:13+00:00",
+      "imagen": ""
+    },
+    {
       "id": "e1a154744fe93950",
       "titulo": "Bancamía habilita créditos para reconstruir microempresas afectadas por el sismo",
       "categoria": "Economía",
@@ -74,8 +326,17 @@
       "imagen": ""
     },
     {
+      "id": "92efd2a90cd58382",
+      "titulo": "¿Habrá racionamiento de energía en Bogotá? Galán advierte que hay riesgo y pide ahorrar electricidad",
+      "categoria": "Colombia",
+      "fuente": "La FM Actualidad",
+      "url": "https://www.lafm.com.co/actualidad/racionamiento-energia-bogota-colombia-nivel-embalses-fenomeno-el-nino-ahorro-desconectar-aparatos-417806",
+      "fecha": "2026-11-20T16:45:18+00:00",
+      "imagen": ""
+    },
+    {
       "id": "77618e033be8f76f",
-      "titulo": "Hernández de Cos roza la presidencia del BCE tras conocerse los candidatos de Francia y Alemania a la dirección",
+      "titulo": "El acuerdo francoalemán para la dirección del BCE coloca a Hernández de Cos a un paso de la presidencia",
       "categoria": "Colombia",
       "fuente": "El País Colombia",
       "url": "https://elpais.com/economia/2026-11-20/hernandez-de-cos-roza-la-presidencia-del-bce-tras-conocerse-los-candidatos-de-francia-y-alemania-a-la-direccion.html",
@@ -137,6 +398,15 @@
       "imagen": ""
     },
     {
+      "id": "c7123d9e108d7a9d",
+      "titulo": "Cali, Oiga, mire y lea",
+      "categoria": "Cali",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/opinion/columnistas/cali-oiga-mire-y-lea/",
+      "fecha": "2026-11-20T16:31:28+00:00",
+      "imagen": ""
+    },
+    {
       "id": "f9554fb6ce9fb433",
       "titulo": "Barranquilla | Dos semanas sin Sonia y Kelly: familias piden intervención del Gobierno Nacional mientras persiste el misterio sobre su paradero",
       "categoria": "Colombia",
@@ -164,12 +434,12 @@
       "imagen": ""
     },
     {
-      "id": "5694e1868ce2f3dd",
-      "titulo": "Fiscalía imputará a exgerente de campaña de Carolina Corcho en consulta del Pacto por irregularidades en reposición de votos",
+      "id": "6e7d0740bae6b834",
+      "titulo": "Una ciudad inteligente es la que facilita la vida diaria",
       "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/fiscalia-imputacion-exgerente-campana-carolina-corcho-consulta-pacto-por-irregularidades-reposicion-votos-DL43842188",
-      "fecha": "2026-11-20T16:20:35+00:00",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/opinion/columnistas/una-ciudad-inteligente-es-la-que-facilita-la-vida-diaria/",
+      "fecha": "2026-11-20T16:17:12+00:00",
       "imagen": ""
     },
     {
@@ -270,276 +540,6 @@
       "url": "https://www.larepublica.co/globoeconomia/accion-de-anthropic-borra-repunte-de-salida-a-bolsa-y-toca-minimos-de-us-87-4529317",
       "fecha": "2026-11-20T15:55:11+00:00",
       "imagen": ""
-    },
-    {
-      "id": "b7112e241080866e",
-      "titulo": "Asocajas aceptó la renuncia de Adriana Guillén, quien seguirá hasta el 30 de noviembre",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/empresas/asocajas-acepto-la-renuncia-de-adriana-guillen-quien-seguira-en-el-cargo-hasta-el-30-de-noviembre-4529319",
-      "fecha": "2026-11-20T15:51:58+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "a3853674973dd50e",
-      "titulo": "Escándalo por beneficios a adultos mayores en Bogotá: Contraloría advierte detrimento de $8.397 millones",
-      "categoria": "Colombia",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/regiones/escandalo-por-beneficios-a-adultos-mayores-en-bogota-contraloria-advierte-detrimento-de-8-397-millones-506763",
-      "fecha": "2026-11-20T15:50:40+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "495c042f20d62906",
-      "titulo": "Galán cuestiona gestión de gobiernos anteriores en retrasos de ampliación de la Autopista Norte: empezaron las obras",
-      "categoria": "Colombia",
-      "fuente": "La FM Actualidad",
-      "url": "https://www.lafm.com.co/actualidad/ampliacion-autopista-norte-alcalde-carlos-fernanado-galan-cuestiona-retrasos-proyecto-gustavo-petro-claudia-lopez-417797",
-      "fecha": "2026-11-20T15:48:14+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "4a93712b3df6b250",
-      "titulo": "Cundinamarca le apuesta a sus humedales: con una inversión de $8.000 millones busca recuperar los ecosistemas",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/regiones/cundinamarca-le-apuesta-a-sus-humedales-con-una-inversion-de-8-000-millones-busca-recuperar-los-ecosistemas-506759",
-      "fecha": "2026-11-20T15:47:26+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "50983949b397838d",
-      "titulo": "SIC prioriza investigación por contratos de $120.000 millones en Barrancabermeja: estas son las alertas",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/gobierno/sic-prioriza-investigacion-por-contratos-de-120-000-millones-en-barrancabermeja-estas-son-las-alertas-506761",
-      "fecha": "2026-11-20T15:46:38+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "8ba300a73d244cf0",
-      "titulo": "Un iPad Air con chip M1 y 5G por poco más de 400 euros: la alternativa inteligente de Back Market frente a comprar uno nuevo",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/seleccion/ipad-air-chip-m1-5g-poco-400-euros-alternativa-inteligente-back-market-frente-a-comprar-uno-nuevo",
-      "fecha": "2026-11-20T15:46:19+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "00f806b147777839",
-      "titulo": "Así será el alumbrado navideño en Cali este 2026: costo, zonas iluminadas e impacto económico",
-      "categoria": "Cali",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/cali/alumbrado-navideno-cali-2026-20-11-2026/",
-      "fecha": "2026-11-20T15:41:51+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "2830930069730fc0",
-      "titulo": "Dolor en Boyacá por muerte de tres mineros tras explosión en mina de carbón<b> </b>",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/tres-mineros-muertos-explosion-mina-carbon-boyaca-causas-OM43836877",
-      "fecha": "2026-11-20T15:37:34+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "7c715e77c99401d3",
-      "titulo": "Abandonaron restos humanos en inmediaciones de la cárcel Modelo en Barranquilla junto a graves amenazas contra funcionarios del Inpec",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/barranquilla/abandonaron-restos-humanos-en-inmediaciones-de-la-carcel-modelo-en-barranquilla-junto-a-graves-amenazas-contra-funcionarios-del-inpec-3602704",
-      "fecha": "2026-11-20T15:37:32+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "42d88ffcbf44024f",
-      "titulo": "Giro inesperado en el asesinato de una adolescente en Bucaramanga: su mejor amiga habría entregado la ubicación para que sicarios la atacaran",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/santander/giro-inesperado-en-el-asesinato-de-una-adolescente-en-bucaramanga-su-mejor-amiga-habria-entregado-la-ubicacion-para-que-sicarios-la-atacaran-3602715",
-      "fecha": "2026-11-20T15:31:58+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "94b284d4befff611",
-      "titulo": "Abelardo advierte a gabinete en carta donde exige corregir errores",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/en-vivo/abelardo-advierte-a-gabinete-en-carta-donde-exige-corregir-errores/",
-      "fecha": "2026-11-20T15:31:03+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "ed30e22ef147f3cf",
-      "titulo": "La FLIP pide al Mininterior retirar trino contra Daniel Coronell y dice que se trata de una “intimidación” desde una cuenta oficial",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/flip-pide-alejandro-ordonez-borrar-trino-contra-daniel-coronell-por-que-IM43836781",
-      "fecha": "2026-11-20T15:30:44+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "aa0e7b895bb75d32",
-      "titulo": "Retiran libro de la persona más longeva de Dinamarca por pasado nazi",
-      "categoria": "Internacional",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/retiran-libro-de-la-persona-más-longeva-de-dinamarca-por-pasado-nazi/a-80005170?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-20T15:28:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "9b2bf500a710d541",
-      "titulo": "Gobierno oficializó el inicio de las obras de ampliación de la Autopista Norte en Bogotá",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/economia/gobierno-oficializo-el-inicio-de-las-obras-de-ampliacion-de-la-autopista-norte-en-bogota-4529301",
-      "fecha": "2026-11-20T15:21:48+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "eebcff1016e5e1b3",
-      "titulo": "Chocó: 103 niños en restablecimiento de derechos por violencia sexual",
-      "categoria": "Colombia",
-      "fuente": "Chocó 7 días",
-      "url": "https://choco7dias.com/choco-103-ninos-en-restablecimiento-de-derechos-por-violencia-sexual/",
-      "fecha": "2026-11-20T15:21:30+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "2ccdb0d94230ee26",
-      "titulo": "Take-Two Interactive apunta a un récord de ventas con lanzamiento de GTA VI",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/ocio/take-two-apunta-a-un-record-de-ventas-con-el-lanzamiento-de-gta-vi-4529305",
-      "fecha": "2026-11-20T15:15:28+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "562fbcea8ed97afe",
-      "titulo": "Fiscalía citó dos veces a Verónica Estrada, denunciada por título falso, pero la congresista no fue; ¿por qué?",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/veronica-estrada-fiscalia-cito-dos-veces-por-investigacion-titulo-falso-y-no-asistio-NM43836597",
-      "fecha": "2026-11-20T15:14:52+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "bf504a662636bf86",
-      "titulo": "Flip: Ordóñez usa canales del MinInterior para “intimidar a la prensa”",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/en-vivo/flip-ordonez-usa-canales-del-mininterior-para-intimidar-a-la-prensa/",
-      "fecha": "2026-11-20T15:13:48+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "fe0a72d1cf1bf759",
-      "titulo": "Verónica Alcocer responde a Eva Ferrer por polémica de contratos del proyecto de cocinas: “Tergiversó ante la Procuraduría”",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/veronica-alcocer-responde-eva-ferrer-polemica-contratos-proyecto-cocinas-FM43836289",
-      "fecha": "2026-11-20T15:12:01+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "7706e15591c446f2",
-      "titulo": "PIB desacelerado y desempleo en aumento para 2027 según previsiones de la Ocde",
-      "categoria": "Economía",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/economia/la-ocde-presento-el-informe-de-estudios-economicos-de-la-ocde-colombia-2026-4528958",
-      "fecha": "2026-11-20T15:07:34+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "865e95fd7c0f0b5e",
-      "titulo": "La cumbre Xi-Trump-Putin en Shenzhen deja más dudas que acuerdos",
-      "categoria": "Internacional",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/la-cumbre-xi-trump-putin-en-shenzhen-deja-más-dudas-que-acuerdos/a-80004824?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-20T15:06:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "c49790f7513a76c1",
-      "titulo": "\"Humano\": la palabra del año en plena era de la inteligencia artificial",
-      "categoria": "Tecnología",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/humano-la-palabra-del-año-en-plena-era-de-la-inteligencia-artificial/a-80004981?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-20T15:06:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "d7ac657ed1586028",
-      "titulo": "Descartan secuestro extorsivo contra Blessd: irá a juicio en febrero de 2027 por presunto constreñimiento ilegal",
-      "categoria": "Colombia",
-      "fuente": "La FM Actualidad",
-      "url": "https://www.lafm.com.co/actualidad/blessd-secuestro-ilegal-juicio-2027-constrenimiento-juicio-417782",
-      "fecha": "2026-11-20T15:04:45+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "bc062e1e8a9ac630",
-      "titulo": "Entre evaluaciones y esperanza: así busca renacer en Cali el conjunto Ariguaní tras el colapso de una de sus torres",
-      "categoria": "Cali",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/cali/entre-evaluaciones-y-esperanza-asi-busca-renacer-en-cali-el-conjunto-ariguani-tras-el-colapso-de-una-de-sus-torres-3602702",
-      "fecha": "2026-11-20T15:03:55+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "6c690eff89cbde53",
-      "titulo": "'Lo que pasa en la calle': Los hechos judiciales de este viernes, 20 de noviembre",
-      "categoria": "Valle del Cauca",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/judicial/noticias-judiciales-viernes-20-noviembre-20-11-2026/",
-      "fecha": "2026-11-20T15:03:21+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "e3b0b570b9817cd1",
-      "titulo": "Si llevas tiempo queriendo una Dyson, el momento perfecto para conseguirla rebajada es ahora",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/seleccion/llevas-tiempo-queriendo-dyson-momento-perfecto-para-conseguirla-rebajada-ahora",
-      "fecha": "2026-11-20T15:02:24+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "bf1fcdef1dec4da3",
-      "titulo": "ASUS ROG Xbox Ally X20, análisis: el mejor PC consolizado portátil (pese a Windows)",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/analisis/asus-rog-xbox-ally-x20-2026-analisis-caracteristicas-precio-especificaciones",
-      "fecha": "2026-11-20T15:02:23+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "96f858019185c552",
-      "titulo": "Primera dama anunció entrega de viviendas en Chocó tras reunión con gobernadora Carolina Córdoba: “Pronto estaremos allí”",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/gobierno-abelardo-primera-dama-ana-lucia-pineda-gobernadora-choco-entrega-viviendas-EM43834918",
-      "fecha": "2026-11-20T15:01:01+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "10ea94186807c771",
-      "titulo": "En video | Banda de atracadores le disparó a quemarropa a una víctima para robarla en Medellín: cayeron cuatro implicados",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/medellin/en-video-banda-de-atracadores-le-disparo-a-quemarropa-a-una-victima-para-robarla-en-medellin-cayeron-cuatro-implicados-3602703",
-      "fecha": "2026-11-20T15:00:53+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "caaeae255f9c6fd1",
-      "titulo": "Explosión en mina de carbón El Arenal, en Sativasur, Boyacá, dejó tres trabajadores muertos",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/economia/explosion-en-mina-de-carbon-el-arenal-en-sativasur-boyaca-dejo-tres-trabajadores-muertos-4529267",
-      "fecha": "2026-11-20T15:00:05+00:00",
-      "imagen": ""
     }
   ],
   "estado_fuentes": [
@@ -553,7 +553,7 @@
       "nombre": "El Tiempo Cali",
       "url": "https://www.eltiempo.com/rss/colombia_cali.xml",
       "estado": "correcto",
-      "titulares": 8
+      "titulares": 6
     },
     {
       "nombre": "El Espectador",
@@ -590,13 +590,13 @@
       "nombre": "BBC Mundo",
       "url": "https://feeds.bbci.co.uk/mundo/rss.xml",
       "estado": "correcto",
-      "titulares": 31
+      "titulares": 32
     },
     {
       "nombre": "DW Español",
       "url": "https://rss.dw.com/rdf/rss-sp-all",
       "estado": "correcto",
-      "titulares": 23
+      "titulares": 24
     },
     {
       "nombre": "Xataka",
