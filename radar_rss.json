@@ -1,12 +1,246 @@
 {
-  "ultima_actualizacion": "2026-11-20T13:57:22.314240+00:00",
+  "ultima_actualizacion": "2026-11-20T15:04:10.970263+00:00",
   "titulares_rss": [
     {
-      "id": "e429ccc3eeba9dc9",
-      "titulo": "Zulu y GouPayments lanzan red de pagos empresariales inmediatos por hasta $250 millones",
+      "id": "6c690eff89cbde53",
+      "titulo": "'Lo que pasa en la calle': Los hechos judiciales de este viernes, 20 de noviembre",
+      "categoria": "Valle del Cauca",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/judicial/noticias-judiciales-viernes-20-noviembre-20-11-2026/",
+      "fecha": "2026-11-20T15:03:21+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "e3b0b570b9817cd1",
+      "titulo": "Si llevas tiempo queriendo una Dyson, el momento perfecto para conseguirla rebajada es ahora",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/seleccion/llevas-tiempo-queriendo-dyson-momento-perfecto-para-conseguirla-rebajada-ahora",
+      "fecha": "2026-11-20T15:02:24+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "bf1fcdef1dec4da3",
+      "titulo": "ASUS ROG Xbox Ally X20, análisis: el mejor PC consolizado portátil (pese a Windows)",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/analisis/asus-rog-xbox-ally-x20-2026-analisis-caracteristicas-precio-especificaciones",
+      "fecha": "2026-11-20T15:02:23+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "caaeae255f9c6fd1",
+      "titulo": "Explosión en mina de carbón El Arenal, en Sativasur, Boyacá, dejó tres trabajadores muertos",
       "categoria": "Colombia",
       "fuente": "La República",
-      "url": "https://www.larepublica.co/finanzas/zulu-y-goupayments-lanzan-red-de-pagos-empresariales-inmediatos-por-hasta-250-millones-4529184",
+      "url": "https://www.larepublica.co/economia/explosion-en-mina-de-carbon-el-arenal-en-sativasur-boyaca-dejo-tres-trabajadores-muertos-4529267",
+      "fecha": "2026-11-20T15:00:05+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "dd722bc7331e6572",
+      "titulo": "El Supremo mantiene suspendido el voto a 163.000 nacionalizados por la ‘ley de nietos’ aunque ahora vivan en España",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/espana/elecciones-generales/2026-11-20/el-supremo-mantiene-suspendido-el-voto-a-163000-nacionalizados-por-la-ley-de-nietos-aunque-ahora-vivan-en-espana.html",
+      "fecha": "2026-11-20T14:51:27+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "a3e6c6d7957ff76b",
+      "titulo": "Taller: Cómo investigar la contratación pública",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/cursos/taller-como-investigar-la-contratacion-publica/",
+      "fecha": "2026-11-20T14:47:59+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "911dad9494943934",
+      "titulo": "El Galaxy S26 Ultra cae de precio una semana antes del Black Friday: es uno de los mejores móviles Android de 2026",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/seleccion/galaxy-s26-ultra-cae-precio-semana-antes-black-friday-uno-mejores-moviles-android-2026",
+      "fecha": "2026-11-20T14:46:20+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "60b8240b7505792c",
+      "titulo": "Fiscalía descarta por ahora una imputación contra Zulma Guzmán: este es el motivo",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/por-que-fiscalia-descarta-imputacion-contra-zulma-guzman-caso-talio-CM43833537",
+      "fecha": "2026-11-20T14:45:40+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "9ce2fa14afe016ce",
+      "titulo": "Gobernación de Antioquia entregó 6,26 kilómetros de vía entre San Vicente Ferrer y El Peñol: anunció mejoras de vivienda",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/medellin/gobernacion-de-antioquia-entrego-6-26-kilometros-de-via-entre-san-vicente-ferrer-y-el-penol-anuncio-mejoras-de-vivienda-3602694",
+      "fecha": "2026-11-20T14:35:53+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "0b03a5a4aa049b96",
+      "titulo": "¿Existe la histeria ambiental? Un mensaje para el ministro de Ambiente, Fabio Arjona",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/red-de-expertos/existe-la-histeria-ambiental-un-mensaje-para-el-ministro-de-ambiente-fabio-arjona/",
+      "fecha": "2026-11-20T14:31:20+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "e2451f1881492656",
+      "titulo": "Barranquilla se alista para una maratón de fotografía por las calles del Centro Histórico: seis rutas para descubrir la ciudad",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/barranquilla/barranquilla-se-alista-para-una-maraton-de-fotografia-por-las-calles-del-centro-historico-seis-rutas-para-descubrir-la-ciudad-3602543",
+      "fecha": "2026-11-20T14:30:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "3b1aab3d21462566",
+      "titulo": "Potros, Schalke y Unión Berlín: el lado oscuro de la Bundesliga",
+      "categoria": "Deportes",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/potros-schalke-y-unión-berlín-el-lado-oscuro-de-la-bundesliga/a-80001685?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-20T14:29:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "fe0a72d1cf1bf759",
+      "titulo": "Verónica Alcocer responde a Eva Ferrer por polémica de contratos del proyecto de cocinas: “Tergiversó ante la Procuraduría”",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/veronica-alcocer-responde-eva-ferrer-polemica-contratos-proyecto-cocinas-FM43836289",
+      "fecha": "2026-11-20T14:28:43+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "fb1da383555f298c",
+      "titulo": "De la Espriella pide resultados a sus ministros y advierte sobre las elecciones de 2027 y 2030",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/economia/de-la-espriella-pide-resultados-a-sus-ministros-y-advierte-sobre-las-elecciones-de-2027-y-2030-4529235",
+      "fecha": "2026-11-20T14:24:35+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "2ae34f3d970c5862",
+      "titulo": "Protestas y huelgas en Europa contra el costo de vida y la militarización",
+      "categoria": "Internacional",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/protestas-y-huelgas-en-europa-contra-el-costo-de-vida-y-la-militarización/a-80003501?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-20T14:24:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "20df9bd8faef1ad7",
+      "titulo": "Bitcoin se aproxima a mínimos de julio de US$61.000 ante la fortaleza del dólar",
+      "categoria": "Economía",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/globoeconomia/bitcoin-se-acerca-a-minimos-de-julio-de-us-61-000-ante-fortaleza-del-dolar-4529232",
+      "fecha": "2026-11-20T14:15:41+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "b7a73eb431c9abe7",
+      "titulo": "Mejores chollos del Black Friday de Amazon hoy, 20 de noviembre: seis productos con descuentos de hasta un 65%",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/seleccion/mejores-chollos-black-friday-amazon-hoy-20-noviembre-seis-productos-descuentos-65",
+      "fecha": "2026-11-20T14:15:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "3d3955ff90f5114b",
+      "titulo": "Llegada de León XIV a Perú dejó derrama económico de US$198 millones",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/globoeconomia/llegada-de-leon-xiv-a-peru-dejo-derrama-economico-de-us-198-millones-4529241",
+      "fecha": "2026-11-20T14:14:43+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "03b95f5112945de6",
+      "titulo": "Toques de queda, 'manuales de conducta' y extorsión: el drama en seis pueblos del Oriente antioqueño por la guerra entre grupos armados ilegales",
+      "categoria": "Internacional",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/medellin/toques-de-queda-manuales-de-conducta-y-extorsion-el-drama-en-seis-pueblos-del-oriente-antioqueno-por-la-guerra-entre-grupos-armados-ilegales-3602674",
+      "fecha": "2026-11-20T14:13:50+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "b8f3f6e842b60f9c",
+      "titulo": "Pacto pidió a Verónica Estrada renunciar a su curul por títulos falsos",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/en-vivo/pacto-pidio-a-veronica-estrada-renunciar-a-su-curul-por-titulos-falsos/",
+      "fecha": "2026-11-20T14:11:18+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "f2d71f5b3689327d",
+      "titulo": "Atentaron contra dos comercios en Barrancabermeja: se presume que se habría dado por extorsión y autoridades buscan a los responsables",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/santander/atentaron-contra-dos-comercios-en-barrancabermeja-se-presume-que-se-habria-dado-por-extorsion-y-autoridades-buscan-a-los-responsables-3602676",
+      "fecha": "2026-11-20T14:11:03+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "bd945b81b1e968b3",
+      "titulo": "Black Friday y Navidad ponen en riesgo el ahorro de los colombianos: el 88 % reconoce este mal hábito",
+      "categoria": "Colombia",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/finanzas/black-friday-y-navidad-ponen-en-riesgo-el-ahorro-de-los-colombianos-el-88-reconoce-este-habito-506750",
+      "fecha": "2026-11-20T14:09:26+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "9c5e1a6783ed1999",
+      "titulo": "Deicy Jiménez le responde a Petro y dice que no se retractará de su denuncia: “no permitiré que me silencien”",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/deicy-jimenez-le-responde-a-petro-y-dice-que-no-se-retractara-de-su-denuncia-no-permitire-que-me-silencien-DM43832265",
+      "fecha": "2026-11-20T14:07:52+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "349a518e97564232",
+      "titulo": "Crece riesgo de racionamiento de energía en Bogotá: la demanda estaría a punto de superar la oferta",
+      "categoria": "Colombia",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/regiones/crece-riesgo-de-racionamiento-de-energia-en-bogota-la-demanda-estaria-a-punto-de-superar-la-oferta-506755",
+      "fecha": "2026-11-20T14:03:17+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "18c6831133ae7b0c",
+      "titulo": "Moscú desmiente al yerno de Trump: “Cualquier pseudomembresía de Ucrania en la OTAN es inaceptable para Rusia”",
+      "categoria": "Internacional",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/internacional/2026-11-20/moscu-desmiente-al-yerno-de-trump-cualquier-pseudomembresia-de-ucrania-en-la-otan-es-inaceptable-para-rusia.html",
+      "fecha": "2026-11-20T14:02:05+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "4e58ae24a5b6f0c4",
+      "titulo": "Atentado en CAI del oeste de Cali: ¿reorganización de milicias urbanas o tácticas guerrilleras en manos de bandas locales?",
+      "categoria": "Cali",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/cali/atentado-en-cai-del-oeste-de-cali-reorganizacion-de-milicias-urbanas-o-tacticas-guerrilleras-en-manos-de-bandas-locales-3602671",
+      "fecha": "2026-11-20T13:56:04+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "b109cfad912ff38b",
+      "titulo": "Zulu y GouPayments lanzan red de pagos empresariales por hasta $250 millones",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/finanzas/zulu-y-goupayments-lanzan-red-de-pagos-empresariales-por-hasta-250-millones-4529184",
       "fecha": "2026-11-20T13:54:28+00:00",
       "imagen": ""
     },
@@ -29,8 +263,17 @@
       "imagen": ""
     },
     {
+      "id": "ff4109cda2865bfd",
+      "titulo": "De la Espriella envió carta a ministro pidiéndole que “corrija inmediatamente” y “mostrar resultados”: ¿viene remezón?",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/carta-abelardo-fabio-arjona-ministro-ambiente-que-dice-GM43832325",
+      "fecha": "2026-11-20T13:52:31+00:00",
+      "imagen": ""
+    },
+    {
       "id": "dd9e0f1aa9970d49",
-      "titulo": "Proyecto de decreto permitiría que menores desde los 14 años participen en cuadrillas taurinas",
+      "titulo": "Proyecto permitiría que menores desde los 14 años participen en cuadrillas taurinas",
       "categoria": "Colombia",
       "fuente": "La República",
       "url": "https://www.larepublica.co/ocio/proyecto-de-decreto-permitiria-que-menores-desde-los-14-anos-participen-en-cuadrillas-taurinas-4529153",
@@ -66,7 +309,7 @@
     },
     {
       "id": "74cf8a0c976a1eb3",
-      "titulo": "Anthropic avanza una caída del 13% en Bolsa ante el castigo a las empresas de IA",
+      "titulo": "Anthropic corrige en su segunda jornada en Bolsa en pleno castigo a las empresas de IA",
       "categoria": "Economía",
       "fuente": "El País Colombia",
       "url": "https://elpais.com/economia/2026-11-20/la-segunda-jornada-en-bolsa-de-anthropic.html",
@@ -110,21 +353,48 @@
       "imagen": ""
     },
     {
+      "id": "916b5d9c2505b72e",
+      "titulo": "<i>The New York Times</i> respondió a De la Espriella tras acusaciones de “noticias falsas” por informe sobre cooperación con EE. UU.",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/gobierno-abelardo-de-la-espriella-the-new-york-times-respuesta-KM43830648",
+      "fecha": "2026-11-20T13:35:31+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "89719bd185711809",
+      "titulo": "Niebla afecta operaciones en el aeropuerto El Dorado de Bogotá: hay cierres y retrasos en vuelos",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/aeropuerto-el-dorado-operacion-hoy-afectada-por-niebla-MM43831629",
+      "fecha": "2026-11-20T13:35:06+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "52be8dcbb83842b9",
+      "titulo": "La Audiencia deja en libertad al millonario propalestino Chambers tras los errores de traducción en la reclamación de EE UU",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/espana/2026-11-20/la-audiencia-deja-en-libertad-al-millonario-propalestino-chambers-tras-los-errores-de-traduccion-en-la-reclamacion-de-ee-uu.html",
+      "fecha": "2026-11-20T13:31:53+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "1af6f5134d592e9c",
+      "titulo": "La distancia entre el PP y el PSOE se estrecha al mínimo pese a la victoria de Feijóo en el debate",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/espana/elecciones-generales/2026-11-20/la-distancia-entre-el-pp-y-el-psoe-se-estrecha-al-minimo-pese-a-la-victoria-de-feijoo-en-el-debate.html",
+      "fecha": "2026-11-20T13:26:52+00:00",
+      "imagen": ""
+    },
+    {
       "id": "fd8cc909a0ffc3ee",
       "titulo": "Lufthansa reducirá 1.000 empleos y recortará rutas por pérdidas",
       "categoria": "Economía",
       "fuente": "DW Español",
       "url": "https://www.dw.com/es/lufthansa-reducirá-1-000-empleos-y-recortará-rutas-por-pérdidas/a-80003537?maca=spa-rss-sp-all-1122-rdf",
       "fecha": "2026-11-20T13:24:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "bd945b81b1e968b3",
-      "titulo": "Black Friday y Navidad ponen en riesgo el ahorro de los colombianos: el 88 % reconoce este hábito",
-      "categoria": "Colombia",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/finanzas/black-friday-y-navidad-ponen-en-riesgo-el-ahorro-de-los-colombianos-el-88-reconoce-este-habito-506750",
-      "fecha": "2026-11-20T13:21:43+00:00",
       "imagen": ""
     },
     {
@@ -147,7 +417,7 @@
     },
     {
       "id": "46684685d5d8f53d",
-      "titulo": "Visita de Bill Gates a Codelco agita debate sobre propiedad del cobre chileno",
+      "titulo": "Visita de Bill Gates a mina de Codelco agita el debate sobre la propiedad del cobre chileno",
       "categoria": "Colombia",
       "fuente": "La República",
       "url": "https://www.larepublica.co/globoeconomia/visita-de-bill-gates-a-codelco-agita-debate-sobre-propiedad-del-cobre-chileno-4529199",
@@ -270,276 +540,6 @@
       "url": "https://elpais.com/internacional/2026-11-20/rusia-ataca-los-puentes-de-kiev-y-la-infraestructura-energetica-de-ucrania-tras-la-ofensiva-en-el-estrecho-de-kerch.html",
       "fecha": "2026-11-20T13:03:15+00:00",
       "imagen": ""
-    },
-    {
-      "id": "916b5d9c2505b72e",
-      "titulo": "The New York Times respondió a De la Espriella tras acusaciones de “noticias falsas” por informe sobre cooperación con EE. UU.",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/gobierno-abelardo-de-la-espriella-the-new-york-times-respuesta-KM43830648",
-      "fecha": "2026-11-20T13:01:54+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "18b4a1aa70d9bcc5",
-      "titulo": "Precio del dólar hoy en Colombia: Así está la moneda el 20 de noviembre",
-      "categoria": "Economía",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/vida-moderna/precio-del-dolar-hoy-en-colombia-20-11-2026/",
-      "fecha": "2026-11-20T12:58:44+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "8c163b390aac1a28",
-      "titulo": "Emisor paraguayo dijo que se ignoraron advertencias del colapso de Ueno",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/emisor-paraguayo-dijo-que-se-ignoraron-advertencias-del-colapso-de-ueno-4529178",
-      "fecha": "2026-11-20T12:57:19+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "e6802a70abbf18cd",
-      "titulo": "90 al día: Las noticias más importantes de la región este viernes, 20 de noviembre",
-      "categoria": "Valle del Cauca",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/cali/noticias-importantes-region-viernes-20-noviembre-20-11-2026/",
-      "fecha": "2026-11-20T12:51:20+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "fcd41d29aea3a9d2",
-      "titulo": "El Black Friday es un momento ideal para crear tu página web: puedes crearla, alojarla y tener hasta correo por menos de 2 euros al mes",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/seleccion/black-friday-momento-ideal-para-crear-tu-pagina-web-puedes-crearla-alojarla-tener-correo-2-euros-al-mes",
-      "fecha": "2026-11-20T12:46:19+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "427437fec3823f72",
-      "titulo": "El euro acompaña el salto del dólar y también sube con fuerza frente al peso este viernes 20 de noviembre",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/finanzas/el-euro-acompana-el-salto-del-dolar-y-tambien-sube-con-fuerza-frente-al-peso-este-viernes-20-de-noviembre-506745",
-      "fecha": "2026-11-20T12:44:25+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "1e7096f86c545942",
-      "titulo": "De la Espriella llamó “empresa criminal” a Gobierno Petro y pidió que justicia de EE. UU. “actúe” contra un “degenerado”",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/gobierno-abelardo-de-la-espriella-gustavo-petro-justicia-estados-unidos-ON43828431",
-      "fecha": "2026-11-20T12:41:21+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "3662e7f9d7338064",
-      "titulo": "Subasta navideña ofrecerá cerca de 50 carros usados de modelos 2025 y 2026 con menos de 30.000 kilómetros",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/subasta-navidena-ofrecera-cerca-de-50-carros-usados-de-modelos-2025-y-2026-con-menos-de-30-000-kilometros-506746",
-      "fecha": "2026-11-20T12:37:30+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "c68b54adabcb22d1",
-      "titulo": "Alianza entre Sumia y Listo Pay llevará cobros inmediatos con Bre-B a 3.000 comercios",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/finanzas/alianza-entre-sumia-y-listo-pay-llevara-cobros-inmediatos-con-bre-b-a-3-000-comercios-4529148",
-      "fecha": "2026-11-20T12:33:12+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "0b1949914e2533de",
-      "titulo": "Action tiene rebajada (a 12,95 euros) esta guirnalda LED de Philips de 10 metros y con sincronización con música",
-      "categoria": "Tendencias",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/seleccion/action-tiene-rebajada-a-12-95-euros-esta-guirnalda-led-philips-10-metros-sincronizacion-musica",
-      "fecha": "2026-11-20T12:30:27+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "daa122ddf3f4f9ae",
-      "titulo": "Las tecnológicas se están desangrando en bolsa y todos miran a un sospechoso de quedarse con sus inversores: Anthropic",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/empresas-y-economia/anthropic-salio-a-bolsa-subida-17-ha-conseguido-algo-insolito-aguarle-fiesta-a-todos-sus-rivales",
-      "fecha": "2026-11-20T12:30:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "e32f6d623af26fc9",
-      "titulo": "En 1945, la Segunda Guerra Mundial llegó a su fin. Para 286 españoles, la salida no llegó hasta 11 años después en un barco de la Cruz Roja",
-      "categoria": "Deportes",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/magnet/1945-segunda-guerra-mundial-llego-a-su-fin-para-286-espanoles-salida-no-llego-1954-barco-cruz-roja",
-      "fecha": "2026-11-20T12:30:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "ffb1e4f1ddcf15cf",
-      "titulo": "El crédito desde las tiendas busca impulsar las compras durante el Black Friday",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/finanzas/el-credito-desde-los-puntos-de-venta-busca-impulsar-las-compras-durante-el-black-friday-4529154",
-      "fecha": "2026-11-20T12:29:49+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "b11997d4adffe65d",
-      "titulo": "Pacto Histórico pide a Verónica Estrada renunciar a la Cámara de Representantes “para que asuma su defensa”",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/pacto-historico-pide-veronica-estrada-renunciar-camara-representantes-asuma-defensa-FN43828368",
-      "fecha": "2026-11-20T12:29:23+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "0dcf26e069b033db",
-      "titulo": "Federación Nacional de Cafeteros renueva contrato con el Gobierno por diez años: ¿qué significa para los productores?",
-      "categoria": "Colombia",
-      "fuente": "La FM Economía",
-      "url": "https://www.lafm.com.co/economia/federacion-nacional-cafeteros-renueva-contrato-con-gobierno-diez-anos-que-significa-productores-417768",
-      "fecha": "2026-11-20T12:28:56+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "88a043ec9215dace",
-      "titulo": "MiLoto volvió a caer en Villa de Leyva: ganador se lleva los $300 millones del premio mayor",
-      "categoria": "Cali",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/finanzas/miloto-volvio-a-caer-en-villa-de-leyva-ganador-se-lleva-los-300-millones-del-premio-mayor-506744",
-      "fecha": "2026-11-20T12:26:43+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "e2732b5fdf2d3e64",
-      "titulo": "'Denunciamos a la Fiscalía hace un año la falsedad del título de Verónica Estrada y no pasó nada': rector de la U. Nacional",
-      "categoria": "Colombia",
-      "fuente": "La FM Actualidad",
-      "url": "https://www.lafm.com.co/actualidad/luz-veronica-estrada-universidad-nacional-denuncio-en-2025-titulo-falso-fiscalia-417764",
-      "fecha": "2026-11-20T12:24:16+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "65af858a4d1c720a",
-      "titulo": "Supersalud restablece las asambleas en tres EPS y exige cuentas a seis interventores",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/empresas/supersalud-restablece-las-asambleas-en-tres-eps-y-exige-cuentas-a-seis-interventores-4529159",
-      "fecha": "2026-11-20T12:18:56+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "6edcfbf6eda917c3",
-      "titulo": "Desayune informado con las claves de este 20 de noviembre de 2026",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/en-vivo/desayune-informado-con-las-claves-de-este-20-de-noviembre-de-2026/",
-      "fecha": "2026-11-20T12:18:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "ddc5d61b65e7ee4c",
-      "titulo": "Así cayó ‘La Cigarra’, el hombre al que la Policía señala de entrar a robar casas en Barranquilla y Puerto Colombia; tiene 21 anotaciones judiciales",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/barranquilla/asi-cayo-la-cigarra-el-hombre-al-que-la-policia-senala-de-entrar-a-robar-casas-en-barranquilla-y-puerto-colombia-tiene-21-anotaciones-judiciales-3602632",
-      "fecha": "2026-11-20T12:16:23+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "8513b43c5641bd3f",
-      "titulo": "GrapheneOS acusa a Google de presionar a los fabricantes en su contra. Es el último paso de un Android cada vez más cerrado",
-      "categoria": "Tecnología",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/moviles/grapheneos-acusa-a-google-presionar-a-fabricantes-su-ultimo-paso-android-cada-vez-cerrado",
-      "fecha": "2026-11-20T12:15:24+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "3f30ae6216dbe49e",
-      "titulo": "Casa Blanca despide al jefe de ciberseguridad tras una serie de fallos tecnológicos",
-      "categoria": "Tecnología",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/casa-blanca-despide-al-jefe-de-ciberseguridad-tras-una-serie-de-fallos-tecnológicos/a-80001722?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-20T12:15:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "393261d306971c9d",
-      "titulo": "Nuevo accidente minero en Boyacá deja tres fallecidos: explotó una mina en el municipio de Sativasur",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/nuevo-accidente-minero-en-boyaca-deja-tres-fallecidos-exploto-una-mina-en-el-municipio-de-sativasur-3602638",
-      "fecha": "2026-11-20T12:14:47+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "bcce8117c704da3d",
-      "titulo": "Conozca los barrios de Cali que se quedarán sin agua este viernes, 20 de noviembre",
-      "categoria": "Cali",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/cali/barrios-cali-sin-agua-viernes-20-noviembre-20-11-2026/",
-      "fecha": "2026-11-20T12:13:12+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "96eef7625c63ae0e",
-      "titulo": "Infivalle celebra 55 años impulsando el desarrollo social, la innovación tecnológica y la reactivación económica",
-      "categoria": "Valle del Cauca",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/valle-del-cauca/infivalle-celebra-55-anos-20-11-2026/",
-      "fecha": "2026-11-20T12:09:14+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "a7a94731ae292c63",
-      "titulo": "Se suponía que 'GTA VI' no tendría primera persona. Los jugadores han tardado exactamente un día en desbloquearla",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/videojuegos/rockstar-dijo-que-gta-vi-no-tendria-primera-persona-jugadores-han-desbloqueado-su-primer-dia",
-      "fecha": "2026-11-20T12:09:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "c76b3a92055cc525",
-      "titulo": "Qué pasó con las FARC 10 años después del acuerdo de paz que puso fin a más de 50 años de conflicto con el Estado en Colombia",
-      "categoria": "Colombia",
-      "fuente": "BBC Mundo",
-      "url": "https://www.bbc.com/mundo/articles/c8zxl4rd6nq5o?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-20T12:05:05+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "0cfd335a77aa0577",
-      "titulo": "Federico Gutiérrez nombra por primera vez a un policía activo como secretario de Seguridad de Medellín: ¿quién es el mayor Juan Camilo Amazará?",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/medellin/federico-gutierrez-nombra-por-primera-vez-a-un-policia-activo-como-secretario-de-seguridad-de-medellin-quien-es-el-mayor-juan-camilo-amazara-3602630",
-      "fecha": "2026-11-20T12:02:23+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "56c98ee1f205031c",
-      "titulo": "Hay un robot aspirador que cuesta tan solo 52,30 euros. Y mucho ojo porque es de Xiaomi",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/seleccion/hay-robot-aspirador-que-cuesta-solo-52-30-euros-mucho-ojo-porque-xiaomi",
-      "fecha": "2026-11-20T12:00:28+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "db52a236dec86e1f",
-      "titulo": "El espectáculo de la seguridad",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/podcasts/huevos-revueltos-con-politica/el-espectaculo-de-la-seguridad/",
-      "fecha": "2026-11-20T12:00:00+00:00",
-      "imagen": ""
     }
   ],
   "estado_fuentes": [
@@ -553,7 +553,7 @@
       "nombre": "El Tiempo Cali",
       "url": "https://www.eltiempo.com/rss/colombia_cali.xml",
       "estado": "correcto",
-      "titulares": 8
+      "titulares": 9
     },
     {
       "nombre": "El Espectador",
@@ -596,7 +596,7 @@
       "nombre": "DW Español",
       "url": "https://rss.dw.com/rdf/rss-sp-all",
       "estado": "correcto",
-      "titulares": 22
+      "titulares": 23
     },
     {
       "nombre": "Xataka",
