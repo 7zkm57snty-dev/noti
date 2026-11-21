@@ -1,22 +1,94 @@
 {
-  "ultima_actualizacion": "2026-11-21T17:50:57.624853+00:00",
+  "ultima_actualizacion": "2026-11-21T18:56:52.064361+00:00",
   "titulares_rss": [
     {
+      "id": "c94a2de45cd460b6",
+      "titulo": "Con 32 GB de RAM, GPU NVIDIA RTX y CPU Ryzen: estos portátiles gaming Lenovo caen a mínimo histórico durante el Black Friday 2026 de Amazon",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/seleccion/32-gb-ram-gpu-nvidia-rtx-cpu-ryzen-estos-portatiles-gaming-lenovo-caen-a-minimo-historico-durante-black-friday-2026-amazon",
+      "fecha": "2026-11-21T18:46:24+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "198e7937caf90030",
+      "titulo": "Tormenta eléctrica descargó 449 rayos sobre el Valle de Aburrá y provocó emergencias en Medellín: declararon la alerta roja por dos quebradas",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/medellin/tormenta-electrica-descargo-449-rayos-sobre-el-valle-de-aburra-y-provoco-emergencias-en-medellin-declararon-alerta-roja-por-dos-quebradas-3603034",
+      "fecha": "2026-11-21T18:45:08+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "78346034caad8e33",
+      "titulo": "Rusia afirma que un buque de carga fue atacado por drones en el Golfo de Finlandia",
+      "categoria": "Internacional",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/globoeconomia/rusia-afirma-que-un-buque-de-carga-fue-atacado-por-drones-en-el-golfo-de-finlandia-4530061",
+      "fecha": "2026-11-21T18:32:12+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "31efb354f4704d49",
+      "titulo": "Plan de Avianca tras restricciones en Bogotá y Medellín con 6.682 sillas más y 28 vuelos extra: medida por viajeros para asistir a Copa Sudamericana",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/medellin/plan-de-avianca-tras-restricciones-en-bogota-y-medellin-con-6-682-sillas-mas-y-28-vuelos-extra-medida-por-viajeros-para-asistir-a-copa-sudamericana-3603022",
+      "fecha": "2026-11-21T18:06:40+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "218f8c3029a4268a",
+      "titulo": "Perú fue sacudido por un fuerte terremoto de magnitud 6,7, que dejó 15 heridos",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/globoeconomia/peru-fue-sacudido-por-un-fuerte-terremoto-de-magnitud-6-7-que-dejo-15-heridos-4530068",
+      "fecha": "2026-11-21T18:05:29+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "02019cae23626e67",
+      "titulo": "En los primeros 100 días de gobierno, Bolívar y Sucre reportan restituciones de tierras por cerca de $3.480 millones",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/en-los-primeros-100-dias-de-gobierno-bolivar-y-sucre-reportan-restituciones-de-tierras-por-cerca-de-3-480-millones-3603026",
+      "fecha": "2026-11-21T18:03:17+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "b51d1d980eab2ce4",
+      "titulo": "Arándanos, chocolate negro y pescado azul prometen proteger el cerebro. La ciencia no lo tiene tan claro",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/medicina-y-salud/arandanos-chocolate-negro-pescado-azul-prometen-proteger-cerebro-ciencia-no-tiene-claro",
+      "fecha": "2026-11-21T18:02:23+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "05704c88f6877fbc",
+      "titulo": "ANI pone en servicio 106 kilómetros de la vía Santana-Mocoa-Neiva con obras por $376.843 millones en el Huila",
+      "categoria": "Economía",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/infraestructura/ani-pone-en-servicio-106-kilometros-de-la-via-santana-mocoa-neiva-con-obras-por-376-843-millones-en-el-huila-506831",
+      "fecha": "2026-11-21T17:57:48+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "bb1397b00d90fdbd",
+      "titulo": "Autoridades japonesas mantienen alerta por erupción del Volcán Sakurajima",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/globoeconomia/autoridades-japonesas-mantienen-alerta-por-erupcion-del-volcan-sakurajima-4530063",
+      "fecha": "2026-11-21T17:56:45+00:00",
+      "imagen": ""
+    },
+    {
       "id": "7737544caa91c1b4",
-      "titulo": "Duque reaparece en el Centro Democrático tras años distanciado del uribismo",
+      "titulo": "Iván Duque reaparece en el Centro Democrático tras distanciarse del uribismo",
       "categoria": "Colombia",
       "fuente": "La Silla Vacía",
       "url": "https://www.lasillavacia.com/en-vivo/duque-reaparece-en-el-centro-democratico-tras-anos-distanciado-del-uribismo/",
       "fecha": "2026-11-21T17:44:42+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "1344d45dafd75673",
-      "titulo": "Gerente del Fondo Milagro donará su salario para la reconstrucción de Risaralda",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/noticias/gerente-del-fondo-milagro-donara-su-salario-para-la-reconstruccion-de-risaralda/",
-      "fecha": "2026-11-21T17:43:08+00:00",
       "imagen": ""
     },
     {
@@ -65,21 +137,21 @@
       "imagen": ""
     },
     {
+      "id": "2ffdb44a5556a0d2",
+      "titulo": "Margarita Moreno, la primera colombiana en conquistar las Siete Cumbres: ¿cuál es su nuevo reto?",
+      "categoria": "Colombia",
+      "fuente": "La FM Deportes",
+      "url": "https://www.lafm.com.co/deportes/quien-margarita-moreno-the-last-desert-2026-antartida-siete-cumbres-417902",
+      "fecha": "2026-11-21T17:19:26+00:00",
+      "imagen": ""
+    },
+    {
       "id": "ad0e19bd197c1786",
       "titulo": "Alerta por aire contaminado en Bogotá: piden evitar ejercicio al aire libre y recomiendan uso de tapabocas",
       "categoria": "Colombia",
       "fuente": "Portafolio",
       "url": "https://www.portafolio.co/economia/regiones/alerta-por-aire-contaminado-en-bogota-piden-evitar-ejercicio-al-aire-libre-y-recomiendan-uso-de-tapabocas-506828",
       "fecha": "2026-11-21T17:19:03+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "31efb354f4704d49",
-      "titulo": "Plan de Avianca tras restricciones en Bogotá y Medellín con 6.682 sillas más y 28 vuelos extra: medida por viajeros para asistir a Copa Sudamericana",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/medellin/plan-de-avianca-tras-restricciones-en-bogota-y-medellin-con-6-682-sillas-mas-y-28-vuelos-extra-medida-por-viajeros-para-asistir-a-copa-sudamericana-3603022",
-      "fecha": "2026-11-21T17:16:05+00:00",
       "imagen": ""
     },
     {
@@ -146,12 +218,12 @@
       "imagen": ""
     },
     {
-      "id": "f5f55b54a1a0b60e",
-      "titulo": "Colombia debutó con victoria ante Japón en el Mundial Sub-17",
-      "categoria": "Deportes",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/deportes/colombia-debuto-con-victoria-ante-japon-en-el-mundial-sub-17/",
-      "fecha": "2026-11-21T16:44:27+00:00",
+      "id": "dedc0fb90d7ccbb2",
+      "titulo": "Pasajera fue capturada en Cartagena por agredir a trabajadora de Avianca: van más de 500 casos en 2026",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/pasajera-capturada-cartagena-agresion-trabajadora-de-avianca-LH43882090",
+      "fecha": "2026-11-21T16:35:54+00:00",
       "imagen": ""
     },
     {
@@ -434,15 +506,6 @@
       "imagen": ""
     },
     {
-      "id": "d1686194372dded1",
-      "titulo": "Ideam alerta por lluvias fuertes este fin de semana en Colombia: estas son las regiones con mayor probabilidad",
-      "categoria": "Colombia",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/regiones/ideam-alerta-por-lluvias-fuertes-este-fin-de-semana-en-colombia-estas-son-las-regiones-con-mayor-probabilidad-506815",
-      "fecha": "2026-11-21T14:21:44+00:00",
-      "imagen": ""
-    },
-    {
       "id": "8f1808311593dfc3",
       "titulo": "De la Espriella anuncia nuevo bombardeo contra disidencias de “Mordisco”",
       "categoria": "Colombia",
@@ -476,69 +539,6 @@
       "fuente": "Xataka",
       "url": "https://www.xataka.com/medicina-y-salud/calcetines-que-hacen-que-andar-cueste-ciencia-ha-dado-santo-grial-vagos",
       "fecha": "2026-11-21T14:00:30+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "8804d034612237fd",
-      "titulo": "El proyecto de rescate económico dejaría a la cultura sin garantías",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/red-de-expertos/red-social/el-proyecto-de-rescate-economico-deja-a-la-cultura-sin-garantias/",
-      "fecha": "2026-11-21T14:00:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "c53d61a0329c692a",
-      "titulo": "\"Los asesinatos se convirtieron en ficción\": cómo la prensa sensacionalista del siglo XIX creó el mito de Jack el Destripador",
-      "categoria": "Internacional",
-      "fuente": "BBC Mundo",
-      "url": "https://www.bbc.com/mundo/articles/cme3dv15kpxqo?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-21T13:58:32+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "5a11050650079366",
-      "titulo": "¿Quiénes son 'Mi Sangre' y 'Caraco', los dos presuntos cabecillas del 'clan del Golfo' capturados en el Magdalena Medio y nordeste antioqueño?",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/medellin/quienes-son-mi-sangre-y-caraco-los-dos-presuntos-cabecillas-del-clan-del-golfo-capturados-en-el-magdalena-medio-y-nordeste-antioqueno-3602983",
-      "fecha": "2026-11-21T13:58:31+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "293dd2c3c5fe0fe2",
-      "titulo": "“No creo que el cuerpo me aguante una tercera envenenada”: esta es la voz de Alicia Graham pidiendo ayuda antes de morir",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/no-creo-que-el-cuerpo-me-aguante-una-tercera-envenenada-esta-es-la-voz-de-alicia-graham-pidiendo-ayuda-antes-de-morir-II43878550",
-      "fecha": "2026-11-21T13:51:11+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "9c72aefd58593e3b",
-      "titulo": "Ocde advierte sobre el difícil panorama económico de Colombia",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/noticias/ocde-advierte-sobre-el-dificil-panorama-economico-de-colombia/",
-      "fecha": "2026-11-21T13:46:20+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "1c7795eab850b88e",
-      "titulo": "Icetex amplía plazo de créditos para estudiantes afectados por el terremoto",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/noticias/icetex-amplia-plazo-de-creditos-para-estudiantes-afectados-por-el-terremoto/",
-      "fecha": "2026-11-21T13:37:45+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "08905271c7b3b82b",
-      "titulo": "Arranca la reactivación de 867 negocios afectados por el terremoto en Cali con la entrega de apoyos productivos",
-      "categoria": "Cali",
-      "fuente": "El Tiempo Cali",
-      "url": "https://www.eltiempo.com/colombia/cali/arranca-la-reactivacion-de-867-negocios-afectados-por-el-terremoto-en-cali-con-la-entrega-de-apoyos-productivos-3602888",
-      "fecha": "2026-11-21T13:36:28+00:00",
       "imagen": ""
     }
   ],
@@ -632,7 +632,7 @@
       "nombre": "La FM Internacional",
       "url": "https://www.lafm.com.co/rss/internacional.xml",
       "estado": "correcto",
-      "titulares": 15
+      "titulares": 14
     },
     {
       "nombre": "La FM Actualidad",
@@ -656,8 +656,9 @@
     {
       "nombre": "El Diario — Pereira",
       "url": "https://www.eldiario.com.co/feed/",
-      "estado": "correcto",
-      "titulares": 35
+      "estado": "error",
+      "titulares": 0,
+      "detalle": "El feed no contiene entradas."
     },
     {
       "nombre": "Chocó 7 días",
