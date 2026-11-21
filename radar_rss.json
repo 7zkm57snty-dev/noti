@@ -1,6 +1,24 @@
 {
-  "ultima_actualizacion": "2026-11-21T22:50:44.418208+00:00",
+  "ultima_actualizacion": "2026-11-21T23:47:19.536623+00:00",
   "titulares_rss": [
+    {
+      "id": "92f57c634a3d0f4e",
+      "titulo": "Chocó: un día como hoy… 21 de noviembre",
+      "categoria": "Colombia",
+      "fuente": "Chocó 7 días",
+      "url": "https://choco7dias.com/choco-un-dia-como-hoy-21-de-noviembre/",
+      "fecha": "2026-11-21T23:05:25+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "3e5d8fb4d38ff68d",
+      "titulo": "Kate Middleton habla abiertamente sobre cómo el cáncer cambió su vida en un documental de la BBC",
+      "categoria": "Internacional",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/c6gregq1xynwo?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-21T22:57:24+00:00",
+      "imagen": ""
+    },
     {
       "id": "771be5c18c3b975c",
       "titulo": "Se inauguró nuevo servicio ferroviario de carga en Uruguay con millonaria inversión",
@@ -8,6 +26,15 @@
       "fuente": "La República",
       "url": "https://www.larepublica.co/globoeconomia/se-inauguro-nuevo-servicio-ferroviario-de-carga-en-uruguay-con-millonaria-inversion-4530172",
       "fecha": "2026-11-21T22:43:30+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "993e86fd3a7dbd86",
+      "titulo": "Así fue el impresionante show de encendido de la Navidad en Madrid: 14 millones de luces iluminarán la ciudad hasta enero",
+      "categoria": "Internacional",
+      "fuente": "La FM Internacional",
+      "url": "https://www.lafm.com.co/internacional/madrid-espana-le-dio-la-bienvenida-a-la-navidad-con-un-espectaculo-de-luces-y-drones-417921",
+      "fecha": "2026-11-21T22:36:22+00:00",
       "imagen": ""
     },
     {
@@ -513,33 +540,6 @@
       "url": "https://www.portafolio.co/economia/infraestructura/ani-pone-en-servicio-106-kilometros-de-la-via-santana-mocoa-neiva-con-obras-por-376-843-millones-en-el-huila-506831",
       "fecha": "2026-11-21T17:57:48+00:00",
       "imagen": ""
-    },
-    {
-      "id": "bb1397b00d90fdbd",
-      "titulo": "Autoridades japonesas mantienen alerta por erupción del Volcán Sakurajima",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/autoridades-japonesas-mantienen-alerta-por-erupcion-del-volcan-sakurajima-4530063",
-      "fecha": "2026-11-21T17:56:45+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "7737544caa91c1b4",
-      "titulo": "Iván Duque reaparece en el Centro Democrático tras distanciarse del uribismo",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/en-vivo/duque-reaparece-en-el-centro-democratico-tras-anos-distanciado-del-uribismo/",
-      "fecha": "2026-11-21T17:44:42+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "1344d45dafd75673",
-      "titulo": "Gerente del Fondo Milagro donará su salario para la reconstrucción de Risaralda",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/noticias/gerente-del-fondo-milagro-donara-su-salario-para-la-reconstruccion-de-risaralda/",
-      "fecha": "2026-11-21T17:43:08+00:00",
-      "imagen": ""
     }
   ],
   "estado_fuentes": [
@@ -632,7 +632,7 @@
       "nombre": "La FM Internacional",
       "url": "https://www.lafm.com.co/rss/internacional.xml",
       "estado": "correcto",
-      "titulares": 13
+      "titulares": 14
     },
     {
       "nombre": "La FM Actualidad",
