@@ -1,6 +1,24 @@
 {
-  "ultima_actualizacion": "2026-11-22T03:33:34.815303+00:00",
+  "ultima_actualizacion": "2026-11-22T04:40:38.342279+00:00",
   "titulares_rss": [
+    {
+      "id": "1a1e532ce5eb214a",
+      "titulo": "Acandí: vuelo de prueba de Satena a Capurganá procedente de Apartadó",
+      "categoria": "Colombia",
+      "fuente": "Chocó 7 días",
+      "url": "https://choco7dias.com/acandi-vuelo-de-prueba-de-satena-a-capurgana-procedente-de-apartado/",
+      "fecha": "2026-11-22T03:47:17+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "b6a00cfb573c8ae0",
+      "titulo": "Una huelga nacional a la que se sumarán los controladores paralizará el lunes el tráfico aéreo en Bélgica",
+      "categoria": "Internacional",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/una-huelga-nacional-a-la-que-se-sumarán-los-controladores-paralizará-el-lunes-el-tráfico-aéreo-en-bélgica/a-80012267?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-22T03:34:00+00:00",
+      "imagen": ""
+    },
     {
       "id": "1e677f6636ad4f49",
       "titulo": "¿Otra congresista del Pacto en líos por títulos? Andrea Vargas reconoce que no se graduó, pero se presentaba como abogada",
@@ -200,6 +218,15 @@
       "imagen": ""
     },
     {
+      "id": "cc0b9e9c6f3546d2",
+      "titulo": "Consultas médicas por WhatsApp tendrán nuevas condiciones en Colombia",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/noticias/consultas-medicas-por-whatsapp-tendran-nuevas-condiciones-en-colombia/",
+      "fecha": "2026-11-21T22:00:08+00:00",
+      "imagen": ""
+    },
+    {
       "id": "ceb51f0911c10659",
       "titulo": "Chile buscará fortalecer la cooperación en el sector de minerales críticos con Japón",
       "categoria": "Colombia",
@@ -242,6 +269,15 @@
       "fuente": "La República",
       "url": "https://www.larepublica.co/globoeconomia/produccion-de-cacao-en-ecuador-podria-caer-25-en-2027-segun-intensidad-de-el-nino-4530145",
       "fecha": "2026-11-21T21:31:56+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "89945df935757101",
+      "titulo": "Invima alerta por 11 productos sin autorización sanitaria en Colombia",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/noticias/invima-alerta-por-11-productos-sin-autorizacion-sanitaria-en-colombia/",
+      "fecha": "2026-11-21T21:30:04+00:00",
       "imagen": ""
     },
     {
@@ -308,6 +344,15 @@
       "imagen": ""
     },
     {
+      "id": "7fc7209c942242a8",
+      "titulo": "ClickFix, la nueva modalidad de estafa que amenaza a los usuarios de internet",
+      "categoria": "Tecnología",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/noticias/clickfix-la-nueva-modalidad-de-estafa-que-amenaza-a-los-usuarios-de-internet/",
+      "fecha": "2026-11-21T21:00:40+00:00",
+      "imagen": ""
+    },
+    {
       "id": "264a0278636d6f87",
       "titulo": "En la India, una ciudad lleva décadas intentando vivir sin dinero, partidos políticos o religión: la utopía de Auroville",
       "categoria": "Colombia",
@@ -341,6 +386,15 @@
       "fuente": "Portafolio",
       "url": "https://www.portafolio.co/economia/gobierno/dolar-en-colombia-podria-acercarse-a-los-3-540-en-los-proximos-dias-ley-de-rescate-incidiria-en-el-mercado-506840",
       "fecha": "2026-11-21T20:35:23+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "fbb0c75eced21909",
+      "titulo": "Petro se pronuncia sobre polémica por títulos de congresista del Pacto Histórico",
+      "categoria": "Internacional",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/noticias/petro-se-pronuncia-sobre-polemica-por-titulos-de-congresista-del-pacto-historico/",
+      "fecha": "2026-11-21T20:30:51+00:00",
       "imagen": ""
     },
     {
@@ -398,6 +452,15 @@
       "imagen": ""
     },
     {
+      "id": "851ed8014744e819",
+      "titulo": "Trump busca un acuerdo permanente con Irán sobre su programa nuclear",
+      "categoria": "Internacional",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/noticias/internacionales/trump-busca-un-acuerdo-permanente-con-iran-sobre-su-programa-nuclear/",
+      "fecha": "2026-11-21T20:00:05+00:00",
+      "imagen": ""
+    },
+    {
       "id": "b8c1884496618bc0",
       "titulo": "“Usted tuvo cuatro años para quitarle la sed a Santa Marta y no lo hizo\": Rifirrafe entre Carlos Pinedo y Petro",
       "categoria": "Colombia",
@@ -452,93 +515,30 @@
       "imagen": ""
     },
     {
+      "id": "08d8c311f7cf0804",
+      "titulo": "Supersalud refuerza el seguimiento a seis EPS intervenidas",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/noticias/supersalud-refuerza-el-seguimiento-a-seis-eps-intervenidas/",
+      "fecha": "2026-11-21T19:30:45+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "fb1f9574c61ed521",
+      "titulo": "Operativo en Cali deja 19 capturados por presuntos delitos relacionados con drogas y homicidios",
+      "categoria": "Cali",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/noticias/operativo-en-cali-deja-19-capturados-por-presuntos-delitos-relacionados-con-drogas-y-homicidios/",
+      "fecha": "2026-11-21T19:30:21+00:00",
+      "imagen": ""
+    },
+    {
       "id": "deaa61f71af5edbd",
       "titulo": "Boca Juniors y Atlético Mineiro vuelven a cruzarse: así han sido sus duelos por torneos Conmebol",
       "categoria": "Deportes",
       "fuente": "La FM Deportes",
       "url": "https://www.lafm.com.co/deportes/boca-juniors-atletico-minerico-vuelven-cruzarse-por-final-copa-sudamericana-asi-han-sido-duelos-torneos-conmebol-417907",
       "fecha": "2026-11-21T19:24:36+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "f8661a0c4afd2468",
-      "titulo": "Detenido El Chapo Isidro en un operativo que desata el terror en Sinaloa",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/mexico/2026-11-21/detenido-el-chapo-isidro-en-un-operativo-que-desata-el-terror-en-sinaloa.html",
-      "fecha": "2026-11-21T19:23:33+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "a08da4ac24187890",
-      "titulo": "Gobierno de De la Espriella lanza convocatoria para que 12.000 emprendedores vendan sus productos por internet",
-      "categoria": "Tecnología",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/gobierno/gobierno-de-de-la-espriella-lanza-convocatoria-para-que-12-000-emprendedores-vendan-sus-productos-por-internet-506833",
-      "fecha": "2026-11-21T19:16:59+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "a9fd10597422afe5",
-      "titulo": "Secretaría de Ambiente declaró en Alerta Fase 1 cuatro zonas de Bogotá por contaminación",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/economia/secretaria-de-ambiente-declaro-en-alerta-fase-1-cuatro-zonas-de-bogota-por-contaminacion-4530074",
-      "fecha": "2026-11-21T19:16:53+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "de9d8939c60cf3fd",
-      "titulo": "Oración de fe milagrosa D.C.O.",
-      "categoria": "Colombia",
-      "fuente": "Chocó 7 días",
-      "url": "https://choco7dias.com/oracion-de-fe-milagrosa-d-c-o-15/",
-      "fecha": "2026-11-21T19:01:19+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "aec00fcff3eb38ed",
-      "titulo": "De Badajoz a Escandinavia: la mina extremeña de hace 3.000 años que llevó el cobre al Báltico",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/magnet/badajoz-a-escandinavia-mina-extremena-hace-3-000-anos-que-llevo-cobre-al-baltico",
-      "fecha": "2026-11-21T19:00:32+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "d9b6e4cc4f21344b",
-      "titulo": "Voyage Labs levanta $12 millones",
-      "categoria": "Colombia",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/secciones/tecnologia/voyage-labs-levanta-12-millones/",
-      "fecha": "2026-11-21T19:00:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "27023c958bea3348",
-      "titulo": "\"La utopía socialista\" que llevó a un grupo de australianos idealistas a Paraguay hace más de 130 años (y en qué terminó la experiencia)",
-      "categoria": "Internacional",
-      "fuente": "BBC Mundo",
-      "url": "https://www.bbc.com/mundo/articles/cr5yny54gvy3o?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-21T18:52:41+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "c94a2de45cd460b6",
-      "titulo": "Con 32 GB de RAM, GPU NVIDIA RTX y CPU Ryzen: estos portátiles gaming Lenovo caen a mínimo histórico durante el Black Friday 2026 de Amazon",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/seleccion/32-gb-ram-gpu-nvidia-rtx-cpu-ryzen-estos-portatiles-gaming-lenovo-caen-a-minimo-historico-durante-black-friday-2026-amazon",
-      "fecha": "2026-11-21T18:46:24+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "198e7937caf90030",
-      "titulo": "Tormenta eléctrica descargó 449 rayos sobre el Valle de Aburrá y provocó emergencias en Medellín: declararon la alerta roja por dos quebradas",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/medellin/tormenta-electrica-descargo-449-rayos-sobre-el-valle-de-aburra-y-provoco-emergencias-en-medellin-declararon-alerta-roja-por-dos-quebradas-3603034",
-      "fecha": "2026-11-21T18:45:08+00:00",
       "imagen": ""
     }
   ],
@@ -626,7 +626,7 @@
       "nombre": "La FM Economía",
       "url": "https://www.lafm.com.co/rss/economia.xml",
       "estado": "correcto",
-      "titulares": 19
+      "titulares": 18
     },
     {
       "nombre": "La FM Internacional",
@@ -656,9 +656,8 @@
     {
       "nombre": "El Diario — Pereira",
       "url": "https://www.eldiario.com.co/feed/",
-      "estado": "error",
-      "titulares": 0,
-      "detalle": "El feed no contiene entradas."
+      "estado": "correcto",
+      "titulares": 35
     },
     {
       "nombre": "Chocó 7 días",
