@@ -1,6 +1,24 @@
 {
-  "ultima_actualizacion": "2026-11-22T02:35:31.477128+00:00",
+  "ultima_actualizacion": "2026-11-22T03:33:34.815303+00:00",
   "titulares_rss": [
+    {
+      "id": "1e677f6636ad4f49",
+      "titulo": "¿Otra congresista del Pacto en líos por títulos? Andrea Vargas reconoce que no se graduó, pero se presentaba como abogada",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/congresista-pacto-lios-titulos-andrea-vargas-reconoce-graduo-presentaba-abogada-BG43891770",
+      "fecha": "2026-11-22T02:49:31+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "b5c643eb3ef9c6cb",
+      "titulo": "Los 1360 días que faltan",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/opinion/los-1360-dias-que-faltan/",
+      "fecha": "2026-11-22T02:36:38+00:00",
+      "imagen": ""
+    },
     {
       "id": "4745781c9ab8513e",
       "titulo": "Necesitamos un verdadero contrato fiscal",
@@ -101,6 +119,15 @@
       "imagen": ""
     },
     {
+      "id": "4860befd299279d8",
+      "titulo": "Cámaras de Comercio bajo vigilancia: De La Espriella pide rigor y transparencia a sus delegados",
+      "categoria": "Colombia",
+      "fuente": "La FM Actualidad",
+      "url": "https://www.lafm.com.co/actualidad/presidente-abelardo-lanza-advertencia-delegados-camaras-comercio-fija-condiciones-417923",
+      "fecha": "2026-11-21T23:24:36+00:00",
+      "imagen": ""
+    },
+    {
       "id": "92f57c634a3d0f4e",
       "titulo": "Chocó: un día como hoy… 21 de noviembre",
       "categoria": "Colombia",
@@ -173,15 +200,6 @@
       "imagen": ""
     },
     {
-      "id": "cc0b9e9c6f3546d2",
-      "titulo": "Consultas médicas por WhatsApp tendrán nuevas condiciones en Colombia",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/noticias/consultas-medicas-por-whatsapp-tendran-nuevas-condiciones-en-colombia/",
-      "fecha": "2026-11-21T22:00:08+00:00",
-      "imagen": ""
-    },
-    {
       "id": "ceb51f0911c10659",
       "titulo": "Chile buscará fortalecer la cooperación en el sector de minerales críticos con Japón",
       "categoria": "Colombia",
@@ -224,15 +242,6 @@
       "fuente": "La República",
       "url": "https://www.larepublica.co/globoeconomia/produccion-de-cacao-en-ecuador-podria-caer-25-en-2027-segun-intensidad-de-el-nino-4530145",
       "fecha": "2026-11-21T21:31:56+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "89945df935757101",
-      "titulo": "Invima alerta por 11 productos sin autorización sanitaria en Colombia",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/noticias/invima-alerta-por-11-productos-sin-autorizacion-sanitaria-en-colombia/",
-      "fecha": "2026-11-21T21:30:04+00:00",
       "imagen": ""
     },
     {
@@ -299,15 +308,6 @@
       "imagen": ""
     },
     {
-      "id": "7fc7209c942242a8",
-      "titulo": "ClickFix, la nueva modalidad de estafa que amenaza a los usuarios de internet",
-      "categoria": "Tecnología",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/noticias/clickfix-la-nueva-modalidad-de-estafa-que-amenaza-a-los-usuarios-de-internet/",
-      "fecha": "2026-11-21T21:00:40+00:00",
-      "imagen": ""
-    },
-    {
       "id": "264a0278636d6f87",
       "titulo": "En la India, una ciudad lleva décadas intentando vivir sin dinero, partidos políticos o religión: la utopía de Auroville",
       "categoria": "Colombia",
@@ -341,15 +341,6 @@
       "fuente": "Portafolio",
       "url": "https://www.portafolio.co/economia/gobierno/dolar-en-colombia-podria-acercarse-a-los-3-540-en-los-proximos-dias-ley-de-rescate-incidiria-en-el-mercado-506840",
       "fecha": "2026-11-21T20:35:23+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "fbb0c75eced21909",
-      "titulo": "Petro se pronuncia sobre polémica por títulos de congresista del Pacto Histórico",
-      "categoria": "Internacional",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/noticias/petro-se-pronuncia-sobre-polemica-por-titulos-de-congresista-del-pacto-historico/",
-      "fecha": "2026-11-21T20:30:51+00:00",
       "imagen": ""
     },
     {
@@ -407,15 +398,6 @@
       "imagen": ""
     },
     {
-      "id": "851ed8014744e819",
-      "titulo": "Trump busca un acuerdo permanente con Irán sobre su programa nuclear",
-      "categoria": "Internacional",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/noticias/internacionales/trump-busca-un-acuerdo-permanente-con-iran-sobre-su-programa-nuclear/",
-      "fecha": "2026-11-21T20:00:05+00:00",
-      "imagen": ""
-    },
-    {
       "id": "b8c1884496618bc0",
       "titulo": "“Usted tuvo cuatro años para quitarle la sed a Santa Marta y no lo hizo\": Rifirrafe entre Carlos Pinedo y Petro",
       "categoria": "Colombia",
@@ -470,24 +452,6 @@
       "imagen": ""
     },
     {
-      "id": "08d8c311f7cf0804",
-      "titulo": "Supersalud refuerza el seguimiento a seis EPS intervenidas",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/noticias/supersalud-refuerza-el-seguimiento-a-seis-eps-intervenidas/",
-      "fecha": "2026-11-21T19:30:45+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "fb1f9574c61ed521",
-      "titulo": "Operativo en Cali deja 19 capturados por presuntos delitos relacionados con drogas y homicidios",
-      "categoria": "Cali",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/noticias/operativo-en-cali-deja-19-capturados-por-presuntos-delitos-relacionados-con-drogas-y-homicidios/",
-      "fecha": "2026-11-21T19:30:21+00:00",
-      "imagen": ""
-    },
-    {
       "id": "deaa61f71af5edbd",
       "titulo": "Boca Juniors y Atlético Mineiro vuelven a cruzarse: así han sido sus duelos por torneos Conmebol",
       "categoria": "Deportes",
@@ -539,6 +503,42 @@
       "fuente": "Xataka",
       "url": "https://www.xataka.com/magnet/badajoz-a-escandinavia-mina-extremena-hace-3-000-anos-que-llevo-cobre-al-baltico",
       "fecha": "2026-11-21T19:00:32+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "d9b6e4cc4f21344b",
+      "titulo": "Voyage Labs levanta $12 millones",
+      "categoria": "Colombia",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/secciones/tecnologia/voyage-labs-levanta-12-millones/",
+      "fecha": "2026-11-21T19:00:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "27023c958bea3348",
+      "titulo": "\"La utopía socialista\" que llevó a un grupo de australianos idealistas a Paraguay hace más de 130 años (y en qué terminó la experiencia)",
+      "categoria": "Internacional",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/cr5yny54gvy3o?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-21T18:52:41+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "c94a2de45cd460b6",
+      "titulo": "Con 32 GB de RAM, GPU NVIDIA RTX y CPU Ryzen: estos portátiles gaming Lenovo caen a mínimo histórico durante el Black Friday 2026 de Amazon",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/seleccion/32-gb-ram-gpu-nvidia-rtx-cpu-ryzen-estos-portatiles-gaming-lenovo-caen-a-minimo-historico-durante-black-friday-2026-amazon",
+      "fecha": "2026-11-21T18:46:24+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "198e7937caf90030",
+      "titulo": "Tormenta eléctrica descargó 449 rayos sobre el Valle de Aburrá y provocó emergencias en Medellín: declararon la alerta roja por dos quebradas",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/medellin/tormenta-electrica-descargo-449-rayos-sobre-el-valle-de-aburra-y-provoco-emergencias-en-medellin-declararon-alerta-roja-por-dos-quebradas-3603034",
+      "fecha": "2026-11-21T18:45:08+00:00",
       "imagen": ""
     }
   ],
@@ -656,8 +656,9 @@
     {
       "nombre": "El Diario — Pereira",
       "url": "https://www.eldiario.com.co/feed/",
-      "estado": "correcto",
-      "titulares": 35
+      "estado": "error",
+      "titulares": 0,
+      "detalle": "El feed no contiene entradas."
     },
     {
       "nombre": "Chocó 7 días",
