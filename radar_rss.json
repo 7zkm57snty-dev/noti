@@ -1,6 +1,24 @@
 {
-  "ultima_actualizacion": "2026-11-22T10:54:22.345557+00:00",
+  "ultima_actualizacion": "2026-11-22T11:51:48.325513+00:00",
   "titulares_rss": [
+    {
+      "id": "f62799fa783b63fb",
+      "titulo": "Todos conocemos a Samsung por sus móviles y sus televisores. La gran \"tapada\" es su división de empresas",
+      "categoria": "Economía",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/empresas-y-economia/todos-conocemos-a-samsung-sus-moviles-sus-televisores-gran-tapada-su-division-empresas",
+      "fecha": "2026-11-22T11:30:26+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "1306a993a940b36f",
+      "titulo": "\"Fui coaccionada para tener un hijo\": cómo un multimillonario engañó a la exitosa DJ Liv Nervo para que quedara embarazada",
+      "categoria": "Internacional",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/cqm2ly382ylxo?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-22T11:04:08+00:00",
+      "imagen": ""
+    },
     {
       "id": "372b12f415d9734f",
       "titulo": "Opel y Leapmotor cierran el trato: el próximo eléctrico alemán tendrá corazón chino y se fabricará en Zaragoza",
@@ -522,24 +540,6 @@
       "url": "https://elpais.com/internacional/2026-11-22/la-francia-que-promete-le-pen-jubilaciones-a-los-62-adios-a-ucrania-y-un-referendum-sobre-inmigracion.html",
       "fecha": "2026-11-22T04:30:01+00:00",
       "imagen": ""
-    },
-    {
-      "id": "d933532f16c069ea",
-      "titulo": "La derrota republicana abre la puerta a una nueva era en el Supremo de Estados Unidos",
-      "categoria": "Internacional",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/us/2026-11-22/la-derrota-republicana-abre-la-puerta-a-una-nueva-era-en-el-supremo-de-estados-unidos.html",
-      "fecha": "2026-11-22T04:30:01+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "fd6b5683fd5abe82",
-      "titulo": "André Janones, el general del ejército digital de Lula: “Quiero contribuir al fin de la extrema derecha en el mundo”",
-      "categoria": "Internacional",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/america/2026-11-22/andre-janones-el-general-del-ejercito-digital-de-lula-quiero-contribuir-al-fin-de-la-extrema-derecha-en-el-mundo.html",
-      "fecha": "2026-11-22T04:30:00+00:00",
-      "imagen": ""
     }
   ],
   "estado_fuentes": [
@@ -626,13 +626,13 @@
       "nombre": "La FM Economía",
       "url": "https://www.lafm.com.co/rss/economia.xml",
       "estado": "correcto",
-      "titulares": 18
+      "titulares": 17
     },
     {
       "nombre": "La FM Internacional",
       "url": "https://www.lafm.com.co/rss/internacional.xml",
       "estado": "correcto",
-      "titulares": 13
+      "titulares": 12
     },
     {
       "nombre": "La FM Actualidad",
