@@ -1,6 +1,24 @@
 {
-  "ultima_actualizacion": "2026-11-22T07:54:03.449068+00:00",
+  "ultima_actualizacion": "2026-11-22T08:56:31.915278+00:00",
   "titulares_rss": [
+    {
+      "id": "f8aed56687d93437",
+      "titulo": "Begoña Villacís: \"Es una prohibición de facto\". La patronal de los centros de datos, en pie de guerra contra el Gobierno",
+      "categoria": "Internacional",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/empresas-y-economia/begona-villacis-prohibicion-facto-patronal-centros-datos-pie-guerra-gobierno",
+      "fecha": "2026-11-22T08:30:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "074461a400475b28",
+      "titulo": "La industria automotriz alemana busca reinventarse para sobrevivir",
+      "categoria": "Internacional",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/la-industria-automotriz-alemana-busca-reinventarse-para-sobrevivir/a-80006050?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-22T08:08:00+00:00",
+      "imagen": ""
+    },
     {
       "id": "49833bda3648626c",
       "titulo": "Marruecos era el gran mercado extranjero del ajo español. Ahora se ha convertido en su gran quebradero de cabeza",
@@ -152,24 +170,6 @@
       "fuente": "El Tiempo",
       "url": "https://www.eltiempo.com/colombia/barranquilla/la-noche-en-curramba-fue-xeneize-asi-fueron-las-celebraciones-de-la-hinchada-de-boca-juniors-tras-el-grito-de-campeon-3603114",
       "fecha": "2026-11-22T05:01:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "21a7d5fbc8514188",
-      "titulo": "El rockero pereirano Dani Zapata presenta «El fin del mundo",
-      "categoria": "Internacional",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/cultura/el-rockero-pereirano-dani-zapata-presenta-el-fin-del-mundo/",
-      "fecha": "2026-11-22T05:00:12+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "6b0822a8161ec8e0",
-      "titulo": "AVES Y COMUNIDAD",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/cultura/aves-y-comunidad/",
-      "fecha": "2026-11-22T05:00:06+00:00",
       "imagen": ""
     },
     {
@@ -407,15 +407,6 @@
       "imagen": ""
     },
     {
-      "id": "cc0b9e9c6f3546d2",
-      "titulo": "Consultas médicas por WhatsApp tendrán nuevas condiciones en Colombia",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/noticias/consultas-medicas-por-whatsapp-tendran-nuevas-condiciones-en-colombia/",
-      "fecha": "2026-11-21T22:00:08+00:00",
-      "imagen": ""
-    },
-    {
       "id": "ceb51f0911c10659",
       "titulo": "Chile buscará fortalecer la cooperación en el sector de minerales críticos con Japón",
       "categoria": "Colombia",
@@ -458,15 +449,6 @@
       "fuente": "La República",
       "url": "https://www.larepublica.co/globoeconomia/produccion-de-cacao-en-ecuador-podria-caer-25-en-2027-segun-intensidad-de-el-nino-4530145",
       "fecha": "2026-11-21T21:31:56+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "89945df935757101",
-      "titulo": "Invima alerta por 11 productos sin autorización sanitaria en Colombia",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/noticias/invima-alerta-por-11-productos-sin-autorizacion-sanitaria-en-colombia/",
-      "fecha": "2026-11-21T21:30:04+00:00",
       "imagen": ""
     },
     {
@@ -533,12 +515,30 @@
       "imagen": ""
     },
     {
-      "id": "7fc7209c942242a8",
-      "titulo": "ClickFix, la nueva modalidad de estafa que amenaza a los usuarios de internet",
-      "categoria": "Tecnología",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/noticias/clickfix-la-nueva-modalidad-de-estafa-que-amenaza-a-los-usuarios-de-internet/",
-      "fecha": "2026-11-21T21:00:40+00:00",
+      "id": "264a0278636d6f87",
+      "titulo": "En la India, una ciudad lleva décadas intentando vivir sin dinero, partidos políticos o religión: la utopía de Auroville",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/magnet/india-ciudad-lleva-decadas-intentando-vivir-dinero-partidos-politicos-religion-utopia-auroville",
+      "fecha": "2026-11-21T21:00:29+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "84f59df398716cc1",
+      "titulo": "Video: El alcalde de Barranquilla, Alejandro Char, dedicó condecoración de la Conmebol a los obreros que intervinieron el 'Supermetro'",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/barranquilla/video-el-alcalde-de-barranquilla-alejandro-char-dedico-condecoracion-de-la-conmebol-a-los-obreros-que-intervinieron-el-supermetro-3603053",
+      "fecha": "2026-11-21T20:47:05+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "6ab5d8e8ad8c665d",
+      "titulo": "El abogado que Luz Verónica Estrada designo para su defensa por el caso de títulos académicos falsos",
+      "categoria": "Economía",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/gobierno/el-abogado-que-luz-veronica-estrada-designo-para-su-defensa-por-el-caso-de-titulos-academicos-falsos-506841",
+      "fecha": "2026-11-21T20:46:23+00:00",
       "imagen": ""
     }
   ],
@@ -596,7 +596,7 @@
       "nombre": "DW Español",
       "url": "https://rss.dw.com/rdf/rss-sp-all",
       "estado": "correcto",
-      "titulares": 19
+      "titulares": 20
     },
     {
       "nombre": "Xataka",
@@ -656,8 +656,9 @@
     {
       "nombre": "El Diario — Pereira",
       "url": "https://www.eldiario.com.co/feed/",
-      "estado": "correcto",
-      "titulares": 35
+      "estado": "error",
+      "titulares": 0,
+      "detalle": "El feed no contiene entradas."
     },
     {
       "nombre": "Chocó 7 días",
