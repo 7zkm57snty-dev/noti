@@ -1,6 +1,42 @@
 {
-  "ultima_actualizacion": "2026-11-22T06:37:53.221323+00:00",
+  "ultima_actualizacion": "2026-11-22T07:54:03.449068+00:00",
   "titulares_rss": [
+    {
+      "id": "49833bda3648626c",
+      "titulo": "Marruecos era el gran mercado extranjero del ajo español. Ahora se ha convertido en su gran quebradero de cabeza",
+      "categoria": "Economía",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/magnet/marruecos-era-gran-mercado-extranjero-ajo-espanol-ahora-se-ha-convertido-su-gran-quebradero-cabeza",
+      "fecha": "2026-11-22T07:30:24+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "7069fec8e62882c4",
+      "titulo": "Ataque contra batallón del Ejército en La Jagua de Ibirico, Cesar: reportan al menos 13 militares heridos y activan red hospitalaria en la región",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/ataque-contra-batallon-del-ejercito-en-la-jagua-de-ibirico-cesar-reportan-al-menos-13-militares-heridos-y-activan-red-hospitalaria-en-la-region-3603124",
+      "fecha": "2026-11-22T07:22:12+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "b1834d8e03a27fb0",
+      "titulo": "Algo raro está pasando alrededor de la Tierra: temporalmente nuestros dos cinturones de radiación se hicieron cuatro y nadie sabe por qué",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/espacio/algo-raro-esta-pasando-alrededor-tierra-temporalmente-nuestros-dos-cinturones-radiacion-se-hicieron-cuatro-nadie-sabe-que",
+      "fecha": "2026-11-22T07:02:22+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "a3fb05c3a93dea9f",
+      "titulo": "España nunca se interesó demasiado por el café pese a la influencia arábica. Hasta que llegaron los Borbones",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/magnet/espana-nunca-se-intereso-demasiado-cafe-pese-a-influencia-arabica-que-llegaron-borbones",
+      "fecha": "2026-11-22T06:40:22+00:00",
+      "imagen": ""
+    },
     {
       "id": "b43657fb09864064",
       "titulo": "Presidente Abelardo De La Espriella destacó cuatro golpes al narcotráfico: destruyeron dos laboratorios e incautaron 800 kilos de cocaína",
@@ -504,42 +540,6 @@
       "url": "https://www.eldiario.com.co/noticias/clickfix-la-nueva-modalidad-de-estafa-que-amenaza-a-los-usuarios-de-internet/",
       "fecha": "2026-11-21T21:00:40+00:00",
       "imagen": ""
-    },
-    {
-      "id": "264a0278636d6f87",
-      "titulo": "En la India, una ciudad lleva décadas intentando vivir sin dinero, partidos políticos o religión: la utopía de Auroville",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/magnet/india-ciudad-lleva-decadas-intentando-vivir-dinero-partidos-politicos-religion-utopia-auroville",
-      "fecha": "2026-11-21T21:00:29+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "84f59df398716cc1",
-      "titulo": "Video: El alcalde de Barranquilla, Alejandro Char, dedicó condecoración de la Conmebol a los obreros que intervinieron el 'Supermetro'",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/barranquilla/video-el-alcalde-de-barranquilla-alejandro-char-dedico-condecoracion-de-la-conmebol-a-los-obreros-que-intervinieron-el-supermetro-3603053",
-      "fecha": "2026-11-21T20:47:05+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "6ab5d8e8ad8c665d",
-      "titulo": "El abogado que Luz Verónica Estrada designo para su defensa por el caso de títulos académicos falsos",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/gobierno/el-abogado-que-luz-veronica-estrada-designo-para-su-defensa-por-el-caso-de-titulos-academicos-falsos-506841",
-      "fecha": "2026-11-21T20:46:23+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "b0b59f71ec59877b",
-      "titulo": "Dólar en colombia podría acercarse a los $3.540 en los próximos días: ley de rescate incidiría en el mercado",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/gobierno/dolar-en-colombia-podria-acercarse-a-los-3-540-en-los-proximos-dias-ley-de-rescate-incidiria-en-el-mercado-506840",
-      "fecha": "2026-11-21T20:35:23+00:00",
-      "imagen": ""
     }
   ],
   "estado_fuentes": [
@@ -553,7 +553,7 @@
       "nombre": "El Tiempo Cali",
       "url": "https://www.eltiempo.com/rss/colombia_cali.xml",
       "estado": "correcto",
-      "titulares": 7
+      "titulares": 8
     },
     {
       "nombre": "El Espectador",
