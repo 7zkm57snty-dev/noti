@@ -1,6 +1,87 @@
 {
-  "ultima_actualizacion": "2026-11-22T19:55:58.896814+00:00",
+  "ultima_actualizacion": "2026-11-22T20:53:09.894195+00:00",
   "titulares_rss": [
+    {
+      "id": "19b0510e416ea728",
+      "titulo": "Defensoría lanza alerta por el agravamiento del conflicto en el Catatumbo",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/defensoria-lanza-alerta-por-el-agravamiento-del-conflicto-en-el-catatumbo/",
+      "fecha": "2026-11-22T20:41:48+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "534c4912e18ad2c4",
+      "titulo": "Retiran del mercado más de 51.000 cremas dentales y enjuagues por contaminación con hormonas",
+      "categoria": "Economía",
+      "fuente": "La FM Internacional",
+      "url": "https://www.lafm.com.co/internacional/crema-dental-enjuague-bucal-orl-organic-oral-care-retirados-contaminacion-hormonas-417957",
+      "fecha": "2026-11-22T20:39:54+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "278d20d1f1f6c1c4",
+      "titulo": "Salario mínimo de 2027 podría costarles a las empresas más de $4 millones por trabajador",
+      "categoria": "Economía",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/noticias/salario-minimo-de-2027-podria-costarles-a-las-empresas-mas-de-4-millones-por-trabajador/",
+      "fecha": "2026-11-22T20:30:53+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "a618bfed7e299832",
+      "titulo": "Medellín, Quibdó y el Pacífico colombiano fortalecen su conexión aérea con nuevas frecuencias de Satena",
+      "categoria": "Colombia",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/regiones/medellin-quibdo-y-el-pacifico-colombiano-fortalecen-su-conexion-aerea-con-nuevas-frecuencias-de-satena-506875",
+      "fecha": "2026-11-22T20:22:19+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "0bf6202ce66ab0ed",
+      "titulo": "Desmontar el 4 x 1.000 sin afectar las finanzas públicas: las alternativas que se discuten en Colombia",
+      "categoria": "Colombia",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/finanzas/desmontar-el-4x1000-sin-afectar-las-finanzas-publicas-las-alternativas-que-se-discuten-en-colombia-506779",
+      "fecha": "2026-11-22T20:19:19+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "e2ae7a93c88f6c37",
+      "titulo": "Gobernadora del Valle respalda bombardeo contra el Eln en Dagua: 'Cada acción contra los criminales es un acto de soberanía y respiro para la gente'",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/cali/gobernadora-del-valle-respalda-bombardeo-contra-el-eln-en-dagua-cada-accion-contra-los-criminales-es-un-acto-de-soberania-y-respiro-para-la-gente-3603187",
+      "fecha": "2026-11-22T20:08:43+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "2ab38ac0e96e012a",
+      "titulo": "Aumenta en Colombia el número de mujeres que tienen bebés para parejas extranjeras",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/noticias/aumenta-en-colombia-el-numero-de-mujeres-que-tienen-bebes-para-parejas-extranjeras/",
+      "fecha": "2026-11-22T20:00:21+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "c39e8338b6e1b504",
+      "titulo": "Ecopetrol perforará siete nuevos pozos en Estados Unidos antes de que acabe el año",
+      "categoria": "Internacional",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/economia/ecopetrol-perforara-siete-nuevos-pozos-en-estados-unidos-antes-de-que-acabe-el-ano-4530310",
+      "fecha": "2026-11-22T19:59:51+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "56e6fe7997b76d88",
+      "titulo": "Salario mínimo 2027: expertos revelan por qué el aumento no debería superar el 7 %",
+      "categoria": "Economía",
+      "fuente": "La FM Economía",
+      "url": "https://www.lafm.com.co/economia/salario-minimo-2027-expertos-aumento-maximo-7-por-ciento-417953",
+      "fecha": "2026-11-22T19:50:21+00:00",
+      "imagen": ""
+    },
     {
       "id": "76cd06c69bf1848a",
       "titulo": "Panamá rechazó acuerdo de la COP31 por falta de ambición climática",
@@ -362,30 +443,12 @@
       "imagen": ""
     },
     {
-      "id": "d07c197b855b3c51",
-      "titulo": "Gobierno De La Espriella le hizo advertencias a Starlink y operadores por señales en las cárceles colombianas",
-      "categoria": "Colombia",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/gobierno/mintic-les-hizo-advertencias-a-starlink-y-operadores-por-senales-en-las-carceles-colombianas-506854",
-      "fecha": "2026-11-22T16:06:25+00:00",
-      "imagen": ""
-    },
-    {
       "id": "fa85bc7ca373b054",
       "titulo": "Nueva herramienta científica busca impulsar la recuperación del río Atrato",
       "categoria": "Colombia",
       "fuente": "Chocó 7 días",
       "url": "https://choco7dias.com/nueva-herramienta-cientifica-busca-impulsar-la-recuperacion-del-rio-atrato/",
       "fecha": "2026-11-22T16:03:56+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "0bf6202ce66ab0ed",
-      "titulo": "Desmontar el 4x1000 sin afectar las finanzas públicas: las alternativas que se discuten en Colombia",
-      "categoria": "Colombia",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/finanzas/desmontar-el-4x1000-sin-afectar-las-finanzas-publicas-las-alternativas-que-se-discuten-en-colombia-506779",
-      "fecha": "2026-11-22T16:03:07+00:00",
       "imagen": ""
     },
     {
@@ -477,69 +540,6 @@
       "url": "https://www.lafm.com.co/internacional/colombia-avion-fuerza-aerea-despliegue-el-salvador-haiti-417941",
       "fecha": "2026-11-22T14:46:22+00:00",
       "imagen": ""
-    },
-    {
-      "id": "1d3d70f3027775fc",
-      "titulo": "Finlandia prepara el traslado a Rusia de barco atacado por drones",
-      "categoria": "Internacional",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/finlandia-prepara-el-traslado-a-rusia-de-barco-atacado-por-drones/a-80014103?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-22T14:46:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "6657319bc97edd91",
-      "titulo": "Ocde plantea subir la edad de pensión, ampliar el IVA y eliminar subsidios por estratos",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/economia/ocde-plantea-subir-la-edad-de-pension-ampliar-el-iva-y-eliminar-subsidios-por-estratos-4530260",
-      "fecha": "2026-11-22T14:44:14+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "b86aa717311d2de1",
-      "titulo": "Ni el carro de la basura se salva: En Mercaderes, Cauca, robaron el vehículo recolector de residuos",
-      "categoria": "Colombia",
-      "fuente": "La FM Actualidad",
-      "url": "https://www.lafm.com.co/actualidad/robo-carro-basura-mercaderes-cauca-vehiculo-recolector-residuos-hurto-417939",
-      "fecha": "2026-11-22T14:30:38+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "78077cc198f03617",
-      "titulo": "La paradoja del otoño: se ha convertido en un cliché muy rentable justo cuando ha empezado a desaparecer",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/magnet/paradoja-otono-se-ha-convertido-cliche-muy-rentable-justo-cuando-ha-empezado-a-desaparecer",
-      "fecha": "2026-11-22T14:22:22+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "55e24426f1c9e728",
-      "titulo": "Videos | Angustiante rescate en Medellín: bomberos salvan a dos hombres atrapados por creciente de una quebrada tras fuertes lluvias y 449 rayos",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/medellin/videos-angustiante-rescate-en-medellin-bomberos-salvan-a-dos-hombres-atrapados-por-creciente-de-una-quebrada-tras-fuertes-lluvias-y-449-rayos-3603136",
-      "fecha": "2026-11-22T14:20:28+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "12618cbe0119c0a9",
-      "titulo": "Abogados penalistas debaten sobre las garantías judiciales en Colombia",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/noticias/cambia-el-titulo-algo-mas-sutil-abogados-penalistas-debaten-sobre-las-garantias-judiciales-en-colombia/",
-      "fecha": "2026-11-22T14:18:44+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "8cfc4d3ffcba60bf",
-      "titulo": "Identifican a soldado asesinado en ataque con explosivos contra batallón del Ejército en Cesar",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/identifican-soldado-asesinado-ataque-explosivos-ejercito-cesar-IG43897917",
-      "fecha": "2026-11-22T14:18:38+00:00",
-      "imagen": ""
     }
   ],
   "estado_fuentes": [
@@ -553,7 +553,7 @@
       "nombre": "El Tiempo Cali",
       "url": "https://www.eltiempo.com/rss/colombia_cali.xml",
       "estado": "correcto",
-      "titulares": 8
+      "titulares": 7
     },
     {
       "nombre": "El Espectador",
@@ -590,7 +590,7 @@
       "nombre": "BBC Mundo",
       "url": "https://feeds.bbci.co.uk/mundo/rss.xml",
       "estado": "correcto",
-      "titulares": 26
+      "titulares": 25
     },
     {
       "nombre": "DW Español",
@@ -632,7 +632,7 @@
       "nombre": "La FM Internacional",
       "url": "https://www.lafm.com.co/rss/internacional.xml",
       "estado": "correcto",
-      "titulares": 9
+      "titulares": 10
     },
     {
       "nombre": "La FM Actualidad",
