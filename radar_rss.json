@@ -1,6 +1,42 @@
 {
-  "ultima_actualizacion": "2026-11-23T06:14:35.758772+00:00",
+  "ultima_actualizacion": "2026-11-23T07:54:42.751206+00:00",
   "titulares_rss": [
+    {
+      "id": "a6caef498359b814",
+      "titulo": "¡Ojo, conductor! Pico y placa en Bucaramanga para el lunes 23 de noviembre de 2026: estas son las placas que no pueden circular",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/santander/ojo-conductor-pico-y-placa-en-bucaramanga-para-el-lunes-23-de-noviembre-de-2026-estas-son-las-placas-que-no-pueden-circular-3602734",
+      "fecha": "2026-11-23T07:30:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "9df03b0c76849a61",
+      "titulo": "Pico y placa en Medellín para el lunes 23 de noviembre de 2026: placas que tienen restricción para carros, motos y taxis",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/medellin/pico-y-placa-en-medellin-para-el-lunes-23-de-noviembre-de-2026-placas-que-tienen-restriccion-para-carros-motos-y-taxis-3602709",
+      "fecha": "2026-11-23T07:30:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "d8f87cb0838c3404",
+      "titulo": "¡Evite multas! Pico y placa en Cali para el lunes 23 de noviembre de 2026: consulte qué carros no pueden circular",
+      "categoria": "Cali",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/cali/evite-multas-pico-y-placa-en-cali-para-el-lunes-23-de-noviembre-de-2026-consulte-que-carros-no-pueden-circular-3602706",
+      "fecha": "2026-11-23T07:30:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "72fbdf3e3f81ce34",
+      "titulo": "Encuentran en Mallorca un barco hundido de época islámica con una carga muy peculiar: un montón de cuernos de ciervo",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/magnet/encuentran-mallorca-barco-hundido-epoca-islamica-carga-muy-peculiar-monton-cuernos-ciervo",
+      "fecha": "2026-11-23T07:00:24+00:00",
+      "imagen": ""
+    },
     {
       "id": "a174d9e8dc82be80",
       "titulo": "Así gasta el Estado colombiano: lo que hay detrás del presupuesto",
@@ -209,15 +245,6 @@
       "imagen": ""
     },
     {
-      "id": "464fc8331a3d3c3c",
-      "titulo": "Democracia Iliberal: ¿cómo andamos tres décadas después?",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/analisis/sergio-clavijo-500041/democracia-iliberal-como-andamos-tres-decadas-despues-4530349",
-      "fecha": "2026-11-23T05:01:35+00:00",
-      "imagen": ""
-    },
-    {
       "id": "8f99f6cd79b751e0",
       "titulo": "¡Doctor Bayter! ¡Doctor Bayter!",
       "categoria": "Colombia",
@@ -227,12 +254,12 @@
       "imagen": ""
     },
     {
-      "id": "fc31da64f7926f0a",
-      "titulo": "Margarita Moreno pasa del Everest a una ultramaratón de hasta 250 kilómetros en la Antártida",
+      "id": "464fc8331a3d3c3c",
+      "titulo": "Democracia Iliberal: ¿cómo andamos tres décadas después?",
       "categoria": "Colombia",
       "fuente": "La República",
-      "url": "https://www.larepublica.co/ocio/margarita-moreno-pasa-del-everest-a-una-ultramaraton-de-hasta-250-kilometros-en-la-antartida-4529581",
-      "fecha": "2026-11-23T05:01:34+00:00",
+      "url": "https://www.larepublica.co/analisis/sergio-clavijo-500041/democracia-iliberal-como-andamos-tres-decadas-despues-4530349",
+      "fecha": "2026-11-23T05:01:35+00:00",
       "imagen": ""
     },
     {
@@ -241,6 +268,15 @@
       "categoria": "Colombia",
       "fuente": "La República",
       "url": "https://www.larepublica.co/analisis/jonathan-malagon-2590707/el-costo-invisible-4530364",
+      "fecha": "2026-11-23T05:01:34+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "fc31da64f7926f0a",
+      "titulo": "Margarita Moreno pasa del Everest a una ultramaratón de hasta 250 kilómetros en la Antártida",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/ocio/margarita-moreno-pasa-del-everest-a-una-ultramaraton-de-hasta-250-kilometros-en-la-antartida-4529581",
       "fecha": "2026-11-23T05:01:34+00:00",
       "imagen": ""
     },
@@ -504,42 +540,6 @@
       "url": "https://www.eltiempo.com/colombia/medellin/temblor-hoy-en-colombia-reportan-nuevo-sismo-de-magnitud-2-9-en-antioquia-durante-la-noche-de-este-domingo-22-de-noviembre-3603251",
       "fecha": "2026-11-23T03:35:13+00:00",
       "imagen": ""
-    },
-    {
-      "id": "8ae021a117f7c991",
-      "titulo": "El Gobierno de De la Espriella le pide a X que suspenda la cuenta de Petro",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/america-colombia/2026-11-23/el-gobierno-de-de-la-espriella-le-pide-a-x-que-suspenda-la-cuenta-de-petro.html",
-      "fecha": "2026-11-23T03:13:22+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "666b2eb1272d6500",
-      "titulo": "Tres soldados salvadoreños mueren en un incidente con explosivos en Haití",
-      "categoria": "Internacional",
-      "fuente": "BBC Mundo",
-      "url": "https://www.bbc.com/mundo/articles/cmvg212k7lyko?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-23T02:56:44+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "10b8c730c09bc6dc",
-      "titulo": "Atención: Tractomula sin frenos deja 5 muertos y múltiples heridos en Cajamarca y obliga al cierre total del corredor del Alto de la Línea",
-      "categoria": "Deportes",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/atencion-tractomula-sin-frenos-causa-tragedia-en-cajamarca-y-obliga-al-cierre-total-del-corredor-del-alto-de-la-linea-3603235",
-      "fecha": "2026-11-23T02:33:23+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "baba0c4c7a49670c",
-      "titulo": "Kim dice que Corea del Norte no busca \"supremacía ni expansión\", sino seguridad",
-      "categoria": "Internacional",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/kim-dice-que-corea-del-norte-no-busca-supremacía-ni-expansión-sino-seguridad/a-80015541?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-23T02:31:00+00:00",
-      "imagen": ""
     }
   ],
   "estado_fuentes": [
@@ -632,7 +632,7 @@
       "nombre": "La FM Internacional",
       "url": "https://www.lafm.com.co/rss/internacional.xml",
       "estado": "correcto",
-      "titulares": 10
+      "titulares": 9
     },
     {
       "nombre": "La FM Actualidad",
