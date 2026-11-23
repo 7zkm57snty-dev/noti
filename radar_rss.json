@@ -1,13 +1,22 @@
 {
-  "ultima_actualizacion": "2026-11-23T09:33:19.666428+00:00",
+  "ultima_actualizacion": "2026-11-23T10:44:17.201679+00:00",
   "titulares_rss": [
     {
-      "id": "db83ab6f5ed5a299",
-      "titulo": "Las mejores ofertas en Amazon (antes del Black Friday) hoy, 23 de noviembre: chollos con hasta un 71 % de descuento",
-      "categoria": "Colombia",
+      "id": "be739dbbf5d8226e",
+      "titulo": "Ya está aquí el Black Friday de Movistar Plus: pagas 2 euros y tienes dos meses del plan con fútbol",
+      "categoria": "Deportes",
       "fuente": "Xataka",
-      "url": "https://www.xataka.com/seleccion/mejores-ofertas-amazon-antes-black-friday-hoy-23-noviembre-chollos-71-descuento",
-      "fecha": "2026-11-23T09:16:48+00:00",
+      "url": "https://www.xataka.com/streaming/esta-aqui-black-friday-movistar-plus-pagas-2-euros-tienes-dos-meses-plan-futbol",
+      "fecha": "2026-11-23T10:42:19+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "ac26d37324109946",
+      "titulo": "Bogotá tendrá semana de marchas y plantones ciudadanos",
+      "categoria": "Colombia",
+      "fuente": "La FM Actualidad",
+      "url": "https://www.lafm.com.co/actualidad/bogota-tendra-semana-de-marchas-y-plantones-ciudadanos-417977",
+      "fecha": "2026-11-23T10:41:03+00:00",
       "imagen": ""
     },
     {
@@ -16,7 +25,214 @@
       "categoria": "Colombia",
       "fuente": "El Tiempo",
       "url": "https://www.eltiempo.com/colombia/otras-ciudades/reportan-explosiones-en-el-comando-de-la-policia-de-cucuta-norte-de-santander-habria-sido-atacado-con-drones-3603256",
-      "fecha": "2026-11-23T09:15:41+00:00",
+      "fecha": "2026-11-23T10:36:10+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "16a60de9de50607b",
+      "titulo": "Medios: Rusia prepara un satélite cargado con una ojiva nuclear para lanzarlo al espacio este año, según medios alemanes",
+      "categoria": "Internacional",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/medios-rusia-prepara-un-satélite-cargado-con-una-ojiva-nuclear-para-lanzarlo-al-espacio-este-año-según-medios-alemanes/a-80018296?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-23T10:31:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "665049359d590487",
+      "titulo": "Samsung firma el mejor plegable del año no por ser pioneros del formato, sino por todo lo que ha hecho este tiempo para perfeccionarlo",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/moviles/samsung-firma-mejor-plegable-ano-no-ser-pioneros-formato-sino-todo-que-ha-hecho-este-tiempo-para-perfeccionarlo",
+      "fecha": "2026-11-23T10:30:51+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "10b8c730c09bc6dc",
+      "titulo": "Atención: Tractomula sin frenos deja 5 muertos y múltiples heridos en Cajamarca y obliga al cierre total del corredor del Alto de la Línea",
+      "categoria": "Deportes",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/atencion-tractomula-sin-frenos-causa-tragedia-en-cajamarca-y-obliga-al-cierre-total-del-corredor-del-alto-de-la-linea-3603235",
+      "fecha": "2026-11-23T10:29:54+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "6dcce61b102f7b1d",
+      "titulo": "Este tipo, usando Claude, ha resuelto la hipótesis de Riemann, uno de los mayores problema matemáticos de la historia. Ahora solo nos queda entender cómo lo ha hehco",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/investigacion/este-tipo-usando-claude-ha-resuelto-hipotesis-riemann-uno-mayores-problema-matematicos-historia-ahora-solo-nos-queda-entender-como-ha-hehco",
+      "fecha": "2026-11-23T10:18:51+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "3d93a64853d28ad2",
+      "titulo": "Hoy, 23 de noviembre, llega a Lidl esta aspiradora sin cables 2 en 1 con 100 W de potencia y varios accesorios",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/seleccion/hoy-23-noviembre-llega-a-lidl-esta-aspiradora-cables-2-1-100-w-potencia-varios-accesorios",
+      "fecha": "2026-11-23T10:16:47+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "5b980fb84e1ca46a",
+      "titulo": "El nuevo BYD Ti7 se parece tanto a un Land Rover Defender que un juez ha prohibido su venta en la Unión Europea",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/movilidad/nuevo-byd-ti7-se-parece-a-land-rover-defender-que-juez-ha-prohibido-su-venta-union-europea",
+      "fecha": "2026-11-23T10:15:58+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "14b91d410f59e2d0",
+      "titulo": "Con RTX 5080, Ryzen 7 X3D y 32 GB de RAM DDR5: así es el PC gaming que destaca en el Black Friday de Coolmod",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/seleccion/rtx-5080-ryzen-7-x3d-32-gb-ram-ddr5-asi-pc-gaming-que-destaca-black-friday-coolmod",
+      "fecha": "2026-11-23T09:58:25+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "2b269edb3cb02c9c",
+      "titulo": "El Mac mini M6 no solo ha bajado de precio. Lo ha hecho con un descuento que pensábamos que no veríamos en el Black Friday",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/seleccion/mac-mini-m6-no-solo-ha-bajado-precio-ha-hecho-descuento-que-pensabamos-que-no-veriamos-black-friday",
+      "fecha": "2026-11-23T09:46:47+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "86a8b9d3c8efb1ee",
+      "titulo": "Zelenski reivindica los ataques contra dos buques rusos cerca de Libia",
+      "categoria": "Internacional",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/zelenski-reivindica-los-ataques-contra-dos-buques-rusos-cerca-de-libia/a-80017781?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-23T09:39:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "3b9591567e368515",
+      "titulo": "Si crees que Samsung Wallet solo sirve para pagar, te pierdes lo mejor: de abrir la puerta de casa a gestionar tus suscripciones",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/aplicaciones/crees-que-samsung-wallet-solo-sirve-para-pagar-te-pierdes-mejor-abrir-puerta-casa-a-gestionar-tus-suscripciones",
+      "fecha": "2026-11-23T09:30:53+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "b98dfa8d51da5a27",
+      "titulo": "La ministra de Educación apunta a una revolución ultraconservadora, pero con menos dinero",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/america-colombia/2026-11-23/la-ministra-de-educacion-apunta-a-una-revolucion-ultraconservadora-pero-con-menos-dinero.html",
+      "fecha": "2026-11-23T09:30:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "68351332faa1e743",
+      "titulo": "Bitácora de una derrota: así le incumplió el Estado a miles de campesinos lo pactado en el Acuerdo de Paz para sustituir la coca",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/america-colombia/2026-11-23/bitacora-de-una-derrota-asi-le-incumplio-el-estado-a-miles-de-campesinos-lo-pactado-en-el-acuerdo-de-paz-para-sustituir-la-coca.html",
+      "fecha": "2026-11-23T09:30:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "e953e7ba88080afe",
+      "titulo": "Las trabajadoras domésticas se alistan para participar por primera vez en la mesa que define el salario mínimo",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/america-colombia/2026-11-23/las-trabajadoras-domesticas-se-alistan-para-participar-por-primera-vez-en-la-mesa-que-define-el-salario-minimo.html",
+      "fecha": "2026-11-23T09:30:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "a9d287b96fc9ccd2",
+      "titulo": "Colombia vive en el siglo XIX",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/america-colombia/2026-11-23/colombia-vive-en-el-siglo-xix.html",
+      "fecha": "2026-11-23T09:30:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "fb0d7884a555fd93",
+      "titulo": "El rastro tóxico de los rituales mayas: cómo un pigmento rojo envenenó el agua de Yucatán",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/mexico/2026-11-23/el-rastro-toxico-de-los-rituales-mayas-como-un-pigmento-rojo-enveneno-el-agua-de-yucatan.html",
+      "fecha": "2026-11-23T09:30:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "cf3ba02f0d64dbdc",
+      "titulo": "México consolida el apoyo en inteligencia de Estados Unidos contra el narco",
+      "categoria": "Internacional",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/mexico/2026-11-23/mexico-consolida-el-apoyo-en-inteligencia-de-estados-unidos-contra-el-narco.html",
+      "fecha": "2026-11-23T09:30:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "a3834769c4c25ce0",
+      "titulo": "Qué sigue para el futuro político de Cuba: ¿ataque de Trump antes de fin de año o giro demócrata?",
+      "categoria": "Internacional",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/us/2026-11-23/que-sigue-para-el-futuro-politico-de-cuba-ataque-de-trump-antes-de-fin-de-ano-o-giro-democrata.html",
+      "fecha": "2026-11-23T09:30:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "46b556fcc576e75c",
+      "titulo": "Carlos Joaquín y Balin, la vida en el ojo del huracán de las deportaciones de Trump",
+      "categoria": "Internacional",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/us/migracion/2026-11-23/carlos-joaquin-y-balin-la-vida-en-el-ojo-del-huracan-de-las-deportaciones-de-trump.html",
+      "fecha": "2026-11-23T09:30:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "c31adb213f17b139",
+      "titulo": "¿Vender la gallina de los huevos de oro?",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/america-colombia/2026-11-23/vender-la-gallina-de-los-huevos-de-oro.html",
+      "fecha": "2026-11-23T09:30:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "8266b2bab75b8b83",
+      "titulo": "De un pueblo que no existía al protector del mar: la historia de Chañaral de Aceituno",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/america-futura/2026-11-23/de-un-pueblo-que-no-existia-al-protector-del-mar-la-historia-de-chanaral-de-aceituno.html",
+      "fecha": "2026-11-23T09:30:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "e2ae114bd8c52701",
+      "titulo": "¿Por qué Art Basel Miami Beach se hace más pequeña si el mercado del arte vuelve a crecer?",
+      "categoria": "Economía",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/us/2026-11-23/por-que-art-basel-miami-beach-se-hace-mas-pequena-si-el-mercado-del-arte-vuelve-a-crecer.html",
+      "fecha": "2026-11-23T09:30:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "eba737b98633d31d",
+      "titulo": "El lucrativo negocio de prestar dinero en México",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/mexico/economia/2026-11-23/el-lucrativo-negocio-de-prestar-dinero-en-mexico.html",
+      "fecha": "2026-11-23T09:30:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "db83ab6f5ed5a299",
+      "titulo": "Las mejores ofertas en Amazon (antes del Black Friday) hoy, 23 de noviembre: chollos con hasta un 71 % de descuento",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/seleccion/mejores-ofertas-amazon-antes-black-friday-hoy-23-noviembre-chollos-71-descuento",
+      "fecha": "2026-11-23T09:16:48+00:00",
       "imagen": ""
     },
     {
@@ -29,20 +245,20 @@
       "imagen": ""
     },
     {
-      "id": "9fc2fb06ffa6ebba",
-      "titulo": "El diablo está en los cojones",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/videojuegos/diablo-esta-cojones",
-      "fecha": "2026-11-23T09:00:28+00:00",
-      "imagen": ""
-    },
-    {
       "id": "eacbbe6b85711e92",
       "titulo": "El adaptador inalámbrico más vendido para usar Android Auto y CarPlay sin cables, tiene un 70% de descuento en el Black Friday",
       "categoria": "Colombia",
       "fuente": "Xataka",
       "url": "https://www.xataka.com/seleccion/adaptador-inalambrico-vendido-para-usar-android-auto-carplay-cables-tiene-70-descuento-black-friday",
+      "fecha": "2026-11-23T09:00:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "9fc2fb06ffa6ebba",
+      "titulo": "El diablo está en los cojones",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/videojuegos/diablo-esta-cojones",
       "fecha": "2026-11-23T09:00:00+00:00",
       "imagen": ""
     },
@@ -324,222 +540,6 @@
       "url": "https://www.larepublica.co/caja-fuerte/el-gigante-de-la-ia-rompe-records-4530475",
       "fecha": "2026-11-23T05:01:36+00:00",
       "imagen": ""
-    },
-    {
-      "id": "8f99f6cd79b751e0",
-      "titulo": "¡Doctor Bayter! ¡Doctor Bayter!",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/ocio/doctor-bayter-doctor-bayter-4530285",
-      "fecha": "2026-11-23T05:01:35+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "464fc8331a3d3c3c",
-      "titulo": "Democracia Iliberal: ¿cómo andamos tres décadas después?",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/analisis/sergio-clavijo-500041/democracia-iliberal-como-andamos-tres-decadas-despues-4530349",
-      "fecha": "2026-11-23T05:01:35+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "0f407a9a04f238a4",
-      "titulo": "El costo invisible",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/analisis/jonathan-malagon-2590707/el-costo-invisible-4530364",
-      "fecha": "2026-11-23T05:01:34+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "fc31da64f7926f0a",
-      "titulo": "Margarita Moreno pasa del Everest a una ultramaratón de hasta 250 kilómetros en la Antártida",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/ocio/margarita-moreno-pasa-del-everest-a-una-ultramaraton-de-hasta-250-kilometros-en-la-antartida-4529581",
-      "fecha": "2026-11-23T05:01:34+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "8b6f2e122c549b01",
-      "titulo": "Necesitamos antropólogos en el sistema de salud",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/analisis/juliana-saldarriaga-3651246/necesitamos-antropologos-en-el-sistema-de-salud-4529999",
-      "fecha": "2026-11-23T05:01:32+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "3ecb9d089079910c",
-      "titulo": "De la dicha al ajuste forzado",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/analisis/alberto-carrasquilla-562150/de-la-dicha-al-ajuste-forzado-4529994",
-      "fecha": "2026-11-23T05:01:30+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "d823437d7437b20f",
-      "titulo": "Líderes del Valle se reunieron en nueva edición de Encontrémonos en las Regiones",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/ocio/lideres-del-valle-se-reunieron-en-nueva-edicion-de-encontremonos-en-las-regiones-4530435",
-      "fecha": "2026-11-23T05:01:25+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "96f58288474a9442",
-      "titulo": "La franquicia ‘Mi pobre angelito’ prepara su regreso de la mano de Macaulay Culkin",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/ocio/la-franquicia-mi-pobre-angelito-prepara-su-regreso-de-la-mano-de-culkin-4530443",
-      "fecha": "2026-11-23T05:01:24+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "601de423aea4533c",
-      "titulo": "¿Quiere comprar pesebre de lujo? Opciones en el mercado y consejos de decoración",
-      "categoria": "Economía",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/consumo/quiere-comprar-un-pesebre-de-lujo-opciones-del-mercado-y-recomendaciones-de-decoracion-4530406",
-      "fecha": "2026-11-23T05:01:24+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "181aad327cb73ebe",
-      "titulo": "Estudio comparó carne vegetal con la animal y encontró diferencias nutricionales",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/consumo/un-estudio-comparo-la-carne-vegetal-con-la-animal-y-encontro-diferencias-nutricionales-4528782",
-      "fecha": "2026-11-23T05:01:23+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "ddbad471fc5e0fe3",
-      "titulo": "Entidades ofrecen financiación para moto con tasas de interés que van de 16,2% a 26,19%",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/finanzas/las-tasas-de-interes-para-financiar-una-moto-van-de-16-2-a-26-19-4529891",
-      "fecha": "2026-11-23T05:01:23+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "ed7d3c2205f7357b",
-      "titulo": "Clevercel busca inversionistas para recaudar $3.000 millones vía a2censo",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/empresas/clevercel-busca-inversionistas-para-recaudar-3-000-millones-a-traves-de-a2censo-4529730",
-      "fecha": "2026-11-23T05:01:15+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "2cfb5485382a2ee5",
-      "titulo": "Radiografía del comercio que Colombia tiene con España en antesala electoral",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/radiografia-del-comercio-que-colombia-tiene-con-espana-en-antesala-electoral-4530339",
-      "fecha": "2026-11-23T05:01:14+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "713b0e762c46a38c",
-      "titulo": "Conozca las claves para comprar sin endeudarse ni caer en fraudes durante el Black Friday",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/finanzas/conozca-las-claves-para-comprar-sin-endeudarse-ni-caer-en-fraudes-durante-el-black-friday-4529806",
-      "fecha": "2026-11-23T05:01:13+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "18aeae86cc7517e3",
-      "titulo": "El momento Muro de Berlín de Venezuela: ¿la oportunidad económica de una generación?",
-      "categoria": "Internacional",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/analisis/ami-spiwak-3105947/el-momento-muro-de-berlin-de-venezuela-la-oportunidad-economica-de-una-generacion-4530463",
-      "fecha": "2026-11-23T05:01:11+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "0838a69a819a97ca",
-      "titulo": "IA en la justicia: oportunidad de oro",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/analisis/juan-pablo-lievano-vegalara-2858000/ia-en-la-justicia-oportunidad-de-oro-4530461",
-      "fecha": "2026-11-23T05:01:11+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "aa9edb8c0f3a7f3f",
-      "titulo": "Colombia tendrá un festivo cada 19 días en 2027 teniendo en cuenta que tendrá 365 días",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/colombia-va-a-tener-un-festivo-cada-19-dias-durante-el-proximo-curso-4530334",
-      "fecha": "2026-11-23T05:01:11+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "a01440c29085fc7d",
-      "titulo": "El otoño de Europa",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/analisis/diego-gomez-3234242/el-otono-de-europa-4529991",
-      "fecha": "2026-11-23T05:01:10+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "9c2e157d89cb3cc7",
-      "titulo": "Gobierno entregará subsidios de arriendo y vivienda a familias afectadas por el terremoto",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/economia/gobierno-entregara-subsidios-de-arriendo-y-vivienda-a-familias-afectadas-por-el-terremoto-4529787",
-      "fecha": "2026-11-23T05:01:09+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "3c43a6b6d664b77e",
-      "titulo": "Un dólar bajo impulsaría 20% las ventas de empresas de envíos desde Estados Unidos",
-      "categoria": "Economía",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/empresas/un-dolar-bajo-impulsaria-20-las-ventas-de-empresas-de-envios-desde-estados-unidos-4529909",
-      "fecha": "2026-11-23T05:01:04+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "921407baccf0dc08",
-      "titulo": "El Amarillo de Manzanares se roba el show y lidera la fiebre amarilla de los aguardientes",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/empresas/el-amarillo-de-manzanares-se-roba-el-show-y-lidera-la-fiebre-amarilla-de-los-aguardientes-4529131",
-      "fecha": "2026-11-23T05:01:03+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "2ff050540cc909c7",
-      "titulo": "Adiós al Santiago Londoño",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/editorial/adios-al-santiago-londono/",
-      "fecha": "2026-11-23T05:00:57+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "839ac17f71abd75e",
-      "titulo": "La condenaron por andar armada",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/judicial/la-condenaron-por-andar-armada/",
-      "fecha": "2026-11-23T05:00:57+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "d4585e292dd4cbb4",
-      "titulo": "ESCAMPAVÍA.",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/opinion/escampavia-275/",
-      "fecha": "2026-11-23T05:00:53+00:00",
-      "imagen": ""
     }
   ],
   "estado_fuentes": [
@@ -590,7 +590,7 @@
       "nombre": "BBC Mundo",
       "url": "https://feeds.bbci.co.uk/mundo/rss.xml",
       "estado": "correcto",
-      "titulares": 22
+      "titulares": 21
     },
     {
       "nombre": "DW Español",
@@ -651,7 +651,7 @@
       "nombre": "El Colombiano — Colombia",
       "url": "https://www.elcolombiano.com/rss/Colombia.xml",
       "estado": "correcto",
-      "titulares": 20
+      "titulares": 22
     },
     {
       "nombre": "El Diario — Pereira",
