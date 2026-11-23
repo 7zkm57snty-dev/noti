@@ -1,13 +1,499 @@
 {
-  "ultima_actualizacion": "2026-11-23T12:43:26.458282+00:00",
+  "ultima_actualizacion": "2026-11-23T14:06:05.898449+00:00",
   "titulares_rss": [
     {
+      "id": "b379f224eab692cc",
+      "titulo": "Últimas noticias y reacciones al ataque con drones contra el Comando de la Policía de Cúcuta: más de 60 viviendas afectadas y tres personas lesionadas",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/ultimas-noticias-y-reacciones-al-ataque-con-explosivos-contra-el-comando-de-la-policia-de-cucuta-autoridades-no-reportan-policias-heridos-3603261",
+      "fecha": "2026-11-23T14:02:23+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "3881f0cecd0d9cb6",
+      "titulo": "Lenovo se lleva el mejor portátil convertible del año con una apuesta que le ha salido muy bien: Nvidia Spark",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/ordenadores/lenovo-se-lleva-mejor-portatil-convertible-ano-apuesta-que-le-ha-salido-muy-bien-nvidia-spark",
+      "fecha": "2026-11-23T14:00:50+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "86a164e4a4c60cd8",
+      "titulo": "BCU destaca solidez del sistema financiero uruguayo tras crisis en Paraguay",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/globoeconomia/bcu-destaca-solidez-del-sistema-financiero-uruguayo-tras-crisis-en-paraguay-4530711",
+      "fecha": "2026-11-23T14:00:06+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "8754083705ccdf53",
+      "titulo": "El segundo Túnel de Oriente llega al 30 % de avance y ya pone en servicio su primer gran viaducto: el puente Sajonia 2",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/medellin/el-segundo-tunel-de-oriente-llega-al-30-de-avance-y-ya-pone-en-servicio-su-primer-gran-viaducto-el-puente-sajonia-3603322",
+      "fecha": "2026-11-23T13:58:24+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "4ad88c13ba970b65",
+      "titulo": "Reportan nuevo ataque con drones contra estación de policía en Curumaní, en el Cesar: explosivos quedaron grabados por la comunidad; esto se sabe",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/reportan-nuevo-ataque-con-drones-contra-estacion-de-policia-en-curumani-en-el-cesar-explosivos-quedaron-grabados-por-la-comunidad-esto-se-sabe-3603303",
+      "fecha": "2026-11-23T13:57:39+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "33ccbae1100312bc",
+      "titulo": "Usuarios de Nequi no podrán ingresar a la app por una hora del martes 24 de noviembre",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/finanzas/usuarios-de-nequi-no-podran-ingresar-a-la-app-por-una-hora-del-martes-24-de-noviembre-4530614",
+      "fecha": "2026-11-23T13:55:49+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "ba2d88714437b155",
+      "titulo": "90 al día: Las noticias más importantes de la región este lunes, 23 de noviembre",
+      "categoria": "Valle del Cauca",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/cali/noticias-importantes-region-lunes-23-noviembre-23-11-2026/",
+      "fecha": "2026-11-23T13:52:20+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "83e836b90542b123",
+      "titulo": "‘Justicia Divina’, el libro que propone una nueva manera de entender los conflictos",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/ocio/justicia-divina-el-libro-que-propone-una-nueva-manera-de-entender-los-conflictos-4530688",
+      "fecha": "2026-11-23T13:50:25+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "e6508636a2b835b1",
+      "titulo": "Alerta por presuntos drones sobre hospital que atendió a soldados heridos en ataque en el Cesar: ofrecen $50 millones por responsables",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/alerta-por-presuntos-drones-sobre-hospital-que-atendio-a-soldados-heridos-en-ataque-en-el-cesar-ofrecen-50-millones-por-responsables-3603317",
+      "fecha": "2026-11-23T13:49:53+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "1495342cef7fd92b",
+      "titulo": "¿Cuál es la ciudad de Colombia con el transporte público más caro? Este es el ranking de tarifas",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/cual-es-la-ciudad-de-colombia-con-el-transporte-publico-mas-caro-este-es-el-ranking-de-tarifas-3603316",
+      "fecha": "2026-11-23T13:49:33+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "2f001f864fe47910",
+      "titulo": "Analistas brasileños ven tasa del Emisor en 13% e inflación en 5,12% en 2027",
+      "categoria": "Economía",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/globoeconomia/analistas-brasilenos-ven-tasa-del-emisor-en-13-e-inflacion-en-5-12-en-2027-4530619",
+      "fecha": "2026-11-23T13:42:47+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "c2716f5822a8650f",
+      "titulo": "Empleadas domésticas en Colombia: solo tres de cada 10 reciben el salario mínimo, según recientes cálculos",
+      "categoria": "Colombia",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/empleo/empleadas-domesticas-en-colombia-solo-tres-de-cada-10-reciben-el-salario-minimo-segun-recientes-calculos-506892",
+      "fecha": "2026-11-23T13:40:26+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "94d6428764f323e9",
+      "titulo": "Uno de cada cinco dólares que exporta Colombia viaja por avión: la carga aérea creció cerca de 40% en diez años",
+      "categoria": "Economía",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/uno-de-cada-cinco-dolares-que-exporta-colombia-viaja-por-avion-la-carga-aerea-crecio-cerca-de-40-en-diez-anos-506887",
+      "fecha": "2026-11-23T13:40:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "624b46496914e6aa",
+      "titulo": "Empresas deben prepararse para posibles cambios laborales sin modificar obligaciones que siguen vigentes por ley",
+      "categoria": "Deportes",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/empresas-deben-prepararse-para-posibles-cambios-laborales-sin-modificar-obligaciones-que-siguen-vigentes-por-ley-506895",
+      "fecha": "2026-11-23T13:39:11+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "fe170c23c15d9ab1",
+      "titulo": "En 2016, Marruecos construyó esta extraña torre que hoy abastece de energía a más de un millón de personas",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/energia/2016-marruecos-construyo-esta-extrana-torre-que-hoy-abastece-energia-a-millon-personas",
+      "fecha": "2026-11-23T13:33:20+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "ecfac8de53538fec",
+      "titulo": "Tercer ataque con drones en las últimas horas en Colombia: la estación de Policía de Curumaní, Cesar, resultó afectada",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/atentado-drones-curumani-cesar-cucuta-heridos-LP43913585",
+      "fecha": "2026-11-23T13:33:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "7dbdc3a959976b1d",
+      "titulo": "Precio del dólar hoy en Colombia: Así está la moneda el 23 de noviembre",
+      "categoria": "Economía",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/vida-moderna/precio-del-dolar-hoy-en-colombia-23-11-2026/",
+      "fecha": "2026-11-23T13:32:21+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "2d54eac630e64657",
+      "titulo": "Alerta en el Cauca por creciente del río Palacé: avalancha obliga a evacuar a 100 personas y deja un desaparecido",
+      "categoria": "Deportes",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/cali/alerta-en-el-cauca-por-creciente-del-rio-palace-avalancha-obliga-a-evacuar-a-100-personas-y-deja-un-desaparecido-3603298",
+      "fecha": "2026-11-23T13:31:33+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "032cdfec39135ad4",
+      "titulo": "Primer ataque con drones a una capital deja tres heridos",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/en-vivo/cucuta-ataque-con-drones-al-comando-de-policia-deja-tres-heridos/",
+      "fecha": "2026-11-23T13:30:56+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "feb62a406e90d6b8",
+      "titulo": "¿Elon Musk suspendería cuenta de Gustavo Petro? Exgerente de Twitter en Colombia pone en duda la medida",
+      "categoria": "Colombia",
+      "fuente": "La FM Actualidad",
+      "url": "https://www.lafm.com.co/actualidad/mintic-elon-musk-suspencion-cuenta-gustavo-petro-modelo-negocio-moderacion-contenidos-417997",
+      "fecha": "2026-11-23T13:29:30+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "c58452c1e154a0fc",
+      "titulo": "¡Pilas! Transportadores marchan este lunes en Bogotá contra las fotomultas: estos son los puntos de la movilización",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/camioneros-taxistas-motociclistas-marchan-bogota-fotomultas-recorrido-EP43913236",
+      "fecha": "2026-11-23T13:29:04+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "9f321fe5bdb0e3bb",
+      "titulo": "Qué es Artex, la IA principal sospechosa del ciberataque a la Comisión Europea que tiene en alerta al FBI",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/seguridad/que-artex-herramienta-ia-que-busca-fallos-seguridad-sola-que-preocupa-a-empresas-gobiernos",
+      "fecha": "2026-11-23T13:27:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "dbf93385f4515206",
+      "titulo": "María Alejandra López brilló en la preliminar de Miss Universo 2026",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/actualidad/maria-alejandra-lopez-brillo-en-la-preliminar-de-miss-universo-2026/",
+      "fecha": "2026-11-23T13:26:05+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "5a52b4d0f8d30d8b",
+      "titulo": "Falleció Alberto Montoya Puyana, el primer alcalde electo de Bucaramanga",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/fallece-alberto-montoya-puyana-primer-alcalde-elegido-bucaramanga-EP43913304",
+      "fecha": "2026-11-23T13:24:26+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "33fa7063f65f9c83",
+      "titulo": "Dólar en Colombia inicia la semana al alza y por encima de $3.500",
+      "categoria": "Economía",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/finanzas/dolar-en-colombia-inicia-la-semana-al-alza-el-peso-continua-devaluandose-y-podria-superar-los-3-506889",
+      "fecha": "2026-11-23T13:23:47+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "3a5343cbea38234f",
+      "titulo": "Todo lo que debe saber sobre el pronóstico del clima en Cali para este lunes",
+      "categoria": "Cali",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/vida-moderna/ecologia/clima-cali-hoy-pronostico-23-11-2026/",
+      "fecha": "2026-11-23T13:23:38+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "7981f2711f14a616",
+      "titulo": "Drones cargados con explosivos atacaron comando de Policía en Cúcuta, Norte de Santander",
+      "categoria": "Valle del Cauca",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/judicial/drones-atacaron-comando-policia-cucuta-23-11-2026/",
+      "fecha": "2026-11-23T13:23:36+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "d367e544dbab1bae",
+      "titulo": "Paloma Valencia niega haber recibido información del atentado contra Miguel Uribe: “irresponsable y casi delictivo”",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/paloma-valencia-niega-recibido-informacion-atentado-miguel-uribe-irresponsable-delictivo-PO43908171",
+      "fecha": "2026-11-23T13:23:04+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "8df0f515e7cf255b",
+      "titulo": "Colombia se acerca a los dos millones de toneladas de aceite de palma y completa cinco meses de crecimiento",
+      "categoria": "Colombia",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/agro/colombia-se-acerca-a-los-dos-millones-de-toneladas-de-aceite-de-palma-y-completa-cinco-meses-de-crecimiento-506890",
+      "fecha": "2026-11-23T13:19:18+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "0fdcc085544120cb",
+      "titulo": "Fachadas provisionales en Roldanillo generan polémica tras el terremoto",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/actualidad/fachadas-provisionales-en-roldanillo-generan-polemica-tras-el-terremoto/",
+      "fecha": "2026-11-23T13:18:32+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "fdd8f27eacebd367",
+      "titulo": "Amante de ex director ejecutivo de Nvidia mantuvo contactos con el servicio de inteligencia de Pekín, según el NYT",
+      "categoria": "Internacional",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/amante-de-ex-director-ejecutivo-de-nvidia-mantuvo-contactos-con-el-servicio-de-inteligencia-de-pekín-según-el-nyt/a-80020921?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-23T13:17:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "214c56dab750a771",
+      "titulo": "Carrefour tira el precio de esta tele Samsung OLED en su Black Friday: tiene 65 pulgadas y es ideal para cine o videojuegos",
+      "categoria": "Tendencias",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/seleccion/carrefour-tira-precio-esta-tele-samsung-oled-su-black-friday-tiene-65-pulgadas-ideal-para-cine-videojuegos",
+      "fecha": "2026-11-23T13:16:51+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "18dd0b12950f507c",
+      "titulo": "La nube europea con cifrado de conocimiento cero cae de precio en un 90%: aprovecha el Black Friday de Internxt",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/seleccion/nube-europea-cifrado-conocimiento-cero-cae-precio-90-aprovecha-black-friday-internxt",
+      "fecha": "2026-11-23T13:16:51+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "0f81978a38aaae7b",
+      "titulo": "Tarifa de energía de Air-e supera los $1.000 por kilovatio hora: usuarios denuncian aumento del 15 % en dos meses",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/barranquilla/tarifa-de-energia-de-air-e-supera-los-1-000-por-kilovatio-hora-usuarios-denuncian-aumento-del-15-en-dos-meses-3603304",
+      "fecha": "2026-11-23T13:15:39+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "1fcdcb36bebb9137",
+      "titulo": "El papa León XIV recibió a Mariana Pajón y otras leyendas del ciclismo: así fue el encuentro en el Vaticano",
+      "categoria": "Deportes",
+      "fuente": "La FM Deportes",
+      "url": "https://www.lafm.com.co/deportes/papa-leon-xiv-leyendas-ciclismo-vaticano-mariana-pajon-417999",
+      "fecha": "2026-11-23T13:13:06+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "68eb5b452942ca9f",
+      "titulo": "Murió exalcalde de Bucaramanga y exrector de la Unab: Centroabastos, terminal y anillo vial, las obras que impulsó",
+      "categoria": "Economía",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/murio-exalcalde-de-bucaramanga-y-exrector-de-la-unab-centroabastos-terminal-y-anillo-vial-las-obras-que-impulso-506888",
+      "fecha": "2026-11-23T13:10:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "31497d718e4b5b73",
+      "titulo": "El precio promedio del dólar cotiza $68 al alza en la jornada y superó los $3.500",
+      "categoria": "Economía",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/finanzas/precio-del-dolar-y-petroleo-hoy-23-de-noviembre-4530545",
+      "fecha": "2026-11-23T13:04:49+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "c3e567bff712805b",
+      "titulo": "Se acaba la temporada de lluvias y los embalses pierden su capacidad de recarga",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/economia/se-acaba-la-temporada-de-lluvias-y-los-embalses-pierden-su-capacidad-de-recarga-4530563",
+      "fecha": "2026-11-23T13:02:56+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "7cc703bd8e6e887a",
+      "titulo": "En 1976 los arqueólogos dejaron sin excavar parte de una casa romana de Mérida. Resulta que ocultaba un tesoro único en murales",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/magnet/1976-arqueologos-dejaron-excavar-parte-casa-romana-merida-resulta-que-ocultaba-tesoro-unico-murales",
+      "fecha": "2026-11-23T13:00:49+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "5c216aa320881d31",
+      "titulo": "¿Se preparó Barranquilla para la guerra total a las bandas?",
+      "categoria": "Internacional",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/red-de-expertos/se-preparo-barranquilla-para-la-guerra-total-a-las-bandas/",
+      "fecha": "2026-11-23T12:59:07+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "17f0b6ab130a6923",
+      "titulo": "Verónica Alcocer le baja la caña a chats que muestran su cercanía con Eva Ferrer que había negado; esto dijo",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/veronica-alcocer-baja-cana-chats-muestran-cercania-eva-ferrer-que-nego-DO43909912",
+      "fecha": "2026-11-23T12:59:05+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "bf19c833a0206cf3",
+      "titulo": "¿Quiere saber cuánto recibirá de prima en diciembre? MinTrabajo lanza herramienta digital para calcularla",
+      "categoria": "Economía",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/prima-de-diciembre-herramienta-del-mintrabajo-permite-calcular-cuanto-le-corresponde-recibir-a-cada-trabajador-506885",
+      "fecha": "2026-11-23T12:58:34+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "585344be9004a50a",
+      "titulo": "Bogotá abre 2.934 vacantes de empleo esta semana: estos son los sectores y perfiles que buscan las empresas",
+      "categoria": "Economía",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/bogota-abre-2-934-vacantes-de-empleo-esta-semana-estos-son-los-sectores-y-perfiles-que-buscan-las-empresas-506886",
+      "fecha": "2026-11-23T12:55:03+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "6c26917aea7da227",
+      "titulo": "Alberto Montoya Puyana",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/obituarios/fallecimiento-de-alberto-montoya-puyana-4530601",
+      "fecha": "2026-11-23T12:54:51+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "e664e3f2eed62f87",
+      "titulo": "El éxito de los demócratas catapulta potenciales presidenciables: Conozca al joven senador Jon Ossoff",
+      "categoria": "Internacional",
+      "fuente": "La FM Internacional",
+      "url": "https://www.lafm.com.co/internacional/jon-ossoff-senador-democrata-georgia-posible-presidenciable-2028-417996",
+      "fecha": "2026-11-23T12:53:42+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "07d8de04bcc19070",
+      "titulo": "PIB mexicano alcanzó mayor alza del PIB en tres años con 3,3% a septiembre",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/globoeconomia/pib-mexicano-alcanzo-mayor-alza-del-pib-en-tres-anos-con-3-3-a-septiembre-4530600",
+      "fecha": "2026-11-23T12:51:23+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "c6fc4ebf6b793885",
+      "titulo": "Contratación de fin de año: lo que deben saber los trabajadores sobre la reforma laboral",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/noticias/contratacion-de-fin-de-ano-lo-que-deben-saber-los-trabajadores-sobre-la-reforma-laboral/",
+      "fecha": "2026-11-23T12:48:43+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "1352a9849c59cf70",
+      "titulo": "Jamie Lee Curtis, en su cumpleaños número 68: “Es el primer año que soy la única superviviente de mi familia inmediata”",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/gente/2026-11-23/jamie-lee-curtis-en-su-cumpleanos-numero-68-es-el-primer-ano-que-soy-la-unica-superviviente-de-mi-familia-inmediata.html",
+      "fecha": "2026-11-23T12:48:16+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "1d356457dbe1bc6a",
+      "titulo": "La cumbre climática COP31 fracasa y termina sin acuerdo político tras prolongadas negociaciones",
+      "categoria": "Valle del Cauca",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/efe/cumbre-climatica-cop31-fracasa-y-termina-sin-acuerdo-23-11-2026/",
+      "fecha": "2026-11-23T12:47:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "313953ee51b2c59c",
+      "titulo": "Colombia va a tener un festivo cada 19 días para 2027",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/colombia-pais-mas-festivos-ocde-calendario-2027-DP43910056",
+      "fecha": "2026-11-23T12:46:21+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "d84969287dc6d4a3",
+      "titulo": "Tamagotchi cumple 30 años, de mascota virtual a icono de la moda dosmilera",
+      "categoria": "Internacional",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/tamagotchi-cumple-30-años-de-mascota-virtual-a-icono-de-la-moda-dosmilera/a-80020800?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-23T12:44:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "ca51bbd467d40e97",
+      "titulo": "Murió Alberto Montoya Puyana, reconocido arquitecto y el primer alcalde de Bucaramanga elegido por voto popular",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/santander/murio-alberto-montoya-puyana-un-reconocido-arquitecto-y-quien-habria-sido-el-primer-alcalde-de-bucaramanga-elegido-por-voto-popular-3603285",
+      "fecha": "2026-11-23T12:42:19+00:00",
+      "imagen": ""
+    },
+    {
       "id": "974b606dbe792576",
-      "titulo": "Estas son las tres tendencias que marcarán el diseño de interiores en 2027",
+      "titulo": "Estas son las tres tendencias que marcarán el diseño de interiores el próximo año",
       "categoria": "Colombia",
       "fuente": "La República",
       "url": "https://www.larepublica.co/ocio/estas-son-las-tres-tendencias-que-marcaran-el-diseno-de-interiores-en-2027-4530604",
       "fecha": "2026-11-23T12:39:20+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "30d1029560db057f",
+      "titulo": "Coosalud, bajo la lupa de la Procuraduría: investigan anticipos por $2 billones pendientes de legalización",
+      "categoria": "Colombia",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/gobierno/coosalud-bajo-la-lupa-de-la-procuraduria-investigan-anticipos-por-2-billones-pendientes-de-legalizacion-506884",
+      "fecha": "2026-11-23T12:38:13+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "f4352294ed94390f",
+      "titulo": "Una ruta para el oso andino: la iniciativa que busca salvar la especie y conectar los bosques de Risaralda",
+      "categoria": "Colombia",
+      "fuente": "La FM Actualidad",
+      "url": "https://www.lafm.com.co/actualidad/ruta-oso-andino-risaralda-proteccion-especie-bosques-417995",
+      "fecha": "2026-11-23T12:36:51+00:00",
       "imagen": ""
     },
     {
@@ -26,24 +512,6 @@
       "fuente": "La Silla Vacía",
       "url": "https://www.lasillavacia.com/silla-amazonia/amazonia-en-breve/arranca-consulta-previa-indigena-del-pnd/",
       "fecha": "2026-11-23T12:34:07+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "b379f224eab692cc",
-      "titulo": "Últimas noticias y reacciones al ataque con drones contra el Comando de la Policía de Cúcuta: reporte de daños en viviendas y dos civiles heridos",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/ultimas-noticias-y-reacciones-al-ataque-con-explosivos-contra-el-comando-de-la-policia-de-cucuta-autoridades-no-reportan-policias-heridos-3603261",
-      "fecha": "2026-11-23T12:33:05+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "ca51bbd467d40e97",
-      "titulo": "Murió Alberto Montoya Puyana, reconocido arquitecto y el primer alcalde de Bucaramanga elegido por voto popular",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/santander/murio-alberto-montoya-puyana-un-reconocido-arquitecto-y-quien-habria-sido-el-primer-alcalde-de-bucaramanga-elegido-por-voto-popular-3603285",
-      "fecha": "2026-11-23T12:30:32+00:00",
       "imagen": ""
     },
     {
@@ -71,474 +539,6 @@
       "fuente": "La Silla Vacía",
       "url": "https://www.lasillavacia.com/en-vivo/desayune-informado-con-las-movidas-de-este-23-de-noviembre-de-2026/",
       "fecha": "2026-11-23T12:26:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "305af56b653254e7",
-      "titulo": "Empresarios del Valle piden mesa de seguridad con el presidente Abelardo De La Espriella tras ola terrorista en el departamento: 'Basta de ataques!'",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/cali/empresarios-del-valle-piden-mesa-de-seguridad-con-el-presidente-abelardo-de-la-espriella-tras-ola-terrorista-en-el-departamento-basta-de-ataques-3603281",
-      "fecha": "2026-11-23T12:25:25+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "652460b19e5bc7d7",
-      "titulo": "Nuevos detalles de ataque de drones en Comando de Policía de Cúcuta, Norte de Santander: reportan dos civiles heridos; explosivos cayeron en viviendas",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/nuevos-detalles-del-ataque-con-drones-con-explosivos-en-el-comando-de-la-policia-de-cucuta-norte-de-santander-dos-civiles-quedaron-heridos-3603267",
-      "fecha": "2026-11-23T12:21:25+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "0bcaf8c4b2af2e16",
-      "titulo": "Naturaleza, bienestar y experiencias marcan las tendencias de viajes de fin de año",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/ocio/naturaleza-bienestar-y-experiencias-marcan-las-tendencias-de-viajes-de-fin-de-ano-4530571",
-      "fecha": "2026-11-23T12:19:51+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "f0bd8fda8835beab",
-      "titulo": "El Samsung Galaxy Watch8 a preciazo en el Black Friday de Back Market: cae a 218 euros reacondicionado y con dos años de garantía",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/seleccion/samsung-galaxy-watch8-a-preciazo-black-friday-back-market-cae-a-218-euros-reacondicionado-dos-anos-garantia",
-      "fecha": "2026-11-23T12:16:47+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "5972c9ae0decf38b",
-      "titulo": "En Nvidia 60 altos cargos rendían cuentas directamente ante Jensen Huang. Llenar este vacío es casi imposible",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/empresas-y-economia/nvidia-60-altos-cargos-rendian-cuentas-directamente-jensen-huang-llenar-este-vacio-casi-imposible",
-      "fecha": "2026-11-23T12:16:47+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "fb61215af38762a0",
-      "titulo": "Casi 44.000 reclamos estaban represados en la Supersalud: así logró la entidad ponerse al día en mes y medio",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/gobierno/casi-44-000-reclamos-estaban-represados-en-la-supersalud-asi-logro-la-entidad-ponerse-al-dia-en-mes-y-medio-506883",
-      "fecha": "2026-11-23T12:16:44+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "675c9a423b1b544c",
-      "titulo": "Reportan explosiones en el Comando de la Policía de Cúcuta, Norte de Santander: habría sido atacado con drones",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/reportan-explosiones-en-el-comando-de-la-policia-de-cucuta-norte-de-santander-habria-sido-atacado-con-drones-3603256",
-      "fecha": "2026-11-23T12:14:11+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "00bc79f24b58b7d2",
-      "titulo": "Estas son las producciones que regresarán a Disney+ y los estrenos que llegarán en 2027",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/ocio/estas-son-las-producciones-que-regresaran-a-disney-y-los-estrenos-que-llegaran-en-2027-4530575",
-      "fecha": "2026-11-23T12:14:02+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "75a44cb7b2b12779",
-      "titulo": "El Supremo aplica la amnistía a Puigdemont y cierra la causa del ‘procés’",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/espana/elecciones-generales/2026-11-23/el-supremo-aplica-la-amnistia-a-puigdemont-y-cierra-la-causa-del-proces.html",
-      "fecha": "2026-11-23T12:12:41+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "f1dcbc9ed4d697eb",
-      "titulo": "Brent cede a US$90,8 por tensiones en Medio Oriente que opacan mayor oferta",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/brent-cede-a-us-90-8-por-tensiones-en-medio-oriente-que-opacan-mayor-oferta-4530554",
-      "fecha": "2026-11-23T12:12:39+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "a333610eb61a2378",
-      "titulo": "La 'batalla cultural' le está creando \"enemigos\" innecesarios a De la Espriella: Santos",
-      "categoria": "Valle del Cauca",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/colombia/batalla-cultural-de-la-espriella-santos-23-11-2026/",
-      "fecha": "2026-11-23T12:11:50+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "6f4149ce33af8153",
-      "titulo": "Mauricio Cárdenas propone crear un Ministerio de Inteligencia Artificial para acelerar la transformación digital",
-      "categoria": "Tecnología",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/gobierno/mauricio-cardenas-propone-crear-un-ministerio-de-inteligencia-artificial-para-acelerar-la-transformacion-digital-506882",
-      "fecha": "2026-11-23T12:11:23+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "d367e544dbab1bae",
-      "titulo": "Paloma Valencia niega haber recibido información del atentado contra Miguel Uribe: “irresponsable y casi delictivo”",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/paloma-valencia-niega-recibido-informacion-atentado-miguel-uribe-irresponsable-delictivo-PO43908171",
-      "fecha": "2026-11-23T12:11:10+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "18679c1f9f3e47d2",
-      "titulo": "España prorrogará el impuesto bancario con el fin de financiar políticas de vivienda",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/espana-prorrogara-el-impuesto-bancario-para-financiar-politicas-de-vivienda-4530570",
-      "fecha": "2026-11-23T12:08:10+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "7a73cfd61abea0e1",
-      "titulo": "Cinco muertos y nueve heridos dejó accidente que involucró a tractomula en Cajamarca, Tolima; ¿qué pasó?",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/cinco-muertos-y-nueve-heridos-dejo-accidente-que-involucro-a-tractomula-en-cajamarca-tolima-que-paso-NO43908858",
-      "fecha": "2026-11-23T12:07:52+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "50d9cec92513f99c",
-      "titulo": "OpenAI le ha puesto un número a la inteligencia de sus modelos. Y quiere que toda la industria pacte dónde parar",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/robotica-e-ia/openai-le-ha-puesto-numero-a-inteligencia-sus-modelos-quiere-que-toda-industria-pacte-donde-parar",
-      "fecha": "2026-11-23T12:07:19+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "320feefcb6a75848",
-      "titulo": "El Ministerio del Trabajo relanza la calculadora gratuita para poder liquidar pagos laborales",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/economia/el-ministerio-del-trabajo-relanza-la-calculadora-gratuita-para-poder-liquidar-pagos-laborales-4530555",
-      "fecha": "2026-11-23T12:04:52+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "b7d78e8ee61a0858",
-      "titulo": "BepiColombo llega a Mercurio: la sonda europeo-japonesa ya está en órbita y se prepara para separarse en dos",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/espacio/bepicolombo-llega-a-mercurio-sonda-europeo-japonesa-esta-orbita-se-prepara-para-separarse-dos",
-      "fecha": "2026-11-23T12:02:21+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "c54afc3a94072655",
-      "titulo": "Nueve barrios de Cali que se quedarán sin agua este lunes, 23 de noviembre",
-      "categoria": "Cali",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/cali/barrios-cali-sin-agua-lunes-23-noviembre-23-11-2026/",
-      "fecha": "2026-11-23T12:01:17+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "d36cdb6d702e3349",
-      "titulo": "José, alcalde de Yanguas (Soria), el pueblo que alquila sus casas por entre 100 y 200 euros al mes: “Hay que venir a trabajar”",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/magnet/jose-alcalde-yanguas-soria-pueblo-que-alquila-sus-casas-100-200-euros-al-mes-hay-que-venir-a-trabajar",
-      "fecha": "2026-11-23T12:00:56+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "39cc77cce2b40c82",
-      "titulo": "El auge de los camiones eléctricos en China impulsa la demanda de litio",
-      "categoria": "Internacional",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/el-auge-de-los-camiones-electricos-en-china-impulsa-la-demanda-de-litio-4530559",
-      "fecha": "2026-11-23T11:58:39+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "bcb289e8cd2130a3",
-      "titulo": "Desde Trump hasta Kanye West: Las redes sociales tienen un amplio historial de suspender cuentas de personalidades",
-      "categoria": "Internacional",
-      "fuente": "La FM Internacional",
-      "url": "https://www.lafm.com.co/internacional/donald-trump-kanye-west-cuentas-suspendidas-x-facebook-instagram-gustavo-petro-417987",
-      "fecha": "2026-11-23T11:57:36+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "9d18ba99fb509ec4",
-      "titulo": "Un menor y dos mujeres heridos en atentado con explosivos al comando de Policía de Cúcuta",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/ataque-explosivos-menor-dos-mujeres-heridos-AO43908239",
-      "fecha": "2026-11-23T11:56:37+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "aca50761b6a4c286",
-      "titulo": "'GTA VI' supone un antes y un después muy jugoso para la industria. Pero sólo Rockstar puede permitirse un 'GTA VI'",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/videojuegos/gta-vi-supone-antes-despues-muy-jugoso-para-industria-solo-rockstar-puede-permitirse-gta-vi",
-      "fecha": "2026-11-23T11:56:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "e22d87f3044e2ce7",
-      "titulo": "Sebastián Villa volvería a la Selección Colombia por su título de Copa Sudamericana: esto dice la Federación",
-      "categoria": "Deportes",
-      "fuente": "La FM Deportes",
-      "url": "https://www.lafm.com.co/deportes/sebastian-villa-volveria-seleccion-colombia-copa-sudamericana-417985",
-      "fecha": "2026-11-23T11:55:27+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "679cc105ae86d689",
-      "titulo": "Miles de evacuados de concierto en Mánchester tras detectarse sustancia sospechosa",
-      "categoria": "Internacional",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/miles-de-evacuados-de-concierto-en-mánchester-tras-detectarse-sustancia-sospechosa/a-80017708?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-23T11:48:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "1360045a5d56cba2",
-      "titulo": "Bruselas investiga a la principal embotelladora de Coca-Cola por una posible conducta anticompetitiva",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/economia/2026-11-23/bruselas-investiga-a-la-embotelladora-de-coca-cola-por-una-posible-conducta-anticompetitiva.html",
-      "fecha": "2026-11-23T11:47:02+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "7d796e3393597608",
-      "titulo": "El Black Friday de El Corte Inglés deja a precio mínimo uno de los mejores relojes Garmin: tiene hasta 16 días de autonomía",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/seleccion/black-friday-corte-ingles-deja-a-precio-minimo-uno-mejores-relojes-garmin-tiene-16-dias-autonomia",
-      "fecha": "2026-11-23T11:46:48+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "facd2e34c222d898",
-      "titulo": "Risaralda: balance de la actividad legislativa",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/noticias/politica/risaralda-balance-de-la-actividad-legislativa/",
-      "fecha": "2026-11-23T11:46:45+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "33e4e2dcb3d4239d",
-      "titulo": "Carlos Lehder no podrá registrar su nombre como marca para servicios de entretenimiento por vínculo con violencia",
-      "categoria": "Tendencias",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/gobierno/carlos-lehder-no-podra-registrar-su-nombre-como-marca-para-servicios-de-entretenimiento-por-vinculo-con-violencia-506881",
-      "fecha": "2026-11-23T11:41:35+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "2ccb499c142671a2",
-      "titulo": "Un empleado de Anthropic dice haber usado la IA para resolver uno de los más grandes problemas matemáticos",
-      "categoria": "Internacional",
-      "fuente": "BBC Mundo",
-      "url": "https://www.bbc.com/mundo/articles/c6n901zg7rylo?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-23T11:32:45+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "abcd4c6d372b7950",
-      "titulo": "\"Elegimos la decisión más difícil\": Xu Fei, vicepresidenta de Xiaomi, sobre cómo van a traer su coche a Europa en 2027 y reinventar su marca",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/entrevistas/elegimos-decision-dificil-xu-fei-vicepresidenta-xiaomi-como-van-a-traer-su-coche-a-europa-2027-reinventar-su-marca",
-      "fecha": "2026-11-23T11:30:47+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "d667eea9ba22f5e4",
-      "titulo": "Fracasa estrepitosamente la COP31 en Turquía al no haberse llegado a un acuerdo en combustibles fósiles",
-      "categoria": "Internacional",
-      "fuente": "La FM Internacional",
-      "url": "https://www.lafm.com.co/internacional/fracaso-conversaciones-cop31-turquia-naciones-unidas-cumbre-climatica-417982",
-      "fecha": "2026-11-23T11:30:44+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "24df5b889002c0a6",
-      "titulo": "Antioquia continúa entre las regiones más afectadas por reclutamiento de menores, según advierte la Defensoría",
-      "categoria": "Colombia",
-      "fuente": "La FM Actualidad",
-      "url": "https://www.lafm.com.co/actualidad/antioquia-region-afectadas-reclutamiento-menores-defensoria-417981",
-      "fecha": "2026-11-23T11:29:45+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "012a4c4a3ddd3cf7",
-      "titulo": "La indignación por la detención de dos mexicanos por agentes de ICE en el aeropuerto de Seattle",
-      "categoria": "Internacional",
-      "fuente": "BBC Mundo",
-      "url": "https://www.bbc.com/mundo/articles/ckx27qql52g1o?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-23T11:25:12+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "65f3bc4b8ddabc4f",
-      "titulo": "El oro se recupera gracias a la entrada de compradores tras la peor semana desde marzo",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/finanzas/precios-del-oro-23-de-noviembre-de-2026-4530537",
-      "fecha": "2026-11-23T11:20:03+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "a6f2ffa4e92cf000",
-      "titulo": "El AirTag es un localizador caro, pero no siempre. Su precio nunca había caído tanto como ahora",
-      "categoria": "Cali",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/seleccion/airtag-localizador-caro-no-siempre-su-precio-nunca-habia-caido-como-ahora",
-      "fecha": "2026-11-23T11:16:50+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "b17c5cca1faadd78",
-      "titulo": "Camioneros, taxistas y motociclistas marchan hoy en Bogotá contra las fotomultas: este es el recorrido",
-      "categoria": "Colombia",
-      "fuente": "La FM Actualidad",
-      "url": "https://www.lafm.com.co/actualidad/marchas-bogota-contra-fotomultas-camioneros-taxistas-motociclistas-carrera-septima-417978",
-      "fecha": "2026-11-23T11:05:02+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "16a60de9de50607b",
-      "titulo": "Medios: Rusia prepara un satélite cargado con una ojiva nuclear para lanzarlo al espacio este año, según medios alemanes",
-      "categoria": "Internacional",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/medios-rusia-prepara-un-satélite-cargado-con-una-ojiva-nuclear-para-lanzarlo-al-espacio-este-año-según-medios-alemanes/a-80018296?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-23T11:05:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "2f54b2891b68583a",
-      "titulo": "'GTA VI' lleva dentro un juego de terror: fantasmas, demonios, bigfoots y trampas tipo 'Saw' en la entrega más macabra de la saga",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/videojuegos/gta-vi-lleva-dentro-juego-terror-fantasmas-demonios-bigfoots-trampas-tipo-saw-entrega-macabra-saga",
-      "fecha": "2026-11-23T11:01:22+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "39c86f50bf2a428b",
-      "titulo": "Chocó: un día como hoy… 23 de noviembre",
-      "categoria": "Colombia",
-      "fuente": "Chocó 7 días",
-      "url": "https://choco7dias.com/choco-un-dia-como-hoy-23-de-noviembre-5/",
-      "fecha": "2026-11-23T11:00:41+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "b7730b4bab32e5d1",
-      "titulo": "En 2011, Reino Unido lanzó más de 300 toneladas de veneno en helicópteros para eliminar las ratas de una isla: lo que ocurrió después fue un milagro ecológico",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/ecologia-y-naturaleza/2011-reino-unido-lanzo-300-toneladas-veneno-helicopteros-para-eliminar-invasores-isla-que-ocurrio-despues-fue-milagro-ecologico",
-      "fecha": "2026-11-23T11:00:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "4e3b75dd4a9e7343",
-      "titulo": "Portada 23 de noviembre del 2026",
-      "categoria": "Colombia",
-      "fuente": "La Patria — Caldas",
-      "url": "https://www.lapatria.com/publicacion/portada-23-de-noviembre-del-2026",
-      "fecha": "2026-11-23T11:00:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "9c89e76288bfeb9f",
-      "titulo": "Nuevo capítulo del escándalo de Nvidia: Alice Huang tuvo contacto con la inteligencia china mientras se veía con Jensen Huang, según el NYT",
-      "categoria": "Internacional",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/empresas-y-economia/escandalo-nvidia-suma-nuevo-capitulo-eeuu-llevaba-ano-vigilando-a-alice-huang-nyt",
-      "fecha": "2026-11-23T10:48:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "6cf00c3e94bc9d22",
-      "titulo": "Montar tu propia nube ahora sale un 34% más barato gracias al Black Friday de UGREEN",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/seleccion/montar-tu-propia-nube-ahora-sale-34-barato-gracias-al-black-friday-ugreen",
-      "fecha": "2026-11-23T10:46:50+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "be739dbbf5d8226e",
-      "titulo": "Si quieres probar Movistar Plus, ahora es el momento: por 2 euros, tienes dos meses del plan con fútbol, cine y series",
-      "categoria": "Deportes",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/streaming/esta-aqui-black-friday-movistar-plus-pagas-2-euros-tienes-dos-meses-plan-futbol",
-      "fecha": "2026-11-23T10:42:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "ac26d37324109946",
-      "titulo": "Bogotá tendrá semana de marchas y plantones ciudadanos",
-      "categoria": "Colombia",
-      "fuente": "La FM Actualidad",
-      "url": "https://www.lafm.com.co/actualidad/bogota-tendra-semana-de-marchas-y-plantones-ciudadanos-417977",
-      "fecha": "2026-11-23T10:41:03+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "0cc544168e1c9ae6",
-      "titulo": "Friselle, el ingenioso pan italiano que puede durar un año",
-      "categoria": "Internacional",
-      "fuente": "BBC Mundo",
-      "url": "https://www.bbc.com/mundo/articles/cq772r8kj75po?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-23T10:40:52+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "6b81b929b4a24178",
-      "titulo": "\"El presidente (De la Espriella) está totalmente equivocado si cree que esta paz es falsa\": Santos y Londoño hablan juntos con BBC Mundo a 10 años del acuerdo que puso fin al conflicto en Colombia",
-      "categoria": "Internacional",
-      "fuente": "BBC Mundo",
-      "url": "https://www.bbc.com/mundo/watch/cm0evqgj5p4go?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-23T10:36:08+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "665049359d590487",
-      "titulo": "Samsung firma el mejor plegable del año no por ser pioneros del formato, sino por todo lo que ha hecho este tiempo para perfeccionarlo",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/moviles/samsung-firma-mejor-plegable-ano-no-ser-pioneros-formato-sino-todo-que-ha-hecho-este-tiempo-para-perfeccionarlo",
-      "fecha": "2026-11-23T10:30:51+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "6dcce61b102f7b1d",
-      "titulo": "Han resuelto la conjetura de Riemann, uno de los mayores problemas matemáticos de la historia. Ahora solo nos queda entender el resultado",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/investigacion/este-tipo-usando-claude-ha-resuelto-hipotesis-riemann-uno-mayores-problema-matematicos-historia-ahora-solo-nos-queda-entender-como-ha-hehco",
-      "fecha": "2026-11-23T10:17:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "3d93a64853d28ad2",
-      "titulo": "Hoy, 23 de noviembre, llega a Lidl esta aspiradora sin cables 2 en 1 con 100 W de potencia y varios accesorios",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/seleccion/hoy-23-noviembre-llega-a-lidl-esta-aspiradora-cables-2-1-100-w-potencia-varios-accesorios",
-      "fecha": "2026-11-23T10:16:47+00:00",
       "imagen": ""
     }
   ],
@@ -626,13 +626,13 @@
       "nombre": "La FM Economía",
       "url": "https://www.lafm.com.co/rss/economia.xml",
       "estado": "correcto",
-      "titulares": 8
+      "titulares": 6
     },
     {
       "nombre": "La FM Internacional",
       "url": "https://www.lafm.com.co/rss/internacional.xml",
       "estado": "correcto",
-      "titulares": 10
+      "titulares": 11
     },
     {
       "nombre": "La FM Actualidad",
@@ -651,7 +651,7 @@
       "nombre": "El Colombiano — Colombia",
       "url": "https://www.elcolombiano.com/rss/Colombia.xml",
       "estado": "correcto",
-      "titulares": 28
+      "titulares": 32
     },
     {
       "nombre": "El Diario — Pereira",
