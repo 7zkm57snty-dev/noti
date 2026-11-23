@@ -1,6 +1,24 @@
 {
-  "ultima_actualizacion": "2026-11-23T02:39:03.732591+00:00",
+  "ultima_actualizacion": "2026-11-23T03:39:38.383699+00:00",
   "titulares_rss": [
+    {
+      "id": "10252604f54d4d9e",
+      "titulo": "Temblor hoy en Colombia: reportan nuevo sismo de magnitud 2,9 en Antioquia durante la noche de este domingo 22 de noviembre",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/medellin/temblor-hoy-en-colombia-reportan-nuevo-sismo-de-magnitud-2-9-en-antioquia-durante-la-noche-de-este-domingo-22-de-noviembre-3603251",
+      "fecha": "2026-11-23T03:35:13+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "666b2eb1272d6500",
+      "titulo": "Tres soldados salvadoreños mueren en un incidente con explosivos en Haití",
+      "categoria": "Internacional",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/cmvg212k7lyko?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-23T02:56:44+00:00",
+      "imagen": ""
+    },
     {
       "id": "10b8c730c09bc6dc",
       "titulo": "Atención: Tractomula sin frenos deja 5 muertos y múltiples heridos en Cajamarca y obliga al cierre total del corredor del Alto de la Línea",
@@ -17,6 +35,15 @@
       "fuente": "DW Español",
       "url": "https://www.dw.com/es/kim-dice-que-corea-del-norte-no-busca-supremacía-ni-expansión-sino-seguridad/a-80015541?maca=spa-rss-sp-all-1122-rdf",
       "fecha": "2026-11-23T02:31:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "6df3c8c5383b02ed",
+      "titulo": "Chats entre Verónica Alcocer y Eva Ferrer muestran que cercanía era tanta que ponía escoltas y Casa Militar a su disposición",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/chats-veronica-alcocer-eva-ferrer-muestra-cercania-tanta-ponia-escoltas-FO43907442",
+      "fecha": "2026-11-23T01:56:01+00:00",
       "imagen": ""
     },
     {
@@ -38,15 +65,6 @@
       "imagen": ""
     },
     {
-      "id": "6df3c8c5383b02ed",
-      "titulo": "Chats entre Verónica Alcocer y Eva Ferrer muestran que cercanía era tanta que ponía escoltas y Casa Militar a su disposición",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/chats-veronica-alcocer-eva-ferrer-muestra-cercania-tanta-ponia-escoltas-FO43907442",
-      "fecha": "2026-11-23T01:14:45+00:00",
-      "imagen": ""
-    },
-    {
       "id": "fc511a960d22279a",
       "titulo": "Paloma Valencia niega haber tenido información previa sobre el atentado contra Miguel Uribe",
       "categoria": "Colombia",
@@ -62,6 +80,15 @@
       "fuente": "La FM Actualidad",
       "url": "https://www.lafm.com.co/actualidad/galan-energia-ahorro-medidas-entidades-publicas-417969",
       "fecha": "2026-11-23T00:40:20+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "87e3e6155f1f1057",
+      "titulo": "Cinco personas fallecidas y nueve lesionadas deja un accidente de tránsito en Cajamarca",
+      "categoria": "Colombia",
+      "fuente": "La FM Actualidad",
+      "url": "https://www.lafm.com.co/actualidad/accidente-cajamarca-cinco-muertos-nueve-heridos-417968",
+      "fecha": "2026-11-23T00:33:29+00:00",
       "imagen": ""
     },
     {
@@ -512,33 +539,6 @@
       "fuente": "La República",
       "url": "https://www.larepublica.co/globoeconomia/bolsas-chinas-flexibilizan-la-negociacion-con-margen-para-impulsar-los-mercados-4530296",
       "fecha": "2026-11-22T18:15:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "9481705d97e1de94",
-      "titulo": "‘Tusi’, videojuegos y fusiles: la escuela sicarial de ‘la Inmaculada’ ha entrenado a más de 300 menores en Tuluá y deja nueve aprehendidos este año",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/cali/tusi-videojuegos-y-fusiles-la-escuela-sicarial-de-la-inmaculada-ha-entrenado-a-mas-de-300-menores-en-tulua-y-deja-nueve-aprehendidos-este-ano-3603166",
-      "fecha": "2026-11-22T18:12:59+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "186e2a8a9b2f8e93",
-      "titulo": "¿Se acerca una alianza política en Israel? Eisenkot invita al partido de Netanyahu a negociaciones de coalición",
-      "categoria": "Internacional",
-      "fuente": "La FM Internacional",
-      "url": "https://www.lafm.com.co/internacional/eisenkot-netanyahu-likud-negociar-gobierno-union-nacional-israel-417937",
-      "fecha": "2026-11-22T18:11:20+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "2fdaecd0b8107dee",
-      "titulo": "Sabemos que entrenar sin descanso perjudica al cuerpo. Ahora han descubierto qué puede ocurrir también en el cerebro",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/medicina-y-salud/sabemos-que-entrenar-descanso-perjudica-al-cuerpo-ahora-han-descubierto-que-puede-ocurrir-tambien-cerebro",
-      "fecha": "2026-11-22T18:00:24+00:00",
       "imagen": ""
     }
   ],
