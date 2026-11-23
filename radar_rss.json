@@ -1,6 +1,231 @@
 {
-  "ultima_actualizacion": "2026-11-23T18:34:37.096277+00:00",
+  "ultima_actualizacion": "2026-11-23T19:44:44.060688+00:00",
   "titulares_rss": [
+    {
+      "id": "223628aa5bf5372b",
+      "titulo": "Nueva función de WhatsApp permite programar mensajes sin instalar otras aplicaciones",
+      "categoria": "Valle del Cauca",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/vida-moderna/ciencia-y-tecnologia/programar-mensajes-whatsapp-enviar-mensajeria-23-11-2026/",
+      "fecha": "2026-11-23T19:31:43+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "c06a4ffd04a6ca16",
+      "titulo": "Pico y placa en Cali para este martes, 24 de noviembre",
+      "categoria": "Cali",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/cali/pico-y-placa-cali-martes-24-noviembre-23-11-2026/",
+      "fecha": "2026-11-23T19:31:41+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "1bf5f73846f7a2db",
+      "titulo": "Fiscalía publica fallo de la Corte Interamericana sobre el caso de la Unión Patriótica",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/noticias/fiscalia-publica-fallo-de-la-corte-interamericana-sobre-el-caso-de-la-union-patriotica/",
+      "fecha": "2026-11-23T19:30:07+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "ef95f6d918e77d94",
+      "titulo": "Ataque con drones deja heridos a dos policías y a un soldado en Taminango, Nariño: es el segundo atentado en esta zona en menos de un mes",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/cali/ataque-con-drones-deja-dos-policias-y-un-soldado-heridos-en-taminango-narino-es-el-segundo-atentado-en-esta-zona-en-menos-de-un-mes-3603477",
+      "fecha": "2026-11-23T19:29:26+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "e14d56a5f8200114",
+      "titulo": "Champions League 2026-27, quinta jornada: partidos, horarios en Colombia y tabla de posiciones",
+      "categoria": "Colombia",
+      "fuente": "La FM Deportes",
+      "url": "https://www.lafm.com.co/deportes/champions-league-quinta-jornada-partidos-hora-colombia-tabla-de-posiciones-418041",
+      "fecha": "2026-11-23T19:29:02+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "acbe19df8951a210",
+      "titulo": "Estas son las identidades de las cinco víctimas mortales del accidente de una tractomula en Cajamarca",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/estas-son-las-identidades-de-las-cinco-victimas-mortales-del-accidente-de-una-tractomula-en-cajamarca-3603483",
+      "fecha": "2026-11-23T19:27:46+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "1159ba99767277df",
+      "titulo": "Puente en Puerto Tejada está en riesgo de colapsar; comunidad teme quedar incomunicada",
+      "categoria": "Valle del Cauca",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/colombia/comunidad-advierte-peligro-puente-puerto-tejada-23-11-2026/",
+      "fecha": "2026-11-23T19:26:41+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "767d271b9288a3df",
+      "titulo": "Video: Boca Juniors Cali vs. Deportes Quindío, la gran final de la B",
+      "categoria": "Cali",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/deportes/video-boca-juniors-cali-vs-deportes-quindio-23-11-2026/",
+      "fecha": "2026-11-23T19:15:09+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "247ed908feaf9ff7",
+      "titulo": "Corficolombiana recomienda un aumento del salario mínimo cercano al 8% para contener la inflación en 2027",
+      "categoria": "Economía",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/corficolombiana-recomienda-un-aumento-del-salario-minimo-cercano-al-8-para-contener-la-inflacion-en-506926",
+      "fecha": "2026-11-23T19:14:10+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "cfad49da61274d78",
+      "titulo": "Más de 100 personas evacuadas por avalancha en Totoró, Cauca",
+      "categoria": "Valle del Cauca",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/colombia/personas-evacuadas-avalancha-totoro-cauca-23-11-2026/",
+      "fecha": "2026-11-23T19:11:02+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "f85bcefc974d34ce",
+      "titulo": "Colombia registra una media de un ataque con drones explosivos al día, según MinDefensa: los atentados aumentaron 140%",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/colombia-cifra-ataques-terroristas-con-dron-uno-por-dia-IN43934927",
+      "fecha": "2026-11-23T19:10:58+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "ee22ec7fead8194a",
+      "titulo": "Abelardo deberá reconocer que el wokismo no es enemigo de la Nación",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/en-vivo/abelardo-debera-reconocer-que-el-wokismo-no-es-enemigo-de-la-nacion/",
+      "fecha": "2026-11-23T19:04:41+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "4aebef58c9d381b9",
+      "titulo": "Diego Hernández fue nombrado como nuevo viceministro de Educación Superior",
+      "categoria": "Valle del Cauca",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/colombia/diego-hernandez-nuevo-viceministro-educacion-superior-23-11-2026/",
+      "fecha": "2026-11-23T19:02:31+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "4621ba4dcfd18088",
+      "titulo": "Si quieres ver las luces de Navidad en Madrid, hay un mapa interactivo que puedes llevar en tu móvil",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/aplicaciones/quieres-ver-luces-navidad-madrid-hay-mapa-interactivo-que-puedes-llevar-tu-movil",
+      "fecha": "2026-11-23T19:00:47+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "cf227af2cdc07726",
+      "titulo": "Nuevos impuestos a la cerveza y licores preocupan a comerciantes y restaurantes",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/noticias/nuevos-impuestos-a-la-cerveza-y-licores-preocupan-a-comerciantes-y-restaurantes/",
+      "fecha": "2026-11-23T19:00:22+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "c946a9566d0399b4",
+      "titulo": "Enseñar de manera diferente para que todos puedan aprender",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/actualidad/ensenar-de-manera-diferente-para-que-todos-puedan-aprender/",
+      "fecha": "2026-11-23T19:00:13+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "edca44d84b5cdb2b",
+      "titulo": "Lluvias en Bogotá, Idiger reporta precipitaciones en varias localidades durante la tarde",
+      "categoria": "Cali",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/economia/lluvias-en-bogota-idiger-reporta-precipitaciones-en-varias-localidades-durante-la-tarde-4531084",
+      "fecha": "2026-11-23T18:59:03+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "a016fcd59de634c1",
+      "titulo": "Mono aumentó 60% sus transacciones y más de la mitad ya se hacen por Bre-B",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/finanzas/mono-aumento-60-sus-transacciones-y-mas-de-la-mitad-ya-se-hacen-por-bre-b-4530983",
+      "fecha": "2026-11-23T18:57:05+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "cb7f3f0e28f238b1",
+      "titulo": "ABC sobre cómo cambiará el alumbrado público de Bogotá desde el 1 de diciembre",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/empresas/abc-sobre-como-cambiara-el-alumbrado-publico-de-bogota-desde-el-1-de-diciembre-4531079",
+      "fecha": "2026-11-23T18:53:42+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "e25283a4139d89db",
+      "titulo": "¿Por qué la UNP le quitó esquema de seguridad a Daniel Coronell? Tenía carro blindado y dos escoltas",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/daniel-coronell-por-que-la-unp-retiro-su-esquema-de-seguridad-JN43932308",
+      "fecha": "2026-11-23T18:52:33+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "d200e958a102e6bc",
+      "titulo": "¿Quién es Germán Sánchez, alias El Coletas, narco colombiano atacado por sicarios en Madrid? Este es su prontuario",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/narco-german-gonzalo-sanchez-rey-alias-el-coletas-atacado-a-tiros-gimnasio-madrid-OM43922590",
+      "fecha": "2026-11-23T18:52:24+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "23b3c889cb3b128c",
+      "titulo": "Operación Neptuno en Dagua dejó cinco integrantes del ELN muertos",
+      "categoria": "Valle del Cauca",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/valle-del-cauca/operacion-neptuno-dagua-23-11-2026/",
+      "fecha": "2026-11-23T18:42:23+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "a7c06f9c65c2e878",
+      "titulo": "Por qué Jensen Huang es demasiado importante como para que Nvidia pudiera despedirlo",
+      "categoria": "Internacional",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/c9143kp61ldjo?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-23T18:40:21+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "bf752b63c005670b",
+      "titulo": "\"Nunca voté, pero veo que es necesario\": las colas en los consulados españoles dejan el primer termómetro del 29N",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/magnet/nunca-vote-veo-que-necesario-colas-consulados-espanoles-dejan-primer-termometro-29n",
+      "fecha": "2026-11-23T18:30:54+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "f280fc41ad91df53",
+      "titulo": "¿Qué pasará con la curul de la representante petrista Verónica Estrada, suspendida por escándalo de títulos falsos?",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/que-pasara-con-curul-de-veronica-estrada-suspendida-por-escandalo-titulos-falsos-CM43921201",
+      "fecha": "2026-11-23T18:26:02+00:00",
+      "imagen": ""
+    },
     {
       "id": "af68860f95b46193",
       "titulo": "Congreso abrirá audiencias en Bogotá, Cali y Barranquilla para concertar la tributaria",
@@ -26,6 +251,15 @@
       "fuente": "La República",
       "url": "https://www.larepublica.co/finanzas/es-buen-momento-para-invertir-en-bolsa-tras-siete-jornadas-consecutivas-de-perdidas-en-el-s-p-500-4530828",
       "fecha": "2026-11-23T18:20:44+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "7cd033c95a90ab66",
+      "titulo": "Reino Unido dio el visto bueno y De la Espriella firmó: Miguel Uribe Londoño ya es embajador",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/reino-unido-de-la-espriella-miguel-uribe-londono-embajador-CM43929694",
+      "fecha": "2026-11-23T18:15:33+00:00",
       "imagen": ""
     },
     {
@@ -70,15 +304,6 @@
       "categoria": "Colombia",
       "fuente": "La República",
       "url": "https://www.larepublica.co/finanzas/compras-de-clientes-de-global66-en-black-friday-llegarian-a-us-7-2-millones-en-2026-4530876",
-      "fecha": "2026-11-23T17:56:28+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "d200e958a102e6bc",
-      "titulo": "¿Quién es Germán Sánchez, alias El Coletas, narco colombiano atacado por sicarios en Madrid? Este es su prontuario",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/narco-german-gonzalo-sanchez-rey-alias-el-coletas-atacado-a-tiros-gimnasio-madrid-OM43922590",
       "fecha": "2026-11-23T17:56:28+00:00",
       "imagen": ""
     },
@@ -245,17 +470,8 @@
       "imagen": ""
     },
     {
-      "id": "dc62308aeb6b272d",
-      "titulo": "Tres de cada 10 empleadas domésticas obtienen un salario mínimo en Colombia; las demás reciben ingresos inferiores",
-      "categoria": "Colombia",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/empleo/tres-de-cada-10-empleadas-domesticas-obtienen-un-salario-minimo-en-colombia-las-demas-reciben-ingresos-inferiores-506892",
-      "fecha": "2026-11-23T17:19:29+00:00",
-      "imagen": ""
-    },
-    {
       "id": "3de29444e58665e2",
-      "titulo": "La Junta Electoral abre expediente a la periodista Silvia Intxaurrondo por posible vulneración de la neutralidad",
+      "titulo": "La Junta Electoral abre expediente a Silvia Intxaurrondo por posible vulneración de la neutralidad",
       "categoria": "Colombia",
       "fuente": "El País Colombia",
       "url": "https://elpais.com/espana/elecciones-generales/2026-11-23/la-junta-electoral-sanciona-a-la-periodista-silvia-intxaurrondo-por-posible-vulneracion-de-la-neutralidad.html",
@@ -324,222 +540,6 @@
       "url": "https://www.larepublica.co/empresas/3-cordilleras-espera-ampliar-su-portafolio-con-una-nueva-cerveza-sin-alcohol-4530879",
       "fecha": "2026-11-23T17:05:48+00:00",
       "imagen": ""
-    },
-    {
-      "id": "7a3df6e42c379b53",
-      "titulo": "El futuro del ajedrez mundial se juega en Asia",
-      "categoria": "Deportes",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/el-futuro-del-ajedrez-mundial-se-juega-en-asia/a-80023914?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-23T17:05:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "412312c17b65a150",
-      "titulo": "Jensen Huang tenía un as escondido en la Casa Blanca: su apoyo ha sido clave para su vuelta al frente de Nvidia",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/empresas-y-economia/jensen-huang-tenia-as-escondido-casa-blanca-su-apoyo-ha-sido-clave-para-su-vuelta-al-frente-nvidia",
-      "fecha": "2026-11-23T17:04:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "139c948140104bf9",
-      "titulo": "Nuevo golpe de EEUU a China: también perseguirá los chips más básicos utilizados en televisores o teléfonos móviles",
-      "categoria": "Internacional",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/empresas-y-economia/nuevo-golpe-eeuu-a-china-no-perseguira-solo-sus-chips-avanzados-tambien-basicos-que-usan-moviles-televisores-coches",
-      "fecha": "2026-11-23T17:00:51+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "30dbc7e7dd07fca3",
-      "titulo": "Universidad del Magdalena entrega más de $101 millones para apoyar a comunidades afectadas por el terremoto en el Chocó",
-      "categoria": "Colombia",
-      "fuente": "Chocó 7 días",
-      "url": "https://choco7dias.com/universidad-del-magdalena-entrega-mas-de-101-millones-para-apoyar-a-comunidades-afectadas-por-el-terremoto-en-el-choco/",
-      "fecha": "2026-11-23T17:00:04+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "aef83d85ec9af878",
-      "titulo": "ChocQuibTown anuncia su regreso musical con ‘Trinidad I’",
-      "categoria": "Tendencias",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/entretenimiento/chocquibtown-trinidad-album-musical-23-11-2026/",
-      "fecha": "2026-11-23T16:59:16+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "dd659985386de308",
-      "titulo": "El regreso de Jensen Huang es una victoria para los accionistas, aunque también abre un precedente peligroso",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/empresas-y-economia/regreso-jensen-huang-victoria-para-accionistas-tambien-abre-precedente-peligroso",
-      "fecha": "2026-11-23T16:58:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "83b2f7ff84d1d026",
-      "titulo": "Este es el diploma bajo sospecha de la congresista Claudia Romero que presentó a la Cámara: la Javeriana no lo reconoce",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/claudia-romero-congresista-pacto-historico-presento-diploma-falso-FM43920104",
-      "fecha": "2026-11-23T16:55:35+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "19f54b92147298be",
-      "titulo": "¿Siguen siendo rentables los descuentos para comprar en Black Friday con el alza de dólar?",
-      "categoria": "Economía",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/finanzas/el-dolar-y-los-descuentos-entran-en-la-cuenta-para-comprar-en-black-friday-4530755",
-      "fecha": "2026-11-23T16:54:34+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "c9f0fe817228c77d",
-      "titulo": "'Por ahora no hay posibilidad de que yo vuelva a cantar': Alci Acosta habla de su cáncer; esto es lo que se sabe de la salud del Rey del Bolero",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/barranquilla/por-ahora-no-hay-posibilidad-de-que-yo-vuelva-a-cantar-alci-acosta-habla-de-su-cancer-esto-es-lo-que-se-sabe-de-la-salud-del-rey-del-bolero-3603425",
-      "fecha": "2026-11-23T16:54:08+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "d394e3ea258ee6ec",
-      "titulo": "Cúcuta se convierte en la primera capital departamental de Colombia atacada con drones",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/america-colombia/2026-11-23/cucuta-se-convierte-en-la-primera-capital-departamental-de-colombia-atacada-con-drones.html",
-      "fecha": "2026-11-23T16:53:56+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "4bff452e9e05e46c",
-      "titulo": "Procuraduría suspende a Verónica Estrada por presuntos títulos falsos",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/en-vivo/procuraduria-suspendio-a-veronica-estrada-por-presuntos-titulos-falsos/",
-      "fecha": "2026-11-23T16:52:58+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "67e476d2ef800834",
-      "titulo": "Congreso de Infraestructura 2026:Tatyana Orozco explica qué necesita el sector para destrabar obras",
-      "categoria": "Colombia",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/infraestructura/congreso-de-infraestructura-2026-tatyana-orozco-explica-que-necesita-el-sector-para-destrabar-obras-506913",
-      "fecha": "2026-11-23T16:49:42+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "b06191c2050fa62c",
-      "titulo": "El iPad Air se apunta a las ofertas del Black Friday con uno de sus mejores descuentos hasta la fecha",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/seleccion/ipad-air-se-apunta-a-ofertas-black-friday-uno-sus-mejores-descuentos-fecha",
-      "fecha": "2026-11-23T16:46:48+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "43cd4e40a4d48d6a",
-      "titulo": "El extraordinario hallazgo de un cementerio de osos de las cavernas que se extinguieron hace 24.000 años",
-      "categoria": "Internacional",
-      "fuente": "BBC Mundo",
-      "url": "https://www.bbc.com/mundo/articles/cmq5vl3d603wo?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-23T16:42:07+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "6fcc87c26d7489ff",
-      "titulo": "Masacre por intolerancia en Barbosa (Antioquia): tres hombres y una mujer murieron en medio de una balacera",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/medellin/masacre-por-intolerancia-en-barbosa-antioquia-tres-hombres-y-una-mujer-murieron-en-medio-de-una-balacera-3603412",
-      "fecha": "2026-11-23T16:39:42+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "975fcb8b3b995e6a",
-      "titulo": "El prontuario de alias Choclo, del frente ‘Jaime Martínez’, que reclutaba a menores en parques: hizo inteligencia para atacar el Batallón Pichincha",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/cali/el-prontuario-de-alias-choclo-del-frente-jaime-martinez-que-reclutaba-a-menores-en-parques-hizo-inteligencia-para-atacar-el-batallon-pichincha-3603400",
-      "fecha": "2026-11-23T16:38:07+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "d96af219e1d901c6",
-      "titulo": "¿Quién es Jordan J. G. Wright? El político que tuvo que desmentir ser un \"reptiliano\" tras video viral",
-      "categoria": "Tendencias",
-      "fuente": "La FM Internacional",
-      "url": "https://www.lafm.com.co/internacional/jordan-wright-reptiliano-video-viral-mamdani-quien-es-418018",
-      "fecha": "2026-11-23T16:31:09+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "32f596de2b5c874b",
-      "titulo": "Miguel Ángel López ganará un título UCI mientras está suspendido por dopaje: esta es la insólita historia",
-      "categoria": "Deportes",
-      "fuente": "La FM Deportes",
-      "url": "https://www.lafm.com.co/deportes/miguel-angel-lopez-gana-titulo-tour-austria-suspension-dopaje-418027",
-      "fecha": "2026-11-23T16:28:03+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "4855d10fe2fdb891",
-      "titulo": "Nequi suspenderá sus servicios esta semana por mantenimiento: conozca la fecha y las funciones que se afectarán",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/finanzas/nequi-suspendera-sus-servicios-esta-semana-por-mantenimiento-conozca-la-fecha-y-los-servicios-afectados-506908",
-      "fecha": "2026-11-23T16:22:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "4969f6fa5764542e",
-      "titulo": "Las acciones del gigante tecnológico Nvidia se disparan tras anunciarse el regreso de Jensen Huang como director ejecutivo 11 días después de su renuncia",
-      "categoria": "Internacional",
-      "fuente": "BBC Mundo",
-      "url": "https://www.bbc.com/mundo/articles/cm4gnx691zp5o?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-23T16:19:52+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "8ae021a117f7c991",
-      "titulo": "El Gobierno de De la Espriella le pide a X que suspenda la cuenta de Petro",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/america-colombia/2026-11-23/el-gobierno-de-de-la-espriella-le-pide-a-x-que-suspenda-la-cuenta-de-petro.html",
-      "fecha": "2026-11-23T16:17:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "64b05633d71d7f6a",
-      "titulo": "Las mejores ofertas en móviles durante el Black Friday 2026 con descuentos en Samsung, Xiaomi, Google y más",
-      "categoria": "Tecnología",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/seleccion/mejores-ofertas-moviles-durante-black-friday-2026-descuentos-samsung-xiaomi-google",
-      "fecha": "2026-11-23T16:16:49+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "21f3ef145ce60f89",
-      "titulo": "La economía mexicana se recupera y crece un 3,3% a tasa anual en el tercer trimestre del año",
-      "categoria": "Economía",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/mexico/economia/2026-11-23/la-economia-mexicana-se-recupera-y-crece-un-33-a-tasa-anual-en-el-tercer-trimestre-del-ano.html",
-      "fecha": "2026-11-23T16:14:53+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "b0653d16d0d18192",
-      "titulo": "Claudia Romero, otra congresista del Pacto bajo dudas por su título",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/en-vivo/claudia-romero-otra-congresista-del-pacto-bajo-dudas-por-su-titulo/",
-      "fecha": "2026-11-23T16:06:06+00:00",
-      "imagen": ""
     }
   ],
   "estado_fuentes": [
@@ -553,7 +553,7 @@
       "nombre": "El Tiempo Cali",
       "url": "https://www.eltiempo.com/rss/colombia_cali.xml",
       "estado": "correcto",
-      "titulares": 8
+      "titulares": 7
     },
     {
       "nombre": "El Espectador",
@@ -590,7 +590,7 @@
       "nombre": "BBC Mundo",
       "url": "https://feeds.bbci.co.uk/mundo/rss.xml",
       "estado": "correcto",
-      "titulares": 24
+      "titulares": 25
     },
     {
       "nombre": "DW Español",
