@@ -1,6 +1,15 @@
 {
-  "ultima_actualizacion": "2026-11-23T03:39:38.383699+00:00",
+  "ultima_actualizacion": "2026-11-23T04:52:46.655625+00:00",
   "titulares_rss": [
+    {
+      "id": "3a79623a7c163abe",
+      "titulo": "La entrevista de la BBC a Litvinenko tras el envenenamiento que cambió la relación de Rusia con Occidente hace 20 años",
+      "categoria": "Internacional",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/c60rkz2e5nxvo?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-23T04:00:58+00:00",
+      "imagen": ""
+    },
     {
       "id": "10252604f54d4d9e",
       "titulo": "Temblor hoy en Colombia: reportan nuevo sismo de magnitud 2,9 en Antioquia durante la noche de este domingo 22 de noviembre",
@@ -8,6 +17,15 @@
       "fuente": "El Tiempo",
       "url": "https://www.eltiempo.com/colombia/medellin/temblor-hoy-en-colombia-reportan-nuevo-sismo-de-magnitud-2-9-en-antioquia-durante-la-noche-de-este-domingo-22-de-noviembre-3603251",
       "fecha": "2026-11-23T03:35:13+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "8ae021a117f7c991",
+      "titulo": "El Gobierno de De la Espriella le pide a X que suspenda la cuenta de Petro",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/america-colombia/2026-11-23/el-gobierno-de-de-la-espriella-le-pide-a-x-que-suspenda-la-cuenta-de-petro.html",
+      "fecha": "2026-11-23T03:13:22+00:00",
       "imagen": ""
     },
     {
@@ -200,15 +218,6 @@
       "imagen": ""
     },
     {
-      "id": "9512e80bbb0d1f22",
-      "titulo": "Cambian los plazos para la revisión técnico-mecánica de vehículos en Colombia",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/noticias/cambian-los-plazos-para-la-revision-tecnico-mecanica-de-vehiculos-en-colombia/",
-      "fecha": "2026-11-22T22:05:08+00:00",
-      "imagen": ""
-    },
-    {
       "id": "b6844790a6890acb",
       "titulo": "Libia reporta un segundo ataque con drones contra barcos, incluido un buque ruso",
       "categoria": "Internacional",
@@ -299,15 +308,6 @@
       "imagen": ""
     },
     {
-      "id": "278d20d1f1f6c1c4",
-      "titulo": "Salario mínimo de 2027 podría costarles a las empresas más de $4 millones por trabajador",
-      "categoria": "Economía",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/noticias/salario-minimo-de-2027-podria-costarles-a-las-empresas-mas-de-4-millones-por-trabajador/",
-      "fecha": "2026-11-22T20:30:53+00:00",
-      "imagen": ""
-    },
-    {
       "id": "a618bfed7e299832",
       "titulo": "Medellín, Quibdó y el Pacífico colombiano fortalecen su conexión aérea con nuevas frecuencias de Satena",
       "categoria": "Colombia",
@@ -323,15 +323,6 @@
       "fuente": "La FM Actualidad",
       "url": "https://www.lafm.com.co/actualidad/abusador-menores-de-edad-enganaba-con-dinero-y-falsas-ofertas-de-trabajo-417955",
       "fecha": "2026-11-22T20:16:40+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "2ab38ac0e96e012a",
-      "titulo": "Aumenta en Colombia el número de mujeres que tienen bebés para parejas extranjeras",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/noticias/aumenta-en-colombia-el-numero-de-mujeres-que-tienen-bebes-para-parejas-extranjeras/",
-      "fecha": "2026-11-22T20:00:21+00:00",
       "imagen": ""
     },
     {
@@ -470,15 +461,6 @@
       "imagen": ""
     },
     {
-      "id": "8dc2043053525bd1",
-      "titulo": "Álvaro Uribe presentó propuestas para ajustar la reforma tributaria",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/noticias/alvaro-uribe-presento-propuestas-para-ajustar-la-reforma-tributaria/",
-      "fecha": "2026-11-22T19:00:26+00:00",
-      "imagen": ""
-    },
-    {
       "id": "d2a6a5cc86b35cf0",
       "titulo": "Hace 2.000 años en Menorca despedían a los suyos por todo lo alto: funerales con vino y leche",
       "categoria": "Colombia",
@@ -539,6 +521,24 @@
       "fuente": "La República",
       "url": "https://www.larepublica.co/globoeconomia/bolsas-chinas-flexibilizan-la-negociacion-con-margen-para-impulsar-los-mercados-4530296",
       "fecha": "2026-11-22T18:15:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "9481705d97e1de94",
+      "titulo": "‘Tusi’, videojuegos y fusiles: la escuela sicarial de ‘la Inmaculada’ ha entrenado a más de 300 menores en Tuluá y deja nueve aprehendidos este año",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/cali/tusi-videojuegos-y-fusiles-la-escuela-sicarial-de-la-inmaculada-ha-entrenado-a-mas-de-300-menores-en-tulua-y-deja-nueve-aprehendidos-este-ano-3603166",
+      "fecha": "2026-11-22T18:12:59+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "186e2a8a9b2f8e93",
+      "titulo": "¿Se acerca una alianza política en Israel? Eisenkot invita al partido de Netanyahu a negociaciones de coalición",
+      "categoria": "Internacional",
+      "fuente": "La FM Internacional",
+      "url": "https://www.lafm.com.co/internacional/eisenkot-netanyahu-likud-negociar-gobierno-union-nacional-israel-417937",
+      "fecha": "2026-11-22T18:11:20+00:00",
       "imagen": ""
     }
   ],
@@ -651,13 +651,14 @@
       "nombre": "El Colombiano — Colombia",
       "url": "https://www.elcolombiano.com/rss/Colombia.xml",
       "estado": "correcto",
-      "titulares": 19
+      "titulares": 18
     },
     {
       "nombre": "El Diario — Pereira",
       "url": "https://www.eldiario.com.co/feed/",
-      "estado": "correcto",
-      "titulares": 35
+      "estado": "error",
+      "titulares": 0,
+      "detalle": "El feed no contiene entradas."
     },
     {
       "nombre": "Chocó 7 días",
