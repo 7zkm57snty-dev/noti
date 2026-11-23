@@ -1,6 +1,114 @@
 {
-  "ultima_actualizacion": "2026-11-23T10:44:17.201679+00:00",
+  "ultima_actualizacion": "2026-11-23T11:35:14.779648+00:00",
   "titulares_rss": [
+    {
+      "id": "2ccb499c142671a2",
+      "titulo": "Un empleado de Anthropic dice haber usado la IA para resolver uno de los más grandes problemas matemáticos",
+      "categoria": "Internacional",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/c6n901zg7rylo?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-23T11:32:45+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "9d18ba99fb509ec4",
+      "titulo": "Un menor y dos mujeres heridos en atentado con explosivos al comando de Policía de Cúcuta",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/ataque-explosivos-menor-dos-mujeres-heridos-AO43908239",
+      "fecha": "2026-11-23T11:26:50+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "012a4c4a3ddd3cf7",
+      "titulo": "La indignación por la detención de dos mexicanos por agentes de ICE en el aeropuerto de Seattle",
+      "categoria": "Internacional",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/ckx27qql52g1o?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-23T11:25:12+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "65f3bc4b8ddabc4f",
+      "titulo": "El oro se recupera gracias a la entrada de compradores tras la peor semana desde marzo",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/finanzas/precios-del-oro-23-de-noviembre-de-2026-4530537",
+      "fecha": "2026-11-23T11:20:03+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "a6f2ffa4e92cf000",
+      "titulo": "El AirTag es un localizador caro, pero no siempre. Su precio nunca había caído tanto como ahora",
+      "categoria": "Cali",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/seleccion/airtag-localizador-caro-no-siempre-su-precio-nunca-habia-caido-como-ahora",
+      "fecha": "2026-11-23T11:16:50+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "652460b19e5bc7d7",
+      "titulo": "Nuevos detalles del ataque con drones con explosivos en el Comando de la Policía de Cúcuta, Norte de Santander: dos civiles quedaron heridos",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/nuevos-detalles-del-ataque-con-drones-con-explosivos-en-el-comando-de-la-policia-de-cucuta-norte-de-santander-dos-civiles-quedaron-heridos-3603267",
+      "fecha": "2026-11-23T11:13:43+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "16a60de9de50607b",
+      "titulo": "Medios: Rusia prepara un satélite cargado con una ojiva nuclear para lanzarlo al espacio este año, según medios alemanes",
+      "categoria": "Internacional",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/medios-rusia-prepara-un-satélite-cargado-con-una-ojiva-nuclear-para-lanzarlo-al-espacio-este-año-según-medios-alemanes/a-80018296?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-23T11:05:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "2f54b2891b68583a",
+      "titulo": "'GTA VI' lleva dentro un juego de terror: fantasmas, demonios, bigfoots y trampas tipo 'Saw' en la entrega más macabra de la saga",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/videojuegos/gta-vi-lleva-dentro-juego-terror-fantasmas-demonios-bigfoots-trampas-tipo-saw-entrega-macabra-saga",
+      "fecha": "2026-11-23T11:01:22+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "b7730b4bab32e5d1",
+      "titulo": "En 2011, Reino Unido lanzó más de 300 toneladas de veneno en helicópteros para eliminar los invasores de una isla: lo que ocurrió después fue un milagro ecológico",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/ecologia-y-naturaleza/2011-reino-unido-lanzo-300-toneladas-veneno-helicopteros-para-eliminar-invasores-isla-que-ocurrio-despues-fue-milagro-ecologico",
+      "fecha": "2026-11-23T11:00:49+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "b379f224eab692cc",
+      "titulo": "Últimas noticias y reacciones al ataque con explosivos contra el Comando de la Policía de Cúcuta: autoridades no reportan policías heridos",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/ultimas-noticias-y-reacciones-al-ataque-con-explosivos-contra-el-comando-de-la-policia-de-cucuta-autoridades-no-reportan-policias-heridos-3603261",
+      "fecha": "2026-11-23T10:55:55+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "9c89e76288bfeb9f",
+      "titulo": "Nuevo capítulo del escándalo de Nvidia: Alice Huang tuvo contacto con la inteligencia china mientras se veía con Jensen Huang, según el NYT",
+      "categoria": "Internacional",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/empresas-y-economia/escandalo-nvidia-suma-nuevo-capitulo-eeuu-llevaba-ano-vigilando-a-alice-huang-nyt",
+      "fecha": "2026-11-23T10:48:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "6cf00c3e94bc9d22",
+      "titulo": "Montar tu propia nube ahora sale un 34% más barato gracias al Black Friday de UGREEN",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/seleccion/montar-tu-propia-nube-ahora-sale-34-barato-gracias-al-black-friday-ugreen",
+      "fecha": "2026-11-23T10:46:50+00:00",
+      "imagen": ""
+    },
     {
       "id": "be739dbbf5d8226e",
       "titulo": "Ya está aquí el Black Friday de Movistar Plus: pagas 2 euros y tienes dos meses del plan con fútbol",
@@ -20,6 +128,15 @@
       "imagen": ""
     },
     {
+      "id": "0cc544168e1c9ae6",
+      "titulo": "Friselle, el ingenioso pan italiano que puede durar un año",
+      "categoria": "Internacional",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/cq772r8kj75po?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-23T10:40:52+00:00",
+      "imagen": ""
+    },
+    {
       "id": "675c9a423b1b544c",
       "titulo": "Reportan explosiones en el Comando de la Policía de Cúcuta, Norte de Santander: habría sido atacado con drones",
       "categoria": "Colombia",
@@ -29,12 +146,12 @@
       "imagen": ""
     },
     {
-      "id": "16a60de9de50607b",
-      "titulo": "Medios: Rusia prepara un satélite cargado con una ojiva nuclear para lanzarlo al espacio este año, según medios alemanes",
+      "id": "6b81b929b4a24178",
+      "titulo": "\"El presidente (De la Espriella) está totalmente equivocado si cree que esta paz es falsa\": Santos y Londoño hablan juntos con BBC Mundo a 10 años del acuerdo que puso fin al conflicto en Colombia",
       "categoria": "Internacional",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/medios-rusia-prepara-un-satélite-cargado-con-una-ojiva-nuclear-para-lanzarlo-al-espacio-este-año-según-medios-alemanes/a-80018296?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-23T10:31:00+00:00",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/watch/cm0evqgj5p4go?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-23T10:36:08+00:00",
       "imagen": ""
     },
     {
@@ -47,21 +164,12 @@
       "imagen": ""
     },
     {
-      "id": "10b8c730c09bc6dc",
-      "titulo": "Atención: Tractomula sin frenos deja 5 muertos y múltiples heridos en Cajamarca y obliga al cierre total del corredor del Alto de la Línea",
-      "categoria": "Deportes",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/atencion-tractomula-sin-frenos-causa-tragedia-en-cajamarca-y-obliga-al-cierre-total-del-corredor-del-alto-de-la-linea-3603235",
-      "fecha": "2026-11-23T10:29:54+00:00",
-      "imagen": ""
-    },
-    {
       "id": "6dcce61b102f7b1d",
-      "titulo": "Este tipo, usando Claude, ha resuelto la hipótesis de Riemann, uno de los mayores problema matemáticos de la historia. Ahora solo nos queda entender cómo lo ha hehco",
+      "titulo": "Han resuelto conjetura de Riemann, uno de los mayores problemas matemáticos de la historia. Ahora solo nos queda entender el resultado",
       "categoria": "Colombia",
       "fuente": "Xataka",
       "url": "https://www.xataka.com/investigacion/este-tipo-usando-claude-ha-resuelto-hipotesis-riemann-uno-mayores-problema-matematicos-historia-ahora-solo-nos-queda-entender-como-ha-hehco",
-      "fecha": "2026-11-23T10:18:51+00:00",
+      "fecha": "2026-11-23T10:17:00+00:00",
       "imagen": ""
     },
     {
@@ -89,6 +197,15 @@
       "fuente": "Xataka",
       "url": "https://www.xataka.com/seleccion/rtx-5080-ryzen-7-x3d-32-gb-ram-ddr5-asi-pc-gaming-que-destaca-black-friday-coolmod",
       "fecha": "2026-11-23T09:58:25+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "e4a4f05a5e5c37ae",
+      "titulo": "Sánchez propone un impuesto para “ultrarricos” con fortunas superiores a 100 millones de euros",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/economia/2026-11-23/sanchez-propone-un-impuesto-para-ultrarricos-con-fortunas-superiores-a-100-millones-de-euros.html",
+      "fecha": "2026-11-23T09:51:45+00:00",
       "imagen": ""
     },
     {
@@ -255,7 +372,7 @@
     },
     {
       "id": "9fc2fb06ffa6ebba",
-      "titulo": "El diablo está en los cojones",
+      "titulo": "GTA VI tiene un problema",
       "categoria": "Colombia",
       "fuente": "Xataka",
       "url": "https://www.xataka.com/videojuegos/diablo-esta-cojones",
@@ -423,123 +540,6 @@
       "url": "https://www.larepublica.co/economia/entrevista-con-nelson-alarcon-presidente-de-la-central-unitaria-de-trabajadores-4530423",
       "fecha": "2026-11-23T05:03:38+00:00",
       "imagen": ""
-    },
-    {
-      "id": "28b81bcdb5c6a39a",
-      "titulo": "IVA para apuestas, el dilema radica entre recaudar o mantener el negocio",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/economia/iva-para-apuestas-el-dilema-entre-recaudo-o-mantener-el-negocio-4530411",
-      "fecha": "2026-11-23T05:02:45+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "6d5d936d864c8b65",
-      "titulo": "La generación Z ha acuñado un nuevo término para quienes quieren salir a su hora y no busca ascensos: minimalismo profesional",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/empresas-y-economia/generacion-z-ha-acunado-nuevo-termino-para-quienes-quieren-salir-a-su-hora-no-busca-ascensos-minimalismo-profesional",
-      "fecha": "2026-11-23T05:02:26+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "2c5db0d203f7f7b4",
-      "titulo": "Análisis que se deben tener en cuenta",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/opinion/editorial/analisis-que-se-deben-tener-en-cuenta-4529135",
-      "fecha": "2026-11-23T05:01:58+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "13badca2a362edf8",
-      "titulo": "Salario mínimo entra a discusión con posibles aumentos de entre 7% a 38,5%",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/economia/salario-minimo-entra-a-discusion-con-posibles-aumentos-de-entre-7-a-38-5-4529884",
-      "fecha": "2026-11-23T05:01:56+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "69fb1dcca894795b",
-      "titulo": "Los calendarios de Adviento para regalar en Navidad cuestan hasta US$1.317",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/ocio/los-calendarios-de-adviento-para-regalar-en-navidad-cuestan-hasta-us-1-317-4530279",
-      "fecha": "2026-11-23T05:01:56+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "8a209155af5dac01",
-      "titulo": "\"Bank of America ha participado en cerca de 40% del volumen de la emisión de bonos\"",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/finanzas/eduardo-mayoral-head-de-investment-banking-de-bank-of-america-para-colombia-hablo-sobre-m-a-e-inversiones-4530207",
-      "fecha": "2026-11-23T05:01:54+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "f9da08fc04b04867",
-      "titulo": "“Hemos crecido 200% y esperamos poder cerrar 2026 con 1,3 millones de usuarios”",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/empresas/entrevista-con-jorge-miguel-camacho-paz-ceo-y-cofundador-de-gopass-4529133",
-      "fecha": "2026-11-23T05:01:53+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "e13cce59e83c7c58",
-      "titulo": "Lecciones de Lincoln",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/analisis/francisco-barbosa-3943941/lecciones-de-lincoln-4530459",
-      "fecha": "2026-11-23T05:01:52+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "3a5fe4137db5c215",
-      "titulo": "The Macallan presenta un whisky inspirado en la tradición del té chino para fin de año",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/ocio/the-macallan-presenta-un-whisky-inspirado-en-la-tradicion-del-te-chino-para-fin-de-ano-4529571",
-      "fecha": "2026-11-23T05:01:48+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "6f3e681debeb69e6",
-      "titulo": "La Poción, marca de cuidado capilar, ya opera en cinco países y crecerá 70% en 2026",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/empresas/la-pocion-marca-calena-de-cuidado-capilar-espera-cerrar-2026-con-crecimiento-de-70-4529651",
-      "fecha": "2026-11-23T05:01:45+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "7ce6141d77cbb491",
-      "titulo": "Reinventarse y tomar decisiones; una cuestión de actitud",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/analisis/nuria-vilanova-509356/reinventarse-y-tomar-decisiones-una-cuestion-de-actitud-4530365",
-      "fecha": "2026-11-23T05:01:37+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "f2d0621ef3389fd1",
-      "titulo": "Y mientras tanto, la legitimidad también recauda",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/analisis/maria-claudia-lacouture-402341/y-mientras-tanto-la-legitimidad-tambien-recauda-4530347",
-      "fecha": "2026-11-23T05:01:36+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "d8bd72d8ba572bbd",
-      "titulo": "El gigante de la IA rompe récords",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/caja-fuerte/el-gigante-de-la-ia-rompe-records-4530475",
-      "fecha": "2026-11-23T05:01:36+00:00",
-      "imagen": ""
     }
   ],
   "estado_fuentes": [
@@ -590,7 +590,7 @@
       "nombre": "BBC Mundo",
       "url": "https://feeds.bbci.co.uk/mundo/rss.xml",
       "estado": "correcto",
-      "titulares": 21
+      "titulares": 24
     },
     {
       "nombre": "DW Español",
@@ -632,7 +632,7 @@
       "nombre": "La FM Internacional",
       "url": "https://www.lafm.com.co/rss/internacional.xml",
       "estado": "correcto",
-      "titulares": 9
+      "titulares": 8
     },
     {
       "nombre": "La FM Actualidad",
@@ -651,7 +651,7 @@
       "nombre": "El Colombiano — Colombia",
       "url": "https://www.elcolombiano.com/rss/Colombia.xml",
       "estado": "correcto",
-      "titulares": 22
+      "titulares": 26
     },
     {
       "nombre": "El Diario — Pereira",
