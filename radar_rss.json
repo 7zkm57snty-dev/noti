@@ -1,11 +1,371 @@
 {
-  "ultima_actualizacion": "2026-11-24T15:12:23.203144+00:00",
+  "ultima_actualizacion": "2026-11-24T16:25:06.626177+00:00",
   "titulares_rss": [
+    {
+      "id": "8e1eb8435425c24c",
+      "titulo": "DatAnálisis: Abelardo, con el 52% de favorabilidad a 100 días de gobierno",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/en-vivo/datanalisis-abelardo-con-el-52-de-favorabilidad-a-100-dias-de-gobierno/",
+      "fecha": "2026-11-24T16:23:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "687cb017752505d2",
+      "titulo": "FMI aprueba el desembolso de US$377 millones para Ecuador tras revisión",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/globoeconomia/fmi-aprueba-el-desembolso-de-us-377-millones-para-ecuador-tras-revision-4531889",
+      "fecha": "2026-11-24T16:22:39+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "1cf55860817c06a2",
+      "titulo": "D-Ganga reunirá más de 100 comerciantes en su segunda edición en Mundo Aventura",
+      "categoria": "Internacional",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/empresas/d-ganga-reunira-mas-de-100-comerciantes-en-su-segunda-edicion-en-mundo-aventura-4531754",
+      "fecha": "2026-11-24T16:21:27+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "fcf6ad70f995c264",
+      "titulo": "Aeropuerto de Cartagena suspende aterrizajes por operativo de Fuerza Pública: solo permite despegues",
+      "categoria": "Economía",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/regiones/aeropuerto-de-cartagena-suspende-aterrizajes-por-operativo-de-fuerza-publica-solo-permite-despegues-506993",
+      "fecha": "2026-11-24T16:21:03+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "63ab7e7ba8ba93c3",
+      "titulo": "Enel ofrece su experiencia para acompañar la transición del alumbrado público de Bogotá",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/empresas/enel-ofrece-su-experiencia-para-acompanar-la-transicion-del-alumbrado-publico-de-bogota-ante-llegada-de-epm-4531709",
+      "fecha": "2026-11-24T16:17:14+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "eeda2c24ff91c126",
+      "titulo": "Remate final del Black Friday de Leroy Merlin con descuentos de hasta el 50 % en electrodomésticos, calefacción y más",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/seleccion/remate-final-black-friday-leroy-merlin-descuentos-50-electrodomesticos-calefaccion",
+      "fecha": "2026-11-24T16:15:05+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "9a4b065bd7f2becf",
+      "titulo": "Quién era alias \"El Coletas\", el narco colombiano que murió tras ser baleado en un estacionamiento en España",
+      "categoria": "Colombia",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/cmx28xy5pr10o?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-24T16:13:25+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "9a59d469f06b9b8f",
+      "titulo": "Tras reunión con De la Espriella, Andi ofrece $48,8 billones",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/en-vivo/tras-reunion-con-de-la-espriella-andi-ofrece-488-billones/",
+      "fecha": "2026-11-24T16:11:08+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "3ceac339dc700bf5",
+      "titulo": "La Andi espera lograr una concertación del salario mínimo para 2027 tras cuatro años fijado por decreto",
+      "categoria": "Economía",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/gobierno/la-andi-espera-lograr-una-concertacion-del-salario-minimo-2027-tras-cuatro-anos-saliendo-por-decreto-506986",
+      "fecha": "2026-11-24T16:09:09+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "de3453ecc8396609",
+      "titulo": "Aseguradoras han pagado $1,7 billones por indemnizaciones tras el terremoto de agosto",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/finanzas/aseguradoras-pagan-1-7-billones-por-el-terremoto-y-aceleran-desembolsos-semanales-4531681",
+      "fecha": "2026-11-24T16:05:22+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "289a63aa514c9cdb",
+      "titulo": "Emcali busca frenar 500.000 ciberataques, pierde $ 1.680 millones en robo de cables y recupera $ 1.740 millones en agua: así invierte en blindaje",
+      "categoria": "Cali",
+      "fuente": "El Tiempo Cali",
+      "url": "https://www.eltiempo.com/colombia/cali/emcali-busca-frenar-500-000-ciberataques-pierde-1-680-millones-en-robo-de-cables-y-recupera-1-740-millones-en-agua-asi-invierte-en-blindaje-3603680",
+      "fecha": "2026-11-24T16:04:43+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "5b5cfab2f88e7bee",
+      "titulo": "Hombres armados tienen a varias personas retenidas en un famoso almacén de cadena en Cartagena: se reportan disparos y caos; Policía atiende situación",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/hombres-armados-tienen-a-varias-personas-retenidas-en-un-famoso-almacen-de-cadena-en-cartagena-se-reportan-disparos-y-caos-policia-atiende-situacion-3603743",
+      "fecha": "2026-11-24T16:04:31+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "e6373415ae9777e3",
+      "titulo": "Carrefour celebra su Black Friday dejando esta tele MiniLED de 65 pulgadas a precio de outlet: ahora cuesta menos de 500 euros",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/seleccion/carrefour-celebra-su-black-friday-dejando-esta-tele-miniled-65-pulgadas-a-precio-outlet-ahora-cuesta-500-euros",
+      "fecha": "2026-11-24T16:01:02+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "15f26b75f2f5d158",
+      "titulo": "He vivido en el futuro de la IA para todos gracias al MSI EdgeMesa con la RTX Spark de Nvidia y 128 GB de memoria",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/analisis/msi-edgemesa-n1x-nvidia-rtx-spark-analisis-caracteristicas-precio-especificaciones",
+      "fecha": "2026-11-24T16:01:02+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "419db30e4277e00b",
+      "titulo": "Tribunal declara a Senegal campeón legítimo de la Copa de África",
+      "categoria": "Internacional",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/tribunal-declara-a-senegal-campeón-legítimo-de-la-copa-de-áfrica/a-80038358?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-24T16:01:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "0bec832ff4684d31",
+      "titulo": "Un grupo de hombres armados toma varios rehenes en un supermercado en Cartagena",
+      "categoria": "Economía",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/america-colombia/2026-11-24/un-grupo-de-hombres-armados-toma-varios-rehenes-en-un-supermercado-en-cartagena.html",
+      "fecha": "2026-11-24T15:55:54+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "7be7ef067a7d5521",
+      "titulo": "La COP 31 del clima concluyó sin llegar a acuerdos",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/silla-amazonia/amazonia-en-breve/la-cop-31-del-clima-concluyo-sin-llegar-a-acuerdos/",
+      "fecha": "2026-11-24T15:54:38+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "9ddc34879595fc40",
+      "titulo": "La A-63 de Asturias lleva casi tres décadas en obras: todavía quedan 12,5 km y un cuello de botella que no acaba",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/movilidad/a-63-asturias-lleva-casi-tres-decadas-obras-todavia-quedan-12-5-km-cuello-botella-que-no-acaba",
+      "fecha": "2026-11-24T15:54:22+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "8b46fb687f38812c",
+      "titulo": "Videos del caos en medio de asalto en famoso almacén de cadena en Cartagena: señalados tienen a clientes y a trabajadores retenidos en el local",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/videos-del-caos-en-medio-de-asalto-en-famoso-almacen-de-cadena-en-cartagena-senalados-tienen-a-clientes-y-a-trabajadores-retenidos-en-el-local-3603753",
+      "fecha": "2026-11-24T15:52:23+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "514ea658a52e2eeb",
+      "titulo": "El móvil top de Samsung baja de precio y de regalo un año de garantía adicional. Así es su nueva oferta en Black Friday",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/seleccion/movil-top-samsung-baja-precio-regalo-ano-garantia-adicional-asi-su-nueva-oferta-black-friday",
+      "fecha": "2026-11-24T15:47:01+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "5d1a648d1dc807f3",
+      "titulo": "Asalto de hombres armados a famoso almacén de cadena en Cartagena: liberaron a una rehén; Aerocivil suspende operaciones en aeropuerto de Cartagena",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/asalto-de-hombres-armados-a-famoso-almacen-de-cadena-en-cartagena-con-rehenes-reacciones-ultimas-noticias-y-reportes-de-la-emergencia-3603781",
+      "fecha": "2026-11-24T15:47:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "5117e0efd5994768",
+      "titulo": "Gas natural tendría seis proyectos estratégicos para mejorar el abastecimiento en el país",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/economia/gas-natural-tendria-seis-proyectos-estrategicos-para-mejorar-el-abastecimiento-en-el-pais-4531806",
+      "fecha": "2026-11-24T15:42:53+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "ac70c93554145e3d",
+      "titulo": "Ley de rescate plantea más cambios: ¿cuáles serían las sanciones por mal uso de la facturación electrónica?",
+      "categoria": "Economía",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/gobierno/ley-de-rescate-plantea-mas-cambios-cuales-serian-las-sanciones-por-mal-uso-de-la-facturacion-electronica-506981",
+      "fecha": "2026-11-24T15:38:05+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "1366b964175e5284",
+      "titulo": "El Gobierno prorroga las ayudas al transporte público durante 2027: 1.213 millones para mantener los descuentos en tren y autobús",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/movilidad/gobierno-prorroga-ayudas-al-transporte-publico-durante-2027-1-213-millones-para-mantener-descuentos-tren-autobus",
+      "fecha": "2026-11-24T15:36:31+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "9022d2a3945ea4fc",
+      "titulo": "Conmebol confirma fechas y equipos para la Copa América 2028 en Estados Unidos",
+      "categoria": "Internacional",
+      "fuente": "La FM Deportes",
+      "url": "https://www.lafm.com.co/deportes/copa-america-2028-conmebol-confirma-fechas-equipos-418147",
+      "fecha": "2026-11-24T15:34:47+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "c82eec49b5e6b2d3",
+      "titulo": "Universidades privadas en Colombia cada vez más presionadas para ganar nuevos estudiantes por baja natalidad y altos costos",
+      "categoria": "Colombia",
+      "fuente": "La FM Actualidad",
+      "url": "https://www.lafm.com.co/actualidad/universidades-privadas-colombia-problema-matricular-nuevos-estudiantes-418146",
+      "fecha": "2026-11-24T15:32:10+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "f0bc45f227983687",
+      "titulo": "La mejor oferta del Black Friday en auriculares solo estará disponible durante unas horas",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/seleccion/mejor-oferta-black-friday-auriculares-solo-estara-disponible-durante-unas-horas",
+      "fecha": "2026-11-24T15:30:59+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "4f7c1e2469dadc12",
+      "titulo": "China se hizo un hueco regalando sus modelos de IA. Para competir con OpenAI y Anthropic, Z.ai lanza GLM-5.4 primero de pago",
+      "categoria": "Internacional",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/robotica-e-ia/china-se-hizo-hueco-regalando-sus-modelos-ia-para-competir-openai-anthropic-z-ai-lanza-glm-5-4-primero-pago",
+      "fecha": "2026-11-24T15:30:59+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "040e0d347427d5e6",
+      "titulo": "La tele, los libros y las redes sociales de GTA VI son un agujero negro: la gente ya pasa más tiempo en ellos que atracando bancos",
+      "categoria": "Economía",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/videojuegos/tele-libros-redes-sociales-gta-vi-agujero-negro-gente-pasa-tiempo-ellos-que-atracando-bancos",
+      "fecha": "2026-11-24T15:30:58+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "269ea7de1d407109",
+      "titulo": "Horas de terror en Cartagena por asalto con rehenes en un almacén de cadena: delincuentes exigirían dinero y autoridades descartan negociar",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/horas-de-terror-en-cartagena-por-asalto-con-rehenes-en-un-almacen-de-cadena-delincuentes-exigirian-dinero-y-autoridades-descartan-negociar-3603767",
+      "fecha": "2026-11-24T15:30:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "8835755f3ff07751",
+      "titulo": "J.P. Morgan ve oportunidades de inversión en bonos y activos reales para 2027",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/finanzas/j-p-morgan-ve-oportunidades-en-bonos-y-activos-reales-para-invertir-en-2027-4531679",
+      "fecha": "2026-11-24T15:29:26+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "35b989f405fc9f87",
+      "titulo": "Partidos de Champions League de hoy martes 24 de noviembre: Hay duelo por liderato",
+      "categoria": "Valle del Cauca",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/deportes/partidos-de-champions-league-de-hoy-martes-24-11-2026/",
+      "fecha": "2026-11-24T15:29:11+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "79ae583f181ab5f9",
+      "titulo": "El papa Francisco revela en su diario que vio al diablo 3 veces, así como \"las puertas del infierno\"",
+      "categoria": "Internacional",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/cm5y1p3e5knvo?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-24T15:28:04+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "f3e87300e434d4da",
+      "titulo": "Damnificados del terremoto en Cali reciben insumos para reactivar sus negocios",
+      "categoria": "Cali",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/cali/damnificados-terremoto-cali-insumos-negocios-24-11-2026/",
+      "fecha": "2026-11-24T15:25:40+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "50e0aaccfb2d6ccd",
+      "titulo": "Canacol gana nuevo respaldo judicial en Canadá y queda a la espera de Supersociedades",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/empresas/canacol-gana-nuevo-respaldo-judicial-en-canada-y-queda-a-la-espera-de-supersociedades-4531669",
+      "fecha": "2026-11-24T15:25:06+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "818edaaefda3ce43",
+      "titulo": "El drama de Jamal Musiala: desmayos y millones sacuden al Bayern",
+      "categoria": "Internacional",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/el-drama-de-jamal-musiala-desmayos-y-millones-sacuden-al-bayern/a-80035521?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-24T15:25:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "59ec2baaa2468d4f",
+      "titulo": "¿Por qué hay alertas por el nivel de los embalses si llueve en algunas ciudades de Colombia? Esto dice la CAR",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/por-que-hay-alertas-por-el-nivel-de-los-embalses-si-llueve-en-algunas-ciudades-de-colombia-3603757",
+      "fecha": "2026-11-24T15:23:04+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "f9aece261134b77a",
+      "titulo": "Una década del Acuerdo de Paz con las Farc en el Cauca: logros y deudas en medio del recrudecimiento de la violencia en el suroccidente del país",
+      "categoria": "Cali",
+      "fuente": "El Tiempo Cali",
+      "url": "https://www.eltiempo.com/colombia/cali/una-decada-del-acuerdo-de-paz-con-las-farc-en-el-cauca-logros-y-deudas-en-medio-del-recrudecimiento-de-la-violencia-en-el-suroccidente-del-pais-3602161",
+      "fecha": "2026-11-24T15:18:49+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "76e34a0284570c8b",
+      "titulo": "Aprovecha descuentos de hasta el 60% en electrodomésticos gracias al Black Friday de AEG",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/seleccion/aprovecha-descuentos-60-electrodomesticos-gracias-al-black-friday-aeg",
+      "fecha": "2026-11-24T15:16:59+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "39dc16f87edaee88",
+      "titulo": "El TAS devuelve a Senegal el título de la Copa Africana que le había despojado Marruecos: estas son las razones",
+      "categoria": "Deportes",
+      "fuente": "La FM Deportes",
+      "url": "https://www.lafm.com.co/deportes/tas-devuelve-senegal-titulo-copa-africana-marruecos-2025-418140",
+      "fecha": "2026-11-24T15:07:17+00:00",
+      "imagen": ""
+    },
     {
       "id": "8d4442b4f2e88184",
       "titulo": "Pánico durante robo armado a supermercado en Popayán; ya hay un capturado: 'Protegí a mi hija mientras apuntaban a la cabeza de la cajera'",
       "categoria": "Economía",
-      "fuente": "El Tiempo Cali",
+      "fuente": "El Tiempo",
       "url": "https://www.eltiempo.com/colombia/cali/panico-durante-robo-armado-a-supermercado-en-popayan-ya-hay-un-capturado-protegi-a-mi-hija-mientras-apuntaban-a-la-cabeza-de-la-cajera-3603752",
       "fecha": "2026-11-24T15:07:13+00:00",
       "imagen": ""
@@ -83,24 +443,6 @@
       "imagen": ""
     },
     {
-      "id": "79ae583f181ab5f9",
-      "titulo": "El papa Francisco revela en su diario que vio al diablo tres veces, así como \"las puertas del infierno\"",
-      "categoria": "Internacional",
-      "fuente": "BBC Mundo",
-      "url": "https://www.bbc.com/mundo/articles/cm5y1p3e5knvo?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-24T15:02:39+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "5b5cfab2f88e7bee",
-      "titulo": "Hombres armados tienen a varias personas retenidas en un famoso almacén de cadena en Cartagena: se reportan disparos y caos; Policía atiende situación",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/hombres-armados-tienen-a-varias-personas-retenidas-en-un-famoso-almacen-de-cadena-en-cartagena-se-reportan-disparos-y-caos-policia-atiende-situacion-3603743",
-      "fecha": "2026-11-24T15:02:31+00:00",
-      "imagen": ""
-    },
-    {
       "id": "9125104644d7b71b",
       "titulo": "Diez años del Acuerdo de Paz: ONU destaca avances pero pide acelerar su implementación",
       "categoria": "Internacional",
@@ -116,15 +458,6 @@
       "fuente": "90 Minutos",
       "url": "https://90minutos.co/vida-moderna/festivos-en-colombia-2027-calendario-completo-24-11-2026/",
       "fecha": "2026-11-24T14:58:07+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "8b46fb687f38812c",
-      "titulo": "Videos del caos en medio de asalto en famoso almacen de cadena en Cartagena: señalados tienen a clientes y a trabajadores retenidos en el local",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/videos-del-caos-en-medio-de-asalto-en-famoso-almacen-de-cadena-en-cartagena-senalados-tienen-a-clientes-y-a-trabajadores-retenidos-en-el-local-3603753",
-      "fecha": "2026-11-24T14:55:52+00:00",
       "imagen": ""
     },
     {
@@ -191,354 +524,21 @@
       "imagen": ""
     },
     {
+      "id": "65e8a6bad4cf1f74",
+      "titulo": "Infantino anuncia que nueva edición del Mundial se realizará en cuatro países: ¿De qué se trata?",
+      "categoria": "Deportes",
+      "fuente": "La FM Deportes",
+      "url": "https://www.lafm.com.co/deportes/infantino-mundial-femenino-2031-cuatro-paises-sede-418134",
+      "fecha": "2026-11-24T14:46:54+00:00",
+      "imagen": ""
+    },
+    {
       "id": "038e3d8396c3b939",
       "titulo": "Venganza de disidencias por bombardeo en el que murió alias Churco, primera hipótesis del atentado en Villavicencio",
       "categoria": "Colombia",
       "fuente": "El Colombiano — Colombia",
       "url": "https://www.elcolombiano.com/colombia/hipotesis-atentado-contra-gobernacion-del-meta-JI43969716",
       "fecha": "2026-11-24T14:46:09+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "413d3d09410658ab",
-      "titulo": "Clásico vallecaucano en el Pascual: 750 policías, horarios de ingreso y restricciones para el partido",
-      "categoria": "Valle del Cauca",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/cali/clasico-vallecaucano-pascual-ingreso-y-restricciones-partido-24-11-2026/",
-      "fecha": "2026-11-24T14:44:30+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "41db565f3f0e3042",
-      "titulo": "Zelenski confirma que Ucrania atacó un buque ruso en el golfo de Finlandia",
-      "categoria": "Internacional",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/zelenski-confirma-que-ucrania-ataco-un-buque-ruso-en-el-golfo-de-finlandia-4531767",
-      "fecha": "2026-11-24T14:42:11+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "f41c6588b9dffc73",
-      "titulo": "Video | ‘No pensé que Colombia me quería tanto’: Kbeto Zuleta reaparece con un emotivo mensaje tras sobrevivir a la tragedia del río Ariguaní",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/barranquilla/no-pense-que-colombia-me-queria-tanto-kbeto-zuleta-reaparece-con-un-emotivo-mensaje-tras-sobrevivir-a-la-tragedia-del-rio-ariguani-3603751",
-      "fecha": "2026-11-24T14:40:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "90c88e4976568e02",
-      "titulo": "Sofía Vergara sacó sus mejores pasos de mapalé en la fiesta sorpresa que le armó la Reina del Carnaval de los Niños 2027, Isabella Daes",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/barranquilla/sofia-vergara-saco-sus-mejores-pasos-de-mapale-en-la-fiesta-sorpresa-que-le-armo-la-reina-infantil-del-carnaval-de-barranquilla-3603742",
-      "fecha": "2026-11-24T14:36:34+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "76fc8614278fd765",
-      "titulo": "Una torre del centro financiero de Riad fue blanco de un ataque",
-      "categoria": "Internacional",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/una-torre-del-centro-financiero-de-riad-fue-blanco-de-un-ataque/a-80035482?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-24T14:36:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "93d3f27df9d81fa2",
-      "titulo": "A cien días del terremoto organizaciones promueven jornadas de donación",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/en-vivo/a-cien-dias-del-terremoto-organizaciones-promueven-jornadas-de-donacion/",
-      "fecha": "2026-11-24T14:34:49+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "55f7a129d7d6c5ae",
-      "titulo": "Santos reivindica el acuerdo de paz y pide no regresar a los tiempos de guerra en Colombia",
-      "categoria": "Internacional",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/efe/santos-acuerdo-paz-pide-no-regresar-guerra-colombia-24-11-2026/",
-      "fecha": "2026-11-24T14:34:47+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "ee111df5aaddd6be",
-      "titulo": "Caso Aquarela en Cartagena sería presentado ante la Unesco como ejemplo de recuperación y defensa de patrimonio: Crónica del encuentro Turbay- Gossaín",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/caso-aquarela-en-cartagena-seria-presentado-ante-la-unesco-como-ejemplo-de-recuperacion-y-defensa-de-patrimonio-cronica-del-encuentro-turbay-gossain-3603730",
-      "fecha": "2026-11-24T14:33:54+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "fc9f5f3ecf5b5081",
-      "titulo": "El jefe de IA de Meta duda de que podamos controlar una superinteligencia \"1.000 veces más inteligente\". Hay quien lo llama \"locura de mierda\"",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/robotica-e-ia/jefe-ia-meta-duda-que-podamos-controlar-superinteligencia-1-000-veces-inteligente-hay-quien-llama-locura-mierda",
-      "fecha": "2026-11-24T14:31:03+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "2fc1456d75a4b6be",
-      "titulo": "Los centros comerciales El Edén, Hayuelos y Centro Chía anunciaron promociones",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/empresas/los-centros-comerciales-el-eden-hayuelos-y-centro-chia-anunciaron-promociones-navidenas-4531697",
-      "fecha": "2026-11-24T14:30:02+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "fb0fce04f13e9e64",
-      "titulo": "Gobierno español aprueba ampliación a 20 semanas del permiso de nacimiento",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/gobierno-espanol-aprueba-ampliacion-a-20-semanas-del-permiso-de-nacimiento-4531733",
-      "fecha": "2026-11-24T14:26:59+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "30a3f025a9d6069a",
-      "titulo": "La 'M-50 del agua' lleva casi dos décadas construyéndose en Madrid para que el agua nunca deje de llegar: la obra encara su recta final",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/ingenieria-y-megaconstrucciones/m-50-agua-lleva-casi-dos-decadas-construyendose-madrid-agua-nunca-deje-llegar-obra-encara-su-recta-final",
-      "fecha": "2026-11-24T14:26:47+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "551a2051a3734cbd",
-      "titulo": "VENTA PARQUEADERO",
-      "categoria": "Colombia",
-      "fuente": "La Patria — Caldas",
-      "url": "https://www.lapatria.com/clasificados/venta-parqueadero-8",
-      "fecha": "2026-11-24T14:23:46+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "28cfb974ae04c144",
-      "titulo": "Instagram ya permite editar historias después de publicarlas: así funciona la nueva herramienta",
-      "categoria": "Valle del Cauca",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/vida-moderna/ciencia-y-tecnologia/instagram-ya-permite-editar-historias-despues-de-publicarlas-24-11-2026/",
-      "fecha": "2026-11-24T14:23:15+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "a0e0885112cf8efc",
-      "titulo": "EMPLEO",
-      "categoria": "Economía",
-      "fuente": "La Patria — Caldas",
-      "url": "https://www.lapatria.com/clasificados/empleo-127",
-      "fecha": "2026-11-24T14:22:56+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "f0d020ebe35dd495",
-      "titulo": "Grupo Nutresa pone en marcha cinco de ocho proyectos en Chocó tras el terremoto: así avanzan sus compromisos",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/regiones/grupo-nutresa-pone-en-marcha-cinco-de-ocho-proyectos-en-choco-tras-el-terremoto-asi-avanzan-sus-compromisos-506980",
-      "fecha": "2026-11-24T14:22:03+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "5742547070aa45bb",
-      "titulo": "Lidl comienza su Black Friday con ofertas en televisores desde 128 euros y pantallas de hasta 75 pulgadas",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/seleccion/lidl-comienza-su-black-friday-ofertas-televisores-128-euros-pantallas-75-pulgadas",
-      "fecha": "2026-11-24T14:17:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "969ec1f7c7e3d8cc",
-      "titulo": "Kast reconoce \"emergencia\" laboral y anticipa más énfasis en planes de empleo",
-      "categoria": "Economía",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/kast-reconoce-emergencia-laboral-y-anticipa-mas-enfasis-en-planes-de-empleo-4531710",
-      "fecha": "2026-11-24T14:16:49+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "22e13ca2a7139fb4",
-      "titulo": "Así fueron las llamadas entre De la Espriella, el alcalde de Villavicencio y la gobernadora del Meta tras atentado",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/llamadas-abelardo-y-alcalde-villavicencio-gobernadora-meta-atentado-DJ43970737",
-      "fecha": "2026-11-24T14:16:38+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "d18334011370907c",
-      "titulo": "No se repite la historia: Consejo de Estado ratifica la elección de Cristian Portilla y cierra disputa jurídica por la Alcaldía de Bucaramanga",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/santander/no-se-repite-la-historia-consejo-de-estado-ratifica-la-eleccion-de-cristian-portilla-y-cierra-disputa-juridica-por-la-alcaldia-de-bucaramanga-3603732",
-      "fecha": "2026-11-24T14:13:21+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "f8ea67f1f15ace14",
-      "titulo": "Venta de vehículo",
-      "categoria": "Colombia",
-      "fuente": "La Patria — Caldas",
-      "url": "https://www.lapatria.com/clasificados/venta-de-vehiculo-41",
-      "fecha": "2026-11-24T14:09:44+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "8d59a90ed0eb7b53",
-      "titulo": "Colombia supera los 300 muertos en masacres cada año desde 2023",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/colombia-supera-300-muertos-masacres-cada-ano-HJ43970160",
-      "fecha": "2026-11-24T14:08:09+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "72c49c2a1630805a",
-      "titulo": "ARRIENDO BODEGA",
-      "categoria": "Colombia",
-      "fuente": "La Patria — Caldas",
-      "url": "https://www.lapatria.com/clasificados/arriendo-bodega-4",
-      "fecha": "2026-11-24T14:05:35+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "bcbc724c7d5ea206",
-      "titulo": "Alemania acaba de activar el pánico: Rusia tiene en un almacén de Moscú lo más parecido al botón de apagado de la civilización moderna",
-      "categoria": "Internacional",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/magnet/alemania-acaba-lanzar-advertencia-rusia-tendria-almacen-moscu-parecido-al-boton-apagado-civilizacion-moderna",
-      "fecha": "2026-11-24T14:01:03+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "f1d81c3ec533ded7",
-      "titulo": "Rescatan el ferry Mompox, gigante de 1.200 toneladas del río Magdalena que se convertirá en atractivo turístico del sur del Atlántico",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/barranquilla/rescatan-el-ferry-mompox-gigante-de-1-200-toneladas-del-rio-magdalena-que-se-convertira-en-atractivo-turistico-del-sur-del-atlantico-3603709",
-      "fecha": "2026-11-24T14:01:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "a68bb18fcfdcb24b",
-      "titulo": "El recorte educativo pone a prueba las promesas del PND de la Patria Milagro",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/red-de-expertos/red-de-la-educacion/el-recorte-educativo-pone-a-prueba-las-promesas-del-pnd-de-la-patria-milagro/",
-      "fecha": "2026-11-24T14:00:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "26dce548d34f84f9",
-      "titulo": "Alumbrado público de Bogotá: ¿por qué Enel no quiso asumir el negocio y EPM terminó con el servicio?",
-      "categoria": "Colombia",
-      "fuente": "La FM Economía",
-      "url": "https://www.lafm.com.co/economia/alumbrado-publico-bogota-epm-servicio-electrico-salida-enel-418125",
-      "fecha": "2026-11-24T13:59:53+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "69cc0313d4425259",
-      "titulo": "El inquietante detalle en el celular de Violeta Muñoz, la joven de 15 años que salió en la madrugada de su casa en Bello con maletas y desapareció",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/medellin/el-inquietante-detalle-en-el-celular-de-violeta-munoz-la-joven-de-15-anos-que-salio-en-la-madrugada-de-su-casa-en-bello-con-maletas-y-desaparecio-3603724",
-      "fecha": "2026-11-24T13:59:22+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "1c2c636b1d2e04d4",
-      "titulo": "“No habrá diálogos ni concesiones”: así fue el rechazo de autoridades y dirigentes al carro bomba en Villavicencio",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/atentado-villavicencio-reacciones-iris-marin-gobernadora-meta-ministro-defensa-DJ43971507",
-      "fecha": "2026-11-24T13:58:40+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "ae0e4b9469bd1e47",
-      "titulo": "Senado de EE.UU. investiga a Vance por contrato petrolero de Vitol en Venezuela",
-      "categoria": "Internacional",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/senado-de-ee-uu-investiga-a-vance-por-contrato-petrolero-de-vitol-en-venezuela-4531685",
-      "fecha": "2026-11-24T13:57:26+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "7147704ccec03de1",
-      "titulo": "“No habrá impunidad” por el carro bomba contra la Gobernación del Meta, dice vicepresidente Restrepo",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/no-habra-impunidad-por-el-carro-bomba-contra-la-gobernacion-del-meta-dice-vicepresidente-restrepo-FJ43972304",
-      "fecha": "2026-11-24T13:55:50+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "554115f65bb23bc4",
-      "titulo": "Medellín inaugura complejo médico que proyecta 1.000 empleos: 600 directos y 400 indirectos en la ciudad",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/regiones/medellin-inaugura-complejo-medico-que-proyecta-1-000-empleos-600-directos-y-400-indirectos-en-la-ciudad-506977",
-      "fecha": "2026-11-24T13:52:59+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "502f352a704aaea8",
-      "titulo": "“La falsa paz le ha salido muy cara”: Abelardo tras 10 años del Acuerdo",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/en-vivo/la-falsa-paz-le-ha-salido-muy-cara-abelardo-tras-10-anos-del-acuerdo/",
-      "fecha": "2026-11-24T13:49:57+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "128212b56efa61e1",
-      "titulo": "El Gobierno reivindica su traca final de medidas sociales previas al 29-N: “Cumplimos con nuestro deber”",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/espana/elecciones-generales/2026-11-24/el-gobierno-reivindica-su-traca-final-con-impuesto-a-la-banca-rebaja-de-autonomos-aborto-y-permiso-por-fallecimiento-cumplimos-con-nuestro-deber-gobernamos.html",
-      "fecha": "2026-11-24T13:47:55+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "c7c96993415153f2",
-      "titulo": "Un diseño que no pasa desapercibido y un estuche que puedes usar como micrófono: los Nothing Ear (3) caen a su nuevo mínimo histórico",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/seleccion/diseno-que-no-pasa-desapercibido-estuche-que-puedes-usar-como-microfono-nothing-ear-3-caen-a-su-nuevo-minimo-historico",
-      "fecha": "2026-11-24T13:47:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "bbba932dc252f9db",
-      "titulo": "Bogotá ofrece su red hospitalaria tras atentado contra la Gobernación del Meta que dejó 23 heridos",
-      "categoria": "Colombia",
-      "fuente": "La FM Actualidad",
-      "url": "https://www.lafm.com.co/actualidad/atentado-terrorista-villavicencio-gobernacion-meta-alcaldia-bogota-ofrece-red-hospitalaria-gobernacion-cundinamarca-condena-ataque-418127",
-      "fecha": "2026-11-24T13:40:34+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "f72c0e5918df716c",
-      "titulo": "Desde Barranquilla, el empresario Christian Daes ofrece ayuda para reconstruir daños tras el atentado con carro bomba en Villavicencio",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/barranquilla/desde-barranquilla-el-empresario-christian-daes-ofrece-ayuda-para-reconstruir-danos-tras-el-atentado-con-carro-bomba-en-villavicencio-3603721",
-      "fecha": "2026-11-24T13:40:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "8c5e555cac0f7fb2",
-      "titulo": "Nike reemplazará a Puma como proveedor oficial de ropa de la Fórmula 1",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/ocio/nike-reemplazara-a-puma-como-proveedor-oficial-de-ropa-de-la-formula-1-4531666",
-      "fecha": "2026-11-24T13:36:21+00:00",
       "imagen": ""
     }
   ],
@@ -553,7 +553,7 @@
       "nombre": "El Tiempo Cali",
       "url": "https://www.eltiempo.com/rss/colombia_cali.xml",
       "estado": "correcto",
-      "titulares": 10
+      "titulares": 9
     },
     {
       "nombre": "El Espectador",
@@ -596,7 +596,7 @@
       "nombre": "DW Español",
       "url": "https://rss.dw.com/rdf/rss-sp-all",
       "estado": "correcto",
-      "titulares": 20
+      "titulares": 22
     },
     {
       "nombre": "Xataka",
@@ -620,13 +620,13 @@
       "nombre": "La FM Deportes",
       "url": "https://www.lafm.com.co/rss/deportes.xml",
       "estado": "correcto",
-      "titulares": 19
+      "titulares": 20
     },
     {
       "nombre": "La FM Economía",
       "url": "https://www.lafm.com.co/rss/economia.xml",
       "estado": "correcto",
-      "titulares": 9
+      "titulares": 10
     },
     {
       "nombre": "La FM Internacional",
