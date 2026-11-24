@@ -1,6 +1,240 @@
 {
-  "ultima_actualizacion": "2026-11-24T21:37:44.887807+00:00",
+  "ultima_actualizacion": "2026-11-24T22:39:39.647838+00:00",
   "titulares_rss": [
+    {
+      "id": "eb30e6b9eb318857",
+      "titulo": "¿Cómo realizar una denuncia ante el Dagma en Cali? Estos son los datos que debe diligenciar",
+      "categoria": "Cali",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/vida-moderna/ecologia/como-realizar-una-denuncia-ante-el-dagma-en-cali-24-11-2026/",
+      "fecha": "2026-11-24T22:29:35+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "b1d502a15a1e487f",
+      "titulo": "Santander en máxima alerta: autoridades reportan temperaturas que llegaron hasta los 40 grados centígrados",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/santander/santander-en-maxima-alerta-autoridades-reportan-temperaturas-que-llegaron-hasta-los-40-grados-centigrados-3603884",
+      "fecha": "2026-11-24T22:28:59+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "854606d378dd8fa9",
+      "titulo": "Anthropic, la mayor salida a bolsa de la historia, ya cotiza por debajo de su precio inicial",
+      "categoria": "Internacional",
+      "fuente": "La FM Internacional",
+      "url": "https://www.lafm.com.co/internacional/anthropic-mayor-salida-bolsa-historia-cotiza-debajo-precio-inicial-418199",
+      "fecha": "2026-11-24T22:27:19+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "2965af6c99074269",
+      "titulo": "Es oficial: Verónica Estrada queda suspendida y sin sueldo por caso de títulos falsos",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/veronica-estrada-fue-suspendida-sin-sueldo-caso-titulos-falsos-MB44013906",
+      "fecha": "2026-11-24T22:24:19+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "410e0b58dbcffec4",
+      "titulo": "750 policías y 50 agentes de tránsito blindarán el clásico América vs. Deportivo Cali en el estadio Pascual Guerrero",
+      "categoria": "Cali",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/cali/750-policias-y-50-agentes-de-transito-blindaran-el-clasico-america-vs-deportivo-cali-en-el-estadio-pascual-guerrero-3603935",
+      "fecha": "2026-11-24T22:22:59+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "a7049fb039baa37f",
+      "titulo": "Corte ordena reconocer como entidad religiosa al Ministerio Rastafari",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/en-vivo/corte-ordena-reconocer-como-entidad-religiosa-al-ministerio-rastafari/",
+      "fecha": "2026-11-24T22:20:58+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "6596027a6463a5e7",
+      "titulo": "Procuraduría dio ultimátum a Nueva EPS y Sanitas por fallas en entrega de medicamentos: exigen garantizar el servicio",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/procuraduria-da-ultimatum-nueva-eps-sanitas-fallas-entrega-medicamentos-GB44011124",
+      "fecha": "2026-11-24T22:17:55+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "b2d7cb1b1f490ff0",
+      "titulo": "¿Qué está pasando en la avenida Roosevelt? Conozca la renovación y más detalles",
+      "categoria": "Valle del Cauca",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/cali/avenida-roosevelt-conozca-la-renovacion-24-11-2026/",
+      "fecha": "2026-11-24T22:15:58+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "a524ce7d1f53a49e",
+      "titulo": "Hombres armados mantienen decenas de rehenes en un supermercado en Colombia",
+      "categoria": "Economía",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/cmx2rny0dn17o?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-24T22:11:06+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "9bed6b09e001e5b1",
+      "titulo": "Toma de rehenes en el Éxito de Cartagena devuelve a la memoria los dramáticos casos de Diners y Ciudad Jardín en Cali",
+      "categoria": "Cali",
+      "fuente": "El Tiempo Cali",
+      "url": "https://www.eltiempo.com/colombia/cali/toma-de-rehenes-en-el-exito-de-cartagena-devuelve-a-la-memoria-los-dramaticos-casos-de-diners-y-ciudad-jardin-en-cali-3603876",
+      "fecha": "2026-11-24T22:10:34+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "99c0232a56902a79",
+      "titulo": "La CIA sufre brecha de ciberseguridad que afecta información no clasificada",
+      "categoria": "Tecnología",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/globoeconomia/la-cia-sufre-brecha-de-ciberseguridad-que-afecta-informacion-no-clasificada-4532324",
+      "fecha": "2026-11-24T22:10:30+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "e5a7616633bc0589",
+      "titulo": "Evolti rechazó atentado contra sus minigranjas solares en el departamento de Nariño",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/empresas/evolti-rechazo-atentado-contra-sus-granjas-solares-en-el-departamento-de-narino-4532280",
+      "fecha": "2026-11-24T22:09:42+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "3b374685da5a15c1",
+      "titulo": "Feid y Snoop Dogg estrenan ‘Gracias x todo’ este jueves coincidiendo con Thanksgiving",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/ocio/feid-y-snoop-dogg-estrenan-gracias-x-todo-este-jueves-coincidiendo-con-thanksgiving-4532241",
+      "fecha": "2026-11-24T22:09:02+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "62e4bb106f2ef32e",
+      "titulo": "La ampliación del Aeropuerto Rafael Núñez avanza con una inversión de $922.000 millones",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/economia/la-ampliacion-del-aeropuerto-rafael-nunez-avanza-con-una-inversion-de-922-000-millones-4532268",
+      "fecha": "2026-11-24T22:05:51+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "e481f7e23a7b2be9",
+      "titulo": "Habló mujer que estaba en el almacén Éxito en Cartagena cuando inició intento de hurto que terminó en secuestro: 'Ellos iban por el carro de valores'",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/hablo-mujer-que-estaba-en-el-almacen-exito-en-cartagena-cuando-inicio-intento-de-hurto-que-termino-en-secuestro-ellos-iban-por-el-carro-de-valores-3603924",
+      "fecha": "2026-11-24T22:02:33+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "528ad40d763e6df7",
+      "titulo": "Al MacBook Neo le faltaba un rival de la talla de los LG gram: la espera ha terminado y LG ha apostado por la ligereza",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/ordenadores/al-macbook-neo-le-faltaba-rival-talla-lg-gram-espera-ha-terminado-lg-ha-apostado-ligereza",
+      "fecha": "2026-11-24T22:00:59+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "d9aeb8ae9b6fa162",
+      "titulo": "Diez años del acuerdo de paz: ¿qué pasó con la promesa de acabar la guerra?",
+      "categoria": "Internacional",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/diez-anos-acuerdo-paz-colombia-promesa-acabar-guerra-farc-disidencias-violencia-HA44002306",
+      "fecha": "2026-11-24T21:59:34+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "1a45e433abc5e3de",
+      "titulo": "Revelan imágenes del rostro de uno de los hombres que estaría detrás del atentado en Villavicencio",
+      "categoria": "Colombia",
+      "fuente": "La FM Actualidad",
+      "url": "https://www.lafm.com.co/actualidad/atentado-carro-bomba-villavicencio-gobernacion-meta-rostro-hombre-implicado-418196",
+      "fecha": "2026-11-24T21:59:19+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "1df618bd79aeecc3",
+      "titulo": "Prosperidad Social alerta sobre varias modalidades de estafa y suplantación",
+      "categoria": "Valle del Cauca",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/colombia/prosperidad-social-alerta-estafa-24-11-2026/",
+      "fecha": "2026-11-24T21:58:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "dfc67b4ea0714b34",
+      "titulo": "Toma de rehenes en Éxito de Cartagena: dos negociadores dialogan con los captores y buscan una salida segura; De La Espriella llegará en unas horas",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/toma-de-rehenes-en-exito-de-cartagena-dos-negociadores-dialogan-con-los-captores-y-buscan-una-salida-segura-de-la-espriella-llegara-a-las-5-30-p-m-3603929",
+      "fecha": "2026-11-24T21:57:39+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "3d929159b6741421",
+      "titulo": "La Copa América 2028 se jugará en Estados Unidos con 16 selecciones de la Conmebol y la Concacaf",
+      "categoria": "Deportes",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/la-copa-américa-2028-se-jugará-en-estados-unidos-con-16-selecciones-de-la-conmebol-y-la-concacaf/a-80042001?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-24T21:57:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "40aa918aac0f1fc3",
+      "titulo": "¿Qué hace que una empresa sea productiva y se adapte a los cambios? Comfandi dará claves a empresarios y abrirá una macrorrueda de negocios en Cali",
+      "categoria": "Cali",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/cali/que-hace-que-una-empresa-sea-productiva-y-se-adapte-a-los-cambios-comfandi-dara-claves-a-empresarios-y-abrira-una-macrorrueda-de-negocios-en-cali-3603928",
+      "fecha": "2026-11-24T21:52:08+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "f266b4767020d911",
+      "titulo": "Abelardo de la Espriella viaja a Cartagena por toma de rehenes en almacén Éxito: esto se sabe",
+      "categoria": "Economía",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/gobierno/abelardo-de-la-espriella-viaja-a-cartagena-por-toma-de-rehenes-en-almacen-exito-esto-se-sabe-507025",
+      "fecha": "2026-11-24T21:51:47+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "ef72ceed9c441580",
+      "titulo": "El carro de valores y las otras pistas detrás del secuestro en el Éxito de Cartagena",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/cinco-pistas-investigacion-secuestro-30-rehenes-exito-cartagena-GA44004714",
+      "fecha": "2026-11-24T21:49:16+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "d6252c8a0c9d4e73",
+      "titulo": "'La casa se mecía y nos caía tierra en la cabeza': el relato de la mujer que sobrevivió a 50 metros del carro bomba en Villavicencio",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/la-casa-se-mecia-y-nos-caia-tierra-en-la-cabeza-el-relato-de-la-mujer-que-sobrevivio-a-50-metros-del-carro-bomba-en-villavicencio-3603921",
+      "fecha": "2026-11-24T21:45:09+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "2c5c2e72c4baad33",
+      "titulo": "De la Espriella viaja a Cartagena por la toma de rehenes en el Éxito; MinDefensa reporta 10 liberados",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/hombres-armados-ingresaron-almacen-exito-cartagena-rehenes-GJ43977230",
+      "fecha": "2026-11-24T21:34:44+00:00",
+      "imagen": ""
+    },
     {
       "id": "90ff0c0b66ec6445",
       "titulo": "Cambio Radical define mañana remezón en la dirección del partido",
@@ -17,6 +251,15 @@
       "fuente": "90 Minutos",
       "url": "https://90minutos.co/entretenimiento/miss-universo-2026-colombia-24-11-2026/",
       "fecha": "2026-11-24T21:31:27+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "6e0125e502eca69e",
+      "titulo": "Supersalud instala mesas de conciliación entre EPS e IPS en Bogotá, Huila y Meta",
+      "categoria": "Colombia",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/gobierno/supersalud-instala-mesas-de-conciliacion-entre-eps-e-ips-en-bogota-huila-y-meta-507024",
+      "fecha": "2026-11-24T21:30:33+00:00",
       "imagen": ""
     },
     {
@@ -47,6 +290,15 @@
       "imagen": ""
     },
     {
+      "id": "7c2c8a787c021479",
+      "titulo": "'Cucho' Hernández marcó doblete para el Betis en Champions y le dio los tres puntos en su visita a Bratislava",
+      "categoria": "Deportes",
+      "fuente": "La FM Deportes",
+      "url": "https://www.lafm.com.co/deportes/cucho-hernandez-marco-doblete-para-betis-champions-dio-tres-puntos-visita-bratislava-418194",
+      "fecha": "2026-11-24T21:27:35+00:00",
+      "imagen": ""
+    },
+    {
       "id": "6a4e3fc854e57547",
       "titulo": "Ley de Rescate Económico: Gobierno sigue reuniéndose con las bancadas y prepara el primer debate",
       "categoria": "Colombia",
@@ -56,30 +308,12 @@
       "imagen": ""
     },
     {
-      "id": "ef72ceed9c441580",
-      "titulo": "Las 5 pistas de la investigación por el secuestro en el Éxito de Cartagena",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/cinco-pistas-investigacion-secuestro-30-rehenes-exito-cartagena-GA44004714",
-      "fecha": "2026-11-24T21:25:38+00:00",
-      "imagen": ""
-    },
-    {
       "id": "8d2985b127d99f84",
       "titulo": "Cifra récord de víctimas de violencia contra las mujeres en Alemania, según estadísticas policiales",
       "categoria": "Internacional",
       "fuente": "DW Español",
       "url": "https://www.dw.com/es/cifra-récord-de-víctimas-de-violencia-contra-las-mujeres-en-alemania-según-estadísticas-policiales/a-80041310?maca=spa-rss-sp-all-1122-rdf",
       "fecha": "2026-11-24T21:25:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "9bed6b09e001e5b1",
-      "titulo": "Toma de rehenes en el Éxito de Cartagena devuelve a la memoria los dramáticos casos de Diners y Ciudad Jardín en Cali",
-      "categoria": "Cali",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/cali/toma-de-rehenes-en-el-exito-de-cartagena-devuelve-a-la-memoria-los-dramaticos-casos-de-diners-y-ciudad-jardin-en-cali-3603876",
-      "fecha": "2026-11-24T21:24:59+00:00",
       "imagen": ""
     },
     {
@@ -255,7 +489,7 @@
     },
     {
       "id": "1eb04cdffe344f85",
-      "titulo": "Así se trató la división de la Amazonía en los PND de Petro, Duque y Santos",
+      "titulo": "Así fue la división de la Amazonía en los PND de Petro, Duque y Santos",
       "categoria": "Colombia",
       "fuente": "La Silla Vacía",
       "url": "https://www.lasillavacia.com/silla-amazonia/amazonia-en-breve/asi-se-trato-la-division-de-la-amazonia-en-los-pnd-de-petro-duque-y-santos/",
@@ -305,240 +539,6 @@
       "fuente": "90 Minutos",
       "url": "https://90minutos.co/cali/25n-origen-dia-internacional-eliminacion-violencia-contra-mujer-24-11-2026/",
       "fecha": "2026-11-24T20:34:54+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "742431451504586d",
-      "titulo": "Dos fiscales especializados estarán al frente de la persecución contra autores del atentado terrorista en Villavicencio",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/atentado-carrobomba-villavicencio-fiscales-lideran-persecucion-disidencias-farc-FG43985176",
-      "fecha": "2026-11-24T20:34:53+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "93fa9e134171ec59",
-      "titulo": "Pasto se blinda contra el terrorismo: mantienen prohibición de drones, porte de armas y parqueo en sedes oficiales",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/cali/pasto-se-blinda-contra-el-terrorismo-mantienen-prohibicion-de-drones-porte-de-armas-y-parqueo-en-sedes-oficiales-3603887",
-      "fecha": "2026-11-24T20:34:04+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "6b4df3790ca933a1",
-      "titulo": "¿Qué es el decreto de exaltación que recibirá Sofía Vergara en Barranquilla y por qué se lo otorgan?",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/barranquilla/que-es-el-decreto-de-exaltacion-que-recibira-sofia-vergara-en-barranquilla-y-por-que-se-lo-otorgan-3603886",
-      "fecha": "2026-11-24T20:33:35+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "d117b0d3cfb9be39",
-      "titulo": "La angustia de familiares de rehenes en Éxito de Cartagena: “mi mamá es muy nerviosa, tiene que estar vuelta nada”",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/rehenes-exito-cartagena-hablan-testigos-familiares-MA44000084",
-      "fecha": "2026-11-24T20:32:55+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "d9aeb8ae9b6fa162",
-      "titulo": "Diez años del acuerdo de paz: ¿qué pasó con la promesa de acabar la guerra?",
-      "categoria": "Internacional",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/diez-anos-acuerdo-paz-colombia-promesa-acabar-guerra-farc-disidencias-violencia-HA44002306",
-      "fecha": "2026-11-24T20:31:08+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "0374f6c2248303ff",
-      "titulo": "Durante años hemos cambiado de navegador sin cambiar de motor. Ladybird acaba de ampliar nuestras opciones",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/aplicaciones/durante-anos-hemos-cambiado-navegador-cambiar-motor-ladybird-acaba-ampliar-nuestras-opciones",
-      "fecha": "2026-11-24T20:30:59+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "7c65c9db96bacde8",
-      "titulo": "Casa de Nariño hospedó cena y subasta para la fundación de la primera dama",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/silla-nacional/casa-de-narino-hospedo-cena-y-subasta-para-la-fundacion-de-la-primera-dama/",
-      "fecha": "2026-11-24T20:30:44+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "b3142180c2d72a07",
-      "titulo": "Cesar | Restringen temporalmente sobrevuelo de drones en La Jagua de Ibirico: todo dispositivo no autorizado será incautado por las autoridades",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/cesar-restringen-temporalmente-sobrevuelo-de-drones-en-la-jagua-de-ibirico-todo-dispositivo-no-autorizado-sera-incautado-por-las-autoridades-3603905",
-      "fecha": "2026-11-24T20:30:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "079a5cfe8f9288bf",
-      "titulo": "29N: ¿Qué supondría para Europa un cambio de Gobierno en España?",
-      "categoria": "Colombia",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/29n-¿qué-supondría-para-europa-un-cambio-de-gobierno-en-españa/a-80041734?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-24T20:28:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "2c5c2e72c4baad33",
-      "titulo": "Toma de rehenes en el Éxito de Cartagena: han liberado a 9 personas, dice Policía",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/hombres-armados-ingresaron-almacen-exito-cartagena-rehenes-GJ43977230",
-      "fecha": "2026-11-24T20:27:11+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "6c0780e49a52d9bf",
-      "titulo": "Pico y placa miércoles 25 de noviembre: programe sus rutas",
-      "categoria": "Valle del Cauca",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/cali/pico-y-placa-miercoles-25-noviembre-24-11-2026/",
-      "fecha": "2026-11-24T20:26:25+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "7cd8ee0f9de2e8e6",
-      "titulo": "Éxito de Cartagena: cómo empezó el asalto, cuántos rehenes salieron y a qué se exponen los responsables",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/regiones/exito-de-cartagena-como-empezo-el-asalto-cuantos-rehenes-salieron-y-a-que-se-exponen-los-responsables-507014",
-      "fecha": "2026-11-24T20:23:23+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "117d62566761151f",
-      "titulo": "Anthropic cotiza abajo de OPI, camino de perder US$200.000 millones de valor",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/anthropic-cotiza-abajo-de-opi-camino-de-perder-us-200-000-millones-de-valor-4532058",
-      "fecha": "2026-11-24T20:22:09+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "19f7dafb79fe687b",
-      "titulo": "“Iván Mordisco”, “Antonio Medina” y “Patón”, los terroristas señalados por De la Espriella del el carrobomba en Villavicencio",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/atentado-carrobomba-villavicencio-responsables-ivan-mordisco-antonio-medina-disidencias-farc-GJ43972985",
-      "fecha": "2026-11-24T20:21:06+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "6efb93d15c183425",
-      "titulo": "Nueva subida del precio del dólar hoy en Colombia; así se cotizó la divisa este martes 24 de noviembre",
-      "categoria": "Economía",
-      "fuente": "La FM Economía",
-      "url": "https://www.lafm.com.co/economia/nueva-subida-precio-dolar-hoy-colombia-cotizo-divisa-martes-24-noviembre-418180",
-      "fecha": "2026-11-24T20:20:31+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "d3b522c790aaa503",
-      "titulo": "¿A qué suena la Feria de Cali? Un viaje por canciones que han marcado los diciembres en la ciudad",
-      "categoria": "Cali",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/vida-moderna/cultura/feria-de-cali-diciembre-24-11-2026/",
-      "fecha": "2026-11-24T20:20:29+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "b6deb0c5e1f4dbc7",
-      "titulo": "Ya es oficial el nuevo Samsung Odyssey G6, el primer monitor gaming del mundo con 1.100 Hz",
-      "categoria": "Internacional",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/seleccion/oficial-nuevo-samsung-odyssey-g6-primer-monitor-gaming-mundo-1-100-hz",
-      "fecha": "2026-11-24T20:16:58+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "90ed47df768a2611",
-      "titulo": "De la Espriella anuncia $15.000 millones para recuperar inmuebles y negocios tras atentado en Villavicencio",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/carro-bomba-villavicencio-de-la-espriella-anuncia-15-000-millones-recontruccion-CA44000543",
-      "fecha": "2026-11-24T20:12:43+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "f22394ee33ecfcc3",
-      "titulo": "Banco de Occidente llevará automóviles Tesla a Cali con financiación de hasta 100%",
-      "categoria": "Cali",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/finanzas/banco-de-occidente-llevara-a-tesla-por-primera-vez-a-cali-con-financiacion-de-hasta-100-4532169",
-      "fecha": "2026-11-24T20:10:41+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "11227cd4487e9b78",
-      "titulo": "🔴 En vivo: minuto a minuto de la toma del Éxito de La Castellana en Cartagena; se confirma una nueva liberación",
-      "categoria": "Colombia",
-      "fuente": "La FM Actualidad",
-      "url": "https://www.lafm.com.co/actualidad/en-vivo-toma-exito-la-castellana-cartagena-rehenes-bolivar-418152",
-      "fecha": "2026-11-24T20:08:37+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "610a88d465741728",
-      "titulo": "¡Maratón de Cali 2027 ya tiene fechas! Así será la agenda deportiva",
-      "categoria": "Cali",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/deportes/maraton-de-cali-2027-ya-tiene-fechas-24-11-2026/",
-      "fecha": "2026-11-24T20:06:54+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "ce8cc443b08a834a",
-      "titulo": "Estatus Platino de Cine Colombia se extiende hasta 2027 en cinco ciudades por cierre de salas",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/empresas/cine-colombia-extendera-el-estatus-platino-hasta-2027-en-cinco-ciudades-tras-cierre-de-salas-4532142",
-      "fecha": "2026-11-24T20:04:29+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "afcb91b88e3eff98",
-      "titulo": "Davivienda adjudicó $200.000 millones en noveno lote de emisión de bonos ordinarios",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/finanzas/davivienda-adjudico-200-000-millones-en-noveno-lote-de-emision-de-bonos-ordinarios-4532117",
-      "fecha": "2026-11-24T20:01:38+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "4556c7cf5d14aae7",
-      "titulo": "La compra y venta de dólares por plataformas digitales cuesta entre $3.590 y hasta $3.677",
-      "categoria": "Economía",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/finanzas/comprar-dolares-por-billeteras-digitales-puede-costar-hasta-3-677-4532054",
-      "fecha": "2026-11-24T20:00:02+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "4c47fb750b5ae33f",
-      "titulo": "AKT Motos actualizó su Special X 110, que ahora integra luces LED y un velocímetro digital",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/especiales/automotores/akt-motos-actualizo-su-special-x-110-que-ahora-integra-luces-led-y-un-velocimetro-digital-4532067",
-      "fecha": "2026-11-24T19:59:40+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "1589f8e42001db56",
-      "titulo": "Benedetti, a juicio disciplinario por expresiones contra Cristina Lombana",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/en-vivo/benedetti-a-juicio-disciplinario-por-expresiones-contra-cristina-lombana/",
-      "fecha": "2026-11-24T19:56:48+00:00",
       "imagen": ""
     }
   ],
@@ -596,7 +596,7 @@
       "nombre": "DW Español",
       "url": "https://rss.dw.com/rdf/rss-sp-all",
       "estado": "correcto",
-      "titulares": 25
+      "titulares": 26
     },
     {
       "nombre": "Xataka",
@@ -668,9 +668,8 @@
     {
       "nombre": "La Patria — Caldas",
       "url": "https://www.lapatria.com/rss.xml",
-      "estado": "error",
-      "titulares": 0,
-      "detalle": "HTTPSConnectionPool(host='www.lapatria.com', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.lapatria.com', port=443) at 0x7cf6f3ac2d50>, 'Connection to www.lapatria.com timed out"
+      "estado": "correcto",
+      "titulares": 7
     }
   ]
 }
