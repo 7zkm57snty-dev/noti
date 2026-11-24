@@ -1,6 +1,258 @@
 {
-  "ultima_actualizacion": "2026-11-24T18:34:05.672253+00:00",
+  "ultima_actualizacion": "2026-11-24T19:44:33.457088+00:00",
   "titulares_rss": [
+    {
+      "id": "d2f512292b451f50",
+      "titulo": "Encapuchados liberaron a cinco personas en supermercado de Cartagena, otras 25 continúan retenidas",
+      "categoria": "Economía",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/actualidad/encapuchados-liberaron-a-cinco-personas-en-supermercado-de-cartagena-otras-25-continuan-retenidas/",
+      "fecha": "2026-11-24T19:38:44+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "3c5d977c36ffd7da",
+      "titulo": "Asoenergía estima sobrecostos de $504.000 millones mensuales por restricciones eléctricas",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/empresas/asoenergia-estima-sobrecostos-de-504-000-millones-mensuales-por-restricciones-electricas-4532130",
+      "fecha": "2026-11-24T19:38:13+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "2578e6e424eedf30",
+      "titulo": "De qué es la empresa que Carlos Lehder quería registrar pero la SIC le negó por estar vinculado a la violencia",
+      "categoria": "Economía",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/gobierno/de-que-es-la-empresa-que-carlos-lehder-queria-registrar-pero-la-sic-le-nego-por-estar-vinculado-a-la-violencia-507007",
+      "fecha": "2026-11-24T19:34:59+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "3168d3457a06ac80",
+      "titulo": "Precio del dólar rompió al alza la barrera de los $3.600: en noviembre ha subido 12% y toca máximos de seis meses",
+      "categoria": "Economía",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/finanzas/precio-del-dolar-rompe-al-alza-la-barrera-de-los-3-600-durante-las-negociaciones-de-este-martes-24-de-noviembre-507001",
+      "fecha": "2026-11-24T19:32:18+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "3055c3bd78819258",
+      "titulo": "El coche eléctrico más vendido en Europa no es el R5 E-Tech ni el Tesla Model Y, sino un Skoda",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/movilidad/coche-vendido-europa-no-r5-e-tech-tesla-model-sino-skoda",
+      "fecha": "2026-11-24T19:31:04+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "8769592da8d879ea",
+      "titulo": "¡Así fue la clasificación de la Selección Sub17 en el Mundial! Busca ahora ganar el grupo",
+      "categoria": "Deportes",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/deportes/seleccion-sub17-en-el-mundial-24-11-2026/",
+      "fecha": "2026-11-24T19:30:43+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "b502af32cdd0168a",
+      "titulo": "'No nos vamos a doblegar ante los violentos': la gobernadora Dilian Francisca Toro extrema medidas en el Valle tras ataque en el Meta",
+      "categoria": "Cali",
+      "fuente": "El Tiempo Cali",
+      "url": "https://www.eltiempo.com/colombia/cali/no-nos-vamos-a-doblegar-ante-los-violentos-la-gobernadora-dilian-francisca-toro-extrema-medidas-en-el-valle-tras-ataque-en-el-meta-3603865",
+      "fecha": "2026-11-24T19:30:25+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "c21be78d6f5d51ab",
+      "titulo": "Las pistas detrás del asesinato del bombero Julián Andrés Vives en Palmira, Valle: ¿a quién buscaban realmente los sicarios?",
+      "categoria": "Valle del Cauca",
+      "fuente": "El Tiempo Cali",
+      "url": "https://www.eltiempo.com/colombia/cali/las-pistas-detras-del-asesinato-del-bombero-julian-andres-vives-en-palmira-valle-a-quien-buscaban-realmente-los-sicarios-3603850",
+      "fecha": "2026-11-24T19:29:29+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "96e527cd14545e19",
+      "titulo": "Dian recaudó $3,17 billones con alivio tributario y superó en 17,2% la meta prevista para la reconstrucción",
+      "categoria": "Economía",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/dian-recaudo-3-17-billones-con-alivio-tributario-y-supero-en-17-2-la-meta-prevista-para-la-reconstruccion-507006",
+      "fecha": "2026-11-24T19:29:07+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "3a92e08e5520d3fe",
+      "titulo": "Trump anunciará aranceles tras investigación sobre exceso de capacidad industrial",
+      "categoria": "Internacional",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/globoeconomia/trump-anunciara-aranceles-tras-investigacion-sobre-exceso-de-capacidad-industrial-4532119",
+      "fecha": "2026-11-24T19:28:55+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "289a63aa514c9cdb",
+      "titulo": "Emcali busca frenar 500.000 ciberataques, pierde $ 1.680 millones en robo de cables y recupera $ 1.740 millones en agua: así invierte en blindaje",
+      "categoria": "Cali",
+      "fuente": "El Tiempo Cali",
+      "url": "https://www.eltiempo.com/colombia/cali/emcali-busca-frenar-500-000-ciberataques-pierde-1-680-millones-en-robo-de-cables-y-recupera-1-740-millones-en-agua-asi-invierte-en-blindaje-3603680",
+      "fecha": "2026-11-24T19:25:58+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "e62ed960f5a6406b",
+      "titulo": "La contaminación en Barrancabermeja y la muerte silenciosa de los manatíes: en ocho años han muerto 21 ejemplares de esta especie en vía de extinción",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/santander/la-contaminacion-en-barrancabermeja-y-la-muerte-silenciosa-de-los-manaties-en-ocho-anos-han-muerto-21-ejemplares-de-esta-especie-en-via-de-extincion-3603089",
+      "fecha": "2026-11-24T19:23:39+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "4cb6899b65b77ccf",
+      "titulo": "Si eres estudiante pagas menos: así es la oferta que deja el Google Pixel 11 por 598 euros",
+      "categoria": "Tecnología",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/seleccion/eres-estudiante-pagas-asi-oferta-que-deja-google-pixel-11-598-euros",
+      "fecha": "2026-11-24T19:17:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "bba0a45ca20f67ea",
+      "titulo": "Tributaria: gobierno dice que no es viable vender activos productivos",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/en-vivo/tributaria-gobierno-dice-que-no-es-viable-vender-activos-productivos/",
+      "fecha": "2026-11-24T19:15:19+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "90ed47df768a2611",
+      "titulo": "De la Espriella anuncia $15.000 millones para recuperar inmuebles y negocios tras atentado en Villavicencio",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/carro-bomba-villavicencio-de-la-espriella-anuncia-15-000-millones-recontruccion-CA44000543",
+      "fecha": "2026-11-24T19:14:56+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "ecd69b759c7cda09",
+      "titulo": "Bolsas asiáticas subieron hasta 8,99%, mientras Wall Street bajó por tecnológicas",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/finanzas/las-bolsas-asiaticas-subieron-hasta-8-99-mientras-wall-street-retrocedio-por-tecnologicas-4532072",
+      "fecha": "2026-11-24T19:14:21+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "e9924c38499030f1",
+      "titulo": "Dos soldados del Ejército terminaron en la clínica tras un fuerte choque contra un carro particular en una concurrida vía de Antioquia",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/medellin/dos-soldados-del-ejercito-terminaron-en-la-clinica-tras-un-fuerte-choque-contra-un-carro-particular-en-una-concurrida-via-de-antioquia-3603862",
+      "fecha": "2026-11-24T19:11:51+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "b444fa117c24869d",
+      "titulo": "Sucre declara calamidad pública por el dengue: van 2.818 casos, cuatro muertes y tres municipios en situación de brote",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/sucre-declara-calamidad-publica-por-el-dengue-van-2-818-casos-cuatro-muertes-y-tres-municipios-en-situacion-de-brote-3603859",
+      "fecha": "2026-11-24T19:10:44+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "19f7dafb79fe687b",
+      "titulo": "“Iván Mordisco”, “Antonio Medina” y “Patón”, los terroristas señalados por De la Espriella del el carrobomba en Villavicencio",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/atentado-carrobomba-villavicencio-responsables-ivan-mordisco-antonio-medina-disidencias-farc-GJ43972985",
+      "fecha": "2026-11-24T19:09:47+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "edebbd2fcaab3e7f",
+      "titulo": "‘De Borondo’ llega a la Chimisexta en Cali: conozca la fecha, horarios y cierres viales",
+      "categoria": "Cali",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/cali/de-borondo-llega-chimisexta-cali-24-11-2026/",
+      "fecha": "2026-11-24T19:04:24+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "059a256aaae3544d",
+      "titulo": "Esto sacó De la Espriella en imagen favorable en nueva encuesta de DatAnálisis y así le fue en temas clave",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/de-la-espriella-encuesta-aprobacion-datanalisis-LH43996926",
+      "fecha": "2026-11-24T19:02:14+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "26034e1f3da871be",
+      "titulo": "La ciencia llevaba años debatiendo si el cambio climático traería más o menos rayos. Una IA acaba de dar una respuesta inquietante",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/ecologia-y-naturaleza/ciencia-llevaba-anos-debatiendo-cambio-climatico-traeria-rayos-ia-acaba-dar-respuesta-inquietante",
+      "fecha": "2026-11-24T19:00:58+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "90e84f3e07c416a4",
+      "titulo": "Venezuela publica el monto de su deuda pública: supera los 237.000 millones de dólares",
+      "categoria": "Economía",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/venezuela-publica-el-monto-de-su-deuda-pública-supera-los-237-000-millones-de-dólares/a-80041726?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-24T18:58:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "5f4de768ed32082a",
+      "titulo": "El Gobierno activa ayuda económica y despliegue militar tras el atentado en Villavicencio",
+      "categoria": "Colombia",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/colombia/gobierno-activa-despliegue-militar-atentado-villavicencio-24-11-2026/",
+      "fecha": "2026-11-24T18:54:19+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "ef4a592eb448c03d",
+      "titulo": "Gobierno se reunió con bancadas de los partidos Verde y Liberal para concertar tributaria",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/economia/gobierno-se-reunio-con-bancadas-de-los-partidos-verde-y-liberal-para-concertar-tributaria-4532064",
+      "fecha": "2026-11-24T18:49:36+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "5a23f3e800757f39",
+      "titulo": "¿Qué hay detrás de la disputa de Messi contra la AFA tras su retiro de la Selección Argentina?",
+      "categoria": "Deportes",
+      "fuente": "La FM Deportes",
+      "url": "https://www.lafm.com.co/deportes/lionel-messi-disputa-afa-chiqui-tapia-retiro-seleccion-argentina-418168",
+      "fecha": "2026-11-24T18:37:18+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "6fa1988b59cfbe24",
+      "titulo": "Grandes contra chicos en Dimayor: las tres opciones para repartir el dinero de TV a partir de 2027",
+      "categoria": "Deportes",
+      "fuente": "La FM Deportes",
+      "url": "https://www.lafm.com.co/deportes/grandes-contra-chicos-dimayor-tres-opciones-repartir-dinero-tv-418167",
+      "fecha": "2026-11-24T18:32:18+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "742ee97320400703",
+      "titulo": "Bajo esta apariencia cuqui y rechonchita, se esconde un auténtica máquina de matar. La buena noticia es que sabemos por qué",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/ecologia-y-naturaleza/esta-apariencia-cuqui-rechonchita-se-esconde-autentica-maquina-matar-buena-noticia-que-sabemos-que",
+      "fecha": "2026-11-24T18:31:01+00:00",
+      "imagen": ""
+    },
     {
       "id": "aa3b1a2bd190dddd",
       "titulo": "3 de cada 4 apartamentos en arriendo que ves en internet no están disponibles",
@@ -56,6 +308,15 @@
       "imagen": ""
     },
     {
+      "id": "3ba95a827a54a0b7",
+      "titulo": "Armando Benedetti irá a juicio en Procuraduría por llamar “loca, demente y delincuente” a exmagistrada Cristina Lombana",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/armando-benedetti-ira-a-juicio-disciplinario-por-insultos-exmagistrada-cristina-lombana-procuraduria-LG43989345",
+      "fecha": "2026-11-24T18:10:59+00:00",
+      "imagen": ""
+    },
+    {
       "id": "2c5c2e72c4baad33",
       "titulo": "Rehenes en Éxito de Cartagena: De la Espriella dice que inició por intento de robo y habló Dumek Turbay",
       "categoria": "Colombia",
@@ -84,11 +345,20 @@
     },
     {
       "id": "9be09ad32d53a99a",
-      "titulo": "Fanalca y Honda entregan equipos de cómputo para IES afectadas por el terremoto",
+      "titulo": "Fanalca y Honda entregan equipos de cómputo para instituciones tras sismo",
       "categoria": "Colombia",
       "fuente": "La República",
       "url": "https://www.larepublica.co/empresas/fanalca-y-honda-entregan-equipos-de-computo-para-ies-afectadas-por-el-terremoto-4531996",
       "fecha": "2026-11-24T18:03:55+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "9d6fb6169199d14b",
+      "titulo": "Elecciones en España: ¿cómo podría afectar a Colombia los resultados?",
+      "categoria": "Colombia",
+      "fuente": "La FM Internacional",
+      "url": "https://www.lafm.com.co/internacional/elecciones-en-espana-y-el-impacto-del-resultado-para-colombia-418163",
+      "fecha": "2026-11-24T18:00:05+00:00",
       "imagen": ""
     },
     {
@@ -137,30 +407,12 @@
       "imagen": ""
     },
     {
-      "id": "3168d3457a06ac80",
-      "titulo": "Precio del dólar rompe al alza la barrera de los $3.600: en noviembre ha subido 12% y toca máximos de seis meses",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/finanzas/precio-del-dolar-rompe-al-alza-la-barrera-de-los-3-600-durante-las-negociaciones-de-este-martes-24-de-noviembre-507001",
-      "fecha": "2026-11-24T17:51:51+00:00",
-      "imagen": ""
-    },
-    {
       "id": "9b4096dabbe92455",
       "titulo": "Rabinos europeos alertan del fuerte aumento del antisemitismo",
       "categoria": "Internacional",
       "fuente": "DW Español",
       "url": "https://www.dw.com/es/rabinos-europeos-alertan-del-fuerte-aumento-del-antisemitismo/a-80038365?maca=spa-rss-sp-all-1122-rdf",
       "fecha": "2026-11-24T17:40:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "47d283e18a731c7c",
-      "titulo": "Toma de rehenes en Éxito de Cartagena obliga a suspender aterrizajes en el aeropuerto Rafael Núñez: continúa el operativo policial",
-      "categoria": "Deportes",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/toma-de-rehenes-en-exito-de-cartagena-obliga-a-suspender-aterrizajes-en-el-aeropuerto-rafael-nunez-continua-el-operativo-policial-3603796",
-      "fecha": "2026-11-24T17:39:29+00:00",
       "imagen": ""
     },
     {
@@ -288,258 +540,6 @@
       "url": "https://www.dw.com/es/sin-chips-de-nvidia-china-instala-enclaves-de-ia-en-malasia/a-80036351?maca=spa-rss-sp-all-1122-rdf",
       "fecha": "2026-11-24T17:24:00+00:00",
       "imagen": ""
-    },
-    {
-      "id": "0aafda5767c21d3e",
-      "titulo": "Anuel AA anuncia concierto gratuito en Bogotá tras las críticas por su reciente presentación",
-      "categoria": "Colombia",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/entretenimiento/anuel-aa-anuncia-concierto-gratuito-en-bogota-24-11-2026/",
-      "fecha": "2026-11-24T17:23:27+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "79ae583f181ab5f9",
-      "titulo": "El papa Francisco revela en su diario que vio al diablo 3 veces, así como \"las puertas del infierno\"",
-      "categoria": "Internacional",
-      "fuente": "BBC Mundo",
-      "url": "https://www.bbc.com/mundo/articles/cm5y1p3e5knvo?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-24T17:21:17+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "3aebb9e950ca0711",
-      "titulo": "Pablo Repetto rompe el silencio sobre su futuro en Santa Fe: así van las negociaciones con Eduardo Méndez",
-      "categoria": "Deportes",
-      "fuente": "La FM Deportes",
-      "url": "https://www.lafm.com.co/deportes/pablo-repetto-futuro-santafe-negociaciones-eduardo-mendez-418159",
-      "fecha": "2026-11-24T17:20:16+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "3ba95a827a54a0b7",
-      "titulo": "Armando Benedetti irá a juicio disciplinario por llamar “loca, demente y delincuente” a la exmagistrada Cristina Lombana",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/armando-benedetti-ira-a-juicio-disciplinario-por-insultos-exmagistrada-cristina-lombana-procuraduria-LG43989345",
-      "fecha": "2026-11-24T17:18:12+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "c2fdd2a13bb6c5b6",
-      "titulo": "Apareció Violeta Muñoz en Bello: adolescente de 15 años se comunicó con sus padres tras intensa búsqueda en Antioquia",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/medellin/aparecio-violeta-munoz-en-bello-adolescente-de-15-anos-se-comunico-con-sus-padres-tras-intensa-busqueda-en-antioquia-3603825",
-      "fecha": "2026-11-24T17:16:32+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "aa880e7d8c976905",
-      "titulo": "El estallido de un coche bomba en Colombia da alas a los detractores del acuerdo de paz con las FARC",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/america-colombia/2026-11-24/el-estallido-de-un-coche-bomba-en-colombia-da-alas-a-los-detractores-del-acuerdo-de-paz-con-las-farc.html",
-      "fecha": "2026-11-24T17:11:16+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "289a63aa514c9cdb",
-      "titulo": "Emcali busca frenar 500.000 ciberataques, pierde $ 1.680 millones en robo de cables y recupera $ 1.740 millones en agua: así invierte en blindaje",
-      "categoria": "Cali",
-      "fuente": "El Tiempo Cali",
-      "url": "https://www.eltiempo.com/colombia/cali/emcali-busca-frenar-500-000-ciberataques-pierde-1-680-millones-en-robo-de-cables-y-recupera-1-740-millones-en-agua-asi-invierte-en-blindaje-3603680",
-      "fecha": "2026-11-24T17:04:28+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "40bdb3d8c379a976",
-      "titulo": "Se acaba el plazo para cobrar Renta Ciudadana en Cali: conozca aquí la fecha límite",
-      "categoria": "Cali",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/cali/plazo-cobrar-renta-ciudadana-cali-fecha-limite-24-11-2026/",
-      "fecha": "2026-11-24T17:03:56+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "e08bab01c10c89ce",
-      "titulo": "Jimmy Wales, fundador de Wikipedia y premio Xataka Leyenda 2026: \"Le caigo bien a la gente y los tech bros no suelen caer bien\"",
-      "categoria": "Cali",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/entrevistas/jimmy-wales-fundador-wikipedia-premio-xataka-leyenda-2026-le-caigo-bien-a-gente-tech-bros-no-suelen-caer-bien",
-      "fecha": "2026-11-24T17:01:03+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "8ef3143a3d6c7ab1",
-      "titulo": "El robot aspirador que sube escalones y se limpia solo desploma su precio en Amazon por el Black Friday",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/seleccion/robot-aspirador-que-sube-escalones-se-limpia-solo-desploma-su-precio-amazon-black-friday",
-      "fecha": "2026-11-24T17:01:03+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "46e64ab97f62c906",
-      "titulo": "Las cuentas no les cuadran a los gobiernos de Kast y De la Espriella",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/red-de-expertos/red-social/las-cuentas-no-les-cuadran-a-los-gobiernos-de-kast-y-de-la-espriella/",
-      "fecha": "2026-11-24T17:00:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "cf1f2684cfc004cc",
-      "titulo": "La otra cara de un diploma falso",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/red-de-expertos/red-de-la-educacion/la-otra-cara-de-un-diploma-falso/",
-      "fecha": "2026-11-24T17:00:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "c3c5b0ce87d7b91a",
-      "titulo": "Yemen: rebeldes hutíes se acercan a Adén y “están listos para atacar” la ciudad",
-      "categoria": "Internacional",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/yemen-rebeldes-hutíes-se-acercan-a-adén-y-están-listos-para-atacar-la-ciudad/a-80041013?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-24T16:58:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "46b35235fe9170dd",
-      "titulo": "Paloma Valencia anuncia que tomará acciones legales contra los que la vincularon con atentado de Miguel Uribe",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/paloma-valencia-demandara-a-los-que-la-vincularon-con-atentado-de-miguel-uribe-turbay-GG43980273",
-      "fecha": "2026-11-24T16:56:17+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "42bafde906ce649b",
-      "titulo": "Familiar de uno de los rehenes en supermercado en Cartagena pide colaboración de las personas: 'Que dejen a las autoridades hacer las cosas bien'",
-      "categoria": "Economía",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/familiar-de-uno-de-los-rehenes-en-supermercado-en-cartagena-pide-colaboracion-de-las-personas-que-dejen-a-las-autoridades-hacer-las-cosas-bien-3603806",
-      "fecha": "2026-11-24T16:56:15+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "ae9d91955f5f6bef",
-      "titulo": "Bitcoin no logra mantener el impulso de Nvidia mientras los vientos en contra del mercado de criptomonedas",
-      "categoria": "Economía",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/bitcoin-no-logra-mantener-el-impulso-de-nvidia-mientras-los-vientos-en-contra-del-mercado-de-criptomonedas-se-centran-en-el-foco-de-atencion-4531923",
-      "fecha": "2026-11-24T16:49:30+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "4a8ad13a1ff62b94",
-      "titulo": "Las lecciones que el regreso de Jensen Huang a Nvidia le enseña a Xi Jinping sobre cómo tratar a Trump",
-      "categoria": "Internacional",
-      "fuente": "BBC Mundo",
-      "url": "https://www.bbc.com/mundo/articles/cr930kp5eq12o?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-24T16:48:51+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "f993bbbec8bcc13e",
-      "titulo": "Corona puso en marcha un parque solar de generación energética en Madrid",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/empresas/corona-puso-en-marcha-un-nuevo-parque-solar-ubicado-en-madrid-cundinamarca-4531794",
-      "fecha": "2026-11-24T16:47:38+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "00b8fabd8d4b9670",
-      "titulo": "Unal recibirá inversión del Gobierno por $70.000 millones para nuevo centro farmacéutico",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/empresas/unal-recibira-inversion-del-gobierno-por-70-000-millones-para-nuevo-centro-farmaceutico-4531077",
-      "fecha": "2026-11-24T16:42:59+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "902876ddb4950f9a",
-      "titulo": "La deuda pública de Venezuela es peor de lo que se especulaba: Asciende al 242% del PIB",
-      "categoria": "Internacional",
-      "fuente": "La FM Internacional",
-      "url": "https://www.lafm.com.co/internacional/deuda-publica-venezuela-242-pib-nacional-informe-noviembre-2026-418154",
-      "fecha": "2026-11-24T16:42:14+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "e59c11c9e466cd40",
-      "titulo": "Rehabilitarán 462 metros de vías en Pampalinda, uno de los sectores afectados por el terremoto",
-      "categoria": "Valle del Cauca",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/cali/rehabilitaran-vias-pampalinda-24-11-2026/",
-      "fecha": "2026-11-24T16:41:54+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "399d3c25cd7b1d9a",
-      "titulo": "Colombia registró 358 ataques con drones explosivos entre enero y noviembre de 2026",
-      "categoria": "Colombia",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/gobierno/colombia-registro-358-ataques-con-drones-explosivos-entre-enero-y-noviembre-de-506996",
-      "fecha": "2026-11-24T16:40:57+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "71150b25854dc8bb",
-      "titulo": "El cuidado del cerebro y la prevención del Alzheimer comienzan desde joven",
-      "categoria": "Valle del Cauca",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/vida-moderna/salud/cuidado-cerebro-alzheimer-24-11-2026/",
-      "fecha": "2026-11-24T16:40:06+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "7a7163bf2c679363",
-      "titulo": "Este es el estado de salud de los 24 heridos tras el atentado terrorista en el Meta: cuatro personas siguen hospitalizadas",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/este-es-el-estado-de-salud-de-los-24-heridos-tras-el-atentado-terrorista-en-el-meta-cuatro-personas-siguen-hospitalizadas-3603800",
-      "fecha": "2026-11-24T16:35:03+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "1fc0a5a6745bee87",
-      "titulo": "El resurgir de Jensen Huang en Nvidia con apoyo de Trump tiene un precio: a China no le van a pasar ni una",
-      "categoria": "Internacional",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/empresas-y-economia/resurgir-jensen-huang-nvidia-apoyo-trump-tiene-precio-a-china-no-le-van-a-pasar",
-      "fecha": "2026-11-24T16:31:03+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "11227cd4487e9b78",
-      "titulo": "🔴 En vivo: minuto a minuto de la toma del Éxito de La Castellana en Cartagena; Abelardo dio pistas de los responsables",
-      "categoria": "Colombia",
-      "fuente": "La FM Actualidad",
-      "url": "https://www.lafm.com.co/actualidad/en-vivo-toma-exito-la-castellana-cartagena-rehenes-bolivar-418152",
-      "fecha": "2026-11-24T16:30:01+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "2ea4934d7b6ec770",
-      "titulo": "¡Copa América 2028 con sede! Conmebol oficializó fechas y sede principal",
-      "categoria": "Valle del Cauca",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/deportes/copa-america-2028-con-sede-conmebol-24-11-2026/",
-      "fecha": "2026-11-24T16:29:57+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "19f7dafb79fe687b",
-      "titulo": "“Iván Mordisco” y “Antonio Medina”, los terroristas sospechosos del carrobomba en Villavicencio",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/atentado-carrobomba-villavicencio-responsables-ivan-mordisco-antonio-medina-disidencias-farc-GJ43972985",
-      "fecha": "2026-11-24T16:25:59+00:00",
-      "imagen": ""
     }
   ],
   "estado_fuentes": [
@@ -590,13 +590,13 @@
       "nombre": "BBC Mundo",
       "url": "https://feeds.bbci.co.uk/mundo/rss.xml",
       "estado": "correcto",
-      "titulares": 28
+      "titulares": 27
     },
     {
       "nombre": "DW Español",
       "url": "https://rss.dw.com/rdf/rss-sp-all",
       "estado": "correcto",
-      "titulares": 22
+      "titulares": 23
     },
     {
       "nombre": "Xataka",
@@ -613,8 +613,9 @@
     {
       "nombre": "Diario Occidente",
       "url": "https://occidente.co/feed/",
-      "estado": "correcto",
-      "titulares": 11
+      "estado": "error",
+      "titulares": 0,
+      "detalle": "HTTPSConnectionPool(host='occidente.co', port=443): Read timed out. (read timeout=12)"
     },
     {
       "nombre": "La FM Deportes",
