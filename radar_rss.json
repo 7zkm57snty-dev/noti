@@ -1,13 +1,157 @@
 {
-  "ultima_actualizacion": "2026-11-25T19:39:16.643121+00:00",
+  "ultima_actualizacion": "2026-11-25T20:35:04.690700+00:00",
   "titulares_rss": [
     {
-      "id": "25c68ce2da02cda6",
-      "titulo": "España tiene gas para afrontar el invierno, pero la crisis de Ormuz le va a costar 6.000 millones de euros",
+      "id": "e365a4f9754039c6",
+      "titulo": "Tabla de posiciones del cuadrangular B tras los juegos de este martes",
+      "categoria": "Valle del Cauca",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/deportes/tabla-de-posiciones-del-cuadrangular-b-liga-betplay-25-11-2026/",
+      "fecha": "2026-11-25T20:25:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "8b0baa59b5cffbf2",
+      "titulo": "Bogotá abre 1.000 empleos para mujeres buscando reducir brechas de género en la capital del país",
+      "categoria": "Economía",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/regiones/el-distrito-abre-1-000-empleos-para-mujeres-buscando-reducir-brechas-de-genero-en-la-capita-507089",
+      "fecha": "2026-11-25T20:16:38+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "bf49fa4a2bd90933",
+      "titulo": "Kilmar Abrego García, víctima de las deportaciones masivas en EE UU: “Trump no decide mi futuro”",
+      "categoria": "Internacional",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/internacional/2026-11-25/kilmar-abrego-garcia-victima-de-las-deportaciones-masivas-de-trump-aterriza-en-madrid.html",
+      "fecha": "2026-11-25T20:15:50+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "36441eeec71dd30b",
+      "titulo": "Caen cuatro presuntos implicados en fraude tributario que comprometió $18.293 millones en Valledupar: autoridades aún buscan a dos exfuncionarios",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/caen-cuatro-presuntos-implicados-en-fraude-tributario-que-comprometio-18-293-millones-en-valledupar-autoridades-aun-buscan-a-dos-exfuncionarios-3604275",
+      "fecha": "2026-11-25T20:10:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "5d21a5aa164e5657",
+      "titulo": "La OEM reporta 77 homicidios a mujeres, la cifra más alta en los últimos 9 años",
+      "categoria": "Valle del Cauca",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/cali/oem-reporta-77-homicidios-mujeres-cifra-mas-alta-ultimos-9-anos-25-11-2026/",
+      "fecha": "2026-11-25T20:05:12+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "f461dfbdd8ffa4bc",
+      "titulo": "Video: Rafael Dudamel y la derrota en el clásico, esto dijo el entrenador 'verdiblanco'",
+      "categoria": "Valle del Cauca",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/deportes/deportivo-cali/video-rafael-dudamel-deportivo-cali-clasico-25-11-2026/",
+      "fecha": "2026-11-25T20:04:11+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "4fdbbd0be59e91de",
+      "titulo": "Siempre nos han dicho que parar 15 minutos a hacer ejercicio mejora el estudio. La ciencia dice que no es tan sencillo",
       "categoria": "Colombia",
       "fuente": "Xataka",
-      "url": "https://www.xataka.com/energia/espana-tiene-gas-para-afrontar-invierno-crisis-ormuz-le-va-a-costar-6-000-millones-euros",
-      "fecha": "2026-11-25T19:32:24+00:00",
+      "url": "https://www.xataka.com/medicina-y-salud/siempre-nos-han-dicho-que-parar-15-minutos-a-hacer-ejercicio-mejora-estudio-ciencia-dice-que-no-sencillo",
+      "fecha": "2026-11-25T20:00:26+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "821a4065c352ca47",
+      "titulo": "Autoridades revelan nuevos videos del operativo de rescate en el Éxito de Cartagena: así fue el despliegue para liberar a más de 60 víctimas",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/se-conocen-nuevos-videos-del-operativo-de-rescate-en-el-exito-de-cartagena-asi-fue-el-despliegue-de-las-autoridades-para-liberar-a-mas-de-60-victimas-3604096",
+      "fecha": "2026-11-25T19:52:57+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "2cfea5d437e50be3",
+      "titulo": "María Corina Machado asegura que Edmundo González regresará pronto a Venezuela",
+      "categoria": "Internacional",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/america/2026-11-25/maria-corina-machado-asegura-que-edmundo-gonzalez-regresara-pronto-a-venezuela.html",
+      "fecha": "2026-11-25T19:52:55+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "5f67763b2c1c2db2",
+      "titulo": "El 63% de los inversionistas espera que el salario mínimo en Colombia suba entre 8% y 9% en 2027",
+      "categoria": "Colombia",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/el-63-de-los-inversionistas-espera-que-el-salario-minimo-en-colombia-suba-entre-8-y-9-en-507092",
+      "fecha": "2026-11-25T19:52:01+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "f3b65d795f722e39",
+      "titulo": "MinTransporte plantea nuevas reglas para acelerar la inversión en infraestructura",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/economia/mintransporte-plantea-nuevas-reglas-para-acelerar-la-inversion-en-infraestructura-4533211",
+      "fecha": "2026-11-25T19:49:15+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "a09cd698b2c3c061",
+      "titulo": "De Copenhague a los colegios y cerros de Cali: la reina de Dinamarca, entre pupitres, historias de resiliencia y árboles recién sembrados",
+      "categoria": "Cali",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/cali/de-copenhague-a-los-colegios-y-cerros-de-cali-la-reina-de-dinamarca-entre-pupitres-historias-de-resiliencia-y-arboles-recien-sembrados-3603998",
+      "fecha": "2026-11-25T19:48:40+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "8cef93a4662977cc",
+      "titulo": "Los Sony WH-1000XM4C a precio de liquidación, ofertas en AirPods, Beats y otros auriculares Bluetooth durante el Black Friday 2026",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/seleccion/sony-wh-1000xm4c-a-precio-liquidacion-ofertas-airpods-beats-otros-auriculares-bluetooth-durante-black-friday-2026",
+      "fecha": "2026-11-25T19:46:14+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "2892c5e22e0ab204",
+      "titulo": "Gobierno plantea crear 'miniconcesiones' de tres a cinco años para recuperar vías que fueron devueltas al Estado",
+      "categoria": "Colombia",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/gobierno/gobierno-plantea-miniconcesiones-de-tres-a-cinco-anos-para-recuperar-las-vias-que-fueron-devueltas-al-estado-507095",
+      "fecha": "2026-11-25T19:43:16+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "d825dfa6d14496ad",
+      "titulo": "'No sabemos qué fue lo que pasó': allegados de Jaiver Muñetón, abatido tras operativo en el Éxito Cartagena, esperan resultados de su necropsia",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/no-sabemos-que-fue-lo-que-paso-allegados-de-jaiver-muneton-abatido-tras-operativo-en-el-exito-cartagena-esperan-resultados-de-su-necropsia-3604267",
+      "fecha": "2026-11-25T19:40:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "ce456b884becf5b7",
+      "titulo": "Video: Las conclusiones de David González luego de ganar el clásico vallecaucano",
+      "categoria": "Valle del Cauca",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/deportes/america-de-cali/video-david-gonzalez-america-de-cali-clasico-25-11-2026/",
+      "fecha": "2026-11-25T19:39:12+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "1823ec4f07fb81b9",
+      "titulo": "China y Taiwán se enzarzan en un pleito por el viaje a Taipéi de una delegación de congresistas colombianos",
+      "categoria": "Internacional",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/america-colombia/2026-11-25/china-y-taiwan-se-enzarzan-en-un-pleito-por-el-viaje-a-taipei-de-una-delegacion-de-congresistas-colombianos.html",
+      "fecha": "2026-11-25T19:32:39+00:00",
       "imagen": ""
     },
     {
@@ -20,12 +164,21 @@
       "imagen": ""
     },
     {
-      "id": "8b0baa59b5cffbf2",
-      "titulo": "El Distrito abre 1.000 empleos para mujeres buscando reducir brechas de género en la capita",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/regiones/el-distrito-abre-1-000-empleos-para-mujeres-buscando-reducir-brechas-de-genero-en-la-capita-507089",
-      "fecha": "2026-11-25T19:26:45+00:00",
+      "id": "506f30d54f24ed21",
+      "titulo": "Video | Presidente Abelardo De La Espriella enfrentó a secuestradores del almacén Éxito en Cartagena tras captura: '¿Saben cuánto les va a caer?'",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/video-advertencia-que-lanzo-presidente-de-la-espriella-a-secuestradores-del-almacen-exito-en-cartagena-antes-del-rescate-los-confronto-tras-captura-3604232",
+      "fecha": "2026-11-25T19:30:38+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "25c68ce2da02cda6",
+      "titulo": "España tiene gas para afrontar el invierno, pero la crisis de Ormuz le va a costar 6.000 millones de euros",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/energia/espana-tiene-gas-para-afrontar-invierno-crisis-ormuz-le-va-a-costar-6-000-millones-euros",
+      "fecha": "2026-11-25T19:30:00+00:00",
       "imagen": ""
     },
     {
@@ -38,12 +191,12 @@
       "imagen": ""
     },
     {
-      "id": "e5d7d2c842a2cbab",
-      "titulo": "Esposo de mujer que buscaba a un rehén era presunto integrante de la banda y fue abatido",
+      "id": "8afe60aafe8f2ed4",
+      "titulo": "[Video] Abelardo de la Espriella encaró a los presuntos secuestradores del Éxito de Cartagena",
       "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/actualidad/esposo-de-mujer-que-buscaba-a-un-rehen-era-presunto-integrante-de-la-banda-y-fue-abatido/",
-      "fecha": "2026-11-25T19:15:54+00:00",
+      "fuente": "La FM Actualidad",
+      "url": "https://www.lafm.com.co/actualidad/secuestradores-exito-cartagena-rostro-abelardo-enfrenta-video-418293",
+      "fecha": "2026-11-25T19:18:06+00:00",
       "imagen": ""
     },
     {
@@ -53,15 +206,6 @@
       "fuente": "El Tiempo",
       "url": "https://www.eltiempo.com/colombia/medellin/asi-avanza-la-lucha-contra-el-hurto-en-medellin-judicializan-a-tres-hombres-senalados-de-cometer-tres-atracos-en-una-hora-3604251",
       "fecha": "2026-11-25T19:06:10+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "c2b3f0dd043fef74",
-      "titulo": "Pereira se convierte en referente de restauración capilar: Clínica Diamond acerca la técnica FUE al Eje Cafetero",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/contenido-patrocinado/pereira-se-convierte-en-referente-de-restauracion-capilar-clinica-diamond-acerca-la-tecnica-fue-al-eje-cafetero/",
-      "fecha": "2026-11-25T19:04:38+00:00",
       "imagen": ""
     },
     {
@@ -83,39 +227,12 @@
       "imagen": ""
     },
     {
-      "id": "506f30d54f24ed21",
-      "titulo": "Video | Advertencia que lanzó presidente De La Espriella a secuestradores del almacén Éxito en Cartagena antes del rescate: los confrontó tras captura",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/video-advertencia-que-lanzo-presidente-de-la-espriella-a-secuestradores-del-almacen-exito-en-cartagena-antes-del-rescate-los-confronto-tras-captura-3604232",
-      "fecha": "2026-11-25T18:59:59+00:00",
-      "imagen": ""
-    },
-    {
       "id": "7b8d2e1e1523da84",
       "titulo": "Polonia anuncia creación de zona de exclusión aérea en la frontera con Ucrania",
       "categoria": "Internacional",
       "fuente": "DW Español",
       "url": "https://www.dw.com/es/polonia-anuncia-creación-de-zona-de-exclusión-aérea-en-la-frontera-con-ucrania/a-80054707?maca=spa-rss-sp-all-1122-rdf",
       "fecha": "2026-11-25T18:59:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "5f67763b2c1c2db2",
-      "titulo": "El 63% de los inversionistas espera que el salario mínimo en Colombia suba entre 8% y 9% en 2027",
-      "categoria": "Colombia",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/el-63-de-los-inversionistas-espera-que-el-salario-minimo-en-colombia-suba-entre-8-y-9-en-507092",
-      "fecha": "2026-11-25T18:56:48+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "821a4065c352ca47",
-      "titulo": "Se conocen nuevos videos del operativo de rescate en el Éxito de Cartagena: así fue el despliegue de las autoridades para liberar a más de 60 víctimas",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/se-conocen-nuevos-videos-del-operativo-de-rescate-en-el-exito-de-cartagena-asi-fue-el-despliegue-de-las-autoridades-para-liberar-a-mas-de-60-victimas-3604096",
-      "fecha": "2026-11-25T18:46:20+00:00",
       "imagen": ""
     },
     {
@@ -227,15 +344,6 @@
       "imagen": ""
     },
     {
-      "id": "75f49ea0219256aa",
-      "titulo": "Violencia en cuatro departamentos: al menos cinco atentados sacudieron a Colombia en 72 horas",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/actualidad/violencia-en-cuatro-departamentos-al-menos-cinco-atentados-sacudieron-a-colombia-en-72-horas/",
-      "fecha": "2026-11-25T18:11:23+00:00",
-      "imagen": ""
-    },
-    {
       "id": "371905ee9c612a4c",
       "titulo": "Nutresa puso en marcha cinco de sus ocho proyectos en el Chocó tras el terremoto",
       "categoria": "Colombia",
@@ -344,11 +452,11 @@
       "imagen": ""
     },
     {
-      "id": "9acbfac8cf75fa10",
+      "id": "4194e11e6af60ec6",
       "titulo": "Películas para disfrutar la Navidad: historias de amor, aventuras y clásicos que no pueden faltar",
       "categoria": "Valle del Cauca",
       "fuente": "90 Minutos",
-      "url": "https://90minutos.co/vida-moderna/peliculas-navidad-septiembre-25-11-2026/",
+      "url": "https://90minutos.co/vida-moderna/peliculas-navidad-diciembre-25-11-2026/",
       "fecha": "2026-11-25T17:43:01+00:00",
       "imagen": ""
     },
@@ -377,6 +485,15 @@
       "fuente": "El Tiempo",
       "url": "https://www.eltiempo.com/colombia/otras-ciudades/cartagena-esposa-del-hombre-abatido-en-el-exito-habla-con-el-tiempo-y-exige-respuestas-tengo-derecho-a-saber-donde-esta-3604225",
       "fecha": "2026-11-25T17:38:15+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "0af6ce856af8cb08",
+      "titulo": "Fondo Milagro abre en Cali su primera feria de vivienda para damnificados del sismo",
+      "categoria": "Cali",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/cali/feria-de-vivienda-en-cali-tendra-50000-millones/",
+      "fecha": "2026-11-25T17:32:10+00:00",
       "imagen": ""
     },
     {
@@ -416,129 +533,12 @@
       "imagen": ""
     },
     {
-      "id": "b8d7be158d34d7da",
-      "titulo": "Atentado terrorista contra la Central de Acopio en Ipiales, Nariño, no dejó heridos ni muertos, pero causó graves daños materiales",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/atentado-terrorista-contra-la-central-de-acopio-en-ipiales-narino-no-dejo-heridos-ni-muertos-pero-causo-graves-danos-materiales-3604215",
-      "fecha": "2026-11-25T17:22:04+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "427057ac9d94fcd5",
-      "titulo": "Pereira suspenderá servicio de gas por implosión de Invico",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/actualidad/pereira-suspendera-servicio-de-gas-por-implosion-de-invico/",
-      "fecha": "2026-11-25T17:20:42+00:00",
-      "imagen": ""
-    },
-    {
       "id": "870fdbd85c9e5c73",
       "titulo": "A propósito del secuestro masivo en Cartagena, ¿en qué han terminado los grandes asaltos en Colombia?",
       "categoria": "Colombia",
       "fuente": "El Colombiano — Colombia",
       "url": "https://www.elcolombiano.com/colombia/como-han-terminado-grandes-robos-colombia-secuestro-exito-cartagena-NE44041639",
       "fecha": "2026-11-25T17:18:50+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "596f9af1d7891a73",
-      "titulo": "Iglesia del Templete invita a 'Restaurando Caminos' para ayudar a la reconstrucción de la infraestructura",
-      "categoria": "Valle del Cauca",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/cali/iglesia-templete-ayudar-reconstruccion-infraestructura-25-11-2026/",
-      "fecha": "2026-11-25T17:18:41+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "bfc98cc163968d13",
-      "titulo": "Las acciones se desploman ante el temor a la IA que impulsa compras de bonos del Tesoro",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/finanzas/las-acciones-se-desploman-ante-el-temor-a-la-ia-que-impulsa-compras-de-bonos-del-tesoro-4533172",
-      "fecha": "2026-11-25T17:17:20+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "de8d78a9dc864620",
-      "titulo": "Como un Stream Deck, pero más barato: este gadget te puede ahorrar un montón de tiempo a diario",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/seleccion/como-stream-deck-barato-este-gadget-te-puede-ahorrar-monton-tiempo-a-diario",
-      "fecha": "2026-11-25T17:16:26+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "8135642ac0befce4",
-      "titulo": "Menos sexo y más porno: lo que revela el último informe nacional sobre la sexualidad de los británicos",
-      "categoria": "Internacional",
-      "fuente": "BBC Mundo",
-      "url": "https://www.bbc.com/mundo/articles/cq8e04ynw811o?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-25T17:16:04+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "8f3867ede473f61d",
-      "titulo": "¿Se inundó su moto? No intente prenderla sin revisar estos componentes",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/se-inundo-su-moto-no-intente-prenderla-sin-revisar-estos-componentes-LF44052867",
-      "fecha": "2026-11-25T17:12:41+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "a9ae658541265463",
-      "titulo": "Asomicrofinanzas reportó una cartera de microcrédito de $28,40 billones",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/finanzas/asomicrofinanzas-reporto-una-cartera-de-microcredito-de-28-40-billones-4532942",
-      "fecha": "2026-11-25T17:11:13+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "f78b6af66fa35e35",
-      "titulo": "Doménico Reina, el niño de 9 años destacado en el Mundial de Cálculo Mental, fue condecorado",
-      "categoria": "Deportes",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/valle-del-cauca/domenico-reina-nino-destacado-mundial-calculo-mental-25-11-2026/",
-      "fecha": "2026-11-25T17:09:25+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "f0b3cffadbe5b8f3",
-      "titulo": "La tecnología se hunde de nuevo: el Nasdaq se deja hasta un 4% con fuertes descensos de Nvidia y Anthropic",
-      "categoria": "Tecnología",
-      "fuente": "El País Colombia",
-      "url": "https://cincodias.elpais.com/mercados-financieros/2026-11-25/la-bolsa-y-el-ibex-35.html",
-      "fecha": "2026-11-25T17:07:04+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "503465d4563d094f",
-      "titulo": "¡Qué tesos! Estas fueron las Fuerzas Especiales que protagonizaron rescate de rehenes en el Éxito de Cartagena",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/rehenes-cartagena-cuales-fueron-fuerzas-especiales-que-participaron-rescate-secuestro-exito-ND44035594",
-      "fecha": "2026-11-25T17:05:41+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "825a53106d57196a",
-      "titulo": "Los bosques de Alemania se encogen, pero un tipo de árbol resiste",
-      "categoria": "Internacional",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/los-bosques-de-alemania-se-encogen-pero-un-tipo-de-árbol-resiste/a-80052365?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-25T17:03:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "cd02f62fb6e90434",
-      "titulo": "Gremio pide mantener la exención del IVA al turismo receptivo ante debate de la Ley de Rescate Económico",
-      "categoria": "Cali",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/gobierno/gremio-pide-mantener-la-exencion-del-iva-al-turismo-receptivo-ante-debate-de-la-ley-de-rescate-economico-507085",
-      "fecha": "2026-11-25T17:01:13+00:00",
       "imagen": ""
     }
   ],
@@ -553,7 +553,7 @@
       "nombre": "El Tiempo Cali",
       "url": "https://www.eltiempo.com/rss/colombia_cali.xml",
       "estado": "correcto",
-      "titulares": 10
+      "titulares": 9
     },
     {
       "nombre": "El Espectador",
@@ -626,7 +626,7 @@
       "nombre": "La FM Economía",
       "url": "https://www.lafm.com.co/rss/economia.xml",
       "estado": "correcto",
-      "titulares": 16
+      "titulares": 15
     },
     {
       "nombre": "La FM Internacional",
@@ -656,8 +656,9 @@
     {
       "nombre": "El Diario — Pereira",
       "url": "https://www.eldiario.com.co/feed/",
-      "estado": "correcto",
-      "titulares": 35
+      "estado": "error",
+      "titulares": 0,
+      "detalle": "El feed no contiene entradas."
     },
     {
       "nombre": "Chocó 7 días",
