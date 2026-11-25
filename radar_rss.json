@@ -1,13 +1,202 @@
 {
-  "ultima_actualizacion": "2026-11-25T16:44:21.278551+00:00",
+  "ultima_actualizacion": "2026-11-25T17:32:24.379178+00:00",
   "titulares_rss": [
     {
-      "id": "e22e0bfbc0067c02",
-      "titulo": "¿Cómo lograron liberar a los secuestrados en el Éxito de Cartagena? Así se desarrolló el operativo de la Fuerza Pública",
+      "id": "1005763a1075cac1",
+      "titulo": "SIP advierte preocupación por inspección de Supersociedades a La Silla",
       "categoria": "Colombia",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/colombia/secuestro-en-el-exito-de-cartagena-asi-fue-el-rescate/",
-      "fecha": "2026-11-25T16:44:20+00:00",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/en-vivo/sip-advierte-preocupacion-por-inspeccion-de-supersociedades-a-la-silla/",
+      "fecha": "2026-11-25T17:23:58+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "9f7274822c8c3437",
+      "titulo": "Líder opositora Machado promete una transición \"sin rencor\" en Venezuela",
+      "categoria": "Internacional",
+      "fuente": "La FM Internacional",
+      "url": "https://www.lafm.com.co/internacional/maria-corina-machado-en-venezuela-promete-transicion-sin-recor-418281",
+      "fecha": "2026-11-25T17:22:52+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "b8d7be158d34d7da",
+      "titulo": "Atentado terrorista contra la Central de Acopio en Ipiales, Nariño, no dejó heridos ni muertos, pero causó graves daños materiales",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/atentado-terrorista-contra-la-central-de-acopio-en-ipiales-narino-no-dejo-heridos-ni-muertos-pero-causo-graves-danos-materiales-3604215",
+      "fecha": "2026-11-25T17:22:04+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "427057ac9d94fcd5",
+      "titulo": "Pereira suspenderá servicio de gas por implosión de Invico",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/actualidad/pereira-suspendera-servicio-de-gas-por-implosion-de-invico/",
+      "fecha": "2026-11-25T17:20:42+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "596f9af1d7891a73",
+      "titulo": "Iglesia del Templete invita a 'Restaurando Caminos' para ayudar a la reconstrucción de la infraestructura",
+      "categoria": "Valle del Cauca",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/cali/iglesia-templete-ayudar-reconstruccion-infraestructura-25-11-2026/",
+      "fecha": "2026-11-25T17:18:41+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "bfc98cc163968d13",
+      "titulo": "Las acciones se desploman ante el temor a la IA que impulsa compras de bonos del Tesoro",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/finanzas/las-acciones-se-desploman-ante-el-temor-a-la-ia-que-impulsa-compras-de-bonos-del-tesoro-4533172",
+      "fecha": "2026-11-25T17:17:20+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "de8d78a9dc864620",
+      "titulo": "Como un Stream Deck, pero más barato: este gadget te puede ahorrar un montón de tiempo a diario",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/seleccion/como-stream-deck-barato-este-gadget-te-puede-ahorrar-monton-tiempo-a-diario",
+      "fecha": "2026-11-25T17:16:26+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "a9ae658541265463",
+      "titulo": "Asomicrofinanzas reportó una cartera de microcrédito de $28,40 billones",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/finanzas/asomicrofinanzas-reporto-una-cartera-de-microcredito-de-28-40-billones-4532942",
+      "fecha": "2026-11-25T17:11:13+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "f78b6af66fa35e35",
+      "titulo": "Doménico Reina, el niño de 9 años destacado en el Mundial de Cálculo Mental, fue condecorado",
+      "categoria": "Deportes",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/valle-del-cauca/domenico-reina-nino-destacado-mundial-calculo-mental-25-11-2026/",
+      "fecha": "2026-11-25T17:09:25+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "f0b3cffadbe5b8f3",
+      "titulo": "La tecnología se hunde de nuevo: el Nasdaq se deja hasta un 4% con fuertes descensos de Nvidia y Anthropic",
+      "categoria": "Tecnología",
+      "fuente": "El País Colombia",
+      "url": "https://cincodias.elpais.com/mercados-financieros/2026-11-25/la-bolsa-y-el-ibex-35.html",
+      "fecha": "2026-11-25T17:07:04+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "825a53106d57196a",
+      "titulo": "Los bosques de Alemania se encogen, pero un tipo de árbol resiste",
+      "categoria": "Internacional",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/los-bosques-de-alemania-se-encogen-pero-un-tipo-de-árbol-resiste/a-80052365?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-25T17:03:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "cd02f62fb6e90434",
+      "titulo": "Gremio pide mantener la exención del IVA al turismo receptivo ante debate de la Ley de Rescate Económico",
+      "categoria": "Cali",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/gobierno/gremio-pide-mantener-la-exencion-del-iva-al-turismo-receptivo-ante-debate-de-la-ley-de-rescate-economico-507085",
+      "fecha": "2026-11-25T17:01:13+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "55c4bc5dcaff7bf1",
+      "titulo": "Santiago, castañero riojano con 44 años de éxito y experiencia: \"Antes 8 castañas costaban 100 pesetas, ahora la docena ronda los 4 euros\"",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/magnet/santiago-castanero-riojano-44-anos-exito-experiencia-antes-8-castanas-costaban-100-pesetas-ahora-docena-ronda-4-euros",
+      "fecha": "2026-11-25T17:00:27+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "f741c291161eb39b",
+      "titulo": "EE.UU. anuncia nuevos aranceles contra China, Japón y la Unión Europea",
+      "categoria": "Internacional",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/ee-uu-anuncia-nuevos-aranceles-contra-china-japón-y-la-unión-europea/a-80053336?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-25T16:56:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "0471f4739307bd86",
+      "titulo": "Unos geocientíficos alemanes han inundado Los Santos, la ciudad del GTA, para enseñarnos los efectos del cambio climático sobre Los Ángeles",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/ecologia-y-naturaleza/unos-geocientificos-alemanes-han-inundado-santos-ciudad-gta-para-ensenarnos-efectos-cambio-climatico-angeles",
+      "fecha": "2026-11-25T16:51:47+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "4159e7058cd24e3e",
+      "titulo": "Vurelo amplía sus pagos a 46 países y entregará 10.000 tarjetas Visa gratuitas",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/finanzas/vurelo-amplia-sus-pagos-a-46-paises-y-entregara-10-000-tarjetas-visa-gratuitas-4533142",
+      "fecha": "2026-11-25T16:51:46+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "03b317568321a614",
+      "titulo": "Video | El momento en que una madre recibió la llamada de su hijo tras permanecer 18 horas secuestrado durante la toma del Éxito en Cartagena",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/video-el-momento-en-que-una-madre-recibio-la-llamada-de-su-hijo-tras-permanecer-18-horas-secuestrado-durante-la-toma-del-exito-en-cartagena-3604100",
+      "fecha": "2026-11-25T16:51:36+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "9c35978f8f466558",
+      "titulo": "Extorsiones de hasta $10 millones y se refugiaban en tres departamentos: caen 37 presuntos integrantes de Los Costeños y Los Pepes",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/barranquilla/extorsiones-de-hasta-10-millones-y-se-refugiaban-en-tres-departamentos-caen-37-presuntos-integrantes-de-los-costenos-y-los-pepes-3604199",
+      "fecha": "2026-11-25T16:50:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "7edf848a9068b255",
+      "titulo": "CCI pide al Estado priorizar la calidad sobre el menor precio en la contratación de obras",
+      "categoria": "Cali",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/economia/cci-pide-al-estado-priorizar-la-calidad-sobre-el-menor-precio-en-la-contratacion-de-obras-4533008",
+      "fecha": "2026-11-25T16:47:46+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "eac7fe65db2bfe4a",
+      "titulo": "Brasil amplía previsión de déficit para 2026 pese a aumento de ingresos impulsado por el petróleo",
+      "categoria": "Economía",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/globoeconomia/brasil-amplia-prevision-de-deficit-para-2026-pese-a-aumento-de-ingresos-impulsado-por-el-petroleo-4533149",
+      "fecha": "2026-11-25T16:46:59+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "be03b0b22fe8ff64",
+      "titulo": "Una tele OLED para jugar a 'GTA VI' (o a lo que quieras) en una habitación pequeña: es de Samsung y tiene un descuento de casi 400 euros",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/seleccion/tele-oled-para-jugar-a-gta-vi-a-que-quieras-habitacion-pequena-samsung-tiene-descuento-casi-400-euros",
+      "fecha": "2026-11-25T16:46:19+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "c221e7d1b6276a60",
+      "titulo": "Subasta de la Dian reúne carros, motos y camiones en siete ciudades; así puede participar desde El Martillo",
+      "categoria": "Economía",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/subasta-de-la-dian-reune-carros-motos-y-camiones-en-siete-ciudades-asi-puede-participar-desde-el-martillo-507070",
+      "fecha": "2026-11-25T16:42:29+00:00",
       "imagen": ""
     },
     {
@@ -26,15 +215,6 @@
       "fuente": "La FM Internacional",
       "url": "https://www.lafm.com.co/internacional/gianni-infantino-proyecto-fifa-derechos-comerciales-yerno-donald-trump-418269",
       "fecha": "2026-11-25T16:40:53+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "f0b3cffadbe5b8f3",
-      "titulo": "La tecnología se hunde de nuevo: el Nasdaq se deja un 4% con fuertes descensos de Nvidia y Anthropic",
-      "categoria": "Tecnología",
-      "fuente": "El País Colombia",
-      "url": "https://cincodias.elpais.com/mercados-financieros/2026-11-25/la-bolsa-y-el-ibex-35.html",
-      "fecha": "2026-11-25T16:40:30+00:00",
       "imagen": ""
     },
     {
@@ -76,8 +256,8 @@
     {
       "id": "ee9649b006219d59",
       "titulo": "Así quedaron las torres de energía que fueron blanco del atentado que dejó a oscuras al suroccidente: un centenar de barrios en Pasto siguen sin luz",
-      "categoria": "Cali",
-      "fuente": "El Tiempo Cali",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
       "url": "https://www.eltiempo.com/colombia/cali/asi-quedaron-las-torres-de-energia-que-fueron-blanco-del-atentado-que-dejo-a-oscuras-al-suroccidente-un-centenar-de-barrios-en-pasto-siguen-sin-luz-3604182",
       "fecha": "2026-11-25T16:32:03+00:00",
       "imagen": ""
@@ -89,6 +269,15 @@
       "fuente": "La República",
       "url": "https://www.larepublica.co/globoeconomia/trabajo-no-remunerado-crece-y-represento-24-3-del-pib-de-mexico-en-2025-4533123",
       "fecha": "2026-11-25T16:31:47+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "657b6a453e42d3fa",
+      "titulo": "Cartagena: confirman que el hombre abatido en el rescate del Éxito era el que su esposa buscaba; identifican a dos capturados",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/cartagena-confirman-que-el-hombre-abatido-en-el-rescate-del-exito-era-el-que-su-esposa-buscaba-identifican-a-dos-capturados-3604191",
+      "fecha": "2026-11-25T16:31:13+00:00",
       "imagen": ""
     },
     {
@@ -134,15 +323,6 @@
       "fuente": "El Tiempo",
       "url": "https://www.eltiempo.com/colombia/santander/de-estar-tras-las-rejas-a-casa-por-carcel-juez-cambia-medida-de-aseguramiento-al-alcalde-de-villanueva-y-a-concejal-investigados-por-presunto-soborno-3604135",
       "fecha": "2026-11-25T16:21:44+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "499fe5b74c79c021",
-      "titulo": "El Ejército de Estados Unidos detona sus reservas de un compuesto explosivo en Iowa",
-      "categoria": "Internacional",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/us/2026-11-25/el-ejercito-de-estados-unidos-se-prepara-para-detonar-sus-reservas-de-un-compuesto-explosivo-en-iowa.html",
-      "fecha": "2026-11-25T16:20:44+00:00",
       "imagen": ""
     },
     {
@@ -227,57 +407,21 @@
       "imagen": ""
     },
     {
-      "id": "84e465bfff8df361",
-      "titulo": "Santa Fe vs Once Caldas: posibles nóminas y hora",
-      "categoria": "Colombia",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/deportes/santa-fe-vs-once-caldas-posibles-nominas-hora/",
-      "fecha": "2026-11-25T16:00:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "ef70dd112c3c3edf",
-      "titulo": "Atlético Nacional vs. Medellín: hora, TV y bajas",
-      "categoria": "Colombia",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/deportes/atletico-nacional-vs-medellin-hora-tv-y-bajas/",
-      "fecha": "2026-11-25T16:00:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "17d384e5473b2834",
-      "titulo": "Millonarios goleó 4-1 a Bucaramanga y Gamero pidió ajustar errores",
-      "categoria": "Colombia",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/deportes/millonarios-goleo-4-1-a-bucaramanga-y-gamero-pidio-ajustar-errores/",
-      "fecha": "2026-11-25T16:00:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "7ace2f39b4fbfdd0",
-      "titulo": "Llaneros denuncia salarios atrasados e irregularidades",
-      "categoria": "Colombia",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/deportes/llaneros-denuncia-salarios-atrasados-irregularidades/",
-      "fecha": "2026-11-25T16:00:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "2bcda011c5f00628",
-      "titulo": "América de Cali venció 2-1 a Deportivo Cali",
-      "categoria": "Cali",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/deportes/america-de-cali-vencio-2-1-a-deportivo-cali/",
-      "fecha": "2026-11-25T16:00:00+00:00",
-      "imagen": ""
-    },
-    {
       "id": "f6adecefb7a6d682",
       "titulo": "Tras atentado, vuelve la energía al 68% del suroccidente del país",
       "categoria": "Colombia",
       "fuente": "La Silla Vacía",
       "url": "https://www.lasillavacia.com/en-vivo/tras-atentado-vuelve-la-energia-al-68-del-suroccidente-del-pais/",
       "fecha": "2026-11-25T15:59:21+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "1a4f5222da16e5e2",
+      "titulo": "El horror revelado de Ximena Santaolalla: “Fui abusada a diario durante nueve años por mi padrastro Francisco Aguirre”",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/mexico/2026-11-25/el-horror-revelado-de-ximena-santaolalla-fui-abusada-a-diario-durante-nueve-anos-por-mi-padrastro-francisco-aguirre.html",
+      "fecha": "2026-11-25T15:55:20+00:00",
       "imagen": ""
     },
     {
@@ -396,150 +540,6 @@
       "url": "https://www.xataka.com/empresas-y-economia/huawei-declarada-culpable-fraude-robo-secretos-eeuu-absuelta-operar-como-organizacion-criminal",
       "fecha": "2026-11-25T15:16:55+00:00",
       "imagen": ""
-    },
-    {
-      "id": "737505e21583a505",
-      "titulo": "Cinco teles OLED ideales para ver cine y series a oscuras y que están rebajadas en el Black Friday 2026",
-      "categoria": "Tendencias",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/seleccion/cinco-teles-oled-ideales-para-ver-cine-series-a-oscuras-que-estan-rebajadas-black-friday-2026",
-      "fecha": "2026-11-25T15:16:20+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "4ec6e45699a95bae",
-      "titulo": "Ecuador dice que el diálogo con Pete Hegseth se centró en operaciones en el país",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/ecuador-dice-que-dialogo-con-hegseth-se-centro-en-operaciones-en-el-pais-4533021",
-      "fecha": "2026-11-25T15:15:45+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "56946c0453781841",
-      "titulo": "Exclusivo: I Squared Capital, dueño del Puerto de Barranquilla, alista hasta US$ 1.000 millones para Colombia",
-      "categoria": "Colombia",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/infraestructura/exclusivo-i-squared-capital-dueno-del-puerto-de-barranquilla-alista-hasta-us-1-000-millones-para-colombia-507062",
-      "fecha": "2026-11-25T15:15:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "873c09ebe0ef0630",
-      "titulo": "Valle del Cauca tendrá presupuesto de $4,4 billones para 2027: reconstrucción será prioridad",
-      "categoria": "Valle del Cauca",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/valle-del-cauca/valle-cauca-presupuesto-2027-25-11-2026/",
-      "fecha": "2026-11-25T15:14:25+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "3259a5f05c329845",
-      "titulo": "Andi advirtió que la competencia desleal del acero chino amenaza a la industria",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/empresas/andi-advirtio-que-la-competencia-desleal-del-acero-chino-amenaza-a-la-industria-nacional-4533017",
-      "fecha": "2026-11-25T15:14:15+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "def6a753d4c62402",
-      "titulo": "El Gobierno aprueba en Consejo de Ministros la prohibición de los váper de sabores. La razón es su repunte en adolescentes",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/medicina-y-salud/gobierno-aprueba-consejo-ministros-prohibicion-vaper-sabores-razon-su-repunte-adolescentes",
-      "fecha": "2026-11-25T15:10:22+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "446b43b77551c93d",
-      "titulo": "Sofía Vergara en Barranquilla: Así fue el sentido homenaje que recibió la actriz",
-      "categoria": "Valle del Cauca",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/entretenimiento/sofia-vergara-barranquilla-homenaje-25-11-2026/",
-      "fecha": "2026-11-25T15:08:25+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "ec9543e574f3c988",
-      "titulo": "Ya se venden tiquetes de la ruta directa Barranquilla-Nueva York, que Avianca abrirá el 2 de febrero: se espera más turismo, negocios e inversión",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/barranquilla/ya-se-venden-tiquetes-de-la-ruta-directa-barranquilla-nueva-york-que-avianca-abrira-el-2-de-febrero-se-espera-mas-turismo-negocios-e-inversion-3604142",
-      "fecha": "2026-11-25T15:07:22+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "aae2517d6d00d443",
-      "titulo": "Grupo Éxito lleva el diseño de Baobab a sus líneas de moda y artículos para el hogar",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/ocio/grupo-exito-colabora-con-baobab-para-lanzar-una-nueva-coleccion-de-moda-y-hogar-4533014",
-      "fecha": "2026-11-25T15:06:02+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "18f0f754366c77fa",
-      "titulo": "Bancolombia, Nequi y Wompi podrían sumar la red de PTM al ecosistema de pagos de Grupo Cibest tras aval de la SIC",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/finanzas/bancolombia-nequi-y-wompi-podrian-sumar-la-red-de-ptm-al-ecosistema-de-pagos-de-grupo-cibest-tras-aval-de-la-sic-507068",
-      "fecha": "2026-11-25T15:00:44+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "1f8f3fce72b4d211",
-      "titulo": "En 2027, Netflix hace desaparecer más de 80 series originales. Entre ellas, una magnífica trilogía fantástica de Guillermo del Toro",
-      "categoria": "Tendencias",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/cine-y-tv/2027-netflix-hace-desaparecer-80-series-originales-ellas-magnifica-trilogia-fantastica-guillermo-toro",
-      "fecha": "2026-11-25T15:00:25+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "497f56270056b2bc",
-      "titulo": "Tomás Uribe se fue duro contra el estratega y amigo de De la Espriella, Carlos Suárez: “manda más que el mismo presidente”",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/tomas-uribe-carlos-suarez-gobierno-abelardo-de-la-espriella-AE44040653",
-      "fecha": "2026-11-25T15:00:18+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "a133b0767d1cd5d3",
-      "titulo": "Persisten fallas de luz en cinco departamentos tras atentado en el Suroccidente",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/economia/persisten-fallas-de-luz-en-cinco-departamentos-tras-atentado-en-el-suroccidente-4532990",
-      "fecha": "2026-11-25T14:59:36+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "2d81b88a805b03a8",
-      "titulo": "Cali replantea el manejo del presupuesto participativo en barrios y corregimientos tras fallo judicial: así cambiarán las decisiones",
-      "categoria": "Cali",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/cali/cali-replantea-el-manejo-del-presupuesto-participativo-en-barrios-y-corregimientos-tras-fallo-judicial-asi-cambiaran-las-decisiones-3604140",
-      "fecha": "2026-11-25T14:57:22+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "53adbfbd55e3b19d",
-      "titulo": "Grupo Éxito se pronunció tras rescate de rehenes en asalto de uno de sus almacenes en Cartagena; envió mensaje a las víctimas de secuestro: 'Angustia'",
-      "categoria": "Internacional",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/grupo-exito-se-pronuncio-tras-rescate-de-rehenes-en-asalto-de-uno-de-sus-almacenes-en-cartagena-envio-mensaje-a-las-victimas-de-secuestro-angustia-3604136",
-      "fecha": "2026-11-25T14:52:32+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "51a1cd0873cb2577",
-      "titulo": "Congreso de EE.UU. confirmaría operaciones conjuntas con Colombia y Venezuela contra el ELN",
-      "categoria": "Internacional",
-      "fuente": "La FM Internacional",
-      "url": "https://www.lafm.com.co/internacional/informe-congreso-eeuu-operaciones-conjuntas-venezuela-colombia-estados-unidos-contra-eln-418262",
-      "fecha": "2026-11-25T14:49:55+00:00",
-      "imagen": ""
     }
   ],
   "estado_fuentes": [
@@ -596,7 +596,7 @@
       "nombre": "DW Español",
       "url": "https://rss.dw.com/rdf/rss-sp-all",
       "estado": "correcto",
-      "titulares": 25
+      "titulares": 27
     },
     {
       "nombre": "Xataka",
@@ -645,7 +645,7 @@
       "url": "https://www.qhubocali.com/feed/",
       "estado": "error",
       "titulares": 0,
-      "detalle": "503 Server Error: Service Temporarily Unavailable for url: https://www.qhubocali.com/feed/"
+      "detalle": "504 Server Error: Gateway Time-out for url: https://www.qhubocali.com/feed/"
     },
     {
       "nombre": "El Colombiano — Colombia",
