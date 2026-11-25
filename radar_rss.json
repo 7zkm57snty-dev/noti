@@ -1,13 +1,58 @@
 {
-  "ultima_actualizacion": "2026-11-25T02:01:53.209378+00:00",
+  "ultima_actualizacion": "2026-11-25T03:05:59.117403+00:00",
   "titulares_rss": [
     {
-      "id": "c75e089a9c3c6dce",
-      "titulo": "Autoridades investigan apagón en el suroccidente de Colombia: una falla simultánea, entre las posibles causas",
+      "id": "a73ecc416aa89435",
+      "titulo": "Millonarios goleó 4-1 a Bucaramanga y es líder del cuadrangular B",
+      "categoria": "Deportes",
+      "fuente": "La FM Deportes",
+      "url": "https://www.lafm.com.co/deportes/millonarios-goleo-4-1-bucaramanga-lider-cuadrangular-b-418216",
+      "fecha": "2026-11-25T02:55:17+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "0b495cecb526f730",
+      "titulo": "XM, operador del Sistema Interconectado Nacional y administrador de Energía en Colombia, se pronunció tras apagón en Nariño, Putumayo y Cauca",
+      "categoria": "Internacional",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/xm-operador-del-sistema-interconectado-nacional-y-administrador-de-energia-en-colombia-se-pronuncio-tras-apagon-en-narino-putumayo-y-cauca-3604012",
+      "fecha": "2026-11-25T02:49:44+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "0b3b50ae452d5414",
+      "titulo": "Senado aprobó adición presupuestal de $3,8 billones: estos son los programas que recibirán recursos",
+      "categoria": "Economía",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/gobierno/senado-aprobo-adicion-presupuestal-de-3-8-billones-estos-son-los-programas-que-recibiran-recursos-507040",
+      "fecha": "2026-11-25T02:36:48+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "d08d3cb23fbc4740",
+      "titulo": "Un gran jurado en EE.UU. acusa a Thomas Markle, padre de Meghan Markle, de posesión de pornografía infantil",
+      "categoria": "Internacional",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/un-gran-jurado-en-ee-uu-acusa-a-thomas-markle-padre-de-meghan-markle-de-posesión-de-pornografía-infantil/a-80042280?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-25T02:34:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "44763b376b8a7e2d",
+      "titulo": "De la Espriella encabeza PMU por la toma del Éxito en Cartagena y envía mensaje a los secuestradores, que se entreguen: 'Soy garante de los rehenes'",
       "categoria": "Colombia",
       "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/cali/autoridades-investigan-apagon-en-el-suroccidente-de-colombia-una-falla-simultanea-entre-las-posibles-causas-3603992",
-      "fecha": "2026-11-25T01:50:00+00:00",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/de-la-espriella-encabeza-pmu-por-la-toma-del-exito-en-cartagena-y-envia-mensaje-a-los-secuestradores-que-se-entreguen-soy-garante-de-los-rehenes-3604006",
+      "fecha": "2026-11-25T02:31:11+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "c1b601b18a715fdc",
+      "titulo": "“No es obligatorio los títulos académicos”: Petro defendió a Verónica Estrada y atacó a la Procuraduría por suspenderla",
+      "categoria": "Deportes",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/gustavo-petro-veronica-estrada-pacto-historico-JC44023486",
+      "fecha": "2026-11-25T02:21:09+00:00",
       "imagen": ""
     },
     {
@@ -16,7 +61,43 @@
       "categoria": "Colombia",
       "fuente": "El Tiempo",
       "url": "https://www.eltiempo.com/colombia/otras-ciudades/reportan-apagon-en-narino-putumayo-y-otros-departamentos-del-suroccidente-del-pais-investigan-que-causo-falla-en-circuitos-de-interconexion-3603984",
-      "fecha": "2026-11-25T01:49:26+00:00",
+      "fecha": "2026-11-25T02:19:26+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "ea5aa4af08e9fe21",
+      "titulo": "Vuelve energía en algunos municipios de Nariño, Putumayo, Huila, Caquetá y Cauca: investigan si fue atentado terrorista",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/apagon-en-municipios-de-narino-y-putumayo-GC44021142",
+      "fecha": "2026-11-25T02:16:58+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "2c5c2e72c4baad33",
+      "titulo": "En vivo | Llegó De la Espriella a los alrededores del Éxito de Cartagena donde están secuestradas 20 personas",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/hombres-armados-ingresaron-almacen-exito-cartagena-rehenes-GJ43977230",
+      "fecha": "2026-11-25T02:16:41+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "c75e089a9c3c6dce",
+      "titulo": "Autoridades investigan apagón en el suroccidente de Colombia: en algunos sectores reportaron explosiones",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/cali/autoridades-investigan-apagon-en-el-suroccidente-de-colombia-una-falla-simultanea-entre-las-posibles-causas-3603992",
+      "fecha": "2026-11-25T02:03:41+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "d08844d19de13154",
+      "titulo": "Abelardo De La Espriella promete recursos para terminar obras pendientes en Guaviare: invertirán $2.600 millones",
+      "categoria": "Economía",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/regiones/abelardo-de-la-espriella-promete-recursos-para-terminar-obras-pendientes-en-guaviare-invertiran-2-600-millones-507039",
+      "fecha": "2026-11-25T02:02:04+00:00",
       "imagen": ""
     },
     {
@@ -26,15 +107,6 @@
       "fuente": "La FM Actualidad",
       "url": "https://www.lafm.com.co/actualidad/alias-antonio-medina-atentado-carro-bomba-villavicencio-carro-bomba-resolucion-paz-418211",
       "fecha": "2026-11-25T01:45:53+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "2c5c2e72c4baad33",
-      "titulo": "En vivo | De la Espriella lidera PMU en Cartagena y hay movimiento de tropas a las afueras del Éxito",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/hombres-armados-ingresaron-almacen-exito-cartagena-rehenes-GJ43977230",
-      "fecha": "2026-11-25T01:43:59+00:00",
       "imagen": ""
     },
     {
@@ -62,15 +134,6 @@
       "fuente": "El Tiempo",
       "url": "https://www.eltiempo.com/colombia/otras-ciudades/cartagena-de-la-espriella-llega-al-exito-tras-12-horas-de-toma-21-personas-siguen-retenidas-y-la-cupula-militar-coordina-la-respuesta-en-el-sitio-3603996",
       "fecha": "2026-11-25T01:31:25+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "ea5aa4af08e9fe21",
-      "titulo": "Apagón en municipios de Nariño, Putumayo, Huila, Caquetá y Cauca por explosiones en torres de energía: investigan causas",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/apagon-en-municipios-de-narino-y-putumayo-GC44021142",
-      "fecha": "2026-11-25T01:26:58+00:00",
       "imagen": ""
     },
     {
@@ -242,6 +305,15 @@
       "fuente": "Diario Occidente",
       "url": "https://occidente.co/cali/carnaval-por-la-vida-en-cali-cvc-entrego-murales-y-jardines-guadalupe/",
       "fecha": "2026-11-25T00:03:29+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "7e6334fc1166e09e",
+      "titulo": "Esto sacó De la Espriella en imagen favorable en nueva encuesta de DatAnálisis y así le fue en temas clave",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/abelardo-de-la-espriella-aprobacion-encuesta-datanalisis-LH43996926",
+      "fecha": "2026-11-25T00:02:55+00:00",
       "imagen": ""
     },
     {
@@ -468,78 +540,6 @@
       "url": "https://occidente.co/area-legal/regimen-de-visitas-en-navidad-en-colombia-evite-peleas-con-sus-hijos/",
       "fecha": "2026-11-24T22:51:53+00:00",
       "imagen": ""
-    },
-    {
-      "id": "ff9a6ca77ad847d4",
-      "titulo": "Atentado en Villavicencio: ofrecen $150 millones de recompensa y anuncian recursos para reconstruir la ciudad",
-      "categoria": "Colombia",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/colombia/atentado-en-villavicencio-recompensa-y-reconstruccion/",
-      "fecha": "2026-11-24T22:48:37+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "cc6eba9d47896e04",
-      "titulo": "La CIA y el FBI, se encuentran entre los entes bajo la mira de los hackers durante este año",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/cia-fbi-hackers-2026-4532366",
-      "fecha": "2026-11-24T22:47:35+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "61087568bf182111",
-      "titulo": "Cámara suspende a Luz Verónica Estrada por tres meses y deja vacía su curul",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/gobierno/camara-suspende-a-luz-veronica-estrada-por-tres-meses-y-deja-vacia-su-curul-507026",
-      "fecha": "2026-11-24T22:45:28+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "f16ef2376ad66920",
-      "titulo": "Lukashenko propone acompañar a Zelenski a Moscú para negociar fin de la guerra con Putin",
-      "categoria": "Internacional",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/lukashenko-propone-acompañar-a-zelenski-a-moscú-para-negociar-fin-de-la-guerra-con-putin/a-80042057?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-24T22:45:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "1ecf137b469a1d1a",
-      "titulo": "¿Cuántos ministros de De la Espriella “no comerán natilla”?",
-      "categoria": "Colombia",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/politica/graffiti/cambios-en-el-gabinete-ministerial-rondan-al-gobierno/",
-      "fecha": "2026-11-24T22:38:16+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "f266b4767020d911",
-      "titulo": "Abelardo de la Espriella viaja a Cartagena por toma de rehenes en almacén Éxito: esto se sabe",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/gobierno/abelardo-de-la-espriella-viaja-a-cartagena-por-toma-de-rehenes-en-almacen-exito-esto-se-sabe-507025",
-      "fecha": "2026-11-24T22:34:49+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "eb30e6b9eb318857",
-      "titulo": "¿Cómo realizar una denuncia ante el Dagma en Cali? Estos son los datos que debe diligenciar",
-      "categoria": "Cali",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/vida-moderna/ecologia/como-realizar-una-denuncia-ante-el-dagma-en-cali-24-11-2026/",
-      "fecha": "2026-11-24T22:29:35+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "b1d502a15a1e487f",
-      "titulo": "Santander en máxima alerta: autoridades reportan temperaturas que llegaron hasta los 40 grados centígrados",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/santander/santander-en-maxima-alerta-autoridades-reportan-temperaturas-que-llegaron-hasta-los-40-grados-centigrados-3603884",
-      "fecha": "2026-11-24T22:28:59+00:00",
-      "imagen": ""
     }
   ],
   "estado_fuentes": [
@@ -553,7 +553,7 @@
       "nombre": "El Tiempo Cali",
       "url": "https://www.eltiempo.com/rss/colombia_cali.xml",
       "estado": "correcto",
-      "titulares": 7
+      "titulares": 8
     },
     {
       "nombre": "El Espectador",
