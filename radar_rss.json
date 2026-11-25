@@ -1,11 +1,173 @@
 {
-  "ultima_actualizacion": "2026-11-24T23:30:57.622800+00:00",
+  "ultima_actualizacion": "2026-11-25T00:32:10.748706+00:00",
   "titulares_rss": [
+    {
+      "id": "1eb8ddc1224a595c",
+      "titulo": "5 sencillos pasos para ayudarte si tu cerebro está agotado por tener demasiadas tareas sin terminar",
+      "categoria": "Internacional",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/c6jd725nxvy2o?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-25T00:29:42+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "4578719b607cba33",
+      "titulo": "Dólar en Colombia pasa los $3.600: ¿hasta dónde puede llegar si no hay ajuste fiscal?",
+      "categoria": "Economía",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/dolar-en-colombia-pasa-los-3-600-hasta-donde-puede-llegar-si-no-hay-ajuste-fiscal-507036",
+      "fecha": "2026-11-25T00:25:39+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "e09f6da4463016cd",
+      "titulo": "Por falta de quórum debate de adición presupuestal continuará su discusión este miércoles",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/economia/por-falta-de-quorum-debate-de-adicion-presupuestal-continuara-su-discusion-este-miercoles-4532567",
+      "fecha": "2026-11-25T00:24:03+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "ef72ceed9c441580",
+      "titulo": "Intento de robo a carro de valores y las otras pistas detrás del secuestro en el Éxito de Cartagena",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/cinco-pistas-investigacion-secuestro-30-rehenes-exito-cartagena-GA44004714",
+      "fecha": "2026-11-25T00:07:33+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "ea9e6c01dad745de",
+      "titulo": "Seguridad y desarrollo: lo que dijo Abelardo desde Guaviare",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/silla-amazonia/amazonia-en-breve/seguridad-y-desarrollo-lo-que-dijo-abelardo-desde-guaviare/",
+      "fecha": "2026-11-25T00:07:31+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "e73ae73fa01cb19d",
+      "titulo": "Cali estrena espacios verdes mientras crece la preocupación de la CVC por más de $158.000 millones en recursos ambientales",
+      "categoria": "Cali",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/cali/carnaval-por-la-vida-en-cali-cvc-entrego-murales-y-jardines-guadalupe/",
+      "fecha": "2026-11-25T00:03:29+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "2c5c2e72c4baad33",
+      "titulo": "En vivo | De la Espriella llega al PMU en Cartagena tras toma de rehenes: van 10 liberados",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/hombres-armados-ingresaron-almacen-exito-cartagena-rehenes-GJ43977230",
+      "fecha": "2026-11-25T00:01:25+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "510166e4edbfcacc",
+      "titulo": "Duerma informado con las claves del 24 de noviembre de 2026",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/en-vivo/duerma-informado-con-las-claves-del-24-de-noviembre-de-2026/",
+      "fecha": "2026-11-25T00:00:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "ff35f0d4415be580",
+      "titulo": "Se debe realizar consulta previa aunque los proyectos los realicen miembros de las comunidades étnicas: Corte",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/silla-amazonia/amazonia-en-breve/se-debe-realizar-consulta-previa-aunque-los-proyectos-los-realicen-miembros-de-las-comunidades-etnicas-corte/",
+      "fecha": "2026-11-24T23:51:04+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "14cc4bb941c8c82b",
+      "titulo": "Aumento del Salario Mínimo en 2027 podría subir la mesada cerca de 150 mil desde enero",
+      "categoria": "Economía",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/aumento-del-salario-minimo-en-2027-podria-subir-la-mesada-cerca-de-150-mil-desde-enero-507033",
+      "fecha": "2026-11-24T23:50:18+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "21f30111c44c6b34",
+      "titulo": "Después de 69 años de historia, Cali se quedaría sin temporada taurina en diciembre: ¿qué pasó?",
+      "categoria": "Cali",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/cali/temporada-taurina-en-cali-de-2026-toro-vive-cancelaria-festejos/",
+      "fecha": "2026-11-24T23:45:27+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "85faead2ab1bf691",
+      "titulo": "Dian recaudó $3,17 billones con el alivio tributario para atender la crisis por el terremoto",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/economia/dian-recaudo-3-17-billones-con-el-alivio-tributario-para-atender-la-crisis-por-el-terremoto-4532491",
+      "fecha": "2026-11-24T23:41:24+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "46311c54a02eb798",
+      "titulo": "Tributaria: conservadores proponen cero impuestos a gaseosas y cerveza",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/en-vivo/tributaria-conservadores-proponen-cero-impuestos-a-gaseosas-y-cerveza/",
+      "fecha": "2026-11-24T23:40:41+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "d69edea205ebeb2f",
+      "titulo": "El señalado del carro bomba en Meta es jefe disidente, no firmante de paz",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/detector-de-mentiras/enganoso/el-senalado-del-carro-bomba-en-meta-es-jefe-disidente-no-firmante-de-paz/",
+      "fecha": "2026-11-24T23:39:46+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "61133152ea4dc3fa",
+      "titulo": "Renta Ciudadana en Cali: conozca dónde y hasta cuándo puede cobrar el subsidio del quinto ciclo",
+      "categoria": "Cali",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/cali/subsidio-de-renta-ciudadana-en-cali-plazo-vence-sabado-28-noviembre/",
+      "fecha": "2026-11-24T23:38:58+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "f00dc3f84d1aa844",
+      "titulo": "Mesa Directiva de Cámara hace efectiva suspensión de Verónica Estrada",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/en-vivo/mesa-directiva-de-camara-hace-efectiva-suspension-de-veronica-estrada/",
+      "fecha": "2026-11-24T23:35:16+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "67ee633268e30d3e",
+      "titulo": "Pese a los incrementos dólar, hasta casi $3.600, su precio se mantiene por debajo de comienzos de 2026",
+      "categoria": "Economía",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/finanzas/pese-a-los-incrementos-dolar-hasta-casi-3-600-su-precio-se-mantiene-por-debajo-de-comienzos-de-507031",
+      "fecha": "2026-11-24T23:30:32+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "83b0234741b1a82f",
+      "titulo": "Congreso Nacional de la Infraestructura 2026: conozca los proyectos, las alternativas de financiación y la agenda del encuentro",
+      "categoria": "Colombia",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/colombia/congreso-nacional-de-la-infraestructura-72-proyectos-clave-cartagena/",
+      "fecha": "2026-11-24T23:27:00+00:00",
+      "imagen": ""
+    },
     {
       "id": "333a878c72737536",
       "titulo": "$ 39.000 millones para la memoria de la salsa: Concejo de Cali aprueba la transformación integral del Barrio Obrero",
       "categoria": "Cali",
-      "fuente": "El Tiempo Cali",
+      "fuente": "El Tiempo",
       "url": "https://www.eltiempo.com/colombia/cali/39-000-millones-para-la-memoria-de-la-salsa-concejo-de-cali-aprueba-la-transformacion-integral-del-barrio-obrero-3603955",
       "fecha": "2026-11-24T23:18:07+00:00",
       "imagen": ""
@@ -20,12 +182,21 @@
       "imagen": ""
     },
     {
-      "id": "ef72ceed9c441580",
-      "titulo": "El carro de valores y las otras pistas detrás del secuestro en el Éxito de Cartagena",
+      "id": "a5b87864ffabaa1f",
+      "titulo": "¿Qué está pasando con la violencia contra las mujeres? Aumentan los homicidios en Cali y la ONU revela el panorama mundial",
+      "categoria": "Cali",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/cali/violencia-contra-las-mujeres-en-cali-homicidios-subieron-31-por-ciento/",
+      "fecha": "2026-11-24T23:15:08+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "29336722d7baa372",
+      "titulo": "Drones, explosivos y un carro bomba: los cinco ataques terroristas que se registraron en Colombia entre el 21 y el 23 de noviembre",
       "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/cinco-pistas-investigacion-secuestro-30-rehenes-exito-cartagena-GA44004714",
-      "fecha": "2026-11-24T23:10:32+00:00",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/drones-explosivos-y-un-carro-bomba-cinco-ataques-violentos-se-registraron-en-colombia-entre-el-21-y-el-23-de-noviembre-3603953",
+      "fecha": "2026-11-24T23:12:10+00:00",
       "imagen": ""
     },
     {
@@ -38,12 +209,12 @@
       "imagen": ""
     },
     {
-      "id": "29336722d7baa372",
-      "titulo": "Drones, explosivos y un carro bomba: cinco ataques violentos se registraron en Colombia entre el 21 y el 23 de noviembre",
+      "id": "5d8b321727cb260e",
+      "titulo": "¿Qué dice Ventana del Papa Francisco y su libro póstumo?… Lea",
       "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/drones-explosivos-y-un-carro-bomba-cinco-ataques-violentos-se-registraron-en-colombia-entre-el-21-y-el-23-de-noviembre-3603953",
-      "fecha": "2026-11-24T23:02:58+00:00",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/opinion/ventana/el-diario-espiritual-del-papa-francisco-acuavalle-y-colados-del-mio/",
+      "fecha": "2026-11-24T23:06:33+00:00",
       "imagen": ""
     },
     {
@@ -70,7 +241,7 @@
       "categoria": "Colombia",
       "fuente": "El Colombiano — Colombia",
       "url": "https://www.elcolombiano.com/colombia/video-ataque-drones-explosivos-contra-ejercito-peaje-mondomo-cierre-via-panamericana-LB44015842",
-      "fecha": "2026-11-24T22:57:47+00:00",
+      "fecha": "2026-11-24T22:59:28+00:00",
       "imagen": ""
     },
     {
@@ -236,15 +407,6 @@
       "imagen": ""
     },
     {
-      "id": "a048c1c12b659b0f",
-      "titulo": "El papa Francisco reveló que vio tres veces al diablo y conoció las puertas del infierno",
-      "categoria": "Colombia",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/secciones/tendencias/diario-del-papa-francisco-visiones-y-crisis-espiritual/",
-      "fecha": "2026-11-24T22:16:36+00:00",
-      "imagen": ""
-    },
-    {
       "id": "b2d7cb1b1f490ff0",
       "titulo": "¿Qué está pasando en la avenida Roosevelt? Conozca la renovación y más detalles",
       "categoria": "Valle del Cauca",
@@ -378,168 +540,6 @@
       "url": "https://www.eltiempo.com/colombia/cali/que-hace-que-una-empresa-sea-productiva-y-se-adapte-a-los-cambios-comfandi-dara-claves-a-empresarios-y-abrira-una-macrorrueda-de-negocios-en-cali-3603928",
       "fecha": "2026-11-24T21:52:08+00:00",
       "imagen": ""
-    },
-    {
-      "id": "d6252c8a0c9d4e73",
-      "titulo": "'La casa se mecía y nos caía tierra en la cabeza': el relato de la mujer que sobrevivió a 50 metros del carro bomba en Villavicencio",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/la-casa-se-mecia-y-nos-caia-tierra-en-la-cabeza-el-relato-de-la-mujer-que-sobrevivio-a-50-metros-del-carro-bomba-en-villavicencio-3603921",
-      "fecha": "2026-11-24T21:45:09+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "2c5c2e72c4baad33",
-      "titulo": "De la Espriella viaja a Cartagena por la toma de rehenes en el Éxito; MinDefensa reporta 10 liberados",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/hombres-armados-ingresaron-almacen-exito-cartagena-rehenes-GJ43977230",
-      "fecha": "2026-11-24T21:34:44+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "90ff0c0b66ec6445",
-      "titulo": "Cambio Radical define mañana remezón en la dirección del partido",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/en-vivo/cambio-radical-define-manana-remezon-en-la-direccion-del-partido/",
-      "fecha": "2026-11-24T21:32:28+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "be1bb63d2bfdce80",
-      "titulo": "Miss Universo 2026: dónde y a qué hora ver la ceremonia de coronación desde Colombia",
-      "categoria": "Colombia",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/entretenimiento/miss-universo-2026-colombia-24-11-2026/",
-      "fecha": "2026-11-24T21:31:27+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "6e0125e502eca69e",
-      "titulo": "Supersalud instala mesas de conciliación entre EPS e IPS en Bogotá, Huila y Meta",
-      "categoria": "Colombia",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/gobierno/supersalud-instala-mesas-de-conciliacion-entre-eps-e-ips-en-bogota-huila-y-meta-507024",
-      "fecha": "2026-11-24T21:30:33+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "f4135d5421b5ac9d",
-      "titulo": "En el Catatumbo, el conflicto y la violencia se recrudecieron tras diez años de la firma del Acuerdo de Paz",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/en-el-catatumbo-el-conflicto-y-la-violencia-se-recrudecieron-tras-diez-anos-de-la-firma-del-acuerdo-de-paz-3603695",
-      "fecha": "2026-11-24T21:30:22+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "be8cf30cbca07e59",
-      "titulo": "En videos quedó el momento en que una tractomula descendió sin control por Cajamarca, Tolima: cinco personas murieron y nueve resultaron heridas",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/en-videos-quedo-el-momento-en-que-una-tractomula-descendio-sin-control-por-cajamarca-tolima-cinco-personas-murieron-y-nueve-resultaron-heridas-3603917",
-      "fecha": "2026-11-24T21:29:28+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "f0a06267ad3e000a",
-      "titulo": "Gobierno despliega grupos especiales de la Fuerza Pública por retención de personas en Éxito de Cartagena",
-      "categoria": "Colombia",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/regiones/gobierno-despliega-grupos-especiales-de-la-fuerza-publica-por-retencion-de-personas-en-exito-de-cartagena-507023",
-      "fecha": "2026-11-24T21:28:55+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "7c2c8a787c021479",
-      "titulo": "'Cucho' Hernández marcó doblete para el Betis en Champions y le dio los tres puntos en su visita a Bratislava",
-      "categoria": "Deportes",
-      "fuente": "La FM Deportes",
-      "url": "https://www.lafm.com.co/deportes/cucho-hernandez-marco-doblete-para-betis-champions-dio-tres-puntos-visita-bratislava-418194",
-      "fecha": "2026-11-24T21:27:35+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "6a4e3fc854e57547",
-      "titulo": "Ley de Rescate Económico: Gobierno sigue reuniéndose con las bancadas y prepara el primer debate",
-      "categoria": "Colombia",
-      "fuente": "La FM Economía",
-      "url": "https://www.lafm.com.co/economia/ley-de-rescate-economico-reuniones-con-bancadas-y-fechas-de-audiencias-publicas-418193",
-      "fecha": "2026-11-24T21:25:45+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "8d2985b127d99f84",
-      "titulo": "Cifra récord de víctimas de violencia contra las mujeres en Alemania, según estadísticas policiales",
-      "categoria": "Internacional",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/cifra-récord-de-víctimas-de-violencia-contra-las-mujeres-en-alemania-según-estadísticas-policiales/a-80041310?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-24T21:25:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "3d17eddba9c4e05d",
-      "titulo": "Ponencia de la Ley de Rescate se radicará el lunes y el debate iniciará el 1 de diciembre",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/economia/ponencia-de-la-ley-de-rescate-se-radicara-el-lunes-y-el-debate-iniciara-el-1-de-diciembre-4532208",
-      "fecha": "2026-11-24T21:21:32+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "b8211cde32dcb2dd",
-      "titulo": "La memoria de las trenzas: identidad, resistencia y herencia de las comunidades afro",
-      "categoria": "Valle del Cauca",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/vida-moderna/memoria-de-las-trenzas-identidad-resistencia-24-11-2026/",
-      "fecha": "2026-11-24T21:19:50+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "7cd689bb486b53c3",
-      "titulo": "Receta (sencilla) de galletas de jengibre para disfrutar en esta navidad",
-      "categoria": "Valle del Cauca",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/vida-moderna/gastronomia/receta-sencilla-de-galletas-de-jengibre-para-disfrutar-en-esta-navidad/",
-      "fecha": "2026-11-24T21:17:58+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "b765ce72fe01e545",
-      "titulo": "Abelardo va para Cartagena en medio de crisis de rehenes",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/en-vivo/abelardo-va-para-cartagena-en-medio-de-crisis-de-rehenes/",
-      "fecha": "2026-11-24T21:17:41+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "e1a1e27eb8154293",
-      "titulo": "Defensa de Santiago Peña solicita la nulidad del juicio político que lo apartó de la presidencia",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/defensa-de-santiago-pena-solicita-la-nulidad-del-juicio-politico-que-lo-aparto-de-la-presidencia-4532240",
-      "fecha": "2026-11-24T21:14:17+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "90e0e3429a2325f5",
-      "titulo": "JEP reveló que alias Antonio Medina fue expulsado de la jurisdicción en 2023: así es su extenso prontuario criminal",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/jep-revela-alias-antonio-medina-expulsado-jurisdiccion-2023-prontuario-criminal-FH43998937",
-      "fecha": "2026-11-24T21:13:42+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "2de5692692da3de4",
-      "titulo": "Fiducoldex remueve a su presidente: qué pasó con la oferta de $251 millones",
-      "categoria": "Colombia",
-      "fuente": "La FM Actualidad",
-      "url": "https://www.lafm.com.co/actualidad/fiducoldex-termina-contrato-andres-guzman-proceso-disciplinario-418191",
-      "fecha": "2026-11-24T21:12:07+00:00",
-      "imagen": ""
     }
   ],
   "estado_fuentes": [
@@ -553,7 +553,7 @@
       "nombre": "El Tiempo Cali",
       "url": "https://www.eltiempo.com/rss/colombia_cali.xml",
       "estado": "correcto",
-      "titulares": 8
+      "titulares": 7
     },
     {
       "nombre": "El Espectador",
@@ -596,7 +596,7 @@
       "nombre": "DW Español",
       "url": "https://rss.dw.com/rdf/rss-sp-all",
       "estado": "correcto",
-      "titulares": 26
+      "titulares": 24
     },
     {
       "nombre": "Xataka",
@@ -645,7 +645,7 @@
       "url": "https://www.qhubocali.com/feed/",
       "estado": "error",
       "titulares": 0,
-      "detalle": "503 Server Error: Service Temporarily Unavailable for url: https://www.qhubocali.com/feed/"
+      "detalle": "504 Server Error: Gateway Time-out for url: https://www.qhubocali.com/feed/"
     },
     {
       "nombre": "El Colombiano — Colombia",
