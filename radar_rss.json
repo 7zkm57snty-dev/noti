@@ -1,6 +1,285 @@
 {
-  "ultima_actualizacion": "2026-11-26T15:39:46.970246+00:00",
+  "ultima_actualizacion": "2026-11-26T16:44:23.053015+00:00",
   "titulares_rss": [
+    {
+      "id": "89d656e08b351234",
+      "titulo": "Banco de Occidente habilita pagos de facturas en 650 tiendas Oxxo del país",
+      "categoria": "Economía",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/finanzas/banco-de-occidente-habilita-pagos-de-facturas-en-650-tiendas-oxxo-del-pais-4534149",
+      "fecha": "2026-11-26T16:38:19+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "e92c47f3312da186",
+      "titulo": "Los grandes hitos de Google en sus 15 años en Colombia y su nueva apuesta por la IA",
+      "categoria": "Tecnología",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/empresas/los-grandes-hitos-de-google-en-sus-15-anos-en-colombia-y-su-nueva-apuesta-por-la-ia-4534214",
+      "fecha": "2026-11-26T16:36:49+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "dfb3b66d11c44a15",
+      "titulo": "Desde el 2015, cerca del 70% de los países bajó la prioridad de la educación en su gasto público, según la Unesco",
+      "categoria": "Economía",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/desde-el-2015-cerca-del-70-de-los-paises-bajo-la-prioridad-de-la-educacion-en-su-gasto-publico-segun-la-unesco-507141",
+      "fecha": "2026-11-26T16:35:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "cc9055522065af11",
+      "titulo": "Una nueva agenda de infraestructura: los nuevos sectores de la CCI",
+      "categoria": "Economía",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/infraestructura/una-nueva-agenda-de-infraestructura-los-nuevos-sectores-de-la-cci-507157",
+      "fecha": "2026-11-26T16:34:32+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "4f70b695b8226094",
+      "titulo": "Gobierno de Abelardo frena el ingreso de Colombia a los Brics",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/en-vivo/gobierno-de-abelardo-frena-el-ingreso-de-colombia-a-los-brics/",
+      "fecha": "2026-11-26T16:30:43+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "ddccea8726c8e937",
+      "titulo": "La FIFA sufre un ciberataque: ¿Qué información fue robada?",
+      "categoria": "Valle del Cauca",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/efe/la-fifa-sufre-un-ciberataque-26-11-2026/",
+      "fecha": "2026-11-26T16:23:20+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "2324160b9601c2fb",
+      "titulo": "Sheinbaum acusa de injerencia a la DEA por habilitar canales de denuncia contra el Cártel de Sinaloa",
+      "categoria": "Deportes",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/globoeconomia/sheinbaum-acusa-de-injerencia-a-la-dea-por-habilitar-canales-de-denuncia-contra-el-cartel-de-sinaloa-4534225",
+      "fecha": "2026-11-26T16:22:11+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "fcec3fbd2a93d24e",
+      "titulo": "Grupo Pisa, compañía detrás de Electrolit, invertirá US$255 millones en planta productiva",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/empresas/grupo-pisa-compania-detras-de-electrolit-invertira-us-255-millones-en-planta-productiva-4534193",
+      "fecha": "2026-11-26T16:21:25+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "f5302c4486ab61fa",
+      "titulo": "Aprobar al menos la mitad de la tributaria sería positivo para evaluación de Fitch",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/economia/aprobar-al-menos-la-mitad-de-la-tributaria-seria-positivo-para-evaluacion-de-fitch-4534164",
+      "fecha": "2026-11-26T16:20:13+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "28eb632c5799176e",
+      "titulo": "Fiduciaria Davivienda lanza portafolio sostenible con rentabilidad de hasta 13,10% E.A.",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/finanzas/fiduciaria-davivienda-lanza-portafolio-sostenible-con-rentabilidad-de-hasta-13-10-e-a-4534102",
+      "fecha": "2026-11-26T16:19:19+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "d7611adb67f62f35",
+      "titulo": "Bundesliga: Eintracht Frankfurt vuelve a mirar hacia arriba",
+      "categoria": "Deportes",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/bundesliga-eintracht-frankfurt-vuelve-a-mirar-hacia-arriba/a-80066599?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-26T16:19:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "15783ea416681aa2",
+      "titulo": "¿A qué se dedicaba el hombre abatido durante la toma de rehenes en el Éxito de Cartagena?",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/jailer-muneton-zapata-abatido-toma-rehenes-exito-cartagena-KB44101487",
+      "fecha": "2026-11-26T16:16:48+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "f54dda9951b241ec",
+      "titulo": "Acaba el Black November de AEG, pero estos cuatro chollos siguen disponibles: tenemos un horno, una lavadora con eficiencia A y más",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/seleccion/acaba-black-november-aeg-estos-cuatro-chollos-siguen-disponibles-tenemos-horno-lavadora-eficiencia-a",
+      "fecha": "2026-11-26T16:16:25+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "9dded37c76a9c39e",
+      "titulo": "Barranquilla entrega el primer edificio de vivienda en el Gran Malecón, con 760 apartamentos y una inversión de $379.000 millones a orillas del río",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/barranquilla/barranquilla-entrega-el-primer-edificio-de-vivienda-en-el-gran-malecon-con-760-apartamentos-y-una-inversion-de-379-000-millones-a-orillas-del-rio-3604538",
+      "fecha": "2026-11-26T16:15:14+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "91bfd3ea2be4be55",
+      "titulo": "Ucrania recibe 250 cuerpos de soldados en un canje con Rusia",
+      "categoria": "Internacional",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/ucrania-recibe-250-cuerpos-de-soldados-en-un-canje-con-rusia/a-80067690?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-26T16:11:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "26034006596ef735",
+      "titulo": "'Olga', una tuneladora de 2.600 toneladas y 183 metros de longitud, completa el último tramo del túnel ferroviario más ambicioso de Europa",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/ingenieria-y-megaconstrucciones/olga-tuneladora-2-600-toneladas-183-metros-longitud-completa-ultimo-tramo-tunel-ferroviario-ambicioso-europa",
+      "fecha": "2026-11-26T16:07:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "02f3b7686eacf444",
+      "titulo": "Cálidda, filial del GEB, firmó nuevo acuerdo con Perú para llevar gas natural a 15 ciudades",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/empresas/acuerdo-firmado-por-filial-del-geb-con-peru-para-proveer-gas-natural-4534152",
+      "fecha": "2026-11-26T16:06:02+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "b6397c8039f1af23",
+      "titulo": "El regaño del alcalde Dumek Turbay a quienes señalan el sitio al Éxito Cartagena como 'montaje': 'deben visitar a un psiquiatra y respetar la ciudad'",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/el-regano-del-alcalde-dumek-turbay-a-quienes-senalan-el-sitio-al-exito-cartagena-como-montaje-deben-visitar-a-un-psiquiatra-y-respetar-la-ciudad-3604526",
+      "fecha": "2026-11-26T16:05:30+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "8bc1aa8c1fabc596",
+      "titulo": "Tres niños wayuú murieron ahogados tras caer en un pozo en la zona rural de Manaure, La Guajira: la emergencia fue atendida por las autoridades",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/tres-ninos-wayuu-murieron-ahogados-tras-caer-en-un-pozo-en-la-zona-rural-de-manaure-la-guajira-la-emergencia-fue-atendida-por-las-autoridades-3604529",
+      "fecha": "2026-11-26T16:04:32+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "875a030a15906514",
+      "titulo": "Nuclear, renovables y factura de la luz: qué propone cada partido para la energía en las elecciones del 29N",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/energia/nuclear-renovables-factura-luz-que-propone-cada-partido-para-energia-elecciones-29n",
+      "fecha": "2026-11-26T16:00:26+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "e01ec0abd6ec8e54",
+      "titulo": "Starmind, el polémico proyecto de Elon Musk aprobado por EE.UU. para construir centros de datos en el espacio",
+      "categoria": "Internacional",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/c5y4j0nyelemo?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-26T15:56:13+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "f3efadf526c6b21c",
+      "titulo": "¿Qué es la Afeau, el grupo élite que participó en el rescate de los rehenes del Éxito en Cartagena?",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/que-es-la-afeau-el-grupo-elite-que-participo-en-el-rescate-de-los-rehenes-del-exito-en-cartagena-3604519",
+      "fecha": "2026-11-26T15:52:28+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "f24bb0aefcbfbcfd",
+      "titulo": "Con nuevos datos de inflación y productividad, Asofondos plantea que el salario mínimo no supere el 7%",
+      "categoria": "Economía",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/gobierno/con-nuevos-datos-de-inflacion-y-productividad-asofondos-plantea-que-el-salario-minimo-no-supere-el-507146",
+      "fecha": "2026-11-26T15:51:35+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "1f10fba542ce10bb",
+      "titulo": "Nevado del Ruiz mantiene alerta: SGC reportó cambios en actividad sísmica y gases",
+      "categoria": "Valle del Cauca",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/vida-moderna/ecologia/nevado-del-ruiz-mantiene-alerta-sgc-26-11-2026/",
+      "fecha": "2026-11-26T15:51:24+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "6993dac79144f717",
+      "titulo": "Hospital Internacional de Colombia, HIC, llegó a su ocupación máxima de urgencias: está trabajando con el 450 % de su capacidad",
+      "categoria": "Internacional",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/santander/hospital-internacional-de-colombia-hic-llego-a-su-ocupacion-maxima-de-urgencias-esta-trabajando-con-el-450-de-su-capacidad-3604521",
+      "fecha": "2026-11-26T15:50:50+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "62476e0df62bc869",
+      "titulo": "Subsidios de vivienda volverán con el programa 'Mi Casa Milagro': Gobierno prepara convocatoria para 2027",
+      "categoria": "Colombia",
+      "fuente": "La FM Economía",
+      "url": "https://www.lafm.com.co/economia/subsidios-de-vivienda-volveran-programa-mi-casa-milagro-gobierno-prepara-convocatoria-2027-418370",
+      "fecha": "2026-11-26T15:49:33+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "ae4fa84ca98a9624",
+      "titulo": "Golpes policiales revelan quiénes están detrás de atentados en Popayán, ataques a empresa de aseo y secuestros en otras zonas del Cauca este año",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/cali/golpes-policiales-revelan-quienes-estan-detras-de-atentados-en-popayan-ataques-a-empresa-de-aseo-y-secuestros-en-otras-zonas-del-cauca-este-ano-3604501",
+      "fecha": "2026-11-26T15:46:36+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "7742d6cedf67e993",
+      "titulo": "Este Garmin es de lo mejor que hay si buscas un reloj para running: buen seguimiento, hasta 13 días de autonomía y precio mínimo",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/seleccion/este-garmin-mejor-que-hay-buscas-reloj-para-running-buen-seguimiento-13-dias-autonomia-precio-minimo",
+      "fecha": "2026-11-26T15:46:20+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "2870aea2ab332cb1",
+      "titulo": "“Un acto de barbarie”: así calificó De la Espriella el ataque con dron terrorista en iglesia de Valle del Cauca",
+      "categoria": "Cali",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/atentado-terrorista-dron-iglesia-dagua-abelardo-espriella-declaracion-acto-barbarie-MB44103168",
+      "fecha": "2026-11-26T15:45:52+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "8aab97e4b01ed57f",
+      "titulo": "Multinacional invierte US$13 millones en Yumbo, en el Valle del Cauca: así es su nueva megaobra",
+      "categoria": "Valle del Cauca",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/regiones/multinacional-invierte-us-13-millones-en-yumbo-en-el-valle-del-cauca-asi-es-su-nueva-megaobra-507150",
+      "fecha": "2026-11-26T15:44:17+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "ff9bd0b33fc91688",
+      "titulo": "Llevamos décadas tratando de unir la relatividad y la física cuántica. Un investigador de OpenAI dice que lo ha conseguido (parcialmente)",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/investigacion/llevamos-decadas-tratando-unir-relatividad-fisica-cuantica-investigador-openai-dice-que-ha-conseguido-parcialmente",
+      "fecha": "2026-11-26T15:43:18+00:00",
+      "imagen": ""
+    },
     {
       "id": "afa4f72e1f0d2d1a",
       "titulo": "Colombia frenó su ingreso al banco de los BRICS",
@@ -20,15 +299,6 @@
       "imagen": ""
     },
     {
-      "id": "f97aa977a5a46263",
-      "titulo": "Ataque contra patrulla policial en zona rural de Padilla, Cauca, deja dos uniformados muertos y cuatro heridos",
-      "categoria": "Cali",
-      "fuente": "El Tiempo Cali",
-      "url": "https://www.eltiempo.com/colombia/cali/ataque-contra-patrulla-policial-en-zona-rural-de-padilla-deja-dos-uniformados-muertos-y-cuatro-heridos-3604224",
-      "fecha": "2026-11-26T15:34:04+00:00",
-      "imagen": ""
-    },
-    {
       "id": "27a32b02b5ff66ac",
       "titulo": "Elon Musk promete dos acciones de SpaceX a cada niño de Estados Unidos",
       "categoria": "Internacional",
@@ -38,12 +308,48 @@
       "imagen": ""
     },
     {
+      "id": "2cfc0b05f88efc8b",
+      "titulo": "Metro de Medellín diversifica su negocio: así sera su apuesta con proyecto inmobiliario de más de 1.100 viviendas",
+      "categoria": "Economía",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/crecimiento/metro-de-medellin-diversifica-su-negocio-asi-sera-su-apuesta-con-proyecto-inmobiliario-de-mas-de-1-100-viviendas-507076",
+      "fecha": "2026-11-26T15:28:40+00:00",
+      "imagen": ""
+    },
+    {
       "id": "77885180473b9cec",
       "titulo": "La FIFA sufre ciberataque y robo de datos personales",
       "categoria": "Internacional",
       "fuente": "DW Español",
       "url": "https://www.dw.com/es/la-fifa-sufre-ciberataque-y-robo-de-datos-personales/a-80066313?maca=spa-rss-sp-all-1122-rdf",
       "fecha": "2026-11-26T15:28:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "27636f25f842e93f",
+      "titulo": "El poco conocido origen mexicano del pavo que se come en Acción de Gracias en Estados Unidos",
+      "categoria": "Internacional",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/cyv7r0m6g14o?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-26T15:27:48+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "a46e1b2bf4c55b9c",
+      "titulo": "Ministerio de Defensa respondió a versiones sobre hombre abatido en secuestro del Éxito de Cartagena: 'Fue necesario actuar para controlar la amenaza'",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/ministerio-de-defensa-respondio-a-versiones-sobre-hombre-abatido-en-secuestro-del-exito-de-cartagena-fue-necesario-actuar-para-controlar-la-amenaza-3604517",
+      "fecha": "2026-11-26T15:26:48+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "ff6213d5f4cc265f",
+      "titulo": "Entrevista con Elsa Noguera Ministra de Transporte desde el Congreso Nacional de la Infraestructura",
+      "categoria": "Colombia",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/infraestructura/entrevista-con-elsa-noguera-ministra-de-transporte-desde-el-congreso-nacional-de-la-infraestructura-507148",
+      "fecha": "2026-11-26T15:23:55+00:00",
       "imagen": ""
     },
     {
@@ -101,15 +407,6 @@
       "imagen": ""
     },
     {
-      "id": "4ae3fce3b3b0834e",
-      "titulo": "¿Cuáles son los cargos que les imputan a Juan Camilo Torres y a Jhon Albeiro Mejía Blandón, los capturados por el secuestro en el Éxito de Cartagena?",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/cuales-son-los-cargos-que-le-imputan-a-los-capturados-por-el-secuestro-en-el-exito-de-cartagena-3604502",
-      "fecha": "2026-11-26T15:08:54+00:00",
-      "imagen": ""
-    },
-    {
       "id": "224091ce060189d8",
       "titulo": "MinSalud explica por qué bajar a 80% el giro directo a hospitales y clínicas que dejaron Petro y Jaramillo: “fue irresponsable”",
       "categoria": "Colombia",
@@ -125,15 +422,6 @@
       "fuente": "El Tiempo",
       "url": "https://www.eltiempo.com/colombia/otras-ciudades/indignacion-por-hombre-que-pidio-sacar-a-un-perro-que-se-refugiaba-de-las-altas-temperaturas-en-un-cajero-de-florencia-caqueta-3604486",
       "fecha": "2026-11-26T15:04:28+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "b6b1168cb4230aa2",
-      "titulo": "Rehenes del Éxito de Cartagena que fueron confundidos con secuestradores revelan lo que les dijo el presidente De La Espriella",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/victimas-de-la-toma-de-rehenes-en-el-exito-de-cartagena-fueron-senaladas-como-secuestradores-dos-hombres-contaron-lo-que-vivieron-3604432",
-      "fecha": "2026-11-26T15:04:22+00:00",
       "imagen": ""
     },
     {
@@ -182,20 +470,11 @@
       "imagen": ""
     },
     {
-      "id": "a735e5934f4f7263",
-      "titulo": "Ataque número 18 con drones explosivos contra la estación de Policía de Santa Rita de Iró en menos de dos años",
-      "categoria": "Colombia",
-      "fuente": "Chocó 7 días",
-      "url": "https://choco7dias.com/ataque-numero-18-con-drones-explosivos-contra-la-estacion-de-policia-de-santa-rita-de-iro-en-menos-de-dos-anos/",
-      "fecha": "2026-11-26T14:58:28+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "92c14e5dc3bc6d74",
-      "titulo": "Gobierno proyecta inversiones por $20,1 billones en vivienda y agua durante el cuatrienio",
+      "id": "6dc1c88e2297af81",
+      "titulo": "Subsidios de vivienda regresarán en 2027 con el programa Mi Casa Milagro",
       "categoria": "Colombia",
       "fuente": "La República",
-      "url": "https://www.larepublica.co/economia/gobierno-proyecta-inversiones-por-20-1-billones-en-vivienda-y-agua-durante-el-cuatrienio-4534053",
+      "url": "https://www.larepublica.co/economia/subsidios-de-vivienda-regresaran-en-2027-con-el-programa-mi-casa-milagro-4534053",
       "fecha": "2026-11-26T14:56:26+00:00",
       "imagen": ""
     },
@@ -254,291 +533,12 @@
       "imagen": ""
     },
     {
-      "id": "83a54ce67d0e5e6d",
-      "titulo": "Black Friday: cinco preguntas que debería hacerse antes de comprar",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/black-friday-cinco-preguntas-que-deberia-hacerse-antes-de-comprar-3604506",
-      "fecha": "2026-11-26T14:43:26+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "f24bb0aefcbfbcfd",
-      "titulo": "Con nuevos datos de inflación y productividad, Asofondos plantea que el salario mínimo no supere el 7%",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/gobierno/con-nuevos-datos-de-inflacion-y-productividad-asofondos-plantea-que-el-salario-minimo-no-supere-el-507146",
-      "fecha": "2026-11-26T14:39:01+00:00",
-      "imagen": ""
-    },
-    {
       "id": "bb25c0a9b44c7ed7",
       "titulo": "Al menos 2.634 niñas colombianas han desaparecido este año, casi el triple que en 2025",
       "categoria": "Colombia",
       "fuente": "90 Minutos",
       "url": "https://90minutos.co/efe/ninas-colombianas-desaparecido-ano-triple-que-2025-26-11-2026/",
       "fecha": "2026-11-26T14:36:35+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "1eea67a043ba8afa",
-      "titulo": "Senado argentino vota suspensión de primarias que podrían favorecer a Milei",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/senado-argentino-vota-suspension-de-primarias-que-podrian-favorecer-a-milei-4534060",
-      "fecha": "2026-11-26T14:36:18+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "c8bfe3f4b87af626",
-      "titulo": "Servicio de luz se ha recuperado en 80% tras atentado a torres en el suroccidente",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/economia/servicio-de-luz-se-ha-recuperado-en-80-tras-atentado-a-torres-en-el-suroccidente-4533987",
-      "fecha": "2026-11-26T14:33:11+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "ca2ea10cde03730c",
-      "titulo": "En tiempo récord, Gobierno De La Espriella destraba construcción de cárcel de Riohacha tras cuatro años de retrasos",
-      "categoria": "Colombia",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/infraestructura/en-tiempo-record-gobierno-de-la-espriella-destraba-construccion-de-carcel-de-riohacha-tras-cuatro-anos-de-retrasos-507144",
-      "fecha": "2026-11-26T14:30:52+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "bb12c9182382f1dc",
-      "titulo": "Video | Rehén enfrentó a De la Espriella tras confundirlo con uno de los secuestradores en Cartagena: “oigan a este”",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/daniel-acevedo-rehen-confundido-con-secuestrador-exito-cartagena-encara-presidente-que-dijo-HJ44099097",
-      "fecha": "2026-11-26T14:29:45+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "23389c1e00dafc03",
-      "titulo": "\"Colombia no puede conformarse con producir para el mercado interno\"",
-      "categoria": "Economía",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/economia/colombia-no-puede-conformarse-con-producir-para-el-mercado-interno-4534026",
-      "fecha": "2026-11-26T14:29:22+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "b7c8664a04786cfd",
-      "titulo": "Un salvadoreño ganó un millón de dólares en la lotería de Massuchusetts. Días después, el ICE lo arrestó",
-      "categoria": "Economía",
-      "fuente": "La FM Internacional",
-      "url": "https://www.lafm.com.co/internacional/salvadoreno-gana-loteria-massachusetts-arrestado-ice-dias-despues-418366",
-      "fecha": "2026-11-26T14:26:46+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "f95accc750e448fd",
-      "titulo": "Brasil advierte que no cederá a amenazas arancelarias de Estados Unidos",
-      "categoria": "Internacional",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/brasil-advierte-que-no-cedera-a-amenazas-arancelarias-de-estados-unidos-4534035",
-      "fecha": "2026-11-26T14:26:26+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "bb60985e85d99a8c",
-      "titulo": "Perrita fue atacada con un machete en la cara por un hombre en Quindío: las autoridades buscan al responsable",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/perrita-fue-atacada-con-un-machete-en-la-cara-por-un-hombre-en-quindio-las-autoridades-buscan-al-responsable-3604462",
-      "fecha": "2026-11-26T14:26:20+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "fd99ab2394713d3f",
-      "titulo": "Tributaria: así se mueven las propuestas en el Congreso",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/en-vivo/tributaria-asi-se-mueven-las-propuestas-en-el-congreso/",
-      "fecha": "2026-11-26T14:21:18+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "1fa8c847c2a2e264",
-      "titulo": "Fuerte respuesta de Emanuel Olivera a las críticas por ver a Boca en Barranquilla: “No quiero decir malas palabras...”",
-      "categoria": "Deportes",
-      "fuente": "La FM Deportes",
-      "url": "https://www.lafm.com.co/deportes/respuesta-emanuel-olviera-criticas-viaje-barranquilla-boca-juniors-418362",
-      "fecha": "2026-11-26T14:19:05+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "84ebc28e06c942c1",
-      "titulo": "De La Espriella se retractó de sus afirmaciones sobre el wokismo",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/actualidad/de-la-espriella-se-retracto-de-sus-afirmaciones-sobre-el-wokismo/",
-      "fecha": "2026-11-26T14:15:20+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "ca42e59a60b1e474",
-      "titulo": "Audiencia por secuestro masivo en Cartagena se aplaza hasta el lunes: estas son las pistas que tienen de otros implicados que habrían logrado escapar",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/audiencia-por-secuestro-masivo-en-cartagena-se-aplaza-hasta-el-lunes-estas-son-las-pistas-que-tienen-de-otros-implicados-que-habrian-logrado-escapar-3604482",
-      "fecha": "2026-11-26T14:10:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "eb846c019936fb26",
-      "titulo": "Gloria Couceiro Justo será miembro ejecutiva de la Junta Directiva de Bbva Colombia",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/finanzas/gloria-couceiro-justo-sera-miembro-ejecutiva-de-la-junta-directiva-de-bbva-colombia-4533969",
-      "fecha": "2026-11-26T14:09:48+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "038e3cdc9a978c92",
-      "titulo": "Grupo farmacéutico mexicano Pisa proyecta invertir entre US$205 millones y US$255 millones en territorio colombiano",
-      "categoria": "Colombia",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/negocios/empresas/grupo-farmaceutico-mexicano-pisa-proyecta-invertir-entre-us-205-millones-y-us-255-millones-en-territorio-colombiano-507143",
-      "fecha": "2026-11-26T14:09:47+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "738a92673cf45132",
-      "titulo": "Dólar en Colombia opera bajo Next Day por festivo de acción de gracias en EE. UU. y se ubica por sobre los $3.630",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/finanzas/dolar-en-colombia-opera-bajo-next-day-por-festivo-de-accion-de-gracias-en-ee-uu-y-se-ubica-por-sobre-los-3-507131",
-      "fecha": "2026-11-26T14:08:35+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "8c9d877e0c2c6a48",
-      "titulo": "Fifa sufre ciberataque sin afectar archivos de venta de participaciones de Mundial",
-      "categoria": "Deportes",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/fifa-sufre-ciberataque-sin-afectar-archivos-de-venta-de-participaciones-de-mundial-4534010",
-      "fecha": "2026-11-26T14:07:59+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "4dfb94180f5445bc",
-      "titulo": "'Es muy grave que un templo católico, como la parroquia de El Carmen, en Dagua, Valle, hubiera sido blanco de un ataque': arzobispo de Cali",
-      "categoria": "Cali",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/cali/es-muy-grave-que-un-templo-catolico-como-la-parroquia-de-el-carmen-en-dagua-valle-hubiera-sido-blanco-de-un-ataque-arzobispo-de-cali-3604470",
-      "fecha": "2026-11-26T14:04:40+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "4bd767ec2c597847",
-      "titulo": "Nuevo ciclo de pagos de Renta Joven: estas son las fechas y entrega de subsidio",
-      "categoria": "Valle del Cauca",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/vida-moderna/nuevo-ciclo-de-pagos-de-renta-joven-26-11-2026/",
-      "fecha": "2026-11-26T14:02:58+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "494863c79a7bf13a",
-      "titulo": "Fiserv integra una tecnología de pagos sin contacto al transporte público de Medellín",
-      "categoria": "Tecnología",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/finanzas/fiserv-integra-tecnologia-de-pagos-sin-contacto-al-transporte-publico-de-medellin-4533910",
-      "fecha": "2026-11-26T14:02:07+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "51ae5ea6be130224",
-      "titulo": "Políticos y periodistas, indignados con el gobierno De la Espriella por retiro de sus esquemas de seguridad",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/politicos-periodistas-indignados-retiro-esquemas-seguridad-BJ44097402",
-      "fecha": "2026-11-26T14:01:53+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "4e84420b3e5ed213",
-      "titulo": "Bayern Múnich busca aclarar el caso Musiala y deja preguntas abiertas",
-      "categoria": "Internacional",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/bayern-múnich-busca-aclarar-el-caso-musiala-y-deja-preguntas-abiertas/a-80061155?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-26T14:01:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "0a1a492c808eef20",
-      "titulo": "WhatsApp, basta ya",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/aplicaciones/whatsapp-basta",
-      "fecha": "2026-11-26T14:00:25+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "1ea071b5495b6982",
-      "titulo": "Sin límites, Colombia asumiría los costos ambientales de los minerales estratégicos",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/red-de-expertos/red-verde/sin-limites-colombia-asumiria-los-costos-ambientales-de-los-minerales-estrategicos/",
-      "fecha": "2026-11-26T14:00:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "51f1c9eadd1124c4",
-      "titulo": "Conectarse a internet no basta: Colombia tiene rezagos en usos digitales con potencial económico",
-      "categoria": "Tecnología",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/gobierno/conectarse-a-internet-no-basta-colombia-tiene-rezagos-en-usos-digitales-con-potencial-economico-507138",
-      "fecha": "2026-11-26T13:59:37+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "29a1cd2696a1f953",
-      "titulo": "Pablo Hernández de Cos es el nuevo presidente del Banco Central Europeo",
-      "categoria": "Economía",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/pablo-hernandez-de-cos-es-el-nuevo-presidente-del-banco-central-europeo-4533972",
-      "fecha": "2026-11-26T13:59:27+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "e9a1bb03795abd00",
-      "titulo": "¿Qué hay detrás del crimen de un empresario mexicano en Jericó? Crece la tensión en Antioquia tras ataque en medio de bloqueos viales",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/medellin/que-hay-detras-del-crimen-de-un-empresario-mexicano-en-jerico-crece-la-tension-en-antioquia-tras-ataque-en-medio-de-bloqueos-viales-3604478",
-      "fecha": "2026-11-26T13:58:51+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "bc0e553e17e118ce",
-      "titulo": "Claro abrió convocatoria para dar visibilidad a emprendimientos y negocios durante Navidad",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/empresas/claro-abrio-convocatoria-para-dar-visibilidad-a-emprendimientos-y-negocios-en-navidad-4533956",
-      "fecha": "2026-11-26T13:58:19+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "d457f6327b7ebbd4",
-      "titulo": "Colegio en Manizales ya usa SmartDex, tecnología que identifica a usuarios del PAE",
-      "categoria": "Tecnología",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/empresas/colegio-en-manizales-ya-usa-smartdex-la-tecnologia-que-identifica-a-los-beneficiarios-del-pae-4533917",
-      "fecha": "2026-11-26T13:54:49+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "cca1ef847f3be12a",
-      "titulo": "VENTA APARTAMENTO",
-      "categoria": "Colombia",
-      "fuente": "La Patria — Caldas",
-      "url": "https://www.lapatria.com/clasificados/venta-apartamento-36",
-      "fecha": "2026-11-26T13:48:52+00:00",
       "imagen": ""
     }
   ],
@@ -596,7 +596,7 @@
       "nombre": "DW Español",
       "url": "https://rss.dw.com/rdf/rss-sp-all",
       "estado": "correcto",
-      "titulares": 27
+      "titulares": 28
     },
     {
       "nombre": "Xataka",
@@ -626,7 +626,7 @@
       "nombre": "La FM Economía",
       "url": "https://www.lafm.com.co/rss/economia.xml",
       "estado": "correcto",
-      "titulares": 19
+      "titulares": 20
     },
     {
       "nombre": "La FM Internacional",
@@ -662,8 +662,9 @@
     {
       "nombre": "Chocó 7 días",
       "url": "https://choco7dias.com/feed/",
-      "estado": "correcto",
-      "titulares": 9
+      "estado": "error",
+      "titulares": 0,
+      "detalle": "415 Client Error: Unsupported Media Type for url: https://choco7dias.com/feed/"
     },
     {
       "nombre": "La Patria — Caldas",
