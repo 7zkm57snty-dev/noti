@@ -1,6 +1,69 @@
 {
-  "ultima_actualizacion": "2026-11-26T05:24:11.172758+00:00",
+  "ultima_actualizacion": "2026-11-26T06:39:41.268668+00:00",
   "titulares_rss": [
+    {
+      "id": "fa01318b50815dd5",
+      "titulo": "'Un canto a la vida': la 69 Feria de Cali llega a las 22 comunas y los 15 corregimientos con 54 eventos para reactivar el alma de la ciudad",
+      "categoria": "Cali",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/cali/un-canto-a-la-vida-la-69-feria-de-cali-llega-a-las-22-comunas-y-los-15-corregimientos-con-54-eventos-para-reactivar-el-alma-de-la-ciudad-3604395",
+      "fecha": "2026-11-26T06:20:52+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "11be3f94f8a7f3c3",
+      "titulo": "En Jerez, un hombre con tres órdenes judiciales para ir a prisión aparece haciendo ejercicio tranquilamente en el gimnasio de un polígono",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/magnet/jerez-hombre-tres-ordenes-judiciales-para-ir-a-prision-aparece-haciendo-ejercicio-tranquilamente-gimnasio-poligono",
+      "fecha": "2026-11-26T06:02:20+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "13aaaf58684e179a",
+      "titulo": "Junta cercana a Gómez Amín saca a presidente de Fiducoldex con irregularidades",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/silla-nacional/junta-cercana-a-gomez-amin-saca-a-presidente-de-fiducoldex-con-irregularidades/",
+      "fecha": "2026-11-26T06:00:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "878e75f9fbd319dc",
+      "titulo": "Radiografía de la violencia contra las mujeres: Cali registra la cifra más alta de homicidios en nueve años con un aumento del 31 %",
+      "categoria": "Cali",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/cali/radiografia-de-la-violencia-contra-las-mujeres-cali-registra-la-cifra-mas-alta-de-homicidios-en-nueve-anos-con-un-aumento-del-3604339",
+      "fecha": "2026-11-26T05:46:57+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "15f25ab72af849dd",
+      "titulo": "De Provenza a La 70: así ha conquistado Medellín los escalafones mundiales de ‘Time Out’ en los últimos años",
+      "categoria": "Deportes",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/medellin/de-provenza-a-la-70-asi-ha-conquistado-medellin-los-escalafones-mundiales-de-time-out-en-los-ultimos-anos-3604324",
+      "fecha": "2026-11-26T05:45:13+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "aae2c535c68530ff",
+      "titulo": "Periodistas empíricos podrán graduarse como profesionales en menos tiempo",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/actualidad/periodistas-empiricos-podran-graduarse-como-profesionales-en-menos-tiempo/",
+      "fecha": "2026-11-26T05:40:25+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "0629d160ceaeb503",
+      "titulo": "Asalto armado con rehenes en Éxito de Cartagena: Fiscalía imputa por secuestro extorsivo a los dos señalados, quienes no aceptaron cargos",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/asalto-de-hombres-armados-en-exito-de-cartagena-con-rehenes-ultimas-noticias-y-reportes-de-la-emergencia-3604404",
+      "fecha": "2026-11-26T05:29:19+00:00",
+      "imagen": ""
+    },
     {
       "id": "f60258b00dce0841",
       "titulo": "Capturados por secuestro en Éxito de Cartagena rechazaron cargos",
@@ -470,75 +533,12 @@
       "imagen": ""
     },
     {
-      "id": "7bf8001ec9d84099",
-      "titulo": "Trece muertos y 13 desaparecidos tras inundación de mina ilegal de oro en Indonesia",
-      "categoria": "Internacional",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/trece-muertos-y-13-desaparecidos-tras-inundación-de-mina-ilegal-de-oro-en-indonesia/a-80056217?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-26T04:54:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "ac61cb3a03e73496",
-      "titulo": "La España de los (casi) 50 millones: cómo la inmigración ha transformado el país en la última década y se ha convertido en tema clave de las elecciones",
-      "categoria": "Internacional",
-      "fuente": "BBC Mundo",
-      "url": "https://www.bbc.com/mundo/articles/ckq5vgpwwq76o?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-26T04:52:47+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "5c07e72f028947e2",
-      "titulo": "EE.UU. y la OTAN instan a Rusia a abstenerse de “expandir la guerra” en Ucrania y a obtener una solución pacífica",
-      "categoria": "Internacional",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/ee-uu-y-la-otan-instan-a-rusia-a-abstenerse-de-expandir-la-guerra-en-ucrania-y-a-obtener-una-solución-pacífica/a-80056210?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-26T04:45:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "31ca1a7bfe4d6a56",
-      "titulo": "Arabia Saudita derriba más misiles hutíes dirigidos a su capital tras ataques en Yemen",
-      "categoria": "Internacional",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/arabia-saudita-derriba-más-misiles-hutíes-dirigidos-a-su-capital-tras-ataques-en-yemen/a-80056045?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-26T04:19:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "878e75f9fbd319dc",
-      "titulo": "Radiografía de la violencia contra las mujeres: Cali registra la cifra más alta de homicidios en nueve años con un aumento del 31 %",
-      "categoria": "Cali",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/cali/radiografia-de-la-violencia-contra-las-mujeres-cali-registra-la-cifra-mas-alta-de-homicidios-en-nueve-anos-con-un-aumento-del-3604339",
-      "fecha": "2026-11-26T03:52:33+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "15f25ab72af849dd",
-      "titulo": "De Provenza a La 70: así ha conquistado Medellín los escalafones mundiales de ‘Time Out’ en los últimos años",
-      "categoria": "Deportes",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/medellin/de-provenza-a-la-70-asi-ha-conquistado-medellin-los-escalafones-mundiales-de-time-out-en-los-ultimos-anos-3604324",
-      "fecha": "2026-11-26T03:50:50+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "86f907e5837a1a1e",
-      "titulo": "Revelan lo que hicieron los delincuentes durante las más de 15 horas de la toma de rehenes en el Éxito de Cartagena: bebieron licor y pusieron música",
-      "categoria": "Tendencias",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/revelan-lo-que-hicieron-los-delincuentes-durante-las-mas-de-15-horas-de-toma-de-rehenes-en-el-exito-de-cartagena-bebieron-licor-y-pusieron-musica-3604388",
-      "fecha": "2026-11-26T03:48:29+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "c7b74867fbd3b996",
-      "titulo": "Toma del Palacio de Justicia: CIDH revisará si indultos al M-19 impidieron juzgar a sus dirigentes",
+      "id": "55442b38400d91f0",
+      "titulo": "La quinta edición de la Feria Empresarial y de Emprendimiento reunió a 510 expositores",
       "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/cidh-palacio-justicia-m19-muerte-tres-policias-IJ44091944",
-      "fecha": "2026-11-26T03:23:37+00:00",
+      "fuente": "La Patria — Caldas",
+      "url": "https://www.lapatria.com/galerias/la-quinta-edicion-de-la-feria-empresarial-y-de-emprendimiento-reunio-510-expositores",
+      "fecha": "2026-11-26T05:00:00+00:00",
       "imagen": ""
     }
   ],
@@ -553,7 +553,7 @@
       "nombre": "El Tiempo Cali",
       "url": "https://www.eltiempo.com/rss/colombia_cali.xml",
       "estado": "correcto",
-      "titulares": 7
+      "titulares": 6
     },
     {
       "nombre": "El Espectador",
@@ -590,7 +590,7 @@
       "nombre": "BBC Mundo",
       "url": "https://feeds.bbci.co.uk/mundo/rss.xml",
       "estado": "correcto",
-      "titulares": 30
+      "titulares": 29
     },
     {
       "nombre": "DW Español",
