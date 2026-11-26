@@ -1,31 +1,283 @@
 {
-  "ultima_actualizacion": "2026-11-26T21:03:17.654803+00:00",
+  "ultima_actualizacion": "2026-11-26T22:03:52.397368+00:00",
   "titulares_rss": [
     {
       "id": "bb78b3c6d56947bb",
-      "titulo": "Debate electoral 29-N a cuatro, en directo | Comienza el último debate de la campaña entre los cuatro principales candidatos",
+      "titulo": "Debate electoral 29-N a cuatro, en directo | Sánchez cambia de estrategia en el segundo debate y pasa al ataque: “A otro perro con ese hueso”",
       "categoria": "Colombia",
       "fuente": "El País Colombia",
       "url": "https://elpais.com/espana/elecciones-generales/2026-11-26/debate-electoral-29-n-a-cuatro-entre-sanchez-feijoo-abascal-y-colau-en-directo.html",
-      "fecha": "2026-11-26T21:01:54+00:00",
+      "fecha": "2026-11-26T22:01:55+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "5b6ffa18cd1cc11b",
+      "titulo": "Un policía murió en ataque con drones contra la Estación de Policía de Condoto (Chocó)",
+      "categoria": "Colombia",
+      "fuente": "Chocó 7 días",
+      "url": "https://choco7dias.com/un-policia-murio-en-ataque-con-drones-contra-la-estacion-de-policia-de-condoto-choco/",
+      "fecha": "2026-11-26T22:01:36+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "54029ad34b63cc2a",
+      "titulo": "Tributaria “no tiene nada acordado con el gobierno”, dijo Ape Cuello",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/en-vivo/tributaria-no-tiene-nada-acordado-con-el-gobierno-dijo-ape-cuello/",
+      "fecha": "2026-11-26T22:01:19+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "c78577ba70b6e9c2",
+      "titulo": "Cuidado con el Black Friday, detrás de una gran oferta podría esconderse una estafa",
+      "categoria": "Colombia",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/secciones/tecnologia/estafa-en-black-friday-alertas-trampas-y-como-evitarla/",
+      "fecha": "2026-11-26T21:58:54+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "e227a8c4f593579a",
+      "titulo": "La UAO obtiene sello ODS por transformar territorios a través de la sostenibilidad",
+      "categoria": "Valle del Cauca",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/la-uao/la-uao-obtiene-sello-ods-por-transformar-territorios-26-11-2026/",
+      "fecha": "2026-11-26T21:52:27+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "20115fcff8f0ce32",
+      "titulo": "La JEP destaca el cumplimiento de la Gobernación del Valle en la protección a comunidades étnicas del conflicto",
+      "categoria": "Valle del Cauca",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/valle-del-cauca/jep-gobernacion-del-valle-en-la-proteccion-a-comunidades-26-11-2026/",
+      "fecha": "2026-11-26T21:50:43+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "2e01dcd5d37aff04",
+      "titulo": "Trump pidió a Putin frenar la agresión militar en Europa",
+      "categoria": "Internacional",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/noticias/internacionales/trump-pidio-a-putin-frenar-la-agresion-militar-en-europa/",
+      "fecha": "2026-11-26T21:45:07+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "d73abd89107ef06c",
+      "titulo": "Fedegán responde al Ministerio de Agricultura y asegura que sí entregó información del Fondo Nacional del Ganado",
+      "categoria": "Colombia",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/gobierno/fedegan-responde-al-ministerio-de-agricultura-y-asegura-que-si-entrego-informacion-del-fondo-nacional-del-ganado-507187",
+      "fecha": "2026-11-26T21:44:48+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "614510c18802532e",
+      "titulo": "“Know your people”: la apuesta del puerto de Buenaventura para reconectar con su ciudad",
+      "categoria": "Valle del Cauca",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/empresario/puerto-de-buenaventura-reto-social-sismo-y-nuevo-decreto/",
+      "fecha": "2026-11-26T21:43:21+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "ef44bae841b62af4",
+      "titulo": "Banco alemán KfW aportará $3.200 millones para la Línea 4 del Metro de Bogotá: así avanzará la iniciativa",
+      "categoria": "Economía",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/infraestructura/banco-aleman-kfw-aportara-3-200-millones-para-la-linea-4-del-metro-de-bogota-asi-avanzara-la-iniciativa-507183",
+      "fecha": "2026-11-26T21:43:19+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "9484e9512d386b1f",
+      "titulo": "“Vamos a prender la máquina”: MinVivienda apuesta por la reconstrucción y la reactivación en vivienda, agua y saneamiento",
+      "categoria": "Colombia",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/colombia/congreso-nacional-de-infraestructura-en-cartagena-5-7-billones/",
+      "fecha": "2026-11-26T21:31:53+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "fe20c214bdb54764",
+      "titulo": "Los objetos que tenía hombre abatido en toma de rehenes en almacén Éxito de Cartagena: Fiscalía reveló lo que habría hecho antes de recibir disparos",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/los-objetos-que-tenia-hombre-abatido-en-toma-de-rehenes-en-almacen-exito-de-cartagena-fiscalia-revelo-lo-que-habria-hecho-antes-de-recibir-disparos-3604603",
+      "fecha": "2026-11-26T21:31:21+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "e51d3bf9bba7f957",
+      "titulo": "Gobierno va a destinar más de $700.000 millones para las vías de Antioquia: estos son los corredores que recibirían inversiones",
+      "categoria": "Colombia",
+      "fuente": "La FM Actualidad",
+      "url": "https://www.lafm.com.co/actualidad/antioquia-vias-corredores-inversion-gobierno-418424",
+      "fecha": "2026-11-26T21:31:10+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "ac4542b4d5cc5c97",
+      "titulo": "Países Bajos se planta ante EEUU por las restricciones a las máquinas de ASML",
+      "categoria": "Internacional",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/empresas-y-economia/paises-bajos-se-planta-eeuu-restricciones-a-maquinas-asml",
+      "fecha": "2026-11-26T21:30:26+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "b764a068c9846af9",
+      "titulo": "\"La UE cometería un error estratégico si recorta su presupuesto\", dice Macron",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/globoeconomia/la-ue-cometeria-un-error-estrategico-si-recorta-su-presupuesto-dice-macron-4534552",
+      "fecha": "2026-11-26T21:28:52+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "c05f717ec7fb4fdc",
+      "titulo": "Los colombianos trabajan menos horas, pero son más productivos por hora: así llega el debate del salario mínimo",
+      "categoria": "Colombia",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/los-colombianos-trabajan-menos-horas-pero-son-mas-productivos-por-hora-asi-llega-el-debate-del-salario-minimo-507186",
+      "fecha": "2026-11-26T21:27:35+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "4dfc0369eb10abf6",
+      "titulo": "Reconstrucción: faltan recursos y sobran necesidades",
+      "categoria": "Colombia",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/opinion/editorial/reconstruccion-del-pais-tras-el-terremoto-del-10-de-agosto-faltan-39-billones/",
+      "fecha": "2026-11-26T21:23:28+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "491328242972cca5",
+      "titulo": "Bovespa se dispara 6% ante rumores de que Luiz Carlos Trabuco asumirá en el MinHacienda",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/globoeconomia/bovespa-se-dispara-6-ante-rumores-de-que-luiz-carlos-trabuco-asumira-en-el-minhacienda-4534541",
+      "fecha": "2026-11-26T21:21:57+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "63428a8e1b6feba1",
+      "titulo": "520 mil trinos después, Omar Bula cierra su cuenta de Twitter",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/en-vivo/520-mil-trinos-despues-omar-bula-cierra-su-cuenta-de-twitter/",
+      "fecha": "2026-11-26T21:20:47+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "59ad548e41f57b24",
+      "titulo": "Fondo Milagro asumirá las demoliciones en Pereira",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/actualidad/fondo-milagro-asumira-las-demoliciones-en-pereira/",
+      "fecha": "2026-11-26T21:20:17+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "b03a680d07a54712",
+      "titulo": "Inauguran en Barranquilla la granja solar universitaria más grande de Colombia",
+      "categoria": "Colombia",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/regiones/inauguran-en-barranquilla-la-granja-solar-universitaria-mas-grande-de-colombia-507185",
+      "fecha": "2026-11-26T21:13:14+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "044ba6e367c05039",
+      "titulo": "Emergencia en Juanchaco: la erosión costera amenaza a la comunidad",
+      "categoria": "Valle del Cauca",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/valle-del-cauca/emergencia-juanchaco-erosion-costera-amenaza-comunidad-26-11-2026/",
+      "fecha": "2026-11-26T21:12:12+00:00",
       "imagen": ""
     },
     {
       "id": "487f54acbd14dae4",
-      "titulo": "De la crisis en Sudán a la seguridad espacial: más de 350 alumnos de siete colegios de Cali simulan la ONU en la Universidad Icesi",
+      "titulo": "Diplomáticos desde el colegio: así debatieron más de 350 jóvenes de Cali los grandes conflictos del mundo en un Modelo de Naciones Unidas",
       "categoria": "Cali",
-      "fuente": "El Tiempo Cali",
+      "fuente": "El Tiempo",
       "url": "https://www.eltiempo.com/colombia/cali/de-la-crisis-en-sudan-a-la-seguridad-espacial-mas-de-350-alumnos-de-siete-colegios-de-cali-simulan-la-onu-en-la-universidad-icesi-3604638",
-      "fecha": "2026-11-26T20:55:39+00:00",
+      "fecha": "2026-11-26T21:11:32+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "474c25107a28b6d6",
+      "titulo": "¿Dejamos morir la fiesta brava?",
+      "categoria": "Colombia",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/uncategorized/corridas-de-toros-en-cali-memoria-fin-de-ano-y-declive/",
+      "fecha": "2026-11-26T21:09:20+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "2920d1f47776ffeb",
+      "titulo": "Cinco diseñadores llevarán sus propuestas de moda de autor a la pasarela en Cali",
+      "categoria": "Cali",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/cali/disenadores-llevaran-propuestas-moda-autor-pasarela-cali-26-11-2026/",
+      "fecha": "2026-11-26T21:07:46+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "7988e57fa3fcb262",
+      "titulo": "Cambios en el SOAT en Colombia: todo lo que debe saber desde diciembre de 2026",
+      "categoria": "Colombia",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/vida-moderna/cambios-en-el-soat-en-colombia-26-11-2026/",
+      "fecha": "2026-11-26T21:05:35+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "be36a5dc501b0fa1",
+      "titulo": "Cada minuto cuenta: así funcionará la nueva red que atenderá a pacientes con infartos y accidentes cerebrovasculares en Barranquilla",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/barranquilla/cada-minuto-cuenta-asi-funcionara-la-nueva-red-que-atendera-a-pacientes-con-infartos-y-accidentes-cerebrovasculares-en-barranquilla-3604646",
+      "fecha": "2026-11-26T21:03:48+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "ab796c00b49ebd07",
+      "titulo": "\"Tenemos que prepararnos para los próximos meses\": el presidente de Microsoft alerta del riesgo de más caídas ligado a la IA",
+      "categoria": "Deportes",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/seguridad/tenemos-que-prepararnos-para-proximos-meses-presidente-microsoft-alerta-riesgo-caidas-ligado-a-ia",
+      "fecha": "2026-11-26T21:00:29+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "c68748ea2eda73fd",
+      "titulo": "Alcalde de Cartagena reveló qué exigían los hombres que retuvieron a 87 personas en el Éxito: pedían vehículos blindados",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/alcalde-de-cartagena-revelo-que-exigian-los-hombres-que-retuvieron-a-87-personas-en-el-exito-pedian-vehiculos-blindados-3604601",
+      "fecha": "2026-11-26T20:59:08+00:00",
       "imagen": ""
     },
     {
       "id": "0c4fe306c65a33e1",
       "titulo": "Tiene 9 años, toca piano clásico, es campeón de golf y resuelve 100 operaciones en menos de 4 minutos: Doménico, el vallecaucano que brilló en Dubái",
       "categoria": "Valle del Cauca",
-      "fuente": "El Tiempo Cali",
+      "fuente": "El Tiempo",
       "url": "https://www.eltiempo.com/colombia/cali/tiene-9-anos-toca-piano-clasico-es-campeon-de-golf-y-resuelve-100-operaciones-en-menos-de-4-minutos-domenico-el-vallecaucano-que-brillo-en-dubai-3604608",
       "fecha": "2026-11-26T20:54:45+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "ddb464bf99c9b891",
+      "titulo": "Perderemos la memoria",
+      "categoria": "Colombia",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/opinion/columnistas/perderemos-la-memoria/",
+      "fecha": "2026-11-26T20:53:55+00:00",
       "imagen": ""
     },
     {
@@ -53,6 +305,15 @@
       "fuente": "El Diario — Pereira",
       "url": "https://www.eldiario.com.co/actualidad/manizales-busca-una-salida-para-salvar-la-cabalgata-de-2027/",
       "fecha": "2026-11-26T20:48:40+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "00785689bdb9f4ce",
+      "titulo": "¿Alexa, candidata a la Alcaldía de Cali?",
+      "categoria": "Cali",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/politica/graffiti/alcaldia-de-cali-suena-alexandra-hernandez-para-2027/",
+      "fecha": "2026-11-26T20:48:28+00:00",
       "imagen": ""
     },
     {
@@ -137,6 +398,15 @@
       "imagen": ""
     },
     {
+      "id": "777ca584a785053d",
+      "titulo": "Edicto 2do. aviso Doris Mariela Perea Perea",
+      "categoria": "Colombia",
+      "fuente": "Chocó 7 días",
+      "url": "https://choco7dias.com/edicto-2do-aviso-doris-mariela-perea-perea/",
+      "fecha": "2026-11-26T20:27:17+00:00",
+      "imagen": ""
+    },
+    {
       "id": "9971e9d7d2ee4847",
       "titulo": "Rappi registra un aumento de hasta 46% en pedidos durante la semana de Black Friday",
       "categoria": "Colombia",
@@ -209,15 +479,6 @@
       "imagen": ""
     },
     {
-      "id": "0544b711d7729d90",
-      "titulo": "¿Se están acabando los billetes de $10.000 en los cajeros de Colombia? Esto dice el Banco de la República",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/finanzas/banco-de-la-republica-dice-que-no-ha-caido-la-disponibilidad-de-billetes-de-10-000-y-en-cambio-ha-subido-el-0-507170",
-      "fecha": "2026-11-26T19:49:09+00:00",
-      "imagen": ""
-    },
-    {
       "id": "8d0703e3437a511e",
       "titulo": "Gobierno De la Espriella frena el ingreso de Colombia a los BRICS y a su banco de desarrollo, como lo quería Petro",
       "categoria": "Economía",
@@ -279,267 +540,6 @@
       "url": "https://www.lasillavacia.com/en-vivo/ordonez-el-gobierno-tiene-muy-buenas-relaciones-con-bancada-liberal/",
       "fecha": "2026-11-26T19:21:53+00:00",
       "imagen": ""
-    },
-    {
-      "id": "5f331f59469ead33",
-      "titulo": "¿Colombia podría cambiar la edad de pensión? Esto dice una nueva propuesta de la OCDE",
-      "categoria": "Colombia",
-      "fuente": "La FM Economía",
-      "url": "https://www.lafm.com.co/economia/colombia-podria-cambiar-edad-pension-esto-dice-nueva-propuesta-ocde-418398",
-      "fecha": "2026-11-26T19:10:03+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "b0dd5271463e485e",
-      "titulo": "Tocancipá entrega la renovada Vía Autódromo con una inversión de $13 mil millones de pesos",
-      "categoria": "Colombia",
-      "fuente": "La FM Actualidad",
-      "url": "https://www.lafm.com.co/actualidad/tocancipa-entrega-nueva-obra-tambien-alcantarillado-418405",
-      "fecha": "2026-11-26T19:08:04+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "2fdd4f88d4e9634b",
-      "titulo": "Multinacional Emergent Cold LatAm invierte US$13 millones en megabodega de alimentos refrigerados en Yumbo",
-      "categoria": "Valle del Cauca",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/regiones/multinacional-emergent-cold-latam-invierte-us-13-millones-en-yumbo-en-el-valle-del-cauca-asi-es-su-nueva-megaobra-507150",
-      "fecha": "2026-11-26T19:05:36+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "fe20c214bdb54764",
-      "titulo": "Los objetos que tenía hombre abatido en toma de rehenes en almacén Éxito de Cartagena: Fiscalía reveló lo que habría hecho antes de recibir disparos",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/los-objetos-que-tenia-hombre-abatido-en-toma-de-rehenes-en-almacen-exito-de-cartagena-fiscalia-revelo-lo-que-habria-hecho-antes-de-recibir-disparos-3604603",
-      "fecha": "2026-11-26T19:01:06+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "e2a1f362c5dac84d",
-      "titulo": "Podíais elegir cualquier producto para el premio de la comunidad. El ganador ha sido el Xiaomi 17 Ultra",
-      "categoria": "Cali",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/telefono-movil/podiais-elegir-cualquier-producto-para-premio-comunidad-ganador-ha-sido-xiaomi-17-ultra",
-      "fecha": "2026-11-26T19:00:17+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "06a81db95c4d5db2",
-      "titulo": "AI safety ingeniería básica",
-      "categoria": "Colombia",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/secciones/tecnologia/ai-safety-ingenieria-basica/",
-      "fecha": "2026-11-26T19:00:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "aa946e202cb5473d",
-      "titulo": "¿Qué significa ser pobre y cómo se mide la pobreza?",
-      "categoria": "Internacional",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/¿qué-significa-ser-pobre-y-cómo-se-mide-la-pobreza/a-80068026?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-26T18:56:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "1ec48b61bafa459e",
-      "titulo": "\"Fue un crimen, pudo evitarse\": Sobreviviente de la tragedia de Chapecoense, diez años después",
-      "categoria": "Deportes",
-      "fuente": "La FM Deportes",
-      "url": "https://www.lafm.com.co/deportes/jakson-follmann-sobreviviente-chapecoense-entrevista-418402",
-      "fecha": "2026-11-26T18:49:56+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "c68748ea2eda73fd",
-      "titulo": "Alcalde de Cartagena reveló qué exigían los hombres que retuvieron a 87 personas en el Éxito: pedían vehículos blindados",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/alcalde-de-cartagena-revelo-que-exigian-los-hombres-que-retuvieron-a-87-personas-en-el-exito-pedian-vehiculos-blindados-3604601",
-      "fecha": "2026-11-26T18:46:21+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "8102bb59014d49fe",
-      "titulo": "Alias Marlon reaparece en video y desafía a De La Espriella",
-      "categoria": "Colombia",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/colombia/reaparicion-de-alias-marlon-en-video-abre-dudas-sobre-el-naya/",
-      "fecha": "2026-11-26T18:45:46+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "49d6a780cc871850",
-      "titulo": "Embajada de China responde a \"retóricas separatistas\" sobre Taiwán en el país",
-      "categoria": "Internacional",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/embajada-de-china-responde-a-retoricas-separatistas-sobre-taiwan-en-colombia-4534384",
-      "fecha": "2026-11-26T18:42:19+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "be030088b6b1c898",
-      "titulo": "Abelardo anuncia despliegue por ataque con drones en estación en Chocó",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/en-vivo/abelardo-anuncia-despliegue-por-ataque-con-drones-en-estacion-en-choco/",
-      "fecha": "2026-11-26T18:40:13+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "30b3c619a04c117e",
-      "titulo": "La reina que caminó en tenis por El Valladito, un rincón de Aguablanca marcado por el reclutamiento, que lucha por existir y dejar el olvido en Cali",
-      "categoria": "Cali",
-      "fuente": "El Tiempo Cali",
-      "url": "https://www.eltiempo.com/colombia/cali/la-reina-que-camino-en-tenis-por-el-valladito-un-rincon-de-aguablanca-marcado-por-el-reclutamiento-que-lucha-por-existir-y-dejar-el-olvido-en-cali-3604568",
-      "fecha": "2026-11-26T18:39:34+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "0c953c719226e846",
-      "titulo": "Las tres polémicas del Nacional vs. DIM por los cuadrangulares de la Liga Betplay",
-      "categoria": "Deportes",
-      "fuente": "La FM Deportes",
-      "url": "https://www.lafm.com.co/deportes/las-tres-polemicas-del-partido-entre-nacional-vs-dim-cuadrangulares-liga-betplay-418400",
-      "fecha": "2026-11-26T18:37:55+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "390ff8c28f9cb60e",
-      "titulo": "Paraguay proyecta abonar hasta US$300 millones al sector de la construcción",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/paraguay-proyecta-abonar-hasta-us-300-millones-al-sector-de-la-construccion-antes-de-finalizar-2026-4534382",
-      "fecha": "2026-11-26T18:28:08+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "b22714dad9c1efe7",
-      "titulo": "Pico y placa de este viernes: conozca las restricciones y evite multas.",
-      "categoria": "Valle del Cauca",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/cali/pico-y-placa-viernes-restricciones-26-11-2026/",
-      "fecha": "2026-11-26T18:25:01+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "8b5da74d6572743e",
-      "titulo": "Colombia sigue bajo el hechizo de no reconocer su mayor logro: una paz imperfecta",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/red-de-expertos/red-de-democracia-y-tecnologia/colombia-sigue-bajo-el-hechizo-de-no-reconocer-su-mayor-logro-una-paz-imperfecta/",
-      "fecha": "2026-11-26T18:24:28+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "aaf4586339e57887",
-      "titulo": "Ganadores del Empresario del Agro 2026 revelaron a La FM sus apuestas y los retos del sector agropecuario",
-      "categoria": "Economía",
-      "fuente": "La FM Economía",
-      "url": "https://www.lafm.com.co/economia/ganadores-empresario-del-agro-2026-retos-produccion-campo-colombiano-418399",
-      "fecha": "2026-11-26T18:24:16+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "7bcaf35ad724b01b",
-      "titulo": "Hospitales al límite y más de 1.300 quemados: el llamado urgente de Antioquia antes de diciembre",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/medellin/hospitales-al-limite-y-mas-de-1-300-quemados-el-llamado-urgente-de-antioquia-antes-de-diciembre-3604593",
-      "fecha": "2026-11-26T18:20:32+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "e7c06fc7bc146290",
-      "titulo": "Ecuador adjudica a la firma india Kalpataru para una línea eléctrica con Perú",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/ecuador-adjudica-a-la-firma-india-kalpataru-para-una-linea-electrica-con-peru-4534374",
-      "fecha": "2026-11-26T18:19:41+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "72ac4db0c6d85bb4",
-      "titulo": "El Black Friday de FRITZ! es la oportunidad perfecta para comprar un router o un sistema mesh de calidad al mejor precio",
-      "categoria": "Cali",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/seleccion/black-friday-fritz-oportunidad-perfecta-para-comprar-router-sistema-mesh-calidad-al-mejor-precio",
-      "fecha": "2026-11-26T18:18:20+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "9e24884cf810888a",
-      "titulo": "‘Mercado Solidario’ en La Flora: conozca cómo acceder a alimentos con precios especiales para damnificados",
-      "categoria": "Economía",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/cali/mercado-solidario-flora-damnificados-sismo-26-11-2026/",
-      "fecha": "2026-11-26T18:15:07+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "5ff634c84db9b316",
-      "titulo": "El precio de la vivienda se dispara 15% en octubre y acumula 91% de subida",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/el-precio-de-la-vivienda-se-dispara-15-en-octubre-y-acumula-91-de-subida-4534357",
-      "fecha": "2026-11-26T18:14:16+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "dbb78a3591014f64",
-      "titulo": "Diario del gobierno de Abelardo: Brics, Fondo Milagro y tributaria",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/en-vivo/diario-del-gobierno-de-abelardo-brics-fondo-milagro-y-tributaria/",
-      "fecha": "2026-11-26T18:13:33+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "72438a6e8c6b9de0",
-      "titulo": "Compró los tiquetes para regresar a casa, pero una emboscada truncó sus planes: este era Kevin Torres, el patrullero barranquillero asesinado en Cauca",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/barranquilla/compro-los-tiquetes-para-regresar-a-casa-pero-una-emboscada-trunco-sus-planes-este-era-kevin-torres-el-patrullero-barranquillero-asesinado-en-cauca-3604594",
-      "fecha": "2026-11-26T18:10:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "1d47ce3578b7110a",
-      "titulo": "Fedegán baja el tono con MinAgricultura y ofrece colaborar con auditoría: “No pretendemos cogobernar”",
-      "categoria": "Economía",
-      "fuente": "La FM Economía",
-      "url": "https://www.lafm.com.co/economia/fedegan-pide-dialogo-con-minagricultura-y-acepta-auditoria-al-fondo-nacional-del-ganado-418395",
-      "fecha": "2026-11-26T18:06:07+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "775541f316d414b3",
-      "titulo": "Senado aprueba $3,8 billones al presupuesto de 2027: ¿qué cubrirán los recursos?",
-      "categoria": "Valle del Cauca",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/colombia/senado-aprueba-38-billones-presupuesto-2027-26-11-2026/",
-      "fecha": "2026-11-26T18:02:15+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "6b48d4f1e8bfcbf3",
-      "titulo": "Trump dice que le gustaría que Putin \"retire\" su agresión militar contra Europa",
-      "categoria": "Internacional",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/trump-dice-que-le-gustaria-que-putin-retire-su-agresion-militar-contra-europa-4534349",
-      "fecha": "2026-11-26T17:59:37+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "38d5fd9cd7717abb",
-      "titulo": "MinAgricultura vuelve a cuestionar a Fedegán por fondos parafiscales: \"se incomodan porque exijo transparencia\"",
-      "categoria": "Economía",
-      "fuente": "La FM Economía",
-      "url": "https://www.lafm.com.co/economia/minagricultura-cuestiona-a-fedegan-por-fondos-parafiscales-y-productividad-ganadera-418393",
-      "fecha": "2026-11-26T17:57:50+00:00",
-      "imagen": ""
     }
   ],
   "estado_fuentes": [
@@ -553,7 +553,7 @@
       "nombre": "El Tiempo Cali",
       "url": "https://www.eltiempo.com/rss/colombia_cali.xml",
       "estado": "correcto",
-      "titulares": 9
+      "titulares": 8
     },
     {
       "nombre": "El Espectador",
@@ -590,7 +590,7 @@
       "nombre": "BBC Mundo",
       "url": "https://feeds.bbci.co.uk/mundo/rss.xml",
       "estado": "correcto",
-      "titulares": 29
+      "titulares": 28
     },
     {
       "nombre": "DW Español",
@@ -662,9 +662,8 @@
     {
       "nombre": "Chocó 7 días",
       "url": "https://choco7dias.com/feed/",
-      "estado": "error",
-      "titulares": 0,
-      "detalle": "415 Client Error: Unsupported Media Type for url: https://choco7dias.com/feed/"
+      "estado": "correcto",
+      "titulares": 10
     },
     {
       "nombre": "La Patria — Caldas",
