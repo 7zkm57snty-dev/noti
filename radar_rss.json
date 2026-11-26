@@ -1,13 +1,310 @@
 {
-  "ultima_actualizacion": "2026-11-26T16:44:23.053015+00:00",
+  "ultima_actualizacion": "2026-11-26T17:39:04.185716+00:00",
   "titulares_rss": [
     {
-      "id": "89d656e08b351234",
-      "titulo": "Banco de Occidente habilita pagos de facturas en 650 tiendas Oxxo del país",
+      "id": "06df2f7426158dc3",
+      "titulo": "SpaceX tiene luz verde para desplegar un millón de satélites con centros de datos: no es por la IA es por la energía",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/espacio/spacex-tiene-luz-verde-para-desplegar-millon-satelites-centros-datos-no-ia-energia",
+      "fecha": "2026-11-26T17:33:44+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "adffe63fc194324d",
+      "titulo": "\"La suerte se le terminó\": el migrante que fue detenido por ICE en EE.UU. días después de ganar la lotería",
+      "categoria": "Internacional",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/c6lym4rjyp3go?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-26T17:33:08+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "9a05088ef8109549",
+      "titulo": "Manuela González se suma a Della, un modelo de vivienda compartida para mujeres",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/ocio/manuela-gonzalez-se-suma-a-della-un-modelo-de-vivienda-compartida-para-mujeres-4534282",
+      "fecha": "2026-11-26T17:33:02+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "97aea19106e8578a",
+      "titulo": "Evacúan trabajadores de refinería venezolana Amuay por incendio, no reportan heridos",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/globoeconomia/evacuan-trabajadores-de-refineria-venezolana-amuay-por-incendio-no-reportan-heridos-4534299",
+      "fecha": "2026-11-26T17:31:46+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "038e3cdc9a978c92",
+      "titulo": "Grupo farmacéutico mexicano Pisa proyecta invertir entre US$205 millones y US$255 millones en Colombia",
+      "categoria": "Colombia",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/negocios/empresas/grupo-farmaceutico-mexicano-pisa-proyecta-invertir-entre-us-205-millones-y-us-255-millones-en-territorio-colombiano-507143",
+      "fecha": "2026-11-26T17:27:39+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "0ceedf1a91a14ae9",
+      "titulo": "El planeta cruza otra línea roja: una semana seguida por encima de los dos grados de calentamiento",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/clima-y-medio-ambiente/2026-11-26/el-planeta-cruza-otra-linea-roja-seis-dias-por-encima-de-los-2-grados-de-calentamiento.html",
+      "fecha": "2026-11-26T17:27:36+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "d5ff87ae66df792d",
+      "titulo": "MinTrabajo dio inicio a la negociación que definirá salario mínimo para 2027",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/economia/mintrabajo-dio-inicio-a-la-negociacion-que-definira-salario-minimo-para-2027-4534284",
+      "fecha": "2026-11-26T17:25:30+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "e6aa65233c2888cc",
+      "titulo": "Dos futbolistas presos en Brasil por caso de tráfico de drogas y armas",
+      "categoria": "Deportes",
+      "fuente": "La FM Internacional",
+      "url": "https://www.lafm.com.co/internacional/dos-futbolistas-presos-en-brasil-por-colaborar-con-bandas-criminales-418389",
+      "fecha": "2026-11-26T17:25:27+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "217e5098057c1ce4",
+      "titulo": "Analac quiere que los colombianos sepan qué leche consumen: propone sello para lácteos de origen nacional",
+      "categoria": "Colombia",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/agro/analac-quiere-que-los-colombianos-sepan-que-leche-consumen-propone-sello-para-lacteos-de-origen-nacional-507165",
+      "fecha": "2026-11-26T17:25:21+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "ebc04be8fc6ec961",
+      "titulo": "Mobilize Financial Services obtuvo $162.134 millones para impulsar créditos de vehículos",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/finanzas/mobilize-financial-services-obtuvo-162-134-millones-para-impulsar-creditos-de-vehiculos-4534281",
+      "fecha": "2026-11-26T17:24:17+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "2fdd4f88d4e9634b",
+      "titulo": "Multinacional Emergent Cold LatAm invierte US$13 millones en Yumbo, en el Valle del Cauca: así es su nueva megaobra",
+      "categoria": "Valle del Cauca",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/regiones/multinacional-emergent-cold-latam-invierte-us-13-millones-en-yumbo-en-el-valle-del-cauca-asi-es-su-nueva-megaobra-507150",
+      "fecha": "2026-11-26T17:17:13+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "8a1be1fdf40b3158",
+      "titulo": "The Economist afirma que Colombia se está convirtiendo en un centro mundial para la gestación subrogada",
+      "categoria": "Deportes",
+      "fuente": "La FM Internacional",
+      "url": "https://www.lafm.com.co/internacional/the-economist-gestacion-subrogada-colombia-centro-mundial-falta-regulaciones-418387",
+      "fecha": "2026-11-26T17:16:49+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "9055798602b98260",
+      "titulo": "Cambiar de móvil sale a cuenta con las nuevas ofertas de AliExpress. Estas son las cinco que más nos han gustado durante el Black Friday",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/seleccion/cambiar-movil-sale-a-cuenta-nuevas-ofertas-aliexpress-estas-cinco-que-nos-han-gustado-durante-black-friday",
+      "fecha": "2026-11-26T17:16:20+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "7fe81a5099c9fdce",
+      "titulo": "Pereira alista cierres para la implosión de Invico",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/actualidad/pereira-alista-cierres-para-la-implosion-de-invico/",
+      "fecha": "2026-11-26T17:12:56+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "e114770aceeebce7",
+      "titulo": "Trump pide a Putin que \"retire toda agresión militar\" contra Europa",
+      "categoria": "Internacional",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/trump-pide-a-putin-que-retire-toda-agresión-militar-contra-europa/a-80068205?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-26T17:12:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "7299e0d2c7ed79b0",
+      "titulo": "Gobierno busca agilizar los procesos de consulta previa y licenciamiento ambiental",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/economia/gobierno-busca-agilizar-los-procesos-de-consulta-previa-y-licenciamiento-ambiental-4534258",
+      "fecha": "2026-11-26T17:08:12+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "787a0dde5f6462b6",
+      "titulo": "Santiago Buitrago cambia sus planes por influencia de Primoz Roglic: esta será su 'gran vuelta' en 2027",
+      "categoria": "Deportes",
+      "fuente": "La FM Deportes",
+      "url": "https://www.lafm.com.co/deportes/santiago-buitrago-correra-giro-italia-2027-carapaz-418386",
+      "fecha": "2026-11-26T17:07:03+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "e375dabed179c455",
+      "titulo": "Mercado de motocicletas crece 28% y espera cerrar el año con récord de ventas",
       "categoria": "Economía",
       "fuente": "La República",
-      "url": "https://www.larepublica.co/finanzas/banco-de-occidente-habilita-pagos-de-facturas-en-650-tiendas-oxxo-del-pais-4534149",
+      "url": "https://www.larepublica.co/especiales/automotores/mercado-de-motocicletas-crece-28-y-espera-cerrar-el-ano-con-record-de-ventas-4534235",
+      "fecha": "2026-11-26T17:04:14+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "6e7560145fa9fcf8",
+      "titulo": "Mientras los focos estaban sobre Jensen Huang, Estados Unidos tomó una importante decisión que le da ventaja sobre la China en la carrera de por IA",
+      "categoria": "Internacional",
+      "fuente": "La FM Internacional",
+      "url": "https://www.lafm.com.co/internacional/estados-unidos-cierra-brecha-legal-contrabando-chips-nvidia-china-418384",
+      "fecha": "2026-11-26T17:03:29+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "748335ae13d6dbf1",
+      "titulo": "La inseguridad se ha convertido en una condición estructural de Internet",
+      "categoria": "Tecnología",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/opinion/inseguridad-se-ha-convertido-condicion-estructural-internet",
+      "fecha": "2026-11-26T17:00:25+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "cce285c7c3ec2237",
+      "titulo": "MediaMarkt quiere que cambiemos de tele en este Black Friday: descuentos de hasta el 50% en todo tipo de modelos",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/seleccion/mediamarkt-quiere-que-cambiemos-tele-este-black-friday-descuentos-50-todo-tipo-modelos",
+      "fecha": "2026-11-26T17:00:25+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "4c7bd99791831cbd",
+      "titulo": "La integración entre Colombia y Venezuela necesita la recuperación militar de la frontera",
+      "categoria": "Internacional",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/red-de-expertos/red-de-venezuela/la-integracion-entre-colombia-y-venezuela-necesita-la-recuperacion-militar-de-la-frontera/",
+      "fecha": "2026-11-26T17:00:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "985b27b598954371",
+      "titulo": "Superintendencia de Industria y Comercio inspecciona la Alcaldía de Barrancabermeja tras denuncias de Abelardo De La Espriella por presunta corrupción",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/santander/superintendencia-de-industria-y-comercio-inspecciona-la-alcaldia-de-barrancabermeja-tras-denuncias-de-abelardo-de-la-espriella-por-presunta-corrupcion-3604564",
+      "fecha": "2026-11-26T16:57:15+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "55db82716ba53cf1",
+      "titulo": "¿Cómo va la recuperación de la red eléctrica? 80% de la demanda ya fue atendida",
+      "categoria": "Valle del Cauca",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/colombia/como-va-recuperacion-red-electrica-80-demanda-atendida-26-11-2026/",
+      "fecha": "2026-11-26T16:55:36+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "ce3c4f24e4f67e8f",
+      "titulo": "Dos italianos mueren en ataque iraní con drones en Kuwait",
+      "categoria": "Internacional",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/dos-italianos-mueren-en-ataque-iraní-con-drones-en-kuwait/a-80067924?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-26T16:53:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "cfc282d0a80ffb3b",
+      "titulo": "En los pantanos de Florida hay conejos de peluche con paneles solares montando guardia: su presa son serpientes invasoras",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/magnet/pantanos-florida-hay-conejos-peluche-paneles-solares-montando-guardia-su-presa-serpientes-invasoras",
+      "fecha": "2026-11-26T16:51:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "ce7b5abbbaac2c60",
+      "titulo": "Día sin Carro y sin Moto en Tunja este jueves 26 de noviembre: vehículos autorizados para circular y excepciones a la restricción",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/dia-sin-carro-y-sin-moto-en-tunja-este-jueves-26-de-noviembre-vehiculos-autorizados-para-circular-y-excepciones-a-la-restriccion-3604460",
+      "fecha": "2026-11-26T16:47:32+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "d598f958dfe0a0e6",
+      "titulo": "Black Friday: recomendaciones para aprovechar los descuentos sin afectar el bolsillo",
+      "categoria": "Valle del Cauca",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/vida-moderna/black-friday-compras-descuentos-26-11-2026/",
+      "fecha": "2026-11-26T16:46:20+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "d22efe8be2748025",
+      "titulo": "Inflación no descansa en Acción de Gracias y cenar será más caro en EE.UU.",
+      "categoria": "Economía",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/globoeconomia/inflacion-no-descansa-en-accion-de-gracias-y-cenar-sera-mas-caro-en-ee-uu-4534260",
+      "fecha": "2026-11-26T16:45:57+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "15783ea416681aa2",
+      "titulo": "¿A qué se dedicaba el hombre abatido durante la toma de rehenes en el Éxito de Cartagena?",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/jailer-muneton-zapata-abatido-toma-rehenes-exito-cartagena-KB44101487",
+      "fecha": "2026-11-26T16:44:48+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "cf1457d0e6885d4c",
+      "titulo": "Avanza demolición de edificaciones afectadas por el terremoto en Cali: 25 estructuras intervenidas",
+      "categoria": "Cali",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/cali/avanza-demolicion-edificaciones-afectadas-terremoto-cali-26-11-2026/",
+      "fecha": "2026-11-26T16:44:08+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "731becf6fe3adfc5",
+      "titulo": "¿Puede perder su trabajo por negarse a hacer horas extra en Colombia?",
+      "categoria": "Colombia",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/colombia/perder-su-trabajo-por-negarse-a-hacer-horas-extra-en-colombia-26-11-2026/",
+      "fecha": "2026-11-26T16:43:37+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "3775bacd6c756b4a",
+      "titulo": "Banco de Occidente habilita pagos de facturas en 650 tiendas Oxxo",
+      "categoria": "Economía",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/finanzas/banco-de-occidente-habilita-pagos-de-facturas-en-650-tiendas-oxxo-4534149",
       "fecha": "2026-11-26T16:38:19+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "f7ab2fe3de52940f",
+      "titulo": "Un petrolero con 7.000 toneladas de combustible se hunde cerca de las costas de la isla de Ibiza",
+      "categoria": "Internacional",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/cm5y1l439dz6o?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-26T16:37:09+00:00",
       "imagen": ""
     },
     {
@@ -44,6 +341,15 @@
       "fuente": "La Silla Vacía",
       "url": "https://www.lasillavacia.com/en-vivo/gobierno-de-abelardo-frena-el-ingreso-de-colombia-a-los-brics/",
       "fecha": "2026-11-26T16:30:43+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "c7e6adb1ff4205ec",
+      "titulo": "Frisby se pronunció luego de sus colaboradores cayeran en la toma de rehenes en El Éxito de Cartagena: habrían sido obligados a servir comidas",
+      "categoria": "Deportes",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/frisby-se-pronuncio-luego-de-sus-colaboradores-cayeran-en-la-toma-de-rehenes-en-el-exito-de-cartagena-habrian-sido-obligados-a-servir-comidas-3604549",
+      "fecha": "2026-11-26T16:29:53+00:00",
       "imagen": ""
     },
     {
@@ -101,15 +407,6 @@
       "imagen": ""
     },
     {
-      "id": "15783ea416681aa2",
-      "titulo": "¿A qué se dedicaba el hombre abatido durante la toma de rehenes en el Éxito de Cartagena?",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/jailer-muneton-zapata-abatido-toma-rehenes-exito-cartagena-KB44101487",
-      "fecha": "2026-11-26T16:16:48+00:00",
-      "imagen": ""
-    },
-    {
       "id": "f54dda9951b241ec",
       "titulo": "Acaba el Black November de AEG, pero estos cuatro chollos siguen disponibles: tenemos un horno, una lavadora con eficiencia A y más",
       "categoria": "Colombia",
@@ -125,6 +422,15 @@
       "fuente": "El Tiempo",
       "url": "https://www.eltiempo.com/colombia/barranquilla/barranquilla-entrega-el-primer-edificio-de-vivienda-en-el-gran-malecon-con-760-apartamentos-y-una-inversion-de-379-000-millones-a-orillas-del-rio-3604538",
       "fecha": "2026-11-26T16:15:14+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "9fecceccb2b96110",
+      "titulo": "Tormentas e inundaciones complican Thanksgiving en Estados Unidos: desfiles cancelados y emergencias declaradas",
+      "categoria": "Internacional",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/us/2026-11-26/tormentas-e-inundaciones-complican-thanksgiving-en-estados-unidos-desfiles-cancelados-y-emergencias-declaradas.html",
+      "fecha": "2026-11-26T16:13:20+00:00",
       "imagen": ""
     },
     {
@@ -173,17 +479,26 @@
       "imagen": ""
     },
     {
+      "id": "33a461a2071c061e",
+      "titulo": "España dona 600.000 euros para formación de 65 jóvenes y reconstrucción en Quibdó y Buenaventura",
+      "categoria": "Valle del Cauca",
+      "fuente": "Chocó 7 días",
+      "url": "https://choco7dias.com/espana-dona-600-000-euros-para-formacion-de-65-jovenes-y-reconstruccion-en-quibdo-y-buenaventura/",
+      "fecha": "2026-11-26T16:03:05+00:00",
+      "imagen": ""
+    },
+    {
       "id": "875a030a15906514",
       "titulo": "Nuclear, renovables y factura de la luz: qué propone cada partido para la energía en las elecciones del 29N",
       "categoria": "Colombia",
       "fuente": "Xataka",
       "url": "https://www.xataka.com/energia/nuclear-renovables-factura-luz-que-propone-cada-partido-para-energia-elecciones-29n",
-      "fecha": "2026-11-26T16:00:26+00:00",
+      "fecha": "2026-11-26T16:00:00+00:00",
       "imagen": ""
     },
     {
       "id": "e01ec0abd6ec8e54",
-      "titulo": "Starmind, el polémico proyecto de Elon Musk aprobado por EE.UU. para construir centros de datos en el espacio",
+      "titulo": "Starmind, el polémico proyecto de Elon Musk aprobado por EE.UU. para lanzar 1 millón de satélites al espacio",
       "categoria": "Internacional",
       "fuente": "BBC Mundo",
       "url": "https://www.bbc.com/mundo/articles/c5y4j0nyelemo?at_medium=RSS&at_campaign=rss",
@@ -224,321 +539,6 @@
       "fuente": "El Tiempo",
       "url": "https://www.eltiempo.com/colombia/santander/hospital-internacional-de-colombia-hic-llego-a-su-ocupacion-maxima-de-urgencias-esta-trabajando-con-el-450-de-su-capacidad-3604521",
       "fecha": "2026-11-26T15:50:50+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "62476e0df62bc869",
-      "titulo": "Subsidios de vivienda volverán con el programa 'Mi Casa Milagro': Gobierno prepara convocatoria para 2027",
-      "categoria": "Colombia",
-      "fuente": "La FM Economía",
-      "url": "https://www.lafm.com.co/economia/subsidios-de-vivienda-volveran-programa-mi-casa-milagro-gobierno-prepara-convocatoria-2027-418370",
-      "fecha": "2026-11-26T15:49:33+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "ae4fa84ca98a9624",
-      "titulo": "Golpes policiales revelan quiénes están detrás de atentados en Popayán, ataques a empresa de aseo y secuestros en otras zonas del Cauca este año",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/cali/golpes-policiales-revelan-quienes-estan-detras-de-atentados-en-popayan-ataques-a-empresa-de-aseo-y-secuestros-en-otras-zonas-del-cauca-este-ano-3604501",
-      "fecha": "2026-11-26T15:46:36+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "7742d6cedf67e993",
-      "titulo": "Este Garmin es de lo mejor que hay si buscas un reloj para running: buen seguimiento, hasta 13 días de autonomía y precio mínimo",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/seleccion/este-garmin-mejor-que-hay-buscas-reloj-para-running-buen-seguimiento-13-dias-autonomia-precio-minimo",
-      "fecha": "2026-11-26T15:46:20+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "2870aea2ab332cb1",
-      "titulo": "“Un acto de barbarie”: así calificó De la Espriella el ataque con dron terrorista en iglesia de Valle del Cauca",
-      "categoria": "Cali",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/atentado-terrorista-dron-iglesia-dagua-abelardo-espriella-declaracion-acto-barbarie-MB44103168",
-      "fecha": "2026-11-26T15:45:52+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "8aab97e4b01ed57f",
-      "titulo": "Multinacional invierte US$13 millones en Yumbo, en el Valle del Cauca: así es su nueva megaobra",
-      "categoria": "Valle del Cauca",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/regiones/multinacional-invierte-us-13-millones-en-yumbo-en-el-valle-del-cauca-asi-es-su-nueva-megaobra-507150",
-      "fecha": "2026-11-26T15:44:17+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "ff9bd0b33fc91688",
-      "titulo": "Llevamos décadas tratando de unir la relatividad y la física cuántica. Un investigador de OpenAI dice que lo ha conseguido (parcialmente)",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/investigacion/llevamos-decadas-tratando-unir-relatividad-fisica-cuantica-investigador-openai-dice-que-ha-conseguido-parcialmente",
-      "fecha": "2026-11-26T15:43:18+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "afa4f72e1f0d2d1a",
-      "titulo": "Colombia frenó su ingreso al banco de los BRICS",
-      "categoria": "Economía",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/noticias/internacionales/colombia-freno-su-ingreso-al-banco-de-los-brics/",
-      "fecha": "2026-11-26T15:38:24+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "772c563b4a70601b",
-      "titulo": "Exsupersolidaria del Gobierno Petro denunció amenazas contra su vida",
-      "categoria": "Colombia",
-      "fuente": "La FM Actualidad",
-      "url": "https://www.lafm.com.co/actualidad/exsupersolidaria-del-gobierno-petro-denuncio-amenazas-contra-su-vida-418375",
-      "fecha": "2026-11-26T15:34:28+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "27a32b02b5ff66ac",
-      "titulo": "Elon Musk promete dos acciones de SpaceX a cada niño de Estados Unidos",
-      "categoria": "Internacional",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/elon-musk-promete-dos-acciones-de-spacex-a-cada-nino-de-estados-unidos-4534126",
-      "fecha": "2026-11-26T15:33:52+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "2cfc0b05f88efc8b",
-      "titulo": "Metro de Medellín diversifica su negocio: así sera su apuesta con proyecto inmobiliario de más de 1.100 viviendas",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/crecimiento/metro-de-medellin-diversifica-su-negocio-asi-sera-su-apuesta-con-proyecto-inmobiliario-de-mas-de-1-100-viviendas-507076",
-      "fecha": "2026-11-26T15:28:40+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "77885180473b9cec",
-      "titulo": "La FIFA sufre ciberataque y robo de datos personales",
-      "categoria": "Internacional",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/la-fifa-sufre-ciberataque-y-robo-de-datos-personales/a-80066313?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-26T15:28:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "27636f25f842e93f",
-      "titulo": "El poco conocido origen mexicano del pavo que se come en Acción de Gracias en Estados Unidos",
-      "categoria": "Internacional",
-      "fuente": "BBC Mundo",
-      "url": "https://www.bbc.com/mundo/articles/cyv7r0m6g14o?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-26T15:27:48+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "a46e1b2bf4c55b9c",
-      "titulo": "Ministerio de Defensa respondió a versiones sobre hombre abatido en secuestro del Éxito de Cartagena: 'Fue necesario actuar para controlar la amenaza'",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/ministerio-de-defensa-respondio-a-versiones-sobre-hombre-abatido-en-secuestro-del-exito-de-cartagena-fue-necesario-actuar-para-controlar-la-amenaza-3604517",
-      "fecha": "2026-11-26T15:26:48+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "ff6213d5f4cc265f",
-      "titulo": "Entrevista con Elsa Noguera Ministra de Transporte desde el Congreso Nacional de la Infraestructura",
-      "categoria": "Colombia",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/infraestructura/entrevista-con-elsa-noguera-ministra-de-transporte-desde-el-congreso-nacional-de-la-infraestructura-507148",
-      "fecha": "2026-11-26T15:23:55+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "9555ac858aeb2970",
-      "titulo": "Abelardo rectifica: el wokismo no es enemigo de los valores de la Nación",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/en-vivo/abelardo-rectifica-el-wokismo-no-es-enemigo-de-los-valores-de-la-nacion/",
-      "fecha": "2026-11-26T15:22:42+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "0e156ec7aba0b4d6",
-      "titulo": "Hisense presenta el 32S6S, un televisor portátil con Hi-QLED y hasta 10 horas de batería para moverlo o llevarlo fuera de casa",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/seleccion/hisense-presenta-32s6s-televisor-portatil-hi-qled-10-horas-bateria-para-moverlo-llevarlo-fuera-casa",
-      "fecha": "2026-11-26T15:16:20+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "6f40c5d39b648b65",
-      "titulo": "El español Pablo Hernández de Cos sucederá a Lagarde en la presidencia del BCE",
-      "categoria": "Internacional",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/el-español-pablo-hernández-de-cos-sucederá-a-lagarde-en-la-presidencia-del-bce/a-80065324?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-26T15:16:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "06be49b1e2618fad",
-      "titulo": "Santa Marta recibe este jueves el AIDAdiva, uno de los 14 cruceros de la temporada, que suman 14.000 pasajeros y podrían dejar US$ 700.000",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/santa-marta-recibe-este-jueves-el-aidadiva-uno-de-los-14-cruceros-de-la-temporada-que-suman-14-000-pasajeros-y-podrian-dejar-us-700-3604510",
-      "fecha": "2026-11-26T15:13:41+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "a83bbadc749e5b9b",
-      "titulo": "Operación Iron 3.0: 94 capturados y 11 estructuras desarticuladas en Cali y municipios vecinos",
-      "categoria": "Cali",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/cali/operacion-iron-capturados-estructuras-desarticuladas-cali-26-11-2026/",
-      "fecha": "2026-11-26T15:13:31+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "e69715635fd642c3",
-      "titulo": "Fuerza Regida regresa a Colombia en 2027: ¿se presentará en Cali?",
-      "categoria": "Cali",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/entretenimiento/fuerza-regida-regresa-a-colombia-en-2027-26-11-2026/",
-      "fecha": "2026-11-26T15:12:20+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "224091ce060189d8",
-      "titulo": "MinSalud explica por qué bajar a 80% el giro directo a hospitales y clínicas que dejaron Petro y Jaramillo: “fue irresponsable”",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/minsalud-explica-bajar-80-giro-directo-hospitales-clinicas-dejaron-petro-jaramillo-CB44100165",
-      "fecha": "2026-11-26T15:07:20+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "8477cf802baa82d4",
-      "titulo": "Indignación por hombre que pidió sacar a un perro que se refugiaba de las altas temperaturas en un cajero de Florencia, Caquetá",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/indignacion-por-hombre-que-pidio-sacar-a-un-perro-que-se-refugiaba-de-las-altas-temperaturas-en-un-cajero-de-florencia-caqueta-3604486",
-      "fecha": "2026-11-26T15:04:28+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "25f29487aaf2dfdb",
-      "titulo": "Edmundo González anuncia su regreso a Venezuela para el próximo mes tras dos años de exilio en Madrid",
-      "categoria": "Internacional",
-      "fuente": "La FM Internacional",
-      "url": "https://www.lafm.com.co/internacional/edmundo-gonzalez-regresa-venezuela-diciembre-exilio-madrid-418373",
-      "fecha": "2026-11-26T15:02:43+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "ed772154568d481f",
-      "titulo": "Nuevo robo en supermercado, esta vez en D1 en Bogotá: 11 capturados tras intentar escapar en TransMilenio con cerveza, comida y dinero",
-      "categoria": "Economía",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/robo-d1-bogota-captura-once-tras-escapar-bus-transmilenio-FJ44099840",
-      "fecha": "2026-11-26T15:02:25+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "3bdfbb7f13447455",
-      "titulo": "El récord de atentados muestra los límites de la ofensiva militar",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/red-de-expertos/red-de-la-paz/el-record-de-atentados-muestra-los-limites-de-la-ofensiva-militar/",
-      "fecha": "2026-11-26T15:00:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "549588de11c179de",
-      "titulo": "La sombra del 'pucherazo' está marcando la recta final del 29N. La pregunta es de dónde viene y si es posible en España",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/magnet/sombra-pucherazo-esta-marcando-recta-final-29n-pregunta-donde-viene-posible-espana",
-      "fecha": "2026-11-26T15:00:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "30c33698f7a778da",
-      "titulo": "Diez años esperando justicia: ratifican condena en contra del hombre que asfixió y sepultó a su novia en el patio de su casa en Barrancabermeja",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/santander/diez-anos-esperando-justicia-ratifican-condena-en-contra-del-hombre-que-asfixio-y-sepulto-a-su-novia-en-el-patio-de-su-casa-en-barrancabermeja-3604505",
-      "fecha": "2026-11-26T14:59:13+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "6dc1c88e2297af81",
-      "titulo": "Subsidios de vivienda regresarán en 2027 con el programa Mi Casa Milagro",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/economia/subsidios-de-vivienda-regresaran-en-2027-con-el-programa-mi-casa-milagro-4534053",
-      "fecha": "2026-11-26T14:56:26+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "35b463ba862db4b7",
-      "titulo": "Uber pidió a Orsi frenar proyecto que prohíbe a taxis trabajar con aplicaciones",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/uber-pidio-a-orsi-frenar-proyecto-que-prohibe-a-taxis-trabajar-con-aplicaciones-4534082",
-      "fecha": "2026-11-26T14:54:34+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "8eb1fa015d823c80",
-      "titulo": "Bancolombia dejará de entregar billetes de $10.000 en algunos cajeros: ¿qué sucedió?",
-      "categoria": "Economía",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/vida-moderna/bancolombia-cajeros-dinero-26-11-2026/",
-      "fecha": "2026-11-26T14:48:38+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "8f8bb1405235883f",
-      "titulo": "Los expertos lo tienen claro: el tipo de calefacción que tienes en casa determina cuánto ahorrarás este invierno",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/energia/expertos-tienen-claro-tipo-calefaccion-que-tienes-casa-determina-cuanto-ahorraras-este-invierno",
-      "fecha": "2026-11-26T14:46:21+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "0ceedf1a91a14ae9",
-      "titulo": "El planeta cruza otra línea roja: una semana seguida por encima de los dos grados de calentamiento",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/clima-y-medio-ambiente/2026-11-26/el-planeta-cruza-otra-linea-roja-seis-dias-por-encima-de-los-2-grados-de-calentamiento.html",
-      "fecha": "2026-11-26T14:45:55+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "8a057b968ca56694",
-      "titulo": "Bbva y Mastercard llevan pagos sin contacto a celulares de pequeños negocios",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/finanzas/bbva-y-mastercard-llevan-los-pagos-sin-contacto-a-los-celulares-de-pequenos-negocios-4534034",
-      "fecha": "2026-11-26T14:45:30+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "73b2aea40c649968",
-      "titulo": "Capturan en TransMilenio a 11 integrantes de una banda, luego de robar un almacén en el sur de Bogotá",
-      "categoria": "Colombia",
-      "fuente": "La FM Actualidad",
-      "url": "https://www.lafm.com.co/actualidad/transmilenio-capturan-a-11-senalados-ladrones-despues-de-asaltar-almacen-en-el-sur-de-bogota-418369",
-      "fecha": "2026-11-26T14:44:56+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "bb25c0a9b44c7ed7",
-      "titulo": "Al menos 2.634 niñas colombianas han desaparecido este año, casi el triple que en 2025",
-      "categoria": "Colombia",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/efe/ninas-colombianas-desaparecido-ano-triple-que-2025-26-11-2026/",
-      "fecha": "2026-11-26T14:36:35+00:00",
       "imagen": ""
     }
   ],
@@ -590,7 +590,7 @@
       "nombre": "BBC Mundo",
       "url": "https://feeds.bbci.co.uk/mundo/rss.xml",
       "estado": "correcto",
-      "titulares": 29
+      "titulares": 30
     },
     {
       "nombre": "DW Español",
@@ -662,9 +662,8 @@
     {
       "nombre": "Chocó 7 días",
       "url": "https://choco7dias.com/feed/",
-      "estado": "error",
-      "titulares": 0,
-      "detalle": "415 Client Error: Unsupported Media Type for url: https://choco7dias.com/feed/"
+      "estado": "correcto",
+      "titulares": 9
     },
     {
       "nombre": "La Patria — Caldas",
