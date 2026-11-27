@@ -1,13 +1,517 @@
 {
-  "ultima_actualizacion": "2026-11-27T04:45:39.966531+00:00",
+  "ultima_actualizacion": "2026-11-27T06:10:39.464551+00:00",
   "titulares_rss": [
+    {
+      "id": "8d480d206300496c",
+      "titulo": "La carrera por la inteligencia artificial ya no se libra solo en la Tierra: China acaba de dar otro paso desde el espacio",
+      "categoria": "Tecnología",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/espacio/carrera-inteligencia-artificial-no-se-libra-solo-tierra-china-acaba-dar-otro-paso-espacio",
+      "fecha": "2026-11-27T06:02:16+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "53ce1d60d29e8d58",
+      "titulo": "Luis Díaz, nominado a mejor delantero de los Globe Soccer Awards 2026",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/deportes/luis-diaz-nominado-a-mejor-delantero-de-los-globe-soccer-awards-2026/",
+      "fecha": "2026-11-27T05:20:29+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "6e1e001f3031298a",
+      "titulo": "Esto dijo el abogado de los señalados por el secuestro en el Éxito de Cartagena durante la legalización de captura: 'No hay forma de oposición'",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/esto-dijo-el-abogado-de-los-senalados-por-el-secuestro-en-el-exito-de-cartagena-durante-la-legalizacion-de-captura-no-hay-forma-de-oposicion-3604765",
+      "fecha": "2026-11-27T05:20:01+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "d9656225e7e16327",
+      "titulo": "Lo mataron de seis balazos",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/judicial/lo-mataron-de-seis-balazos/",
+      "fecha": "2026-11-27T05:16:23+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "b9fd389e8062f141",
+      "titulo": "“Menos promesas y más resultados”: el reclamo de los damnificados",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/actualidad/menos-promesas-y-mas-resultados-el-reclamo-de-los-damnificados/",
+      "fecha": "2026-11-27T05:11:10+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "c80c3845c9fd8135",
+      "titulo": "Así van los cuadrangulares finales del Fútbol Colombiano",
+      "categoria": "Deportes",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/deportes/asi-van-los-cuadrangulares-finales-del-futbol-colombiano/",
+      "fecha": "2026-11-27T05:10:15+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "b4cbc1c7acb6689d",
+      "titulo": "La selva, la infancia y el tiempo, en los lienzos de Kindi Llajtu",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/punto-final/la-selva-la-infancia-y-el-tiempo-en-los-lienzos-de-kindi-llajtu/",
+      "fecha": "2026-11-27T05:03:51+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "c2e670e6bed62c1c",
+      "titulo": "El precio del dólar bajó $119,38 en Next Day por el festivo de Thanksgiving en Estados Unidos",
+      "categoria": "Economía",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/finanzas/precio-del-dolar-bajo-119-38-en-next-day-por-festivo-de-thanksgiving-en-estados-unidos-4534731",
+      "fecha": "2026-11-27T05:02:36+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "ddab2a6a6d135b48",
+      "titulo": "Proindesa propone ampliar medida de Obras por Impuestos a todo el territorio nacional",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/especiales/congreso-nacional-de-infraestructura-2026/entrevista-con-alberto-marino-presidente-de-proindesa-sobre-las-medidas-para-reactivas-las-obras-4534526",
+      "fecha": "2026-11-27T05:02:26+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "72448016e09f066a",
+      "titulo": "Cartagena busca vuelo directo a París y también una vitrina turística en Europa",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/especiales/encontremonos-en-caribe/cartagena-busca-vuelo-directo-a-paris-y-tambien-una-vitrina-turistica-en-europa-4534242",
+      "fecha": "2026-11-27T05:01:58+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "874545c9545539b5",
+      "titulo": "Serena del Mar, una década de transformación y desarrollo urbano en Cartagena",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/especiales/encontremonos-en-caribe/serena-del-mar-una-decada-de-transformacion-y-desarrollo-urbano-en-cartagena-4534259",
+      "fecha": "2026-11-27T05:01:57+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "2040242bb1cff7d6",
+      "titulo": "Tres claves para el mínimo de 2027",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/analisis/mauricio-olivera-2736594/tres-claves-para-el-minimo-de-2027-4534766",
+      "fecha": "2026-11-27T05:01:57+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "7e71ccf8bfd11832",
+      "titulo": "El enfoque de la Unisimón para responder a las necesidades empresariales",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/especiales/encontremonos-en-caribe/el-enfoque-de-la-unisimon-para-responder-a-las-necesidades-empresariales-4534233",
+      "fecha": "2026-11-27T05:01:56+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "6f9c1527ad6e3123",
+      "titulo": "Estas son algunas de las empresas que reciben donaciones para esta época decembrina",
+      "categoria": "Economía",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/responsabilidad-social/empresas-que-reciben-donaciones-para-diciembre-4534723",
+      "fecha": "2026-11-27T05:01:55+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "5134300c52fe903a",
+      "titulo": "La moto representa al menos la mitad del ingreso en 40% de los hogares colombianos",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/especiales/automotores/la-moto-representa-al-menos-la-mitad-del-ingreso-en-40-de-los-hogares-colombianos-4534544",
+      "fecha": "2026-11-27T05:01:53+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "02389eb8e60876da",
+      "titulo": "Soledad reporta avances importantes en vías, seguridad, educación y salud",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/especiales/encontremonos-en-caribe/soledad-reporta-avances-importantes-en-vias-seguridad-educacion-y-salud-4533469",
+      "fecha": "2026-11-27T05:01:52+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "8cbe30afa4f55a8c",
+      "titulo": "Galapa llevó al Foro CEO 2026 su apuesta por atraer inversión y desarrollo",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/especiales/encontremonos-en-caribe/galapa-llevo-al-foro-ceo-2026-su-apuesta-por-atraer-inversion-y-desarrollo-4534114",
+      "fecha": "2026-11-27T05:01:52+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "d52316100939b813",
+      "titulo": "Colombia debe refrendar su vocación agraria",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/opinion/editorial/colombia-debe-refrendar-su-vocacion-agraria-4534037",
+      "fecha": "2026-11-27T05:01:51+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "09d6c7f87b324819",
+      "titulo": "¿Cómo recuperar la inversión y generar empleo formal?",
+      "categoria": "Economía",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/analisis/sergio-mutis-caballero-500033/como-recuperar-la-inversion-y-generar-empleo-formal-4534789",
+      "fecha": "2026-11-27T05:01:48+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "bea6e9cc3eba5c4e",
+      "titulo": "El top 10 de la taquilla en los cines de Colombia es liderado por Spider-Man y Toy Story 5",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/ocio/spider-man-y-toy-story-5-lideran-el-top-10-de-la-taquilla-en-el-cine-colombiano-4534683",
+      "fecha": "2026-11-27T05:01:47+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "8e4177f19b244f29",
+      "titulo": "Marriott apuesta por el turismo de lujo y los negocios exclusivos en Santa Marta",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/especiales/encontremonos-en-caribe/marriott-apuesta-por-el-turismo-de-lujo-y-los-negocios-exclusivos-en-santa-marta-4534159",
+      "fecha": "2026-11-27T05:01:39+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "de6609114f0dd7e4",
+      "titulo": "\"Esperamos que el Aeropuerto del Café entre en operación a partir de 2030\"",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/especiales/congreso-nacional-de-infraestructura-2026/esperamos-que-el-aeropuerto-del-cafe-entre-en-operacion-a-partir-de-2030-4534550",
+      "fecha": "2026-11-27T05:01:34+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "dc58cee8c6928eae",
+      "titulo": "\"La inteligencia artificial podría aportar cerca de 6,2% del PIB colombiano en una década\"",
+      "categoria": "Tecnología",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/empresas/entrevista-con-edgardo-frias-director-general-de-google-para-la-region-andina-4534386",
+      "fecha": "2026-11-27T05:01:34+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "2b1f0bc54c1d9c9e",
+      "titulo": "Crecer demasiado pronto",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/analisis/econometria-consultores-2889073/crecer-demasiado-pronto-4534769",
+      "fecha": "2026-11-27T05:01:33+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "96c7294b4f359def",
+      "titulo": "Tasas de rentabilidad para invertir durante Navidad a 360 días en un CDT van hasta 13,3%",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/finanzas/tasas-de-rentabilidad-para-invertir-durante-navidad-a-360-dias-en-un-cdt-van-hasta-13-3-4534608",
+      "fecha": "2026-11-27T05:01:32+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "abe441a45a6ba8fb",
+      "titulo": "Atlántico crece y fortalece su competitividad, pero el empleo es su gran reto",
+      "categoria": "Economía",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/especiales/encontremonos-en-caribe/atlantico-crece-y-fortalece-su-competitividad-pero-el-empleo-es-su-gran-reto-4533396",
+      "fecha": "2026-11-27T05:01:30+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "06d6077741815429",
+      "titulo": "\"Apuntamos a 20% del mercado de vehículos nuevos en 2030 mediante adquisiciones\"",
+      "categoria": "Economía",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/empresas/entrevista-con-hector-corredor-polanco-managing-director-de-inchcape-4534045",
+      "fecha": "2026-11-27T05:01:27+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "eebf35d02b7d584c",
+      "titulo": "Los signos de los tiempos",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/analisis/juan-carlos-zuleta-acevedo-4320807/los-signos-de-los-tiempos-4534776",
+      "fecha": "2026-11-27T05:01:25+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "24c3ee822f3753dd",
+      "titulo": "Sabbyus lleva la IA a las finanzas de Pymes para optimizar su gestión empresarial",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/especiales/encontremonos-en-caribe/sabbyus-lleva-la-ia-a-las-finanzas-de-pymes-para-optimizar-su-gestion-empresarial-4534323",
+      "fecha": "2026-11-27T05:01:25+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "ad9729bae67fdd6d",
+      "titulo": "Así funciona el combustible de aviación, SAF, que se podrá hacer con aceite de palma",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/responsabilidad-social/asi-funciona-el-combustible-de-aviacion-saf-que-se-podra-hacer-con-aceite-de-palma-4534555",
+      "fecha": "2026-11-27T05:01:23+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "08c51c128026b5a3",
+      "titulo": "Neogold consolida su crecimiento en Colombia con joyas que cuentan historias",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/especiales/encontremonos-en-caribe/neogold-consolida-su-crecimiento-en-colombia-con-joyas-que-cuentan-historias-4534211",
+      "fecha": "2026-11-27T05:01:22+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "49d92195b13ff6f6",
+      "titulo": "La inflación no da tregua, el costo de una cena de Acción de Gracias está 6% más cara",
+      "categoria": "Economía",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/globoeconomia/inflacion-no-da-tregua-en-accion-de-gracias-con-cena-6-mas-cara-4534678",
+      "fecha": "2026-11-27T05:01:19+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "2a6922df4c3295b1",
+      "titulo": "Así se vivió el premio Empresario del Agro 2026 de Agronegocios y La República",
+      "categoria": "Cali",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/ocio/asi-se-vivio-el-premio-empresario-del-agro-2026-de-agronegocios-y-la-republica-4534711",
+      "fecha": "2026-11-27T05:01:19+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "f2be65c69110d96c",
+      "titulo": "Un evento como la Sudamericana generó más de US$60 millones para Barranquilla",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/especiales/encontremonos-en-caribe/un-evento-como-la-sudamericana-genero-mas-de-us-60-millones-para-barranquilla-4533380",
+      "fecha": "2026-11-27T05:01:18+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "b4477fb9580161ec",
+      "titulo": "Colombia retrocede en el ranking de la adopción de la inteligencia artificial",
+      "categoria": "Tecnología",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/globoeconomia/colombia-retrocede-en-el-ranking-de-la-adopcion-de-la-inteligencia-artificial-4534718",
+      "fecha": "2026-11-27T05:01:18+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "61aa84da80e701a2",
+      "titulo": "Selma, el restaurante que lleva la historia de una oveja a la mesa",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/ocio/selma-el-restaurante-que-lleva-la-historia-de-una-oveja-a-la-mesa-4534669",
+      "fecha": "2026-11-27T05:01:18+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "d7ff17c407d3e011",
+      "titulo": "Agricultura intensiva amenaza la biodiversidad de las regiones tropicales en el mundo",
+      "categoria": "Internacional",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/responsabilidad-social/la-agricultura-intensiva-amenaza-la-biodiversidad-en-las-regiones-tropicales-4534551",
+      "fecha": "2026-11-27T05:01:17+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "3dfdd7c1662c5b4f",
+      "titulo": "La mejor inversión del Caribe tiene menos de 25 años",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/especiales/encontremonos-en-caribe/la-mejor-inversion-del-caribe-tiene-menos-de-25-anos-4534076",
+      "fecha": "2026-11-27T05:01:14+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "099f5c9fbc788600",
+      "titulo": "Los voluntariados que puede hacer durante este mes para entrega de regalos y alimentos",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/responsabilidad-social/los-voluntariados-que-puede-hacer-durante-este-mes-para-entrega-de-regalos-y-alimentos-4534634",
+      "fecha": "2026-11-27T05:01:13+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "9476024d97cd4f35",
+      "titulo": "No renuncie al alumbrado navideño, ilumine sostenible para que la luz alcance",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/especiales/especial-responsabilidad-social-empresarial/no-renuncie-al-alumbrado-navideno-ilumine-sostenible-para-que-la-luz-alcance-4534827",
+      "fecha": "2026-11-27T05:01:12+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "001e3fe8c40401f9",
+      "titulo": "Con El Niño, Termoflores ha abastecido y respaldado a un millón de hogares",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/especiales/encontremonos-en-caribe/con-el-nino-termoflores-ha-abastecido-y-respaldado-a-un-millon-de-hogares-4533426",
+      "fecha": "2026-11-27T05:01:12+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "b33c5c948383de65",
+      "titulo": "Los fundamentales económicos para impulsar al Magdalena y Santa Marta",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/especiales/encontremonos-en-caribe/los-fundamentales-economicos-para-impulsar-al-magdalena-y-santa-marta-4533407",
+      "fecha": "2026-11-27T05:01:11+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "98936cdd9fc5f591",
+      "titulo": "Cuidar también es trabajar",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/opinion/cuidar-tambien-es-trabajar/",
+      "fecha": "2026-11-27T05:00:54+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "751832254454d54a",
+      "titulo": "Indignación por agresión a una adulta mayorp5",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/judicial/indignacion-por-agresion-a-una-adulta-mayor/",
+      "fecha": "2026-11-27T05:00:47+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "7caf5790fa2b04e6",
+      "titulo": "Menos retórica, más pragmatismo",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/opinion/menos-retorica-mas-pragmatismo/",
+      "fecha": "2026-11-27T05:00:42+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "fc13e59b5149c45c",
+      "titulo": "Las deudas",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/opinion/las-deudas/",
+      "fecha": "2026-11-27T05:00:42+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "eda6b0fe3bcfaa5b",
+      "titulo": "LLega el la mejor programación para el fin de semana, prográmese.",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/cultura/llega-el-la-mejor-programacion-para-el-fin-de-semana-programese/",
+      "fecha": "2026-11-27T05:00:42+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "f34a3337468d57f4",
+      "titulo": "Habría abusado de su hijastra durante dos años",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/judicial/habria-abusado-de-su-hijastra-durante-dos-anos/",
+      "fecha": "2026-11-27T05:00:37+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "af12aa073182a0d0",
+      "titulo": "Las casas en el aire",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/opinion/las-casas-en-el-aire/",
+      "fecha": "2026-11-27T05:00:35+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "8f825428fff4f78d",
+      "titulo": "La prudencia con China",
+      "categoria": "Internacional",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/opinion/la-prudencia-con-china/",
+      "fecha": "2026-11-27T05:00:30+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "e848eb4abb84d2cb",
+      "titulo": "Tenían una ‘cocina’ de tusibí en un apartamento",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/judicial/tenian-una-cocina-de-tusibi-en-un-apartamento/",
+      "fecha": "2026-11-27T05:00:25+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "6b880c6bec45aa28",
+      "titulo": "A diez años del Acuerdo de Paz",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/editorial/a-diez-anos-del-acuerdo-de-paz/",
+      "fecha": "2026-11-27T05:00:20+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "7a05af42b99b91e7",
+      "titulo": "Luces de la navidad en Pereira",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/opinion/luces-de-la-navidad-en-pereira/",
+      "fecha": "2026-11-27T05:00:11+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "a2f325f39da17109",
+      "titulo": "Actividad de café en un municipio de Caldas",
+      "categoria": "Colombia",
+      "fuente": "La Patria — Caldas",
+      "url": "https://www.lapatria.com/galerias/actividad-de-cafe-en-un-municipio-de-caldas",
+      "fecha": "2026-11-27T05:00:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "b3c4dad201a75b4c",
+      "titulo": "Día del Publicista en esta universidad en Manizales",
+      "categoria": "Colombia",
+      "fuente": "La Patria — Caldas",
+      "url": "https://www.lapatria.com/galerias/dia-del-publicista-en-esta-universidad-en-manizales",
+      "fecha": "2026-11-27T05:00:00+00:00",
+      "imagen": ""
+    },
     {
       "id": "f515f6553ce54a45",
       "titulo": "Revelan presuntos chats entre los secuestradores y el negociador de la Policía durante asalto armado con rehenes en un Éxito de Cartagena",
       "categoria": "Colombia",
       "fuente": "El Tiempo",
       "url": "https://www.eltiempo.com/colombia/otras-ciudades/revelan-los-presuntos-chats-entre-los-secuestradores-y-el-negociador-de-la-policia-durante-el-asalto-armado-con-rehenes-en-un-exito-de-cartagena-3604741",
-      "fecha": "2026-11-27T04:24:11+00:00",
+      "fecha": "2026-11-27T04:59:03+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "0834dfa4be1d3e40",
+      "titulo": "4 datos económicos que explican cómo llega España a las elecciones generales del 29N",
+      "categoria": "Internacional",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/c3rrgd44kqk2o?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-27T04:53:27+00:00",
       "imagen": ""
     },
     {
@@ -35,510 +539,6 @@
       "fuente": "El Tiempo",
       "url": "https://www.eltiempo.com/colombia/otras-ciudades/rehen-confundido-con-secuestrador-en-el-exito-de-cartagena-anuncia-acciones-legales-el-otro-pide-limpiar-su-buen-nombre-tras-disculpas-del-alcalde-3604663",
       "fecha": "2026-11-27T03:59:22+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "402a21eb6d096598",
-      "titulo": "Encuentran cuerpo de Anyi Jácome, secuestrada junto a tres agentes de la Dijín por el Eln en Norte de Santander: llevaba más de 100 días en cautiverio",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/encuentran-cuerpo-de-anyi-jacome-secuestrada-junto-a-tres-agentes-de-la-dijin-por-el-eln-en-norte-de-santander-llevaba-mas-de-100-dias-en-cautiverio-3604694",
-      "fecha": "2026-11-27T03:53:20+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "cbee3e22db7c50d3",
-      "titulo": "Operativo de 40 horas en Antioquia dejó 113 capturados: cayó alias 'Yampi', presunto cabecilla del grupo 'La Agonía' en la comuna 13 de Medellín",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/medellin/operativo-de-40-horas-en-antioquia-dejo-113-capturados-cayo-alias-yampi-presunto-cabecilla-del-grupo-la-agonia-en-la-comuna-13-de-medellin-3604723",
-      "fecha": "2026-11-27T03:53:02+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "206a509536569b73",
-      "titulo": "Así era 'Factos de la Biblia', el creador de contenido hallado sin vida en Palmira que se hizo viral sembrando cizaña entre parejas",
-      "categoria": "Valle del Cauca",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/cali/factos-de-la-biblia-el-creador-de-contenido-vallecaucano-que-metia-cizana-a-las-parejas-con-su-jijiji-jajaja-fue-hallado-sin-vida-en-su-casa-3604716",
-      "fecha": "2026-11-27T03:52:02+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "23926e5ac6e90e80",
-      "titulo": "Los candidatos a la Presidencia del Gobierno de España se enfrentan en último debate antes de las elecciones",
-      "categoria": "Colombia",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/los-candidatos-a-la-presidencia-del-gobierno-de-españa-se-enfrentan-en-último-debate-antes-de-las-elecciones/a-80070402?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-27T03:46:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "75cda04b25e878cc",
-      "titulo": "Presidente Abelardo De La Espriella informó que autoridades frustraron un nuevo intento de atentado en el Meta: se reportan dos personas capturadas",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/presidente-abelardo-de-la-espriella-anuncia-que-autoridades-frustraron-un-nuevo-intento-de-atentado-en-el-meta-se-reportan-dos-personas-capturadas-3604729",
-      "fecha": "2026-11-27T03:39:29+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "b51b260f002e9a67",
-      "titulo": "Cierran las urnas en el exterior para las elecciones españolas",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/argentina/2026-11-27/cierran-las-urnas-en-el-exterior-para-las-elecciones-espanolas.html",
-      "fecha": "2026-11-27T03:30:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "0707faf416808d00",
-      "titulo": "“Hay amenazas de muerte en la Facultad de Derecho”: docente de Universidad Nacional",
-      "categoria": "Colombia",
-      "fuente": "La FM Actualidad",
-      "url": "https://www.lafm.com.co/actualidad/denuncian-amenazas-universidad-nacional-418454",
-      "fecha": "2026-11-27T03:19:18+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "429058d6c4dd3d59",
-      "titulo": "¿El salario mínimo 2027 debería subir 7% o más de 9%? Estas son las cuentas tras dato clave del Dane",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/salario-minimo-2027-colombia-productividad-dane-reacciones-alza-GD44127155",
-      "fecha": "2026-11-27T03:15:17+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "06186b4ece1d944d",
-      "titulo": "Video | Autoridades frustraron presunto atentado terrorista en el Meta: hay dos capturados",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/video-autoridades-frustran-presunto-atentado-terrorista-meta-hay-dos-capturados-KC44136491",
-      "fecha": "2026-11-27T03:06:33+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "071647eae5bdb4be",
-      "titulo": "Sigue la crisis de energía en Nariño tras el atentado contra torres en zona de Taminango: el departamento solo cubre el 57 % de su demanda",
-      "categoria": "Cali",
-      "fuente": "El Tiempo Cali",
-      "url": "https://www.eltiempo.com/colombia/cali/sigue-la-crisis-de-energia-en-narino-tras-el-atentado-contra-torres-en-zona-de-taminango-el-departamento-solo-cubre-el-57-de-su-demanda-3604584",
-      "fecha": "2026-11-27T03:04:05+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "ab17593e3c97a42c",
-      "titulo": "Video | Así fue la Operación Iron 3.0 ordenada por el presidente Abelardo De La Espriella: golpeó a 11 bandas y dejó más de 90 capturas en Valle",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo Cali",
-      "url": "https://www.eltiempo.com/colombia/cali/asi-fue-la-operacion-iron-3-0-ordenada-por-el-presidente-abelardo-de-la-espriella-golpeo-a-11-bandas-criminales-y-dejo-mas-de-90-capturas-en-el-valle-3604446",
-      "fecha": "2026-11-27T03:01:55+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "057c02dea201c109",
-      "titulo": "Cali enciende la esperanza: arranca el montaje del alumbrado navideño 2026 con un árbol de 20 metros",
-      "categoria": "Cali",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/cali/cali-enciende-la-esperanza-arranca-el-montaje-del-alumbrado-navideno-2026-con-un-arbol-de-20-metros-3604730",
-      "fecha": "2026-11-27T02:41:54+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "b308aaf6e734b9c6",
-      "titulo": "Bolsas europeas repuntan a medida que disminuye la incertidumbre en el sector tecnológico",
-      "categoria": "Economía",
-      "fuente": "La FM Economía",
-      "url": "https://www.lafm.com.co/economia/bolsas-europeas-repuntan-disminuye-incertidumbre-sector-tecnologico-418446",
-      "fecha": "2026-11-27T02:31:57+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "29d64384424a9d38",
-      "titulo": "Viajar de Bogotá a Girardot será más caro desde diciembre: así quedan las tarifas de los peajes",
-      "categoria": "Colombia",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/regiones/viajar-de-bogota-a-girardot-sera-mas-caro-desde-diciembre-asi-quedan-las-tarifas-de-los-peajes-507208",
-      "fecha": "2026-11-27T02:30:38+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "d4cb4ff0f85ea5cb",
-      "titulo": "Imágenes del momento exacto de la llegada del carro bomba que explotó cerca de la Gobernación del Meta, en Villavicencio: así escapó el conductor",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/imagenes-del-momento-exacto-de-la-llegada-de-carro-bomba-que-exploto-cerca-de-la-gobernacion-del-meta-en-villavicencio-asi-escapo-el-conductor-3604678",
-      "fecha": "2026-11-27T02:22:18+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "58178ee950046b3a",
-      "titulo": "Congresista Claudia Romero tendría en su UTL a exsecretaria de Petro que obtuvo tres diplomas en un día",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/congresista-claudia-romero-tendria-en-su-utl-a-exsecretaria-de-petro-que-obtuvo-tres-diplomas-en-un-dia-JC44133785",
-      "fecha": "2026-11-27T02:21:52+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "9051581a0c198899",
-      "titulo": "Video revela cómo fue el ingreso de las Fuerzas Especiales al Éxito Cartagena durante el rescate",
-      "categoria": "Colombia",
-      "fuente": "La FM Actualidad",
-      "url": "https://www.lafm.com.co/actualidad/exito-de-cartagena-video-ingreso-fuerza-especial-liberacion-rehenes-418447",
-      "fecha": "2026-11-27T02:20:36+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "9e797720c70b70f2",
-      "titulo": "FIFA confirma ciberataque y revela que hubo acceso no autorizado a información personal y comercial",
-      "categoria": "Deportes",
-      "fuente": "La FM Deportes",
-      "url": "https://www.lafm.com.co/deportes/fifa-confirma-ciberataque-revela-hubo-acceso-no-autorizado-informacion-personal-comercial-418445",
-      "fecha": "2026-11-27T02:17:12+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "b4f30dd2edf74ec6",
-      "titulo": "Avistan jaguar cruzando el río Atrato en el Parque Nacional Los Katíos, Chocó",
-      "categoria": "Colombia",
-      "fuente": "Chocó 7 días",
-      "url": "https://choco7dias.com/avistan-jaguar-cruzando-el-rio-atrato-en-el-parque-nacional-los-katios-choco/",
-      "fecha": "2026-11-27T02:13:42+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "be48f36fc582a0ef",
-      "titulo": "Otro capítulo en el caso de presunta corrupción en Villanueva: Procuraduría investiga a funcionarios por presunto soborno a concejales",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/santander/otro-capitulo-en-el-caso-de-presunta-corrupcion-en-villanueva-procuraduria-investiga-a-funcionarios-por-presunto-soborno-a-concejales-3604722",
-      "fecha": "2026-11-27T02:11:41+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "96a26a6035928bd5",
-      "titulo": "Asesinaron a disparos a funcionario de la Fiscalía en Cauca: equipo especializado investiga el crimen",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/asesinan-disparos-funcionario-fiscalia-cauca-equipo-especial-investiga-crimen-KC44131597",
-      "fecha": "2026-11-27T02:07:12+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "7dba9253d941efd1",
-      "titulo": "Simulan accidente múltiple con derrame de material peligroso en la vía Buenaventura-Loboguerrero-Buga",
-      "categoria": "Valle del Cauca",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/regionales/valle-del-cauca/corredor-vial-buenaventura-loboguerrero-buga-tuvo-simulacro/",
-      "fecha": "2026-11-27T01:57:04+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "f4e0b0a97cf3b5ee",
-      "titulo": "Trump dice que Huang está entusiasmado con su \"segundo mandato\" en Nvidia",
-      "categoria": "Internacional",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/trump-dice-que-huang-esta-entusiasmado-con-su-segundo-mandato-en-nvidia-4534876",
-      "fecha": "2026-11-27T01:55:24+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "ae4fa84ca98a9624",
-      "titulo": "Golpes policiales revelan quiénes están detrás de atentados en Popayán, ataques a empresa de aseo y secuestros en otras zonas del Cauca este año",
-      "categoria": "Cali",
-      "fuente": "El Tiempo Cali",
-      "url": "https://www.eltiempo.com/colombia/cali/golpes-policiales-revelan-quienes-estan-detras-de-atentados-en-popayan-ataques-a-empresa-de-aseo-y-secuestros-en-otras-zonas-del-cauca-este-ano-3604501",
-      "fecha": "2026-11-27T01:37:06+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "80f4b560eb3dc589",
-      "titulo": "Fuerte tormenta afecta la operación del aeropuerto El Dorado: Aerocivil anuncia restricciones y demoras",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/regiones/fuerte-tormenta-afecta-la-operacion-del-aeropuerto-el-dorado-aerocivil-anuncia-restricciones-y-demoras-507202",
-      "fecha": "2026-11-27T01:28:18+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "acad9e2dd3f4f64b",
-      "titulo": "Colombia tendrá herramienta que monitorea impacto ambiental de empresas",
-      "categoria": "Economía",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/silla-amazonia/amazonia-en-breve/colombia-tendra-herramienta-que-monitorea-impacto-ambiental-de-empresas/",
-      "fecha": "2026-11-27T01:17:36+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "4b619e11db20726e",
-      "titulo": "Registraduría ya tiene todo listo para que antioqueños decidan el futuro del Valle de San Nicolás",
-      "categoria": "Colombia",
-      "fuente": "La FM Actualidad",
-      "url": "https://www.lafm.com.co/actualidad/registraduria-elecciones-antioquia-san-nicolas-418443",
-      "fecha": "2026-11-27T01:12:42+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "96c1b732946f4399",
-      "titulo": "Adición presupuestal destina $2,7 billones al Fondo Milagro",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/actualidad/adicion-presupuestal-destina-27-billones-al-fondo-milagro/",
-      "fecha": "2026-11-27T01:03:27+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "01874620a4bc5087",
-      "titulo": "Vivienda y salud están muy relacionados",
-      "categoria": "Colombia",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/secciones/salud/vivienda-y-salud-informe-ministerio-sanidad/",
-      "fecha": "2026-11-27T01:02:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "86c42d6d0f59c901",
-      "titulo": "Colpensiones podría cobrar aportes a pensión atrasados: Consejo de Estado aclaró el plazo",
-      "categoria": "Economía",
-      "fuente": "La FM Economía",
-      "url": "https://www.lafm.com.co/economia/colpensiones-podria-cobrar-aportes-a-pension-atrasados-consejo-de-estado-aclaro-el-plazo-418440",
-      "fecha": "2026-11-27T00:57:52+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "f1988c645d607ef4",
-      "titulo": "EE.UU. está demasiado centrado en Medio Oriente y no presiona lo suficiente a Rusia, le dice Zelensky a la BBC",
-      "categoria": "Internacional",
-      "fuente": "BBC Mundo",
-      "url": "https://www.bbc.com/mundo/articles/cqvg2vv9mzmwo?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-27T00:49:22+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "679791b3863d53b1",
-      "titulo": "De la Espriella fija la meta de sacar a 3,6 millones de colombianos de la pobreza monetaria antes de finalizar 2030",
-      "categoria": "Colombia",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/gobierno/de-la-espriella-fija-la-meta-de-sacar-a-3-6-millones-de-colombianos-de-la-pobreza-monetaria-antes-de-finalizar-507201",
-      "fecha": "2026-11-27T00:41:29+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "9fecceccb2b96110",
-      "titulo": "El mal tiempo complica Thanksgiving en Estados Unidos: casi un millón sin luz, 2.000 vuelos retrasados y 400 cancelados",
-      "categoria": "Internacional",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/us/2026-11-26/tormentas-e-inundaciones-complican-thanksgiving-en-estados-unidos-desfiles-cancelados-y-emergencias-declaradas.html",
-      "fecha": "2026-11-27T00:39:20+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "ad6a5da00555f96f",
-      "titulo": "Colombia invierte menos de lo que necesita en infraestructura y gasta mal lo que invierte",
-      "categoria": "Colombia",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/empresario/xxiii-congreso-nacional-de-la-infraestructura-alerta-por-baja-inversion/",
-      "fecha": "2026-11-27T00:32:48+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "651c5c247cd05f8f",
-      "titulo": "¿Qué lee Gardeazábal? El reconocido escritor estará este sábado en el Oiga Mire Lea, durante la presentación de un libro homenaje",
-      "categoria": "Colombia",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/secciones/tendencias/que-lee-gardeazabal-presentan-libro-en-oiga-mire-lea/",
-      "fecha": "2026-11-27T00:22:56+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "020f560cea37a310",
-      "titulo": "Fuerza Ciudadana apuesta por una reorganización total y convoca a Convención Nacional de Refundación para 2027",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/fuerza-ciudadana-convoca-convencion-nacional-refundacion-2027-PD44124128",
-      "fecha": "2026-11-27T00:22:33+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "980aeb70b0caa6c9",
-      "titulo": "Gobierno nacional instaló mesa para reducir la pobreza hasta 20% en 2030",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/economia/gobierno-nacional-instalo-mesa-para-reducir-la-pobreza-hasta-20-en-2030-4534778",
-      "fecha": "2026-11-27T00:22:14+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "9364fd41a6d07c36",
-      "titulo": "El mundo conmemorará por primera vez el Día contra el Matrimonio Infantil: niñas de 14 años siguen unidas a hombres mayores en Colombia",
-      "categoria": "Internacional",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/dia-contra-matrimonio-infantil-colombia-ninas-14-anos-con-hombres-50-anos-mayores-KD44129773",
-      "fecha": "2026-11-27T00:18:58+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "a2c547340b6665a3",
-      "titulo": "Petro se lavó las manos por corrupción de Olmedo en caso UNGRD y Carrillo le respondió: “quien se equivocó fue usted”",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/petro-carrillo-se-enfrentan-por-corrupcion-caso-ungrd-olmedo-lopez-MA44112583",
-      "fecha": "2026-11-27T00:16:32+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "fb4444810821cdfd",
-      "titulo": "Sector privado busca nuevas fuentes de financiación para la infraestructura",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/economia/sector-privado-busca-nuevas-fuentes-de-financiacion-para-la-infraestructura-4534680",
-      "fecha": "2026-11-27T00:10:11+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "38c9d5751b3030db",
-      "titulo": "Clara Luz Roldán presentó Manifiesta con Jesús, el libro que su hijo Jairo Prado terminó quince días antes de morir",
-      "categoria": "Colombia",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/secciones/tendencias/manifiesta-con-jesus-lanzan-libro-postumo-de-jairo-prado/",
-      "fecha": "2026-11-27T00:09:50+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "5eb6a4a0bfaaee46",
-      "titulo": "La Superintendencia de Sociedades visitó La Silla Vacía",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/en-vivo/la-superintendencia-de-sociedades-visito-la-silla-vacia/",
-      "fecha": "2026-11-27T00:04:17+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "188fb3aefe4f9cec",
-      "titulo": "¿Viajará por la vía Buenaventura-Buga? Estos son los sectores y horarios con restricciones de paso vehicular",
-      "categoria": "Valle del Cauca",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/regionales/valle-del-cauca/via-buenaventura-buga-tendra-paso-a-un-carril-del-28-al-30/",
-      "fecha": "2026-11-27T00:03:53+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "0800769d62f34afb",
-      "titulo": "“A otro perro con ese hueso”: Sánchez hace un giro de estrategia total y reactiva el ánimo de los suyos",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/espana/elecciones-generales/2026-11-26/sanchez-hace-un-giro-de-estrategia-total-y-reactiva-el-animo-de-los-suyos.html",
-      "fecha": "2026-11-27T00:01:53+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "632d39e47af21fc5",
-      "titulo": "De La Espriella inauguró megacárcel en Riohacha",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/actualidad/de-la-espriella-inauguro-megacarcel-en-riohacha/",
-      "fecha": "2026-11-27T00:00:27+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "52fe3e788e0a9fb8",
-      "titulo": "Duerma informado con las claves de este 26 de noviembre de 2026",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/en-vivo/duerma-informado-con-las-claves-de-este-26-de-noviembre-de-2026/",
-      "fecha": "2026-11-27T00:00:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "cbfa96da0a5a70a8",
-      "titulo": "¿Cómo cambiará la movilidad en Cali con el tramo 3 de la Troncal Oriental? Estas son las obras previstas",
-      "categoria": "Cali",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/cali/troncal-oriental-de-cali-tramo-3-tendra-inversion-de-132013-millones/",
-      "fecha": "2026-11-26T23:56:34+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "2e9cf9f7fb527c48",
-      "titulo": "Este domingo será la implosión del edificio Invico en Pereira: así será el dispositivo de seguridad",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/este-domingo-sera-la-implosion-del-edificio-invico-en-pereira-asi-sera-el-dispositivo-de-seguridad-3604700",
-      "fecha": "2026-11-26T23:55:01+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "1c3e4279deff770e",
-      "titulo": "Avenida del oriente de Cali llevará el nombre de Luz Mery Tristán: Concejo aprobó el proyecto en primer debate",
-      "categoria": "Cali",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/cali/avenida-luz-mery-tristan-avanza-en-concejo-de-cali-para-oriente/",
-      "fecha": "2026-11-26T23:52:21+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "26439e585a1278d5",
-      "titulo": "Chocó: un día como hoy… 26 de noviembre de 1738",
-      "categoria": "Colombia",
-      "fuente": "Chocó 7 días",
-      "url": "https://choco7dias.com/choco-un-dia-como-hoy-26-de-noviembre-de-1738/",
-      "fecha": "2026-11-26T23:52:12+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "a75f7717c70b0e45",
-      "titulo": "Westcol en el Congreso: popularidad digital no equivale a liderazgo",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/red-de-expertos/red-social/westcol-en-el-congreso-popularidad-digital-no-equivale-a-liderazgo/",
-      "fecha": "2026-11-26T23:47:06+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "ec505b490ef23d06",
-      "titulo": "Valle refuerza vigilancia con cámaras de alta tecnología",
-      "categoria": "Tecnología",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/regionales/valle-del-cauca/camaras-de-seguridad-en-el-valle-instalan-la-primera-en-buga/",
-      "fecha": "2026-11-26T23:45:37+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "433ff8d2112576bb",
-      "titulo": "Video | Revelan primeras imágenes del secuestro en el Éxito de Cartagena que terminó con un delincuente abatido",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/video-revelan-primeras-imagenes-secuestro-exito-cartagena-delincuente-abatido-CD44125430",
-      "fecha": "2026-11-26T23:45:11+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "571615b55d64694a",
-      "titulo": "El 'Messi croata' del F.C. Barcelona se ofrece a tres clubes del FPC",
-      "categoria": "Deportes",
-      "fuente": "La FM Deportes",
-      "url": "https://www.lafm.com.co/deportes/el-messi-croata-del-fc-barcelona-se-ofrece-a-tres-clubes-del-fpc-418431",
-      "fecha": "2026-11-26T23:44:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "16992d31fe9a1424",
-      "titulo": "En video | Camión lleno de pólvora se explotó en una carretera del Cesar: el conductor se salvó",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/video-camion-polvora-exploto-carretera-cesar-conductor-sobrevivio-JD44128414",
-      "fecha": "2026-11-26T23:40:08+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "f390e67ee5c94f47",
-      "titulo": "De la Espriella rectifica sus afirmaciones sobre el ‘wokismo’: “No es enemigo de la nación”",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/america-colombia/2026-11-26/de-la-espriella-rectifica-sus-afirmaciones-sobre-el-wokismo-no-es-enemigo-de-la-nacion.html",
-      "fecha": "2026-11-26T23:40:06+00:00",
       "imagen": ""
     }
   ],
