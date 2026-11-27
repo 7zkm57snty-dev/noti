@@ -1,6 +1,24 @@
 {
-  "ultima_actualizacion": "2026-11-27T06:10:39.464551+00:00",
+  "ultima_actualizacion": "2026-11-27T07:32:20.497992+00:00",
   "titulares_rss": [
+    {
+      "id": "ea09f0ec363156c8",
+      "titulo": "Un pueblo de Castellón regala hasta 900 euros la decoración navideña de sus calles y balcones. Es el modelo contrario a Vigo",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/magnet/pueblo-castellon-regala-900-euros-decoracion-navidena-sus-calles-balcones-modelo-contrario-a-vigo",
+      "fecha": "2026-11-27T07:00:25+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "5ec96cf759c2f210",
+      "titulo": "Australia sanciona a dos hombres ligados a Irán y a la coordinación de ataques antisemitas en ese país",
+      "categoria": "Deportes",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/australia-sanciona-a-dos-hombres-ligados-a-irán-y-a-la-coordinación-de-ataques-antisemitas-en-ese-país/a-80070666?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-27T06:38:00+00:00",
+      "imagen": ""
+    },
     {
       "id": "8d480d206300496c",
       "titulo": "La carrera por la inteligencia artificial ya no se libra solo en la Tierra: China acaba de dar otro paso desde el espacio",
@@ -137,20 +155,20 @@
       "imagen": ""
     },
     {
-      "id": "02389eb8e60876da",
-      "titulo": "Soledad reporta avances importantes en vías, seguridad, educación y salud",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/especiales/encontremonos-en-caribe/soledad-reporta-avances-importantes-en-vias-seguridad-educacion-y-salud-4533469",
-      "fecha": "2026-11-27T05:01:52+00:00",
-      "imagen": ""
-    },
-    {
       "id": "8cbe30afa4f55a8c",
       "titulo": "Galapa llevó al Foro CEO 2026 su apuesta por atraer inversión y desarrollo",
       "categoria": "Colombia",
       "fuente": "La República",
       "url": "https://www.larepublica.co/especiales/encontremonos-en-caribe/galapa-llevo-al-foro-ceo-2026-su-apuesta-por-atraer-inversion-y-desarrollo-4534114",
+      "fecha": "2026-11-27T05:01:52+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "02389eb8e60876da",
+      "titulo": "Soledad reporta avances importantes en vías, seguridad, educación y salud",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/especiales/encontremonos-en-caribe/soledad-reporta-avances-importantes-en-vias-seguridad-educacion-y-salud-4533469",
       "fecha": "2026-11-27T05:01:52+00:00",
       "imagen": ""
     },
@@ -191,20 +209,20 @@
       "imagen": ""
     },
     {
-      "id": "de6609114f0dd7e4",
-      "titulo": "\"Esperamos que el Aeropuerto del Café entre en operación a partir de 2030\"",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/especiales/congreso-nacional-de-infraestructura-2026/esperamos-que-el-aeropuerto-del-cafe-entre-en-operacion-a-partir-de-2030-4534550",
-      "fecha": "2026-11-27T05:01:34+00:00",
-      "imagen": ""
-    },
-    {
       "id": "dc58cee8c6928eae",
       "titulo": "\"La inteligencia artificial podría aportar cerca de 6,2% del PIB colombiano en una década\"",
       "categoria": "Tecnología",
       "fuente": "La República",
       "url": "https://www.larepublica.co/empresas/entrevista-con-edgardo-frias-director-general-de-google-para-la-region-andina-4534386",
+      "fecha": "2026-11-27T05:01:34+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "de6609114f0dd7e4",
+      "titulo": "\"Esperamos que el Aeropuerto del Café entre en operación a partir de 2030\"",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/especiales/congreso-nacional-de-infraestructura-2026/esperamos-que-el-aeropuerto-del-cafe-entre-en-operacion-a-partir-de-2030-4534550",
       "fecha": "2026-11-27T05:01:34+00:00",
       "imagen": ""
     },
@@ -299,15 +317,6 @@
       "imagen": ""
     },
     {
-      "id": "f2be65c69110d96c",
-      "titulo": "Un evento como la Sudamericana generó más de US$60 millones para Barranquilla",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/especiales/encontremonos-en-caribe/un-evento-como-la-sudamericana-genero-mas-de-us-60-millones-para-barranquilla-4533380",
-      "fecha": "2026-11-27T05:01:18+00:00",
-      "imagen": ""
-    },
-    {
       "id": "b4477fb9580161ec",
       "titulo": "Colombia retrocede en el ranking de la adopción de la inteligencia artificial",
       "categoria": "Tecnología",
@@ -322,6 +331,15 @@
       "categoria": "Colombia",
       "fuente": "La República",
       "url": "https://www.larepublica.co/ocio/selma-el-restaurante-que-lleva-la-historia-de-una-oveja-a-la-mesa-4534669",
+      "fecha": "2026-11-27T05:01:18+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "f2be65c69110d96c",
+      "titulo": "Un evento como la Sudamericana generó más de US$60 millones para Barranquilla",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/especiales/encontremonos-en-caribe/un-evento-como-la-sudamericana-genero-mas-de-us-60-millones-para-barranquilla-4533380",
       "fecha": "2026-11-27T05:01:18+00:00",
       "imagen": ""
     },
@@ -522,24 +540,6 @@
       "url": "https://www.lapatria.com/publicacion/portada-27-de-noviembre-del-2026",
       "fecha": "2026-11-27T04:21:52+00:00",
       "imagen": ""
-    },
-    {
-      "id": "61d00021a6ea0f7b",
-      "titulo": "Autoridades investigan asalto a la vivienda del director de Medicina Legal en Bogotá",
-      "categoria": "Colombia",
-      "fuente": "La FM Actualidad",
-      "url": "https://www.lafm.com.co/actualidad/asaltan-vivienda-director-medicina-legal-418455",
-      "fecha": "2026-11-27T04:03:09+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "7f0d31d725078fcc",
-      "titulo": "Dos rehenes habrían sido confundidos con secuestradores en Éxito de Cartagena: uno anuncia acciones legales y otro pide limpiar su nombre",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/rehen-confundido-con-secuestrador-en-el-exito-de-cartagena-anuncia-acciones-legales-el-otro-pide-limpiar-su-buen-nombre-tras-disculpas-del-alcalde-3604663",
-      "fecha": "2026-11-27T03:59:22+00:00",
-      "imagen": ""
     }
   ],
   "estado_fuentes": [
@@ -662,8 +662,9 @@
     {
       "nombre": "Chocó 7 días",
       "url": "https://choco7dias.com/feed/",
-      "estado": "correcto",
-      "titulares": 10
+      "estado": "error",
+      "titulares": 0,
+      "detalle": "415 Client Error: Unsupported Media Type for url: https://choco7dias.com/feed/"
     },
     {
       "nombre": "La Patria — Caldas",
