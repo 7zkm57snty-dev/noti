@@ -1,6 +1,132 @@
 {
-  "ultima_actualizacion": "2026-11-27T00:04:23.120517+00:00",
+  "ultima_actualizacion": "2026-11-27T01:29:21.048048+00:00",
   "titulares_rss": [
+    {
+      "id": "acad9e2dd3f4f64b",
+      "titulo": "Colombia tendrá herramienta que monitorea impacto ambiental de empresas",
+      "categoria": "Economía",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/silla-amazonia/amazonia-en-breve/colombia-tendra-herramienta-que-monitorea-impacto-ambiental-de-empresas/",
+      "fecha": "2026-11-27T01:17:36+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "96c1b732946f4399",
+      "titulo": "Adición presupuestal destina $2,7 billones al Fondo Milagro",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/actualidad/adicion-presupuestal-destina-27-billones-al-fondo-milagro/",
+      "fecha": "2026-11-27T01:03:27+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "86c42d6d0f59c901",
+      "titulo": "Colpensiones podría cobrar aportes a pensión atrasados: Consejo de Estado aclaró el plazo",
+      "categoria": "Economía",
+      "fuente": "La FM Economía",
+      "url": "https://www.lafm.com.co/economia/colpensiones-podria-cobrar-aportes-a-pension-atrasados-consejo-de-estado-aclaro-el-plazo-418440",
+      "fecha": "2026-11-27T00:57:52+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "f1988c645d607ef4",
+      "titulo": "EE.UU. está demasiado centrado en Medio Oriente y no presiona lo suficiente a Rusia, le dice Zelensky a la BBC",
+      "categoria": "Internacional",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/cqvg2vv9mzmwo?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-27T00:49:22+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "679791b3863d53b1",
+      "titulo": "De la Espriella fija la meta de sacar a 3,6 millones de colombianos de la pobreza monetaria antes de finalizar 2030",
+      "categoria": "Colombia",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/gobierno/de-la-espriella-fija-la-meta-de-sacar-a-3-6-millones-de-colombianos-de-la-pobreza-monetaria-antes-de-finalizar-507201",
+      "fecha": "2026-11-27T00:41:29+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "9fecceccb2b96110",
+      "titulo": "El mal tiempo complica Thanksgiving en Estados Unidos: casi un millón sin luz, 2.000 vuelos retrasados y 400 cancelados",
+      "categoria": "Internacional",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/us/2026-11-26/tormentas-e-inundaciones-complican-thanksgiving-en-estados-unidos-desfiles-cancelados-y-emergencias-declaradas.html",
+      "fecha": "2026-11-27T00:39:20+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "402a21eb6d096598",
+      "titulo": "Encuentran cuerpo de Anyi Jácome, secuestrada junto a tres agentes de la Dijín por el Eln en Norte de Santander: llevaba más de 100 días en cautiverio",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/encuentran-cuerpo-de-anyi-jacome-secuestrada-junto-a-tres-agentes-de-la-dijin-por-el-eln-en-norte-de-santander-llevaba-mas-de-100-dias-en-cautiverio-3604694",
+      "fecha": "2026-11-27T00:24:05+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "020f560cea37a310",
+      "titulo": "Fuerza Ciudadana apuesta por una reorganización total y convoca a Convención Nacional de Refundación para 2027",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/fuerza-ciudadana-convoca-convencion-nacional-refundacion-2027-PD44124128",
+      "fecha": "2026-11-27T00:22:33+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "980aeb70b0caa6c9",
+      "titulo": "Gobierno nacional instaló mesa para reducir la pobreza hasta 20% en 2030",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/economia/gobierno-nacional-instalo-mesa-para-reducir-la-pobreza-hasta-20-en-2030-4534778",
+      "fecha": "2026-11-27T00:22:14+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "7f0d31d725078fcc",
+      "titulo": "Dos rehenes habrían sido confundidos con secuestradores en Éxito de Cartagena: uno anuncia acciones legales y otro pide limpiar su nombre",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/rehen-confundido-con-secuestrador-en-el-exito-de-cartagena-anuncia-acciones-legales-el-otro-pide-limpiar-su-buen-nombre-tras-disculpas-del-alcalde-3604663",
+      "fecha": "2026-11-27T00:20:07+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "9364fd41a6d07c36",
+      "titulo": "El mundo conmemorará por primera vez el Día contra el Matrimonio Infantil: niñas de 14 años siguen unidas a hombres mayores en Colombia",
+      "categoria": "Internacional",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/dia-contra-matrimonio-infantil-colombia-ninas-14-anos-con-hombres-50-anos-mayores-KD44129773",
+      "fecha": "2026-11-27T00:18:58+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "a2c547340b6665a3",
+      "titulo": "Petro se lavó las manos por corrupción de Olmedo en caso UNGRD y Carrillo le respondió: “quien se equivocó fue usted”",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/petro-carrillo-se-enfrentan-por-corrupcion-caso-ungrd-olmedo-lopez-MA44112583",
+      "fecha": "2026-11-27T00:16:32+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "fb4444810821cdfd",
+      "titulo": "Sector privado busca nuevas fuentes de financiación para la infraestructura",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/economia/sector-privado-busca-nuevas-fuentes-de-financiacion-para-la-infraestructura-4534680",
+      "fecha": "2026-11-27T00:10:11+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "462105b4327a72be",
+      "titulo": "Feijóo salva el debate en medio del fuego cruzado contra su alianza con Abascal",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/espana/elecciones-generales/2026-11-26/feijoo-salva-el-debate-en-medio-del-fuego-cruzado-contra-su-alianza-con-abascal.html",
+      "fecha": "2026-11-27T00:07:05+00:00",
+      "imagen": ""
+    },
     {
       "id": "5eb6a4a0bfaaee46",
       "titulo": "La Superintendencia de Sociedades visitó La Silla Vacía",
@@ -20,12 +146,39 @@
       "imagen": ""
     },
     {
+      "id": "632d39e47af21fc5",
+      "titulo": "De La Espriella inauguró megacárcel en Riohacha",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/actualidad/de-la-espriella-inauguro-megacarcel-en-riohacha/",
+      "fecha": "2026-11-27T00:00:27+00:00",
+      "imagen": ""
+    },
+    {
       "id": "52fe3e788e0a9fb8",
       "titulo": "Duerma informado con las claves de este 26 de noviembre de 2026",
       "categoria": "Colombia",
       "fuente": "La Silla Vacía",
       "url": "https://www.lasillavacia.com/en-vivo/duerma-informado-con-las-claves-de-este-26-de-noviembre-de-2026/",
       "fecha": "2026-11-27T00:00:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "2e9cf9f7fb527c48",
+      "titulo": "Este domingo será la implosión del edificio Invico en Pereira: así será el dispositivo de seguridad",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/este-domingo-sera-la-implosion-del-edificio-invico-en-pereira-asi-sera-el-dispositivo-de-seguridad-3604700",
+      "fecha": "2026-11-26T23:55:01+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "26439e585a1278d5",
+      "titulo": "Chocó: un día como hoy… 26 de noviembre de 1738",
+      "categoria": "Colombia",
+      "fuente": "Chocó 7 días",
+      "url": "https://choco7dias.com/choco-un-dia-como-hoy-26-de-noviembre-de-1738/",
+      "fecha": "2026-11-26T23:52:12+00:00",
       "imagen": ""
     },
     {
@@ -44,6 +197,15 @@
       "fuente": "La Silla Vacía",
       "url": "https://www.lasillavacia.com/red-de-expertos/red-social/westcol-en-el-congreso-popularidad-digital-no-equivale-a-liderazgo/",
       "fecha": "2026-11-26T23:47:06+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "433ff8d2112576bb",
+      "titulo": "Video | Revelan primeras imágenes del secuestro en el Éxito de Cartagena que terminó con un delincuente abatido",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/video-revelan-primeras-imagenes-secuestro-exito-cartagena-delincuente-abatido-CD44125430",
+      "fecha": "2026-11-26T23:45:11+00:00",
       "imagen": ""
     },
     {
@@ -110,6 +272,15 @@
       "imagen": ""
     },
     {
+      "id": "52c5120a2540dd44",
+      "titulo": "Con 10 jornadas en las veredas, AMCO atendió inquietudes sobre la actualización catastral rural en Dosquebradas",
+      "categoria": "Colombia",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/actualidad/con-10-jornadas-en-las-veredas-amco-atendio-inquietudes-sobre-la-actualizacion-catastral-rural-en-dosquebradas/",
+      "fecha": "2026-11-26T23:27:31+00:00",
+      "imagen": ""
+    },
+    {
       "id": "b7dcb570291b70b9",
       "titulo": "¿Quién ha ganado el debate? Los analistas de EL PAÍS se decantan por Ada Colau",
       "categoria": "Colombia",
@@ -143,15 +314,6 @@
       "fuente": "Diario Occidente",
       "url": "https://occidente.co/cali/feria-hecho-en-modo-esperanza-reunira-a-200-emprendimientos-en-cali-conozca-las-fechas-y-que-encontraran-los-visitantes/",
       "fecha": "2026-11-26T23:24:09+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "462105b4327a72be",
-      "titulo": "Feijóo salva el debate en medio del fuego cruzado contra su alianza con Abascal",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/espana/elecciones-generales/2026-11-26/feijoo-salva-el-debate-en-medio-del-fuego-cruzado-contra-su-alianza-con-abascal.html",
-      "fecha": "2026-11-26T23:21:20+00:00",
       "imagen": ""
     },
     {
@@ -206,15 +368,6 @@
       "fuente": "90 Minutos",
       "url": "https://90minutos.co/vida-moderna/gastronomia/top-5-de-los-mejores-platos-navidenos-colombianos-26-11-2026/",
       "fecha": "2026-11-26T23:06:06+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "8dab67b696dc0b1d",
-      "titulo": "Reportan grave accidente de tránsito de un bus en Ibagué este jueves 26 de noviembre: varios pasajeros heridos y hay congestión vehicular en el sector",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/reportan-grave-accidente-de-transito-de-un-bus-en-ibague-este-jueves-26-de-noviembre-varios-pasajeros-heridos-y-hay-congestion-vehicular-en-el-sector-3604613",
-      "fecha": "2026-11-26T23:05:41+00:00",
       "imagen": ""
     },
     {
@@ -299,24 +452,6 @@
       "imagen": ""
     },
     {
-      "id": "7f0d31d725078fcc",
-      "titulo": "Rehén confundido con secuestrador en el Éxito de Cartagena anuncia acciones legales; el otro pide limpiar su buen nombre tras disculpas del alcalde",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/rehen-confundido-con-secuestrador-en-el-exito-de-cartagena-anuncia-acciones-legales-el-otro-pide-limpiar-su-buen-nombre-tras-disculpas-del-alcalde-3604663",
-      "fecha": "2026-11-26T22:57:27+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "433ff8d2112576bb",
-      "titulo": "Video | Revelan primeras imágenes del secuestro en el Éxito de Cartagena que terminó con un delincuente abatido",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/video-revelan-primeras-imagenes-secuestro-exito-cartagena-delincuente-abatido-CD44125430",
-      "fecha": "2026-11-26T22:53:59+00:00",
-      "imagen": ""
-    },
-    {
       "id": "f36b11f03942485f",
       "titulo": "Subsidios de vivienda y arriendo: así puede postularse si resultó afectado por el terremoto del 10 de agosto",
       "categoria": "Colombia",
@@ -398,147 +533,12 @@
       "imagen": ""
     },
     {
-      "id": "0c21029b9fa3f103",
-      "titulo": "Captan rostros y placas a 400 metros, incluso sin luz: así son las 581 cámaras de alta tecnología que reforzarán la seguridad en el Valle del Cauca",
-      "categoria": "Valle del Cauca",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/cali/captan-rostros-y-placas-a-400-metros-incluso-sin-luz-asi-son-las-581-camaras-de-alta-tecnologia-que-reforzaran-la-seguridad-en-el-valle-del-cauca-3604671",
-      "fecha": "2026-11-26T22:12:59+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "cac546ed9f609a07",
-      "titulo": "Cali tendrá jornada de oración y alabanza para recaudar fondos y reconstruir El Templete",
-      "categoria": "Cali",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/cali/parroquia-santisimo-sacramento-el-templete-hara-jornada-por-su-templo/",
-      "fecha": "2026-11-26T22:09:53+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "54029ad34b63cc2a",
-      "titulo": "Tributaria “no tiene nada acordado con el gobierno”, dijo Ape Cuello",
+      "id": "656e0ea5b8d3d19b",
+      "titulo": "Alcalde de Cartagena defendió la identificación del hombre abatido en Éxito",
       "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/en-vivo/tributaria-no-tiene-nada-acordado-con-el-gobierno-dijo-ape-cuello/",
-      "fecha": "2026-11-26T22:01:19+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "ed0140b904a7370e",
-      "titulo": "Black Friday 2026: órdenes en Rappi se dispararon 46% y estas son las cinco claves para comprar sin pagar de más",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/black-friday-2026-ordenes-en-rappi-se-dispararon-46-y-estas-son-las-cinco-claves-para-comprar-sin-pagar-de-mas-507189",
-      "fecha": "2026-11-26T22:00:12+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "86565babf880a1fb",
-      "titulo": "Proindesa plantea ajustes normativos para impulsar la infraestructura privada",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/infraestructura/proindesa-plantea-ajustes-normativos-para-impulsar-la-infraestructura-privada-507198",
-      "fecha": "2026-11-26T22:00:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "c78577ba70b6e9c2",
-      "titulo": "Cuidado con el Black Friday, detrás de una gran oferta podría esconderse una estafa",
-      "categoria": "Colombia",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/secciones/tecnologia/estafa-en-black-friday-alertas-trampas-y-como-evitarla/",
-      "fecha": "2026-11-26T21:58:54+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "e227a8c4f593579a",
-      "titulo": "La UAO obtiene sello ODS por transformar territorios a través de la sostenibilidad",
-      "categoria": "Valle del Cauca",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/la-uao/la-uao-obtiene-sello-ods-por-transformar-territorios-26-11-2026/",
-      "fecha": "2026-11-26T21:52:27+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "20115fcff8f0ce32",
-      "titulo": "La JEP destaca el cumplimiento de la Gobernación del Valle en la protección a comunidades étnicas del conflicto",
-      "categoria": "Valle del Cauca",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/valle-del-cauca/jep-gobernacion-del-valle-en-la-proteccion-a-comunidades-26-11-2026/",
-      "fecha": "2026-11-26T21:50:43+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "d73abd89107ef06c",
-      "titulo": "Fedegán responde al Ministerio de Agricultura y asegura que sí entregó información del Fondo Nacional del Ganado",
-      "categoria": "Colombia",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/gobierno/fedegan-responde-al-ministerio-de-agricultura-y-asegura-que-si-entrego-informacion-del-fondo-nacional-del-ganado-507187",
-      "fecha": "2026-11-26T21:44:48+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "614510c18802532e",
-      "titulo": "“Know your people”: la apuesta del puerto de Buenaventura para reconectar con su ciudad",
-      "categoria": "Valle del Cauca",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/empresario/puerto-de-buenaventura-reto-social-sismo-y-nuevo-decreto/",
-      "fecha": "2026-11-26T21:43:21+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "ef44bae841b62af4",
-      "titulo": "Banco alemán KfW aportará $3.200 millones para la Línea 4 del Metro de Bogotá: así avanzará la iniciativa",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/infraestructura/banco-aleman-kfw-aportara-3-200-millones-para-la-linea-4-del-metro-de-bogota-asi-avanzara-la-iniciativa-507183",
-      "fecha": "2026-11-26T21:43:19+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "7cded8ece0371f33",
-      "titulo": "Secuestradores habrían dado pollo Frisby a los rehenes del Éxito de Cartagena antes de su liberación: “A todos nos dieron”",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/secuestradores-dieron-pollo-frisby-rehenes-exito-cartagena-antes-liberacion-DA44111893",
-      "fecha": "2026-11-26T21:40:42+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "83f9fb2e415e1695",
-      "titulo": "Pacto Histórico buscó calmar las aguas con China, pero senador Agmeth Escaf volvió a responderle al embajador: “le exijo respeto”",
-      "categoria": "Internacional",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/pacto-historico-reunion-embajador-china-tension-viaje-congresistas-taiwan-senador-agmeth-escaf-respondio-HA44119295",
-      "fecha": "2026-11-26T21:36:33+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "e51d3bf9bba7f957",
-      "titulo": "Gobierno va a destinar más de $700.000 millones para las vías de Antioquia: estos son los corredores que recibirían inversiones",
-      "categoria": "Colombia",
-      "fuente": "La FM Actualidad",
-      "url": "https://www.lafm.com.co/actualidad/antioquia-vias-corredores-inversion-gobierno-418424",
-      "fecha": "2026-11-26T21:31:10+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "1b959fa9f7d625a8",
-      "titulo": "Congreso de Infraestructura 2026: CCI anuncia iniciativas para impulsar negocios y reconstruir zonas afectadas por el terremoto",
-      "categoria": "Colombia",
-      "fuente": "La FM Economía",
-      "url": "https://www.lafm.com.co/economia/camara-de-infraestructura-anuncia-iniciativas-impulsar-negocios-reconstruir-zonas-afectadas-terremoto-418423",
-      "fecha": "2026-11-26T21:31:09+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "ac4542b4d5cc5c97",
-      "titulo": "Países Bajos se planta ante EEUU por las restricciones a las máquinas de ASML",
-      "categoria": "Internacional",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/empresas-y-economia/paises-bajos-se-planta-eeuu-restricciones-a-maquinas-asml",
-      "fecha": "2026-11-26T21:30:26+00:00",
+      "fuente": "El Diario — Pereira",
+      "url": "https://www.eldiario.com.co/actualidad/alcalde-de-cartagena-defendio-la-identificacion-del-hombre-abatido-en-exito/",
+      "fecha": "2026-11-26T22:13:18+00:00",
       "imagen": ""
     }
   ],
@@ -590,7 +590,7 @@
       "nombre": "BBC Mundo",
       "url": "https://feeds.bbci.co.uk/mundo/rss.xml",
       "estado": "correcto",
-      "titulares": 29
+      "titulares": 30
     },
     {
       "nombre": "DW Español",
@@ -656,16 +656,14 @@
     {
       "nombre": "El Diario — Pereira",
       "url": "https://www.eldiario.com.co/feed/",
-      "estado": "error",
-      "titulares": 0,
-      "detalle": "El feed no contiene entradas."
+      "estado": "correcto",
+      "titulares": 35
     },
     {
       "nombre": "Chocó 7 días",
       "url": "https://choco7dias.com/feed/",
-      "estado": "error",
-      "titulares": 0,
-      "detalle": "415 Client Error: Unsupported Media Type for url: https://choco7dias.com/feed/"
+      "estado": "correcto",
+      "titulares": 10
     },
     {
       "nombre": "La Patria — Caldas",
