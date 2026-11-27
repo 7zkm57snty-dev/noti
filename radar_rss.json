@@ -1,13 +1,274 @@
 {
-  "ultima_actualizacion": "2026-11-27T20:36:19.746484+00:00",
+  "ultima_actualizacion": "2026-11-27T21:37:17.039223+00:00",
   "titulares_rss": [
     {
-      "id": "095dfaa5c646d988",
-      "titulo": "Acandí: acto de soberanía",
+      "id": "87c826e298fdce1a",
+      "titulo": "SpaceX recibe autorización para lanzar un millón de satélites y construir centros de datos de IA en el espacio",
+      "categoria": "Internacional",
+      "fuente": "La FM Internacional",
+      "url": "https://www.lafm.com.co/internacional/spacex-recibe-autorizacion-lanzar-un-millon-satelites-construir-centros-datos-ia-espacio-418535",
+      "fecha": "2026-11-27T21:32:28+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "e2f96dc851a2924b",
+      "titulo": "Palacio: los hechos no se pueden cambiar, pero la memoria sigue en disputa",
       "categoria": "Colombia",
-      "fuente": "Chocó 7 días",
-      "url": "https://choco7dias.com/acandi-acto-de-soberania/",
-      "fecha": "2026-11-27T20:36:04+00:00",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/silla-academica/palacio-los-hechos-no-se-pueden-cambiar-pero-la-memoria-sigue-en-disputa/",
+      "fecha": "2026-11-27T21:30:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "8d21f2c36972386b",
+      "titulo": "\"Ni EE.UU. llegó tan lejos\": por qué Costa Rica le impidió la entrada al país a Francesca Albanese, relatora especial de la ONU sobre los territorios palestinos",
+      "categoria": "Internacional",
+      "fuente": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/cmpqrv8e8n32o?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-27T21:29:09+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "154a1f7713a2afda",
+      "titulo": "La seguridad vial comienza con cada ciudadano",
+      "categoria": "Colombia",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/opinion/editorial/la-seguridad-vial-comienza-con-cada-ciudadano/",
+      "fecha": "2026-11-27T21:22:43+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "bfe13a6164094dcb",
+      "titulo": "Miller Soto confirma ruptura entre Abelardo y Maria Fernanda Cabal",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/en-vivo/miller-soto-confirma-ruptura-entre-abelardo-y-maria-fernanda-cabal/",
+      "fecha": "2026-11-27T21:19:47+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "f61d3d4be75a75d0",
+      "titulo": "Ideam presenta protocolos para el mercado de carbono",
+      "categoria": "Economía",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/silla-amazonia/amazonia-en-breve/ideam-presenta-protocolos-para-el-mercado-de-carbono/",
+      "fecha": "2026-11-27T21:15:25+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "acbb84661de48a25",
+      "titulo": "Rebelión científica tras el anuncio de un colaborador de OpenAI que asegura haber resuelto el gran problema de la física",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/ciencia/2026-11-27/rebelion-cientifica-tras-el-anuncio-de-un-colaborador-de-openai-que-asegura-haber-resuelto-el-gran-problema-de-la-fisica.html",
+      "fecha": "2026-11-27T21:13:06+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "916159a639f573e0",
+      "titulo": "¿De la Espriella, Toro y Eder, juntos en las elecciones de 2027?",
+      "categoria": "Colombia",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/politica/graffiti/alcaldia-de-cali-y-gobernacion-del-valle-bloque-de-unidad/",
+      "fecha": "2026-11-27T21:06:40+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "09113c3f74c905eb",
+      "titulo": "Prima de diciembre 2026: el reto financiero que enfrentan las empresas colombianas para cerrar el año",
+      "categoria": "Economía",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/prima-de-diciembre-2026-el-reto-financiero-que-enfrentan-las-empresas-colombianas-para-cerrar-el-ano-507271",
+      "fecha": "2026-11-27T21:06:09+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "344493a709b2641e",
+      "titulo": "El millonario negocio detrás de los videojuegos nominados a The Game Awards",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/ocio/el-millonario-negocio-detras-de-los-videojuegos-nominados-a-the-game-awards-4535532",
+      "fecha": "2026-11-27T21:06:08+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "6d4627c1eefabc17",
+      "titulo": "Prima de diciembre: ¿cómo debería utilizar la prima para saldar deudas, ahorros y gastos?",
+      "categoria": "Economía",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/finanzas/prima-de-diciembre-como-deberia-utilizar-la-prima-para-saldar-deudas-ahorros-y-gastos-507270",
+      "fecha": "2026-11-27T21:01:42+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "e22d8ed44192222f",
+      "titulo": "Aclaración sobre Alejandra M. en nota “La red abelardista cercana a Carlos Suárez que ataca a La Silla”",
+      "categoria": "Colombia",
+      "fuente": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/en-vivo/aclaracion-sobre-alejandra-m-en-nota-la-red-abelardista-cercana-a-carlos-suarez-que-ataca-a-la-silla/",
+      "fecha": "2026-11-27T21:01:18+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "1f13d557af3a7025",
+      "titulo": "El Concejo de Barranquilla condecora a Leonardo Herrera Delgans, periodista de EL TIEMPO, investigador y profesor que ha narrado el Caribe por 35 años",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/barranquilla/el-concejo-de-barranquilla-condecora-a-leonardo-herrera-delgans-periodista-de-el-tiempo-investigador-y-profesor-que-ha-narrado-el-caribe-por-35-anos-3605006",
+      "fecha": "2026-11-27T21:01:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "6038c3dbc2a5145f",
+      "titulo": "Hay un iPhone que se ha colado en las ofertas de última hora del Black Friday. Nunca lo hemos visto más barato",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/seleccion/hay-iphone-que-se-ha-colado-ofertas-ultima-hora-black-friday-nunca-hemos-visto-barato",
+      "fecha": "2026-11-27T21:00:25+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "001fbbfe80c04b32",
+      "titulo": "Tu perro convierte la vuelta a casa en una caótica fiesta. La ciencia sabe perfectamente por qué se entusiasma",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/ecologia-y-naturaleza/que-tu-perro-convierte-tu-vuelta-a-casa-autentica-fiesta-incluso-solo-has-salido-a-tirar-basura",
+      "fecha": "2026-11-27T21:00:25+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "f91f64e22150b001",
+      "titulo": "Uso de pólvora en el Valle del Cauca, Gobernación y las medidas para la temporada",
+      "categoria": "Valle del Cauca",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/valle-del-cauca/uso-de-polvora-en-el-valle-del-cauca-27-11-2026/",
+      "fecha": "2026-11-27T21:00:21+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "31fa20f94f843dea",
+      "titulo": "Primera tormenta invernal azotará México con lluvias torrenciales, nevadas y frío",
+      "categoria": "Valle del Cauca",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/mundo/tormenta-invernal-mexico-27-11-2026/",
+      "fecha": "2026-11-27T21:00:03+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "51883a3a13c16411",
+      "titulo": "De la Espriella habla por primera vez del mínimo: propone un “salario solidario” para formalizar trabajadores",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/salario-minimo-de-la-espriella-solidario-informales-cajas-compensacion-FH44166164",
+      "fecha": "2026-11-27T20:59:32+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "8fc034879e9ae751",
+      "titulo": "DNP proyecta invertir $288 billones en 64 proyectos de transporte para conectar a Colombia durante tres décadas",
+      "categoria": "Colombia",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/infraestructura/dnp-proyecta-invertir-288-billones-en-64-proyectos-de-transporte-para-conectar-a-colombia-durante-tres-decadas-507269",
+      "fecha": "2026-11-27T20:54:53+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "63e882d21548c448",
+      "titulo": "Icetex mantendrá condonaciones para deudores en 2027 y ofrecerá 15.000 créditos: revise los nuevos beneficios",
+      "categoria": "Economía",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/gobierno/icetex-mantendra-condonaciones-para-deudores-en-2027-y-ofrecera-15-000-creditos-revise-los-nuevos-beneficios-507268",
+      "fecha": "2026-11-27T20:54:05+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "92eb2b455ab0b3c5",
+      "titulo": "Tatiana Mejía deja la dirección de Tostao' tras cuatro años liderando la reorganización",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/empresas/tatiana-mejia-deja-la-direccion-de-tostao-tras-cuatro-anos-liderando-la-reorganizacion-4535505",
+      "fecha": "2026-11-27T20:48:38+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "62f08c2f13ce06c8",
+      "titulo": "Relatora de la ONU advierte que Costa Rica deberá rendir cuentas por acusaciones \"falsas\" de terrorismo",
+      "categoria": "Internacional",
+      "fuente": "DW Español",
+      "url": "https://www.dw.com/es/relatora-de-la-onu-advierte-que-costa-rica-deberá-rendir-cuentas-por-acusaciones-falsas-de-terrorismo/a-80082610?maca=spa-rss-sp-all-1122-rdf",
+      "fecha": "2026-11-27T20:47:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "4fed74c5e7051fd7",
+      "titulo": "El Bohemio espera vender seis toneladas de productos navideños durante diciembre",
+      "categoria": "Cali",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/empresas/el-bohemio-espera-vender-seis-toneladas-de-productos-navidenos-durante-diciembre-4535497",
+      "fecha": "2026-11-27T20:46:25+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "61cf6fb1e1dcc35b",
+      "titulo": "El Black Friday retro de Powerplanet tiene regalos tecnológicos originales con descuentos de hasta el 71%",
+      "categoria": "Colombia",
+      "fuente": "Xataka",
+      "url": "https://www.xataka.com/seleccion/black-friday-retro-powerplanet-tiene-regalos-tecnologicos-originales-descuentos-71",
+      "fecha": "2026-11-27T20:46:19+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "f5344c30cc548c8a",
+      "titulo": "Robos en San Antonio, Cali: heladería denuncia cuatro hurtos en menos de un mes",
+      "categoria": "Cali",
+      "fuente": "90 Minutos",
+      "url": "https://90minutos.co/judicial/robos-en-san-antonio-cali-heladeria-inseguridad-27-11-2026/",
+      "fecha": "2026-11-27T20:44:48+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "d1fae0ecdca7fec9",
+      "titulo": "Incautan celulares, droga y más de $5 millones en la cárcel de Villahermosa de Cali: esto encontraron las autoridades",
+      "categoria": "Cali",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/cali/carcel-de-villahermosa-de-cali-incautan-34-celulares-y-51-millones/",
+      "fecha": "2026-11-27T20:42:20+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "d51d5c080a67e486",
+      "titulo": "Uber reevaluará operación en Uruguay tras la prohibición de los taxis en la app",
+      "categoria": "Colombia",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/globoeconomia/uber-reevaluara-operacion-en-uruguay-tras-la-prohibicion-de-los-taxis-4535500",
+      "fecha": "2026-11-27T20:40:47+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "909daa9f654faa5c",
+      "titulo": "Secuestro en el Éxito de Cartagena: testigo contó cómo los delincuentes pelearon entre ellos y habría un cuarto implicado",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/secuestro-exito-cartagena-testigo-revelo-pelea-delincuentes-implicado-DH44165897",
+      "fecha": "2026-11-27T20:40:34+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "0d56c7584a319270",
+      "titulo": "Video | ¡Medias, camisetas y hasta ropa interior! Convirtieron un bus de TransMilenio en tendedero",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/medias-camisetas-ropa-interior-bus-transmilenio-tendedero-ropa-OH44165487",
+      "fecha": "2026-11-27T20:36:10+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "df3f5654b6e26a0f",
+      "titulo": "Cierre de campaña de las elecciones generales del 29-N, en directo | Los partidos cierran la campaña con actos multitudinarios para animar la participación y a los indecisos",
+      "categoria": "Colombia",
+      "fuente": "El País Colombia",
+      "url": "https://elpais.com/espana/elecciones-generales/2026-11-27/cierre-de-campana-de-las-elecciones-generales-del-29-n-en-directo.html",
+      "fecha": "2026-11-27T20:35:47+00:00",
       "imagen": ""
     },
     {
@@ -17,15 +278,6 @@
       "fuente": "Xataka",
       "url": "https://www.xataka.com/seleccion/alexa-descuentazo-50-esta-mejores-ofertas-tablet-amazon-para-este-black-friday",
       "fecha": "2026-11-27T20:30:25+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "df3f5654b6e26a0f",
-      "titulo": "Cierre de campaña de las elecciones generales del 29-N, en directo | Los partidos cierran la campaña con actos multitudinarios para animar la participación y a los indecisos",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/espana/elecciones-generales/2026-11-27/cierre-de-campana-de-las-elecciones-generales-del-29-n-en-directo.html",
-      "fecha": "2026-11-27T20:29:12+00:00",
       "imagen": ""
     },
     {
@@ -65,6 +317,15 @@
       "imagen": ""
     },
     {
+      "id": "ea0d362356748b27",
+      "titulo": "Videos de tirador de alta precisión a 1 km de distancia y cámara espía: así se grabó rescate de rehenes del Éxito de Cartagena",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/secuestro-rehenes-exito-videos-comandos-policia-rescate-HE44159284",
+      "fecha": "2026-11-27T20:21:23+00:00",
+      "imagen": ""
+    },
+    {
       "id": "ff77bb05b063c7e9",
       "titulo": "La recreativa que siempre quise cuando era pequeño está de oferta en Black Friday: una joya retro con el mítico Time Crisis",
       "categoria": "Colombia",
@@ -92,6 +353,15 @@
       "imagen": ""
     },
     {
+      "id": "fee4228a00377aff",
+      "titulo": "Acusaron a cuatro señalados de secuestrar, asfixiar e incinerar al profesor Neill Cubides en Bogotá: revelan detalles del crimen",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/acusan-cuatro-senalados-secuestrar-asfixiar-incinerar-profesor-neill-cubides-bogota-DH44161938",
+      "fecha": "2026-11-27T20:12:51+00:00",
+      "imagen": ""
+    },
+    {
       "id": "caeeb251a05bdec8",
       "titulo": "Advertencia de Restrepo: intereses tomarían uno de cada dos pesos del recaudo y corren riesgo un millón de empleos",
       "categoria": "Economía",
@@ -107,6 +377,15 @@
       "fuente": "DW Español",
       "url": "https://www.dw.com/es/zelenski-critica-a-trump-por-llamar-amigo-a-putin/a-80082525?maca=spa-rss-sp-all-1122-rdf",
       "fecha": "2026-11-27T20:10:00+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "8cfe69975768c158",
+      "titulo": "Exclusivo | Funcionaria que certificó estudios de Verónica Estrada en DIAN trabajó en Presidencia de Petro; salió a días del escándalo",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/funcionaria-dian-certifico-estudios-veronica-estrada-trabajo-dapre-petro-HF44142063",
+      "fecha": "2026-11-27T20:09:19+00:00",
       "imagen": ""
     },
     {
@@ -152,24 +431,6 @@
       "fuente": "El Tiempo",
       "url": "https://www.eltiempo.com/colombia/otras-ciudades/narino-recupera-el-100-por-ciento-de-la-energia-tras-apagon-por-atentado-contra-torres-en-taminango-cedenar-confirmo-el-restablecimiento-total-3604964",
       "fecha": "2026-11-27T20:02:54+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "08e26dc252e8b448",
-      "titulo": "Una Procuraduría preventiva, más ágil, eficaz y cercana a la gente. 4. Eje Defensa de los Derechos",
-      "categoria": "Colombia",
-      "fuente": "Chocó 7 días",
-      "url": "https://choco7dias.com/una-procuraduria-preventiva-mas-agil-eficaz-y-cercana-a-la-gente-4-eje-defensa-de-los-derechos/",
-      "fecha": "2026-11-27T20:02:49+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "0ea530cf63891a8e",
-      "titulo": "Los avances en el tratamiento del VIH permiten llevar una vida plena y saludable",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/temas/salud/los-avances-en-el-tratamiento-del-vih-permiten-llevar-una-vida-plena-y-saludable/",
-      "fecha": "2026-11-27T20:00:46+00:00",
       "imagen": ""
     },
     {
@@ -254,6 +515,15 @@
       "imagen": ""
     },
     {
+      "id": "ae4db5f67e7978ff",
+      "titulo": "Los tres delitos por los que Carlos Caicedo es requerido en Colombia tras ser retenido en España",
+      "categoria": "Colombia",
+      "fuente": "El Colombiano — Colombia",
+      "url": "https://www.elcolombiano.com/colombia/cuales-delitos-carlos-caicedo-captura-espana-colombia-OH44162590",
+      "fecha": "2026-11-27T19:44:32+00:00",
+      "imagen": ""
+    },
+    {
       "id": "7913ec7667edcd5f",
       "titulo": "Habló hermana de Anyi Jácome, hallada muerta tras ser secuestrada por el Eln, y reveló detalles de relación con policías: 'Trabajando como informante'",
       "categoria": "Colombia",
@@ -270,276 +540,6 @@
       "url": "https://www.lafm.com.co/deportes/los-tres-mejores-arbitros-en-la-historia-del-fpc-418527",
       "fecha": "2026-11-27T19:39:29+00:00",
       "imagen": ""
-    },
-    {
-      "id": "8d21f2c36972386b",
-      "titulo": "\"Ni EE.UU. llegó tan lejos\": por qué Costa Rica le impidió la entrada al país a Francesca Albanese, relatora especial de la ONU sobre los territorios palestinos",
-      "categoria": "Internacional",
-      "fuente": "BBC Mundo",
-      "url": "https://www.bbc.com/mundo/articles/cmpqrv8e8n32o?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-27T19:38:56+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "fd8005a621cc3cd4",
-      "titulo": "Hackers vulneran la plataforma informática insignia de la Fuerza Aérea de EE.UU.",
-      "categoria": "Internacional",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/hackers-vulneran-la-plataforma-informatica-insignia-de-la-fuerza-aerea-de-ee-uu-4535419",
-      "fecha": "2026-11-27T19:37:48+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "ece17e0e783bf7b1",
-      "titulo": "Parex llegará a la Bolsa de Colombia y abrirá nueva alternativa de inversión en petróleo",
-      "categoria": "Economía",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/finanzas/parex-llegara-a-la-bolsa-de-colombia-y-abrira-nueva-alternativa-de-inversion-en-petroleo-4535416",
-      "fecha": "2026-11-27T19:35:44+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "bfefa7bd02ac18bc",
-      "titulo": "Así cambiarían las obligaciones tributarias de los colombianos en 2027",
-      "categoria": "Deportes",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/noticias/economia/asi-cambiarian-las-obligaciones-tributarias-de-los-colombianos-en-2027/",
-      "fecha": "2026-11-27T19:30:55+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "46e2e44e6161a2bf",
-      "titulo": "Doble cesta, 9,5 litros y 2.470 W: la freidora de aire gigante de Ninja se desploma en el Black Friday de Amazon",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/seleccion/doble-cesta-9-5-litros-2-470-w-freidora-aire-gigante-ninja-se-desploma-black-friday-amazon",
-      "fecha": "2026-11-27T19:30:22+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "4ffafe6a69e9e4d4",
-      "titulo": "Un cuartel en Pozuelo, una estación en Torrejón y un satélite: así ha sido el primer ensayo militar de España con la red satelital de la UE",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/espacio/cuartel-pozuelo-estacion-torrejon-satelite-espanol-asi-ha-sido-primer-ensayo-militar-espana-red-satelital-ue",
-      "fecha": "2026-11-27T19:30:22+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "57a0d624e2865e47",
-      "titulo": "Video | Así fue la captura de exgobernador Carlos Caicedo en España",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/video-asi-fue-la-captura-de-exgobernador-carlos-caicedo-en-espana-OH44162268",
-      "fecha": "2026-11-27T19:28:49+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "55c2885640476d7d",
-      "titulo": "Edicto 2do. aviso Celia Potes Moreno",
-      "categoria": "Colombia",
-      "fuente": "Chocó 7 días",
-      "url": "https://choco7dias.com/edicto-2do-aviso-celia-potes-moreno/",
-      "fecha": "2026-11-27T19:26:09+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "ae4db5f67e7978ff",
-      "titulo": "Los tres delitos por los que Carlos Caicedo es requerido en Colombia tras ser retenido en España",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/cuales-delitos-carlos-caicedo-captura-espana-colombia-OH44162590",
-      "fecha": "2026-11-27T19:22:43+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "0d55169a661ebacd",
-      "titulo": "Metro de Bogotá: estudios preliminares y prediseño de la línea 4 comenzarían en diciembre de 2026",
-      "categoria": "Colombia",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/infraestructura/metro-de-bogota-estudios-preliminares-y-prediseno-de-la-linea-4-comenzarian-en-diciembre-de-507257",
-      "fecha": "2026-11-27T19:09:53+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "1a1d9449d71a3769",
-      "titulo": "Secuestro en Éxito de Cartagena: investigan si un cuarto delincuente escapó entre los rehenes; esto dijo el alcalde de Cartagena",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/secuestro-en-exito-de-cartagena-investigan-si-un-cuarto-delincuente-escapo-entre-los-rehenes-esto-dijo-el-alcalde-de-cartagena-3604962",
-      "fecha": "2026-11-27T19:06:11+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "a941ae30c166f9ab",
-      "titulo": "Los AirPods 5 no se pierden las últimas horas del Black Friday con una nueva oferta histórica",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/seleccion/airpods-5-no-se-pierden-ultimas-horas-black-friday-nueva-oferta-historica",
-      "fecha": "2026-11-27T19:00:30+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "cfad9185c6efc3b6",
-      "titulo": "En Madrid la crisis de la vivienda se está cobrando una nueva víctima: 370.000 metros cuadrados de oficinas",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/magnet/madrid-crisis-vivienda-se-esta-cobrando-nueva-victima-370-000-metros-cuadrados-oficinas",
-      "fecha": "2026-11-27T19:00:30+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "d80ba04e332620c5",
-      "titulo": "Brink’s adelanta investigación interna tras los hechos en Cartagena",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/noticias/brinks-adelanta-investigacion-interna-tras-los-hechos-en-cartagena/",
-      "fecha": "2026-11-27T19:00:25+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "a64e43ec6a652a0f",
-      "titulo": "Comunidad de La Estrella-La Palmilla recibe 16 resoluciones catastrales",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/actualidad/comunidad-de-la-estrella-la-palmilla-recibe-16-resoluciones-catastrales/",
-      "fecha": "2026-11-27T18:58:40+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "cc7bc96914c2dfb3",
-      "titulo": "AMCO instala el Consejo Metropolitano de Planeación para fortalecer la preparación del territorio ante futuras emergencias",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/actualidad/amco-instala-el-consejo-metropolitano-de-planeacion-para-fortalecer-la-preparacion-del-territorio-ante-futuras-emergencias/",
-      "fecha": "2026-11-27T18:54:25+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "c2f7da0ded99dbc3",
-      "titulo": "Lefant nos deja sin excusas en su Black Friday: su robot aspirador compacto M210 Omni baja de 599 euros a menos de 180 euros",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/seleccion/lefant-nos-deja-excusas-su-black-friday-su-robot-aspirador-compacto-m210-omni-baja-599-euros-a-180-euros",
-      "fecha": "2026-11-27T18:46:20+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "ffa4a7c6ed753964",
-      "titulo": "Millonarios perdió cerca de $3.774 millones en los primeros nueve meses de 2026",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/empresas/millonarios-paso-de-ganar-1-879-millones-a-junio-a-perder-3-774-millones-a-septiembre-4535315",
-      "fecha": "2026-11-27T18:40:25+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "f47f8b789a585154",
-      "titulo": "Se recuperó servicio de luz en el suroccidente, pero hay riesgo de interrupción",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/economia/se-recupero-servicio-de-luz-en-el-suroccidente-pero-hay-riesgo-de-interrupcion-4535278",
-      "fecha": "2026-11-27T18:40:05+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "a89cc0193127d5f8",
-      "titulo": "De La Espriella anuncia 1.500 nuevos grupos de crédito y alivios con Icetex",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/economia/de-la-espriella-anuncia-1-500-nuevos-cupos-de-credito-y-alivios-con-icetex-4535377",
-      "fecha": "2026-11-27T18:36:56+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "87ef35708ed6cb5b",
-      "titulo": "Centro Democrático propone eliminar el impuesto al patrimonio en Ley de Rescate",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/economia/el-centro-democratico-propone-eliminar-el-impuesto-al-patrimonio-en-ley-de-rescate-4535373",
-      "fecha": "2026-11-27T18:35:28+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "2771fe9d3a06c786",
-      "titulo": "Más barata que comprar los recambios solos: esta afeitadora Philips para cara y cuerpo cuesta menos de 33 euros",
-      "categoria": "Colombia",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/seleccion/barata-que-comprar-recambios-solos-esta-afeitadora-philips-para-cara-cuerpo-cuesta-33-euros",
-      "fecha": "2026-11-27T18:32:22+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "17ccdc14b18d5dff",
-      "titulo": "EEUU se va a poner dura para evitar que las GPU de Nvidia lleguen a China. Y esta vez parece que van en serio",
-      "categoria": "Internacional",
-      "fuente": "Xataka",
-      "url": "https://www.xataka.com/robotica-e-ia/eeuu-se-va-a-poner-dura-para-evitar-que-gpu-nvidia-lleguen-a-china-esta-vez-parece-que-van-serio",
-      "fecha": "2026-11-27T18:32:22+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "d4f08a657bf1d55a",
-      "titulo": "“El desgaste del gobierno se está dando más rápido de los esperado”",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/silla-nacional/el-desgaste-del-gobierno-se-esta-dando-mas-rapido-de-los-esperado/",
-      "fecha": "2026-11-27T18:30:40+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "e3bdcce9eb8ce1a7",
-      "titulo": "Diario del gobierno de Abelardo: se abre una grieta con Fedegán",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/en-vivo/diario-del-gobierno-de-abelardo-se-abre-una-grieta-con-fedegan/",
-      "fecha": "2026-11-27T18:26:37+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "048d257c4ce23676",
-      "titulo": "Papá Noel: la historia detrás de uno de los personajes más famosos de la Navidad",
-      "categoria": "Tendencias",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/vida-moderna/papa-noel-la-historia-detras-de-uno-de-los-personajes-mas-famosos-de-la-navidad/",
-      "fecha": "2026-11-27T18:23:35+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "3fe7b71ee5402202",
-      "titulo": "Índices de Wall Street suben impulsados por acciones de la inteligencia artificial",
-      "categoria": "Tecnología",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/finanzas/indices-de-wall-street-suben-impulsados-por-acciones-de-la-inteligencia-artificial-4535337",
-      "fecha": "2026-11-27T18:23:26+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "ebb53dbc209ebb25",
-      "titulo": "Encuentran muertos a ocho migrantes en una embarcación que trataba de llegar a Canarias",
-      "categoria": "Internacional",
-      "fuente": "DW Español",
-      "url": "https://www.dw.com/es/encuentran-muertos-a-ocho-migrantes-en-una-embarcación-que-trataba-de-llegar-a-canarias/a-80081588?maca=spa-rss-sp-all-1122-rdf",
-      "fecha": "2026-11-27T18:23:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "98c6532f77837c4e",
-      "titulo": "El arroz navideño que no puede faltar en tu mesa en estas fiestas: conozca la receta",
-      "categoria": "Valle del Cauca",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/vida-moderna/gastronomia/receta-arroz-navideno-27-11-2026/",
-      "fecha": "2026-11-27T18:20:40+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "ea0d362356748b27",
-      "titulo": "Videos de tirador de alta precisión a 1 km de distancia y una cámara espía: así se grabó el rescate de rehenes en el Éxito de Cartagena",
-      "categoria": "Colombia",
-      "fuente": "El Colombiano — Colombia",
-      "url": "https://www.elcolombiano.com/colombia/secuestro-rehenes-exito-videos-comandos-policia-rescate-HE44159284",
-      "fecha": "2026-11-27T18:18:00+00:00",
-      "imagen": ""
     }
   ],
   "estado_fuentes": [
@@ -553,7 +553,7 @@
       "nombre": "El Tiempo Cali",
       "url": "https://www.eltiempo.com/rss/colombia_cali.xml",
       "estado": "correcto",
-      "titulares": 9
+      "titulares": 10
     },
     {
       "nombre": "El Espectador",
@@ -656,14 +656,16 @@
     {
       "nombre": "El Diario — Pereira",
       "url": "https://www.eldiario.com.co/feed/",
-      "estado": "correcto",
-      "titulares": 35
+      "estado": "error",
+      "titulares": 0,
+      "detalle": "El feed no contiene entradas."
     },
     {
       "nombre": "Chocó 7 días",
       "url": "https://choco7dias.com/feed/",
-      "estado": "correcto",
-      "titulares": 10
+      "estado": "error",
+      "titulares": 0,
+      "detalle": "415 Client Error: Unsupported Media Type for url: https://choco7dias.com/feed/"
     },
     {
       "nombre": "La Patria — Caldas",
