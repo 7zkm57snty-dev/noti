@@ -1,6 +1,132 @@
 {
-  "ultima_actualizacion": "2026-11-27T01:29:21.048048+00:00",
+  "ultima_actualizacion": "2026-11-27T02:41:29.376266+00:00",
   "titulares_rss": [
+    {
+      "id": "b308aaf6e734b9c6",
+      "titulo": "Bolsas europeas repuntan a medida que disminuye la incertidumbre en el sector tecnológico",
+      "categoria": "Economía",
+      "fuente": "La FM Economía",
+      "url": "https://www.lafm.com.co/economia/bolsas-europeas-repuntan-disminuye-incertidumbre-sector-tecnologico-418446",
+      "fecha": "2026-11-27T02:31:57+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "29d64384424a9d38",
+      "titulo": "Viajar de Bogotá a Girardot será más caro desde diciembre: así quedan las tarifas de los peajes",
+      "categoria": "Colombia",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/regiones/viajar-de-bogota-a-girardot-sera-mas-caro-desde-diciembre-asi-quedan-las-tarifas-de-los-peajes-507208",
+      "fecha": "2026-11-27T02:30:38+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "75cda04b25e878cc",
+      "titulo": "Presidente Abelardo De La Espriella anuncia que autoridades frustraron un nuevo intento de atentado en el Meta: se reportan dos personas capturadas",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/presidente-abelardo-de-la-espriella-anuncia-que-autoridades-frustraron-un-nuevo-intento-de-atentado-en-el-meta-se-reportan-dos-personas-capturadas-3604729",
+      "fecha": "2026-11-27T02:26:08+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "d4cb4ff0f85ea5cb",
+      "titulo": "Imágenes del momento exacto de la llegada del carro bomba que explotó cerca de la Gobernación del Meta, en Villavicencio: así escapó el conductor",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/imagenes-del-momento-exacto-de-la-llegada-de-carro-bomba-que-exploto-cerca-de-la-gobernacion-del-meta-en-villavicencio-asi-escapo-el-conductor-3604678",
+      "fecha": "2026-11-27T02:22:18+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "9051581a0c198899",
+      "titulo": "Video revela cómo fue el ingreso de las Fuerzas Especiales al Éxito Cartagena durante el rescate",
+      "categoria": "Colombia",
+      "fuente": "La FM Actualidad",
+      "url": "https://www.lafm.com.co/actualidad/exito-de-cartagena-video-ingreso-fuerza-especial-liberacion-rehenes-418447",
+      "fecha": "2026-11-27T02:20:36+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "402a21eb6d096598",
+      "titulo": "Encuentran cuerpo de Anyi Jácome, secuestrada junto a tres agentes de la Dijín por el Eln en Norte de Santander: llevaba más de 100 días en cautiverio",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/encuentran-cuerpo-de-anyi-jacome-secuestrada-junto-a-tres-agentes-de-la-dijin-por-el-eln-en-norte-de-santander-llevaba-mas-de-100-dias-en-cautiverio-3604694",
+      "fecha": "2026-11-27T02:19:07+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "9e797720c70b70f2",
+      "titulo": "FIFA confirma ciberataque y revela que hubo acceso no autorizado a información personal y comercial",
+      "categoria": "Deportes",
+      "fuente": "La FM Deportes",
+      "url": "https://www.lafm.com.co/deportes/fifa-confirma-ciberataque-revela-hubo-acceso-no-autorizado-informacion-personal-comercial-418445",
+      "fecha": "2026-11-27T02:17:12+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "b4f30dd2edf74ec6",
+      "titulo": "Avistan jaguar cruzando el río Atrato en el Parque Nacional Los Katíos, Chocó",
+      "categoria": "Colombia",
+      "fuente": "Chocó 7 días",
+      "url": "https://choco7dias.com/avistan-jaguar-cruzando-el-rio-atrato-en-el-parque-nacional-los-katios-choco/",
+      "fecha": "2026-11-27T02:13:42+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "be48f36fc582a0ef",
+      "titulo": "Otro capítulo en el caso de presunta corrupción en Villanueva: Procuraduría investiga a funcionarios por presunto soborno a concejales",
+      "categoria": "Colombia",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/santander/otro-capitulo-en-el-caso-de-presunta-corrupcion-en-villanueva-procuraduria-investiga-a-funcionarios-por-presunto-soborno-a-concejales-3604722",
+      "fecha": "2026-11-27T02:11:41+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "206a509536569b73",
+      "titulo": "'Factos de la Biblia', el creador de contenido vallecaucano que metía cizaña a las parejas con su 'jijiji, jajaja': fue hallado sin vida en su casa",
+      "categoria": "Valle del Cauca",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/cali/factos-de-la-biblia-el-creador-de-contenido-vallecaucano-que-metia-cizana-a-las-parejas-con-su-jijiji-jajaja-fue-hallado-sin-vida-en-su-casa-3604716",
+      "fecha": "2026-11-27T01:57:27+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "7dba9253d941efd1",
+      "titulo": "Simulan accidente múltiple con derrame de material peligroso en la vía Buenaventura-Loboguerrero-Buga",
+      "categoria": "Valle del Cauca",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/regionales/valle-del-cauca/corredor-vial-buenaventura-loboguerrero-buga-tuvo-simulacro/",
+      "fecha": "2026-11-27T01:57:04+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "f4e0b0a97cf3b5ee",
+      "titulo": "Trump dice que Huang está entusiasmado con su \"segundo mandato\" en Nvidia",
+      "categoria": "Internacional",
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/globoeconomia/trump-dice-que-huang-esta-entusiasmado-con-su-segundo-mandato-en-nvidia-4534876",
+      "fecha": "2026-11-27T01:55:24+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "ae4fa84ca98a9624",
+      "titulo": "Golpes policiales revelan quiénes están detrás de atentados en Popayán, ataques a empresa de aseo y secuestros en otras zonas del Cauca este año",
+      "categoria": "Cali",
+      "fuente": "El Tiempo Cali",
+      "url": "https://www.eltiempo.com/colombia/cali/golpes-policiales-revelan-quienes-estan-detras-de-atentados-en-popayan-ataques-a-empresa-de-aseo-y-secuestros-en-otras-zonas-del-cauca-este-ano-3604501",
+      "fecha": "2026-11-27T01:37:06+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "80f4b560eb3dc589",
+      "titulo": "Fuerte tormenta afecta la operación del aeropuerto El Dorado: Aerocivil anuncia restricciones y demoras",
+      "categoria": "Economía",
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/regiones/fuerte-tormenta-afecta-la-operacion-del-aeropuerto-el-dorado-aerocivil-anuncia-restricciones-y-demoras-507202",
+      "fecha": "2026-11-27T01:28:18+00:00",
+      "imagen": ""
+    },
     {
       "id": "acad9e2dd3f4f64b",
       "titulo": "Colombia tendrá herramienta que monitorea impacto ambiental de empresas",
@@ -11,12 +137,30 @@
       "imagen": ""
     },
     {
+      "id": "4b619e11db20726e",
+      "titulo": "Registraduría ya tiene todo listo para que más de 380 mil antioqueños decidan el futuro del Valle de San Nicolás",
+      "categoria": "Colombia",
+      "fuente": "La FM Actualidad",
+      "url": "https://www.lafm.com.co/actualidad/registraduria-elecciones-antioquia-san-nicolas-418443",
+      "fecha": "2026-11-27T01:12:42+00:00",
+      "imagen": ""
+    },
+    {
       "id": "96c1b732946f4399",
       "titulo": "Adición presupuestal destina $2,7 billones al Fondo Milagro",
       "categoria": "Colombia",
       "fuente": "El Diario — Pereira",
       "url": "https://www.eldiario.com.co/actualidad/adicion-presupuestal-destina-27-billones-al-fondo-milagro/",
       "fecha": "2026-11-27T01:03:27+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "01874620a4bc5087",
+      "titulo": "Vivienda y salud están muy relacionados",
+      "categoria": "Colombia",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/secciones/salud/vivienda-y-salud-informe-ministerio-sanidad/",
+      "fecha": "2026-11-27T01:02:00+00:00",
       "imagen": ""
     },
     {
@@ -56,12 +200,21 @@
       "imagen": ""
     },
     {
-      "id": "402a21eb6d096598",
-      "titulo": "Encuentran cuerpo de Anyi Jácome, secuestrada junto a tres agentes de la Dijín por el Eln en Norte de Santander: llevaba más de 100 días en cautiverio",
+      "id": "ad6a5da00555f96f",
+      "titulo": "Colombia invierte menos de lo que necesita en infraestructura y gasta mal lo que invierte",
       "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/encuentran-cuerpo-de-anyi-jacome-secuestrada-junto-a-tres-agentes-de-la-dijin-por-el-eln-en-norte-de-santander-llevaba-mas-de-100-dias-en-cautiverio-3604694",
-      "fecha": "2026-11-27T00:24:05+00:00",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/empresario/xxiii-congreso-nacional-de-la-infraestructura-alerta-por-baja-inversion/",
+      "fecha": "2026-11-27T00:32:48+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "651c5c247cd05f8f",
+      "titulo": "¿Qué lee Gardeazábal? El reconocido escritor estará este sábado en el Oiga Mire Lea, durante la presentación de un libro homenaje",
+      "categoria": "Colombia",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/secciones/tendencias/que-lee-gardeazabal-presentan-libro-en-oiga-mire-lea/",
+      "fecha": "2026-11-27T00:22:56+00:00",
       "imagen": ""
     },
     {
@@ -119,12 +272,12 @@
       "imagen": ""
     },
     {
-      "id": "462105b4327a72be",
-      "titulo": "Feijóo salva el debate en medio del fuego cruzado contra su alianza con Abascal",
+      "id": "38c9d5751b3030db",
+      "titulo": "Clara Luz Roldán presentó Manifiesta con Jesús, el libro que su hijo Jairo Prado terminó quince días antes de morir",
       "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/espana/elecciones-generales/2026-11-26/feijoo-salva-el-debate-en-medio-del-fuego-cruzado-contra-su-alianza-con-abascal.html",
-      "fecha": "2026-11-27T00:07:05+00:00",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/secciones/tendencias/manifiesta-con-jesus-lanzan-libro-postumo-de-jairo-prado/",
+      "fecha": "2026-11-27T00:09:50+00:00",
       "imagen": ""
     },
     {
@@ -134,6 +287,15 @@
       "fuente": "La Silla Vacía",
       "url": "https://www.lasillavacia.com/en-vivo/la-superintendencia-de-sociedades-visito-la-silla-vacia/",
       "fecha": "2026-11-27T00:04:17+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "188fb3aefe4f9cec",
+      "titulo": "¿Viajará por la vía Buenaventura-Buga? Estos son los sectores y horarios con restricciones de paso vehicular",
+      "categoria": "Valle del Cauca",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/regionales/valle-del-cauca/via-buenaventura-buga-tendra-paso-a-un-carril-del-28-al-30/",
+      "fecha": "2026-11-27T00:03:53+00:00",
       "imagen": ""
     },
     {
@@ -164,12 +326,30 @@
       "imagen": ""
     },
     {
+      "id": "cbfa96da0a5a70a8",
+      "titulo": "¿Cómo cambiará la movilidad en Cali con el tramo 3 de la Troncal Oriental? Estas son las obras previstas",
+      "categoria": "Cali",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/cali/troncal-oriental-de-cali-tramo-3-tendra-inversion-de-132013-millones/",
+      "fecha": "2026-11-26T23:56:34+00:00",
+      "imagen": ""
+    },
+    {
       "id": "2e9cf9f7fb527c48",
       "titulo": "Este domingo será la implosión del edificio Invico en Pereira: así será el dispositivo de seguridad",
       "categoria": "Colombia",
       "fuente": "El Tiempo",
       "url": "https://www.eltiempo.com/colombia/otras-ciudades/este-domingo-sera-la-implosion-del-edificio-invico-en-pereira-asi-sera-el-dispositivo-de-seguridad-3604700",
       "fecha": "2026-11-26T23:55:01+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "1c3e4279deff770e",
+      "titulo": "Avenida del oriente de Cali llevará el nombre de Luz Mery Tristán: Concejo aprobó el proyecto en primer debate",
+      "categoria": "Cali",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/cali/avenida-luz-mery-tristan-avanza-en-concejo-de-cali-para-oriente/",
+      "fecha": "2026-11-26T23:52:21+00:00",
       "imagen": ""
     },
     {
@@ -182,21 +362,21 @@
       "imagen": ""
     },
     {
-      "id": "d4cb4ff0f85ea5cb",
-      "titulo": "Imágenes del momento exacto de la llegada del carro bomba que explotó cerca de la Gobernación del Meta, en Villavicencio: así escapó el conductor",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/imagenes-del-momento-exacto-de-la-llegada-de-carro-bomba-que-exploto-cerca-de-la-gobernacion-del-meta-en-villavicencio-asi-escapo-el-conductor-3604678",
-      "fecha": "2026-11-26T23:49:45+00:00",
-      "imagen": ""
-    },
-    {
       "id": "a75f7717c70b0e45",
       "titulo": "Westcol en el Congreso: popularidad digital no equivale a liderazgo",
       "categoria": "Colombia",
       "fuente": "La Silla Vacía",
       "url": "https://www.lasillavacia.com/red-de-expertos/red-social/westcol-en-el-congreso-popularidad-digital-no-equivale-a-liderazgo/",
       "fecha": "2026-11-26T23:47:06+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "ec505b490ef23d06",
+      "titulo": "Valle refuerza vigilancia con cámaras de alta tecnología",
+      "categoria": "Tecnología",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/regionales/valle-del-cauca/camaras-de-seguridad-en-el-valle-instalan-la-primera-en-buga/",
+      "fecha": "2026-11-26T23:45:37+00:00",
       "imagen": ""
     },
     {
@@ -242,6 +422,24 @@
       "fuente": "Portafolio",
       "url": "https://www.portafolio.co/economia/empleo/se-acerca-la-prima-navidena-consulte-aqui-cuanto-le-corresponde-recibir-segun-sus-ingresos-laborales-507180",
       "fecha": "2026-11-26T23:39:31+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "a41ed2f0bf8365cd",
+      "titulo": "Gremios advierten riesgos para la continuidad de los servicios públicos",
+      "categoria": "Colombia",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/colombia/infraestructura-energetica-en-colombia-gremios-piden-seguridad/",
+      "fecha": "2026-11-26T23:39:09+00:00",
+      "imagen": ""
+    },
+    {
+      "id": "9674589a43ae2580",
+      "titulo": "Adiós al desfile de carros antiguos en la Feria de Cali 2026: conozca las razones de su ausencia",
+      "categoria": "Cali",
+      "fuente": "Diario Occidente",
+      "url": "https://occidente.co/cali/feria-de-cali-2026-no-tendra-desfile-de-autos-clasicos/",
+      "fecha": "2026-11-26T23:37:29+00:00",
       "imagen": ""
     },
     {
@@ -308,15 +506,6 @@
       "imagen": ""
     },
     {
-      "id": "3a1530123784e0fe",
-      "titulo": "Feria ‘Hecho en Modo Esperanza’ reunirá a 200 emprendimientos en Cali: conozca las fechas y qué encontrarán los visitantes",
-      "categoria": "Cali",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/cali/feria-hecho-en-modo-esperanza-reunira-a-200-emprendimientos-en-cali-conozca-las-fechas-y-que-encontraran-los-visitantes/",
-      "fecha": "2026-11-26T23:24:09+00:00",
-      "imagen": ""
-    },
-    {
       "id": "330608131a4f01ae",
       "titulo": "La Amazonía tiene 2.253 especies de la flora: Ideam",
       "categoria": "Colombia",
@@ -345,200 +534,11 @@
     },
     {
       "id": "fbf8e949015dcba8",
-      "titulo": "La izquierda sale a la ofensiva contra Abascal y Feijóo por los recortes y la violencia de género",
+      "titulo": "La izquierda sale a la ofensiva contra Abascal y Feijóo por los recortes y la violencia machista",
       "categoria": "Colombia",
       "fuente": "El País Colombia",
       "url": "https://elpais.com/espana/elecciones-generales/2026-11-26/la-izquierda-sale-a-la-ofensiva-contra-abascal-y-feijoo-por-los-recortes-y-la-violencia-de-genero.html",
       "fecha": "2026-11-26T23:10:45+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "f94a5a0128eacb20",
-      "titulo": "Abelardo le da embajada a otro médico, esta vez la de Portugal",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/en-vivo/abelardo-le-da-embajada-a-otro-medico-esta-vez-la-de-portugal/",
-      "fecha": "2026-11-26T23:08:47+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "a01975cee5cd0121",
-      "titulo": "Top 5 de los mejores platos navideños colombianos, según la inteligencia artificial",
-      "categoria": "Tecnología",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/vida-moderna/gastronomia/top-5-de-los-mejores-platos-navidenos-colombianos-26-11-2026/",
-      "fecha": "2026-11-26T23:06:06+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "629dc29fc65cdb73",
-      "titulo": "Cali está a ocho casos de alcanzar los mil homicidios en 2026 y todavía no termina noviembre",
-      "categoria": "Cali",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/cali/homicidios-en-cali-llegan-a-992-y-concejo-aprueba-acuerdo/",
-      "fecha": "2026-11-26T23:05:31+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "8e94ea5efd927a97",
-      "titulo": "Primicia: Proindesa presentó dos IP por $4 billones ante la ANI y alista otras dos para infraestructura vial",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/infraestructura/primicia-proindesa-presento-dos-ip-por-4-billones-ante-la-ani-y-alista-otras-dos-para-infraestructura-vial-507191",
-      "fecha": "2026-11-26T23:05:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "88f770aff3709025",
-      "titulo": "El canciller de Colombia cierra su cuenta de X tras la polémica por sus insultos a los demócratas",
-      "categoria": "Colombia",
-      "fuente": "El País Colombia",
-      "url": "https://elpais.com/america-colombia/2026-11-26/el-canciller-de-colombia-cierra-su-cuenta-de-x-tras-la-polemica-por-sus-insultos-a-los-democratas.html",
-      "fecha": "2026-11-26T23:03:29+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "d5cc85a802f3d3a1",
-      "titulo": "Ensalada de papa casera: Recetas y alternativas para un plato delicioso",
-      "categoria": "Valle del Cauca",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/vida-moderna/ensalada-de-papa-casera-recetas-26-11-2026/",
-      "fecha": "2026-11-26T23:02:23+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "4aa8fa9c9cfc33d2",
-      "titulo": "Atlético Nacional vence 3-1 a Independiente Medellín",
-      "categoria": "Colombia",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/deportes/atletico-nacional-vs-independiente-medellin/",
-      "fecha": "2026-11-26T23:00:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "7fd02bd1ffc81744",
-      "titulo": "Santa Fe vs Nacional define liderato del grupo A",
-      "categoria": "Colombia",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/deportes/santa-fe-vs-nacional-liderato-grupo-a/",
-      "fecha": "2026-11-26T23:00:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "84bab9e87a55d347",
-      "titulo": "Amaranto Perea analiza la expulsión ante Nacional",
-      "categoria": "Colombia",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/deportes/amaranto-perea-analiza-expulsion-ante-nacional/",
-      "fecha": "2026-11-26T23:00:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "a358ef9553c0e861",
-      "titulo": "Santa Fe goleó 3-0 a Once Caldas en Liga BetPlay",
-      "categoria": "Deportes",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/deportes/santa-fe-golea-3-0-a-once-caldas-en-liga-betplay/",
-      "fecha": "2026-11-26T23:00:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "de86d6576c4fdcd9",
-      "titulo": "Los desesperados mensajes de mujeres en el corredor de la muerte en Irán por participar en protestas contra el gobierno",
-      "categoria": "Colombia",
-      "fuente": "BBC Mundo",
-      "url": "https://www.bbc.com/mundo/articles/cj62p7wv9qnxo?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-26T22:58:00+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "f36b11f03942485f",
-      "titulo": "Subsidios de vivienda y arriendo: así puede postularse si resultó afectado por el terremoto del 10 de agosto",
-      "categoria": "Colombia",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/colombia/subsidios-de-vivienda-y-arriendo-por-sismo-del-10-de-agosto/",
-      "fecha": "2026-11-26T22:51:56+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "cdb9cdc4c4d47d6e",
-      "titulo": "Receta de buñuelos: Maneras fáciles de prepararlos para diciembre",
-      "categoria": "Valle del Cauca",
-      "fuente": "90 Minutos",
-      "url": "https://90minutos.co/vida-moderna/gastronomia/bunuelos-caseros-dos-formas-de-preparar-este-clasico-de-diciembre-26-11-2026/",
-      "fecha": "2026-11-26T22:51:11+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "5b6130ce6af645fe",
-      "titulo": "Shakira despedirá el 2026 con un concierto en las playas del sur de Brasil",
-      "categoria": "Colombia",
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/ocio/shakira-despedira-el-2026-con-un-concierto-en-las-playas-del-sur-de-brasil-4534611",
-      "fecha": "2026-11-26T22:49:42+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "6ebfc1820769ca56",
-      "titulo": "Estas son las pistas que siguen las autoridades sobre el secuestro en el Éxito de Cartagena: hay un carro sospechoso y un posible cuarto delincuente",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/estas-son-las-pistas-que-siguen-las-autoridades-sobre-el-secuestro-en-el-exito-de-cartagena-hay-un-carro-sospechoso-y-un-posible-cuarto-delincuente-3604621",
-      "fecha": "2026-11-26T22:48:55+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "f910953d0b01f1b9",
-      "titulo": "Ley de Rescate: la Andi plantea cambios al Ruge para mejorar las condiciones tributarias de los inversionistas",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/ley-de-rescate-la-andi-plantea-cambios-al-ruge-para-mejorar-las-condiciones-tributarias-de-los-inversionistas-507194",
-      "fecha": "2026-11-26T22:44:13+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "01cbe7702ee75981",
-      "titulo": "Flip rechaza que la UNP elimine esquemas de periodistas regionales",
-      "categoria": "Colombia",
-      "fuente": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/en-vivo/flip-rechaza-que-la-unp-elimine-esquemas-de-periodistas-regionales/",
-      "fecha": "2026-11-26T22:42:44+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "bbc7774230b46867",
-      "titulo": "¿Por qué está subiendo la luz en el Caribe? El gerente de Air-e explica el alza del 15 % en dos meses",
-      "categoria": "Colombia",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/barranquilla/por-que-esta-subiendo-la-luz-en-el-caribe-el-gerente-de-air-e-explica-el-alza-del-15-en-dos-meses-3604655",
-      "fecha": "2026-11-26T22:35:53+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "9436a0f5edee3c76",
-      "titulo": "Prosperidad Social alerta por estafas en el Quindío: conozca las modalidades de fraude y cómo evitarlas",
-      "categoria": "Economía",
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/gobierno/prosperidad-social-alerta-por-estafas-en-el-quindio-conozca-las-modalidades-de-fraude-y-como-evitarlas-507188",
-      "fecha": "2026-11-26T22:25:08+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "b088c26207e46204",
-      "titulo": "Universidad del Valle realizará el I Encuentro Internacional de Investigación en Derecho Público y Privado: conozca los detalles",
-      "categoria": "Internacional",
-      "fuente": "Diario Occidente",
-      "url": "https://occidente.co/area-legal/i-encuentro-internacional-de-investigacion-en-derecho-publico-y-privado-en-univalle/",
-      "fecha": "2026-11-26T22:19:19+00:00",
-      "imagen": ""
-    },
-    {
-      "id": "656e0ea5b8d3d19b",
-      "titulo": "Alcalde de Cartagena defendió la identificación del hombre abatido en Éxito",
-      "categoria": "Colombia",
-      "fuente": "El Diario — Pereira",
-      "url": "https://www.eldiario.com.co/actualidad/alcalde-de-cartagena-defendio-la-identificacion-del-hombre-abatido-en-exito/",
-      "fecha": "2026-11-26T22:13:18+00:00",
       "imagen": ""
     }
   ],
@@ -553,7 +553,7 @@
       "nombre": "El Tiempo Cali",
       "url": "https://www.eltiempo.com/rss/colombia_cali.xml",
       "estado": "correcto",
-      "titulares": 7
+      "titulares": 8
     },
     {
       "nombre": "El Espectador",
